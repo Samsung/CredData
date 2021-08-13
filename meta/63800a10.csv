@@ -1,0 +1,14 @@
+Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
+374,e002928e,GitHub,63800a10,data/63800a10/src/d.py,68:68,False,F,,,F,F,,,,,0,0,F,F,F,
+2474,60691956,GitHub,63800a10,data/63800a10/src/b.py,160:160,False,F,,,F,F,,,,,0,0,F,F,F,
+7211,60691956,GitHub,63800a10,data/63800a10/src/b.py,135:135,False,F,,,F,F,,,,,0,0,F,F,F,
+7597,e002928e,GitHub,63800a10,data/63800a10/src/d.py,81:81,False,F,,,F,F,,,,,0,0,F,F,F,
+7955,e002928e,GitHub,63800a10,data/63800a10/src/d.py,63:63,False,F,,,F,F,,,,,0,0,F,F,F,
+10646,6ac3f79f,GitHub,63800a10,data/63800a10/src/a.yml,35:35,False,F,,,F,F,,,,,0,0,F,F,F,
+14321,f9839c9a,GitHub,63800a10,data/63800a10/src/c.py,214:214,False,F,,,F,F,,,,,0,0,F,F,F,
+27388,d8056f87,GitHub,63800a10,data/63800a10/src/e.sql,375:375,False,F,52,150,F,F,,,,,0,0,F,F,F,
+29523,6ac3f79f,GitHub,63800a10,data/63800a10/src/a.yml,37:37,Template,0,9,693,F,F,Any,,,Unknown,5.93,684,F,F,F,Other
+35011,160d3634,GitHub,63800a10,data/63800a10/test/g.json,3:3,False,F,14,86,F,F,,,,,0,0,F,F,F,
+35017,160d3634,GitHub,63800a10,data/63800a10/test/g.json,8:8,True,0,18,42,F,F,Any,,,Secret,3.95,24,F,F,F,Generic Secret
+35424,6ac3f79f,GitHub,63800a10,data/63800a10/src/a.yml,32:32,True,0,18,54,F,F,Any,,,Token,3.38,36,F,F,F,Generic Token
+35880,66fb79c0,GitHub,63800a10,data/63800a10/test/f.token,1:1,True,0,18,199,T,F,Any,,Google OAuth Access Token,Auth,5.51,181,F,F,F,Predefined Pattern
