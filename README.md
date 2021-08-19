@@ -285,6 +285,17 @@ truffleHog | 1,756 | 129,343 | 41,622 | 4,246 | 0.7565 | 0.7074 | 0.0133 | 0.292
 credential-digger | 637 | 25,532 | 49,997 | 5,365 | 0.33804 | 0.8938 | 0.0243 | 0.1061 | 0.0396
 wraith(gitrob) | 1,504 | 3,062 | 52,149 | 4,498 | 0.0554 | 0.7494 | 0.3293 | 0.2505 | 0.2846
 
+- Terminology
+  - TP(True Positive) : Values that are actually positive and predicted positive.
+  - FP(False Positive): Values that are actually negative but predicted to positive.
+  - TN(True Negative): Values that are actually negative and predicted to negative.
+  - FN(False Negative): Values that are actually positive but predicted to negative.
+  - FPR(False Positive Rate): False Positive/Negative, FNR and FPR should be low.
+  - FNR(False Negative Rate): False Negative/Positive
+  - Precision = True Positive/Predicted Positive, Precision and Recall should always be high.
+  - Recall = True Positive/ Actual Positive
+  - F1 =  2 * (precision * recall) / (precision + recall)
+  
 ## Used Tools for Benchmarking
 Name | URL
 --  | --
