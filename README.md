@@ -342,5 +342,12 @@ Contributors who show dedication and skill are rewarded with additional rights a
 #### Maintainer
 A Maintainer is a Contributor who is also responsible for knowing, directing and anticipating the needs of a given a Module. As such, Maintainers have the right to set the overall organization of the source code in the Module, and the right to participate in the decision-making. Maintainers are required to review the contributor’s requests and decide whether to accept or not the contributed data.
 
+Name | E-Mail
+-- | --
+[Jaeku Yun](https://github.com/silentearth) | jk0113.yun@samsung.com
+[Shinhyung Choi](https://github.com/csh519) | sh519.choi@samsung.com
+[Yujeong Lee](https://github.com/yuzzyuzz) | yujeongg.lee@samsung.com
+[Oleksandra Sokol](https://github.com/meanrin) | o.sokol@samsung.com
+
 ## How to Contact
 Please post questions, issues, or suggestions into Issues. This is the best way to communicate with the developer.
