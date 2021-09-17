@@ -1,25 +1,25 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-737,4b0b3fde,GitHub,353ae7fa,data/353ae7fa/test/d.go,77:77,False,F,,,F,F,,,,,0,0,F,F,F,
-1176,b48f06f8,GitHub,353ae7fa,data/353ae7fa/test/f.go,44:44,False,F,,,F,F,,,,,0,0,F,F,F,
-2705,f79a6112,GitHub,353ae7fa,data/353ae7fa/test/g.go,25:25,False,F,,,F,F,,,,,0,0,F,F,F,
-11935,5cb7e3a3,GitHub,353ae7fa,data/353ae7fa/test/h.go,65:65,False,F,,,F,F,,,,,0,0,F,F,F,
-13172,b48f06f8,GitHub,353ae7fa,data/353ae7fa/test/f.go,59:59,False,F,,,F,F,,,,,0,0,F,F,F,
-14047,56d32916,GitHub,353ae7fa,data/353ae7fa/test/a.md,290:290,False,F,,,F,F,,,,,0,0,F,F,F,
-14838,8504b5ae,GitHub,353ae7fa,data/353ae7fa/test/j.go,88:88,False,F,,,F,F,,,,,0,0,F,F,F,
-17158,2f977e48,GitHub,353ae7fa,data/353ae7fa/test/b.go,94:94,False,F,,,F,F,,,,,0,0,F,F,F,
-17159,2f977e48,GitHub,353ae7fa,data/353ae7fa/test/b.go,117:117,False,F,,,F,F,,,,,0,0,F,F,F,
-17743,09499c9b,GitHub,353ae7fa,data/353ae7fa/src/i.go,92:92,False,F,,,F,F,,,,,0,0,F,F,F,
-17744,09499c9b,GitHub,353ae7fa,data/353ae7fa/src/i.go,121:121,False,F,,,F,F,,,,,0,0,F,F,F,
-23554,f79a6112,GitHub,353ae7fa,data/353ae7fa/test/g.go,34:34,False,F,,,F,F,,,,,0,0,F,F,F,
-23976,f79a6112,GitHub,353ae7fa,data/353ae7fa/test/g.go,33:33,False,F,,,F,F,,,,,0,0,F,F,F,
-27089,b1018e0e,GitHub,353ae7fa,data/353ae7fa/test/c.go,89:89,False,F,,,F,F,,,,,0,0,F,F,F,
+737,4b0b3fde,GitHub,353ae7fa,data/353ae7fa/test/d.go,77:77,F,F,,,F,F,,,,,0,0,F,F,F,
+1176,b48f06f8,GitHub,353ae7fa,data/353ae7fa/test/f.go,44:44,F,F,,,F,F,,,,,0,0,F,F,F,
+2705,f79a6112,GitHub,353ae7fa,data/353ae7fa/test/g.go,25:25,F,F,,,F,F,,,,,0,0,F,F,F,
+11935,5cb7e3a3,GitHub,353ae7fa,data/353ae7fa/test/h.go,65:65,F,F,,,F,F,,,,,0,0,F,F,F,
+13172,b48f06f8,GitHub,353ae7fa,data/353ae7fa/test/f.go,59:59,F,F,,,F,F,,,,,0,0,F,F,F,
+14047,56d32916,GitHub,353ae7fa,data/353ae7fa/test/a.md,290:290,F,F,,,F,F,,,,,0,0,F,F,F,
+14838,8504b5ae,GitHub,353ae7fa,data/353ae7fa/test/j.go,88:88,F,F,,,F,F,,,,,0,0,F,F,F,
+17158,2f977e48,GitHub,353ae7fa,data/353ae7fa/test/b.go,94:94,F,F,,,F,F,,,,,0,0,F,F,F,
+17159,2f977e48,GitHub,353ae7fa,data/353ae7fa/test/b.go,117:117,F,F,,,F,F,,,,,0,0,F,F,F,
+17743,09499c9b,GitHub,353ae7fa,data/353ae7fa/src/i.go,92:92,F,F,,,F,F,,,,,0,0,F,F,F,
+17744,09499c9b,GitHub,353ae7fa,data/353ae7fa/src/i.go,121:121,F,F,,,F,F,,,,,0,0,F,F,F,
+23554,f79a6112,GitHub,353ae7fa,data/353ae7fa/test/g.go,34:34,F,F,,,F,F,,,,,0,0,F,F,F,
+23976,f79a6112,GitHub,353ae7fa,data/353ae7fa/test/g.go,33:33,F,F,,,F,F,,,,,0,0,F,F,F,
+27089,b1018e0e,GitHub,353ae7fa,data/353ae7fa/test/c.go,89:89,F,F,,,F,F,,,,,0,0,F,F,F,
 29147,385fba82,GitHub,353ae7fa,data/353ae7fa/test/e.go,33:33,Template,0,24,30,F,F,NumbersOnly,,,Secret,1.58,6,F,F,F,Password
 29149,385fba82,GitHub,353ae7fa,data/353ae7fa/test/e.go,53:53,Template,0,27,33,F,F,NumbersOnly,,,Secret,1.58,6,F,F,F,Password
 29161,385fba82,GitHub,353ae7fa,data/353ae7fa/test/e.go,52:52,Template,0,27,33,F,F,NumbersOnly,,,Secret,1.58,6,F,F,F,Password
-34160,8504b5ae,GitHub,353ae7fa,data/353ae7fa/test/j.go,89:89,True,0,25,42,F,F,Any,,,Secret,3.29,17,F,F,F,Password
-34231,8504b5ae,GitHub,353ae7fa,data/353ae7fa/test/j.go,65:65,True,0,110,120,F,F,Any,,,Token,2.92,10,F,F,F,Generic Token
-34242,8504b5ae,GitHub,353ae7fa,data/353ae7fa/test/j.go,73:73,True,0,10,20,F,F,Any,,,Token,2.92,10,F,F,F,Generic Token
-57166,56d32916,GitHub,353ae7fa,data/353ae7fa/test/a.md,283:283,False,F,,,F,F,,,,,0,0,F,F,F,
-57167,56d32916,GitHub,353ae7fa,data/353ae7fa/test/a.md,278:278,False,F,,,F,F,,,,,0,0,F,F,F,
-75087,09499c9b,GitHub,353ae7fa,data/353ae7fa/src/i.go,128:128,False,F,,,F,F,,,,,0,0,F,F,F,
-75088,2f977e48,GitHub,353ae7fa,data/353ae7fa/test/b.go,124:124,False,F,,,F,F,,,,,0,0,F,F,F,
+34160,8504b5ae,GitHub,353ae7fa,data/353ae7fa/test/j.go,89:89,T,0,25,42,F,F,Any,,,Secret,3.29,17,F,F,F,Password
+34231,8504b5ae,GitHub,353ae7fa,data/353ae7fa/test/j.go,65:65,T,0,110,120,F,F,Any,,,Token,2.92,10,F,F,F,Generic Token
+34242,8504b5ae,GitHub,353ae7fa,data/353ae7fa/test/j.go,73:73,T,0,10,20,F,F,Any,,,Token,2.92,10,F,F,F,Generic Token
+57166,56d32916,GitHub,353ae7fa,data/353ae7fa/test/a.md,283:283,F,F,,,F,F,,,,,0,0,F,F,F,
+57167,56d32916,GitHub,353ae7fa,data/353ae7fa/test/a.md,278:278,F,F,,,F,F,,,,,0,0,F,F,F,
+75087,09499c9b,GitHub,353ae7fa,data/353ae7fa/src/i.go,128:128,F,F,,,F,F,,,,,0,0,F,F,F,
+75088,2f977e48,GitHub,353ae7fa,data/353ae7fa/test/b.go,124:124,F,F,,,F,F,,,,,0,0,F,F,F,

@@ -56,7 +56,7 @@ python download_data.py --data_dir data
 ### Data Statistics
 
 Dataset consists of 19,459,282 lines of code extracted from 11,408 files in 297 different repositories. 
-Total 59,907 lines of code are labeled, of which 5,882 (9.82%) labeled as True. 
+Total 59,907 lines of code are labeled, of which 6,002 (10.01%) labeled as True. 
 Labeled data divided into 8 major categories according to their properties.
 
 ##### Lines of code by language
@@ -64,18 +64,18 @@ Labeled data divided into 8 major categories according to their properties.
 |Language|Total|Labeled|True|Language|Total|Labeled|True|
 |--------|--------|--------|--------|--------|--------|--------|--------|
 |Text|85,144|8,718|1,634|Config|7,920|308|68|
-|JavaScript|742,704|4,478|1,339|No Extension|48,645|991|55|
-|Python|351,494|4,996|704|Shell|42,019|1,207|52|
-|Go|838,816|5,814|696|Java Properties|1,878|111|38|
-|YAML|74,643|2,521|479|AsciiDoc|27,803|418|37|
-|Markdown|186,099|3,065|372|XML|57,377|1,312|30|
+|Go|838,816|5,808|690|No Extension|48,645|990|55|
+|Python|351,494|4,969|677|Shell|42,019|1,207|52|
+|YAML|74,643|2,521|479|Java Properties|1,878|111|38|
+|JavaScript|742,704|3,586|448|AsciiDoc|27,803|418|37|
+|Markdown|186,099|3,064|371|XML|57,377|1,312|30|
 |Ruby|186,196|4,006|327|Haskell|5,127|67|30|
-|Java|178,326|1,614|271|SQLPL|16,808|594|26|
-|Key|8,803|598|227|reStructuredText|38,267|401|21|
-|PHP|113,865|1,767|209|Smalltalk|92,284|777|18|
-|JSON|15,036,863|9,304|194|TOML|2,566|235|17|
-|TypeScript|151,832|2,357|155|Objective-C|19,840|115|14|
-|Other|1,143,963|5,637|235|
+|JSON|15,036,863|9,303|193|SQLPL|16,808|594|26|
+|Java|178,326|1,435|169|reStructuredText|38,267|401|21|
+|TypeScript|151,832|2,357|155|Smalltalk|92,284|777|18|
+|Key|8,803|309|115|TOML|2,566|235|17|
+|PHP|113,865|1,660|104|Objective-C|19,840|115|14|
+|Other|1,143,963|5,636|234|
 
 <img src="images/Language_true.png" width="450"/>
 
@@ -83,14 +83,14 @@ Labeled data divided into 8 major categories according to their properties.
 
 |[Category](#category)|True credentials|
 |--------|--------|
-|Password                    |  2,554|
-|Generic Secret              |  1,064|
-|Private Key                 |   984|
-|Generic Token               |   453|
-|Predefined Pattern          |   236|
-|Authentication Key & Token  |    47|
-|Seed, Salt, Nonce           |    35|
-|Other                       |   509|
+|Password                    |  2,613|
+|Generic Secret              |  1,074|
+|Private Key                 |   993|
+|Generic Token               |   462|
+|Predefined Pattern          |   251|
+|Authentication Key & Token  |    49|
+|Seed, Salt, Nonce           |    40|
+|Other                       |   520|
 
 <img src="images/Category.png" width="520"/>
 
