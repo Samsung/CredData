@@ -223,7 +223,7 @@ def replace_rows(data: List[Dict[str, str]]):
         if row["CryptographyKey"] != "" or line_end - line_start > 0:
             continue
 
-        if row["GroundTruth"] not in ["True", "N/A"]:
+        if row["GroundTruth"] not in ["T", "N/A"]:
             continue
 
         if row["ValueStart"] == "":
@@ -385,7 +385,7 @@ def process_pem_keys(data: List[Dict[str, str]]):
         if row["CryptographyKey"] == "" and line_end - line_start < 1:
             continue
 
-        if row["GroundTruth"] not in ["True", "N/A"]:
+        if row["GroundTruth"] not in ["T", "N/A"]:
             continue
 
         file_location = row["FilePath"]
