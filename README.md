@@ -267,7 +267,7 @@ It may be difficult to check the license of an existing project due to obfuscati
  ┃
  ┣ 📜download_data.py
  ┃
- ┗ 📜CredData.pdf
+ ┗ 📜LICENSE
 ```
 
 ## Benchmark Result
