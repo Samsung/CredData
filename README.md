@@ -12,8 +12,9 @@
    * [Obfuscation](#obfuscation)
    * [License](#license)
    * [Directory Structure](#directory-structure)
-   * [Benchmark Result](#benchmark-result)
-   * [Used Tools for Benchmarking](#used-tools-for-benchmarking)
+   * [Benchmark](#benchmark)
+     * [Benchmark Result](#benchmark-result)
+     * [Used Tools for Benchmarking](#used-tools-for-benchmarking)
    * [Citation](#citation)
    * [How to Get Involved](#how-to-get-involved)
    * [How to Contact](#how-to-contact)
@@ -270,7 +271,29 @@ It may be difficult to check the license of an existing project due to obfuscati
  ┗ 📜CredData.pdf
 ```
 
-## Benchmark Result
+## Benchmark
+### Main Requirements
+- Python3.7 or higher
+
+### Installation
+``` bash
+$ virtualenv venv
+$ source venv/bin/activate
+$ pip install -qr requirements.txt
+```
+
+### How to run
+``` bash
+$ python -m benchmark <SCANNER>
+```
+
+Such as:
+
+``` bash
+$ python -m benchmark credsweeper
+```
+
+### Benchmark Result
 A table of performance metrics for each tool tested based on CredData.
 The content will be updated in detail with the release of our tool in October.
 For the tools used, see the [Used Tools for Benchmarking](#used-tools-for-benchmarking) section below.
@@ -296,7 +319,7 @@ wraith(gitrob) | 1,504 | 3,062 | 52,149 | 4,498 | 0.0554 | 0.7494 | 0.3293 | 0.2
   - Recall = True Positive/ Actually Positive
   - F1 =  2 * (Precision * Recall) / (Precision + Recall)
   
-## Used Tools for Benchmarking
+### Used Tools for Benchmarking
 Name | URL
 --  | --
 truffleHog  | https://github.com/trufflesecurity/truffleHog
