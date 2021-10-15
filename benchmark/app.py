@@ -1,0 +1,49 @@
+import json
+import os
+import subprocess
+
+from benchmark.common.constants import URL
+from benchmark.common.git_service import GitService
+from benchmark.scanner.scanner_factory import ScannerFactory
+
+
+class Benchmark:
+    def __init__(self) -> None:
+        ScannerFactory()
+        self.working_dir: str = os.getcwd()
+
+        with open("benchmark/secret/config.json", "r") as f:
+            self.config = json.load(f)
+
+        GitService(self.config["github"])
+
+        os.makedirs("temp", exist_ok=True)
+
+        self.cred_data_path: str = self.set_cred_data()
+
+    @property
+    def working_dir(self) -> str:
+        return self._working_dir
+
+    @working_dir.setter
+    def working_dir(self, working_dir: str) -> None:
+        self._working_dir = working_dir
+
+    @property
+    def cred_data_path(self) -> str:
+        return self._cred_data_path
+
+    @cred_data_path.setter
+    def cred_data_path(self, cred_data_path: str) -> None:
+        self._cred_data_path = cred_data_path
+
+    def set_cred_data(self) -> str:
+        cred_data_path = GitService.set_scanner_up_to_date(self.working_dir, URL.CRED_DATA)
+        if not os.path.exists(f"{cred_data_path}/data"):
+            subprocess.call(["virtualenv", "venv"], cwd=cred_data_path)
+            subprocess.call(["./venv/bin/python", "-m", "pip", "install", "pyyaml"], cwd=cred_data_path)
+            subprocess.call(["./venv/bin/python", "download_data.py", "--data_dir", "data"], cwd=cred_data_path)
+        return cred_data_path
+
+    def run(self, scanner_type: str) -> None:
+        ScannerFactory.create_scanner(scanner_type, self.working_dir, self.cred_data_path).run_benchmark()
