@@ -69,7 +69,7 @@ def download(temp_dir):
     """Download github repos and checkout proper commits"""
     snapshot_file = "snapshot.yaml"
     with open(snapshot_file) as f:
-        snapshot_data = yaml.load(f)
+        snapshot_data = yaml.load(f, Loader=yaml.FullLoader)
     os.makedirs(temp_dir, exist_ok=True)
 
     for i, repo_data in enumerate(snapshot_data):
