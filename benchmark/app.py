@@ -1,9 +1,6 @@
-import json
 import os
 import subprocess
 
-from benchmark.common.constants import URL
-from benchmark.common.git_service import GitService
 from benchmark.scanner.scanner_factory import ScannerFactory
 
 
@@ -11,14 +8,7 @@ class Benchmark:
     def __init__(self) -> None:
         ScannerFactory()
         self.working_dir: str = os.getcwd()
-
-        with open("benchmark/secret/config.json", "r") as f:
-            self.config = json.load(f)
-
-        GitService(self.config["github"])
-
         os.makedirs("temp", exist_ok=True)
-
         self.cred_data_path: str = self.set_cred_data()
 
     @property
