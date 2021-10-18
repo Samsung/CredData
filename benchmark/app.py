@@ -38,10 +38,8 @@ class Benchmark:
         self._cred_data_path = cred_data_path
 
     def set_cred_data(self) -> str:
-        cred_data_path = GitService.set_scanner_up_to_date(self.working_dir, URL.CRED_DATA)
+        cred_data_path = os.getcwd()
         if not os.path.exists(f"{cred_data_path}/data"):
-            subprocess.call(["virtualenv", "venv"], cwd=cred_data_path)
-            subprocess.call(["./venv/bin/python", "-m", "pip", "install", "pyyaml"], cwd=cred_data_path)
             subprocess.call(["./venv/bin/python", "download_data.py", "--data_dir", "data"], cwd=cred_data_path)
         return cred_data_path
 
