@@ -29,10 +29,7 @@ class TruffleHog3(Scanner):
 
     def run_scanner(self) -> None:
         self.init_scanner()
-        subprocess.call([
-            "./venv/bin/trufflehog3", f"{self.cred_data_dir}/data/", "-o", self.output_dir, "-f", "json",
-            "--line-numbers"
-        ],
+        subprocess.call(["./venv/bin/trufflehog3", f"{self.cred_data_dir}/data/", "-o", self.output_dir, "-f", "json"],
                         cwd=self.scanner_dir)
 
     def parse_result(self) -> Tuple[int, int, int, int]:
@@ -42,19 +39,18 @@ class TruffleHog3(Scanner):
         result_cnt = lost_cnt = true_cnt = false_cnt = 0
 
         for data in data_list:
-            for line in data["stringsFound"]:
-                line_data = {"path": data["path"], "line_number": int(line.split(" ")[0])}
-                if line_data["path"].split("/")[-1] == "LICENSE":
-                    continue
-                result_cnt += 1
-                check_line_result, _, _ = self.check_line_from_meta(line_data["path"], int(line_data["line_number"]))
-                if check_line_result == LineStatus.TRUE:
-                    true_cnt += 1
-                elif check_line_result == LineStatus.FALSE:
-                    false_cnt += 1
-                elif check_line_result == LineStatus.NOT_IN_DB:
-                    lost_cnt += 1
-                elif check_line_result == LineStatus.CHECKED:
-                    result_cnt -= 1
+            line_data = {"path": data["path"], "line_number": int(data["line"])}
+            if line_data["path"].split("/")[-1] == "LICENSE":
+                continue
+            result_cnt += 1
+            check_line_result, _, _ = self.check_line_from_meta(line_data["path"], line_data["line_number"])
+            if check_line_result == LineStatus.TRUE:
+                true_cnt += 1
+            elif check_line_result == LineStatus.FALSE:
+                false_cnt += 1
+            elif check_line_result == LineStatus.NOT_IN_DB:
+                lost_cnt += 1
+            elif check_line_result == LineStatus.CHECKED:
+                result_cnt -= 1
 
         return result_cnt, lost_cnt, true_cnt, false_cnt

@@ -30,7 +30,7 @@ class DetectSecrets(Scanner):
         self.init_scanner()
         proc = subprocess.Popen(
             [f"{self.scanner_dir}/venv/bin/detect-secrets", "scan", "--all-files", f"{self.cred_data_dir}/data"],
-            cwd=self.scanner_dir + "/../",
+            cwd=self.scanner_dir + "/../../",
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE)
         out = proc.communicate()
