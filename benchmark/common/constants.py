@@ -16,7 +16,7 @@ class LineStatus:
 
 
 class URL:
-    CREDSWEEPER = "https://github.sec.samsung.net/CRED/CredSweeper.git"
+    CREDSWEEPER = "https://github.com/Samsung/CredSweeper.git"
     DETECT_SECRETS = "detect_secrets"
     GITLEAKS = "gitleaks"
     SHHGIT = "shhgit"
