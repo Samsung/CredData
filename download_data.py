@@ -78,7 +78,7 @@ def download(temp_dir):
 
         os.makedirs(f"{temp_dir}/{ownername}", exist_ok=True)
 
-        download_command = f"cd {temp_dir}/{ownername} && git clone \"{repo_url}\""
+        download_command = f"cd {temp_dir}/{ownername} && git clone {repo_url}"
         checkout_command = f"cd {temp_dir}/{ownername}/{reponame} && git checkout -f {commit_sha}"
 
         subprocess.call(download_command, shell=True)
