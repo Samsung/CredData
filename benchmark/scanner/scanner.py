@@ -1,8 +1,7 @@
-from abc import ABC, abstractmethod
-from typing import Tuple
-
 import csv
 import os
+from abc import ABC, abstractmethod
+from typing import Tuple
 
 from benchmark.common import GitService, LineStatus, Result
 

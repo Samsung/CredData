@@ -1,4 +1,5 @@
 from argparse import ArgumentParser
+
 from benchmark.app import Benchmark
 
 SCANNER_LIST = ["credsweeper", "detect_secrets", "gitleaks", "shhgit", "credential_digger", "wraith", "trufflehog3"]

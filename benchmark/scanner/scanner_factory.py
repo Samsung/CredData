@@ -1,5 +1,6 @@
 from benchmark.common import ScannerType
-from benchmark.scanner import CredentialDigger, CredSweeper, DetectSecrets, Gitleaks, Scanner, Shhgit, TruffleHog3, Wraith
+from benchmark.scanner import (CredentialDigger, CredSweeper, DetectSecrets, Gitleaks, Scanner, Shhgit, TruffleHog3,
+                               Wraith)
 
 
 class ScannerFactory:

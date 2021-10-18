@@ -1,12 +1,11 @@
-from typing import Tuple
-
 import os
-import subprocess
 import sqlite3
+import subprocess
+from typing import Tuple
 
 from credentialdigger import SqliteClient
 
-from benchmark.common.constants import LineStatus, ScannerType, URL
+from benchmark.common.constants import URL, LineStatus, ScannerType
 from benchmark.scanner.scanner import Scanner
 
 

@@ -1,9 +1,8 @@
-from typing import Tuple
-
 import json
 import subprocess
+from typing import Tuple
 
-from benchmark.common.constants import LineStatus, ScannerType, URL
+from benchmark.common.constants import URL, LineStatus, ScannerType
 from benchmark.scanner.scanner import Scanner
 
 

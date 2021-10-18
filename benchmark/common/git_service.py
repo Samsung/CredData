@@ -1,7 +1,6 @@
-from typing import Dict
+import os
 
 import git
-import os
 
 
 class GitService:
