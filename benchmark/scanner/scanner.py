@@ -12,6 +12,7 @@ class Scanner(ABC):
         self.scanner_type: str = scanner_type
         self.scanner_dir: str = GitService.set_scanner_up_to_date(working_dir, scanner_url)
         self.cred_data_dir: str = cred_data_dir
+        self.line_checker: set = set()
 
     @property
     def scanner_type(self) -> str:
@@ -36,6 +37,14 @@ class Scanner(ABC):
     @cred_data_dir.setter
     def cred_data_dir(self, cred_data_dir: str) -> None:
         self._cred_data_dir = cred_data_dir
+
+    @property
+    def line_checker(self) -> set:
+        return self._line_checker
+
+    @line_checker.setter
+    def line_checker(self, line_checker: set) -> None:
+        self._line_checker = line_checker
 
     @abstractmethod
     def init_scanner(self) -> None:
@@ -66,7 +75,14 @@ class Scanner(ABC):
             for row in reader:
                 if row["FilePath"] == path and self._check_line_num(row["LineStart:LineEnd"], line_num):
                     file_id = row["FileID"]
-                    if row["GroundTruth"] == "True":
+                    code = str(project_id) + str(file_id) + str(line_num)
+
+                    if code in self.line_checker:
+                        return LineStatus.CHECKED, project_id, file_id
+                    else:
+                        self.line_checker.add(code)
+
+                    if row["GroundTruth"] == "T":
                         return LineStatus.TRUE, project_id, file_id
                     else:
                         return LineStatus.FALSE, project_id, file_id
