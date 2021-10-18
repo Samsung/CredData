@@ -267,7 +267,7 @@ It may be difficult to check the license of an existing project due to obfuscati
  ┃
  ┣ 📜download_data.py
  ┃
- ┗ 📜CredData.pdf
+ ┗ 📜LICENSE
 ```
 
 ## Benchmark Result
@@ -328,13 +328,13 @@ A Contributor is anyone who wishes to contribute to the project, at any level. C
 - Can suggest
   - Change in Ground Truth for currently added/ newly added codes
   - New open repository to be included
-- Report defects (bugs) and suggestions for enhancement;
-- Participate in the process of reviewing contributions by others;
+- Report defects (bugs) and suggestions for enhancement
+- Participate in the process of reviewing contributions by others
 
 Contributors are required to:
 - Must follow below rules when updating additional credential dataset
-    - Additional data must be individual from the original data; they must not effect(change/remove/conflict) with the original data
-    - Additional data must not include valid/real credential data to prevent further exposure of the credential; they must be transformed by the obfuscation rule guided in [README.md](README.md), or changed through other process which has similar obfuscation effect.
+    - Additional data must be individual from the original data, they must not effect(change/remove/conflict) with the original data
+    - Additional data must not include valid/real credential data to prevent further exposure of the credential, they must be transformed by the obfuscation rule guided in [README.md](README.md), or changed through other process which has similar obfuscation effect.
 - To contribute and reflect changes, Contributors receive the approval of the maintainer. 
 
 Contributors who show dedication and skill are rewarded with additional rights and responsibilities. Their opinions weigh more when decisions are made, in a fully meritocratic fashion.
