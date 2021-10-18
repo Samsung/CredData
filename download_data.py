@@ -8,7 +8,6 @@ import shutil
 import string
 import subprocess
 from argparse import ArgumentParser
-from glob import glob
 from typing import Dict, List
 
 import yaml
