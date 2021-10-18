@@ -18,7 +18,7 @@ def get_arguments() -> ArgumentParser.parse_args:
 def main() -> None:
     args = get_arguments()
     benchmark = Benchmark()
-    if args in SCANNER_LIST:
+    if args.scanner in SCANNER_LIST:
         benchmark.run(args.scanner)
     else:
         print(f"Please check scanner name (support: {SCANNER_LIST})")
