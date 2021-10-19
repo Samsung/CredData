@@ -1,3 +1,6 @@
+from decimal import Decimal
+
+
 class Result:
     def __init__(self, true_count: int, false_count: int, total_true_count: int, total_false_count: int) -> None:
         self.true_positive: int = true_count
@@ -84,5 +87,6 @@ class Result:
 
     def __repr__(self) -> str:
         return f"TP : {self.true_positive}, FP : {self.false_positive}, TN : {self.true_negative}, " \
-               f"FN : {self.false_negative}, FPR : {self.false_positive_rate}, FNR : {self.false_negative_rate}, " \
-               f"PRC : {self.precision}, RCL : {self.recall}, F1 : {self.f1}"
+               f"FN : {self.false_negative}, FPR : {round(Decimal(self.false_positive_rate), 10)}, " \
+               f"FNR : {round(Decimal(self.false_negative_rate), 10)}, PRC : {round(Decimal(self.precision), 10)}, " \
+               f"RCL : {round(Decimal(self.recall), 10)}, F1 : {round(Decimal(self.f1), 10)}"
