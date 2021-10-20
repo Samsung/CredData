@@ -13,6 +13,9 @@
    * [License](#license)
    * [Directory Structure](#directory-structure)
    * [Benchmark](#benchmark)
+     * [Main Requirements](#main-requirements)
+     * [Installation](#installation)
+     * [How to run](#how-to-run)
      * [Benchmark Result](#benchmark-result)
      * [Used Tools for Benchmarking](#used-tools-for-benchmarking)
    * [Citation](#citation)
@@ -284,13 +287,18 @@ $ pip install -qr requirements.txt
 
 ### How to run
 ``` bash
-$ python -m benchmark <SCANNER>
+usage: python -m benchmark [-h] --scanner [SCANNER]
+
+optional arguments:
+  -h, --help           show this help message and exit
+  --scanner [SCANNER]  scanner name to benchmark (support: ['credsweeper', 'credential_digger',
+                       'detect_secrets', 'gitleaks', 'shhgit', 'trufflehog3', 'wraith'])
 ```
 
 Such as:
 
 ``` bash
-$ python -m benchmark credsweeper
+$ python -m benchmark --scanner credsweeper
 ```
 
 ### Benchmark Result
