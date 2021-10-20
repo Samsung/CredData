@@ -74,7 +74,7 @@ class Scanner(ABC):
             for row in reader:
                 if row["FilePath"] == path and self._check_line_num(row["LineStart:LineEnd"], line_num):
                     file_id = row["FileID"]
-                    code = str(project_id) + str(file_id) + str(line_num)
+                    code = str(project_id) + str(file_id) + str(row["LineStart:LineEnd"])
 
                     if code in self.line_checker:
                         return LineStatus.CHECKED, project_id, file_id
