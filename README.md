@@ -304,7 +304,7 @@ $ python -m benchmark --scanner credsweeper
 ### Benchmark Result
 A table of performance metrics for each tool tested based on CredData.
 The content will be updated in detail with the release of our tool in October.
-For the tools used, see the [Used Tools for Benchmarking](#used-tools-for-benchmarking) section below.
+For the tools used, see the [Used Tools for Benchmarking](#used-tools-for-benchmarking) section below. (The benchmark test was conducted by combining training and test data.)
 
 Name | TP | FP | TN | FN | FPR | FNR | Precision | Recall | F1
 ---- | -- | -- | -- | -- | --- | --- | --------- | ------ | --
