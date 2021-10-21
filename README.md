@@ -12,8 +12,12 @@
    * [Obfuscation](#obfuscation)
    * [License](#license)
    * [Directory Structure](#directory-structure)
-   * [Benchmark Result](#benchmark-result)
-   * [Used Tools for Benchmarking](#used-tools-for-benchmarking)
+   * [Benchmark](#benchmark)
+     * [Main Requirements](#main-requirements)
+     * [Installation](#installation)
+     * [How to run](#how-to-run)
+     * [Benchmark Result](#benchmark-result)
+     * [Used Tools for Benchmarking](#used-tools-for-benchmarking)
    * [Citation](#citation)
    * [How to Get Involved](#how-to-get-involved)
    * [How to Contact](#how-to-contact)
@@ -270,20 +274,47 @@ It may be difficult to check the license of an existing project due to obfuscati
  ┗ 📜LICENSE
 ```
 
-## Benchmark Result
+## Benchmark
+### Main Requirements
+- Python3.7 or higher
+
+### Installation
+``` bash
+$ virtualenv venv
+$ source venv/bin/activate
+$ pip install -qr requirements.txt
+```
+
+### How to run
+``` bash
+usage: python -m benchmark [-h] --scanner [SCANNER]
+
+optional arguments:
+  -h, --help           show this help message and exit
+  --scanner [SCANNER]  scanner name to benchmark (support: ['credsweeper', 'credential_digger',
+                       'detect_secrets', 'gitleaks', 'shhgit', 'trufflehog3', 'wraith'])
+```
+
+Such as:
+
+``` bash
+$ python -m benchmark --scanner credsweeper
+```
+
+### Benchmark Result
 A table of performance metrics for each tool tested based on CredData.
 The content will be updated in detail with the release of our tool in October.
-For the tools used, see the [Used Tools for Benchmarking](#used-tools-for-benchmarking) section below.
+For the tools used, see the [Used Tools for Benchmarking](#used-tools-for-benchmarking) section below. (The benchmark test was conducted by combining training and test data.)
 
 Name | TP | FP | TN | FN | FPR | FNR | Precision | Recall | F1
 ---- | -- | -- | -- | -- | --- | --- | --------- | ------ | --
-ours (to be released) | 4,231 | 1,592 | 52,511 | 1,771 | 0.0294 | 0.29506 | 0.7266 | 0.7049 | 0.7156
-detect-secrets | 2,862 | 10,467 | 44,508 | 3,140 | 0.1903 | 0.5231 | 0.2147 | 0.4768 | 0.2961
-gitleaks | 1,064 | 1,068 | 52,838 | 4,938 | 0.0198 | 0.8227 | 0.49906 | 0.1772 | 0.2616
-shhgit | 324 | 277 | 53,629 | 5,678 | 0.0051 | 0.94601 | 0.5391 | 0.0539 | 0.0981
-truffleHog | 1,756 | 129,343 | 41,622 | 4,246 | 0.7565 | 0.7074 | 0.0133 | 0.2925 | 0.0256
-credential-digger | 637 | 25,532 | 49,997 | 5,365 | 0.33804 | 0.8938 | 0.0243 | 0.1061 | 0.0396
-wraith(gitrob) | 1,504 | 3,062 | 52,149 | 4,498 | 0.0554 | 0.7494 | 0.3293 | 0.2505 | 0.2846
+**CredSweeper** | 4,787 | 573 | 19,452,707 | 1,215 | 0.0000294552 | 0.2024325225 | 0.8930970149 | 0.7975674775 | 0.8426333392
+credential-digger | 652 | 3,924 | 19,449,356 | 5,350 | 0.0002017141 | 0.8913695435 | 0.1424825175 | 0.1086304565 | 0.1232747211
+detect-secrets | 2,901 | 9,446 | 19,443,834 | 3,101 | 0.0004855736 | 0.5166611130 | 0.2349558597 | 0.4833388870 | 0.3162025178
+gitleaks | 1,064 | 1,067 | 19,452,213 | 4,938 | 0.0000548494 | 0.8227257581 | 0.4992961051 | 0.1772742419 | 0.2616500676
+shhgit | 324 | 276 | 19,453,004 | 5,678 | 0.0000141878 | 0.9460179940 | 0.5400000000 | 0.0539820060 | 0.0981520751
+truffleHog | 2,603 | 13,747 | 19,439,533 | 3,399 | 0.0007066675 | 0.5663112296 | 0.1592048930 | 0.4336887704 | 0.2329098067
+wraith(gitrob) | 1,533 | 1,758 | 19,451,522 | 4,469 | 0.0000903704 | 0.7445851383 | 0.4658158614 | 0.2554148617 | 0.3299257506
 
 - Terminology
   - TP(True Positive) : Values that are Actually Positive and Predicted Positive.
@@ -296,15 +327,16 @@ wraith(gitrob) | 1,504 | 3,062 | 52,149 | 4,498 | 0.0554 | 0.7494 | 0.3293 | 0.2
   - Recall = True Positive/ Actually Positive
   - F1 =  2 * (Precision * Recall) / (Precision + Recall)
   
-## Used Tools for Benchmarking
+### Used Tools for Benchmarking
 Name | URL
 --  | --
-truffleHog  | https://github.com/trufflesecurity/truffleHog
-shhgit  | https://github.com/eth0izzle/shhgit
-wraith(gitrob)  | https://gitlab.com/gitlab-com/gl-security/security-operations/gl-redteam/gitrob
+CredSweeper | https://github.com/Samsung/CredSweeper
 credential-digger | https://github.com/SAP/credential-digger
-gitLeaks  | https://github.com/zricethezav/gitleaks
 detect-secrets  | https://github.com/Yelp/detect-secrets
+gitLeaks  | https://github.com/zricethezav/gitleaks
+shhgit  | https://github.com/eth0izzle/shhgit
+truffleHog  | https://github.com/trufflesecurity/truffleHog
+wraith(gitrob)  | https://gitlab.com/gitlab-com/gl-security/security-operations/gl-redteam/gitrob
 
 ## Citation
 You can use CredData on your research.

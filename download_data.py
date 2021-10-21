@@ -8,7 +8,6 @@ import shutil
 import string
 import subprocess
 from argparse import ArgumentParser
-from glob import glob
 from typing import Dict, List
 
 import yaml
@@ -69,7 +68,7 @@ def download(temp_dir):
     """Download github repos and checkout proper commits"""
     snapshot_file = "snapshot.yaml"
     with open(snapshot_file) as f:
-        snapshot_data = yaml.load(f)
+        snapshot_data = yaml.load(f, Loader=yaml.FullLoader)
     os.makedirs(temp_dir, exist_ok=True)
 
     for i, repo_data in enumerate(snapshot_data):
@@ -79,7 +78,7 @@ def download(temp_dir):
 
         os.makedirs(f"{temp_dir}/{ownername}", exist_ok=True)
 
-        download_command = f"cd {temp_dir}/{ownername} && git clone \"{repo_url}\""
+        download_command = f"cd {temp_dir}/{ownername} && git clone {repo_url}"
         checkout_command = f"cd {temp_dir}/{ownername}/{reponame} && git checkout -f {commit_sha}"
 
         subprocess.call(download_command, shell=True)
@@ -92,7 +91,7 @@ def move_files(temp_dir, dataset_dir):
     """Select files with credential candidates. Files without candidates is omited"""
     snapshot_file = "snapshot.yaml"
     with open(snapshot_file) as f:
-        snapshot_data = yaml.load(f)
+        snapshot_data = yaml.load(f, Loader=yaml.FullLoader)
     os.makedirs(temp_dir, exist_ok=True)
 
     os.makedirs(dataset_dir, exist_ok=True)
