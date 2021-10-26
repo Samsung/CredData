@@ -306,6 +306,8 @@ A table of performance metrics for each tool tested based on CredData.
 The content will be updated in detail with the release of our tool in October.
 For the tools used, see the [Used Tools for Benchmarking](#used-tools-for-benchmarking) section below. (The benchmark test was conducted by combining training and test data.)
 
+<div align="right"> Updated: October 2021 </div>
+
 Name | TP | FP | TN | FN | FPR | FNR | Precision | Recall | F1
 ---- | -- | -- | -- | -- | --- | --- | --------- | ------ | --
 **CredSweeper** | 4,787 | 573 | 19,452,707 | 1,215 | 0.0000294552 | 0.2024325225 | 0.8930970149 | 0.7975674775 | 0.8426333392
