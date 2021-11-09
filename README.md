@@ -382,6 +382,8 @@ Name | E-Mail
 [Shinhyung Choi](https://github.com/csh519) | sh519.choi@samsung.com
 [Yujeong Lee](https://github.com/yuzzyuzz) | yujeongg.lee@samsung.com
 [Oleksandra Sokol](https://github.com/meanrin) | o.sokol@samsung.com
+[Dmytro Kuzmenko](https://github.com/Dmitriy-NK) | d.kuzmenko@samsung.com
+[Arkadiy Melkonyan](https://github.com/ARKAD97) | a.melkonyan@samsung.com
 
 ## How to Contact
 Please post questions, issues, or suggestions into Issues. This is the best way to communicate with the developer.
