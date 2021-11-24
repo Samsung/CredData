@@ -14,8 +14,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 6147,7a596cb2,GitHub,77a3d7d7,data/77a3d7d7/test/l.groovy,154:154,F,F,,,F,F,,,,,0,0,F,F,F,
 7477,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b.md,1275:1275,F,F,,,F,F,,,,,0,0,F,F,F,
 9025,904d0467,GitHub,77a3d7d7,data/77a3d7d7/src/k.java,166:166,F,F,,,F,F,,,,,0,0,F,F,F,
-10807,cd85c887,GitHub,77a3d7d7,data/77a3d7d7/test/o.groovy,71:71,F,F,,,F,F,,,,,0,0,F,F,F,
-10808,cd85c887,GitHub,77a3d7d7,data/77a3d7d7/test/o.groovy,73:73,F,F,,,F,F,,,,,0,0,F,F,F,
+10807,cd85c887,GitHub,77a3d7d7,data/77a3d7d7/test/o.groovy,71:71,T,F,10,267,F,F,Any,,JSON Web Token,Token,5.68,257,F,F,F,Predefined Pattern
+10808,cd85c887,GitHub,77a3d7d7,data/77a3d7d7/test/o.groovy,73:73,T,F,10,244,F,F,Any,,JSON Web Token,Token,5.66,234,F,F,F,Predefined Pattern
 10941,71e4d281,GitHub,77a3d7d7,data/77a3d7d7/other/s,238:238,F,F,,,F,F,,,,,0,0,F,F,F,
 12219,a8f21812,GitHub,77a3d7d7,data/77a3d7d7/test/m.groovy,738:738,F,F,,,F,F,,,,,0,0,F,F,F,
 13740,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b.md,322:322,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -41,21 +41,21 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 25506,311f58f1,GitHub,77a3d7d7,data/77a3d7d7/test/g.groovy,516:516,F,F,,,F,F,,,,,0,0,F,F,F,
 25527,0c944631,GitHub,77a3d7d7,data/77a3d7d7/test/p.groovy,76:76,F,F,,,F,F,,,,,0,0,F,F,F,
 25743,311f58f1,GitHub,77a3d7d7,data/77a3d7d7/test/g.groovy,298:298,F,F,,,F,F,,,,,0,0,F,F,F,
-27536,0c944631,GitHub,77a3d7d7,data/77a3d7d7/test/p.groovy,29:29,T,1,38,420,F,F,Any,,JSON Web Token,Token,5.69,382,F,F,F,Predefined Pattern
-27546,0c944631,GitHub,77a3d7d7,data/77a3d7d7/test/p.groovy,30:30,T,1,38,590,F,F,Any,,JSON Web Token,Token,5.72,552,F,F,F,Predefined Pattern
-27547,0c944631,GitHub,77a3d7d7,data/77a3d7d7/test/p.groovy,31:31,T,0,38,761,F,F,Any,,JSON Web Token,Token,5.75,723,F,F,F,Predefined Pattern
+27536,0c944631,GitHub,77a3d7d7,data/77a3d7d7/test/p.groovy,29:29,T,T,38,420,F,F,Any,,JSON Web Token,Token,5.69,382,F,F,F,Predefined Pattern
+27546,0c944631,GitHub,77a3d7d7,data/77a3d7d7/test/p.groovy,30:30,T,T,38,590,F,F,Any,,JSON Web Token,Token,5.72,552,F,F,F,Predefined Pattern
+27547,0c944631,GitHub,77a3d7d7,data/77a3d7d7/test/p.groovy,31:31,T,F,38,761,F,F,Any,,JSON Web Token,Token,5.75,723,F,F,F,Predefined Pattern
 28005,8da28455,GitHub,77a3d7d7,data/77a3d7d7/test/h.groovy,178:178,F,F,16,192,F,F,,,,,0,0,F,F,F,
-28029,cd85c887,GitHub,77a3d7d7,data/77a3d7d7/test/o.groovy,78:78,T,0,24,104,F,F,Any,,JSON Web Token,Token,5.01,80,F,F,F,Predefined Pattern
-28032,a8f21812,GitHub,77a3d7d7,data/77a3d7d7/test/m.groovy,111:111,T,0,18,132,F,F,Any,,JSON Web Token,Token,5.30,114,F,F,F,Predefined Pattern
+28029,cd85c887,GitHub,77a3d7d7,data/77a3d7d7/test/o.groovy,78:78,T,F,24,104,F,F,Any,,JSON Web Token,Token,5.01,80,F,F,F,Predefined Pattern
+28032,a8f21812,GitHub,77a3d7d7,data/77a3d7d7/test/m.groovy,111:111,T,F,18,132,F,F,Any,,JSON Web Token,Token,5.30,114,F,F,F,Predefined Pattern
 28063,a82445ea,GitHub,77a3d7d7,data/77a3d7d7/test/n.groovy,31:31,F,F,37,119,F,F,,,,,0,0,F,F,F,
-28097,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b.md,216:216,T,1,0,83,F,F,Any,,JSON Web Token,Token,5.08,83,F,F,F,Predefined Pattern
+28097,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b.md,216:216,T,T,0,83,F,F,Any,,JSON Web Token,Token,5.08,83,F,F,F,Predefined Pattern
 32383,cd85c887,GitHub,77a3d7d7,data/77a3d7d7/test/o.groovy,61:61,F,F,17,229,F,F,,,,,0,0,F,F,F,
-35549,f6c0c816,GitHub,77a3d7d7,data/77a3d7d7/test/r.pem,1:40,T,1,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,Private Key
-35551,2c8a523d,GitHub,77a3d7d7,data/77a3d7d7/test/q.pem,1:28,T,1,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,Private Key
-47101,cd85c887,GitHub,77a3d7d7,data/77a3d7d7/test/o.groovy,196:196,F,F,,,F,F,,,,,0,0,F,F,F,
-50247,8da28455,GitHub,77a3d7d7,data/77a3d7d7/test/h.groovy,218:218,T,0,16,192,F,F,Any,,,Unknown,5.80,176,F,F,F,Other
-50254,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b.md,398:398,T,0,0,83,F,F,Any,,JSON Web Token,Token,5.11,83,F,F,F,Predefined Pattern
-50255,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b.md,499:499,T,0,0,83,F,F,Any,,JSON Web Token,Token,5.11,83,F,F,F,Predefined Pattern
+35549,f6c0c816,GitHub,77a3d7d7,data/77a3d7d7/test/r.pem,1:40,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,Private Key
+35551,2c8a523d,GitHub,77a3d7d7,data/77a3d7d7/test/q.pem,1:28,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,Private Key
+47101,cd85c887,GitHub,77a3d7d7,data/77a3d7d7/test/o.groovy,196:196,T,F,24,104,F,F,Any,,JSON Web Token,Token,5.01,80,F,F,F,Predefined Pattern
+50247,8da28455,GitHub,77a3d7d7,data/77a3d7d7/test/h.groovy,218:218,F,F,16,192,F,F,Any,,,Unknown,5.80,176,F,F,F,Other
+50254,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b.md,398:398,T,F,0,83,F,F,Any,,JSON Web Token,Token,5.11,83,F,F,F,Predefined Pattern
+50255,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b.md,499:499,T,F,0,83,F,F,Any,,JSON Web Token,Token,5.11,83,F,F,F,Predefined Pattern
 58110,311f58f1,GitHub,77a3d7d7,data/77a3d7d7/test/g.groovy,268:268,F,F,,,F,F,,,,,0,0,F,F,F,
 58111,311f58f1,GitHub,77a3d7d7,data/77a3d7d7/test/g.groovy,477:477,F,F,,,F,F,,,,,0,0,F,F,F,
 58112,311f58f1,GitHub,77a3d7d7,data/77a3d7d7/test/g.groovy,532:532,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -137,3 +137,43 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 64525,a8f21812,GitHub,77a3d7d7,data/77a3d7d7/test/m.groovy,776:776,F,F,,,F,F,,,,,0,0,F,F,F,
 75421,48068e40,GitHub,77a3d7d7,data/77a3d7d7/src/j.java,101:101,F,F,,,F,F,,,,,0,0,F,F,F,
 75422,48068e40,GitHub,77a3d7d7,data/77a3d7d7/src/j.java,206:206,F,F,,,F,F,,,,,0,0,F,F,F,
+100211,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b.md,381:381,F,F,,,F,F,,,,,0.00,,F,F,F,
+100212,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b.md,480:480,F,F,,,F,F,,,,,0.00,,F,F,F,
+100213,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b.md,606:606,F,F,,,F,F,,,,,0.00,,F,F,F,
+100214,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b.md,609:609,F,F,,,F,F,,,,,0.00,,F,F,F,
+100215,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b.md,618:618,F,F,,,F,F,,,,,0.00,,F,F,F,
+100216,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b.md,878:878,F,F,,,F,F,,,,,0.00,,F,F,F,
+100217,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b.md,882:882,F,F,,,F,F,,,,,0.00,,F,F,F,
+100218,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b.md,886:886,F,F,,,F,F,,,,,0.00,,F,F,F,
+100219,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b.md,890:890,F,F,,,F,F,,,,,0.00,,F,F,F,
+100220,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b.md,892:892,F,F,,,F,F,,,,,0.00,,F,F,F,
+100221,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b.md,977:977,F,F,,,F,F,,,,,0.00,,F,F,F,
+100222,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b.md,1087:1087,F,F,,,F,F,,,,,0.00,,F,F,F,
+100223,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b.md,1530:1530,F,F,,,F,F,,,,,0.00,,F,F,F,
+100224,48068e40,GitHub,77a3d7d7,data/77a3d7d7/src/j.java,198:198,F,F,,,F,F,,,,,0.00,,F,F,F,
+100225,904d0467,GitHub,77a3d7d7,data/77a3d7d7/src/k.java,158:158,F,F,,,F,F,,,,,0.00,,F,F,F,
+100226,311f58f1,GitHub,77a3d7d7,data/77a3d7d7/test/g.groovy,192:192,F,F,,,F,F,,,,,0.00,,F,F,F,
+100227,311f58f1,GitHub,77a3d7d7,data/77a3d7d7/test/g.groovy,323:323,F,F,,,F,F,,,,,0.00,,F,F,F,
+100228,311f58f1,GitHub,77a3d7d7,data/77a3d7d7/test/g.groovy,681:681,F,F,,,F,F,,,,,0.00,,F,F,F,
+100229,e4285225,GitHub,77a3d7d7,data/77a3d7d7/test/i.groovy,53:53,F,F,,,F,F,,,,,0.00,,F,F,F,
+100230,e4285225,GitHub,77a3d7d7,data/77a3d7d7/test/i.groovy,68:68,F,F,,,F,F,,,,,0.00,,F,F,F,
+100231,a8f21812,GitHub,77a3d7d7,data/77a3d7d7/test/m.groovy,568:568,F,F,,,F,F,,,,,0.00,,F,F,F,
+100232,a8f21812,GitHub,77a3d7d7,data/77a3d7d7/test/m.groovy,646:646,F,F,,,F,F,,,,,0.00,,F,F,F,
+100233,a8f21812,GitHub,77a3d7d7,data/77a3d7d7/test/m.groovy,678:678,F,F,,,F,F,,,,,0.00,,F,F,F,
+100234,a8f21812,GitHub,77a3d7d7,data/77a3d7d7/test/m.groovy,710:710,F,F,,,F,F,,,,,0.00,,F,F,F,
+100235,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b.md,392:392,F,F,,,F,F,,,,,0.00,,F,F,F,
+100236,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b.md,1087:1087,F,F,,,F,F,,,,,0.00,,F,F,F,
+100237,311f58f1,GitHub,77a3d7d7,data/77a3d7d7/test/g.groovy,323:323,F,F,,,F,F,,,,,0.00,,F,F,F,
+100238,311f58f1,GitHub,77a3d7d7,data/77a3d7d7/test/g.groovy,461:461,F,F,,,F,F,,,,,0.00,,F,F,F,
+100239,311f58f1,GitHub,77a3d7d7,data/77a3d7d7/test/g.groovy,681:681,F,F,,,F,F,,,,,0.00,,F,F,F,
+100240,311f58f1,GitHub,77a3d7d7,data/77a3d7d7/test/g.groovy,758:758,F,F,,,F,F,,,,,0.00,,F,F,F,
+100241,311f58f1,GitHub,77a3d7d7,data/77a3d7d7/test/g.groovy,772:772,F,F,,,F,F,,,,,0.00,,F,F,F,
+100242,7a596cb2,GitHub,77a3d7d7,data/77a3d7d7/test/l.groovy,719:719,F,F,,,F,F,,,,,0.00,,F,F,F,
+100243,cd85c887,GitHub,77a3d7d7,data/77a3d7d7/test/o.groovy,46:46,F,F,,,F,F,,,,,0.00,,F,F,F,
+100244,cd85c887,GitHub,77a3d7d7,data/77a3d7d7/test/o.groovy,47:47,F,F,,,F,F,,,,,0.00,,F,F,F,
+100245,cd85c887,GitHub,77a3d7d7,data/77a3d7d7/test/o.groovy,103:103,F,F,,,F,F,,,,,0.00,,F,F,F,
+100246,cd85c887,GitHub,77a3d7d7,data/77a3d7d7/test/o.groovy,122:122,F,F,,,F,F,,,,,0.00,,F,F,F,
+100247,cd85c887,GitHub,77a3d7d7,data/77a3d7d7/test/o.groovy,127:127,F,F,,,F,F,,,,,0.00,,F,F,F,
+100248,cd85c887,GitHub,77a3d7d7,data/77a3d7d7/test/o.groovy,144:144,F,F,,,F,F,,,,,0.00,,F,F,F,
+110039,311f58f1,GitHub,77a3d7d7,data/77a3d7d7/test/g.groovy,229:229,F,F,,,F,F,,,,,0.00,,F,F,F,
+130015,fce6a5c7,GitHub,77a3d7d7,data/77a3d7d7/src/c.java,402:402,F,F,,,F,F,,,,,0.00,,F,F,F,

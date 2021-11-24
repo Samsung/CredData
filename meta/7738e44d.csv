@@ -20,53 +20,53 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 19027,43e42f86,GitHub,7738e44d,data/7738e44d/src/f.yml,208:208,F,F,,,F,F,,,,,0,0,F,F,F,
 23486,d116b6cc,GitHub,7738e44d,data/7738e44d/src/d.rb,27:27,F,F,,,F,F,,,,,0,0,F,F,F,
 23895,d116b6cc,GitHub,7738e44d,data/7738e44d/src/d.rb,29:29,F,F,,,F,F,,,,,0,0,F,F,F,
-27191,faff1af3,GitHub,7738e44d,data/7738e44d/test/a.yml,16:16,T,0,12,18,F,F,CharsOnly,,,Unknown,2.25,6,F,F,F,Other
-27376,f293bc63,GitHub,7738e44d,data/7738e44d/src/bl.yml,49:49,Template,0,25,29,F,F,NumbersOnly,,,Secret,2.00,4,F,F,F,Password
-27377,f56f6d9a,GitHub,7738e44d,data/7738e44d/src/g.yml,79:79,Template,1,148,160,F,F,Any,,,Secret,2.13,12,F,F,F,Password
-27378,43e42f86,GitHub,7738e44d,data/7738e44d/src/f.yml,79:79,Template,1,148,160,F,F,Any,,,Secret,2.13,12,F,F,F,Password
-27379,c525282e,GitHub,7738e44d,data/7738e44d/src/h.yml,79:79,Template,1,148,160,F,F,Any,,,Secret,2.13,12,F,F,F,Password
-27380,376478ac,GitHub,7738e44d,data/7738e44d/src/i.yml,109:109,T,1,26,38,F,F,Any,,,Token,2.72,12,F,F,F,Generic Token
-27382,e87443ba,GitHub,7738e44d,data/7738e44d/src/bd.yml,94:94,Template,1,17,29,F,F,Any,,,Secret,2.13,12,F,F,F,Password
-27459,7c24a9da,GitHub,7738e44d,data/7738e44d/other/c.md,130:130,Template,1,18,28,F,F,CharsOnly,,JSON Web Token,Token,2.65,10,F,F,F,Predefined Pattern
-28358,7c24a9da,GitHub,7738e44d,data/7738e44d/other/c.md,181:181,Template,0,17,23,F,F,Any,,,Token,2.58,6,F,F,F,Generic Token
-29440,f56f6d9a,GitHub,7738e44d,data/7738e44d/src/g.yml,414:414,Template,1,26,35,F,F,CharsOnly,,JSON Web Token,Token,2.50,9,F,F,F,Predefined Pattern
-29441,c525282e,GitHub,7738e44d,data/7738e44d/src/h.yml,202:202,Template,1,26,35,F,F,CharsOnly,,JSON Web Token,Token,2.50,9,F,F,F,Predefined Pattern
-29442,c525282e,GitHub,7738e44d,data/7738e44d/src/h.yml,254:254,Template,1,26,36,F,F,Any,,,Token,2.31,10,F,F,F,Generic Token
-29443,f56f6d9a,GitHub,7738e44d,data/7738e44d/src/g.yml,466:466,Template,1,26,36,F,F,Any,,,Token,2.31,10,F,F,F,Generic Token
-29444,376478ac,GitHub,7738e44d,data/7738e44d/src/i.yml,8:8,Template,1,157,178,F,F,Any,,,Token,2.89,21,F,F,F,Generic Token
-29448,89daea9d,GitHub,7738e44d,data/7738e44d/src/s.yml,45:45,Template,0,26,90,F,F,Any,,,Token,3.86,64,F,F,F,Generic Token
-29800,7c24a9da,GitHub,7738e44d,data/7738e44d/other/c.md,129:129,Template,1,17,26,F,F,CharsOnly,,JSON Web Token,Token,2.50,9,F,F,F,Predefined Pattern
-34636,6a876f6c,GitHub,7738e44d,data/7738e44d/src/bn.yml,45:45,T,0,26,90,F,F,Any,,,Token,3.87,64,F,F,F,Generic Token
-34637,f4a1a707,GitHub,7738e44d,data/7738e44d/src/y.yml,45:45,T,0,26,90,F,F,Any,,,Token,3.79,64,F,F,F,Generic Token
-34638,01e901d4,GitHub,7738e44d,data/7738e44d/src/t.yml,45:45,T,0,26,90,F,F,Any,,,Token,3.77,64,F,F,F,Generic Token
-34639,56dad40c,GitHub,7738e44d,data/7738e44d/src/m.yml,45:45,T,0,26,90,F,F,Any,,,Token,3.86,64,F,F,F,Generic Token
-34640,f7033b29,GitHub,7738e44d,data/7738e44d/src/z.yml,45:45,T,0,26,90,F,F,Any,,,Token,3.88,64,F,F,F,Generic Token
-34641,8b409d1a,GitHub,7738e44d,data/7738e44d/src/bg.yml,45:45,T,0,26,90,F,F,Any,,,Token,3.79,64,F,F,F,Generic Token
-34642,0816cffa,GitHub,7738e44d,data/7738e44d/src/q.yml,45:45,T,0,26,90,F,F,Any,,,Token,3.82,64,F,F,F,Generic Token
-34643,ad75855a,GitHub,7738e44d,data/7738e44d/src/x.yml,45:45,T,0,26,90,F,F,Any,,,Token,3.74,64,F,F,F,Generic Token
-34644,d03ce1cf,GitHub,7738e44d,data/7738e44d/src/r.yml,45:45,T,0,26,90,F,F,Any,,,Token,3.81,64,F,F,F,Generic Token
-34645,9d97cae9,GitHub,7738e44d,data/7738e44d/src/bm.yml,45:45,T,0,26,90,F,F,Any,,,Token,3.65,64,F,F,F,Generic Token
-34646,249d9743,GitHub,7738e44d,data/7738e44d/src/br.yml,45:45,T,0,26,90,F,F,Any,,,Token,3.84,64,F,F,F,Generic Token
-34647,97220e02,GitHub,7738e44d,data/7738e44d/src/bc.yml,45:45,T,0,26,90,F,F,Any,,,Token,3.68,64,F,F,F,Generic Token
-34648,c4b614ca,GitHub,7738e44d,data/7738e44d/src/bi.yml,43:43,T,0,26,90,F,F,Any,,,Token,3.82,64,F,F,F,Generic Token
-34649,aaa77e70,GitHub,7738e44d,data/7738e44d/src/ba.yml,45:45,T,0,26,90,F,F,Any,,,Token,3.87,64,F,F,F,Generic Token
-34650,2b3d329e,GitHub,7738e44d,data/7738e44d/src/n.yml,45:45,T,0,26,90,F,F,Any,,,Token,3.84,64,F,F,F,Generic Token
-34651,649a26fe,GitHub,7738e44d,data/7738e44d/src/w.yml,45:45,T,0,26,90,F,F,Any,,,Token,3.80,64,F,F,F,Generic Token
-34652,93d2a9d8,GitHub,7738e44d,data/7738e44d/src/bj.yml,45:45,T,0,26,90,F,F,Any,,,Token,3.89,64,F,F,F,Generic Token
-34653,9e87288f,GitHub,7738e44d,data/7738e44d/src/j.yml,45:45,T,0,26,90,F,F,Any,,,Token,3.76,64,F,F,F,Generic Token
-34654,02bdd479,GitHub,7738e44d,data/7738e44d/src/v.yml,45:45,T,0,26,90,F,F,Any,,,Token,3.74,64,F,F,F,Generic Token
-34668,838d0c32,GitHub,7738e44d,data/7738e44d/src/bf.yml,43:43,T,0,26,90,F,F,Any,,,Token,3.89,64,F,F,F,Generic Token
-34669,9bf0a59d,GitHub,7738e44d,data/7738e44d/src/bq.yml,45:45,T,0,26,90,F,F,Any,,,Token,3.72,64,F,F,F,Generic Token
-34670,ae38e7fc,GitHub,7738e44d,data/7738e44d/src/p.yml,45:45,T,0,26,90,F,F,Any,,,Token,3.77,64,F,F,F,Generic Token
-34671,b2154277,GitHub,7738e44d,data/7738e44d/src/u.yml,45:45,T,0,26,90,F,F,Any,,,Token,3.85,64,F,F,F,Generic Token
-34672,376478ac,GitHub,7738e44d,data/7738e44d/src/i.yml,57:57,T,0,26,31,F,F,CharsOnly,,,Token,1.92,5,F,F,F,Generic Token
-34673,22d06efa,GitHub,7738e44d,data/7738e44d/src/bh.yml,43:43,T,0,26,90,F,F,Any,,,Token,3.84,64,F,F,F,Generic Token
-34693,bd1c188d,GitHub,7738e44d,data/7738e44d/src/k.yml,45:45,T,0,26,90,F,F,Any,,,Token,3.87,64,F,F,F,Generic Token
-34694,c067c5dc,GitHub,7738e44d,data/7738e44d/src/bp.yml,45:45,T,0,26,90,F,F,Any,,,Token,3.82,64,F,F,F,Generic Token
-34695,5011ce5c,GitHub,7738e44d,data/7738e44d/src/o.yml,45:45,T,0,26,90,F,F,Any,,,Token,3.93,64,F,F,F,Generic Token
-34696,0795ee00,GitHub,7738e44d,data/7738e44d/src/bk.yml,45:45,T,0,26,90,F,F,Any,,,Token,3.59,64,F,F,F,Generic Token
-34697,e87443ba,GitHub,7738e44d,data/7738e44d/src/bd.yml,45:45,T,0,26,90,F,F,Any,,,Token,3.79,64,F,F,F,Generic Token
-35083,7c24a9da,GitHub,7738e44d,data/7738e44d/other/c.md,184:184,T,0,18,24,F,F,Any,,,Token,2.58,6,F,F,F,Generic Token
+27191,faff1af3,GitHub,7738e44d,data/7738e44d/test/a.yml,16:16,T,F,12,18,F,F,CharsOnly,,,Unknown,2.25,6,F,F,F,Other
+27376,f293bc63,GitHub,7738e44d,data/7738e44d/src/bl.yml,49:49,Template,F,25,29,F,F,NumbersOnly,,,Secret,2.00,4,F,F,F,Password
+27377,f56f6d9a,GitHub,7738e44d,data/7738e44d/src/g.yml,79:79,Template,T,148,160,F,F,Any,,,Secret,2.13,12,F,F,F,Password
+27378,43e42f86,GitHub,7738e44d,data/7738e44d/src/f.yml,79:79,Template,T,148,160,F,F,Any,,,Secret,2.13,12,F,F,F,Password
+27379,c525282e,GitHub,7738e44d,data/7738e44d/src/h.yml,79:79,Template,T,148,160,F,F,Any,,,Secret,2.13,12,F,F,F,Password
+27380,376478ac,GitHub,7738e44d,data/7738e44d/src/i.yml,109:109,T,T,26,38,F,F,Any,,,Token,2.72,12,F,F,F,Generic Token
+27382,e87443ba,GitHub,7738e44d,data/7738e44d/src/bd.yml,94:94,Template,T,17,29,F,F,Any,,,Secret,2.13,12,F,F,F,Password
+27459,7c24a9da,GitHub,7738e44d,data/7738e44d/other/c.md,130:130,Template,T,18,28,F,F,CharsOnly,,JSON Web Token,Token,2.65,10,F,F,F,Predefined Pattern
+28358,7c24a9da,GitHub,7738e44d,data/7738e44d/other/c.md,181:181,Template,F,17,23,F,F,Any,,,Token,2.58,6,F,F,F,Generic Token
+29440,f56f6d9a,GitHub,7738e44d,data/7738e44d/src/g.yml,414:414,Template,T,26,35,F,F,CharsOnly,,JSON Web Token,Token,2.50,9,F,F,F,Predefined Pattern
+29441,c525282e,GitHub,7738e44d,data/7738e44d/src/h.yml,202:202,Template,T,26,35,F,F,CharsOnly,,JSON Web Token,Token,2.50,9,F,F,F,Predefined Pattern
+29442,c525282e,GitHub,7738e44d,data/7738e44d/src/h.yml,254:254,Template,T,26,36,F,F,Any,,,Token,2.31,10,F,F,F,Generic Token
+29443,f56f6d9a,GitHub,7738e44d,data/7738e44d/src/g.yml,466:466,Template,T,26,36,F,F,Any,,,Token,2.31,10,F,F,F,Generic Token
+29444,376478ac,GitHub,7738e44d,data/7738e44d/src/i.yml,8:8,Template,T,157,178,F,F,Any,,,Token,2.89,21,F,F,F,Generic Token
+29448,89daea9d,GitHub,7738e44d,data/7738e44d/src/s.yml,45:45,Template,F,26,90,F,F,Any,,,Token,3.86,64,F,F,F,Generic Token
+29800,7c24a9da,GitHub,7738e44d,data/7738e44d/other/c.md,129:129,Template,T,17,26,F,F,CharsOnly,,JSON Web Token,Token,2.50,9,F,F,F,Predefined Pattern
+34636,6a876f6c,GitHub,7738e44d,data/7738e44d/src/bn.yml,45:45,T,F,26,90,F,F,Any,,,Token,3.87,64,F,F,F,Generic Token
+34637,f4a1a707,GitHub,7738e44d,data/7738e44d/src/y.yml,45:45,T,F,26,90,F,F,Any,,,Token,3.79,64,F,F,F,Generic Token
+34638,01e901d4,GitHub,7738e44d,data/7738e44d/src/t.yml,45:45,T,F,26,90,F,F,Any,,,Token,3.77,64,F,F,F,Generic Token
+34639,56dad40c,GitHub,7738e44d,data/7738e44d/src/m.yml,45:45,T,F,26,90,F,F,Any,,,Token,3.86,64,F,F,F,Generic Token
+34640,f7033b29,GitHub,7738e44d,data/7738e44d/src/z.yml,45:45,T,F,26,90,F,F,Any,,,Token,3.88,64,F,F,F,Generic Token
+34641,8b409d1a,GitHub,7738e44d,data/7738e44d/src/bg.yml,45:45,T,F,26,90,F,F,Any,,,Token,3.79,64,F,F,F,Generic Token
+34642,0816cffa,GitHub,7738e44d,data/7738e44d/src/q.yml,45:45,T,F,26,90,F,F,Any,,,Token,3.82,64,F,F,F,Generic Token
+34643,ad75855a,GitHub,7738e44d,data/7738e44d/src/x.yml,45:45,T,F,26,90,F,F,Any,,,Token,3.74,64,F,F,F,Generic Token
+34644,d03ce1cf,GitHub,7738e44d,data/7738e44d/src/r.yml,45:45,T,F,26,90,F,F,Any,,,Token,3.81,64,F,F,F,Generic Token
+34645,9d97cae9,GitHub,7738e44d,data/7738e44d/src/bm.yml,45:45,T,F,26,90,F,F,Any,,,Token,3.65,64,F,F,F,Generic Token
+34646,249d9743,GitHub,7738e44d,data/7738e44d/src/br.yml,45:45,T,F,26,90,F,F,Any,,,Token,3.84,64,F,F,F,Generic Token
+34647,97220e02,GitHub,7738e44d,data/7738e44d/src/bc.yml,45:45,T,F,26,90,F,F,Any,,,Token,3.68,64,F,F,F,Generic Token
+34648,c4b614ca,GitHub,7738e44d,data/7738e44d/src/bi.yml,43:43,T,F,26,90,F,F,Any,,,Token,3.82,64,F,F,F,Generic Token
+34649,aaa77e70,GitHub,7738e44d,data/7738e44d/src/ba.yml,45:45,T,F,26,90,F,F,Any,,,Token,3.87,64,F,F,F,Generic Token
+34650,2b3d329e,GitHub,7738e44d,data/7738e44d/src/n.yml,45:45,T,F,26,90,F,F,Any,,,Token,3.84,64,F,F,F,Generic Token
+34651,649a26fe,GitHub,7738e44d,data/7738e44d/src/w.yml,45:45,T,F,26,90,F,F,Any,,,Token,3.80,64,F,F,F,Generic Token
+34652,93d2a9d8,GitHub,7738e44d,data/7738e44d/src/bj.yml,45:45,T,F,26,90,F,F,Any,,,Token,3.89,64,F,F,F,Generic Token
+34653,9e87288f,GitHub,7738e44d,data/7738e44d/src/j.yml,45:45,T,F,26,90,F,F,Any,,,Token,3.76,64,F,F,F,Generic Token
+34654,02bdd479,GitHub,7738e44d,data/7738e44d/src/v.yml,45:45,T,F,26,90,F,F,Any,,,Token,3.74,64,F,F,F,Generic Token
+34668,838d0c32,GitHub,7738e44d,data/7738e44d/src/bf.yml,43:43,T,F,26,90,F,F,Any,,,Token,3.89,64,F,F,F,Generic Token
+34669,9bf0a59d,GitHub,7738e44d,data/7738e44d/src/bq.yml,45:45,T,F,26,90,F,F,Any,,,Token,3.72,64,F,F,F,Generic Token
+34670,ae38e7fc,GitHub,7738e44d,data/7738e44d/src/p.yml,45:45,T,F,26,90,F,F,Any,,,Token,3.77,64,F,F,F,Generic Token
+34671,b2154277,GitHub,7738e44d,data/7738e44d/src/u.yml,45:45,T,F,26,90,F,F,Any,,,Token,3.85,64,F,F,F,Generic Token
+34672,376478ac,GitHub,7738e44d,data/7738e44d/src/i.yml,57:57,Template,F,26,31,F,F,CharsOnly,,,Token,1.92,5,F,F,F,Generic Token
+34673,22d06efa,GitHub,7738e44d,data/7738e44d/src/bh.yml,43:43,T,F,26,90,F,F,Any,,,Token,3.84,64,F,F,F,Generic Token
+34693,bd1c188d,GitHub,7738e44d,data/7738e44d/src/k.yml,45:45,T,F,26,90,F,F,Any,,,Token,3.87,64,F,F,F,Generic Token
+34694,c067c5dc,GitHub,7738e44d,data/7738e44d/src/bp.yml,45:45,T,F,26,90,F,F,Any,,,Token,3.82,64,F,F,F,Generic Token
+34695,5011ce5c,GitHub,7738e44d,data/7738e44d/src/o.yml,45:45,T,F,26,90,F,F,Any,,,Token,3.93,64,F,F,F,Generic Token
+34696,0795ee00,GitHub,7738e44d,data/7738e44d/src/bk.yml,45:45,T,F,26,90,F,F,Any,,,Token,3.59,64,F,F,F,Generic Token
+34697,e87443ba,GitHub,7738e44d,data/7738e44d/src/bd.yml,45:45,T,F,26,90,F,F,Any,,,Token,3.79,64,F,F,F,Generic Token
+35083,7c24a9da,GitHub,7738e44d,data/7738e44d/other/c.md,184:184,T,F,18,24,F,F,Any,,,Token,2.58,6,F,F,F,Generic Token
 40663,c525282e,GitHub,7738e44d,data/7738e44d/src/h.yml,243:243,F,F,,,F,F,,,,,0,0,F,F,F,
 40664,f56f6d9a,GitHub,7738e44d,data/7738e44d/src/g.yml,455:455,F,F,,,F,F,,,,,0,0,F,F,F,
 41756,376478ac,GitHub,7738e44d,data/7738e44d/src/i.yml,11:11,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -90,6 +90,22 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 43097,43e42f86,GitHub,7738e44d,data/7738e44d/src/f.yml,5:5,F,F,82,170,F,F,,,,,0,0,F,F,F,
 43098,43e42f86,GitHub,7738e44d,data/7738e44d/src/f.yml,76:76,F,F,82,170,F,F,,,,,0,0,F,F,F,
 43099,43e42f86,GitHub,7738e44d,data/7738e44d/src/f.yml,225:225,F,F,,,F,F,,,,,0,0,F,F,F,
-52881,7c24a9da,GitHub,7738e44d,data/7738e44d/other/c.md,223:223,Template,1,17,26,F,F,CharsOnly,,JSON Web Token,Token,2.50,9,F,F,F,Predefined Pattern
+52881,7c24a9da,GitHub,7738e44d,data/7738e44d/other/c.md,223:223,Template,T,17,26,F,F,CharsOnly,,JSON Web Token,Token,2.50,9,F,F,F,Predefined Pattern
 54767,7c24a9da,GitHub,7738e44d,data/7738e44d/other/c.md,214:214,F,F,,,F,F,,,,,0,0,F,F,F,
 54768,7c24a9da,GitHub,7738e44d,data/7738e44d/other/c.md,224:224,F,F,,,F,F,,,,,0,0,F,F,F,
+108498,d116b6cc,GitHub,7738e44d,data/7738e44d/src/d.rb,14:14,F,F,,,F,F,,,,,0.00,,F,F,F,
+108499,d116b6cc,GitHub,7738e44d,data/7738e44d/src/d.rb,50:50,F,F,,,F,F,,,,,0.00,,F,F,F,
+108500,d116b6cc,GitHub,7738e44d,data/7738e44d/src/d.rb,166:166,F,F,,,F,F,,,,,0.00,,F,F,F,
+108501,d116b6cc,GitHub,7738e44d,data/7738e44d/src/d.rb,126:126,F,F,,,F,F,,,,,0.00,,F,F,F,
+114602,c525282e,GitHub,7738e44d,data/7738e44d/src/h.yml,134:134,F,F,,,F,F,,,,,0.00,,F,F,F,
+114603,c525282e,GitHub,7738e44d,data/7738e44d/src/h.yml,146:146,F,F,,,F,F,,,,,0.00,,F,F,F,
+114604,f56f6d9a,GitHub,7738e44d,data/7738e44d/src/g.yml,151:151,F,F,,,F,F,,,,,0.00,,F,F,F,
+114605,f56f6d9a,GitHub,7738e44d,data/7738e44d/src/g.yml,346:346,F,F,,,F,F,,,,,0.00,,F,F,F,
+114606,f56f6d9a,GitHub,7738e44d,data/7738e44d/src/g.yml,358:358,F,F,,,F,F,,,,,0.00,,F,F,F,
+114607,0795ee00,GitHub,7738e44d,data/7738e44d/src/bk.yml,94:94,F,F,,,F,F,,,,,0.00,,F,F,F,
+114608,43e42f86,GitHub,7738e44d,data/7738e44d/src/f.yml,151:151,F,F,,,F,F,,,,,0.00,,F,F,F,
+114609,7c24a9da,GitHub,7738e44d,data/7738e44d/other/c.md,96:96,F,F,,,F,F,,,,,0.00,,F,F,F,
+131583,150b2ea3,GitHub,7738e44d,data/7738e44d/src/e.rb,81:81,F,F,,,F,F,,,,,0.00,,F,F,F,
+131584,150b2ea3,GitHub,7738e44d,data/7738e44d/src/e.rb,81:81,F,F,,,F,F,,,,,0.00,,F,F,F,
+131585,150b2ea3,GitHub,7738e44d,data/7738e44d/src/e.rb,81:81,F,F,,,F,F,,,,,0.00,,F,F,F,
+131586,150b2ea3,GitHub,7738e44d,data/7738e44d/src/e.rb,81:81,F,F,,,F,F,,,,,0.00,,F,F,F,

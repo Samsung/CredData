@@ -2,7 +2,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 122,fcebe908,GitHub,22548287,data/22548287/src/w.yml,231:231,F,F,,,F,F,,,,,0,0,F,F,F,
 126,6ae88d48,GitHub,22548287,data/22548287/src/y.yml,225:225,F,F,,,F,F,,,,,0,0,F,F,F,
 128,44438ce2,GitHub,22548287,data/22548287/src/v.yml,174:174,F,F,,,F,F,,,,,0,0,F,F,F,
-204,74729226,GitHub,22548287,data/22548287/other/p,16:16,F,F,,,F,F,,,,,0,0,F,F,F,
+204,74729226,GitHub,22548287,data/22548287/other/p,16:16,Template,T,24,39,F,F,Any,,,Secret,3.06,15,F,F,F,Password
 205,74729226,GitHub,22548287,data/22548287/other/p,15:15,F,F,,,F,F,,,,,0,0,F,F,F,
 901,c7b65d90,GitHub,22548287,data/22548287/src/bi.rb,11:11,F,F,,,F,F,,,,,0,0,F,F,F,
 902,3277ae01,GitHub,22548287,data/22548287/src/bl.rb,19:19,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -103,19 +103,19 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 26730,ee476af5,GitHub,22548287,data/22548287/src/k.haml,4:4,F,F,,,F,F,,,,,0,0,F,F,F,
 26734,2ca2f500,GitHub,22548287,data/22548287/src/l.haml,4:4,F,F,,,F,F,,,,,0,0,F,F,F,
 26735,57c05a6a,GitHub,22548287,data/22548287/src/h.haml,26:26,F,F,,,F,F,,,,,0,0,F,F,F,
-28291,db6cdcf8,GitHub,22548287,data/22548287/src/bn.rb,22:22,T,0,11,28,F,F,Any,,,Secret,1.86,17,F,F,F,Password
-30033,96677aa3,GitHub,22548287,data/22548287/src/b.json,11:11,Template,1,18,40,F,F,Any,,,Secret,3.31,22,F,F,F,Password
-31399,aca9b509,GitHub,22548287,data/22548287/src/a.env,11:11,Template,1,23,44,F,F,Any,,,Secret,2.68,21,F,F,F,Password
-31505,283599b3,GitHub,22548287,data/22548287/src/bk.rb,36:36,Template,1,33,45,F,F,Any,,,Secret,2.52,12,F,F,F,Password
-31506,283599b3,GitHub,22548287,data/22548287/src/bk.rb,37:37,Template,1,46,58,F,F,Any,,,Secret,2.52,12,F,F,F,Password
-32268,cb6e8126,GitHub,22548287,data/22548287/src/r.rb,7:7,T,0,21,149,F,F,Any,,,Secret,3.86,128,F,F,F,Generic Secret
-32469,aca9b509,GitHub,22548287,data/22548287/src/a.env,5:5,T,1,16,24,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-34522,db6cdcf8,GitHub,22548287,data/22548287/src/bn.rb,23:23,T,0,24,41,F,F,Any,,,Secret,1.86,17,F,F,F,Password
-40559,cb6e8126,GitHub,22548287,data/22548287/src/r.rb,102:102,T,0,19,147,F,F,Any,,,Unknown,3.86,128,F,F,F,Other
+28291,db6cdcf8,GitHub,22548287,data/22548287/src/bn.rb,22:22,T,F,11,28,F,F,Any,,,Secret,1.86,17,F,F,F,Password
+30033,96677aa3,GitHub,22548287,data/22548287/src/b.json,11:11,Template,T,18,40,F,F,Any,,,Secret,3.31,22,F,F,F,Password
+31399,aca9b509,GitHub,22548287,data/22548287/src/a.env,11:11,Template,T,23,44,F,F,Any,,,Secret,2.68,21,F,F,F,Password
+31505,283599b3,GitHub,22548287,data/22548287/src/bk.rb,36:36,T,T,33,45,F,F,Any,,,Secret,2.52,12,F,F,F,Password
+31506,283599b3,GitHub,22548287,data/22548287/src/bk.rb,37:37,T,T,46,58,F,F,Any,,,Secret,2.52,12,F,F,F,Password
+32268,cb6e8126,GitHub,22548287,data/22548287/src/r.rb,7:7,T,F,21,149,F,F,Any,,,Secret,3.86,128,F,F,F,Generic Secret
+32469,aca9b509,GitHub,22548287,data/22548287/src/a.env,5:5,Template,T,16,24,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+34522,db6cdcf8,GitHub,22548287,data/22548287/src/bn.rb,23:23,T,F,24,41,F,F,Any,,,Secret,1.86,17,F,F,F,Password
+40559,cb6e8126,GitHub,22548287,data/22548287/src/r.rb,102:102,T,F,19,147,F,F,Any,,,Unknown,3.86,128,F,F,F,Other
 42030,bb8bcb6e,GitHub,22548287,data/22548287/src/bp.rb,11:11,F,F,,,F,F,,,,,0,0,F,F,F,
 42241,cb6e8126,GitHub,22548287,data/22548287/src/r.rb,234:234,F,F,,,F,F,,,,,0,0,F,F,F,
 42527,6ae88d48,GitHub,22548287,data/22548287/src/y.yml,288:288,F,F,,,F,F,,,,,0,0,F,F,F,
-42869,fcebe908,GitHub,22548287,data/22548287/src/w.yml,293:293,T,0,10,20,F,F,CharsOnly,,,Secret,3.12,10,F,F,F,Password
+42869,fcebe908,GitHub,22548287,data/22548287/src/w.yml,293:293,T,F,10,20,F,F,CharsOnly,,,Secret,3.12,10,F,F,F,Password
 42969,9802ca3c,GitHub,22548287,data/22548287/src/f.rb,13:13,F,F,,,F,F,,,,,0,0,F,F,F,
 55578,bb8bcb6e,GitHub,22548287,data/22548287/src/bp.rb,18:18,F,F,,,F,F,,,,,0,0,F,F,F,
 55580,9802ca3c,GitHub,22548287,data/22548287/src/f.rb,10:10,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -148,3 +148,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 76176,6ae88d48,GitHub,22548287,data/22548287/src/y.yml,97:97,F,F,,,F,F,,,,,0,0,F,F,F,
 76177,6ae88d48,GitHub,22548287,data/22548287/src/y.yml,261:261,F,F,,,F,F,,,,,0,0,F,F,F,
 76178,e99e1edd,GitHub,22548287,data/22548287/src/x.yml,209:209,F,F,,,F,F,,,,,0,0,F,F,F,
+101442,aca9b509,GitHub,22548287,data/22548287/src/a.env,3:3,F,F,,,F,F,,,,,0.00,,F,F,F,
+101443,b9c876aa,GitHub,22548287,data/22548287/src/z.yml,16:16,Template,T,17,25,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Password
+110652,b0bd5063,GitHub,22548287,data/22548287/src/t.yml,10:10,F,F,,,F,F,,,,,0.00,,F,F,F,
+110653,77f993cc,GitHub,22548287,data/22548287/src/ba.rake,26:26,F,F,,,F,F,,,,,0.00,,F,F,F,
+130501,b9c876aa,GitHub,22548287,data/22548287/src/z.yml,25:25,F,F,,,F,F,,,,,0.00,,F,F,F,
+130502,b9c876aa,GitHub,22548287,data/22548287/src/z.yml,25:25,F,F,,,F,F,,,,,0.00,,F,F,F,

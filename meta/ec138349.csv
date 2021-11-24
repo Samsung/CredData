@@ -92,85 +92,85 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 26023,1296acf2,GitHub,ec138349,data/ec138349/src/g.jsp,47:47,F,F,,,F,F,,,,,0,0,F,F,F,
 26587,9a21089d,GitHub,ec138349,data/ec138349/test/ba.xml,23:23,F,F,,,F,F,,,,,0,0,F,F,F,
 26601,ac6bc64b,GitHub,ec138349,data/ec138349/src/a.xml,26:26,F,F,,,F,F,,,,,0,0,F,F,F,
-27968,1fa5a1a2,GitHub,ec138349,data/ec138349/src/f.jsp,39:39,T,1,20,32,F,F,Any,,,Secret,2.65,12,F,F,F,Password
-28921,399221f4,GitHub,ec138349,data/ec138349/test/u.java,35:35,Template,1,40,83,F,F,CharsOnly,,,Secret,3.65,43,F,F,F,Generic Secret
-28930,2d2abc99,GitHub,ec138349,data/ec138349/test/w.java,366:366,Template,1,13,20,F,F,Any,,,Token,2.81,7,F,F,F,Generic Token
-29812,7c0a564e,GitHub,ec138349,data/ec138349/test/bv.java,71:71,Template,1,45,55,F,F,CharsOnly,,,Secret,2.65,10,F,F,F,Password
-29813,c354e9cd,GitHub,ec138349,data/ec138349/test/bw.java,44:44,Template,1,45,51,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
-29814,c3f84387,GitHub,ec138349,data/ec138349/test/bu.java,70:70,Template,1,45,56,F,F,Any,,,Secret,2.96,11,F,F,F,Password
-29816,2d2ec00a,GitHub,ec138349,data/ec138349/test/cc.java,45:45,Template,1,53,71,F,F,Any,,,Secret,3.22,18,F,F,F,Password
-29951,6c20523f,GitHub,ec138349,data/ec138349/src/e.xml,42:42,Template,0,8,24,F,F,Any,,,Secret,0.77,16,F,F,F,Password
-30036,9b2822cf,GitHub,ec138349,data/ec138349/src/be.java,38:38,Template,1,37,49,F,F,Any,,,Token,2.79,12,F,F,F,Generic Token
-30493,69d2ad5d,GitHub,ec138349,data/ec138349/test/x.java,71:71,Template,1,74,81,F,F,CharsOnly,,,Token,2.81,7,F,F,F,Generic Token
-30502,2d2abc99,GitHub,ec138349,data/ec138349/test/w.java,345:345,Template,1,51,58,F,F,CharsOnly,,,SeedSalt,2.52,7,F,F,F,"Seed, Salt, Nonce"
-30505,2f9b15a9,GitHub,ec138349,data/ec138349/test/bt.java,139:139,Template,0,75,80,T,F,NumbersOnly,,,Token,2.32,5,F,F,F,Generic Token
-30506,2f9b15a9,GitHub,ec138349,data/ec138349/test/bt.java,127:127,Template,0,61,70,T,F,Any,,,Token,2.29,9,F,F,T,Generic Token
-30507,2f9b15a9,GitHub,ec138349,data/ec138349/test/bt.java,149:149,Template,0,61,69,T,F,Any,,,Token,2.38,8,F,F,F,Generic Token
-30508,2f9b15a9,GitHub,ec138349,data/ec138349/test/bt.java,117:117,Template,0,61,66,T,F,NumbersOnly,,,Token,2.32,5,F,F,F,Generic Token
-30511,2f9b15a9,GitHub,ec138349,data/ec138349/test/bt.java,107:107,Template,0,74,79,T,F,NumbersOnly,,,Token,2.32,5,F,F,F,Generic Token
-30631,76fb89fa,GitHub,ec138349,data/ec138349/test/cm.xml,40:40,Template,1,18,39,T,F,Any,,,Token,3.18,21,F,F,F,Generic Token
-30959,76fb89fa,GitHub,ec138349,data/ec138349/test/cm.xml,32:32,Template,1,92,113,T,F,Any,,,Token,3.18,21,F,F,F,Generic Token
-30960,ac6bc64b,GitHub,ec138349,data/ec138349/src/a.xml,42:42,Template,0,64,80,F,F,Any,,,Secret,0.77,16,F,F,F,Password
-30961,4261598e,GitHub,ec138349,data/ec138349/test/bb.xml,36:36,Template,0,64,80,F,F,Any,,,Secret,0.77,16,F,F,F,Password
+27968,1fa5a1a2,GitHub,ec138349,data/ec138349/src/f.jsp,39:39,T,T,20,32,F,F,Any,,,Secret,2.65,12,F,F,F,Password
+28921,399221f4,GitHub,ec138349,data/ec138349/test/u.java,35:35,Template,T,40,83,F,F,CharsOnly,,,Secret,3.65,43,F,F,F,Generic Secret
+28930,2d2abc99,GitHub,ec138349,data/ec138349/test/w.java,366:366,Template,T,13,20,F,F,Any,,,Token,2.81,7,F,F,F,Generic Token
+29812,7c0a564e,GitHub,ec138349,data/ec138349/test/bv.java,71:71,Template,T,45,55,F,F,CharsOnly,,,Secret,2.65,10,F,F,F,Password
+29813,c354e9cd,GitHub,ec138349,data/ec138349/test/bw.java,44:44,Template,T,45,51,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
+29814,c3f84387,GitHub,ec138349,data/ec138349/test/bu.java,70:70,Template,T,45,56,F,F,Any,,,Secret,2.96,11,F,F,F,Password
+29816,2d2ec00a,GitHub,ec138349,data/ec138349/test/cc.java,45:45,Template,T,53,71,F,F,Any,,,Secret,3.22,18,F,F,F,Password
+29951,6c20523f,GitHub,ec138349,data/ec138349/src/e.xml,42:42,Template,F,8,24,F,F,Any,,,Secret,0.77,16,F,F,F,Password
+30036,9b2822cf,GitHub,ec138349,data/ec138349/src/be.java,38:38,Template,T,37,49,F,F,Any,,,Token,2.79,12,F,F,F,Generic Token
+30493,69d2ad5d,GitHub,ec138349,data/ec138349/test/x.java,71:71,F,T,74,81,F,F,CharsOnly,,,Token,2.81,7,F,F,F,Generic Token
+30502,2d2abc99,GitHub,ec138349,data/ec138349/test/w.java,345:345,F,T,51,58,F,F,CharsOnly,,,SeedSalt,2.52,7,F,F,F,"Seed, Salt, Nonce"
+30505,2f9b15a9,GitHub,ec138349,data/ec138349/test/bt.java,139:139,F,F,75,80,T,F,NumbersOnly,,,Token,2.32,5,F,F,F,Generic Token
+30506,2f9b15a9,GitHub,ec138349,data/ec138349/test/bt.java,127:127,F,F,61,70,T,F,Any,,,Token,2.29,9,F,F,T,Generic Token
+30507,2f9b15a9,GitHub,ec138349,data/ec138349/test/bt.java,149:149,F,F,61,69,T,F,Any,,,Token,2.38,8,F,F,F,Generic Token
+30508,2f9b15a9,GitHub,ec138349,data/ec138349/test/bt.java,117:117,F,F,61,66,T,F,NumbersOnly,,,Token,2.32,5,F,F,F,Generic Token
+30511,2f9b15a9,GitHub,ec138349,data/ec138349/test/bt.java,107:107,F,F,74,79,T,F,NumbersOnly,,,Token,2.32,5,F,F,F,Generic Token
+30631,76fb89fa,GitHub,ec138349,data/ec138349/test/cm.xml,40:40,T,T,18,39,T,F,Any,,,Token,3.18,21,F,F,F,Generic Token
+30959,76fb89fa,GitHub,ec138349,data/ec138349/test/cm.xml,32:32,F,T,92,113,T,F,Any,,,Token,3.18,21,F,F,F,Generic Token
+30960,ac6bc64b,GitHub,ec138349,data/ec138349/src/a.xml,42:42,Template,F,64,80,F,F,Any,,,Secret,0.77,16,F,F,F,Password
+30961,4261598e,GitHub,ec138349,data/ec138349/test/bb.xml,36:36,Template,F,64,80,F,F,Any,,,Secret,0.77,16,F,F,F,Password
 30963,73887711,GitHub,ec138349,data/ec138349/test/cl.xml,23:23,F,F,124,127,F,F,,,,,0,0,F,F,F,
 30969,85da4b1a,GitHub,ec138349,data/ec138349/test/co.xml,46:46,F,F,40,46,F,F,,,,,0,0,F,F,F,
-30980,ac6bc64b,GitHub,ec138349,data/ec138349/src/a.xml,27:27,Template,0,28,31,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-30998,76fb89fa,GitHub,ec138349,data/ec138349/test/cm.xml,39:39,Template,1,67,73,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
-31119,37c07333,GitHub,ec138349,data/ec138349/test/dd.yml,16:16,Template,1,20,26,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
-31739,74dff624,GitHub,ec138349,data/ec138349/test/ce.java,156:167,T,1,,,F,F,Any,Private,,Unknown,2.48,35,F,F,F,Private Key
-32381,8ca6f43a,GitHub,ec138349,data/ec138349/test/i.java,189:189,T,0,25,57,F,F,Any,,,Unknown,3.53,32,F,F,F,Other
-32451,6c20523f,GitHub,ec138349,data/ec138349/src/e.xml,28:28,T,0,27,35,F,F,CharsOnly,,,Secret,2.50,8,F,F,F,Password
-32453,6c20523f,GitHub,ec138349,data/ec138349/src/e.xml,27:27,T,0,31,37,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
-32461,f4c62d0f,GitHub,ec138349,data/ec138349/test/cn.xml,57:57,T,1,28,36,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+30980,ac6bc64b,GitHub,ec138349,data/ec138349/src/a.xml,27:27,Template,F,28,31,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
+30998,76fb89fa,GitHub,ec138349,data/ec138349/test/cm.xml,39:39,F,T,67,73,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
+31119,37c07333,GitHub,ec138349,data/ec138349/test/dd.yml,16:16,Template,T,20,26,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
+31739,74dff624,GitHub,ec138349,data/ec138349/test/ce.java,156:167,T,T,,,F,F,Any,Private,,Unknown,2.48,35,F,F,F,Private Key
+32381,8ca6f43a,GitHub,ec138349,data/ec138349/test/i.java,189:189,T,F,25,57,F,F,Any,,,Unknown,3.53,32,F,F,F,Other
+32451,6c20523f,GitHub,ec138349,data/ec138349/src/e.xml,28:28,T,F,27,35,F,F,CharsOnly,,,Secret,2.50,8,F,F,F,Password
+32453,6c20523f,GitHub,ec138349,data/ec138349/src/e.xml,27:27,T,F,31,37,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
+32461,f4c62d0f,GitHub,ec138349,data/ec138349/test/cn.xml,57:57,Template,T,28,36,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
 32560,525afad4,GitHub,ec138349,data/ec138349/test/cg.java,166:166,F,F,70,111,F,F,,,,,0,0,F,F,F,
 32576,c7e94b6e,GitHub,ec138349,data/ec138349/test/ci.java,166:166,F,F,44,85,F,F,,,,,0,0,F,F,F,
-32577,5cba2249,GitHub,ec138349,data/ec138349/test/o.java,65:90,T,1,,,F,F,Any,Private,,Unknown,2.58,33,F,F,F,Private Key
-32741,2f9b15a9,GitHub,ec138349,data/ec138349/test/bt.java,161:161,T,0,61,77,T,F,Any,,,Token,3.12,16,F,F,T,Generic Token
-32744,1c39b347,GitHub,ec138349,data/ec138349/test/y.java,64:64,T,0,14,42,F,F,Any,,,Unknown,4.59,28,F,F,F,Other
-33015,ac2c1669,GitHub,ec138349,data/ec138349/test/cj.java,33:33,T,0,18,59,F,F,Any,,,Unknown,4.72,41,F,F,F,Other
-33042,944501fe,GitHub,ec138349,data/ec138349/test/ch.java,73:73,T,1,14,1268,F,F,Any,,JSON Web Token,Token,5.73,1254,F,F,F,Predefined Pattern
+32577,5cba2249,GitHub,ec138349,data/ec138349/test/o.java,65:90,T,T,,,F,F,Any,Private,,Unknown,2.58,33,F,F,F,Private Key
+32741,2f9b15a9,GitHub,ec138349,data/ec138349/test/bt.java,161:161,F,F,61,77,T,F,Any,,,Token,3.12,16,F,F,T,Generic Token
+32744,1c39b347,GitHub,ec138349,data/ec138349/test/y.java,64:64,F,F,14,42,F,F,Any,,,Unknown,4.59,28,F,F,F,Other
+33015,ac2c1669,GitHub,ec138349,data/ec138349/test/cj.java,33:33,T,F,18,59,F,F,Any,,,Unknown,4.72,41,F,F,F,Other
+33042,944501fe,GitHub,ec138349,data/ec138349/test/ch.java,73:73,T,T,14,1268,F,F,Any,,JSON Web Token,Token,5.73,1254,F,F,F,Predefined Pattern
 33937,651b0dfe,GitHub,ec138349,data/ec138349/test/cf.java,73:73,F,F,22,65,F,F,,,,,0,0,F,F,F,
 33974,651b0dfe,GitHub,ec138349,data/ec138349/test/cf.java,74:74,F,F,22,65,F,F,,,,,0,0,F,F,F,
 33990,651b0dfe,GitHub,ec138349,data/ec138349/test/cf.java,53:53,F,F,22,364,F,F,,,,,0,0,F,F,F,
 33991,651b0dfe,GitHub,ec138349,data/ec138349/test/cf.java,65:65,F,F,22,364,F,F,,,,,0,0,F,F,F,
-34054,c354e9cd,GitHub,ec138349,data/ec138349/test/bw.java,46:46,T,1,43,51,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+34054,c354e9cd,GitHub,ec138349,data/ec138349/test/bw.java,46:46,Template,T,43,51,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
 34303,360a5a90,GitHub,ec138349,data/ec138349/test/cw.java,64:64,F,F,65,97,F,F,,,,,0,0,F,F,F,
-34408,721ed73d,GitHub,ec138349,data/ec138349/test/ct.yml,8:8,T,1,10,18,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-34501,f27d0c60,GitHub,ec138349,data/ec138349/test/cr.md,70:70,T,0,8,43,F,F,Any,,,Token,3.41,35,F,F,F,Generic Token
-34605,0003710d,GitHub,ec138349,data/ec138349/test/dh.yml,8:8,T,1,10,18,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-34610,f27d0c60,GitHub,ec138349,data/ec138349/test/cr.md,68:68,T,1,107,125,F,F,Any,,,Token,3.12,18,F,F,F,Generic Token
-34660,18b43943,GitHub,ec138349,data/ec138349/test/m.java,40:42,T,0,38,75,F,F,Any,,JSON Web Token,Token,4.28,37,F,F,F,Predefined Pattern
-34661,18b43943,GitHub,ec138349,data/ec138349/test/m.java,43:45,T,0,45,86,F,F,Any,,JSON Web Token,Token,4.16,41,F,F,F,Predefined Pattern
-34662,18b43943,GitHub,ec138349,data/ec138349/test/m.java,46:51,T,0,37,58,F,F,Any,,JSON Web Token,Token,3.73,21,F,F,F,Predefined Pattern
-35142,07ab9ff7,GitHub,ec138349,data/ec138349/test/cu.properties,4:4,T,1,24,32,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+34408,721ed73d,GitHub,ec138349,data/ec138349/test/ct.yml,8:8,Template,T,10,18,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+34501,f27d0c60,GitHub,ec138349,data/ec138349/test/cr.md,70:70,T,F,8,43,F,F,Any,,,Token,3.41,35,F,F,F,Generic Token
+34605,0003710d,GitHub,ec138349,data/ec138349/test/dh.yml,8:8,Template,T,10,18,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+34610,f27d0c60,GitHub,ec138349,data/ec138349/test/cr.md,68:68,Template,T,107,125,F,F,Any,,,Token,3.12,18,F,F,F,Generic Token
+34660,18b43943,GitHub,ec138349,data/ec138349/test/m.java,40:42,T,F,38,75,F,F,Any,,JSON Web Token,Token,4.28,37,F,F,F,Predefined Pattern
+34661,18b43943,GitHub,ec138349,data/ec138349/test/m.java,43:45,T,F,45,86,F,F,Any,,JSON Web Token,Token,4.16,41,F,F,F,Predefined Pattern
+34662,18b43943,GitHub,ec138349,data/ec138349/test/m.java,46:51,T,F,37,58,F,F,Any,,JSON Web Token,Token,3.73,21,F,F,F,Predefined Pattern
+35142,07ab9ff7,GitHub,ec138349,data/ec138349/test/cu.properties,4:4,Template,T,24,32,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
 35200,e558ef96,GitHub,ec138349,data/ec138349/test/cp.json,8:8,F,F,6,348,F,F,,,,,0,0,F,F,F,
-35376,74dff624,GitHub,ec138349,data/ec138349/test/ce.java,229:229,T,1,9,227,F,F,Any,,JSON Web Token,Token,5.54,218,F,F,F,Predefined Pattern
-35496,f27d0c60,GitHub,ec138349,data/ec138349/test/cr.md,69:69,T,0,22,58,F,F,Any,,,Token,3.40,36,F,F,F,Generic Token
-35497,69148d74,GitHub,ec138349,data/ec138349/test/df.md,43:43,T,0,22,58,F,F,Any,,,Token,3.40,36,F,F,F,Generic Token
-35663,6c20523f,GitHub,ec138349,data/ec138349/src/e.xml,47:47,T,1,52,61,F,F,CharsOnly,,,Secret,2.73,9,F,F,F,Password
-35664,c34f4bf8,GitHub,ec138349,data/ec138349/test/bc.xml,25:25,T,1,83,99,F,F,CharsOnly,,,Secret,2.95,16,F,F,F,Password
-35853,ecf1e034,GitHub,ec138349,data/ec138349/test/cq.jwt,1:1,T,1,0,1254,F,F,Any,,JSON Web Token,Token,5.73,1254,F,F,F,Predefined Pattern
+35376,74dff624,GitHub,ec138349,data/ec138349/test/ce.java,229:229,T,T,9,227,F,F,Any,,JSON Web Token,Token,5.54,218,F,F,F,Predefined Pattern
+35496,f27d0c60,GitHub,ec138349,data/ec138349/test/cr.md,69:69,T,F,22,58,F,F,Any,,,Token,3.40,36,F,F,F,Generic Token
+35497,69148d74,GitHub,ec138349,data/ec138349/test/df.md,43:43,T,F,22,58,F,F,Any,,,Token,3.40,36,F,F,F,Generic Token
+35663,6c20523f,GitHub,ec138349,data/ec138349/src/e.xml,47:47,Template,T,52,61,F,F,CharsOnly,,,Secret,2.73,9,F,F,F,Password
+35664,c34f4bf8,GitHub,ec138349,data/ec138349/test/bc.xml,25:25,Template,T,83,99,F,F,CharsOnly,,,Secret,2.95,16,F,F,F,Password
+35853,ecf1e034,GitHub,ec138349,data/ec138349/test/cq.jwt,1:1,T,T,0,1254,F,F,Any,,JSON Web Token,Token,5.73,1254,F,F,F,Predefined Pattern
 36273,5cba2249,GitHub,ec138349,data/ec138349/test/o.java,94:98,F,F,52,60,F,F,,,,,0,0,F,F,F,
-36286,525afad4,GitHub,ec138349,data/ec138349/test/cg.java,218:218,T,0,1,44,F,F,Any,,,Unknown,4.66,43,F,F,F,Other
-36287,525afad4,GitHub,ec138349,data/ec138349/test/cg.java,230:230,T,0,1,44,F,F,Any,,,Unknown,4.66,43,F,F,F,Other
-36854,944501fe,GitHub,ec138349,data/ec138349/test/ch.java,97:97,T,1,14,1268,F,F,Any,,JSON Web Token,Token,5.73,1254,F,F,F,Predefined Pattern
+36286,525afad4,GitHub,ec138349,data/ec138349/test/cg.java,218:218,T,F,1,44,F,F,Any,,,Unknown,4.66,43,F,F,F,Other
+36287,525afad4,GitHub,ec138349,data/ec138349/test/cg.java,230:230,T,F,1,44,F,F,Any,,,Unknown,4.66,43,F,F,F,Other
+36854,944501fe,GitHub,ec138349,data/ec138349/test/ch.java,97:97,T,T,14,1268,F,F,Any,,JSON Web Token,Token,5.73,1254,F,F,F,Predefined Pattern
 37085,651b0dfe,GitHub,ec138349,data/ec138349/test/cf.java,114:114,F,F,22,364,F,F,,,,,0,0,F,F,F,
 37656,5cba2249,GitHub,ec138349,data/ec138349/test/o.java,100:104,F,F,68,76,F,F,,,,,0,0,F,F,F,
 46025,944501fe,GitHub,ec138349,data/ec138349/test/ch.java,122:122,F,F,,,F,F,,,,,0,0,F,F,F,
 46029,525afad4,GitHub,ec138349,data/ec138349/test/cg.java,255:255,F,F,,,F,F,,,,,0,0,F,F,F,
-46039,85da4b1a,GitHub,ec138349,data/ec138349/test/co.xml,53:53,T,1,28,36,F,F,Any,,,Unknown,2.75,8,F,F,F,Password
-46040,4261598e,GitHub,ec138349,data/ec138349/test/bb.xml,25:25,T,0,31,36,F,F,CharsOnly,,,Secret,1.92,5,F,F,F,Password
-46041,4261598e,GitHub,ec138349,data/ec138349/test/bb.xml,26:26,T,1,27,30,F,F,Any,,,Unknown,1.58,3,F,F,F,Password
+46039,85da4b1a,GitHub,ec138349,data/ec138349/test/co.xml,53:53,Template,T,28,36,F,F,Any,,,Unknown,2.75,8,F,F,F,Password
+46040,4261598e,GitHub,ec138349,data/ec138349/test/bb.xml,25:25,T,F,31,36,F,F,CharsOnly,,,Secret,1.92,5,F,F,F,Password
+46041,4261598e,GitHub,ec138349,data/ec138349/test/bb.xml,26:26,T,T,27,30,F,F,Any,,,Unknown,1.58,3,F,F,F,Password
 46055,525afad4,GitHub,ec138349,data/ec138349/test/cg.java,239:239,F,F,,,F,F,,,,,0,0,F,F,F,
 46189,2d2abc99,GitHub,ec138349,data/ec138349/test/w.java,408:408,F,F,,,F,F,,,,,0,0,F,F,F,
-46218,74dff624,GitHub,ec138349,data/ec138349/test/ce.java,250:250,T,1,22,240,F,F,Any,,JSON Web Token,Token,5.54,218,F,F,F,Predefined Pattern
+46218,74dff624,GitHub,ec138349,data/ec138349/test/ce.java,250:250,T,T,22,240,F,F,Any,,JSON Web Token,Token,5.54,218,F,F,F,Predefined Pattern
 46227,2f9b15a9,GitHub,ec138349,data/ec138349/test/bt.java,153:153,F,F,,,F,F,,,,,0,0,F,F,F,
 47199,71f8f72f,GitHub,ec138349,data/ec138349/test/d.xml,105:105,F,F,,,F,F,,,,,0,0,F,F,F,
 47200,71f8f72f,GitHub,ec138349,data/ec138349/test/d.xml,51:51,F,F,,,F,F,,,,,0,0,F,F,F,
 47433,9a21089d,GitHub,ec138349,data/ec138349/test/ba.xml,24:24,F,F,,,F,F,,,,,0,0,F,F,F,
-48038,8201325f,GitHub,ec138349,data/ec138349/test/dc.yml,8:8,T,1,10,18,F,F,CharsOnly,,,Unknown,2.75,8,F,F,F,Password
-48039,37c07333,GitHub,ec138349,data/ec138349/test/dd.yml,8:8,T,1,10,18,F,F,CharsOnly,,,Unknown,2.75,8,F,F,F,Password
-48274,69148d74,GitHub,ec138349,data/ec138349/test/df.md,44:44,T,0,8,43,F,F,Any,,,Token,3.41,35,F,F,F,Generic Token
+48038,8201325f,GitHub,ec138349,data/ec138349/test/dc.yml,8:8,Template,T,10,18,F,F,CharsOnly,,,Unknown,2.75,8,F,F,F,Password
+48039,37c07333,GitHub,ec138349,data/ec138349/test/dd.yml,8:8,Template,T,10,18,F,F,CharsOnly,,,Unknown,2.75,8,F,F,F,Password
+48274,69148d74,GitHub,ec138349,data/ec138349/test/df.md,44:44,T,F,8,43,F,F,Any,,,Token,3.41,35,F,F,F,Generic Token
 55662,69148d74,GitHub,ec138349,data/ec138349/test/df.md,42:42,F,F,,,F,F,,,,,0,0,F,F,F,
 56998,fbd12b2e,GitHub,ec138349,data/ec138349/test/db.java,119:119,F,F,,,F,F,,,,,0,0,F,F,F,
 57488,b07e99e9,GitHub,ec138349,data/ec138349/src/k.jsp,66:66,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -204,6 +204,65 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 79475,5cba2249,GitHub,ec138349,data/ec138349/test/o.java,107:115,F,F,,,F,F,,,,,0,0,F,F,F,
 79476,5cba2249,GitHub,ec138349,data/ec138349/test/o.java,117:124,F,F,,,F,F,,,,,0,0,F,F,F,
 79477,5cba2249,GitHub,ec138349,data/ec138349/test/o.java,126:144,F,F,,,F,F,,,,,0,0,F,F,F,
-82634,37c07333,GitHub,ec138349,data/ec138349/test/dd.yml,17:17,F,F,4,12,F,F,,,,,0,0,F,F,F,
+82634,37c07333,GitHub,ec138349,data/ec138349/test/dd.yml,17:17,Template,F,4,12,F,F,,,,,0,0,F,F,F,
 82635,525afad4,GitHub,ec138349,data/ec138349/test/cg.java,247:247,F,F,0,88,F,F,,,,,0,0,F,F,F,
 82636,525afad4,GitHub,ec138349,data/ec138349/test/cg.java,268:268,F,F,0,122,F,F,,,,,0,0,F,F,F,
+107536,ff764887,GitHub,ec138349,data/ec138349/src/bm.java,85:85,F,F,,,F,F,,,,,0.00,,F,F,F,
+107537,9a21089d,GitHub,ec138349,data/ec138349/test/ba.xml,49:49,F,F,,,F,F,,,,,0.00,,F,F,F,
+107538,4261598e,GitHub,ec138349,data/ec138349/test/bb.xml,50:50,Template,T,17,33,F,F,Any,,,Secret,2.95,16,F,F,F,Password
+107539,7c0a564e,GitHub,ec138349,data/ec138349/test/bv.java,88:88,F,F,,,F,F,,,,,0.00,,F,F,F,
+107540,73887711,GitHub,ec138349,data/ec138349/test/cl.xml,13:13,F,F,,,F,F,,,,,0.00,,F,F,F,
+107541,76fb89fa,GitHub,ec138349,data/ec138349/test/cm.xml,12:12,F,F,,,F,F,,,,,0.00,,F,F,F,
+107542,76fb89fa,GitHub,ec138349,data/ec138349/test/cm.xml,19:19,F,F,,,F,F,,,,,0.00,,F,F,F,
+107543,76fb89fa,GitHub,ec138349,data/ec138349/test/cm.xml,35:35,F,F,,,F,F,,,,,0.00,,F,F,F,
+107544,93ba915a,GitHub,ec138349,data/ec138349/test/cs.java,83:83,F,F,,,F,F,,,,,0.00,,F,F,F,
+107545,7df3d414,GitHub,ec138349,data/ec138349/test/cx.java,123:123,F,F,,,F,F,,,,,0.00,,F,F,F,
+107546,8ebabaf2,GitHub,ec138349,data/ec138349/test/cz.java,89:89,F,F,,,F,F,,,,,0.00,,F,F,F,
+107547,fbd12b2e,GitHub,ec138349,data/ec138349/test/db.java,126:126,F,F,,,F,F,,,,,0.00,,F,F,F,
+107548,24325dd6,GitHub,ec138349,data/ec138349/test/di.sql,60:60,F,F,,,F,F,,,,,0.00,,F,F,F,
+107549,3ba94f3c,GitHub,ec138349,data/ec138349/test/dj.xml,32:32,F,F,,,F,F,,,,,0.00,,F,F,F,
+107550,4a0999f9,GitHub,ec138349,data/ec138349/test/dk.xml,29:29,F,F,,,F,F,,,,,0.00,,F,F,F,
+107551,8ca6f43a,GitHub,ec138349,data/ec138349/test/i.java,164:164,F,F,,,F,F,,,,,0.00,,F,F,F,
+107552,8ca6f43a,GitHub,ec138349,data/ec138349/test/i.java,176:176,F,F,,,F,F,,,,,0.00,,F,F,F,
+107553,d965f676,GitHub,ec138349,data/ec138349/test/n.java,70:70,F,F,,,F,F,,,,,0.00,,F,F,F,
+107554,d965f676,GitHub,ec138349,data/ec138349/test/n.java,81:81,F,F,,,F,F,,,,,0.00,,F,F,F,
+107555,73887711,GitHub,ec138349,data/ec138349/test/cl.xml,14:14,F,F,,,F,F,,,,,0.00,,F,F,F,
+107556,f4c62d0f,GitHub,ec138349,data/ec138349/test/cn.xml,55:55,F,F,,,F,F,,,,,0.00,,F,F,F,
+107557,85da4b1a,GitHub,ec138349,data/ec138349/test/co.xml,37:37,F,F,,,F,F,,,,,0.00,,F,F,F,
+107558,85da4b1a,GitHub,ec138349,data/ec138349/test/co.xml,51:51,F,F,,,F,F,,,,,0.00,,F,F,F,
+107559,3ba94f3c,GitHub,ec138349,data/ec138349/test/dj.xml,24:24,F,F,,,F,F,,,,,0.00,,F,F,F,
+107560,4a0999f9,GitHub,ec138349,data/ec138349/test/dk.xml,21:21,F,F,,,F,F,,,,,0.00,,F,F,F,
+107561,2ad086c4,GitHub,ec138349,data/ec138349/test/h.java,376:376,T,F,26,31,F,F,CharOnly,,,Secret,2.32,5,F,F,F,Password
+107562,18b43943,GitHub,ec138349,data/ec138349/test/m.java,98:98,F,F,,,F,F,,,,,0.00,,F,F,F,
+107563,18b43943,GitHub,ec138349,data/ec138349/test/m.java,115:115,F,F,,,F,F,,,,,0.00,,F,F,F,
+107564,2d2abc99,GitHub,ec138349,data/ec138349/test/w.java,440:440,F,F,,,F,F,,,,,0.00,,F,F,F,
+107565,1c39b347,GitHub,ec138349,data/ec138349/test/y.java,54:54,F,F,,,F,F,,,,,0.00,,F,F,F,
+107566,1c39b347,GitHub,ec138349,data/ec138349/test/y.java,88:88,F,F,,,F,F,,,,,0.00,,F,F,F,
+114027,9b2822cf,GitHub,ec138349,data/ec138349/src/be.java,33:33,F,F,,,F,F,,,,,0.00,,F,F,F,
+114028,911588ba,GitHub,ec138349,data/ec138349/src/bd.java,68:68,F,F,,,F,F,,,,,0.00,,F,F,F,
+114029,bbd27a23,GitHub,ec138349,data/ec138349/test/ck.java,81:81,F,F,,,F,F,,,,,0.00,,F,F,F,
+114030,bbd27a23,GitHub,ec138349,data/ec138349/test/ck.java,102:102,F,F,,,F,F,,,,,0.00,,F,F,F,
+114031,bbd27a23,GitHub,ec138349,data/ec138349/test/ck.java,122:122,F,F,,,F,F,,,,,0.00,,F,F,F,
+114032,bbd27a23,GitHub,ec138349,data/ec138349/test/ck.java,81:81,F,F,,,F,F,,,,,0.00,,F,F,F,
+114033,bbd27a23,GitHub,ec138349,data/ec138349/test/ck.java,102:102,F,F,,,F,F,,,,,0.00,,F,F,F,
+114034,bbd27a23,GitHub,ec138349,data/ec138349/test/ck.java,122:122,F,F,,,F,F,,,,,0.00,,F,F,F,
+114035,76fb89fa,GitHub,ec138349,data/ec138349/test/cm.xml,37:37,F,F,,,F,F,,,,,0.00,,F,F,F,
+114036,69d2ad5d,GitHub,ec138349,data/ec138349/test/x.java,63:63,F,F,,,F,F,,,,,0.00,,F,F,F,
+114037,69d2ad5d,GitHub,ec138349,data/ec138349/test/x.java,69:69,F,F,,,F,F,,,,,0.00,,F,F,F,
+114038,1c39b347,GitHub,ec138349,data/ec138349/test/y.java,53:53,T,F,33,49,F,F,Any,,,Token,3.50,16,F,F,F,Generic Token
+114039,1c39b347,GitHub,ec138349,data/ec138349/test/y.java,87:87,T,F,33,49,F,F,Any,,,Token,3.62,16,F,F,F,Generic Token
+114040,1c39b347,GitHub,ec138349,data/ec138349/test/y.java,52:52,T,F,40,56,F,F,Any,,,Auth,3.75,16,F,F,F,Authentication Key & Token
+114041,1c39b347,GitHub,ec138349,data/ec138349/test/y.java,53:53,T,F,33,49,F,F,Any,,,Token,3.50,16,F,F,F,Generic Token
+114042,1c39b347,GitHub,ec138349,data/ec138349/test/y.java,55:55,T,F,37,69,F,F,Any,,,Auth,4.29,32,F,F,T,Authentication Key & Token
+114043,1c39b347,GitHub,ec138349,data/ec138349/test/y.java,56:56,T,F,37,46,F,F,NumberOnly,,,Auth,2.20,9,F,F,F,Authentication Key & Token
+114044,1c39b347,GitHub,ec138349,data/ec138349/test/y.java,57:57,T,F,33,63,F,F,Any,,,SeedSalt,2.95,30,F,F,F,Authentication Key & Token
+114045,1c39b347,GitHub,ec138349,data/ec138349/test/y.java,86:86,T,F,40,56,F,F,Any,,,Auth,3.00,16,F,F,F,Authentication Key & Token
+114046,1c39b347,GitHub,ec138349,data/ec138349/test/y.java,87:87,T,F,33,49,F,F,Any,,,Token,3.62,16,F,F,F,Generic Token
+114047,1c39b347,GitHub,ec138349,data/ec138349/test/y.java,90:90,T,F,37,47,F,F,NumberOnly,,,Auth,2.45,10,F,F,F,Authentication Key & Token
+114048,1c39b347,GitHub,ec138349,data/ec138349/test/y.java,91:91,T,F,33,49,F,F,Any,,,SeedSalt,3.28,16,F,F,F,Authentication Key & Token
+114049,1c39b347,GitHub,ec138349,data/ec138349/test/y.java,52:52,T,F,40,56,F,F,Any,,,Auth,3.75,16,F,F,F,Authentication Key & Token
+114050,1c39b347,GitHub,ec138349,data/ec138349/test/y.java,86:86,T,F,40,56,F,F,Any,,,Auth,3.00,16,F,F,F,Authentication Key & Token
+114051,1c39b347,GitHub,ec138349,data/ec138349/test/y.java,57:57,T,F,33,63,F,F,Any,,,SeedSalt,2.95,30,F,F,F,Authentication Key & Token
+114052,1c39b347,GitHub,ec138349,data/ec138349/test/y.java,91:91,T,F,33,49,F,F,Any,,,SeedSalt,3.28,16,F,F,F,Authentication Key & Token
+120002,71f8f72f,GitHub,ec138349,data/ec138349/test/d.xml,42:42,T,F,90,101,F,F,Any,,,Auth,3.10,11,F,F,F,Authentication Key & Token
+120003,71f8f72f,GitHub,ec138349,data/ec138349/test/d.xml,96:96,T,F,90,101,F,F,Any,,,Auth,3.10,11,F,F,F,Authentication Key & Token

@@ -64,58 +64,58 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 14476,899e2ad8,GitHub,16fc0238,data/16fc0238/src/bo.ts,4:4,F,F,,,F,F,,,,,0,0,F,F,F,
 14477,b5e5b2ad,GitHub,16fc0238,data/16fc0238/src/bn.ts,7:7,F,F,,,F,F,,,,,0,0,F,F,F,
 23497,c72b6783,GitHub,16fc0238,data/16fc0238/test/bj.ts,11:11,F,F,,,F,F,,,,,0,0,F,F,F,
-28978,4fe01e1a,GitHub,16fc0238,data/16fc0238/test/o.ts,77:77,Template,0,11,16,F,F,CharsOnly,,,Secret,1.92,5,F,F,F,Password
-28987,97d618d0,GitHub,16fc0238,data/16fc0238/test/g.ts,38:38,Template,0,11,17,F,F,CharsOnly,,,Secret,1.58,6,F,F,F,Password
-29856,09311765,GitHub,16fc0238,data/16fc0238/test/n.ts,95:95,Template,1,11,22,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
-29863,db9150dd,GitHub,16fc0238,data/16fc0238/test/h.ts,34:34,Template,1,11,17,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
-29870,47309af1,GitHub,16fc0238,data/16fc0238/test/m.ts,77:77,Template,1,11,18,F,F,Any,,,Secret,2.52,7,F,F,F,Password
-29892,52161ff7,GitHub,16fc0238,data/16fc0238/test/j.ts,65:65,Template,1,11,20,F,F,CharsOnly,,,Secret,2.64,9,F,F,F,Password
-29919,47309af1,GitHub,16fc0238,data/16fc0238/test/m.ts,32:32,Template,1,11,22,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
-29920,352c6a23,GitHub,16fc0238,data/16fc0238/test/y.ts,164:164,Template,1,11,22,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
-29921,09311765,GitHub,16fc0238,data/16fc0238/test/n.ts,14:14,Template,1,11,22,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
-29946,b03ce1ba,GitHub,16fc0238,data/16fc0238/test/r.ts,46:46,Template,1,9,20,F,F,Any,,,Secret,2.53,11,F,F,F,Password
-29947,eaacd181,GitHub,16fc0238,data/16fc0238/test/i.ts,15:15,Template,1,9,20,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
-29960,b03ce1ba,GitHub,16fc0238,data/16fc0238/test/r.ts,42:42,Template,1,9,24,F,F,Any,,,Secret,2.32,15,F,F,F,Password
-30501,8244fd67,GitHub,16fc0238,data/16fc0238/test/s.ts,51:51,Template,1,49,56,F,F,CharsOnly,,,Token,2.52,7,F,F,F,Generic Token
-30503,8244fd67,GitHub,16fc0238,data/16fc0238/test/s.ts,25:25,Template,1,43,50,F,F,CharsOnly,,,Token,2.52,7,F,F,F,Generic Token
-30504,8244fd67,GitHub,16fc0238,data/16fc0238/test/s.ts,30:30,Template,1,48,55,F,F,CharsOnly,,,Token,2.52,7,F,F,F,Generic Token
-30512,8244fd67,GitHub,16fc0238,data/16fc0238/test/s.ts,41:41,Template,1,43,50,F,F,CharsOnly,,,Token,2.52,7,F,F,F,Generic Token
-30673,4fe01e1a,GitHub,16fc0238,data/16fc0238/test/o.ts,9:9,Template,1,18,29,F,F,CharsOnly,,,Secret,2.91,11,F,F,F,Password
-30674,47309af1,GitHub,16fc0238,data/16fc0238/test/m.ts,59:59,Template,1,18,29,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
-30681,52161ff7,GitHub,16fc0238,data/16fc0238/test/j.ts,23:23,Template,1,57,67,F,F,CharsOnly,,,Secret,2.92,10,F,F,F,Password
+28978,4fe01e1a,GitHub,16fc0238,data/16fc0238/test/o.ts,77:77,Template,F,11,16,F,F,CharsOnly,,,Secret,1.92,5,F,F,F,Password
+28987,97d618d0,GitHub,16fc0238,data/16fc0238/test/g.ts,38:38,Template,F,11,17,F,F,CharsOnly,,,Secret,1.58,6,F,F,F,Password
+29856,09311765,GitHub,16fc0238,data/16fc0238/test/n.ts,95:95,Template,T,11,22,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
+29863,db9150dd,GitHub,16fc0238,data/16fc0238/test/h.ts,34:34,Template,T,11,17,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
+29870,47309af1,GitHub,16fc0238,data/16fc0238/test/m.ts,77:77,Template,T,11,18,F,F,Any,,,Secret,2.52,7,F,F,F,Password
+29892,52161ff7,GitHub,16fc0238,data/16fc0238/test/j.ts,65:65,T,T,11,20,F,F,CharsOnly,,,Secret,2.64,9,F,F,F,Password
+29919,47309af1,GitHub,16fc0238,data/16fc0238/test/m.ts,32:32,Template,T,11,22,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
+29920,352c6a23,GitHub,16fc0238,data/16fc0238/test/y.ts,164:164,Template,T,11,22,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
+29921,09311765,GitHub,16fc0238,data/16fc0238/test/n.ts,14:14,Template,T,11,22,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
+29946,b03ce1ba,GitHub,16fc0238,data/16fc0238/test/r.ts,46:46,Template,T,9,20,F,F,Any,,,Secret,2.53,11,F,F,F,Password
+29947,eaacd181,GitHub,16fc0238,data/16fc0238/test/i.ts,15:15,Template,T,9,20,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
+29960,b03ce1ba,GitHub,16fc0238,data/16fc0238/test/r.ts,42:42,Template,T,9,24,F,F,Any,,,Secret,2.32,15,F,F,F,Password
+30501,8244fd67,GitHub,16fc0238,data/16fc0238/test/s.ts,51:51,F,T,49,56,F,F,CharsOnly,,,Token,2.52,7,F,F,F,Generic Token
+30503,8244fd67,GitHub,16fc0238,data/16fc0238/test/s.ts,25:25,F,T,43,50,F,F,CharsOnly,,,Token,2.52,7,F,F,F,Generic Token
+30504,8244fd67,GitHub,16fc0238,data/16fc0238/test/s.ts,30:30,F,T,48,55,F,F,CharsOnly,,,Token,2.52,7,F,F,F,Generic Token
+30512,8244fd67,GitHub,16fc0238,data/16fc0238/test/s.ts,41:41,F,T,43,50,F,F,CharsOnly,,,Token,2.52,7,F,F,F,Generic Token
+30673,4fe01e1a,GitHub,16fc0238,data/16fc0238/test/o.ts,9:9,Template,T,18,29,F,F,CharsOnly,,,Secret,2.91,11,F,F,F,Password
+30674,47309af1,GitHub,16fc0238,data/16fc0238/test/m.ts,59:59,Template,T,18,29,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
+30681,52161ff7,GitHub,16fc0238,data/16fc0238/test/j.ts,23:23,Template,T,57,67,F,F,CharsOnly,,,Secret,2.92,10,F,F,F,Password
 30736,2eba5fdb,GitHub,16fc0238,data/16fc0238/test/x.ts,49:49,F,F,1,4,F,F,,,,,0,0,F,F,F,
-32455,84389e37,GitHub,16fc0238,data/16fc0238/test/bg.ts,16:16,T,1,18,30,F,F,CharsOnly,,,Secret,2.46,12,F,F,F,Password
-32456,98a728b6,GitHub,16fc0238,data/16fc0238/test/bi.ts,14:14,T,1,18,26,F,F,CharsOnly,,,Secret,3.00,8,F,F,F,Password
+32455,84389e37,GitHub,16fc0238,data/16fc0238/test/bg.ts,16:16,T,T,18,30,F,F,CharsOnly,,,Secret,2.46,12,F,F,F,Password
+32456,98a728b6,GitHub,16fc0238,data/16fc0238/test/bi.ts,14:14,T,T,18,26,F,F,CharsOnly,,,Secret,3.00,8,F,F,F,Password
 34455,b9318157,GitHub,16fc0238,data/16fc0238/test/be.ts,233:233,F,F,11,27,F,F,,,,,0,0,F,F,F,
-34534,eaacd181,GitHub,16fc0238,data/16fc0238/test/i.ts,19:19,T,1,16,24,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-34590,84389e37,GitHub,16fc0238,data/16fc0238/test/bg.ts,79:79,T,1,11,16,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
-35298,adfcaad0,GitHub,16fc0238,data/16fc0238/test/bk.pem,1:15,T,1,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
+34534,eaacd181,GitHub,16fc0238,data/16fc0238/test/i.ts,19:19,Template,T,16,24,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+34590,84389e37,GitHub,16fc0238,data/16fc0238/test/bg.ts,79:79,Template,T,11,16,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
+35298,adfcaad0,GitHub,16fc0238,data/16fc0238/test/bk.pem,1:15,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
 37179,b9318157,GitHub,16fc0238,data/16fc0238/test/be.ts,248:248,F,F,11,27,F,F,,,,,0,0,F,F,F,
 37180,b9318157,GitHub,16fc0238,data/16fc0238/test/be.ts,274:274,F,F,11,27,F,F,,,,,0,0,F,F,F,
 37181,b9318157,GitHub,16fc0238,data/16fc0238/test/be.ts,287:287,F,F,11,27,F,F,,,,,0,0,F,F,F,
 37182,b9318157,GitHub,16fc0238,data/16fc0238/test/be.ts,305:305,F,F,11,27,F,F,,,,,0,0,F,F,F,
 37183,b9318157,GitHub,16fc0238,data/16fc0238/test/be.ts,320:320,F,F,11,27,F,F,,,,,0,0,F,F,F,
-47126,09311765,GitHub,16fc0238,data/16fc0238/test/n.ts,71:71,T,1,11,22,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
-47203,09311765,GitHub,16fc0238,data/16fc0238/test/n.ts,124:124,T,1,11,22,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
-47206,09311765,GitHub,16fc0238,data/16fc0238/test/n.ts,121:121,T,1,11,22,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
-47207,3b31957b,GitHub,16fc0238,data/16fc0238/test/w.ts,171:171,T,1,11,22,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
-47208,3b31957b,GitHub,16fc0238,data/16fc0238/test/w.ts,153:153,T,1,11,22,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
-47209,09311765,GitHub,16fc0238,data/16fc0238/test/n.ts,33:33,T,1,11,22,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
-47211,98a728b6,GitHub,16fc0238,data/16fc0238/test/bi.ts,43:43,T,1,11,16,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
+47126,09311765,GitHub,16fc0238,data/16fc0238/test/n.ts,71:71,Template,T,11,22,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
+47203,09311765,GitHub,16fc0238,data/16fc0238/test/n.ts,124:124,Template,T,11,22,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
+47206,09311765,GitHub,16fc0238,data/16fc0238/test/n.ts,121:121,Template,T,11,22,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
+47207,3b31957b,GitHub,16fc0238,data/16fc0238/test/w.ts,171:171,Template,T,11,22,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
+47208,3b31957b,GitHub,16fc0238,data/16fc0238/test/w.ts,153:153,Template,T,11,22,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
+47209,09311765,GitHub,16fc0238,data/16fc0238/test/n.ts,33:33,Template,T,11,22,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
+47211,98a728b6,GitHub,16fc0238,data/16fc0238/test/bi.ts,43:43,Template,T,11,16,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
 47479,b9318157,GitHub,16fc0238,data/16fc0238/test/be.ts,296:296,F,F,,,F,F,,,,,0,0,F,F,F,
-47564,4fe01e1a,GitHub,16fc0238,data/16fc0238/test/o.ts,91:91,Template,0,11,16,F,F,CharsOnly,,,Secret,1.92,5,F,F,F,Password
-47565,4fe01e1a,GitHub,16fc0238,data/16fc0238/test/o.ts,110:110,Template,0,11,16,F,F,CharsOnly,,,Secret,1.92,5,F,F,F,Password
-47566,09311765,GitHub,16fc0238,data/16fc0238/test/n.ts,153:153,T,1,11,22,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
-47567,09311765,GitHub,16fc0238,data/16fc0238/test/n.ts,92:92,T,1,11,22,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
-47568,47309af1,GitHub,16fc0238,data/16fc0238/test/m.ts,48:48,T,1,11,22,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
-47569,09311765,GitHub,16fc0238,data/16fc0238/test/n.ts,150:150,T,1,11,22,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
-47570,09311765,GitHub,16fc0238,data/16fc0238/test/n.ts,51:51,T,1,11,22,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
-47802,12315d4d,GitHub,16fc0238,data/16fc0238/test/z.ts,28:28,Template,1,9,20,F,F,CharsOnly,,,Unknown,2.66,11,F,F,F,Other
-47803,3b31957b,GitHub,16fc0238,data/16fc0238/test/w.ts,20:20,Template,1,9,20,F,F,CharsOnly,,,Unknown,2.66,11,F,F,F,Other
-47804,4956e869,GitHub,16fc0238,data/16fc0238/test/ba.ts,27:27,Template,1,9,20,F,F,CharsOnly,,,Unknown,2.66,11,F,F,F,Other
-47805,352c6a23,GitHub,16fc0238,data/16fc0238/test/y.ts,21:21,Template,1,9,20,F,F,CharsOnly,,,Unknown,2.66,11,F,F,F,Other
-47967,47309af1,GitHub,16fc0238,data/16fc0238/test/m.ts,70:70,T,1,18,29,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
-48189,b03ce1ba,GitHub,16fc0238,data/16fc0238/test/r.ts,32:32,Template,1,9,20,F,F,CharsOnly,,,Unknown,2.66,11,F,F,F,Other
+47564,4fe01e1a,GitHub,16fc0238,data/16fc0238/test/o.ts,91:91,Template,F,11,16,F,F,CharsOnly,,,Secret,1.92,5,F,F,F,Password
+47565,4fe01e1a,GitHub,16fc0238,data/16fc0238/test/o.ts,110:110,Template,F,11,16,F,F,CharsOnly,,,Secret,1.92,5,F,F,F,Password
+47566,09311765,GitHub,16fc0238,data/16fc0238/test/n.ts,153:153,Template,T,11,22,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
+47567,09311765,GitHub,16fc0238,data/16fc0238/test/n.ts,92:92,Template,T,11,22,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
+47568,47309af1,GitHub,16fc0238,data/16fc0238/test/m.ts,48:48,Template,T,11,22,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
+47569,09311765,GitHub,16fc0238,data/16fc0238/test/n.ts,150:150,Template,T,11,22,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
+47570,09311765,GitHub,16fc0238,data/16fc0238/test/n.ts,51:51,Template,T,11,22,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
+47802,12315d4d,GitHub,16fc0238,data/16fc0238/test/z.ts,28:28,Template,T,9,20,F,F,CharsOnly,,,Unknown,2.66,11,F,F,F,Other
+47803,3b31957b,GitHub,16fc0238,data/16fc0238/test/w.ts,20:20,Template,T,9,20,F,F,CharsOnly,,,Unknown,2.66,11,F,F,F,Other
+47804,4956e869,GitHub,16fc0238,data/16fc0238/test/ba.ts,27:27,Template,T,9,20,F,F,CharsOnly,,,Unknown,2.66,11,F,F,F,Other
+47805,352c6a23,GitHub,16fc0238,data/16fc0238/test/y.ts,21:21,Template,T,9,20,F,F,CharsOnly,,,Unknown,2.66,11,F,F,F,Other
+47967,47309af1,GitHub,16fc0238,data/16fc0238/test/m.ts,70:70,Template,T,18,29,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
+48189,b03ce1ba,GitHub,16fc0238,data/16fc0238/test/r.ts,32:32,Template,T,9,20,F,F,CharsOnly,,,Unknown,2.66,11,F,F,F,Other
 62647,6e21b777,GitHub,16fc0238,data/16fc0238/src/u.ts,13:13,F,F,,,F,F,,,,,0,0,F,F,F,
 62648,6e21b777,GitHub,16fc0238,data/16fc0238/src/u.ts,18:18,F,F,,,F,F,,,,,0,0,F,F,F,
 63485,d79e8858,GitHub,16fc0238,data/16fc0238/src/b.ts,108:108,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -147,7 +147,15 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 76517,4956e869,GitHub,16fc0238,data/16fc0238/test/ba.ts,191:191,F,F,,,F,F,,,,,0,0,F,F,F,
 76518,4956e869,GitHub,16fc0238,data/16fc0238/test/ba.ts,204:204,F,F,,,F,F,,,,,0,0,F,F,F,
 76519,3b31957b,GitHub,16fc0238,data/16fc0238/test/w.ts,200:200,F,F,,,F,F,,,,,0,0,F,F,F,
-80162,4956e869,GitHub,16fc0238,data/16fc0238/test/ba.ts,238:238,T,1,9,20,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
-80163,4956e869,GitHub,16fc0238,data/16fc0238/test/ba.ts,253:253,T,1,9,20,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
-80164,4956e869,GitHub,16fc0238,data/16fc0238/test/ba.ts,268:268,T,1,9,20,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
-80165,352c6a23,GitHub,16fc0238,data/16fc0238/test/y.ts,27:27,T,1,9,20,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
+80162,4956e869,GitHub,16fc0238,data/16fc0238/test/ba.ts,238:238,Template,T,9,20,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
+80163,4956e869,GitHub,16fc0238,data/16fc0238/test/ba.ts,253:253,Template,T,9,20,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
+80164,4956e869,GitHub,16fc0238,data/16fc0238/test/ba.ts,268:268,Template,T,9,20,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
+80165,352c6a23,GitHub,16fc0238,data/16fc0238/test/y.ts,27:27,Template,T,9,20,F,F,CharsOnly,,,Secret,2.66,11,F,F,F,Password
+100358,6e21b777,GitHub,16fc0238,data/16fc0238/src/u.ts,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,
+100359,eaacd181,GitHub,16fc0238,data/16fc0238/test/i.ts,36:36,F,F,,,F,F,,,,,0.00,,F,F,F,
+110094,686d31b4,GitHub,16fc0238,data/16fc0238/src/c.ts,59:59,F,F,,,F,F,,,,,0.00,,F,F,F,
+110095,686d31b4,GitHub,16fc0238,data/16fc0238/src/c.ts,69:69,F,F,,,F,F,,,,,0.00,,F,F,F,
+130069,24ba729c,GitHub,16fc0238,data/16fc0238/src/l.ts,124:124,F,F,,,F,F,,,,,0.00,,F,F,F,
+130070,b1ff5859,GitHub,16fc0238,data/16fc0238/other/t.md,1606:1606,F,F,,,F,F,,,,,0.00,,F,F,F,
+130071,b1ff5859,GitHub,16fc0238,data/16fc0238/other/t.md,1117:1117,F,F,,,F,F,,,,,0.00,,F,F,F,
+130072,b1ff5859,GitHub,16fc0238,data/16fc0238/other/t.md,1606:1606,F,F,,,F,F,,,,,0.00,,F,F,F,

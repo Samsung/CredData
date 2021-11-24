@@ -31,19 +31,19 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 26705,43a1a5d0,GitHub,4fe048e4,data/4fe048e4/src/l.haml,44:44,F,F,,,F,F,,,,,0,0,F,F,F,
 26729,9af5492c,GitHub,4fe048e4,data/4fe048e4/src/o.haml,22:22,F,F,,,F,F,,,,,0,0,F,F,F,
 32263,2f54dc49,GitHub,4fe048e4,data/4fe048e4/test/v.msg,771:771,F,F,0,60,F,F,,,,,0,0,F,F,F,
-34602,b7ef57c6,GitHub,4fe048e4,data/4fe048e4/test/s.yml,21:21,T,1,10,24,F,F,Any,,,Secret,3.04,14,F,F,F,Password
-34629,9e4caa6f,GitHub,4fe048e4,data/4fe048e4/src/y.yml,29:29,T,1,10,15,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
-34631,5a906465,GitHub,4fe048e4,data/4fe048e4/src/r.yml,21:21,T,1,10,15,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
-35132,9e4caa6f,GitHub,4fe048e4,data/4fe048e4/src/y.yml,54:54,T,0,12,268,F,F,Any,,,Secret,3.95,256,F,F,F,Generic Secret
-35136,5a906465,GitHub,4fe048e4,data/4fe048e4/src/r.yml,29:29,T,1,12,140,F,F,Any,,,Secret,3.88,128,F,F,F,Generic Secret
-35290,153a1907,GitHub,4fe048e4,data/4fe048e4/src/z.key,1:15,T,1,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
-35411,d6b6932d,GitHub,4fe048e4,data/4fe048e4/src/x.key,1:27,T,1,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
-37215,b7ef57c6,GitHub,4fe048e4,data/4fe048e4/test/s.yml,29:29,T,1,10,24,F,F,Any,,,Secret,3.04,14,F,F,F,Password
-37216,b7ef57c6,GitHub,4fe048e4,data/4fe048e4/test/s.yml,41:41,T,1,10,24,F,F,Any,,,Secret,3.04,14,F,F,F,Password
+34602,b7ef57c6,GitHub,4fe048e4,data/4fe048e4/test/s.yml,21:21,T,T,10,24,F,F,Any,,,Secret,3.04,14,F,F,F,Password
+34629,9e4caa6f,GitHub,4fe048e4,data/4fe048e4/src/y.yml,29:29,T,T,10,15,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
+34631,5a906465,GitHub,4fe048e4,data/4fe048e4/src/r.yml,21:21,T,T,10,15,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
+35132,9e4caa6f,GitHub,4fe048e4,data/4fe048e4/src/y.yml,54:54,T,F,12,268,F,F,Any,,,Secret,3.95,256,F,F,F,Generic Secret
+35136,5a906465,GitHub,4fe048e4,data/4fe048e4/src/r.yml,29:29,T,T,12,140,F,F,Any,,,Secret,3.88,128,F,F,F,Generic Secret
+35290,153a1907,GitHub,4fe048e4,data/4fe048e4/src/z.key,1:15,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
+35411,d6b6932d,GitHub,4fe048e4,data/4fe048e4/src/x.key,1:27,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
+37215,b7ef57c6,GitHub,4fe048e4,data/4fe048e4/test/s.yml,29:29,T,T,10,24,F,F,Any,,,Secret,3.04,14,F,F,F,Password
+37216,b7ef57c6,GitHub,4fe048e4,data/4fe048e4/test/s.yml,41:41,T,T,10,24,F,F,Any,,,Secret,3.04,14,F,F,F,Password
 41763,edb83fd3,GitHub,4fe048e4,data/4fe048e4/src/u.rb,173:173,F,F,,,F,F,,,,,0,0,F,F,F,
 42058,9802ca3c,GitHub,4fe048e4,data/4fe048e4/src/k.rb,17:17,F,F,,,F,F,,,,,0,0,F,F,F,
-42335,a05d611b,GitHub,4fe048e4,data/4fe048e4/src/c.rb,15:15,Template,1,99,120,F,F,Any,,,Secret,3.48,21,F,F,F,Password
-42336,a05d611b,GitHub,4fe048e4,data/4fe048e4/src/c.rb,52:52,Template,1,113,134,F,F,Any,,,Secret,3.48,21,F,F,F,Password
+42335,a05d611b,GitHub,4fe048e4,data/4fe048e4/src/c.rb,15:15,Template,T,99,120,F,F,Any,,,Secret,3.48,21,F,F,F,Password
+42336,a05d611b,GitHub,4fe048e4,data/4fe048e4/src/c.rb,52:52,Template,T,113,134,F,F,Any,,,Secret,3.48,21,F,F,F,Password
 55579,427764ef,GitHub,4fe048e4,data/4fe048e4/src/ba.rb,12:12,F,F,,,F,F,,,,,0,0,F,F,F,
 55586,3add9d7f,GitHub,4fe048e4,data/4fe048e4/src/f.rb,9:9,F,F,,,F,F,,,,,0,0,F,F,F,
 57948,d9702c62,GitHub,4fe048e4,data/4fe048e4/src/d.rb,9:9,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -60,3 +60,12 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 76613,9e4caa6f,GitHub,4fe048e4,data/4fe048e4/src/y.yml,16:16,F,F,,,F,F,,,,,0,0,F,F,F,
 76614,9e4caa6f,GitHub,4fe048e4,data/4fe048e4/src/y.yml,22:22,F,F,,,F,F,,,,,0,0,F,F,F,
 78190,3738c08c,GitHub,4fe048e4,data/4fe048e4/src/j.rb,97:97,F,F,,,F,F,,,,,0,0,F,F,F,
+108033,a5bac532,GitHub,4fe048e4,data/4fe048e4/src/m.haml,14:14,F,F,,,F,F,,,,,0.00,,F,F,F,
+114340,edb83fd3,GitHub,4fe048e4,data/4fe048e4/src/u.rb,175:175,F,F,,,F,F,,,,,0.00,,F,F,F,
+114341,edb83fd3,GitHub,4fe048e4,data/4fe048e4/src/u.rb,210:210,F,F,,,F,F,,,,,0.00,,F,F,F,
+131410,edb83fd3,GitHub,4fe048e4,data/4fe048e4/src/u.rb,156:156,F,F,,,F,F,,,,,0.00,,F,F,F,
+131411,e7f4c355,GitHub,4fe048e4,data/4fe048e4/src/q.yml,108:108,F,F,,,F,F,,,,,0.00,,F,F,F,
+131412,b7ef57c6,GitHub,4fe048e4,data/4fe048e4/test/s.yml,63:63,F,F,,,F,F,,,,,0.00,,F,F,F,
+131413,b7ef57c6,GitHub,4fe048e4,data/4fe048e4/test/s.yml,63:63,F,F,,,F,F,,,,,0.00,,F,F,F,
+131414,e7f4c355,GitHub,4fe048e4,data/4fe048e4/src/q.yml,108:108,F,F,,,F,F,,,,,0.00,,F,F,F,
+131415,edb83fd3,GitHub,4fe048e4,data/4fe048e4/src/u.rb,217:217,F,F,,,F,F,,,,,0.00,,F,F,F,

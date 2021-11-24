@@ -19,30 +19,54 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 14540,a40cbd6a,GitHub,57c424f8,data/57c424f8/src/c.java,50:50,F,F,,,F,F,,,,,0,0,F,F,F,
 14595,82622274,GitHub,57c424f8,data/57c424f8/src/d.java,42:42,F,F,,,F,F,,,,,0,0,F,F,F,
 14606,96d3f105,GitHub,57c424f8,data/57c424f8/test/bd.java,79:79,F,F,,,F,F,,,,,0,0,F,F,F,
-14625,aba0a779,GitHub,57c424f8,data/57c424f8/test/y.java,51:51,F,F,,,F,F,,,,,0,0,F,F,F,
+14625,aba0a779,GitHub,57c424f8,data/57c424f8/test/y.java,51:51,Template,T,51,59,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Password
 14630,8f374c21,GitHub,57c424f8,data/57c424f8/test/w.java,31:31,F,F,,,F,F,,,,,0,0,F,F,F,
-14631,5c41c2be,GitHub,57c424f8,data/57c424f8/test/n.java,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
+14631,5c41c2be,GitHub,57c424f8,data/57c424f8/test/n.java,54:54,Template,T,28,43,F,F,Any,,,Secret,2.99,15,F,F,F,Password
 14632,5c41c2be,GitHub,57c424f8,data/57c424f8/test/n.java,52:52,F,F,,,F,F,,,,,0,0,F,F,F,
 17516,64a82735,GitHub,57c424f8,data/57c424f8/src/a.cmd,147:147,F,F,,,F,F,,,,,0,0,F,F,F,
 18107,1c8a70fd,GitHub,57c424f8,data/57c424f8/test/u.java,126:126,F,F,,,F,F,,,,,0,0,F,F,F,
 21815,88ff33e3,GitHub,57c424f8,data/57c424f8/src/j.xml,124:124,F,F,,,F,F,,,,,0,0,F,F,F,
 21816,05e63b5d,GitHub,57c424f8,data/57c424f8/src/i.xml,107:107,F,F,,,F,F,,,,,0,0,F,F,F,
 22041,f23d7ddd,GitHub,57c424f8,data/57c424f8/test/k.java,41:41,F,F,,,F,F,,,,,0,0,F,F,F,
-22042,f23d7ddd,GitHub,57c424f8,data/57c424f8/test/k.java,42:42,F,F,,,F,F,,,,,0,0,F,F,F,
+22042,f23d7ddd,GitHub,57c424f8,data/57c424f8/test/k.java,42:42,T,F,13,18,F,F,CharOnly,,,Secret,2.32,5,F,F,F,Password
 22043,1f3cb7b7,GitHub,57c424f8,data/57c424f8/test/bc.java,56:56,F,F,,,F,F,,,,,0,0,F,F,F,
 22044,1f3cb7b7,GitHub,57c424f8,data/57c424f8/test/bc.java,57:57,F,F,,,F,F,,,,,0,0,F,F,F,
-28023,7345865e,GitHub,57c424f8,data/57c424f8/other/t.md,38:38,T,0,193,199,F,F,NumbersOnly,,,Secret,2.58,6,F,F,F,Password
-29804,b5b3fa31,GitHub,57c424f8,data/57c424f8/src/h.yml,84:84,Template,0,10,14,F,F,CharsOnly,,,Secret,0,4,F,F,F,Password
-31090,14ae04f1,GitHub,57c424f8,data/57c424f8/test/l.java,34:34,Template,0,55,71,F,F,NumbersOnly,,,Secret,3.25,16,F,F,F,Password
-32702,26e016da,GitHub,57c424f8,data/57c424f8/test/m.java,175:175,T,0,26,58,F,F,Any,,,Auth,3.44,32,F,F,F,Authentication Key & Token
-33045,92d80b30,GitHub,57c424f8,data/57c424f8/test/p.java,133:133,T,0,16,140,F,F,Any,,JSON Web Token,Token,5.28,124,F,F,F,Predefined Pattern
-34019,bddef9f5,GitHub,57c424f8,data/57c424f8/test/z.java,62:62,T,0,34,66,F,F,Any,,,Secret,3.57,32,F,F,F,Generic Secret
-34032,b9dd2cfa,GitHub,57c424f8,data/57c424f8/test/q.java,33:33,T,0,39,55,F,F,NumbersOnly,,,Unknown,2.75,16,F,F,F,Other
-34289,a933a801,GitHub,57c424f8,data/57c424f8/test/o.java,67:67,T,1,44,52,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-34291,2c698a15,GitHub,57c424f8,data/57c424f8/test/r.java,37:37,T,0,36,164,F,F,Any,,JSON Web Token,Token,5.31,128,F,F,F,Predefined Pattern
-47478,26e016da,GitHub,57c424f8,data/57c424f8/test/m.java,174:174,T,0,23,55,F,F,Any,,,Auth,3.65,32,F,F,F,Authentication Key & Token
-48051,bddef9f5,GitHub,57c424f8,data/57c424f8/test/z.java,60:60,T,0,31,63,F,F,Any,,,Unknown,3.60,32,F,F,F,Other
+28023,7345865e,GitHub,57c424f8,data/57c424f8/other/t.md,38:38,T,F,193,199,F,F,NumbersOnly,,,Secret,2.58,6,F,F,F,Password
+29804,b5b3fa31,GitHub,57c424f8,data/57c424f8/src/h.yml,84:84,Template,F,10,14,F,F,CharsOnly,,,Secret,0,4,F,F,F,Password
+31090,14ae04f1,GitHub,57c424f8,data/57c424f8/test/l.java,34:34,Template,F,55,71,F,F,NumbersOnly,,,Secret,3.25,16,F,F,F,Password
+32702,26e016da,GitHub,57c424f8,data/57c424f8/test/m.java,175:175,T,F,26,58,F,F,Any,,,Auth,3.44,32,F,F,F,Authentication Key & Token
+33045,92d80b30,GitHub,57c424f8,data/57c424f8/test/p.java,133:133,T,F,16,140,F,F,Any,,JSON Web Token,Token,5.28,124,F,F,F,Predefined Pattern
+34019,bddef9f5,GitHub,57c424f8,data/57c424f8/test/z.java,62:62,T,F,34,66,F,F,Any,,,Secret,3.57,32,F,F,F,Generic Secret
+34032,b9dd2cfa,GitHub,57c424f8,data/57c424f8/test/q.java,33:33,T,F,39,55,F,F,NumbersOnly,,,Unknown,2.75,16,F,F,F,Other
+34289,a933a801,GitHub,57c424f8,data/57c424f8/test/o.java,67:67,Template,T,44,52,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+34291,2c698a15,GitHub,57c424f8,data/57c424f8/test/r.java,37:37,T,F,36,164,F,F,Any,,JSON Web Token,Token,5.31,128,F,F,F,Predefined Pattern
+47478,26e016da,GitHub,57c424f8,data/57c424f8/test/m.java,174:174,T,F,23,55,F,F,Any,,,Auth,3.65,32,F,F,F,Authentication Key & Token
+48051,bddef9f5,GitHub,57c424f8,data/57c424f8/test/z.java,60:60,T,F,31,63,F,F,Any,,,Unknown,3.60,32,F,F,F,Other
 63024,05e63b5d,GitHub,57c424f8,data/57c424f8/src/i.xml,77:77,F,F,,,F,F,,,,,0,0,F,F,F,
 74143,b5b3fa31,GitHub,57c424f8,data/57c424f8/src/h.yml,89:89,F,F,,,F,F,,,,,0,0,F,F,F,
 76881,05e63b5d,GitHub,57c424f8,data/57c424f8/src/i.xml,230:230,F,F,,,F,F,,,,,0,0,F,F,F,
 83147,05e63b5d,GitHub,57c424f8,data/57c424f8/src/i.xml,161:161,F,F,21,30,F,F,,,,,0,0,F,F,F,
+108437,05e63b5d,GitHub,57c424f8,data/57c424f8/src/i.xml,35:35,F,F,,,F,F,,,,,0.00,,F,F,F,
+108438,f23d7ddd,GitHub,57c424f8,data/57c424f8/test/k.java,63:63,F,F,,,F,F,,,,,0.00,,F,F,F,
+108439,14ae04f1,GitHub,57c424f8,data/57c424f8/test/l.java,52:52,F,F,,,F,F,,,,,0.00,,F,F,F,
+108440,a5766a69,GitHub,57c424f8,data/57c424f8/src/e.sql,319:319,F,F,,,F,F,,,,,0.00,,F,F,F,
+108441,a5766a69,GitHub,57c424f8,data/57c424f8/src/e.sql,373:373,F,F,,,F,F,,,,,0.00,,F,F,F,
+108442,b17149db,GitHub,57c424f8,data/57c424f8/src/f.sql,324:324,F,F,,,F,F,,,,,0.00,,F,F,F,
+108443,b17149db,GitHub,57c424f8,data/57c424f8/src/f.sql,378:378,F,F,,,F,F,,,,,0.00,,F,F,F,
+108444,88ff33e3,GitHub,57c424f8,data/57c424f8/src/j.xml,32:32,F,F,,,F,F,,,,,0.00,,F,F,F,
+108445,88ff33e3,GitHub,57c424f8,data/57c424f8/src/j.xml,83:83,F,F,,,F,F,,,,,0.00,,F,F,F,
+108446,26e016da,GitHub,57c424f8,data/57c424f8/test/m.java,132:132,T,F,56,88,F,F,Any,,,Secret,3.90,32,F,F,F,Generic Secret
+108447,1c8a70fd,GitHub,57c424f8,data/57c424f8/test/u.java,49:49,F,F,,,F,F,,,,,0.00,,F,F,F,
+108448,1c8a70fd,GitHub,57c424f8,data/57c424f8/test/u.java,87:87,F,F,,,F,F,,,,,0.00,,F,F,F,
+108449,bddef9f5,GitHub,57c424f8,data/57c424f8/test/z.java,97:97,F,F,,,F,F,,,,,0.00,,F,F,F,
+108450,bddef9f5,GitHub,57c424f8,data/57c424f8/test/z.java,176:176,F,F,,,F,F,,,,,0.00,,F,F,F,
+108451,bddef9f5,GitHub,57c424f8,data/57c424f8/test/z.java,186:186,F,F,,,F,F,,,,,0.00,,F,F,F,
+114557,a5766a69,GitHub,57c424f8,data/57c424f8/src/e.sql,475:475,F,F,,,F,F,,,,,0.00,,F,F,F,
+114558,a5766a69,GitHub,57c424f8,data/57c424f8/src/e.sql,479:479,F,F,,,F,F,,,,,0.00,,F,F,F,
+114559,a5766a69,GitHub,57c424f8,data/57c424f8/src/e.sql,480:480,F,F,,,F,F,,,,,0.00,,F,F,F,
+114560,b17149db,GitHub,57c424f8,data/57c424f8/src/f.sql,479:479,F,F,,,F,F,,,,,0.00,,F,F,F,
+114561,b17149db,GitHub,57c424f8,data/57c424f8/src/f.sql,483:483,F,F,,,F,F,,,,,0.00,,F,F,F,
+114562,b17149db,GitHub,57c424f8,data/57c424f8/src/f.sql,484:484,F,F,,,F,F,,,,,0.00,,F,F,F,
+131554,88ff33e3,GitHub,57c424f8,data/57c424f8/src/j.xml,140:140,F,F,,,F,F,,,,,0.00,,F,F,F,
+131555,88ff33e3,GitHub,57c424f8,data/57c424f8/src/j.xml,140:140,F,F,,,F,F,,,,,0.00,,F,F,F,
+131556,88ff33e3,GitHub,57c424f8,data/57c424f8/src/j.xml,54:54,F,F,,,F,F,,,,,0.00,,F,F,F,

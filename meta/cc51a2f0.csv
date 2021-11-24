@@ -7,7 +7,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 3242,382e37a6,GitHub,cc51a2f0,data/cc51a2f0/src/s.cf,81:81,F,F,,,F,F,,,,,0,0,F,F,F,
 3243,382e37a6,GitHub,cc51a2f0,data/cc51a2f0/src/s.cf,71:71,F,F,,,F,F,,,,,0,0,F,F,F,
 3890,29a4c140,GitHub,cc51a2f0,data/cc51a2f0/test/bw.bats,45:45,F,F,,,F,F,,,,,0,0,F,F,F,
-3979,28956cbb,GitHub,cc51a2f0,data/cc51a2f0/test/bx.bats,23:23,F,F,,,F,F,,,,,0,0,F,F,F,
+3979,28956cbb,GitHub,cc51a2f0,data/cc51a2f0/test/bx.bats,23:23,Template,T,18,32,F,F,Any,,,Secret,2.78,14,F,F,F,Password
 4214,28956cbb,GitHub,cc51a2f0,data/cc51a2f0/test/bx.bats,22:22,F,F,,,F,F,,,,,0,0,F,F,F,
 4361,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/cb.bats,1179:1179,F,F,,,F,F,,,,,0,0,F,F,F,
 4385,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/cb.bats,1258:1258,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -80,34 +80,34 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 25152,141cf316,GitHub,cc51a2f0,data/cc51a2f0/src/y.sh,655:655,F,F,,,F,F,,,,,0,0,F,F,F,
 25528,c8a43705,GitHub,cc51a2f0,data/cc51a2f0/test/bz.md,120:120,F,F,,,F,F,,,,,0,0,F,F,F,
 25532,c8a43705,GitHub,cc51a2f0,data/cc51a2f0/test/bz.md,41:41,F,F,,,F,F,,,,,0,0,F,F,F,
-28843,90e6e936,GitHub,cc51a2f0,data/cc51a2f0/test/bg.ext,18:18,Template,1,19,23,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-28849,4cfd9848,GitHub,cc51a2f0,data/cc51a2f0/test/bk.ext,66:66,Template,0,72,77,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
-28991,881d34ce,GitHub,cc51a2f0,data/cc51a2f0/test/bo.json,24:24,Template,0,8,2248,F,F,Any,Private,,Unknown,5.65,2240,T,F,F,Private Key
-28993,c973b298,GitHub,cc51a2f0,data/cc51a2f0/test/bp.json,30:30,Template,0,8,2280,F,F,Any,,,Unknown,5.62,2272,F,F,F,Other
-29046,bc530885,GitHub,cc51a2f0,data/cc51a2f0/test/br.txt,2:2,Template,1,3,219,F,F,Any,,,Unknown,5.77,216,F,F,F,Other
-29303,3288b20b,GitHub,cc51a2f0,data/cc51a2f0/other/h.md,86:86,Template,1,20,32,F,F,Any,,,Secret,2.82,12,F,F,F,Password
-29405,c973b298,GitHub,cc51a2f0,data/cc51a2f0/test/bp.json,29:29,Template,1,16,4652,F,F,Any,,,Unknown,5.57,4636,F,F,F,Other
-29760,881d34ce,GitHub,cc51a2f0,data/cc51a2f0/test/bo.json,23:23,Template,1,16,2888,F,F,Any,,,Unknown,5.59,2872,F,F,F,Other
-30056,3ac92298,GitHub,cc51a2f0,data/cc51a2f0/test/g.md,45:45,Template,1,24,32,F,F,Any,,,Secret,2.75,8,F,F,F,Password
-30195,3ac92298,GitHub,cc51a2f0,data/cc51a2f0/test/g.md,38:38,Template,1,13,21,F,F,Any,,,Unknown,2.75,8,F,F,F,Other
-31155,23a4ef27,GitHub,cc51a2f0,data/cc51a2f0/other/d.md,15:15,Template,0,40,80,F,F,CharsOnly,,,Unknown,0.34,40,F,F,F,Other
-31706,29a4c140,GitHub,cc51a2f0,data/cc51a2f0/test/bw.bats,31:31,T,1,16,23,F,F,Any,,,Unknown,2.01,7,F,F,F,Other
-32260,ebf8806d,GitHub,cc51a2f0,data/cc51a2f0/src/r.cf,3:3,T,1,27,32,F,F,CharsOnly,,,Unknown,2.32,5,F,F,F,Other
-32261,e6419eaf,GitHub,cc51a2f0,data/cc51a2f0/test/bn.cf,4:4,T,1,19,24,F,F,CharsOnly,,,Unknown,2.32,5,F,F,F,Other
-34554,f044b163,GitHub,cc51a2f0,data/cc51a2f0/test/bj.ext,3:3,T,1,62,66,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-34985,41c756a7,GitHub,cc51a2f0,data/cc51a2f0/test/bt.txt,2:2,T,1,3,219,F,F,Any,,,Unknown,5.74,216,F,F,F,Other
-34999,a551d545,GitHub,cc51a2f0,data/cc51a2f0/test/f.md,87:88,T,0,3,253,F,F,Any,,,Unknown,5.71,250,F,F,F,Other
-35270,d60596d0,GitHub,cc51a2f0,data/cc51a2f0/test/bs.private,1:15,T,1,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
-35327,251af18f,GitHub,cc51a2f0,data/cc51a2f0/test/bq.pem,1:27,T,1,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
-35451,b3356305,GitHub,cc51a2f0,data/cc51a2f0/other/a.md,257:257,T,1,15,20,F,F,CharsOnly,,,Unknown,2.32,5,F,F,F,Other
-35470,b3356305,GitHub,cc51a2f0,data/cc51a2f0/other/a.md,268:268,T,1,26,31,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
-35530,c0e60355,GitHub,cc51a2f0,data/cc51a2f0/test/ca.pem,1:5,T,1,,,F,F,Any,Private,,Unknown,2.45,30,F,F,F,Private Key
-35553,6e208fac,GitHub,cc51a2f0,data/cc51a2f0/test/bm.key,1:28,T,1,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,Private Key
-36055,0e1c05ad,GitHub,cc51a2f0,data/cc51a2f0/src/z.conf,6:6,T,1,11,37,F,F,Any,,,Secret,3.43,26,F,F,F,Password
-37553,0e1c05ad,GitHub,cc51a2f0,data/cc51a2f0/src/z.conf,20:20,T,1,11,37,F,F,Any,,,Secret,3.43,26,F,F,F,Password
+28843,90e6e936,GitHub,cc51a2f0,data/cc51a2f0/test/bg.ext,18:18,Template,T,19,23,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
+28849,4cfd9848,GitHub,cc51a2f0,data/cc51a2f0/test/bk.ext,66:66,T,F,72,77,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
+28991,881d34ce,GitHub,cc51a2f0,data/cc51a2f0/test/bo.json,24:24,Template,F,8,2248,F,F,Any,Private,,Unknown,5.65,2240,T,F,F,Private Key
+28993,c973b298,GitHub,cc51a2f0,data/cc51a2f0/test/bp.json,30:30,Template,F,8,2280,F,F,Any,,,Unknown,5.62,2272,F,F,F,Other
+29046,bc530885,GitHub,cc51a2f0,data/cc51a2f0/test/br.txt,2:2,Template,T,3,219,F,F,Any,,,Unknown,5.77,216,F,F,F,Other
+29303,3288b20b,GitHub,cc51a2f0,data/cc51a2f0/other/h.md,86:86,Template,T,20,32,F,F,Any,,,Secret,2.82,12,F,F,F,Password
+29405,c973b298,GitHub,cc51a2f0,data/cc51a2f0/test/bp.json,29:29,Template,T,16,4652,F,F,Any,,,Unknown,5.57,4636,F,F,F,Other
+29760,881d34ce,GitHub,cc51a2f0,data/cc51a2f0/test/bo.json,23:23,Template,T,16,2888,F,F,Any,,,Unknown,5.59,2872,F,F,F,Other
+30056,3ac92298,GitHub,cc51a2f0,data/cc51a2f0/test/g.md,45:45,Template,T,24,32,F,F,Any,,,Secret,2.75,8,F,F,F,Password
+30195,3ac92298,GitHub,cc51a2f0,data/cc51a2f0/test/g.md,38:38,Template,T,13,21,F,F,Any,,,Unknown,2.75,8,F,F,F,Other
+31155,23a4ef27,GitHub,cc51a2f0,data/cc51a2f0/other/d.md,15:15,Template,F,40,80,F,F,CharsOnly,,,Unknown,0.34,40,F,F,F,Other
+31706,29a4c140,GitHub,cc51a2f0,data/cc51a2f0/test/bw.bats,31:31,T,T,16,23,F,F,Any,,,Unknown,2.01,7,F,F,F,Other
+32260,ebf8806d,GitHub,cc51a2f0,data/cc51a2f0/src/r.cf,3:3,T,T,27,32,F,F,CharsOnly,,,Unknown,2.32,5,F,F,F,Other
+32261,e6419eaf,GitHub,cc51a2f0,data/cc51a2f0/test/bn.cf,4:4,T,T,19,24,F,F,CharsOnly,,,Unknown,2.32,5,F,F,F,Other
+34554,f044b163,GitHub,cc51a2f0,data/cc51a2f0/test/bj.ext,3:3,Template,T,62,66,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
+34985,41c756a7,GitHub,cc51a2f0,data/cc51a2f0/test/bt.txt,2:2,T,T,3,219,F,F,Any,,,Unknown,5.74,216,F,F,F,Other
+34999,a551d545,GitHub,cc51a2f0,data/cc51a2f0/test/f.md,87:88,T,F,3,253,F,F,Any,,,Unknown,5.71,250,F,F,F,Other
+35270,d60596d0,GitHub,cc51a2f0,data/cc51a2f0/test/bs.private,1:15,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
+35327,251af18f,GitHub,cc51a2f0,data/cc51a2f0/test/bq.pem,1:27,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
+35451,b3356305,GitHub,cc51a2f0,data/cc51a2f0/other/a.md,257:257,T,T,15,20,F,F,CharsOnly,,,Unknown,2.32,5,F,F,F,Other
+35470,b3356305,GitHub,cc51a2f0,data/cc51a2f0/other/a.md,268:268,Template,T,26,31,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
+35530,c0e60355,GitHub,cc51a2f0,data/cc51a2f0/test/ca.pem,1:5,T,T,,,F,F,Any,Private,,Unknown,2.45,30,F,F,F,Private Key
+35553,6e208fac,GitHub,cc51a2f0,data/cc51a2f0/test/bm.key,1:28,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,Private Key
+36055,0e1c05ad,GitHub,cc51a2f0,data/cc51a2f0/src/z.conf,6:6,T,T,11,37,F,F,Any,,,Secret,3.43,26,F,F,F,Password
+37553,0e1c05ad,GitHub,cc51a2f0,data/cc51a2f0/src/z.conf,20:20,T,T,11,37,F,F,Any,,,Secret,3.43,26,F,F,F,Password
 46181,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/cb.bats,32:32,F,F,,,F,F,,,,,0,0,F,F,F,
 47702,c973b298,GitHub,cc51a2f0,data/cc51a2f0/test/bp.json,18:18,F,F,,,F,F,,,,,0,0,F,F,F,
-47925,a551d545,GitHub,cc51a2f0,data/cc51a2f0/test/f.md,158:158,T,1,22,31,F,F,Any,,,Secret,2.95,9,F,F,F,Password
+47925,a551d545,GitHub,cc51a2f0,data/cc51a2f0/test/f.md,158:158,Template,T,22,31,F,F,Any,,,Secret,2.95,9,F,F,F,Password
 55587,05663f5e,GitHub,cc51a2f0,data/cc51a2f0/src/u.sh,160:160,F,F,,,F,F,,,,,0,0,F,F,F,
 55646,92c12f9d,GitHub,cc51a2f0,data/cc51a2f0/src/p.conf,15:15,F,F,,,F,F,,,,,0,0,F,F,F,
 55649,f43905ba,GitHub,cc51a2f0,data/cc51a2f0/test/bb.conf,67:67,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -128,4 +128,63 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 75923,92c12f9d,GitHub,cc51a2f0,data/cc51a2f0/src/p.conf,98:98,F,F,,,F,F,,,,,0,0,F,F,F,
 75924,92c12f9d,GitHub,cc51a2f0,data/cc51a2f0/src/p.conf,105:105,F,F,,,F,F,,,,,0,0,F,F,F,
 76433,0e1c05ad,GitHub,cc51a2f0,data/cc51a2f0/src/z.conf,19:19,F,F,,,F,F,,,,,0,0,F,F,F,
-83074,3288b20b,GitHub,cc51a2f0,data/cc51a2f0/other/h.md,94:94,Template,1,20,32,F,F,Any,,,Secret,2.82,12,F,F,F,Password
+83074,3288b20b,GitHub,cc51a2f0,data/cc51a2f0/other/h.md,94:94,Template,T,20,32,F,F,Any,,,Secret,2.82,12,F,F,F,Password
+108343,d62b7815,GitHub,cc51a2f0,data/cc51a2f0/other/c.md,258:258,F,F,,,F,F,,,,,0.00,,F,F,F,
+108344,d62b7815,GitHub,cc51a2f0,data/cc51a2f0/other/c.md,492:492,F,F,,,F,F,,,,,0.00,,F,F,F,
+108345,d62b7815,GitHub,cc51a2f0,data/cc51a2f0/other/c.md,519:519,F,F,,,F,F,,,,,0.00,,F,F,F,
+108346,d62b7815,GitHub,cc51a2f0,data/cc51a2f0/other/c.md,529:529,F,F,,,F,F,,,,,0.00,,F,F,F,
+108347,d62b7815,GitHub,cc51a2f0,data/cc51a2f0/other/c.md,66:66,F,F,,,F,F,,,,,0.00,,F,F,F,
+108348,92c12f9d,GitHub,cc51a2f0,data/cc51a2f0/src/p.conf,27:27,F,F,,,F,F,,,,,0.00,,F,F,F,
+108349,1e71983e,GitHub,cc51a2f0,data/cc51a2f0/test/bd.conf,27:27,F,F,,,F,F,,,,,0.00,,F,F,F,
+108350,4cfd9848,GitHub,cc51a2f0,data/cc51a2f0/test/bk.ext,47:47,F,F,,,F,F,,,,,0.00,,F,F,F,
+108351,bc530885,GitHub,cc51a2f0,data/cc51a2f0/test/br.txt,1:1,F,F,,,F,F,,,,,0.00,,F,F,F,
+108352,41c756a7,GitHub,cc51a2f0,data/cc51a2f0/test/bt.txt,1:1,F,F,,,F,F,,,,,0.00,,F,F,F,
+108353,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/cb.bats,201:201,F,F,,,F,F,,,,,0.00,,F,F,F,
+108354,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/cb.bats,206:206,F,F,,,F,F,,,,,0.00,,F,F,F,
+108355,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/cb.bats,212:212,F,F,,,F,F,,,,,0.00,,F,F,F,
+108356,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/cb.bats,217:217,F,F,,,F,F,,,,,0.00,,F,F,F,
+108357,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/cb.bats,223:223,F,F,,,F,F,,,,,0.00,,F,F,F,
+108358,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/cb.bats,228:228,F,F,,,F,F,,,,,0.00,,F,F,F,
+108359,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/cb.bats,233:233,F,F,,,F,F,,,,,0.00,,F,F,F,
+108360,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/cb.bats,238:238,F,F,,,F,F,,,,,0.00,,F,F,F,
+108361,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/cb.bats,1134:1134,F,F,,,F,F,,,,,0.00,,F,F,F,
+108362,a551d545,GitHub,cc51a2f0,data/cc51a2f0/test/f.md,86:86,F,F,,,F,F,,,,,0.00,,F,F,F,
+114520,141cf316,GitHub,cc51a2f0,data/cc51a2f0/src/y.sh,635:635,F,F,,,F,F,,,,,0.00,,F,F,F,
+114521,b3356305,GitHub,cc51a2f0,data/cc51a2f0/other/a.md,265:265,F,F,,,F,F,,,,,0.00,,F,F,F,
+114522,b3356305,GitHub,cc51a2f0,data/cc51a2f0/other/a.md,266:266,F,F,,,F,F,,,,,0.00,,F,F,F,
+114523,4fc68afe,GitHub,cc51a2f0,data/cc51a2f0/other/e.md,52:52,F,F,,,F,F,,,,,0.00,,F,F,F,
+114524,4fc68afe,GitHub,cc51a2f0,data/cc51a2f0/other/e.md,53:53,F,F,,,F,F,,,,,0.00,,F,F,F,
+114525,4fc68afe,GitHub,cc51a2f0,data/cc51a2f0/other/e.md,64:64,F,F,,,F,F,,,,,0.00,,F,F,F,
+114526,4fc68afe,GitHub,cc51a2f0,data/cc51a2f0/other/e.md,65:65,F,F,,,F,F,,,,,0.00,,F,F,F,
+114527,4fc68afe,GitHub,cc51a2f0,data/cc51a2f0/other/e.md,330:330,F,F,,,F,F,,,,,0.00,,F,F,F,
+114528,1b2b030f,GitHub,cc51a2f0,data/cc51a2f0/other/b.md,84:84,F,F,,,F,F,,,,,0.00,,F,F,F,
+114529,1b2b030f,GitHub,cc51a2f0,data/cc51a2f0/other/b.md,170:170,F,F,,,F,F,,,,,0.00,,F,F,F,
+114530,1b2b030f,GitHub,cc51a2f0,data/cc51a2f0/other/b.md,95:95,F,F,,,F,F,,,,,0.00,,F,F,F,
+114531,1b2b030f,GitHub,cc51a2f0,data/cc51a2f0/other/b.md,103:103,F,F,,,F,F,,,,,0.00,,F,F,F,
+114532,1b2b030f,GitHub,cc51a2f0,data/cc51a2f0/other/b.md,109:109,F,F,,,F,F,,,,,0.00,,F,F,F,
+114533,1b2b030f,GitHub,cc51a2f0,data/cc51a2f0/other/b.md,176:176,F,F,,,F,F,,,,,0.00,,F,F,F,
+114534,1b2b030f,GitHub,cc51a2f0,data/cc51a2f0/other/b.md,230:230,F,F,,,F,F,,,,,0.00,,F,F,F,
+114535,3288b20b,GitHub,cc51a2f0,data/cc51a2f0/other/h.md,65:65,F,F,,,F,F,,,,,0.00,,F,F,F,
+114536,3ac92298,GitHub,cc51a2f0,data/cc51a2f0/test/g.md,41:41,F,F,,,F,F,,,,,0.00,,F,F,F,
+114537,881d34ce,GitHub,cc51a2f0,data/cc51a2f0/test/bo.json,15:15,F,F,,,F,F,,,,,0.00,,F,F,F,
+114538,c973b298,GitHub,cc51a2f0,data/cc51a2f0/test/bp.json,19:19,F,F,,,F,F,,,,,0.00,,F,F,F,
+114539,82e7fd26,GitHub,cc51a2f0,data/cc51a2f0/test/be.conf,44:44,F,F,,,F,F,,,,,0.00,,F,F,F,
+114540,82e7fd26,GitHub,cc51a2f0,data/cc51a2f0/test/be.conf,44:44,F,F,,,F,F,,,,,0.00,,F,F,F,
+114541,c457c85a,GitHub,cc51a2f0,data/cc51a2f0/test/by.bats,108:108,F,F,,,F,F,,,,,0.00,,F,F,F,
+114542,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/cb.bats,19:19,F,F,,,F,F,,,,,0.00,,F,F,F,
+114543,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/cb.bats,42:42,F,F,,,F,F,,,,,0.00,,F,F,F,
+114544,c8a43705,GitHub,cc51a2f0,data/cc51a2f0/test/bz.md,63:63,F,F,,,F,F,,,,,0.00,,F,F,F,
+114545,c8a43705,GitHub,cc51a2f0,data/cc51a2f0/test/bz.md,119:119,F,F,,,F,F,,,,,0.00,,F,F,F,
+114546,c8a43705,GitHub,cc51a2f0,data/cc51a2f0/test/bz.md,131:131,F,F,,,F,F,,,,,0.00,,F,F,F,
+114547,c8a43705,GitHub,cc51a2f0,data/cc51a2f0/test/bz.md,203:203,F,F,,,F,F,,,,,0.00,,F,F,F,
+114548,c8a43705,GitHub,cc51a2f0,data/cc51a2f0/test/bz.md,215:215,F,F,,,F,F,,,,,0.00,,F,F,F,
+114549,c8a43705,GitHub,cc51a2f0,data/cc51a2f0/test/bz.md,222:222,F,F,,,F,F,,,,,0.00,,F,F,F,
+114550,c8a43705,GitHub,cc51a2f0,data/cc51a2f0/test/bz.md,251:251,F,F,,,F,F,,,,,0.00,,F,F,F,
+114551,c8a43705,GitHub,cc51a2f0,data/cc51a2f0/test/bz.md,263:263,F,F,,,F,F,,,,,0.00,,F,F,F,
+131528,3ac92298,GitHub,cc51a2f0,data/cc51a2f0/test/g.md,58:58,F,F,,,F,F,,,,,0.00,,F,F,F,
+131529,05663f5e,GitHub,cc51a2f0,data/cc51a2f0/src/u.sh,158:158,F,F,,,F,F,,,,,0.00,,F,F,F,
+131530,05663f5e,GitHub,cc51a2f0,data/cc51a2f0/src/u.sh,158:158,F,F,,,F,F,,,,,0.00,,F,F,F,
+131531,3ac92298,GitHub,cc51a2f0,data/cc51a2f0/test/g.md,58:58,F,F,,,F,F,,,,,0.00,,F,F,F,
+131532,141cf316,GitHub,cc51a2f0,data/cc51a2f0/src/y.sh,375:375,F,F,,,F,F,,,,,0.00,,F,F,F,
+131533,11df2801,GitHub,cc51a2f0,data/cc51a2f0/test/bh.ext,12:12,F,F,,,F,F,,,,,0.00,,F,F,F,
+131534,4fc68afe,GitHub,cc51a2f0,data/cc51a2f0/other/e.md,150:150,F,F,,,F,F,,,,,0.00,,F,F,F,

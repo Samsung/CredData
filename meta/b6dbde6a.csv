@@ -20,30 +20,57 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 13864,51e4f558,GitHub,b6dbde6a,data/b6dbde6a/src/i.lock,19:19,F,F,,,F,F,,,,,0,0,F,F,F,
 15741,3d2b5918,GitHub,b6dbde6a,data/b6dbde6a/src/g.js,5046:5046,F,F,,,F,F,,,,,0,0,F,F,F,
 17558,98e64bc1,GitHub,b6dbde6a,data/b6dbde6a/other/a.md,14:14,F,F,,,F,F,,,,,0,0,F,F,F,
-29243,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,281:281,Template,0,10,18,F,F,CharsOnly,,,Secret,0,8,F,F,F,Password
-29244,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,473:473,Template,0,16,24,F,F,Any,,,Token,3.00,8,F,F,F,Generic Token
-29648,b5c47a7b,GitHub,b6dbde6a,data/b6dbde6a/other/h.md,64:64,Template,0,10,18,F,F,CharsOnly,,,Secret,0,8,F,F,F,Password
-29741,3e103440,GitHub,b6dbde6a,data/b6dbde6a/src/b.yml,33:33,Template,1,17,32,F,F,Any,,,Secret,3.38,15,F,F,F,Password
-29742,3e103440,GitHub,b6dbde6a,data/b6dbde6a/src/b.yml,38:38,Template,1,17,34,F,F,Any,,,Secret,2.73,17,F,F,F,Password
-29775,3e103440,GitHub,b6dbde6a,data/b6dbde6a/src/b.yml,39:39,Template,1,17,38,F,F,Any,,,Secret,2.68,21,F,F,F,Password
-29776,3e103440,GitHub,b6dbde6a,data/b6dbde6a/src/b.yml,49:49,Template,0,17,29,F,F,Any,,,Secret,2.99,12,F,F,F,Password
-29778,3e103440,GitHub,b6dbde6a,data/b6dbde6a/src/b.yml,34:34,Template,1,17,29,F,F,Any,,,Secret,3.12,12,F,F,F,Password
-29781,3e103440,GitHub,b6dbde6a,data/b6dbde6a/src/b.yml,54:54,Template,0,17,29,F,F,Any,,,Secret,2.99,12,F,F,F,Password
-30603,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,464:464,Template,0,16,24,F,F,Any,,,Token,3.00,8,F,F,F,Generic Token
-31110,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,280:280,Template,0,28,37,F,F,Any,,,Token,3.17,9,F,F,F,Generic Token
-31272,b5c47a7b,GitHub,b6dbde6a,data/b6dbde6a/other/h.md,63:63,Template,0,15,24,F,F,Any,,,Token,3.17,9,F,F,F,Generic Token
-32459,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,7:112,T,1,,,F,F,Any,Private,,Unknown,2.77,37,F,F,F,Private Key
-33766,cadf319e,GitHub,b6dbde6a,data/b6dbde6a/test/d.ts,124:124,T,0,9,37,F,F,Any,,,Unknown,4.45,28,F,F,F,Other
-34530,3e103440,GitHub,b6dbde6a,data/b6dbde6a/src/b.yml,29:29,T,0,17,25,F,F,Any,,,Secret,2.62,8,F,F,F,Password
-34533,3e103440,GitHub,b6dbde6a,data/b6dbde6a/src/b.yml,24:24,T,1,17,32,F,F,Any,,,Secret,3.25,15,F,F,F,Password
-41977,3e103440,GitHub,b6dbde6a,data/b6dbde6a/src/b.yml,44:44,Template,1,17,38,F,F,Any,,,Secret,2.68,21,F,F,F,Password
-41978,3e103440,GitHub,b6dbde6a,data/b6dbde6a/src/b.yml,43:43,Template,1,17,34,F,F,Any,,,Secret,2.73,17,F,F,F,Password
-47715,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,522:522,Template,0,10,18,F,F,CharsOnly,,,Secret,0,8,F,F,F,Password
-55971,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,497:497,Template,0,16,24,F,F,Any,,,Token,3.00,8,F,F,F,Generic Token
-55972,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,521:521,Template,0,16,24,F,F,Any,,,Token,3.00,8,F,F,F,Generic Token
-55973,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,552:552,Template,0,16,24,F,F,Any,,,Token,3.00,8,F,F,F,Generic Token
+29243,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,281:281,Template,F,10,18,F,F,CharsOnly,,,Secret,0,8,F,F,F,Password
+29244,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,473:473,Template,F,16,24,F,F,Any,,,Token,3.00,8,F,F,F,Generic Token
+29648,b5c47a7b,GitHub,b6dbde6a,data/b6dbde6a/other/h.md,64:64,Template,F,10,18,F,F,CharsOnly,,,Secret,0,8,F,F,F,Password
+29741,3e103440,GitHub,b6dbde6a,data/b6dbde6a/src/b.yml,33:33,Template,T,17,32,F,F,Any,,,Secret,3.38,15,F,F,F,Password
+29742,3e103440,GitHub,b6dbde6a,data/b6dbde6a/src/b.yml,38:38,F,T,17,34,F,F,Any,,,Secret,2.73,17,F,F,F,Password
+29775,3e103440,GitHub,b6dbde6a,data/b6dbde6a/src/b.yml,39:39,Template,T,17,38,F,F,Any,,,Secret,2.68,21,F,F,F,Password
+29776,3e103440,GitHub,b6dbde6a,data/b6dbde6a/src/b.yml,49:49,Template,F,17,29,F,F,Any,,,Secret,2.99,12,F,F,F,Password
+29778,3e103440,GitHub,b6dbde6a,data/b6dbde6a/src/b.yml,34:34,Template,T,17,29,F,F,Any,,,Secret,3.12,12,F,F,F,Password
+29781,3e103440,GitHub,b6dbde6a,data/b6dbde6a/src/b.yml,54:54,Template,F,17,29,F,F,Any,,,Secret,2.99,12,F,F,F,Password
+30603,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,464:464,Template,F,16,24,F,F,Any,,,Token,3.00,8,F,F,F,Generic Token
+31110,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,280:280,Template,F,28,37,F,F,Any,,,Token,3.17,9,F,F,F,Generic Token
+31272,b5c47a7b,GitHub,b6dbde6a,data/b6dbde6a/other/h.md,63:63,Template,F,15,24,F,F,Any,,,Token,3.17,9,F,F,F,Generic Token
+32459,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,7:112,T,T,,,F,F,Any,Private,,Unknown,2.77,37,F,F,F,Private Key
+33766,cadf319e,GitHub,b6dbde6a,data/b6dbde6a/test/d.ts,124:124,T,F,9,37,F,F,Any,,,Unknown,4.45,28,F,F,F,Other
+34530,3e103440,GitHub,b6dbde6a,data/b6dbde6a/src/b.yml,29:29,T,F,17,25,F,F,Any,,,Secret,2.62,8,F,F,F,Password
+34533,3e103440,GitHub,b6dbde6a,data/b6dbde6a/src/b.yml,24:24,Template,T,17,32,F,F,Any,,,Secret,3.25,15,F,F,F,Password
+41977,3e103440,GitHub,b6dbde6a,data/b6dbde6a/src/b.yml,44:44,Template,T,17,38,F,F,Any,,,Secret,2.68,21,F,F,F,Password
+41978,3e103440,GitHub,b6dbde6a,data/b6dbde6a/src/b.yml,43:43,F,T,17,34,F,F,Any,,,Secret,2.73,17,F,F,F,Password
+47715,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,522:522,Template,F,10,18,F,F,CharsOnly,,,Secret,0,8,F,F,F,Password
+55971,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,497:497,Template,F,16,24,F,F,Any,,,Token,3.00,8,F,F,F,Generic Token
+55972,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,521:521,Template,F,16,24,F,F,Any,,,Token,3.00,8,F,F,F,Generic Token
+55973,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,552:552,Template,F,16,24,F,F,Any,,,Token,3.00,8,F,F,F,Generic Token
 62598,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,257:257,F,F,,,F,F,,,,,0,0,F,F,F,
-62599,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,314:314,Template,0,28,37,F,F,Any,,,Token,3.17,9,F,F,F,Generic Token
-62950,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,484:484,Template,0,16,24,F,F,Any,,,Token,3.00,8,F,F,F,Generic Token
-62951,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,512:512,Template,0,16,24,F,F,Any,,,Token,3.00,8,F,F,F,Generic Token
-62952,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,543:543,Template,0,16,24,F,F,Any,,,Token,3.00,8,F,F,F,Generic Token
+62599,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,314:314,Template,F,28,37,F,F,Any,,,Token,3.17,9,F,F,F,Generic Token
+62950,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,484:484,Template,F,16,24,F,F,Any,,,Token,3.00,8,F,F,F,Generic Token
+62951,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,512:512,Template,F,16,24,F,F,Any,,,Token,3.00,8,F,F,F,Generic Token
+62952,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,543:543,Template,F,16,24,F,F,Any,,,Token,3.00,8,F,F,F,Generic Token
+100368,b3356305,GitHub,b6dbde6a,data/b6dbde6a/other/c.md,20:20,F,F,,,F,F,,,,,0.00,,F,F,F,
+100369,b3356305,GitHub,b6dbde6a,data/b6dbde6a/other/c.md,31:31,F,F,,,F,F,,,,,0.00,,F,F,F,
+100370,b5c47a7b,GitHub,b6dbde6a,data/b6dbde6a/other/h.md,12:12,F,F,,,F,F,,,,,0.00,,F,F,F,
+100371,b5c47a7b,GitHub,b6dbde6a,data/b6dbde6a/other/h.md,51:51,F,F,,,F,F,,,,,0.00,,F,F,F,
+100372,b5c47a7b,GitHub,b6dbde6a,data/b6dbde6a/other/h.md,54:54,F,F,,,F,F,,,,,0.00,,F,F,F,
+100373,3d2b5918,GitHub,b6dbde6a,data/b6dbde6a/src/g.js,4861:4861,F,F,,,F,F,,,,,0.00,,F,F,F,
+100374,3d2b5918,GitHub,b6dbde6a,data/b6dbde6a/src/g.js,13444:13444,F,F,,,F,F,,,,,0.00,,F,F,F,
+100375,3d2b5918,GitHub,b6dbde6a,data/b6dbde6a/src/g.js,13445:13445,F,F,,,F,F,,,,,0.00,,F,F,F,
+100376,cadf319e,GitHub,b6dbde6a,data/b6dbde6a/test/d.ts,135:135,F,F,,,F,F,,,,,0.00,,F,F,F,
+100377,cadf319e,GitHub,b6dbde6a,data/b6dbde6a/test/d.ts,146:146,F,F,,,F,F,,,,,0.00,,F,F,F,
+100378,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,233:233,F,F,,,F,F,,,,,0.00,,F,F,F,
+100379,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,247:247,F,F,,,F,F,,,,,0.00,,F,F,F,
+100380,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,267:267,F,F,,,F,F,,,,,0.00,,F,F,F,
+100381,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,298:298,F,F,,,F,F,,,,,0.00,,F,F,F,
+100382,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,299:299,F,F,,,F,F,,,,,0.00,,F,F,F,
+100383,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,300:300,F,F,,,F,F,,,,,0.00,,F,F,F,
+100384,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,301:301,F,F,,,F,F,,,,,0.00,,F,F,F,
+100385,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,332:332,F,F,,,F,F,,,,,0.00,,F,F,F,
+100386,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,333:333,F,F,,,F,F,,,,,0.00,,F,F,F,
+100387,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,334:334,F,F,,,F,F,,,,,0.00,,F,F,F,
+100388,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,335:335,F,F,,,F,F,,,,,0.00,,F,F,F,
+100389,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,347:347,F,F,,,F,F,,,,,0.00,,F,F,F,
+100390,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/e.ts,357:357,F,F,,,F,F,,,,,0.00,,F,F,F,
+100391,3d2b5918,GitHub,b6dbde6a,data/b6dbde6a/src/g.js,7628:7628,F,F,,,F,F,,,,,0.00,,F,F,F,
+110099,3d2b5918,GitHub,b6dbde6a,data/b6dbde6a/src/g.js,11461:11461,F,F,,,F,F,,,,,0.00,,F,F,F,
+130075,3e103440,GitHub,b6dbde6a,data/b6dbde6a/src/b.yml,78:78,F,F,,,F,F,,,,,0.00,,F,F,F,
+130076,3e103440,GitHub,b6dbde6a,data/b6dbde6a/src/b.yml,78:78,F,F,,,F,F,,,,,0.00,,F,F,F,

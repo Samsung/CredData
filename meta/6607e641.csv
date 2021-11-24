@@ -40,16 +40,16 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 24839,e8a20a89,GitHub,6607e641,data/6607e641/src/c.go,133:133,F,F,,,F,F,,,,,0,0,F,F,F,
 24881,9a8e410a,GitHub,6607e641,data/6607e641/src/d.go,179:179,F,F,,,F,F,,,,,0,0,F,F,F,
 25554,285cd3df,GitHub,6607e641,data/6607e641/src/y.sh,64:64,F,F,,,F,F,,,,,0,0,F,F,F,
-27747,a613df97,GitHub,6607e641,data/6607e641/test/f.go,37:37,Template,1,9,21,F,F,Any,,,Key,2.65,12,F,F,F,Other
-27762,1105f98b,GitHub,6607e641,data/6607e641/test/u.go,11:11,Template,0,9,15,F,F,Any,,,Key,2.15,6,F,F,F,Other
-29414,edce2966,GitHub,6607e641,data/6607e641/test/h.go,45:45,Template,1,21,32,F,F,Any,,,Key,2.47,11,F,F,F,Other
-29651,edce2966,GitHub,6607e641,data/6607e641/test/h.go,19:19,Template,1,17,28,F,F,Any,,,Key,2.47,11,F,F,F,Other
-30093,e64aecca,GitHub,6607e641,data/6607e641/test/n.go,30:30,Template,1,27,38,F,F,Any,,,Key,2.47,11,F,F,F,Other
-30342,b4056430,GitHub,6607e641,data/6607e641/test/l.go,66:66,Template,1,86,98,F,F,Any,,,Secret,2.65,12,F,F,F,Password
-41908,c6c7cb63,GitHub,6607e641,data/6607e641/src/g.go,991:991,Template,1,18,24,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
-41909,c6c7cb63,GitHub,6607e641,data/6607e641/src/g.go,1036:1036,Template,1,18,24,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
-41910,c6c7cb63,GitHub,6607e641,data/6607e641/src/g.go,150:150,Template,1,21,27,F,F,CharsOnly,,,Token,2.58,6,F,F,F,Generic Token
-41911,c6c7cb63,GitHub,6607e641,data/6607e641/src/g.go,805:805,Template,1,23,29,F,F,CharsOnly,,,Token,2.58,6,F,F,F,Generic Token
+27747,a613df97,GitHub,6607e641,data/6607e641/test/f.go,37:37,Template,T,9,21,F,F,Any,,,Key,2.65,12,F,F,F,Other
+27762,1105f98b,GitHub,6607e641,data/6607e641/test/u.go,11:11,Template,F,9,15,F,F,Any,,,Key,2.15,6,F,F,F,Other
+29414,edce2966,GitHub,6607e641,data/6607e641/test/h.go,45:45,Template,T,21,32,F,F,Any,,,Key,2.47,11,F,F,F,Other
+29651,edce2966,GitHub,6607e641,data/6607e641/test/h.go,19:19,Template,T,17,28,F,F,Any,,,Key,2.47,11,F,F,F,Other
+30093,e64aecca,GitHub,6607e641,data/6607e641/test/n.go,30:30,Template,T,27,38,F,F,Any,,,Key,2.47,11,F,F,F,Other
+30342,b4056430,GitHub,6607e641,data/6607e641/test/l.go,66:66,Template,T,86,98,F,F,Any,,,Secret,2.65,12,F,F,F,Password
+41908,c6c7cb63,GitHub,6607e641,data/6607e641/src/g.go,991:991,Template,T,18,24,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
+41909,c6c7cb63,GitHub,6607e641,data/6607e641/src/g.go,1036:1036,Template,T,18,24,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
+41910,c6c7cb63,GitHub,6607e641,data/6607e641/src/g.go,150:150,Template,T,21,27,F,F,CharsOnly,,,Token,2.58,6,F,F,F,Generic Token
+41911,c6c7cb63,GitHub,6607e641,data/6607e641/src/g.go,805:805,Template,T,23,29,F,F,CharsOnly,,,Token,2.58,6,F,F,F,Generic Token
 46182,a613df97,GitHub,6607e641,data/6607e641/test/f.go,67:67,F,F,,,F,F,,,,,0,0,F,F,F,
 53524,c6c7cb63,GitHub,6607e641,data/6607e641/src/g.go,358:358,F,F,,,F,F,,,,,0,0,F,F,F,
 53525,c6c7cb63,GitHub,6607e641,data/6607e641/src/g.go,383:383,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -69,10 +69,36 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 54765,c6c7cb63,GitHub,6607e641,data/6607e641/src/g.go,669:669,F,F,,,F,F,,,,,0,0,F,F,F,
 54766,c6c7cb63,GitHub,6607e641,data/6607e641/src/g.go,259:259,F,F,,,F,F,,,,,0,0,F,F,F,
 55107,c6c7cb63,GitHub,6607e641,data/6607e641/src/g.go,869:869,F,F,,,F,F,,,,,0,0,F,F,F,
-75407,edce2966,GitHub,6607e641,data/6607e641/test/h.go,85:85,Template,1,21,32,F,F,Any,,,Key,2.47,11,F,F,F,Other
-75408,edce2966,GitHub,6607e641,data/6607e641/test/h.go,90:90,Template,1,21,32,F,F,Any,,,Key,2.47,11,F,F,F,Other
+75407,edce2966,GitHub,6607e641,data/6607e641/test/h.go,85:85,Template,T,21,32,F,F,Any,,,Key,2.47,11,F,F,F,Other
+75408,edce2966,GitHub,6607e641,data/6607e641/test/h.go,90:90,Template,T,21,32,F,F,Any,,,Key,2.47,11,F,F,F,Other
 80866,5e74371a,GitHub,6607e641,data/6607e641/src/v.go,216:216,F,F,9,22,F,F,,,,,0,0,F,F,F,
 80867,5e74371a,GitHub,6607e641,data/6607e641/src/v.go,265:265,F,F,9,22,F,F,,,,,0,0,F,F,F,
 80868,5e74371a,GitHub,6607e641,data/6607e641/src/v.go,302:302,F,F,9,22,F,F,,,,,0,0,F,F,F,
 80869,edce2966,GitHub,6607e641,data/6607e641/test/h.go,57:57,F,F,17,28,F,F,,,,,0,0,F,F,F,
 80870,e64aecca,GitHub,6607e641,data/6607e641/test/n.go,62:62,F,F,27,38,F,F,,,,,0,0,F,F,F,
+107386,e8a20a89,GitHub,6607e641,data/6607e641/src/c.go,79:79,F,F,,,F,F,,,,,0.00,,F,F,F,
+107387,b4056430,GitHub,6607e641,data/6607e641/test/l.go,75:75,Template,T,74,88,F,F,Any,,,Secret,3.11,14,F,F,F,Password
+107388,5bd2a0c5,GitHub,6607e641,data/6607e641/src/a.json,3672:3672,F,F,,,F,F,,,,,0.00,,F,F,F,
+107389,5bd2a0c5,GitHub,6607e641,data/6607e641/src/a.json,3696:3696,F,F,,,F,F,,,,,0.00,,F,F,F,
+107390,5bd2a0c5,GitHub,6607e641,data/6607e641/src/a.json,3756:3756,F,F,,,F,F,,,,,0.00,,F,F,F,
+107391,5bd2a0c5,GitHub,6607e641,data/6607e641/src/a.json,21603:21603,F,F,,,F,F,,,,,0.00,,F,F,F,
+107392,5bd2a0c5,GitHub,6607e641,data/6607e641/src/a.json,22324:22324,F,F,,,F,F,,,,,0.00,,F,F,F,
+107393,5bd2a0c5,GitHub,6607e641,data/6607e641/src/a.json,22330:22330,F,F,,,F,F,,,,,0.00,,F,F,F,
+107394,5bd2a0c5,GitHub,6607e641,data/6607e641/src/a.json,22336:22336,F,F,,,F,F,,,,,0.00,,F,F,F,
+107395,5bd2a0c5,GitHub,6607e641,data/6607e641/src/a.json,23263:23263,F,F,,,F,F,,,,,0.00,,F,F,F,
+107396,5bd2a0c5,GitHub,6607e641,data/6607e641/src/a.json,23269:23269,F,F,,,F,F,,,,,0.00,,F,F,F,
+107397,5bd2a0c5,GitHub,6607e641,data/6607e641/src/a.json,23275:23275,F,F,,,F,F,,,,,0.00,,F,F,F,
+107398,5bd2a0c5,GitHub,6607e641,data/6607e641/src/a.json,31569:31569,F,F,,,F,F,,,,,0.00,,F,F,F,
+107399,5bd2a0c5,GitHub,6607e641,data/6607e641/src/a.json,70961:70961,F,F,,,F,F,,,,,0.00,,F,F,F,
+107400,5bd2a0c5,GitHub,6607e641,data/6607e641/src/a.json,72104:72104,F,F,,,F,F,,,,,0.00,,F,F,F,
+107401,5bd2a0c5,GitHub,6607e641,data/6607e641/src/a.json,73429:73429,F,F,,,F,F,,,,,0.00,,F,F,F,
+107402,5bd2a0c5,GitHub,6607e641,data/6607e641/src/a.json,82355:82355,F,F,,,F,F,,,,,0.00,,F,F,F,
+107403,5bd2a0c5,GitHub,6607e641,data/6607e641/src/a.json,82697:82697,F,F,,,F,F,,,,,0.00,,F,F,F,
+107404,5bd2a0c5,GitHub,6607e641,data/6607e641/src/a.json,83087:83087,F,F,,,F,F,,,,,0.00,,F,F,F,
+107405,c6c7cb63,GitHub,6607e641,data/6607e641/src/g.go,113:113,F,F,,,F,F,,,,,0.00,,F,F,F,
+107406,c6c7cb63,GitHub,6607e641,data/6607e641/src/g.go,120:120,F,F,,,F,F,,,,,0.00,,F,F,F,
+113985,5bd2a0c5,GitHub,6607e641,data/6607e641/src/a.json,74173:74173,F,F,,,F,F,,,,,0.00,,F,F,F,
+113986,3295df72,GitHub,6607e641,data/6607e641/src/b.sum,395:395,F,F,,,F,F,,,,,0.00,,F,F,F,
+113987,3295df72,GitHub,6607e641,data/6607e641/src/b.sum,396:396,F,F,,,F,F,,,,,0.00,,F,F,F,
+113988,3295df72,GitHub,6607e641,data/6607e641/src/b.sum,397:397,F,F,,,F,F,,,,,0.00,,F,F,F,
+113989,3295df72,GitHub,6607e641,data/6607e641/src/b.sum,143:143,F,F,,,F,F,,,,,0.00,,F,F,F,

@@ -51,7 +51,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 15948,7eee71d9,GitHub,6ab520fe,data/6ab520fe/src/q.js,15240:15240,F,F,,,F,F,,,,,0,0,F,F,F,
 15950,7eee71d9,GitHub,6ab520fe,data/6ab520fe/src/q.js,13237:13237,F,F,,,F,F,,,,,0,0,F,F,F,
 15970,7eee71d9,GitHub,6ab520fe,data/6ab520fe/src/q.js,10383:10383,F,F,,,F,F,,,,,0,0,F,F,F,
-16105,6cdc6bd5,GitHub,6ab520fe,data/6ab520fe/src/c.json,381:381,F,F,,,F,F,,,,,0,0,F,F,F,
+16105,6cdc6bd5,GitHub,6ab520fe,data/6ab520fe/src/c.json,381:381,T,F,11,31,F,F,Any,,AWS Client ID,Token,3.88,20,F,F,F,Predefined Pattern
 16320,28a6ce1b,GitHub,6ab520fe,data/6ab520fe/test/j.py,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
 16321,28a6ce1b,GitHub,6ab520fe,data/6ab520fe/test/j.py,86:86,F,F,,,F,F,,,,,0,0,F,F,F,
 17405,b921cc9b,GitHub,6ab520fe,data/6ab520fe/src/m.css,3910:3910,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -86,15 +86,15 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 18664,66fa2cc4,GitHub,6ab520fe,data/6ab520fe/src/d.json,4:4,F,F,,,F,F,,,,,0,0,F,F,F,
 21335,ab2528e5,GitHub,6ab520fe,data/6ab520fe/test/i.py,311:311,F,F,,,F,F,,,,,0,0,F,F,F,
 21341,ab2528e5,GitHub,6ab520fe,data/6ab520fe/test/i.py,310:310,F,F,,,F,F,,,,,0,0,F,F,F,
-27804,6cdc6bd5,GitHub,6ab520fe,data/6ab520fe/src/c.json,12:12,T,1,13,33,F,F,Any,,AWS Client ID,Token,3.78,20,F,F,F,Predefined Pattern
-27805,6cdc6bd5,GitHub,6ab520fe,data/6ab520fe/src/c.json,123:123,T,0,13,33,F,F,Any,,AWS Client ID,Token,3.78,20,F,F,F,Predefined Pattern
-27908,6cdc6bd5,GitHub,6ab520fe,data/6ab520fe/src/c.json,279:279,T,0,11,31,F,F,Any,,AWS Client ID,Token,3.58,20,F,F,F,Predefined Pattern
-27910,6cdc6bd5,GitHub,6ab520fe,data/6ab520fe/src/c.json,237:237,T,0,11,31,F,F,Any,,AWS Client ID,Token,3.78,20,F,F,F,Predefined Pattern
-36104,f1466787,GitHub,6ab520fe,data/6ab520fe/src/f.json,4:4,T,0,11,31,F,F,Any,,AWS Client ID,Token,3.55,20,F,F,F,Predefined Pattern
+27804,6cdc6bd5,GitHub,6ab520fe,data/6ab520fe/src/c.json,12:12,T,T,13,33,F,F,Any,,AWS Client ID,Token,3.78,20,F,F,F,Predefined Pattern
+27805,6cdc6bd5,GitHub,6ab520fe,data/6ab520fe/src/c.json,123:123,T,F,13,33,F,F,Any,,AWS Client ID,Token,3.78,20,F,F,F,Predefined Pattern
+27908,6cdc6bd5,GitHub,6ab520fe,data/6ab520fe/src/c.json,279:279,T,F,11,31,F,F,Any,,AWS Client ID,Token,3.58,20,F,F,F,Predefined Pattern
+27910,6cdc6bd5,GitHub,6ab520fe,data/6ab520fe/src/c.json,237:237,T,F,11,31,F,F,Any,,AWS Client ID,Token,3.78,20,F,F,F,Predefined Pattern
+36104,f1466787,GitHub,6ab520fe,data/6ab520fe/src/f.json,4:4,T,F,11,31,F,F,Any,,AWS Client ID,Token,3.55,20,F,F,F,Predefined Pattern
 41811,40ca0227,GitHub,6ab520fe,data/6ab520fe/src/o.js,354:354,F,F,,,F,F,,,,,0,0,F,F,F,
 42169,47a83faf,GitHub,6ab520fe,data/6ab520fe/src/b.json,133:133,F,F,16,33,F,F,,,,,0,0,F,F,F,
 42170,47a83faf,GitHub,6ab520fe,data/6ab520fe/src/b.json,231:231,F,F,16,33,F,F,,,,,0,0,F,F,F,
-42236,6cdc6bd5,GitHub,6ab520fe,data/6ab520fe/src/c.json,318:318,T,0,11,31,F,F,Any,,AWS Client ID,Token,3.58,20,F,F,F,Predefined Pattern
+42236,6cdc6bd5,GitHub,6ab520fe,data/6ab520fe/src/c.json,318:318,T,F,11,31,F,F,Any,,AWS Client ID,Token,3.58,20,F,F,F,Predefined Pattern
 46807,ab2528e5,GitHub,6ab520fe,data/6ab520fe/test/i.py,496:496,F,F,,,F,F,,,,,0,0,F,F,F,
 52581,47a83faf,GitHub,6ab520fe,data/6ab520fe/src/b.json,196:196,F,F,,,F,F,,,,,0,0,F,F,F,
 52582,47a83faf,GitHub,6ab520fe,data/6ab520fe/src/b.json,294:294,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -190,3 +190,12 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 76950,ab2528e5,GitHub,6ab520fe,data/6ab520fe/test/i.py,443:443,F,F,,,F,F,,,,,0,0,F,F,F,
 76951,ab2528e5,GitHub,6ab520fe,data/6ab520fe/test/i.py,294:294,F,F,,,F,F,,,,,0,0,F,F,F,
 76952,ab2528e5,GitHub,6ab520fe,data/6ab520fe/test/i.py,444:444,F,F,,,F,F,,,,,0,0,F,F,F,
+100665,ab2528e5,GitHub,6ab520fe,data/6ab520fe/test/i.py,485:485,F,F,,,F,F,,,,,0.00,,F,F,F,
+100666,ab2528e5,GitHub,6ab520fe,data/6ab520fe/test/i.py,486:486,F,F,,,F,F,,,,,0.00,,F,F,F,
+100667,ab2528e5,GitHub,6ab520fe,data/6ab520fe/test/i.py,494:494,F,F,,,F,F,,,,,0.00,,F,F,F,
+100668,ab2528e5,GitHub,6ab520fe,data/6ab520fe/test/i.py,495:495,F,F,,,F,F,,,,,0.00,,F,F,F,
+100669,ab2528e5,GitHub,6ab520fe,data/6ab520fe/test/i.py,508:508,F,F,,,F,F,,,,,0.00,,F,F,F,
+100670,ab2528e5,GitHub,6ab520fe,data/6ab520fe/test/i.py,519:519,F,F,,,F,F,,,,,0.00,,F,F,F,
+110219,47a83faf,GitHub,6ab520fe,data/6ab520fe/src/b.json,24:24,F,F,,,F,F,,,,,0.00,,F,F,F,
+110220,47a83faf,GitHub,6ab520fe,data/6ab520fe/src/b.json,126:126,F,F,,,F,F,,,,,0.00,,F,F,F,
+110221,47a83faf,GitHub,6ab520fe,data/6ab520fe/src/b.json,224:224,F,F,,,F,F,,,,,0.00,,F,F,F,

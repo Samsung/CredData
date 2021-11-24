@@ -21,12 +21,12 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 22325,e7f30095,GitHub,e097ae9a,data/e097ae9a/test/j.json,2:2,F,F,,,F,F,,,,,0,0,F,F,F,
 23594,a5a7662c,GitHub,e097ae9a,data/e097ae9a/src/s.sh,253:253,F,F,,,F,F,,,,,0,0,F,F,F,
 23882,0b89e6e1,GitHub,e097ae9a,data/e097ae9a/src/v.sh,125:125,F,F,,,F,F,,,,,0,0,F,F,F,
-31093,5f27cb02,GitHub,e097ae9a,data/e097ae9a/test/b.yml,87:87,Template,0,16,24,F,F,Any,,,Secret,2.75,8,F,F,F,Password
-31361,5f27cb02,GitHub,e097ae9a,data/e097ae9a/test/b.yml,9:9,Template,0,23,31,F,F,Any,,,Secret,2.75,8,F,F,F,Password
-31362,5f27cb02,GitHub,e097ae9a,data/e097ae9a/test/b.yml,10:10,Template,0,30,38,F,F,Any,,,Secret,2.75,8,F,F,F,Password
+31093,5f27cb02,GitHub,e097ae9a,data/e097ae9a/test/b.yml,87:87,Template,F,16,24,F,F,Any,,,Secret,2.75,8,F,F,F,Password
+31361,5f27cb02,GitHub,e097ae9a,data/e097ae9a/test/b.yml,9:9,Template,F,23,31,F,F,Any,,,Secret,2.75,8,F,F,F,Password
+31362,5f27cb02,GitHub,e097ae9a,data/e097ae9a/test/b.yml,10:10,Template,F,30,38,F,F,Any,,,Secret,2.75,8,F,F,F,Password
 33436,48a69259,GitHub,e097ae9a,data/e097ae9a/test/d.yaml,22:22,F,F,6,16,F,F,,,,,0,0,F,F,F,
 33437,c97f3c5e,GitHub,e097ae9a,data/e097ae9a/test/f.yaml,19:19,F,F,6,16,F,F,,,,,0,0,F,F,F,
-33758,0bd304bb,GitHub,e097ae9a,data/e097ae9a/test/m.ps1,5:5,T,1,21,29,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+33758,0bd304bb,GitHub,e097ae9a,data/e097ae9a/test/m.ps1,5:5,Template,T,21,29,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
 36270,003daaf0,GitHub,e097ae9a,data/e097ae9a/test/e.json,24:24,F,F,8,18,F,F,,,,,0,0,F,F,F,
 36271,003daaf0,GitHub,e097ae9a,data/e097ae9a/test/e.json,28:28,F,F,8,18,F,F,,,,,0,0,F,F,F,
 49990,736e58fd,GitHub,e097ae9a,data/e097ae9a/test/o.py,11:11,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -39,3 +39,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 64193,736e58fd,GitHub,e097ae9a,data/e097ae9a/test/o.py,12:12,F,F,,,F,F,,,,,0,0,F,F,F,
 76077,627f06b9,GitHub,e097ae9a,data/e097ae9a/test/c.yml,38:38,F,F,,,F,F,,,,,0,0,F,F,F,
 82438,5f27cb02,GitHub,e097ae9a,data/e097ae9a/test/b.yml,155:155,F,F,16,16,F,F,,,,,0,0,F,F,F,
+114670,0b89e6e1,GitHub,e097ae9a,data/e097ae9a/src/v.sh,238:238,F,F,,,F,F,,,,,0.00,,F,F,F,
+114671,5f27cb02,GitHub,e097ae9a,data/e097ae9a/test/b.yml,19:19,F,F,,,F,F,,,,,0.00,,F,F,F,
+114672,5f27cb02,GitHub,e097ae9a,data/e097ae9a/test/b.yml,23:23,F,F,,,F,F,,,,,0.00,,F,F,F,
+114673,5f27cb02,GitHub,e097ae9a,data/e097ae9a/test/b.yml,25:25,F,F,,,F,F,,,,,0.00,,F,F,F,

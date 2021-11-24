@@ -18,12 +18,17 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 24662,4b9470a8,GitHub,b8d8b8c3,data/b8d8b8c3/src/e.rst,76:76,F,F,,,F,F,,,,,0,0,F,F,F,
 26204,2a8553a0,GitHub,b8d8b8c3,data/b8d8b8c3/src/b.rst,170:170,F,F,,,F,F,,,,,0,0,F,F,F,
 27764,7513cc5c,GitHub,b8d8b8c3,data/b8d8b8c3/test/h.py,149:149,F,F,13,69,F,F,,,,,0,0,F,F,F,
-30030,1a45269b,GitHub,b8d8b8c3,data/b8d8b8c3/src/c.rst,132:132,Template,0,14,24,F,F,NumbersOnly,,,Secret,3.32,10,F,F,F,Password
-30656,1a45269b,GitHub,b8d8b8c3,data/b8d8b8c3/src/c.rst,268:268,Template,0,14,15,F,F,CharsOnly,,,Secret,0,1,F,F,F,Password
-31394,7513cc5c,GitHub,b8d8b8c3,data/b8d8b8c3/test/h.py,63:63,Template,1,40,50,F,F,CharsOnly,,,Token,3.12,10,F,F,F,Generic Token
-31395,7513cc5c,GitHub,b8d8b8c3,data/b8d8b8c3/test/h.py,77:77,Template,1,36,46,F,F,CharsOnly,,,Token,3.12,10,F,F,F,Generic Token
+30030,1a45269b,GitHub,b8d8b8c3,data/b8d8b8c3/src/c.rst,132:132,Template,F,14,24,F,F,NumbersOnly,,,Secret,3.32,10,F,F,F,Password
+30656,1a45269b,GitHub,b8d8b8c3,data/b8d8b8c3/src/c.rst,268:268,Template,F,14,15,F,F,CharsOnly,,,Secret,0,1,F,F,F,Password
+31394,7513cc5c,GitHub,b8d8b8c3,data/b8d8b8c3/test/h.py,63:63,Template,T,40,50,F,F,CharsOnly,,,Token,3.12,10,F,F,F,Generic Token
+31395,7513cc5c,GitHub,b8d8b8c3,data/b8d8b8c3/test/h.py,77:77,Template,T,36,46,F,F,CharsOnly,,,Token,3.12,10,F,F,F,Generic Token
 47666,7513cc5c,GitHub,b8d8b8c3,data/b8d8b8c3/test/h.py,123:123,F,F,,,F,F,,,,,0,0,F,F,F,
 63901,2a8553a0,GitHub,b8d8b8c3,data/b8d8b8c3/src/b.rst,228:228,F,F,,,F,F,,,,,0,0,F,F,F,
 74243,95557d53,GitHub,b8d8b8c3,data/b8d8b8c3/test/a.yaml,46:46,F,F,,,F,F,,,,,0,0,F,F,F,
 74244,95557d53,GitHub,b8d8b8c3,data/b8d8b8c3/test/a.yaml,63:63,F,F,,,F,F,,,,,0,0,F,F,F,
 76412,2a8553a0,GitHub,b8d8b8c3,data/b8d8b8c3/src/b.rst,264:264,F,F,,,F,F,,,,,0,0,F,F,F,
+100684,1a45269b,GitHub,b8d8b8c3,data/b8d8b8c3/src/c.rst,32:32,Template,F,16,22,F,F,CharOnly,,,Secret,2.25,6,F,F,F,Password
+100685,1a45269b,GitHub,b8d8b8c3,data/b8d8b8c3/src/c.rst,303:303,F,F,,,F,F,,,,,0.00,,F,F,F,
+100686,7513cc5c,GitHub,b8d8b8c3,data/b8d8b8c3/test/h.py,87:87,Template,F,16,22,F,F,CharOnly,,,Secret,2.25,6,F,F,F,Password
+100687,2a8553a0,GitHub,b8d8b8c3,data/b8d8b8c3/src/b.rst,265:265,F,F,,,F,F,,,,,0.00,,F,F,F,
+100688,1a45269b,GitHub,b8d8b8c3,data/b8d8b8c3/src/c.rst,137:137,F,F,,,F,F,,,,,0.00,,F,F,F,

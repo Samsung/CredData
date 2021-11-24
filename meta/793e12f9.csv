@@ -12,21 +12,26 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 6271,e68066cf,GitHub,793e12f9,data/793e12f9/other/g,37:37,F,F,,,F,F,,,,,0,0,F,F,F,
 12031,3b194f6f,GitHub,793e12f9,data/793e12f9/other/h,17:17,F,F,,,F,F,,,,,0,0,F,F,F,
 12373,cde7602e,GitHub,793e12f9,data/793e12f9/src/e.rb,89:89,F,F,,,F,F,,,,,0,0,F,F,F,
-13841,e3084ddd,GitHub,793e12f9,data/793e12f9/src/n.rb,7:7,F,F,,,F,F,,,,,0,0,F,F,F,
+13841,e3084ddd,GitHub,793e12f9,data/793e12f9/src/n.rb,7:7,Template,T,35,44,F,F,CharOnly,,,Auth,2.73,9,F,F,F,Authentication Key & Token
 14367,b25e5b19,GitHub,793e12f9,data/793e12f9/src/l.rb,11:11,F,F,,,F,F,,,,,0,0,F,F,F,
 20923,b89304f6,GitHub,793e12f9,data/793e12f9/src/f.rb,29:29,F,F,,,F,F,,,,,0,0,F,F,F,
 21288,ff081bd4,GitHub,793e12f9,data/793e12f9/src/c.rb,247:247,F,F,,,F,F,,,,,0,0,F,F,F,
-28132,b7636b02,GitHub,793e12f9,data/793e12f9/src/o.rb,126:126,T,1,33,40,F,F,Any,,,Secret,2.81,7,F,F,F,Password
-28860,ff081bd4,GitHub,793e12f9,data/793e12f9/src/c.rb,453:453,Template,0,44,47,T,F,CharsOnly,,,Token,1.58,3,F,F,F,Generic Token
-28888,ff081bd4,GitHub,793e12f9,data/793e12f9/src/c.rb,331:331,Template,0,39,45,F,F,CharsOnly,,,Token,2.58,6,F,F,F,Generic Token
-30991,9fbcc953,GitHub,793e12f9,data/793e12f9/src/j.rb,163:163,Template,0,79,82,F,F,CharsOnly,,,SeedSalt,1.58,3,F,F,F,"Seed, Salt, Nonce"
-32407,15d532e8,GitHub,793e12f9,data/793e12f9/other/b.md,106:106,T,0,50,56,T,F,Any,,,Key,2.25,6,F,F,F,Other
-32573,b89304f6,GitHub,793e12f9,data/793e12f9/src/f.rb,8:8,T,1,7,20,F,F,CharsOnly,,,Unknown,3.24,13,F,F,F,Other
-32578,ee054816,GitHub,793e12f9,data/793e12f9/src/a.html,16:16,T,0,9,41,F,F,Any,,,Key,3.51,32,F,F,F,Other
-34249,89740fcf,GitHub,793e12f9,data/793e12f9/src/k.rb,38:38,T,0,49,55,T,F,Any,,,Secret,2.15,6,F,F,T,Password
-34458,9fbcc953,GitHub,793e12f9,data/793e12f9/src/j.rb,406:406,T,1,39,48,T,F,Any,,,Secret,2.60,9,F,F,T,Password
-35807,2ade384c,GitHub,793e12f9,data/793e12f9/test/i,142:142,T,1,47,64,T,F,Any,,,Secret,3.09,17,F,F,T,Password
-36117,89740fcf,GitHub,793e12f9,data/793e12f9/src/k.rb,6:6,T,1,50,54,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-36345,9fbcc953,GitHub,793e12f9,data/793e12f9/src/j.rb,154:154,T,1,28,41,T,F,Any,,,Secret,2.90,13,F,F,T,Password
+28132,b7636b02,GitHub,793e12f9,data/793e12f9/src/o.rb,126:126,T,T,33,40,F,F,Any,,,Secret,2.81,7,F,F,F,Password
+28860,ff081bd4,GitHub,793e12f9,data/793e12f9/src/c.rb,453:453,Template,F,44,47,T,F,CharsOnly,,,Token,1.58,3,F,F,F,Generic Token
+28888,ff081bd4,GitHub,793e12f9,data/793e12f9/src/c.rb,331:331,Template,F,39,45,F,F,CharsOnly,,,Token,2.58,6,F,F,F,Generic Token
+30991,9fbcc953,GitHub,793e12f9,data/793e12f9/src/j.rb,163:163,F,F,79,82,F,F,CharsOnly,,,SeedSalt,1.58,3,F,F,F,"Seed, Salt, Nonce"
+32407,15d532e8,GitHub,793e12f9,data/793e12f9/other/b.md,106:106,T,F,50,56,T,F,Any,,,Key,2.25,6,F,F,F,Other
+32573,b89304f6,GitHub,793e12f9,data/793e12f9/src/f.rb,8:8,F,T,7,20,F,F,CharsOnly,,,Unknown,3.24,13,F,F,F,Other
+32578,ee054816,GitHub,793e12f9,data/793e12f9/src/a.html,16:16,T,F,9,41,F,F,Any,,,Key,3.51,32,F,F,F,Other
+34249,89740fcf,GitHub,793e12f9,data/793e12f9/src/k.rb,38:38,Template,F,49,55,T,F,Any,,,Secret,2.15,6,F,F,T,Password
+34458,9fbcc953,GitHub,793e12f9,data/793e12f9/src/j.rb,406:406,Template,T,39,48,T,F,Any,,,Secret,2.60,9,F,F,T,Password
+35807,2ade384c,GitHub,793e12f9,data/793e12f9/test/i,142:142,T,T,47,64,T,F,Any,,,Secret,3.09,17,F,F,T,Password
+36117,89740fcf,GitHub,793e12f9,data/793e12f9/src/k.rb,6:6,Template,T,50,54,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
+36345,9fbcc953,GitHub,793e12f9,data/793e12f9/src/j.rb,154:154,T,T,28,41,T,F,Any,,,Secret,2.90,13,F,F,T,Password
 55572,ff081bd4,GitHub,793e12f9,data/793e12f9/src/c.rb,270:270,F,F,,,F,F,,,,,0,0,F,F,F,
-55574,ff081bd4,GitHub,793e12f9,data/793e12f9/src/c.rb,456:456,Template,0,44,47,T,F,CharsOnly,,,Token,1.58,3,F,F,F,Generic Token
+55574,ff081bd4,GitHub,793e12f9,data/793e12f9/src/c.rb,456:456,Template,F,44,47,T,F,CharsOnly,,,Token,1.58,3,F,F,F,Generic Token
+100168,89740fcf,GitHub,793e12f9,data/793e12f9/src/k.rb,8:8,F,F,,,F,F,,,,,0.00,,F,F,F,
+110012,e68066cf,GitHub,793e12f9,data/793e12f9/other/g,23:23,F,F,,,F,F,,,,,0.00,,F,F,F,
+110013,e68066cf,GitHub,793e12f9,data/793e12f9/other/g,24:24,F,F,,,F,F,,,,,0.00,,F,F,F,
+130006,ff081bd4,GitHub,793e12f9,data/793e12f9/src/c.rb,421:421,F,F,,,F,F,,,,,0.00,,F,F,F,
+130007,e3084ddd,GitHub,793e12f9,data/793e12f9/src/n.rb,111:111,F,F,,,F,F,,,,,0.00,,F,F,F,

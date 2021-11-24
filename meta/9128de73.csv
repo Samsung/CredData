@@ -41,11 +41,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 23340,f192be78,GitHub,9128de73,data/9128de73/src/m.go,134:134,F,F,,,F,F,,,,,0,0,F,F,F,
 25923,7e5488c0,GitHub,9128de73,data/9128de73/src/n.go,41:41,F,F,,,F,F,,,,,0,0,F,F,F,
 26100,524e5f37,GitHub,9128de73,data/9128de73/src/r.go,75:75,F,F,,,F,F,,,,,0,0,F,F,F,
-30522,cc3efc56,GitHub,9128de73,data/9128de73/test/g.yaml,7:7,Template,1,6,1858,F,F,Any,,,Unknown,5.49,1852,F,F,F,Other
-30523,cc3efc56,GitHub,9128de73,data/9128de73/test/g.yaml,16:16,Template,1,6,1958,F,F,Any,,,Unknown,5.51,1952,F,F,F,Other
-30536,cc3efc56,GitHub,9128de73,data/9128de73/test/g.yaml,8:8,Template,1,4,1736,F,F,Any,,,Unknown,5.53,1732,F,F,F,Other
-31123,cc3efc56,GitHub,9128de73,data/9128de73/test/g.yaml,6:6,Template,1,5,2241,F,F,Any,Private,,Unknown,5.64,2236,T,F,F,Private Key
-31124,cc3efc56,GitHub,9128de73,data/9128de73/test/g.yaml,15:15,Template,1,5,2245,F,F,Any,Private,,Unknown,5.62,2240,T,F,F,Private Key
+30522,cc3efc56,GitHub,9128de73,data/9128de73/test/g.yaml,7:7,Template,T,6,1858,F,F,Any,,,Unknown,5.49,1852,F,F,F,Other
+30523,cc3efc56,GitHub,9128de73,data/9128de73/test/g.yaml,16:16,Template,T,6,1958,F,F,Any,,,Unknown,5.51,1952,F,F,F,Other
+30536,cc3efc56,GitHub,9128de73,data/9128de73/test/g.yaml,8:8,Template,T,4,1736,F,F,Any,,,Unknown,5.53,1732,F,F,F,Other
+31123,cc3efc56,GitHub,9128de73,data/9128de73/test/g.yaml,6:6,Template,T,5,2241,F,F,Any,Private,,Unknown,5.64,2236,T,F,F,Private Key
+31124,cc3efc56,GitHub,9128de73,data/9128de73/test/g.yaml,15:15,Template,T,5,2245,F,F,Any,Private,,Unknown,5.62,2240,T,F,F,Private Key
 46252,fe7a244e,GitHub,9128de73,data/9128de73/test/s.go,194:194,F,F,,,F,F,,,,,0,0,F,F,F,
 48073,5462ac3e,GitHub,9128de73,data/9128de73/other/d.md,95:95,F,F,,,F,F,,,,,0,0,F,F,F,
 55571,e97c17b9,GitHub,9128de73,data/9128de73/src/k.yaml,288:288,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -57,3 +57,23 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 83094,6683e061,GitHub,9128de73,data/9128de73/src/j.yaml,2:2,F,F,12,19,F,F,,,,,0,0,F,F,F,
 83095,773edda0,GitHub,9128de73,data/9128de73/src/h.yaml,2:2,F,F,12,19,F,F,,,,,0,0,F,F,F,
 83096,19133b7a,GitHub,9128de73,data/9128de73/src/c.yaml,2:2,F,F,12,19,F,F,,,,,0,0,F,F,F,
+101121,5462ac3e,GitHub,9128de73,data/9128de73/other/d.md,10:10,F,F,,,F,F,,,,,0.00,,F,F,F,
+101122,5462ac3e,GitHub,9128de73,data/9128de73/other/d.md,103:103,F,F,,,F,F,,,,,0.00,,F,F,F,
+101123,5462ac3e,GitHub,9128de73,data/9128de73/other/d.md,116:116,F,F,,,F,F,,,,,0.00,,F,F,F,
+101124,11563907,GitHub,9128de73,data/9128de73/other/f.md,100:100,F,F,,,F,F,,,,,0.00,,F,F,F,
+101125,11563907,GitHub,9128de73,data/9128de73/other/f.md,103:103,F,F,,,F,F,,,,,0.00,,F,F,F,
+101126,072c0182,GitHub,9128de73,data/9128de73/test/p.go,76:76,Template,T,50,56,F,F,CharOnly,,,Secret,2.25,6,F,F,F,Password
+101127,072c0182,GitHub,9128de73,data/9128de73/test/p.go,102:102,Template,T,50,56,F,F,CharOnly,,,Secret,2.25,6,F,F,F,Password
+101128,3295df72,GitHub,9128de73,data/9128de73/src/e.sum,163:163,F,F,,,F,F,,,,,0.00,,F,F,F,
+101129,3295df72,GitHub,9128de73,data/9128de73/src/e.sum,229:229,F,F,,,F,F,,,,,0.00,,F,F,F,
+101130,3295df72,GitHub,9128de73,data/9128de73/src/e.sum,230:230,F,F,,,F,F,,,,,0.00,,F,F,F,
+110560,3295df72,GitHub,9128de73,data/9128de73/src/e.sum,383:383,F,F,,,F,F,,,,,0.00,,F,F,F,
+110561,3295df72,GitHub,9128de73,data/9128de73/src/e.sum,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,
+110562,3295df72,GitHub,9128de73,data/9128de73/src/e.sum,148:148,F,F,,,F,F,,,,,0.00,,F,F,F,
+110563,3b16f9fb,GitHub,9128de73,data/9128de73/src/a.sh,1483:1483,F,F,,,F,F,,,,,0.00,,F,F,F,
+110564,3b16f9fb,GitHub,9128de73,data/9128de73/src/a.sh,349:349,F,F,,,F,F,,,,,0.00,,F,F,F,
+110565,11563907,GitHub,9128de73,data/9128de73/other/f.md,85:85,F,F,,,F,F,,,,,0.00,,F,F,F,
+110566,11563907,GitHub,9128de73,data/9128de73/other/f.md,91:91,F,F,,,F,F,,,,,0.00,,F,F,F,
+110567,11563907,GitHub,9128de73,data/9128de73/other/f.md,86:86,F,F,,,F,F,,,,,0.00,,F,F,F,
+110568,11563907,GitHub,9128de73,data/9128de73/other/f.md,92:92,F,F,,,F,F,,,,,0.00,,F,F,F,
+130427,e9f5b47b,GitHub,9128de73,data/9128de73/test/l.go,26:26,F,F,,,F,F,,,,,0.00,,F,F,F,

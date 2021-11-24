@@ -92,8 +92,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 25881,1eb47600,GitHub,1a2de400,data/1a2de400/src/q.go,1888:1888,F,F,,,F,F,,,,,0,0,F,F,F,
 25883,1eb47600,GitHub,1a2de400,data/1a2de400/src/q.go,1687:1687,F,F,,,F,F,,,,,0,0,F,F,F,
 26086,1eb47600,GitHub,1a2de400,data/1a2de400/src/q.go,1942:1942,F,F,,,F,F,,,,,0,0,F,F,F,
-36068,78a8a197,GitHub,1a2de400,data/1a2de400/src/a.yml,40:40,T,0,12,32,F,F,Any,,,Secret,3.35,20,F,F,F,Password
-36090,78a8a197,GitHub,1a2de400,data/1a2de400/src/a.yml,41:41,T,0,12,32,F,F,Any,,,Secret,3.55,20,F,F,F,Password
+36068,78a8a197,GitHub,1a2de400,data/1a2de400/src/a.yml,40:40,T,F,12,32,F,F,Any,,,Secret,3.35,20,F,F,F,Password
+36090,78a8a197,GitHub,1a2de400,data/1a2de400/src/a.yml,41:41,T,F,12,32,F,F,Any,,,Secret,3.55,20,F,F,F,Password
 61577,0330d83e,GitHub,1a2de400,data/1a2de400/test/p.go,3935:3935,F,F,,,F,F,,,,,0,0,F,F,F,
 61578,0330d83e,GitHub,1a2de400,data/1a2de400/test/p.go,3996:3996,F,F,,,F,F,,,,,0,0,F,F,F,
 61668,e8521d8b,GitHub,1a2de400,data/1a2de400/test/i.go,276:276,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -111,3 +111,16 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 83104,c5fc7051,GitHub,1a2de400,data/1a2de400/test/h.bazel,82:82,F,F,28,45,F,F,,,,,0,0,F,F,F,
 83105,c5fc7051,GitHub,1a2de400,data/1a2de400/test/h.bazel,102:102,F,F,28,48,F,F,,,,,0,0,F,F,F,
 83106,c5fc7051,GitHub,1a2de400,data/1a2de400/test/h.bazel,124:124,F,F,28,48,F,F,,,,,0,0,F,F,F,
+100318,1eb47600,GitHub,1a2de400,data/1a2de400/src/q.go,250:250,F,F,,,F,F,,,,,0.00,,F,F,F,
+100319,1eb47600,GitHub,1a2de400,data/1a2de400/src/q.go,320:320,F,F,,,F,F,,,,,0.00,,F,F,F,
+100320,1eb47600,GitHub,1a2de400,data/1a2de400/src/q.go,887:887,F,F,,,F,F,,,,,0.00,,F,F,F,
+100321,1eb47600,GitHub,1a2de400,data/1a2de400/src/q.go,1012:1012,F,F,,,F,F,,,,,0.00,,F,F,F,
+100322,1eb47600,GitHub,1a2de400,data/1a2de400/src/q.go,1756:1756,F,F,,,F,F,,,,,0.00,,F,F,F,
+100323,92a3e336,GitHub,1a2de400,data/1a2de400/test/m.go,32:32,F,F,,,F,F,,,,,0.00,,F,F,F,
+110048,3295df72,GitHub,1a2de400,data/1a2de400/src/n.sum,203:203,F,F,,,F,F,,,,,0.00,,F,F,F,
+110049,3295df72,GitHub,1a2de400,data/1a2de400/src/n.sum,204:204,F,F,,,F,F,,,,,0.00,,F,F,F,
+110050,3295df72,GitHub,1a2de400,data/1a2de400/src/n.sum,205:205,F,F,,,F,F,,,,,0.00,,F,F,F,
+110051,3295df72,GitHub,1a2de400,data/1a2de400/src/n.sum,206:206,F,F,,,F,F,,,,,0.00,,F,F,F,
+110052,3295df72,GitHub,1a2de400,data/1a2de400/src/n.sum,207:207,F,F,,,F,F,,,,,0.00,,F,F,F,
+110053,3295df72,GitHub,1a2de400,data/1a2de400/src/n.sum,208:208,F,F,,,F,F,,,,,0.00,,F,F,F,
+110054,3295df72,GitHub,1a2de400,data/1a2de400/src/n.sum,209:209,F,F,,,F,F,,,,,0.00,,F,F,F,

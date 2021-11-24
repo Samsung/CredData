@@ -128,14 +128,14 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 22063,217a4391,GitHub,db218f09,data/db218f09/test/bo.py,617:617,F,F,,,F,F,,,,,0,0,F,F,F,
 22112,217a4391,GitHub,db218f09,data/db218f09/test/bo.py,620:620,F,F,,,F,F,,,,,0,0,F,F,F,
 23053,0e7dccac,GitHub,db218f09,data/db218f09/test/be.py,588:588,F,F,,,F,F,,,,,0,0,F,F,F,
-27431,23164cdb,GitHub,db218f09,data/db218f09/src/m.py,70:70,T,0,16,26,F,F,Any,,,Key,2.92,10,F,F,F,Other
-27662,6aa5da84,GitHub,db218f09,data/db218f09/test/bp.py,824:824,Template,0,31,37,F,F,CharsOnly,,,Unknown,2.25,6,F,F,F,Other
-27737,04b0e957,GitHub,db218f09,data/db218f09/test/p.py,8:8,Template,1,8,16,F,F,CharsOnly,,,Unknown,3.00,8,F,F,F,Other
-27796,7b3ed02b,GitHub,db218f09,data/db218f09/other/b.rst,153:153,Template,1,22,44,F,F,Any,,,Secret,2.87,22,F,F,F,Password
-28085,6aa5da84,GitHub,db218f09,data/db218f09/test/bp.py,1026:1026,T,0,37,565,F,F,Any,,JSON Web Token,Token,5.57,528,F,F,F,Predefined Pattern
-28086,6aa5da84,GitHub,db218f09,data/db218f09/test/bp.py,1013:1013,T,0,37,604,F,F,Any,,JSON Web Token,Token,5.61,567,F,F,F,Predefined Pattern
-33534,89d50865,GitHub,db218f09,data/db218f09/src/w.rst,157:157,T,1,48,58,F,F,CharsOnly,,,Secret,3.12,10,F,F,F,Password
-34234,89d50865,GitHub,db218f09,data/db218f09/src/w.rst,160:160,T,0,10,223,F,F,Any,,JSON Web Token,Token,5.38,213,F,F,F,Predefined Pattern
+27431,23164cdb,GitHub,db218f09,data/db218f09/src/m.py,70:70,T,F,16,26,F,F,Any,,,Key,2.92,10,F,F,F,Other
+27662,6aa5da84,GitHub,db218f09,data/db218f09/test/bp.py,824:824,F,F,31,37,F,F,CharsOnly,,,Unknown,2.25,6,F,F,F,Other
+27737,04b0e957,GitHub,db218f09,data/db218f09/test/p.py,8:8,Template,T,8,16,F,F,CharsOnly,,,Unknown,3.00,8,F,F,F,Other
+27796,7b3ed02b,GitHub,db218f09,data/db218f09/other/b.rst,153:153,Template,T,22,44,F,F,Any,,,Secret,2.87,22,F,F,F,Password
+28085,6aa5da84,GitHub,db218f09,data/db218f09/test/bp.py,1026:1026,T,F,37,565,F,F,Any,,JSON Web Token,Token,5.57,528,F,F,F,Predefined Pattern
+28086,6aa5da84,GitHub,db218f09,data/db218f09/test/bp.py,1013:1013,T,F,37,604,F,F,Any,,JSON Web Token,Token,5.61,567,F,F,F,Predefined Pattern
+33534,89d50865,GitHub,db218f09,data/db218f09/src/w.rst,157:157,Template,T,48,58,F,F,CharsOnly,,,Secret,3.12,10,F,F,F,Password
+34234,89d50865,GitHub,db218f09,data/db218f09/src/w.rst,160:160,T,F,10,223,F,F,Any,,JSON Web Token,Token,5.38,213,F,F,F,Predefined Pattern
 36458,659838d1,GitHub,db218f09,data/db218f09/test/q.py,277:277,F,F,14,46,F,F,,,,,0,0,F,F,F,
 43074,ff56562a,GitHub,db218f09,data/db218f09/src/v.py,72:72,F,F,,,F,F,,,,,0,0,F,F,F,
 46401,659838d1,GitHub,db218f09,data/db218f09/test/q.py,251:251,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -228,3 +228,36 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 82491,fcbbe89d,GitHub,db218f09,data/db218f09/test/bn.py,1889:1889,F,F,14,32,F,F,,,,,0,0,F,F,F,
 83028,729341f7,GitHub,db218f09,data/db218f09/src/ba.rst,145:145,F,F,32,37,F,F,,,,,0,0,F,F,F,
 83029,fcbbe89d,GitHub,db218f09,data/db218f09/test/bn.py,1443:1443,F,F,21,58,F,F,,,,,0,0,F,F,F,
+108477,08e0a244,GitHub,db218f09,data/db218f09/src/o.json,4130:4130,F,F,,,F,F,,,,,0.00,,F,F,F,
+108478,08e0a244,GitHub,db218f09,data/db218f09/src/o.json,4134:4134,F,F,,,F,F,,,,,0.00,,F,F,F,
+108479,08e0a244,GitHub,db218f09,data/db218f09/src/o.json,4138:4138,F,F,,,F,F,,,,,0.00,,F,F,F,
+108480,08e0a244,GitHub,db218f09,data/db218f09/src/o.json,4142:4142,F,F,,,F,F,,,,,0.00,,F,F,F,
+108481,08e0a244,GitHub,db218f09,data/db218f09/src/o.json,4143:4143,F,F,,,F,F,,,,,0.00,,F,F,F,
+108482,272b6876,GitHub,db218f09,data/db218f09/src/c.py,1872:1872,F,F,,,F,F,,,,,0.00,,F,F,F,
+108483,08e0a244,GitHub,db218f09,data/db218f09/src/o.json,3406:3406,F,F,,,F,F,,,,,0.00,,F,F,F,
+108484,08e0a244,GitHub,db218f09,data/db218f09/src/o.json,3790:3790,F,F,,,F,F,,,,,0.00,,F,F,F,
+108485,70e03f5e,GitHub,db218f09,data/db218f09/src/t.py,13:13,F,F,,,F,F,,,,,0.00,,F,F,F,
+108486,ff56562a,GitHub,db218f09,data/db218f09/src/v.py,41:41,F,F,,,F,F,,,,,0.00,,F,F,F,
+108487,f2a47054,GitHub,db218f09,data/db218f09/src/x.js,744:744,F,F,,,F,F,,,,,0.00,,F,F,F,
+108488,0e7dccac,GitHub,db218f09,data/db218f09/test/be.py,1683:1683,F,F,,,F,F,,,,,0.00,,F,F,F,
+108489,0e7dccac,GitHub,db218f09,data/db218f09/test/be.py,2354:2354,F,F,,,F,F,,,,,0.00,,F,F,F,
+108490,0e7dccac,GitHub,db218f09,data/db218f09/test/be.py,2375:2375,F,F,,,F,F,,,,,0.00,,F,F,F,
+114581,89d50865,GitHub,db218f09,data/db218f09/src/w.rst,456:456,F,F,,,F,F,,,,,0.00,,F,F,F,
+114582,08e0a244,GitHub,db218f09,data/db218f09/src/o.json,2497:2497,F,F,,,F,F,,,,,0.00,,F,F,F,
+114583,08e0a244,GitHub,db218f09,data/db218f09/src/o.json,872:872,F,F,,,F,F,,,,,0.00,,F,F,F,
+114584,08e0a244,GitHub,db218f09,data/db218f09/src/o.json,879:879,F,F,,,F,F,,,,,0.00,,F,F,F,
+114585,08e0a244,GitHub,db218f09,data/db218f09/src/o.json,926:926,F,F,,,F,F,,,,,0.00,,F,F,F,
+114586,08e0a244,GitHub,db218f09,data/db218f09/src/o.json,938:938,F,F,,,F,F,,,,,0.00,,F,F,F,
+114587,08e0a244,GitHub,db218f09,data/db218f09/src/o.json,1974:1974,F,F,,,F,F,,,,,0.00,,F,F,F,
+114588,64024aec,GitHub,db218f09,data/db218f09/src/j.py,249:249,F,F,,,F,F,,,,,0.00,,F,F,F,
+114589,4f17d5db,GitHub,db218f09,data/db218f09/src/y.rst,61:61,F,F,,,F,F,,,,,0.00,,F,F,F,
+114590,4f17d5db,GitHub,db218f09,data/db218f09/src/y.rst,93:93,F,F,,,F,F,,,,,0.00,,F,F,F,
+114591,272b6876,GitHub,db218f09,data/db218f09/src/c.py,266:266,F,F,,,F,F,,,,,0.00,,F,F,F,
+114592,272b6876,GitHub,db218f09,data/db218f09/src/c.py,1239:1239,F,F,,,F,F,,,,,0.00,,F,F,F,
+114593,ec0e1b9c,GitHub,db218f09,data/db218f09/test/bk.py,263:263,F,F,,,F,F,,,,,0.00,,F,F,F,
+114594,ec0e1b9c,GitHub,db218f09,data/db218f09/test/bk.py,325:325,F,F,,,F,F,,,,,0.00,,F,F,F,
+114595,32d2ce62,GitHub,db218f09,data/db218f09/test/bh.py,626:626,F,F,,,F,F,,,,,0.00,,F,F,F,
+114596,217a4391,GitHub,db218f09,data/db218f09/test/bo.py,121:121,F,F,,,F,F,,,,,0.00,,F,F,F,
+114597,9b6d01e0,GitHub,db218f09,data/db218f09/test/br.py,118:118,F,F,,,F,F,,,,,0.00,,F,F,F,
+114598,122e0972,GitHub,db218f09,data/db218f09/test/u.py,102:102,F,F,,,F,F,,,,,0.00,,F,F,F,
+114599,f8aa1a8e,GitHub,db218f09,data/db218f09/test/bd.py,204:204,F,F,,,F,F,,,,,0.00,,F,F,F,

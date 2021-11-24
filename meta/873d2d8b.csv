@@ -17,15 +17,15 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 18242,f2561ce5,GitHub,873d2d8b,data/873d2d8b/other/b.md,70:70,F,F,,,F,F,,,,,0,0,F,F,F,
 23416,fcd71154,GitHub,873d2d8b,data/873d2d8b/other/d.md,59:59,F,F,,,F,F,,,,,0,0,F,F,F,
 25290,28434572,GitHub,873d2d8b,data/873d2d8b/src/p.hbs,10:10,F,F,,,F,F,,,,,0,0,F,F,F,
-29015,b3356305,GitHub,873d2d8b,data/873d2d8b/other/a.md,1370:1370,Template,0,11,18,F,F,NumbersOnly,,,Secret,2.81,7,F,F,F,Password
-29073,b2bc4218,GitHub,873d2d8b,data/873d2d8b/other/c.md,1045:1045,Template,0,11,18,F,F,NumbersOnly,,,Secret,2.81,7,F,F,F,Password
-30788,201092fe,GitHub,873d2d8b,data/873d2d8b/test/j.js,2:2,Template,0,18,24,F,F,Any,,,Secret,2.58,6,F,F,F,Password
+29015,b3356305,GitHub,873d2d8b,data/873d2d8b/other/a.md,1370:1370,Template,F,11,18,F,F,NumbersOnly,,,Secret,2.81,7,F,F,F,Password
+29073,b2bc4218,GitHub,873d2d8b,data/873d2d8b/other/c.md,1045:1045,Template,F,11,18,F,F,NumbersOnly,,,Secret,2.81,7,F,F,F,Password
+30788,201092fe,GitHub,873d2d8b,data/873d2d8b/test/j.js,2:2,Template,F,18,24,F,F,Any,,,Secret,2.58,6,F,F,F,Password
 30974,28434572,GitHub,873d2d8b,data/873d2d8b/src/p.hbs,13:13,F,F,18,89,F,F,,,,,0,0,F,F,F,
-32228,8b2f02c3,GitHub,873d2d8b,data/873d2d8b/test/g.js,95:95,T,0,16,56,F,F,Any,,,Secret,3.72,40,F,F,F,Generic Secret
+32228,8b2f02c3,GitHub,873d2d8b,data/873d2d8b/test/g.js,95:95,T,F,16,56,F,F,Any,,,Secret,3.72,40,F,F,F,Generic Secret
 32370,43415c95,GitHub,873d2d8b,data/873d2d8b/src/q.hbs,4:4,F,F,101,172,F,F,,,,,0,0,F,F,F,
 32371,43415c95,GitHub,873d2d8b,data/873d2d8b/src/q.hbs,2:2,F,F,69,120,F,F,,,,,0,0,F,F,F,
-32389,201092fe,GitHub,873d2d8b,data/873d2d8b/test/j.js,8:8,T,0,16,32,F,F,Any,,,Secret,3.50,16,F,F,F,Generic Secret
-35251,fb92ea8f,GitHub,873d2d8b,data/873d2d8b/test/h.js,100:100,T,0,9,25,F,F,Any,,,Secret,3.50,16,F,F,F,Generic Secret
+32389,201092fe,GitHub,873d2d8b,data/873d2d8b/test/j.js,8:8,T,F,16,32,F,F,Any,,,Secret,3.50,16,F,F,F,Generic Secret
+35251,fb92ea8f,GitHub,873d2d8b,data/873d2d8b/test/h.js,100:100,T,F,9,25,F,F,Any,,,Secret,3.50,16,F,F,F,Generic Secret
 48324,b3356305,GitHub,873d2d8b,data/873d2d8b/other/a.md,1737:1737,F,F,,,F,F,,,,,0,0,F,F,F,
 49166,b2bc4218,GitHub,873d2d8b,data/873d2d8b/other/c.md,315:315,F,F,,,F,F,,,,,0,0,F,F,F,
 50066,b2bc4218,GitHub,873d2d8b,data/873d2d8b/other/c.md,498:498,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -35,3 +35,23 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 76541,b2bc4218,GitHub,873d2d8b,data/873d2d8b/other/c.md,1044:1044,F,F,,,F,F,,,,,0,0,F,F,F,
 76542,b3356305,GitHub,873d2d8b,data/873d2d8b/other/a.md,506:506,F,F,,,F,F,,,,,0,0,F,F,F,
 76543,b3356305,GitHub,873d2d8b,data/873d2d8b/other/a.md,1369:1369,F,F,,,F,F,,,,,0,0,F,F,F,
+100680,201092fe,GitHub,873d2d8b,data/873d2d8b/test/j.js,6:6,F,F,,,F,F,,,,,0.00,,F,F,F,
+110276,b3356305,GitHub,873d2d8b,data/873d2d8b/other/a.md,501:501,F,F,,,F,F,,,,,0.00,,F,F,F,
+110277,b3356305,GitHub,873d2d8b,data/873d2d8b/other/a.md,1355:1355,F,F,,,F,F,,,,,0.00,,F,F,F,
+110278,b2bc4218,GitHub,873d2d8b,data/873d2d8b/other/c.md,173:173,F,F,,,F,F,,,,,0.00,,F,F,F,
+110279,b2bc4218,GitHub,873d2d8b,data/873d2d8b/other/c.md,1030:1030,F,F,,,F,F,,,,,0.00,,F,F,F,
+110280,47bdc06e,GitHub,873d2d8b,data/873d2d8b/test/f.js,1:1,F,F,,,F,F,,,,,0.00,,F,F,F,
+130273,b3356305,GitHub,873d2d8b,data/873d2d8b/other/a.md,508:508,F,F,,,F,F,,,,,0.00,,F,F,F,
+130274,b3356305,GitHub,873d2d8b,data/873d2d8b/other/a.md,1358:1358,F,F,,,F,F,,,,,0.00,,F,F,F,
+130275,b2bc4218,GitHub,873d2d8b,data/873d2d8b/other/c.md,1033:1033,F,F,,,F,F,,,,,0.00,,F,F,F,
+130276,b2bc4218,GitHub,873d2d8b,data/873d2d8b/other/c.md,180:180,F,F,,,F,F,,,,,0.00,,F,F,F,
+130277,47bdc06e,GitHub,873d2d8b,data/873d2d8b/test/f.js,7:7,F,F,,,F,F,,,,,0.00,,F,F,F,
+130278,47bdc06e,GitHub,873d2d8b,data/873d2d8b/test/f.js,8:8,F,F,,,F,F,,,,,0.00,,F,F,F,
+130279,b3356305,GitHub,873d2d8b,data/873d2d8b/other/a.md,507:507,F,F,,,F,F,,,,,0.00,,F,F,F,
+130280,b2bc4218,GitHub,873d2d8b,data/873d2d8b/other/c.md,180:180,F,F,,,F,F,,,,,0.00,,F,F,F,
+130281,b3356305,GitHub,873d2d8b,data/873d2d8b/other/a.md,507:507,F,F,,,F,F,,,,,0.00,,F,F,F,
+130282,b3356305,GitHub,873d2d8b,data/873d2d8b/other/a.md,508:508,F,F,,,F,F,,,,,0.00,,F,F,F,
+130283,b2bc4218,GitHub,873d2d8b,data/873d2d8b/other/c.md,179:179,F,F,,,F,F,,,,,0.00,,F,F,F,
+130284,47bdc06e,GitHub,873d2d8b,data/873d2d8b/test/f.js,8:8,F,F,,,F,F,,,,,0.00,,F,F,F,
+130285,b2bc4218,GitHub,873d2d8b,data/873d2d8b/other/c.md,179:179,F,F,,,F,F,,,,,0.00,,F,F,F,
+130286,47bdc06e,GitHub,873d2d8b,data/873d2d8b/test/f.js,7:7,Template,F,11,14,F,F,NumberOnly,,,Secret,1.58,3,F,F,F,Password

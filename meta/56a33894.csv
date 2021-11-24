@@ -6,7 +6,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 10503,edaebbbb,GitHub,56a33894,data/56a33894/src/f.vue,29:29,F,F,,,F,F,,,,,0,0,F,F,F,
 17548,b3356305,GitHub,56a33894,data/56a33894/other/a.md,37:37,F,F,,,F,F,,,,,0,0,F,F,F,
 25355,5353cfb8,GitHub,56a33894,data/56a33894/src/g.js,13:13,F,F,,,F,F,,,,,0,0,F,F,F,
-28212,b08ba20c,GitHub,56a33894,data/56a33894/src/b.yml,16:16,T,1,22,27,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
-28355,0ff7a400,GitHub,56a33894,data/56a33894/src/h.vue,36:36,Template,0,11,17,F,F,NumbersOnly,,,Secret,0,6,F,F,F,Password
-35247,233e2821,GitHub,56a33894,data/56a33894/src/e.yml,7:7,T,0,8,40,F,F,Any,,,Secret,3.78,32,F,F,F,Generic Secret
-36088,a0f6e107,GitHub,56a33894,data/56a33894/src/d.yml,7:7,T,1,10,15,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
+28212,b08ba20c,GitHub,56a33894,data/56a33894/src/b.yml,16:16,Template,T,22,27,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
+28355,0ff7a400,GitHub,56a33894,data/56a33894/src/h.vue,36:36,Template,F,11,17,F,F,NumbersOnly,,,Secret,0,6,F,F,F,Password
+35247,233e2821,GitHub,56a33894,data/56a33894/src/e.yml,7:7,T,F,8,40,F,F,Any,,,Secret,3.78,32,F,F,F,Generic Secret
+36088,a0f6e107,GitHub,56a33894,data/56a33894/src/d.yml,7:7,Template,T,10,15,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password

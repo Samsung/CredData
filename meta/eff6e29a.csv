@@ -34,16 +34,16 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 20205,afb01e9d,GitHub,eff6e29a,data/eff6e29a/test/m.go,210:210,F,F,,,F,F,,,,,0,0,F,F,F,
 22970,ca610003,GitHub,eff6e29a,data/eff6e29a/src/k.go,41:41,F,F,,,F,F,,,,,0,0,F,F,F,
 25047,afb01e9d,GitHub,eff6e29a,data/eff6e29a/test/m.go,239:239,F,F,,,F,F,,,,,0,0,F,F,F,
-29881,afb01e9d,GitHub,eff6e29a,data/eff6e29a/test/m.go,209:209,Template,0,16,25,F,F,NumbersOnly,,,Token,3.17,9,F,F,F,Generic Token
-29886,08a66e22,GitHub,eff6e29a,data/eff6e29a/test/j.go,115:115,Template,1,17,27,F,F,CharsOnly,,,Secret,2.65,10,F,F,F,Password
-29887,08a66e22,GitHub,eff6e29a,data/eff6e29a/test/j.go,117:117,Template,1,17,31,F,F,CharsOnly,,,Secret,2.61,14,F,F,F,Password
-29966,5f71d71d,GitHub,eff6e29a,data/eff6e29a/test/b.env,3:3,Template,1,7,23,F,F,Any,,,Secret,3.38,16,F,F,F,Password
-30060,08a66e22,GitHub,eff6e29a,data/eff6e29a/test/j.go,344:344,Template,1,34,40,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
-31375,5f71d71d,GitHub,eff6e29a,data/eff6e29a/test/b.env,2:2,Template,1,21,34,F,F,Any,,,Secret,2.74,13,F,F,F,Password
-31393,a8b40460,GitHub,eff6e29a,data/eff6e29a/test/n.go,37:37,Template,0,33,42,F,F,NumbersOnly,,,Token,3.17,9,F,F,F,Generic Token
-31447,ca7b7219,GitHub,eff6e29a,data/eff6e29a/test/l.go,96:96,Template,1,15,22,F,F,CharsOnly,,,Secret,1.95,7,F,F,F,Password
-31451,ca7b7219,GitHub,eff6e29a,data/eff6e29a/test/l.go,34:34,Template,1,15,21,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
-46183,afb01e9d,GitHub,eff6e29a,data/eff6e29a/test/m.go,158:158,Template,1,15,22,F,F,CharsOnly,,,Unknown,1.95,7,F,F,F,Other
+29881,afb01e9d,GitHub,eff6e29a,data/eff6e29a/test/m.go,209:209,Template,F,16,25,F,F,NumbersOnly,,,Token,3.17,9,F,F,F,Generic Token
+29886,08a66e22,GitHub,eff6e29a,data/eff6e29a/test/j.go,115:115,Template,T,17,27,F,F,CharsOnly,,,Secret,2.65,10,F,F,F,Password
+29887,08a66e22,GitHub,eff6e29a,data/eff6e29a/test/j.go,117:117,Template,T,17,31,F,F,CharsOnly,,,Secret,2.61,14,F,F,F,Password
+29966,5f71d71d,GitHub,eff6e29a,data/eff6e29a/test/b.env,3:3,Template,T,7,23,F,F,Any,,,Secret,3.38,16,F,F,F,Password
+30060,08a66e22,GitHub,eff6e29a,data/eff6e29a/test/j.go,344:344,Template,T,34,40,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
+31375,5f71d71d,GitHub,eff6e29a,data/eff6e29a/test/b.env,2:2,Template,T,21,34,F,F,Any,,,Secret,2.74,13,F,F,F,Password
+31393,a8b40460,GitHub,eff6e29a,data/eff6e29a/test/n.go,37:37,Template,F,33,42,F,F,NumbersOnly,,,Token,3.17,9,F,F,F,Generic Token
+31447,ca7b7219,GitHub,eff6e29a,data/eff6e29a/test/l.go,96:96,Template,T,15,22,F,F,CharsOnly,,,Secret,1.95,7,F,F,F,Password
+31451,ca7b7219,GitHub,eff6e29a,data/eff6e29a/test/l.go,34:34,Template,T,15,21,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
+46183,afb01e9d,GitHub,eff6e29a,data/eff6e29a/test/m.go,158:158,Template,T,15,22,F,F,CharsOnly,,,Unknown,1.95,7,F,F,F,Other
 47219,f4261898,GitHub,eff6e29a,data/eff6e29a/test/f.yaml,107:107,F,F,,,F,F,,,,,0,0,F,F,F,
 48190,fb3c5331,GitHub,eff6e29a,data/eff6e29a/test/g.yml,103:103,F,F,,,F,F,,,,,0,0,F,F,F,
 48191,fb3c5331,GitHub,eff6e29a,data/eff6e29a/test/g.yml,104:104,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -57,13 +57,32 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 74321,fb3c5331,GitHub,eff6e29a,data/eff6e29a/test/g.yml,39:39,F,F,,,F,F,,,,,0,0,F,F,F,
 74322,b8d2bb7a,GitHub,eff6e29a,data/eff6e29a/test/d.yml,44:44,F,F,,,F,F,,,,,0,0,F,F,F,
 74323,b8d2bb7a,GitHub,eff6e29a,data/eff6e29a/test/d.yml,49:49,F,F,,,F,F,,,,,0,0,F,F,F,
-82625,08a66e22,GitHub,eff6e29a,data/eff6e29a/test/j.go,234:234,T,1,19,29,F,F,CharsOnly,,,Secret,2.65,10,F,F,F,Password
-82626,08a66e22,GitHub,eff6e29a,data/eff6e29a/test/j.go,236:236,T,1,19,33,F,F,CharsOnly,,,Secret,2.61,14,F,F,F,Password
-82627,08a66e22,GitHub,eff6e29a,data/eff6e29a/test/j.go,295:295,T,1,10,20,F,F,CharsOnly,,,Secret,2.65,10,F,F,F,Password
-82628,08a66e22,GitHub,eff6e29a,data/eff6e29a/test/j.go,342:342,T,1,10,24,F,F,CharsOnly,,,Secret,2.61,14,F,F,F,Password
-82629,ca7b7219,GitHub,eff6e29a,data/eff6e29a/test/l.go,47:47,F,F,15,21,F,F,,,,,0,0,F,F,F,
-82630,ca7b7219,GitHub,eff6e29a,data/eff6e29a/test/l.go,125:125,F,F,15,22,F,F,,,,,0,0,F,F,F,
+82625,08a66e22,GitHub,eff6e29a,data/eff6e29a/test/j.go,234:234,Template,T,19,29,F,F,CharsOnly,,,Secret,2.65,10,F,F,F,Password
+82626,08a66e22,GitHub,eff6e29a,data/eff6e29a/test/j.go,236:236,Template,T,19,33,F,F,CharsOnly,,,Secret,2.61,14,F,F,F,Password
+82627,08a66e22,GitHub,eff6e29a,data/eff6e29a/test/j.go,295:295,Template,T,10,20,F,F,CharsOnly,,,Secret,2.65,10,F,F,F,Password
+82628,08a66e22,GitHub,eff6e29a,data/eff6e29a/test/j.go,342:342,Template,T,10,24,F,F,CharsOnly,,,Secret,2.61,14,F,F,F,Password
+82629,ca7b7219,GitHub,eff6e29a,data/eff6e29a/test/l.go,47:47,Template,F,15,21,F,F,,,,,0,0,F,F,F,
+82630,ca7b7219,GitHub,eff6e29a,data/eff6e29a/test/l.go,125:125,Template,F,15,22,F,F,,,,,0,0,F,F,F,
 83118,b8d2bb7a,GitHub,eff6e29a,data/eff6e29a/test/d.yml,4:4,F,F,12,19,F,F,,,,,0,0,F,F,F,
 83119,4cf598a6,GitHub,eff6e29a,data/eff6e29a/test/e.yaml,4:4,F,F,12,19,F,F,,,,,0,0,F,F,F,
 83120,f4261898,GitHub,eff6e29a,data/eff6e29a/test/f.yaml,4:4,F,F,12,19,F,F,,,,,0,0,F,F,F,
 83121,fb3c5331,GitHub,eff6e29a,data/eff6e29a/test/g.yml,4:4,F,F,12,19,F,F,,,,,0,0,F,F,F,
+108513,0cb36811,GitHub,eff6e29a,data/eff6e29a/src/i.go,100:100,F,F,,,F,F,,,,,0.00,,F,F,F,
+108514,08a66e22,GitHub,eff6e29a,data/eff6e29a/test/j.go,150:150,F,F,,,F,F,,,,,0.00,,F,F,F,
+108515,08a66e22,GitHub,eff6e29a,data/eff6e29a/test/j.go,271:271,F,F,,,F,F,,,,,0.00,,F,F,F,
+108516,08a66e22,GitHub,eff6e29a,data/eff6e29a/test/j.go,303:303,F,F,,,F,F,,,,,0.00,,F,F,F,
+108517,ca7b7219,GitHub,eff6e29a,data/eff6e29a/test/l.go,80:80,Template,T,27,34,F,F,CharOnly,,,Secret,1.95,7,F,F,F,Password
+108518,3295df72,GitHub,eff6e29a,data/eff6e29a/src/h.sum,142:142,F,F,,,F,F,,,,,0.00,,F,F,F,
+108519,3295df72,GitHub,eff6e29a,data/eff6e29a/src/h.sum,383:383,F,F,,,F,F,,,,,0.00,,F,F,F,
+108520,0cb36811,GitHub,eff6e29a,data/eff6e29a/src/i.go,114:114,F,F,,,F,F,,,,,0.00,,F,F,F,
+108521,08a66e22,GitHub,eff6e29a,data/eff6e29a/test/j.go,158:158,F,F,,,F,F,,,,,0.00,,F,F,F,
+108522,08a66e22,GitHub,eff6e29a,data/eff6e29a/test/j.go,163:163,F,F,,,F,F,,,,,0.00,,F,F,F,
+108523,08a66e22,GitHub,eff6e29a,data/eff6e29a/test/j.go,279:279,F,F,,,F,F,,,,,0.00,,F,F,F,
+108524,08a66e22,GitHub,eff6e29a,data/eff6e29a/test/j.go,284:284,F,F,,,F,F,,,,,0.00,,F,F,F,
+114631,3295df72,GitHub,eff6e29a,data/eff6e29a/src/h.sum,446:446,F,F,,,F,F,,,,,0.00,,F,F,F,
+114632,3295df72,GitHub,eff6e29a,data/eff6e29a/src/h.sum,447:447,F,F,,,F,F,,,,,0.00,,F,F,F,
+114633,3295df72,GitHub,eff6e29a,data/eff6e29a/src/h.sum,448:448,F,F,,,F,F,,,,,0.00,,F,F,F,
+114634,3295df72,GitHub,eff6e29a,data/eff6e29a/src/h.sum,450:450,F,F,,,F,F,,,,,0.00,,F,F,F,
+114635,3295df72,GitHub,eff6e29a,data/eff6e29a/src/h.sum,198:198,F,F,,,F,F,,,,,0.00,,F,F,F,
+114636,f4261898,GitHub,eff6e29a,data/eff6e29a/test/f.yaml,40:40,F,F,,,F,F,,,,,0.00,,F,F,F,
+114637,fb3c5331,GitHub,eff6e29a,data/eff6e29a/test/g.yml,80:80,F,F,,,F,F,,,,,0.00,,F,F,F,

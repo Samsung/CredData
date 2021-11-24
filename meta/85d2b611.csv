@@ -11,31 +11,31 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 21247,acdcc82e,GitHub,85d2b611,data/85d2b611/test/r.json,3:3,F,F,,,F,F,,,,,0,0,F,F,F,
 21248,f7d91798,GitHub,85d2b611,data/85d2b611/test/p.json,19:19,F,F,,,F,F,,,,,0,0,F,F,F,
 24990,2f38e05e,GitHub,85d2b611,data/85d2b611/test/d.py,13:13,F,F,,,F,F,,,,,0,0,F,F,F,
-25143,800b6d43,GitHub,85d2b611,data/85d2b611/src/a.py,2:2,F,F,,,F,F,,,,,0,0,F,F,F,
-25144,2f38e05e,GitHub,85d2b611,data/85d2b611/test/d.py,4:4,F,F,,,F,F,,,,,0,0,F,F,F,
+25143,800b6d43,GitHub,85d2b611,data/85d2b611/src/a.py,2:2,Template,T,14,42,F,F,Any,,,Secret,3.28,28,F,F,F,Password
+25144,2f38e05e,GitHub,85d2b611,data/85d2b611/test/d.py,4:4,Template,T,0,10,F,F,Any,,,Secret,2.51,10,F,F,F,Password
 26498,49eece0c,GitHub,85d2b611,data/85d2b611/src/e.jsx,109:109,F,F,,,F,F,,,,,0,0,F,F,F,
 28989,f7d91798,GitHub,85d2b611,data/85d2b611/test/p.json,133:133,F,F,10,16,F,F,,,,,0,0,F,F,F,
-29295,57f701b2,GitHub,85d2b611,data/85d2b611/src/m.py,103:103,Template,0,38,41,T,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-29297,6660ebf8,GitHub,85d2b611,data/85d2b611/test/c.py,11:11,Template,0,38,41,T,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-32531,57f701b2,GitHub,85d2b611,data/85d2b611/src/m.py,111:111,T,0,24,64,F,F,Any,,,Secret,3.62,40,F,F,F,Generic Secret
-32538,8d876b70,GitHub,85d2b611,data/85d2b611/test/b.py,19:19,T,0,24,64,F,F,Any,,,Secret,3.62,40,F,F,F,Generic Secret
-32620,8d876b70,GitHub,85d2b611,data/85d2b611/test/b.py,11:11,T,1,37,41,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-32621,2f38e05e,GitHub,85d2b611,data/85d2b611/test/d.py,5:5,T,1,37,41,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-32674,6660ebf8,GitHub,85d2b611,data/85d2b611/test/c.py,13:13,T,0,30,39,F,F,Any,,,Secret,2.60,9,F,F,F,Password
-32691,6660ebf8,GitHub,85d2b611,data/85d2b611/test/c.py,14:14,T,0,33,42,F,F,Any,,,Secret,2.60,9,F,F,F,Password
-33790,4b5cda00,GitHub,85d2b611,data/85d2b611/src/k.ini,49:49,T,0,15,30,F,F,Any,,,Secret,3.77,15,F,F,F,Generic Secret
-33809,6660ebf8,GitHub,85d2b611,data/85d2b611/test/c.py,16:16,T,0,33,42,F,F,Any,,,Secret,2.60,9,F,F,F,Password
-34007,4b5cda00,GitHub,85d2b611,data/85d2b611/src/k.ini,10:10,T,1,11,15,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-34976,45505aef,GitHub,85d2b611,data/85d2b611/test/q.json,2:2,T,0,13,28,F,F,Any,,,Secret,3.77,15,F,F,F,Password
-35317,d2614120,GitHub,85d2b611,data/85d2b611/other/l,1:27,T,1,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
-35482,caf7aabd,GitHub,85d2b611,data/85d2b611/src/j.yml,10:10,T,1,22,26,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
+29295,57f701b2,GitHub,85d2b611,data/85d2b611/src/m.py,103:103,Template,F,38,41,T,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
+29297,6660ebf8,GitHub,85d2b611,data/85d2b611/test/c.py,11:11,Template,F,38,41,T,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
+32531,57f701b2,GitHub,85d2b611,data/85d2b611/src/m.py,111:111,T,F,24,64,F,F,Any,,,Secret,3.62,40,F,F,F,Generic Secret
+32538,8d876b70,GitHub,85d2b611,data/85d2b611/test/b.py,19:19,T,F,24,64,F,F,Any,,,Secret,3.62,40,F,F,F,Generic Secret
+32620,8d876b70,GitHub,85d2b611,data/85d2b611/test/b.py,11:11,T,T,37,41,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
+32621,2f38e05e,GitHub,85d2b611,data/85d2b611/test/d.py,5:5,T,T,37,41,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
+32674,6660ebf8,GitHub,85d2b611,data/85d2b611/test/c.py,13:13,Template,F,30,39,F,F,Any,,,Secret,2.60,9,F,F,F,Password
+32691,6660ebf8,GitHub,85d2b611,data/85d2b611/test/c.py,14:14,Template,F,33,42,F,F,Any,,,Secret,2.60,9,F,F,F,Password
+33790,4b5cda00,GitHub,85d2b611,data/85d2b611/src/k.ini,49:49,T,F,15,30,F,F,Any,,,Secret,3.77,15,F,F,F,Generic Secret
+33809,6660ebf8,GitHub,85d2b611,data/85d2b611/test/c.py,16:16,Template,F,33,42,F,F,Any,,,Secret,2.60,9,F,F,F,Password
+34007,4b5cda00,GitHub,85d2b611,data/85d2b611/src/k.ini,10:10,Template,T,11,15,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
+34976,45505aef,GitHub,85d2b611,data/85d2b611/test/q.json,2:2,T,F,13,28,F,F,Any,,,Secret,3.77,15,F,F,F,Password
+35317,d2614120,GitHub,85d2b611,data/85d2b611/other/l,1:27,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
+35482,caf7aabd,GitHub,85d2b611,data/85d2b611/src/j.yml,10:10,Template,T,22,26,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
 47307,45505aef,GitHub,85d2b611,data/85d2b611/test/q.json,6:6,F,F,,,F,F,,,,,0,0,F,F,F,
 47310,45505aef,GitHub,85d2b611,data/85d2b611/test/q.json,5:5,F,F,,,F,F,,,,,0,0,F,F,F,
 47891,acdcc82e,GitHub,85d2b611,data/85d2b611/test/r.json,58:58,F,F,,,F,F,,,,,0,0,F,F,F,
 47893,f7d91798,GitHub,85d2b611,data/85d2b611/test/p.json,4:4,F,F,,,F,F,,,,,0,0,F,F,F,
 47895,f7d91798,GitHub,85d2b611,data/85d2b611/test/p.json,3:3,F,F,,,F,F,,,,,0,0,F,F,F,
 47896,acdcc82e,GitHub,85d2b611,data/85d2b611/test/r.json,62:62,F,F,,,F,F,,,,,0,0,F,F,F,
-49206,6660ebf8,GitHub,85d2b611,data/85d2b611/test/c.py,19:19,T,0,24,64,F,F,Any,,,Secret,3.62,40,F,F,F,Generic Secret
+49206,6660ebf8,GitHub,85d2b611,data/85d2b611/test/c.py,19:19,T,F,24,64,F,F,Any,,,Secret,3.62,40,F,F,F,Generic Secret
 55294,f7d91798,GitHub,85d2b611,data/85d2b611/test/p.json,24:24,F,F,,,F,F,,,,,0,0,F,F,F,
 55295,f7d91798,GitHub,85d2b611,data/85d2b611/test/p.json,41:41,F,F,,,F,F,,,,,0,0,F,F,F,
 55296,f7d91798,GitHub,85d2b611,data/85d2b611/test/p.json,46:46,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -43,6 +43,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 55298,acdcc82e,GitHub,85d2b611,data/85d2b611/test/r.json,36:36,F,F,,,F,F,,,,,0,0,F,F,F,
 55299,acdcc82e,GitHub,85d2b611,data/85d2b611/test/r.json,44:44,F,F,,,F,F,,,,,0,0,F,F,F,
 55300,acdcc82e,GitHub,85d2b611,data/85d2b611/test/r.json,49:49,F,F,,,F,F,,,,,0,0,F,F,F,
-83128,57f701b2,GitHub,85d2b611,data/85d2b611/src/m.py,105:105,F,F,50,56,F,F,,,,,0,0,F,F,F,
-83129,57f701b2,GitHub,85d2b611,data/85d2b611/src/m.py,106:106,F,F,54,60,F,F,,,,,0,0,F,F,F,
-83130,57f701b2,GitHub,85d2b611,data/85d2b611/src/m.py,108:108,F,F,53,59,F,F,,,,,0,0,F,F,F,
+83128,57f701b2,GitHub,85d2b611,data/85d2b611/src/m.py,105:105,Template,F,50,56,F,F,,,,,0,0,F,F,F,
+83129,57f701b2,GitHub,85d2b611,data/85d2b611/src/m.py,106:106,Template,F,54,60,F,F,,,,,0,0,F,F,F,
+83130,57f701b2,GitHub,85d2b611,data/85d2b611/src/m.py,108:108,Template,F,53,59,F,F,,,,,0,0,F,F,F,
+110100,e52e4ddd,GitHub,85d2b611,data/85d2b611/test/n.py,65:65,F,F,,,F,F,,,,,0.00,,F,F,F,

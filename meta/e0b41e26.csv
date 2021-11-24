@@ -43,76 +43,76 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 27535,f493cf70,GitHub,e0b41e26,data/e0b41e26/test/x.js,261:261,F,F,8,40,F,F,,,,,0,0,F,F,F,
 27538,f493cf70,GitHub,e0b41e26,data/e0b41e26/test/x.js,278:278,F,F,8,28,F,F,,,,,0,0,F,F,F,
 27539,a4b52bd0,GitHub,e0b41e26,data/e0b41e26/test/y.js,261:261,F,F,8,28,F,F,,,,,0,0,F,F,F,
-28123,5a44a9f9,GitHub,e0b41e26,data/e0b41e26/test/bc.js,508:508,Template,1,64,78,F,F,Any,,,Key,2.64,14,F,F,F,Other
-29931,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/h.js,444:444,Template,0,11,14,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-29954,65f266eb,GitHub,e0b41e26,data/e0b41e26/test/w.js,17:17,Template,0,18,27,F,F,CharsOnly,,,Secret,0.99,9,F,F,F,Password
-31047,3cb5b5a8,GitHub,e0b41e26,data/e0b41e26/src/l.js,114:114,Template,0,22,26,F,F,CharsOnly,,,Unknown,2.00,4,F,F,F,Other
-31055,c386ab3a,GitHub,e0b41e26,data/e0b41e26/test/ba.js,174:174,Template,0,22,26,F,F,CharsOnly,,,Secret,2.00,4,F,F,F,Password
-32569,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/bf.js,332:332,T,1,,,F,F,Any,Private,,Unknown,5.75,1016,F,F,F,Private Key
-32587,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/h.js,513:513,T,0,12,32,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,Predefined Pattern
-32588,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/h.js,495:495,T,0,14,34,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,Predefined Pattern
-32589,2539a395,GitHub,e0b41e26,data/e0b41e26/src/v.yaml,69:69,T,0,13,33,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,Predefined Pattern
-32590,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/u.yaml,81:81,T,0,13,33,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,Predefined Pattern
-32717,5a44a9f9,GitHub,e0b41e26,data/e0b41e26/test/bc.js,330:330,T,0,9,29,F,F,Any,,,Key,4.32,20,F,F,F,Other
-32724,5a44a9f9,GitHub,e0b41e26,data/e0b41e26/test/bc.js,370:370,T,0,9,29,F,F,Any,,,Key,3.82,20,F,F,F,Other
-34359,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/h.js,474:474,T,0,11,31,F,F,Any,,,Secret,3.57,20,F,F,F,Password
-34363,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/bf.js,220:220,T,1,11,26,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
-34383,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/h.js,449:449,T,1,11,26,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
-34509,2539a395,GitHub,e0b41e26,data/e0b41e26/src/v.yaml,85:85,T,0,10,26,F,F,Any,,,Secret,3.62,16,F,F,F,Password
-34510,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/u.yaml,99:99,T,0,10,26,F,F,Any,,,Secret,3.62,16,F,F,F,Password
-34586,5851db11,GitHub,e0b41e26,data/e0b41e26/test/z.js,12:12,T,0,11,27,F,F,Any,,,Secret,3.62,16,F,F,F,Password
-34587,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/h.js,436:436,T,0,11,27,F,F,Any,,,Secret,3.62,16,F,F,F,Password
-35229,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/u.yaml,82:82,T,0,17,57,F,F,Any,,,Secret,5.00,40,F,F,F,Generic Secret
-35231,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/h.js,496:496,T,0,18,58,F,F,Any,,,Secret,5.00,40,F,F,F,Generic Secret
-35232,508b8489,GitHub,e0b41e26,data/e0b41e26/test/bd.js,1319:1319,T,0,18,22,F,F,CharsOnly,,,Secret,2.00,4,F,F,F,Password
-35766,27f723c6,GitHub,e0b41e26,data/e0b41e26/src/c.js,20:20,T,0,56,86,F,F,Any,,,Token,4.44,30,F,F,F,Generic Token
-35863,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/bf.js,142:142,T,0,28,58,F,F,Any,,,Token,4.71,30,F,F,F,Generic Token
-35865,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/bf.js,127:127,T,0,23,43,F,F,Any,,,Key,3.82,20,F,F,F,Other
-36084,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/u.yaml,18:18,T,1,10,25,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
-36101,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/u.yaml,48:48,T,0,10,30,F,F,Any,,,Secret,3.57,20,F,F,F,Password
-36349,0defaa4e,GitHub,e0b41e26,data/e0b41e26/test/bi.js,60:60,T,0,16,46,F,F,Any,,,Token,4.51,30,F,F,F,Generic Token
-36361,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/bf.js,580:580,T,0,22,62,F,F,Any,,,Secret,5.00,40,F,F,F,Generic Secret
-36362,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/bf.js,579:579,T,0,22,42,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,Predefined Pattern
-36463,11753c42,GitHub,e0b41e26,data/e0b41e26/src/p.js,37:37,T,1,1,41,F,F,Any,,,Unknown,4.77,40,F,F,F,Other
-36728,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/h.js,504:504,T,0,14,34,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,Predefined Pattern
-36729,2539a395,GitHub,e0b41e26,data/e0b41e26/src/v.yaml,78:78,T,0,13,33,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,Predefined Pattern
-36730,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/u.yaml,91:91,T,0,13,33,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,Predefined Pattern
-36749,5a44a9f9,GitHub,e0b41e26,data/e0b41e26/test/bc.js,399:399,T,0,9,29,F,F,Any,,,Key,3.82,20,F,F,F,Other
-37125,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/bf.js,234:234,T,1,11,26,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
-37126,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/bf.js,242:242,T,1,11,26,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
-37127,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/bf.js,258:258,T,1,11,26,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
-37156,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/h.js,458:458,T,1,11,26,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
-37157,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/h.js,466:466,T,1,11,26,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
-37158,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/h.js,482:482,T,1,11,26,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
-37159,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/h.js,530:530,T,1,11,26,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
-37414,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/u.yaml,92:92,T,0,17,57,F,F,Any,,,Secret,5.00,40,F,F,F,Generic Secret
-37415,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/h.js,505:505,T,0,18,58,F,F,Any,,,Secret,5.00,40,F,F,F,Generic Secret
-37416,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/h.js,514:514,T,0,18,58,F,F,Any,,,Secret,5.00,40,F,F,F,Generic Secret
-37564,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/u.yaml,28:28,T,1,10,25,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
-37565,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/u.yaml,38:38,T,1,10,25,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
-37566,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/u.yaml,58:58,T,1,10,25,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
-40751,2539a395,GitHub,e0b41e26,data/e0b41e26/src/v.yaml,13:13,T,1,10,25,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
-40752,2539a395,GitHub,e0b41e26,data/e0b41e26/src/v.yaml,40:40,T,0,10,30,F,F,Any,,,Secret,3.57,20,F,F,F,Password
-40753,2539a395,GitHub,e0b41e26,data/e0b41e26/src/v.yaml,70:70,T,0,17,57,F,F,Any,,,Secret,5.00,40,F,F,F,Generic Secret
-41777,27f723c6,GitHub,e0b41e26,data/e0b41e26/src/c.js,18:18,T,1,62,102,T,F,Any,,,Token,4.78,40,F,F,F,Generic Token
+28123,5a44a9f9,GitHub,e0b41e26,data/e0b41e26/test/bc.js,508:508,Template,T,64,78,F,F,Any,,,Key,2.64,14,F,F,F,Other
+29931,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/h.js,444:444,Template,F,11,14,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
+29954,65f266eb,GitHub,e0b41e26,data/e0b41e26/test/w.js,17:17,Template,F,18,27,F,F,CharsOnly,,,Secret,0.99,9,F,F,F,Password
+31047,3cb5b5a8,GitHub,e0b41e26,data/e0b41e26/src/l.js,114:114,Template,F,22,26,F,F,CharsOnly,,,Unknown,2.00,4,F,F,F,Other
+31055,c386ab3a,GitHub,e0b41e26,data/e0b41e26/test/ba.js,174:174,Template,F,22,26,F,F,CharsOnly,,,Secret,2.00,4,F,F,F,Password
+32569,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/bf.js,332:332,T,T,,,F,F,Any,Private,,Unknown,5.75,1016,F,F,F,Private Key
+32587,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/h.js,513:513,T,F,12,32,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,Predefined Pattern
+32588,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/h.js,495:495,T,F,14,34,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,Predefined Pattern
+32589,2539a395,GitHub,e0b41e26,data/e0b41e26/src/v.yaml,69:69,T,F,13,33,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,Predefined Pattern
+32590,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/u.yaml,81:81,T,F,13,33,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,Predefined Pattern
+32717,5a44a9f9,GitHub,e0b41e26,data/e0b41e26/test/bc.js,330:330,T,F,9,29,F,F,Any,,,Key,4.32,20,F,F,F,Other
+32724,5a44a9f9,GitHub,e0b41e26,data/e0b41e26/test/bc.js,370:370,T,F,9,29,F,F,Any,,,Key,3.82,20,F,F,F,Other
+34359,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/h.js,474:474,T,F,11,31,F,F,Any,,,Secret,3.57,20,F,F,F,Password
+34363,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/bf.js,220:220,T,T,11,26,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
+34383,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/h.js,449:449,T,T,11,26,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
+34509,2539a395,GitHub,e0b41e26,data/e0b41e26/src/v.yaml,85:85,T,F,10,26,F,F,Any,,,Secret,3.62,16,F,F,F,Password
+34510,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/u.yaml,99:99,T,F,10,26,F,F,Any,,,Secret,3.62,16,F,F,F,Password
+34586,5851db11,GitHub,e0b41e26,data/e0b41e26/test/z.js,12:12,T,F,11,27,F,F,Any,,,Secret,3.62,16,F,F,F,Password
+34587,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/h.js,436:436,T,F,11,27,F,F,Any,,,Secret,3.62,16,F,F,F,Password
+35229,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/u.yaml,82:82,T,F,17,57,F,F,Any,,,Secret,5.00,40,F,F,F,Generic Secret
+35231,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/h.js,496:496,T,F,18,58,F,F,Any,,,Secret,5.00,40,F,F,F,Generic Secret
+35232,508b8489,GitHub,e0b41e26,data/e0b41e26/test/bd.js,1319:1319,T,F,18,22,F,F,CharsOnly,,,Secret,2.00,4,F,F,F,Password
+35766,27f723c6,GitHub,e0b41e26,data/e0b41e26/src/c.js,20:20,T,F,56,86,F,F,Any,,,Token,4.44,30,F,F,F,Generic Token
+35863,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/bf.js,142:142,T,F,28,58,F,F,Any,,,Token,4.71,30,F,F,F,Generic Token
+35865,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/bf.js,127:127,T,F,23,43,F,F,Any,,,Key,3.82,20,F,F,F,Other
+36084,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/u.yaml,18:18,T,T,10,25,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
+36101,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/u.yaml,48:48,T,F,10,30,F,F,Any,,,Secret,3.57,20,F,F,F,Password
+36349,0defaa4e,GitHub,e0b41e26,data/e0b41e26/test/bi.js,60:60,T,F,16,46,F,F,Any,,,Token,4.51,30,F,F,F,Generic Token
+36361,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/bf.js,580:580,T,F,22,62,F,F,Any,,,Secret,5.00,40,F,F,F,Generic Secret
+36362,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/bf.js,579:579,T,F,22,42,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,Predefined Pattern
+36463,11753c42,GitHub,e0b41e26,data/e0b41e26/src/p.js,37:37,T,T,1,41,F,F,Any,,,Unknown,4.77,40,F,F,F,Other
+36728,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/h.js,504:504,T,F,14,34,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,Predefined Pattern
+36729,2539a395,GitHub,e0b41e26,data/e0b41e26/src/v.yaml,78:78,T,F,13,33,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,Predefined Pattern
+36730,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/u.yaml,91:91,T,F,13,33,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,Predefined Pattern
+36749,5a44a9f9,GitHub,e0b41e26,data/e0b41e26/test/bc.js,399:399,T,F,9,29,F,F,Any,,,Key,3.82,20,F,F,F,Other
+37125,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/bf.js,234:234,T,T,11,26,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
+37126,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/bf.js,242:242,T,T,11,26,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
+37127,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/bf.js,258:258,T,T,11,26,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
+37156,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/h.js,458:458,T,T,11,26,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
+37157,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/h.js,466:466,T,T,11,26,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
+37158,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/h.js,482:482,T,T,11,26,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
+37159,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/h.js,530:530,T,T,11,26,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
+37414,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/u.yaml,92:92,T,F,17,57,F,F,Any,,,Secret,5.00,40,F,F,F,Generic Secret
+37415,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/h.js,505:505,T,F,18,58,F,F,Any,,,Secret,5.00,40,F,F,F,Generic Secret
+37416,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/h.js,514:514,T,F,18,58,F,F,Any,,,Secret,5.00,40,F,F,F,Generic Secret
+37564,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/u.yaml,28:28,T,T,10,25,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
+37565,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/u.yaml,38:38,T,T,10,25,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
+37566,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/u.yaml,58:58,T,T,10,25,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
+40751,2539a395,GitHub,e0b41e26,data/e0b41e26/src/v.yaml,13:13,T,T,10,25,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
+40752,2539a395,GitHub,e0b41e26,data/e0b41e26/src/v.yaml,40:40,T,F,10,30,F,F,Any,,,Secret,3.57,20,F,F,F,Password
+40753,2539a395,GitHub,e0b41e26,data/e0b41e26/src/v.yaml,70:70,T,F,17,57,F,F,Any,,,Secret,5.00,40,F,F,F,Generic Secret
+41777,27f723c6,GitHub,e0b41e26,data/e0b41e26/src/c.js,18:18,T,T,62,102,T,F,Any,,,Token,4.78,40,F,F,F,Generic Token
 41971,d2d15f00,GitHub,e0b41e26,data/e0b41e26/src/j.js,79:79,F,F,,,F,F,,,,,0,0,F,F,F,
 41972,d2d15f00,GitHub,e0b41e26,data/e0b41e26/src/j.js,70:70,F,F,,,F,F,,,,,0,0,F,F,F,
-42220,2539a395,GitHub,e0b41e26,data/e0b41e26/src/v.yaml,79:79,T,0,17,57,F,F,Any,,,Secret,5.00,40,F,F,F,Generic Secret
-42221,2539a395,GitHub,e0b41e26,data/e0b41e26/src/v.yaml,22:22,T,1,10,25,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
-42222,2539a395,GitHub,e0b41e26,data/e0b41e26/src/v.yaml,31:31,T,1,10,25,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
-42223,2539a395,GitHub,e0b41e26,data/e0b41e26/src/v.yaml,49:49,T,1,10,25,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
-42454,bd3fe8db,GitHub,e0b41e26,data/e0b41e26/src/n.js,134:134,Template,1,14,21,F,F,CharsOnly,,,Secret,2.81,7,F,F,F,Password
-42455,bd3fe8db,GitHub,e0b41e26,data/e0b41e26/src/n.js,178:178,Template,1,14,21,F,F,CharsOnly,,,Secret,2.81,7,F,F,F,Password
-42456,bd3fe8db,GitHub,e0b41e26,data/e0b41e26/src/n.js,191:191,Template,1,14,21,F,F,CharsOnly,,,Secret,2.81,7,F,F,F,Password
-42457,bd3fe8db,GitHub,e0b41e26,data/e0b41e26/src/n.js,228:228,Template,1,14,21,F,F,CharsOnly,,,Secret,2.81,7,F,F,F,Password
-42458,bd3fe8db,GitHub,e0b41e26,data/e0b41e26/src/n.js,245:245,Template,1,14,21,F,F,CharsOnly,,,Secret,2.81,7,F,F,F,Password
+42220,2539a395,GitHub,e0b41e26,data/e0b41e26/src/v.yaml,79:79,T,F,17,57,F,F,Any,,,Secret,5.00,40,F,F,F,Generic Secret
+42221,2539a395,GitHub,e0b41e26,data/e0b41e26/src/v.yaml,22:22,T,T,10,25,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
+42222,2539a395,GitHub,e0b41e26,data/e0b41e26/src/v.yaml,31:31,T,T,10,25,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
+42223,2539a395,GitHub,e0b41e26,data/e0b41e26/src/v.yaml,49:49,T,T,10,25,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
+42454,bd3fe8db,GitHub,e0b41e26,data/e0b41e26/src/n.js,134:134,Template,T,14,21,F,F,CharsOnly,,,Secret,2.81,7,F,F,F,Password
+42455,bd3fe8db,GitHub,e0b41e26,data/e0b41e26/src/n.js,178:178,Template,T,14,21,F,F,CharsOnly,,,Secret,2.81,7,F,F,F,Password
+42456,bd3fe8db,GitHub,e0b41e26,data/e0b41e26/src/n.js,191:191,Template,T,14,21,F,F,CharsOnly,,,Secret,2.81,7,F,F,F,Password
+42457,bd3fe8db,GitHub,e0b41e26,data/e0b41e26/src/n.js,228:228,Template,T,14,21,F,F,CharsOnly,,,Secret,2.81,7,F,F,F,Password
+42458,bd3fe8db,GitHub,e0b41e26,data/e0b41e26/src/n.js,245:245,Template,T,14,21,F,F,CharsOnly,,,Secret,2.81,7,F,F,F,Password
 46442,508b8489,GitHub,e0b41e26,data/e0b41e26/test/bd.js,1303:1303,F,F,,,F,F,,,,,0,0,F,F,F,
 46443,a4b52bd0,GitHub,e0b41e26,data/e0b41e26/test/y.js,279:279,F,F,,,F,F,,,,,0,0,F,F,F,
-47949,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/bf.js,273:273,T,0,14,34,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,Predefined Pattern
-47950,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/bf.js,282:282,T,0,14,34,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,Predefined Pattern
-48025,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/bf.js,250:250,T,0,11,20,F,F,Any,,,Unknown,2.82,9,F,F,F,Password
-48071,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/bf.js,283:283,T,0,18,58,F,F,Any,,,Secret,5.00,40,F,F,F,Generic Secret
-48072,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/bf.js,274:274,T,0,18,58,F,F,Any,,,Secret,5.00,40,F,F,F,Generic Secret
+47949,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/bf.js,273:273,T,F,14,34,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,Predefined Pattern
+47950,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/bf.js,282:282,T,F,14,34,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,Predefined Pattern
+48025,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/bf.js,250:250,T,F,11,20,F,F,Any,,,Unknown,2.82,9,F,F,F,Password
+48071,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/bf.js,283:283,T,F,18,58,F,F,Any,,,Secret,5.00,40,F,F,F,Generic Secret
+48072,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/bf.js,274:274,T,F,18,58,F,F,Any,,,Secret,5.00,40,F,F,F,Generic Secret
 56054,c386ab3a,GitHub,e0b41e26,data/e0b41e26/test/ba.js,173:173,F,F,,,F,F,,,,,0,0,F,F,F,
 56055,3cb5b5a8,GitHub,e0b41e26,data/e0b41e26/src/l.js,115:115,F,F,,,F,F,,,,,0,0,F,F,F,
 63573,27f723c6,GitHub,e0b41e26,data/e0b41e26/src/c.js,30:30,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -147,4 +147,19 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 76671,5a44a9f9,GitHub,e0b41e26,data/e0b41e26/test/bc.js,398:398,F,F,,,F,F,,,,,0,0,F,F,F,
 79248,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/bf.js,331:331,F,F,,,F,F,,,,,0,0,F,F,F,
 82283,508b8489,GitHub,e0b41e26,data/e0b41e26/test/bd.js,1372:1372,F,F,10,42,F,F,,,,,0,0,F,F,F,
-82284,3c850ff9,GitHub,e0b41e26,data/e0b41e26/test/be.js,46:46,Template,1,66,72,F,F,CharsOnly,,,Key,2.58,6,F,F,F,Other
+82284,3c850ff9,GitHub,e0b41e26,data/e0b41e26/test/be.js,46:46,F,T,66,72,F,F,CharsOnly,,,Key,2.58,6,F,F,F,Other
+107281,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/h.js,236:236,Template,T,43,58,F,F,CharOnly,,,Secret,2.74,15,F,F,F,Password
+107282,508b8489,GitHub,e0b41e26,data/e0b41e26/test/bd.js,1465:1465,F,F,,,F,F,,,,,0.00,,F,F,F,
+107283,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/h.js,46:46,Template,T,52,60,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Password
+107284,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/h.js,150:150,Template,T,52,60,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Password
+107285,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/h.js,177:177,Template,T,32,40,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Password
+107286,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/h.js,278:278,Template,T,52,60,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Password
+113949,3cb5b5a8,GitHub,e0b41e26,data/e0b41e26/src/l.js,58:58,F,F,,,F,F,,,,,0.00,,F,F,F,
+113950,3cb5b5a8,GitHub,e0b41e26,data/e0b41e26/src/l.js,69:69,F,F,,,F,F,,,,,0.00,,F,F,F,
+113951,3cb5b5a8,GitHub,e0b41e26,data/e0b41e26/src/l.js,134:134,F,F,,,F,F,,,,,0.00,,F,F,F,
+113952,3cb5b5a8,GitHub,e0b41e26,data/e0b41e26/src/l.js,145:145,F,F,,,F,F,,,,,0.00,,F,F,F,
+113953,508b8489,GitHub,e0b41e26,data/e0b41e26/test/bd.js,1318:1318,F,F,,,F,F,,,,,0.00,,F,F,F,
+113954,c386ab3a,GitHub,e0b41e26,data/e0b41e26/test/ba.js,109:109,F,F,,,F,F,,,,,0.00,,F,F,F,
+113955,c386ab3a,GitHub,e0b41e26,data/e0b41e26/test/ba.js,120:120,F,F,,,F,F,,,,,0.00,,F,F,F,
+113956,c386ab3a,GitHub,e0b41e26,data/e0b41e26/test/ba.js,196:196,F,F,,,F,F,,,,,0.00,,F,F,F,
+113957,c386ab3a,GitHub,e0b41e26,data/e0b41e26/test/ba.js,207:207,F,F,,,F,F,,,,,0.00,,F,F,F,
