@@ -344,7 +344,7 @@ wraith(gitrob)  | https://gitlab.com/gitlab-com/gl-security/security-operations/
 You can use CredData on your research.
 ```
 @misc{sr-cred21,
-    author = {JaeKu Yun, ShinHyung Choi, YuJeong Lee, Oleksandra Sokol, WooChul Shim},
+    author = {JaeKu Yun and ShinHyung Choi and YuJeong Lee and Oleksandra Sokol and WooChul Shim and Arkadiy Melkonyan and Dmytro Kuzmenko},
     title = {Project CredData: A Dataset of Credentials for Research},
     howpublished ={ \url{https://github.com/Samsung/CredData}},
     year = {2021}
