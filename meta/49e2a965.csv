@@ -8,41 +8,41 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 17081,ae95a565,GitHub,49e2a965,data/49e2a965/other/c.md,109:109,F,F,,,F,F,,,,,0,0,F,F,F,
 17347,c22885d9,GitHub,49e2a965,data/49e2a965/test/d.md,40:40,F,F,,,F,F,,,,,0,0,F,F,F,
 26430,7f6254f3,GitHub,49e2a965,data/49e2a965/other/a.md,106:106,F,F,,,F,F,,,,,0,0,F,F,F,
-27410,ef6fe596,GitHub,49e2a965,data/49e2a965/test/t.ts,40:40,Template,1,9,15,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
-28866,d5e663f8,GitHub,49e2a965,data/49e2a965/test/o.json,3:3,Template,0,19,29,F,F,Any,,,Secret,3.32,10,F,F,F,Password
-29118,d0299fed,GitHub,49e2a965,data/49e2a965/test/m.ts,15:15,Template,1,17,23,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
-29120,30ef539d,GitHub,49e2a965,data/49e2a965/test/r.ts,98:98,Template,0,17,27,F,F,Any,,,Secret,3.32,10,F,F,F,Password
-29168,76ccf172,GitHub,49e2a965,data/49e2a965/test/n.ts,75:75,Template,1,17,21,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-29451,76ccf172,GitHub,49e2a965,data/49e2a965/test/n.ts,44:44,Template,0,8,27,F,F,Any,,,Token,2.67,19,F,F,F,Generic Token
-29729,85f228e9,GitHub,49e2a965,data/49e2a965/test/j.ts,127:127,Template,0,17,20,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-29730,85f228e9,GitHub,49e2a965,data/49e2a965/test/j.ts,100:100,Template,1,17,31,F,F,Any,,,Secret,3.05,14,F,F,F,Password
-29828,b369b381,GitHub,49e2a965,data/49e2a965/test/h.snap,16:16,Template,1,19,33,F,F,Any,,,Secret,3.05,14,F,F,F,Password
-29837,b369b381,GitHub,49e2a965,data/49e2a965/test/h.snap,33:33,Template,0,19,22,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-29961,97db29a7,GitHub,49e2a965,data/49e2a965/other/b.md,187:187,Template,1,9,25,F,F,Any,,,Secret,3.58,16,F,F,F,Generic Secret
-30053,69c9100f,GitHub,49e2a965,data/49e2a965/src/g.ts,113:113,Template,1,13,34,F,F,Any,,,Unknown,3.35,21,F,F,F,Other
-30790,63da967b,GitHub,49e2a965,data/49e2a965/test/l.ts,22:22,Template,1,24,30,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
-32402,63da967b,GitHub,49e2a965,data/49e2a965/test/l.ts,13:21,T,1,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
-32444,617abb47,GitHub,49e2a965,data/49e2a965/test/s.ts,13:21,T,1,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
-33753,d0299fed,GitHub,49e2a965,data/49e2a965/test/m.ts,6:14,T,1,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
-33879,76ccf172,GitHub,49e2a965,data/49e2a965/test/n.ts,74:74,T,0,,,F,F,Any,Private,,Unknown,0.50,4,F,F,F,Private Key
-34066,13d6465f,GitHub,49e2a965,data/49e2a965/test/i.ts,24:24,T,1,13,24,F,F,Any,,,Unknown,2.96,11,F,F,F,Other
+27410,ef6fe596,GitHub,49e2a965,data/49e2a965/test/t.ts,40:40,Template,T,9,15,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
+28866,d5e663f8,GitHub,49e2a965,data/49e2a965/test/o.json,3:3,Template,F,19,29,F,F,Any,,,Secret,3.32,10,F,F,F,Password
+29118,d0299fed,GitHub,49e2a965,data/49e2a965/test/m.ts,15:15,Template,T,17,23,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
+29120,30ef539d,GitHub,49e2a965,data/49e2a965/test/r.ts,98:98,Template,F,17,27,F,F,Any,,,Secret,3.32,10,F,F,F,Password
+29168,76ccf172,GitHub,49e2a965,data/49e2a965/test/n.ts,75:75,Template,T,17,21,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
+29451,76ccf172,GitHub,49e2a965,data/49e2a965/test/n.ts,44:44,Template,F,8,27,F,F,Any,,,Token,2.67,19,F,F,F,Generic Token
+29729,85f228e9,GitHub,49e2a965,data/49e2a965/test/j.ts,127:127,Template,F,17,20,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
+29730,85f228e9,GitHub,49e2a965,data/49e2a965/test/j.ts,100:100,Template,T,17,31,F,F,Any,,,Secret,3.05,14,F,F,F,Password
+29828,b369b381,GitHub,49e2a965,data/49e2a965/test/h.snap,16:16,Template,T,19,33,F,F,Any,,,Secret,3.05,14,F,F,F,Password
+29837,b369b381,GitHub,49e2a965,data/49e2a965/test/h.snap,33:33,Template,F,19,22,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
+29961,97db29a7,GitHub,49e2a965,data/49e2a965/other/b.md,187:187,Template,T,9,25,F,F,Any,,,Secret,3.58,16,F,F,F,Generic Secret
+30053,69c9100f,GitHub,49e2a965,data/49e2a965/src/g.ts,113:113,Template,T,13,34,F,F,Any,,,Unknown,3.35,21,F,F,F,Other
+30790,63da967b,GitHub,49e2a965,data/49e2a965/test/l.ts,22:22,Template,T,24,30,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
+32402,63da967b,GitHub,49e2a965,data/49e2a965/test/l.ts,13:21,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
+32444,617abb47,GitHub,49e2a965,data/49e2a965/test/s.ts,13:21,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
+33753,d0299fed,GitHub,49e2a965,data/49e2a965/test/m.ts,6:14,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
+33879,76ccf172,GitHub,49e2a965,data/49e2a965/test/n.ts,74:74,T,F,,,F,F,Any,Private,,Unknown,0.50,4,F,F,F,Private Key
+34066,13d6465f,GitHub,49e2a965,data/49e2a965/test/i.ts,24:24,F,T,13,24,F,F,Any,,,Unknown,2.96,11,F,F,F,Other
 34314,0a7ae4db,GitHub,49e2a965,data/49e2a965/test/q.json,26:26,F,F,13,21,F,F,,,,,0,0,F,F,F,
 34318,0a7ae4db,GitHub,49e2a965,data/49e2a965/test/q.json,21:21,F,F,13,21,F,F,,,,,0,0,F,F,F,
 34688,0a7ae4db,GitHub,49e2a965,data/49e2a965/test/q.json,135:135,F,F,10,22,F,F,,,,,0,0,F,F,F,
-35291,91cf9921,GitHub,49e2a965,data/49e2a965/test/p.pem,1:51,T,1,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
+35291,91cf9921,GitHub,49e2a965,data/49e2a965/test/p.pem,1:51,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
 36173,f23360e8,GitHub,49e2a965,data/49e2a965/test/k.ts,22:22,F,F,17,25,F,F,,,,,0,0,F,F,F,
 36386,76ccf172,GitHub,49e2a965,data/49e2a965/test/n.ts,95:95,F,F,8,15,F,F,,,,,0,0,F,F,F,
 37114,0a7ae4db,GitHub,49e2a965,data/49e2a965/test/q.json,48:48,F,F,13,21,F,F,,,,,0,0,F,F,F,
 37119,0a7ae4db,GitHub,49e2a965,data/49e2a965/test/q.json,43:43,F,F,13,21,F,F,,,,,0,0,F,F,F,
 47191,30ef539d,GitHub,49e2a965,data/49e2a965/test/r.ts,115:115,F,F,,,F,F,,,,,0,0,F,F,F,
-47198,85f228e9,GitHub,49e2a965,data/49e2a965/test/j.ts,102:102,T,0,16,56,F,F,Any,,,Secret,3.74,40,F,F,F,Generic Secret
-47217,ef6fe596,GitHub,49e2a965,data/49e2a965/test/t.ts,74:74,Template,1,9,15,F,F,CharsOnly,,,Unknown,2.25,6,F,F,F,Other
+47198,85f228e9,GitHub,49e2a965,data/49e2a965/test/j.ts,102:102,T,F,16,56,F,F,Any,,,Secret,3.74,40,F,F,F,Generic Secret
+47217,ef6fe596,GitHub,49e2a965,data/49e2a965/test/t.ts,74:74,Template,T,9,15,F,F,CharsOnly,,,Unknown,2.25,6,F,F,F,Other
 47220,617abb47,GitHub,49e2a965,data/49e2a965/test/s.ts,439:439,F,F,,,F,F,,,,,0,0,F,F,F,
-47584,85f228e9,GitHub,49e2a965,data/49e2a965/test/j.ts,31:31,Template,1,13,34,F,F,Any,,,Unknown,3.35,21,F,F,F,Other
-47701,b369b381,GitHub,49e2a965,data/49e2a965/test/h.snap,14:14,T,0,25,65,F,F,Any,,,Secret,3.74,40,F,F,F,Generic Secret
+47584,85f228e9,GitHub,49e2a965,data/49e2a965/test/j.ts,31:31,Template,T,13,34,F,F,Any,,,Unknown,3.35,21,F,F,F,Other
+47701,b369b381,GitHub,49e2a965,data/49e2a965/test/h.snap,14:14,T,F,25,65,F,F,Any,,,Secret,3.74,40,F,F,F,Generic Secret
 48100,0a7ae4db,GitHub,49e2a965,data/49e2a965/test/q.json,4:4,F,F,,,F,F,,,,,0,0,F,F,F,
 48107,0a7ae4db,GitHub,49e2a965,data/49e2a965/test/q.json,3:3,F,F,,,F,F,,,,,0,0,F,F,F,
-50064,ef6fe596,GitHub,49e2a965,data/49e2a965/test/t.ts,12:20,T,1,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
+50064,ef6fe596,GitHub,49e2a965,data/49e2a965/test/t.ts,12:20,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
 54643,0a7ae4db,GitHub,49e2a965,data/49e2a965/test/q.json,148:148,F,F,,,F,F,,,,,0,0,F,F,F,
 61604,d0299fed,GitHub,49e2a965,data/49e2a965/test/m.ts,80:80,F,F,,,F,F,,,,,0,0,F,F,F,
 62643,0cd594dd,GitHub,49e2a965,data/49e2a965/src/e.ts,19:19,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -51,10 +51,17 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 62646,0cd594dd,GitHub,49e2a965,data/49e2a965/src/e.ts,37:37,F,F,,,F,F,,,,,0,0,F,F,F,
 82695,ae95a565,GitHub,49e2a965,data/49e2a965/other/c.md,150:150,F,F,29,50,F,F,,,,,0,0,F,F,F,
 82696,97db29a7,GitHub,49e2a965,data/49e2a965/other/b.md,209:209,F,F,13,44,F,F,,,,,0,0,F,F,F,
-82697,97db29a7,GitHub,49e2a965,data/49e2a965/other/b.md,210:210,T,1,9,25,F,F,Any,,,Secret,3.58,16,F,F,F,Generic Secret
+82697,97db29a7,GitHub,49e2a965,data/49e2a965/other/b.md,210:210,Template,T,9,25,F,F,Any,,,Secret,3.58,16,F,F,F,Generic Secret
 82698,97db29a7,GitHub,49e2a965,data/49e2a965/other/b.md,236:236,F,F,13,44,F,F,,,,,0,0,F,F,F,
-82699,97db29a7,GitHub,49e2a965,data/49e2a965/other/b.md,237:237,T,1,9,25,F,F,Any,,,Secret,3.58,16,F,F,F,Generic Secret
-82700,30ef539d,GitHub,49e2a965,data/49e2a965/test/r.ts,116:116,Template,0,17,27,F,F,Any,,,Secret,3.32,10,F,F,F,Password
-82701,30ef539d,GitHub,49e2a965,data/49e2a965/test/r.ts,116:116,Template,0,17,27,F,F,Any,,,Secret,3.32,10,F,F,F,Password
+82699,97db29a7,GitHub,49e2a965,data/49e2a965/other/b.md,237:237,Template,T,9,25,F,F,Any,,,Secret,3.58,16,F,F,F,Generic Secret
+82701,30ef539d,GitHub,49e2a965,data/49e2a965/test/r.ts,116:116,Template,F,17,27,F,F,Any,,,Secret,3.32,10,F,F,F,Password
 82702,85f228e9,GitHub,49e2a965,data/49e2a965/test/j.ts,70:70,F,F,13,34,F,F,,,,,0,0,F,F,F,
-82703,85f228e9,GitHub,49e2a965,data/49e2a965/test/j.ts,144:144,Template,0,17,20,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
+82703,85f228e9,GitHub,49e2a965,data/49e2a965/test/j.ts,144:144,Template,F,17,20,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
+108545,7f6254f3,GitHub,49e2a965,data/49e2a965/other/a.md,42:42,F,F,,,F,F,,,,,0.00,,F,F,F,
+108546,7f6254f3,GitHub,49e2a965,data/49e2a965/other/a.md,53:53,F,F,,,F,F,,,,,0.00,,F,F,F,
+108547,7f6254f3,GitHub,49e2a965,data/49e2a965/other/a.md,105:105,F,F,,,F,F,,,,,0.00,,F,F,F,
+108548,97db29a7,GitHub,49e2a965,data/49e2a965/other/b.md,129:129,F,F,,,F,F,,,,,0.00,,F,F,F,
+108549,ae95a565,GitHub,49e2a965,data/49e2a965/other/c.md,32:32,F,F,,,F,F,,,,,0.00,,F,F,F,
+114654,ae95a565,GitHub,49e2a965,data/49e2a965/other/c.md,195:195,F,F,,,F,F,,,,,0.00,,F,F,F,
+114655,ae95a565,GitHub,49e2a965,data/49e2a965/other/c.md,196:196,F,F,,,F,F,,,,,0.00,,F,F,F,
+131632,ae95a565,GitHub,49e2a965,data/49e2a965/other/c.md,72:72,F,F,,,F,F,,,,,0.00,,F,F,F,

@@ -72,10 +72,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 18073,8b0a1f2f,GitHub,bdaf1007,data/bdaf1007/src/bb.c,496:496,F,F,,,F,F,,,,,0,0,F,F,F,
 18074,8b0a1f2f,GitHub,bdaf1007,data/bdaf1007/src/bb.c,500:500,F,F,,,F,F,,,,,0,0,F,F,F,
 23077,8b0a1f2f,GitHub,bdaf1007,data/bdaf1007/src/bb.c,472:472,F,F,,,F,F,,,,,0,0,F,F,F,
-31094,96130eb0,GitHub,bdaf1007,data/bdaf1007/src/s.rs,415:415,Template,1,18,30,F,F,Any,,,Unknown,3.08,12,F,F,F,Other
-31095,742c6aac,GitHub,bdaf1007,data/bdaf1007/src/x.rs,478:478,Template,0,11,14,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-35042,667f729e,GitHub,bdaf1007,data/bdaf1007/src/u.rs,79:79,T,0,16,54,F,F,Any,,,Token,3.58,38,F,F,F,Generic Token
-36363,e974654f,GitHub,bdaf1007,data/bdaf1007/test/z.rs,96:96,T,0,15,22,F,F,Any,,,Secret,2.12,7,F,F,F,Password
+31094,96130eb0,GitHub,bdaf1007,data/bdaf1007/src/s.rs,415:415,Template,T,18,30,F,F,Any,,,Unknown,3.08,12,F,F,F,Other
+31095,742c6aac,GitHub,bdaf1007,data/bdaf1007/src/x.rs,478:478,Template,F,11,14,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
+35042,667f729e,GitHub,bdaf1007,data/bdaf1007/src/u.rs,79:79,T,F,16,54,F,F,Any,,,Token,3.58,38,F,F,F,Generic Token
+36363,e974654f,GitHub,bdaf1007,data/bdaf1007/test/z.rs,96:96,Template,F,15,22,F,F,Any,,,Secret,2.12,7,F,F,F,Password
 48012,e974654f,GitHub,bdaf1007,data/bdaf1007/test/z.rs,31:31,F,F,,,F,F,,,,,0,0,F,F,F,
 56853,bfc3a7a2,GitHub,bdaf1007,data/bdaf1007/src/a.key,1:127,F,F,,,F,F,,,,,0,0,F,F,F,
 64089,c26518a1,GitHub,bdaf1007,data/bdaf1007/src/n.rs,141:141,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -119,9 +119,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 74155,96130eb0,GitHub,bdaf1007,data/bdaf1007/src/s.rs,99:99,F,F,,,F,F,,,,,0,0,F,F,F,
 74156,96130eb0,GitHub,bdaf1007,data/bdaf1007/src/s.rs,386:386,F,F,,,F,F,,,,,0,0,F,F,F,
 74157,fb203eaa,GitHub,bdaf1007,data/bdaf1007/src/j.rs,183:183,F,F,,,F,F,,,,,0,0,F,F,F,
-74370,2fe7e0f2,GitHub,bdaf1007,data/bdaf1007/src/q.rs,554:554,Template,1,18,30,F,F,Any,,,Unknown,3.08,12,F,F,F,Other
-74371,2fe7e0f2,GitHub,bdaf1007,data/bdaf1007/src/q.rs,602:602,Template,1,18,30,F,F,Any,,,Unknown,3.08,12,F,F,F,Other
-74372,a86e4631,GitHub,bdaf1007,data/bdaf1007/src/t.rs,334:334,Template,1,18,30,F,F,Any,,,Unknown,3.08,12,F,F,F,Other
+74370,2fe7e0f2,GitHub,bdaf1007,data/bdaf1007/src/q.rs,554:554,Template,T,18,30,F,F,Any,,,Unknown,3.08,12,F,F,F,Other
+74371,2fe7e0f2,GitHub,bdaf1007,data/bdaf1007/src/q.rs,602:602,Template,T,18,30,F,F,Any,,,Unknown,3.08,12,F,F,F,Other
+74372,a86e4631,GitHub,bdaf1007,data/bdaf1007/src/t.rs,334:334,Template,T,18,30,F,F,Any,,,Unknown,3.08,12,F,F,F,Other
 74388,ce278407,GitHub,bdaf1007,data/bdaf1007/src/h.rs,151:151,F,F,,,F,F,,,,,0,0,F,F,F,
 74389,1df0d07c,GitHub,bdaf1007,data/bdaf1007/src/p.rs,1000:1000,F,F,,,F,F,,,,,0,0,F,F,F,
 74390,c26518a1,GitHub,bdaf1007,data/bdaf1007/src/n.rs,188:188,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -151,3 +151,29 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 83110,742c6aac,GitHub,bdaf1007,data/bdaf1007/src/x.rs,50:50,F,F,5,10,F,F,,,,,0,0,F,F,F,
 83111,742c6aac,GitHub,bdaf1007,data/bdaf1007/src/x.rs,139:139,F,F,9,14,F,F,,,,,0,0,F,F,F,
 83112,742c6aac,GitHub,bdaf1007,data/bdaf1007/src/x.rs,140:140,F,F,9,14,F,F,,,,,0,0,F,F,F,
+100350,1911a8da,GitHub,bdaf1007,data/bdaf1007/src/d.rs,184:184,F,F,,,F,F,,,,,0.00,,F,F,F,
+100351,8a44ff48,GitHub,bdaf1007,data/bdaf1007/src/e.rs,728:728,F,F,,,F,F,,,,,0.00,,F,F,F,
+100352,31041e6a,GitHub,bdaf1007,data/bdaf1007/src/v.rs,16:16,F,F,,,F,F,,,,,0.00,,F,F,F,
+100353,742c6aac,GitHub,bdaf1007,data/bdaf1007/src/x.rs,480:480,F,F,,,F,F,,,,,0.00,,F,F,F,
+110072,8a44ff48,GitHub,bdaf1007,data/bdaf1007/src/e.rs,258:258,F,F,,,F,F,,,,,0.00,,F,F,F,
+110073,8a44ff48,GitHub,bdaf1007,data/bdaf1007/src/e.rs,715:715,F,F,,,F,F,,,,,0.00,,F,F,F,
+110074,8a44ff48,GitHub,bdaf1007,data/bdaf1007/src/e.rs,779:779,F,F,,,F,F,,,,,0.00,,F,F,F,
+110075,742c6aac,GitHub,bdaf1007,data/bdaf1007/src/x.rs,90:90,F,F,,,F,F,,,,,0.00,,F,F,F,
+110076,742c6aac,GitHub,bdaf1007,data/bdaf1007/src/x.rs,124:124,F,F,,,F,F,,,,,0.00,,F,F,F,
+110077,742c6aac,GitHub,bdaf1007,data/bdaf1007/src/x.rs,70:70,F,F,,,F,F,,,,,0.00,,F,F,F,
+110078,035a162c,GitHub,bdaf1007,data/bdaf1007/src/w.rs,91:91,F,F,,,F,F,,,,,0.00,,F,F,F,
+110079,035a162c,GitHub,bdaf1007,data/bdaf1007/src/w.rs,95:95,F,F,,,F,F,,,,,0.00,,F,F,F,
+110080,035a162c,GitHub,bdaf1007,data/bdaf1007/src/w.rs,130:130,F,F,,,F,F,,,,,0.00,,F,F,F,
+110081,035a162c,GitHub,bdaf1007,data/bdaf1007/src/w.rs,141:141,F,F,,,F,F,,,,,0.00,,F,F,F,
+110082,035a162c,GitHub,bdaf1007,data/bdaf1007/src/w.rs,159:159,F,F,,,F,F,,,,,0.00,,F,F,F,
+110083,035a162c,GitHub,bdaf1007,data/bdaf1007/src/w.rs,171:171,F,F,,,F,F,,,,,0.00,,F,F,F,
+110084,1911a8da,GitHub,bdaf1007,data/bdaf1007/src/d.rs,122:122,F,F,,,F,F,,,,,0.00,,F,F,F,
+110085,1911a8da,GitHub,bdaf1007,data/bdaf1007/src/d.rs,249:249,F,F,,,F,F,,,,,0.00,,F,F,F,
+110086,fb3d81be,GitHub,bdaf1007,data/bdaf1007/src/b.rs,935:935,F,F,,,F,F,,,,,0.00,,F,F,F,
+110087,fb3d81be,GitHub,bdaf1007,data/bdaf1007/src/b.rs,936:936,F,F,,,F,F,,,,,0.00,,F,F,F,
+110088,fb3d81be,GitHub,bdaf1007,data/bdaf1007/src/b.rs,938:938,F,F,,,F,F,,,,,0.00,,F,F,F,
+110089,fb3d81be,GitHub,bdaf1007,data/bdaf1007/src/b.rs,1040:1040,F,F,,,F,F,,,,,0.00,,F,F,F,
+110090,fb3d81be,GitHub,bdaf1007,data/bdaf1007/src/b.rs,1131:1131,F,F,,,F,F,,,,,0.00,,F,F,F,
+110091,c26518a1,GitHub,bdaf1007,data/bdaf1007/src/n.rs,28:28,F,F,,,F,F,,,,,0.00,,F,F,F,
+110092,c26518a1,GitHub,bdaf1007,data/bdaf1007/src/n.rs,34:34,F,F,,,F,F,,,,,0.00,,F,F,F,
+110093,c26518a1,GitHub,bdaf1007,data/bdaf1007/src/n.rs,40:40,F,F,,,F,F,,,,,0.00,,F,F,F,

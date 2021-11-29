@@ -143,17 +143,17 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 25012,9fe5b405,GitHub,67cb5d24,data/67cb5d24/test/l.go,247:247,F,F,,,F,F,,,,,0,0,F,F,F,
 25014,9fe5b405,GitHub,67cb5d24,data/67cb5d24/test/l.go,246:246,F,F,,,F,F,,,,,0,0,F,F,F,
 27067,cf04b700,GitHub,67cb5d24,data/67cb5d24/src/r.go,24:24,F,F,,,F,F,,,,,0,0,F,F,F,
-28920,c0669f6f,GitHub,67cb5d24,data/67cb5d24/src/z.go,15:15,Template,1,15,21,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
-29412,d30d49e3,GitHub,67cb5d24,data/67cb5d24/test/bl.go,153:153,Template,1,26,30,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-29843,d2fde245,GitHub,67cb5d24,data/67cb5d24/test/t.go,64:64,Template,1,13,22,F,F,CharsOnly,,,Secret,2.42,9,F,F,F,Password
-32447,71010b1e,GitHub,67cb5d24,data/67cb5d24/test/v.go,34:34,T,0,13,49,F,F,Any,,,Unknown,3.42,36,F,F,F,Other
-32769,405f71c7,GitHub,67cb5d24,data/67cb5d24/test/b.go,18:18,T,0,17,61,F,F,Any,,,Unknown,4.87,44,F,F,F,Other
-34147,b6baa2df,GitHub,67cb5d24,data/67cb5d24/test/d.go,12:26,T,1,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
-34148,d6121220,GitHub,67cb5d24,data/67cb5d24/test/w.go,35:49,T,1,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
-36061,379f1018,GitHub,67cb5d24,data/67cb5d24/test/bk,15:15,T,1,9,17,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-36209,71010b1e,GitHub,67cb5d24,data/67cb5d24/test/v.go,61:61,T,0,11,47,F,F,Any,,,Unknown,3.47,36,F,F,F,Other
-46258,405f71c7,GitHub,67cb5d24,data/67cb5d24/test/b.go,12:12,T,0,17,81,F,F,Any,,,Unknown,3.80,64,F,F,F,Other
-46313,fba8887b,GitHub,67cb5d24,data/67cb5d24/test/bb.go,31:45,T,1,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
+28920,c0669f6f,GitHub,67cb5d24,data/67cb5d24/src/z.go,15:15,Template,T,15,21,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
+29412,d30d49e3,GitHub,67cb5d24,data/67cb5d24/test/bl.go,153:153,Template,T,26,30,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
+29843,d2fde245,GitHub,67cb5d24,data/67cb5d24/test/t.go,64:64,Template,T,13,22,F,F,CharsOnly,,,Secret,2.42,9,F,F,F,Password
+32447,71010b1e,GitHub,67cb5d24,data/67cb5d24/test/v.go,34:34,T,F,13,49,F,F,Any,,,Unknown,3.42,36,F,F,F,Other
+32769,405f71c7,GitHub,67cb5d24,data/67cb5d24/test/b.go,18:18,F,F,17,61,F,F,Any,,,Unknown,4.87,44,F,F,F,Other
+34147,b6baa2df,GitHub,67cb5d24,data/67cb5d24/test/d.go,12:26,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
+34148,d6121220,GitHub,67cb5d24,data/67cb5d24/test/w.go,35:49,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
+36061,379f1018,GitHub,67cb5d24,data/67cb5d24/test/bk,15:15,Template,T,9,17,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+36209,71010b1e,GitHub,67cb5d24,data/67cb5d24/test/v.go,61:61,T,F,11,47,F,F,Any,,,Unknown,3.47,36,F,F,F,Other
+46258,405f71c7,GitHub,67cb5d24,data/67cb5d24/test/b.go,12:12,F,F,17,81,F,F,Any,,,Unknown,3.80,64,F,F,F,Other
+46313,fba8887b,GitHub,67cb5d24,data/67cb5d24/test/bb.go,31:45,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
 54549,bdf66a82,GitHub,67cb5d24,data/67cb5d24/test/bd.go,55:55,F,F,,,F,F,,,,,0,0,F,F,F,
 54551,8068654c,GitHub,67cb5d24,data/67cb5d24/test/y.go,31:31,F,F,,,F,F,,,,,0,0,F,F,F,
 54554,71010b1e,GitHub,67cb5d24,data/67cb5d24/test/v.go,37:37,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -290,3 +290,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 79316,b6baa2df,GitHub,67cb5d24,data/67cb5d24/test/d.go,27:32,F,F,,,F,F,,,,,0,0,F,F,F,
 82419,cf04b700,GitHub,67cb5d24,data/67cb5d24/src/r.go,35:35,F,F,14,21,F,F,,,,,0,0,F,F,F,
 82420,e795590e,GitHub,67cb5d24,data/67cb5d24/src/bc.go,120:120,F,F,6,12,F,F,,,,,0,0,F,F,F,
+108698,d30d49e3,GitHub,67cb5d24,data/67cb5d24/test/bl.go,193:193,F,F,,,F,F,,,,,0.00,,F,F,F,
+108699,d30d49e3,GitHub,67cb5d24,data/67cb5d24/test/bl.go,213:213,F,F,,,F,F,,,,,0.00,,F,F,F,
+114767,b69b1644,GitHub,67cb5d24,data/67cb5d24/test/q.go,539:539,F,F,,,F,F,,,,,0.00,,F,F,F,
+114768,7d48accb,GitHub,67cb5d24,data/67cb5d24/test/o.go,307:307,F,F,,,F,F,,,,,0.00,,F,F,F,
+114769,bdf66a82,GitHub,67cb5d24,data/67cb5d24/test/bd.go,17:17,F,F,,,F,F,,,,,0.00,,F,F,F,
+114770,bdf66a82,GitHub,67cb5d24,data/67cb5d24/test/bd.go,51:51,F,F,,,F,F,,,,,0.00,,F,F,F,
+114771,71010b1e,GitHub,67cb5d24,data/67cb5d24/test/v.go,62:62,F,F,,,F,F,,,,,0.00,,F,F,F,

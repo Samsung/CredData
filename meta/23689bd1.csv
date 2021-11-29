@@ -95,7 +95,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 27328,9d43c1e9,GitHub,23689bd1,data/23689bd1/test/cl.mjs,61:61,F,F,4,175,F,F,,,,,0,0,F,F,F,
 27329,b2db93fc,GitHub,23689bd1,data/23689bd1/test/ch.mjs,73:73,F,F,4,175,F,F,,,,,0,0,F,F,F,
 27333,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,134:134,F,F,4,175,F,F,,,,,0,0,F,F,F,
-27336,1407312b,GitHub,23689bd1,data/23689bd1/test/cq.mjs,20:20,T,0,11,66,F,F,Any,,JSON Web Token,Token,4.70,55,F,F,F,Predefined Pattern
+27336,1407312b,GitHub,23689bd1,data/23689bd1/test/cq.mjs,20:20,T,F,11,66,F,F,Any,,JSON Web Token,Token,4.70,55,F,F,F,Predefined Pattern
 27337,fb6ba96e,GitHub,23689bd1,data/23689bd1/test/cg.mjs,121:121,F,F,29,72,F,F,,,,,0,0,F,F,F,
 27338,fb6ba96e,GitHub,23689bd1,data/23689bd1/test/cg.mjs,103:103,F,F,29,72,F,F,,,,,0,0,F,F,F,
 27339,fb6ba96e,GitHub,23689bd1,data/23689bd1/test/cg.mjs,134:134,F,F,29,72,F,F,,,,,0,0,F,F,F,
@@ -116,16 +116,16 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 27656,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,701:701,F,F,1,228,F,F,,,,,0,0,F,F,F,
 27665,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,788:788,F,F,1,365,F,F,,,,,0,0,F,F,F,
 27668,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,766:766,F,F,1,245,F,F,,,,,0,0,F,F,F,
-27671,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,338:338,T,0,1,766,F,F,Any,,JSON Web Token,Unknown,5.80,765,F,F,F,Predefined Pattern
-27672,d2d4907a,GitHub,23689bd1,data/23689bd1/test/cp.mjs,29:29,T,0,1,101,F,F,Any,,JSON Web Token,Token,5.09,100,F,F,F,Predefined Pattern
-27673,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,337:337,T,0,1,349,F,F,Any,,JSON Web Token,Unknown,5.51,348,F,F,F,Predefined Pattern
-27674,d2d4907a,GitHub,23689bd1,data/23689bd1/test/cp.mjs,35:35,T,0,1,201,F,F,Any,,JSON Web Token,Token,5.40,200,F,F,F,Predefined Pattern
-27675,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,290:290,T,1,1,474,F,F,Any,,JSON Web Token,Unknown,5.58,473,F,F,F,Predefined Pattern
-27677,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,412:412,T,0,1,782,F,F,Any,,JSON Web Token,Unknown,5.77,781,F,F,F,Predefined Pattern
-27678,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,486:486,T,1,1,723,F,F,Any,,JSON Web Token,Unknown,5.71,722,F,F,F,Predefined Pattern
-27679,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,595:595,T,1,1,664,F,F,Any,,JSON Web Token,Unknown,5.74,663,F,F,F,Predefined Pattern
-27680,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,654:654,T,0,1,542,F,F,Any,,JSON Web Token,Unknown,5.72,541,F,F,F,Predefined Pattern
-27681,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,716:716,T,0,1,421,F,F,Any,,JSON Web Token,Unknown,5.66,420,F,F,F,Predefined Pattern
+27671,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,338:338,T,F,1,766,F,F,Any,,JSON Web Token,Unknown,5.80,765,F,F,F,Predefined Pattern
+27672,d2d4907a,GitHub,23689bd1,data/23689bd1/test/cp.mjs,29:29,T,F,1,101,F,F,Any,,JSON Web Token,Token,5.09,100,F,F,F,Predefined Pattern
+27673,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,337:337,T,F,1,349,F,F,Any,,JSON Web Token,Unknown,5.51,348,F,F,F,Predefined Pattern
+27674,d2d4907a,GitHub,23689bd1,data/23689bd1/test/cp.mjs,35:35,T,F,1,201,F,F,Any,,JSON Web Token,Token,5.40,200,F,F,F,Predefined Pattern
+27675,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,290:290,T,T,1,474,F,F,Any,,JSON Web Token,Unknown,5.58,473,F,F,F,Predefined Pattern
+27677,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,412:412,T,F,1,782,F,F,Any,,JSON Web Token,Unknown,5.77,781,F,F,F,Predefined Pattern
+27678,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,486:486,T,T,1,723,F,F,Any,,JSON Web Token,Unknown,5.71,722,F,F,F,Predefined Pattern
+27679,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,595:595,T,T,1,664,F,F,Any,,JSON Web Token,Unknown,5.74,663,F,F,F,Predefined Pattern
+27680,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,654:654,T,F,1,542,F,F,Any,,JSON Web Token,Unknown,5.72,541,F,F,F,Predefined Pattern
+27681,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,716:716,T,F,1,421,F,F,Any,,JSON Web Token,Unknown,5.66,420,F,F,F,Predefined Pattern
 27687,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,152:152,F,F,1,224,F,F,,,,,0,0,F,F,F,
 27688,7b19b78f,GitHub,23689bd1,data/23689bd1/test/ck.mjs,34:34,F,F,1,76,F,F,,,,,0,0,F,F,F,
 27695,b2db93fc,GitHub,23689bd1,data/23689bd1/test/ch.mjs,70:70,F,F,4,346,F,F,,,,,0,0,F,F,F,
@@ -142,7 +142,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 27711,fb6ba96e,GitHub,23689bd1,data/23689bd1/test/cg.mjs,25:25,F,F,1,44,F,F,,,,,0,0,F,F,F,
 27712,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,158:158,F,F,1,343,F,F,,,,,0,0,F,F,F,
 27715,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,606:606,F,F,1,385,F,F,,,,,0,0,F,F,F,
-27716,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,242:242,T,0,1,640,F,F,Any,,JSON Web Token,Unknown,5.71,639,F,F,F,Predefined Pattern
+27716,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,242:242,T,F,1,640,F,F,Any,,JSON Web Token,Unknown,5.71,639,F,F,F,Predefined Pattern
 27717,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,543:543,F,F,1,365,F,F,,,,,0,0,F,F,F,
 27719,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,492:492,F,F,1,385,F,F,,,,,0,0,F,F,F,
 27720,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,665:665,F,F,1,365,F,F,,,,,0,0,F,F,F,
@@ -150,25 +150,25 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 27724,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,349:349,F,F,1,513,F,F,,,,,0,0,F,F,F,
 27725,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,727:727,F,F,1,228,F,F,,,,,0,0,F,F,F,
 27726,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,252:252,F,F,4,687,F,F,,,,,0,0,F,F,F,
-27727,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,279:279,T,0,1,1189,F,F,Any,,JSON Web Token,Unknown,5.81,1188,F,F,F,Predefined Pattern
-27728,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,149:149,T,1,1,640,F,F,Any,,JSON Web Token,Unknown,5.69,639,F,F,F,Predefined Pattern
+27727,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,279:279,T,F,1,1189,F,F,Any,,JSON Web Token,Unknown,5.81,1188,F,F,F,Predefined Pattern
+27728,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,149:149,T,T,1,640,F,F,Any,,JSON Web Token,Unknown,5.69,639,F,F,F,Predefined Pattern
 27734,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,423:423,F,F,1,365,F,F,,,,,0,0,F,F,F,
 27739,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,284:284,F,F,1,684,F,F,,,,,0,0,F,F,F,
 27740,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,913:913,F,F,1,365,F,F,,,,,0,0,F,F,F,
-27748,35fcd6a1,GitHub,23689bd1,data/23689bd1/src/t.ts,49:49,T,0,12,19,F,F,Any,,,Unknown,2.13,7,F,F,F,Other
-27749,fdc00c72,GitHub,23689bd1,data/23689bd1/src/k.ts,48:48,T,0,24,366,F,F,Any,,,Unknown,5.72,342,F,F,F,Other
-27756,1407312b,GitHub,23689bd1,data/23689bd1/test/cq.mjs,41:41,T,0,27,83,F,F,Any,,JSON Web Token,Token,4.63,56,F,F,F,Predefined Pattern
-27757,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,320:320,T,0,6,49,F,F,Any,,,Unknown,4.69,43,F,F,F,Other
-27758,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,266:266,T,0,6,49,F,F,Any,,,Unknown,4.88,43,F,F,F,Other
-27759,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,469:469,T,0,6,49,F,F,Any,,,Unknown,4.52,43,F,F,F,Other
-27760,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,577:577,T,0,6,49,F,F,Any,,,Unknown,4.69,43,F,F,F,Other
-27761,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,199:199,T,0,6,49,F,F,Any,,,Unknown,4.88,43,F,F,F,Other
+27748,35fcd6a1,GitHub,23689bd1,data/23689bd1/src/t.ts,49:49,T,F,12,19,F,F,Any,,,Unknown,2.13,7,F,F,F,Other
+27749,fdc00c72,GitHub,23689bd1,data/23689bd1/src/k.ts,48:48,T,F,24,366,F,F,Any,,,Unknown,5.72,342,F,F,F,Other
+27756,1407312b,GitHub,23689bd1,data/23689bd1/test/cq.mjs,41:41,T,F,27,83,F,F,Any,,JSON Web Token,Token,4.63,56,F,F,F,Predefined Pattern
+27757,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,320:320,T,F,6,49,F,F,Any,,,Unknown,4.69,43,F,F,F,Other
+27758,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,266:266,T,F,6,49,F,F,Any,,,Unknown,4.88,43,F,F,F,Other
+27759,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,469:469,T,F,6,49,F,F,Any,,,Unknown,4.52,43,F,F,F,Other
+27760,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,577:577,T,F,6,49,F,F,Any,,,Unknown,4.69,43,F,F,F,Other
+27761,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,199:199,T,F,6,49,F,F,Any,,,Unknown,4.88,43,F,F,F,Other
 27771,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,217:217,F,F,1,343,F,F,,,,,0,0,F,F,F,
 27775,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,851:851,F,F,1,365,F,F,,,,,0,0,F,F,F,
 27779,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,200:200,F,F,1,87,F,F,,,,,0,0,F,F,F,
-27781,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,537:537,T,0,1,506,F,F,Any,,JSON Web Token,Unknown,5.62,505,F,F,F,Predefined Pattern
+27781,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,537:537,T,F,1,506,F,F,Any,,JSON Web Token,Unknown,5.62,505,F,F,F,Predefined Pattern
 27782,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,291:291,F,F,1,365,F,F,,,,,0,0,F,F,F,
-27793,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,212:212,T,1,1,878,F,F,Any,,JSON Web Token,Unknown,5.78,877,F,F,F,Predefined Pattern
+27793,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,212:212,T,T,1,878,F,F,Any,,JSON Web Token,Unknown,5.78,877,F,F,F,Predefined Pattern
 27854,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,189:189,F,F,4,175,F,F,,,,,0,0,F,F,F,
 27855,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,133:133,F,F,4,175,F,F,,,,,0,0,F,F,F,
 27856,a57bbb8c,GitHub,23689bd1,data/23689bd1/test/cd.mjs,85:85,F,F,4,175,F,F,,,,,0,0,F,F,F,
@@ -176,9 +176,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 27858,9d43c1e9,GitHub,23689bd1,data/23689bd1/test/cl.mjs,60:60,F,F,4,175,F,F,,,,,0,0,F,F,F,
 27913,5211fcfa,GitHub,23689bd1,data/23689bd1/test/cf.mjs,41:41,F,F,19,62,F,F,,,,,0,0,F,F,F,
 27914,5211fcfa,GitHub,23689bd1,data/23689bd1/test/cf.mjs,42:42,F,F,19,62,F,F,,,,,0,0,F,F,F,
-27958,792d4c24,GitHub,23689bd1,data/23689bd1/other/b.md,23:23,T,0,13,88,F,F,Any,,,Unknown,5.15,75,F,F,F,Other
-27959,e85adc16,GitHub,23689bd1,data/23689bd1/test/cc.mjs,23:23,T,0,13,88,F,F,Any,,,Unknown,5.07,75,F,F,F,Other
-27960,6a9c6ace,GitHub,23689bd1,data/23689bd1/src/i.ts,57:57,T,0,17,92,F,F,Any,,,Unknown,5.15,75,F,F,F,Other
+27958,792d4c24,GitHub,23689bd1,data/23689bd1/other/b.md,23:23,T,F,13,88,F,F,Any,,,Unknown,5.15,75,F,F,F,Other
+27959,e85adc16,GitHub,23689bd1,data/23689bd1/test/cc.mjs,23:23,T,F,13,88,F,F,Any,,,Unknown,5.07,75,F,F,F,Other
+27960,6a9c6ace,GitHub,23689bd1,data/23689bd1/src/i.ts,57:57,T,F,17,92,F,F,Any,,,Unknown,5.15,75,F,F,F,Other
 27969,b2db93fc,GitHub,23689bd1,data/23689bd1/test/ch.mjs,75:75,F,F,5,176,F,F,,,,,0,0,F,F,F,
 27970,a57bbb8c,GitHub,23689bd1,data/23689bd1/test/cd.mjs,88:88,F,F,5,176,F,F,,,,,0,0,F,F,F,
 27971,b2db93fc,GitHub,23689bd1,data/23689bd1/test/ch.mjs,63:63,F,F,5,176,F,F,,,,,0,0,F,F,F,
@@ -187,8 +187,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 27974,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,259:259,F,F,5,347,F,F,,,,,0,0,F,F,F,
 27975,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,136:136,F,F,5,176,F,F,,,,,0,0,F,F,F,
 27977,9d43c1e9,GitHub,23689bd1,data/23689bd1/test/cl.mjs,52:52,F,F,5,176,F,F,,,,,0,0,F,F,F,
-27992,792d4c24,GitHub,23689bd1,data/23689bd1/other/b.md,26:26,T,0,16,358,F,F,Any,,,Unknown,5.72,342,F,F,F,Other
-27993,3ba90705,GitHub,23689bd1,data/23689bd1/other/c.md,30:30,T,0,16,358,F,F,Any,,,Unknown,5.72,342,F,F,F,Other
+27992,792d4c24,GitHub,23689bd1,data/23689bd1/other/b.md,26:26,T,F,16,358,F,F,Any,,,Unknown,5.72,342,F,F,F,Other
+27993,3ba90705,GitHub,23689bd1,data/23689bd1/other/c.md,30:30,T,F,16,358,F,F,Any,,,Unknown,5.72,342,F,F,F,Other
 27996,9d43c1e9,GitHub,23689bd1,data/23689bd1/test/cl.mjs,62:62,F,F,5,176,F,F,,,,,0,0,F,F,F,
 27997,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,191:191,F,F,5,176,F,F,,,,,0,0,F,F,F,
 27998,a57bbb8c,GitHub,23689bd1,data/23689bd1/test/cd.mjs,87:87,F,F,5,176,F,F,,,,,0,0,F,F,F,
@@ -198,8 +198,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 28021,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,258:258,F,F,5,347,F,F,,,,,0,0,F,F,F,
 28022,b2db93fc,GitHub,23689bd1,data/23689bd1/test/ch.mjs,62:62,F,F,5,176,F,F,,,,,0,0,F,F,F,
 28113,b2db93fc,GitHub,23689bd1,data/23689bd1/test/ch.mjs,60:60,F,F,4,175,F,F,,,,,0,0,F,F,F,
-28116,912ffaf8,GitHub,23689bd1,data/23689bd1/other/g.md,21:21,T,1,13,253,F,F,Any,,JSON Web Token,Token,5.49,240,F,F,F,Predefined Pattern
-28131,5af585bb,GitHub,23689bd1,data/23689bd1/other/d.md,27:27,T,1,13,398,F,F,Any,,JSON Web Token,Token,5.67,385,F,F,F,Predefined Pattern
+28116,912ffaf8,GitHub,23689bd1,data/23689bd1/other/g.md,21:21,T,T,13,253,F,F,Any,,JSON Web Token,Token,5.49,240,F,F,F,Predefined Pattern
+28131,5af585bb,GitHub,23689bd1,data/23689bd1/other/d.md,27:27,T,T,13,398,F,F,Any,,JSON Web Token,Token,5.67,385,F,F,F,Predefined Pattern
 28133,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,571:571,F,F,4,47,F,F,,,,,0,0,F,F,F,
 28134,5211fcfa,GitHub,23689bd1,data/23689bd1/test/cf.mjs,55:55,F,F,4,47,F,F,,,,,0,0,F,F,F,
 28149,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,466:466,F,F,4,90,F,F,,,,,0,0,F,F,F,
@@ -209,9 +209,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 28165,aae2e46f,GitHub,23689bd1,data/23689bd1/src/r.ts,55:55,F,F,16,102,F,F,,,,,0,0,F,F,F,
 28166,aae2e46f,GitHub,23689bd1,data/23689bd1/src/r.ts,56:56,F,F,14,89,F,F,,,,,0,0,F,F,F,
 28167,db59a138,GitHub,23689bd1,data/23689bd1/src/n.ts,41:41,F,F,8,350,F,F,,,,,0,0,F,F,F,
-28168,6a9c6ace,GitHub,23689bd1,data/23689bd1/src/i.ts,60:60,T,0,20,362,F,F,Any,,,Unknown,5.72,342,F,F,F,Other
-28180,9859a631,GitHub,23689bd1,data/23689bd1/src/x.ts,48:48,T,1,15,255,F,F,Any,,JSON Web Token,Token,5.49,240,F,F,F,Predefined Pattern
-28190,3d9ad018,GitHub,23689bd1,data/23689bd1/src/l.ts,29:29,T,1,15,400,F,F,Any,,JSON Web Token,Token,5.67,385,F,F,F,Predefined Pattern
+28168,6a9c6ace,GitHub,23689bd1,data/23689bd1/src/i.ts,60:60,T,F,20,362,F,F,Any,,,Unknown,5.72,342,F,F,F,Other
+28180,9859a631,GitHub,23689bd1,data/23689bd1/src/x.ts,48:48,T,T,15,255,F,F,Any,,JSON Web Token,Token,5.49,240,F,F,F,Predefined Pattern
+28190,3d9ad018,GitHub,23689bd1,data/23689bd1/src/l.ts,29:29,T,T,15,400,F,F,Any,,JSON Web Token,Token,5.67,385,F,F,F,Predefined Pattern
 28193,a57bbb8c,GitHub,23689bd1,data/23689bd1/test/cd.mjs,103:103,F,F,4,79,F,F,,,,,0,0,F,F,F,
 28194,b2db93fc,GitHub,23689bd1,data/23689bd1/test/ch.mjs,85:85,F,F,4,47,F,F,,,,,0,0,F,F,F,
 28195,5211fcfa,GitHub,23689bd1,data/23689bd1/test/cf.mjs,251:251,F,F,4,80,F,F,,,,,0,0,F,F,F,
@@ -282,43 +282,43 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 28448,5caed4e2,GitHub,23689bd1,data/23689bd1/test/cm.mjs,72:72,F,F,4,47,F,F,,,,,0,0,F,F,F,
 28550,46fe33af,GitHub,23689bd1,data/23689bd1/other/f.md,24:24,F,F,10,85,F,F,,,,,0,0,F,F,F,
 28686,5caed4e2,GitHub,23689bd1,data/23689bd1/test/cm.mjs,71:71,F,F,4,47,F,F,,,,,0,0,F,F,F,
-29577,46fe33af,GitHub,23689bd1,data/23689bd1/other/f.md,23:23,Template,0,12,98,F,F,Any,,,Unknown,5.22,86,F,F,F,Other
-31200,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,780:780,Template,0,16,48,F,F,Any,,,Unknown,4.59,32,F,F,F,Other
-31210,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,416:416,T,0,16,48,F,F,Any,,,Unknown,4.33,32,F,F,F,Other
-34278,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,482:482,T,0,12,68,F,F,Any,,JSON Web Token,Unknown,4.54,56,F,F,F,Predefined Pattern
-34279,792d4c24,GitHub,23689bd1,data/23689bd1/other/b.md,28:28,T,0,12,63,F,F,Any,,JSON Web Token,Unknown,4.60,51,F,F,F,Predefined Pattern
-34280,3ba90705,GitHub,23689bd1,data/23689bd1/other/c.md,27:27,T,0,12,63,F,F,Any,,JSON Web Token,Unknown,4.60,51,F,F,F,Predefined Pattern
+29577,46fe33af,GitHub,23689bd1,data/23689bd1/other/f.md,23:23,Template,F,12,98,F,F,Any,,,Unknown,5.22,86,F,F,F,Other
+31200,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,780:780,T,F,16,48,F,F,Any,,,Unknown,4.59,32,F,F,F,Other
+31210,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,416:416,T,F,16,48,F,F,Any,,,Unknown,4.33,32,F,F,F,Other
+34278,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,482:482,T,F,12,68,F,F,Any,,JSON Web Token,Unknown,4.54,56,F,F,F,Predefined Pattern
+34279,792d4c24,GitHub,23689bd1,data/23689bd1/other/b.md,28:28,T,F,12,63,F,F,Any,,JSON Web Token,Unknown,4.60,51,F,F,F,Predefined Pattern
+34280,3ba90705,GitHub,23689bd1,data/23689bd1/other/c.md,27:27,T,F,12,63,F,F,Any,,JSON Web Token,Unknown,4.60,51,F,F,F,Predefined Pattern
 34756,3220d10c,GitHub,23689bd1,data/23689bd1/test/cj.mjs,47:47,F,F,12,55,F,F,,,,,0,0,F,F,F,
 34757,3220d10c,GitHub,23689bd1,data/23689bd1/test/cj.mjs,25:25,F,F,12,55,F,F,,,,,0,0,F,F,F,
 34758,7c95184c,GitHub,23689bd1,data/23689bd1/test/cn.mjs,16:16,F,F,12,55,F,F,,,,,0,0,F,F,F,
 34759,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,393:393,F,F,12,55,F,F,,,,,0,0,F,F,F,
 34760,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,345:345,F,F,12,55,F,F,,,,,0,0,F,F,F,
 34761,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,441:441,F,F,12,55,F,F,,,,,0,0,F,F,F,
-35605,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,599:599,T,0,16,59,F,F,Any,,,Unknown,4.70,43,F,F,F,Other
-35620,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,841:841,T,0,16,48,F,F,Any,,,Unknown,4.38,32,F,F,F,Other
-35621,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,342:342,T,0,16,70,F,F,Any,,,Unknown,4.96,54,F,F,F,Other
-35622,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,658:658,T,0,16,48,F,F,Any,,,Unknown,4.28,32,F,F,F,Other
-35623,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,720:720,T,0,16,48,F,F,Any,,,Unknown,4.53,32,F,F,F,Other
-35639,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,903:903,T,0,16,48,F,F,Any,,,Unknown,4.59,32,F,F,F,Other
-36218,fdc00c72,GitHub,23689bd1,data/23689bd1/src/k.ts,45:45,T,0,16,67,F,F,Any,,JSON Web Token,Unknown,4.60,51,F,F,F,Predefined Pattern
-36219,6a9c6ace,GitHub,23689bd1,data/23689bd1/src/i.ts,62:62,T,0,16,67,F,F,Any,,JSON Web Token,Unknown,4.60,51,F,F,F,Predefined Pattern
-37111,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,489:489,T,0,12,68,F,F,Any,,JSON Web Token,Unknown,4.54,56,F,F,F,Predefined Pattern
+35605,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,599:599,T,F,16,59,F,F,Any,,,Unknown,4.70,43,F,F,F,Other
+35620,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,841:841,T,F,16,48,F,F,Any,,,Unknown,4.38,32,F,F,F,Other
+35621,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,342:342,T,F,16,70,F,F,Any,,,Unknown,4.96,54,F,F,F,Other
+35622,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,658:658,T,F,16,48,F,F,Any,,,Unknown,4.28,32,F,F,F,Other
+35623,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,720:720,T,F,16,48,F,F,Any,,,Unknown,4.53,32,F,F,F,Other
+35639,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,903:903,T,F,16,48,F,F,Any,,,Unknown,4.59,32,F,F,F,Other
+36218,fdc00c72,GitHub,23689bd1,data/23689bd1/src/k.ts,45:45,T,F,16,67,F,F,Any,,JSON Web Token,Unknown,4.60,51,F,F,F,Predefined Pattern
+36219,6a9c6ace,GitHub,23689bd1,data/23689bd1/src/i.ts,62:62,T,F,16,67,F,F,Any,,JSON Web Token,Unknown,4.60,51,F,F,F,Predefined Pattern
+37111,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,489:489,T,F,12,68,F,F,Any,,JSON Web Token,Unknown,4.54,56,F,F,F,Predefined Pattern
 37226,3220d10c,GitHub,23689bd1,data/23689bd1/test/cj.mjs,35:35,F,F,12,55,F,F,,,,,0,0,F,F,F,
 37227,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,404:404,F,F,12,55,F,F,,,,,0,0,F,F,F,
 37228,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,354:354,F,F,12,55,F,F,,,,,0,0,F,F,F,
 37229,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,452:452,F,F,12,55,F,F,,,,,0,0,F,F,F,
-37460,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,612:612,T,0,16,59,F,F,Any,,,Unknown,4.70,43,F,F,F,Other
-37462,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,860:860,T,0,16,48,F,F,Any,,,Unknown,4.38,32,F,F,F,Other
-37463,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,355:355,T,0,16,70,F,F,Any,,,Unknown,4.96,54,F,F,F,Other
-37464,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,671:671,T,0,16,48,F,F,Any,,,Unknown,4.28,32,F,F,F,Other
-37465,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,733:733,T,0,16,48,F,F,Any,,,Unknown,4.53,32,F,F,F,Other
-37466,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,922:922,T,0,16,48,F,F,Any,,,Unknown,4.59,32,F,F,F,Other
-40742,fdc00c72,GitHub,23689bd1,data/23689bd1/src/k.ts,41:41,T,0,17,92,F,F,Any,,,Unknown,5.15,75,F,F,F,Other
+37460,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,612:612,T,F,16,59,F,F,Any,,,Unknown,4.70,43,F,F,F,Other
+37462,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,860:860,T,F,16,48,F,F,Any,,,Unknown,4.38,32,F,F,F,Other
+37463,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,355:355,T,F,16,70,F,F,Any,,,Unknown,4.96,54,F,F,F,Other
+37464,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,671:671,T,F,16,48,F,F,Any,,,Unknown,4.28,32,F,F,F,Other
+37465,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,733:733,T,F,16,48,F,F,Any,,,Unknown,4.53,32,F,F,F,Other
+37466,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,922:922,T,F,16,48,F,F,Any,,,Unknown,4.59,32,F,F,F,Other
+40742,fdc00c72,GitHub,23689bd1,data/23689bd1/src/k.ts,41:41,T,F,17,92,F,F,Any,,,Unknown,5.15,75,F,F,F,Other
 40743,35fcd6a1,GitHub,23689bd1,data/23689bd1/src/t.ts,45:45,F,F,,,F,F,,,,,0,0,F,F,F,
 40744,23c7d6d0,GitHub,23689bd1,data/23689bd1/src/bz.ts,140:140,F,F,,,F,F,,,,,0,0,F,F,F,
 40745,23c7d6d0,GitHub,23689bd1,data/23689bd1/src/bz.ts,141:141,F,F,,,F,F,,,,,0,0,F,F,F,
 40746,23c7d6d0,GitHub,23689bd1,data/23689bd1/src/bz.ts,147:147,F,F,,,F,F,,,,,0,0,F,F,F,
-43096,23c7d6d0,GitHub,23689bd1,data/23689bd1/src/bz.ts,130:130,T,1,49,113,F,F,Any,,,Secret,3.67,64,F,F,F,Generic Secret
+43096,23c7d6d0,GitHub,23689bd1,data/23689bd1/src/bz.ts,130:130,T,T,49,113,F,F,Any,,,Secret,3.67,64,F,F,F,Generic Secret
 46520,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,297:297,F,F,,,F,F,,,,,0,0,F,F,F,
 46521,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,344:344,F,F,,,F,F,,,,,0,0,F,F,F,
 46522,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,249:249,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -369,7 +369,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 47158,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,490:490,F,F,,,F,F,,,,,0,0,F,F,F,
 47173,b2db93fc,GitHub,23689bd1,data/23689bd1/test/ch.mjs,107:107,F,F,,,F,F,,,,,0,0,F,F,F,
 47174,b2db93fc,GitHub,23689bd1,data/23689bd1/test/ch.mjs,108:108,F,F,,,F,F,,,,,0,0,F,F,F,
-47197,e85adc16,GitHub,23689bd1,data/23689bd1/test/cc.mjs,39:39,T,0,13,88,F,F,Any,,,Unknown,5.07,75,F,F,F,Other
+47197,e85adc16,GitHub,23689bd1,data/23689bd1/test/cc.mjs,39:39,T,F,13,88,F,F,Any,,,Unknown,5.07,75,F,F,F,Other
 47216,3220d10c,GitHub,23689bd1,data/23689bd1/test/cj.mjs,23:23,F,F,,,F,F,,,,,0,0,F,F,F,
 47435,49e2e9d5,GitHub,23689bd1,data/23689bd1/test/cs.mjs,160:160,F,F,,,F,F,,,,,0,0,F,F,F,
 47436,49e2e9d5,GitHub,23689bd1,data/23689bd1/test/cs.mjs,133:133,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -385,7 +385,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 47547,fb6ba96e,GitHub,23689bd1,data/23689bd1/test/cg.mjs,126:126,F,F,,,F,F,,,,,0,0,F,F,F,
 47549,5caed4e2,GitHub,23689bd1,data/23689bd1/test/cm.mjs,79:79,F,F,,,F,F,,,,,0,0,F,F,F,
 47554,5caed4e2,GitHub,23689bd1,data/23689bd1/test/cm.mjs,81:81,F,F,,,F,F,,,,,0,0,F,F,F,
-47586,7c95184c,GitHub,23689bd1,data/23689bd1/test/cn.mjs,15:15,T,0,12,68,F,F,Any,,JSON Web Token,Unknown,4.54,56,F,F,F,Predefined Pattern
+47586,7c95184c,GitHub,23689bd1,data/23689bd1/test/cn.mjs,15:15,T,F,12,68,F,F,Any,,JSON Web Token,Unknown,4.54,56,F,F,F,Predefined Pattern
 47587,5caed4e2,GitHub,23689bd1,data/23689bd1/test/cm.mjs,82:82,F,F,,,F,F,,,,,0,0,F,F,F,
 47588,5caed4e2,GitHub,23689bd1,data/23689bd1/test/cm.mjs,85:85,F,F,,,F,F,,,,,0,0,F,F,F,
 47684,5caed4e2,GitHub,23689bd1,data/23689bd1/test/cm.mjs,63:63,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -414,15 +414,15 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 47851,5211fcfa,GitHub,23689bd1,data/23689bd1/test/cf.mjs,163:163,F,F,,,F,F,,,,,0,0,F,F,F,
 47852,5211fcfa,GitHub,23689bd1,data/23689bd1/test/cf.mjs,171:171,F,F,,,F,F,,,,,0,0,F,F,F,
 47853,5211fcfa,GitHub,23689bd1,data/23689bd1/test/cf.mjs,153:153,F,F,,,F,F,,,,,0,0,F,F,F,
-48138,3ba90705,GitHub,23689bd1,data/23689bd1/other/c.md,23:23,T,0,13,88,F,F,Any,,,Unknown,5.15,75,F,F,F,Other
+48138,3ba90705,GitHub,23689bd1,data/23689bd1/other/c.md,23:23,T,F,13,88,F,F,Any,,,Unknown,5.15,75,F,F,F,Other
 56240,4b52b21e,GitHub,23689bd1,data/23689bd1/src/bi.ts,20:20,F,F,,,F,F,,,,,0,0,F,F,F,
 56241,4b52b21e,GitHub,23689bd1,data/23689bd1/src/bi.ts,23:23,F,F,,,F,F,,,,,0,0,F,F,F,
 63474,b2db93fc,GitHub,23689bd1,data/23689bd1/test/ch.mjs,194:194,F,F,,,F,F,,,,,0,0,F,F,F,
 63475,b2db93fc,GitHub,23689bd1,data/23689bd1/test/ch.mjs,152:152,F,F,,,F,F,,,,,0,0,F,F,F,
 63491,94902605,GitHub,23689bd1,data/23689bd1/test/co.mjs,70:70,F,F,,,F,F,,,,,0,0,F,F,F,
 63492,b8560638,GitHub,23689bd1,data/23689bd1/test/cr.mjs,81:81,F,F,,,F,F,,,,,0,0,F,F,F,
-63997,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,429:429,T,0,16,48,F,F,Any,,,Unknown,4.33,32,F,F,F,Other
-63998,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,794:794,T,0,16,48,F,F,Any,,,Unknown,4.59,32,F,F,F,Other
+63997,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,429:429,T,F,16,48,F,F,Any,,,Unknown,4.33,32,F,F,F,Other
+63998,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,794:794,T,F,16,48,F,F,Any,,,Unknown,4.59,32,F,F,F,Other
 64051,4bd1eeae,GitHub,23689bd1,data/23689bd1/src/bm.ts,53:53,F,F,,,F,F,,,,,0,0,F,F,F,
 64052,7d31fc33,GitHub,23689bd1,data/23689bd1/src/ba.ts,22:22,F,F,,,F,F,,,,,0,0,F,F,F,
 64507,8b521755,GitHub,23689bd1,data/23689bd1/src/bo.ts,31:31,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -438,28 +438,28 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 74331,4b52b21e,GitHub,23689bd1,data/23689bd1/src/bi.ts,51:51,F,F,,,F,F,,,,,0,0,F,F,F,
 74332,7d31fc33,GitHub,23689bd1,data/23689bd1/src/ba.ts,35:35,F,F,,,F,F,,,,,0,0,F,F,F,
 74401,4a87b210,GitHub,23689bd1,data/23689bd1/src/bn.ts,67:67,F,F,,,F,F,,,,,0,0,F,F,F,
-82241,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,229:229,T,0,1,104,F,F,NumbersOnly,,JSON Web Token,Unknown,5.13,103,F,F,F,Predefined Pattern
-82242,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,296:296,T,0,1,100,F,F,NumbersOnly,,JSON Web Token,Unknown,5.22,99,F,F,F,Predefined Pattern
-82243,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,354:354,T,0,1,152,F,F,NumbersOnly,,JSON Web Token,Unknown,5.21,151,F,F,F,Predefined Pattern
-82244,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,428:428,T,0,1,344,F,F,NumbersOnly,,JSON Web Token,Unknown,5.59,343,F,F,F,Predefined Pattern
-82245,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,497:497,T,1,1,291,F,F,NumbersOnly,,JSON Web Token,Unknown,5.54,290,F,F,F,Predefined Pattern
-82246,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,548:548,T,0,1,100,F,F,NumbersOnly,,JSON Web Token,Unknown,4.80,99,F,F,F,Predefined Pattern
-82247,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,611:611,T,0,1,189,F,F,NumbersOnly,,JSON Web Token,Unknown,5.32,188,F,F,F,Predefined Pattern
-82248,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,670:670,T,0,1,104,F,F,NumbersOnly,,JSON Web Token,Unknown,4.97,103,F,F,F,Predefined Pattern
-82249,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,732:732,T,0,1,120,F,F,NumbersOnly,,JSON Web Token,Unknown,5.08,119,F,F,F,Predefined Pattern
-82250,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,784:784,T,0,1,104,F,F,NumbersOnly,,JSON Web Token,Unknown,4.97,103,F,F,F,Predefined Pattern
-82251,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,793:793,T,0,1,104,F,F,NumbersOnly,,JSON Web Token,Unknown,4.97,103,F,F,F,Predefined Pattern
+82241,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,229:229,T,F,1,104,F,F,NumbersOnly,,JSON Web Token,Unknown,5.13,103,F,F,F,Predefined Pattern
+82242,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,296:296,T,F,1,100,F,F,NumbersOnly,,JSON Web Token,Unknown,5.22,99,F,F,F,Predefined Pattern
+82243,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,354:354,T,F,1,152,F,F,NumbersOnly,,JSON Web Token,Unknown,5.21,151,F,F,F,Predefined Pattern
+82244,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,428:428,T,F,1,344,F,F,NumbersOnly,,JSON Web Token,Unknown,5.59,343,F,F,F,Predefined Pattern
+82245,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,497:497,T,T,1,291,F,F,NumbersOnly,,JSON Web Token,Unknown,5.54,290,F,F,F,Predefined Pattern
+82246,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,548:548,T,F,1,100,F,F,NumbersOnly,,JSON Web Token,Unknown,4.80,99,F,F,F,Predefined Pattern
+82247,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,611:611,T,F,1,189,F,F,NumbersOnly,,JSON Web Token,Unknown,5.32,188,F,F,F,Predefined Pattern
+82248,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,670:670,T,F,1,104,F,F,NumbersOnly,,JSON Web Token,Unknown,4.97,103,F,F,F,Predefined Pattern
+82249,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,732:732,T,F,1,120,F,F,NumbersOnly,,JSON Web Token,Unknown,5.08,119,F,F,F,Predefined Pattern
+82250,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,784:784,T,F,1,104,F,F,NumbersOnly,,JSON Web Token,Unknown,4.97,103,F,F,F,Predefined Pattern
+82251,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,793:793,T,F,1,104,F,F,NumbersOnly,,JSON Web Token,Unknown,4.97,103,F,F,F,Predefined Pattern
 82252,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,795:795,F,F,6,250,F,F,,,,,0,0,F,F,F,
-82253,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,165:165,T,0,12,84,F,F,Any,,JSON Web Token,Unknown,4.89,72,F,F,F,Predefined Pattern
+82253,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,165:165,T,F,12,84,F,F,Any,,JSON Web Token,Unknown,4.89,72,F,F,F,Predefined Pattern
 82254,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,245:245,F,F,0,226,F,F,,,,,0,0,F,F,F,
 82255,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,257:257,F,F,0,226,F,F,,,,,0,0,F,F,F,
-82256,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,258:258,T,0,12,84,F,F,Any,,JSON Web Token,Unknown,4.96,72,F,F,F,Predefined Pattern
+82256,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,258:258,T,F,12,84,F,F,Any,,JSON Web Token,Unknown,4.96,72,F,F,F,Predefined Pattern
 82257,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,293:293,F,F,0,226,F,F,,,,,0,0,F,F,F,
 82258,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,305:305,F,F,0,226,F,F,,,,,0,0,F,F,F,
-82259,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,306:306,T,0,12,84,F,F,Any,,JSON Web Token,Unknown,4.97,72,F,F,F,Predefined Pattern
+82259,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,306:306,T,F,12,84,F,F,Any,,JSON Web Token,Unknown,4.97,72,F,F,F,Predefined Pattern
 82260,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,340:340,F,F,0,226,F,F,,,,,0,0,F,F,F,
 82261,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,351:351,F,F,0,226,F,F,,,,,0,0,F,F,F,
-82262,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,353:353,T,0,1,81,F,F,NumbersOnly,,JSON Web Token,Unknown,4.99,80,F,F,F,Predefined Pattern
+82262,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,353:353,T,F,1,81,F,F,NumbersOnly,,JSON Web Token,Unknown,4.99,80,F,F,F,Predefined Pattern
 82263,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,386:386,F,F,0,226,F,F,,,,,0,0,F,F,F,
 82264,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,399:399,F,F,0,226,F,F,,,,,0,0,F,F,F,
 82265,94864ff4,GitHub,23689bd1,data/23689bd1/test/ci.mjs,421:421,F,F,4,47,F,F,,,,,0,0,F,F,F,
@@ -479,3 +479,40 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 82279,b2db93fc,GitHub,23689bd1,data/23689bd1/test/ch.mjs,174:174,F,F,4,47,F,F,,,,,0,0,F,F,F,
 82280,b2db93fc,GitHub,23689bd1,data/23689bd1/test/ch.mjs,182:182,F,F,4,47,F,F,,,,,0,0,F,F,F,
 82281,b2db93fc,GitHub,23689bd1,data/23689bd1/test/ch.mjs,183:183,F,F,4,47,F,F,,,,,0,0,F,F,F,
+107621,792d4c24,GitHub,23689bd1,data/23689bd1/other/b.md,47:47,F,F,,,F,F,,,,,0.00,,F,F,F,
+107622,3ba90705,GitHub,23689bd1,data/23689bd1/other/c.md,51:51,F,F,,,F,F,,,,,0.00,,F,F,F,
+107623,23c7d6d0,GitHub,23689bd1,data/23689bd1/src/bz.ts,107:107,F,F,,,F,F,,,,,0.00,,F,F,F,
+107624,23c7d6d0,GitHub,23689bd1,data/23689bd1/src/bz.ts,524:524,F,F,,,F,F,,,,,0.00,,F,F,F,
+107625,2ee482d5,GitHub,23689bd1,data/23689bd1/src/h.ts,23:23,F,F,,,F,F,,,,,0.00,,F,F,F,
+107626,6a9c6ace,GitHub,23689bd1,data/23689bd1/src/i.ts,40:40,F,F,,,F,F,,,,,0.00,,F,F,F,
+107627,fdc00c72,GitHub,23689bd1,data/23689bd1/src/k.ts,24:24,F,F,,,F,F,,,,,0.00,,F,F,F,
+107628,fcb157ae,GitHub,23689bd1,data/23689bd1/src/u.ts,30:30,F,F,,,F,F,,,,,0.00,,F,F,F,
+107629,9d43c1e9,GitHub,23689bd1,data/23689bd1/test/cl.mjs,82:82,F,F,,,F,F,,,,,0.00,,F,F,F,
+107630,94902605,GitHub,23689bd1,data/23689bd1/test/co.mjs,299:299,F,F,,,F,F,,,,,0.00,,F,F,F,
+107631,94902605,GitHub,23689bd1,data/23689bd1/test/co.mjs,310:310,F,F,,,F,F,,,,,0.00,,F,F,F,
+107632,b8560638,GitHub,23689bd1,data/23689bd1/test/cr.mjs,299:299,F,F,,,F,F,,,,,0.00,,F,F,F,
+107633,561d1a40,GitHub,23689bd1,data/23689bd1/src/bs.ts,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,
+107634,2f419657,GitHub,23689bd1,data/23689bd1/src/bw.ts,17:17,F,F,,,F,F,,,,,0.00,,F,F,F,
+107635,e85adc16,GitHub,23689bd1,data/23689bd1/test/cc.mjs,137:137,F,F,,,F,F,,,,,0.00,,F,F,F,
+107636,1407312b,GitHub,23689bd1,data/23689bd1/test/cq.mjs,36:36,F,F,,,F,F,,,,,0.00,,F,F,F,
+114072,bc33f3b3,GitHub,23689bd1,data/23689bd1/src/br.ts,97:97,F,F,,,F,F,,,,,0.00,,F,F,F,
+114073,bc33f3b3,GitHub,23689bd1,data/23689bd1/src/br.ts,105:105,F,F,,,F,F,,,,,0.00,,F,F,F,
+114074,bc33f3b3,GitHub,23689bd1,data/23689bd1/src/br.ts,118:118,F,F,,,F,F,,,,,0.00,,F,F,F,
+114075,bc33f3b3,GitHub,23689bd1,data/23689bd1/src/br.ts,126:126,F,F,,,F,F,,,,,0.00,,F,F,F,
+114076,bc33f3b3,GitHub,23689bd1,data/23689bd1/src/br.ts,136:136,F,F,,,F,F,,,,,0.00,,F,F,F,
+114077,bc33f3b3,GitHub,23689bd1,data/23689bd1/src/br.ts,144:144,F,F,,,F,F,,,,,0.00,,F,F,F,
+114078,5211fcfa,GitHub,23689bd1,data/23689bd1/test/cf.mjs,157:157,F,F,,,F,F,,,,,0.00,,F,F,F,
+114079,5211fcfa,GitHub,23689bd1,data/23689bd1/test/cf.mjs,158:158,F,F,,,F,F,,,,,0.00,,F,F,F,
+114080,5211fcfa,GitHub,23689bd1,data/23689bd1/test/cf.mjs,159:159,F,F,,,F,F,,,,,0.00,,F,F,F,
+114081,5211fcfa,GitHub,23689bd1,data/23689bd1/test/cf.mjs,187:187,F,F,,,F,F,,,,,0.00,,F,F,F,
+114082,5211fcfa,GitHub,23689bd1,data/23689bd1/test/cf.mjs,188:188,F,F,,,F,F,,,,,0.00,,F,F,F,
+114083,5211fcfa,GitHub,23689bd1,data/23689bd1/test/cf.mjs,189:189,F,F,,,F,F,,,,,0.00,,F,F,F,
+114084,5211fcfa,GitHub,23689bd1,data/23689bd1/test/cf.mjs,190:190,F,F,,,F,F,,,,,0.00,,F,F,F,
+114085,5211fcfa,GitHub,23689bd1,data/23689bd1/test/cf.mjs,247:247,F,F,,,F,F,,,,,0.00,,F,F,F,
+114086,5211fcfa,GitHub,23689bd1,data/23689bd1/test/cf.mjs,254:254,F,F,,,F,F,,,,,0.00,,F,F,F,
+114087,5211fcfa,GitHub,23689bd1,data/23689bd1/test/cf.mjs,261:261,F,F,,,F,F,,,,,0.00,,F,F,F,
+114088,5211fcfa,GitHub,23689bd1,data/23689bd1/test/cf.mjs,268:268,F,F,,,F,F,,,,,0.00,,F,F,F,
+114089,49e2e9d5,GitHub,23689bd1,data/23689bd1/test/cs.mjs,101:101,F,F,,,F,F,,,,,0.00,,F,F,F,
+114090,49e2e9d5,GitHub,23689bd1,data/23689bd1/test/cs.mjs,121:121,F,F,,,F,F,,,,,0.00,,F,F,F,
+114091,49e2e9d5,GitHub,23689bd1,data/23689bd1/test/cs.mjs,148:148,F,F,,,F,F,,,,,0.00,,F,F,F,
+114092,b5304871,GitHub,23689bd1,data/23689bd1/test/cb.mjs,324:324,F,F,,,F,F,,,,,0.00,,F,F,F,

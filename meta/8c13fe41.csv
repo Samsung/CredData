@@ -94,17 +94,17 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 17667,ebb81bcd,GitHub,8c13fe41,data/8c13fe41/src/x.pl,131:131,F,F,,,F,F,,,,,0,0,F,F,F,
 17668,42076129,GitHub,8c13fe41,data/8c13fe41/src/z.pl,78:78,F,F,,,F,F,,,,,0,0,F,F,F,
 17670,e0bc1f36,GitHub,8c13fe41,data/8c13fe41/src/t.pl,243:243,F,F,,,F,F,,,,,0,0,F,F,F,
-21003,e45e45ba,GitHub,8c13fe41,data/8c13fe41/src/c.yml,33:33,F,F,,,F,F,,,,,0,0,F,F,F,
+21003,e45e45ba,GitHub,8c13fe41,data/8c13fe41/src/c.yml,33:33,Template,T,26,74,F,F,Any,,,Secret,3.02,48,F,F,F,Password
 24315,78b3ba94,GitHub,8c13fe41,data/8c13fe41/src/n.pl,720:720,F,F,,,F,F,,,,,0,0,F,F,F,
 24316,78b3ba94,GitHub,8c13fe41,data/8c13fe41/src/n.pl,736:736,F,F,,,F,F,,,,,0,0,F,F,F,
 25239,ffbb541e,GitHub,8c13fe41,data/8c13fe41/src/j.tpl,8:8,F,F,,,F,F,,,,,0,0,F,F,F,
-27096,1503b391,GitHub,8c13fe41,data/8c13fe41/src/m.pl,590:590,F,F,,,F,F,,,,,0,0,F,F,F,
+27096,1503b391,GitHub,8c13fe41,data/8c13fe41/src/m.pl,590:590,Template,T,12,29,F,F,Any,,,Secret,2.90,17,F,F,F,Password
 27189,543b6ae5,GitHub,8c13fe41,data/8c13fe41/src/b.sh,2:2,F,F,,,F,F,,,,,0,0,F,F,F,
-28028,42076129,GitHub,8c13fe41,data/8c13fe41/src/z.pl,77:77,F,F,15,19,F,F,,,,,0,0,F,F,F,
-28096,52e531f9,GitHub,8c13fe41,data/8c13fe41/test/w.pl,161:161,T,1,10,14,F,F,CharsOnly,,,Unknown,1.50,4,F,F,F,Other
+28028,42076129,GitHub,8c13fe41,data/8c13fe41/src/z.pl,77:77,Template,F,15,19,F,F,,,,,0,0,F,F,F,
+28096,52e531f9,GitHub,8c13fe41,data/8c13fe41/test/w.pl,161:161,Template,T,10,14,F,F,CharsOnly,,,Unknown,1.50,4,F,F,F,Other
 28141,ffbb541e,GitHub,8c13fe41,data/8c13fe41/src/j.tpl,16:16,F,F,11,82,F,F,,,,,0,0,F,F,F,
-31380,c7ecc5eb,GitHub,8c13fe41,data/8c13fe41/src/ba.pl,101:101,Template,1,10,927,F,F,Any,,JSON Web Token,Token,5.76,917,F,F,F,Predefined Pattern
-35263,04ff7b9c,GitHub,8c13fe41,data/8c13fe41/src/k.key,1:27,T,1,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
+31380,c7ecc5eb,GitHub,8c13fe41,data/8c13fe41/src/ba.pl,101:101,T,T,10,927,F,F,Any,,JSON Web Token,Token,5.76,917,F,F,F,Predefined Pattern
+35263,04ff7b9c,GitHub,8c13fe41,data/8c13fe41/src/k.key,1:27,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
 41912,65872f00,GitHub,8c13fe41,data/8c13fe41/src/p.pl,463:463,F,F,,,F,F,,,,,0,0,F,F,F,
 42225,21989f2f,GitHub,8c13fe41,data/8c13fe41/src/bb.ttl,675:675,F,F,,,F,F,,,,,0,0,F,F,F,
 42226,21989f2f,GitHub,8c13fe41,data/8c13fe41/src/bb.ttl,970:970,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -121,7 +121,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 42958,78b3ba94,GitHub,8c13fe41,data/8c13fe41/src/n.pl,740:740,F,F,,,F,F,,,,,0,0,F,F,F,
 42959,78b3ba94,GitHub,8c13fe41,data/8c13fe41/src/n.pl,762:762,F,F,,,F,F,,,,,0,0,F,F,F,
 42960,78b3ba94,GitHub,8c13fe41,data/8c13fe41/src/n.pl,769:769,F,F,,,F,F,,,,,0,0,F,F,F,
-55589,e45e45ba,GitHub,8c13fe41,data/8c13fe41/src/c.yml,44:44,F,F,,,F,F,,,,,0,0,F,F,F,
+55589,e45e45ba,GitHub,8c13fe41,data/8c13fe41/src/c.yml,44:44,Template,T,26,74,F,F,Any,,,Secret,3.02,48,F,F,F,Password
 55946,7de25a74,GitHub,8c13fe41,data/8c13fe41/src/r.pl,1381:1381,F,F,,,F,F,,,,,0,0,F,F,F,
 56100,78b3ba94,GitHub,8c13fe41,data/8c13fe41/src/n.pl,1117:1117,F,F,,,F,F,,,,,0,0,F,F,F,
 56940,e0bc1f36,GitHub,8c13fe41,data/8c13fe41/src/t.pl,333:333,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -147,3 +147,28 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 82474,c7ecc5eb,GitHub,8c13fe41,data/8c13fe41/src/ba.pl,1865:1865,F,F,0,82,F,F,,,,,0,0,F,F,F,
 82475,c7ecc5eb,GitHub,8c13fe41,data/8c13fe41/src/ba.pl,1945:1945,F,F,0,82,F,F,,,,,0,0,F,F,F,
 83271,21989f2f,GitHub,8c13fe41,data/8c13fe41/src/bb.ttl,679:679,F,F,16,30,F,F,,,,,0,0,F,F,F,
+100592,c7ecc5eb,GitHub,8c13fe41,data/8c13fe41/src/ba.pl,1641:1641,F,F,,,F,F,,,,,0.00,,F,F,F,
+100593,c7ecc5eb,GitHub,8c13fe41,data/8c13fe41/src/ba.pl,1695:1695,F,F,,,F,F,,,,,0.00,,F,F,F,
+100594,c7ecc5eb,GitHub,8c13fe41,data/8c13fe41/src/ba.pl,1798:1798,F,F,,,F,F,,,,,0.00,,F,F,F,
+100595,c7ecc5eb,GitHub,8c13fe41,data/8c13fe41/src/ba.pl,1866:1866,F,F,,,F,F,,,,,0.00,,F,F,F,
+100596,c7ecc5eb,GitHub,8c13fe41,data/8c13fe41/src/ba.pl,1946:1946,F,F,,,F,F,,,,,0.00,,F,F,F,
+100597,1503b391,GitHub,8c13fe41,data/8c13fe41/src/m.pl,288:288,F,F,,,F,F,,,,,0.00,,F,F,F,
+100598,1503b391,GitHub,8c13fe41,data/8c13fe41/src/m.pl,307:307,F,F,,,F,F,,,,,0.00,,F,F,F,
+100599,8e88df2e,GitHub,8c13fe41,data/8c13fe41/src/s.pl,100:100,F,F,,,F,F,,,,,0.00,,F,F,F,
+100600,8e88df2e,GitHub,8c13fe41,data/8c13fe41/src/s.pl,105:105,F,F,,,F,F,,,,,0.00,,F,F,F,
+110172,1503b391,GitHub,8c13fe41,data/8c13fe41/src/m.pl,408:408,F,F,,,F,F,,,,,0.00,,F,F,F,
+110173,78b3ba94,GitHub,8c13fe41,data/8c13fe41/src/n.pl,887:887,F,F,,,F,F,,,,,0.00,,F,F,F,
+110174,e0bc1f36,GitHub,8c13fe41,data/8c13fe41/src/t.pl,282:282,F,F,,,F,F,,,,,0.00,,F,F,F,
+110175,21989f2f,GitHub,8c13fe41,data/8c13fe41/src/bb.ttl,409:409,F,F,,,F,F,,,,,0.00,,F,F,F,
+110176,21989f2f,GitHub,8c13fe41,data/8c13fe41/src/bb.ttl,1083:1083,F,F,,,F,F,,,,,0.00,,F,F,F,
+110177,21989f2f,GitHub,8c13fe41,data/8c13fe41/src/bb.ttl,1093:1093,F,F,,,F,F,,,,,0.00,,F,F,F,
+110178,c7ecc5eb,GitHub,8c13fe41,data/8c13fe41/src/ba.pl,1745:1745,F,F,,,F,F,,,,,0.00,,F,F,F,
+110179,c7ecc5eb,GitHub,8c13fe41,data/8c13fe41/src/ba.pl,1809:1809,F,F,,,F,F,,,,,0.00,,F,F,F,
+110180,c7ecc5eb,GitHub,8c13fe41,data/8c13fe41/src/ba.pl,1878:1878,F,F,,,F,F,,,,,0.00,,F,F,F,
+110181,c7ecc5eb,GitHub,8c13fe41,data/8c13fe41/src/ba.pl,1890:1890,F,F,,,F,F,,,,,0.00,,F,F,F,
+110182,c7ecc5eb,GitHub,8c13fe41,data/8c13fe41/src/ba.pl,1958:1958,F,F,,,F,F,,,,,0.00,,F,F,F,
+110183,c7ecc5eb,GitHub,8c13fe41,data/8c13fe41/src/ba.pl,1988:1988,F,F,,,F,F,,,,,0.00,,F,F,F,
+110184,c7ecc5eb,GitHub,8c13fe41,data/8c13fe41/src/ba.pl,2372:2372,F,F,,,F,F,,,,,0.00,,F,F,F,
+110185,c7ecc5eb,GitHub,8c13fe41,data/8c13fe41/src/ba.pl,2275:2275,F,F,,,F,F,,,,,0.00,,F,F,F,
+110186,c7ecc5eb,GitHub,8c13fe41,data/8c13fe41/src/ba.pl,4041:4041,F,F,,,F,F,,,,,0.00,,F,F,F,
+130184,ffbb541e,GitHub,8c13fe41,data/8c13fe41/src/j.tpl,33:33,F,F,,,F,F,,,,,0.00,,F,F,F,

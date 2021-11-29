@@ -99,8 +99,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 16303,213cbbec,GitHub,1ca5e942,data/1ca5e942/test/h.php,67:67,F,F,,,F,F,,,,,0,0,F,F,F,
 16313,ae15d3a9,GitHub,1ca5e942,data/1ca5e942/src/g.php,271:271,F,F,,,F,F,,,,,0,0,F,F,F,
 16668,214fd6d0,GitHub,1ca5e942,data/1ca5e942/test/o.php,43:43,F,F,,,F,F,,,,,0,0,F,F,F,
-16745,cee930a7,GitHub,1ca5e942,data/1ca5e942/test/v.php,150:150,F,F,,,F,F,,,,,0,0,F,F,F,
-16746,cee930a7,GitHub,1ca5e942,data/1ca5e942/test/v.php,170:170,F,F,,,F,F,,,,,0,0,F,F,F,
+16745,cee930a7,GitHub,1ca5e942,data/1ca5e942/test/v.php,150:150,Template,T,76,82,F,F,CharOnly,,,Secret,2.25,6,F,F,F,Password
+16746,cee930a7,GitHub,1ca5e942,data/1ca5e942/test/v.php,170:170,Template,T,42,73,F,F,Any,,,Secret,3.65,31,F,F,F,Generic Secret
 17266,f929d743,GitHub,1ca5e942,data/1ca5e942/test/j.php,63:63,F,F,,,F,F,,,,,0,0,F,F,F,
 17267,72b0d305,GitHub,1ca5e942,data/1ca5e942/test/i.php,65:65,F,F,,,F,F,,,,,0,0,F,F,F,
 17268,72b0d305,GitHub,1ca5e942,data/1ca5e942/test/i.php,216:216,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -120,10 +120,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 21558,c17bdcf4,GitHub,1ca5e942,data/1ca5e942/test/n.php,102:102,F,F,,,F,F,,,,,0,0,F,F,F,
 21619,02820347,GitHub,1ca5e942,data/1ca5e942/test/k.php,213:213,F,F,,,F,F,,,,,0,0,F,F,F,
 21624,af580d74,GitHub,1ca5e942,data/1ca5e942/test/t.php,41:41,F,F,,,F,F,,,,,0,0,F,F,F,
-27735,19e44be4,GitHub,1ca5e942,data/1ca5e942/test/w.php,106:106,Template,1,56,62,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
-27736,19e44be4,GitHub,1ca5e942,data/1ca5e942/test/w.php,44:44,Template,1,47,53,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
-27885,cee930a7,GitHub,1ca5e942,data/1ca5e942/test/v.php,193:193,Template,1,48,54,T,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
-27886,cee930a7,GitHub,1ca5e942,data/1ca5e942/test/v.php,204:204,F,F,82,88,F,F,,,,,0,0,F,F,F,
+27735,19e44be4,GitHub,1ca5e942,data/1ca5e942/test/w.php,106:106,Template,T,56,62,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
+27736,19e44be4,GitHub,1ca5e942,data/1ca5e942/test/w.php,44:44,Template,T,47,53,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
+27885,cee930a7,GitHub,1ca5e942,data/1ca5e942/test/v.php,193:193,Template,T,48,54,T,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
+27886,cee930a7,GitHub,1ca5e942,data/1ca5e942/test/v.php,204:204,Template,F,82,88,F,F,,,,,0,0,F,F,F,
 46740,02820347,GitHub,1ca5e942,data/1ca5e942/test/k.php,846:846,F,F,,,F,F,,,,,0,0,F,F,F,
 55686,af580d74,GitHub,1ca5e942,data/1ca5e942/test/t.php,56:56,F,F,,,F,F,,,,,0,0,F,F,F,
 55691,213cbbec,GitHub,1ca5e942,data/1ca5e942/test/h.php,97:97,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -187,3 +187,14 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 63133,02820347,GitHub,1ca5e942,data/1ca5e942/test/k.php,673:673,F,F,,,F,F,,,,,0,0,F,F,F,
 74569,72b0d305,GitHub,1ca5e942,data/1ca5e942/test/i.php,196:196,F,F,,,F,F,,,,,0,0,F,F,F,
 82693,02820347,GitHub,1ca5e942,data/1ca5e942/test/k.php,847:847,F,F,75,79,F,F,,,,,0,0,F,F,F,
+102308,cee930a7,GitHub,1ca5e942,data/1ca5e942/test/v.php,196:196,F,F,,,F,F,,,,,0.00,,F,F,F,
+102309,cee930a7,GitHub,1ca5e942,data/1ca5e942/test/v.php,207:207,F,F,,,F,F,,,,,0.00,,F,F,F,
+102310,2fbedfe3,GitHub,1ca5e942,data/1ca5e942/test/l.php,179:179,F,F,,,F,F,,,,,0.00,,F,F,F,
+102311,e8f11ff4,GitHub,1ca5e942,data/1ca5e942/test/q.php,118:118,F,F,,,F,F,,,,,0.00,,F,F,F,
+102312,5992fe5b,GitHub,1ca5e942,data/1ca5e942/test/s.php,77:77,F,F,,,F,F,,,,,0.00,,F,F,F,
+102313,2918f4b8,GitHub,1ca5e942,data/1ca5e942/test/u.php,95:95,F,F,,,F,F,,,,,0.00,,F,F,F,
+102314,cee930a7,GitHub,1ca5e942,data/1ca5e942/test/v.php,191:191,F,F,,,F,F,,,,,0.00,,F,F,F,
+102315,cee930a7,GitHub,1ca5e942,data/1ca5e942/test/v.php,202:202,F,F,,,F,F,,,,,0.00,,F,F,F,
+102316,19e44be4,GitHub,1ca5e942,data/1ca5e942/test/w.php,41:41,F,F,,,F,F,,,,,0.00,,F,F,F,
+102317,19e44be4,GitHub,1ca5e942,data/1ca5e942/test/w.php,55:55,F,F,,,F,F,,,,,0.00,,F,F,F,
+113320,7f8f6a09,GitHub,1ca5e942,data/1ca5e942/src/d.php,144:144,F,F,,,F,F,,,,,0.00,,F,F,F,

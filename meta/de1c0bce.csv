@@ -42,15 +42,15 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 25441,b1350585,GitHub,de1c0bce,data/de1c0bce/src/c.go,301:301,F,F,,,F,F,,,,,0,0,F,F,F,
 27052,c94e5058,GitHub,de1c0bce,data/de1c0bce/src/j.go,2036:2036,F,F,,,F,F,,,,,0,0,F,F,F,
 27053,84e5c4ff,GitHub,de1c0bce,data/de1c0bce/src/f.go,207:207,F,F,,,F,F,,,,,0,0,F,F,F,
-28971,cf3a4c7a,GitHub,de1c0bce,data/de1c0bce/test/b.go,46:46,Template,1,15,24,F,F,CharsOnly,,,Secret,2.73,9,F,F,F,Password
-31482,cf3a4c7a,GitHub,de1c0bce,data/de1c0bce/test/b.go,58:58,Template,1,13,22,F,F,CharsOnly,,,Secret,2.73,9,F,F,F,Password
-32247,47a321a3,GitHub,de1c0bce,data/de1c0bce/test/h.go,36:36,T,0,14,102,F,F,Any,,,Token,5.35,88,F,F,F,Generic Token
-32248,0d01e379,GitHub,de1c0bce,data/de1c0bce/test/k.go,68:68,T,0,14,49,F,F,Any,,,Token,4.46,35,F,F,F,Generic Token
-32397,a01d8ec5,GitHub,de1c0bce,data/de1c0bce/test/m.go,72:72,T,1,20,32,F,F,CharsOnly,,,Secret,3.25,12,F,F,F,Password
-32401,0d01e379,GitHub,de1c0bce,data/de1c0bce/test/k.go,133:133,T,1,26,34,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-32582,0d01e379,GitHub,de1c0bce,data/de1c0bce/test/k.go,1206:1206,T,0,10,34,F,F,Any,,,Secret,4.05,24,F,F,F,Generic Secret
-32583,e149b4c4,GitHub,de1c0bce,data/de1c0bce/test/l.go,473:473,T,0,10,32,F,F,Any,,,Secret,3.75,22,F,F,F,Generic Secret
-36658,0d01e379,GitHub,de1c0bce,data/de1c0bce/test/k.go,209:209,T,0,14,49,F,F,Any,,,Token,4.46,35,F,F,F,Generic Token
+28971,cf3a4c7a,GitHub,de1c0bce,data/de1c0bce/test/b.go,46:46,Template,T,15,24,F,F,CharsOnly,,,Secret,2.73,9,F,F,F,Password
+31482,cf3a4c7a,GitHub,de1c0bce,data/de1c0bce/test/b.go,58:58,Template,T,13,22,F,F,CharsOnly,,,Secret,2.73,9,F,F,F,Password
+32247,47a321a3,GitHub,de1c0bce,data/de1c0bce/test/h.go,36:36,T,F,14,102,F,F,Any,,,Token,5.35,88,F,F,F,Generic Token
+32248,0d01e379,GitHub,de1c0bce,data/de1c0bce/test/k.go,68:68,T,F,14,49,F,F,Any,,,Token,4.46,35,F,F,F,Generic Token
+32397,a01d8ec5,GitHub,de1c0bce,data/de1c0bce/test/m.go,72:72,T,T,20,32,F,F,CharsOnly,,,Secret,3.25,12,F,F,F,Password
+32401,0d01e379,GitHub,de1c0bce,data/de1c0bce/test/k.go,133:133,F,T,26,34,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+32582,0d01e379,GitHub,de1c0bce,data/de1c0bce/test/k.go,1206:1206,T,F,10,34,F,F,Any,,,Secret,4.05,24,F,F,F,Generic Secret
+32583,e149b4c4,GitHub,de1c0bce,data/de1c0bce/test/l.go,473:473,T,F,10,32,F,F,Any,,,Secret,3.75,22,F,F,F,Generic Secret
+36658,0d01e379,GitHub,de1c0bce,data/de1c0bce/test/k.go,209:209,T,F,14,49,F,F,Any,,,Token,4.46,35,F,F,F,Generic Token
 49987,e149b4c4,GitHub,de1c0bce,data/de1c0bce/test/l.go,265:265,F,F,,,F,F,,,,,0,0,F,F,F,
 57991,a01d8ec5,GitHub,de1c0bce,data/de1c0bce/test/m.go,50:50,F,F,,,F,F,,,,,0,0,F,F,F,
 57992,a01d8ec5,GitHub,de1c0bce,data/de1c0bce/test/m.go,59:59,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -80,3 +80,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 77083,a01d8ec5,GitHub,de1c0bce,data/de1c0bce/test/m.go,281:281,F,F,,,F,F,,,,,0,0,F,F,F,
 77084,a01d8ec5,GitHub,de1c0bce,data/de1c0bce/test/m.go,282:282,F,F,,,F,F,,,,,0,0,F,F,F,
 80858,e91d29c6,GitHub,de1c0bce,data/de1c0bce/test/d.go,180:180,F,F,13,18,F,F,,,,,0,0,F,F,F,
+110640,47a321a3,GitHub,de1c0bce,data/de1c0bce/test/h.go,35:35,F,F,,,F,F,,,,,0.00,,F,F,F,
+110641,a01d8ec5,GitHub,de1c0bce,data/de1c0bce/test/m.go,369:369,F,F,,,F,F,,,,,0.00,,F,F,F,
+110642,0d01e379,GitHub,de1c0bce,data/de1c0bce/test/k.go,67:67,F,F,,,F,F,,,,,0.00,,F,F,F,
+110643,0d01e379,GitHub,de1c0bce,data/de1c0bce/test/k.go,208:208,F,F,,,F,F,,,,,0.00,,F,F,F,

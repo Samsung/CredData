@@ -15,7 +15,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 4800,dce68385,GitHub,c41bb134,data/c41bb134/src/g.nix,24:24,F,F,,,F,F,,,,,0,0,F,F,F,
 5542,b155aa73,GitHub,c41bb134,data/c41bb134/test/x.hs,117:117,F,F,,,F,F,,,,,0,0,F,F,F,
 5543,b155aa73,GitHub,c41bb134,data/c41bb134/test/x.hs,120:120,F,F,,,F,F,,,,,0,0,F,F,F,
-5571,1abbf729,GitHub,c41bb134,data/c41bb134/test/be.sql,231:231,F,F,,,F,F,,,,,0,0,F,F,F,
+5571,1abbf729,GitHub,c41bb134,data/c41bb134/test/be.sql,231:231,Template,T,18,22,F,F,CharOnly,,,Secret,1.50,4,F,F,F,Password
 5620,4460568d,GitHub,c41bb134,data/c41bb134/src/n.hs,47:47,F,F,,,F,F,,,,,0,0,F,F,F,
 7252,1abbf729,GitHub,c41bb134,data/c41bb134/test/be.sql,2038:2038,F,F,,,F,F,,,,,0,0,F,F,F,
 7839,328c2f31,GitHub,c41bb134,data/c41bb134/src/o.hs,294:294,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -37,76 +37,75 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 25077,e99d6a11,GitHub,c41bb134,data/c41bb134/src/h.nix,30:30,F,F,,,F,F,,,,,0,0,F,F,F,
 25313,1abbf729,GitHub,c41bb134,data/c41bb134/test/be.sql,321:321,F,F,,,F,F,,,,,0,0,F,F,F,
 27088,978243c8,GitHub,c41bb134,data/c41bb134/test/bo.yaml,83:83,F,F,,,F,F,,,,,0,0,F,F,F,
-30884,30516eac,GitHub,c41bb134,data/c41bb134/test/y.hs,348:348,Template,1,22,29,F,F,CharsOnly,,,Secret,2.24,7,F,F,F,Password
-30886,21b750a7,GitHub,c41bb134,data/c41bb134/test/s.hs,72:72,Template,0,16,20,F,F,CharsOnly,,,Unknown,2.00,4,F,F,F,Other
-31136,21b750a7,GitHub,c41bb134,data/c41bb134/test/s.hs,139:139,Template,1,63,75,F,F,Any,,,Secret,2.29,12,F,F,F,Password
+30884,30516eac,GitHub,c41bb134,data/c41bb134/test/y.hs,348:348,Template,T,22,29,F,F,CharsOnly,,,Secret,2.24,7,F,F,F,Password
+30886,21b750a7,GitHub,c41bb134,data/c41bb134/test/s.hs,72:72,Template,F,16,20,F,F,CharsOnly,,,Unknown,2.00,4,F,F,F,Other
+31136,21b750a7,GitHub,c41bb134,data/c41bb134/test/s.hs,139:139,Template,T,63,75,F,F,Any,,,Secret,2.29,12,F,F,F,Password
 31160,68cbce99,GitHub,c41bb134,data/c41bb134/test/z.hs,147:147,F,F,13,37,F,F,,,,,0,0,F,F,F,
 31161,68cbce99,GitHub,c41bb134,data/c41bb134/test/z.hs,155:155,F,F,13,37,F,F,,,,,0,0,F,F,F,
-31533,bb7e3057,GitHub,c41bb134,data/c41bb134/src/k.hs,200:200,Template,1,17,51,F,F,Any,,,Secret,3.05,34,F,F,F,Generic Secret
-32277,e9d57348,GitHub,c41bb134,data/c41bb134/test/bd.sql,13:13,T,1,64,96,F,F,CharsOnly,,,Secret,2.68,32,F,F,F,Generic Secret
-32278,e9d57348,GitHub,c41bb134,data/c41bb134/test/bd.sql,25:25,T,1,84,124,F,F,CharsOnly,,,Secret,3.00,40,F,F,F,Generic Secret
-32279,e9d57348,GitHub,c41bb134,data/c41bb134/test/bd.sql,52:52,T,1,55,91,F,F,CharsOnly,,,Secret,2.88,36,F,F,F,Generic Secret
+31533,bb7e3057,GitHub,c41bb134,data/c41bb134/src/k.hs,200:200,F,T,17,51,F,F,Any,,,Secret,3.05,34,F,F,F,Generic Secret
+32277,e9d57348,GitHub,c41bb134,data/c41bb134/test/bd.sql,13:13,Template,T,64,96,F,F,CharsOnly,,,Secret,2.68,32,F,F,F,Generic Secret
+32278,e9d57348,GitHub,c41bb134,data/c41bb134/test/bd.sql,25:25,Template,T,84,124,F,F,CharsOnly,,,Secret,3.00,40,F,F,F,Generic Secret
+32279,e9d57348,GitHub,c41bb134,data/c41bb134/test/bd.sql,52:52,Template,T,55,91,F,F,CharsOnly,,,Secret,2.88,36,F,F,F,Generic Secret
 32568,ac7f3952,GitHub,c41bb134,data/c41bb134/test/bb.sql,339:339,F,F,55,219,F,F,,,,,0,0,F,F,F,
 32579,ac7f3952,GitHub,c41bb134,data/c41bb134/test/bb.sql,338:338,F,F,55,239,F,F,,,,,0,0,F,F,F,
-32600,68cbce99,GitHub,c41bb134,data/c41bb134/test/z.hs,74:74,T,1,43,75,F,F,Any,,,Secret,2.68,32,F,F,F,Generic Secret
+32600,68cbce99,GitHub,c41bb134,data/c41bb134/test/z.hs,74:74,Template,T,43,75,F,F,Any,,,Secret,2.68,32,F,F,F,Generic Secret
 32611,bc5f4e29,GitHub,c41bb134,data/c41bb134/test/w.hs,817:817,F,F,1,18,F,F,,,,,0,0,F,F,F,
 32612,bc5f4e29,GitHub,c41bb134,data/c41bb134/test/w.hs,851:851,F,F,1,18,F,F,,,,,0,0,F,F,F,
-32613,21b750a7,GitHub,c41bb134,data/c41bb134/test/s.hs,80:80,T,0,37,333,F,F,Any,,JSON Web Token,Token,5.52,296,F,F,F,Predefined Pattern
-32614,21b750a7,GitHub,c41bb134,data/c41bb134/test/s.hs,73:73,T,0,37,181,F,F,Any,,JSON Web Token,Token,5.21,144,F,F,F,Predefined Pattern
-33749,30516eac,GitHub,c41bb134,data/c41bb134/test/y.hs,343:343,T,1,22,29,F,F,CharsOnly,,,Secret,2.52,7,F,F,F,Password
-33750,28ae4445,GitHub,c41bb134,data/c41bb134/test/t.hs,80:80,T,1,22,29,F,F,CharsOnly,,,Secret,2.52,7,F,F,F,Password
-33751,b032808b,GitHub,c41bb134,data/c41bb134/test/u.hs,463:463,T,0,20,26,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
-33752,b032808b,GitHub,c41bb134,data/c41bb134/test/u.hs,455:455,T,0,20,27,F,F,CharsOnly,,,Secret,2.24,7,F,F,F,Password
-33762,b032808b,GitHub,c41bb134,data/c41bb134/test/u.hs,454:454,T,0,17,157,F,F,Any,,JSON Web Token,Token,5.25,140,F,F,F,Predefined Pattern
-33763,b032808b,GitHub,c41bb134,data/c41bb134/test/u.hs,462:462,T,1,17,157,F,F,Any,,JSON Web Token,Token,5.31,140,F,F,F,Predefined Pattern
-33794,476936d5,GitHub,c41bb134,data/c41bb134/test/bt.py,29:29,T,1,10,42,F,F,CharsOnly,,,Secret,2.68,32,F,F,F,Generic Secret
-33976,ad0de80c,GitHub,c41bb134,data/c41bb134/test/bk.yaml,19:19,T,0,18,50,F,F,Any,,,Secret,4.29,32,F,F,F,Generic Secret
-34003,978243c8,GitHub,c41bb134,data/c41bb134/test/bo.yaml,84:84,T,1,19,30,F,F,Any,,,Secret,2.52,11,F,F,F,Password
-34225,b155aa73,GitHub,c41bb134,data/c41bb134/test/x.hs,798:798,T,0,56,180,F,F,Any,,JSON Web Token,Token,5.32,124,F,F,F,Predefined Pattern
+32613,21b750a7,GitHub,c41bb134,data/c41bb134/test/s.hs,80:80,T,F,37,333,F,F,Any,,JSON Web Token,Token,5.52,296,F,F,F,Predefined Pattern
+32614,21b750a7,GitHub,c41bb134,data/c41bb134/test/s.hs,73:73,T,F,37,181,F,F,Any,,JSON Web Token,Token,5.21,144,F,F,F,Predefined Pattern
+33749,30516eac,GitHub,c41bb134,data/c41bb134/test/y.hs,343:343,T,T,22,29,F,F,CharsOnly,,,Secret,2.52,7,F,F,F,Password
+33750,28ae4445,GitHub,c41bb134,data/c41bb134/test/t.hs,80:80,T,T,22,29,F,F,CharsOnly,,,Secret,2.52,7,F,F,F,Password
+33751,b032808b,GitHub,c41bb134,data/c41bb134/test/u.hs,463:463,T,F,20,26,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
+33752,b032808b,GitHub,c41bb134,data/c41bb134/test/u.hs,455:455,T,F,20,27,F,F,CharsOnly,,,Secret,2.24,7,F,F,F,Password
+33762,b032808b,GitHub,c41bb134,data/c41bb134/test/u.hs,454:454,T,F,17,157,F,F,Any,,JSON Web Token,Token,5.25,140,F,F,F,Predefined Pattern
+33763,b032808b,GitHub,c41bb134,data/c41bb134/test/u.hs,462:462,T,T,17,157,F,F,Any,,JSON Web Token,Token,5.31,140,F,F,F,Predefined Pattern
+33794,476936d5,GitHub,c41bb134,data/c41bb134/test/bt.py,29:29,Template,T,10,42,F,F,CharsOnly,,,Secret,2.68,32,F,F,F,Generic Secret
+33976,ad0de80c,GitHub,c41bb134,data/c41bb134/test/bk.yaml,19:19,T,F,18,50,F,F,Any,,,Secret,4.29,32,F,F,F,Generic Secret
+34003,978243c8,GitHub,c41bb134,data/c41bb134/test/bo.yaml,84:84,Template,T,19,30,F,F,Any,,,Secret,2.52,11,F,F,F,Password
+34225,b155aa73,GitHub,c41bb134,data/c41bb134/test/x.hs,798:798,T,F,56,180,F,F,Any,,JSON Web Token,Token,5.32,124,F,F,F,Predefined Pattern
 34261,2b83012b,GitHub,c41bb134,data/c41bb134/src/e.nix,17:17,F,F,20,72,F,F,,,,,0,0,F,F,F,
 34768,8a84ef5d,GitHub,c41bb134,data/c41bb134/src/d.nix,16:16,F,F,10,62,F,F,,,,,0,0,F,F,F,
-35224,96677aa3,GitHub,c41bb134,data/c41bb134/src/c.json,16:16,T,1,65,69,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-35776,bb7e3057,GitHub,c41bb134,data/c41bb134/src/k.hs,135:135,T,1,27,31,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-35808,37c1ec24,GitHub,c41bb134,data/c41bb134/test/bu.sh,14:14,T,1,25,57,F,F,CharsOnly,,,Secret,2.68,32,F,F,F,Generic Secret
-35854,7e4c9074,GitHub,c41bb134,data/c41bb134/test/bq.jwt,1:1,T,0,0,124,F,F,Any,,JSON Web Token,Token,5.13,124,F,F,F,Predefined Pattern
-35855,2717cf05,GitHub,c41bb134,data/c41bb134/test/bp.jwt,1:1,T,0,0,124,F,F,Any,,JSON Web Token,Token,5.33,124,F,F,F,Predefined Pattern
-35856,8273ece7,GitHub,c41bb134,data/c41bb134/test/br.jwt,1:1,T,1,0,124,F,F,Any,,JSON Web Token,Token,5.25,124,F,F,F,Predefined Pattern
-35872,f85b082b,GitHub,c41bb134,data/c41bb134/test/bs.jwt,1:1,T,0,0,124,F,F,Any,,JSON Web Token,Token,5.17,124,F,F,F,Predefined Pattern
-36263,573f06b5,GitHub,c41bb134,data/c41bb134/test/bg.config,3:3,T,1,14,46,F,F,CharsOnly,,,Secret,2.68,32,F,F,F,Generic Secret
+35224,96677aa3,GitHub,c41bb134,data/c41bb134/src/c.json,16:16,Template,T,65,69,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
+35776,bb7e3057,GitHub,c41bb134,data/c41bb134/src/k.hs,135:135,Template,T,27,31,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
+35808,37c1ec24,GitHub,c41bb134,data/c41bb134/test/bu.sh,14:14,Template,T,25,57,F,F,CharsOnly,,,Secret,2.68,32,F,F,F,Generic Secret
+35854,7e4c9074,GitHub,c41bb134,data/c41bb134/test/bq.jwt,1:1,T,F,0,124,F,F,Any,,JSON Web Token,Token,5.13,124,F,F,F,Predefined Pattern
+35855,2717cf05,GitHub,c41bb134,data/c41bb134/test/bp.jwt,1:1,T,F,0,124,F,F,Any,,JSON Web Token,Token,5.33,124,F,F,F,Predefined Pattern
+35856,8273ece7,GitHub,c41bb134,data/c41bb134/test/br.jwt,1:1,T,T,0,124,F,F,Any,,JSON Web Token,Token,5.25,124,F,F,F,Predefined Pattern
+35872,f85b082b,GitHub,c41bb134,data/c41bb134/test/bs.jwt,1:1,T,F,0,124,F,F,Any,,JSON Web Token,Token,5.17,124,F,F,F,Predefined Pattern
+36263,573f06b5,GitHub,c41bb134,data/c41bb134/test/bg.config,3:3,Template,T,14,46,F,F,CharsOnly,,,Secret,2.68,32,F,F,F,Generic Secret
 36290,09a0e86d,GitHub,c41bb134,data/c41bb134/src/f.patch,25:25,F,F,15,67,F,F,,,,,0,0,F,F,F,
-36313,505b2696,GitHub,c41bb134,data/c41bb134/test/bh.config,17:17,T,1,14,50,F,F,CharsOnly,,,Secret,2.88,36,F,F,F,Generic Secret
-36314,daab1f97,GitHub,c41bb134,data/c41bb134/test/bi.config,17:17,T,1,14,54,F,F,CharsOnly,,,Secret,3.00,40,F,F,F,Generic Secret
-36315,acc69d57,GitHub,c41bb134,data/c41bb134/test/bj.config,17:17,T,0,14,46,F,F,Any,,,Secret,4.29,32,F,F,F,Generic Secret
-36316,13a43822,GitHub,c41bb134,data/c41bb134/test/bl.config,17:17,T,0,14,46,F,F,Any,,,Secret,4.29,32,F,F,F,Generic Secret
-36317,9279daa5,GitHub,c41bb134,data/c41bb134/test/bn.config,5:5,T,1,14,49,F,F,CharsOnly,,,Secret,2.52,35,F,F,F,Generic Secret
-36364,21b750a7,GitHub,c41bb134,data/c41bb134/test/s.hs,175:175,T,0,13,153,F,F,Any,,JSON Web Token,Token,5.25,140,F,F,F,Predefined Pattern
-36459,12ab9a21,GitHub,c41bb134,data/c41bb134/test/q.hs,19:19,T,0,26,436,F,F,Any,,JSON Web Token,Token,5.72,410,F,F,F,Predefined Pattern
-36474,21b750a7,GitHub,c41bb134,data/c41bb134/test/s.hs,86:86,T,0,26,309,F,F,Any,,JSON Web Token,Token,5.56,283,F,F,F,Predefined Pattern
-36475,21b750a7,GitHub,c41bb134,data/c41bb134/test/s.hs,39:39,T,0,26,150,F,F,Any,,JSON Web Token,Token,5.32,124,F,F,F,Predefined Pattern
-36476,8db9ad42,GitHub,c41bb134,data/c41bb134/test/v.hs,159:159,T,0,26,150,F,F,Any,,JSON Web Token,Token,5.32,124,F,F,F,Predefined Pattern
-36477,21b750a7,GitHub,c41bb134,data/c41bb134/test/s.hs,91:91,T,0,26,166,F,F,Any,,JSON Web Token,Token,5.25,140,F,F,F,Predefined Pattern
-36486,21b750a7,GitHub,c41bb134,data/c41bb134/test/s.hs,129:129,T,1,26,110,F,F,Any,,JSON Web Token,Auth,4.96,84,F,F,F,Predefined Pattern
-36487,a1c174a7,GitHub,c41bb134,data/c41bb134/test/r.hs,29:29,T,0,26,217,F,F,Any,,JSON Web Token,Token,5.32,191,F,F,F,Predefined Pattern
-36488,a1c174a7,GitHub,c41bb134,data/c41bb134/test/r.hs,42:42,T,0,26,189,F,F,Any,,JSON Web Token,Token,5.23,163,F,F,F,Predefined Pattern
-36489,21b750a7,GitHub,c41bb134,data/c41bb134/test/s.hs,134:134,T,0,26,125,F,F,Any,,JSON Web Token,Token,5.04,99,F,F,F,Predefined Pattern
-36490,21b750a7,GitHub,c41bb134,data/c41bb134/test/s.hs,166:166,T,0,26,118,F,F,Any,,JSON Web Token,Token,5.01,92,F,F,F,Predefined Pattern
-36491,21b750a7,GitHub,c41bb134,data/c41bb134/test/s.hs,148:148,T,0,26,118,F,F,Any,,JSON Web Token,Token,5.15,92,F,F,F,Predefined Pattern
-36492,21b750a7,GitHub,c41bb134,data/c41bb134/test/s.hs,157:157,T,1,26,118,F,F,Any,,JSON Web Token,Token,5.15,92,F,F,F,Predefined Pattern
-36493,21b750a7,GitHub,c41bb134,data/c41bb134/test/s.hs,96:96,T,0,26,254,F,F,Any,,JSON Web Token,Token,5.33,228,F,F,F,Predefined Pattern
-36494,21b750a7,GitHub,c41bb134,data/c41bb134/test/s.hs,107:107,T,0,26,189,F,F,Any,,JSON Web Token,Token,5.40,163,F,F,F,Predefined Pattern
-36733,bc5f4e29,GitHub,c41bb134,data/c41bb134/test/w.hs,851:851,F,F,1,18,F,F,,,,,0,0,F,F,F,
-37765,21b750a7,GitHub,c41bb134,data/c41bb134/test/s.hs,63:63,T,0,26,150,F,F,Any,,JSON Web Token,Token,5.32,124,F,F,F,Predefined Pattern
-37766,8db9ad42,GitHub,c41bb134,data/c41bb134/test/v.hs,481:481,T,0,26,150,F,F,Any,,JSON Web Token,Token,5.32,124,F,F,F,Predefined Pattern
-37767,21b750a7,GitHub,c41bb134,data/c41bb134/test/s.hs,140:140,T,0,26,166,F,F,Any,,JSON Web Token,Token,5.25,140,F,F,F,Predefined Pattern
-40667,8a84ef5d,GitHub,c41bb134,data/c41bb134/src/d.nix,15:15,T,0,7,47,F,F,Any,,,Unknown,3.68,40,F,F,F,Other
-47043,b155aa73,GitHub,c41bb134,data/c41bb134/test/x.hs,801:801,F,F,,,F,F,,,,,0,0,F,F,F,
+36313,505b2696,GitHub,c41bb134,data/c41bb134/test/bh.config,17:17,Template,T,14,50,F,F,CharsOnly,,,Secret,2.88,36,F,F,F,Generic Secret
+36314,daab1f97,GitHub,c41bb134,data/c41bb134/test/bi.config,17:17,Template,T,14,54,F,F,CharsOnly,,,Secret,3.00,40,F,F,F,Generic Secret
+36315,acc69d57,GitHub,c41bb134,data/c41bb134/test/bj.config,17:17,T,F,14,46,F,F,Any,,,Secret,4.29,32,F,F,F,Generic Secret
+36316,13a43822,GitHub,c41bb134,data/c41bb134/test/bl.config,17:17,T,F,14,46,F,F,Any,,,Secret,4.29,32,F,F,F,Generic Secret
+36317,9279daa5,GitHub,c41bb134,data/c41bb134/test/bn.config,5:5,Template,T,14,49,F,F,CharsOnly,,,Secret,2.52,35,F,F,F,Generic Secret
+36364,21b750a7,GitHub,c41bb134,data/c41bb134/test/s.hs,175:175,T,F,13,153,F,F,Any,,JSON Web Token,Token,5.25,140,F,F,F,Predefined Pattern
+36459,12ab9a21,GitHub,c41bb134,data/c41bb134/test/q.hs,19:19,T,F,26,436,F,F,Any,,JSON Web Token,Token,5.72,410,F,F,F,Predefined Pattern
+36474,21b750a7,GitHub,c41bb134,data/c41bb134/test/s.hs,86:86,T,F,26,309,F,F,Any,,JSON Web Token,Token,5.56,283,F,F,F,Predefined Pattern
+36475,21b750a7,GitHub,c41bb134,data/c41bb134/test/s.hs,39:39,T,F,26,150,F,F,Any,,JSON Web Token,Token,5.32,124,F,F,F,Predefined Pattern
+36476,8db9ad42,GitHub,c41bb134,data/c41bb134/test/v.hs,159:159,T,F,26,150,F,F,Any,,JSON Web Token,Token,5.32,124,F,F,F,Predefined Pattern
+36477,21b750a7,GitHub,c41bb134,data/c41bb134/test/s.hs,91:91,T,F,26,166,F,F,Any,,JSON Web Token,Token,5.25,140,F,F,F,Predefined Pattern
+36486,21b750a7,GitHub,c41bb134,data/c41bb134/test/s.hs,129:129,T,T,26,110,F,F,Any,,JSON Web Token,Auth,4.96,84,F,F,F,Predefined Pattern
+36487,a1c174a7,GitHub,c41bb134,data/c41bb134/test/r.hs,29:29,T,F,26,217,F,F,Any,,JSON Web Token,Token,5.32,191,F,F,F,Predefined Pattern
+36488,a1c174a7,GitHub,c41bb134,data/c41bb134/test/r.hs,42:42,T,F,26,189,F,F,Any,,JSON Web Token,Token,5.23,163,F,F,F,Predefined Pattern
+36489,21b750a7,GitHub,c41bb134,data/c41bb134/test/s.hs,134:134,T,F,26,125,F,F,Any,,JSON Web Token,Token,5.04,99,F,F,F,Predefined Pattern
+36490,21b750a7,GitHub,c41bb134,data/c41bb134/test/s.hs,166:166,T,F,26,118,F,F,Any,,JSON Web Token,Token,5.01,92,F,F,F,Predefined Pattern
+36491,21b750a7,GitHub,c41bb134,data/c41bb134/test/s.hs,148:148,T,F,26,118,F,F,Any,,JSON Web Token,Token,5.15,92,F,F,F,Predefined Pattern
+36492,21b750a7,GitHub,c41bb134,data/c41bb134/test/s.hs,157:157,T,T,26,118,F,F,Any,,JSON Web Token,Token,5.15,92,F,F,F,Predefined Pattern
+36493,21b750a7,GitHub,c41bb134,data/c41bb134/test/s.hs,96:96,T,F,26,254,F,F,Any,,JSON Web Token,Token,5.33,228,F,F,F,Predefined Pattern
+36494,21b750a7,GitHub,c41bb134,data/c41bb134/test/s.hs,107:107,T,F,26,189,F,F,Any,,JSON Web Token,Token,5.40,163,F,F,F,Predefined Pattern
+37765,21b750a7,GitHub,c41bb134,data/c41bb134/test/s.hs,63:63,T,F,26,150,F,F,Any,,JSON Web Token,Token,5.32,124,F,F,F,Predefined Pattern
+37766,8db9ad42,GitHub,c41bb134,data/c41bb134/test/v.hs,481:481,T,F,26,150,F,F,Any,,JSON Web Token,Token,5.32,124,F,F,F,Predefined Pattern
+37767,21b750a7,GitHub,c41bb134,data/c41bb134/test/s.hs,140:140,T,F,26,166,F,F,Any,,JSON Web Token,Token,5.25,140,F,F,F,Predefined Pattern
+40667,8a84ef5d,GitHub,c41bb134,data/c41bb134/src/d.nix,15:15,T,F,7,47,F,F,Any,,,Unknown,3.68,40,F,F,F,Other
+47043,b155aa73,GitHub,c41bb134,data/c41bb134/test/x.hs,801:801,T,F,14,138,F,F,Any,,JSON Web Token,Token,5.32,124,F,F,F,Predefined Pattern
 47082,b155aa73,GitHub,c41bb134,data/c41bb134/test/x.hs,826:826,F,F,,,F,F,,,,,0,0,F,F,F,
 47083,b155aa73,GitHub,c41bb134,data/c41bb134/test/x.hs,852:852,F,F,,,F,F,,,,,0,0,F,F,F,
 48006,476936d5,GitHub,c41bb134,data/c41bb134/test/bt.py,519:519,F,F,,,F,F,,,,,0,0,F,F,F,
-48011,21b750a7,GitHub,c41bb134,data/c41bb134/test/s.hs,102:102,F,F,,,F,F,,,,,0,0,F,F,F,
-49965,b032808b,GitHub,c41bb134,data/c41bb134/test/u.hs,457:457,F,F,,,F,F,,,,,0,0,F,F,F,
-49966,b032808b,GitHub,c41bb134,data/c41bb134/test/u.hs,465:465,F,F,,,F,F,,,,,0,0,F,F,F,
-50282,8a3fd767,GitHub,c41bb134,data/c41bb134/test/bm.config,3:3,T,1,14,46,F,F,CharsOnly,,,Unknown,2.68,32,F,F,F,Other
+48011,21b750a7,GitHub,c41bb134,data/c41bb134/test/s.hs,102:102,T,F,26,189,F,F,Any,,JSON Web Token,Token,5.23,163,F,F,F,Predefined Pattern
+49965,b032808b,GitHub,c41bb134,data/c41bb134/test/u.hs,457:457,T,F,33,40,F,F,CharOnly,,,Secret,2.24,7,F,F,F,Password
+49966,b032808b,GitHub,c41bb134,data/c41bb134/test/u.hs,465:465,Template,F,33,39,F,F,CharOnly,,,Secret,2.25,6,F,F,F,Password
+50282,8a3fd767,GitHub,c41bb134,data/c41bb134/test/bm.config,3:3,Template,T,14,46,F,F,CharsOnly,,,Unknown,2.68,32,F,F,F,Other
 53992,b155aa73,GitHub,c41bb134,data/c41bb134/test/x.hs,342:342,F,F,,,F,F,,,,,0,0,F,F,F,
 53993,b155aa73,GitHub,c41bb134,data/c41bb134/test/x.hs,359:359,F,F,,,F,F,,,,,0,0,F,F,F,
 53994,b155aa73,GitHub,c41bb134,data/c41bb134/test/x.hs,372:372,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -115,3 +114,40 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 62612,b155aa73,GitHub,c41bb134,data/c41bb134/test/x.hs,122:122,F,F,,,F,F,,,,,0,0,F,F,F,
 64004,476936d5,GitHub,c41bb134,data/c41bb134/test/bt.py,392:392,F,F,,,F,F,,,,,0,0,F,F,F,
 82113,e9d57348,GitHub,c41bb134,data/c41bb134/test/bd.sql,53:53,F,F,65,69,F,F,,,,,0,0,F,F,F,
+108608,06572a96,GitHub,c41bb134,data/c41bb134/other/b.md,239:239,F,F,,,F,F,,,,,0.00,,F,F,F,
+108609,f3d5cea6,GitHub,c41bb134,data/c41bb134/src/j.hs,38:38,F,F,,,F,F,,,,,0.00,,F,F,F,
+108610,bb7e3057,GitHub,c41bb134,data/c41bb134/src/k.hs,198:198,F,F,,,F,F,,,,,0.00,,F,F,F,
+108611,691fe380,GitHub,c41bb134,data/c41bb134/src/l.hs,127:127,F,F,,,F,F,,,,,0.00,,F,F,F,
+108612,691fe380,GitHub,c41bb134,data/c41bb134/src/l.hs,128:128,F,F,,,F,F,,,,,0.00,,F,F,F,
+108613,691fe380,GitHub,c41bb134,data/c41bb134/src/l.hs,150:150,F,F,,,F,F,,,,,0.00,,F,F,F,
+108614,691fe380,GitHub,c41bb134,data/c41bb134/src/l.hs,153:153,F,F,,,F,F,,,,,0.00,,F,F,F,
+108615,691fe380,GitHub,c41bb134,data/c41bb134/src/l.hs,374:374,F,F,,,F,F,,,,,0.00,,F,F,F,
+108616,691fe380,GitHub,c41bb134,data/c41bb134/src/l.hs,379:379,F,F,,,F,F,,,,,0.00,,F,F,F,
+108617,691fe380,GitHub,c41bb134,data/c41bb134/src/l.hs,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,
+108618,691fe380,GitHub,c41bb134,data/c41bb134/src/l.hs,390:390,F,F,,,F,F,,,,,0.00,,F,F,F,
+108619,1abbf729,GitHub,c41bb134,data/c41bb134/test/be.sql,896:896,F,F,,,F,F,,,,,0.00,,F,F,F,
+108620,0f0cb559,GitHub,c41bb134,data/c41bb134/test/bf.config,3:3,F,F,,,F,F,,,,,0.00,,F,F,F,
+108621,476936d5,GitHub,c41bb134,data/c41bb134/test/bt.py,210:210,F,F,,,F,F,,,,,0.00,,F,F,F,
+108622,476936d5,GitHub,c41bb134,data/c41bb134/test/bt.py,374:374,F,F,,,F,F,,,,,0.00,,F,F,F,
+108623,68cbce99,GitHub,c41bb134,data/c41bb134/test/z.hs,94:94,F,F,,,F,F,,,,,0.00,,F,F,F,
+108624,68cbce99,GitHub,c41bb134,data/c41bb134/test/z.hs,117:117,F,F,,,F,F,,,,,0.00,,F,F,F,
+108625,68cbce99,GitHub,c41bb134,data/c41bb134/test/z.hs,130:130,F,F,,,F,F,,,,,0.00,,F,F,F,
+108626,68cbce99,GitHub,c41bb134,data/c41bb134/test/z.hs,132:132,F,F,,,F,F,,,,,0.00,,F,F,F,
+108627,68cbce99,GitHub,c41bb134,data/c41bb134/test/z.hs,138:138,F,F,,,F,F,,,,,0.00,,F,F,F,
+108628,68cbce99,GitHub,c41bb134,data/c41bb134/test/z.hs,140:140,F,F,,,F,F,,,,,0.00,,F,F,F,
+108629,68cbce99,GitHub,c41bb134,data/c41bb134/test/z.hs,149:149,F,F,,,F,F,,,,,0.00,,F,F,F,
+108630,68cbce99,GitHub,c41bb134,data/c41bb134/test/z.hs,157:157,F,F,,,F,F,,,,,0.00,,F,F,F,
+108631,476936d5,GitHub,c41bb134,data/c41bb134/test/bt.py,520:520,F,F,,,F,F,,,,,0.00,,F,F,F,
+108632,476936d5,GitHub,c41bb134,data/c41bb134/test/bt.py,550:550,F,F,,,F,F,,,,,0.00,,F,F,F,
+108633,bc5f4e29,GitHub,c41bb134,data/c41bb134/test/w.hs,207:207,F,F,,,F,F,,,,,0.00,,F,F,F,
+114674,6f407ba6,GitHub,c41bb134,data/c41bb134/src/p.hs,345:345,F,F,,,F,F,,,,,0.00,,F,F,F,
+114675,bb7e3057,GitHub,c41bb134,data/c41bb134/src/k.hs,205:205,F,F,,,F,F,,,,,0.00,,F,F,F,
+114676,b155aa73,GitHub,c41bb134,data/c41bb134/test/x.hs,916:916,F,F,,,F,F,,,,,0.00,,F,F,F,
+114677,b155aa73,GitHub,c41bb134,data/c41bb134/test/x.hs,922:922,F,F,,,F,F,,,,,0.00,,F,F,F,
+114678,b155aa73,GitHub,c41bb134,data/c41bb134/test/x.hs,928:928,F,F,,,F,F,,,,,0.00,,F,F,F,
+114679,1abbf729,GitHub,c41bb134,data/c41bb134/test/be.sql,2017:2017,F,F,,,F,F,,,,,0.00,,F,F,F,
+114680,1abbf729,GitHub,c41bb134,data/c41bb134/test/be.sql,1918:1918,F,F,,,F,F,,,,,0.00,,F,F,F,
+114681,e9d57348,GitHub,c41bb134,data/c41bb134/test/bd.sql,21:21,F,F,,,F,F,,,,,0.00,,F,F,F,
+114682,978243c8,GitHub,c41bb134,data/c41bb134/test/bo.yaml,143:143,F,F,,,F,F,,,,,0.00,,F,F,F,
+114683,978243c8,GitHub,c41bb134,data/c41bb134/test/bo.yaml,166:166,F,F,,,F,F,,,,,0.00,,F,F,F,
+131660,917a0183,GitHub,c41bb134,data/c41bb134/test/ba,32:32,F,F,,,F,F,,,,,0.00,,F,F,F,

@@ -31,10 +31,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 22054,0b9b0718,GitHub,8f499d55,data/8f499d55/test/q.go,39:39,F,F,,,F,F,,,,,0,0,F,F,F,
 22564,d4e818ee,GitHub,8f499d55,data/8f499d55/src/e.json,150:150,F,F,,,F,F,,,,,0,0,F,F,F,
 25820,00dde193,GitHub,8f499d55,data/8f499d55/src/d.vsixmanifest,10:10,F,F,,,F,F,,,,,0,0,F,F,F,
-28102,bdb48f4b,GitHub,8f499d55,data/8f499d55/src/a.yml,119:119,T,1,13,31,F,F,Any,,,Secret,3.49,18,F,F,F,Password
-32354,d9cfa760,GitHub,8f499d55,data/8f499d55/src/b.libsonnet,12:12,T,1,21,39,F,F,Any,,,Secret,3.49,18,F,F,F,Password
-34389,b346f284,GitHub,8f499d55,data/8f499d55/src/g.json,2:2,T,0,11,43,F,F,Any,,,Key,3.73,32,F,F,F,Other
-41108,bdb48f4b,GitHub,8f499d55,data/8f499d55/src/a.yml,168:168,T,1,13,31,F,F,Any,,,Secret,3.49,18,F,F,F,Password
+28102,bdb48f4b,GitHub,8f499d55,data/8f499d55/src/a.yml,119:119,F,T,13,31,F,F,Any,,,Secret,3.49,18,F,F,F,Password
+32354,d9cfa760,GitHub,8f499d55,data/8f499d55/src/b.libsonnet,12:12,T,T,21,39,F,F,Any,,,Secret,3.49,18,F,F,F,Password
+34389,b346f284,GitHub,8f499d55,data/8f499d55/src/g.json,2:2,T,F,11,43,F,F,Any,,,Key,3.73,32,F,F,F,Other
+41108,bdb48f4b,GitHub,8f499d55,data/8f499d55/src/a.yml,168:168,F,T,13,31,F,F,Any,,,Secret,3.49,18,F,F,F,Password
 41785,bdb48f4b,GitHub,8f499d55,data/8f499d55/src/a.yml,171:171,F,F,,,F,F,,,,,0,0,F,F,F,
 41786,bdb48f4b,GitHub,8f499d55,data/8f499d55/src/a.yml,217:217,F,F,,,F,F,,,,,0,0,F,F,F,
 41787,bdb48f4b,GitHub,8f499d55,data/8f499d55/src/a.yml,220:220,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -47,3 +47,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 83203,2fefb90c,GitHub,8f499d55,data/8f499d55/other/m.mdx,161:161,F,F,13,20,F,F,,,,,0,0,F,F,F,
 83204,2fefb90c,GitHub,8f499d55,data/8f499d55/other/m.mdx,240:240,F,F,12,19,F,F,,,,,0,0,F,F,F,
 83205,0b9b0718,GitHub,8f499d55,data/8f499d55/test/q.go,163:163,F,F,15,22,F,F,,,,,0,0,F,F,F,
+101623,d9cfa760,GitHub,8f499d55,data/8f499d55/src/b.libsonnet,16:16,F,F,,,F,F,,,,,0.00,,F,F,F,
+101624,d9cfa760,GitHub,8f499d55,data/8f499d55/src/b.libsonnet,17:17,F,F,,,F,F,,,,,0.00,,F,F,F,
+110860,3295df72,GitHub,8f499d55,data/8f499d55/src/o.sum,164:164,F,F,,,F,F,,,,,0.00,,F,F,F,

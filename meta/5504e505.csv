@@ -20,38 +20,41 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 6625,19bfe2a4,GitHub,5504e505,data/5504e505/src/k.json,1:1,F,F,,,F,F,,,,,0,0,F,F,F,
 10341,c32456d4,GitHub,5504e505,data/5504e505/src/l.rb,32:32,F,F,,,F,F,,,,,0,0,F,F,F,
 10447,4b4c548d,GitHub,5504e505,data/5504e505/other/f,12:12,F,F,,,F,F,,,,,0,0,F,F,F,
-29366,ef007d88,GitHub,5504e505,data/5504e505/other/h,1:1,Template,1,12,159,F,F,Any,,,Token,5.09,147,F,F,F,Generic Token
-30684,c32456d4,GitHub,5504e505,data/5504e505/src/l.rb,33:33,Template,0,15,21,F,F,Any,,,Unknown,2.58,6,F,F,F,Other
-30685,dcf5e142,GitHub,5504e505,data/5504e505/other/g,9:9,Template,0,14,20,F,F,Any,,,Unknown,2.58,6,F,F,F,Other
-32435,c32456d4,GitHub,5504e505,data/5504e505/src/l.rb,34:34,T,0,18,24,F,F,Any,,,Secret,2.58,6,F,F,F,Password
-32437,4b4c548d,GitHub,5504e505,data/5504e505/other/f,13:13,T,0,17,30,F,F,Any,,,Secret,2.45,13,F,F,F,Password
-34909,4b4c548d,GitHub,5504e505,data/5504e505/other/f,11:11,T,0,7,29,F,F,Any,,,Token,3.55,22,F,F,F,Generic Token
-34925,c32456d4,GitHub,5504e505,data/5504e505/src/l.rb,35:35,T,0,8,14,F,F,Any,,,Token,2.58,6,F,F,F,Generic Token
-35222,c32456d4,GitHub,5504e505,data/5504e505/src/l.rb,36:36,T,0,9,15,F,F,Any,,,Secret,2.58,6,F,F,F,Password
-35227,4b4c548d,GitHub,5504e505,data/5504e505/other/f,10:10,T,0,8,20,F,F,CharsOnly,,,Secret,3.58,12,F,F,F,Generic Secret
-36698,c32456d4,GitHub,5504e505,data/5504e505/src/l.rb,48:48,T,0,18,24,F,F,Any,,,Secret,2.58,6,F,F,F,Password
-36699,c32456d4,GitHub,5504e505,data/5504e505/src/l.rb,62:62,T,0,18,24,F,F,Any,,,Secret,2.58,6,F,F,F,Password
-36700,c32456d4,GitHub,5504e505,data/5504e505/src/l.rb,76:76,T,0,18,24,F,F,Any,,,Secret,2.58,6,F,F,F,Password
-37282,c32456d4,GitHub,5504e505,data/5504e505/src/l.rb,49:49,T,0,8,14,F,F,Any,,,Token,2.58,6,F,F,F,Generic Token
-37283,c32456d4,GitHub,5504e505,data/5504e505/src/l.rb,63:63,T,0,8,14,F,F,Any,,,Token,2.58,6,F,F,F,Generic Token
-37284,c32456d4,GitHub,5504e505,data/5504e505/src/l.rb,77:77,T,0,8,14,F,F,Any,,,Token,2.58,6,F,F,F,Generic Token
-37411,c32456d4,GitHub,5504e505,data/5504e505/src/l.rb,50:50,T,0,9,15,F,F,Any,,,Secret,2.58,6,F,F,F,Password
-37412,c32456d4,GitHub,5504e505,data/5504e505/src/l.rb,64:64,T,0,9,15,F,F,Any,,,Secret,2.58,6,F,F,F,Password
-37413,c32456d4,GitHub,5504e505,data/5504e505/src/l.rb,78:78,T,0,9,15,F,F,Any,,,Secret,2.58,6,F,F,F,Password
+29366,ef007d88,GitHub,5504e505,data/5504e505/other/h,1:1,T,T,12,159,F,F,Any,,,Token,5.09,147,F,F,F,Generic Token
+30684,c32456d4,GitHub,5504e505,data/5504e505/src/l.rb,33:33,Template,F,15,21,F,F,Any,,,Unknown,2.58,6,F,F,F,Other
+30685,dcf5e142,GitHub,5504e505,data/5504e505/other/g,9:9,Template,F,14,20,F,F,Any,,,Unknown,2.58,6,F,F,F,Other
+32435,c32456d4,GitHub,5504e505,data/5504e505/src/l.rb,34:34,T,F,18,24,F,F,Any,,,Secret,2.58,6,F,F,F,Password
+32437,4b4c548d,GitHub,5504e505,data/5504e505/other/f,13:13,T,F,17,30,F,F,Any,,,Secret,2.45,13,F,F,F,Password
+34909,4b4c548d,GitHub,5504e505,data/5504e505/other/f,11:11,T,F,7,29,F,F,Any,,,Token,3.55,22,F,F,F,Generic Token
+34925,c32456d4,GitHub,5504e505,data/5504e505/src/l.rb,35:35,T,F,8,14,F,F,Any,,,Token,2.58,6,F,F,F,Generic Token
+35222,c32456d4,GitHub,5504e505,data/5504e505/src/l.rb,36:36,T,F,9,15,F,F,Any,,,Secret,2.58,6,F,F,F,Password
+35227,4b4c548d,GitHub,5504e505,data/5504e505/other/f,10:10,T,F,8,20,F,F,CharsOnly,,,Secret,3.58,12,F,F,F,Generic Secret
+36698,c32456d4,GitHub,5504e505,data/5504e505/src/l.rb,48:48,T,F,18,24,F,F,Any,,,Secret,2.58,6,F,F,F,Password
+36699,c32456d4,GitHub,5504e505,data/5504e505/src/l.rb,62:62,T,F,18,24,F,F,Any,,,Secret,2.58,6,F,F,F,Password
+36700,c32456d4,GitHub,5504e505,data/5504e505/src/l.rb,76:76,T,F,18,24,F,F,Any,,,Secret,2.58,6,F,F,F,Password
+37282,c32456d4,GitHub,5504e505,data/5504e505/src/l.rb,49:49,T,F,8,14,F,F,Any,,,Token,2.58,6,F,F,F,Generic Token
+37283,c32456d4,GitHub,5504e505,data/5504e505/src/l.rb,63:63,T,F,8,14,F,F,Any,,,Token,2.58,6,F,F,F,Generic Token
+37284,c32456d4,GitHub,5504e505,data/5504e505/src/l.rb,77:77,T,F,8,14,F,F,Any,,,Token,2.58,6,F,F,F,Generic Token
+37411,c32456d4,GitHub,5504e505,data/5504e505/src/l.rb,50:50,T,F,9,15,F,F,Any,,,Secret,2.58,6,F,F,F,Password
+37412,c32456d4,GitHub,5504e505,data/5504e505/src/l.rb,64:64,T,F,9,15,F,F,Any,,,Secret,2.58,6,F,F,F,Password
+37413,c32456d4,GitHub,5504e505,data/5504e505/src/l.rb,78:78,T,F,9,15,F,F,Any,,,Secret,2.58,6,F,F,F,Password
 43148,942e3b39,GitHub,5504e505,data/5504e505/src/m.rb,371:371,F,F,,,F,F,,,,,0,0,F,F,F,
-47744,dcf5e142,GitHub,5504e505,data/5504e505/other/g,13:13,Template,0,17,30,F,F,Any,,,Secret,2.45,13,F,F,F,Password
-47745,dcf5e142,GitHub,5504e505,data/5504e505/other/g,20:20,Template,0,17,30,F,F,Any,,,Secret,2.45,13,F,F,F,Password
-47807,dcf5e142,GitHub,5504e505,data/5504e505/other/g,10:10,T,0,8,20,F,F,CharsOnly,,,Secret,3.58,12,F,F,F,Generic Secret
-47808,dcf5e142,GitHub,5504e505,data/5504e505/other/g,17:17,T,0,8,20,F,F,CharsOnly,,,Secret,3.58,12,F,F,F,Generic Secret
-47842,dcf5e142,GitHub,5504e505,data/5504e505/other/g,11:11,T,0,7,29,F,F,Any,,,Token,3.55,22,F,F,F,Generic Token
-47843,dcf5e142,GitHub,5504e505,data/5504e505/other/g,18:18,T,0,7,29,F,F,Any,,,Token,3.55,22,F,F,F,Generic Token
-63532,c32456d4,GitHub,5504e505,data/5504e505/src/l.rb,47:47,Template,0,15,21,F,F,Any,,,Unknown,2.58,6,F,F,F,Other
-63533,c32456d4,GitHub,5504e505,data/5504e505/src/l.rb,61:61,Template,0,15,21,F,F,Any,,,Unknown,2.58,6,F,F,F,Other
-63534,c32456d4,GitHub,5504e505,data/5504e505/src/l.rb,75:75,Template,0,15,21,F,F,Any,,,Unknown,2.58,6,F,F,F,Other
-63535,4b4c548d,GitHub,5504e505,data/5504e505/other/f,9:9,Template,0,14,20,F,F,Any,,,Unknown,2.58,6,F,F,F,Other
-63536,dcf5e142,GitHub,5504e505,data/5504e505/other/g,16:16,Template,0,14,20,F,F,Any,,,Unknown,2.58,6,F,F,F,Other
+47744,dcf5e142,GitHub,5504e505,data/5504e505/other/g,13:13,T,F,17,30,F,F,Any,,,Secret,2.45,13,F,F,F,Password
+47745,dcf5e142,GitHub,5504e505,data/5504e505/other/g,20:20,T,F,17,30,F,F,Any,,,Secret,2.45,13,F,F,F,Password
+47807,dcf5e142,GitHub,5504e505,data/5504e505/other/g,10:10,T,F,8,20,F,F,CharsOnly,,,Secret,3.58,12,F,F,F,Generic Secret
+47808,dcf5e142,GitHub,5504e505,data/5504e505/other/g,17:17,T,F,8,20,F,F,CharsOnly,,,Secret,3.58,12,F,F,F,Generic Secret
+47842,dcf5e142,GitHub,5504e505,data/5504e505/other/g,11:11,T,F,7,29,F,F,Any,,,Token,3.55,22,F,F,F,Generic Token
+47843,dcf5e142,GitHub,5504e505,data/5504e505/other/g,18:18,T,F,7,29,F,F,Any,,,Token,3.55,22,F,F,F,Generic Token
+63532,c32456d4,GitHub,5504e505,data/5504e505/src/l.rb,47:47,Template,F,15,21,F,F,Any,,,Unknown,2.58,6,F,F,F,Other
+63533,c32456d4,GitHub,5504e505,data/5504e505/src/l.rb,61:61,Template,F,15,21,F,F,Any,,,Unknown,2.58,6,F,F,F,Other
+63534,c32456d4,GitHub,5504e505,data/5504e505/src/l.rb,75:75,Template,F,15,21,F,F,Any,,,Unknown,2.58,6,F,F,F,Other
+63535,4b4c548d,GitHub,5504e505,data/5504e505/other/f,9:9,Template,F,14,20,F,F,Any,,,Unknown,2.58,6,F,F,F,Other
+63536,dcf5e142,GitHub,5504e505,data/5504e505/other/g,16:16,Template,F,14,20,F,F,Any,,,Unknown,2.58,6,F,F,F,Other
 76548,c32456d4,GitHub,5504e505,data/5504e505/src/l.rb,46:46,F,F,,,F,F,,,,,0,0,F,F,F,
 76549,c32456d4,GitHub,5504e505,data/5504e505/src/l.rb,60:60,F,F,,,F,F,,,,,0,0,F,F,F,
 76550,c32456d4,GitHub,5504e505,data/5504e505/src/l.rb,74:74,F,F,,,F,F,,,,,0,0,F,F,F,
 76666,dcf5e142,GitHub,5504e505,data/5504e505/other/g,12:12,F,F,,,F,F,,,,,0,0,F,F,F,
 76667,dcf5e142,GitHub,5504e505,data/5504e505/other/g,19:19,F,F,,,F,F,,,,,0,0,F,F,F,
+101148,f45c7d17,GitHub,5504e505,data/5504e505/src/b.rb,82:82,F,F,,,F,F,,,,,0.00,,F,F,F,
+101149,f45c7d17,GitHub,5504e505,data/5504e505/src/b.rb,83:83,F,F,,,F,F,,,,,0.00,,F,F,F,
+101150,b3356305,GitHub,5504e505,data/5504e505/other/a.md,107:107,F,F,,,F,F,,,,,0.00,,F,F,F,

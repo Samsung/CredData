@@ -23,7 +23,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 8273,e939ae94,GitHub,3b7cbdd3,data/3b7cbdd3/src/j.py,154:154,F,F,,,F,F,,,,,0,0,F,F,F,
 8782,3a9c01c9,GitHub,3b7cbdd3,data/3b7cbdd3/src/i.py,92:92,F,F,,,F,F,,,,,0,0,F,F,F,
 8784,3a9c01c9,GitHub,3b7cbdd3,data/3b7cbdd3/src/i.py,62:62,F,F,,,F,F,,,,,0,0,F,F,F,
-9319,2cee6a30,GitHub,3b7cbdd3,data/3b7cbdd3/other/e.md,250:250,F,F,,,F,F,,,,,0,0,F,F,F,
+9319,2cee6a30,GitHub,3b7cbdd3,data/3b7cbdd3/other/e.md,250:250,Template,T,31,35,T,F,CharOnly,,,Secret,1.50,4,F,F,F,Other
 10385,632d9c50,GitHub,3b7cbdd3,data/3b7cbdd3/other/b.md,16:16,F,F,,,F,F,,,,,0,0,F,F,F,
 10405,d668c492,GitHub,3b7cbdd3,data/3b7cbdd3/other/c.md,35:35,F,F,,,F,F,,,,,0,0,F,F,F,
 11982,d161c06b,GitHub,3b7cbdd3,data/3b7cbdd3/test/u.py,380:380,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -38,12 +38,12 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 25030,f974056c,GitHub,3b7cbdd3,data/3b7cbdd3/src/n.py,101:101,F,F,,,F,F,,,,,0,0,F,F,F,
 25140,77b35193,GitHub,3b7cbdd3,data/3b7cbdd3/other/d.md,21:21,F,F,,,F,F,,,,,0,0,F,F,F,
 25141,da24b355,GitHub,3b7cbdd3,data/3b7cbdd3/test/r.py,27:27,F,F,,,F,F,,,,,0,0,F,F,F,
-27660,f4a2aeff,GitHub,3b7cbdd3,data/3b7cbdd3/test/s.py,63:63,Template,0,41,49,T,F,Any,,,Secret,0,8,F,F,F,Password
-27664,da24b355,GitHub,3b7cbdd3,data/3b7cbdd3/test/r.py,32:32,Template,0,33,37,F,F,Any,,,Secret,1.50,4,F,F,F,Password
-27742,77b35193,GitHub,3b7cbdd3,data/3b7cbdd3/other/d.md,74:74,T,0,20,35,T,F,Any,,,Secret,3.24,15,F,F,F,Password
-30578,da24b355,GitHub,3b7cbdd3,data/3b7cbdd3/test/r.py,16:16,Template,0,23,30,F,F,Any,,,Secret,2.41,7,F,F,F,Password
-32565,da24b355,GitHub,3b7cbdd3,data/3b7cbdd3/test/r.py,14:14,T,1,41,45,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-33782,77b35193,GitHub,3b7cbdd3,data/3b7cbdd3/other/d.md,35:35,T,0,11,34,F,F,Any,,,Secret,3.77,23,F,F,F,Generic Secret
+27660,f4a2aeff,GitHub,3b7cbdd3,data/3b7cbdd3/test/s.py,63:63,F,F,41,49,T,F,Any,,,Secret,0,8,F,F,F,Password
+27664,da24b355,GitHub,3b7cbdd3,data/3b7cbdd3/test/r.py,32:32,F,F,33,37,F,F,Any,,,Secret,1.50,4,F,F,F,Password
+27742,77b35193,GitHub,3b7cbdd3,data/3b7cbdd3/other/d.md,74:74,T,F,20,35,T,F,Any,,,Secret,3.24,15,F,F,F,Password
+30578,da24b355,GitHub,3b7cbdd3,data/3b7cbdd3/test/r.py,16:16,Template,F,23,30,F,F,Any,,,Secret,2.41,7,F,F,F,Password
+32565,da24b355,GitHub,3b7cbdd3,data/3b7cbdd3/test/r.py,14:14,T,T,41,45,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
+33782,77b35193,GitHub,3b7cbdd3,data/3b7cbdd3/other/d.md,35:35,T,F,11,34,F,F,Any,,,Secret,3.77,23,F,F,F,Generic Secret
 42339,e939ae94,GitHub,3b7cbdd3,data/3b7cbdd3/src/j.py,108:108,F,F,,,F,F,,,,,0,0,F,F,F,
 47314,29a33be0,GitHub,3b7cbdd3,data/3b7cbdd3/test/v.py,115:115,F,F,,,F,F,,,,,0,0,F,F,F,
 47678,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/q.py,34:34,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -63,3 +63,29 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 81805,99ab667f,GitHub,3b7cbdd3,data/3b7cbdd3/test/p.py,61:61,F,F,50,57,F,F,,,,,0,0,F,F,F,
 81806,99ab667f,GitHub,3b7cbdd3,data/3b7cbdd3/test/p.py,77:77,F,F,50,57,F,F,,,,,0,0,F,F,F,
 81807,99ab667f,GitHub,3b7cbdd3,data/3b7cbdd3/test/p.py,109:109,F,F,57,64,F,F,,,,,0,0,F,F,F,
+100858,77b35193,GitHub,3b7cbdd3,data/3b7cbdd3/other/d.md,178:178,F,F,,,F,F,,,,,0.00,,F,F,F,
+100859,99ab667f,GitHub,3b7cbdd3,data/3b7cbdd3/test/p.py,78:78,F,F,,,F,F,,,,,0.00,,F,F,F,
+100860,99ab667f,GitHub,3b7cbdd3,data/3b7cbdd3/test/p.py,79:79,F,F,,,F,F,,,,,0.00,,F,F,F,
+100861,99ab667f,GitHub,3b7cbdd3,data/3b7cbdd3/test/p.py,81:81,F,F,,,F,F,,,,,0.00,,F,F,F,
+100862,99ab667f,GitHub,3b7cbdd3,data/3b7cbdd3/test/p.py,84:84,F,F,,,F,F,,,,,0.00,,F,F,F,
+100863,99ab667f,GitHub,3b7cbdd3,data/3b7cbdd3/test/p.py,87:87,F,F,,,F,F,,,,,0.00,,F,F,F,
+100864,99ab667f,GitHub,3b7cbdd3,data/3b7cbdd3/test/p.py,90:90,F,F,,,F,F,,,,,0.00,,F,F,F,
+100865,99ab667f,GitHub,3b7cbdd3,data/3b7cbdd3/test/p.py,93:93,F,F,,,F,F,,,,,0.00,,F,F,F,
+100866,99ab667f,GitHub,3b7cbdd3,data/3b7cbdd3/test/p.py,96:96,F,F,,,F,F,,,,,0.00,,F,F,F,
+100867,99ab667f,GitHub,3b7cbdd3,data/3b7cbdd3/test/p.py,99:99,F,F,,,F,F,,,,,0.00,,F,F,F,
+100868,99ab667f,GitHub,3b7cbdd3,data/3b7cbdd3/test/p.py,102:102,F,F,,,F,F,,,,,0.00,,F,F,F,
+100869,da24b355,GitHub,3b7cbdd3,data/3b7cbdd3/test/r.py,53:53,F,F,,,F,F,,,,,0.00,,F,F,F,
+100870,da24b355,GitHub,3b7cbdd3,data/3b7cbdd3/test/r.py,54:54,F,F,,,F,F,,,,,0.00,,F,F,F,
+100871,da24b355,GitHub,3b7cbdd3,data/3b7cbdd3/test/r.py,58:58,F,F,,,F,F,,,,,0.00,,F,F,F,
+110469,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/q.py,204:204,F,F,,,F,F,,,,,0.00,,F,F,F,
+110470,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/q.py,214:214,F,F,,,F,F,,,,,0.00,,F,F,F,
+110471,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/q.py,221:221,F,F,,,F,F,,,,,0.00,,F,F,F,
+110472,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/q.py,228:228,F,F,,,F,F,,,,,0.00,,F,F,F,
+110473,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/q.py,232:232,F,F,,,F,F,,,,,0.00,,F,F,F,
+110474,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/q.py,244:244,F,F,,,F,F,,,,,0.00,,F,F,F,
+110475,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/q.py,270:270,F,F,,,F,F,,,,,0.00,,F,F,F,
+110476,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/q.py,284:284,F,F,,,F,F,,,,,0.00,,F,F,F,
+110477,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/q.py,300:300,F,F,,,F,F,,,,,0.00,,F,F,F,
+110478,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/q.py,308:308,F,F,,,F,F,,,,,0.00,,F,F,F,
+110479,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/q.py,336:336,F,F,,,F,F,,,,,0.00,,F,F,F,
+110480,05180dda,GitHub,3b7cbdd3,data/3b7cbdd3/test/t.py,297:297,F,F,,,F,F,,,,,0.00,,F,F,F,

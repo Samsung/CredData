@@ -8,7 +8,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 4245,73d82784,GitHub,597acaac,data/597acaac/test/bj.php,104:104,F,F,,,F,F,,,,,0,0,F,F,F,
 4315,7b05fe96,GitHub,597acaac,data/597acaac/test/bk.php,196:196,F,F,,,F,F,,,,,0,0,F,F,F,
 4331,67728a4a,GitHub,597acaac,data/597acaac/test/bp.php,11:11,F,F,,,F,F,,,,,0,0,F,F,F,
-5506,396fcfa2,GitHub,597acaac,data/597acaac/other/a.md,13:13,F,F,,,F,F,,,,,0,0,F,F,F,
+5506,396fcfa2,GitHub,597acaac,data/597acaac/other/a.md,13:13,Template,T,61,72,T,F,Any,,,Secret,2.55,11,F,F,F,Password
 7375,c2d3be7b,GitHub,597acaac,data/597acaac/src/be.php,42:42,F,F,,,F,F,,,,,0,0,F,F,F,
 11133,9ee935d9,GitHub,597acaac,data/597acaac/src/h.js,276:276,F,F,,,F,F,,,,,0,0,F,F,F,
 11134,9ee935d9,GitHub,597acaac,data/597acaac/src/h.js,266:266,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -66,11 +66,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 25207,346d0a94,GitHub,597acaac,data/597acaac/src/k.php,12:12,F,F,,,F,F,,,,,0,0,F,F,F,
 25867,407a6578,GitHub,597acaac,data/597acaac/src/bd.php,135:135,F,F,,,F,F,,,,,0,0,F,F,F,
 29737,9ee935d9,GitHub,597acaac,data/597acaac/src/h.js,641:641,F,F,14,79,F,F,,,,,0,0,F,F,F,
-30117,fa8d6f0f,GitHub,597acaac,data/597acaac/test/bm.php,88:88,Template,0,17,47,F,F,CharsOnly,,,Unknown,4.64,30,F,F,F,Other
-31003,fa8d6f0f,GitHub,597acaac,data/597acaac/test/bm.php,80:80,T,0,17,57,F,F,Any,,,Secret,4.71,40,F,F,F,Generic Secret
-31064,fa8d6f0f,GitHub,597acaac,data/597acaac/test/bm.php,79:79,Template,0,17,57,F,F,CharsOnly,,,Unknown,4.67,40,F,F,F,Other
-35882,abf1fa77,GitHub,597acaac,data/597acaac/test/bi.php,45:45,T,0,38,70,F,F,Any,,,Unknown,4.75,32,F,F,F,Other
-36113,563438d8,GitHub,597acaac,data/597acaac/test/bl.php,75:75,T,0,13,25,F,F,CharsOnly,,,Secret,3.58,12,F,F,F,Password
+30117,fa8d6f0f,GitHub,597acaac,data/597acaac/test/bm.php,88:88,Template,F,17,47,F,F,CharsOnly,,,Unknown,4.64,30,F,F,F,Other
+31003,fa8d6f0f,GitHub,597acaac,data/597acaac/test/bm.php,80:80,T,F,17,57,F,F,Any,,,Secret,4.71,40,F,F,F,Generic Secret
+31064,fa8d6f0f,GitHub,597acaac,data/597acaac/test/bm.php,79:79,Template,F,17,57,F,F,CharsOnly,,,Unknown,4.67,40,F,F,F,Other
+35882,abf1fa77,GitHub,597acaac,data/597acaac/test/bi.php,45:45,T,F,38,70,F,F,Any,,,Unknown,4.75,32,F,F,F,Other
+36113,563438d8,GitHub,597acaac,data/597acaac/test/bl.php,75:75,T,F,13,25,F,F,CharsOnly,,,Secret,3.58,12,F,F,F,Password
 55730,a3071f8b,GitHub,597acaac,data/597acaac/src/z.php,138:138,F,F,,,F,F,,,,,0,0,F,F,F,
 55731,a3071f8b,GitHub,597acaac,data/597acaac/src/z.php,134:134,F,F,,,F,F,,,,,0,0,F,F,F,
 55732,a9e12018,GitHub,597acaac,data/597acaac/src/bg.php,177:177,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -91,3 +91,14 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 75125,0d877047,GitHub,597acaac,data/597acaac/other/b.md,111:111,F,F,,,F,F,,,,,0,0,F,F,F,
 75126,0d877047,GitHub,597acaac,data/597acaac/other/b.md,236:236,F,F,,,F,F,,,,,0,0,F,F,F,
 82349,9ee935d9,GitHub,597acaac,data/597acaac/src/h.js,680:680,F,F,14,79,F,F,,,,,0,0,F,F,F,
+102770,33826058,GitHub,597acaac,data/597acaac/src/p.php,44:44,F,F,,,F,F,,,,,0.00,,F,F,F,
+102771,db4d016b,GitHub,597acaac,data/597acaac/src/o.php,51:51,F,F,,,F,F,,,,,0.00,,F,F,F,
+113811,5a6e72e3,GitHub,597acaac,data/597acaac/src/x.php,30:30,F,F,,,F,F,,,,,0.00,,F,F,F,
+113812,5a6e72e3,GitHub,597acaac,data/597acaac/src/x.php,33:33,F,F,,,F,F,,,,,0.00,,F,F,F,
+113813,5a6e72e3,GitHub,597acaac,data/597acaac/src/x.php,39:39,F,F,,,F,F,,,,,0.00,,F,F,F,
+113814,33826058,GitHub,597acaac,data/597acaac/src/p.php,49:49,F,F,,,F,F,,,,,0.00,,F,F,F,
+113815,15874844,GitHub,597acaac,data/597acaac/src/v.php,438:438,F,F,,,F,F,,,,,0.00,,F,F,F,
+113816,15874844,GitHub,597acaac,data/597acaac/src/v.php,484:484,F,F,,,F,F,,,,,0.00,,F,F,F,
+113817,15874844,GitHub,597acaac,data/597acaac/src/v.php,716:716,F,F,,,F,F,,,,,0.00,,F,F,F,
+113818,15874844,GitHub,597acaac,data/597acaac/src/v.php,838:838,F,F,,,F,F,,,,,0.00,,F,F,F,
+113819,15874844,GitHub,597acaac,data/597acaac/src/v.php,989:989,F,F,,,F,F,,,,,0.00,,F,F,F,

@@ -11,11 +11,15 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 27001,2b38eb32,GitHub,eb9ba732,data/eb9ba732/src/h.go,89:89,F,F,,,F,F,,,,,0,0,F,F,F,
 27341,d941c5bf,GitHub,eb9ba732,data/eb9ba732/src/c.yml,24:24,F,F,19,28,F,F,,,,,0,0,F,F,F,
 27399,d941c5bf,GitHub,eb9ba732,data/eb9ba732/src/c.yml,12:12,F,F,12,21,F,F,,,,,0,0,F,F,F,
-29492,62e54bbb,GitHub,eb9ba732,data/eb9ba732/other/d.md,45:45,Template,1,6,29,F,F,Any,,,Token,2.98,23,F,F,F,Generic Token
-29905,03f3ed46,GitHub,eb9ba732,data/eb9ba732/test/g.yaml,211:211,Template,1,10,16,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
-29998,6ac3f79f,GitHub,eb9ba732,data/eb9ba732/src/a.yml,41:41,Template,1,8,692,F,F,Any,,,Unknown,5.92,684,F,F,F,Other
-30004,6ac3f79f,GitHub,eb9ba732,data/eb9ba732/src/a.yml,4:4,Template,1,10,694,F,F,Any,,,Unknown,5.94,684,F,F,F,Other
-31104,d941c5bf,GitHub,eb9ba732,data/eb9ba732/src/c.yml,10:10,Template,1,21,34,F,F,CharsOnly,,,Secret,2.87,13,F,F,F,Password
-33506,d941c5bf,GitHub,eb9ba732,data/eb9ba732/src/c.yml,13:13,T,1,16,25,F,F,CharsOnly,,,Secret,2.73,9,F,F,F,Password
-33720,d941c5bf,GitHub,eb9ba732,data/eb9ba732/src/c.yml,25:25,T,1,23,32,F,F,CharsOnly,,,Secret,2.73,9,F,F,F,Password
-34511,03f3ed46,GitHub,eb9ba732,data/eb9ba732/test/g.yaml,215:215,T,1,10,15,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
+29492,62e54bbb,GitHub,eb9ba732,data/eb9ba732/other/d.md,45:45,Template,T,6,29,F,F,Any,,,Token,2.98,23,F,F,F,Generic Token
+29905,03f3ed46,GitHub,eb9ba732,data/eb9ba732/test/g.yaml,211:211,Template,T,10,16,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
+29998,6ac3f79f,GitHub,eb9ba732,data/eb9ba732/src/a.yml,41:41,F,T,8,692,F,F,Any,,,Unknown,5.92,684,F,F,F,Other
+30004,6ac3f79f,GitHub,eb9ba732,data/eb9ba732/src/a.yml,4:4,F,T,10,694,F,F,Any,,,Unknown,5.94,684,F,F,F,Other
+31104,d941c5bf,GitHub,eb9ba732,data/eb9ba732/src/c.yml,10:10,Template,T,21,34,F,F,CharsOnly,,,Secret,2.87,13,F,F,F,Password
+33506,d941c5bf,GitHub,eb9ba732,data/eb9ba732/src/c.yml,13:13,T,T,16,25,F,F,CharsOnly,,,Secret,2.73,9,F,F,F,Password
+33720,d941c5bf,GitHub,eb9ba732,data/eb9ba732/src/c.yml,25:25,T,T,23,32,F,F,CharsOnly,,,Secret,2.73,9,F,F,F,Password
+34511,03f3ed46,GitHub,eb9ba732,data/eb9ba732/test/g.yaml,215:215,Template,T,10,15,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
+130053,2b38eb32,GitHub,eb9ba732,data/eb9ba732/src/h.go,52:52,F,F,,,F,F,,,,,0.00,,F,F,F,
+130054,8b611c63,GitHub,eb9ba732,data/eb9ba732/other/b.md,625:625,F,F,,,F,F,,,,,0.00,,F,F,F,
+130055,2b38eb32,GitHub,eb9ba732,data/eb9ba732/src/h.go,52:52,F,F,,,F,F,,,,,0.00,,F,F,F,
+130056,8b611c63,GitHub,eb9ba732,data/eb9ba732/other/b.md,625:625,F,F,,,F,F,,,,,0.00,,F,F,F,

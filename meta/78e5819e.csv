@@ -54,13 +54,13 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 26592,35573b32,GitHub,78e5819e,data/78e5819e/src/bb.vue,13:13,F,F,,,F,F,,,,,0,0,F,F,F,
 26593,3a18d0a7,GitHub,78e5819e,data/78e5819e/src/bc.vue,11:11,F,F,,,F,F,,,,,0,0,F,F,F,
 27580,ca7186e8,GitHub,78e5819e,data/78e5819e/other/c,38:38,F,F,14,22,F,F,,,,,0,0,F,F,F,
-28848,c2067af3,GitHub,78e5819e,data/78e5819e/src/b.json,10:10,Template,1,15,25,F,F,CharsOnly,,,Secret,3.12,10,F,F,F,Password
-28963,c2067af3,GitHub,78e5819e,data/78e5819e/src/b.json,12:12,Template,1,29,39,F,F,CharsOnly,,,Secret,3.12,10,F,F,F,Password
-29036,c2067af3,GitHub,78e5819e,data/78e5819e/src/b.json,20:20,Template,1,22,32,F,F,CharsOnly,,,Secret,3.12,10,F,F,F,Password
-33761,a3114d70,GitHub,78e5819e,data/78e5819e/other/d.md,214:214,T,0,76,124,F,F,Any,,,Token,3.80,48,F,F,F,Generic Token
-34088,eae110c1,GitHub,78e5819e,data/78e5819e/src/q.yml,125:125,T,1,31,36,T,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
-35437,a3114d70,GitHub,78e5819e,data/78e5819e/other/d.md,221:221,T,0,47,95,F,F,Any,,,Token,3.80,48,F,F,F,Generic Token
-35439,a3114d70,GitHub,78e5819e,data/78e5819e/other/d.md,227:227,T,0,28,76,F,F,Any,,,Token,3.80,48,F,F,F,Generic Token
+28848,c2067af3,GitHub,78e5819e,data/78e5819e/src/b.json,10:10,Template,T,15,25,F,F,CharsOnly,,,Secret,3.12,10,F,F,F,Password
+28963,c2067af3,GitHub,78e5819e,data/78e5819e/src/b.json,12:12,Template,T,29,39,F,F,CharsOnly,,,Secret,3.12,10,F,F,F,Password
+29036,c2067af3,GitHub,78e5819e,data/78e5819e/src/b.json,20:20,Template,T,22,32,F,F,CharsOnly,,,Secret,3.12,10,F,F,F,Password
+33761,a3114d70,GitHub,78e5819e,data/78e5819e/other/d.md,214:214,T,F,76,124,F,F,Any,,,Token,3.80,48,F,F,F,Generic Token
+34088,eae110c1,GitHub,78e5819e,data/78e5819e/src/q.yml,125:125,Template,T,31,36,T,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
+35437,a3114d70,GitHub,78e5819e,data/78e5819e/other/d.md,221:221,T,F,47,95,F,F,Any,,,Token,3.80,48,F,F,F,Generic Token
+35439,a3114d70,GitHub,78e5819e,data/78e5819e/other/d.md,227:227,T,F,28,76,F,F,Any,,,Token,3.80,48,F,F,F,Generic Token
 41809,be4fbf03,GitHub,78e5819e,data/78e5819e/src/bd.vue,115:115,F,F,,,F,F,,,,,0,0,F,F,F,
 41810,be4fbf03,GitHub,78e5819e,data/78e5819e/src/bd.vue,116:116,F,F,,,F,F,,,,,0,0,F,F,F,
 42033,3a18d0a7,GitHub,78e5819e,data/78e5819e/src/bc.vue,18:18,F,F,161,176,F,F,,,,,0,0,F,F,F,
@@ -80,3 +80,19 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 74959,43569e92,GitHub,78e5819e,data/78e5819e/src/ba.vue,43:43,F,F,,,F,F,,,,,0,0,F,F,F,
 74960,3a18d0a7,GitHub,78e5819e,data/78e5819e/src/bc.vue,52:52,F,F,,,F,F,,,,,0,0,F,F,F,
 74961,be4fbf03,GitHub,78e5819e,data/78e5819e/src/bd.vue,111:111,F,F,,,F,F,,,,,0,0,F,F,F,
+102300,b3356305,GitHub,78e5819e,data/78e5819e/other/a.md,103:103,F,F,,,F,F,,,,,0.00,,F,F,F,
+102301,be4fbf03,GitHub,78e5819e,data/78e5819e/src/bd.vue,76:76,F,F,,,F,F,,,,,0.00,,F,F,F,
+130903,63c2be56,GitHub,78e5819e,data/78e5819e/test/k.py,48:48,F,F,,,F,F,,,,,0.00,,F,F,F,
+130904,7dccaddd,GitHub,78e5819e,data/78e5819e/src/f.py,75:75,F,F,,,F,F,,,,,0.00,,F,F,F,
+130905,da9cb1d3,GitHub,78e5819e,data/78e5819e/src/v.ts,173:173,F,F,,,F,F,,,,,0.00,,F,F,F,
+130906,2cf36eb8,GitHub,78e5819e,data/78e5819e/src/h.py,18:18,F,F,,,F,F,,,,,0.00,,F,F,F,
+130907,2cf36eb8,GitHub,78e5819e,data/78e5819e/src/h.py,35:35,F,F,,,F,F,,,,,0.00,,F,F,F,
+130908,63c2be56,GitHub,78e5819e,data/78e5819e/test/k.py,57:57,F,F,,,F,F,,,,,0.00,,F,F,F,
+130909,63c2be56,GitHub,78e5819e,data/78e5819e/test/k.py,57:57,F,F,,,F,F,,,,,0.00,,F,F,F,
+130910,ca7186e8,GitHub,78e5819e,data/78e5819e/other/c,45:45,F,F,,,F,F,,,,,0.00,,F,F,F,
+130911,63c2be56,GitHub,78e5819e,data/78e5819e/test/k.py,57:57,F,F,,,F,F,,,,,0.00,,F,F,F,
+130912,ca7186e8,GitHub,78e5819e,data/78e5819e/other/c,21:21,F,F,,,F,F,,,,,0.00,,F,F,F,
+130913,ca7186e8,GitHub,78e5819e,data/78e5819e/other/c,39:39,F,F,,,F,F,,,,,0.00,,F,F,F,
+130914,43569e92,GitHub,78e5819e,data/78e5819e/src/ba.vue,52:52,F,F,,,F,F,,,,,0.00,,F,F,F,
+130915,63c2be56,GitHub,78e5819e,data/78e5819e/test/k.py,89:89,F,F,,,F,F,,,,,0.00,,F,F,F,
+130916,43569e92,GitHub,78e5819e,data/78e5819e/src/ba.vue,52:52,F,F,,,F,F,,,,,0.00,,F,F,F,

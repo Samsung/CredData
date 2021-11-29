@@ -43,21 +43,26 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 27137,ee0f20df,GitHub,4bd9eea8,data/4bd9eea8/src/m.java,39:39,F,F,,,F,F,,,,,0,0,F,F,F,
 27143,78811ec1,GitHub,4bd9eea8,data/4bd9eea8/src/g.java,57:57,F,F,,,F,F,,,,,0,0,F,F,F,
 27163,ab3cc750,GitHub,4bd9eea8,data/4bd9eea8/src/k.java,40:40,F,F,,,F,F,,,,,0,0,F,F,F,
-29915,4088651d,GitHub,4bd9eea8,data/4bd9eea8/src/o.yml,8:8,Template,0,10,16,F,F,NumbersOnly,,,Secret,2.58,6,F,F,F,Password
-29935,abb8cb7f,GitHub,4bd9eea8,data/4bd9eea8/test/p.yml,8:8,Template,0,10,16,F,F,NumbersOnly,,,Secret,2.58,6,F,F,F,Password
-32213,f51a7784,GitHub,4bd9eea8,data/4bd9eea8/src/s.vue,31:31,T,0,15,55,F,F,Any,,,Secret,3.53,40,F,F,F,Generic Secret
-34512,4088651d,GitHub,4bd9eea8,data/4bd9eea8/src/o.yml,25:25,T,1,17,22,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
-34513,abb8cb7f,GitHub,4bd9eea8,data/4bd9eea8/test/p.yml,25:25,T,1,17,22,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
-34613,4088651d,GitHub,4bd9eea8,data/4bd9eea8/src/o.yml,55:55,T,1,10,15,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
-34627,abb8cb7f,GitHub,4bd9eea8,data/4bd9eea8/test/p.yml,55:55,T,1,10,15,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
-35120,4088651d,GitHub,4bd9eea8,data/4bd9eea8/src/o.yml,66:66,T,0,50,92,F,F,Any,,,Secret,4.61,42,F,F,F,Generic Secret
-35255,4088651d,GitHub,4bd9eea8,data/4bd9eea8/src/o.yml,71:71,T,1,10,23,F,F,Any,,,Secret,3.26,13,F,F,F,Password
+29915,4088651d,GitHub,4bd9eea8,data/4bd9eea8/src/o.yml,8:8,Template,F,10,16,F,F,NumbersOnly,,,Secret,2.58,6,F,F,F,Password
+29935,abb8cb7f,GitHub,4bd9eea8,data/4bd9eea8/test/p.yml,8:8,Template,F,10,16,F,F,NumbersOnly,,,Secret,2.58,6,F,F,F,Password
+32213,f51a7784,GitHub,4bd9eea8,data/4bd9eea8/src/s.vue,31:31,T,F,15,55,F,F,Any,,,Secret,3.53,40,F,F,F,Generic Secret
+34512,4088651d,GitHub,4bd9eea8,data/4bd9eea8/src/o.yml,25:25,Template,T,17,22,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
+34513,abb8cb7f,GitHub,4bd9eea8,data/4bd9eea8/test/p.yml,25:25,Template,T,17,22,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
+34613,4088651d,GitHub,4bd9eea8,data/4bd9eea8/src/o.yml,55:55,T,T,10,15,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
+34627,abb8cb7f,GitHub,4bd9eea8,data/4bd9eea8/test/p.yml,55:55,T,T,10,15,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
+35120,4088651d,GitHub,4bd9eea8,data/4bd9eea8/src/o.yml,66:66,T,F,50,92,F,F,Any,,,Secret,4.61,42,F,F,F,Generic Secret
+35255,4088651d,GitHub,4bd9eea8,data/4bd9eea8/src/o.yml,71:71,T,T,10,23,F,F,Any,,,Secret,3.26,13,F,F,F,Password
 42976,ee104a92,GitHub,4bd9eea8,data/4bd9eea8/src/w.vue,13:13,F,F,,,F,F,,,,,0,0,F,F,F,
-50306,abb8cb7f,GitHub,4bd9eea8,data/4bd9eea8/test/p.yml,71:71,T,1,10,23,F,F,Any,,,Secret,3.26,13,F,F,F,Password
-50336,abb8cb7f,GitHub,4bd9eea8,data/4bd9eea8/test/p.yml,66:66,T,0,50,92,F,F,Any,,,Secret,4.61,42,F,F,F,Generic Secret
+50306,abb8cb7f,GitHub,4bd9eea8,data/4bd9eea8/test/p.yml,71:71,T,T,10,23,F,F,Any,,,Secret,3.26,13,F,F,F,Password
+50336,abb8cb7f,GitHub,4bd9eea8,data/4bd9eea8/test/p.yml,66:66,T,F,50,92,F,F,Any,,,Secret,4.61,42,F,F,F,Generic Secret
 55648,4088651d,GitHub,4bd9eea8,data/4bd9eea8/src/o.yml,24:24,F,F,,,F,F,,,,,0,0,F,F,F,
 62011,602b6190,GitHub,4bd9eea8,data/4bd9eea8/src/b.java,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
 74579,4d82858d,GitHub,4bd9eea8,data/4bd9eea8/src/u.vue,23:23,F,F,,,F,F,,,,,0,0,F,F,F,
 76582,abb8cb7f,GitHub,4bd9eea8,data/4bd9eea8/test/p.yml,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
 76605,abb8cb7f,GitHub,4bd9eea8,data/4bd9eea8/test/p.yml,7:7,F,F,,,F,F,,,,,0,0,F,F,F,
 83184,78811ec1,GitHub,4bd9eea8,data/4bd9eea8/src/g.java,69:69,F,F,27,34,F,F,,,,,0,0,F,F,F,
+107674,ee104a92,GitHub,4bd9eea8,data/4bd9eea8/src/w.vue,91:91,F,F,,,F,F,,,,,0.00,,F,F,F,
+107675,ee104a92,GitHub,4bd9eea8,data/4bd9eea8/src/w.vue,94:94,F,F,,,F,F,,,,,0.00,,F,F,F,
+114113,ee104a92,GitHub,4bd9eea8,data/4bd9eea8/src/w.vue,21:21,F,F,,,F,F,,,,,0.00,,F,F,F,
+114114,4088651d,GitHub,4bd9eea8,data/4bd9eea8/src/o.yml,65:65,F,F,,,F,F,,,,,0.00,,F,F,F,
+114115,abb8cb7f,GitHub,4bd9eea8,data/4bd9eea8/test/p.yml,65:65,F,F,,,F,F,,,,,0.00,,F,F,F,

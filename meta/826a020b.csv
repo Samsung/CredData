@@ -2,6 +2,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 2838,e052c4ef,GitHub,826a020b,data/826a020b/src/c.js,17:17,F,F,,,F,F,,,,,0,0,F,F,F,
 7853,6ac3f79f,GitHub,826a020b,data/826a020b/src/a.yml,67:67,F,F,,,F,F,,,,,0,0,F,F,F,
 8850,c6d1f984,GitHub,826a020b,data/826a020b/src/e.js,154:154,F,F,,,F,F,,,,,0,0,F,F,F,
-30675,fe2a39c1,GitHub,826a020b,data/826a020b/test/f.js,12:12,Template,1,51,63,F,F,CharsOnly,,,Secret,3.02,12,F,F,F,Password
-30689,21a473fe,GitHub,826a020b,data/826a020b/test/b.js,2:2,Template,1,52,64,F,F,CharsOnly,,,Secret,3.02,12,F,F,F,Password
-36471,ca122b97,GitHub,826a020b,data/826a020b/src/d.js,8:8,T,0,42,74,T,F,Any,,,Secret,3.36,32,F,F,F,Generic Secret
+30675,fe2a39c1,GitHub,826a020b,data/826a020b/test/f.js,12:12,Template,T,51,63,F,F,CharsOnly,,,Secret,3.02,12,F,F,F,Password
+30689,21a473fe,GitHub,826a020b,data/826a020b/test/b.js,2:2,Template,T,52,64,F,F,CharsOnly,,,Secret,3.02,12,F,F,F,Password
+36471,ca122b97,GitHub,826a020b,data/826a020b/src/d.js,8:8,T,F,42,74,T,F,Any,,,Secret,3.36,32,F,F,F,Generic Secret
+100191,c6d1f984,GitHub,826a020b,data/826a020b/src/e.js,8:8,F,F,,,F,F,,,,,0.00,,F,F,F,
+100192,c6d1f984,GitHub,826a020b,data/826a020b/src/e.js,163:163,F,F,,,F,F,,,,,0.00,,F,F,F,
+100193,21a473fe,GitHub,826a020b,data/826a020b/test/b.js,19:19,Template,T,51,65,F,F,CharOnly,,,Secret,3.38,14,F,F,F,Password
+130011,c6d1f984,GitHub,826a020b,data/826a020b/src/e.js,57:57,F,F,,,F,F,,,,,0.00,,F,F,F,
