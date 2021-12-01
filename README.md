@@ -60,26 +60,26 @@ python download_data.py --data_dir data
 ### Data Statistics
 
 Dataset consists of 19,459,282 lines of code extracted from 11,408 files in 297 different repositories. 
-Total 74,549 lines of code are labeled, of which 4,595 (6%) labeled as True. 
+Total 73,842 lines of code are labeled, of which 4,583 (6%) labeled as True. 
 Labeled data divided into 8 major categories according to their properties.
 
 ##### Lines of code by language
 
 |Language|Total|Labeled|True|Language|Total|Labeled|True|
 |--------|--------|--------|--------|--------|--------|--------|--------|
-|Text|85,144|10,900|1,626|No Extension|48,645|1,144|49|
-|Go|838,816|6,589|459|Config|7,920|342|46|
-|YAML|74,643|2,842|344|AsciiDoc|27,803|449|36|
-|JavaScript|742,704|4,229|340|Shell|42,019|1,349|31|
-|Python|351,494|5,686|260|Haskell|5,127|90|31|
-|Markdown|186,099|3,806|259|Java Properties|1,878|124|30|
-|JSON|15,036,863|14,488|238|XML|57,377|1,412|25|
-|Java|178,326|1,776|154|reStructuredText|38,267|532|21|
-|Ruby|186,196|4,715|145|SQLPL|16,808|612|20|
-|Key|8,803|364|116|Objective-C|19,840|316|14|
-|TypeScript|151,832|2,578|79|TOML|2,566|239|12|
-|PHP|113,865|1,945|76|Scala|9,564|163|12|
-|Other|1,226,683|7,859|172|
+|Text|85,144|10,896|1,626|No Extension|48,645|1,132|49|
+|Go|838,816|6,515|459|Config|7,920|340|46|
+|YAML|74,643|2,781|344|AsciiDoc|27,803|448|36|
+|JavaScript|742,704|4,130|340|Shell|42,019|1,340|31|
+|Python|351,494|5,643|260|Haskell|5,127|90|31|
+|Markdown|186,099|3,752|253|Java Properties|1,878|124|30|
+|JSON|15,036,863|14,430|238|XML|57,377|1,409|25|
+|Java|178,326|1,751|148|reStructuredText|38,267|531|21|
+|Ruby|186,196|4,669|145|SQLPL|16,808|612|20|
+|Key|8,803|364|116|Objective-C|19,840|211|14|
+|TypeScript|151,832|2,533|79|TOML|2,566|239|12|
+|PHP|113,865|1,936|76|Scala|9,564|163|12|
+|Other|1,226,683|7,803|172|
 
 <img src="images/Language_true.png" width="450"/>
 
@@ -87,12 +87,12 @@ Labeled data divided into 8 major categories according to their properties.
 
 |[Category](#category)|True credentials|
 |--------|--------|
-|Password                    |  1,401|
+|Password                    |  1,395|
 |Generic Secret              |  1,056|
 |Private Key                 |   992|
-|Generic Token               |   335|
+|Generic Token               |   333|
 |Predefined Pattern          |   327|
-|Authentication Key & Token  |    71|
+|Authentication Key & Token  |    67|
 |Seed, Salt, Nonce           |    39|
 |Other                       |   374|
 
@@ -310,13 +310,13 @@ For the tools used, see the [Used Tools for Benchmarking](#used-tools-for-benchm
 
 Name | TP | FP | TN | FN | FPR | FNR | Precision | Recall | F1
 ---- | -- | -- | -- | -- | --- | --- | --------- | ------ | --
-**CredSweeper** |3,661|761|19,453,926|934|0.0000391165|0.2032644178|0.8279059249|0.7967355822|0.8120217367
-credential-digger |479|4,871|19,449,816|4,116|0.0002503767|0.8957562568|0.0895327103|0.1042437432|0.0963298140
-detect-secrets |1,755|9,983|19,444,704|2,840|0.0005131411|0.6180631121|0.1495143977|0.3819368879|0.2149023449
-gitleaks |1,120|1,011|19,453,676|3,475|0.0000519669|0.7562568009|0.5255748475|0.2437431991|0.3330359798
-shhgit |330|306|19,454,381|4,265|0.0000157289|0.9281828074|0.5188679245|0.0718171926|0.1261709042
-truffleHog |2,509|14,234|19,440,453|2,086|0.0007316489|0.4539717084|0.1498536702|0.5460282916|0.2351673072
-wraith(gitrob) |898|3,099|19,451,588|3,697|0.0001592932|0.8045701850|0.2246685014|0.1954298150|0.2090316574
+**CredSweeper**|3,664|760|19,453,939|919|0.0000390651|0.2005236744|0.8282097649|0.7994763256|0.8135894304
+credential-digger |479|4,871|19,449,828|4,104|0.0002503765|0.8954833079|0.0895327103|0.1045166921|0.0964461895
+detect-secrets |1,754|9,983|19,444,716|2,829|0.0005131408|0.6172812568|0.1494419358|0.3827187432|0.2149509804
+gitleaks |1,120|1011|19,453,688|3,463|0.0000519669|0.7556185904|0.5255748475|0.2443814096|0.3336312183
+shhgit |330|306|19,454,393|4,253|0.0000157288|0.9279947633|0.5188679245|0.0720052367|0.1264610079
+truffleHog |2,508|14,234|19,440,465|2,075|0.0007316484|0.4527602007|0.1498028909|0.5472397993|0.2352168816
+wraith(gitrob) |898|3,099|19,451,600|3,685|0.0001592931|0.8040584770|0.2246685014|0.1959415230|0.2093240093
 
 - Terminology
   - TP(True Positive) : Values that are Actually Positive and Predicted Positive.
