@@ -35,19 +35,18 @@ jobs:
         python download_data.py --data_dir data
     - name: Run test
       run: |
-        GIT_COMMIT=$(git log -1 --format='%H')
+        # GIT_COMMIT=$(git log -1 --format='%H')
         python -m benchmark --scanner credsweeper | tee benchmark.txt
-        STATE="benchmark"
-        DESCRIPTION="$(cat benchmark.txt)"
-        CONTEXT="CI / benchmark"
-        curl -v -i -f -d "{\"state\":\"$STATE\", \"description\":\"$DESCRIPTION\", \"context\":\"$CONTEXT\"}" -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" -H "Content-Type: application/json" -X POST "https://github.com/api/v3/repos/$GITHUB_REPOSITORY/statuses/$GIT_COMMIT"
-        
+        # STATE="benchmark"
+        # DESCRIPTION="$(cat benchmark.txt)"
+        # CONTEXT="CI / benchmark"
+        # curl -v -i -f -d "{\"state\":\"$STATE\", \"description\":\"$DESCRIPTION\", \"context\":\"$CONTEXT\"}" -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" -H "Content-Type: application/json" -X POST "https://github.com/api/v3/repos/$GITHUB_REPOSITORY/statuses/$GIT_COMMIT"
+
     - name: benchmark report
       if: always()
       uses: actions/upload-artifact@v2
       with:
         name: benchmark.txt
         path: benchmark.txt
-        
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
