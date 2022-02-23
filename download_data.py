@@ -111,6 +111,8 @@ def move_files(temp_dir, dataset_dir):
         repo_url = repo_data["url"]
         ownername, reponame = repo_url.split("/")[-2:]
 
+        print(f"Processed: {i + 1}/{len(snapshot_data)} {reponame}")
+
         # Select all files in the repo
         # pathlib.Path.glob used instead of glob.glob, as glob.glob could not search for a hidden files
         repo_files = pathlib.Path(f"{temp_dir}/{ownername}/{reponame}").glob("**/*")
@@ -149,8 +151,6 @@ def move_files(temp_dir, dataset_dir):
                 shutil.copytree(license_location, f"{dataset_dir}/{new_repo_id}/{name}")
             else:
                 shutil.copy(license_location, f"{dataset_dir}/{new_repo_id}/{name}")
-
-        print(f"Processed: {i + 1}/{len(snapshot_data)}")
 
 
 def get_obfuscated_value(value, predefined_pattern):
