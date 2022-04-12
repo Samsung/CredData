@@ -117,7 +117,7 @@ def move_files(temp_dir, dataset_dir):
         meta_file_path = f"meta/{new_repo_id}.csv"
 
         if not os.path.exists(meta_file_path):
-            print(f"Couldn't find all files mentioned in metadata. in {new_repo_id} repo. "
+            print(f"Couldn't find all files mentioned in metadata for {new_repo_id} repo. "
                   f"Removing {meta_file_path}, so missing files would not count in the dataset statistics")
             print(f"You can use git to restore {meta_file_path} file back")
             missing_repos.append(meta_file_path)
@@ -147,7 +147,7 @@ def move_files(temp_dir, dataset_dir):
 
         # Check if there are files that present in meta but we could not find, or we somehow found files not from meta
         if len(ids_found.symmetric_difference(interesting_files)) != 0:
-            print(f"Couldn't find all files mentioned in metadata. in {new_repo_id} repo. "
+            print(f"Couldn't find all files mentioned in metadata for {new_repo_id} repo. "
                   f"Removing {meta_file_path}, so missing files would not count in the dataset statistics")
             print(f"You can use git to restore {meta_file_path} file back")
             missing_repos.append(meta_file_path)
