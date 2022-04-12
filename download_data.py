@@ -82,9 +82,22 @@ def download(temp_dir):
         checkout_command = f"cd {temp_dir}/{ownername}/{reponame} && git checkout -f {commit_sha}"
 
         subprocess.call(download_command, shell=True)
-        subprocess.call(checkout_command, shell=True)
+        try:
+            subprocess.check_call(checkout_command, shell=True)
+        except subprocess.CalledProcessError:
+            print("Couldn't checkout repo. Skip")
+            # Remove repo
+            if not is_empty(f"{temp_dir}/{ownername}/{reponame}"):
+                shutil.rmtree(f"{temp_dir}/{ownername}/{reponame}")
 
         print(f"Downloaded: {i + 1}/{len(snapshot_data)}")
+
+
+def is_empty(directory):
+    exists = os.path.exists(directory)
+    if exists:
+        return len(os.listdir(directory)) == 0
+    return True
 
 
 def move_files(temp_dir, dataset_dir):
@@ -110,6 +123,13 @@ def move_files(temp_dir, dataset_dir):
 
         repo_url = repo_data["url"]
         ownername, reponame = repo_url.split("/")[-2:]
+
+        if is_empty(f"{temp_dir}/{ownername}/{reponame}"):
+            print(f"Couldn't find data in {new_repo_id} repo. "
+                  f"Removing {meta_file_path}, so missing files would not count in the dataset statistics")
+            print(f"You can use git to restore {meta_file_path} file back")
+            os.remove(meta_file_path)
+            continue
 
         # Select all files in the repo
         # pathlib.Path.glob used instead of glob.glob, as glob.glob could not search for a hidden files
