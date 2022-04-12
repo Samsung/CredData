@@ -111,8 +111,17 @@ def move_files(temp_dir, dataset_dir):
 
     for i, repo_data in enumerate(snapshot_data):
         new_repo_id = hashlib.sha256(repo_data["id"].encode()).hexdigest()[:8]
-
+        repo_url = repo_data["url"]
+        ownername, reponame = repo_url.split("/")[-2:]
         meta_file_path = f"meta/{new_repo_id}.csv"
+
+        if is_empty(f"{temp_dir}/{ownername}/{reponame}"):
+            print(f"Couldn't find data in {new_repo_id} repo. "
+                  f"Removing {meta_file_path}, so missing files would not count in the dataset statistics")
+            print(f"You can use git to restore {meta_file_path} file back")
+            if os.path.exists(meta_file_path):
+                os.remove(meta_file_path)
+            continue
 
         # Select file names from meta that we will use in dataset
         interesting_files = set()
@@ -120,16 +129,6 @@ def move_files(temp_dir, dataset_dir):
             meta_reader = csv.DictReader(csvfile)
             for row in meta_reader:
                 interesting_files.add(row["FileID"])
-
-        repo_url = repo_data["url"]
-        ownername, reponame = repo_url.split("/")[-2:]
-
-        if is_empty(f"{temp_dir}/{ownername}/{reponame}"):
-            print(f"Couldn't find data in {new_repo_id} repo. "
-                  f"Removing {meta_file_path}, so missing files would not count in the dataset statistics")
-            print(f"You can use git to restore {meta_file_path} file back")
-            os.remove(meta_file_path)
-            continue
 
         # Select all files in the repo
         # pathlib.Path.glob used instead of glob.glob, as glob.glob could not search for a hidden files
