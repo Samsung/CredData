@@ -7,11 +7,14 @@ class Result:
         self.false_positive: int = false_count
         self.true_negative: int = total_false_count - self.false_positive
         self.false_negative: int = total_true_count - self.true_positive
-        self.false_positive_rate: float = self.false_positive / total_false_count
-        self.false_negative_rate: float = (total_true_count - self.true_positive) / total_true_count
-        self.precision: float = self.true_positive / (self.true_positive + self.false_positive)
-        self.recall: float = self.true_positive / (self.true_positive + self.false_negative)
-        self.f1: float = (2 * self.precision * self.recall) / (self.precision + self.recall)
+        self.false_positive_rate: float = self._divide(self.false_positive, total_false_count)
+        self.false_negative_rate: float = self._divide(total_true_count - self.true_positive, total_true_count)
+        self.accuracy: float = self._divide(
+            self.true_positive + self.true_negative,
+            self.true_positive + self.false_negative + self.false_positive + self.true_negative)
+        self.precision: float = self._divide(self.true_positive, self.true_positive + self.false_positive)
+        self.recall: float = self._divide(self.true_positive, self.true_positive + self.false_negative)
+        self.f1: float = self._divide(2 * self.precision * self.recall, self.precision + self.recall)
 
     @property
     def true_positive(self) -> int:
@@ -92,6 +95,12 @@ class Result:
     @f1.setter
     def f1(self, f1) -> None:
         self._f1 = f1
+
+    def _divide(self, a: float, b: float) -> float:
+        try:
+            return a / b
+        except ZeroDivisionError:
+            return 0
 
     def __repr__(self) -> str:
         return f"TP : {self.true_positive}, FP : {self.false_positive}, TN : {self.true_negative}, " \
