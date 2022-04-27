@@ -306,13 +306,13 @@ A table of performance metrics for each tool tested based on CredData.
 The content will be updated in detail with the release of our tool in October.
 For the tools used, see the [Used Tools for Benchmarking](#used-tools-for-benchmarking) section below. (The benchmark test was conducted by combining training and test data.)
 
-<div align="right"> Updated: October 2021 </div>
+<div align="right"> Updated: April 2022 </div>
 
 Name | TP | FP | TN | FN | FPR | FNR | Accuracy | Precision | Recall | F1
 ---- | -- | -- | -- | -- | --- | --- | -------- | --------- | ------ | --
 **CredSweeper**|3,701|337|19,454,362|882|0.0000173223|0.1924503600|0.9999373564|0.9165428430|0.8075496400|0.8586010904
 credential-digger |479|4,871|19,449,828|4,104|0.0002503765|0.8954833079|0.9995387805|0.0895327103|0.1045166921|0.0964461895
-detect-secrets |1,754|9,983|19,444,716|2,829|0.0005131408|0.6172812568||0.1494419358|0.3827187432|0.2149509804
+detect-secrets |1,748|10,599|19,444,100|2,835|0.0005448041|0.6185904429|0.9993096354|0.1415728517|0.3814095571|0.2064973420
 gitleaks |1,120|1011|19,453,688|3,463|0.0000519669|0.7556185904|0.9997700840|0.5255748475|0.2443814096|0.3336312183
 shhgit |330|306|19,454,393|4,253|0.0000157288|0.9279947633|0.9997657159|0.5188679245|0.0720052367|0.1264610079
 truffleHog3 |2,507|14,235|19,440,464|2,076|0.0007316998|0.4529783984|0.9991617882|0.1497431609|0.5470216016|0.2351230950
