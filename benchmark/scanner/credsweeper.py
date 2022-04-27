@@ -35,31 +35,22 @@ class CredSweeper(Scanner):
         with open(self.output_dir, "r") as f:
             data = json.load(f)
 
-        result_cnt = lost_cnt = true_cnt = false_cnt = 0
-
         for result in data:
             for line_data in result["line_data_list"]:
                 if line_data["path"].split("/")[-1] == "LICENSE":
                     continue
-                result_cnt += 1
                 check_line_result, line_data["project_id"], line_data["per_repo_file_id"] = self.check_line_from_meta(
                     line_data["path"], line_data["line_num"])
                 if check_line_result == LineStatus.TRUE:
                     line_data["TP"] = "O"
-                    true_cnt += 1
                 elif check_line_result == LineStatus.FALSE:
                     line_data["TP"] = "X"
-                    false_cnt += 1
                 elif check_line_result == LineStatus.NOT_IN_DB:
                     line_data["TP"] = "N"
-                    lost_cnt += 1
                 elif check_line_result == LineStatus.CHECKED:
                     line_data["TP"] = "C"
-                    result_cnt -= 1
                 line_data["line"] = line_data["line"].strip()
                 line_data["rule"] = result["rule"]
                 line_data["severity"] = result["severity"]
                 line_data["api_validation"] = result["api_validation"]
                 line_data["ml_validation"] = result["ml_validation"]
-
-        return result_cnt, lost_cnt, true_cnt, false_cnt
