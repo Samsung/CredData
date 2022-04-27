@@ -62,6 +62,14 @@ class Result:
         self._false_negative_rate = false_negative_rate
 
     @property
+    def accuracy(self) -> float:
+        return self._accuracy
+
+    @accuracy.setter
+    def accuracy(self, accuracy) -> None:
+        self._accuracy = accuracy
+
+    @property
     def precision(self) -> float:
         return self._precision
 
@@ -88,5 +96,6 @@ class Result:
     def __repr__(self) -> str:
         return f"TP : {self.true_positive}, FP : {self.false_positive}, TN : {self.true_negative}, " \
                f"FN : {self.false_negative}, FPR : {round(Decimal(self.false_positive_rate), 10)}, " \
-               f"FNR : {round(Decimal(self.false_negative_rate), 10)}, PRC : {round(Decimal(self.precision), 10)}, " \
-               f"RCL : {round(Decimal(self.recall), 10)}, F1 : {round(Decimal(self.f1), 10)}"
+               f"FNR : {round(Decimal(self.false_negative_rate), 10)}, ACC : {round(Decimal(self.accuracy), 10)}, " \
+               f"PRC : {round(Decimal(self.precision), 10)}, RCL : {round(Decimal(self.recall), 10)}, " \
+               f"F1 : {round(Decimal(self.f1), 10)}"
