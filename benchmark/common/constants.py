@@ -6,6 +6,7 @@ class ScannerType:
     CREDENTIAL_DIGGER = "credential_digger"
     WRAITH = "wraith"
     TRUFFLEHOG3 = "trufflehog3"
+    TRUFFLEHOG = "trufflehog"
 
 
 class LineStatus:
@@ -23,3 +24,4 @@ class URL:
     CREDENTIAL_DIGGER = "credential_digger"
     WRAITH = "wraith"
     TRUFFLEHOG3 = "trufflehog3"
+    TRUFFLEHOG = "trufflehog"
