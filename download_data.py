@@ -123,6 +123,8 @@ def move_files(temp_dir, dataset_dir):
             missing_repos.append(meta_file_path)
             continue
 
+        print(f"Processing: {i + 1}/{len(snapshot_data)} {reponame}")
+
         # Select file names from meta that we will use in dataset
         interesting_files = set()
         with open(meta_file_path) as csvfile:
@@ -173,8 +175,6 @@ def move_files(temp_dir, dataset_dir):
                 shutil.copytree(license_location, f"{dataset_dir}/{new_repo_id}/{name}")
             else:
                 shutil.copy(license_location, f"{dataset_dir}/{new_repo_id}/{name}")
-
-        print(f"Processed: {i + 1}/{len(snapshot_data)}")
 
     return missing_repos
 
