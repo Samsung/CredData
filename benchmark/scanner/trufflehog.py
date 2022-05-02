@@ -40,26 +40,13 @@ class TruffleHog(Scanner):
             for line in lines:
                 data.append(json.loads(line))
 
-        result_cnt = lost_cnt = true_cnt = false_cnt = 0
-
         for line_data in data:
             file_path = line_data["SourceMetadata"]["Data"]["Filesystem"]["file"]
             if file_path.split("/")[-1] == "LICENSE":
                 continue
-            result_cnt += 1
-            line = base64.b64decode(line_data["Raw"]).decode("utf-8")
+            line = base64.b64decode(line_data["Raw"]).decode("utf-8", "backslashreplace")
             line_num = self._get_line_num(file_path, line)
-            check_line_result, _, _ = self.check_line_from_meta(file_path, line_num)
-            if check_line_result == LineStatus.TRUE:
-                true_cnt += 1
-            elif check_line_result == LineStatus.FALSE:
-                false_cnt += 1
-            elif check_line_result == LineStatus.NOT_IN_DB:
-                lost_cnt += 1
-            elif check_line_result == LineStatus.CHECKED:
-                result_cnt -= 1
-
-        return result_cnt, lost_cnt, true_cnt, false_cnt
+            _, _, _ = self.check_line_from_meta(file_path, line_num)
 
     def _get_line_num(self, file_path: str, match: str) -> int:
         with open(file_path, "r") as f:
