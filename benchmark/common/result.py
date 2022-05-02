@@ -19,7 +19,7 @@ class Result:
                                                        self._plus(self.true_positive, self.false_positive))
         self.recall: Optional[float] = self._divide(self.true_positive,
                                                     self._plus(self.true_positive, self.false_negative))
-        self.f1: Optional[float] = self._divide(self._mul(self._mul(2, self.precision), self.recall),
+        self.f1: Optional[float] = self._divide(self._multiply(self._multiply(2, self.precision), self.recall),
                                                 self._plus(self.precision, self.recall))
 
     @property
@@ -117,7 +117,7 @@ class Result:
             return None
         return a / b
 
-    def _mul(self, a: Optional[float], b: Optional[float]) -> Optional[float]:
+    def _multiply(self, a: Optional[float], b: Optional[float]) -> Optional[float]:
         if a is None or b is None:
             return None
         return a * b
