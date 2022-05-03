@@ -39,22 +39,9 @@ class TruffleHog3(Scanner):
         with open(self.output_dir, "r") as f:
             data_list = json.load(f)
 
-        result_cnt = lost_cnt = true_cnt = false_cnt = 0
-
         for data in data_list:
             for line in data["stringsFound"]:
                 line_data = {"path": data["path"], "line_number": int(line.split(" ")[0])}
                 if line_data["path"].split("/")[-1] == "LICENSE":
                     continue
-                result_cnt += 1
-                check_line_result, _, _ = self.check_line_from_meta(line_data["path"], line_data["line_number"])
-                if check_line_result == LineStatus.TRUE:
-                    true_cnt += 1
-                elif check_line_result == LineStatus.FALSE:
-                    false_cnt += 1
-                elif check_line_result == LineStatus.NOT_IN_DB:
-                    lost_cnt += 1
-                elif check_line_result == LineStatus.CHECKED:
-                    result_cnt -= 1
-
-        return result_cnt, lost_cnt, true_cnt, false_cnt
+                _, _, _ = self.check_line_from_meta(line_data["path"], line_data["line_number"])

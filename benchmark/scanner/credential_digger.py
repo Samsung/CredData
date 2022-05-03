@@ -60,21 +60,8 @@ class CredentialDigger(Scanner):
         cursor = conn.cursor()
         cursor.execute("SELECT id, file_name, line_number FROM discoveries WHERE state = 'new'")
 
-        result_cnt = lost_cnt = true_cnt = false_cnt = 0
-
         for data in cursor.fetchall():
             line_data = {"file_name": data[1], "line_number": data[2]}
             if line_data["file_name"].split("/")[-1] == "LICENSE" or "COPYING" in line_data["file_name"].split("/")[-1]:
                 continue
-            result_cnt += 1
-            check_line_result, _, _ = self.check_line_from_meta(line_data["file_name"], line_data["line_number"])
-            if check_line_result == LineStatus.TRUE:
-                true_cnt += 1
-            elif check_line_result == LineStatus.FALSE:
-                false_cnt += 1
-            elif check_line_result == LineStatus.NOT_IN_DB:
-                lost_cnt += 1
-            elif check_line_result == LineStatus.CHECKED:
-                result_cnt -= 1
-
-        return result_cnt, lost_cnt, true_cnt, false_cnt
+            _, _, _ = self.check_line_from_meta(line_data["file_name"], line_data["line_number"])
