@@ -35,26 +35,13 @@ class Shhgit(Scanner):
         with open(self.output_dir, "r") as f:
             reader = csv.DictReader(f)
 
-            result_cnt = lost_cnt = true_cnt = false_cnt = 0
-
             for row in reader:
                 file_path = row["Matching file"][1:]
                 if file_path.split("/")[-1] == "LICENSE":
                     continue
                 for match in row["Matches"].split(", "):
-                    result_cnt += 1
                     line_num = self._get_line_num(file_path, match)
-                    check_line_result, _, _ = self.check_line_from_meta(file_path, line_num)
-                    if check_line_result == LineStatus.TRUE:
-                        true_cnt += 1
-                    elif check_line_result == LineStatus.FALSE:
-                        false_cnt += 1
-                    elif check_line_result == LineStatus.NOT_IN_DB:
-                        lost_cnt += 1
-                    elif check_line_result == LineStatus.CHECKED:
-                        result_cnt -= 1
-
-        return result_cnt, lost_cnt, true_cnt, false_cnt
+                    _, _, _ = self.check_line_from_meta(file_path, line_num)
 
     def _get_line_num(self, file_path: str, match: str) -> int:
         with open(f"{self.cred_data_dir}/data/{file_path}", "r") as f:

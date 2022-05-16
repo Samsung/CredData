@@ -2,7 +2,9 @@ from argparse import ArgumentParser
 
 from benchmark.app import Benchmark
 
-SCANNER_LIST = ["credsweeper", "credential_digger", "detect_secrets", "gitleaks", "shhgit", "trufflehog3", "wraith"]
+SCANNER_LIST = [
+    "credsweeper", "credential_digger", "detect_secrets", "gitleaks", "shhgit", "trufflehog", "trufflehog3", "wraith"
+]
 
 
 def get_arguments() -> ArgumentParser.parse_args:

@@ -1,6 +1,6 @@
 from benchmark.common import ScannerType
-from benchmark.scanner import (CredentialDigger, CredSweeper, DetectSecrets, Gitleaks, Scanner, Shhgit, TruffleHog3,
-                               Wraith)
+from benchmark.scanner import (CredentialDigger, CredSweeper, DetectSecrets, Gitleaks, Scanner, Shhgit, TruffleHog,
+                               TruffleHog3, Wraith)
 
 
 class ScannerFactory:
@@ -20,3 +20,5 @@ class ScannerFactory:
             return Wraith(working_dir, cred_data_dir)
         elif scanner_type == ScannerType.TRUFFLEHOG3:
             return TruffleHog3(working_dir, cred_data_dir)
+        elif scanner_type == ScannerType.TRUFFLEHOG:
+            return TruffleHog(working_dir, cred_data_dir)

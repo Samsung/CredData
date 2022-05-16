@@ -40,32 +40,23 @@ class DetectSecrets(Scanner):
         with open(self.output_dir, "r") as f:
             data = json.load(f)
 
-        result_cnt = lost_cnt = true_cnt = false_cnt = 0
-
         for path in data["results"]:
             for line_data in data["results"][path]:
                 if line_data["filename"].split("/")[-1] == "LICENSE":
                     continue
-                result_cnt += 1
                 check_line_result, line_data["project_id"], line_data["per_repo_file_id"] = self.check_line_from_meta(
                     line_data["filename"], line_data["line_number"])
                 if check_line_result == LineStatus.TRUE:
                     line_data["TP"] = "O"
-                    true_cnt += 1
                 elif check_line_result == LineStatus.FALSE:
                     line_data["TP"] = "X"
-                    false_cnt += 1
                 elif check_line_result == LineStatus.NOT_IN_DB:
                     line_data["TP"] = "N"
-                    lost_cnt += 1
                 elif check_line_result == LineStatus.CHECKED:
                     line_data["TP"] = "C"
-                    result_cnt -= 1
                 else:
                     line_data["TP"] = ""
 
                 line_data["line"] = linecache.getline(f"{os.getcwd()}/temp/{line_data['filename']}",
                                                       line_data["line_number"])
                 line_data["filename"] = line_data["filename"].split("/")[-1]
-
-        return result_cnt, lost_cnt, true_cnt, false_cnt
