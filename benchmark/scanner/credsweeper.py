@@ -7,6 +7,7 @@ from benchmark.scanner.scanner import Scanner
 
 
 class CredSweeper(Scanner):
+
     def __init__(self, working_dir: str, cred_data_dir: str) -> None:
         super().__init__(ScannerType.CREDSWEEPER, URL.CREDSWEEPER, working_dir, cred_data_dir)
         self.output_dir: str = f"{self.scanner_dir}/output.json"
@@ -26,8 +27,8 @@ class CredSweeper(Scanner):
     def run_scanner(self) -> None:
         self.init_scanner()
         subprocess.call([
-            "./venv/bin/python", "-m", "credsweeper", "--path", f"{self.cred_data_dir}/data", "--ml_validation",
-            "--save-json", self.output_dir
+            "./venv/bin/python", "-m", "credsweeper", "--path", f"{self.cred_data_dir}/data", "--save-json",
+            self.output_dir
         ],
                         cwd=self.scanner_dir)
 
