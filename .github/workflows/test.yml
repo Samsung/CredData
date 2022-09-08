@@ -54,7 +54,7 @@ jobs:
 
     - name: Check benchmark result
       run: |
-        grep 'Detected Credentials: \d\d\d\d' benchmark.txt
+        grep 'Detected Credentials: ....' benchmark.txt
 
     - name: Benchmark report
       if: always()
