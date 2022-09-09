@@ -13,10 +13,13 @@ if [ -z "${VIRTUAL_ENV}" ]; then
         python3.8 -m virtualenv -v --copies "${THISDIR}/${VENVDIR}"
     fi
 fi
-        
+
 if [ -z "${VIRTUAL_ENV}" ]; then
     . "${THISDIR}/${VENVDIR}/bin/activate"
 fi
+
+which pip
+which python
 
 pip install -r requirements.txt
 
