@@ -4,7 +4,7 @@ set -x
 
 THISDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" > /dev/null 2>&1 && pwd )"
 
-VENVDIR=.venv
+VENVDIR=venv
 
 if [ -z "${VIRTUAL_ENV}" ]; then
     echo "Virtual environment has been not activated"
@@ -23,6 +23,6 @@ which python
 
 pip install -r requirements.txt
 
-
+export PYTHON_HYPERSCAN_STATIC=false
 python -m benchmark --scanner credsweeper
 
