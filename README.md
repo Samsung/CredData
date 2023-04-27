@@ -36,7 +36,7 @@ We offer the dataset for download as metadata files and script that would collec
 
 To download data please use:
 - Linux based OS
-- Python 3.7.10 or higher version
+- Python 3.8.10 or higher version
 
 Then run:
 
