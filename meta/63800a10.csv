@@ -8,7 +8,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 14321,f9839c9a,GitHub,63800a10,data/63800a10/src/c.py,214:214,F,F,,,F,F,,,,,0,0,F,F,F,
 27388,d8056f87,GitHub,63800a10,data/63800a10/src/e.sql,375:375,F,F,52,150,F,F,,,,,0,0,F,F,F,
 29523,6ac3f79f,GitHub,63800a10,data/63800a10/src/a.yml,37:37,F,F,9,693,F,F,Any,,,Unknown,5.93,684,F,F,F,Other
-35011,160d3634,GitHub,63800a10,data/63800a10/test/g.json,3:3,F,F,14,86,F,F,,,,,0,0,F,F,F,
+35011,160d3634,GitHub,63800a10,data/63800a10/test/g.json,3:3,T,F,14,86,F,F,,,,,0,0,F,F,F,Other
 35017,160d3634,GitHub,63800a10,data/63800a10/test/g.json,8:8,T,F,18,42,F,F,Any,,,Secret,3.95,24,F,F,F,Generic Secret
 35424,6ac3f79f,GitHub,63800a10,data/63800a10/src/a.yml,32:32,T,F,18,54,F,F,Any,,,Token,3.38,36,F,F,F,Generic Token
 35880,66fb79c0,GitHub,63800a10,data/63800a10/test/f.token,1:1,T,F,18,199,T,F,Any,,Google OAuth Access Token,Auth,5.51,181,F,F,F,Predefined Pattern
