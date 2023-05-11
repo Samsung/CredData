@@ -1,4 +1,5 @@
 import json
+import logging
 import subprocess
 from typing import Tuple
 
@@ -38,10 +39,15 @@ class CredSweeper(Scanner):
 
         for result in data:
             for line_data in result["line_data_list"]:
-                if line_data["path"].split("/")[-1] == "LICENSE":
+                path_upper = line_data["path"].upper()
+                if any(i in path_upper for i in ["/COPYING", "/LICENSE"]):
                     continue
-                check_line_result, line_data["project_id"], line_data["per_repo_file_id"] = self.check_line_from_meta(
-                    line_data["path"], line_data["line_num"])
+                try:
+                    check_line_result, line_data["project_id"], line_data["per_repo_file_id"] = \
+                        self.check_line_from_meta(line_data["path"], line_data["line_num"])
+                except Exception as exc:
+                    logging.getLogger(__file__).exception(exc)
+                    continue
                 if check_line_result == LineStatus.TRUE:
                     line_data["TP"] = "O"
                 elif check_line_result == LineStatus.FALSE:
