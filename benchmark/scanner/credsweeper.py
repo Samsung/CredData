@@ -30,7 +30,7 @@ class CredSweeper(Scanner):
         self.init_scanner()
         subprocess.call([
             "./venv/bin/python", "-m", "credsweeper", "--banner", "--path", f"{self.cred_data_dir}/data", "--jobs",
-            str(multiprocessing.cpu_count()),
+            "16",
             "--save-json", self.output_dir
         ],
                         cwd=self.scanner_dir)
