@@ -1,5 +1,6 @@
 import json
 import logging
+import multiprocessing
 import subprocess
 from typing import Tuple
 
@@ -28,7 +29,8 @@ class CredSweeper(Scanner):
     def run_scanner(self) -> None:
         self.init_scanner()
         subprocess.call([
-            "./venv/bin/python", "-m", "credsweeper", "--banner", "--path", f"{self.cred_data_dir}/data", "--jobs", "4",
+            "./venv/bin/python", "-m", "credsweeper", "--banner", "--path", f"{self.cred_data_dir}/data", "--jobs",
+            str(multiprocessing.cpu_count()),
             "--save-json", self.output_dir
         ],
                         cwd=self.scanner_dir)
