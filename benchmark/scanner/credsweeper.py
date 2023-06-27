@@ -29,7 +29,7 @@ class CredSweeper(Scanner):
         self.init_scanner()
         subprocess.call([
             "./venv/bin/python", "-m", "credsweeper", "--banner", "--path", f"{self.cred_data_dir}/data", "--jobs", "4",
-            "--save-json", self.output_dir
+            "--save-json", self.output_dir, "--sort"
         ],
                         cwd=self.scanner_dir)
 
