@@ -137,6 +137,7 @@ class Scanner(ABC):
                         self._increase_result_dict_cnt(row["Category"], "false_cnt")
                         return LineStatus.FALSE, project_id, file_id
         self.lost_cnt += 1
+        print(f"LOST: {file_path}:{line_num}", flush=True)
         self._increase_result_dict_cnt(row["Category"], "lost_cnt")
         return LineStatus.NOT_IN_DB, project_id, file_id
 
