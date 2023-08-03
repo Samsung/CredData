@@ -54,7 +54,7 @@ class CredSweeper(Scanner):
                     line_data["TP"] = "X"
                 elif check_line_result == LineStatus.NOT_IN_DB:
                     line_data["TP"] = "N"
-                    print(result, flush=True)
+                    # print(result["rule"], result["line_data_list"][0]["value"], result["line_data_list"][0]["line"], "\n\n", flush=True)
                 elif check_line_result == LineStatus.CHECKED:
                     line_data["TP"] = "C"
                 line_data["line"] = line_data["line"].strip()
