@@ -102,12 +102,13 @@ class Scanner(ABC):
     def parse_result(self) -> None:
         pass
 
-    def run_benchmark(self) -> None:
-        self.run_scanner()
+    def run_benchmark(self, output: Optional[str] = None) -> None:
+        if not output:
+            self.run_scanner()
         self.parse_result()
         self.analyze_result()
 
-    def check_line_from_meta(self, file_path: str, line_num: int) -> Tuple[LineStatus, str, str, str]:
+    def check_line_from_meta(self, file_path: str, line_num: int) -> Tuple[LineStatus, str, str]:
         self.result_cnt += 1
         meta_dir = f"{self.cred_data_dir}/meta"
         repo_name = file_path.split("/")[-3]
