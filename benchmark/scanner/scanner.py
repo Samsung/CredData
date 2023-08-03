@@ -115,30 +115,33 @@ class Scanner(ABC):
         path = "data/" + "/".join(file_path.split("/")[-3:])
         project_id = repo_name
         file_id = ""
+        approximate = ""
 
         with open(f"{meta_dir}/{repo_name}.csv", "r") as f:
             reader = csv.DictReader(f)
             for row in reader:
-                if row["FilePath"] == path and self._check_line_num(row["LineStart:LineEnd"], line_num):
+                if row["FilePath"] == path:
                     file_id = row["FileID"]
-                    code = str(project_id) + str(file_id) + str(row["LineStart:LineEnd"])
+                    approximate = f"xxx,{file_id},GitHub,{project_id},{path}"\
+                                   f",{line_num}:{line_num},T,F,,,F,F,,,,,0.00,,F,F,F,Other"
+                    if self._check_line_num(row["LineStart:LineEnd"], line_num):
+                        code = str(project_id) + str(file_id) + str(row["LineStart:LineEnd"])
+                        if code in self.line_checker:
+                            self.result_cnt -= 1
+                            return LineStatus.CHECKED, project_id, file_id
+                        else:
+                            self.line_checker.add(code)
 
-                    if code in self.line_checker:
-                        self.result_cnt -= 1
-                        return LineStatus.CHECKED, project_id, file_id
-                    else:
-                        self.line_checker.add(code)
-
-                    if row["GroundTruth"] == "T":
-                        self.true_cnt += 1
-                        self._increase_result_dict_cnt(row["Category"], "true_cnt")
-                        return LineStatus.TRUE, project_id, file_id
-                    else:
-                        self.false_cnt += 1
-                        self._increase_result_dict_cnt(row["Category"], "false_cnt")
-                        return LineStatus.FALSE, project_id, file_id
+                        if row["GroundTruth"] == "T":
+                            self.true_cnt += 1
+                            self._increase_result_dict_cnt(row["Category"], "true_cnt")
+                            return LineStatus.TRUE, project_id, file_id
+                        else:
+                            self.false_cnt += 1
+                            self._increase_result_dict_cnt(row["Category"], "false_cnt")
+                            return LineStatus.FALSE, project_id, file_id
         self.lost_cnt += 1
-        print(f"LOST: {file_path}:{line_num}", flush=True)
+        print(f"LOST:{approximate}", flush=True)
         self._increase_result_dict_cnt(row["Category"], "lost_cnt")
         return LineStatus.NOT_IN_DB, project_id, file_id
 
