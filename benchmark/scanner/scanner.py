@@ -102,9 +102,8 @@ class Scanner(ABC):
     def parse_result(self) -> None:
         pass
 
-    def run_benchmark(self, output: Optional[str] = None) -> None:
-        if not output:
-            self.run_scanner()
+    def run_benchmark(self) -> None:
+        self.run_scanner()
         self.parse_result()
         self.analyze_result()
 
