@@ -1,7 +1,7 @@
 import csv
 import os
 from abc import ABC, abstractmethod
-from typing import Optional, Tuple, Dict, List, Any
+from typing import Tuple, Dict, List, Any
 
 import tabulate
 
@@ -41,13 +41,16 @@ class Scanner(ABC):
                             # init the counters
                             self.categories[row["Category"]] = (0, 0)
                         true_cnt, false_cnt = self.categories[row["Category"]]
-                        if row["GroundTruth"].startswith("T"):
+                        if row["GroundTruth"] == "T":
                             true_cnt += 1
                             self.total_true_cnt += 1
-                        elif row["GroundTruth"].startswith("F"):
+                        elif row["GroundTruth"] == "F":
                             self.total_false_cnt += 1
                             false_cnt += 1
+                        elif row["GroundTruth"] == "Template":
+                            pass  # ???
                         else:
+                            # wrong markup should be detected
                             print(row, flush=True)
                         self.categories[row["Category"]] = (true_cnt, false_cnt)
                         self.meta.append(row)
@@ -189,11 +192,11 @@ class Scanner(ABC):
                     else:
                         self.line_checker.add(code)
 
-                    if row["GroundTruth"].startswith("T"):
+                    if row["GroundTruth"] == "T":
                         self.true_cnt += 1
                         self._increase_result_dict_cnt(row["Category"], True)
                         return LineStatus.TRUE, project_id, file_id
-                    else:
+                    elif row["GroundTruth"] == "F":
                         self.false_cnt += 1
                         self._increase_result_dict_cnt(row["Category"], False)
                         return LineStatus.FALSE, project_id, file_id
@@ -266,7 +269,7 @@ class Scanner(ABC):
     def _get_total_true_cnt(self, category: str = None) -> int:
         total_true_cnt = 0
         for row in self.meta:
-            if row["Category"] == category and row["GroundTruth"].startswith("T"):
+            if row["Category"] == category and row["GroundTruth"] == "T":
                 total_true_cnt += 1
         return total_true_cnt
 
