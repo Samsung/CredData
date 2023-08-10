@@ -198,13 +198,10 @@ class Scanner(ABC):
                         self.true_cnt += 1
                         self._increase_result_dict_cnt(row["Category"], True)
                         return LineStatus.TRUE, project_id, file_id
-                    elif row["GroundTruth"] == "F":
+                    elif row["GroundTruth"] == "F" or row["GroundTruth"] == "Template":
                         self.false_cnt += 1
                         self._increase_result_dict_cnt(row["Category"], False)
                         return LineStatus.FALSE, project_id, file_id
-                    elif row["GroundTruth"] == "Template":
-                        # see README
-                        return LineStatus.CHECKED, project_id, file_id
         self.lost_cnt += 1
         print(f"LOST: {approximate}", flush=True)
         self.next_id += 1
