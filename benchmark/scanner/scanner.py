@@ -23,7 +23,7 @@ class Scanner(ABC):
         self.total_true_cnt = 0
         self.total_false_cnt = 0
         self.total_template_cnt = 0
-        self.categories: Dict[str, Tuple[int, int]] = {}  # true_cnt, false_cnt
+        self.categories: Dict[str, Tuple[int, int, int]] = {}  # true_cnt, false_cnt, template_cnt
         self.next_id = 0
         self.total_data_valid_lines = 0
         self.meta: List[Dict[str, Any]] = []
