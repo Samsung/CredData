@@ -22,6 +22,7 @@ class Scanner(ABC):
         self.result_dict: dict = {}
         self.total_true_cnt = 0
         self.total_false_cnt = 0
+        self.total_template_cnt = 0
         self.categories: Dict[str, Tuple[int, int]] = {}  # true_cnt, false_cnt
         self.next_id = 0
         self.total_data_valid_lines = 0
@@ -39,8 +40,8 @@ class Scanner(ABC):
                             row["Category"] = "Other"
                         if row["Category"] not in self.categories:
                             # init the counters
-                            self.categories[row["Category"]] = (0, 0)
-                        true_cnt, false_cnt = self.categories[row["Category"]]
+                            self.categories[row["Category"]] = (0, 0, 0)
+                        true_cnt, false_cnt, template_cnt = self.categories[row["Category"]]
                         if row["GroundTruth"] == "T":
                             true_cnt += 1
                             self.total_true_cnt += 1
@@ -48,11 +49,12 @@ class Scanner(ABC):
                             self.total_false_cnt += 1
                             false_cnt += 1
                         elif row["GroundTruth"] == "Template":
-                            pass  # ???
+                            self.total_template_cnt += 1
+                            template_cnt += 1
                         else:
                             # wrong markup should be detected
                             print(row, flush=True)
-                        self.categories[row["Category"]] = (true_cnt, false_cnt)
+                        self.categories[row["Category"]] = (true_cnt, false_cnt, template_cnt)
                         self.meta.append(row)
         # use next_id for printing lost markup
         self.next_id = 1 + max(int(x["Id"]) for x in self.meta)
@@ -71,12 +73,12 @@ class Scanner(ABC):
 
         print(f"DATA: {self.total_data_valid_lines} valid lines. MARKUP: {len(self.meta)} items ", flush=True)
         # f"T:{self.total_true_cnt} F:{self.total_false_cnt}"
-        header = ["Category", "Positives", "Negatives"]
+        header = ["Category", "Positives", "Negatives", "Template"]
         rows: List[List[Any]] = []
         for key, val in self.categories.items():
-            rows.append([key, val[0], val[1]])
+            rows.append([key, val[0], val[1], val[2]])
         rows.sort(key=lambda x: x[0])
-        rows.append(["", self.total_true_cnt, self.total_false_cnt])
+        rows.append(["TOTAL:", self.total_true_cnt, self.total_false_cnt, self.total_template_cnt])
         print(tabulate.tabulate(rows, header), flush=True)
 
     @property
