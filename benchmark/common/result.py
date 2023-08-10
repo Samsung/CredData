@@ -28,6 +28,7 @@ class Result:
 
     @true_positive.setter
     def true_positive(self, true_positive) -> None:
+        assert true_positive is None or 0 <= true_positive
         self._true_positive = true_positive
 
     @property
@@ -36,6 +37,7 @@ class Result:
 
     @false_positive.setter
     def false_positive(self, false_positive) -> None:
+        assert false_positive is None or 0 <= false_positive
         self._false_positive = false_positive
 
     @property
@@ -44,6 +46,7 @@ class Result:
 
     @true_negative.setter
     def true_negative(self, true_negative) -> None:
+        assert true_negative is None or 0 <= true_negative
         self._true_negative = true_negative
 
     @property
@@ -52,6 +55,7 @@ class Result:
 
     @false_negative.setter
     def false_negative(self, false_negative) -> None:
+        assert false_negative is None or 0 <= false_negative
         self._false_negative = false_negative
 
     @property
@@ -60,6 +64,7 @@ class Result:
 
     @false_positive_rate.setter
     def false_positive_rate(self, false_positive_rate) -> None:
+        assert false_positive_rate is None or 0 <= false_positive_rate
         self._false_positive_rate = false_positive_rate
 
     @property
@@ -68,6 +73,7 @@ class Result:
 
     @false_negative_rate.setter
     def false_negative_rate(self, false_negative_rate) -> None:
+        assert false_negative_rate is None or 0 <= false_negative_rate
         self._false_negative_rate = false_negative_rate
 
     @property
@@ -76,6 +82,7 @@ class Result:
 
     @accuracy.setter
     def accuracy(self, accuracy) -> None:
+        assert accuracy is None or 0 <= accuracy
         self._accuracy = accuracy
 
     @property
@@ -84,6 +91,7 @@ class Result:
 
     @precision.setter
     def precision(self, precision) -> None:
+        assert precision is None or 0 <= precision
         self._precision = precision
 
     @property
@@ -92,6 +100,7 @@ class Result:
 
     @recall.setter
     def recall(self, recall) -> None:
+        assert recall is None or 0 <= recall
         self._recall = recall
 
     @property
@@ -100,6 +109,7 @@ class Result:
 
     @f1.setter
     def f1(self, f1) -> None:
+        assert f1 is None or 0 <= f1
         self._f1 = f1
 
     def _plus(self, a: Optional[float], b: Optional[float]) -> Optional[float]:
@@ -122,14 +132,15 @@ class Result:
             return None
         return a * b
 
-    def _round_decimal(self, a: Optional[float]) -> Optional[float]:
+    @staticmethod
+    def round_decimal(a: Optional[float]) -> Optional[float]:
         if a is None:
             return None
-        return round(Decimal(a), 10)
+        return round(Decimal(a), 8)
 
     def __repr__(self) -> str:
         return f"TP : {self.true_positive}, FP : {self.false_positive}, TN : {self.true_negative}, " \
-               f"FN : {self.false_negative}, FPR : {self._round_decimal(self.false_positive_rate)}, " \
-               f"FNR : {self._round_decimal(self.false_negative_rate)}, ACC : {self._round_decimal(self.accuracy)}, " \
-               f"PRC : {self._round_decimal(self.precision)}, RCL : {self._round_decimal(self.recall)}, " \
-               f"F1 : {self._round_decimal(self.f1)}"
+               f"FN : {self.false_negative}, FPR : {self.round_decimal(self.false_positive_rate)}, " \
+               f"FNR : {self.round_decimal(self.false_negative_rate)}, ACC : {self.round_decimal(self.accuracy)}, " \
+               f"PRC : {self.round_decimal(self.precision)}, RCL : {self.round_decimal(self.recall)}, " \
+               f"F1 : {self.round_decimal(self.f1)}"
