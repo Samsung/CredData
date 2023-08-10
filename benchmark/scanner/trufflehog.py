@@ -33,7 +33,7 @@ class TruffleHog(Scanner):
                     cwd=self.scanner_dir,
                     stdout=subprocess.PIPE).communicate()[0].decode("utf-8"))
 
-    def parse_result(self) -> Tuple[int, int, int, int]:
+    def parse_result(self) -> None:
         data = []
         with open(self.output_dir, "r") as f:
             lines = f.readlines()

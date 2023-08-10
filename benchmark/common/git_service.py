@@ -13,7 +13,7 @@ class GitService:
         git.Git(scanner_dir).pull()
 
     @classmethod
-    def set_scanner_up_to_date(cls, working_dir: str, scanner_url: str) -> None:
+    def set_scanner_up_to_date(cls, working_dir: str, scanner_url: str) -> str:
         scanner_dir = working_dir + "/temp/" + scanner_url.split("/")[-1].split(".")[0]
 
         if "https://" in scanner_url:
