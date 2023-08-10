@@ -71,7 +71,7 @@ class Scanner(ABC):
                             if line.strip() != "":
                                 self.total_data_valid_lines += 1
 
-        print(f"DATA: {self.total_data_valid_lines} valid lines. MARKUP: {len(self.meta)} items ", flush=True)
+        print(f"DATA: {self.total_data_valid_lines} valid lines. MARKUP: {len(self.meta)} items", flush=True)
         # f"T:{self.total_true_cnt} F:{self.total_false_cnt}"
         header = ["Category", "Positives", "Negatives", "Template"]
         rows: List[List[Any]] = []
