@@ -29,7 +29,7 @@ class Gitleaks(Scanner):
                          f"{self.cred_data_dir}/data", "-o", self.output_dir],
                         cwd=self.scanner_dir)
 
-    def parse_result(self) -> Tuple[int, int, int, int]:
+    def parse_result(self) -> None:
         with open(self.output_dir, "r") as f:
             data = json.load(f)
 

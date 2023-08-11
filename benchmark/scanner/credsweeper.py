@@ -1,7 +1,6 @@
 import json
 import logging
 import subprocess
-from typing import Tuple
 
 from benchmark.common.constants import URL, LineStatus, ScannerType
 from benchmark.scanner.scanner import Scanner
@@ -33,7 +32,7 @@ class CredSweeper(Scanner):
         ],
                         cwd=self.scanner_dir)
 
-    def parse_result(self) -> Tuple[int, int, int, int]:
+    def parse_result(self) -> None:
         with open(self.output_dir, "r") as f:
             data = json.load(f)
 

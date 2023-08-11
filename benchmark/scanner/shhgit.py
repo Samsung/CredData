@@ -31,7 +31,7 @@ class Shhgit(Scanner):
             [self.shhgit_path, "-silent", "--local", f"{self.cred_data_dir}/data", "--csv-path", self.output_dir],
             cwd=self.scanner_dir)
 
-    def parse_result(self) -> Tuple[int, int, int, int]:
+    def parse_result(self) -> None:
         with open(self.output_dir, "r") as f:
             reader = csv.DictReader(f)
 

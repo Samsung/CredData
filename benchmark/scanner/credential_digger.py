@@ -56,7 +56,7 @@ class CredentialDigger(Scanner):
         self.init_scanner()
         self.client.scan_path(scan_path=f"{self.cred_data_dir}/data", models=["PathModel", "SnippetModel"], force=True)
 
-    def parse_result(self) -> Tuple[str, str, str, str]:
+    def parse_result(self) -> None:
         conn = sqlite3.connect(self.output_dir)
         cursor = conn.cursor()
         cursor.execute("SELECT id, file_name, line_number FROM discoveries WHERE state = 'new'")
