@@ -53,7 +53,7 @@ class Scanner(ABC):
                             template_cnt += 1
                         else:
                             # wrong markup should be detected
-                            print(row, flush=True)
+                            print(f"[WRONG MARKUP] {row}", flush=True)
                         self.categories[row["Category"]] = (true_cnt, false_cnt, template_cnt)
                         self.meta.append(row)
         # use next_id for printing lost markup
