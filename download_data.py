@@ -459,6 +459,7 @@ if __name__ == "__main__":
     parser = ArgumentParser(prog="python download_data.py")
 
     parser.add_argument("--data_dir", dest="data_dir", required=True, help="Dataset location after download")
+    parser.add_argument("--obfuscation", dest="obfuscation", help="Obfuscate markup credentials", action="store_true")
     args = parser.parse_args()
 
     temp_directory = "tmp"
@@ -470,8 +471,9 @@ if __name__ == "__main__":
     download(temp_directory)
     print("Download finished. Now processing the files...")
     removed_meta = move_files(temp_directory, args.data_dir)
-    print("Finalizing dataset. Please wait a moment...")
-    obfuscate_creds(args.data_dir)
+    if args.obfuscation:
+        print("Finalizing dataset. Please wait a moment...")
+        obfuscate_creds(args.data_dir)
     print("Done!")
     print(f"All files saved to {args.data_dir}")
 
