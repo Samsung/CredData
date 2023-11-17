@@ -185,14 +185,22 @@ def move_files(temp_dir, dataset_dir):
     return missing_repos
 
 
-def get_obfuscated_value(value, predefined_pattern):
+def get_obfuscated_value(value, predefined_pattern, light_obfuscation):
     if predefined_pattern == "AWS Client ID" or value.startswith("AKIA"):  # AKIA, AIPA, ASIA, AGPA, ...
+        if light_obfuscation:
+            return value
         obfuscated_value = value[:4] + generate_value(value[4:])
     elif predefined_pattern == "Google API Key":  # AIza
+        if light_obfuscation:
+            return value
         obfuscated_value = "AIza" + generate_value(value[4:])
     elif predefined_pattern == "Google OAuth Access Token":  # ya29.
+        if light_obfuscation:
+            return value
         obfuscated_value = "ya29." + generate_value(value[5:])
     elif predefined_pattern == "JSON Web Token":  # eyJ
+        if light_obfuscation:
+            return value
         # Check if it's a proper "JSON Web Token" with header and payload
         if ".eyJ" in value:
             header = "eyJ" + generate_value(value.split(".")[0][3:])
@@ -206,16 +214,20 @@ def get_obfuscated_value(value, predefined_pattern):
         else:
             obfuscated_value = "eyJ" + generate_value(value[3:])
     elif value.startswith("eyJ"):
+        if light_obfuscation:
+            return value
         if ".eyJ" in value:
             pos = value.index(".eyJ")
             obfuscated_value = "eyJ" + generate_value(value[3:pos]) + ".eyJ" + generate_value(value[pos + 4:])
         else:
             obfuscated_value = "eyJ" + generate_value(value[3:])
-    elif value.startswith("xoxp"):
-        obfuscated_value = value[:4] + generate_value(value[4:])
-    elif value.startswith("xoxt"):
+    elif value.startswith("xox"):
+        if light_obfuscation:
+            return value
         obfuscated_value = value[:4] + generate_value(value[4:])
     elif "apps.googleusercontent.com" in value:
+        if light_obfuscation:
+            return value
         pos = value.index("apps.googleusercontent.com")
         obfuscated_value = generate_value(value[:pos]) + "apps.googleusercontent.com" + generate_value(value[pos + 26:])
     else:
@@ -240,7 +252,7 @@ def generate_value(value):
     return obfuscated_value
 
 
-def replace_rows(data: List[Dict[str, str]]):
+def replace_rows(data: List[Dict[str, str]], light_obfuscation):
     # Change data in already copied files
     for row in data:
 
@@ -277,7 +289,7 @@ def replace_rows(data: List[Dict[str, str]]):
 
         predefined_pattern = row["PredefinedPattern"]
         value = old_line[indentation + value_start:indentation + value_end]
-        obfuscated_value = get_obfuscated_value(value, predefined_pattern)
+        obfuscated_value = get_obfuscated_value(value, predefined_pattern, light_obfuscation)
         new_line = old_line[:indentation + value_start] + obfuscated_value + old_line[indentation + value_end:]
 
         lines[line_start - 1] = new_line
@@ -438,7 +450,7 @@ def process_pem_keys(data: List[Dict[str, str]]):
                 f.write(l + "\n")
 
 
-def obfuscate_creds(dataset_dir):
+def obfuscate_creds(dataset_dir, light_obfuscation):
     metadata_files = list(pathlib.Path(f"meta").glob("*.csv"))
     metadata_files = [str(meta_file) for meta_file in metadata_files]
     metadata_files = sorted(metadata_files)
@@ -452,8 +464,9 @@ def obfuscate_creds(dataset_dir):
                 row["FilePath"] = row["FilePath"].replace("data", dataset_dir, 1)
                 all_credentials.append(row)
 
-    replace_rows(all_credentials)
-    process_pem_keys(all_credentials)
+    replace_rows(all_credentials, light_obfuscation)
+    if not light_obfuscation:
+        process_pem_keys(all_credentials)
 
 
 if __name__ == "__main__":
@@ -462,7 +475,8 @@ if __name__ == "__main__":
     parser = ArgumentParser(prog="python download_data.py")
 
     parser.add_argument("--data_dir", dest="data_dir", required=True, help="Dataset location after download")
-    parser.add_argument("--obfuscation", dest="obfuscation", help="Obfuscate markup credentials", action="store_true")
+    parser.add_argument("--light_obfuscation", dest="light_obfuscation", help="Obfuscate not all credentials",
+                        action="store_true")
     args = parser.parse_args()
 
     temp_directory = "tmp"
@@ -474,9 +488,8 @@ if __name__ == "__main__":
     download(temp_directory)
     print("Download finished. Now processing the files...")
     removed_meta = move_files(temp_directory, args.data_dir)
-    if args.obfuscation:
-        print("Finalizing dataset. Please wait a moment...")
-        obfuscate_creds(args.data_dir)
+    print("Finalizing dataset. Please wait a moment...")
+    obfuscate_creds(args.data_dir, args.light_obfuscation)
     print("Done!")
     print(f"All files saved to {args.data_dir}")
 
