@@ -61,6 +61,7 @@ def collect_licenses(temp_dir, ownername, reponame):
     license_files += list(pathlib.Path(f"{temp_dir}/{ownername}/{reponame}/docs/mixes/").glob("LICENSE"))
     license_files = [str(lf) for lf in license_files]
     license_files = [lf for lf in license_files if "licensemanager" not in lf]
+    print(license_files)
     return license_files
 
 
@@ -143,6 +144,7 @@ def move_files(temp_dir, dataset_dir):
         for full_path in repo_files:
             short_path = full_path.replace(f"{temp_dir}/{ownername}/{reponame}/", "")
             file_id = hashlib.sha256(short_path.encode()).hexdigest()[:8]
+            print(f"{short_path} -> {file_id}")
             if file_id in interesting_files:
                 files_found.add(full_path)
                 ids_found.add(file_id)
@@ -162,13 +164,17 @@ def move_files(temp_dir, dataset_dir):
             _, file_extension = os.path.splitext(full_path)
             file_type = get_file_type(short_path, file_extension)
             file_id = int2ascii(j)
+            print(f"{full_path} -> {file_id}")
             code_file_basebir = f'{dataset_dir}/{new_repo_id}/{file_type}'
-            code_file_location = f'{dataset_dir}/{new_repo_id}/{file_type}/{file_id}{file_extension}'
+            code_file_location = f'{code_file_basebir}/{file_id}{file_extension}'
             os.makedirs(code_file_basebir, exist_ok=True)
             shutil.copy(full_path, code_file_location)
 
         license_files = collect_licenses(temp_dir, ownername, reponame)
 
+        # create dir for license files
+        code_file_basebir = f'{dataset_dir}/{new_repo_id}'
+        os.makedirs(code_file_basebir, exist_ok=True)
         for license_location in license_files:
             name = license_location.split("/")[-1]
             if os.path.isdir(license_location):
@@ -180,8 +186,6 @@ def move_files(temp_dir, dataset_dir):
 
 
 def get_obfuscated_value(value, predefined_pattern):
-    obfuscated_value = ""
-
     if predefined_pattern == "AWS Client ID" or value.startswith("AKIA"):  # AKIA, AIPA, ASIA, AGPA, ...
         obfuscated_value = value[:4] + generate_value(value[4:])
     elif predefined_pattern == "Google API Key":  # AIza
@@ -207,7 +211,6 @@ def get_obfuscated_value(value, predefined_pattern):
             obfuscated_value = "eyJ" + generate_value(value[3:pos]) + ".eyJ" + generate_value(value[pos + 4:])
         else:
             obfuscated_value = "eyJ" + generate_value(value[3:])
-
     elif value.startswith("xoxp"):
         obfuscated_value = value[:4] + generate_value(value[4:])
     elif value.startswith("xoxt"):
