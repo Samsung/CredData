@@ -219,20 +219,12 @@ def move_files(temp_dir, dataset_dir):
 
 def get_obfuscated_value(value, predefined_pattern, lite_obfuscation):
     if predefined_pattern == "AWS Client ID" or value.startswith("AKIA"):  # AKIA, AIPA, ASIA, AGPA, ...
-        if lite_obfuscation:
-            return value
         obfuscated_value = value[:4] + generate_value(value[4:])
     elif predefined_pattern == "Google API Key":  # AIza
-        if lite_obfuscation:
-            return value
         obfuscated_value = "AIza" + generate_value(value[4:])
     elif predefined_pattern == "Google OAuth Access Token":  # ya29.
-        if lite_obfuscation:
-            return value
         obfuscated_value = "ya29." + generate_value(value[5:])
     elif predefined_pattern == "JSON Web Token":  # eyJ
-        if lite_obfuscation:
-            return value
         # Check if it's a proper "JSON Web Token" with header and payload
         if ".eyJ" in value:
             header = "eyJ" + generate_value(value.split(".")[0][3:])
@@ -246,8 +238,6 @@ def get_obfuscated_value(value, predefined_pattern, lite_obfuscation):
         else:
             obfuscated_value = "eyJ" + generate_value(value[3:])
     elif value.startswith("eyJ"):
-        if lite_obfuscation:
-            return value
         if ".eyJ" in value:
             pos = value.index(".eyJ")
             obfuscated_value = "eyJ" + generate_value(value[3:pos]) + ".eyJ" + generate_value(value[pos + 4:])
@@ -255,12 +245,8 @@ def get_obfuscated_value(value, predefined_pattern, lite_obfuscation):
             obfuscated_value = "eyJ" + generate_value(value[3:])
 
     elif value.startswith("xoxp") or value.startswith("xoxt"):
-        if lite_obfuscation:
-            return value
         obfuscated_value = value[:4] + generate_value(value[4:])
     elif "apps.googleusercontent.com" in value:
-        if lite_obfuscation:
-            return value
         pos = value.index("apps.googleusercontent.com")
         obfuscated_value = generate_value(value[:pos]) + "apps.googleusercontent.com" + generate_value(value[pos + 26:])
     else:
