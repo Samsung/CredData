@@ -217,7 +217,9 @@ def move_files(temp_dir, dataset_dir):
     return missing_repos
 
 
-def get_obfuscated_value(value, predefined_pattern, lite_obfuscation):
+def get_obfuscated_value(value, predefined_pattern):
+    obfuscated_value = ""
+
     if predefined_pattern == "AWS Client ID" or value.startswith("AKIA"):  # AKIA, AIPA, ASIA, AGPA, ...
         obfuscated_value = value[:4] + generate_value(value[4:])
     elif predefined_pattern == "Google API Key":  # AIza
@@ -244,7 +246,9 @@ def get_obfuscated_value(value, predefined_pattern, lite_obfuscation):
         else:
             obfuscated_value = "eyJ" + generate_value(value[3:])
 
-    elif value.startswith("xoxp") or value.startswith("xoxt"):
+    elif value.startswith("xoxp"):
+        obfuscated_value = value[:4] + generate_value(value[4:])
+    elif value.startswith("xoxt"):
         obfuscated_value = value[:4] + generate_value(value[4:])
     elif "apps.googleusercontent.com" in value:
         pos = value.index("apps.googleusercontent.com")
@@ -271,10 +275,9 @@ def generate_value(value):
     return obfuscated_value
 
 
-def replace_rows(data: List[Dict[str, str]], lite_obfuscation):
+def replace_rows(data: List[Dict[str, str]]):
     # Change data in already copied files
     for row in data:
-        logger.debug(row)
 
         line_start = int(row["LineStart:LineEnd"].split(":")[0])
         line_end = int(row["LineStart:LineEnd"].split(":")[1])
@@ -309,7 +312,7 @@ def replace_rows(data: List[Dict[str, str]], lite_obfuscation):
 
         predefined_pattern = row["PredefinedPattern"]
         value = old_line[indentation + value_start:indentation + value_end]
-        obfuscated_value = get_obfuscated_value(value, predefined_pattern, lite_obfuscation)
+        obfuscated_value = get_obfuscated_value(value, predefined_pattern)
         new_line = old_line[:indentation + value_start] + obfuscated_value + old_line[indentation + value_end:]
 
         lines[line_start - 1] = new_line
@@ -484,7 +487,7 @@ def obfuscate_creds(dataset_dir, lite_obfuscation):
                 row["FilePath"] = row["FilePath"].replace("data", dataset_dir, 1)
                 all_credentials.append(row)
 
-    replace_rows(all_credentials, lite_obfuscation)
+    replace_rows(all_credentials)
     if not lite_obfuscation:
         process_pem_keys(all_credentials)
 
