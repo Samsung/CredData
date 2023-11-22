@@ -189,16 +189,16 @@ def move_files(temp_dir, dataset_dir):
             with open(meta_file_path) as csvfile:
                 meta_reader = csv.DictReader(csvfile)
                 for row in meta_reader:
-                    if row["FilePath"] == old_code_file_location:
+                    if row["FilePath"] == code_file_location:
                         logger.debug(row)
                         break
                 else:
-                    logger.error(row, old_code_file_location, code_file_location)
+                    logger.error(row, code_file_location, old_code_file_location)
                     assert 0
 
             os.makedirs(code_file_basebir, exist_ok=True)
-            shutil.copy(full_path, old_code_file_location)
-            logger.debug("COPIED FILE: %s -> %s", full_path, old_code_file_location)
+            shutil.copy(full_path, code_file_location)
+            logger.debug("COPIED FILE: %s -> %s", full_path, code_file_location)
 
         license_files = collect_licenses(temp_dir, ownername, reponame)
 
