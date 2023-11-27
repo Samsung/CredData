@@ -145,8 +145,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 18555,00da0713,GitHub,387016a6,data/387016a6/test/du.yml,126:126,F,F,,,F,F,,,,,0,0,F,F,F,
 18556,00da0713,GitHub,387016a6,data/387016a6/test/du.yml,23:23,F,F,,,F,F,,,,,0,0,F,F,F,
 18557,00da0713,GitHub,387016a6,data/387016a6/test/du.yml,1575:1575,F,F,,,F,F,,,,,0,0,F,F,F,
-18642,2cedcd0c,GitHub,387016a6,data/387016a6/test/fx.pem,1:7,F,F,,,F,F,,,,,0,0,F,F,F,
-18644,cd2f735c,GitHub,387016a6,data/387016a6/test/dp.pem,1:7,F,F,,,F,F,,,,,0,0,F,F,F,
+18642,2cedcd0c,GitHub,387016a6,data/387016a6/test/fx.pem,1:7,T,T,,,F,F,Any,Private,,Unknown,0.00,36,F,F,F,Private Key
+18644,cd2f735c,GitHub,387016a6,data/387016a6/test/dp.pem,1:7,T,T,,,F,F,Any,Private,,Unknown,0.00,36,F,F,F,Private Key
 18680,8710d4d0,GitHub,387016a6,data/387016a6/test/ds.yml,110:110,F,F,,,F,F,,,,,0,0,F,F,F,
 18681,8710d4d0,GitHub,387016a6,data/387016a6/test/ds.yml,89:89,F,F,,,F,F,,,,,0,0,F,F,F,
 18682,00da0713,GitHub,387016a6,data/387016a6/test/du.yml,525:525,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -1115,3 +1115,14 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 130978,499a20a4,GitHub,387016a6,data/387016a6/src/cm.asciidoc,219:219,F,F,,,F,F,,,,,0.00,,F,F,F,
 130980,ce05eafb,GitHub,387016a6,data/387016a6/src/dl.java,341:341,F,F,,,F,F,,,,,0.00,,F,F,F,
 130981,ce05eafb,GitHub,387016a6,data/387016a6/src/dl.java,95:95,F,F,,,F,F,,,,,0.00,,F,F,F,
+131704,e03d5beb,GitHub,387016a6,data/387016a6/test/f.java,2315:2315,T,F,,,F,F,,,,,0,0,F,F,F,Other
+131705,e03d5beb,GitHub,387016a6,data/387016a6/test/f.java,1056:1056,F,F,,,F,F,,,,,0,0,F,F,F,
+131706,e03d5beb,GitHub,387016a6,data/387016a6/test/f.java,1073:1073,F,F,,,F,F,,,,,0,0,F,F,F,
+131711,8930c0cb,GitHub,387016a6,data/387016a6/src/fc.asciidoc,135:135,F,F,,,F,F,,,,,0,0,F,F,F,
+131712,27e24e2f,GitHub,387016a6,data/387016a6/src/fe.asciidoc,79:79,F,F,,,F,F,,,,,0.00,,F,F,F,
+131713,9b92dfd3,GitHub,387016a6,data/387016a6/src/fg.asciidoc,85:85,F,F,,,F,F,,,,,0.00,,F,F,F,
+131714,9b92dfd3,GitHub,387016a6,data/387016a6/src/fg.asciidoc,100:100,F,F,,,F,F,,,,,0.00,,F,F,F,
+131715,9b92dfd3,GitHub,387016a6,data/387016a6/src/fg.asciidoc,146:146,F,F,,,F,F,,,,,0.00,,F,F,F,
+131724,185213d9,GitHub,387016a6,data/387016a6/src/fm.asciidoc,1031:1031,F,F,,,F,F,,,,,0.00,,F,F,F,
+131741,8930c0cb,GitHub,387016a6,data/387016a6/src/fc.asciidoc,166:166,T,F,,,F,F,,,,,0,0,F,F,F,Other
+

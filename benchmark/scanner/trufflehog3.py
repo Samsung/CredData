@@ -35,7 +35,7 @@ class TruffleHog3(Scanner):
         ],
                         cwd=self.scanner_dir)
 
-    def parse_result(self) -> Tuple[int, int, int, int]:
+    def parse_result(self) -> None:
         with open(self.output_dir, "r") as f:
             data_list = json.load(f)
 

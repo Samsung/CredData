@@ -129,7 +129,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 16410,40a8ca9e,GitHub,894e3377,data/894e3377/test/ce.php,939:939,F,F,,,F,F,,,,,0,0,F,F,F,
 16412,40a8ca9e,GitHub,894e3377,data/894e3377/test/ce.php,50:62,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
 16413,692d9463,GitHub,894e3377,data/894e3377/test/by.php,141:149,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,Private Key
-16414,692d9463,GitHub,894e3377,data/894e3377/test/by.php,223:243,F,F,,,F,F,,,,,0,0,F,F,F,
+16414,692d9463,GitHub,894e3377,data/894e3377/test/by.php,223:243,T,T,,,F,F,Any,Private,,Unknown,2.45,30,F,F,F,Private Key
 16415,692d9463,GitHub,894e3377,data/894e3377/test/by.php,70:89,T,T,,,F,F,Any,Private,,Unknown,2.59,31,F,F,F,Private Key
 16418,bd9410d7,GitHub,894e3377,data/894e3377/src/ba.php,58:58,F,F,,,F,F,,,,,0,0,F,F,F,
 16422,8ddb3c9f,GitHub,894e3377,data/894e3377/src/m.php,60:60,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -492,9 +492,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 47347,4797ee46,GitHub,894e3377,data/894e3377/test/ca.php,326:326,F,F,,,F,F,,,,,0,0,F,F,F,
 47348,4797ee46,GitHub,894e3377,data/894e3377/test/ca.php,345:345,F,F,,,F,F,,,,,0,0,F,F,F,
 47349,4797ee46,GitHub,894e3377,data/894e3377/test/ca.php,444:444,F,F,,,F,F,,,,,0,0,F,F,F,
-47350,ac94d981,GitHub,894e3377,data/894e3377/test/cb.php,492:498,F,F,,,F,F,,,,,0,0,F,F,F,
+47350,ac94d981,GitHub,894e3377,data/894e3377/test/cb.php,492:498,T,T,,,F,F,Any,Private,,Unknown,2.45,30,F,F,F,Private Key
 47351,ac94d981,GitHub,894e3377,data/894e3377/test/cb.php,467:475,F,F,,,F,F,,,,,0,0,F,F,F,
-47352,40a8ca9e,GitHub,894e3377,data/894e3377/test/ce.php,1004:1041,F,F,,,F,F,,,,,0,0,F,F,F,
+47352,40a8ca9e,GitHub,894e3377,data/894e3377/test/ce.php,1004:1041,T,T,,,F,F,Any,Private,,Unknown,2.45,30,F,F,F,Private Key
 47353,40a8ca9e,GitHub,894e3377,data/894e3377/test/ce.php,411:426,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,Private Key
 47354,40a8ca9e,GitHub,894e3377,data/894e3377/test/ce.php,958:986,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,Private Key
 47355,40a8ca9e,GitHub,894e3377,data/894e3377/test/ce.php,272:299,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,Private Key
@@ -797,3 +797,57 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 131490,bd9410d7,GitHub,894e3377,data/894e3377/src/ba.php,41:41,F,F,,,F,F,,,,,0.00,,F,F,F,
 131491,20a41e25,GitHub,894e3377,data/894e3377/src/bf.php,177:177,F,F,,,F,F,,,,,0.00,,F,F,F,
 131492,ac25ea0c,GitHub,894e3377,data/894e3377/src/l.php,124:124,F,F,,,F,F,,,,,0.00,,F,F,F,
+131730,8fd0c9cf,GitHub,894e3377,data/894e3377/test/ch.php,273:273,F,F,,,F,F,,,,,0,0,F,F,F,
+132098,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,345:345,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132099,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,346:346,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132100,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,347:347,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132101,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,348:348,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132102,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,349:349,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132103,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,350:350,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132104,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,351:351,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132105,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,352:352,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132106,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,353:353,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132107,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,354:354,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132108,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,355:355,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132109,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,356:356,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132110,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,357:357,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132111,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,358:358,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132112,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,359:359,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132113,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,360:360,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132114,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,361:361,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132115,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,362:362,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132116,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,363:363,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132117,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,364:364,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132118,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,365:365,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132119,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,371:371,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132120,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,372:372,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132121,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,373:373,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132122,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,374:374,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132123,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,375:375,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132124,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,378:378,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132125,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,380:380,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132126,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,381:381,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132127,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,382:382,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132128,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,383:383,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132129,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132130,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,385:385,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132131,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,386:386,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132132,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,387:387,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132133,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,395:395,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132134,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,396:396,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132135,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132136,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,400:400,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132137,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,401:401,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132138,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,402:402,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132139,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,403:403,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132140,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,404:404,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132141,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,409:409,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132142,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,435:435,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132143,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,436:436,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+132144,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,2566:2566,T,F,,,F,F,,,,,0.00,,F,F,F,Other
+132145,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,2567:2567,T,F,,,F,F,,,,,0.00,,F,F,F,Other
+132146,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,2568:2568,T,F,,,F,F,,,,,0.00,,F,F,F,Other
+132147,ed108d6d,GitHub,894e3377,data/894e3377/src/bj.php,2569:2569,T,F,,,F,F,,,,,0.00,,F,F,F,Other
+132148,b679985c,GitHub,894e3377,data/894e3377/test/ck.php,236:236,T,F,,,F,F,,,,,0.00,,F,F,F,Other
+132149,b679985c,GitHub,894e3377,data/894e3377/test/ck.php,237:237,T,F,,,F,F,,,,,0.00,,F,F,F,Other
+132649,dc238167,GitHub,894e3377,data/894e3377/test/bw.php,142:142,T,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"

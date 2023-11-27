@@ -36,7 +36,7 @@ class DetectSecrets(Scanner):
         with open(self.output_dir, "w") as f:
             f.write(out[0].decode("utf8"))
 
-    def parse_result(self) -> Tuple[int, int, int, int]:
+    def parse_result(self) -> None:
         with open(self.output_dir, "r") as f:
             data = json.load(f)
 

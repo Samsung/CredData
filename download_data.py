@@ -1,5 +1,6 @@
 import csv
 import hashlib
+import logging
 import os
 import pathlib
 import random
@@ -11,6 +12,11 @@ from argparse import ArgumentParser
 from typing import Dict, List
 
 import yaml
+
+logging.basicConfig(
+    format="%(asctime)s | %(levelname)s | %(filename)s:%(lineno)s | %(message)s",
+    level="DEBUG")
+logger = logging.getLogger(__file__)
 
 
 def int2ascii(x, digs=string.ascii_lowercase):
@@ -61,6 +67,7 @@ def collect_licenses(temp_dir, ownername, reponame):
     license_files += list(pathlib.Path(f"{temp_dir}/{ownername}/{reponame}/docs/mixes/").glob("LICENSE"))
     license_files = [str(lf) for lf in license_files]
     license_files = [lf for lf in license_files if "licensemanager" not in lf]
+    logger.debug(license_files)
     return license_files
 
 
@@ -85,12 +92,12 @@ def download(temp_dir):
         try:
             subprocess.check_call(checkout_command, shell=True)
         except subprocess.CalledProcessError:
-            print("Couldn't checkout repo. Skip")
+            logger.debug("Couldn't checkout repo. Skip")
             # Remove repo
             if not is_empty(f"{temp_dir}/{ownername}/{reponame}"):
                 shutil.rmtree(f"{temp_dir}/{ownername}/{reponame}")
 
-        print(f"Downloaded: {i + 1}/{len(snapshot_data)}")
+        logger.debug(f"Downloaded: {i + 1}/{len(snapshot_data)}")
 
 
 def is_empty(directory):
@@ -101,7 +108,7 @@ def is_empty(directory):
 
 
 def move_files(temp_dir, dataset_dir):
-    """Select files with credential candidates. Files without candidates is omited"""
+    """Select files with credential candidates. Files without candidates is omitted"""
     snapshot_file = "snapshot.yaml"
     with open(snapshot_file) as f:
         snapshot_data = yaml.load(f, Loader=yaml.FullLoader)
@@ -112,25 +119,32 @@ def move_files(temp_dir, dataset_dir):
 
     for i, repo_data in enumerate(snapshot_data):
         new_repo_id = hashlib.sha256(repo_data["id"].encode()).hexdigest()[:8]
+        logger.debug(f'Hash of repo {repo_data["id"]} = {new_repo_id}')
         repo_url = repo_data["url"]
         ownername, reponame = repo_url.split("/")[-2:]
         meta_file_path = f"meta/{new_repo_id}.csv"
 
         if not os.path.exists(meta_file_path):
-            print(f"Couldn't find all files mentioned in metadata for {new_repo_id} repo. "
-                  f"Removing {meta_file_path}, so missing files would not count in the dataset statistics")
-            print(f"You can use git to restore {meta_file_path} file back")
+            logger.error(f"Couldn't find all files mentioned in metadata for {new_repo_id} repo. "
+                         f"Removing {meta_file_path}, so missing files would not count in the dataset statistics. "
+                         f"You can use git to restore {meta_file_path} file back")
             missing_repos.append(meta_file_path)
             continue
 
-        print(f"Processing: {i + 1}/{len(snapshot_data)} {reponame}")
+        logger.debug(f"Processing: {i + 1}/{len(snapshot_data)} {reponame}")
 
         # Select file names from meta that we will use in dataset
-        interesting_files = set()
+        interesting_files = dict()
         with open(meta_file_path) as csvfile:
             meta_reader = csv.DictReader(csvfile)
             for row in meta_reader:
-                interesting_files.add(row["FileID"])
+                key = row["FileID"]
+                file_path = row["FilePath"]
+                if key in interesting_files:
+                    # check correctness
+                    assert interesting_files[key] == file_path, (key, file_path)
+                else:
+                    interesting_files[key] = file_path
 
         # Select all files in the repo
         # pathlib.Path.glob used instead of glob.glob, as glob.glob could not search for a hidden files
@@ -143,15 +157,18 @@ def move_files(temp_dir, dataset_dir):
         for full_path in repo_files:
             short_path = full_path.replace(f"{temp_dir}/{ownername}/{reponame}/", "")
             file_id = hashlib.sha256(short_path.encode()).hexdigest()[:8]
-            if file_id in interesting_files:
+            if file_id in interesting_files.keys():
                 files_found.add(full_path)
                 ids_found.add(file_id)
+                logger.debug(f"COPY {full_path} ; {short_path} -> {file_id} : {new_repo_id}")
+            else:
+                logger.debug(f"SKIP {full_path} ; {short_path} -> {file_id} : {new_repo_id}")
 
         # Check if there are files that present in meta but we could not find, or we somehow found files not from meta
-        if len(ids_found.symmetric_difference(interesting_files)) != 0:
-            print(f"Couldn't find all files mentioned in metadata for {new_repo_id} repo. "
-                  f"Removing {meta_file_path}, so missing files would not count in the dataset statistics")
-            print(f"You can use git to restore {meta_file_path} file back")
+        if len(ids_found.symmetric_difference(set(interesting_files.keys()))) != 0:
+            logger.error(f"Couldn't find all files mentioned in metadata for {new_repo_id} repo. "
+                         f"Removing {meta_file_path}, so missing files would not count in the dataset statistics. "
+                         f"You can use git to restore {meta_file_path} file back")
             missing_repos.append(meta_file_path)
             if os.path.exists(meta_file_path):
                 os.remove(meta_file_path)
@@ -161,20 +178,41 @@ def move_files(temp_dir, dataset_dir):
             short_path = full_path.replace(f"{temp_dir}/{ownername}/{reponame}/", "")
             _, file_extension = os.path.splitext(full_path)
             file_type = get_file_type(short_path, file_extension)
-            file_id = int2ascii(j)
+            file_id = hashlib.sha256(short_path.encode()).hexdigest()[:8]
+            old_file_id = int2ascii(j)
+            logger.debug(f"{full_path} -> {file_id} OLD:{old_file_id}")
+
             code_file_basebir = f'{dataset_dir}/{new_repo_id}/{file_type}'
-            code_file_location = f'{dataset_dir}/{new_repo_id}/{file_type}/{file_id}{file_extension}'
+            code_file_location = f'{code_file_basebir}/{file_id}{file_extension}'
+            old_code_file_location = f'{code_file_basebir}/{old_file_id}{file_extension}'
+
+            with open(meta_file_path) as csvfile:
+                meta_reader = csv.DictReader(csvfile)
+                for row in meta_reader:
+                    if row["FilePath"] == old_code_file_location:
+                        logger.debug(row)
+                        break
+                else:
+                    logger.error(row, old_code_file_location, code_file_location)
+                    assert 0
+
             os.makedirs(code_file_basebir, exist_ok=True)
-            shutil.copy(full_path, code_file_location)
+            shutil.copy(full_path, old_code_file_location)
+            logger.debug("COPIED FILE: %s -> %s", full_path, old_code_file_location)
 
         license_files = collect_licenses(temp_dir, ownername, reponame)
 
+        # create dir for license files
+        code_file_basebir = f'{dataset_dir}/{new_repo_id}'
+        os.makedirs(code_file_basebir, exist_ok=True)
         for license_location in license_files:
             name = license_location.split("/")[-1]
             if os.path.isdir(license_location):
                 shutil.copytree(license_location, f"{dataset_dir}/{new_repo_id}/{name}")
+                logger.debug("COPIED DIR: %s -> %s", license_location, f"{dataset_dir}/{new_repo_id}/{name}")
             else:
                 shutil.copy(license_location, f"{dataset_dir}/{new_repo_id}/{name}")
+                logger.debug("COPIED FILE: %s -> %s", license_location, f"{dataset_dir}/{new_repo_id}/{name}")
 
     return missing_repos
 
@@ -435,7 +473,7 @@ def process_pem_keys(data: List[Dict[str, str]]):
                 f.write(l + "\n")
 
 
-def obfuscate_creds(dataset_dir):
+def obfuscate_creds(dataset_dir, lite_obfuscation):
     metadata_files = list(pathlib.Path(f"meta").glob("*.csv"))
     metadata_files = [str(meta_file) for meta_file in metadata_files]
     metadata_files = sorted(metadata_files)
@@ -450,7 +488,8 @@ def obfuscate_creds(dataset_dir):
                 all_credentials.append(row)
 
     replace_rows(all_credentials)
-    process_pem_keys(all_credentials)
+    if not lite_obfuscation:
+        process_pem_keys(all_credentials)
 
 
 if __name__ == "__main__":
@@ -459,6 +498,8 @@ if __name__ == "__main__":
     parser = ArgumentParser(prog="python download_data.py")
 
     parser.add_argument("--data_dir", dest="data_dir", required=True, help="Dataset location after download")
+    parser.add_argument("--lite_obfuscation", dest="lite_obfuscation", help="Obfuscate not all credentials",
+                        action="store_true")
     args = parser.parse_args()
 
     temp_directory = "tmp"
@@ -466,18 +507,18 @@ if __name__ == "__main__":
     if os.path.exists(args.data_dir):
         raise FileExistsError(f"{args.data_dir} directory already exists. Please remove it or select other directory.")
 
-    print("Start download")
+    logger.info("Start download")
     download(temp_directory)
-    print("Download finished. Now processing the files...")
+    logger.info("Download finished. Now processing the files...")
     removed_meta = move_files(temp_directory, args.data_dir)
-    print("Finalizing dataset. Please wait a moment...")
-    obfuscate_creds(args.data_dir)
-    print("Done!")
-    print(f"All files saved to {args.data_dir}")
+    logger.info("Finalizing dataset. Please wait a moment...")
+    obfuscate_creds(args.data_dir, args.lite_obfuscation)
+    logger.info("Done!")
+    logger.info(f"All files saved to {args.data_dir}")
 
     if len(removed_meta) > 0:
-        print("Some repos had a problem with download.")
-        print("Removing meta so missing files would not count in the dataset statistics:")
+        logger.error("Some repos had a problem with download.")
+        logger.error("Removing meta so missing files would not count in the dataset statistics:")
         for missing in removed_meta:
-            print(missing)
-        print(f"You can use git to restore mentioned meta files back")
+            logger.debug(missing)
+        logger.error(f"You can use git to restore mentioned meta files back")

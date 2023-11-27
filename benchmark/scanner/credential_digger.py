@@ -3,13 +3,12 @@ import sqlite3
 import subprocess
 from typing import Tuple
 
-from credentialdigger import SqliteClient
-
-from benchmark.common.constants import URL, LineStatus, ScannerType
+from benchmark.common.constants import URL, ScannerType
 from benchmark.scanner.scanner import Scanner
 
 
 class CredentialDigger(Scanner):
+
     def __init__(self, working_dir: str, cred_data_dir: str) -> None:
         super().__init__(ScannerType.CREDENTIAL_DIGGER, URL.CREDENTIAL_DIGGER, working_dir, cred_data_dir)
         self.output_dir: str = f"{self.scanner_dir}/output.db"
@@ -32,14 +31,16 @@ class CredentialDigger(Scanner):
         self._working_dir = working_dir
 
     @property
-    def client(self) -> SqliteClient:
+    def client(self) -> "SqliteClient":
         return self._client
 
     @client.setter
-    def client(self, client: SqliteClient) -> None:
+    def client(self, client: "SqliteClient") -> None:
         self._client = client
 
     def init_scanner(self) -> None:
+        # https://github.com/darvid/python-hyperscan/issues/55
+        from credentialdigger import SqliteClient
         self.client = SqliteClient(path=f"{self.scanner_dir}/output.db")
         self.client.add_rules_from_file(f"{self.working_dir}/benchmark/scanner/bin/credential_digger/rules.yml")
         os.environ[
@@ -55,7 +56,7 @@ class CredentialDigger(Scanner):
         self.init_scanner()
         self.client.scan_path(scan_path=f"{self.cred_data_dir}/data", models=["PathModel", "SnippetModel"], force=True)
 
-    def parse_result(self) -> Tuple[str, str, str, str]:
+    def parse_result(self) -> None:
         conn = sqlite3.connect(self.output_dir)
         cursor = conn.cursor()
         cursor.execute("SELECT id, file_name, line_number FROM discoveries WHERE state = 'new'")

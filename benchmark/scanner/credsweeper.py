@@ -1,4 +1,5 @@
 import json
+import logging
 import subprocess
 from typing import Tuple
 
@@ -28,20 +29,25 @@ class CredSweeper(Scanner):
         self.init_scanner()
         subprocess.call([
             "./venv/bin/python", "-m", "credsweeper", "--banner", "--path", f"{self.cred_data_dir}/data", "--jobs", "4",
-            "--save-json", self.output_dir
+            "--save-json", self.output_dir, "--sort"
         ],
                         cwd=self.scanner_dir)
 
-    def parse_result(self) -> Tuple[int, int, int, int]:
+    def parse_result(self) -> None:
         with open(self.output_dir, "r") as f:
             data = json.load(f)
 
         for result in data:
             for line_data in result["line_data_list"]:
-                if line_data["path"].split("/")[-1] == "LICENSE":
+                path_upper = line_data["path"].upper()
+                if any(i in path_upper for i in ["/COPYING", "/LICENSE"]):
                     continue
-                check_line_result, line_data["project_id"], line_data["per_repo_file_id"] = self.check_line_from_meta(
-                    line_data["path"], line_data["line_num"])
+                try:
+                    check_line_result, line_data["project_id"], line_data["per_repo_file_id"] = \
+                        self.check_line_from_meta(line_data["path"], line_data["line_num"])
+                except Exception as exc:
+                    logging.getLogger(__file__).exception(exc)
+                    continue
                 if check_line_result == LineStatus.TRUE:
                     line_data["TP"] = "O"
                 elif check_line_result == LineStatus.FALSE:

@@ -45,7 +45,7 @@ class Wraith(Scanner):
         with open(self.output_dir, "w") as f:
             f.write(self.output_lines)
 
-    def parse_result(self) -> Tuple[int, int, int, int]:
+    def parse_result(self) -> None:
         with open(self.output_dir, "r") as f:
             data = json.loads(''.join(f.readlines()[:-1]))
 
