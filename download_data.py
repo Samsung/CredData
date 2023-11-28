@@ -473,7 +473,7 @@ def process_pem_keys(data: List[Dict[str, str]]):
                 f.write(l + "\n")
 
 
-def obfuscate_creds(dataset_dir, lite_obfuscation):
+def obfuscate_creds(dataset_dir):
     metadata_files = list(pathlib.Path(f"meta").glob("*.csv"))
     metadata_files = [str(meta_file) for meta_file in metadata_files]
     metadata_files = sorted(metadata_files)
@@ -488,8 +488,7 @@ def obfuscate_creds(dataset_dir, lite_obfuscation):
                 all_credentials.append(row)
 
     replace_rows(all_credentials)
-    if not lite_obfuscation:
-        process_pem_keys(all_credentials)
+    process_pem_keys(all_credentials)
 
 
 if __name__ == "__main__":
@@ -498,8 +497,6 @@ if __name__ == "__main__":
     parser = ArgumentParser(prog="python download_data.py")
 
     parser.add_argument("--data_dir", dest="data_dir", required=True, help="Dataset location after download")
-    parser.add_argument("--lite_obfuscation", dest="lite_obfuscation", help="Obfuscate not all credentials",
-                        action="store_true")
     args = parser.parse_args()
 
     temp_directory = "tmp"
@@ -512,7 +509,7 @@ if __name__ == "__main__":
     logger.info("Download finished. Now processing the files...")
     removed_meta = move_files(temp_directory, args.data_dir)
     logger.info("Finalizing dataset. Please wait a moment...")
-    obfuscate_creds(args.data_dir, args.lite_obfuscation)
+    obfuscate_creds(args.data_dir)
     logger.info("Done!")
     logger.info(f"All files saved to {args.data_dir}")
 
