@@ -372,9 +372,9 @@ def obfuscate_segment(segment: str):
             elif j < len(segment) - 1 and char in ["b", "f"] and segment[j + 1] in ["'", '"']:
                 new_line += char
             else:
-                new_line += random.sample(string.ascii_letters, 1)[0]
+                new_line += random.choice(string.ascii_letters)
         elif char in string.digits:
-            new_line += random.sample(string.digits, 1)[0]
+            new_line += random.choice(string.digits)
         else:
             new_line += char
 
