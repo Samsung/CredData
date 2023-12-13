@@ -92,7 +92,7 @@ def download(temp_dir):
         try:
             subprocess.check_call(checkout_command, shell=True)
         except subprocess.CalledProcessError:
-            logger.debug("Couldn't checkout repo. Skip")
+            logger.error("Couldn't checkout repo. Skip")
             # Remove repo
             if not is_empty(f"{temp_dir}/{ownername}/{reponame}"):
                 shutil.rmtree(f"{temp_dir}/{ownername}/{reponame}")
