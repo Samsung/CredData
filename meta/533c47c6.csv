@@ -40,9 +40,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 17693,12d25726,GitHub,533c47c6,data/533c47c6/src/12d25726.py,152:152,F,F,,,F,F,,,,,0,0,F,F,F,
 18475,34fc57e6,GitHub,533c47c6,data/533c47c6/test/34fc57e6.key,1:12,T,T,,,F,F,Any,Private,,Unknown,2.59,31,F,F,F,Private Key
 18478,12eb1b56,GitHub,533c47c6,data/533c47c6/test/12eb1b56.key,1:12,T,T,,,F,F,Any,Private,,Unknown,2.59,31,F,F,F,Private Key
-18643,6a87fa96,GitHub,533c47c6,data/533c47c6/test/6a87fa96.key,1:22,F,F,,,F,F,,,,,0,0,F,F,F,
-18646,915c8d6d,GitHub,533c47c6,data/533c47c6/test/915c8d6d.key,1:8,T,T,,,F,F,Any,Private,,Unknown,0.00,36,F,F,F,Private Key
-18647,f7ad502d,GitHub,533c47c6,data/533c47c6/test/f7ad502d.key,1:8,F,F,,,F,F,,,,,0,0,F,F,F,
+18643,6a87fa96,GitHub,533c47c6,data/533c47c6/test/6a87fa96.key,1:22,Template,F,,,F,F,,,,,0,0,F,F,F,
+18646,915c8d6d,GitHub,533c47c6,data/533c47c6/test/915c8d6d.key,1:8,Template,T,,,F,F,Any,Private,,Unknown,0.00,0,F,F,F,Private Key
+18647,f7ad502d,GitHub,533c47c6,data/533c47c6/test/f7ad502d.key,1:8,T,F,,,F,F,Any,Private,,Unknown,0.0,0,F,F,F,Private Key
 20223,53518520,GitHub,533c47c6,data/533c47c6/src/53518520.py,13:13,F,F,,,F,F,,,,,0,0,F,F,F,
 21302,6ac3f79f,GitHub,533c47c6,data/533c47c6/src/6ac3f79f.yml,53:53,F,F,,,F,F,,,,,0,0,F,F,F,
 22335,da24b355,GitHub,533c47c6,data/533c47c6/test/da24b355.py,82:82,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -80,7 +80,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 35522,44e31f80,GitHub,533c47c6,data/533c47c6/other/44e31f80,1:15,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
 35525,042ba7db,GitHub,533c47c6,data/533c47c6/test/042ba7db.key,1:15,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
 35529,72b48a2c,GitHub,533c47c6,data/533c47c6/test/72b48a2c.key,1:5,T,T,,,F,F,Any,Private,,Unknown,2.45,30,F,F,F,Private Key
-35545,83a556cb,GitHub,533c47c6,data/533c47c6/test/83a556cb.key,1:8,T,T,,,F,F,Any,Private,,Unknown,2.45,30,F,F,F,Private Key
+35545,83a556cb,GitHub,533c47c6,data/533c47c6/test/83a556cb.key,1:8,Template,T,,,F,F,Any,Private,,Unknown,2.45,30,F,F,F,Private Key
 35546,fdfb3961,GitHub,533c47c6,data/533c47c6/test/fdfb3961.key,1:5,T,T,,,F,F,Any,Private,,Unknown,2.45,30,F,F,F,Private Key
 35877,6ff887a6,GitHub,533c47c6,data/533c47c6/test/6ff887a6.py,504:504,T,T,15,20,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
 36050,6ff887a6,GitHub,533c47c6,data/533c47c6/test/6ff887a6.py,502:502,T,T,12,22,F,F,CharsOnly,,,Secret,2.92,10,F,F,F,Password
@@ -110,7 +110,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 48348,6ff887a6,GitHub,533c47c6,data/533c47c6/test/6ff887a6.py,111:117,T,T,,,F,F,Any,Private,,Unknown,2.45,30,F,F,F,Private Key
 48350,6ff887a6,GitHub,533c47c6,data/533c47c6/test/6ff887a6.py,102:107,T,T,,,F,F,Any,Private,,Unknown,2.45,30,F,F,F,Private Key
 48351,6ff887a6,GitHub,533c47c6,data/533c47c6/test/6ff887a6.py,94:98,T,T,,,F,F,Any,Private,,Unknown,2.45,30,F,F,F,Private Key
-48352,53443fb2,GitHub,533c47c6,data/533c47c6/test/53443fb2.key,1:28,T,T,,,F,F,Any,Private,,Unknown,2.45,30,F,F,F,Private Key
+48352,53443fb2,GitHub,533c47c6,data/533c47c6/test/53443fb2.key,1:28,Template,F,,,F,F,Any,Private,,Unknown,0.0,0,F,F,F,Private Key
 48353,4314246e,GitHub,533c47c6,data/533c47c6/test/4314246e.key,1:27,T,T,,,F,F,Any,Private,,Unknown,2.45,30,F,F,F,Private Key
 49152,6ff887a6,GitHub,533c47c6,data/533c47c6/test/6ff887a6.py,61:75,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
 55171,da24b355,GitHub,533c47c6,data/533c47c6/test/da24b355.py,112:112,F,F,,,F,F,,,,,0,0,F,F,F,

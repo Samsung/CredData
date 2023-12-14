@@ -92,7 +92,7 @@ def download(temp_dir):
         try:
             subprocess.check_call(checkout_command, shell=True)
         except subprocess.CalledProcessError:
-            logger.debug("Couldn't checkout repo. Skip")
+            logger.error("Couldn't checkout repo. Skip")
             # Remove repo
             if not is_empty(f"{temp_dir}/{ownername}/{reponame}"):
                 shutil.rmtree(f"{temp_dir}/{ownername}/{reponame}")
@@ -366,8 +366,8 @@ def obfuscate_segment(segment: str):
     for j, char in enumerate(segment):
         if char in string.ascii_letters:
             # Special case for preserving \n character
-            if j > 0 and char == "n" and segment[j - 1] == "\\":
-                new_line += "n"
+            if j > 0 and char in ["n", "r"] and segment[j - 1] == "\\":
+                new_line += char
             # Special case for preserving f"" and b"" lines
             elif j < len(segment) - 1 and char in ["b", "f"] and segment[j + 1] in ["'", '"']:
                 new_line += char
@@ -384,7 +384,9 @@ def obfuscate_segment(segment: str):
 def create_new_key(lines: List[str]):
     # Create new lines with similar formatting as old one
     new_lines = []
+    pem_regex = re.compile(r"[0-9A-Za-z=/+_-]{16,}")
 
+    is_first_segment = True
     for i, old_l in enumerate(lines):
         start, segment, end = split_in_bounds(i, len(lines), old_l)
         if segment is None:
@@ -394,8 +396,12 @@ def create_new_key(lines: List[str]):
         # DEK-Info: AES-128-CBC, ...
         # Proc-Type: 4,ENCRYPTED
         # Version: GnuPG v1.4.9 (GNU/Linux)
-        if "DEK-" in segment or "Proc-" in segment or "Version" in segment:
+        if "DEK-" in segment or "Proc-" in segment or "Version" in segment or not pem_regex.search(segment):
             new_line = segment
+        elif is_first_segment:
+            is_first_segment = False
+            assert len(segment) >= 64, (segment, lines)
+            new_line = segment[:64] + obfuscate_segment(segment[64:])
         else:
             new_line = obfuscate_segment(segment)
 
@@ -441,8 +447,9 @@ def process_pem_keys(data: List[Dict[str, str]]):
     # Change data in already copied files (only keys)
     for row in data:
 
-        line_start = int(row["LineStart:LineEnd"].split(":")[0])
-        line_end = int(row["LineStart:LineEnd"].split(":")[1])
+        line_start, line_end = row["LineStart:LineEnd"].split(":")
+        line_start = int(line_start)
+        line_end = int(line_end)
 
         # Skip credentials that are not PEM or multiline
         if row["CryptographyKey"] == "" and line_end - line_start < 1:
