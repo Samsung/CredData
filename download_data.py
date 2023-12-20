@@ -155,7 +155,7 @@ def move_files(temp_dir, dataset_dir):
 
         # For each file find its mapping to the metadata or skip
         for full_path in repo_files:
-            short_path = full_path.replace(f"{temp_dir}/{ownername}/{reponame}/", "")
+            short_path = os.path.relpath(full_path, f"{temp_dir}/{ownername}/{reponame}/").replace('\\', '/')
             file_id = hashlib.sha256(short_path.encode()).hexdigest()[:8]
             if file_id in interesting_files.keys():
                 files_found.add(full_path)
@@ -172,10 +172,11 @@ def move_files(temp_dir, dataset_dir):
             missing_repos.append(meta_file_path)
             if os.path.exists(meta_file_path):
                 os.remove(meta_file_path)
+            continue
 
         # Copy files to new dataset location
         for j, full_path in enumerate(sorted(list(files_found))):
-            short_path = full_path.replace(f"{temp_dir}/{ownername}/{reponame}/", "")
+            short_path = os.path.relpath(full_path, f"{temp_dir}/{ownername}/{reponame}/").replace('\\', '/')
             _, file_extension = os.path.splitext(full_path)
             file_type = get_file_type(short_path, file_extension)
             file_id = hashlib.sha256(short_path.encode()).hexdigest()[:8]
@@ -206,9 +207,9 @@ def move_files(temp_dir, dataset_dir):
         code_file_basebir = f'{dataset_dir}/{new_repo_id}'
         os.makedirs(code_file_basebir, exist_ok=True)
         for license_location in license_files:
-            name = license_location.split("/")[-1]
+            name = os.path.basename(license_location)
             if os.path.isdir(license_location):
-                shutil.copytree(license_location, f"{dataset_dir}/{new_repo_id}/{name}")
+                shutil.copytree(license_location, f"{dataset_dir}/{new_repo_id}/{name}", dirs_exist_ok=True)
                 logger.debug("COPIED DIR: %s -> %s", license_location, f"{dataset_dir}/{new_repo_id}/{name}")
             else:
                 shutil.copy(license_location, f"{dataset_dir}/{new_repo_id}/{name}")
@@ -297,7 +298,7 @@ def replace_rows(data: List[Dict[str, str]]):
 
         file_location = row["FilePath"]
 
-        with open(file_location, "r") as f:
+        with open(file_location, "r", encoding="utf8") as f:
             lines = f.read()
         lines = lines.split("\n")
 
@@ -320,7 +321,7 @@ def replace_rows(data: List[Dict[str, str]]):
         if lines[-1] == "":
             lines = lines[:-1]
 
-        with open(file_location, "w") as f:
+        with open(file_location, "w", encoding="utf8") as f:
             for l in lines:
                 f.write(l + "\n")
 
@@ -460,7 +461,7 @@ def process_pem_keys(data: List[Dict[str, str]]):
 
         file_location = row["FilePath"]
 
-        with open(file_location, "r") as f:
+        with open(file_location, "r", encoding="utf8") as f:
             lines = f.read()
         lines = lines.split("\n")
 
@@ -475,7 +476,7 @@ def process_pem_keys(data: List[Dict[str, str]]):
         if lines[-1] == "":
             lines = lines[:-1]
 
-        with open(file_location, "w") as f:
+        with open(file_location, "w", encoding="utf8") as f:
             for l in lines:
                 f.write(l + "\n")
 
