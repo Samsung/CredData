@@ -516,14 +516,9 @@ if __name__ == "__main__":
     download(temp_directory)
     logger.info("Download finished. Now processing the files...")
     removed_meta = move_files(temp_directory, args.data_dir)
+    # check whether there were issues with downloading
+    assert 0 == len(removed_meta), removed_meta
     logger.info("Finalizing dataset. Please wait a moment...")
     obfuscate_creds(args.data_dir)
     logger.info("Done!")
     logger.info(f"All files saved to {args.data_dir}")
-
-    if len(removed_meta) > 0:
-        logger.error("Some repos had a problem with download.")
-        logger.error("Removing meta so missing files would not count in the dataset statistics:")
-        for missing in removed_meta:
-            logger.debug(missing)
-        logger.error(f"You can use git to restore mentioned meta files back")
