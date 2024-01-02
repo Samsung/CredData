@@ -83,10 +83,13 @@ def download(temp_dir):
         commit_sha = repo_data["sha"]
         ownername, reponame = repo_url.split("/")[-2:]
 
+        logger.debug(f"Download {repo_url} {commit_sha}")
+
         os.makedirs(f"{temp_dir}/{ownername}", exist_ok=True)
 
         download_command = f"cd {temp_dir}/{ownername} && git clone {repo_url}"
-        checkout_command = f"cd {temp_dir}/{ownername}/{reponame} && git checkout -f {commit_sha}"
+        checkout_command = (f"cd {temp_dir}/{ownername}/{reponame}"
+                            f" && git -c advice.detachedHead=false checkout --force {commit_sha}")
 
         subprocess.call(download_command, shell=True)
         try:
