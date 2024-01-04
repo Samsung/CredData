@@ -293,7 +293,7 @@ def replace_rows(data: List[Dict[str, str]]):
         if row["GroundTruth"] not in ["T", "N/A"]:
             continue
 
-        if row["ValueStart"] == "":
+        if not row["ValueStart"] or not row["ValueEnd"]:
             continue
 
         value_start = int(row["ValueStart"])
@@ -316,6 +316,7 @@ def replace_rows(data: List[Dict[str, str]]):
 
         predefined_pattern = row["PredefinedPattern"]
         value = old_line[indentation + value_start:indentation + value_end]
+        random.seed(line_start ^ int(row["FileID"], 16))
         obfuscated_value = get_obfuscated_value(value, predefined_pattern)
         new_line = old_line[:indentation + value_start] + obfuscated_value + old_line[indentation + value_end:]
 
@@ -468,6 +469,8 @@ def process_pem_keys(data: List[Dict[str, str]]):
             lines = f.read()
         lines = lines.split("\n")
 
+        random.seed(line_start ^ int(row["FileID"], 16))
+
         if row["CryptographyKey"] != "":
             new_lines = create_new_key(lines[line_start - 1:line_end])
         else:
@@ -503,7 +506,6 @@ def obfuscate_creds(dataset_dir):
 
 
 if __name__ == "__main__":
-    random.seed(993317)  # Set fixed random seed for the same dataset results
 
     parser = ArgumentParser(prog="python download_data.py")
 
