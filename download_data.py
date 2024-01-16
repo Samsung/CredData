@@ -9,8 +9,10 @@ import shutil
 import string
 import subprocess
 from argparse import ArgumentParser
+from multiprocessing import Pool
 from typing import Dict, List
 
+import tqdm
 import yaml
 
 logging.basicConfig(
@@ -71,36 +73,49 @@ def collect_licenses(temp_dir, ownername, reponame):
     return license_files
 
 
-def download(temp_dir):
+def download_and_check(repo_data: dict, temp_dir):
+    repo_url = repo_data["url"]
+    commit_sha = repo_data["sha"]
+    ownername, reponame = repo_url.split("/")[-2:]
+
+    logger.debug(f"Download {repo_url} {commit_sha}")
+
+    os.makedirs(f"{temp_dir}/{ownername}", exist_ok=True)
+
+    download_command = f"cd {temp_dir}/{ownername} && git clone {repo_url}"
+    subprocess.call(download_command, shell=True)
+
+    checkout_command = (f"cd {temp_dir}/{ownername}/{reponame}"
+                        f" && git fetch"
+                        f" && git -c advice.detachedHead=false checkout --force {commit_sha}")
+    try:
+        subprocess.check_call(checkout_command, shell=True)
+    except subprocess.CalledProcessError:
+        logger.error("Couldn't checkout repo. Skip")
+        raise RuntimeError(f"Couldn't checkout repo:{repo_data}")
+        # Remove repo
+        if not is_empty(f"{temp_dir}/{ownername}/{reponame}"):
+            shutil.rmtree(f"{temp_dir}/{ownername}/{reponame}")
+
+
+def download(temp_dir, jobs):
     """Download github repos and checkout proper commits"""
     snapshot_file = "snapshot.yaml"
     with open(snapshot_file) as f:
         snapshot_data = yaml.load(f, Loader=yaml.FullLoader)
     os.makedirs(temp_dir, exist_ok=True)
+    len_snapshot_data = len(snapshot_data)
 
-    for i, repo_data in enumerate(snapshot_data):
-        repo_url = repo_data["url"]
-        commit_sha = repo_data["sha"]
-        ownername, reponame = repo_url.split("/")[-2:]
-
-        logger.debug(f"Download {repo_url} {commit_sha}")
-
-        os.makedirs(f"{temp_dir}/{ownername}", exist_ok=True)
-
-        download_command = f"cd {temp_dir}/{ownername} && git clone {repo_url}"
-        checkout_command = (f"cd {temp_dir}/{ownername}/{reponame}"
-                            f" && git -c advice.detachedHead=false checkout --force {commit_sha}")
-
-        subprocess.call(download_command, shell=True)
-        try:
-            subprocess.check_call(checkout_command, shell=True)
-        except subprocess.CalledProcessError:
-            logger.error("Couldn't checkout repo. Skip")
-            # Remove repo
-            if not is_empty(f"{temp_dir}/{ownername}/{reponame}"):
-                shutil.rmtree(f"{temp_dir}/{ownername}/{reponame}")
-
-        logger.debug(f"Downloaded: {i + 1}/{len(snapshot_data)}")
+    if 1 < jobs:
+        _args = [(x, temp_dir) for x in snapshot_data]
+        with Pool(processes=jobs) as p:
+            with tqdm.tqdm(total=len_snapshot_data) as pbar:
+                for i, _ in enumerate(p.imap_unordered(download_and_check, _args)):
+                    pbar.update()
+    else:
+        for i, repo_data in enumerate(snapshot_data):
+            download_and_check(repo_data, temp_dir)
+            logger.debug(f"Downloaded: {i + 1}/{len_snapshot_data}")
 
 
 def is_empty(directory):
@@ -510,6 +525,7 @@ if __name__ == "__main__":
     parser = ArgumentParser(prog="python download_data.py")
 
     parser.add_argument("--data_dir", dest="data_dir", required=True, help="Dataset location after download")
+    parser.add_argument("--jobs", dest="jobs", help="Jobs for multiprocessing")
     args = parser.parse_args()
 
     temp_directory = "tmp"
@@ -518,7 +534,7 @@ if __name__ == "__main__":
         raise FileExistsError(f"{args.data_dir} directory already exists. Please remove it or select other directory.")
 
     logger.info("Start download")
-    download(temp_directory)
+    download(temp_directory, args.jobs)
     logger.info("Download finished. Now processing the files...")
     removed_meta = move_files(temp_directory, args.data_dir)
     # check whether there were issues with downloading
