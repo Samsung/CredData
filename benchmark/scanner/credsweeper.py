@@ -43,8 +43,11 @@ class CredSweeper(Scanner):
                 if any(i in path_upper for i in ["/COPYING", "/LICENSE"]):
                     continue
                 try:
+                    offset = len(line_data["line"]) - len(line_data["line"].lstrip())
                     check_line_result, line_data["project_id"], line_data["per_repo_file_id"] = \
-                        self.check_line_from_meta(line_data["path"], line_data["line_num"])
+                        self.check_line_from_meta(line_data["path"], line_data["line_num"],
+                                                  line_data["value_start"] - offset, line_data["value_end"] - offset,
+                                                  result["rule"])
                 except Exception as exc:
                     logging.getLogger(__file__).exception(exc)
                     continue
