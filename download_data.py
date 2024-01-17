@@ -16,7 +16,7 @@ import yaml
 
 logging.basicConfig(
     format="%(asctime)s | %(levelname)s | %(filename)s:%(lineno)s | %(message)s",
-    level="DEBUG")
+    level="INFO")
 logger = logging.getLogger(__file__)
 
 
@@ -68,17 +68,17 @@ def collect_licenses(temp_dir, ownername, reponame):
     license_files += list(pathlib.Path(f"{temp_dir}/{ownername}/{reponame}/docs/mixes/").glob("LICENSE"))
     license_files = [str(lf) for lf in license_files]
     license_files = [lf for lf in license_files if "licensemanager" not in lf]
-    logger.debug(license_files)
+    logger.info(license_files)
     return license_files
 
 
 def download_and_check(repo_data: dict):
     """download one git repo or fetch from remote if exists"""
+    logger.info(f"Download {repo_data}")
     repo_url = repo_data["url"]
     commit_sha = repo_data["sha"]
     ownername, reponame = repo_url.split("/")[-2:]
 
-    logger.debug(f"Download {repo_url} {commit_sha}")
     temp_dir = repo_data["temp_dir"]
     os.makedirs(f"{temp_dir}/{ownername}", exist_ok=True)
 
@@ -92,9 +92,10 @@ def download_and_check(repo_data: dict):
                         f" && git log --oneline -1")
     try:
         subprocess.check_call(checkout_command, shell=True)
-        logger.debug(f"Downloaded {repo_url} {commit_sha}")
+        logger.info(f"Downloaded {repo_url} {commit_sha}")
     except subprocess.CalledProcessError:
-        logger.error("Couldn't checkout repo. Skip")
+        logger.error(f"Couldn't checkout repo {temp_dir}/{ownername}/{reponame}. {repo_data}")
+        assert False, f"Couldn't checkout repo {temp_dir}/{ownername}/{reponame}. {repo_data}"
         # Remove repo
         if not is_empty(f"{temp_dir}/{ownername}/{reponame}"):
             shutil.rmtree(f"{temp_dir}/{ownername}/{reponame}")
@@ -114,11 +115,11 @@ def download(temp_dir, jobs):
     if 1 < jobs:
         with Pool(processes=jobs) as p:
             for i, x in enumerate(p.map(download_and_check, snapshot_data)):
-                logger.debug(f"Downloaded: {i + 1}/{len_snapshot_data}")
+                logger.info(f"Downloaded: {i + 1}/{len_snapshot_data}")
     else:
         for i, repo_data in enumerate(snapshot_data):
             download_and_check(repo_data)
-            logger.debug(f"Downloaded: {i + 1}/{len_snapshot_data}")
+            logger.info(f"Downloaded: {i + 1}/{len_snapshot_data}")
 
 
 def is_empty(directory):
@@ -140,7 +141,7 @@ def move_files(temp_dir, dataset_dir):
 
     for i, repo_data in enumerate(snapshot_data):
         new_repo_id = hashlib.sha256(repo_data["id"].encode()).hexdigest()[:8]
-        logger.debug(f'Hash of repo {repo_data["id"]} = {new_repo_id}')
+        logger.info(f'Hash of repo {repo_data["id"]} = {new_repo_id}')
         repo_url = repo_data["url"]
         ownername, reponame = repo_url.split("/")[-2:]
         meta_file_path = f"meta/{new_repo_id}.csv"
@@ -152,7 +153,7 @@ def move_files(temp_dir, dataset_dir):
             missing_repos.append(meta_file_path)
             continue
 
-        logger.debug(f"Processing: {i + 1}/{len(snapshot_data)} {reponame}")
+        logger.info(f"Processing: {i + 1}/{len(snapshot_data)} {reponame}")
 
         # Select file names from meta that we will use in dataset
         interesting_files = dict()
@@ -181,7 +182,7 @@ def move_files(temp_dir, dataset_dir):
             if file_id in interesting_files.keys():
                 files_found.add(full_path)
                 ids_found.add(file_id)
-                logger.debug(f"COPY {full_path} ; {short_path} -> {file_id} : {new_repo_id}")
+                logger.info(f"COPY {full_path} ; {short_path} -> {file_id} : {new_repo_id}")
             else:
                 logger.debug(f"SKIP {full_path} ; {short_path} -> {file_id} : {new_repo_id}")
 
@@ -202,7 +203,7 @@ def move_files(temp_dir, dataset_dir):
             file_type = get_file_type(short_path, file_extension)
             file_id = hashlib.sha256(short_path.encode()).hexdigest()[:8]
             old_file_id = int2ascii(j)
-            logger.debug(f"{full_path} -> {file_id} OLD:{old_file_id}")
+            logger.info(f"{full_path} -> {file_id} OLD:{old_file_id}")
 
             code_file_basebir = f'{dataset_dir}/{new_repo_id}/{file_type}'
             code_file_location = f'{code_file_basebir}/{file_id}{file_extension}'
@@ -212,7 +213,7 @@ def move_files(temp_dir, dataset_dir):
                 meta_reader = csv.DictReader(csvfile)
                 for row in meta_reader:
                     if row["FilePath"] == code_file_location:
-                        logger.debug(row)
+                        logger.info(row)
                         break
                 else:
                     logger.error(row, code_file_location, old_code_file_location)
@@ -220,7 +221,7 @@ def move_files(temp_dir, dataset_dir):
 
             os.makedirs(code_file_basebir, exist_ok=True)
             shutil.copy(full_path, code_file_location)
-            logger.debug("COPIED FILE: %s -> %s", full_path, code_file_location)
+            logger.info("COPIED FILE: %s -> %s", full_path, code_file_location)
 
         license_files = collect_licenses(temp_dir, ownername, reponame)
 
@@ -231,10 +232,10 @@ def move_files(temp_dir, dataset_dir):
             name = os.path.basename(license_location)
             if os.path.isdir(license_location):
                 shutil.copytree(license_location, f"{dataset_dir}/{new_repo_id}/{name}", dirs_exist_ok=True)
-                logger.debug("COPIED DIR: %s -> %s", license_location, f"{dataset_dir}/{new_repo_id}/{name}")
+                logger.info("COPIED DIR: %s -> %s", license_location, f"{dataset_dir}/{new_repo_id}/{name}")
             else:
                 shutil.copy(license_location, f"{dataset_dir}/{new_repo_id}/{name}")
-                logger.debug("COPIED FILE: %s -> %s", license_location, f"{dataset_dir}/{new_repo_id}/{name}")
+                logger.info("COPIED FILE: %s -> %s", license_location, f"{dataset_dir}/{new_repo_id}/{name}")
 
     return missing_repos
 
