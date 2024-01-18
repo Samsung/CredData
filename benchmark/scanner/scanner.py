@@ -1,4 +1,5 @@
 import csv
+import dataclasses
 import os
 from abc import ABC, abstractmethod
 from typing import Tuple, Dict, List, Any
