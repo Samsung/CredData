@@ -1,10 +1,9 @@
 import csv
 import dataclasses
 import os
+import tabulate
 from abc import ABC, abstractmethod
 from typing import Tuple, Dict, List, Any
-
-import tabulate
 
 from benchmark.common import GitService, LineStatus, Result
 from benchmark.scanner.true_false_counter import TrueFalseCounter
@@ -17,6 +16,8 @@ class TypeStat:
     true_markup: int
     false_markup: int
     template_markup: int
+
+
 class Scanner(ABC):
     def __init__(self, scanner_type: str, scanner_url: str, working_dir: str, cred_data_dir: str) -> None:
         self.scanner_type: str = scanner_type
