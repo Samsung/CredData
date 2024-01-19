@@ -218,10 +218,10 @@ hfbpozfhvuwgtfosmo2imqskc73w04jf3313309829
 
 With them, you can use ``review_data.py`` script to review the markup in console with colorization.
 
-<pre>
+```
 34024,61ed9af5,GitHub,02dfa7ec,data/02dfa7ec/test/61ed9af5.example,83:83,T,F,31,73,F,F,Any,,,Secret,3.74,42,F,F,F,Generic Secret,83,83
 83:<font color="#00AA00"># GITHUB_ENTERPRISE_ORG_SECRET=</font><span style="background-color:#FFFF55"><font color="#00AA00">hfbpozfhvuwgtfosmo2imqskc73w04jf3313309829</font></span>
-</pre>
+```
 
 
 ## Obfuscation
