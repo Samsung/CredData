@@ -225,7 +225,12 @@ class Scanner(ABC):
         self.parse_result()
         self.analyze_result()
 
-    def check_line_from_meta(self, file_path: str, line_num: int) -> Tuple[LineStatus, str, str]:
+    def check_line_from_meta(self,
+                             file_path: str,
+                             line_num: int,
+                             value_start: int = -1,
+                             value_end: int = -1,
+                             rule: str = "") -> Tuple[LineStatus, str, str]:
         self.result_cnt += 1
         repo_name = file_path.split("/")[-3]
         path = "data/" + "/".join(file_path.split("/")[-3:])
@@ -238,7 +243,7 @@ class Scanner(ABC):
                 file_id = row["FileID"]
                 # by default the cred is false positive
                 approximate = f"{self.next_id},{file_id},GitHub,{project_id},{path}" \
-                              f",{line_num}:{line_num},F,F,,,F,F,,,,,0.00,,F,F,F,"
+                              f",{line_num}:{line_num},F,F,{value_start},{value_end},F,F,,,,,0.00,,F,F,F,{rule}"
                 if self._check_line_num(row["LineStart:LineEnd"], line_num):
                     code = str(project_id) + str(file_id) + str(row["LineStart:LineEnd"])
                     if code in self.line_checker:

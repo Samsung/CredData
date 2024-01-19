@@ -150,9 +150,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 26823,b28a0667,GitHub,54f6f35d,data/54f6f35d/src/b28a0667.go,379:379,F,F,,,F,F,,,,,0,0,F,F,F,
 26982,bf57d101,GitHub,54f6f35d,data/54f6f35d/test/bf57d101.go,41:41,F,F,,,F,F,,,,,0,0,F,F,F,
 26984,bf57d101,GitHub,54f6f35d,data/54f6f35d/test/bf57d101.go,69:69,Template,T,12,17,F,F,CharOnly,,,Secret,2.32,5,F,F,F,Password
-29688,f394589c,GitHub,54f6f35d,data/54f6f35d/test/f394589c.go,25:25,Template,F,11,15,F,F,Any,,,Unknown,2.00,4,F,F,F,Other
 30101,6a60d77d,GitHub,54f6f35d,data/54f6f35d/test/6a60d77d.go,14:14,Template,F,19,59,F,F,Any,,,Secret,4.20,40,F,F,F,Generic Secret
-30892,47ef0082,GitHub,54f6f35d,data/54f6f35d/src/47ef0082.go,35:35,Template,T,18,51,F,F,Any,,,Token,3.18,33,F,F,F,Generic Token
+30892,47ef0082,GitHub,54f6f35d,data/54f6f35d/src/47ef0082.go,35:35,F,T,18,51,F,F,Any,,,Token,3.18,33,F,F,F,Generic Token
 32332,49f545a6,GitHub,54f6f35d,data/54f6f35d/test/49f545a6.go,273:273,F,F,49,56,F,F,,,,,0,0,F,F,F,
 32398,1684838b,GitHub,54f6f35d,data/54f6f35d/test/1684838b.go,16:16,Template,T,26,58,F,F,Any,,,Secret,3.45,32,F,F,F,Generic Secret
 32663,a034c19e,GitHub,54f6f35d,data/54f6f35d/test/a034c19e.go,63:63,F,F,8,22,F,F,,,,,0,0,F,F,F,
@@ -193,7 +192,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 35566,65730f03,GitHub,54f6f35d,data/54f6f35d/src/65730f03.go,2310:2310,F,F,19,24,F,F,,,,,0,0,F,F,F,
 35719,65730f03,GitHub,54f6f35d,data/54f6f35d/src/65730f03.go,2311:2311,F,F,19,25,F,F,,,,,0,0,F,F,F,
 35761,0d4fe5d8,GitHub,54f6f35d,data/54f6f35d/test/0d4fe5d8.go,68:68,F,F,24,31,F,F,,,,,0,0,F,F,F,
-35768,ee3ab00f,GitHub,54f6f35d,data/54f6f35d/test/ee3ab00f.go,61:61,Template,T,27,36,F,F,Any,,,Unknown,2.60,9,F,F,F,Other
+35768,ee3ab00f,GitHub,54f6f35d,data/54f6f35d/test/ee3ab00f.go,61:61,Template,T,27,35,F,F,Any,,,Unknown,2.60,9,F,F,F,Other
 35772,a4108aed,GitHub,54f6f35d,data/54f6f35d/test/a4108aed.go,89:89,F,F,11,16,F,F,,,,,0,0,F,F,F,
 35773,a4108aed,GitHub,54f6f35d,data/54f6f35d/test/a4108aed.go,68:68,T,T,33,45,F,F,CharsOnly,,,Unknown,2.22,12,F,F,F,Password
 35774,65730f03,GitHub,54f6f35d,data/54f6f35d/src/65730f03.go,2309:2309,F,F,18,22,F,F,,,,,0,0,F,F,F,
