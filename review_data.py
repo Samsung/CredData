@@ -97,6 +97,9 @@ def read_meta(meta_dir, data_dir) -> List[Dict[str, str]]:
     for root, dirs, files in os.walk(meta_dir):
         root_path = Path(root)
         for file in files:
+            if 12 != len(file) or not all('0' <= x <= '9' or 'a' <= x <= 'f' for x in file[:8]):
+                # git garbage case
+                continue
             with open(root_path / file, newline="") as f:
                 reader = csv.DictReader(f)
                 for row in reader:
