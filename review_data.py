@@ -8,6 +8,8 @@ from pathlib import Path
 from typing import Dict, List, Optional
 
 from pip._vendor.colorama import Fore, Back, Style
+
+
 # colorama may be not included in older pip, so install it separately
 
 
@@ -94,6 +96,8 @@ def read_data(path, line_start, line_end, value_start, value_end, ground_truth, 
 
 def read_meta(meta_dir, data_dir) -> List[Dict[str, str]]:
     meta = []
+    ids = set()
+    dups = []
     for root, dirs, files in os.walk(meta_dir):
         root_path = Path(root)
         for file in files:
@@ -120,6 +124,13 @@ def read_meta(meta_dir, data_dir) -> List[Dict[str, str]]:
                     value_end = row["ValueEnd"]
                     row["ValueEnd"] = int(float(value_end)) if value_end else -1
                     meta.append(row)
+                    if row["Id"] in ids:
+                        row_csv = ','.join([str(x) for x in row.values()])
+                        dups.append(row_csv)
+                        print(f"Check id duplication: {row_csv}")
+                    else:
+                        ids.add(row["Id"])
+    assert not dups, '\n'.join(dups)
     return meta
 
 
