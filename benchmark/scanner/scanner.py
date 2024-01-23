@@ -1,12 +1,21 @@
 import csv
+import dataclasses
 import os
+import tabulate
 from abc import ABC, abstractmethod
 from typing import Tuple, Dict, List, Any
 
-import tabulate
-
 from benchmark.common import GitService, LineStatus, Result
 from benchmark.scanner.true_false_counter import TrueFalseCounter
+
+
+@dataclasses.dataclass
+class TypeStat:
+    files_number: int
+    valid_lines: int
+    true_markup: int
+    false_markup: int
+    template_markup: int
 
 
 class Scanner(ABC):
@@ -25,6 +34,7 @@ class Scanner(ABC):
         self.total_template_cnt = 0
         self.categories: Dict[str, Tuple[int, int, int]] = {}  # category: (true_cnt, false_cnt, template_cnt)
         self.next_id = 0
+        self.file_types: Dict[str, TypeStat] = {}
         self.total_data_valid_lines = 0
         self.meta: List[Dict[str, Any]] = []
         self._read_meta()
@@ -35,6 +45,12 @@ class Scanner(ABC):
                 with open(f"{root}/{file}", newline="") as f:
                     reader = csv.DictReader(f)
                     for row in reader:
+                        _, file_type = os.path.splitext(row["FilePath"])
+                        file_type_lower = file_type.lower()
+                        if file_type_lower in self.file_types:
+                            type_stat = self.file_types[file_type_lower]
+                        else:
+                            type_stat = TypeStat(0, 0, 0, 0, 0)
                         if not row["Category"]:
                             # all unmarked categories are Other
                             row["Category"] = "Other"
@@ -45,17 +61,21 @@ class Scanner(ABC):
                         if row["GroundTruth"] == "T":
                             true_cnt += 1
                             self.total_true_cnt += 1
+                            type_stat.true_markup += 1
                         elif row["GroundTruth"] == "F":
                             self.total_false_cnt += 1
                             false_cnt += 1
+                            type_stat.false_markup += 1
                         elif row["GroundTruth"] == "Template":
                             self.total_template_cnt += 1
                             template_cnt += 1
+                            type_stat.template_markup += 1
                         else:
                             # wrong markup should be detected
-                            print(f"[WRONG MARKUP] {row}", flush=True)
+                            assert False, f"[WRONG MARKUP] {row}"
                         self.categories[row["Category"]] = (true_cnt, false_cnt, template_cnt)
                         self.meta.append(row)
+                        self.file_types[file_type_lower] = type_stat
         # use next_id for printing lost markup
         self.next_id = 1 + max(int(x["Id"]) for x in self.meta)
 
@@ -65,21 +85,55 @@ class Scanner(ABC):
         for root, dirs, files in os.walk(data_dir):
             if root.split("/")[-1] in valid_dir_list:
                 for file in files:
-                    with open(os.path.join(data_dir, root, file), "r", encoding="utf8") as f:
+                    _, file_ext = os.path.splitext(str(file))
+                    file_ext_lower = file_ext.lower()
+                    # the type must be in dictionary
+                    self.file_types[file_ext_lower].files_number += 1
+                    with open(os.path.join(root, file), "r", encoding="utf8") as f:
                         lines = f.readlines()
+                        file_data_valid_lines = 0
                         for line in lines:
                             if line.strip() != "":
-                                self.total_data_valid_lines += 1
+                                file_data_valid_lines += 1
+                        self.total_data_valid_lines += file_data_valid_lines
+                        self.file_types[file_ext_lower].valid_lines += file_data_valid_lines
 
         print(f"DATA: {self.total_data_valid_lines} valid lines. MARKUP: {len(self.meta)} items", flush=True)
         # f"T:{self.total_true_cnt} F:{self.total_false_cnt}"
         header = ["Category", "Positives", "Negatives", "Template"]
         rows: List[List[Any]] = []
         for key, val in self.categories.items():
-            rows.append([key, val[0], val[1], val[2]])
+            rows.append([key, val[0] or None, val[1] or None, val[2] or None])
         rows.sort(key=lambda x: x[0])
         rows.append(["TOTAL:", self.total_true_cnt, self.total_false_cnt, self.total_template_cnt])
         print(tabulate.tabulate(rows, header), flush=True)
+        types_headers = ["FileType", "FileNumber", "ValidLines", "Positives", "Negatives", "Template"]
+        types_rows: List[List[Any]] = []
+        check_files_number = 0
+        check_data_valid_lines = 0
+        check_true_cnt = 0
+        check_false_cnt = 0
+        check_template_cnt = 0
+        for key, val in self.file_types.items():
+            types_rows.append([key,
+                               val.files_number or None,
+                               val.valid_lines or None,
+                               val.true_markup or None,
+                               val.false_markup or None,
+                               val.template_markup or None])
+            check_files_number += val.files_number
+            check_data_valid_lines += val.valid_lines
+            check_true_cnt += val.true_markup
+            check_false_cnt += val.false_markup
+            check_template_cnt += val.template_markup
+        types_rows.sort()
+        types_rows.append(["TOTAL:",
+                           check_files_number,
+                           check_data_valid_lines,
+                           check_true_cnt,
+                           check_false_cnt,
+                           check_template_cnt])
+        print(tabulate.tabulate(types_rows, types_headers), flush=True)
 
     @property
     def scanner_type(self) -> str:

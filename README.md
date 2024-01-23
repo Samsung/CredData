@@ -73,13 +73,12 @@ Labeled data divided into 8 major categories according to their properties.
 |JavaScript|742,704|4,130|340|Shell|42,019|1,340|31|
 |Python|351,494|5,643|260|Haskell|5,127|90|31|
 |Markdown|186,099|3,752|253|Java Properties|1,878|124|30|
-|JSON|15,036,863|14,430|238|XML|57,377|1,409|25|
 |Java|178,326|1,751|148|reStructuredText|38,267|531|21|
 |Ruby|186,196|4,669|145|SQLPL|16,808|612|20|
 |Key|8,803|364|116|Objective-C|19,840|211|14|
 |TypeScript|151,832|2,533|79|TOML|2,566|239|12|
 |PHP|113,865|1,936|76|Scala|9,564|163|12|
-|Other|1,226,683|7,803|172|
+|JSON|15,036,863|14,430|238|Other|1,226,683|7,803|172|
 
 <img src="images/Language_true.png" width="450"/>
 
@@ -151,8 +150,8 @@ RepoName        | String            | Project name that credential was found
 FilePath        | String            | File path where credential information was included
 LineStart:LineEnd      | Integer:Integer | Line information, it can be single(2:2) or multiple(ex. 2:4 means 2 to 4 inclusive)
 GroundTruth     | String            | Ground Truth of this credential. True / False or Template
-ValueStart      | Integer           | Index of value on the line. always nan if GroundTruth is False.
-ValueEnd        | Integer           | Index of character right after value ends in the line. 
+ValueStart      | Integer           | Index of value on the line after lstrip().
+ValueEnd        | Integer           | Index of character right after value ends in the line (after lstrip). 
 InURL             | Boolean         | Flag to indicate if credential is a part of a URL, such as "http://user:pwd@site.com"
 CharacterSet      | String          | Characters used in the credential (NumberOnly, CharOnly, Any)
 CryptographyKey   | String          | Type of a key: Private or Public
@@ -284,7 +283,7 @@ It may be difficult to check the license of an existing project due to obfuscati
 
 ## Benchmark
 ### Main Requirements
-- Python3.7 or higher
+- Python3.8 or higher
 
 ### Installation
 ``` bash
