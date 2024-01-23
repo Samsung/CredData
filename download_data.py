@@ -507,7 +507,8 @@ def process_pem_keys(data: List[Dict[str, str]]):
 
 
 def obfuscate_creds(dataset_dir):
-    metadata_files = list(pathlib.Path(f"meta").glob("*.csv"))
+    # use the mask ????????.csv to avoid any git artifacts using
+    metadata_files = list(pathlib.Path(f"meta").glob("????????.csv"))
     metadata_files = [str(meta_file) for meta_file in metadata_files]
     metadata_files = sorted(metadata_files)
 
