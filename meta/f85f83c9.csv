@@ -1,10 +1,10 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-1060,0a7abe6b,GitHub,f85f83c9,data/f85f83c9/src/0a7abe6b.js,6:6,F,F,,,F,F,,,,,0,0,F,F,F,
+1060,0a7abe6b,GitHub,f85f83c9,data/f85f83c9/src/0a7abe6b.js,6:6,F,F,,,F,F,,,,,0,0,F,F,F,Password
 8105,4fbfc2dc,GitHub,f85f83c9,data/f85f83c9/src/4fbfc2dc.js,10:10,F,F,,,F,F,,,,,0,0,F,F,F,
 10504,9295e42f,GitHub,f85f83c9,data/f85f83c9/src/9295e42f.js,20:20,F,F,,,F,F,,,,,0,0,F,F,F,
-13758,0a7abe6b,GitHub,f85f83c9,data/f85f83c9/src/0a7abe6b.js,39:39,F,F,,,F,F,,,,,0,0,F,F,F,
-13759,9295e42f,GitHub,f85f83c9,data/f85f83c9/src/9295e42f.js,48:48,F,F,,,F,F,,,,,0,0,F,F,F,
-14137,b3356305,GitHub,f85f83c9,data/f85f83c9/other/b3356305.md,35:35,F,F,,,F,F,,,,,0,0,F,F,F,
+13758,0a7abe6b,GitHub,f85f83c9,data/f85f83c9/src/0a7abe6b.js,39:39,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+13759,9295e42f,GitHub,f85f83c9,data/f85f83c9/src/9295e42f.js,48:48,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+14137,b3356305,GitHub,f85f83c9,data/f85f83c9/other/b3356305.md,35:35,F,F,,,F,F,,,,,0,0,F,F,F,Password
 27806,8033b47e,GitHub,f85f83c9,data/f85f83c9/src/8033b47e.sql,744:744,F,F,13,29,F,F,,,,,0,0,F,F,F,
 27807,8033b47e,GitHub,f85f83c9,data/f85f83c9/src/8033b47e.sql,745:745,F,F,13,29,F,F,,,,,0,0,F,F,F,
 27808,8033b47e,GitHub,f85f83c9,data/f85f83c9/src/8033b47e.sql,746:746,F,F,13,29,F,F,,,,,0,0,F,F,F,
@@ -90,7 +90,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 27924,8033b47e,GitHub,f85f83c9,data/f85f83c9/src/8033b47e.sql,700:700,F,F,13,29,F,F,,,,,0,0,F,F,F,
 27925,8033b47e,GitHub,f85f83c9,data/f85f83c9/src/8033b47e.sql,701:701,F,F,13,29,F,F,,,,,0,0,F,F,F,
 27927,8033b47e,GitHub,f85f83c9,data/f85f83c9/src/8033b47e.sql,702:702,F,F,,,F,F,,,,,0,0,F,F,F,
-27928,8033b47e,GitHub,f85f83c9,data/f85f83c9/src/8033b47e.sql,704:704,F,F,,,F,F,,,,,0,0,F,F,F,
+27928,8033b47e,GitHub,f85f83c9,data/f85f83c9/src/8033b47e.sql,704:704,F,F,,,F,F,,,,,0,0,F,F,F,Password
 27929,8033b47e,GitHub,f85f83c9,data/f85f83c9/src/8033b47e.sql,705:705,F,F,,,F,F,,,,,0,0,F,F,F,
 27930,8033b47e,GitHub,f85f83c9,data/f85f83c9/src/8033b47e.sql,706:706,F,F,13,29,F,F,,,,,0,0,F,F,F,
 27931,8033b47e,GitHub,f85f83c9,data/f85f83c9/src/8033b47e.sql,708:708,F,F,13,29,F,F,,,,,0,0,F,F,F,
@@ -503,7 +503,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 28804,8033b47e,GitHub,f85f83c9,data/f85f83c9/src/8033b47e.sql,839:839,F,F,13,29,F,F,,,,,0,0,F,F,F,
 30678,a50bb429,GitHub,f85f83c9,data/f85f83c9/src/a50bb429.js,2:2,Template,F,16,37,F,F,Any,,,Secret,2.89,21,F,F,F,Password
 34479,4fbfc2dc,GitHub,f85f83c9,data/f85f83c9/src/4fbfc2dc.js,11:11,Template,T,11,15,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-41198,8033b47e,GitHub,f85f83c9,data/f85f83c9/src/8033b47e.sql,100:100,F,F,,,F,F,,,,,0,0,F,F,F,
+41198,8033b47e,GitHub,f85f83c9,data/f85f83c9/src/8033b47e.sql,100:100,F,F,,,F,F,,,,,0,0,F,F,F,Other
 76108,b3356305,GitHub,f85f83c9,data/f85f83c9/other/b3356305.md,34:34,F,F,,,F,F,,,,,0,0,F,F,F,
 82407,8033b47e,GitHub,f85f83c9,data/f85f83c9/src/8033b47e.sql,653:653,F,F,207,208,F,F,,,,,0,0,F,F,F,
 82408,8033b47e,GitHub,f85f83c9,data/f85f83c9/src/8033b47e.sql,922:922,F,F,0,218,F,F,,,,,0,0,F,F,F,
@@ -511,4 +511,4 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 82410,8033b47e,GitHub,f85f83c9,data/f85f83c9/src/8033b47e.sql,930:930,F,F,235,236,F,F,,,,,0,0,F,F,F,
 82411,8033b47e,GitHub,f85f83c9,data/f85f83c9/src/8033b47e.sql,1000:1000,F,F,251,252,F,F,,,,,0,0,F,F,F,
 82412,8033b47e,GitHub,f85f83c9,data/f85f83c9/src/8033b47e.sql,1309:1309,F,F,0,206,F,F,,,,,0,0,F,F,F,
-131716,8033b47e,GitHub,f85f83c9,data/f85f83c9/src/8033b47e.sql,875:875,F,F,13,29,F,F,,,,,0,0,F,F,F,
+131716,8033b47e,GitHub,f85f83c9,data/f85f83c9/src/8033b47e.sql,875:875,F,F,13,29,F,F,,,,,0,0,F,F,F,Other

@@ -1,15 +1,15 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-444,b3356305,GitHub,29d5ecae,data/29d5ecae/other/b3356305.md,265:265,F,F,,,F,F,,,,,0,0,F,F,F,
+444,b3356305,GitHub,29d5ecae,data/29d5ecae/other/b3356305.md,265:265,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 4861,f695ac3b,GitHub,29d5ecae,data/29d5ecae/src/f695ac3b.java,68:68,F,F,,,F,F,,,,,0,0,F,F,F,
 7810,3b855f52,GitHub,29d5ecae,data/29d5ecae/src/3b855f52.java,22:22,F,F,,,F,F,,,,,0,0,F,F,F,
-9051,e6300061,GitHub,29d5ecae,data/29d5ecae/src/e6300061.java,27:27,F,F,,,F,F,,,,,0,0,F,F,F,
-9346,98783981,GitHub,29d5ecae,data/29d5ecae/test/98783981.java,32:32,F,F,,,F,F,,,,,0,0,F,F,F,
-14618,8058d9bf,GitHub,29d5ecae,data/29d5ecae/src/8058d9bf.java,62:62,F,F,,,F,F,,,,,0,0,F,F,F,
-14900,9a3cc28a,GitHub,29d5ecae,data/29d5ecae/test/9a3cc28a.java,51:51,F,F,,,F,F,,,,,0,0,F,F,F,
-17541,b3356305,GitHub,29d5ecae,data/29d5ecae/other/b3356305.md,125:125,F,F,,,F,F,,,,,0,0,F,F,F,
+9051,e6300061,GitHub,29d5ecae,data/29d5ecae/src/e6300061.java,27:27,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+9346,98783981,GitHub,29d5ecae,data/29d5ecae/test/98783981.java,32:32,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+14618,8058d9bf,GitHub,29d5ecae,data/29d5ecae/src/8058d9bf.java,62:62,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+14900,9a3cc28a,GitHub,29d5ecae,data/29d5ecae/test/9a3cc28a.java,51:51,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+17541,b3356305,GitHub,29d5ecae,data/29d5ecae/other/b3356305.md,125:125,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 18787,d48273aa,GitHub,29d5ecae,data/29d5ecae/src/d48273aa.yml,10:10,F,F,,,F,F,,,,,0,0,F,F,F,
 22105,3f4764ac,GitHub,29d5ecae,data/29d5ecae/test/3f4764ac.json,43:43,T,F,18,38,F,F,,,,,0,0,F,F,F,Generic Token
-26379,b6063633,GitHub,29d5ecae,data/29d5ecae/test/b6063633.java,40:40,F,F,,,F,F,,,,,0,0,F,F,F,
+26379,b6063633,GitHub,29d5ecae,data/29d5ecae/test/b6063633.java,40:40,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 27584,f221be66,GitHub,29d5ecae,data/29d5ecae/test/f221be66.json,5:5,F,F,13,17,F,F,,,,,0,0,F,F,F,
 27610,9cd00613,GitHub,29d5ecae,data/29d5ecae/test/9cd00613.json,110:110,F,F,13,18,F,F,,,,,0,0,F,F,F,
 29822,4abf7251,GitHub,29d5ecae,data/29d5ecae/test/4abf7251.java,41:41,Template,T,40,56,F,F,Any,,,Secret,2.88,16,F,F,F,Password
@@ -20,13 +20,13 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 55321,9cd00613,GitHub,29d5ecae,data/29d5ecae/test/9cd00613.json,5:5,F,F,,,F,F,,,,,0,0,F,F,F,
 55354,f221be66,GitHub,29d5ecae,data/29d5ecae/test/f221be66.json,87:87,F,F,,,F,F,,,,,0,0,F,F,F,
 56585,d48273aa,GitHub,29d5ecae,data/29d5ecae/src/d48273aa.yml,32:32,F,F,,,F,F,,,,,0,0,F,F,F,
-61784,b6063633,GitHub,29d5ecae,data/29d5ecae/test/b6063633.java,60:60,F,F,,,F,F,,,,,0,0,F,F,F,
-61890,4abf7251,GitHub,29d5ecae,data/29d5ecae/test/4abf7251.java,129:129,F,F,,,F,F,,,,,0,0,F,F,F,
-74874,4fdd98eb,GitHub,29d5ecae,data/29d5ecae/test/4fdd98eb.java,62:62,F,F,,,F,F,,,,,0,0,F,F,F,
+61784,b6063633,GitHub,29d5ecae,data/29d5ecae/test/b6063633.java,60:60,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+61890,4abf7251,GitHub,29d5ecae,data/29d5ecae/test/4abf7251.java,129:129,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+74874,4fdd98eb,GitHub,29d5ecae,data/29d5ecae/test/4fdd98eb.java,62:62,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 75437,3b855f52,GitHub,29d5ecae,data/29d5ecae/src/3b855f52.java,47:47,F,F,,,F,F,,,,,0,0,F,F,F,
 82111,7d77c22a,GitHub,29d5ecae,data/29d5ecae/test/7d77c22a.json,7:7,F,F,17,57,F,F,,,,,0,0,F,F,F,
 102050,b3356305,GitHub,29d5ecae,data/29d5ecae/other/b3356305.md,261:261,F,F,,,F,F,,,,,0.00,,F,F,F,
-102051,b3356305,GitHub,29d5ecae,data/29d5ecae/other/b3356305.md,280:280,F,F,,,F,F,,,,,0.00,,F,F,F,
+102051,b3356305,GitHub,29d5ecae,data/29d5ecae/other/b3356305.md,280:280,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 102052,b3356305,GitHub,29d5ecae,data/29d5ecae/other/b3356305.md,311:311,F,F,,,F,F,,,,,0.00,,F,F,F,
 102053,d48273aa,GitHub,29d5ecae,data/29d5ecae/src/d48273aa.yml,49:49,Template,T,29,65,F,F,Any,,,Secret,3.44,36,F,F,F,Generic Secret
 102054,d48273aa,GitHub,29d5ecae,data/29d5ecae/src/d48273aa.yml,50:50,Template,T,33,68,F,F,Any,,,Secret,3.50,35,F,F,F,Generic Secret

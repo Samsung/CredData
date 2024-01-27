@@ -2,14 +2,14 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 3084,f3788238,GitHub,9bc5ca9e,data/9bc5ca9e/test/f3788238.java,86:86,F,F,,,F,F,,,,,0,0,F,F,F,
 3085,daf53873,GitHub,9bc5ca9e,data/9bc5ca9e/test/daf53873.java,50:50,F,F,,,F,F,,,,,0,0,F,F,F,
 3086,f490aa6c,GitHub,9bc5ca9e,data/9bc5ca9e/test/f490aa6c.java,1803:1803,F,F,,,F,F,,,,,0,0,F,F,F,
-9072,4175aed4,GitHub,9bc5ca9e,data/9bc5ca9e/src/4175aed4.java,135:135,F,F,,,F,F,,,,,0,0,F,F,F,
-13569,6126a578,GitHub,9bc5ca9e,data/9bc5ca9e/src/6126a578.java,70:70,F,F,,,F,F,,,,,0,0,F,F,F,
-14590,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,90:90,F,F,,,F,F,,,,,0,0,F,F,F,
-14603,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,80:80,F,F,,,F,F,,,,,0,0,F,F,F,
-14751,f490aa6c,GitHub,9bc5ca9e,data/9bc5ca9e/test/f490aa6c.java,307:307,F,F,,,F,F,,,,,0,0,F,F,F,
+9072,4175aed4,GitHub,9bc5ca9e,data/9bc5ca9e/src/4175aed4.java,135:135,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+13569,6126a578,GitHub,9bc5ca9e,data/9bc5ca9e/src/6126a578.java,70:70,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+14590,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,90:90,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+14603,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,80:80,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+14751,f490aa6c,GitHub,9bc5ca9e,data/9bc5ca9e/test/f490aa6c.java,307:307,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
 15829,3696b763,GitHub,9bc5ca9e,data/9bc5ca9e/src/3696b763.java,47:47,F,F,,,F,F,,,,,0,0,F,F,F,
 15830,3696b763,GitHub,9bc5ca9e,data/9bc5ca9e/src/3696b763.java,40:40,F,F,,,F,F,,,,,0,0,F,F,F,
-16007,2e6fe8cd,GitHub,9bc5ca9e,data/9bc5ca9e/test/2e6fe8cd.json,44:44,F,F,,,F,F,,,,,0,0,F,F,F,
+16007,2e6fe8cd,GitHub,9bc5ca9e,data/9bc5ca9e/test/2e6fe8cd.json,44:44,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 16096,27e855cf,GitHub,9bc5ca9e,data/9bc5ca9e/test/27e855cf.json,23:23,F,F,,,F,F,,,,,0,0,F,F,F,
 18724,aed679d2,GitHub,9bc5ca9e,data/9bc5ca9e/test/aed679d2.json,21:21,F,F,,,F,F,,,,,0,0,F,F,F,
 18726,074089db,GitHub,9bc5ca9e,data/9bc5ca9e/test/074089db.json,23:23,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -38,11 +38,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 36144,2e6fe8cd,GitHub,9bc5ca9e,data/9bc5ca9e/test/2e6fe8cd.json,43:43,T,F,13,38,F,F,Any,,,Secret,4.16,25,F,F,F,Generic Secret
 36205,3696b763,GitHub,9bc5ca9e,data/9bc5ca9e/src/3696b763.java,41:41,T,T,19,26,F,F,Any,,,Secret,2.81,7,F,F,F,Password
 36221,3696b763,GitHub,9bc5ca9e,data/9bc5ca9e/src/3696b763.java,48:48,T,F,19,33,F,F,Any,,,Secret,3.52,14,F,F,F,Password
-46885,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,327:327,F,F,,,F,F,,,,,0,0,F,F,F,
+46885,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,327:327,F,F,,,F,F,,,,,0,0,F,F,F,Password
 47890,aed679d2,GitHub,9bc5ca9e,data/9bc5ca9e/test/aed679d2.json,105:105,F,F,,,F,F,,,,,0,0,F,F,F,
-48186,f490aa6c,GitHub,9bc5ca9e,data/9bc5ca9e/test/f490aa6c.java,308:308,F,F,,,F,F,,,,,0,0,F,F,F,
+48186,f490aa6c,GitHub,9bc5ca9e,data/9bc5ca9e/test/f490aa6c.java,308:308,F,F,,,F,F,,,,,0,0,F,F,F,Password
 64079,daf53873,GitHub,9bc5ca9e,data/9bc5ca9e/test/daf53873.java,61:61,F,F,,,F,F,,,,,0,0,F,F,F,
-75409,4175aed4,GitHub,9bc5ca9e,data/9bc5ca9e/src/4175aed4.java,211:211,F,F,,,F,F,,,,,0,0,F,F,F,
+75409,4175aed4,GitHub,9bc5ca9e,data/9bc5ca9e/src/4175aed4.java,211:211,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 108221,f490aa6c,GitHub,9bc5ca9e,data/9bc5ca9e/test/f490aa6c.java,5168:5168,F,F,,,F,F,,,,,0.00,,F,F,F,
 108222,f490aa6c,GitHub,9bc5ca9e,data/9bc5ca9e/test/f490aa6c.java,5209:5209,F,F,,,F,F,,,,,0.00,,F,F,F,
 108223,f490aa6c,GitHub,9bc5ca9e,data/9bc5ca9e/test/f490aa6c.java,5210:5210,F,F,,,F,F,,,,,0.00,,F,F,F,
@@ -52,10 +52,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 108227,f490aa6c,GitHub,9bc5ca9e,data/9bc5ca9e/test/f490aa6c.java,735:735,Template,F,11,17,F,F,CharOnly,,,Secret,2.25,6,F,F,F,Password
 108228,f3788238,GitHub,9bc5ca9e,data/9bc5ca9e/test/f3788238.java,98:98,F,F,,,F,F,,,,,0.00,,F,F,F,
 108229,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,275:275,Template,F,11,17,F,F,CharOnly,,,Secret,2.25,6,F,F,F,Password
-114453,6126a578,GitHub,9bc5ca9e,data/9bc5ca9e/src/6126a578.java,68:68,F,F,,,F,F,,,,,0.00,,F,F,F,
-114454,6126a578,GitHub,9bc5ca9e,data/9bc5ca9e/src/6126a578.java,69:69,F,F,,,F,F,,,,,0.00,,F,F,F,
-114455,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,97:97,F,F,,,F,F,,,,,0.00,,F,F,F,
-114456,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,326:326,F,F,,,F,F,,,,,0.00,,F,F,F,
+114453,6126a578,GitHub,9bc5ca9e,data/9bc5ca9e/src/6126a578.java,68:68,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
+114454,6126a578,GitHub,9bc5ca9e,data/9bc5ca9e/src/6126a578.java,69:69,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
+114455,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,97:97,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
+114456,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,326:326,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
 131855,27e855cf,GitHub,9bc5ca9e,data/9bc5ca9e/test/27e855cf.json,2:2,T,F,,,F,F,,,,,0.00,,F,F,F,Other
 131856,27e855cf,GitHub,9bc5ca9e,data/9bc5ca9e/test/27e855cf.json,60:60,T,F,,,F,F,,,,,0.00,,F,F,F,Other
 131857,27e855cf,GitHub,9bc5ca9e,data/9bc5ca9e/test/27e855cf.json,75:75,T,F,,,F,F,,,,,0.00,,F,F,F,Other

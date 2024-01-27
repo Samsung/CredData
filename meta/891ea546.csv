@@ -1,5 +1,5 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-1395,38ca79c5,GitHub,891ea546,data/891ea546/src/38ca79c5.go,197:197,F,F,,,F,F,,,,,0,0,F,F,F,
+1395,38ca79c5,GitHub,891ea546,data/891ea546/src/38ca79c5.go,197:197,F,F,,,F,F,,,,,0,0,F,F,F,Password
 1937,3295df72,GitHub,891ea546,data/891ea546/src/3295df72.sum,789:789,F,F,,,F,F,,,,,0,0,F,F,F,
 1955,3295df72,GitHub,891ea546,data/891ea546/src/3295df72.sum,788:788,F,F,,,F,F,,,,,0,0,F,F,F,
 2109,3295df72,GitHub,891ea546,data/891ea546/src/3295df72.sum,794:794,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -22,27 +22,27 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 3479,3295df72,GitHub,891ea546,data/891ea546/src/3295df72.sum,246:246,F,F,,,F,F,,,,,0,0,F,F,F,
 3494,3295df72,GitHub,891ea546,data/891ea546/src/3295df72.sum,247:247,F,F,,,F,F,,,,,0,0,F,F,F,
 3530,3295df72,GitHub,891ea546,data/891ea546/src/3295df72.sum,74:74,F,F,,,F,F,,,,,0,0,F,F,F,
-5055,91aa9f61,GitHub,891ea546,data/891ea546/test/91aa9f61.go,15:15,F,F,,,F,F,,,,,0,0,F,F,F,
-5123,053f2f43,GitHub,891ea546,data/891ea546/test/053f2f43.go,19:19,F,F,,,F,F,,,,,0,0,F,F,F,
-5125,67c41b9f,GitHub,891ea546,data/891ea546/src/67c41b9f.go,123:123,F,F,,,F,F,,,,,0,0,F,F,F,
+5055,91aa9f61,GitHub,891ea546,data/891ea546/test/91aa9f61.go,15:15,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+5123,053f2f43,GitHub,891ea546,data/891ea546/test/053f2f43.go,19:19,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+5125,67c41b9f,GitHub,891ea546,data/891ea546/src/67c41b9f.go,123:123,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 5137,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,92:92,F,F,,,F,F,,,,,0,0,F,F,F,
 5460,82016115,GitHub,891ea546,data/891ea546/src/82016115.service,8:8,F,F,,,F,F,,,,,0,0,F,F,F,
 6238,a678cb31,GitHub,891ea546,data/891ea546/src/a678cb31.sh,53:53,F,F,,,F,F,,,,,0,0,F,F,F,
 6239,a678cb31,GitHub,891ea546,data/891ea546/src/a678cb31.sh,38:38,F,F,,,F,F,,,,,0,0,F,F,F,
-8732,14128680,GitHub,891ea546,data/891ea546/src/14128680.sql,12:12,F,F,,,F,F,,,,,0,0,F,F,F,
+8732,14128680,GitHub,891ea546,data/891ea546/src/14128680.sql,12:12,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 9334,5e983e1c,GitHub,891ea546,data/891ea546/src/5e983e1c.init,40:40,F,F,,,F,F,,,,,0,0,F,F,F,
-10970,38ca79c5,GitHub,891ea546,data/891ea546/src/38ca79c5.go,91:91,F,F,,,F,F,,,,,0,0,F,F,F,
-11901,14128680,GitHub,891ea546,data/891ea546/src/14128680.sql,13:13,F,F,,,F,F,,,,,0,0,F,F,F,
-20284,23f3a9eb,GitHub,891ea546,data/891ea546/src/23f3a9eb.go,345:345,F,F,,,F,F,,,,,0,0,F,F,F,
-20291,42356610,GitHub,891ea546,data/891ea546/src/42356610.go,280:280,F,F,,,F,F,,,,,0,0,F,F,F,
+10970,38ca79c5,GitHub,891ea546,data/891ea546/src/38ca79c5.go,91:91,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+11901,14128680,GitHub,891ea546,data/891ea546/src/14128680.sql,13:13,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+20284,23f3a9eb,GitHub,891ea546,data/891ea546/src/23f3a9eb.go,345:345,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+20291,42356610,GitHub,891ea546,data/891ea546/src/42356610.go,280:280,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 20935,e60d3d7a,GitHub,891ea546,data/891ea546/src/e60d3d7a.go,37:37,Template,T,81,88,F,F,CharOnly,,,Secret,2.81,7,F,F,F,Password
 21007,e60d3d7a,GitHub,891ea546,data/891ea546/src/e60d3d7a.go,39:39,F,F,,,F,F,,,,,0,0,F,F,F,
 21128,e60d3d7a,GitHub,891ea546,data/891ea546/src/e60d3d7a.go,35:35,Template,T,75,82,F,F,CharOnly,,,Secret,2.81,7,F,F,F,Password
 21129,570c8415,GitHub,891ea546,data/891ea546/src/570c8415.toml,13:13,Template,T,75,82,F,F,CharOnly,,,Secret,2.81,7,F,F,F,Password
-23127,46eb8535,GitHub,891ea546,data/891ea546/src/46eb8535.go,279:279,F,F,,,F,F,,,,,0,0,F,F,F,
+23127,46eb8535,GitHub,891ea546,data/891ea546/src/46eb8535.go,279:279,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 23304,5e983e1c,GitHub,891ea546,data/891ea546/src/5e983e1c.init,14:14,F,F,,,F,F,,,,,0,0,F,F,F,
-24664,46eb8535,GitHub,891ea546,data/891ea546/src/46eb8535.go,235:235,F,F,,,F,F,,,,,0,0,F,F,F,
-26983,7a1e5ecd,GitHub,891ea546,data/891ea546/src/7a1e5ecd.go,61:61,F,F,,,F,F,,,,,0,0,F,F,F,
+24664,46eb8535,GitHub,891ea546,data/891ea546/src/46eb8535.go,235:235,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+26983,7a1e5ecd,GitHub,891ea546,data/891ea546/src/7a1e5ecd.go,61:61,F,F,,,F,F,,,,,0,0,F,F,F,Password
 35472,e45e45ba,GitHub,891ea546,data/891ea546/src/e45e45ba.yml,32:32,F,F,16,29,F,F,,,,,0,0,F,F,F,
 35478,e45e45ba,GitHub,891ea546,data/891ea546/src/e45e45ba.yml,31:31,T,T,20,33,F,F,Any,,,Secret,3.11,13,F,F,F,Password
 35501,3659743a,GitHub,891ea546,data/891ea546/test/3659743a.pem,1:28,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,Private Key
@@ -53,42 +53,42 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 42973,e45e45ba,GitHub,891ea546,data/891ea546/src/e45e45ba.yml,22:22,T,T,41,54,T,F,Any,,,Secret,3.11,13,F,F,F,Password
 42974,e45e45ba,GitHub,891ea546,data/891ea546/src/e45e45ba.yml,23:23,T,T,45,58,T,F,Any,,,Secret,3.11,13,F,F,F,Password
 42975,e45e45ba,GitHub,891ea546,data/891ea546/src/e45e45ba.yml,26:26,T,T,33,38,T,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
-54012,42356610,GitHub,891ea546,data/891ea546/src/42356610.go,319:319,F,F,,,F,F,,,,,0,0,F,F,F,
+54012,42356610,GitHub,891ea546,data/891ea546/src/42356610.go,319:319,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 55588,570c8415,GitHub,891ea546,data/891ea546/src/570c8415.toml,17:17,F,F,,,F,F,,,,,0,0,F,F,F,
 58049,a678cb31,GitHub,891ea546,data/891ea546/src/a678cb31.sh,8:8,F,F,,,F,F,,,,,0,0,F,F,F,
-62048,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,100:100,F,F,,,F,F,,,,,0,0,F,F,F,
-62049,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,157:157,F,F,,,F,F,,,,,0,0,F,F,F,
-62050,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,204:204,F,F,,,F,F,,,,,0,0,F,F,F,
-62051,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,264:264,F,F,,,F,F,,,,,0,0,F,F,F,
-62052,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,312:312,F,F,,,F,F,,,,,0,0,F,F,F,
-62053,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,359:359,F,F,,,F,F,,,,,0,0,F,F,F,
-62054,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,402:402,F,F,,,F,F,,,,,0,0,F,F,F,
-62055,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,460:460,F,F,,,F,F,,,,,0,0,F,F,F,
-62056,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,516:516,F,F,,,F,F,,,,,0,0,F,F,F,
-62057,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,573:573,F,F,,,F,F,,,,,0,0,F,F,F,
-62058,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,617:617,F,F,,,F,F,,,,,0,0,F,F,F,
-62059,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,676:676,F,F,,,F,F,,,,,0,0,F,F,F,
-62060,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,736:736,F,F,,,F,F,,,,,0,0,F,F,F,
-62061,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,793:793,F,F,,,F,F,,,,,0,0,F,F,F,
-62062,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,840:840,F,F,,,F,F,,,,,0,0,F,F,F,
-62063,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,901:901,F,F,,,F,F,,,,,0,0,F,F,F,
-62064,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,958:958,F,F,,,F,F,,,,,0,0,F,F,F,
-62065,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,1009:1009,F,F,,,F,F,,,,,0,0,F,F,F,
-62070,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,104:104,F,F,,,F,F,,,,,0,0,F,F,F,
-62071,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,161:161,F,F,,,F,F,,,,,0,0,F,F,F,
-62072,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,208:208,F,F,,,F,F,,,,,0,0,F,F,F,
-62073,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,268:268,F,F,,,F,F,,,,,0,0,F,F,F,
-62074,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,316:316,F,F,,,F,F,,,,,0,0,F,F,F,
-62075,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,406:406,F,F,,,F,F,,,,,0,0,F,F,F,
-62076,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,520:520,F,F,,,F,F,,,,,0,0,F,F,F,
-62077,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,621:621,F,F,,,F,F,,,,,0,0,F,F,F,
-62078,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,740:740,F,F,,,F,F,,,,,0,0,F,F,F,
-62079,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,797:797,F,F,,,F,F,,,,,0,0,F,F,F,
-62080,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,844:844,F,F,,,F,F,,,,,0,0,F,F,F,
-62081,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,905:905,F,F,,,F,F,,,,,0,0,F,F,F,
-62082,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,962:962,F,F,,,F,F,,,,,0,0,F,F,F,
-62083,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,1013:1013,F,F,,,F,F,,,,,0,0,F,F,F,
-62084,053f2f43,GitHub,891ea546,data/891ea546/test/053f2f43.go,38:38,F,F,,,F,F,,,,,0,0,F,F,F,
+62048,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,100:100,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+62049,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,157:157,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+62050,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,204:204,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+62051,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,264:264,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+62052,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,312:312,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+62053,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,359:359,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+62054,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,402:402,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+62055,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,460:460,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+62056,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,516:516,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+62057,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,573:573,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+62058,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,617:617,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+62059,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,676:676,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+62060,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,736:736,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+62061,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,793:793,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+62062,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,840:840,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+62063,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,901:901,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+62064,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,958:958,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+62065,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,1009:1009,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+62070,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,104:104,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+62071,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,161:161,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+62072,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,208:208,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+62073,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,268:268,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+62074,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,316:316,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+62075,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,406:406,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+62076,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,520:520,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+62077,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,621:621,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+62078,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,740:740,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+62079,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,797:797,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+62080,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,844:844,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+62081,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,905:905,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+62082,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,962:962,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+62083,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,1013:1013,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+62084,053f2f43,GitHub,891ea546,data/891ea546/test/053f2f43.go,38:38,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 62087,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,149:149,F,F,,,F,F,,,,,0,0,F,F,F,
 62088,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,196:196,F,F,,,F,F,,,,,0,0,F,F,F,
 62089,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,256:256,F,F,,,F,F,,,,,0,0,F,F,F,
@@ -110,8 +110,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 62105,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,893:893,F,F,,,F,F,,,,,0,0,F,F,F,
 62106,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,950:950,F,F,,,F,F,,,,,0,0,F,F,F,
 62107,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,1001:1001,F,F,,,F,F,,,,,0,0,F,F,F,
-82483,7a1e5ecd,GitHub,891ea546,data/891ea546/src/7a1e5ecd.go,68:68,F,F,18,35,F,F,,,,,0,0,F,F,F,
-82484,7a1e5ecd,GitHub,891ea546,data/891ea546/src/7a1e5ecd.go,77:77,F,F,11,28,F,F,,,,,0,0,F,F,F,
+82483,7a1e5ecd,GitHub,891ea546,data/891ea546/src/7a1e5ecd.go,68:68,F,F,18,35,F,F,,,,,0,0,F,F,F,Password
+82484,7a1e5ecd,GitHub,891ea546,data/891ea546/src/7a1e5ecd.go,77:77,F,F,11,28,F,F,,,,,0,0,F,F,F,Password
 108585,e45e45ba,GitHub,891ea546,data/891ea546/src/e45e45ba.yml,21:21,Template,T,23,33,F,F,CharOnly,,,Secret,2.65,10,F,F,F,Password
 108586,e60d3d7a,GitHub,891ea546,data/891ea546/src/e60d3d7a.go,593:593,F,F,,,F,F,,,,,0.00,,F,F,F,
 108587,e60d3d7a,GitHub,891ea546,data/891ea546/src/e60d3d7a.go,945:945,F,F,,,F,F,,,,,0.00,,F,F,F,
@@ -127,5 +127,5 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 114664,3295df72,GitHub,891ea546,data/891ea546/src/3295df72.sum,648:648,F,F,,,F,F,,,,,0.00,,F,F,F,
 114665,3295df72,GitHub,891ea546,data/891ea546/src/3295df72.sum,649:649,F,F,,,F,F,,,,,0.00,,F,F,F,
 114666,3295df72,GitHub,891ea546,data/891ea546/src/3295df72.sum,64:64,F,F,,,F,F,,,,,0.00,,F,F,F,
-114667,e60d3d7a,GitHub,891ea546,data/891ea546/src/e60d3d7a.go,907:907,F,F,,,F,F,,,,,0.00,,F,F,F,
-131659,e60d3d7a,GitHub,891ea546,data/891ea546/src/e60d3d7a.go,594:594,F,F,,,F,F,,,,,0.00,,F,F,F,
+114667,e60d3d7a,GitHub,891ea546,data/891ea546/src/e60d3d7a.go,907:907,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
+131659,e60d3d7a,GitHub,891ea546,data/891ea546/src/e60d3d7a.go,594:594,F,F,,,F,F,,,,,0.00,,F,F,F,Password

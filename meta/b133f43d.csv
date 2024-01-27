@@ -1,21 +1,21 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-483,044e7d55,GitHub,b133f43d,data/b133f43d/other/044e7d55.md,14:14,F,F,,,F,F,,,,,0,0,F,F,F,
-484,137e5c87,GitHub,b133f43d,data/b133f43d/src/137e5c87.py,29:29,F,F,,,F,F,,,,,0,0,F,F,F,
-485,137e5c87,GitHub,b133f43d,data/b133f43d/src/137e5c87.py,30:30,F,F,,,F,F,,,,,0,0,F,F,F,
-486,2ca01fd6,GitHub,b133f43d,data/b133f43d/src/2ca01fd6.py,30:30,F,F,,,F,F,,,,,0,0,F,F,F,
+483,044e7d55,GitHub,b133f43d,data/b133f43d/other/044e7d55.md,14:14,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+484,137e5c87,GitHub,b133f43d,data/b133f43d/src/137e5c87.py,29:29,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+485,137e5c87,GitHub,b133f43d,data/b133f43d/src/137e5c87.py,30:30,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+486,2ca01fd6,GitHub,b133f43d,data/b133f43d/src/2ca01fd6.py,30:30,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 1617,55c545e2,GitHub,b133f43d,data/b133f43d/src/55c545e2.j2,11:11,T,F,18,23,T,F,CharOnly,,,Secret,2.32,5,F,F,F,Other
 5645,ee7f4b87,GitHub,b133f43d,data/b133f43d/src/ee7f4b87.yml,5:5,F,F,,,F,F,,,,,0,0,F,F,F,
-5900,21ff5a06,GitHub,b133f43d,data/b133f43d/test/21ff5a06.yml,2:2,F,F,,,F,F,,,,,0,0,F,F,F,
+5900,21ff5a06,GitHub,b133f43d,data/b133f43d/test/21ff5a06.yml,2:2,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 6459,80f0c7c2,GitHub,b133f43d,data/b133f43d/src/80f0c7c2.yml,151:151,F,F,,,F,F,,,,,0,0,F,F,F,
-8516,2ca01fd6,GitHub,b133f43d,data/b133f43d/src/2ca01fd6.py,147:147,F,F,,,F,F,,,,,0,0,F,F,F,
-11243,76a96497,GitHub,b133f43d,data/b133f43d/src/76a96497.yml,46:46,F,F,,,F,F,,,,,0,0,F,F,F,
-11506,cf768e6e,GitHub,b133f43d,data/b133f43d/src/cf768e6e.yml,21:21,F,F,,,F,F,,,,,0,0,F,F,F,
+8516,2ca01fd6,GitHub,b133f43d,data/b133f43d/src/2ca01fd6.py,147:147,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+11243,76a96497,GitHub,b133f43d,data/b133f43d/src/76a96497.yml,46:46,F,F,,,F,F,,,,,0,0,F,F,F,Password
+11506,cf768e6e,GitHub,b133f43d,data/b133f43d/src/cf768e6e.yml,21:21,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 11764,923701a9,GitHub,b133f43d,data/b133f43d/src/923701a9.yml,5:5,F,F,,,F,F,,,,,0,0,F,F,F,
 16930,8152c2de,GitHub,b133f43d,data/b133f43d/src/8152c2de.j2,52:52,F,F,,,F,F,,,,,0,0,F,F,F,
-17832,21342b01,GitHub,b133f43d,data/b133f43d/other/21342b01.md,58:58,F,F,,,F,F,,,,,0,0,F,F,F,
-17833,21342b01,GitHub,b133f43d,data/b133f43d/other/21342b01.md,75:75,F,F,,,F,F,,,,,0,0,F,F,F,
-17877,21342b01,GitHub,b133f43d,data/b133f43d/other/21342b01.md,76:76,F,F,,,F,F,,,,,0,0,F,F,F,
-21798,a538d193,GitHub,b133f43d,data/b133f43d/other/a538d193.md,21:21,F,F,,,F,F,,,,,0,0,F,F,F,
+17832,21342b01,GitHub,b133f43d,data/b133f43d/other/21342b01.md,58:58,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+17833,21342b01,GitHub,b133f43d,data/b133f43d/other/21342b01.md,75:75,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+17877,21342b01,GitHub,b133f43d,data/b133f43d/other/21342b01.md,76:76,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+21798,a538d193,GitHub,b133f43d,data/b133f43d/other/a538d193.md,21:21,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 28881,80f0c7c2,GitHub,b133f43d,data/b133f43d/src/80f0c7c2.yml,102:102,Template,F,11,15,F,F,NumbersOnly,,,Secret,2.00,4,F,F,F,Password
 29114,8152c2de,GitHub,b133f43d,data/b133f43d/src/8152c2de.j2,53:53,Template,T,13,19,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
 29904,a3f1936a,GitHub,b133f43d,data/b133f43d/src/a3f1936a.yml,14:14,Template,T,10,16,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
@@ -30,17 +30,17 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 40669,ee7f4b87,GitHub,b133f43d,data/b133f43d/src/ee7f4b87.yml,7:7,T,F,5,35,F,F,Any,,,Unknown,3.53,30,F,F,F,Other
 40670,ee7f4b87,GitHub,b133f43d,data/b133f43d/src/ee7f4b87.yml,8:8,T,F,6,36,F,F,Any,,,Unknown,3.31,30,F,F,F,Other
 40671,ee7f4b87,GitHub,b133f43d,data/b133f43d/src/ee7f4b87.yml,9:9,T,F,6,36,F,F,Any,,,Unknown,3.49,30,F,F,F,Other
-42019,2ca01fd6,GitHub,b133f43d,data/b133f43d/src/2ca01fd6.py,29:29,F,F,,,F,F,,,,,0,0,F,F,F,
-42020,2ca01fd6,GitHub,b133f43d,data/b133f43d/src/2ca01fd6.py,339:339,F,F,,,F,F,,,,,0,0,F,F,F,
-42021,2ca01fd6,GitHub,b133f43d,data/b133f43d/src/2ca01fd6.py,341:341,F,F,,,F,F,,,,,0,0,F,F,F,
-42239,137e5c87,GitHub,b133f43d,data/b133f43d/src/137e5c87.py,339:339,F,F,,,F,F,,,,,0,0,F,F,F,
-42240,137e5c87,GitHub,b133f43d,data/b133f43d/src/137e5c87.py,341:341,F,F,,,F,F,,,,,0,0,F,F,F,
+42019,2ca01fd6,GitHub,b133f43d,data/b133f43d/src/2ca01fd6.py,29:29,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+42020,2ca01fd6,GitHub,b133f43d,data/b133f43d/src/2ca01fd6.py,339:339,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+42021,2ca01fd6,GitHub,b133f43d,data/b133f43d/src/2ca01fd6.py,341:341,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+42239,137e5c87,GitHub,b133f43d,data/b133f43d/src/137e5c87.py,339:339,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+42240,137e5c87,GitHub,b133f43d,data/b133f43d/src/137e5c87.py,341:341,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 42475,a3f1936a,GitHub,b133f43d,data/b133f43d/src/a3f1936a.yml,18:18,Template,T,10,16,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
 63234,80f0c7c2,GitHub,b133f43d,data/b133f43d/src/80f0c7c2.yml,159:159,F,F,,,F,F,,,,,0,0,F,F,F,
 63235,80f0c7c2,GitHub,b133f43d,data/b133f43d/src/80f0c7c2.yml,172:172,F,F,,,F,F,,,,,0,0,F,F,F,
 74584,ee7f4b87,GitHub,b133f43d,data/b133f43d/src/ee7f4b87.yml,25:25,F,F,,,F,F,,,,,0,0,F,F,F,
 74713,80f0c7c2,GitHub,b133f43d,data/b133f43d/src/80f0c7c2.yml,111:111,Template,F,11,15,F,F,NumbersOnly,,,Secret,2.00,4,F,F,F,Password
-75216,137e5c87,GitHub,b133f43d,data/b133f43d/src/137e5c87.py,147:147,F,F,,,F,F,,,,,0,0,F,F,F,
+75216,137e5c87,GitHub,b133f43d,data/b133f43d/src/137e5c87.py,147:147,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 108432,21342b01,GitHub,b133f43d,data/b133f43d/other/21342b01.md,71:71,F,F,,,F,F,,,,,0.00,,F,F,F,
-108433,ee7f4b87,GitHub,b133f43d,data/b133f43d/src/ee7f4b87.yml,16:16,F,F,,,F,F,,,,,0.00,,F,F,F,
-114556,ee7f4b87,GitHub,b133f43d,data/b133f43d/src/ee7f4b87.yml,14:14,F,F,,,F,F,,,,,0.00,,F,F,F,
+108433,ee7f4b87,GitHub,b133f43d,data/b133f43d/src/ee7f4b87.yml,16:16,F,F,,,F,F,,,,,0.00,,F,F,F,Password
+114556,ee7f4b87,GitHub,b133f43d,data/b133f43d/src/ee7f4b87.yml,14:14,F,F,,,F,F,,,,,0.00,,F,F,F,Password

@@ -13,9 +13,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 3541,3295df72,GitHub,cd82f1a2,data/cd82f1a2/src/3295df72.sum,74:74,F,F,,,F,F,,,,,0,0,F,F,F,
 3565,3295df72,GitHub,cd82f1a2,data/cd82f1a2/src/3295df72.sum,76:76,F,F,,,F,F,,,,,0,0,F,F,F,
 3566,3295df72,GitHub,cd82f1a2,data/cd82f1a2/src/3295df72.sum,75:75,F,F,,,F,F,,,,,0,0,F,F,F,
-5860,b95af763,GitHub,cd82f1a2,data/cd82f1a2/src/b95af763.yaml,1:1,F,F,,,F,F,,,,,0,0,F,F,F,
-21709,bbaebbdc,GitHub,cd82f1a2,data/cd82f1a2/test/bbaebbdc.json,2:2,F,F,,,F,F,,,,,0,0,F,F,F,
-22710,fdd46201,GitHub,cd82f1a2,data/cd82f1a2/src/fdd46201.go,139:139,F,F,,,F,F,,,,,0,0,F,F,F,
+5860,b95af763,GitHub,cd82f1a2,data/cd82f1a2/src/b95af763.yaml,1:1,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+21709,bbaebbdc,GitHub,cd82f1a2,data/cd82f1a2/test/bbaebbdc.json,2:2,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+22710,fdd46201,GitHub,cd82f1a2,data/cd82f1a2/src/fdd46201.go,139:139,F,F,,,F,F,,,,,0,0,F,F,F,Password
 25238,1062d67e,GitHub,cd82f1a2,data/cd82f1a2/src/1062d67e.html,5:5,F,F,,,F,F,,,,,0,0,F,F,F,
 28862,81801117,GitHub,cd82f1a2,data/cd82f1a2/src/81801117.yaml,42:42,Template,F,26,31,F,F,NumbersOnly,,,Secret,2.32,5,F,F,F,Password
 28891,22cc89ae,GitHub,cd82f1a2,data/cd82f1a2/other/22cc89ae.md,52:52,Template,F,11,16,F,F,CharsOnly,,,Secret,0,5,F,F,F,Password
@@ -33,8 +33,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 62450,4770a7ca,GitHub,cd82f1a2,data/cd82f1a2/test/4770a7ca.go,71:71,F,F,,,F,F,,,,,0,0,F,F,F,
 62460,b3f11bd9,GitHub,cd82f1a2,data/cd82f1a2/test/b3f11bd9.go,49:49,F,F,,,F,F,,,,,0,0,F,F,F,
 62461,b3f11bd9,GitHub,cd82f1a2,data/cd82f1a2/test/b3f11bd9.go,72:72,F,F,,,F,F,,,,,0,0,F,F,F,
-76356,b3f11bd9,GitHub,cd82f1a2,data/cd82f1a2/test/b3f11bd9.go,81:81,F,F,,,F,F,,,,,0,0,F,F,F,
-76357,b3f11bd9,GitHub,cd82f1a2,data/cd82f1a2/test/b3f11bd9.go,55:55,F,F,,,F,F,,,,,0,0,F,F,F,
+76356,b3f11bd9,GitHub,cd82f1a2,data/cd82f1a2/test/b3f11bd9.go,81:81,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+76357,b3f11bd9,GitHub,cd82f1a2,data/cd82f1a2/test/b3f11bd9.go,55:55,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
 76446,22cc89ae,GitHub,cd82f1a2,data/cd82f1a2/other/22cc89ae.md,51:51,F,F,,,F,F,,,,,0,0,F,F,F,
 76447,22cc89ae,GitHub,cd82f1a2,data/cd82f1a2/other/22cc89ae.md,65:65,F,F,,,F,F,,,,,0,0,F,F,F,
 82640,b3f11bd9,GitHub,cd82f1a2,data/cd82f1a2/test/b3f11bd9.go,80:80,Template,T,27,33,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
