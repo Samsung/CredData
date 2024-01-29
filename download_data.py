@@ -160,7 +160,7 @@ def move_files(temp_dir, dataset_dir):
         with open(meta_file_path) as csvfile:
             meta_reader = csv.DictReader(csvfile)
             for row in meta_reader:
-                assert 22 == len(row), row
+                assert 22 == len(row) and row["Category"], row
                 key = row["FileID"]
                 file_path = row["FilePath"]
                 if key in interesting_files:
