@@ -1,34 +1,23 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-151,1a45269b,GitHub,b8d8b8c3,data/b8d8b8c3/src/1a45269b.rst,160:160,F,F,,,F,F,,,,,0,0,F,F,F,
-152,2a8553a0,GitHub,b8d8b8c3,data/b8d8b8c3/src/2a8553a0.rst,222:222,F,F,,,F,F,,,,,0,0,F,F,F,
-162,2a8553a0,GitHub,b8d8b8c3,data/b8d8b8c3/src/2a8553a0.rst,63:63,F,F,,,F,F,,,,,0,0,F,F,F,
-2831,7513cc5c,GitHub,b8d8b8c3,data/b8d8b8c3/test/7513cc5c.py,162:162,F,F,,,F,F,,,,,0,0,F,F,F,
-2834,2a8553a0,GitHub,b8d8b8c3,data/b8d8b8c3/src/2a8553a0.rst,192:192,F,F,,,F,F,,,,,0,0,F,F,F,
-3056,51274e21,GitHub,b8d8b8c3,data/b8d8b8c3/src/51274e21.py,198:198,F,F,,,F,F,,,,,0,0,F,F,F,
-7952,1a45269b,GitHub,b8d8b8c3,data/b8d8b8c3/src/1a45269b.rst,144:144,F,F,,,F,F,,,,,0,0,F,F,F,
-8415,2a8553a0,GitHub,b8d8b8c3,data/b8d8b8c3/src/2a8553a0.rst,96:96,F,F,,,F,F,,,,,0,0,F,F,F,
-10216,2a8553a0,GitHub,b8d8b8c3,data/b8d8b8c3/src/2a8553a0.rst,172:172,F,F,,,F,F,,,,,0,0,F,F,F,
-10370,1edaa2a1,GitHub,b8d8b8c3,data/b8d8b8c3/src/1edaa2a1.rst,443:443,F,F,,,F,F,,,,,0,0,F,F,F,
-10371,2a8553a0,GitHub,b8d8b8c3,data/b8d8b8c3/src/2a8553a0.rst,78:78,F,F,,,F,F,,,,,0,0,F,F,F,
-10537,2a8553a0,GitHub,b8d8b8c3,data/b8d8b8c3/src/2a8553a0.rst,62:62,F,F,,,F,F,,,,,0,0,F,F,F,
-12858,95557d53,GitHub,b8d8b8c3,data/b8d8b8c3/test/95557d53.yaml,50:50,F,F,,,F,F,,,,,0,0,F,F,F,
-12860,95557d53,GitHub,b8d8b8c3,data/b8d8b8c3/test/95557d53.yaml,33:33,F,F,,,F,F,,,,,0,0,F,F,F,
-17208,2a8553a0,GitHub,b8d8b8c3,data/b8d8b8c3/src/2a8553a0.rst,148:148,F,F,,,F,F,,,,,0,0,F,F,F,
-20665,c8f2f66c,GitHub,b8d8b8c3,data/b8d8b8c3/test/c8f2f66c.py,52:52,F,F,,,F,F,,,,,0,0,F,F,F,
-24662,4b9470a8,GitHub,b8d8b8c3,data/b8d8b8c3/src/4b9470a8.rst,76:76,F,F,,,F,F,,,,,0,0,F,F,F,
-26204,2a8553a0,GitHub,b8d8b8c3,data/b8d8b8c3/src/2a8553a0.rst,170:170,F,F,,,F,F,,,,,0,0,F,F,F,
-27764,7513cc5c,GitHub,b8d8b8c3,data/b8d8b8c3/test/7513cc5c.py,149:149,F,F,13,69,F,F,,,,,0,0,F,F,F,
+2831,7513cc5c,GitHub,b8d8b8c3,data/b8d8b8c3/test/7513cc5c.py,162:162,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+2834,2a8553a0,GitHub,b8d8b8c3,data/b8d8b8c3/src/2a8553a0.rst,192:192,F,F,,,F,F,,,,,0,0,F,F,F,Other
+3056,51274e21,GitHub,b8d8b8c3,data/b8d8b8c3/src/51274e21.py,198:198,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+7952,1a45269b,GitHub,b8d8b8c3,data/b8d8b8c3/src/1a45269b.rst,144:144,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+12858,95557d53,GitHub,b8d8b8c3,data/b8d8b8c3/test/95557d53.yaml,50:50,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+12860,95557d53,GitHub,b8d8b8c3,data/b8d8b8c3/test/95557d53.yaml,33:33,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+20665,c8f2f66c,GitHub,b8d8b8c3,data/b8d8b8c3/test/c8f2f66c.py,52:52,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+27764,7513cc5c,GitHub,b8d8b8c3,data/b8d8b8c3/test/7513cc5c.py,149:149,F,F,13,69,F,F,,,,,0,0,F,F,F,Generic Token
 30030,1a45269b,GitHub,b8d8b8c3,data/b8d8b8c3/src/1a45269b.rst,132:132,Template,F,14,24,F,F,NumbersOnly,,,Secret,3.32,10,F,F,F,Password
 30656,1a45269b,GitHub,b8d8b8c3,data/b8d8b8c3/src/1a45269b.rst,268:268,Template,F,14,15,F,F,CharsOnly,,,Secret,0,1,F,F,F,Generic Secret
 31394,7513cc5c,GitHub,b8d8b8c3,data/b8d8b8c3/test/7513cc5c.py,63:63,Template,T,40,50,F,F,CharsOnly,,,Token,3.12,10,F,F,F,Generic Token
 31395,7513cc5c,GitHub,b8d8b8c3,data/b8d8b8c3/test/7513cc5c.py,77:77,Template,T,36,46,F,F,CharsOnly,,,Token,3.12,10,F,F,F,Generic Token
-47666,7513cc5c,GitHub,b8d8b8c3,data/b8d8b8c3/test/7513cc5c.py,123:123,F,F,,,F,F,,,,,0,0,F,F,F,
-63901,2a8553a0,GitHub,b8d8b8c3,data/b8d8b8c3/src/2a8553a0.rst,228:228,F,F,,,F,F,,,,,0,0,F,F,F,
-74243,95557d53,GitHub,b8d8b8c3,data/b8d8b8c3/test/95557d53.yaml,46:46,F,F,,,F,F,,,,,0,0,F,F,F,
-74244,95557d53,GitHub,b8d8b8c3,data/b8d8b8c3/test/95557d53.yaml,63:63,F,F,,,F,F,,,,,0,0,F,F,F,
-76412,2a8553a0,GitHub,b8d8b8c3,data/b8d8b8c3/src/2a8553a0.rst,264:264,F,F,,,F,F,,,,,0,0,F,F,F,
+47666,7513cc5c,GitHub,b8d8b8c3,data/b8d8b8c3/test/7513cc5c.py,123:123,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+74243,95557d53,GitHub,b8d8b8c3,data/b8d8b8c3/test/95557d53.yaml,46:46,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+74244,95557d53,GitHub,b8d8b8c3,data/b8d8b8c3/test/95557d53.yaml,63:63,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 100684,1a45269b,GitHub,b8d8b8c3,data/b8d8b8c3/src/1a45269b.rst,32:32,Template,F,16,22,F,F,CharOnly,,,Secret,2.25,6,F,F,F,Password
-100685,1a45269b,GitHub,b8d8b8c3,data/b8d8b8c3/src/1a45269b.rst,303:303,F,F,,,F,F,,,,,0.00,,F,F,F,
+100685,1a45269b,GitHub,b8d8b8c3,data/b8d8b8c3/src/1a45269b.rst,303:303,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100686,7513cc5c,GitHub,b8d8b8c3,data/b8d8b8c3/test/7513cc5c.py,87:87,Template,F,16,22,F,F,CharOnly,,,Secret,2.25,6,F,F,F,Password
-100687,2a8553a0,GitHub,b8d8b8c3,data/b8d8b8c3/src/2a8553a0.rst,265:265,F,F,,,F,F,,,,,0.00,,F,F,F,
-100688,1a45269b,GitHub,b8d8b8c3,data/b8d8b8c3/src/1a45269b.rst,137:137,F,F,,,F,F,,,,,0.00,,F,F,F,
+100687,2a8553a0,GitHub,b8d8b8c3,data/b8d8b8c3/src/2a8553a0.rst,265:265,F,F,,,F,F,,,,,0.00,,F,F,F,Password
+100688,1a45269b,GitHub,b8d8b8c3,data/b8d8b8c3/src/1a45269b.rst,137:137,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+134348,7513cc5c,GitHub,b8d8b8c3,data/b8d8b8c3/test/7513cc5c.py,128:128,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+134349,7513cc5c,GitHub,b8d8b8c3,data/b8d8b8c3/test/7513cc5c.py,136:136,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
