@@ -44,7 +44,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 27536,0c944631,GitHub,77a3d7d7,data/77a3d7d7/test/0c944631.groovy,29:29,T,T,38,420,F,F,Any,,JSON Web Token,Token,5.69,382,F,F,F,Predefined Pattern
 27546,0c944631,GitHub,77a3d7d7,data/77a3d7d7/test/0c944631.groovy,30:30,T,T,38,590,F,F,Any,,JSON Web Token,Token,5.72,552,F,F,F,Predefined Pattern
 27547,0c944631,GitHub,77a3d7d7,data/77a3d7d7/test/0c944631.groovy,31:31,T,F,38,761,F,F,Any,,JSON Web Token,Token,5.75,723,F,F,F,Predefined Pattern
-28005,8da28455,GitHub,77a3d7d7,data/77a3d7d7/test/8da28455.groovy,178:178,F,F,16,192,F,F,,,,,0,0,F,F,F,
+28005,8da28455,GitHub,77a3d7d7,data/77a3d7d7/test/8da28455.groovy,178:178,F,F,16,192,F,F,,,,,0,0,F,F,F,Generic Secret
 28029,cd85c887,GitHub,77a3d7d7,data/77a3d7d7/test/cd85c887.groovy,78:78,T,F,24,104,F,F,Any,,JSON Web Token,Token,5.01,80,F,F,F,Predefined Pattern
 28032,a8f21812,GitHub,77a3d7d7,data/77a3d7d7/test/a8f21812.groovy,111:111,T,F,18,132,F,F,Any,,JSON Web Token,Token,5.30,114,F,F,F,Predefined Pattern
 28063,a82445ea,GitHub,77a3d7d7,data/77a3d7d7/test/a82445ea.groovy,31:31,F,F,37,119,F,F,,,,,0,0,F,F,F,Other
@@ -138,7 +138,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 75421,48068e40,GitHub,77a3d7d7,data/77a3d7d7/src/48068e40.java,101:101,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 75422,48068e40,GitHub,77a3d7d7,data/77a3d7d7/src/48068e40.java,206:206,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 100211,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b3356305.md,381:381,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-100212,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b3356305.md,480:480,F,F,,,F,F,,,,,0.00,,F,F,F,
+100212,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b3356305.md,480:480,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100213,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b3356305.md,606:606,F,F,,,F,F,,,,,0.00,,F,F,F,Other
 100214,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b3356305.md,609:609,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100215,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b3356305.md,618:618,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
@@ -146,32 +146,32 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 100217,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b3356305.md,882:882,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100218,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b3356305.md,886:886,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100219,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b3356305.md,890:890,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-100220,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b3356305.md,892:892,F,F,,,F,F,,,,,0.00,,F,F,F,
-100221,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b3356305.md,977:977,F,F,,,F,F,,,,,0.00,,F,F,F,
-100222,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b3356305.md,1087:1087,F,F,,,F,F,,,,,0.00,,F,F,F,
-100223,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b3356305.md,1530:1530,F,F,,,F,F,,,,,0.00,,F,F,F,
-100224,48068e40,GitHub,77a3d7d7,data/77a3d7d7/src/48068e40.java,198:198,F,F,,,F,F,,,,,0.00,,F,F,F,
-100225,904d0467,GitHub,77a3d7d7,data/77a3d7d7/src/904d0467.java,158:158,F,F,,,F,F,,,,,0.00,,F,F,F,
-100226,311f58f1,GitHub,77a3d7d7,data/77a3d7d7/test/311f58f1.groovy,192:192,F,F,,,F,F,,,,,0.00,,F,F,F,
-100227,311f58f1,GitHub,77a3d7d7,data/77a3d7d7/test/311f58f1.groovy,323:323,F,F,,,F,F,,,,,0.00,,F,F,F,
-100228,311f58f1,GitHub,77a3d7d7,data/77a3d7d7/test/311f58f1.groovy,681:681,F,F,,,F,F,,,,,0.00,,F,F,F,
-100229,e4285225,GitHub,77a3d7d7,data/77a3d7d7/test/e4285225.groovy,53:53,F,F,,,F,F,,,,,0.00,,F,F,F,
+100220,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b3356305.md,892:892,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+100221,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b3356305.md,977:977,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+100222,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b3356305.md,1087:1087,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+100223,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b3356305.md,1530:1530,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+100224,48068e40,GitHub,77a3d7d7,data/77a3d7d7/src/48068e40.java,198:198,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+100225,904d0467,GitHub,77a3d7d7,data/77a3d7d7/src/904d0467.java,158:158,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+100226,311f58f1,GitHub,77a3d7d7,data/77a3d7d7/test/311f58f1.groovy,192:192,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+100227,311f58f1,GitHub,77a3d7d7,data/77a3d7d7/test/311f58f1.groovy,323:323,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+100228,311f58f1,GitHub,77a3d7d7,data/77a3d7d7/test/311f58f1.groovy,681:681,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+100229,e4285225,GitHub,77a3d7d7,data/77a3d7d7/test/e4285225.groovy,53:53,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100230,e4285225,GitHub,77a3d7d7,data/77a3d7d7/test/e4285225.groovy,68:68,F,F,,,F,F,,,,,0.00,,F,F,F,Other
 100231,a8f21812,GitHub,77a3d7d7,data/77a3d7d7/test/a8f21812.groovy,568:568,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-100232,a8f21812,GitHub,77a3d7d7,data/77a3d7d7/test/a8f21812.groovy,646:646,F,F,,,F,F,,,,,0.00,,F,F,F,
-100233,a8f21812,GitHub,77a3d7d7,data/77a3d7d7/test/a8f21812.groovy,678:678,F,F,,,F,F,,,,,0.00,,F,F,F,
-100234,a8f21812,GitHub,77a3d7d7,data/77a3d7d7/test/a8f21812.groovy,710:710,F,F,,,F,F,,,,,0.00,,F,F,F,
-100235,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b3356305.md,392:392,F,F,,,F,F,,,,,0.00,,F,F,F,
-100238,311f58f1,GitHub,77a3d7d7,data/77a3d7d7/test/311f58f1.groovy,461:461,F,F,,,F,F,,,,,0.00,,F,F,F,
-100240,311f58f1,GitHub,77a3d7d7,data/77a3d7d7/test/311f58f1.groovy,758:758,F,F,,,F,F,,,,,0.00,,F,F,F,
-100241,311f58f1,GitHub,77a3d7d7,data/77a3d7d7/test/311f58f1.groovy,772:772,F,F,,,F,F,,,,,0.00,,F,F,F,
-100242,7a596cb2,GitHub,77a3d7d7,data/77a3d7d7/test/7a596cb2.groovy,719:719,F,F,,,F,F,,,,,0.00,,F,F,F,
-100243,cd85c887,GitHub,77a3d7d7,data/77a3d7d7/test/cd85c887.groovy,46:46,F,F,,,F,F,,,,,0.00,,F,F,F,
-100244,cd85c887,GitHub,77a3d7d7,data/77a3d7d7/test/cd85c887.groovy,47:47,F,F,,,F,F,,,,,0.00,,F,F,F,
-100245,cd85c887,GitHub,77a3d7d7,data/77a3d7d7/test/cd85c887.groovy,103:103,F,F,,,F,F,,,,,0.00,,F,F,F,
-100246,cd85c887,GitHub,77a3d7d7,data/77a3d7d7/test/cd85c887.groovy,122:122,F,F,,,F,F,,,,,0.00,,F,F,F,
-100247,cd85c887,GitHub,77a3d7d7,data/77a3d7d7/test/cd85c887.groovy,127:127,F,F,,,F,F,,,,,0.00,,F,F,F,
-100248,cd85c887,GitHub,77a3d7d7,data/77a3d7d7/test/cd85c887.groovy,144:144,F,F,,,F,F,,,,,0.00,,F,F,F,
+100232,a8f21812,GitHub,77a3d7d7,data/77a3d7d7/test/a8f21812.groovy,646:646,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+100233,a8f21812,GitHub,77a3d7d7,data/77a3d7d7/test/a8f21812.groovy,678:678,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+100234,a8f21812,GitHub,77a3d7d7,data/77a3d7d7/test/a8f21812.groovy,710:710,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+100235,b3356305,GitHub,77a3d7d7,data/77a3d7d7/other/b3356305.md,392:392,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+100238,311f58f1,GitHub,77a3d7d7,data/77a3d7d7/test/311f58f1.groovy,461:461,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+100240,311f58f1,GitHub,77a3d7d7,data/77a3d7d7/test/311f58f1.groovy,758:758,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+100241,311f58f1,GitHub,77a3d7d7,data/77a3d7d7/test/311f58f1.groovy,772:772,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+100242,7a596cb2,GitHub,77a3d7d7,data/77a3d7d7/test/7a596cb2.groovy,719:719,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+100243,cd85c887,GitHub,77a3d7d7,data/77a3d7d7/test/cd85c887.groovy,46:46,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+100244,cd85c887,GitHub,77a3d7d7,data/77a3d7d7/test/cd85c887.groovy,47:47,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+100245,cd85c887,GitHub,77a3d7d7,data/77a3d7d7/test/cd85c887.groovy,103:103,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+100246,cd85c887,GitHub,77a3d7d7,data/77a3d7d7/test/cd85c887.groovy,122:122,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+100247,cd85c887,GitHub,77a3d7d7,data/77a3d7d7/test/cd85c887.groovy,127:127,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+100248,cd85c887,GitHub,77a3d7d7,data/77a3d7d7/test/cd85c887.groovy,144:144,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 110039,311f58f1,GitHub,77a3d7d7,data/77a3d7d7/test/311f58f1.groovy,229:229,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 130015,fce6a5c7,GitHub,77a3d7d7,data/77a3d7d7/src/fce6a5c7.java,402:402,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 131901,a82445ea,GitHub,77a3d7d7,data/77a3d7d7/test/a82445ea.groovy,20:20,T,F,,,F,F,,,,,0.00,,F,F,F,Other

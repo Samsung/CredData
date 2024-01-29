@@ -1,10 +1,10 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-1098,15b2450b,GitHub,8ba59c91,data/8ba59c91/src/15b2450b.ts,91:91,F,F,,,F,F,,,,,0,0,F,F,F,
-11267,9aec90b5,GitHub,8ba59c91,data/8ba59c91/src/9aec90b5.pug,12:12,F,F,,,F,F,,,,,0,0,F,F,F,
-11388,d6f86621,GitHub,8ba59c91,data/8ba59c91/src/d6f86621.ts,95:95,F,F,,,F,F,,,,,0,0,F,F,F,
-11389,d6f86621,GitHub,8ba59c91,data/8ba59c91/src/d6f86621.ts,89:89,F,F,,,F,F,,,,,0,0,F,F,F,
-11390,d6f86621,GitHub,8ba59c91,data/8ba59c91/src/d6f86621.ts,84:84,F,F,,,F,F,,,,,0,0,F,F,F,
-11391,d6f86621,GitHub,8ba59c91,data/8ba59c91/src/d6f86621.ts,101:101,F,F,,,F,F,,,,,0,0,F,F,F,
+1098,15b2450b,GitHub,8ba59c91,data/8ba59c91/src/15b2450b.ts,91:91,F,F,,,F,F,,,,,0,0,F,F,F,Password
+11267,9aec90b5,GitHub,8ba59c91,data/8ba59c91/src/9aec90b5.pug,12:12,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+11388,d6f86621,GitHub,8ba59c91,data/8ba59c91/src/d6f86621.ts,95:95,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+11389,d6f86621,GitHub,8ba59c91,data/8ba59c91/src/d6f86621.ts,89:89,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+11390,d6f86621,GitHub,8ba59c91,data/8ba59c91/src/d6f86621.ts,84:84,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+11391,d6f86621,GitHub,8ba59c91,data/8ba59c91/src/d6f86621.ts,101:101,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 11827,8f3c4cb2,GitHub,8ba59c91,data/8ba59c91/src/8f3c4cb2.yml,1:1,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 14990,1dd65705,GitHub,8ba59c91,data/8ba59c91/src/1dd65705.json,10:10,F,F,,,F,F,,,,,0,0,F,F,F,Password
 14995,1e9b956c,GitHub,8ba59c91,data/8ba59c91/src/1e9b956c.json,10:10,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -437,7 +437,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 18893,273ee255,GitHub,8ba59c91,data/8ba59c91/src/273ee255.json,282:282,F,F,,,F,F,,,,,0,0,F,F,F,Password
 18898,0ba49240,GitHub,8ba59c91,data/8ba59c91/src/0ba49240.json,282:282,F,F,,,F,F,,,,,0,0,F,F,F,Password
 18906,f44ab553,GitHub,8ba59c91,data/8ba59c91/src/f44ab553.json,282:282,F,F,,,F,F,,,,,0,0,F,F,F,Password
-26628,b3356305,GitHub,8ba59c91,data/8ba59c91/other/b3356305.md,23:23,F,F,,,F,F,,,,,0,0,F,F,F,
+26628,b3356305,GitHub,8ba59c91,data/8ba59c91/other/b3356305.md,23:23,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 27676,b4ff962d,GitHub,8ba59c91,data/8ba59c91/src/b4ff962d.ts,115:115,F,F,14,14,F,F,,,,,0,0,F,F,F,Password
 28148,b4ff962d,GitHub,8ba59c91,data/8ba59c91/src/b4ff962d.ts,135:135,Template,T,26,31,F,F,Any,,,Secret,0,5,F,F,F,Password
 28335,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,203:203,T,F,11,30,T,F,Any,,,Secret,2.18,19,F,F,F,Password
@@ -455,7 +455,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 35814,953c13b1,GitHub,8ba59c91,data/8ba59c91/src/953c13b1.ts,92:92,F,F,84,104,F,F,Any,,,Secret,3.92,20,F,F,F,Password
 35828,04593541,GitHub,8ba59c91,data/8ba59c91/src/04593541.ts,64:64,F,T,71,83,F,F,CharsOnly,,,Token,3.02,12,F,F,F,Generic Token
 41201,d6f86621,GitHub,8ba59c91,data/8ba59c91/src/d6f86621.ts,40:40,T,F,31,186,F,F,Any,,JSON Web Token,Token,5.32,155,F,F,F,Predefined Pattern
-41202,8f3c4cb2,GitHub,8ba59c91,data/8ba59c91/src/8f3c4cb2.yml,40:40,F,F,,,F,F,,,,,0,0,F,F,F,
 41203,1dd65705,GitHub,8ba59c91,data/8ba59c91/src/1dd65705.json,11:11,F,F,,,F,F,,,,,0,0,F,F,F,Password
 41204,1dd65705,GitHub,8ba59c91,data/8ba59c91/src/1dd65705.json,25:25,F,F,,,F,F,,,,,0,0,F,F,F,Password
 41205,1dd65705,GitHub,8ba59c91,data/8ba59c91/src/1dd65705.json,28:28,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -695,111 +694,29 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 41439,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,236:236,T,F,11,50,F,F,Any,,,Secret,4.17,39,F,F,F,Generic Secret
 41440,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,242:242,T,F,11,50,F,F,Any,,,Secret,3.97,39,F,F,F,Generic Secret
 41441,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,248:248,T,T,11,76,F,F,Any,,,Secret,3.57,65,F,F,F,Generic Secret
-41762,76d6b12c,GitHub,8ba59c91,data/8ba59c91/src/76d6b12c.json,294:294,F,F,,,F,F,,,,,0,0,F,F,F,
-41790,b84734ab,GitHub,8ba59c91,data/8ba59c91/src/b84734ab.json,294:294,F,F,,,F,F,,,,,0,0,F,F,F,
+41762,76d6b12c,GitHub,8ba59c91,data/8ba59c91/src/76d6b12c.json,294:294,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+41790,b84734ab,GitHub,8ba59c91,data/8ba59c91/src/b84734ab.json,294:294,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 41791,b84734ab,GitHub,8ba59c91,data/8ba59c91/src/b84734ab.json,22:22,F,F,,,F,F,,,,,0,0,F,F,F,Password
-41826,69822c0e,GitHub,8ba59c91,data/8ba59c91/src/69822c0e.json,294:294,F,F,,,F,F,,,,,0,0,F,F,F,
-41907,2c4c8c0d,GitHub,8ba59c91,data/8ba59c91/src/2c4c8c0d.json,294:294,F,F,,,F,F,,,,,0,0,F,F,F,
+41826,69822c0e,GitHub,8ba59c91,data/8ba59c91/src/69822c0e.json,294:294,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+41907,2c4c8c0d,GitHub,8ba59c91,data/8ba59c91/src/2c4c8c0d.json,294:294,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 42138,73c8b62a,GitHub,8ba59c91,data/8ba59c91/src/73c8b62a.json,161:161,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 42189,324ce530,GitHub,8ba59c91,data/8ba59c91/src/324ce530.json,26:26,F,F,,,F,F,,,,,0,0,F,F,F,Password
 42190,324ce530,GitHub,8ba59c91,data/8ba59c91/src/324ce530.json,27:27,F,F,,,F,F,,,,,0,0,F,F,F,Password
-42228,966ec8a4,GitHub,8ba59c91,data/8ba59c91/src/966ec8a4.json,294:294,F,F,,,F,F,,,,,0,0,F,F,F,
+42228,966ec8a4,GitHub,8ba59c91,data/8ba59c91/src/966ec8a4.json,294:294,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 42229,966ec8a4,GitHub,8ba59c91,data/8ba59c91/src/966ec8a4.json,22:22,F,F,,,F,F,,,,,0,0,F,F,F,Password
 42248,fc9c7100,GitHub,8ba59c91,data/8ba59c91/src/fc9c7100.json,174:174,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-42249,fc9c7100,GitHub,8ba59c91,data/8ba59c91/src/fc9c7100.json,294:294,F,F,,,F,F,,,,,0,0,F,F,F,
-42305,bb3d34f1,GitHub,8ba59c91,data/8ba59c91/src/bb3d34f1.json,294:294,F,F,,,F,F,,,,,0,0,F,F,F,
-42337,a1c9e77e,GitHub,8ba59c91,data/8ba59c91/src/a1c9e77e.json,294:294,F,F,,,F,F,,,,,0,0,F,F,F,
-42451,bff37e61,GitHub,8ba59c91,data/8ba59c91/src/bff37e61.json,294:294,F,F,,,F,F,,,,,0,0,F,F,F,
+42249,fc9c7100,GitHub,8ba59c91,data/8ba59c91/src/fc9c7100.json,294:294,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+42305,bb3d34f1,GitHub,8ba59c91,data/8ba59c91/src/bb3d34f1.json,294:294,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+42337,a1c9e77e,GitHub,8ba59c91,data/8ba59c91/src/a1c9e77e.json,294:294,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+42451,bff37e61,GitHub,8ba59c91,data/8ba59c91/src/bff37e61.json,294:294,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 42627,3137ddd7,GitHub,8ba59c91,data/8ba59c91/src/3137ddd7.json,183:183,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
 42628,3137ddd7,GitHub,8ba59c91,data/8ba59c91/src/3137ddd7.json,203:203,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 42629,3137ddd7,GitHub,8ba59c91,data/8ba59c91/src/3137ddd7.json,205:205,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-42660,3fd192fe,GitHub,8ba59c91,data/8ba59c91/src/3fd192fe.json,294:294,F,F,,,F,F,,,,,0,0,F,F,F,
+42660,3fd192fe,GitHub,8ba59c91,data/8ba59c91/src/3fd192fe.json,294:294,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 42719,04593541,GitHub,8ba59c91,data/8ba59c91/src/04593541.ts,80:80,F,F,46,53,F,F,Any,,,Secret,2.12,7,F,F,F,Password
 42816,f37d4f44,GitHub,8ba59c91,data/8ba59c91/src/f37d4f44.json,26:26,F,F,,,F,F,,,,,0,0,F,F,F,Password
-52365,d2fde8a0,GitHub,8ba59c91,data/8ba59c91/src/d2fde8a0.json,18:18,F,F,,,F,F,,,,,0,0,F,F,F,
-52366,c8f62dd6,GitHub,8ba59c91,data/8ba59c91/src/c8f62dd6.json,18:18,F,F,,,F,F,,,,,0,0,F,F,F,
-52367,d0da3edd,GitHub,8ba59c91,data/8ba59c91/src/d0da3edd.json,18:18,F,F,,,F,F,,,,,0,0,F,F,F,
-52368,ed1a01f4,GitHub,8ba59c91,data/8ba59c91/src/ed1a01f4.json,18:18,F,F,,,F,F,,,,,0,0,F,F,F,
-52369,1dd65705,GitHub,8ba59c91,data/8ba59c91/src/1dd65705.json,18:18,F,F,,,F,F,,,,,0,0,F,F,F,
-52370,569c012b,GitHub,8ba59c91,data/8ba59c91/src/569c012b.json,18:18,F,F,,,F,F,,,,,0,0,F,F,F,
-52371,70fe1929,GitHub,8ba59c91,data/8ba59c91/src/70fe1929.json,18:18,F,F,,,F,F,,,,,0,0,F,F,F,
-52372,753f7d4b,GitHub,8ba59c91,data/8ba59c91/src/753f7d4b.json,18:18,F,F,,,F,F,,,,,0,0,F,F,F,
-52373,0d1dbb3f,GitHub,8ba59c91,data/8ba59c91/src/0d1dbb3f.json,18:18,F,F,,,F,F,,,,,0,0,F,F,F,
-52374,efe62362,GitHub,8ba59c91,data/8ba59c91/src/efe62362.json,18:18,F,F,,,F,F,,,,,0,0,F,F,F,
-52375,967e25a7,GitHub,8ba59c91,data/8ba59c91/src/967e25a7.json,18:18,F,F,,,F,F,,,,,0,0,F,F,F,
-52376,17cbff1b,GitHub,8ba59c91,data/8ba59c91/src/17cbff1b.json,18:18,F,F,,,F,F,,,,,0,0,F,F,F,
-52377,1e9b956c,GitHub,8ba59c91,data/8ba59c91/src/1e9b956c.json,18:18,F,F,,,F,F,,,,,0,0,F,F,F,
-52378,ad18488c,GitHub,8ba59c91,data/8ba59c91/src/ad18488c.json,18:18,F,F,,,F,F,,,,,0,0,F,F,F,
-52379,5eb28b95,GitHub,8ba59c91,data/8ba59c91/src/5eb28b95.json,18:18,F,F,,,F,F,,,,,0,0,F,F,F,
-52380,dbb2dc97,GitHub,8ba59c91,data/8ba59c91/src/dbb2dc97.json,18:18,F,F,,,F,F,,,,,0,0,F,F,F,
-52381,c2ee619a,GitHub,8ba59c91,data/8ba59c91/src/c2ee619a.json,18:18,F,F,,,F,F,,,,,0,0,F,F,F,
-52382,e6ed88bb,GitHub,8ba59c91,data/8ba59c91/src/e6ed88bb.json,18:18,F,F,,,F,F,,,,,0,0,F,F,F,
-52383,b6b7b2ba,GitHub,8ba59c91,data/8ba59c91/src/b6b7b2ba.json,18:18,F,F,,,F,F,,,,,0,0,F,F,F,
-52384,3929c3d2,GitHub,8ba59c91,data/8ba59c91/src/3929c3d2.json,18:18,F,F,,,F,F,,,,,0,0,F,F,F,
-52385,c18be435,GitHub,8ba59c91,data/8ba59c91/src/c18be435.json,18:18,F,F,,,F,F,,,,,0,0,F,F,F,
-52386,916fdd5a,GitHub,8ba59c91,data/8ba59c91/src/916fdd5a.json,18:18,F,F,,,F,F,,,,,0,0,F,F,F,
-52387,ec71fabd,GitHub,8ba59c91,data/8ba59c91/src/ec71fabd.json,18:18,F,F,,,F,F,,,,,0,0,F,F,F,
-52388,3f10622a,GitHub,8ba59c91,data/8ba59c91/src/3f10622a.json,18:18,F,F,,,F,F,,,,,0,0,F,F,F,
-52389,0e1e8469,GitHub,8ba59c91,data/8ba59c91/src/0e1e8469.json,18:18,F,F,,,F,F,,,,,0,0,F,F,F,
-52390,273ee255,GitHub,8ba59c91,data/8ba59c91/src/273ee255.json,18:18,F,F,,,F,F,,,,,0,0,F,F,F,
-52391,73c8b62a,GitHub,8ba59c91,data/8ba59c91/src/73c8b62a.json,18:18,F,F,,,F,F,,,,,0,0,F,F,F,
-52392,4c52db69,GitHub,8ba59c91,data/8ba59c91/src/4c52db69.json,18:18,F,F,,,F,F,,,,,0,0,F,F,F,
-52393,6cc0898e,GitHub,8ba59c91,data/8ba59c91/src/6cc0898e.json,18:18,F,F,,,F,F,,,,,0,0,F,F,F,
-52394,d2fde8a0,GitHub,8ba59c91,data/8ba59c91/src/d2fde8a0.json,17:17,F,F,,,F,F,,,,,0,0,F,F,F,
-52395,c8f62dd6,GitHub,8ba59c91,data/8ba59c91/src/c8f62dd6.json,17:17,F,F,,,F,F,,,,,0,0,F,F,F,
-52396,f44ab553,GitHub,8ba59c91,data/8ba59c91/src/f44ab553.json,17:17,F,F,,,F,F,,,,,0,0,F,F,F,
-52397,0ba49240,GitHub,8ba59c91,data/8ba59c91/src/0ba49240.json,17:17,F,F,,,F,F,,,,,0,0,F,F,F,
-52398,d0da3edd,GitHub,8ba59c91,data/8ba59c91/src/d0da3edd.json,17:17,F,F,,,F,F,,,,,0,0,F,F,F,
-52399,ed1a01f4,GitHub,8ba59c91,data/8ba59c91/src/ed1a01f4.json,17:17,F,F,,,F,F,,,,,0,0,F,F,F,
-52400,744b9a5a,GitHub,8ba59c91,data/8ba59c91/src/744b9a5a.json,17:17,F,F,,,F,F,,,,,0,0,F,F,F,
-52401,569c012b,GitHub,8ba59c91,data/8ba59c91/src/569c012b.json,17:17,F,F,,,F,F,,,,,0,0,F,F,F,
-52402,753f7d4b,GitHub,8ba59c91,data/8ba59c91/src/753f7d4b.json,17:17,F,F,,,F,F,,,,,0,0,F,F,F,
-52403,70fe1929,GitHub,8ba59c91,data/8ba59c91/src/70fe1929.json,17:17,F,F,,,F,F,,,,,0,0,F,F,F,
-52404,1e9b956c,GitHub,8ba59c91,data/8ba59c91/src/1e9b956c.json,17:17,F,F,,,F,F,,,,,0,0,F,F,F,
-52405,ad18488c,GitHub,8ba59c91,data/8ba59c91/src/ad18488c.json,17:17,F,F,,,F,F,,,,,0,0,F,F,F,
-52406,5eb28b95,GitHub,8ba59c91,data/8ba59c91/src/5eb28b95.json,17:17,F,F,,,F,F,,,,,0,0,F,F,F,
-52407,dbb2dc97,GitHub,8ba59c91,data/8ba59c91/src/dbb2dc97.json,17:17,F,F,,,F,F,,,,,0,0,F,F,F,
-52408,c2ee619a,GitHub,8ba59c91,data/8ba59c91/src/c2ee619a.json,17:17,F,F,,,F,F,,,,,0,0,F,F,F,
-52409,e6ed88bb,GitHub,8ba59c91,data/8ba59c91/src/e6ed88bb.json,17:17,F,F,,,F,F,,,,,0,0,F,F,F,
-52410,b6b7b2ba,GitHub,8ba59c91,data/8ba59c91/src/b6b7b2ba.json,17:17,F,F,,,F,F,,,,,0,0,F,F,F,
-52411,3929c3d2,GitHub,8ba59c91,data/8ba59c91/src/3929c3d2.json,17:17,F,F,,,F,F,,,,,0,0,F,F,F,
-52412,c18be435,GitHub,8ba59c91,data/8ba59c91/src/c18be435.json,17:17,F,F,,,F,F,,,,,0,0,F,F,F,
-52413,916fdd5a,GitHub,8ba59c91,data/8ba59c91/src/916fdd5a.json,17:17,F,F,,,F,F,,,,,0,0,F,F,F,
-52414,ec71fabd,GitHub,8ba59c91,data/8ba59c91/src/ec71fabd.json,17:17,F,F,,,F,F,,,,,0,0,F,F,F,
-52415,3f10622a,GitHub,8ba59c91,data/8ba59c91/src/3f10622a.json,17:17,F,F,,,F,F,,,,,0,0,F,F,F,
-52416,0e1e8469,GitHub,8ba59c91,data/8ba59c91/src/0e1e8469.json,17:17,F,F,,,F,F,,,,,0,0,F,F,F,
-52417,273ee255,GitHub,8ba59c91,data/8ba59c91/src/273ee255.json,17:17,F,F,,,F,F,,,,,0,0,F,F,F,
-52418,73c8b62a,GitHub,8ba59c91,data/8ba59c91/src/73c8b62a.json,17:17,F,F,,,F,F,,,,,0,0,F,F,F,
-52419,efe62362,GitHub,8ba59c91,data/8ba59c91/src/efe62362.json,17:17,F,F,,,F,F,,,,,0,0,F,F,F,
-52420,4c52db69,GitHub,8ba59c91,data/8ba59c91/src/4c52db69.json,17:17,F,F,,,F,F,,,,,0,0,F,F,F,
-52421,17cbff1b,GitHub,8ba59c91,data/8ba59c91/src/17cbff1b.json,17:17,F,F,,,F,F,,,,,0,0,F,F,F,
 52442,0e1e8469,GitHub,8ba59c91,data/8ba59c91/src/0e1e8469.json,149:149,F,F,,,F,F,,,,,0,0,F,F,F,Password
 52443,0d1dbb3f,GitHub,8ba59c91,data/8ba59c91/src/0d1dbb3f.json,149:149,F,F,,,F,F,,,,,0,0,F,F,F,Password
-52445,c18be435,GitHub,8ba59c91,data/8ba59c91/src/c18be435.json,23:23,F,F,,,F,F,,,,,0,0,F,F,F,
-52446,d0da3edd,GitHub,8ba59c91,data/8ba59c91/src/d0da3edd.json,23:23,F,F,,,F,F,,,,,0,0,F,F,F,
-52447,e6ed88bb,GitHub,8ba59c91,data/8ba59c91/src/e6ed88bb.json,23:23,F,F,,,F,F,,,,,0,0,F,F,F,
-52448,3137ddd7,GitHub,8ba59c91,data/8ba59c91/src/3137ddd7.json,23:23,F,F,,,F,F,,,,,0,0,F,F,F,
-52449,d2fde8a0,GitHub,8ba59c91,data/8ba59c91/src/d2fde8a0.json,23:23,F,F,,,F,F,,,,,0,0,F,F,F,
-52450,3929c3d2,GitHub,8ba59c91,data/8ba59c91/src/3929c3d2.json,23:23,F,F,,,F,F,,,,,0,0,F,F,F,
-52451,5eb28b95,GitHub,8ba59c91,data/8ba59c91/src/5eb28b95.json,23:23,F,F,,,F,F,,,,,0,0,F,F,F,
-52452,dbb2dc97,GitHub,8ba59c91,data/8ba59c91/src/dbb2dc97.json,23:23,F,F,,,F,F,,,,,0,0,F,F,F,
-52453,753f7d4b,GitHub,8ba59c91,data/8ba59c91/src/753f7d4b.json,23:23,F,F,,,F,F,,,,,0,0,F,F,F,
-52454,bcae1dc5,GitHub,8ba59c91,data/8ba59c91/src/bcae1dc5.json,23:23,F,F,,,F,F,,,,,0,0,F,F,F,
-52455,569c012b,GitHub,8ba59c91,data/8ba59c91/src/569c012b.json,23:23,F,F,,,F,F,,,,,0,0,F,F,F,
-52456,70fe1929,GitHub,8ba59c91,data/8ba59c91/src/70fe1929.json,23:23,F,F,,,F,F,,,,,0,0,F,F,F,
-52457,c8f62dd6,GitHub,8ba59c91,data/8ba59c91/src/c8f62dd6.json,23:23,F,F,,,F,F,,,,,0,0,F,F,F,
-52458,b6b7b2ba,GitHub,8ba59c91,data/8ba59c91/src/b6b7b2ba.json,23:23,F,F,,,F,F,,,,,0,0,F,F,F,
-52459,ad18488c,GitHub,8ba59c91,data/8ba59c91/src/ad18488c.json,23:23,F,F,,,F,F,,,,,0,0,F,F,F,
-52460,3f10622a,GitHub,8ba59c91,data/8ba59c91/src/3f10622a.json,23:23,F,F,,,F,F,,,,,0,0,F,F,F,
-52461,0e1e8469,GitHub,8ba59c91,data/8ba59c91/src/0e1e8469.json,23:23,F,F,,,F,F,,,,,0,0,F,F,F,
-52462,273ee255,GitHub,8ba59c91,data/8ba59c91/src/273ee255.json,23:23,F,F,,,F,F,,,,,0,0,F,F,F,
-52463,73c8b62a,GitHub,8ba59c91,data/8ba59c91/src/73c8b62a.json,23:23,F,F,,,F,F,,,,,0,0,F,F,F,
-52464,efe62362,GitHub,8ba59c91,data/8ba59c91/src/efe62362.json,23:23,F,F,,,F,F,,,,,0,0,F,F,F,
-52465,4c52db69,GitHub,8ba59c91,data/8ba59c91/src/4c52db69.json,23:23,F,F,,,F,F,,,,,0,0,F,F,F,
-52466,17cbff1b,GitHub,8ba59c91,data/8ba59c91/src/17cbff1b.json,23:23,F,F,,,F,F,,,,,0,0,F,F,F,
-52467,6cc0898e,GitHub,8ba59c91,data/8ba59c91/src/6cc0898e.json,23:23,F,F,,,F,F,,,,,0,0,F,F,F,
-52468,324ce530,GitHub,8ba59c91,data/8ba59c91/src/324ce530.json,23:23,F,F,,,F,F,,,,,0,0,F,F,F,
-52469,f37d4f44,GitHub,8ba59c91,data/8ba59c91/src/f37d4f44.json,23:23,F,F,,,F,F,,,,,0,0,F,F,F,
 52470,3929c3d2,GitHub,8ba59c91,data/8ba59c91/src/3929c3d2.json,183:183,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
 52471,d0da3edd,GitHub,8ba59c91,data/8ba59c91/src/d0da3edd.json,183:183,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
 52472,5eb28b95,GitHub,8ba59c91,data/8ba59c91/src/5eb28b95.json,183:183,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
@@ -810,36 +727,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 52619,273ee255,GitHub,8ba59c91,data/8ba59c91/src/273ee255.json,94:94,F,F,,,F,F,,,,,0,0,F,F,F,Password
 52620,6cc0898e,GitHub,8ba59c91,data/8ba59c91/src/6cc0898e.json,94:94,F,F,,,F,F,,,,,0,0,F,F,F,Password
 52621,f37d4f44,GitHub,8ba59c91,data/8ba59c91/src/f37d4f44.json,94:94,F,F,,,F,F,,,,,0,0,F,F,F,Password
-52622,1e9b956c,GitHub,8ba59c91,data/8ba59c91/src/1e9b956c.json,9:9,F,F,,,F,F,,,,,0,0,F,F,F,
-52623,f44ab553,GitHub,8ba59c91,data/8ba59c91/src/f44ab553.json,9:9,F,F,,,F,F,,,,,0,0,F,F,F,
-52624,3137ddd7,GitHub,8ba59c91,data/8ba59c91/src/3137ddd7.json,9:9,F,F,,,F,F,,,,,0,0,F,F,F,
-52625,1dd65705,GitHub,8ba59c91,data/8ba59c91/src/1dd65705.json,9:9,F,F,,,F,F,,,,,0,0,F,F,F,
-52626,bcae1dc5,GitHub,8ba59c91,data/8ba59c91/src/bcae1dc5.json,9:9,F,F,,,F,F,,,,,0,0,F,F,F,
-52627,744b9a5a,GitHub,8ba59c91,data/8ba59c91/src/744b9a5a.json,9:9,F,F,,,F,F,,,,,0,0,F,F,F,
-52628,3929c3d2,GitHub,8ba59c91,data/8ba59c91/src/3929c3d2.json,9:9,F,F,,,F,F,,,,,0,0,F,F,F,
-52629,ed1a01f4,GitHub,8ba59c91,data/8ba59c91/src/ed1a01f4.json,9:9,F,F,,,F,F,,,,,0,0,F,F,F,
-52630,d0da3edd,GitHub,8ba59c91,data/8ba59c91/src/d0da3edd.json,9:9,F,F,,,F,F,,,,,0,0,F,F,F,
-52631,c18be435,GitHub,8ba59c91,data/8ba59c91/src/c18be435.json,9:9,F,F,,,F,F,,,,,0,0,F,F,F,
-52632,d2fde8a0,GitHub,8ba59c91,data/8ba59c91/src/d2fde8a0.json,9:9,F,F,,,F,F,,,,,0,0,F,F,F,
-52633,b6b7b2ba,GitHub,8ba59c91,data/8ba59c91/src/b6b7b2ba.json,9:9,F,F,,,F,F,,,,,0,0,F,F,F,
-52634,5eb28b95,GitHub,8ba59c91,data/8ba59c91/src/5eb28b95.json,9:9,F,F,,,F,F,,,,,0,0,F,F,F,
-52635,c2ee619a,GitHub,8ba59c91,data/8ba59c91/src/c2ee619a.json,9:9,F,F,,,F,F,,,,,0,0,F,F,F,
-52636,dbb2dc97,GitHub,8ba59c91,data/8ba59c91/src/dbb2dc97.json,9:9,F,F,,,F,F,,,,,0,0,F,F,F,
-52637,753f7d4b,GitHub,8ba59c91,data/8ba59c91/src/753f7d4b.json,9:9,F,F,,,F,F,,,,,0,0,F,F,F,
-52638,569c012b,GitHub,8ba59c91,data/8ba59c91/src/569c012b.json,9:9,F,F,,,F,F,,,,,0,0,F,F,F,
-52639,70fe1929,GitHub,8ba59c91,data/8ba59c91/src/70fe1929.json,9:9,F,F,,,F,F,,,,,0,0,F,F,F,
-52640,ad18488c,GitHub,8ba59c91,data/8ba59c91/src/ad18488c.json,9:9,F,F,,,F,F,,,,,0,0,F,F,F,
-52641,3f10622a,GitHub,8ba59c91,data/8ba59c91/src/3f10622a.json,9:9,F,F,,,F,F,,,,,0,0,F,F,F,
-52642,0e1e8469,GitHub,8ba59c91,data/8ba59c91/src/0e1e8469.json,9:9,F,F,,,F,F,,,,,0,0,F,F,F,
-52643,273ee255,GitHub,8ba59c91,data/8ba59c91/src/273ee255.json,9:9,F,F,,,F,F,,,,,0,0,F,F,F,
-52644,0d1dbb3f,GitHub,8ba59c91,data/8ba59c91/src/0d1dbb3f.json,9:9,F,F,,,F,F,,,,,0,0,F,F,F,
-52645,73c8b62a,GitHub,8ba59c91,data/8ba59c91/src/73c8b62a.json,9:9,F,F,,,F,F,,,,,0,0,F,F,F,
-52646,efe62362,GitHub,8ba59c91,data/8ba59c91/src/efe62362.json,9:9,F,F,,,F,F,,,,,0,0,F,F,F,
-52647,4c52db69,GitHub,8ba59c91,data/8ba59c91/src/4c52db69.json,9:9,F,F,,,F,F,,,,,0,0,F,F,F,
-52648,17cbff1b,GitHub,8ba59c91,data/8ba59c91/src/17cbff1b.json,9:9,F,F,,,F,F,,,,,0,0,F,F,F,
-52649,6cc0898e,GitHub,8ba59c91,data/8ba59c91/src/6cc0898e.json,9:9,F,F,,,F,F,,,,,0,0,F,F,F,
-52650,324ce530,GitHub,8ba59c91,data/8ba59c91/src/324ce530.json,9:9,F,F,,,F,F,,,,,0,0,F,F,F,
-52651,f37d4f44,GitHub,8ba59c91,data/8ba59c91/src/f37d4f44.json,9:9,F,F,,,F,F,,,,,0,0,F,F,F,
 52652,5eb28b95,GitHub,8ba59c91,data/8ba59c91/src/5eb28b95.json,203:203,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 52653,3f10622a,GitHub,8ba59c91,data/8ba59c91/src/3f10622a.json,203:203,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 52654,ed1a01f4,GitHub,8ba59c91,data/8ba59c91/src/ed1a01f4.json,203:203,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
@@ -884,39 +771,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 52693,f44ab553,GitHub,8ba59c91,data/8ba59c91/src/f44ab553.json,180:180,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
 52694,916fdd5a,GitHub,8ba59c91,data/8ba59c91/src/916fdd5a.json,180:180,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
 52695,73c8b62a,GitHub,8ba59c91,data/8ba59c91/src/73c8b62a.json,180:180,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-52696,dbb2dc97,GitHub,8ba59c91,data/8ba59c91/src/dbb2dc97.json,55:55,F,F,,,F,F,,,,,0,0,F,F,F,
-52697,0ba49240,GitHub,8ba59c91,data/8ba59c91/src/0ba49240.json,55:55,F,F,,,F,F,,,,,0,0,F,F,F,
-52698,f44ab553,GitHub,8ba59c91,data/8ba59c91/src/f44ab553.json,55:55,F,F,,,F,F,,,,,0,0,F,F,F,
-52699,3137ddd7,GitHub,8ba59c91,data/8ba59c91/src/3137ddd7.json,55:55,F,F,,,F,F,,,,,0,0,F,F,F,
-52700,5eb28b95,GitHub,8ba59c91,data/8ba59c91/src/5eb28b95.json,55:55,F,F,,,F,F,,,,,0,0,F,F,F,
-52701,ed1a01f4,GitHub,8ba59c91,data/8ba59c91/src/ed1a01f4.json,55:55,F,F,,,F,F,,,,,0,0,F,F,F,
-52702,d2fde8a0,GitHub,8ba59c91,data/8ba59c91/src/d2fde8a0.json,55:55,F,F,,,F,F,,,,,0,0,F,F,F,
-52703,c2ee619a,GitHub,8ba59c91,data/8ba59c91/src/c2ee619a.json,55:55,F,F,,,F,F,,,,,0,0,F,F,F,
-52704,70fe1929,GitHub,8ba59c91,data/8ba59c91/src/70fe1929.json,55:55,F,F,,,F,F,,,,,0,0,F,F,F,
-52705,ad18488c,GitHub,8ba59c91,data/8ba59c91/src/ad18488c.json,55:55,F,F,,,F,F,,,,,0,0,F,F,F,
-52706,b6b7b2ba,GitHub,8ba59c91,data/8ba59c91/src/b6b7b2ba.json,55:55,F,F,,,F,F,,,,,0,0,F,F,F,
-52707,e6ed88bb,GitHub,8ba59c91,data/8ba59c91/src/e6ed88bb.json,55:55,F,F,,,F,F,,,,,0,0,F,F,F,
-52708,e13ff4c2,GitHub,8ba59c91,data/8ba59c91/src/e13ff4c2.json,55:55,F,F,,,F,F,,,,,0,0,F,F,F,
-52709,1dd65705,GitHub,8ba59c91,data/8ba59c91/src/1dd65705.json,55:55,F,F,,,F,F,,,,,0,0,F,F,F,
-52710,1e9b956c,GitHub,8ba59c91,data/8ba59c91/src/1e9b956c.json,55:55,F,F,,,F,F,,,,,0,0,F,F,F,
-52711,bcae1dc5,GitHub,8ba59c91,data/8ba59c91/src/bcae1dc5.json,55:55,F,F,,,F,F,,,,,0,0,F,F,F,
-52712,c8f62dd6,GitHub,8ba59c91,data/8ba59c91/src/c8f62dd6.json,55:55,F,F,,,F,F,,,,,0,0,F,F,F,
-52713,744b9a5a,GitHub,8ba59c91,data/8ba59c91/src/744b9a5a.json,55:55,F,F,,,F,F,,,,,0,0,F,F,F,
-52714,569c012b,GitHub,8ba59c91,data/8ba59c91/src/569c012b.json,55:55,F,F,,,F,F,,,,,0,0,F,F,F,
-52715,d0da3edd,GitHub,8ba59c91,data/8ba59c91/src/d0da3edd.json,55:55,F,F,,,F,F,,,,,0,0,F,F,F,
-52716,c18be435,GitHub,8ba59c91,data/8ba59c91/src/c18be435.json,55:55,F,F,,,F,F,,,,,0,0,F,F,F,
-52717,3929c3d2,GitHub,8ba59c91,data/8ba59c91/src/3929c3d2.json,55:55,F,F,,,F,F,,,,,0,0,F,F,F,
-52718,753f7d4b,GitHub,8ba59c91,data/8ba59c91/src/753f7d4b.json,55:55,F,F,,,F,F,,,,,0,0,F,F,F,
-52719,916fdd5a,GitHub,8ba59c91,data/8ba59c91/src/916fdd5a.json,55:55,F,F,,,F,F,,,,,0,0,F,F,F,
-52720,ec71fabd,GitHub,8ba59c91,data/8ba59c91/src/ec71fabd.json,55:55,F,F,,,F,F,,,,,0,0,F,F,F,
-52721,3f10622a,GitHub,8ba59c91,data/8ba59c91/src/3f10622a.json,55:55,F,F,,,F,F,,,,,0,0,F,F,F,
-52722,0e1e8469,GitHub,8ba59c91,data/8ba59c91/src/0e1e8469.json,55:55,F,F,,,F,F,,,,,0,0,F,F,F,
-52723,273ee255,GitHub,8ba59c91,data/8ba59c91/src/273ee255.json,55:55,F,F,,,F,F,,,,,0,0,F,F,F,
-52724,0d1dbb3f,GitHub,8ba59c91,data/8ba59c91/src/0d1dbb3f.json,55:55,F,F,,,F,F,,,,,0,0,F,F,F,
-52725,73c8b62a,GitHub,8ba59c91,data/8ba59c91/src/73c8b62a.json,55:55,F,F,,,F,F,,,,,0,0,F,F,F,
-52726,efe62362,GitHub,8ba59c91,data/8ba59c91/src/efe62362.json,55:55,F,F,,,F,F,,,,,0,0,F,F,F,
-52727,4c52db69,GitHub,8ba59c91,data/8ba59c91/src/4c52db69.json,55:55,F,F,,,F,F,,,,,0,0,F,F,F,
-52728,17cbff1b,GitHub,8ba59c91,data/8ba59c91/src/17cbff1b.json,55:55,F,F,,,F,F,,,,,0,0,F,F,F,
 52729,916fdd5a,GitHub,8ba59c91,data/8ba59c91/src/916fdd5a.json,92:92,F,F,,,F,F,,,,,0,0,F,F,F,Password
 52730,3f10622a,GitHub,8ba59c91,data/8ba59c91/src/3f10622a.json,92:92,F,F,,,F,F,,,,,0,0,F,F,F,Password
 52731,ec71fabd,GitHub,8ba59c91,data/8ba59c91/src/ec71fabd.json,92:92,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -924,35 +778,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 52733,0d1dbb3f,GitHub,8ba59c91,data/8ba59c91/src/0d1dbb3f.json,92:92,F,F,,,F,F,,,,,0,0,F,F,F,Password
 52734,efe62362,GitHub,8ba59c91,data/8ba59c91/src/efe62362.json,92:92,F,F,,,F,F,,,,,0,0,F,F,F,Password
 52735,4c52db69,GitHub,8ba59c91,data/8ba59c91/src/4c52db69.json,92:92,F,F,,,F,F,,,,,0,0,F,F,F,Password
-52736,ad18488c,GitHub,8ba59c91,data/8ba59c91/src/ad18488c.json,7:7,F,F,,,F,F,,,,,0,0,F,F,F,
-52737,0ba49240,GitHub,8ba59c91,data/8ba59c91/src/0ba49240.json,7:7,F,F,,,F,F,,,,,0,0,F,F,F,
-52738,f44ab553,GitHub,8ba59c91,data/8ba59c91/src/f44ab553.json,7:7,F,F,,,F,F,,,,,0,0,F,F,F,
-52739,744b9a5a,GitHub,8ba59c91,data/8ba59c91/src/744b9a5a.json,7:7,F,F,,,F,F,,,,,0,0,F,F,F,
-52740,c8f62dd6,GitHub,8ba59c91,data/8ba59c91/src/c8f62dd6.json,7:7,F,F,,,F,F,,,,,0,0,F,F,F,
-52741,1dd65705,GitHub,8ba59c91,data/8ba59c91/src/1dd65705.json,7:7,F,F,,,F,F,,,,,0,0,F,F,F,
-52742,ed1a01f4,GitHub,8ba59c91,data/8ba59c91/src/ed1a01f4.json,7:7,F,F,,,F,F,,,,,0,0,F,F,F,
-52743,70fe1929,GitHub,8ba59c91,data/8ba59c91/src/70fe1929.json,7:7,F,F,,,F,F,,,,,0,0,F,F,F,
-52744,b6b7b2ba,GitHub,8ba59c91,data/8ba59c91/src/b6b7b2ba.json,7:7,F,F,,,F,F,,,,,0,0,F,F,F,
-52745,3137ddd7,GitHub,8ba59c91,data/8ba59c91/src/3137ddd7.json,7:7,F,F,,,F,F,,,,,0,0,F,F,F,
-52746,5eb28b95,GitHub,8ba59c91,data/8ba59c91/src/5eb28b95.json,7:7,F,F,,,F,F,,,,,0,0,F,F,F,
-52747,c2ee619a,GitHub,8ba59c91,data/8ba59c91/src/c2ee619a.json,7:7,F,F,,,F,F,,,,,0,0,F,F,F,
-52748,e13ff4c2,GitHub,8ba59c91,data/8ba59c91/src/e13ff4c2.json,7:7,F,F,,,F,F,,,,,0,0,F,F,F,
-52749,c18be435,GitHub,8ba59c91,data/8ba59c91/src/c18be435.json,7:7,F,F,,,F,F,,,,,0,0,F,F,F,
-52750,e6ed88bb,GitHub,8ba59c91,data/8ba59c91/src/e6ed88bb.json,7:7,F,F,,,F,F,,,,,0,0,F,F,F,
-52751,3929c3d2,GitHub,8ba59c91,data/8ba59c91/src/3929c3d2.json,7:7,F,F,,,F,F,,,,,0,0,F,F,F,
-52752,753f7d4b,GitHub,8ba59c91,data/8ba59c91/src/753f7d4b.json,7:7,F,F,,,F,F,,,,,0,0,F,F,F,
-52753,916fdd5a,GitHub,8ba59c91,data/8ba59c91/src/916fdd5a.json,7:7,F,F,,,F,F,,,,,0,0,F,F,F,
-52754,3f10622a,GitHub,8ba59c91,data/8ba59c91/src/3f10622a.json,7:7,F,F,,,F,F,,,,,0,0,F,F,F,
-52755,ec71fabd,GitHub,8ba59c91,data/8ba59c91/src/ec71fabd.json,7:7,F,F,,,F,F,,,,,0,0,F,F,F,
-52756,273ee255,GitHub,8ba59c91,data/8ba59c91/src/273ee255.json,7:7,F,F,,,F,F,,,,,0,0,F,F,F,
-52757,0d1dbb3f,GitHub,8ba59c91,data/8ba59c91/src/0d1dbb3f.json,7:7,F,F,,,F,F,,,,,0,0,F,F,F,
-52758,73c8b62a,GitHub,8ba59c91,data/8ba59c91/src/73c8b62a.json,7:7,F,F,,,F,F,,,,,0,0,F,F,F,
-52759,efe62362,GitHub,8ba59c91,data/8ba59c91/src/efe62362.json,7:7,F,F,,,F,F,,,,,0,0,F,F,F,
-52760,4c52db69,GitHub,8ba59c91,data/8ba59c91/src/4c52db69.json,7:7,F,F,,,F,F,,,,,0,0,F,F,F,
-52761,17cbff1b,GitHub,8ba59c91,data/8ba59c91/src/17cbff1b.json,7:7,F,F,,,F,F,,,,,0,0,F,F,F,
-52762,324ce530,GitHub,8ba59c91,data/8ba59c91/src/324ce530.json,7:7,F,F,,,F,F,,,,,0,0,F,F,F,
-52763,f37d4f44,GitHub,8ba59c91,data/8ba59c91/src/f37d4f44.json,7:7,F,F,,,F,F,,,,,0,0,F,F,F,
-52764,6cc0898e,GitHub,8ba59c91,data/8ba59c91/src/6cc0898e.json,7:7,F,F,,,F,F,,,,,0,0,F,F,F,
 52765,916fdd5a,GitHub,8ba59c91,data/8ba59c91/src/916fdd5a.json,93:93,F,F,,,F,F,,,,,0,0,F,F,F,Password
 52766,3f10622a,GitHub,8ba59c91,data/8ba59c91/src/3f10622a.json,93:93,F,F,,,F,F,,,,,0,0,F,F,F,Password
 52767,ec71fabd,GitHub,8ba59c91,data/8ba59c91/src/ec71fabd.json,93:93,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -961,42 +786,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 52770,efe62362,GitHub,8ba59c91,data/8ba59c91/src/efe62362.json,93:93,F,F,,,F,F,,,,,0,0,F,F,F,Password
 52771,916fdd5a,GitHub,8ba59c91,data/8ba59c91/src/916fdd5a.json,8:8,F,F,,,F,F,,,,,0,0,F,F,F,Password
 52772,efe62362,GitHub,8ba59c91,data/8ba59c91/src/efe62362.json,8:8,F,F,,,F,F,,,,,0,0,F,F,F,Password
-52778,d2fde8a0,GitHub,8ba59c91,data/8ba59c91/src/d2fde8a0.json,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
-52779,70fe1929,GitHub,8ba59c91,data/8ba59c91/src/70fe1929.json,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
-52780,e6ed88bb,GitHub,8ba59c91,data/8ba59c91/src/e6ed88bb.json,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
-52781,ed1a01f4,GitHub,8ba59c91,data/8ba59c91/src/ed1a01f4.json,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
-52782,e13ff4c2,GitHub,8ba59c91,data/8ba59c91/src/e13ff4c2.json,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
-52783,753f7d4b,GitHub,8ba59c91,data/8ba59c91/src/753f7d4b.json,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
-52784,c2ee619a,GitHub,8ba59c91,data/8ba59c91/src/c2ee619a.json,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
-52785,dbb2dc97,GitHub,8ba59c91,data/8ba59c91/src/dbb2dc97.json,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
-52786,3137ddd7,GitHub,8ba59c91,data/8ba59c91/src/3137ddd7.json,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
-52787,5eb28b95,GitHub,8ba59c91,data/8ba59c91/src/5eb28b95.json,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
-52788,0ba49240,GitHub,8ba59c91,data/8ba59c91/src/0ba49240.json,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
-52789,f44ab553,GitHub,8ba59c91,data/8ba59c91/src/f44ab553.json,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
-52790,3929c3d2,GitHub,8ba59c91,data/8ba59c91/src/3929c3d2.json,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
-52791,ad18488c,GitHub,8ba59c91,data/8ba59c91/src/ad18488c.json,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
-52792,b6b7b2ba,GitHub,8ba59c91,data/8ba59c91/src/b6b7b2ba.json,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
-52793,1e9b956c,GitHub,8ba59c91,data/8ba59c91/src/1e9b956c.json,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
-52794,1dd65705,GitHub,8ba59c91,data/8ba59c91/src/1dd65705.json,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
-52795,bcae1dc5,GitHub,8ba59c91,data/8ba59c91/src/bcae1dc5.json,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
-52796,c8f62dd6,GitHub,8ba59c91,data/8ba59c91/src/c8f62dd6.json,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
-52797,744b9a5a,GitHub,8ba59c91,data/8ba59c91/src/744b9a5a.json,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
-52798,569c012b,GitHub,8ba59c91,data/8ba59c91/src/569c012b.json,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
-52799,d0da3edd,GitHub,8ba59c91,data/8ba59c91/src/d0da3edd.json,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
-52800,c18be435,GitHub,8ba59c91,data/8ba59c91/src/c18be435.json,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
-52801,916fdd5a,GitHub,8ba59c91,data/8ba59c91/src/916fdd5a.json,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
-52802,ec71fabd,GitHub,8ba59c91,data/8ba59c91/src/ec71fabd.json,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
-52803,3f10622a,GitHub,8ba59c91,data/8ba59c91/src/3f10622a.json,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
-52804,0e1e8469,GitHub,8ba59c91,data/8ba59c91/src/0e1e8469.json,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
-52805,273ee255,GitHub,8ba59c91,data/8ba59c91/src/273ee255.json,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
-52806,0d1dbb3f,GitHub,8ba59c91,data/8ba59c91/src/0d1dbb3f.json,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
-52807,73c8b62a,GitHub,8ba59c91,data/8ba59c91/src/73c8b62a.json,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
-52808,efe62362,GitHub,8ba59c91,data/8ba59c91/src/efe62362.json,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
-52809,4c52db69,GitHub,8ba59c91,data/8ba59c91/src/4c52db69.json,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
-52810,f37d4f44,GitHub,8ba59c91,data/8ba59c91/src/f37d4f44.json,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
-52811,324ce530,GitHub,8ba59c91,data/8ba59c91/src/324ce530.json,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
-52812,6cc0898e,GitHub,8ba59c91,data/8ba59c91/src/6cc0898e.json,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
-52813,17cbff1b,GitHub,8ba59c91,data/8ba59c91/src/17cbff1b.json,54:54,F,F,,,F,F,,,,,0,0,F,F,F,
 52814,6cc0898e,GitHub,8ba59c91,data/8ba59c91/src/6cc0898e.json,91:91,F,F,,,F,F,,,,,0,0,F,F,F,Password
 52815,f37d4f44,GitHub,8ba59c91,data/8ba59c91/src/f37d4f44.json,91:91,F,F,,,F,F,,,,,0,0,F,F,F,Password
 52816,324ce530,GitHub,8ba59c91,data/8ba59c91/src/324ce530.json,91:91,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -1006,85 +795,36 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 52820,324ce530,GitHub,8ba59c91,data/8ba59c91/src/324ce530.json,150:150,F,F,,,F,F,,,,,0,0,F,F,F,Password
 52821,6cc0898e,GitHub,8ba59c91,data/8ba59c91/src/6cc0898e.json,150:150,F,F,,,F,F,,,,,0,0,F,F,F,Password
 52822,967e25a7,GitHub,8ba59c91,data/8ba59c91/src/967e25a7.json,150:150,F,F,,,F,F,,,,,0,0,F,F,F,Password
-52823,d2fde8a0,GitHub,8ba59c91,data/8ba59c91/src/d2fde8a0.json,6:6,F,F,,,F,F,,,,,0,0,F,F,F,
-52824,c8f62dd6,GitHub,8ba59c91,data/8ba59c91/src/c8f62dd6.json,6:6,F,F,,,F,F,,,,,0,0,F,F,F,
-52825,f44ab553,GitHub,8ba59c91,data/8ba59c91/src/f44ab553.json,6:6,F,F,,,F,F,,,,,0,0,F,F,F,
-52826,0ba49240,GitHub,8ba59c91,data/8ba59c91/src/0ba49240.json,6:6,F,F,,,F,F,,,,,0,0,F,F,F,
-52827,ed1a01f4,GitHub,8ba59c91,data/8ba59c91/src/ed1a01f4.json,6:6,F,F,,,F,F,,,,,0,0,F,F,F,
-52828,d0da3edd,GitHub,8ba59c91,data/8ba59c91/src/d0da3edd.json,6:6,F,F,,,F,F,,,,,0,0,F,F,F,
-52829,1dd65705,GitHub,8ba59c91,data/8ba59c91/src/1dd65705.json,6:6,F,F,,,F,F,,,,,0,0,F,F,F,
-52830,569c012b,GitHub,8ba59c91,data/8ba59c91/src/569c012b.json,6:6,F,F,,,F,F,,,,,0,0,F,F,F,
-52831,753f7d4b,GitHub,8ba59c91,data/8ba59c91/src/753f7d4b.json,6:6,F,F,,,F,F,,,,,0,0,F,F,F,
-52832,70fe1929,GitHub,8ba59c91,data/8ba59c91/src/70fe1929.json,6:6,F,F,,,F,F,,,,,0,0,F,F,F,
-52833,1e9b956c,GitHub,8ba59c91,data/8ba59c91/src/1e9b956c.json,6:6,F,F,,,F,F,,,,,0,0,F,F,F,
-52834,dbb2dc97,GitHub,8ba59c91,data/8ba59c91/src/dbb2dc97.json,6:6,F,F,,,F,F,,,,,0,0,F,F,F,
-52835,5eb28b95,GitHub,8ba59c91,data/8ba59c91/src/5eb28b95.json,6:6,F,F,,,F,F,,,,,0,0,F,F,F,
-52836,ad18488c,GitHub,8ba59c91,data/8ba59c91/src/ad18488c.json,6:6,F,F,,,F,F,,,,,0,0,F,F,F,
-52837,c2ee619a,GitHub,8ba59c91,data/8ba59c91/src/c2ee619a.json,6:6,F,F,,,F,F,,,,,0,0,F,F,F,
-52838,e13ff4c2,GitHub,8ba59c91,data/8ba59c91/src/e13ff4c2.json,6:6,F,F,,,F,F,,,,,0,0,F,F,F,
-52839,bcae1dc5,GitHub,8ba59c91,data/8ba59c91/src/bcae1dc5.json,6:6,F,F,,,F,F,,,,,0,0,F,F,F,
-52840,e6ed88bb,GitHub,8ba59c91,data/8ba59c91/src/e6ed88bb.json,6:6,F,F,,,F,F,,,,,0,0,F,F,F,
-52841,b6b7b2ba,GitHub,8ba59c91,data/8ba59c91/src/b6b7b2ba.json,6:6,F,F,,,F,F,,,,,0,0,F,F,F,
-52842,3929c3d2,GitHub,8ba59c91,data/8ba59c91/src/3929c3d2.json,6:6,F,F,,,F,F,,,,,0,0,F,F,F,
-52843,c18be435,GitHub,8ba59c91,data/8ba59c91/src/c18be435.json,6:6,F,F,,,F,F,,,,,0,0,F,F,F,
-52844,916fdd5a,GitHub,8ba59c91,data/8ba59c91/src/916fdd5a.json,6:6,F,F,,,F,F,,,,,0,0,F,F,F,
-52845,3f10622a,GitHub,8ba59c91,data/8ba59c91/src/3f10622a.json,6:6,F,F,,,F,F,,,,,0,0,F,F,F,
-52846,ec71fabd,GitHub,8ba59c91,data/8ba59c91/src/ec71fabd.json,6:6,F,F,,,F,F,,,,,0,0,F,F,F,
-52847,0e1e8469,GitHub,8ba59c91,data/8ba59c91/src/0e1e8469.json,6:6,F,F,,,F,F,,,,,0,0,F,F,F,
-52848,273ee255,GitHub,8ba59c91,data/8ba59c91/src/273ee255.json,6:6,F,F,,,F,F,,,,,0,0,F,F,F,
-52849,73c8b62a,GitHub,8ba59c91,data/8ba59c91/src/73c8b62a.json,6:6,F,F,,,F,F,,,,,0,0,F,F,F,
-52850,efe62362,GitHub,8ba59c91,data/8ba59c91/src/efe62362.json,6:6,F,F,,,F,F,,,,,0,0,F,F,F,
-52851,4c52db69,GitHub,8ba59c91,data/8ba59c91/src/4c52db69.json,6:6,F,F,,,F,F,,,,,0,0,F,F,F,
-52852,17cbff1b,GitHub,8ba59c91,data/8ba59c91/src/17cbff1b.json,6:6,F,F,,,F,F,,,,,0,0,F,F,F,
-63922,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,139:139,F,F,,,F,F,,,,,0,0,F,F,F,
-63942,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,194:194,F,F,,,F,F,,,,,0,0,F,F,F,
-63943,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,2:2,F,F,,,F,F,,,,,0,0,F,F,F,
-63944,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,62:62,F,F,,,F,F,,,,,0,0,F,F,F,
-63945,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,165:165,F,F,,,F,F,,,,,0,0,F,F,F,
-63946,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,106:106,F,F,,,F,F,,,,,0,0,F,F,F,
-63947,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,211:211,F,F,,,F,F,,,,,0,0,F,F,F,
-63948,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,240:240,F,F,,,F,F,,,,,0,0,F,F,F,
-63949,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,234:234,F,F,,,F,F,,,,,0,0,F,F,F,
-63950,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,122:122,F,F,,,F,F,,,,,0,0,F,F,F,
-63952,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,246:246,F,F,,,F,F,,,,,0,0,F,F,F,
-63986,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,114:114,F,F,,,F,F,,,,,0,0,F,F,F,
-63988,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,202:202,F,F,,,F,F,,,,,0,0,F,F,F,
-63989,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,147:147,F,F,,,F,F,,,,,0,0,F,F,F,
 74159,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,196:196,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-74160,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,4:4,F,F,,,F,F,,,,,0,0,F,F,F,
+74160,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,4:4,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 74161,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,64:64,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 74162,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,167:167,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 74163,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,90:90,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 74164,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,178:178,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-74169,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,187:187,F,F,,,F,F,,,,,0,0,F,F,F,
-74170,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,108:108,F,F,,,F,F,,,,,0,0,F,F,F,
-74190,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,243:243,F,F,,,F,F,,,,,0,0,F,F,F,
+74169,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,187:187,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+74170,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,108:108,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+74190,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,243:243,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 74221,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,141:141,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-74222,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,237:237,F,F,,,F,F,,,,,0,0,F,F,F,
-74233,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,124:124,F,F,,,F,F,,,,,0,0,F,F,F,
+74222,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,237:237,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+74233,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,124:124,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 74245,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,133:133,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-74249,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,249:249,F,F,,,F,F,,,,,0,0,F,F,F,
+74249,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,249:249,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 74318,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,116:116,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-74319,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,214:214,F,F,,,F,F,,,,,0,0,F,F,F,
-74320,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,151:151,F,F,,,F,F,,,,,0,0,F,F,F,
+74319,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,214:214,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+74320,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,151:151,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 74333,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,204:204,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-75027,15b2450b,GitHub,8ba59c91,data/8ba59c91/src/15b2450b.ts,92:92,F,F,,,F,F,,,,,0,0,F,F,F,
-75028,15b2450b,GitHub,8ba59c91,data/8ba59c91/src/15b2450b.ts,107:107,F,F,,,F,F,,,,,0,0,F,F,F,
-75029,15b2450b,GitHub,8ba59c91,data/8ba59c91/src/15b2450b.ts,123:123,F,F,,,F,F,,,,,0,0,F,F,F,
-76556,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,241:241,F,F,,,F,F,,,,,0,0,F,F,F,
-76557,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,247:247,F,F,,,F,F,,,,,0,0,F,F,F,
-76575,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,87:87,F,F,,,F,F,,,,,0,0,F,F,F,
-76586,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,235:235,F,F,,,F,F,,,,,0,0,F,F,F,
-76672,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,148:148,F,F,,,F,F,,,,,0,0,F,F,F,
+75027,15b2450b,GitHub,8ba59c91,data/8ba59c91/src/15b2450b.ts,92:92,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+75028,15b2450b,GitHub,8ba59c91,data/8ba59c91/src/15b2450b.ts,107:107,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+75029,15b2450b,GitHub,8ba59c91,data/8ba59c91/src/15b2450b.ts,123:123,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 76923,953c13b1,GitHub,8ba59c91,data/8ba59c91/src/953c13b1.ts,58:58,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-83258,d6f86621,GitHub,8ba59c91,data/8ba59c91/src/d6f86621.ts,132:132,F,F,47,55,F,F,,,,,0,0,F,F,F,
-83259,d6f86621,GitHub,8ba59c91,data/8ba59c91/src/d6f86621.ts,137:137,F,F,47,55,F,F,,,,,0,0,F,F,F,
-83260,d6f86621,GitHub,8ba59c91,data/8ba59c91/src/d6f86621.ts,143:143,F,F,47,55,F,F,,,,,0,0,F,F,F,
-83261,d6f86621,GitHub,8ba59c91,data/8ba59c91/src/d6f86621.ts,149:149,F,F,47,55,F,F,,,,,0,0,F,F,F,
-83262,d6f86621,GitHub,8ba59c91,data/8ba59c91/src/d6f86621.ts,180:180,F,F,47,55,F,F,,,,,0,0,F,F,F,
-83263,d6f86621,GitHub,8ba59c91,data/8ba59c91/src/d6f86621.ts,185:185,F,F,47,55,F,F,,,,,0,0,F,F,F,
-83264,d6f86621,GitHub,8ba59c91,data/8ba59c91/src/d6f86621.ts,190:190,F,F,47,55,F,F,,,,,0,0,F,F,F,
-83265,d6f86621,GitHub,8ba59c91,data/8ba59c91/src/d6f86621.ts,195:195,F,F,47,55,F,F,,,,,0,0,F,F,F,
+83258,d6f86621,GitHub,8ba59c91,data/8ba59c91/src/d6f86621.ts,132:132,F,F,47,55,F,F,,,,,0,0,F,F,F,Generic Token
+83259,d6f86621,GitHub,8ba59c91,data/8ba59c91/src/d6f86621.ts,137:137,F,F,47,55,F,F,,,,,0,0,F,F,F,Generic Token
+83260,d6f86621,GitHub,8ba59c91,data/8ba59c91/src/d6f86621.ts,143:143,F,F,47,55,F,F,,,,,0,0,F,F,F,Generic Token
+83261,d6f86621,GitHub,8ba59c91,data/8ba59c91/src/d6f86621.ts,149:149,F,F,47,55,F,F,,,,,0,0,F,F,F,Generic Token
+83262,d6f86621,GitHub,8ba59c91,data/8ba59c91/src/d6f86621.ts,180:180,F,F,47,55,F,F,,,,,0,0,F,F,F,Generic Token
+83263,d6f86621,GitHub,8ba59c91,data/8ba59c91/src/d6f86621.ts,185:185,F,F,47,55,F,F,,,,,0,0,F,F,F,Generic Token
+83264,d6f86621,GitHub,8ba59c91,data/8ba59c91/src/d6f86621.ts,190:190,F,F,47,55,F,F,,,,,0,0,F,F,F,Generic Token
+83265,d6f86621,GitHub,8ba59c91,data/8ba59c91/src/d6f86621.ts,195:195,F,F,47,55,F,F,,,,,0,0,F,F,F,Generic Token
 100690,69822c0e,GitHub,8ba59c91,data/8ba59c91/src/69822c0e.json,150:150,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100691,bff37e61,GitHub,8ba59c91,data/8ba59c91/src/bff37e61.json,150:150,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100692,b84734ab,GitHub,8ba59c91,data/8ba59c91/src/b84734ab.json,150:150,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
@@ -1094,63 +834,63 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 100696,76d6b12c,GitHub,8ba59c91,data/8ba59c91/src/76d6b12c.json,150:150,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100697,966ec8a4,GitHub,8ba59c91,data/8ba59c91/src/966ec8a4.json,150:150,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100698,69822c0e,GitHub,8ba59c91,data/8ba59c91/src/69822c0e.json,199:199,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-100699,e13ff4c2,GitHub,8ba59c91,data/8ba59c91/src/e13ff4c2.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,
+100699,e13ff4c2,GitHub,8ba59c91,data/8ba59c91/src/e13ff4c2.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100700,e13ff4c2,GitHub,8ba59c91,data/8ba59c91/src/e13ff4c2.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-100701,1e9b956c,GitHub,8ba59c91,data/8ba59c91/src/1e9b956c.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,
-100702,1e9b956c,GitHub,8ba59c91,data/8ba59c91/src/1e9b956c.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,
-100703,c2ee619a,GitHub,8ba59c91,data/8ba59c91/src/c2ee619a.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,
-100704,c2ee619a,GitHub,8ba59c91,data/8ba59c91/src/c2ee619a.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,
-100705,ad18488c,GitHub,8ba59c91,data/8ba59c91/src/ad18488c.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,
+100701,1e9b956c,GitHub,8ba59c91,data/8ba59c91/src/1e9b956c.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+100702,1e9b956c,GitHub,8ba59c91,data/8ba59c91/src/1e9b956c.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+100703,c2ee619a,GitHub,8ba59c91,data/8ba59c91/src/c2ee619a.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+100704,c2ee619a,GitHub,8ba59c91,data/8ba59c91/src/c2ee619a.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+100705,ad18488c,GitHub,8ba59c91,data/8ba59c91/src/ad18488c.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100706,ad18488c,GitHub,8ba59c91,data/8ba59c91/src/ad18488c.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-100707,744b9a5a,GitHub,8ba59c91,data/8ba59c91/src/744b9a5a.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,
-100708,744b9a5a,GitHub,8ba59c91,data/8ba59c91/src/744b9a5a.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,
-100709,0e1e8469,GitHub,8ba59c91,data/8ba59c91/src/0e1e8469.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,
+100707,744b9a5a,GitHub,8ba59c91,data/8ba59c91/src/744b9a5a.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+100708,744b9a5a,GitHub,8ba59c91,data/8ba59c91/src/744b9a5a.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+100709,0e1e8469,GitHub,8ba59c91,data/8ba59c91/src/0e1e8469.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100710,0e1e8469,GitHub,8ba59c91,data/8ba59c91/src/0e1e8469.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-100711,0d1dbb3f,GitHub,8ba59c91,data/8ba59c91/src/0d1dbb3f.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,
+100711,0d1dbb3f,GitHub,8ba59c91,data/8ba59c91/src/0d1dbb3f.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100712,0d1dbb3f,GitHub,8ba59c91,data/8ba59c91/src/0d1dbb3f.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-100713,ed1a01f4,GitHub,8ba59c91,data/8ba59c91/src/ed1a01f4.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,
+100713,ed1a01f4,GitHub,8ba59c91,data/8ba59c91/src/ed1a01f4.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100714,ed1a01f4,GitHub,8ba59c91,data/8ba59c91/src/ed1a01f4.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-100715,e6ed88bb,GitHub,8ba59c91,data/8ba59c91/src/e6ed88bb.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,
+100715,e6ed88bb,GitHub,8ba59c91,data/8ba59c91/src/e6ed88bb.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100716,e6ed88bb,GitHub,8ba59c91,data/8ba59c91/src/e6ed88bb.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-100717,c8f62dd6,GitHub,8ba59c91,data/8ba59c91/src/c8f62dd6.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,
+100717,c8f62dd6,GitHub,8ba59c91,data/8ba59c91/src/c8f62dd6.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100718,c8f62dd6,GitHub,8ba59c91,data/8ba59c91/src/c8f62dd6.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-100719,17cbff1b,GitHub,8ba59c91,data/8ba59c91/src/17cbff1b.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,
+100719,17cbff1b,GitHub,8ba59c91,data/8ba59c91/src/17cbff1b.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100720,17cbff1b,GitHub,8ba59c91,data/8ba59c91/src/17cbff1b.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-100721,4c52db69,GitHub,8ba59c91,data/8ba59c91/src/4c52db69.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,
+100721,4c52db69,GitHub,8ba59c91,data/8ba59c91/src/4c52db69.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100722,4c52db69,GitHub,8ba59c91,data/8ba59c91/src/4c52db69.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-100723,967e25a7,GitHub,8ba59c91,data/8ba59c91/src/967e25a7.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,
+100723,967e25a7,GitHub,8ba59c91,data/8ba59c91/src/967e25a7.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100724,967e25a7,GitHub,8ba59c91,data/8ba59c91/src/967e25a7.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-100725,b6b7b2ba,GitHub,8ba59c91,data/8ba59c91/src/b6b7b2ba.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,
+100725,b6b7b2ba,GitHub,8ba59c91,data/8ba59c91/src/b6b7b2ba.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100726,b6b7b2ba,GitHub,8ba59c91,data/8ba59c91/src/b6b7b2ba.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-100727,efe62362,GitHub,8ba59c91,data/8ba59c91/src/efe62362.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,
+100727,efe62362,GitHub,8ba59c91,data/8ba59c91/src/efe62362.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100728,efe62362,GitHub,8ba59c91,data/8ba59c91/src/efe62362.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-100729,d2fde8a0,GitHub,8ba59c91,data/8ba59c91/src/d2fde8a0.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,
+100729,d2fde8a0,GitHub,8ba59c91,data/8ba59c91/src/d2fde8a0.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100730,d2fde8a0,GitHub,8ba59c91,data/8ba59c91/src/d2fde8a0.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-100731,5eb28b95,GitHub,8ba59c91,data/8ba59c91/src/5eb28b95.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,
+100731,5eb28b95,GitHub,8ba59c91,data/8ba59c91/src/5eb28b95.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100732,5eb28b95,GitHub,8ba59c91,data/8ba59c91/src/5eb28b95.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-100733,c18be435,GitHub,8ba59c91,data/8ba59c91/src/c18be435.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,
+100733,c18be435,GitHub,8ba59c91,data/8ba59c91/src/c18be435.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100734,c18be435,GitHub,8ba59c91,data/8ba59c91/src/c18be435.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-100735,bcae1dc5,GitHub,8ba59c91,data/8ba59c91/src/bcae1dc5.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,
-100736,bcae1dc5,GitHub,8ba59c91,data/8ba59c91/src/bcae1dc5.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,
-100737,569c012b,GitHub,8ba59c91,data/8ba59c91/src/569c012b.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,
+100735,bcae1dc5,GitHub,8ba59c91,data/8ba59c91/src/bcae1dc5.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+100736,bcae1dc5,GitHub,8ba59c91,data/8ba59c91/src/bcae1dc5.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+100737,569c012b,GitHub,8ba59c91,data/8ba59c91/src/569c012b.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100738,569c012b,GitHub,8ba59c91,data/8ba59c91/src/569c012b.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-100739,d0da3edd,GitHub,8ba59c91,data/8ba59c91/src/d0da3edd.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,
+100739,d0da3edd,GitHub,8ba59c91,data/8ba59c91/src/d0da3edd.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100740,d0da3edd,GitHub,8ba59c91,data/8ba59c91/src/d0da3edd.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-100741,ec71fabd,GitHub,8ba59c91,data/8ba59c91/src/ec71fabd.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,
+100741,ec71fabd,GitHub,8ba59c91,data/8ba59c91/src/ec71fabd.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100742,ec71fabd,GitHub,8ba59c91,data/8ba59c91/src/ec71fabd.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-100743,dbb2dc97,GitHub,8ba59c91,data/8ba59c91/src/dbb2dc97.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,
+100743,dbb2dc97,GitHub,8ba59c91,data/8ba59c91/src/dbb2dc97.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100744,dbb2dc97,GitHub,8ba59c91,data/8ba59c91/src/dbb2dc97.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-100745,73c8b62a,GitHub,8ba59c91,data/8ba59c91/src/73c8b62a.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,
+100745,73c8b62a,GitHub,8ba59c91,data/8ba59c91/src/73c8b62a.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100746,73c8b62a,GitHub,8ba59c91,data/8ba59c91/src/73c8b62a.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-100747,70fe1929,GitHub,8ba59c91,data/8ba59c91/src/70fe1929.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,
+100747,70fe1929,GitHub,8ba59c91,data/8ba59c91/src/70fe1929.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100748,70fe1929,GitHub,8ba59c91,data/8ba59c91/src/70fe1929.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-100749,6cc0898e,GitHub,8ba59c91,data/8ba59c91/src/6cc0898e.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,
-100750,6cc0898e,GitHub,8ba59c91,data/8ba59c91/src/6cc0898e.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,
+100749,6cc0898e,GitHub,8ba59c91,data/8ba59c91/src/6cc0898e.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+100750,6cc0898e,GitHub,8ba59c91,data/8ba59c91/src/6cc0898e.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100751,bff37e61,GitHub,8ba59c91,data/8ba59c91/src/bff37e61.json,199:199,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-100752,f37d4f44,GitHub,8ba59c91,data/8ba59c91/src/f37d4f44.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,
+100752,f37d4f44,GitHub,8ba59c91,data/8ba59c91/src/f37d4f44.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100753,f37d4f44,GitHub,8ba59c91,data/8ba59c91/src/f37d4f44.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-100754,324ce530,GitHub,8ba59c91,data/8ba59c91/src/324ce530.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,
-100755,324ce530,GitHub,8ba59c91,data/8ba59c91/src/324ce530.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,
+100754,324ce530,GitHub,8ba59c91,data/8ba59c91/src/324ce530.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+100755,324ce530,GitHub,8ba59c91,data/8ba59c91/src/324ce530.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100756,b84734ab,GitHub,8ba59c91,data/8ba59c91/src/b84734ab.json,199:199,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100757,fc9c7100,GitHub,8ba59c91,data/8ba59c91/src/fc9c7100.json,199:199,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100758,3fd192fe,GitHub,8ba59c91,data/8ba59c91/src/3fd192fe.json,199:199,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
@@ -1160,25 +900,25 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 100762,a1c9e77e,GitHub,8ba59c91,data/8ba59c91/src/a1c9e77e.json,111:111,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 100763,a1c9e77e,GitHub,8ba59c91,data/8ba59c91/src/a1c9e77e.json,199:199,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100764,2c4c8c0d,GitHub,8ba59c91,data/8ba59c91/src/2c4c8c0d.json,199:199,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-100765,b4ff962d,GitHub,8ba59c91,data/8ba59c91/src/b4ff962d.ts,149:149,F,F,,,F,F,,,,,0.00,,F,F,F,
-100766,b4ff962d,GitHub,8ba59c91,data/8ba59c91/src/b4ff962d.ts,150:150,F,F,,,F,F,,,,,0.00,,F,F,F,
-100767,273ee255,GitHub,8ba59c91,data/8ba59c91/src/273ee255.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,
+100765,b4ff962d,GitHub,8ba59c91,data/8ba59c91/src/b4ff962d.ts,149:149,F,F,,,F,F,,,,,0.00,,F,F,F,Password
+100766,b4ff962d,GitHub,8ba59c91,data/8ba59c91/src/b4ff962d.ts,150:150,F,F,,,F,F,,,,,0.00,,F,F,F,Password
+100767,273ee255,GitHub,8ba59c91,data/8ba59c91/src/273ee255.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100768,273ee255,GitHub,8ba59c91,data/8ba59c91/src/273ee255.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-100769,753f7d4b,GitHub,8ba59c91,data/8ba59c91/src/753f7d4b.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,
+100769,753f7d4b,GitHub,8ba59c91,data/8ba59c91/src/753f7d4b.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100770,753f7d4b,GitHub,8ba59c91,data/8ba59c91/src/753f7d4b.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-100771,3f10622a,GitHub,8ba59c91,data/8ba59c91/src/3f10622a.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,
+100771,3f10622a,GitHub,8ba59c91,data/8ba59c91/src/3f10622a.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100772,3f10622a,GitHub,8ba59c91,data/8ba59c91/src/3f10622a.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-100773,1dd65705,GitHub,8ba59c91,data/8ba59c91/src/1dd65705.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,
+100773,1dd65705,GitHub,8ba59c91,data/8ba59c91/src/1dd65705.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100774,1dd65705,GitHub,8ba59c91,data/8ba59c91/src/1dd65705.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-100775,3929c3d2,GitHub,8ba59c91,data/8ba59c91/src/3929c3d2.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,
+100775,3929c3d2,GitHub,8ba59c91,data/8ba59c91/src/3929c3d2.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100776,3929c3d2,GitHub,8ba59c91,data/8ba59c91/src/3929c3d2.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-100777,3137ddd7,GitHub,8ba59c91,data/8ba59c91/src/3137ddd7.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,
+100777,3137ddd7,GitHub,8ba59c91,data/8ba59c91/src/3137ddd7.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100778,3137ddd7,GitHub,8ba59c91,data/8ba59c91/src/3137ddd7.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-100779,f44ab553,GitHub,8ba59c91,data/8ba59c91/src/f44ab553.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,
+100779,f44ab553,GitHub,8ba59c91,data/8ba59c91/src/f44ab553.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100780,f44ab553,GitHub,8ba59c91,data/8ba59c91/src/f44ab553.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-100781,0ba49240,GitHub,8ba59c91,data/8ba59c91/src/0ba49240.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,
+100781,0ba49240,GitHub,8ba59c91,data/8ba59c91/src/0ba49240.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100782,0ba49240,GitHub,8ba59c91,data/8ba59c91/src/0ba49240.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-100783,916fdd5a,GitHub,8ba59c91,data/8ba59c91/src/916fdd5a.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,
+100783,916fdd5a,GitHub,8ba59c91,data/8ba59c91/src/916fdd5a.json,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100784,916fdd5a,GitHub,8ba59c91,data/8ba59c91/src/916fdd5a.json,399:399,F,F,,,F,F,,,,,0.00,,F,F,F,Other
 110281,69822c0e,GitHub,8ba59c91,data/8ba59c91/src/69822c0e.json,121:121,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
 110282,0ba49240,GitHub,8ba59c91,data/8ba59c91/src/0ba49240.json,211:211,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
@@ -1214,8 +954,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 110312,967e25a7,GitHub,8ba59c91,data/8ba59c91/src/967e25a7.json,121:121,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
 110313,d0da3edd,GitHub,8ba59c91,data/8ba59c91/src/d0da3edd.json,186:186,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
 110314,d0da3edd,GitHub,8ba59c91,data/8ba59c91/src/d0da3edd.json,211:211,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-110315,a1c9e77e,GitHub,8ba59c91,data/8ba59c91/src/a1c9e77e.json,125:125,F,F,,,F,F,,,,,0.00,,F,F,F,
-110316,a1c9e77e,GitHub,8ba59c91,data/8ba59c91/src/a1c9e77e.json,149:149,F,F,,,F,F,,,,,0.00,,F,F,F,
+110315,a1c9e77e,GitHub,8ba59c91,data/8ba59c91/src/a1c9e77e.json,125:125,F,F,,,F,F,,,,,0.00,,F,F,F,Password
+110316,a1c9e77e,GitHub,8ba59c91,data/8ba59c91/src/a1c9e77e.json,149:149,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 110317,a1c9e77e,GitHub,8ba59c91,data/8ba59c91/src/a1c9e77e.json,59:59,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 110318,916fdd5a,GitHub,8ba59c91,data/8ba59c91/src/916fdd5a.json,121:121,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
 110319,916fdd5a,GitHub,8ba59c91,data/8ba59c91/src/916fdd5a.json,179:179,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
@@ -1234,7 +974,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 110332,c2ee619a,GitHub,8ba59c91,data/8ba59c91/src/c2ee619a.json,186:186,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
 110333,c2ee619a,GitHub,8ba59c91,data/8ba59c91/src/c2ee619a.json,208:208,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
 110334,c2ee619a,GitHub,8ba59c91,data/8ba59c91/src/c2ee619a.json,380:380,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-110335,2c4c8c0d,GitHub,8ba59c91,data/8ba59c91/src/2c4c8c0d.json,125:125,F,F,,,F,F,,,,,0.00,,F,F,F,
+110335,2c4c8c0d,GitHub,8ba59c91,data/8ba59c91/src/2c4c8c0d.json,125:125,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 110336,2c4c8c0d,GitHub,8ba59c91,data/8ba59c91/src/2c4c8c0d.json,59:59,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 110337,17cbff1b,GitHub,8ba59c91,data/8ba59c91/src/17cbff1b.json,27:27,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 110338,17cbff1b,GitHub,8ba59c91,data/8ba59c91/src/17cbff1b.json,121:121,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token

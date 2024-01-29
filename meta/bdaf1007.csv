@@ -48,9 +48,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 11728,1911a8da,GitHub,bdaf1007,data/bdaf1007/src/1911a8da.rs,236:236,F,F,,,F,F,,,,,0,0,F,F,F,Password
 11920,1911a8da,GitHub,bdaf1007,data/bdaf1007/src/1911a8da.rs,235:235,F,F,,,F,F,,,,,0,0,F,F,F,Password
 12706,61223061,GitHub,bdaf1007,data/bdaf1007/src/61223061.rs,29:29,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-12707,fb203eaa,GitHub,bdaf1007,data/bdaf1007/src/fb203eaa.rs,35:35,F,F,,,F,F,,,,,0,0,F,F,F,
+12707,fb203eaa,GitHub,bdaf1007,data/bdaf1007/src/fb203eaa.rs,35:35,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 12721,764a2b90,GitHub,bdaf1007,data/bdaf1007/test/764a2b90.rs,21:21,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-12941,a86e4631,GitHub,bdaf1007,data/bdaf1007/src/a86e4631.rs,108:108,F,F,,,F,F,,,,,0,0,F,F,F,
+12941,a86e4631,GitHub,bdaf1007,data/bdaf1007/src/a86e4631.rs,108:108,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 13173,fb3d81be,GitHub,bdaf1007,data/bdaf1007/src/fb3d81be.rs,939:939,F,F,,,F,F,,,,,0,0,F,F,F,Password
 13177,1911a8da,GitHub,bdaf1007,data/bdaf1007/src/1911a8da.rs,171:171,F,F,,,F,F,,,,,0,0,F,F,F,Password
 13709,c26518a1,GitHub,bdaf1007,data/bdaf1007/src/c26518a1.rs,335:335,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -77,7 +77,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 35042,667f729e,GitHub,bdaf1007,data/bdaf1007/src/667f729e.rs,79:79,T,F,16,54,F,F,Any,,,Token,3.58,38,F,F,F,Generic Token
 36363,e974654f,GitHub,bdaf1007,data/bdaf1007/test/e974654f.rs,96:96,Template,F,15,22,F,F,Any,,,Secret,2.12,7,F,F,F,Password
 48012,e974654f,GitHub,bdaf1007,data/bdaf1007/test/e974654f.rs,31:31,F,F,,,F,F,,,,,0,0,F,F,F,Password
-56853,bfc3a7a2,GitHub,bdaf1007,data/bdaf1007/src/bfc3a7a2.key,1:127,F,F,,,F,F,,,,,0,0,F,F,F,
+56853,bfc3a7a2,GitHub,bdaf1007,data/bdaf1007/src/bfc3a7a2.key,1:127,F,F,,,F,F,,,,,0,0,F,F,F,Private Key
 64089,c26518a1,GitHub,bdaf1007,data/bdaf1007/src/c26518a1.rs,141:141,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 64090,595b676e,GitHub,bdaf1007,data/bdaf1007/src/595b676e.rs,107:107,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 64091,31041e6a,GitHub,bdaf1007,data/bdaf1007/src/31041e6a.rs,176:176,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -94,25 +94,25 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 64209,a86e4631,GitHub,bdaf1007,data/bdaf1007/src/a86e4631.rs,155:155,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 64210,2c82febc,GitHub,bdaf1007,data/bdaf1007/src/2c82febc.rs,182:182,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 64211,a86e4631,GitHub,bdaf1007,data/bdaf1007/src/a86e4631.rs,169:169,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-73993,fb3d81be,GitHub,bdaf1007,data/bdaf1007/src/fb3d81be.rs,1037:1037,F,F,,,F,F,,,,,0,0,F,F,F,
-73994,fb3d81be,GitHub,bdaf1007,data/bdaf1007/src/fb3d81be.rs,1096:1096,F,F,,,F,F,,,,,0,0,F,F,F,
-73995,fb3d81be,GitHub,bdaf1007,data/bdaf1007/src/fb3d81be.rs,1117:1117,F,F,,,F,F,,,,,0,0,F,F,F,
-73996,fb3d81be,GitHub,bdaf1007,data/bdaf1007/src/fb3d81be.rs,1127:1127,F,F,,,F,F,,,,,0,0,F,F,F,
-73997,fb3d81be,GitHub,bdaf1007,data/bdaf1007/src/fb3d81be.rs,1174:1174,F,F,,,F,F,,,,,0,0,F,F,F,
-73998,fb3d81be,GitHub,bdaf1007,data/bdaf1007/src/fb3d81be.rs,1196:1196,F,F,,,F,F,,,,,0,0,F,F,F,
-73999,a86e4631,GitHub,bdaf1007,data/bdaf1007/src/a86e4631.rs,122:122,F,F,,,F,F,,,,,0,0,F,F,F,
+73993,fb3d81be,GitHub,bdaf1007,data/bdaf1007/src/fb3d81be.rs,1037:1037,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+73994,fb3d81be,GitHub,bdaf1007,data/bdaf1007/src/fb3d81be.rs,1096:1096,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+73995,fb3d81be,GitHub,bdaf1007,data/bdaf1007/src/fb3d81be.rs,1117:1117,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+73996,fb3d81be,GitHub,bdaf1007,data/bdaf1007/src/fb3d81be.rs,1127:1127,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+73997,fb3d81be,GitHub,bdaf1007,data/bdaf1007/src/fb3d81be.rs,1174:1174,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+73998,fb3d81be,GitHub,bdaf1007,data/bdaf1007/src/fb3d81be.rs,1196:1196,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+73999,a86e4631,GitHub,bdaf1007,data/bdaf1007/src/a86e4631.rs,122:122,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 74133,fb3d81be,GitHub,bdaf1007,data/bdaf1007/src/fb3d81be.rs,40:40,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 74134,fb3d81be,GitHub,bdaf1007,data/bdaf1007/src/fb3d81be.rs,45:45,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 74135,fb3d81be,GitHub,bdaf1007,data/bdaf1007/src/fb3d81be.rs,81:81,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 74136,fb3d81be,GitHub,bdaf1007,data/bdaf1007/src/fb3d81be.rs,838:838,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-74144,1df0d07c,GitHub,bdaf1007,data/bdaf1007/src/1df0d07c.rs,126:126,F,F,,,F,F,,,,,0,0,F,F,F,
-74145,1df0d07c,GitHub,bdaf1007,data/bdaf1007/src/1df0d07c.rs,189:189,F,F,,,F,F,,,,,0,0,F,F,F,
-74146,a86e4631,GitHub,bdaf1007,data/bdaf1007/src/a86e4631.rs,154:154,F,F,,,F,F,,,,,0,0,F,F,F,
-74147,96130eb0,GitHub,bdaf1007,data/bdaf1007/src/96130eb0.rs,57:57,F,F,,,F,F,,,,,0,0,F,F,F,
-74148,fb203eaa,GitHub,bdaf1007,data/bdaf1007/src/fb203eaa.rs,101:101,F,F,,,F,F,,,,,0,0,F,F,F,
-74149,fb203eaa,GitHub,bdaf1007,data/bdaf1007/src/fb203eaa.rs,174:174,F,F,,,F,F,,,,,0,0,F,F,F,
-74150,2c82febc,GitHub,bdaf1007,data/bdaf1007/src/2c82febc.rs,181:181,F,F,,,F,F,,,,,0,0,F,F,F,
-74151,61223061,GitHub,bdaf1007,data/bdaf1007/src/61223061.rs,18:18,F,F,,,F,F,,,,,0,0,F,F,F,
+74144,1df0d07c,GitHub,bdaf1007,data/bdaf1007/src/1df0d07c.rs,126:126,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+74145,1df0d07c,GitHub,bdaf1007,data/bdaf1007/src/1df0d07c.rs,189:189,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+74146,a86e4631,GitHub,bdaf1007,data/bdaf1007/src/a86e4631.rs,154:154,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+74147,96130eb0,GitHub,bdaf1007,data/bdaf1007/src/96130eb0.rs,57:57,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+74148,fb203eaa,GitHub,bdaf1007,data/bdaf1007/src/fb203eaa.rs,101:101,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+74149,fb203eaa,GitHub,bdaf1007,data/bdaf1007/src/fb203eaa.rs,174:174,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+74150,2c82febc,GitHub,bdaf1007,data/bdaf1007/src/2c82febc.rs,181:181,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+74151,61223061,GitHub,bdaf1007,data/bdaf1007/src/61223061.rs,18:18,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 74152,1df0d07c,GitHub,bdaf1007,data/bdaf1007/src/1df0d07c.rs,155:155,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 74153,1df0d07c,GitHub,bdaf1007,data/bdaf1007/src/1df0d07c.rs,320:320,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 74154,a86e4631,GitHub,bdaf1007,data/bdaf1007/src/a86e4631.rs,168:168,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -143,7 +143,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 75297,2fe7e0f2,GitHub,bdaf1007,data/bdaf1007/src/2fe7e0f2.rs,146:146,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 75298,2fe7e0f2,GitHub,bdaf1007,data/bdaf1007/src/2fe7e0f2.rs,511:511,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 75461,f39085c6,GitHub,bdaf1007,data/bdaf1007/src/f39085c6.c,1845:1845,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-75581,f39085c6,GitHub,bdaf1007,data/bdaf1007/src/f39085c6.c,1128:1128,F,F,,,F,F,,,,,0,0,F,F,F,
+75581,f39085c6,GitHub,bdaf1007,data/bdaf1007/src/f39085c6.c,1128:1128,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 80841,742c6aac,GitHub,bdaf1007,data/bdaf1007/src/742c6aac.rs,488:488,F,F,4,7,F,F,,,,,0,0,F,F,F,Password
 83107,8a44ff48,GitHub,bdaf1007,data/bdaf1007/src/8a44ff48.rs,724:724,F,F,5,10,F,F,,,,,0,0,F,F,F,Password
 83108,8a44ff48,GitHub,bdaf1007,data/bdaf1007/src/8a44ff48.rs,759:759,F,F,9,14,F,F,,,,,0,0,F,F,F,Password
@@ -151,10 +151,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 83110,742c6aac,GitHub,bdaf1007,data/bdaf1007/src/742c6aac.rs,50:50,F,F,5,10,F,F,,,,,0,0,F,F,F,Password
 83111,742c6aac,GitHub,bdaf1007,data/bdaf1007/src/742c6aac.rs,139:139,F,F,9,14,F,F,,,,,0,0,F,F,F,Password
 83112,742c6aac,GitHub,bdaf1007,data/bdaf1007/src/742c6aac.rs,140:140,F,F,9,14,F,F,,,,,0,0,F,F,F,Password
-100350,1911a8da,GitHub,bdaf1007,data/bdaf1007/src/1911a8da.rs,184:184,F,F,,,F,F,,,,,0.00,,F,F,F,
-100351,8a44ff48,GitHub,bdaf1007,data/bdaf1007/src/8a44ff48.rs,728:728,F,F,,,F,F,,,,,0.00,,F,F,F,
-100352,31041e6a,GitHub,bdaf1007,data/bdaf1007/src/31041e6a.rs,16:16,F,F,,,F,F,,,,,0.00,,F,F,F,
-100353,742c6aac,GitHub,bdaf1007,data/bdaf1007/src/742c6aac.rs,480:480,F,F,,,F,F,,,,,0.00,,F,F,F,
+100350,1911a8da,GitHub,bdaf1007,data/bdaf1007/src/1911a8da.rs,184:184,F,F,,,F,F,,,,,0.00,,F,F,F,Password
+100351,8a44ff48,GitHub,bdaf1007,data/bdaf1007/src/8a44ff48.rs,728:728,F,F,,,F,F,,,,,0.00,,F,F,F,Password
+100352,31041e6a,GitHub,bdaf1007,data/bdaf1007/src/31041e6a.rs,16:16,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+100353,742c6aac,GitHub,bdaf1007,data/bdaf1007/src/742c6aac.rs,480:480,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 110072,8a44ff48,GitHub,bdaf1007,data/bdaf1007/src/8a44ff48.rs,258:258,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 110073,8a44ff48,GitHub,bdaf1007,data/bdaf1007/src/8a44ff48.rs,715:715,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 110074,8a44ff48,GitHub,bdaf1007,data/bdaf1007/src/8a44ff48.rs,779:779,F,F,,,F,F,,,,,0.00,,F,F,F,Password

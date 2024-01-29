@@ -1,15 +1,13 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
 1220,5f27cb02,GitHub,e097ae9a,data/e097ae9a/test/5f27cb02.yml,48:48,F,F,,,F,F,,,,,0,0,F,F,F,Password
-1744,61218f81,GitHub,e097ae9a,data/e097ae9a/test/61218f81.ts,5:5,F,F,,,F,F,,,,,0,0,F,F,F,
 1981,291fa39b,GitHub,e097ae9a,data/e097ae9a/src/291fa39b.sh,72:72,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 2179,89b7f088,GitHub,e097ae9a,data/e097ae9a/test/89b7f088.py,12:12,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 2180,7a406203,GitHub,e097ae9a,data/e097ae9a/test/7a406203.py,12:12,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 4576,b0387d10,GitHub,e097ae9a,data/e097ae9a/src/b0387d10.sh,167:167,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-4686,a5a7662c,GitHub,e097ae9a,data/e097ae9a/src/a5a7662c.sh,252:252,F,F,,,F,F,,,,,0,0,F,F,F,
+4686,a5a7662c,GitHub,e097ae9a,data/e097ae9a/src/a5a7662c.sh,252:252,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
 5855,5a83d2a1,GitHub,e097ae9a,data/e097ae9a/test/5a83d2a1.yaml,2:2,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 6043,efbf4b14,GitHub,e097ae9a,data/e097ae9a/test/efbf4b14.yml,1:1,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-8183,627f06b9,GitHub,e097ae9a,data/e097ae9a/test/627f06b9.yml,21:21,F,F,,,F,F,,,,,0,0,F,F,F,
-11666,5f27cb02,GitHub,e097ae9a,data/e097ae9a/test/5f27cb02.yml,98:98,F,F,,,F,F,,,,,0,0,F,F,F,
+8183,627f06b9,GitHub,e097ae9a,data/e097ae9a/test/627f06b9.yml,21:21,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 11831,50f3997b,GitHub,e097ae9a,data/e097ae9a/test/50f3997b.yml,1:1,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 11852,1cd1c394,GitHub,e097ae9a,data/e097ae9a/test/1cd1c394.yml,1:1,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 16534,61df98c3,GitHub,e097ae9a,data/e097ae9a/test/61df98c3.py,22:22,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
@@ -37,7 +35,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 61587,c97f3c5e,GitHub,e097ae9a,data/e097ae9a/test/c97f3c5e.yaml,22:22,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 64192,61df98c3,GitHub,e097ae9a,data/e097ae9a/test/61df98c3.py,12:12,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 64193,736e58fd,GitHub,e097ae9a,data/e097ae9a/test/736e58fd.py,12:12,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-76077,627f06b9,GitHub,e097ae9a,data/e097ae9a/test/627f06b9.yml,38:38,F,F,,,F,F,,,,,0,0,F,F,F,
+76077,627f06b9,GitHub,e097ae9a,data/e097ae9a/test/627f06b9.yml,38:38,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 82438,5f27cb02,GitHub,e097ae9a,data/e097ae9a/test/5f27cb02.yml,155:155,F,F,16,16,F,F,,,,,0,0,F,F,F,Password
 114670,0b89e6e1,GitHub,e097ae9a,data/e097ae9a/src/0b89e6e1.sh,238:238,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
 114671,5f27cb02,GitHub,e097ae9a,data/e097ae9a/test/5f27cb02.yml,19:19,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern

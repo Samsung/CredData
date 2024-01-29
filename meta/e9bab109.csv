@@ -1,96 +1,36 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
 47,5830dc99,GitHub,e9bab109,data/e9bab109/test/5830dc99.go,55:55,Template,T,66,86,F,F,Any,,,Secret,3.13,20,F,F,F,Password
-103,baa7593a,GitHub,e9bab109,data/e9bab109/test/baa7593a.go,381:381,F,F,,,F,F,,,,,0,0,F,F,F,
 104,baa7593a,GitHub,e9bab109,data/e9bab109/test/baa7593a.go,382:382,F,F,,,F,F,,,,,0,0,F,F,F,Password
 1233,175fdc30,GitHub,e9bab109,data/e9bab109/test/175fdc30.go,95:95,Template,T,115,135,F,F,Any,,,Secret,3.13,20,F,F,F,Password
 1255,658d86d1,GitHub,e9bab109,data/e9bab109/other/658d86d1.md,53:53,F,F,,,F,F,,,,,0,0,F,F,F,Password
-1936,3295df72,GitHub,e9bab109,data/e9bab109/src/3295df72.sum,346:346,F,F,,,F,F,,,,,0,0,F,F,F,
-1954,3295df72,GitHub,e9bab109,data/e9bab109/src/3295df72.sum,345:345,F,F,,,F,F,,,,,0,0,F,F,F,
-2203,3295df72,GitHub,e9bab109,data/e9bab109/src/3295df72.sum,347:347,F,F,,,F,F,,,,,0,0,F,F,F,
-2280,3295df72,GitHub,e9bab109,data/e9bab109/src/3295df72.sum,344:344,F,F,,,F,F,,,,,0,0,F,F,F,
-2283,3295df72,GitHub,e9bab109,data/e9bab109/src/3295df72.sum,343:343,F,F,,,F,F,,,,,0,0,F,F,F,
+1936,3295df72,GitHub,e9bab109,data/e9bab109/src/3295df72.sum,346:346,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+1954,3295df72,GitHub,e9bab109,data/e9bab109/src/3295df72.sum,345:345,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+2203,3295df72,GitHub,e9bab109,data/e9bab109/src/3295df72.sum,347:347,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+2280,3295df72,GitHub,e9bab109,data/e9bab109/src/3295df72.sum,344:344,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+2283,3295df72,GitHub,e9bab109,data/e9bab109/src/3295df72.sum,343:343,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 2751,28ddc314,GitHub,e9bab109,data/e9bab109/src/28ddc314.go,12573:12573,F,F,,,F,F,,,,,0,0,F,F,F,Password
-3134,8dd862a4,GitHub,e9bab109,data/e9bab109/src/8dd862a4.go,146:146,F,F,,,F,F,,,,,0,0,F,F,F,
-3434,3295df72,GitHub,e9bab109,data/e9bab109/src/3295df72.sum,105:105,F,F,,,F,F,,,,,0,0,F,F,F,
-3461,3295df72,GitHub,e9bab109,data/e9bab109/src/3295df72.sum,97:97,F,F,,,F,F,,,,,0,0,F,F,F,
-3486,3295df72,GitHub,e9bab109,data/e9bab109/src/3295df72.sum,98:98,F,F,,,F,F,,,,,0,0,F,F,F,
-3693,3295df72,GitHub,e9bab109,data/e9bab109/src/3295df72.sum,57:57,F,F,,,F,F,,,,,0,0,F,F,F,
-3695,3295df72,GitHub,e9bab109,data/e9bab109/src/3295df72.sum,56:56,F,F,,,F,F,,,,,0,0,F,F,F,
-4805,f06a3538,GitHub,e9bab109,data/e9bab109/src/f06a3538.go,112:112,F,F,,,F,F,,,,,0,0,F,F,F,
-4810,781aca69,GitHub,e9bab109,data/e9bab109/src/781aca69.go,143:143,F,F,,,F,F,,,,,0,0,F,F,F,
-4814,f4abd9a1,GitHub,e9bab109,data/e9bab109/src/f4abd9a1.go,107:107,F,F,,,F,F,,,,,0,0,F,F,F,
-4831,bf72c3c9,GitHub,e9bab109,data/e9bab109/other/bf72c3c9.md,414:414,F,F,,,F,F,,,,,0,0,F,F,F,
-4839,7aab2c10,GitHub,e9bab109,data/e9bab109/other/7aab2c10.md,84:84,F,F,,,F,F,,,,,0,0,F,F,F,
+3434,3295df72,GitHub,e9bab109,data/e9bab109/src/3295df72.sum,105:105,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+3461,3295df72,GitHub,e9bab109,data/e9bab109/src/3295df72.sum,97:97,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+3486,3295df72,GitHub,e9bab109,data/e9bab109/src/3295df72.sum,98:98,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+3693,3295df72,GitHub,e9bab109,data/e9bab109/src/3295df72.sum,57:57,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+3695,3295df72,GitHub,e9bab109,data/e9bab109/src/3295df72.sum,56:56,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 4841,4d8435fd,GitHub,e9bab109,data/e9bab109/test/4d8435fd.go,33:33,Template,T,23,27,F,F,CharOnly,,,Secret,1.50,4,F,F,F,Password
-4851,a68d5f24,GitHub,e9bab109,data/e9bab109/test/a68d5f24.go,76:76,F,F,,,F,F,,,,,0,0,F,F,F,
-4855,3967bead,GitHub,e9bab109,data/e9bab109/src/3967bead.go,114:114,F,F,,,F,F,,,,,0,0,F,F,F,
-5553,04a42c27,GitHub,e9bab109,data/e9bab109/other/04a42c27.md,536:536,F,F,,,F,F,,,,,0,0,F,F,F,
+5553,04a42c27,GitHub,e9bab109,data/e9bab109/other/04a42c27.md,536:536,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 6157,437fa519,GitHub,e9bab109,data/e9bab109/src/437fa519.go,414:414,F,F,,,F,F,,,,,0,0,F,F,F,Password
 6176,d5db41b3,GitHub,e9bab109,data/e9bab109/src/d5db41b3.go,142:142,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 6177,5bebb4af,GitHub,e9bab109,data/e9bab109/src/5bebb4af.go,50:50,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-7261,bb60ca7c,GitHub,e9bab109,data/e9bab109/src/bb60ca7c.go,265:265,F,F,,,F,F,,,,,0,0,F,F,F,
 7262,fac8130a,GitHub,e9bab109,data/e9bab109/src/fac8130a.go,515:515,F,F,,,F,F,,,,,0,0,F,F,F,Password
-7404,f4b7693e,GitHub,e9bab109,data/e9bab109/test/f4b7693e.go,59:59,F,F,,,F,F,,,,,0,0,F,F,F,
 7717,437fa519,GitHub,e9bab109,data/e9bab109/src/437fa519.go,282:282,F,F,,,F,F,,,,,0,0,F,F,F,Password
 7718,f69292bf,GitHub,e9bab109,data/e9bab109/src/f69292bf.go,227:227,F,F,,,F,F,,,,,0,0,F,F,F,Password
-10916,45dffcd0,GitHub,e9bab109,data/e9bab109/test/45dffcd0.go,1468:1468,F,F,,,F,F,,,,,0,0,F,F,F,
-10945,45dffcd0,GitHub,e9bab109,data/e9bab109/test/45dffcd0.go,1483:1483,F,F,,,F,F,,,,,0,0,F,F,F,
-11470,bf72c3c9,GitHub,e9bab109,data/e9bab109/other/bf72c3c9.md,428:428,F,F,,,F,F,,,,,0,0,F,F,F,
-11471,bf72c3c9,GitHub,e9bab109,data/e9bab109/other/bf72c3c9.md,418:418,F,F,,,F,F,,,,,0,0,F,F,F,
 12010,28ddc314,GitHub,e9bab109,data/e9bab109/src/28ddc314.go,11909:11909,F,F,,,F,F,,,,,0,0,F,F,F,Password
 12011,28ddc314,GitHub,e9bab109,data/e9bab109/src/28ddc314.go,11910:11910,F,F,,,F,F,,,,,0,0,F,F,F,Password
-12100,f4b7693e,GitHub,e9bab109,data/e9bab109/test/f4b7693e.go,64:64,F,F,,,F,F,,,,,0,0,F,F,F,
 12285,77a2b8bb,GitHub,e9bab109,data/e9bab109/test/77a2b8bb.go,41:41,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 12534,b63742ae,GitHub,e9bab109,data/e9bab109/src/b63742ae.go,71:71,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-13590,d5b74d47,GitHub,e9bab109,data/e9bab109/src/d5b74d47.go,196:196,F,F,,,F,F,,,,,0,0,F,F,F,
-13591,d5b74d47,GitHub,e9bab109,data/e9bab109/src/d5b74d47.go,173:173,F,F,,,F,F,,,,,0,0,F,F,F,
-13592,447fdb46,GitHub,e9bab109,data/e9bab109/src/447fdb46.go,200:200,F,F,,,F,F,,,,,0,0,F,F,F,
-13593,d5b74d47,GitHub,e9bab109,data/e9bab109/src/d5b74d47.go,149:149,F,F,,,F,F,,,,,0,0,F,F,F,
 13835,175fdc30,GitHub,e9bab109,data/e9bab109/test/175fdc30.go,1179:1179,F,F,,,F,F,,,,,0,0,F,F,F,Password
 14518,f7b8214e,GitHub,e9bab109,data/e9bab109/src/f7b8214e.go,581:581,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-17200,d14dacb0,GitHub,e9bab109,data/e9bab109/test/d14dacb0.go,31:31,F,F,,,F,F,,,,,0,0,F,F,F,
-17804,5dcebbfe,GitHub,e9bab109,data/e9bab109/test/5dcebbfe.go,33:33,F,F,,,F,F,,,,,0,0,F,F,F,
-18930,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,188:188,F,F,,,F,F,,,,,0,0,F,F,F,
-18942,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,197:197,F,F,,,F,F,,,,,0,0,F,F,F,
-18956,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,114:114,F,F,,,F,F,,,,,0,0,F,F,F,
-18980,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,260:260,F,F,,,F,F,,,,,0,0,F,F,F,
-18989,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,76:76,F,F,,,F,F,,,,,0,0,F,F,F,
-19018,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,104:104,F,F,,,F,F,,,,,0,0,F,F,F,
-19071,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,123:123,F,F,,,F,F,,,,,0,0,F,F,F,
-19079,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,215:215,F,F,,,F,F,,,,,0,0,F,F,F,
-19121,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,314:314,F,F,,,F,F,,,,,0,0,F,F,F,
-19191,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,40:40,F,F,,,F,F,,,,,0,0,F,F,F,
-19201,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,152:152,F,F,,,F,F,,,,,0,0,F,F,F,
-19210,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,323:323,F,F,,,F,F,,,,,0,0,F,F,F,
-19219,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,233:233,F,F,,,F,F,,,,,0,0,F,F,F,
-19298,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,132:132,F,F,,,F,F,,,,,0,0,F,F,F,
-19326,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,287:287,F,F,,,F,F,,,,,0,0,F,F,F,
-19353,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,170:170,F,F,,,F,F,,,,,0,0,F,F,F,
-19422,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,360:360,F,F,,,F,F,,,,,0,0,F,F,F,
-19498,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,161:161,F,F,,,F,F,,,,,0,0,F,F,F,
-19502,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,29:29,F,F,,,F,F,,,,,0,0,F,F,F,
-19531,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,342:342,F,F,,,F,F,,,,,0,0,F,F,F,
-19596,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,141:141,F,F,,,F,F,,,,,0,0,F,F,F,
-19726,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,242:242,F,F,,,F,F,,,,,0,0,F,F,F,
-19739,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,351:351,F,F,,,F,F,,,,,0,0,F,F,F,
-19764,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,269:269,F,F,,,F,F,,,,,0,0,F,F,F,
-19774,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,206:206,F,F,,,F,F,,,,,0,0,F,F,F,
-19775,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,49:49,F,F,,,F,F,,,,,0,0,F,F,F,
-19789,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,58:58,F,F,,,F,F,,,,,0,0,F,F,F,
-19860,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,224:224,F,F,,,F,F,,,,,0,0,F,F,F,
 20042,2194da2c,GitHub,e9bab109,data/e9bab109/test/2194da2c.go,99:99,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 20303,68981860,GitHub,e9bab109,data/e9bab109/test/68981860.go,83:83,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-20473,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,333:333,F,F,,,F,F,,,,,0,0,F,F,F,
-20536,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,20:20,F,F,,,F,F,,,,,0,0,F,F,F,
-20576,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,179:179,F,F,,,F,F,,,,,0,0,F,F,F,
-20628,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,296:296,F,F,,,F,F,,,,,0,0,F,F,F,
 20751,63042856,GitHub,e9bab109,data/e9bab109/test/63042856.go,310:310,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-20806,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,369:369,F,F,,,F,F,,,,,0,0,F,F,F,
-20808,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,94:94,F,F,,,F,F,,,,,0,0,F,F,F,
-20813,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,278:278,F,F,,,F,F,,,,,0,0,F,F,F,
-20900,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,305:305,F,F,,,F,F,,,,,0,0,F,F,F,
-22151,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,251:251,F,F,,,F,F,,,,,0,0,F,F,F,
-22240,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,378:378,F,F,,,F,F,,,,,0,0,F,F,F,
 23047,4d8435fd,GitHub,e9bab109,data/e9bab109/test/4d8435fd.go,34:34,F,F,,,F,F,,,,,0,0,F,F,F,Password
 24971,98c2b1ae,GitHub,e9bab109,data/e9bab109/src/98c2b1ae.go,49:49,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 25008,447fdb46,GitHub,e9bab109,data/e9bab109/src/447fdb46.go,33:33,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -102,7 +42,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 33907,533271e6,GitHub,e9bab109,data/e9bab109/src/533271e6.yaml,14:14,Template,T,21,25,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
 33967,533271e6,GitHub,e9bab109,data/e9bab109/src/533271e6.yaml,80:80,Template,T,19,23,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
 34386,7b1d5f98,GitHub,e9bab109,data/e9bab109/other/7b1d5f98.js,77:77,T,F,9,41,F,F,Any,,,Key,3.63,32,F,F,F,Other
-34888,5da967fc,GitHub,e9bab109,data/e9bab109/other/5da967fc.md,217:217,F,F,23,62,F,F,,,,,0,0,F,F,F,
+34888,5da967fc,GitHub,e9bab109,data/e9bab109/other/5da967fc.md,217:217,F,F,23,62,F,F,,,,,0,0,F,F,F,Generic Secret
 37005,b803fcb7,GitHub,e9bab109,data/e9bab109/src/b803fcb7.yml,96:96,Template,T,21,25,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
 37006,b803fcb7,GitHub,e9bab109,data/e9bab109/src/b803fcb7.yml,109:109,Template,T,21,25,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
 37007,b803fcb7,GitHub,e9bab109,data/e9bab109/src/b803fcb7.yml,122:122,Template,T,21,25,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
@@ -124,8 +64,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 37082,533271e6,GitHub,e9bab109,data/e9bab109/src/533271e6.yaml,113:113,Template,T,19,23,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
 37160,7b1d5f98,GitHub,e9bab109,data/e9bab109/other/7b1d5f98.js,212:212,T,F,11,43,F,F,Any,,,Key,3.63,32,F,F,F,Other
 40010,b803fcb7,GitHub,e9bab109,data/e9bab109/src/b803fcb7.yml,161:161,Template,T,19,23,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-54620,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,387:387,F,F,,,F,F,,,,,0,0,F,F,F,
-54729,cb220955,GitHub,e9bab109,data/e9bab109/other/cb220955,396:396,F,F,,,F,F,,,,,0,0,F,F,F,
 61761,b803fcb7,GitHub,e9bab109,data/e9bab109/src/b803fcb7.yml,173:173,Template,T,9,13,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
 61762,b803fcb7,GitHub,e9bab109,data/e9bab109/src/b803fcb7.yml,185:185,Template,T,9,13,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
 61763,b803fcb7,GitHub,e9bab109,data/e9bab109/src/b803fcb7.yml,197:197,Template,T,9,13,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
@@ -133,11 +71,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 61765,b803fcb7,GitHub,e9bab109,data/e9bab109/src/b803fcb7.yml,325:325,Template,T,9,13,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
 61766,b803fcb7,GitHub,e9bab109,data/e9bab109/src/b803fcb7.yml,337:337,Template,T,9,13,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
 61767,b803fcb7,GitHub,e9bab109,data/e9bab109/src/b803fcb7.yml,349:349,Template,T,9,13,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-62358,f4abd9a1,GitHub,e9bab109,data/e9bab109/src/f4abd9a1.go,132:132,F,F,,,F,F,,,,,0,0,F,F,F,
-62362,781aca69,GitHub,e9bab109,data/e9bab109/src/781aca69.go,175:175,F,F,,,F,F,,,,,0,0,F,F,F,
-62369,f06a3538,GitHub,e9bab109,data/e9bab109/src/f06a3538.go,138:138,F,F,,,F,F,,,,,0,0,F,F,F,
-62382,3967bead,GitHub,e9bab109,data/e9bab109/src/3967bead.go,140:140,F,F,,,F,F,,,,,0,0,F,F,F,
-62393,a68d5f24,GitHub,e9bab109,data/e9bab109/test/a68d5f24.go,95:95,F,F,,,F,F,,,,,0,0,F,F,F,
 63256,f69292bf,GitHub,e9bab109,data/e9bab109/src/f69292bf.go,325:325,F,F,,,F,F,,,,,0,0,F,F,F,Password
 63316,d5db41b3,GitHub,e9bab109,data/e9bab109/src/d5db41b3.go,133:133,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 63317,f7b8214e,GitHub,e9bab109,data/e9bab109/src/f7b8214e.go,580:580,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -145,19 +78,19 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 80004,28ddc314,GitHub,e9bab109,data/e9bab109/src/28ddc314.go,11921:11921,F,F,13,16,F,F,,,,,0,0,F,F,F,Password
 107833,175fdc30,GitHub,e9bab109,data/e9bab109/test/175fdc30.go,1423:1423,Template,T,15,23,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Password
 107834,baa7593a,GitHub,e9bab109,data/e9bab109/test/baa7593a.go,354:354,Template,T,15,23,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Password
-107835,45dffcd0,GitHub,e9bab109,data/e9bab109/test/45dffcd0.go,88:88,F,F,,,F,F,,,,,0.00,,F,F,F,
-107836,45dffcd0,GitHub,e9bab109,data/e9bab109/test/45dffcd0.go,100:100,F,F,,,F,F,,,,,0.00,,F,F,F,
-107837,45dffcd0,GitHub,e9bab109,data/e9bab109/test/45dffcd0.go,107:107,F,F,,,F,F,,,,,0.00,,F,F,F,
-107838,45dffcd0,GitHub,e9bab109,data/e9bab109/test/45dffcd0.go,116:116,F,F,,,F,F,,,,,0.00,,F,F,F,
-107839,45dffcd0,GitHub,e9bab109,data/e9bab109/test/45dffcd0.go,125:125,F,F,,,F,F,,,,,0.00,,F,F,F,
-107840,45dffcd0,GitHub,e9bab109,data/e9bab109/test/45dffcd0.go,133:133,F,F,,,F,F,,,,,0.00,,F,F,F,
-107841,45dffcd0,GitHub,e9bab109,data/e9bab109/test/45dffcd0.go,146:146,F,F,,,F,F,,,,,0.00,,F,F,F,
-107842,45dffcd0,GitHub,e9bab109,data/e9bab109/test/45dffcd0.go,158:158,F,F,,,F,F,,,,,0.00,,F,F,F,
-107843,45dffcd0,GitHub,e9bab109,data/e9bab109/test/45dffcd0.go,161:161,F,F,,,F,F,,,,,0.00,,F,F,F,
-107844,45dffcd0,GitHub,e9bab109,data/e9bab109/test/45dffcd0.go,1346:1346,F,F,,,F,F,,,,,0.00,,F,F,F,
-114180,3295df72,GitHub,e9bab109,data/e9bab109/src/3295df72.sum,280:280,F,F,,,F,F,,,,,0.00,,F,F,F,
-114181,3295df72,GitHub,e9bab109,data/e9bab109/src/3295df72.sum,281:281,F,F,,,F,F,,,,,0.00,,F,F,F,
-114182,3295df72,GitHub,e9bab109,data/e9bab109/src/3295df72.sum,282:282,F,F,,,F,F,,,,,0.00,,F,F,F,
-114183,3295df72,GitHub,e9bab109,data/e9bab109/src/3295df72.sum,112:112,F,F,,,F,F,,,,,0.00,,F,F,F,
+107835,45dffcd0,GitHub,e9bab109,data/e9bab109/test/45dffcd0.go,88:88,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+107836,45dffcd0,GitHub,e9bab109,data/e9bab109/test/45dffcd0.go,100:100,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+107837,45dffcd0,GitHub,e9bab109,data/e9bab109/test/45dffcd0.go,107:107,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+107838,45dffcd0,GitHub,e9bab109,data/e9bab109/test/45dffcd0.go,116:116,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+107839,45dffcd0,GitHub,e9bab109,data/e9bab109/test/45dffcd0.go,125:125,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+107840,45dffcd0,GitHub,e9bab109,data/e9bab109/test/45dffcd0.go,133:133,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+107841,45dffcd0,GitHub,e9bab109,data/e9bab109/test/45dffcd0.go,146:146,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+107842,45dffcd0,GitHub,e9bab109,data/e9bab109/test/45dffcd0.go,158:158,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+107843,45dffcd0,GitHub,e9bab109,data/e9bab109/test/45dffcd0.go,161:161,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+107844,45dffcd0,GitHub,e9bab109,data/e9bab109/test/45dffcd0.go,1346:1346,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+114180,3295df72,GitHub,e9bab109,data/e9bab109/src/3295df72.sum,280:280,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
+114181,3295df72,GitHub,e9bab109,data/e9bab109/src/3295df72.sum,281:281,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
+114182,3295df72,GitHub,e9bab109,data/e9bab109/src/3295df72.sum,282:282,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
+114183,3295df72,GitHub,e9bab109,data/e9bab109/src/3295df72.sum,112:112,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 114184,447fdb46,GitHub,e9bab109,data/e9bab109/src/447fdb46.go,37:37,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
-131301,28ddc314,GitHub,e9bab109,data/e9bab109/src/28ddc314.go,11902:11902,F,F,,,F,F,,,,,0.00,,F,F,F,
+131301,28ddc314,GitHub,e9bab109,data/e9bab109/src/28ddc314.go,11902:11902,F,F,,,F,F,,,,,0.00,,F,F,F,Password

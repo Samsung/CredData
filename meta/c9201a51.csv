@@ -1,25 +1,18 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
 2714,7e1e1329,GitHub,c9201a51,data/c9201a51/src/7e1e1329.go,406:406,F,F,,,F,F,,,,,0,0,F,F,F,Password
-2939,2caa833f,GitHub,c9201a51,data/c9201a51/test/2caa833f.go,61:61,F,F,,,F,F,,,,,0,0,F,F,F,
-2940,2caa833f,GitHub,c9201a51,data/c9201a51/test/2caa833f.go,107:107,F,F,,,F,F,,,,,0,0,F,F,F,
-2941,2caa833f,GitHub,c9201a51,data/c9201a51/test/2caa833f.go,123:123,F,F,,,F,F,,,,,0,0,F,F,F,
-2942,2caa833f,GitHub,c9201a51,data/c9201a51/test/2caa833f.go,94:94,F,F,,,F,F,,,,,0,0,F,F,F,
-2943,2caa833f,GitHub,c9201a51,data/c9201a51/test/2caa833f.go,46:46,F,F,,,F,F,,,,,0,0,F,F,F,
-2944,42c5e312,GitHub,c9201a51,data/c9201a51/test/42c5e312.go,133:133,F,F,,,F,F,,,,,0,0,F,F,F,
-2945,42c5e312,GitHub,c9201a51,data/c9201a51/test/42c5e312.go,149:149,F,F,,,F,F,,,,,0,0,F,F,F,
+2940,2caa833f,GitHub,c9201a51,data/c9201a51/test/2caa833f.go,107:107,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+2941,2caa833f,GitHub,c9201a51,data/c9201a51/test/2caa833f.go,123:123,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+2942,2caa833f,GitHub,c9201a51,data/c9201a51/test/2caa833f.go,94:94,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+2944,42c5e312,GitHub,c9201a51,data/c9201a51/test/42c5e312.go,133:133,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+2945,42c5e312,GitHub,c9201a51,data/c9201a51/test/42c5e312.go,149:149,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 2946,bc4a868f,GitHub,c9201a51,data/c9201a51/src/bc4a868f.go,72:72,F,F,,,F,F,,,,,0,0,F,F,F,Other
-4848,904f6890,GitHub,c9201a51,data/c9201a51/test/904f6890.go,57:57,F,F,,,F,F,,,,,0,0,F,F,F,
-5454,ccaedd55,GitHub,c9201a51,data/c9201a51/test/ccaedd55.example,12:12,F,F,,,F,F,,,,,0,0,F,F,F,
-5761,2caa833f,GitHub,c9201a51,data/c9201a51/test/2caa833f.go,50:50,F,F,,,F,F,,,,,0,0,F,F,F,
+5761,2caa833f,GitHub,c9201a51,data/c9201a51/test/2caa833f.go,50:50,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
 6532,f11bd9dc,GitHub,c9201a51,data/c9201a51/test/f11bd9dc.go,87:87,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 7396,b3356305,GitHub,c9201a51,data/c9201a51/other/b3356305.md,351:351,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-8595,7e1e1329,GitHub,c9201a51,data/c9201a51/src/7e1e1329.go,491:491,F,F,,,F,F,,,,,0,0,F,F,F,
 9090,3437863d,GitHub,c9201a51,data/c9201a51/test/3437863d.go,129:129,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-10415,6fbe11eb,GitHub,c9201a51,data/c9201a51/src/6fbe11eb.go,129:129,F,F,,,F,F,,,,,0,0,F,F,F,
 11938,2873f79a,GitHub,c9201a51,data/c9201a51/src/2873f79a.go,122:122,F,F,,,F,F,,,,,0,0,F,F,F,Password
 13218,233c3f5d,GitHub,c9201a51,data/c9201a51/test/233c3f5d.go,32:32,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 13698,7e1e1329,GitHub,c9201a51,data/c9201a51/src/7e1e1329.go,231:231,F,F,,,F,F,,,,,0,0,F,F,F,Password
-13959,009b7cfa,GitHub,c9201a51,data/c9201a51/src/009b7cfa.go,84:84,F,F,,,F,F,,,,,0,0,F,F,F,
 14315,69605089,GitHub,c9201a51,data/c9201a51/src/69605089.go,55:55,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 17314,b3356305,GitHub,c9201a51,data/c9201a51/other/b3356305.md,215:215,F,F,,,F,F,,,,,0,0,F,F,F,Password
 22950,4eec45b6,GitHub,c9201a51,data/c9201a51/src/4eec45b6.go,251:251,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -27,9 +20,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 23119,7e1e1329,GitHub,c9201a51,data/c9201a51/src/7e1e1329.go,203:203,F,F,,,F,F,,,,,0,0,F,F,F,Password
 23173,4eec45b6,GitHub,c9201a51,data/c9201a51/src/4eec45b6.go,101:101,F,F,,,F,F,,,,,0,0,F,F,F,Password
 24478,a1d92366,GitHub,c9201a51,data/c9201a51/test/a1d92366.go,168:168,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-24958,b3356305,GitHub,c9201a51,data/c9201a51/other/b3356305.md,139:139,F,F,,,F,F,,,,,0,0,F,F,F,
 26009,0d0daa1a,GitHub,c9201a51,data/c9201a51/src/0d0daa1a.go,127:127,F,F,,,F,F,,,,,0,0,F,F,F,Password
-26012,0d0daa1a,GitHub,c9201a51,data/c9201a51/src/0d0daa1a.go,126:126,F,F,,,F,F,,,,,0,0,F,F,F,
 29349,2fc06eaa,GitHub,c9201a51,data/c9201a51/test/2fc06eaa.go,19:19,Template,T,18,28,F,F,CharsOnly,,,Secret,2.92,10,F,F,F,Password
 29359,2fc06eaa,GitHub,c9201a51,data/c9201a51/test/2fc06eaa.go,173:173,Template,T,18,42,F,F,Any,,,Secret,3.07,24,F,F,F,Password
 29360,2fc06eaa,GitHub,c9201a51,data/c9201a51/test/2fc06eaa.go,176:176,Template,T,18,50,F,F,Any,,,Secret,2.95,32,F,F,F,Generic Secret
@@ -63,8 +54,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 46299,5391075a,GitHub,c9201a51,data/c9201a51/test/5391075a.go,157:157,Template,F,21,27,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
 46300,5391075a,GitHub,c9201a51,data/c9201a51/test/5391075a.go,687:687,Template,F,21,27,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
 46301,5391075a,GitHub,c9201a51,data/c9201a51/test/5391075a.go,688:688,Template,T,21,31,F,F,CharsOnly,,,Secret,2.92,10,F,F,F,Password
-62356,904f6890,GitHub,c9201a51,data/c9201a51/test/904f6890.go,110:110,F,F,,,F,F,,,,,0,0,F,F,F,
-62395,904f6890,GitHub,c9201a51,data/c9201a51/test/904f6890.go,133:133,F,F,,,F,F,,,,,0,0,F,F,F,
 63226,f11bd9dc,GitHub,c9201a51,data/c9201a51/test/f11bd9dc.go,102:102,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 63486,904f6890,GitHub,c9201a51,data/c9201a51/test/904f6890.go,13:13,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 74829,5391075a,GitHub,c9201a51,data/c9201a51/test/5391075a.go,234:234,Template,T,29,42,F,F,Any,,,Token,2.98,13,F,F,F,Generic Token
@@ -73,12 +62,12 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 100158,b3356305,GitHub,c9201a51,data/c9201a51/other/b3356305.md,278:278,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100159,b3356305,GitHub,c9201a51,data/c9201a51/other/b3356305.md,325:325,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100160,7e1e1329,GitHub,c9201a51,data/c9201a51/src/7e1e1329.go,170:170,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-100161,4eec45b6,GitHub,c9201a51,data/c9201a51/src/4eec45b6.go,209:209,F,F,,,F,F,,,,,0.00,,F,F,F,
-100162,4eec45b6,GitHub,c9201a51,data/c9201a51/src/4eec45b6.go,328:328,F,F,,,F,F,,,,,0.00,,F,F,F,
+100161,4eec45b6,GitHub,c9201a51,data/c9201a51/src/4eec45b6.go,209:209,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+100162,4eec45b6,GitHub,c9201a51,data/c9201a51/src/4eec45b6.go,328:328,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100163,b3356305,GitHub,c9201a51,data/c9201a51/other/b3356305.md,200:200,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-100164,2873f79a,GitHub,c9201a51,data/c9201a51/src/2873f79a.go,66:66,F,F,,,F,F,,,,,0.00,,F,F,F,
-100165,2fc06eaa,GitHub,c9201a51,data/c9201a51/test/2fc06eaa.go,149:149,F,F,,,F,F,,,,,0.00,,F,F,F,
-100166,a1d92366,GitHub,c9201a51,data/c9201a51/test/a1d92366.go,37:37,F,F,,,F,F,,,,,0.00,,F,F,F,
+100164,2873f79a,GitHub,c9201a51,data/c9201a51/src/2873f79a.go,66:66,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
+100165,2fc06eaa,GitHub,c9201a51,data/c9201a51/test/2fc06eaa.go,149:149,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
+100166,a1d92366,GitHub,c9201a51,data/c9201a51/test/a1d92366.go,37:37,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
 110009,b3356305,GitHub,c9201a51,data/c9201a51/other/b3356305.md,276:276,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
 110010,5391075a,GitHub,c9201a51,data/c9201a51/test/5391075a.go,824:824,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 110011,5391075a,GitHub,c9201a51,data/c9201a51/test/5391075a.go,833:833,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret

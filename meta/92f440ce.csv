@@ -1,16 +1,16 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
 2625,6c035276,GitHub,92f440ce,data/92f440ce/src/6c035276.php,48:48,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-2626,9ac1fc12,GitHub,92f440ce,data/92f440ce/src/9ac1fc12.php,73:73,F,F,,,F,F,,,,,0,0,F,F,F,
+2626,9ac1fc12,GitHub,92f440ce,data/92f440ce/src/9ac1fc12.php,73:73,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
 2627,092cce5a,GitHub,92f440ce,data/92f440ce/src/092cce5a.php,83:83,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 2628,fa692573,GitHub,92f440ce,data/92f440ce/src/fa692573.php,93:93,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 2635,d20e1627,GitHub,92f440ce,data/92f440ce/src/d20e1627.php,81:81,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-2653,b42f427d,GitHub,92f440ce,data/92f440ce/src/b42f427d.php,53:53,F,F,,,F,F,,,,,0,0,F,F,F,
+2653,b42f427d,GitHub,92f440ce,data/92f440ce/src/b42f427d.php,53:53,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 2656,e7cc04b8,GitHub,92f440ce,data/92f440ce/src/e7cc04b8.php,42:42,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 2658,d20e1627,GitHub,92f440ce,data/92f440ce/src/d20e1627.php,68:68,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 2668,d7b15151,GitHub,92f440ce,data/92f440ce/src/d7b15151.php,90:90,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 2687,46049655,GitHub,92f440ce,data/92f440ce/src/46049655.php,101:101,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 3752,73e3e73a,GitHub,92f440ce,data/92f440ce/test/73e3e73a.php,33:33,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-4324,95293d1b,GitHub,92f440ce,data/92f440ce/src/95293d1b.php,106:106,F,F,,,F,F,,,,,0,0,F,F,F,
+4324,95293d1b,GitHub,92f440ce,data/92f440ce/src/95293d1b.php,106:106,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 15818,bcd0d6b1,GitHub,92f440ce,data/92f440ce/src/bcd0d6b1.php,54:54,F,F,,,F,F,,,,,0,0,F,F,F,Password
 15978,03382004,GitHub,92f440ce,data/92f440ce/src/03382004.php,85:85,F,F,,,F,F,,,,,0,0,F,F,F,Password
 15979,c733849e,GitHub,92f440ce,data/92f440ce/src/c733849e.php,94:94,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -34,7 +34,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 16770,81e54457,GitHub,92f440ce,data/92f440ce/test/81e54457.php,51:51,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 16771,cfd4c67c,GitHub,92f440ce,data/92f440ce/test/cfd4c67c.php,89:89,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 16775,f57c0e64,GitHub,92f440ce,data/92f440ce/src/f57c0e64.php,95:95,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-16781,1ed3bffb,GitHub,92f440ce,data/92f440ce/src/1ed3bffb.php,116:116,F,F,,,F,F,,,,,0,0,F,F,F,
 16786,6c035276,GitHub,92f440ce,data/92f440ce/src/6c035276.php,53:53,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 16788,f4e7bfd2,GitHub,92f440ce,data/92f440ce/src/f4e7bfd2.php,58:58,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 16793,c28fbdcc,GitHub,92f440ce,data/92f440ce/test/c28fbdcc.php,180:180,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
@@ -56,22 +55,14 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 16825,734b63f7,GitHub,92f440ce,data/92f440ce/test/734b63f7.php,45:45,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 16829,8c346779,GitHub,92f440ce,data/92f440ce/test/8c346779.php,90:90,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 16831,8c346779,GitHub,92f440ce,data/92f440ce/test/8c346779.php,45:45,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-16857,edd46b33,GitHub,92f440ce,data/92f440ce/test/edd46b33.php,170:170,F,F,,,F,F,,,,,0,0,F,F,F,
-16902,a5d52414,GitHub,92f440ce,data/92f440ce/src/a5d52414.php,48:48,F,F,,,F,F,,,,,0,0,F,F,F,
-16904,db50d14f,GitHub,92f440ce,data/92f440ce/src/db50d14f.php,219:219,F,F,,,F,F,,,,,0,0,F,F,F,
-16905,44212ac2,GitHub,92f440ce,data/92f440ce/src/44212ac2.php,113:113,F,F,,,F,F,,,,,0,0,F,F,F,
-16909,a85794a1,GitHub,92f440ce,data/92f440ce/test/a85794a1.php,22:22,F,F,,,F,F,,,,,0,0,F,F,F,
-16911,8d704628,GitHub,92f440ce,data/92f440ce/test/8d704628.php,55:55,F,F,,,F,F,,,,,0,0,F,F,F,
-16913,92e5c613,GitHub,92f440ce,data/92f440ce/test/92e5c613.php,79:79,F,F,,,F,F,,,,,0,0,F,F,F,
-16915,8d704628,GitHub,92f440ce,data/92f440ce/test/8d704628.php,122:122,F,F,,,F,F,,,,,0,0,F,F,F,
-16918,b38424fb,GitHub,92f440ce,data/92f440ce/src/b38424fb.php,46:46,F,F,,,F,F,,,,,0,0,F,F,F,
-16920,5194b838,GitHub,92f440ce,data/92f440ce/src/5194b838.php,105:105,F,F,,,F,F,,,,,0,0,F,F,F,
-16921,e275038b,GitHub,92f440ce,data/92f440ce/src/e275038b.php,52:52,F,F,,,F,F,,,,,0,0,F,F,F,
-16924,8cffcc30,GitHub,92f440ce,data/92f440ce/src/8cffcc30.php,214:214,F,F,,,F,F,,,,,0,0,F,F,F,
+16902,a5d52414,GitHub,92f440ce,data/92f440ce/src/a5d52414.php,48:48,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+16905,44212ac2,GitHub,92f440ce,data/92f440ce/src/44212ac2.php,113:113,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+16918,b38424fb,GitHub,92f440ce,data/92f440ce/src/b38424fb.php,46:46,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+16920,5194b838,GitHub,92f440ce,data/92f440ce/src/5194b838.php,105:105,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+16921,e275038b,GitHub,92f440ce,data/92f440ce/src/e275038b.php,52:52,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+16924,8cffcc30,GitHub,92f440ce,data/92f440ce/src/8cffcc30.php,214:214,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 16928,c733849e,GitHub,92f440ce,data/92f440ce/src/c733849e.php,96:96,F,F,,,F,F,,,,,0,0,F,F,F,Other
 16929,c733849e,GitHub,92f440ce,data/92f440ce/src/c733849e.php,93:93,F,F,,,F,F,,,,,0,0,F,F,F,Other
-16931,e58d1342,GitHub,92f440ce,data/92f440ce/src/e58d1342.php,112:112,F,F,,,F,F,,,,,0,0,F,F,F,
-16938,db50d14f,GitHub,92f440ce,data/92f440ce/src/db50d14f.php,114:114,F,F,,,F,F,,,,,0,0,F,F,F,
 17270,65a46767,GitHub,92f440ce,data/92f440ce/test/65a46767.php,73:73,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 21517,ced563c3,GitHub,92f440ce,data/92f440ce/src/ced563c3.php,143:143,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 27611,cfd4c67c,GitHub,92f440ce,data/92f440ce/test/cfd4c67c.php,98:98,Template,F,62,66,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -85,8 +76,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 34016,8d704628,GitHub,92f440ce,data/92f440ce/test/8d704628.php,30:30,T,F,26,32,F,F,Any,,,Secret,2.25,6,F,F,F,Password
 34033,5e954272,GitHub,92f440ce,data/92f440ce/test/5e954272.php,25:25,Template,T,26,34,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
 34080,e95ffc8f,GitHub,92f440ce,data/92f440ce/test/e95ffc8f.php,346:346,Template,T,24,41,F,F,Any,,,Secret,3.33,17,F,F,F,Password
-47404,65359cbe,GitHub,92f440ce,data/92f440ce/test/65359cbe.php,36:36,F,F,,,F,F,,,,,0,0,F,F,F,
-47407,65359cbe,GitHub,92f440ce,data/92f440ce/test/65359cbe.php,30:30,F,F,,,F,F,,,,,0,0,F,F,F,
+47404,65359cbe,GitHub,92f440ce,data/92f440ce/test/65359cbe.php,36:36,F,F,,,F,F,,,,,0,0,F,F,F,Password
+47407,65359cbe,GitHub,92f440ce,data/92f440ce/test/65359cbe.php,30:30,F,F,,,F,F,,,,,0,0,F,F,F,Password
 47410,cfd4c67c,GitHub,92f440ce,data/92f440ce/test/cfd4c67c.php,62:62,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 55818,b99c4202,GitHub,92f440ce,data/92f440ce/test/b99c4202.php,70:70,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
 55819,b99c4202,GitHub,92f440ce,data/92f440ce/test/b99c4202.php,84:84,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
@@ -128,23 +119,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 55887,e58d1342,GitHub,92f440ce,data/92f440ce/src/e58d1342.php,188:188,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 55888,8cffcc30,GitHub,92f440ce,data/92f440ce/src/8cffcc30.php,186:186,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 55897,97577078,GitHub,92f440ce,data/92f440ce/test/97577078.php,81:81,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-55903,07a61130,GitHub,92f440ce,data/92f440ce/test/07a61130.php,33:33,F,F,,,F,F,,,,,0,0,F,F,F,
-55904,07a61130,GitHub,92f440ce,data/92f440ce/test/07a61130.php,58:58,F,F,,,F,F,,,,,0,0,F,F,F,
-55905,cfd4c67c,GitHub,92f440ce,data/92f440ce/test/cfd4c67c.php,82:82,F,F,,,F,F,,,,,0,0,F,F,F,
-55906,cfd4c67c,GitHub,92f440ce,data/92f440ce/test/cfd4c67c.php,101:101,F,F,,,F,F,,,,,0,0,F,F,F,
-55907,a85794a1,GitHub,92f440ce,data/92f440ce/test/a85794a1.php,44:44,F,F,,,F,F,,,,,0,0,F,F,F,
-55908,73e3e73a,GitHub,92f440ce,data/92f440ce/test/73e3e73a.php,60:60,F,F,,,F,F,,,,,0,0,F,F,F,
-55909,73e3e73a,GitHub,92f440ce,data/92f440ce/test/73e3e73a.php,80:80,F,F,,,F,F,,,,,0,0,F,F,F,
-55911,e95ffc8f,GitHub,92f440ce,data/92f440ce/test/e95ffc8f.php,32:32,F,F,,,F,F,,,,,0,0,F,F,F,
-55912,e95ffc8f,GitHub,92f440ce,data/92f440ce/test/e95ffc8f.php,42:42,F,F,,,F,F,,,,,0,0,F,F,F,
-55913,e95ffc8f,GitHub,92f440ce,data/92f440ce/test/e95ffc8f.php,155:155,F,F,,,F,F,,,,,0,0,F,F,F,
-55914,e95ffc8f,GitHub,92f440ce,data/92f440ce/test/e95ffc8f.php,182:182,F,F,,,F,F,,,,,0,0,F,F,F,
-55915,e95ffc8f,GitHub,92f440ce,data/92f440ce/test/e95ffc8f.php,216:216,F,F,,,F,F,,,,,0,0,F,F,F,
-55919,3037a277,GitHub,92f440ce,data/92f440ce/test/3037a277.php,81:81,F,F,,,F,F,,,,,0,0,F,F,F,
-55920,3037a277,GitHub,92f440ce,data/92f440ce/test/3037a277.php,98:98,F,F,,,F,F,,,,,0,0,F,F,F,
-55921,3037a277,GitHub,92f440ce,data/92f440ce/test/3037a277.php,192:192,F,F,,,F,F,,,,,0,0,F,F,F,
-55922,3037a277,GitHub,92f440ce,data/92f440ce/test/3037a277.php,217:217,F,F,,,F,F,,,,,0,0,F,F,F,
-55926,e7cc04b8,GitHub,92f440ce,data/92f440ce/src/e7cc04b8.php,46:46,F,F,,,F,F,,,,,0,0,F,F,F,
+55926,e7cc04b8,GitHub,92f440ce,data/92f440ce/src/e7cc04b8.php,46:46,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 55941,03382004,GitHub,92f440ce,data/92f440ce/src/03382004.php,81:81,F,F,,,F,F,,,,,0,0,F,F,F,Other
 55942,03382004,GitHub,92f440ce,data/92f440ce/src/03382004.php,84:84,F,F,,,F,F,,,,,0,0,F,F,F,Other
 56941,65a46767,GitHub,92f440ce,data/92f440ce/test/65a46767.php,113:113,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
@@ -155,21 +130,21 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 82684,edd46b33,GitHub,92f440ce,data/92f440ce/test/edd46b33.php,150:150,F,F,118,121,F,F,,,,,0,0,F,F,F,Password
 100879,44212ac2,GitHub,92f440ce,data/92f440ce/src/44212ac2.php,51:51,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100880,44212ac2,GitHub,92f440ce,data/92f440ce/src/44212ac2.php,64:64,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-100881,97577078,GitHub,92f440ce,data/92f440ce/test/97577078.php,98:98,F,F,,,F,F,,,,,0.00,,F,F,F,
-100882,92e5c613,GitHub,92f440ce,data/92f440ce/test/92e5c613.php,36:36,F,F,,,F,F,,,,,0.00,,F,F,F,
-100883,92e5c613,GitHub,92f440ce,data/92f440ce/test/92e5c613.php,95:95,F,F,,,F,F,,,,,0.00,,F,F,F,
-100884,8d704628,GitHub,92f440ce,data/92f440ce/test/8d704628.php,74:74,F,F,,,F,F,,,,,0.00,,F,F,F,
-100885,8d704628,GitHub,92f440ce,data/92f440ce/test/8d704628.php,90:90,F,F,,,F,F,,,,,0.00,,F,F,F,
-100886,8cffcc30,GitHub,92f440ce,data/92f440ce/src/8cffcc30.php,193:193,F,F,,,F,F,,,,,0.00,,F,F,F,
-100887,44212ac2,GitHub,92f440ce,data/92f440ce/src/44212ac2.php,280:280,F,F,,,F,F,,,,,0.00,,F,F,F,
-100888,92e5c613,GitHub,92f440ce,data/92f440ce/test/92e5c613.php,115:115,F,F,,,F,F,,,,,0.00,,F,F,F,
+100881,97577078,GitHub,92f440ce,data/92f440ce/test/97577078.php,98:98,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Token
+100882,92e5c613,GitHub,92f440ce,data/92f440ce/test/92e5c613.php,36:36,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+100883,92e5c613,GitHub,92f440ce,data/92f440ce/test/92e5c613.php,95:95,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Token
+100884,8d704628,GitHub,92f440ce,data/92f440ce/test/8d704628.php,74:74,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+100885,8d704628,GitHub,92f440ce,data/92f440ce/test/8d704628.php,90:90,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+100886,8cffcc30,GitHub,92f440ce,data/92f440ce/src/8cffcc30.php,193:193,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Token
+100887,44212ac2,GitHub,92f440ce,data/92f440ce/src/44212ac2.php,280:280,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
+100888,92e5c613,GitHub,92f440ce,data/92f440ce/test/92e5c613.php,115:115,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
 100889,92e5c613,GitHub,92f440ce,data/92f440ce/test/92e5c613.php,299:299,Template,F,31,37,F,F,CharOnly,,,Secret,2.25,6,F,F,F,Password
 100890,3037a277,GitHub,92f440ce,data/92f440ce/test/3037a277.php,340:340,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-100891,65359cbe,GitHub,92f440ce,data/92f440ce/test/65359cbe.php,22:22,F,F,,,F,F,,,,,0.00,,F,F,F,
-100892,65359cbe,GitHub,92f440ce,data/92f440ce/test/65359cbe.php,24:24,F,F,,,F,F,,,,,0.00,,F,F,F,
-100893,65359cbe,GitHub,92f440ce,data/92f440ce/test/65359cbe.php,29:29,F,F,,,F,F,,,,,0.00,,F,F,F,
-100894,65359cbe,GitHub,92f440ce,data/92f440ce/test/65359cbe.php,32:32,F,F,,,F,F,,,,,0.00,,F,F,F,
-100895,65359cbe,GitHub,92f440ce,data/92f440ce/test/65359cbe.php,35:35,F,F,,,F,F,,,,,0.00,,F,F,F,
+100891,65359cbe,GitHub,92f440ce,data/92f440ce/test/65359cbe.php,22:22,F,F,,,F,F,,,,,0.00,,F,F,F,Password
+100892,65359cbe,GitHub,92f440ce,data/92f440ce/test/65359cbe.php,24:24,F,F,,,F,F,,,,,0.00,,F,F,F,Password
+100893,65359cbe,GitHub,92f440ce,data/92f440ce/test/65359cbe.php,29:29,F,F,,,F,F,,,,,0.00,,F,F,F,Password
+100894,65359cbe,GitHub,92f440ce,data/92f440ce/test/65359cbe.php,32:32,F,F,,,F,F,,,,,0.00,,F,F,F,Password
+100895,65359cbe,GitHub,92f440ce,data/92f440ce/test/65359cbe.php,35:35,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 100896,65359cbe,GitHub,92f440ce,data/92f440ce/test/65359cbe.php,42:42,Template,F,38,44,F,F,CharOnly,,,Secret,2.25,6,F,F,F,Password
 100897,65359cbe,GitHub,92f440ce,data/92f440ce/test/65359cbe.php,49:49,Template,F,38,44,F,F,CharOnly,,,Secret,2.25,6,F,F,F,Password
 100898,65359cbe,GitHub,92f440ce,data/92f440ce/test/65359cbe.php,56:56,Template,F,38,44,F,F,CharOnly,,,Secret,2.25,6,F,F,F,Password

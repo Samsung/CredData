@@ -3,29 +3,15 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 184,84731597,GitHub,942d502d,data/942d502d/src/84731597.sh,37:37,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 185,84731597,GitHub,942d502d,data/942d502d/src/84731597.sh,20:20,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 871,592bfee7,GitHub,942d502d,data/942d502d/test/592bfee7.sh,11:11,F,F,,,F,F,,,,,0,0,F,F,F,Other
-905,4f9156d0,GitHub,942d502d,data/942d502d/src/4f9156d0.conf,8:8,F,F,,,F,F,,,,,0,0,F,F,F,
-2758,ceddbf35,GitHub,942d502d,data/942d502d/src/ceddbf35.sh,5:5,F,F,,,F,F,,,,,0,0,F,F,F,
 2759,670a5813,GitHub,942d502d,data/942d502d/src/670a5813.sh,5:5,F,F,,,F,F,,,,,0,0,F,F,F,Other
-4248,eee3de85,GitHub,942d502d,data/942d502d/test/eee3de85.sh,49:49,F,F,,,F,F,,,,,0,0,F,F,F,
-4462,ca07f8a0,GitHub,942d502d,data/942d502d/src/ca07f8a0.jinja2,53:53,F,F,,,F,F,,,,,0,0,F,F,F,
-4463,0ac7e0e3,GitHub,942d502d,data/942d502d/other/0ac7e0e3,8:8,F,F,,,F,F,,,,,0,0,F,F,F,
-4525,34b9cc55,GitHub,942d502d,data/942d502d/src/34b9cc55.sh,22:22,F,F,,,F,F,,,,,0,0,F,F,F,
-4526,9a764cde,GitHub,942d502d,data/942d502d/src/9a764cde.sh,8:8,F,F,,,F,F,,,,,0,0,F,F,F,
-4527,f419b158,GitHub,942d502d,data/942d502d/src/f419b158.sh,30:30,F,F,,,F,F,,,,,0,0,F,F,F,
-6244,c9391b6c,GitHub,942d502d,data/942d502d/src/c9391b6c.sh,5:5,F,F,,,F,F,,,,,0,0,F,F,F,
 7472,a0cb7fbb,GitHub,942d502d,data/942d502d/other/a0cb7fbb.rst,43:43,Template,T,28,39,F,F,Any,,,Secret,2.73,15,F,F,F,Password
 7473,a0cb7fbb,GitHub,942d502d,data/942d502d/other/a0cb7fbb.rst,40:40,Template,T,28,39,F,F,Any,,,Secret,2.73,15,F,F,F,Password
 7489,4d2ba911,GitHub,942d502d,data/942d502d/other/4d2ba911.md,10:10,F,F,,,F,F,,,,,0,0,F,F,F,Password
-8335,1b15b0b1,GitHub,942d502d,data/942d502d/src/1b15b0b1.conf,32:32,F,F,,,F,F,,,,,0,0,F,F,F,
 8914,a5101cea,GitHub,942d502d,data/942d502d/src/a5101cea.py,256:256,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-10012,c0eb9e64,GitHub,942d502d,data/942d502d/src/c0eb9e64.jinja2,3:3,F,F,,,F,F,,,,,0,0,F,F,F,
-10013,b7dfa14c,GitHub,942d502d,data/942d502d/test/b7dfa14c.jinja2,3:3,F,F,,,F,F,,,,,0,0,F,F,F,
-10198,06c60533,GitHub,942d502d,data/942d502d/src/06c60533.jinja2,1:1,F,F,,,F,F,,,,,0,0,F,F,F,
-10410,e7432936,GitHub,942d502d,data/942d502d/src/e7432936.conf,8:8,F,F,,,F,F,,,,,0,0,F,F,F,
 11999,6cbf58ce,GitHub,942d502d,data/942d502d/src/6cbf58ce.py,201:201,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 13755,36cc6c45,GitHub,942d502d,data/942d502d/src/36cc6c45.py,79:79,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 18444,c9c7f0e4,GitHub,942d502d,data/942d502d/test/c9c7f0e4.yml,22:22,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-21082,87ccb297,GitHub,942d502d,data/942d502d/other/87ccb297,56:56,F,F,,,F,F,,,,,0,0,F,F,F,
+21082,87ccb297,GitHub,942d502d,data/942d502d/other/87ccb297,56:56,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 29301,25539e91,GitHub,942d502d,data/942d502d/src/25539e91.conf,9:9,Template,F,11,56,F,F,Any,,,Secret,3.89,45,F,F,F,Generic Secret
 30202,38da410a,GitHub,942d502d,data/942d502d/test/38da410a,9:9,Template,F,18,21,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
 30626,ea3a3dbf,GitHub,942d502d,data/942d502d/other/ea3a3dbf.rst,45:45,Template,T,165,179,F,F,CharsOnly,,,Secret,3.18,14,F,F,F,Password
@@ -39,8 +25,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 40613,e7432936,GitHub,942d502d,data/942d502d/src/e7432936.conf,14:14,T,T,11,17,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
 40614,25539e91,GitHub,942d502d,data/942d502d/src/25539e91.conf,14:14,T,T,11,17,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
 40615,d3777e9e,GitHub,942d502d,data/942d502d/src/d3777e9e.key,1:51,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
-58117,ca07f8a0,GitHub,942d502d,data/942d502d/src/ca07f8a0.jinja2,69:69,F,F,,,F,F,,,,,0,0,F,F,F,
-58118,86c4fac5,GitHub,942d502d,data/942d502d/test/86c4fac5,8:8,F,F,,,F,F,,,,,0,0,F,F,F,
 58183,ca07f8a0,GitHub,942d502d,data/942d502d/src/ca07f8a0.jinja2,54:54,F,F,,,F,F,,,,,0,0,F,F,F,Password
 64020,670a5813,GitHub,942d502d,data/942d502d/src/670a5813.sh,11:11,F,F,,,F,F,,,,,0,0,F,F,F,Other
 64276,592bfee7,GitHub,942d502d,data/942d502d/test/592bfee7.sh,5:5,F,F,,,F,F,,,,,0,0,F,F,F,Other
@@ -49,11 +33,3 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 74706,f67e2778,GitHub,942d502d,data/942d502d/src/f67e2778.conf,9:9,F,F,,,F,F,,,,,0,0,F,F,F,Password
 74707,e0c363a8,GitHub,942d502d,data/942d502d/src/e0c363a8.conf,9:9,F,F,,,F,F,,,,,0,0,F,F,F,Password
 75140,6cbf58ce,GitHub,942d502d,data/942d502d/src/6cbf58ce.py,79:79,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-75746,4f9156d0,GitHub,942d502d,data/942d502d/src/4f9156d0.conf,7:7,F,F,,,F,F,,,,,0,0,F,F,F,
-76437,25539e91,GitHub,942d502d,data/942d502d/src/25539e91.conf,8:8,F,F,,,F,F,,,,,0,0,F,F,F,
-76438,25539e91,GitHub,942d502d,data/942d502d/src/25539e91.conf,13:13,F,F,,,F,F,,,,,0,0,F,F,F,
-76439,e0c363a8,GitHub,942d502d,data/942d502d/src/e0c363a8.conf,8:8,F,F,,,F,F,,,,,0,0,F,F,F,
-76440,e0c363a8,GitHub,942d502d,data/942d502d/src/e0c363a8.conf,13:13,F,F,,,F,F,,,,,0,0,F,F,F,
-76441,e7432936,GitHub,942d502d,data/942d502d/src/e7432936.conf,13:13,F,F,,,F,F,,,,,0,0,F,F,F,
-76442,f67e2778,GitHub,942d502d,data/942d502d/src/f67e2778.conf,8:8,F,F,,,F,F,,,,,0,0,F,F,F,
-76443,f67e2778,GitHub,942d502d,data/942d502d/src/f67e2778.conf,13:13,F,F,,,F,F,,,,,0,0,F,F,F,
