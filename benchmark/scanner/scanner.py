@@ -312,7 +312,7 @@ class Scanner(ABC):
             Result.round_micro(total_result.f1),
         ])
 
-        print(tabulate.tabulate(rows, header))
+        print(tabulate.tabulate(rows, header, floatfmt=".6f"))
 
     def _get_total_true_false_count(self, category: str) -> Tuple[int, int]:
         total_line_cnt = self._get_total_line_cnt(category)
