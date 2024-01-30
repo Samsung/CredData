@@ -18,8 +18,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 27443,87fccb9b,GitHub,e3377359,data/e3377359/src/87fccb9b.php,355:355,T,F,205,261,F,F,Any,,,Unknown,4.77,56,F,F,F,Other
 27633,9bb2e93a,GitHub,e3377359,data/e3377359/src/9bb2e93a.php,22:22,F,F,19,71,F,F,,,,,0,0,F,F,F,Generic Secret
 27634,bc555d60,GitHub,e3377359,data/e3377359/src/bc555d60.php,52:52,T,T,483,507,F,F,Any,,,Unknown,4.33,24,F,F,F,Other
-27639,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,21:21,F,F,75,123,F,F,,,,,0,0,F,F,F,"Seed, Salt, Nonce"
-27640,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,25:25,F,F,75,123,F,F,,,,,0,0,F,F,F,"Seed, Salt, Nonce"
+27639,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,21:21,F,F,75,123,F,F,,,,,0,0,F,F,F,Cryptographic Primitives
+27640,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,25:25,F,F,75,123,F,F,,,,,0,0,F,F,F,Cryptographic Primitives
 27907,1fd373f0,GitHub,e3377359,data/e3377359/src/1fd373f0.php,90:90,F,T,60,75,F,F,Any,,,Secret,2.88,15,F,F,F,Password
 28082,4da67d3d,GitHub,e3377359,data/e3377359/src/4da67d3d.php,185:185,T,F,16,188,F,F,Any,,,Unknown,5.80,172,F,F,F,Other
 30032,1d62f0d2,GitHub,e3377359,data/e3377359/test/1d62f0d2.php,23:23,F,F,31,247,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -68,42 +68,42 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 110383,9a66af99,GitHub,e3377359,data/e3377359/src/9a66af99.php,436:436,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 110384,582e4a2b,GitHub,e3377359,data/e3377359/src/582e4a2b.php,199:199,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 110385,bc555d60,GitHub,e3377359,data/e3377359/src/bc555d60.php,17:17,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-110386,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-110387,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,3:3,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-110388,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,4:4,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-110389,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,5:5,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-110390,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,6:6,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-110391,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,7:7,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-110392,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,8:8,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-110393,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,9:9,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-110394,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,10:10,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-110395,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,11:11,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-110396,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,12:12,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-110397,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,13:13,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-110398,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,14:14,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-110399,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,15:15,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-110400,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,16:16,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-110401,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,17:17,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-110402,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,18:18,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-110403,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,19:19,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-110404,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,20:20,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-110405,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,22:22,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-110406,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,23:23,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-110407,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,24:24,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-110408,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,26:26,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-110409,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,27:27,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-110410,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,28:28,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-110411,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,29:29,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-110412,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,30:30,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-110413,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,31:31,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-110414,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,32:32,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-110415,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,33:33,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-110416,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,34:34,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-110417,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,35:35,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-110418,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,36:36,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-110419,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,37:37,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-110420,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,38:38,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-110421,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,39:39,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
+110386,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110387,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,3:3,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110388,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,4:4,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110389,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,5:5,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110390,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,6:6,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110391,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,7:7,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110392,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,8:8,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110393,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,9:9,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110394,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,10:10,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110395,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,11:11,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110396,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,12:12,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110397,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,13:13,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110398,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,14:14,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110399,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,15:15,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110400,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,16:16,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110401,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,17:17,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110402,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,18:18,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110403,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,19:19,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110404,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,20:20,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110405,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,22:22,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110406,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,23:23,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110407,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,24:24,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110408,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,26:26,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110409,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,27:27,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110410,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,28:28,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110411,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,29:29,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110412,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,30:30,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110413,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,31:31,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110414,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,32:32,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110415,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,33:33,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110416,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,34:34,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110417,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,35:35,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110418,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,36:36,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110419,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,37:37,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110420,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,38:38,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110421,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,39:39,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
 130299,34a6ce8d,GitHub,e3377359,data/e3377359/src/34a6ce8d.php,51:51,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130300,1fd373f0,GitHub,e3377359,data/e3377359/src/1fd373f0.php,420:420,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130301,1fd373f0,GitHub,e3377359,data/e3377359/src/1fd373f0.php,408:408,F,F,,,F,F,,,,,0.00,,F,F,F,Password

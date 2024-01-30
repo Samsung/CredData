@@ -73,7 +73,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 35635,ee18e1cb,GitHub,a0abd87c,data/a0abd87c/test/ee18e1cb.py,26:26,T,F,20,63,F,F,Any,,,Unknown,4.66,43,F,F,F,Other
 35786,ee18e1cb,GitHub,a0abd87c,data/a0abd87c/test/ee18e1cb.py,29:29,T,F,25,111,F,F,Any,,,Key,5.46,86,F,F,F,Other
 35796,ee18e1cb,GitHub,a0abd87c,data/a0abd87c/test/ee18e1cb.py,28:28,T,F,25,132,F,F,Any,,,Token,5.49,107,F,F,F,Generic Token
-35945,29093b48,GitHub,a0abd87c,data/a0abd87c/test/29093b48.py,65:65,T,F,9,41,F,F,Any,,,SeedSalt,4.69,32,F,F,F,"Seed, Salt, Nonce"
+35945,29093b48,GitHub,a0abd87c,data/a0abd87c/test/29093b48.py,65:65,T,F,9,41,F,F,Any,,,SeedSalt,4.69,32,F,F,F,Cryptographic Primitives
 36255,5246398e,GitHub,a0abd87c,data/a0abd87c/src/5246398e.py,152:152,F,F,17,145,F,F,,,,,0,0,F,F,F,Generic Token
 36256,ccaf232a,GitHub,a0abd87c,data/a0abd87c/src/ccaf232a.rst,87:87,T,F,17,145,F,F,,,,,0,0,F,F,F,Generic Token
 36306,29093b48,GitHub,a0abd87c,data/a0abd87c/test/29093b48.py,133:133,T,F,16,102,F,F,Any,,,Key,5.15,86,F,F,F,Other
@@ -133,9 +133,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 110595,dcdf77ab,GitHub,a0abd87c,data/a0abd87c/src/dcdf77ab.rst,20:20,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
 110596,dcdf77ab,GitHub,a0abd87c,data/a0abd87c/src/dcdf77ab.rst,18:18,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Token
 110597,ccaf232a,GitHub,a0abd87c,data/a0abd87c/src/ccaf232a.rst,18:18,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-110598,29093b48,GitHub,a0abd87c,data/a0abd87c/test/29093b48.py,132:132,T,F,12,28,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-110599,14fabf8b,GitHub,a0abd87c,data/a0abd87c/test/14fabf8b.py,10:10,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-110600,15231524,GitHub,a0abd87c,data/a0abd87c/test/15231524.py,10:10,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
+110598,29093b48,GitHub,a0abd87c,data/a0abd87c/test/29093b48.py,132:132,T,F,12,28,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110599,14fabf8b,GitHub,a0abd87c,data/a0abd87c/test/14fabf8b.py,10:10,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110600,15231524,GitHub,a0abd87c,data/a0abd87c/test/15231524.py,10:10,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
 130470,5246398e,GitHub,a0abd87c,data/a0abd87c/src/5246398e.py,42:42,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130471,ccaf232a,GitHub,a0abd87c,data/a0abd87c/src/ccaf232a.rst,8:8,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 134306,dcdf77ab,GitHub,a0abd87c,data/a0abd87c/src/dcdf77ab.rst,15:15,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret

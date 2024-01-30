@@ -30,7 +30,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 27198,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,350:350,Template,T,15,27,F,F,Any,,,Token,2.72,12,F,F,F,Generic Token
 29337,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,211:211,T,T,24,44,F,F,Any,,,Auth,4.12,20,F,F,F,Authentication Key & Token
 29338,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,349:349,Template,T,27,42,F,F,Any,,,Secret,2.93,15,F,F,F,Password
-29341,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,127:127,T,F,14,55,F,F,Any,,,SeedSalt,4.74,41,F,F,F,"Seed, Salt, Nonce"
+29341,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,127:127,T,F,14,55,F,F,Any,,,SeedSalt,4.74,41,F,F,F,Cryptographic Primitives
 29377,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,148:148,Template,T,7,14,F,F,CharsOnly,,,Unknown,2.52,7,F,F,F,Other
 29485,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,262:262,Template,F,15,55,F,F,Any,,,Token,4.90,40,F,F,F,Generic Token
 29719,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,58:58,Template,T,12,19,F,F,CharsOnly,,,Unknown,2.52,7,F,F,F,Other
@@ -68,8 +68,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 36124,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,86:86,T,F,17,60,F,F,Any,,,Auth,4.80,43,F,F,F,Authentication Key & Token
 36133,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,297:297,T,F,24,40,F,F,Any,,,Auth,2.83,16,F,F,F,Authentication Key & Token
 36137,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,463:463,T,F,21,37,F,F,Any,,,Auth,2.83,16,F,F,F,Authentication Key & Token
-36138,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,82:82,T,F,14,55,F,F,Any,,,SeedSalt,5.00,41,F,F,F,"Seed, Salt, Nonce"
-36139,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,41:41,T,F,14,57,F,F,Any,,,SeedSalt,4.88,43,F,F,F,"Seed, Salt, Nonce"
+36138,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,82:82,T,F,14,55,F,F,Any,,,SeedSalt,5.00,41,F,F,F,Cryptographic Primitives
+36139,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,41:41,T,F,14,57,F,F,Any,,,SeedSalt,4.88,43,F,F,F,Cryptographic Primitives
 36140,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,129:129,T,F,14,63,F,F,Any,,,Token,5.06,49,F,F,F,Generic Token
 36141,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,84:84,T,F,14,55,F,F,Any,,,Token,4.95,41,F,F,F,Generic Token
 36143,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,467:467,T,F,14,30,F,F,Any,,,Token,3.00,16,F,F,F,Generic Token
@@ -113,12 +113,12 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 37602,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,556:556,T,F,24,40,F,F,Any,,,Auth,2.83,16,F,F,F,Authentication Key & Token
 37603,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,508:508,T,F,21,37,F,F,Any,,,Auth,2.83,16,F,F,F,Authentication Key & Token
 37604,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,578:578,T,F,21,37,F,F,Any,,,Auth,2.83,16,F,F,F,Authentication Key & Token
-37605,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,97:97,T,F,14,55,F,F,Any,,,SeedSalt,5.00,41,F,F,F,"Seed, Salt, Nonce"
-37606,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,112:112,T,F,14,55,F,F,Any,,,SeedSalt,5.00,41,F,F,F,"Seed, Salt, Nonce"
-37607,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,422:422,T,F,14,55,F,F,Any,,,SeedSalt,5.00,41,F,F,F,"Seed, Salt, Nonce"
-37608,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,541:541,T,F,14,55,F,F,Any,,,SeedSalt,5.00,41,F,F,F,"Seed, Salt, Nonce"
-37609,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,55:55,T,F,14,57,F,F,Any,,,SeedSalt,4.88,43,F,F,F,"Seed, Salt, Nonce"
-37610,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,69:69,T,F,14,57,F,F,Any,,,SeedSalt,4.88,43,F,F,F,"Seed, Salt, Nonce"
+37605,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,97:97,T,F,14,55,F,F,Any,,,SeedSalt,5.00,41,F,F,F,Cryptographic Primitives
+37606,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,112:112,T,F,14,55,F,F,Any,,,SeedSalt,5.00,41,F,F,F,Cryptographic Primitives
+37607,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,422:422,T,F,14,55,F,F,Any,,,SeedSalt,5.00,41,F,F,F,Cryptographic Primitives
+37608,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,541:541,T,F,14,55,F,F,Any,,,SeedSalt,5.00,41,F,F,F,Cryptographic Primitives
+37609,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,55:55,T,F,14,57,F,F,Any,,,SeedSalt,4.88,43,F,F,F,Cryptographic Primitives
+37610,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,69:69,T,F,14,57,F,F,Any,,,SeedSalt,4.88,43,F,F,F,Cryptographic Primitives
 37611,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,144:144,T,F,14,63,F,F,Any,,,Token,5.06,49,F,F,F,Generic Token
 37612,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,159:159,T,F,14,63,F,F,Any,,,Token,5.06,49,F,F,F,Generic Token
 37613,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,99:99,T,F,14,55,F,F,Any,,,Token,4.95,41,F,F,F,Generic Token
@@ -132,14 +132,14 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 37757,d2a39ea6,GitHub,f295f04f,data/f295f04f/test/d2a39ea6.js,115:115,Template,T,9,13,F,F,CharsOnly,,,Unknown,1.50,4,F,F,F,Other
 37758,d2a39ea6,GitHub,f295f04f,data/f295f04f/test/d2a39ea6.js,134:134,Template,T,9,13,F,F,CharsOnly,,,Unknown,1.50,4,F,F,F,Other
 42866,f387f6d2,GitHub,f295f04f,data/f295f04f/src/f387f6d2.js,79:79,F,F,,,F,F,,,,,0,0,F,F,F,Password
-47426,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,103:103,F,F,,,F,F,,,,,0,0,F,F,F,"Seed, Salt, Nonce"
+47426,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,103:103,F,F,,,F,F,,,,,0,0,F,F,F,Cryptographic Primitives
 47427,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,36:36,F,F,,,F,F,,,,,0,0,F,F,F,Other
 47721,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,64:64,F,F,,,F,F,,,,,0,0,F,F,F,Password
 49150,43f54bf7,GitHub,f295f04f,data/f295f04f/test/43f54bf7.key,1:30,F,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
 49154,7d56b825,GitHub,f295f04f,data/f295f04f/test/7d56b825.key,1:27,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
 49160,de10bb98,GitHub,f295f04f,data/f295f04f/test/de10bb98.key,1:27,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
-50294,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,212:212,T,F,8,49,F,F,Any,,,SeedSalt,5.00,41,F,F,F,"Seed, Salt, Nonce"
-50295,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,174:174,T,F,8,51,F,F,Any,,,SeedSalt,4.88,43,F,F,F,"Seed, Salt, Nonce"
+50294,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,212:212,T,F,8,49,F,F,Any,,,SeedSalt,5.00,41,F,F,F,Cryptographic Primitives
+50295,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,174:174,T,F,8,51,F,F,Any,,,SeedSalt,4.88,43,F,F,F,Cryptographic Primitives
 50297,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,469:469,T,F,18,46,F,F,Any,,,Auth,4.66,28,F,F,F,Authentication Key & Token
 50382,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,678:678,Template,T,0,12,F,F,Any,,,Secret,2.72,12,F,F,F,Password
 50401,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,216:216,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -179,17 +179,17 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 76922,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,540:540,T,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
 78246,80c369ce,GitHub,f295f04f,data/f295f04f/test/80c369ce.js,42:50,F,F,,,F,F,,,,,0,0,F,F,F,Private Key
 78247,80c369ce,GitHub,f295f04f,data/f295f04f/test/80c369ce.js,53:61,F,F,,,F,F,,,,,0,0,F,F,F,Private Key
-82558,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,142:142,T,F,14,55,F,F,Any,,,SeedSalt,4.74,41,F,F,F,"Seed, Salt, Nonce"
-82559,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,157:157,T,F,14,55,F,F,Any,,,SeedSalt,4.74,41,F,F,F,"Seed, Salt, Nonce"
-82560,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,193:193,T,F,8,51,F,F,Any,,,SeedSalt,4.88,43,F,F,F,"Seed, Salt, Nonce"
-82561,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,234:234,T,F,8,49,F,F,Any,,,SeedSalt,5.00,41,F,F,F,"Seed, Salt, Nonce"
+82558,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,142:142,T,F,14,55,F,F,Any,,,SeedSalt,4.74,41,F,F,F,Cryptographic Primitives
+82559,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,157:157,T,F,14,55,F,F,Any,,,SeedSalt,4.74,41,F,F,F,Cryptographic Primitives
+82560,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,193:193,T,F,8,51,F,F,Any,,,SeedSalt,4.88,43,F,F,F,Cryptographic Primitives
+82561,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,234:234,T,F,8,49,F,F,Any,,,SeedSalt,5.00,41,F,F,F,Cryptographic Primitives
 82562,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,238:238,F,F,11,54,F,F,,,,,0,0,F,F,F,Generic Secret
-82563,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,256:256,T,F,8,49,F,F,Any,,,SeedSalt,4.74,41,F,F,F,"Seed, Salt, Nonce"
-82564,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,277:277,T,F,8,49,F,F,Any,,,SeedSalt,4.74,41,F,F,F,"Seed, Salt, Nonce"
-82565,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,404:404,T,F,8,49,F,F,Any,,,SeedSalt,5.00,41,F,F,F,"Seed, Salt, Nonce"
+82563,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,256:256,T,F,8,49,F,F,Any,,,SeedSalt,4.74,41,F,F,F,Cryptographic Primitives
+82564,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,277:277,T,F,8,49,F,F,Any,,,SeedSalt,4.74,41,F,F,F,Cryptographic Primitives
+82565,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,404:404,T,F,8,49,F,F,Any,,,SeedSalt,5.00,41,F,F,F,Cryptographic Primitives
 82566,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,408:408,F,F,11,54,F,F,,,,,0,0,F,F,F,Generic Secret
 82567,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,514:514,T,F,18,46,F,F,Any,,,Auth,4.66,28,F,F,F,Authentication Key & Token
-82568,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,525:525,F,F,8,49,F,F,,,,,0,0,F,F,F,"Seed, Salt, Nonce"
+82568,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,525:525,F,F,8,49,F,F,,,,,0,0,F,F,F,Cryptographic Primitives
 82569,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,529:529,F,F,11,54,F,F,,,,,0,0,F,F,F,Generic Secret
 82570,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,584:584,T,F,18,46,F,F,Any,,,Auth,4.66,28,F,F,F,Authentication Key & Token
 82571,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,593:593,Template,T,27,42,F,F,Any,,,Secret,2.93,15,F,F,F,Password
@@ -200,7 +200,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 82576,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,706:706,Template,T,18,33,F,F,Any,,,Secret,2.93,15,F,F,F,Password
 82577,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,52:52,F,F,9,41,F,F,,,,,0,0,F,F,F,Other
 82578,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,106:106,F,F,9,41,F,F,,,,,0,0,F,F,F,Other
-82579,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,119:119,T,F,8,42,F,F,Any,,,SeedSalt,3.42,34,F,F,F,"Seed, Salt, Nonce"
+82579,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,119:119,T,F,8,42,F,F,Any,,,SeedSalt,3.42,34,F,F,F,Cryptographic Primitives
 82580,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,120:120,F,F,9,41,F,F,,,,,0,0,F,F,F,Other
 82581,b4951d4e,GitHub,f295f04f,data/f295f04f/test/b4951d4e.js,46:46,Template,T,9,18,F,F,Any,,,Secret,2.60,9,F,F,F,Password
 82582,b4951d4e,GitHub,f295f04f,data/f295f04f/test/b4951d4e.js,65:65,Template,T,9,18,F,F,Any,,,Secret,2.60,9,F,F,F,Password
@@ -251,12 +251,12 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 114704,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,511:511,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
 114705,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,543:543,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
 114706,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,581:581,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-114707,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,298:298,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-114708,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,324:324,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-114709,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,438:438,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-114710,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,479:479,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-114711,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,557:557,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
+114707,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,298:298,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+114708,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,324:324,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+114709,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,438:438,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+114710,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,479:479,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+114711,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,557:557,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
 120004,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,380:380,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
 120005,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,393:393,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-134729,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,66:66,F,F,,,F,F,,,,,0,0,F,F,F,"Seed, Salt, Nonce"
-134730,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,68:68,F,F,,,F,F,,,,,0,0,F,F,F,"Seed, Salt, Nonce"
+134729,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,66:66,F,F,,,F,F,,,,,0,0,F,F,F,Cryptographic Primitives
+134730,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,68:68,F,F,,,F,F,,,,,0,0,F,F,F,Cryptographic Primitives

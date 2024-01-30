@@ -18,7 +18,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 7219,9fc085b6,GitHub,c8acf322,data/c8acf322/src/9fc085b6.rb,26:26,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 7417,979952bd,GitHub,c8acf322,data/c8acf322/src/979952bd.rb,401:401,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
 7583,f44226f8,GitHub,c8acf322,data/c8acf322/src/f44226f8.rb,32:32,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-8729,a455e16e,GitHub,c8acf322,data/c8acf322/test/a455e16e.rb,65:65,F,F,,,F,F,,,,,0,0,F,F,F,"Seed, Salt, Nonce"
+8729,a455e16e,GitHub,c8acf322,data/c8acf322/test/a455e16e.rb,65:65,F,F,,,F,F,,,,,0,0,F,F,F,Cryptographic Primitives
 9136,bc7a053b,GitHub,c8acf322,data/c8acf322/src/bc7a053b.rb,153:153,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 9137,bc7a053b,GitHub,c8acf322,data/c8acf322/src/bc7a053b.rb,145:145,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 9138,bc7a053b,GitHub,c8acf322,data/c8acf322/src/bc7a053b.rb,137:137,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -400,8 +400,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 114441,06497acc,GitHub,c8acf322,data/c8acf322/src/06497acc.rb,214:214,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 114442,a455e16e,GitHub,c8acf322,data/c8acf322/test/a455e16e.rb,513:513,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 114443,a455e16e,GitHub,c8acf322,data/c8acf322/test/a455e16e.rb,537:537,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-114444,a455e16e,GitHub,c8acf322,data/c8acf322/test/a455e16e.rb,33:33,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
-114445,a455e16e,GitHub,c8acf322,data/c8acf322/test/a455e16e.rb,35:35,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
+114444,a455e16e,GitHub,c8acf322,data/c8acf322/test/a455e16e.rb,33:33,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+114445,a455e16e,GitHub,c8acf322,data/c8acf322/test/a455e16e.rb,35:35,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
 114446,7f800456,GitHub,c8acf322,data/c8acf322/test/7f800456.rb,22:22,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Token
 114447,bc7a053b,GitHub,c8acf322,data/c8acf322/src/bc7a053b.rb,103:103,Template,F,49,69,F,F,CharOnly,,,Auth,3.52,20,F,F,F,Authentication Key & Token
 114448,bc7a053b,GitHub,c8acf322,data/c8acf322/src/bc7a053b.rb,110:110,Template,F,49,69,F,F,CharOnly,,,Auth,3.52,20,F,F,F,Authentication Key & Token
@@ -420,10 +420,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 134548,1bac0084,GitHub,c8acf322,data/c8acf322/src/1bac0084.rb,34:34,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
 134549,1ddffc04,GitHub,c8acf322,data/c8acf322/src/1ddffc04.rb,64:64,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
 134550,50a8bc57,GitHub,c8acf322,data/c8acf322/src/50a8bc57.rb,48:48,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-134551,a304ca4e,GitHub,c8acf322,data/c8acf322/src/a304ca4e.crt,1665:1665,F,F,,,F,F,,,,,0,0,F,F,F,"Seed, Salt, Nonce"
-134552,a304ca4e,GitHub,c8acf322,data/c8acf322/src/a304ca4e.crt,1669:1669,F,F,,,F,F,,,,,0,0,F,F,F,"Seed, Salt, Nonce"
-134553,a304ca4e,GitHub,c8acf322,data/c8acf322/src/a304ca4e.crt,1822:1822,F,F,,,F,F,,,,,0,0,F,F,F,"Seed, Salt, Nonce"
-134554,a304ca4e,GitHub,c8acf322,data/c8acf322/src/a304ca4e.crt,1826:1826,F,F,,,F,F,,,,,0,0,F,F,F,"Seed, Salt, Nonce"
+134551,a304ca4e,GitHub,c8acf322,data/c8acf322/src/a304ca4e.crt,1665:1665,F,F,,,F,F,,,,,0,0,F,F,F,Cryptographic Primitives
+134552,a304ca4e,GitHub,c8acf322,data/c8acf322/src/a304ca4e.crt,1669:1669,F,F,,,F,F,,,,,0,0,F,F,F,Cryptographic Primitives
+134553,a304ca4e,GitHub,c8acf322,data/c8acf322/src/a304ca4e.crt,1822:1822,F,F,,,F,F,,,,,0,0,F,F,F,Cryptographic Primitives
+134554,a304ca4e,GitHub,c8acf322,data/c8acf322/src/a304ca4e.crt,1826:1826,F,F,,,F,F,,,,,0,0,F,F,F,Cryptographic Primitives
 134555,a304ca4e,GitHub,c8acf322,data/c8acf322/src/a304ca4e.crt,3232:3232,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 134556,a304ca4e,GitHub,c8acf322,data/c8acf322/src/a304ca4e.crt,3236:3236,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 134557,a304ca4e,GitHub,c8acf322,data/c8acf322/src/a304ca4e.crt,3294:3294,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
