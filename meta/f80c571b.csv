@@ -44,7 +44,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 15206,ddca7170,GitHub,f80c571b,data/f80c571b/test/ddca7170.py,54:54,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 15207,ddca7170,GitHub,f80c571b,data/f80c571b/test/ddca7170.py,62:62,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 15208,ddca7170,GitHub,f80c571b,data/f80c571b/test/ddca7170.py,53:53,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-15891,e98e46fc,GitHub,f80c571b,data/f80c571b/src/e98e46fc.rst,323:323,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+15891,e98e46fc,GitHub,f80c571b,data/f80c571b/src/e98e46fc.rst,323:323,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 15894,fb8d49b6,GitHub,f80c571b,data/f80c571b/src/fb8d49b6.rst,670:670,Template,T,95,103,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Password
 17656,7c569d2e,GitHub,f80c571b,data/f80c571b/src/7c569d2e.py,916:916,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 17677,7c569d2e,GitHub,f80c571b,data/f80c571b/src/7c569d2e.py,919:919,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -54,8 +54,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 20669,1290e493,GitHub,f80c571b,data/f80c571b/test/1290e493.py,870:870,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 21299,bcbcac75,GitHub,f80c571b,data/f80c571b/src/bcbcac75.py,157:157,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 21719,a8ee16db,GitHub,f80c571b,data/f80c571b/src/a8ee16db.py,1502:1502,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-22071,c0986e3e,GitHub,f80c571b,data/f80c571b/test/c0986e3e.py,171:171,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-22097,fb70e4c2,GitHub,f80c571b,data/f80c571b/test/fb70e4c2.py,210:210,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+22071,c0986e3e,GitHub,f80c571b,data/f80c571b/test/c0986e3e.py,171:171,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+22097,fb70e4c2,GitHub,f80c571b,data/f80c571b/test/fb70e4c2.py,210:210,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 22104,698607b1,GitHub,f80c571b,data/f80c571b/test/698607b1.py,97:97,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 22358,fb70e4c2,GitHub,f80c571b,data/f80c571b/test/fb70e4c2.py,175:175,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 22369,698607b1,GitHub,f80c571b,data/f80c571b/test/698607b1.py,155:155,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -143,11 +143,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 110164,1290e493,GitHub,f80c571b,data/f80c571b/test/1290e493.py,771:771,F,F,,,F,F,,,,,0.00,,F,F,F,Other
 110165,1290e493,GitHub,f80c571b,data/f80c571b/test/1290e493.py,805:805,F,F,,,F,F,,,,,0.00,,F,F,F,Other
 110166,1290e493,GitHub,f80c571b,data/f80c571b/test/1290e493.py,815:815,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-110167,fb70e4c2,GitHub,f80c571b,data/f80c571b/test/fb70e4c2.py,58:58,Template,T,23,31,F,F,CharOnly,,,Auth,2.75,8,F,F,F,Authentication Key & Token
-110168,fb70e4c2,GitHub,f80c571b,data/f80c571b/test/fb70e4c2.py,93:93,Template,T,23,31,F,F,CharOnly,,,Auth,2.75,8,F,F,F,Authentication Key & Token
-110169,fb70e4c2,GitHub,f80c571b,data/f80c571b/test/fb70e4c2.py,135:135,Template,T,23,31,F,F,CharOnly,,,Auth,2.75,8,F,F,F,Authentication Key & Token
-110170,fb70e4c2,GitHub,f80c571b,data/f80c571b/test/fb70e4c2.py,169:169,Template,T,23,31,F,F,CharOnly,,,Auth,2.75,8,F,F,F,Authentication Key & Token
-110171,fb70e4c2,GitHub,f80c571b,data/f80c571b/test/fb70e4c2.py,247:247,Template,T,23,31,F,F,CharOnly,,,Auth,2.75,8,F,F,F,Authentication Key & Token
+110167,fb70e4c2,GitHub,f80c571b,data/f80c571b/test/fb70e4c2.py,58:58,Template,T,23,31,F,F,CharOnly,,,Auth,2.75,8,F,F,F,Authentication Credentials
+110168,fb70e4c2,GitHub,f80c571b,data/f80c571b/test/fb70e4c2.py,93:93,Template,T,23,31,F,F,CharOnly,,,Auth,2.75,8,F,F,F,Authentication Credentials
+110169,fb70e4c2,GitHub,f80c571b,data/f80c571b/test/fb70e4c2.py,135:135,Template,T,23,31,F,F,CharOnly,,,Auth,2.75,8,F,F,F,Authentication Credentials
+110170,fb70e4c2,GitHub,f80c571b,data/f80c571b/test/fb70e4c2.py,169:169,Template,T,23,31,F,F,CharOnly,,,Auth,2.75,8,F,F,F,Authentication Credentials
+110171,fb70e4c2,GitHub,f80c571b,data/f80c571b/test/fb70e4c2.py,247:247,Template,T,23,31,F,F,CharOnly,,,Auth,2.75,8,F,F,F,Authentication Credentials
 130181,94fb4ab5,GitHub,f80c571b,data/f80c571b/src/94fb4ab5.py,124:124,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130182,c0986e3e,GitHub,f80c571b,data/f80c571b/test/c0986e3e.py,156:156,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130183,c0986e3e,GitHub,f80c571b,data/f80c571b/test/c0986e3e.py,202:202,F,F,,,F,F,,,,,0.00,,F,F,F,Password
@@ -157,6 +157,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 132540,e1d093c9,GitHub,f80c571b,data/f80c571b/test/e1d093c9.py,262:262,T,F,,,F,F,,,,,0.00,,F,F,F,Other
 132541,e1d093c9,GitHub,f80c571b,data/f80c571b/test/e1d093c9.py,281:281,T,F,,,F,F,,,,,0.00,,F,F,F,Other
 132542,e1d093c9,GitHub,f80c571b,data/f80c571b/test/e1d093c9.py,288:288,T,F,,,F,F,,,,,0.00,,F,F,F,Other
-132723,d023632f,GitHub,f80c571b,data/f80c571b/src/d023632f.rst,265:265,F,F,270,290,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
+132723,d023632f,GitHub,f80c571b,data/f80c571b/src/d023632f.rst,265:265,F,F,270,290,F,F,,,,,0.00,,F,F,F,Authentication Credentials
 133015,68a31565,GitHub,f80c571b,data/f80c571b/src/68a31565.rst,70:70,F,F,,,F,F,,,,,0,0,F,F,F,Password
 134740,7c569d2e,GitHub,f80c571b,data/f80c571b/src/7c569d2e.py,917:917,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret

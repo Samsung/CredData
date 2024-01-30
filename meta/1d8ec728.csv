@@ -10,9 +10,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 5674,43cc6424,GitHub,1d8ec728,data/1d8ec728/test/43cc6424.php,144:144,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 5675,83fd9a06,GitHub,1d8ec728,data/1d8ec728/test/83fd9a06.php,74:74,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 12326,73a1d6dd,GitHub,1d8ec728,data/1d8ec728/src/73a1d6dd.yml,46:46,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-13398,43cc6424,GitHub,1d8ec728,data/1d8ec728/test/43cc6424.php,75:75,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+13398,43cc6424,GitHub,1d8ec728,data/1d8ec728/test/43cc6424.php,75:75,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 13399,43cc6424,GitHub,1d8ec728,data/1d8ec728/test/43cc6424.php,101:101,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-15338,62153845,GitHub,1d8ec728,data/1d8ec728/test/62153845.php,73:73,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+15338,62153845,GitHub,1d8ec728,data/1d8ec728/test/62153845.php,73:73,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 15373,ebc17e86,GitHub,1d8ec728,data/1d8ec728/src/ebc17e86.php,221:221,F,F,,,F,F,,,,,0,0,F,F,F,Password
 15974,c0323a68,GitHub,1d8ec728,data/1d8ec728/src/c0323a68.php,93:93,F,F,,,F,F,,,,,0,0,F,F,F,Password
 15988,c0323a68,GitHub,1d8ec728,data/1d8ec728/src/c0323a68.php,166:166,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -25,7 +25,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 16399,c3be6f29,GitHub,1d8ec728,data/1d8ec728/src/c3be6f29.php,733:733,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 16453,7d07a267,GitHub,1d8ec728,data/1d8ec728/src/7d07a267.php,97:97,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 16754,dd5b1f87,GitHub,1d8ec728,data/1d8ec728/src/dd5b1f87.php,97:97,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-16778,4bb44830,GitHub,1d8ec728,data/1d8ec728/src/4bb44830.php,157:157,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+16778,4bb44830,GitHub,1d8ec728,data/1d8ec728/src/4bb44830.php,157:157,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 16787,be66b8c8,GitHub,1d8ec728,data/1d8ec728/src/be66b8c8.php,259:259,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 16925,0ad46c42,GitHub,1d8ec728,data/1d8ec728/src/0ad46c42.php,140:140,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 17082,4d59fdc8,GitHub,1d8ec728,data/1d8ec728/src/4d59fdc8.php,109:109,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
@@ -110,7 +110,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 110147,be66b8c8,GitHub,1d8ec728,data/1d8ec728/src/be66b8c8.php,154:154,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 110148,1fd52c2c,GitHub,1d8ec728,data/1d8ec728/src/1fd52c2c.php,392:392,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 110149,f8e3b441,GitHub,1d8ec728,data/1d8ec728/other/f8e3b441.md,272:272,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-110150,94779cbb,GitHub,1d8ec728,data/1d8ec728/test/94779cbb.php,140:140,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
+110150,94779cbb,GitHub,1d8ec728,data/1d8ec728/test/94779cbb.php,140:140,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
 130169,2420b207,GitHub,1d8ec728,data/1d8ec728/test/2420b207.php,230:230,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130173,0ad46c42,GitHub,1d8ec728,data/1d8ec728/src/0ad46c42.php,62:62,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130175,1fd52c2c,GitHub,1d8ec728,data/1d8ec728/src/1fd52c2c.php,86:86,F,F,,,F,F,,,,,0.00,,F,F,F,Password
@@ -131,10 +131,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 131954,7fc01820,GitHub,1d8ec728,data/1d8ec728/test/7fc01820.php,301:301,T,F,,,F,F,,,,,0.00,,F,F,F,Other
 132766,0ad46c42,GitHub,1d8ec728,data/1d8ec728/src/0ad46c42.php,94:94,F,F,,,F,F,,,,,0,0,F,F,F,Password
 132767,2420b207,GitHub,1d8ec728,data/1d8ec728/test/2420b207.php,227:227,F,F,,,F,F,,,,,0,0,F,F,F,Password
-133052,0ad46c42,GitHub,1d8ec728,data/1d8ec728/src/0ad46c42.php,122:122,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+133052,0ad46c42,GitHub,1d8ec728,data/1d8ec728/src/0ad46c42.php,122:122,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 133053,4bb44830,GitHub,1d8ec728,data/1d8ec728/src/4bb44830.php,503:503,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 133054,5473790d,GitHub,1d8ec728,data/1d8ec728/src/5473790d.php,821:821,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-133055,6694caa9,GitHub,1d8ec728,data/1d8ec728/src/6694caa9.php,44:44,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+133055,6694caa9,GitHub,1d8ec728,data/1d8ec728/src/6694caa9.php,44:44,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 133056,be66b8c8,GitHub,1d8ec728,data/1d8ec728/src/be66b8c8.php,238:238,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 133057,bda46dd0,GitHub,1d8ec728,data/1d8ec728/test/bda46dd0.php,116:116,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 133058,bda46dd0,GitHub,1d8ec728,data/1d8ec728/test/bda46dd0.php,140:140,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token

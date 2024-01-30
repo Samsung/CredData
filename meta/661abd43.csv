@@ -28,7 +28,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 17045,f9f5d358,GitHub,661abd43,data/661abd43/test/f9f5d358.go,372:372,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 18186,b3356305,GitHub,661abd43,data/661abd43/other/b3356305.md,689:689,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 21584,b3356305,GitHub,661abd43,data/661abd43/other/b3356305.md,723:723,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-23016,c6567851,GitHub,661abd43,data/661abd43/src/c6567851.go,108:108,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+23016,c6567851,GitHub,661abd43,data/661abd43/src/c6567851.go,108:108,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 23062,946e2d07,GitHub,661abd43,data/661abd43/src/946e2d07.go,46:46,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 23756,c3e4025e,GitHub,661abd43,data/661abd43/src/c3e4025e.go,59:59,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 26856,04191b66,GitHub,661abd43,data/661abd43/src/04191b66.go,34:34,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -39,8 +39,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 31378,b54b39f1,GitHub,661abd43,data/661abd43/src/b54b39f1.yml,67:67,F,T,13,31,F,F,Any,,,Secret,3.00,18,F,F,F,Password
 31387,b54b39f1,GitHub,661abd43,data/661abd43/src/b54b39f1.yml,347:347,F,T,13,35,F,F,Any,,,Secret,3.31,22,F,F,F,Password
 31396,b54b39f1,GitHub,661abd43,data/661abd43/src/b54b39f1.yml,65:65,F,F,13,28,F,F,Any,,,Secret,2.99,15,F,F,F,Password
-32393,f9f5d358,GitHub,661abd43,data/661abd43/test/f9f5d358.go,23:23,T,F,26,278,F,F,CharsOnly,,,Auth,5.48,252,F,F,F,Authentication Key & Token
-32394,f9f5d358,GitHub,661abd43,data/661abd43/test/f9f5d358.go,25:25,T,F,24,348,F,F,CharsOnly,,,Auth,5.43,324,F,F,F,Authentication Key & Token
+32393,f9f5d358,GitHub,661abd43,data/661abd43/test/f9f5d358.go,23:23,T,F,26,278,F,F,CharsOnly,,,Auth,5.48,252,F,F,F,Authentication Credentials
+32394,f9f5d358,GitHub,661abd43,data/661abd43/test/f9f5d358.go,25:25,T,F,24,348,F,F,CharsOnly,,,Auth,5.43,324,F,F,F,Authentication Credentials
 34221,c7406914,GitHub,661abd43,data/661abd43/src/c7406914.libsonnet,213:213,F,T,28,43,F,F,Any,,,Secret,3.20,15,F,F,F,Password
 34514,c7406914,GitHub,661abd43,data/661abd43/src/c7406914.libsonnet,214:214,F,T,28,43,F,F,Any,,,Secret,3.11,15,F,F,F,Password
 35266,e8473738,GitHub,661abd43,data/661abd43/src/e8473738.pem,33:59,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
@@ -68,9 +68,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 101784,3295df72,GitHub,661abd43,data/661abd43/src/3295df72.sum,309:309,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 101785,2873f79a,GitHub,661abd43,data/661abd43/src/2873f79a.go,66:66,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 101786,2873f79a,GitHub,661abd43,data/661abd43/src/2873f79a.go,70:70,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-110919,3295df72,GitHub,661abd43,data/661abd43/src/3295df72.sum,550:550,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-110920,3295df72,GitHub,661abd43,data/661abd43/src/3295df72.sum,551:551,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-110921,3295df72,GitHub,661abd43,data/661abd43/src/3295df72.sum,552:552,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
+110919,3295df72,GitHub,661abd43,data/661abd43/src/3295df72.sum,550:550,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+110920,3295df72,GitHub,661abd43,data/661abd43/src/3295df72.sum,551:551,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+110921,3295df72,GitHub,661abd43,data/661abd43/src/3295df72.sum,552:552,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
 110922,3295df72,GitHub,661abd43,data/661abd43/src/3295df72.sum,220:220,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 110923,fb48ee34,GitHub,661abd43,data/661abd43/src/fb48ee34.yaml,40:40,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 110924,b3356305,GitHub,661abd43,data/661abd43/other/b3356305.md,760:760,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret

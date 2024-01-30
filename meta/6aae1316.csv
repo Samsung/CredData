@@ -1,13 +1,13 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
 4128,a9ce2831,GitHub,6aae1316,data/6aae1316/src/a9ce2831.json,555:555,F,F,,,F,F,,,,,0,0,F,F,F,Password
 4158,cf286fb8,GitHub,6aae1316,data/6aae1316/src/cf286fb8.json,11:11,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-4612,1180cfbe,GitHub,6aae1316,data/6aae1316/src/1180cfbe.json,20:20,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-4613,d43ecb85,GitHub,6aae1316,data/6aae1316/src/d43ecb85.json,19:19,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-4614,1acefd9f,GitHub,6aae1316,data/6aae1316/src/1acefd9f.json,20:20,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-4616,56dbe0cf,GitHub,6aae1316,data/6aae1316/src/56dbe0cf.json,27:27,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+4612,1180cfbe,GitHub,6aae1316,data/6aae1316/src/1180cfbe.json,20:20,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+4613,d43ecb85,GitHub,6aae1316,data/6aae1316/src/d43ecb85.json,19:19,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+4614,1acefd9f,GitHub,6aae1316,data/6aae1316/src/1acefd9f.json,20:20,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+4616,56dbe0cf,GitHub,6aae1316,data/6aae1316/src/56dbe0cf.json,27:27,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 6028,c1ae811e,GitHub,6aae1316,data/6aae1316/src/c1ae811e.rb,227:227,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 6850,1558a03d,GitHub,6aae1316,data/6aae1316/src/1558a03d.json,1:1,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-6930,cca8b484,GitHub,6aae1316,data/6aae1316/src/cca8b484.json,12:12,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+6930,cca8b484,GitHub,6aae1316,data/6aae1316/src/cca8b484.json,12:12,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 6931,8433837e,GitHub,6aae1316,data/6aae1316/src/8433837e.json,3:3,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 8462,5ce45c54,GitHub,6aae1316,data/6aae1316/src/5ce45c54.rb,17:17,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 8504,eb763f1e,GitHub,6aae1316,data/6aae1316/src/eb763f1e.rb,16:16,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
@@ -17,8 +17,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 20201,284e02c6,GitHub,6aae1316,data/6aae1316/src/284e02c6.json,26:26,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 21577,9c7a4f90,GitHub,6aae1316,data/6aae1316/src/9c7a4f90.json,4:4,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 22070,9c7a4f90,GitHub,6aae1316,data/6aae1316/src/9c7a4f90.json,7:7,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-22122,e038314c,GitHub,6aae1316,data/6aae1316/src/e038314c.json,586:586,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-22123,22ac2671,GitHub,6aae1316,data/6aae1316/src/22ac2671.json,576:576,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+22122,e038314c,GitHub,6aae1316,data/6aae1316/src/e038314c.json,586:586,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+22123,22ac2671,GitHub,6aae1316,data/6aae1316/src/22ac2671.json,576:576,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 23319,3ab46ee2,GitHub,6aae1316,data/6aae1316/src/3ab46ee2.yml,25:25,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 23418,0bc4739d,GitHub,6aae1316,data/6aae1316/src/0bc4739d.json,8:8,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 23449,20a593c4,GitHub,6aae1316,data/6aae1316/src/20a593c4.rb,39:39,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
@@ -125,9 +125,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 42392,a9ce2831,GitHub,6aae1316,data/6aae1316/src/a9ce2831.json,342:342,T,T,240,260,T,F,Any,,AWS Client ID,Secret,3.18,20,F,F,F,Predefined Pattern
 42393,a9ce2831,GitHub,6aae1316,data/6aae1316/src/a9ce2831.json,446:446,T,T,240,260,T,F,Any,,AWS Client ID,Secret,3.18,20,F,F,F,Predefined Pattern
 42432,3ab46ee2,GitHub,6aae1316,data/6aae1316/src/3ab46ee2.yml,24:24,T,F,8,26,F,F,Any,,,Token,3.28,18,F,F,F,Generic Token
-52935,a9ce2831,GitHub,6aae1316,data/6aae1316/src/a9ce2831.json,587:587,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-52936,a9ce2831,GitHub,6aae1316,data/6aae1316/src/a9ce2831.json,573:573,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-52937,e038314c,GitHub,6aae1316,data/6aae1316/src/e038314c.json,572:572,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+52935,a9ce2831,GitHub,6aae1316,data/6aae1316/src/a9ce2831.json,587:587,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+52936,a9ce2831,GitHub,6aae1316,data/6aae1316/src/a9ce2831.json,573:573,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+52937,e038314c,GitHub,6aae1316,data/6aae1316/src/e038314c.json,572:572,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 55009,e038314c,GitHub,6aae1316,data/6aae1316/src/e038314c.json,554:554,F,F,,,F,F,,,,,0,0,F,F,F,Password
 55010,22ac2671,GitHub,6aae1316,data/6aae1316/src/22ac2671.json,558:558,F,F,,,F,F,,,,,0,0,F,F,F,Password
 74215,78a8a197,GitHub,6aae1316,data/6aae1316/src/78a8a197.yml,18:18,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -143,7 +143,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 82733,04d92e3f,GitHub,6aae1316,data/6aae1316/src/04d92e3f.diff,2514:2514,F,F,33,44,F,F,,,,,0,0,F,F,F,Generic Secret
 82734,04d92e3f,GitHub,6aae1316,data/6aae1316/src/04d92e3f.diff,2515:2515,F,F,29,40,F,F,,,,,0,0,F,F,F,Generic Secret
 108381,f43bde42,GitHub,6aae1316,data/6aae1316/src/f43bde42.rb,503:503,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-108382,eb763f1e,GitHub,6aae1316,data/6aae1316/src/eb763f1e.rb,110:110,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
+108382,eb763f1e,GitHub,6aae1316,data/6aae1316/src/eb763f1e.rb,110:110,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
 108383,31cb2a2e,GitHub,6aae1316,data/6aae1316/src/31cb2a2e.rb,28:28,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
 108384,31cb2a2e,GitHub,6aae1316,data/6aae1316/src/31cb2a2e.rb,32:32,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
 108385,9ba5270d,GitHub,6aae1316,data/6aae1316/src/9ba5270d.rb,28:28,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern

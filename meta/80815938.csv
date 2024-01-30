@@ -9,12 +9,12 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 7994,183d3a1a,GitHub,80815938,data/80815938/src/183d3a1a.js,159:159,F,F,,,F,F,,,,,0,0,F,F,F,Password
 7995,fac86e40,GitHub,80815938,data/80815938/src/fac86e40.js,303:303,F,F,,,F,F,,,,,0,0,F,F,F,Password
 8699,ebb0fbb7,GitHub,80815938,data/80815938/test/ebb0fbb7.js,100:100,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-8700,1c5ea99e,GitHub,80815938,data/80815938/test/1c5ea99e.js,150:150,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+8700,1c5ea99e,GitHub,80815938,data/80815938/test/1c5ea99e.js,150:150,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 10346,63d38edd,GitHub,80815938,data/80815938/test/63d38edd.js,50:50,F,F,,,F,F,,,,,0,0,F,F,F,Cryptographic Primitives
 10347,63d38edd,GitHub,80815938,data/80815938/test/63d38edd.js,42:42,F,F,,,F,F,,,,,0,0,F,F,F,Cryptographic Primitives
 10351,b9d7bcee,GitHub,80815938,data/80815938/test/b9d7bcee.js,100:100,F,F,,,F,F,,,,,0,0,F,F,F,Cryptographic Primitives
 10352,b9d7bcee,GitHub,80815938,data/80815938/test/b9d7bcee.js,91:91,F,F,,,F,F,,,,,0,0,F,F,F,Cryptographic Primitives
-10960,4594f1fd,GitHub,80815938,data/80815938/src/4594f1fd.js,70:70,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+10960,4594f1fd,GitHub,80815938,data/80815938/src/4594f1fd.js,70:70,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 11219,63d38edd,GitHub,80815938,data/80815938/test/63d38edd.js,708:708,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 11220,63d38edd,GitHub,80815938,data/80815938/test/63d38edd.js,698:698,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 12856,2ac80b0e,GitHub,80815938,data/80815938/src/2ac80b0e.js,31:31,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -23,11 +23,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 14750,4b58b3c7,GitHub,80815938,data/80815938/src/4b58b3c7.js,21:21,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 16123,ebb0fbb7,GitHub,80815938,data/80815938/test/ebb0fbb7.js,150:150,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 16543,ccfc9194,GitHub,80815938,data/80815938/test/ccfc9194.js,30:30,F,F,,,F,F,,,,,0,0,F,F,F,Password
-18928,1c5ea99e,GitHub,80815938,data/80815938/test/1c5ea99e.js,151:151,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-18929,1c5ea99e,GitHub,80815938,data/80815938/test/1c5ea99e.js,65:65,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+18928,1c5ea99e,GitHub,80815938,data/80815938/test/1c5ea99e.js,151:151,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+18929,1c5ea99e,GitHub,80815938,data/80815938/test/1c5ea99e.js,65:65,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 22367,dedb6c21,GitHub,80815938,data/80815938/src/dedb6c21.json,17:17,F,F,,,F,F,,,,,0,0,F,F,F,Password
-23020,bcf2e52c,GitHub,80815938,data/80815938/src/bcf2e52c.js,31:31,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-23021,5aec0f4f,GitHub,80815938,data/80815938/test/5aec0f4f.js,30:30,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+23020,bcf2e52c,GitHub,80815938,data/80815938/src/bcf2e52c.js,31:31,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+23021,5aec0f4f,GitHub,80815938,data/80815938/test/5aec0f4f.js,30:30,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 25155,b3356305,GitHub,80815938,data/80815938/other/b3356305.md,228:228,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 25187,6bccba7d,GitHub,80815938,data/80815938/src/6bccba7d.html,14:14,F,F,,,F,F,,,,,0,0,F,F,F,Password
 25996,8a2fb73c,GitHub,80815938,data/80815938/src/8a2fb73c.html,18:18,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -84,7 +84,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 47781,13e08bda,GitHub,80815938,data/80815938/test/13e08bda.js,806:806,T,F,11,27,F,F,Any,,,Secret,2.70,16,F,F,F,Password
 47782,13e08bda,GitHub,80815938,data/80815938/test/13e08bda.js,40:40,T,F,11,27,F,F,Any,,,Secret,2.70,16,F,F,F,Password
 47783,99aa1839,GitHub,80815938,data/80815938/test/99aa1839.js,31:31,T,F,11,27,F,F,Any,,,Secret,2.70,16,F,F,F,Password
-76813,4594f1fd,GitHub,80815938,data/80815938/src/4594f1fd.js,82:82,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+76813,4594f1fd,GitHub,80815938,data/80815938/src/4594f1fd.js,82:82,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 82756,63d38edd,GitHub,80815938,data/80815938/test/63d38edd.js,717:717,F,F,29,33,F,F,,,,,0,0,F,F,F,Generic Secret
 82757,63d38edd,GitHub,80815938,data/80815938/test/63d38edd.js,726:726,F,F,29,33,F,F,,,,,0,0,F,F,F,Generic Secret
 108550,a7c4d97b,GitHub,80815938,data/80815938/src/a7c4d97b.js,112:112,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret

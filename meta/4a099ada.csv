@@ -61,7 +61,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 23106,f1a9c0d7,GitHub,4a099ada,data/4a099ada/src/f1a9c0d7.yml,10:10,F,F,,,F,F,,,,,0,0,F,F,F,Password
 23337,aba179aa,GitHub,4a099ada,data/4a099ada/test/aba179aa.go,218:218,F,F,,,F,F,,,,,0,0,F,F,F,Password
 23338,aba179aa,GitHub,4a099ada,data/4a099ada/test/aba179aa.go,346:346,F,F,,,F,F,,,,,0,0,F,F,F,Password
-24389,bd5d9818,GitHub,4a099ada,data/4a099ada/src/bd5d9818.go,820:820,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+24389,bd5d9818,GitHub,4a099ada,data/4a099ada/src/bd5d9818.go,820:820,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 24972,bead4ea2,GitHub,4a099ada,data/4a099ada/src/bead4ea2.go,1892:1892,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 25071,d2ae72e6,GitHub,4a099ada,data/4a099ada/src/d2ae72e6.go,274:274,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 25266,2294854e,GitHub,4a099ada,data/4a099ada/other/2294854e.html,6:6,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
@@ -106,8 +106,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 35778,088d3691,GitHub,4a099ada,data/4a099ada/src/088d3691.go,204:204,T,T,19,32,F,F,Any,,,Secret,3.33,13,F,F,F,Password
 35791,088d3691,GitHub,4a099ada,data/4a099ada/src/088d3691.go,197:197,T,T,17,30,F,F,Any,,,Secret,3.33,13,F,F,F,Password
 36057,a836957b,GitHub,4a099ada,data/4a099ada/other/a836957b.md,44:44,Template,T,12,22,F,F,CharsOnly,,,Secret,3.12,10,F,F,F,Password
-41625,0adefa1d,GitHub,4a099ada,data/4a099ada/src/0adefa1d.go,283:283,T,F,25,89,F,F,Any,,,Auth,3.69,64,F,F,F,Authentication Key & Token
-41626,088d3691,GitHub,4a099ada,data/4a099ada/src/088d3691.go,338:338,T,F,29,93,F,F,Any,,,Auth,3.69,64,F,F,F,Authentication Key & Token
+41625,0adefa1d,GitHub,4a099ada,data/4a099ada/src/0adefa1d.go,283:283,T,F,25,89,F,F,Any,,,Auth,3.69,64,F,F,F,Authentication Credentials
+41626,088d3691,GitHub,4a099ada,data/4a099ada/src/088d3691.go,338:338,T,F,29,93,F,F,Any,,,Auth,3.69,64,F,F,F,Authentication Credentials
 41627,2cac5a71,GitHub,4a099ada,data/4a099ada/src/2cac5a71.json,8:8,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 41628,2cac5a71,GitHub,4a099ada,data/4a099ada/src/2cac5a71.json,14:14,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 41629,2cac5a71,GitHub,4a099ada,data/4a099ada/src/2cac5a71.json,38:38,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -184,7 +184,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 46256,aba179aa,GitHub,4a099ada,data/4a099ada/test/aba179aa.go,91:91,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 46267,aba179aa,GitHub,4a099ada,data/4a099ada/test/aba179aa.go,68:68,F,F,,,F,F,,,,,0,0,F,F,F,Password
 47315,eee3fa6c,GitHub,4a099ada,data/4a099ada/test/eee3fa6c.json,69:69,F,F,,,F,F,,,,,0,0,F,F,F,Password
-47728,4c24badc,GitHub,4a099ada,data/4a099ada/other/4c24badc.md,125:125,T,F,14,78,F,F,Any,,,Auth,3.69,64,F,F,F,Authentication Key & Token
+47728,4c24badc,GitHub,4a099ada,data/4a099ada/other/4c24badc.md,125:125,T,F,14,78,F,F,Any,,,Auth,3.69,64,F,F,F,Authentication Credentials
 48015,a836957b,GitHub,4a099ada,data/4a099ada/other/a836957b.md,61:61,F,F,,,F,F,,,,,0,0,F,F,F,Password
 48125,6ba66091,GitHub,4a099ada,data/4a099ada/other/6ba66091.md,22:22,F,F,,,F,F,,,,,0,0,F,F,F,Other
 49184,29bc672b,GitHub,4a099ada,data/4a099ada/other/29bc672b.html,6:6,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
@@ -211,8 +211,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 64430,e5cba614,GitHub,4a099ada,data/4a099ada/other/e5cba614.md,95:95,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 64541,bead4ea2,GitHub,4a099ada,data/4a099ada/src/bead4ea2.go,1327:1327,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 74828,23bd7894,GitHub,4a099ada,data/4a099ada/src/23bd7894.go,30:30,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-82771,4c24badc,GitHub,4a099ada,data/4a099ada/other/4c24badc.md,133:133,T,F,14,78,F,F,NumbersOnly,,,Auth,3.69,64,F,F,F,Authentication Key & Token
-82772,4c24badc,GitHub,4a099ada,data/4a099ada/other/4c24badc.md,536:536,T,F,20,84,F,F,NumbersOnly,,,Auth,3.69,64,F,F,F,Authentication Key & Token
+82771,4c24badc,GitHub,4a099ada,data/4a099ada/other/4c24badc.md,133:133,T,F,14,78,F,F,NumbersOnly,,,Auth,3.69,64,F,F,F,Authentication Credentials
+82772,4c24badc,GitHub,4a099ada,data/4a099ada/other/4c24badc.md,536:536,T,F,20,84,F,F,NumbersOnly,,,Auth,3.69,64,F,F,F,Authentication Credentials
 82773,2cac5a71,GitHub,4a099ada,data/4a099ada/src/2cac5a71.json,20:20,F,F,13,53,F,F,,,,,0,0,F,F,F,Generic Secret
 82774,2cac5a71,GitHub,4a099ada,data/4a099ada/src/2cac5a71.json,26:26,F,F,13,53,F,F,,,,,0,0,F,F,F,Generic Secret
 82775,2cac5a71,GitHub,4a099ada,data/4a099ada/src/2cac5a71.json,32:32,F,F,13,53,F,F,,,,,0,0,F,F,F,Generic Secret

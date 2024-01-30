@@ -4,16 +4,16 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 1921,cd330b14,GitHub,f295f04f,data/f295f04f/test/cd330b14.js,73:73,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 1922,cd330b14,GitHub,f295f04f,data/f295f04f/test/cd330b14.js,62:62,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 1923,cd330b14,GitHub,f295f04f,data/f295f04f/test/cd330b14.js,31:31,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-2620,d2a39ea6,GitHub,f295f04f,data/f295f04f/test/d2a39ea6.js,18:18,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+2620,d2a39ea6,GitHub,f295f04f,data/f295f04f/test/d2a39ea6.js,18:18,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 3788,d2a39ea6,GitHub,f295f04f,data/f295f04f/test/d2a39ea6.js,98:98,F,F,,,F,F,,,,,0,0,F,F,F,Password
 7900,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,677:677,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 8623,f387f6d2,GitHub,f295f04f,data/f295f04f/src/f387f6d2.js,26:26,F,F,,,F,F,,,,,0,0,F,F,F,Password
-8985,ff484e64,GitHub,f295f04f,data/f295f04f/test/ff484e64.js,28:28,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-10004,d2a39ea6,GitHub,f295f04f,data/f295f04f/test/d2a39ea6.js,24:24,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+8985,ff484e64,GitHub,f295f04f,data/f295f04f/test/ff484e64.js,28:28,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+10004,d2a39ea6,GitHub,f295f04f,data/f295f04f/test/d2a39ea6.js,24:24,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 11136,5d52fc20,GitHub,f295f04f,data/f295f04f/test/5d52fc20.js,66:66,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 11144,d2a39ea6,GitHub,f295f04f,data/f295f04f/test/d2a39ea6.js,37:37,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 11145,e94695d3,GitHub,f295f04f,data/f295f04f/test/e94695d3.js,31:31,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-11910,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,675:675,Template,T,9,21,F,F,Any,,,Auth,3.12,12,F,F,F,Authentication Key & Token
+11910,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,675:675,Template,T,9,21,F,F,Any,,,Auth,3.12,12,F,F,F,Authentication Credentials
 13101,b4951d4e,GitHub,f295f04f,data/f295f04f/test/b4951d4e.js,28:28,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 13906,b3356305,GitHub,f295f04f,data/f295f04f/other/b3356305.md,184:184,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 13907,cd330b14,GitHub,f295f04f,data/f295f04f/test/cd330b14.js,41:41,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -28,13 +28,13 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 17096,b3356305,GitHub,f295f04f,data/f295f04f/other/b3356305.md,1129:1129,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 18764,b3356305,GitHub,f295f04f,data/f295f04f/other/b3356305.md,396:396,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 27198,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,350:350,Template,T,15,27,F,F,Any,,,Token,2.72,12,F,F,F,Generic Token
-29337,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,211:211,T,T,24,44,F,F,Any,,,Auth,4.12,20,F,F,F,Authentication Key & Token
+29337,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,211:211,T,T,24,44,F,F,Any,,,Auth,4.12,20,F,F,F,Authentication Credentials
 29338,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,349:349,Template,T,27,42,F,F,Any,,,Secret,2.93,15,F,F,F,Password
 29341,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,127:127,T,F,14,55,F,F,Any,,,SeedSalt,4.74,41,F,F,F,Cryptographic Primitives
 29377,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,148:148,Template,T,7,14,F,F,CharsOnly,,,Unknown,2.52,7,F,F,F,Other
 29485,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,262:262,Template,F,15,55,F,F,Any,,,Token,4.90,40,F,F,F,Generic Token
 29719,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,58:58,Template,T,12,19,F,F,CharsOnly,,,Unknown,2.52,7,F,F,F,Other
-29733,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,40:40,Template,T,21,41,F,F,Any,,,Auth,4.12,20,F,F,F,Authentication Key & Token
+29733,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,40:40,Template,T,21,41,F,F,Any,,,Auth,4.12,20,F,F,F,Authentication Credentials
 29943,b4951d4e,GitHub,f295f04f,data/f295f04f/test/b4951d4e.js,29:29,Template,T,9,18,F,F,Any,,,Secret,2.60,9,F,F,F,Password
 30683,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,173:173,T,T,15,35,F,F,Any,,,Unknown,4.12,20,F,F,F,Other
 32281,cb37811e,GitHub,f295f04f,data/f295f04f/test/cb37811e.cnf,19:19,F,T,33,51,F,F,Any,,,Secret,3.49,18,F,F,F,Password
@@ -65,9 +65,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 35735,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,133:133,F,F,4,47,F,F,Any,,,Unknown,4.77,43,F,F,F,Other
 35736,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,45:45,F,F,4,47,F,F,Any,,,Unknown,4.77,43,F,F,F,Other
 36032,b3356305,GitHub,f295f04f,data/f295f04f/other/b3356305.md,326:326,Template,T,12,20,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-36124,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,86:86,T,F,17,60,F,F,Any,,,Auth,4.80,43,F,F,F,Authentication Key & Token
-36133,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,297:297,T,F,24,40,F,F,Any,,,Auth,2.83,16,F,F,F,Authentication Key & Token
-36137,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,463:463,T,F,21,37,F,F,Any,,,Auth,2.83,16,F,F,F,Authentication Key & Token
+36124,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,86:86,T,F,17,60,F,F,Any,,,Auth,4.80,43,F,F,F,Authentication Credentials
+36133,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,297:297,T,F,24,40,F,F,Any,,,Auth,2.83,16,F,F,F,Authentication Credentials
+36137,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,463:463,T,F,21,37,F,F,Any,,,Auth,2.83,16,F,F,F,Authentication Credentials
 36138,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,82:82,T,F,14,55,F,F,Any,,,SeedSalt,5.00,41,F,F,F,Cryptographic Primitives
 36139,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,41:41,T,F,14,57,F,F,Any,,,SeedSalt,4.88,43,F,F,F,Cryptographic Primitives
 36140,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,129:129,T,F,14,63,F,F,Any,,,Token,5.06,49,F,F,F,Generic Token
@@ -103,16 +103,16 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 37475,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,103:103,T,F,4,47,F,F,Any,,,Unknown,4.77,43,F,F,F,Other
 37476,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,148:148,T,F,4,47,F,F,Any,,,Unknown,4.77,43,F,F,F,Other
 37477,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,59:59,T,F,4,47,F,F,Any,,,Unknown,4.77,43,F,F,F,Other
-37582,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,101:101,T,F,17,60,F,F,Any,,,Auth,4.80,43,F,F,F,Authentication Key & Token
-37583,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,116:116,T,F,17,60,F,F,Any,,,Auth,4.80,43,F,F,F,Authentication Key & Token
-37584,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,426:426,T,F,17,60,F,F,Any,,,Auth,4.80,43,F,F,F,Authentication Key & Token
-37585,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,545:545,T,F,17,60,F,F,Any,,,Auth,4.80,43,F,F,F,Authentication Key & Token
-37599,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,323:323,T,F,24,40,F,F,Any,,,Auth,2.83,16,F,F,F,Authentication Key & Token
-37600,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,437:437,T,F,24,40,F,F,Any,,,Auth,2.83,16,F,F,F,Authentication Key & Token
-37601,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,478:478,T,F,24,40,F,F,Any,,,Auth,2.83,16,F,F,F,Authentication Key & Token
-37602,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,556:556,T,F,24,40,F,F,Any,,,Auth,2.83,16,F,F,F,Authentication Key & Token
-37603,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,508:508,T,F,21,37,F,F,Any,,,Auth,2.83,16,F,F,F,Authentication Key & Token
-37604,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,578:578,T,F,21,37,F,F,Any,,,Auth,2.83,16,F,F,F,Authentication Key & Token
+37582,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,101:101,T,F,17,60,F,F,Any,,,Auth,4.80,43,F,F,F,Authentication Credentials
+37583,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,116:116,T,F,17,60,F,F,Any,,,Auth,4.80,43,F,F,F,Authentication Credentials
+37584,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,426:426,T,F,17,60,F,F,Any,,,Auth,4.80,43,F,F,F,Authentication Credentials
+37585,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,545:545,T,F,17,60,F,F,Any,,,Auth,4.80,43,F,F,F,Authentication Credentials
+37599,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,323:323,T,F,24,40,F,F,Any,,,Auth,2.83,16,F,F,F,Authentication Credentials
+37600,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,437:437,T,F,24,40,F,F,Any,,,Auth,2.83,16,F,F,F,Authentication Credentials
+37601,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,478:478,T,F,24,40,F,F,Any,,,Auth,2.83,16,F,F,F,Authentication Credentials
+37602,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,556:556,T,F,24,40,F,F,Any,,,Auth,2.83,16,F,F,F,Authentication Credentials
+37603,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,508:508,T,F,21,37,F,F,Any,,,Auth,2.83,16,F,F,F,Authentication Credentials
+37604,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,578:578,T,F,21,37,F,F,Any,,,Auth,2.83,16,F,F,F,Authentication Credentials
 37605,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,97:97,T,F,14,55,F,F,Any,,,SeedSalt,5.00,41,F,F,F,Cryptographic Primitives
 37606,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,112:112,T,F,14,55,F,F,Any,,,SeedSalt,5.00,41,F,F,F,Cryptographic Primitives
 37607,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,422:422,T,F,14,55,F,F,Any,,,SeedSalt,5.00,41,F,F,F,Cryptographic Primitives
@@ -140,7 +140,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 49160,de10bb98,GitHub,f295f04f,data/f295f04f/test/de10bb98.key,1:27,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
 50294,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,212:212,T,F,8,49,F,F,Any,,,SeedSalt,5.00,41,F,F,F,Cryptographic Primitives
 50295,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,174:174,T,F,8,51,F,F,Any,,,SeedSalt,4.88,43,F,F,F,Cryptographic Primitives
-50297,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,469:469,T,F,18,46,F,F,Any,,,Auth,4.66,28,F,F,F,Authentication Key & Token
+50297,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,469:469,T,F,18,46,F,F,Any,,,Auth,4.66,28,F,F,F,Authentication Credentials
 50382,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,678:678,Template,T,0,12,F,F,Any,,,Secret,2.72,12,F,F,F,Password
 50401,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,216:216,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 52048,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,283:283,Template,F,15,55,F,F,Any,,,Token,4.90,40,F,F,F,Generic Token
@@ -151,14 +151,14 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 74085,b4951d4e,GitHub,f295f04f,data/f295f04f/test/b4951d4e.js,85:85,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 74086,b4951d4e,GitHub,f295f04f,data/f295f04f/test/b4951d4e.js,106:106,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 74173,47746fff,GitHub,f295f04f,data/f295f04f/test/47746fff.js,439:439,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-74607,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,233:233,T,T,24,44,F,F,Any,,,Auth,4.12,20,F,F,F,Authentication Key & Token
-74608,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,255:255,T,T,24,44,F,F,Any,,,Auth,4.12,20,F,F,F,Authentication Key & Token
-74609,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,276:276,T,T,24,44,F,F,Any,,,Auth,4.12,20,F,F,F,Authentication Key & Token
-74610,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,403:403,T,T,24,44,F,F,Any,,,Auth,4.12,20,F,F,F,Authentication Key & Token
-74611,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,524:524,T,T,24,44,F,F,Any,,,Auth,4.12,20,F,F,F,Authentication Key & Token
-74612,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,705:705,Template,T,9,21,F,F,Any,,,Auth,3.12,12,F,F,F,Authentication Key & Token
-74613,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,54:54,Template,T,21,41,F,F,Any,,,Auth,4.12,20,F,F,F,Authentication Key & Token
-74614,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,68:68,Template,T,21,41,F,F,Any,,,Auth,4.12,20,F,F,F,Authentication Key & Token
+74607,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,233:233,T,T,24,44,F,F,Any,,,Auth,4.12,20,F,F,F,Authentication Credentials
+74608,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,255:255,T,T,24,44,F,F,Any,,,Auth,4.12,20,F,F,F,Authentication Credentials
+74609,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,276:276,T,T,24,44,F,F,Any,,,Auth,4.12,20,F,F,F,Authentication Credentials
+74610,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,403:403,T,T,24,44,F,F,Any,,,Auth,4.12,20,F,F,F,Authentication Credentials
+74611,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,524:524,T,T,24,44,F,F,Any,,,Auth,4.12,20,F,F,F,Authentication Credentials
+74612,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,705:705,Template,T,9,21,F,F,Any,,,Auth,3.12,12,F,F,F,Authentication Credentials
+74613,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,54:54,Template,T,21,41,F,F,Any,,,Auth,4.12,20,F,F,F,Authentication Credentials
+74614,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,68:68,Template,T,21,41,F,F,Any,,,Auth,4.12,20,F,F,F,Authentication Credentials
 74677,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,193:193,Template,T,7,14,F,F,CharsOnly,,,Unknown,2.52,7,F,F,F,Other
 74678,317baecd,GitHub,f295f04f,data/f295f04f/test/317baecd.js,19:19,Template,T,7,14,F,F,CharsOnly,,,Unknown,2.52,7,F,F,F,Other
 74679,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,170:170,Template,T,7,14,F,F,CharsOnly,,,Unknown,2.52,7,F,F,F,Other
@@ -169,14 +169,14 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 75583,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,708:708,Template,T,0,12,F,F,Any,,,Secret,2.72,12,F,F,F,Password
 76905,b3356305,GitHub,f295f04f,data/f295f04f/other/b3356305.md,417:417,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 76906,b3356305,GitHub,f295f04f,data/f295f04f/other/b3356305.md,429:429,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-76915,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,81:81,T,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-76916,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,96:96,T,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-76917,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,111:111,T,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-76918,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,126:126,T,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-76919,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,141:141,T,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-76920,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,156:156,T,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-76921,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,421:421,T,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-76922,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,540:540,T,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+76915,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,81:81,T,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+76916,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,96:96,T,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+76917,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,111:111,T,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+76918,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,126:126,T,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+76919,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,141:141,T,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+76920,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,156:156,T,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+76921,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,421:421,T,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+76922,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,540:540,T,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 78246,80c369ce,GitHub,f295f04f,data/f295f04f/test/80c369ce.js,42:50,F,F,,,F,F,,,,,0,0,F,F,F,Private Key
 78247,80c369ce,GitHub,f295f04f,data/f295f04f/test/80c369ce.js,53:61,F,F,,,F,F,,,,,0,0,F,F,F,Private Key
 82558,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,142:142,T,F,14,55,F,F,Any,,,SeedSalt,4.74,41,F,F,F,Cryptographic Primitives
@@ -188,10 +188,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 82564,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,277:277,T,F,8,49,F,F,Any,,,SeedSalt,4.74,41,F,F,F,Cryptographic Primitives
 82565,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,404:404,T,F,8,49,F,F,Any,,,SeedSalt,5.00,41,F,F,F,Cryptographic Primitives
 82566,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,408:408,F,F,11,54,F,F,,,,,0,0,F,F,F,Generic Secret
-82567,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,514:514,T,F,18,46,F,F,Any,,,Auth,4.66,28,F,F,F,Authentication Key & Token
+82567,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,514:514,T,F,18,46,F,F,Any,,,Auth,4.66,28,F,F,F,Authentication Credentials
 82568,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,525:525,F,F,8,49,F,F,,,,,0,0,F,F,F,Cryptographic Primitives
 82569,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,529:529,F,F,11,54,F,F,,,,,0,0,F,F,F,Generic Secret
-82570,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,584:584,T,F,18,46,F,F,Any,,,Auth,4.66,28,F,F,F,Authentication Key & Token
+82570,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,584:584,T,F,18,46,F,F,Any,,,Auth,4.66,28,F,F,F,Authentication Credentials
 82571,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,593:593,Template,T,27,42,F,F,Any,,,Secret,2.93,15,F,F,F,Password
 82572,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,610:610,Template,T,27,42,F,F,Any,,,Secret,2.93,15,F,F,F,Password
 82573,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,628:628,Template,T,27,42,F,F,Any,,,Secret,2.93,15,F,F,F,Password
@@ -211,7 +211,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 108657,b3356305,GitHub,f295f04f,data/f295f04f/other/b3356305.md,450:450,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 108658,b3356305,GitHub,f295f04f,data/f295f04f/other/b3356305.md,802:802,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 108659,b3356305,GitHub,f295f04f,data/f295f04f/other/b3356305.md,290:290,Template,T,9,17,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Password
-108660,b3356305,GitHub,f295f04f,data/f295f04f/other/b3356305.md,304:304,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
+108660,b3356305,GitHub,f295f04f,data/f295f04f/other/b3356305.md,304:304,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
 108661,b3356305,GitHub,f295f04f,data/f295f04f/other/b3356305.md,327:327,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 108662,b3356305,GitHub,f295f04f,data/f295f04f/other/b3356305.md,397:397,Template,T,19,34,F,F,Any,,,Secret,2.93,15,F,F,F,Password
 108663,b3356305,GitHub,f295f04f,data/f295f04f/other/b3356305.md,418:418,Template,T,19,34,F,F,Any,,,Secret,2.93,15,F,F,F,Password
@@ -219,44 +219,44 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 108665,b3356305,GitHub,f295f04f,data/f295f04f/other/b3356305.md,627:627,Template,T,13,21,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Password
 108666,b3356305,GitHub,f295f04f,data/f295f04f/other/b3356305.md,653:653,Template,T,13,21,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Password
 108667,b3356305,GitHub,f295f04f,data/f295f04f/other/b3356305.md,667:667,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-108668,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,42:42,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-108669,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,56:56,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-108670,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,83:83,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-108671,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,98:98,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-108672,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,128:128,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-108673,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,143:143,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-108674,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,423:423,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-108675,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,464:464,T,F,14,22,F,F,Any,,,SeedSalt,2.75,8,F,F,F,Authentication Key & Token
-108676,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,465:465,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-108677,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,509:509,T,F,14,22,F,F,Any,,,SeedSalt,3.00,8,F,F,F,Authentication Key & Token
-108678,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,510:510,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-108679,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,542:542,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-108680,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,579:579,T,F,14,22,F,F,Any,,,SeedSalt,3.00,8,F,F,F,Authentication Key & Token
-108681,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,580:580,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
+108668,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,42:42,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+108669,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,56:56,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+108670,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,83:83,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+108671,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,98:98,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+108672,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,128:128,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+108673,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,143:143,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+108674,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,423:423,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+108675,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,464:464,T,F,14,22,F,F,Any,,,SeedSalt,2.75,8,F,F,F,Authentication Credentials
+108676,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,465:465,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+108677,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,509:509,T,F,14,22,F,F,Any,,,SeedSalt,3.00,8,F,F,F,Authentication Credentials
+108678,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,510:510,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+108679,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,542:542,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+108680,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,579:579,T,F,14,22,F,F,Any,,,SeedSalt,3.00,8,F,F,F,Authentication Credentials
+108681,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,580:580,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
 108682,47746fff,GitHub,f295f04f,data/f295f04f/test/47746fff.js,428:428,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-114690,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,43:43,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-114691,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,57:57,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-114692,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,70:70,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-114693,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,71:71,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-114694,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,85:85,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-114695,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,100:100,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-114696,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,113:113,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-114697,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,115:115,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-114698,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,130:130,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-114699,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,145:145,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-114700,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,158:158,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-114701,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,160:160,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-114702,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,424:424,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-114703,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,466:466,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-114704,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,511:511,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-114705,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,543:543,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-114706,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,581:581,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
+114690,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,43:43,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+114691,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,57:57,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+114692,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,70:70,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+114693,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,71:71,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+114694,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,85:85,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+114695,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,100:100,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+114696,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,113:113,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+114697,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,115:115,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+114698,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,130:130,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+114699,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,145:145,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+114700,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,158:158,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+114701,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,160:160,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+114702,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,424:424,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+114703,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,466:466,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+114704,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,511:511,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+114705,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,543:543,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+114706,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,581:581,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
 114707,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,298:298,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
 114708,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,324:324,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
 114709,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,438:438,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
 114710,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,479:479,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
 114711,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,557:557,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
-120004,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,380:380,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-120005,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,393:393,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
+120004,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,380:380,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+120005,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,393:393,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
 134729,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,66:66,F,F,,,F,F,,,,,0,0,F,F,F,Cryptographic Primitives
 134730,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,68:68,F,F,,,F,F,,,,,0,0,F,F,F,Cryptographic Primitives

@@ -9,7 +9,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 4323,68cbce99,GitHub,c41bb134,data/c41bb134/test/68cbce99.hs,54:54,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 5571,1abbf729,GitHub,c41bb134,data/c41bb134/test/1abbf729.sql,231:231,Template,T,18,22,F,F,CharOnly,,,Secret,1.50,4,F,F,F,Password
 5620,4460568d,GitHub,c41bb134,data/c41bb134/src/4460568d.hs,47:47,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-7252,1abbf729,GitHub,c41bb134,data/c41bb134/test/1abbf729.sql,2038:2038,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+7252,1abbf729,GitHub,c41bb134,data/c41bb134/test/1abbf729.sql,2038:2038,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 7839,328c2f31,GitHub,c41bb134,data/c41bb134/src/328c2f31.hs,294:294,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 10948,f3d5cea6,GitHub,c41bb134,data/c41bb134/src/f3d5cea6.hs,76:76,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 12795,78a8a197,GitHub,c41bb134,data/c41bb134/src/78a8a197.yml,60:60,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -20,9 +20,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 19571,89156e52,GitHub,c41bb134,data/c41bb134/test/89156e52.json,31:31,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 20308,b155aa73,GitHub,c41bb134,data/c41bb134/test/b155aa73.hs,329:329,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 22186,691fe380,GitHub,c41bb134,data/c41bb134/src/691fe380.hs,209:209,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-22554,476936d5,GitHub,c41bb134,data/c41bb134/test/476936d5.py,286:286,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+22554,476936d5,GitHub,c41bb134,data/c41bb134/test/476936d5.py,286:286,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 23183,e99d6a11,GitHub,c41bb134,data/c41bb134/src/e99d6a11.nix,84:84,F,F,,,F,F,,,,,0,0,F,F,F,Password
-23842,e9d57348,GitHub,c41bb134,data/c41bb134/test/e9d57348.sql,14:14,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+23842,e9d57348,GitHub,c41bb134,data/c41bb134/test/e9d57348.sql,14:14,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 25077,e99d6a11,GitHub,c41bb134,data/c41bb134/src/e99d6a11.nix,30:30,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 27088,978243c8,GitHub,c41bb134,data/c41bb134/test/978243c8.yaml,83:83,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 30884,30516eac,GitHub,c41bb134,data/c41bb134/test/30516eac.hs,348:348,Template,T,22,29,F,F,CharsOnly,,,Secret,2.24,7,F,F,F,Password
@@ -99,7 +99,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 53994,b155aa73,GitHub,c41bb134,data/c41bb134/test/b155aa73.hs,372:372,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 58085,e99d6a11,GitHub,c41bb134,data/c41bb134/src/e99d6a11.nix,145:145,F,F,,,F,F,,,,,0,0,F,F,F,Password
 64004,476936d5,GitHub,c41bb134,data/c41bb134/test/476936d5.py,392:392,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-82113,e9d57348,GitHub,c41bb134,data/c41bb134/test/e9d57348.sql,53:53,F,F,65,69,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+82113,e9d57348,GitHub,c41bb134,data/c41bb134/test/e9d57348.sql,53:53,F,F,65,69,F,F,,,,,0,0,F,F,F,Authentication Credentials
 108608,06572a96,GitHub,c41bb134,data/c41bb134/other/06572a96.md,239:239,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 108609,f3d5cea6,GitHub,c41bb134,data/c41bb134/src/f3d5cea6.hs,38:38,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 108610,bb7e3057,GitHub,c41bb134,data/c41bb134/src/bb7e3057.hs,198:198,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
@@ -126,23 +126,23 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 108631,476936d5,GitHub,c41bb134,data/c41bb134/test/476936d5.py,520:520,F,F,,,F,F,,,,,0.00,,F,F,F,Other
 108632,476936d5,GitHub,c41bb134,data/c41bb134/test/476936d5.py,550:550,F,F,,,F,F,,,,,0.00,,F,F,F,Other
 108633,bc5f4e29,GitHub,c41bb134,data/c41bb134/test/bc5f4e29.hs,207:207,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-114674,6f407ba6,GitHub,c41bb134,data/c41bb134/src/6f407ba6.hs,345:345,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
+114674,6f407ba6,GitHub,c41bb134,data/c41bb134/src/6f407ba6.hs,345:345,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
 114675,bb7e3057,GitHub,c41bb134,data/c41bb134/src/bb7e3057.hs,205:205,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 114676,b155aa73,GitHub,c41bb134,data/c41bb134/test/b155aa73.hs,916:916,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 114677,b155aa73,GitHub,c41bb134,data/c41bb134/test/b155aa73.hs,922:922,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 114678,b155aa73,GitHub,c41bb134,data/c41bb134/test/b155aa73.hs,928:928,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-114679,1abbf729,GitHub,c41bb134,data/c41bb134/test/1abbf729.sql,2017:2017,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
+114679,1abbf729,GitHub,c41bb134,data/c41bb134/test/1abbf729.sql,2017:2017,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
 114680,1abbf729,GitHub,c41bb134,data/c41bb134/test/1abbf729.sql,1918:1918,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-114681,e9d57348,GitHub,c41bb134,data/c41bb134/test/e9d57348.sql,21:21,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
+114681,e9d57348,GitHub,c41bb134,data/c41bb134/test/e9d57348.sql,21:21,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
 114682,978243c8,GitHub,c41bb134,data/c41bb134/test/978243c8.yaml,143:143,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 114683,978243c8,GitHub,c41bb134,data/c41bb134/test/978243c8.yaml,166:166,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 131660,917a0183,GitHub,c41bb134,data/c41bb134/test/917a0183,32:32,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-134373,328c2f31,GitHub,c41bb134,data/c41bb134/src/328c2f31.hs,226:226,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+134373,328c2f31,GitHub,c41bb134,data/c41bb134/src/328c2f31.hs,226:226,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 134374,691fe380,GitHub,c41bb134,data/c41bb134/src/691fe380.hs,404:404,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 134375,6f407ba6,GitHub,c41bb134,data/c41bb134/src/6f407ba6.hs,346:346,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 134376,6f407ba6,GitHub,c41bb134,data/c41bb134/src/6f407ba6.hs,414:414,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 134377,6f407ba6,GitHub,c41bb134,data/c41bb134/src/6f407ba6.hs,415:415,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-134378,f3d5cea6,GitHub,c41bb134,data/c41bb134/src/f3d5cea6.hs,5:5,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+134378,f3d5cea6,GitHub,c41bb134,data/c41bb134/src/f3d5cea6.hs,5:5,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 134379,1abbf729,GitHub,c41bb134,data/c41bb134/test/1abbf729.sql,1225:1225,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 134380,1abbf729,GitHub,c41bb134,data/c41bb134/test/1abbf729.sql,1230:1230,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 134381,476936d5,GitHub,c41bb134,data/c41bb134/test/476936d5.py,368:368,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret

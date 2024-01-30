@@ -3,7 +3,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 254,83907799,GitHub,39def7b4,data/39def7b4/src/83907799.rb,20:20,F,F,,,F,F,,,,,0,0,F,F,F,Password
 255,64efeea8,GitHub,39def7b4,data/39def7b4/src/64efeea8.rb,13:13,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 256,914bd579,GitHub,39def7b4,data/39def7b4/src/914bd579.rb,11:11,F,F,,,F,F,,,,,0,0,F,F,F,Password
-258,0bed0bb2,GitHub,39def7b4,data/39def7b4/src/0bed0bb2.rb,11:11,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+258,0bed0bb2,GitHub,39def7b4,data/39def7b4/src/0bed0bb2.rb,11:11,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 265,2568b2da,GitHub,39def7b4,data/39def7b4/src/2568b2da.rb,150:150,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 266,de4f44e4,GitHub,39def7b4,data/39def7b4/src/de4f44e4.rb,185:185,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 267,86c96b40,GitHub,39def7b4,data/39def7b4/src/86c96b40.rb,108:108,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
@@ -54,7 +54,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 395,90824c01,GitHub,39def7b4,data/39def7b4/src/90824c01.rb,207:207,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 396,0497b1a5,GitHub,39def7b4,data/39def7b4/other/0497b1a5.rb,250:250,F,F,,,F,F,,,,,0,0,F,F,F,Other
 398,7d9f5b9d,GitHub,39def7b4,data/39def7b4/src/7d9f5b9d.rb,230:230,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-399,a5532475,GitHub,39def7b4,data/39def7b4/src/a5532475.rb,221:221,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+399,a5532475,GitHub,39def7b4,data/39def7b4/src/a5532475.rb,221:221,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 411,ee7975b1,GitHub,39def7b4,data/39def7b4/src/ee7975b1.rb,89:89,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 412,a18dffc3,GitHub,39def7b4,data/39def7b4/src/a18dffc3.rb,125:125,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 413,d5d2bf90,GitHub,39def7b4,data/39def7b4/src/d5d2bf90.rb,95:95,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
@@ -104,8 +104,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 566,b57c484c,GitHub,39def7b4,data/39def7b4/src/b57c484c.rb,29:29,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 937,076b849a,GitHub,39def7b4,data/39def7b4/src/076b849a.rb,118:118,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 1299,a5532475,GitHub,39def7b4,data/39def7b4/src/a5532475.rb,425:425,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-1309,9b766c0c,GitHub,39def7b4,data/39def7b4/src/9b766c0c.rb,12:12,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-1561,ef759a1b,GitHub,39def7b4,data/39def7b4/src/ef759a1b.rb,12:12,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+1309,9b766c0c,GitHub,39def7b4,data/39def7b4/src/9b766c0c.rb,12:12,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+1561,ef759a1b,GitHub,39def7b4,data/39def7b4/src/ef759a1b.rb,12:12,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 1871,d5128a40,GitHub,39def7b4,data/39def7b4/src/d5128a40.rb,378:378,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 2040,90824c01,GitHub,39def7b4,data/39def7b4/src/90824c01.rb,349:349,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 2571,b5ca0850,GitHub,39def7b4,data/39def7b4/src/b5ca0850.rb,58:58,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -119,13 +119,13 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 6077,27be9d47,GitHub,39def7b4,data/39def7b4/src/27be9d47.rb,383:383,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 6084,6ac3f79f,GitHub,39def7b4,data/39def7b4/src/6ac3f79f.yml,28:28,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 6206,b5ca0850,GitHub,39def7b4,data/39def7b4/src/b5ca0850.rb,74:74,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-6370,c5682f50,GitHub,39def7b4,data/39def7b4/src/c5682f50.rb,34:34,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-6371,68810433,GitHub,39def7b4,data/39def7b4/test/68810433.rb,10:10,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-6372,b3356305,GitHub,39def7b4,data/39def7b4/other/b3356305.md,64:64,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-6373,5a6ed05f,GitHub,39def7b4,data/39def7b4/src/5a6ed05f.rb,31:31,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+6370,c5682f50,GitHub,39def7b4,data/39def7b4/src/c5682f50.rb,34:34,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+6371,68810433,GitHub,39def7b4,data/39def7b4/test/68810433.rb,10:10,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+6372,b3356305,GitHub,39def7b4,data/39def7b4/other/b3356305.md,64:64,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+6373,5a6ed05f,GitHub,39def7b4,data/39def7b4/src/5a6ed05f.rb,31:31,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 8214,fdb22c4a,GitHub,39def7b4,data/39def7b4/src/fdb22c4a.rb,108:108,Template,F,31,35,T,F,NumberOnly,,,Secret,0.00,1,F,F,F,Password
 8970,b3741a53,GitHub,39def7b4,data/39def7b4/src/b3741a53.rb,37:37,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-8971,fe313ddd,GitHub,39def7b4,data/39def7b4/src/fe313ddd.rb,18:18,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+8971,fe313ddd,GitHub,39def7b4,data/39def7b4/src/fe313ddd.rb,18:18,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 8972,b5f11327,GitHub,39def7b4,data/39def7b4/src/b5f11327.rb,8:8,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 10958,b5ca0850,GitHub,39def7b4,data/39def7b4/src/b5ca0850.rb,89:89,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 11037,d97e408a,GitHub,39def7b4,data/39def7b4/src/d97e408a.rb,94:94,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -148,9 +148,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 19333,bbcbb234,GitHub,39def7b4,data/39def7b4/src/bbcbb234.rb,34:34,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 19334,1a0a974b,GitHub,39def7b4,data/39def7b4/src/1a0a974b.rb,34:34,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 19335,c5ca7a06,GitHub,39def7b4,data/39def7b4/src/c5ca7a06.rb,135:135,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-19336,91f970bf,GitHub,39def7b4,data/39def7b4/src/91f970bf.rb,81:81,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-19337,43beccfd,GitHub,39def7b4,data/39def7b4/src/43beccfd.rb,81:81,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-19338,db386ae1,GitHub,39def7b4,data/39def7b4/src/db386ae1.rb,81:81,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+19336,91f970bf,GitHub,39def7b4,data/39def7b4/src/91f970bf.rb,81:81,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+19337,43beccfd,GitHub,39def7b4,data/39def7b4/src/43beccfd.rb,81:81,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+19338,db386ae1,GitHub,39def7b4,data/39def7b4/src/db386ae1.rb,81:81,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 19339,906de561,GitHub,39def7b4,data/39def7b4/src/906de561.rb,34:34,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 19340,c1c09b40,GitHub,39def7b4,data/39def7b4/src/c1c09b40.rb,35:35,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 19341,5d2c8cbb,GitHub,39def7b4,data/39def7b4/src/5d2c8cbb.rb,135:135,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -327,9 +327,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 22037,ad318ac0,GitHub,39def7b4,data/39def7b4/src/ad318ac0.rb,58:58,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 22040,c5ca7a06,GitHub,39def7b4,data/39def7b4/src/c5ca7a06.rb,32:32,F,F,,,F,F,,,,,0,0,F,F,F,Other
 22065,02cf700c,GitHub,39def7b4,data/39def7b4/src/02cf700c.rb,34:34,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-22067,748032e6,GitHub,39def7b4,data/39def7b4/src/748032e6.rb,34:34,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-22069,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,31:31,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-22106,1575d805,GitHub,39def7b4,data/39def7b4/src/1575d805.rb,32:32,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+22067,748032e6,GitHub,39def7b4,data/39def7b4/src/748032e6.rb,34:34,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+22069,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,31:31,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+22106,1575d805,GitHub,39def7b4,data/39def7b4/src/1575d805.rb,32:32,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 22113,4c709099,GitHub,39def7b4,data/39def7b4/src/4c709099.rb,45:45,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 22124,26c0bcb1,GitHub,39def7b4,data/39def7b4/src/26c0bcb1.rb,90:90,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 22125,ca9593a1,GitHub,39def7b4,data/39def7b4/src/ca9593a1.rb,33:33,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -347,7 +347,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 22383,91ed46d0,GitHub,39def7b4,data/39def7b4/src/91ed46d0.rb,50:50,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 22384,822745c5,GitHub,39def7b4,data/39def7b4/src/822745c5.rb,40:40,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 22387,02cf700c,GitHub,39def7b4,data/39def7b4/src/02cf700c.rb,49:49,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-22388,ebbe0d13,GitHub,39def7b4,data/39def7b4/src/ebbe0d13.rb,43:43,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+22388,ebbe0d13,GitHub,39def7b4,data/39def7b4/src/ebbe0d13.rb,43:43,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 22389,42b3d433,GitHub,39def7b4,data/39def7b4/src/42b3d433.rb,46:46,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 22390,2d6f3c0b,GitHub,39def7b4,data/39def7b4/src/2d6f3c0b.rb,55:55,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 22391,ad318ac0,GitHub,39def7b4,data/39def7b4/src/ad318ac0.rb,64:64,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -365,10 +365,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 22432,1f4966ff,GitHub,39def7b4,data/39def7b4/src/1f4966ff.rb,48:48,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 22433,475613be,GitHub,39def7b4,data/39def7b4/src/475613be.rb,68:68,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 22565,af35abbf,GitHub,39def7b4,data/39def7b4/src/af35abbf.rb,37:37,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-23428,0bed0bb2,GitHub,39def7b4,data/39def7b4/src/0bed0bb2.rb,12:12,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-23429,ef759a1b,GitHub,39def7b4,data/39def7b4/src/ef759a1b.rb,13:13,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-23442,c5682f50,GitHub,39def7b4,data/39def7b4/src/c5682f50.rb,24:24,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-23459,1102b55f,GitHub,39def7b4,data/39def7b4/test/1102b55f.rb,4:4,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+23428,0bed0bb2,GitHub,39def7b4,data/39def7b4/src/0bed0bb2.rb,12:12,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+23429,ef759a1b,GitHub,39def7b4,data/39def7b4/src/ef759a1b.rb,13:13,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+23442,c5682f50,GitHub,39def7b4,data/39def7b4/src/c5682f50.rb,24:24,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+23459,1102b55f,GitHub,39def7b4,data/39def7b4/test/1102b55f.rb,4:4,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 23849,1467915a,GitHub,39def7b4,data/39def7b4/src/1467915a.rb,238:238,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 23900,64efeea8,GitHub,39def7b4,data/39def7b4/src/64efeea8.rb,18:18,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 25814,651c73dd,GitHub,39def7b4,data/39def7b4/src/651c73dd.rb,640:640,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -432,9 +432,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 42275,4058cb36,GitHub,39def7b4,data/39def7b4/src/4058cb36.rb,129:129,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 42276,4058cb36,GitHub,39def7b4,data/39def7b4/src/4058cb36.rb,185:185,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 42277,4058cb36,GitHub,39def7b4,data/39def7b4/src/4058cb36.rb,241:241,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-42395,db386ae1,GitHub,39def7b4,data/39def7b4/src/db386ae1.rb,85:85,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-42396,db386ae1,GitHub,39def7b4,data/39def7b4/src/db386ae1.rb,109:109,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-42397,db386ae1,GitHub,39def7b4,data/39def7b4/src/db386ae1.rb,121:121,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+42395,db386ae1,GitHub,39def7b4,data/39def7b4/src/db386ae1.rb,85:85,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+42396,db386ae1,GitHub,39def7b4,data/39def7b4/src/db386ae1.rb,109:109,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+42397,db386ae1,GitHub,39def7b4,data/39def7b4/src/db386ae1.rb,121:121,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 42410,ab6e5ce9,GitHub,39def7b4,data/39def7b4/src/ab6e5ce9.rb,34:34,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 42411,ab6e5ce9,GitHub,39def7b4,data/39def7b4/src/ab6e5ce9.rb,82:82,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 42412,ab6e5ce9,GitHub,39def7b4,data/39def7b4/src/ab6e5ce9.rb,165:165,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
@@ -443,9 +443,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 42426,bbcbb234,GitHub,39def7b4,data/39def7b4/src/bbcbb234.rb,144:144,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 42434,efbd4d36,GitHub,39def7b4,data/39def7b4/src/efbd4d36.rb,48:48,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 42459,ca9593a1,GitHub,39def7b4,data/39def7b4/src/ca9593a1.rb,71:71,Template,F,24,58,F,F,CharsOnly,,,Secret,0.38,34,F,F,F,Generic Secret
-42462,91f970bf,GitHub,39def7b4,data/39def7b4/src/91f970bf.rb,85:85,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-42463,91f970bf,GitHub,39def7b4,data/39def7b4/src/91f970bf.rb,109:109,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-42464,91f970bf,GitHub,39def7b4,data/39def7b4/src/91f970bf.rb,121:121,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+42462,91f970bf,GitHub,39def7b4,data/39def7b4/src/91f970bf.rb,85:85,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+42463,91f970bf,GitHub,39def7b4,data/39def7b4/src/91f970bf.rb,109:109,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+42464,91f970bf,GitHub,39def7b4,data/39def7b4/src/91f970bf.rb,121:121,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 42466,2c8df2ce,GitHub,39def7b4,data/39def7b4/src/2c8df2ce.rb,40:40,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 42467,2c8df2ce,GitHub,39def7b4,data/39def7b4/src/2c8df2ce.rb,144:144,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 42502,5ad57d8b,GitHub,39def7b4,data/39def7b4/src/5ad57d8b.rb,37:37,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
@@ -542,13 +542,13 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 52024,c5ca7a06,GitHub,39def7b4,data/39def7b4/src/c5ca7a06.rb,66:66,F,F,,,F,F,,,,,0,0,F,F,F,Other
 52025,c5ca7a06,GitHub,39def7b4,data/39def7b4/src/c5ca7a06.rb,129:129,F,F,,,F,F,,,,,0,0,F,F,F,Other
 52052,fdb22c4a,GitHub,39def7b4,data/39def7b4/src/fdb22c4a.rb,120:120,Template,F,31,35,T,F,NumberOnly,,,Secret,0.00,1,F,F,F,Password
-52928,26c0bcb1,GitHub,39def7b4,data/39def7b4/src/26c0bcb1.rb,82:82,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-52929,26c0bcb1,GitHub,39def7b4,data/39def7b4/src/26c0bcb1.rb,125:125,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-52930,26c0bcb1,GitHub,39def7b4,data/39def7b4/src/26c0bcb1.rb,173:173,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-52931,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,90:90,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-52932,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,177:177,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-52933,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,243:243,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-52934,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,288:288,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+52928,26c0bcb1,GitHub,39def7b4,data/39def7b4/src/26c0bcb1.rb,82:82,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+52929,26c0bcb1,GitHub,39def7b4,data/39def7b4/src/26c0bcb1.rb,125:125,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+52930,26c0bcb1,GitHub,39def7b4,data/39def7b4/src/26c0bcb1.rb,173:173,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+52931,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,90:90,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+52932,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,177:177,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+52933,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,243:243,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+52934,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,288:288,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 53555,83e67906,GitHub,39def7b4,data/39def7b4/src/83e67906.rb,127:127,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 54049,fe3658e1,GitHub,39def7b4,data/39def7b4/src/fe3658e1.rb,175:175,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 54052,2128211f,GitHub,39def7b4,data/39def7b4/src/2128211f.rb,123:123,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -672,8 +672,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 56995,822745c5,GitHub,39def7b4,data/39def7b4/src/822745c5.rb,131:131,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 56996,822745c5,GitHub,39def7b4,data/39def7b4/src/822745c5.rb,47:47,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 56997,39d9ae6e,GitHub,39def7b4,data/39def7b4/src/39d9ae6e.rb,119:119,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-57895,fe313ddd,GitHub,39def7b4,data/39def7b4/src/fe313ddd.rb,20:20,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-57896,b5f11327,GitHub,39def7b4,data/39def7b4/src/b5f11327.rb,15:15,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+57895,fe313ddd,GitHub,39def7b4,data/39def7b4/src/fe313ddd.rb,20:20,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+57896,b5f11327,GitHub,39def7b4,data/39def7b4/src/b5f11327.rb,15:15,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 57936,5d243406,GitHub,39def7b4,data/39def7b4/src/5d243406.rb,199:199,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 63074,2010d338,GitHub,39def7b4,data/39def7b4/src/2010d338.rb,382:382,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 63075,7d9f5b9d,GitHub,39def7b4,data/39def7b4/src/7d9f5b9d.rb,389:389,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
@@ -701,7 +701,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 63837,196e32cd,GitHub,39def7b4,data/39def7b4/src/196e32cd.rb,95:95,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 63838,efd7d13d,GitHub,39def7b4,data/39def7b4/src/efd7d13d.rb,134:134,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 63839,0be51b37,GitHub,39def7b4,data/39def7b4/src/0be51b37.rb,134:134,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-63841,a5532475,GitHub,39def7b4,data/39def7b4/src/a5532475.rb,421:421,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+63841,a5532475,GitHub,39def7b4,data/39def7b4/src/a5532475.rb,421:421,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 63842,e44c9925,GitHub,39def7b4,data/39def7b4/src/e44c9925.rb,226:226,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 63843,e44c9925,GitHub,39def7b4,data/39def7b4/src/e44c9925.rb,378:378,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 63844,7d9f5b9d,GitHub,39def7b4,data/39def7b4/src/7d9f5b9d.rb,383:383,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
@@ -796,9 +796,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 80930,c5ca7a06,GitHub,39def7b4,data/39def7b4/src/c5ca7a06.rb,138:138,F,F,8,73,F,F,,,,,0,0,F,F,F,Generic Secret
 80931,c5ca7a06,GitHub,39def7b4,data/39def7b4/src/c5ca7a06.rb,159:159,F,F,19,84,F,F,,,,,0,0,F,F,F,Generic Secret
 80932,c5ca7a06,GitHub,39def7b4,data/39def7b4/src/c5ca7a06.rb,162:162,F,F,8,73,F,F,,,,,0,0,F,F,F,Generic Secret
-80933,43beccfd,GitHub,39def7b4,data/39def7b4/src/43beccfd.rb,85:85,F,F,8,154,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-80934,43beccfd,GitHub,39def7b4,data/39def7b4/src/43beccfd.rb,109:109,F,F,19,165,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-80935,43beccfd,GitHub,39def7b4,data/39def7b4/src/43beccfd.rb,121:121,F,F,8,154,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+80933,43beccfd,GitHub,39def7b4,data/39def7b4/src/43beccfd.rb,85:85,F,F,8,154,F,F,,,,,0,0,F,F,F,Authentication Credentials
+80934,43beccfd,GitHub,39def7b4,data/39def7b4/src/43beccfd.rb,109:109,F,F,19,165,F,F,,,,,0,0,F,F,F,Authentication Credentials
+80935,43beccfd,GitHub,39def7b4,data/39def7b4/src/43beccfd.rb,121:121,F,F,8,154,F,F,,,,,0,0,F,F,F,Authentication Credentials
 80936,906de561,GitHub,39def7b4,data/39def7b4/src/906de561.rb,43:43,F,F,17,149,F,F,,,,,0,0,F,F,F,Generic Secret
 80937,906de561,GitHub,39def7b4,data/39def7b4/src/906de561.rb,45:45,F,F,8,128,F,F,,,,,0,0,F,F,F,Generic Secret
 80938,906de561,GitHub,39def7b4,data/39def7b4/src/906de561.rb,48:48,F,F,18,103,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -1024,7 +1024,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 81158,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,48:48,F,F,17,89,F,F,,,,,0,0,F,F,F,Generic Secret
 81159,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,49:49,F,F,17,89,F,F,,,,,0,0,F,F,F,Generic Secret
 81160,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,50:50,F,F,8,72,F,F,,,,,0,0,F,F,F,Generic Secret
-81161,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,51:51,F,F,28,110,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+81161,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,51:51,F,F,28,110,F,F,,,,,0,0,F,F,F,Authentication Credentials
 81162,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,52:52,F,F,10,76,F,F,,,,,0,0,F,F,F,Generic Secret
 81163,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,53:53,F,F,9,74,F,F,,,,,0,0,F,F,F,Generic Secret
 81164,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,54:54,F,F,17,90,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -1045,7 +1045,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 81179,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,107:107,F,F,17,89,F,F,,,,,0,0,F,F,F,Generic Secret
 81180,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,108:108,F,F,17,89,F,F,,,,,0,0,F,F,F,Generic Secret
 81181,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,109:109,F,F,8,72,F,F,,,,,0,0,F,F,F,Generic Secret
-81182,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,110:110,F,F,28,110,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+81182,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,110:110,F,F,28,110,F,F,,,,,0,0,F,F,F,Authentication Credentials
 81183,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,111:111,F,F,10,76,F,F,,,,,0,0,F,F,F,Generic Secret
 81184,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,112:112,F,F,9,74,F,F,,,,,0,0,F,F,F,Generic Secret
 81185,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,113:113,F,F,17,90,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -1066,7 +1066,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 81200,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,194:194,F,F,17,89,F,F,,,,,0,0,F,F,F,Generic Secret
 81201,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,195:195,F,F,17,89,F,F,,,,,0,0,F,F,F,Generic Secret
 81202,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,196:196,F,F,8,72,F,F,,,,,0,0,F,F,F,Generic Secret
-81203,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,197:197,F,F,28,110,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+81203,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,197:197,F,F,28,110,F,F,,,,,0,0,F,F,F,Authentication Credentials
 81204,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,198:198,F,F,10,76,F,F,,,,,0,0,F,F,F,Generic Secret
 81205,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,199:199,F,F,9,74,F,F,,,,,0,0,F,F,F,Generic Secret
 81206,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,200:200,F,F,17,90,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -1087,7 +1087,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 81221,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,260:260,F,F,17,89,F,F,,,,,0,0,F,F,F,Generic Secret
 81222,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,261:261,F,F,17,89,F,F,,,,,0,0,F,F,F,Generic Secret
 81223,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,262:262,F,F,8,72,F,F,,,,,0,0,F,F,F,Generic Secret
-81224,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,263:263,F,F,28,110,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+81224,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,263:263,F,F,28,110,F,F,,,,,0,0,F,F,F,Authentication Credentials
 81225,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,264:264,F,F,10,76,F,F,,,,,0,0,F,F,F,Generic Secret
 81226,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,265:265,F,F,9,74,F,F,,,,,0,0,F,F,F,Generic Secret
 81227,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,266:266,F,F,17,90,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -1108,7 +1108,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 81242,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,305:305,F,F,17,89,F,F,,,,,0,0,F,F,F,Generic Secret
 81243,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,306:306,F,F,17,89,F,F,,,,,0,0,F,F,F,Generic Secret
 81244,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,307:307,F,F,8,72,F,F,,,,,0,0,F,F,F,Generic Secret
-81245,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,308:308,F,F,28,110,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+81245,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,308:308,F,F,28,110,F,F,,,,,0,0,F,F,F,Authentication Credentials
 81246,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,309:309,F,F,10,76,F,F,,,,,0,0,F,F,F,Generic Secret
 81247,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,310:310,F,F,9,74,F,F,,,,,0,0,F,F,F,Generic Secret
 81248,2e99435e,GitHub,39def7b4,data/39def7b4/src/2e99435e.rb,311:311,F,F,17,90,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -1129,7 +1129,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 81263,26c0bcb1,GitHub,39def7b4,data/39def7b4/src/26c0bcb1.rb,99:99,F,F,17,89,F,F,,,,,0,0,F,F,F,Generic Secret
 81264,26c0bcb1,GitHub,39def7b4,data/39def7b4/src/26c0bcb1.rb,100:100,F,F,17,89,F,F,,,,,0,0,F,F,F,Generic Secret
 81265,26c0bcb1,GitHub,39def7b4,data/39def7b4/src/26c0bcb1.rb,101:101,F,F,8,72,F,F,,,,,0,0,F,F,F,Generic Secret
-81266,26c0bcb1,GitHub,39def7b4,data/39def7b4/src/26c0bcb1.rb,102:102,F,F,28,110,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+81266,26c0bcb1,GitHub,39def7b4,data/39def7b4/src/26c0bcb1.rb,102:102,F,F,28,110,F,F,,,,,0,0,F,F,F,Authentication Credentials
 81267,26c0bcb1,GitHub,39def7b4,data/39def7b4/src/26c0bcb1.rb,103:103,F,F,10,76,F,F,,,,,0,0,F,F,F,Generic Secret
 81268,26c0bcb1,GitHub,39def7b4,data/39def7b4/src/26c0bcb1.rb,104:104,F,F,9,74,F,F,,,,,0,0,F,F,F,Generic Secret
 81269,26c0bcb1,GitHub,39def7b4,data/39def7b4/src/26c0bcb1.rb,105:105,F,F,17,90,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -1150,7 +1150,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 81284,26c0bcb1,GitHub,39def7b4,data/39def7b4/src/26c0bcb1.rb,142:142,F,F,17,89,F,F,,,,,0,0,F,F,F,Generic Secret
 81285,26c0bcb1,GitHub,39def7b4,data/39def7b4/src/26c0bcb1.rb,143:143,F,F,17,89,F,F,,,,,0,0,F,F,F,Generic Secret
 81286,26c0bcb1,GitHub,39def7b4,data/39def7b4/src/26c0bcb1.rb,144:144,F,F,8,72,F,F,,,,,0,0,F,F,F,Generic Secret
-81287,26c0bcb1,GitHub,39def7b4,data/39def7b4/src/26c0bcb1.rb,145:145,F,F,28,110,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+81287,26c0bcb1,GitHub,39def7b4,data/39def7b4/src/26c0bcb1.rb,145:145,F,F,28,110,F,F,,,,,0,0,F,F,F,Authentication Credentials
 81288,26c0bcb1,GitHub,39def7b4,data/39def7b4/src/26c0bcb1.rb,146:146,F,F,10,76,F,F,,,,,0,0,F,F,F,Generic Secret
 81289,26c0bcb1,GitHub,39def7b4,data/39def7b4/src/26c0bcb1.rb,147:147,F,F,9,74,F,F,,,,,0,0,F,F,F,Generic Secret
 81290,26c0bcb1,GitHub,39def7b4,data/39def7b4/src/26c0bcb1.rb,148:148,F,F,17,90,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -1171,7 +1171,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 81305,26c0bcb1,GitHub,39def7b4,data/39def7b4/src/26c0bcb1.rb,190:190,F,F,17,89,F,F,,,,,0,0,F,F,F,Generic Secret
 81306,26c0bcb1,GitHub,39def7b4,data/39def7b4/src/26c0bcb1.rb,191:191,F,F,17,89,F,F,,,,,0,0,F,F,F,Generic Secret
 81307,26c0bcb1,GitHub,39def7b4,data/39def7b4/src/26c0bcb1.rb,192:192,F,F,8,72,F,F,,,,,0,0,F,F,F,Generic Secret
-81308,26c0bcb1,GitHub,39def7b4,data/39def7b4/src/26c0bcb1.rb,193:193,F,F,28,110,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+81308,26c0bcb1,GitHub,39def7b4,data/39def7b4/src/26c0bcb1.rb,193:193,F,F,28,110,F,F,,,,,0,0,F,F,F,Authentication Credentials
 81309,26c0bcb1,GitHub,39def7b4,data/39def7b4/src/26c0bcb1.rb,194:194,F,F,10,76,F,F,,,,,0,0,F,F,F,Generic Secret
 81310,26c0bcb1,GitHub,39def7b4,data/39def7b4/src/26c0bcb1.rb,195:195,F,F,9,74,F,F,,,,,0,0,F,F,F,Generic Secret
 81311,26c0bcb1,GitHub,39def7b4,data/39def7b4/src/26c0bcb1.rb,196:196,F,F,17,90,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -1452,13 +1452,13 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 81586,91ed46d0,GitHub,39def7b4,data/39def7b4/src/91ed46d0.rb,251:251,F,F,8,120,F,F,,,,,0,0,F,F,F,Generic Secret
 81587,91ed46d0,GitHub,39def7b4,data/39def7b4/src/91ed46d0.rb,269:269,F,F,19,131,F,F,,,,,0,0,F,F,F,Generic Secret
 81588,91ed46d0,GitHub,39def7b4,data/39def7b4/src/91ed46d0.rb,276:276,F,F,8,120,F,F,,,,,0,0,F,F,F,Generic Secret
-81589,ebbe0d13,GitHub,39def7b4,data/39def7b4/src/ebbe0d13.rb,87:87,F,F,8,125,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-81590,ebbe0d13,GitHub,39def7b4,data/39def7b4/src/ebbe0d13.rb,91:91,F,F,19,101,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-81591,ebbe0d13,GitHub,39def7b4,data/39def7b4/src/ebbe0d13.rb,92:92,F,F,18,100,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-81592,ebbe0d13,GitHub,39def7b4,data/39def7b4/src/ebbe0d13.rb,100:100,F,F,8,90,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-81593,ebbe0d13,GitHub,39def7b4,data/39def7b4/src/ebbe0d13.rb,118:118,F,F,19,101,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-81594,ebbe0d13,GitHub,39def7b4,data/39def7b4/src/ebbe0d13.rb,119:119,F,F,18,100,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-81595,ebbe0d13,GitHub,39def7b4,data/39def7b4/src/ebbe0d13.rb,127:127,F,F,8,90,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+81589,ebbe0d13,GitHub,39def7b4,data/39def7b4/src/ebbe0d13.rb,87:87,F,F,8,125,F,F,,,,,0,0,F,F,F,Authentication Credentials
+81590,ebbe0d13,GitHub,39def7b4,data/39def7b4/src/ebbe0d13.rb,91:91,F,F,19,101,F,F,,,,,0,0,F,F,F,Authentication Credentials
+81591,ebbe0d13,GitHub,39def7b4,data/39def7b4/src/ebbe0d13.rb,92:92,F,F,18,100,F,F,,,,,0,0,F,F,F,Authentication Credentials
+81592,ebbe0d13,GitHub,39def7b4,data/39def7b4/src/ebbe0d13.rb,100:100,F,F,8,90,F,F,,,,,0,0,F,F,F,Authentication Credentials
+81593,ebbe0d13,GitHub,39def7b4,data/39def7b4/src/ebbe0d13.rb,118:118,F,F,19,101,F,F,,,,,0,0,F,F,F,Authentication Credentials
+81594,ebbe0d13,GitHub,39def7b4,data/39def7b4/src/ebbe0d13.rb,119:119,F,F,18,100,F,F,,,,,0,0,F,F,F,Authentication Credentials
+81595,ebbe0d13,GitHub,39def7b4,data/39def7b4/src/ebbe0d13.rb,127:127,F,F,8,90,F,F,,,,,0,0,F,F,F,Authentication Credentials
 81596,42b3d433,GitHub,39def7b4,data/39def7b4/src/42b3d433.rb,123:123,F,F,8,116,F,F,,,,,0,0,F,F,F,Generic Secret
 81597,42b3d433,GitHub,39def7b4,data/39def7b4/src/42b3d433.rb,175:175,F,F,8,116,F,F,,,,,0,0,F,F,F,Generic Secret
 81598,42b3d433,GitHub,39def7b4,data/39def7b4/src/42b3d433.rb,184:184,F,F,19,92,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -1596,10 +1596,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 101459,651c73dd,GitHub,39def7b4,data/39def7b4/src/651c73dd.rb,178:178,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 101460,651c73dd,GitHub,39def7b4,data/39def7b4/src/651c73dd.rb,191:191,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 101461,651c73dd,GitHub,39def7b4,data/39def7b4/src/651c73dd.rb,231:231,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-110654,4058cb36,GitHub,39def7b4,data/39def7b4/src/4058cb36.rb,37:37,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-110655,4058cb36,GitHub,39def7b4,data/39def7b4/src/4058cb36.rb,130:130,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-110656,4058cb36,GitHub,39def7b4,data/39def7b4/src/4058cb36.rb,186:186,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-110657,4058cb36,GitHub,39def7b4,data/39def7b4/src/4058cb36.rb,242:242,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
+110654,4058cb36,GitHub,39def7b4,data/39def7b4/src/4058cb36.rb,37:37,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+110655,4058cb36,GitHub,39def7b4,data/39def7b4/src/4058cb36.rb,130:130,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+110656,4058cb36,GitHub,39def7b4,data/39def7b4/src/4058cb36.rb,186:186,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+110657,4058cb36,GitHub,39def7b4,data/39def7b4/src/4058cb36.rb,242:242,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
 110658,94b53017,GitHub,39def7b4,data/39def7b4/src/94b53017.rb,100:100,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Token
 110659,7c3ffd88,GitHub,39def7b4,data/39def7b4/src/7c3ffd88.rb,106:106,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Token
 130503,d5d2bf90,GitHub,39def7b4,data/39def7b4/src/d5d2bf90.rb,712:712,F,F,,,F,F,,,,,0.00,,F,F,F,Password

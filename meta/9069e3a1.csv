@@ -40,7 +40,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 34965,98820402,GitHub,9069e3a1,data/9069e3a1/test/98820402.json,5:5,F,F,13,90,F,F,Any,,,Secret,5.11,77,F,F,F,Generic Secret
 35010,98820402,GitHub,9069e3a1,data/9069e3a1/test/98820402.json,23:23,F,F,13,90,F,F,Any,,,Secret,5.07,77,F,F,F,Generic Secret
 35020,98820402,GitHub,9069e3a1,data/9069e3a1/test/98820402.json,41:41,F,F,13,90,F,F,Any,,,Secret,5.08,77,F,F,F,Generic Secret
-46963,bf09b9d0,GitHub,9069e3a1,data/9069e3a1/test/bf09b9d0.py,38:38,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+46963,bf09b9d0,GitHub,9069e3a1,data/9069e3a1/test/bf09b9d0.py,38:38,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 47421,5bc1f1a7,GitHub,9069e3a1,data/9069e3a1/test/5bc1f1a7.py,38:38,F,F,,,F,F,,,,,0,0,F,F,F,Password
 47924,8d49e17e,GitHub,9069e3a1,data/9069e3a1/test/8d49e17e.py,15:15,Template,F,13,16,F,F,CharsOnly,,,Unknown,1.58,3,F,F,F,Password
 55978,04efabc2,GitHub,9069e3a1,data/9069e3a1/test/04efabc2.py,52:52,Template,T,13,17,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
@@ -74,9 +74,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 82833,8d49e17e,GitHub,9069e3a1,data/9069e3a1/test/8d49e17e.py,184:184,Template,F,61,64,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
 82834,8d49e17e,GitHub,9069e3a1,data/9069e3a1/test/8d49e17e.py,185:185,Template,F,17,20,T,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
 82835,8d49e17e,GitHub,9069e3a1,data/9069e3a1/test/8d49e17e.py,188:188,Template,F,54,57,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-82836,bf09b9d0,GitHub,9069e3a1,data/9069e3a1/test/bf09b9d0.py,51:51,F,F,20,60,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-82837,bf09b9d0,GitHub,9069e3a1,data/9069e3a1/test/bf09b9d0.py,65:65,F,F,20,60,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-82838,bf09b9d0,GitHub,9069e3a1,data/9069e3a1/test/bf09b9d0.py,80:80,F,F,20,60,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+82836,bf09b9d0,GitHub,9069e3a1,data/9069e3a1/test/bf09b9d0.py,51:51,F,F,20,60,F,F,,,,,0,0,F,F,F,Authentication Credentials
+82837,bf09b9d0,GitHub,9069e3a1,data/9069e3a1/test/bf09b9d0.py,65:65,F,F,20,60,F,F,,,,,0,0,F,F,F,Authentication Credentials
+82838,bf09b9d0,GitHub,9069e3a1,data/9069e3a1/test/bf09b9d0.py,80:80,F,F,20,60,F,F,,,,,0,0,F,F,F,Authentication Credentials
 100916,06572a96,GitHub,9069e3a1,data/9069e3a1/other/06572a96.md,289:289,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100917,06572a96,GitHub,9069e3a1,data/9069e3a1/other/06572a96.md,624:624,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100918,06572a96,GitHub,9069e3a1,data/9069e3a1/other/06572a96.md,342:342,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
