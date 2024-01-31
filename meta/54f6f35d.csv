@@ -59,7 +59,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 17122,11649b0d,GitHub,54f6f35d,data/54f6f35d/test/11649b0d.go,94:94,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 17123,11649b0d,GitHub,54f6f35d,data/54f6f35d/test/11649b0d.go,91:91,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 17124,11649b0d,GitHub,54f6f35d,data/54f6f35d/test/11649b0d.go,90:90,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-17125,99027c29,GitHub,54f6f35d,data/54f6f35d/test/99027c29.go,51:51,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+17125,99027c29,GitHub,54f6f35d,data/54f6f35d/test/99027c29.go,51:51,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 17126,925d4b15,GitHub,54f6f35d,data/54f6f35d/test/925d4b15.go,60:60,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 17127,925d4b15,GitHub,54f6f35d,data/54f6f35d/test/925d4b15.go,58:58,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 17128,99027c29,GitHub,54f6f35d,data/54f6f35d/test/99027c29.go,52:52,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
@@ -70,8 +70,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 17171,c9389d4a,GitHub,54f6f35d,data/54f6f35d/test/c9389d4a.go,27:27,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 17199,16a6cb0d,GitHub,54f6f35d,data/54f6f35d/test/16a6cb0d.go,88:88,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 17201,11649b0d,GitHub,54f6f35d,data/54f6f35d/test/11649b0d.go,93:93,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-17529,3edd36a0,GitHub,54f6f35d,data/54f6f35d/test/3edd36a0.sample,10:10,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-17530,3edd36a0,GitHub,54f6f35d,data/54f6f35d/test/3edd36a0.sample,9:9,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+17529,3edd36a0,GitHub,54f6f35d,data/54f6f35d/test/3edd36a0.sample,10:10,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+17530,3edd36a0,GitHub,54f6f35d,data/54f6f35d/test/3edd36a0.sample,9:9,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 17531,3edd36a0,GitHub,54f6f35d,data/54f6f35d/test/3edd36a0.sample,6:6,F,F,,,F,F,,,,,0,0,F,F,F,Other
 17532,3edd36a0,GitHub,54f6f35d,data/54f6f35d/test/3edd36a0.sample,5:5,F,F,,,F,F,,,,,0,0,F,F,F,Other
 17769,3762fc5d,GitHub,54f6f35d,data/54f6f35d/src/3762fc5d.go,991:991,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -95,7 +95,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 23420,c1c4a08a,GitHub,54f6f35d,data/54f6f35d/src/c1c4a08a.go,48:48,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 23422,c1c4a08a,GitHub,54f6f35d,data/54f6f35d/src/c1c4a08a.go,53:53,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 23423,c1c4a08a,GitHub,54f6f35d,data/54f6f35d/src/c1c4a08a.go,43:43,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-23427,b6b01a21,GitHub,54f6f35d,data/54f6f35d/test/b6b01a21.md,134:134,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+23427,b6b01a21,GitHub,54f6f35d,data/54f6f35d/test/b6b01a21.md,134:134,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 23719,94e84989,GitHub,54f6f35d,data/54f6f35d/src/94e84989.go,11:11,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 23755,94e84989,GitHub,54f6f35d,data/54f6f35d/src/94e84989.go,12:12,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 24656,d572fb88,GitHub,54f6f35d,data/54f6f35d/test/d572fb88.js,1834:1834,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -204,13 +204,13 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 100638,3295df72,GitHub,54f6f35d,data/54f6f35d/src/3295df72.sum,180:180,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100639,3295df72,GitHub,54f6f35d,data/54f6f35d/src/3295df72.sum,181:181,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100640,3295df72,GitHub,54f6f35d,data/54f6f35d/src/3295df72.sum,182:182,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-100641,3295df72,GitHub,54f6f35d,data/54f6f35d/src/3295df72.sum,306:306,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
+100641,3295df72,GitHub,54f6f35d,data/54f6f35d/src/3295df72.sum,306:306,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
 100642,52903d91,GitHub,54f6f35d,data/54f6f35d/src/52903d91.go,289:289,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 100643,dbb8abec,GitHub,54f6f35d,data/54f6f35d/test/dbb8abec.md,25:25,Template,T,15,25,F,F,CharOnly,,,Secret,2.92,10,F,F,F,Password
 100644,a4108aed,GitHub,54f6f35d,data/54f6f35d/test/a4108aed.go,236:236,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 100645,b6b01a21,GitHub,54f6f35d,data/54f6f35d/test/b6b01a21.md,87:87,Template,T,15,25,F,F,CharOnly,,,Secret,2.92,10,F,F,F,Password
 110197,52903d91,GitHub,54f6f35d,data/54f6f35d/src/52903d91.go,190:190,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-110198,3295df72,GitHub,54f6f35d,data/54f6f35d/src/3295df72.sum,307:307,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
+110198,3295df72,GitHub,54f6f35d,data/54f6f35d/src/3295df72.sum,307:307,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
 110199,65730f03,GitHub,54f6f35d,data/54f6f35d/src/65730f03.go,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 110200,65730f03,GitHub,54f6f35d,data/54f6f35d/src/65730f03.go,5374:5374,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 110201,65730f03,GitHub,54f6f35d,data/54f6f35d/src/65730f03.go,5582:5582,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
@@ -218,11 +218,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 110203,65730f03,GitHub,54f6f35d,data/54f6f35d/src/65730f03.go,5672:5672,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 110204,41611986,GitHub,54f6f35d,data/54f6f35d/src/41611986.go,147:147,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 110205,4dc56cff,GitHub,54f6f35d,data/54f6f35d/src/4dc56cff.go,19:19,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-110206,b28a0667,GitHub,54f6f35d,data/54f6f35d/src/b28a0667.go,263:263,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
+110206,b28a0667,GitHub,54f6f35d,data/54f6f35d/src/b28a0667.go,263:263,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
 110207,95e23b13,GitHub,54f6f35d,data/54f6f35d/src/95e23b13.go,13:13,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-110208,bf57d101,GitHub,54f6f35d,data/54f6f35d/test/bf57d101.go,68:68,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
+110208,bf57d101,GitHub,54f6f35d,data/54f6f35d/test/bf57d101.go,68:68,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
 110209,29dd5278,GitHub,54f6f35d,data/54f6f35d/test/29dd5278.md,310:310,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-110210,3edd36a0,GitHub,54f6f35d,data/54f6f35d/test/3edd36a0.sample,8:8,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
+110210,3edd36a0,GitHub,54f6f35d,data/54f6f35d/test/3edd36a0.sample,8:8,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
 130200,f394589c,GitHub,54f6f35d,data/54f6f35d/test/f394589c.go,89:89,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130201,a4108aed,GitHub,54f6f35d,data/54f6f35d/test/a4108aed.go,99:99,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130204,0646edb6,GitHub,54f6f35d,data/54f6f35d/src/0646edb6.go,75:75,F,F,,,F,F,,,,,0.00,,F,F,F,Password
@@ -230,4 +230,4 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 130206,59595c52,GitHub,54f6f35d,data/54f6f35d/test/59595c52.yml,8:8,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130207,d315ce37,GitHub,54f6f35d,data/54f6f35d/test/d315ce37.go,92:92,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130208,f394589c,GitHub,54f6f35d,data/54f6f35d/test/f394589c.go,35:35,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-132646,89319f8b,GitHub,54f6f35d,data/54f6f35d/test/89319f8b.go,278:278,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
+132646,89319f8b,GitHub,54f6f35d,data/54f6f35d/test/89319f8b.go,278:278,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials

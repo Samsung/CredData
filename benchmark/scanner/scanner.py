@@ -287,12 +287,12 @@ class Scanner(ABC):
                 result.false_positive,
                 result.true_negative,
                 result.false_negative,
-                Result.round_decimal(result.false_positive_rate),
-                Result.round_decimal(result.false_negative_rate),
-                Result.round_decimal(result.accuracy),
-                Result.round_decimal(result.precision),
-                Result.round_decimal(result.recall),
-                Result.round_decimal(result.f1),
+                Result.round_micro(result.false_positive_rate),
+                Result.round_micro(result.false_negative_rate),
+                Result.round_micro(result.accuracy),
+                Result.round_micro(result.precision),
+                Result.round_micro(result.recall),
+                Result.round_micro(result.f1),
             ])
         rows.sort(key=lambda x: x[0])
 
@@ -304,15 +304,15 @@ class Scanner(ABC):
             total_result.false_positive,
             total_result.true_negative,
             total_result.false_negative,
-            Result.round_decimal(total_result.false_positive_rate),
-            Result.round_decimal(total_result.false_negative_rate),
-            Result.round_decimal(total_result.accuracy),
-            Result.round_decimal(total_result.precision),
-            Result.round_decimal(total_result.recall),
-            Result.round_decimal(total_result.f1),
+            Result.round_micro(total_result.false_positive_rate),
+            Result.round_micro(total_result.false_negative_rate),
+            Result.round_micro(total_result.accuracy),
+            Result.round_micro(total_result.precision),
+            Result.round_micro(total_result.recall),
+            Result.round_micro(total_result.f1),
         ])
 
-        print(tabulate.tabulate(rows, header))
+        print(tabulate.tabulate(rows, header, floatfmt=".6f"))
 
     def _get_total_true_false_count(self, category: str) -> Tuple[int, int]:
         total_line_cnt = self._get_total_line_cnt(category)

@@ -34,7 +34,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 3016,619154d6,GitHub,d2d68c6f,data/d2d68c6f/src/619154d6.kt,21:21,F,F,,,F,F,,,,,0,0,F,F,F,Password
 3017,619154d6,GitHub,d2d68c6f,data/d2d68c6f/src/619154d6.kt,18:18,F,F,,,F,F,,,,,0,0,F,F,F,Password
 3137,d9508d54,GitHub,d2d68c6f,data/d2d68c6f/test/d9508d54.m,1206:1206,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-3138,94a92fdb,GitHub,d2d68c6f,data/d2d68c6f/test/94a92fdb.m,80:80,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+3138,94a92fdb,GitHub,d2d68c6f,data/d2d68c6f/test/94a92fdb.m,80:80,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 3139,242ad2f1,GitHub,d2d68c6f,data/d2d68c6f/test/242ad2f1.m,128:128,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 3190,3e69952d,GitHub,d2d68c6f,data/d2d68c6f/test/3e69952d.gml,644:644,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 3212,446ae7d1,GitHub,d2d68c6f,data/d2d68c6f/test/446ae7d1.bat,34:34,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
@@ -134,7 +134,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 6331,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,891:891,F,F,,,F,F,,,,,0,0,F,F,F,Password
 6335,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,888:888,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 6337,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,889:889,F,F,,,F,F,,,,,0,0,F,F,F,Password
-6338,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,285:285,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+6338,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,285:285,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 7088,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,897:897,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 7090,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,844:844,F,F,,,F,F,,,,,0,0,F,F,F,Password
 7092,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,908:908,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -227,7 +227,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 10010,51ae100d,GitHub,d2d68c6f,data/d2d68c6f/test/51ae100d.rsc,220:220,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 10302,94a92fdb,GitHub,d2d68c6f,data/d2d68c6f/test/94a92fdb.m,43:43,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 10683,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,315:315,F,F,,,F,F,,,,,0,0,F,F,F,Other
-10800,a382b60d,GitHub,d2d68c6f,data/d2d68c6f/src/a382b60d.kt,32:32,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+10800,a382b60d,GitHub,d2d68c6f,data/d2d68c6f/src/a382b60d.kt,32:32,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 10841,18ea3ee4,GitHub,d2d68c6f,data/d2d68c6f/src/18ea3ee4.kt,15:15,F,F,,,F,F,,,,,0,0,F,F,F,Password
 10842,7c4c9540,GitHub,d2d68c6f,data/d2d68c6f/src/7c4c9540.kt,19:19,F,F,,,F,F,,,,,0,0,F,F,F,Password
 10852,91a14c07,GitHub,d2d68c6f,data/d2d68c6f/src/91a14c07.kt,11:11,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -260,7 +260,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 11918,d85b96be,GitHub,d2d68c6f,data/d2d68c6f/test/d85b96be.m,57:57,F,F,,,F,F,,,,,0,0,F,F,F,Password
 11955,88e1db2e,GitHub,d2d68c6f,data/d2d68c6f/test/88e1db2e.c,978:978,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 12008,47ebb655,GitHub,d2d68c6f,data/d2d68c6f/test/47ebb655.mqh,1217:1217,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-12073,93ff8cab,GitHub,d2d68c6f,data/d2d68c6f/test/93ff8cab.pm,47:47,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+12073,93ff8cab,GitHub,d2d68c6f,data/d2d68c6f/test/93ff8cab.pm,47:47,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 12081,78864cd0,GitHub,d2d68c6f,data/d2d68c6f/test/78864cd0.pm,181:181,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 12224,3774f435,GitHub,d2d68c6f,data/d2d68c6f/test/3774f435.moo,1127:1127,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 12410,8f456fd7,GitHub,d2d68c6f,data/d2d68c6f/test/8f456fd7.rexx,94:94,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -650,31 +650,31 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 101672,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,180:180,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 101673,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,201:201,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 101674,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,202:202,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-101675,173fb1b6,GitHub,d2d68c6f,data/d2d68c6f/other/173fb1b6,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-101676,a382b60d,GitHub,d2d68c6f,data/d2d68c6f/src/a382b60d.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-101677,2d8e9c25,GitHub,d2d68c6f,data/d2d68c6f/src/2d8e9c25.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-101678,0e1f99a6,GitHub,d2d68c6f,data/d2d68c6f/src/0e1f99a6.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-101679,76867b3b,GitHub,d2d68c6f,data/d2d68c6f/src/76867b3b.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-101680,2dcb074e,GitHub,d2d68c6f,data/d2d68c6f/src/2dcb074e.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-101681,18ea3ee4,GitHub,d2d68c6f,data/d2d68c6f/src/18ea3ee4.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-101682,619154d6,GitHub,d2d68c6f,data/d2d68c6f/src/619154d6.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-101683,f1c439fd,GitHub,d2d68c6f,data/d2d68c6f/src/f1c439fd.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-101684,91a14c07,GitHub,d2d68c6f,data/d2d68c6f/src/91a14c07.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
+101675,173fb1b6,GitHub,d2d68c6f,data/d2d68c6f/other/173fb1b6,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+101676,a382b60d,GitHub,d2d68c6f,data/d2d68c6f/src/a382b60d.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+101677,2d8e9c25,GitHub,d2d68c6f,data/d2d68c6f/src/2d8e9c25.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+101678,0e1f99a6,GitHub,d2d68c6f,data/d2d68c6f/src/0e1f99a6.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+101679,76867b3b,GitHub,d2d68c6f,data/d2d68c6f/src/76867b3b.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+101680,2dcb074e,GitHub,d2d68c6f,data/d2d68c6f/src/2dcb074e.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+101681,18ea3ee4,GitHub,d2d68c6f,data/d2d68c6f/src/18ea3ee4.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+101682,619154d6,GitHub,d2d68c6f,data/d2d68c6f/src/619154d6.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+101683,f1c439fd,GitHub,d2d68c6f,data/d2d68c6f/src/f1c439fd.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+101684,91a14c07,GitHub,d2d68c6f,data/d2d68c6f/src/91a14c07.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
 101685,91a14c07,GitHub,d2d68c6f,data/d2d68c6f/src/91a14c07.kt,51:51,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 101686,91a14c07,GitHub,d2d68c6f,data/d2d68c6f/src/91a14c07.kt,63:63,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-101687,4c6c52d4,GitHub,d2d68c6f,data/d2d68c6f/src/4c6c52d4.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-101688,4c6c52d4,GitHub,d2d68c6f,data/d2d68c6f/src/4c6c52d4.kt,3:3,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-101689,4ea44fa5,GitHub,d2d68c6f,data/d2d68c6f/src/4ea44fa5.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-101690,4ea44fa5,GitHub,d2d68c6f,data/d2d68c6f/src/4ea44fa5.kt,3:3,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-101691,6422f34b,GitHub,d2d68c6f,data/d2d68c6f/src/6422f34b.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-101692,6422f34b,GitHub,d2d68c6f,data/d2d68c6f/src/6422f34b.kt,3:3,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-101693,5d346996,GitHub,d2d68c6f,data/d2d68c6f/src/5d346996.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-101694,9b994da1,GitHub,d2d68c6f,data/d2d68c6f/src/9b994da1.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
+101687,4c6c52d4,GitHub,d2d68c6f,data/d2d68c6f/src/4c6c52d4.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+101688,4c6c52d4,GitHub,d2d68c6f,data/d2d68c6f/src/4c6c52d4.kt,3:3,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+101689,4ea44fa5,GitHub,d2d68c6f,data/d2d68c6f/src/4ea44fa5.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+101690,4ea44fa5,GitHub,d2d68c6f,data/d2d68c6f/src/4ea44fa5.kt,3:3,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+101691,6422f34b,GitHub,d2d68c6f,data/d2d68c6f/src/6422f34b.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+101692,6422f34b,GitHub,d2d68c6f,data/d2d68c6f/src/6422f34b.kt,3:3,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+101693,5d346996,GitHub,d2d68c6f,data/d2d68c6f/src/5d346996.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+101694,9b994da1,GitHub,d2d68c6f,data/d2d68c6f/src/9b994da1.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
 101695,9b994da1,GitHub,d2d68c6f,data/d2d68c6f/src/9b994da1.kt,57:57,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 101696,9b994da1,GitHub,d2d68c6f,data/d2d68c6f/src/9b994da1.kt,65:65,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-101697,8715cff4,GitHub,d2d68c6f,data/d2d68c6f/src/8715cff4.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-101698,7c4c9540,GitHub,d2d68c6f,data/d2d68c6f/src/7c4c9540.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-101699,bfcf45b2,GitHub,d2d68c6f,data/d2d68c6f/src/bfcf45b2.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
+101697,8715cff4,GitHub,d2d68c6f,data/d2d68c6f/src/8715cff4.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+101698,7c4c9540,GitHub,d2d68c6f,data/d2d68c6f/src/7c4c9540.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+101699,bfcf45b2,GitHub,d2d68c6f,data/d2d68c6f/src/bfcf45b2.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
 101700,e7871308,GitHub,d2d68c6f,data/d2d68c6f/test/e7871308.cc,449:449,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 101701,d98e97d7,GitHub,d2d68c6f,data/d2d68c6f/test/d98e97d7.las,2223:2223,F,F,,,F,F,,,,,0.00,,F,F,F,Other
 101702,d98e97d7,GitHub,d2d68c6f,data/d2d68c6f/test/d98e97d7.las,3226:3226,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
@@ -722,13 +722,13 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 101746,1d87242f,GitHub,d2d68c6f,data/d2d68c6f/test/1d87242f.rnh,776:776,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 101747,0f6eee91,GitHub,d2d68c6f,data/d2d68c6f/test/0f6eee91.sql,208:208,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 101748,6f24bdb6,GitHub,d2d68c6f,data/d2d68c6f/test/6f24bdb6.odd,383:383,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Token
-101749,b4a9be39,GitHub,d2d68c6f,data/d2d68c6f/test/b4a9be39.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-101750,b4a9be39,GitHub,d2d68c6f,data/d2d68c6f/test/b4a9be39.kt,3:3,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-101751,e1f60b0b,GitHub,d2d68c6f,data/d2d68c6f/test/e1f60b0b.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-101752,e1f60b0b,GitHub,d2d68c6f,data/d2d68c6f/test/e1f60b0b.kt,3:3,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-101753,5988acb6,GitHub,d2d68c6f,data/d2d68c6f/test/5988acb6.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-101754,4bd9b16a,GitHub,d2d68c6f,data/d2d68c6f/test/4bd9b16a.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-101755,4bd9b16a,GitHub,d2d68c6f,data/d2d68c6f/test/4bd9b16a.kt,3:3,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
+101749,b4a9be39,GitHub,d2d68c6f,data/d2d68c6f/test/b4a9be39.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+101750,b4a9be39,GitHub,d2d68c6f,data/d2d68c6f/test/b4a9be39.kt,3:3,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+101751,e1f60b0b,GitHub,d2d68c6f,data/d2d68c6f/test/e1f60b0b.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+101752,e1f60b0b,GitHub,d2d68c6f,data/d2d68c6f/test/e1f60b0b.kt,3:3,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+101753,5988acb6,GitHub,d2d68c6f,data/d2d68c6f/test/5988acb6.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+101754,4bd9b16a,GitHub,d2d68c6f,data/d2d68c6f/test/4bd9b16a.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+101755,4bd9b16a,GitHub,d2d68c6f,data/d2d68c6f/test/4bd9b16a.kt,3:3,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
 110883,f1c439fd,GitHub,d2d68c6f,data/d2d68c6f/src/f1c439fd.kt,152:152,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 110884,f1c439fd,GitHub,d2d68c6f,data/d2d68c6f/src/f1c439fd.kt,173:173,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 110885,9b994da1,GitHub,d2d68c6f,data/d2d68c6f/src/9b994da1.kt,56:56,F,F,,,F,F,,,,,0.00,,F,F,F,Password
@@ -754,7 +754,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 110905,6f2c1261,GitHub,d2d68c6f,data/d2d68c6f/test/6f2c1261.ml,1646:1646,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 110906,6f24bdb6,GitHub,d2d68c6f,data/d2d68c6f/test/6f24bdb6.odd,212:212,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 110907,6f24bdb6,GitHub,d2d68c6f,data/d2d68c6f/test/6f24bdb6.odd,224:224,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-110908,1d87242f,GitHub,d2d68c6f,data/d2d68c6f/test/1d87242f.rnh,1517:1517,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
+110908,1d87242f,GitHub,d2d68c6f,data/d2d68c6f/test/1d87242f.rnh,1517:1517,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
 130561,cdd5ca0f,GitHub,d2d68c6f,data/d2d68c6f/test/cdd5ca0f.m,984:984,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130562,9a15edc7,GitHub,d2d68c6f,data/d2d68c6f/test/9a15edc7.pl,621:621,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130563,cdd5ca0f,GitHub,d2d68c6f,data/d2d68c6f/test/cdd5ca0f.m,2380:2380,F,F,,,F,F,,,,,0.00,,F,F,F,Password
@@ -814,27 +814,27 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 134616,3cc48f7d,GitHub,d2d68c6f,data/d2d68c6f/test/3cc48f7d.cpp,865:865,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 134617,89020f4c,GitHub,d2d68c6f,data/d2d68c6f/test/89020f4c.js,1086:1086,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 134618,9f87b4f9,GitHub,d2d68c6f,data/d2d68c6f/test/9f87b4f9.ldml,1293:1293,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-134619,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,36:36,F,F,,,F,F,,,,,0,0,F,F,F,"Seed, Salt, Nonce"
-134620,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,38:38,F,F,,,F,F,,,,,0,0,F,F,F,"Seed, Salt, Nonce"
-134621,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,40:40,F,F,,,F,F,,,,,0,0,F,F,F,"Seed, Salt, Nonce"
-134622,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,41:41,F,F,,,F,F,,,,,0,0,F,F,F,"Seed, Salt, Nonce"
-134623,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,43:43,F,F,,,F,F,,,,,0,0,F,F,F,"Seed, Salt, Nonce"
-134624,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,45:45,F,F,,,F,F,,,,,0,0,F,F,F,"Seed, Salt, Nonce"
-134625,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,47:47,F,F,,,F,F,,,,,0,0,F,F,F,"Seed, Salt, Nonce"
-134626,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,48:48,F,F,,,F,F,,,,,0,0,F,F,F,"Seed, Salt, Nonce"
-134627,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,49:49,F,F,,,F,F,,,,,0,0,F,F,F,"Seed, Salt, Nonce"
-134628,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,57:57,F,F,,,F,F,,,,,0,0,F,F,F,"Seed, Salt, Nonce"
-134629,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,59:59,F,F,,,F,F,,,,,0,0,F,F,F,"Seed, Salt, Nonce"
-134630,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,61:61,F,F,,,F,F,,,,,0,0,F,F,F,"Seed, Salt, Nonce"
-134631,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,74:74,F,F,,,F,F,,,,,0,0,F,F,F,"Seed, Salt, Nonce"
-134632,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,93:93,F,F,,,F,F,,,,,0,0,F,F,F,"Seed, Salt, Nonce"
-134633,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,94:94,F,F,,,F,F,,,,,0,0,F,F,F,"Seed, Salt, Nonce"
-134634,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,101:101,F,F,,,F,F,,,,,0,0,F,F,F,"Seed, Salt, Nonce"
+134619,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,36:36,F,F,,,F,F,,,,,0,0,F,F,F,Cryptographic Primitives
+134620,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,38:38,F,F,,,F,F,,,,,0,0,F,F,F,Cryptographic Primitives
+134621,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,40:40,F,F,,,F,F,,,,,0,0,F,F,F,Cryptographic Primitives
+134622,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,41:41,F,F,,,F,F,,,,,0,0,F,F,F,Cryptographic Primitives
+134623,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,43:43,F,F,,,F,F,,,,,0,0,F,F,F,Cryptographic Primitives
+134624,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,45:45,F,F,,,F,F,,,,,0,0,F,F,F,Cryptographic Primitives
+134625,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,47:47,F,F,,,F,F,,,,,0,0,F,F,F,Cryptographic Primitives
+134626,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,48:48,F,F,,,F,F,,,,,0,0,F,F,F,Cryptographic Primitives
+134627,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,49:49,F,F,,,F,F,,,,,0,0,F,F,F,Cryptographic Primitives
+134628,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,57:57,F,F,,,F,F,,,,,0,0,F,F,F,Cryptographic Primitives
+134629,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,59:59,F,F,,,F,F,,,,,0,0,F,F,F,Cryptographic Primitives
+134630,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,61:61,F,F,,,F,F,,,,,0,0,F,F,F,Cryptographic Primitives
+134631,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,74:74,F,F,,,F,F,,,,,0,0,F,F,F,Cryptographic Primitives
+134632,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,93:93,F,F,,,F,F,,,,,0,0,F,F,F,Cryptographic Primitives
+134633,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,94:94,F,F,,,F,F,,,,,0,0,F,F,F,Cryptographic Primitives
+134634,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,101:101,F,F,,,F,F,,,,,0,0,F,F,F,Cryptographic Primitives
 134635,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,462:462,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-134636,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,569:569,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+134636,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,569:569,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 134637,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,854:854,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 134638,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,887:887,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-134639,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,916:916,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+134639,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,916:916,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 134640,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,967:967,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 134641,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,1096:1096,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 134642,c4c0af08,GitHub,d2d68c6f,data/d2d68c6f/test/c4c0af08.gml,363:363,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret

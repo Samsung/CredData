@@ -133,14 +133,18 @@ class Result:
         return a * b
 
     @staticmethod
-    def round_decimal(a: Optional[float]) -> Optional[float]:
+    def round_micro(a: Optional[float]) -> Optional[float]:
+        """ rounds optional float to 10^-6 for report table or return None """
         if a is None:
             return None
-        return round(Decimal(a), 8)
+        return round(Decimal(a), 6)
 
     def __repr__(self) -> str:
-        return f"TP : {self.true_positive}, FP : {self.false_positive}, TN : {self.true_negative}, " \
-               f"FN : {self.false_negative}, FPR : {self.round_decimal(self.false_positive_rate)}, " \
-               f"FNR : {self.round_decimal(self.false_negative_rate)}, ACC : {self.round_decimal(self.accuracy)}, " \
-               f"PRC : {self.round_decimal(self.precision)}, RCL : {self.round_decimal(self.recall)}, " \
-               f"F1 : {self.round_decimal(self.f1)}"
+        return f"TP : {self.true_positive}, FP : {self.false_positive}, "\
+               f"TN : {self.true_negative}, FN : {self.false_negative}, " \
+               f"FPR : {self.round_micro(self.false_positive_rate)}, " \
+               f"FNR : {self.round_micro(self.false_negative_rate)}, " \
+               f"ACC : {self.round_micro(self.accuracy)}, " \
+               f"PRC : {self.round_micro(self.precision)}, " \
+               f"RCL : {self.round_micro(self.recall)}, " \
+               f"F1 : {self.round_micro(self.f1)}"

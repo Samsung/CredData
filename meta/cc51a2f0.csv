@@ -27,7 +27,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 21111,b05ae458,GitHub,cc51a2f0,data/cc51a2f0/test/b05ae458.conf,84:84,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 21717,b05ae458,GitHub,cc51a2f0,data/cc51a2f0/test/b05ae458.conf,77:77,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 21729,82e7fd26,GitHub,cc51a2f0,data/cc51a2f0/test/82e7fd26.conf,20:20,F,F,,,F,F,,,,,0,0,F,F,F,Password
-21828,0bcdb630,GitHub,cc51a2f0,data/cc51a2f0/test/0bcdb630.conf,61:61,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+21828,0bcdb630,GitHub,cc51a2f0,data/cc51a2f0/test/0bcdb630.conf,61:61,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 23152,141cf316,GitHub,cc51a2f0,data/cc51a2f0/src/141cf316.sh,822:822,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 23193,141cf316,GitHub,cc51a2f0,data/cc51a2f0/src/141cf316.sh,949:949,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 23745,c457c85a,GitHub,cc51a2f0,data/cc51a2f0/test/c457c85a.bats,109:109,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -87,9 +87,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 108360,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/c65d41b8.bats,238:238,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 108361,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/c65d41b8.bats,1134:1134,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 108362,a551d545,GitHub,cc51a2f0,data/cc51a2f0/test/a551d545.md,86:86,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-114520,141cf316,GitHub,cc51a2f0,data/cc51a2f0/src/141cf316.sh,635:635,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-114521,b3356305,GitHub,cc51a2f0,data/cc51a2f0/other/b3356305.md,265:265,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-114522,b3356305,GitHub,cc51a2f0,data/cc51a2f0/other/b3356305.md,266:266,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
+114520,141cf316,GitHub,cc51a2f0,data/cc51a2f0/src/141cf316.sh,635:635,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+114521,b3356305,GitHub,cc51a2f0,data/cc51a2f0/other/b3356305.md,265:265,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+114522,b3356305,GitHub,cc51a2f0,data/cc51a2f0/other/b3356305.md,266:266,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
 114523,4fc68afe,GitHub,cc51a2f0,data/cc51a2f0/other/4fc68afe.md,52:52,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 114524,4fc68afe,GitHub,cc51a2f0,data/cc51a2f0/other/4fc68afe.md,53:53,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 114525,4fc68afe,GitHub,cc51a2f0,data/cc51a2f0/other/4fc68afe.md,64:64,F,F,,,F,F,,,,,0.00,,F,F,F,Password
@@ -97,16 +97,16 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 114527,4fc68afe,GitHub,cc51a2f0,data/cc51a2f0/other/4fc68afe.md,330:330,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 114528,1b2b030f,GitHub,cc51a2f0,data/cc51a2f0/other/1b2b030f.md,84:84,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 114529,1b2b030f,GitHub,cc51a2f0,data/cc51a2f0/other/1b2b030f.md,170:170,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-114530,1b2b030f,GitHub,cc51a2f0,data/cc51a2f0/other/1b2b030f.md,95:95,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-114531,1b2b030f,GitHub,cc51a2f0,data/cc51a2f0/other/1b2b030f.md,103:103,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-114532,1b2b030f,GitHub,cc51a2f0,data/cc51a2f0/other/1b2b030f.md,109:109,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-114533,1b2b030f,GitHub,cc51a2f0,data/cc51a2f0/other/1b2b030f.md,176:176,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-114534,1b2b030f,GitHub,cc51a2f0,data/cc51a2f0/other/1b2b030f.md,230:230,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
+114530,1b2b030f,GitHub,cc51a2f0,data/cc51a2f0/other/1b2b030f.md,95:95,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+114531,1b2b030f,GitHub,cc51a2f0,data/cc51a2f0/other/1b2b030f.md,103:103,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+114532,1b2b030f,GitHub,cc51a2f0,data/cc51a2f0/other/1b2b030f.md,109:109,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+114533,1b2b030f,GitHub,cc51a2f0,data/cc51a2f0/other/1b2b030f.md,176:176,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+114534,1b2b030f,GitHub,cc51a2f0,data/cc51a2f0/other/1b2b030f.md,230:230,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
 114535,3288b20b,GitHub,cc51a2f0,data/cc51a2f0/other/3288b20b.md,65:65,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-114536,3ac92298,GitHub,cc51a2f0,data/cc51a2f0/test/3ac92298.md,41:41,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
+114536,3ac92298,GitHub,cc51a2f0,data/cc51a2f0/test/3ac92298.md,41:41,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
 114537,881d34ce,GitHub,cc51a2f0,data/cc51a2f0/test/881d34ce.json,15:15,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 114538,c973b298,GitHub,cc51a2f0,data/cc51a2f0/test/c973b298.json,19:19,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-114539,82e7fd26,GitHub,cc51a2f0,data/cc51a2f0/test/82e7fd26.conf,44:44,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
+114539,82e7fd26,GitHub,cc51a2f0,data/cc51a2f0/test/82e7fd26.conf,44:44,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
 114541,c457c85a,GitHub,cc51a2f0,data/cc51a2f0/test/c457c85a.bats,108:108,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
 114542,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/c65d41b8.bats,19:19,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 114543,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/c65d41b8.bats,42:42,F,F,,,F,F,,,,,0.00,,F,F,F,Password
@@ -130,13 +130,13 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 132983,1b2b030f,GitHub,cc51a2f0,data/cc51a2f0/other/1b2b030f.md,238:238,F,F,,,F,F,,,,,0,0,F,F,F,Password
 132984,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/c65d41b8.bats,935:935,F,F,,,F,F,,,,,0,0,F,F,F,Password
 132985,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/c65d41b8.bats,972:972,F,F,,,F,F,,,,,0,0,F,F,F,Password
-134589,141cf316,GitHub,cc51a2f0,data/cc51a2f0/src/141cf316.sh,607:607,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-134590,141cf316,GitHub,cc51a2f0,data/cc51a2f0/src/141cf316.sh,610:610,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-134591,141cf316,GitHub,cc51a2f0,data/cc51a2f0/src/141cf316.sh,1066:1066,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-134592,29a4c140,GitHub,cc51a2f0,data/cc51a2f0/test/29a4c140.bats,42:42,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-134593,29a4c140,GitHub,cc51a2f0,data/cc51a2f0/test/29a4c140.bats,207:207,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+134589,141cf316,GitHub,cc51a2f0,data/cc51a2f0/src/141cf316.sh,607:607,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+134590,141cf316,GitHub,cc51a2f0,data/cc51a2f0/src/141cf316.sh,610:610,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+134591,141cf316,GitHub,cc51a2f0,data/cc51a2f0/src/141cf316.sh,1066:1066,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+134592,29a4c140,GitHub,cc51a2f0,data/cc51a2f0/test/29a4c140.bats,42:42,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+134593,29a4c140,GitHub,cc51a2f0,data/cc51a2f0/test/29a4c140.bats,207:207,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 134594,82e7fd26,GitHub,cc51a2f0,data/cc51a2f0/test/82e7fd26.conf,24:24,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-134595,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/c65d41b8.bats,173:173,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-134596,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/c65d41b8.bats,178:178,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-134597,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/c65d41b8.bats,934:934,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-134598,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/c65d41b8.bats,971:971,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+134595,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/c65d41b8.bats,173:173,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+134596,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/c65d41b8.bats,178:178,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+134597,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/c65d41b8.bats,934:934,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+134598,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/c65d41b8.bats,971:971,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials

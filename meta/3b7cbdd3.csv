@@ -10,8 +10,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 1564,e939ae94,GitHub,3b7cbdd3,data/3b7cbdd3/src/e939ae94.py,637:637,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 1804,6c2d8493,GitHub,3b7cbdd3,data/3b7cbdd3/src/6c2d8493.py,256:256,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 5134,551d1fcf,GitHub,3b7cbdd3,data/3b7cbdd3/src/551d1fcf.yml,26:26,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-5835,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,206:206,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-5846,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,273:273,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+5835,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,206:206,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+5846,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,273:273,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 5982,99ab667f,GitHub,3b7cbdd3,data/3b7cbdd3/test/99ab667f.py,34:34,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 7255,4b0d3203,GitHub,3b7cbdd3,data/3b7cbdd3/src/4b0d3203.py,20:20,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 7698,f4a2aeff,GitHub,3b7cbdd3,data/3b7cbdd3/test/f4a2aeff.py,62:62,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
@@ -41,12 +41,12 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 47902,b1bbe846,GitHub,3b7cbdd3,data/3b7cbdd3/other/b1bbe846.md,64:64,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 48097,29a33be0,GitHub,3b7cbdd3,data/3b7cbdd3/test/29a33be0.py,7:7,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 61898,77b35193,GitHub,3b7cbdd3,data/3b7cbdd3/other/77b35193.md,138:138,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-63140,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,216:216,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-63141,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,223:223,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-63142,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,230:230,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-63143,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,302:302,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-63144,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,310:310,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-63145,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,338:338,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+63140,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,216:216,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+63141,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,223:223,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+63142,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,230:230,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+63143,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,302:302,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+63144,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,310:310,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+63145,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,338:338,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 75206,3a9c01c9,GitHub,3b7cbdd3,data/3b7cbdd3/src/3a9c01c9.py,67:67,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 81805,99ab667f,GitHub,3b7cbdd3,data/3b7cbdd3/test/99ab667f.py,61:61,F,F,50,57,F,F,,,,,0,0,F,F,F,Generic Secret
 81806,99ab667f,GitHub,3b7cbdd3,data/3b7cbdd3/test/99ab667f.py,77:77,F,F,50,57,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -65,16 +65,16 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 100869,da24b355,GitHub,3b7cbdd3,data/3b7cbdd3/test/da24b355.py,53:53,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100870,da24b355,GitHub,3b7cbdd3,data/3b7cbdd3/test/da24b355.py,54:54,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100871,da24b355,GitHub,3b7cbdd3,data/3b7cbdd3/test/da24b355.py,58:58,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-110469,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,204:204,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-110470,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,214:214,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-110471,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,221:221,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-110472,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,228:228,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-110473,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,232:232,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-110474,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,244:244,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-110475,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,270:270,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-110476,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,284:284,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-110477,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,300:300,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-110478,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,308:308,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-110479,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,336:336,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-110480,05180dda,GitHub,3b7cbdd3,data/3b7cbdd3/test/05180dda.py,297:297,F,F,,,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
+110469,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,204:204,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+110470,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,214:214,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+110471,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,221:221,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+110472,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,228:228,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+110473,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,232:232,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+110474,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,244:244,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+110475,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,270:270,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+110476,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,284:284,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+110477,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,300:300,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+110478,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,308:308,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+110479,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,336:336,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+110480,05180dda,GitHub,3b7cbdd3,data/3b7cbdd3/test/05180dda.py,297:297,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
 133296,e939ae94,GitHub,3b7cbdd3,data/3b7cbdd3/src/e939ae94.py,28:28,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret

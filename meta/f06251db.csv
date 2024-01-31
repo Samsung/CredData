@@ -1,7 +1,7 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
 5027,6bf8a7b8,GitHub,f06251db,data/f06251db/test/6bf8a7b8.java,75:75,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 5894,3feb8a1b,GitHub,f06251db,data/f06251db/src/3feb8a1b.yml,85:85,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-6327,c3ca6306,GitHub,f06251db,data/f06251db/src/c3ca6306.properties,19:19,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+6327,c3ca6306,GitHub,f06251db,data/f06251db/src/c3ca6306.properties,19:19,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 9016,5ea842f0,GitHub,f06251db,data/f06251db/src/5ea842f0.java,105:105,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 10939,28f7ee3a,GitHub,f06251db,data/f06251db/other/28f7ee3a,238:238,F,F,,,F,F,,,,,0,0,F,F,F,Password
 13119,eb17a84b,GitHub,f06251db,data/f06251db/src/eb17a84b.js,47:47,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -37,10 +37,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 18818,397f6048,GitHub,f06251db,data/f06251db/src/397f6048.yml,49:49,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 18822,3feb8a1b,GitHub,f06251db,data/f06251db/src/3feb8a1b.yml,116:116,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 18830,b5875b40,GitHub,f06251db,data/f06251db/other/b5875b40.md,36:36,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-18920,9a7948ae,GitHub,f06251db,data/f06251db/other/9a7948ae.md,45:45,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+18920,9a7948ae,GitHub,f06251db,data/f06251db/other/9a7948ae.md,45:45,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 21718,5faf0b50,GitHub,f06251db,data/f06251db/src/5faf0b50.properties,2:2,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 23478,621b5fba,GitHub,f06251db,data/f06251db/src/621b5fba.java,46:46,F,F,,,F,F,,,,,0,0,F,F,F,Password
-23492,621b5fba,GitHub,f06251db,data/f06251db/src/621b5fba.java,43:43,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+23492,621b5fba,GitHub,f06251db,data/f06251db/src/621b5fba.java,43:43,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 29090,8abfc889,GitHub,f06251db,data/f06251db/src/8abfc889.java,33:33,Template,T,19,41,F,F,Any,,,Unknown,3.14,22,F,F,F,Other
 29659,d9194e31,GitHub,f06251db,data/f06251db/src/d9194e31.java,38:38,Template,F,23,28,F,F,NumbersOnly,,,Secret,2.32,5,F,F,F,Password
 30655,a3e2bcad,GitHub,f06251db,data/f06251db/other/a3e2bcad.md,21:21,Template,T,27,40,F,F,Any,,,Secret,2.95,13,F,F,F,Password

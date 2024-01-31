@@ -1,5 +1,5 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-1526,128c04bf,GitHub,db218f09,data/db218f09/src/128c04bf.pyi,275:275,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+1526,128c04bf,GitHub,db218f09,data/db218f09/src/128c04bf.pyi,275:275,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 1530,128c04bf,GitHub,db218f09,data/db218f09/src/128c04bf.pyi,574:574,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 1967,f2a47054,GitHub,db218f09,data/db218f09/src/f2a47054.js,998:998,F,F,,,F,F,,,,,0,0,F,F,F,Password
 2937,f2a47054,GitHub,db218f09,data/db218f09/src/f2a47054.js,1029:1029,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -85,9 +85,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 16511,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,882:882,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 16513,f4efd995,GitHub,db218f09,data/db218f09/test/f4efd995.py,426:426,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 16535,0e7dccac,GitHub,db218f09,data/db218f09/test/0e7dccac.py,537:537,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-16591,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1201:1201,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-16593,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,432:432,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-16594,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,667:667,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+16591,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1201:1201,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+16593,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,432:432,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+16594,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,667:667,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 16598,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1347:1347,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 16599,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1393:1393,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 16600,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1442:1442,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
@@ -152,13 +152,13 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 46968,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,683:683,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 46969,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,785:785,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 46970,51508c3f,GitHub,db218f09,data/db218f09/test/51508c3f.py,306:306,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-46971,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,962:962,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-46972,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,817:817,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-46973,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,716:716,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-46974,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,927:927,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-46975,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,769:769,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-46976,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,462:462,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-46977,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,495:495,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+46971,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,962:962,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+46972,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,817:817,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+46973,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,716:716,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+46974,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,927:927,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+46975,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,769:769,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+46976,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,462:462,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+46977,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,495:495,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 46983,51508c3f,GitHub,db218f09,data/db218f09/test/51508c3f.py,1485:1485,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 46984,217a4391,GitHub,db218f09,data/db218f09/test/217a4391.py,673:673,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 47003,0e7dccac,GitHub,db218f09,data/db218f09/test/0e7dccac.py,2703:2703,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
@@ -237,59 +237,59 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 108490,0e7dccac,GitHub,db218f09,data/db218f09/test/0e7dccac.py,2375:2375,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 114581,89d50865,GitHub,db218f09,data/db218f09/src/89d50865.rst,456:456,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
 114582,08e0a244,GitHub,db218f09,data/db218f09/src/08e0a244.json,2497:2497,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-114583,08e0a244,GitHub,db218f09,data/db218f09/src/08e0a244.json,872:872,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-114584,08e0a244,GitHub,db218f09,data/db218f09/src/08e0a244.json,879:879,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-114585,08e0a244,GitHub,db218f09,data/db218f09/src/08e0a244.json,926:926,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-114586,08e0a244,GitHub,db218f09,data/db218f09/src/08e0a244.json,938:938,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
+114583,08e0a244,GitHub,db218f09,data/db218f09/src/08e0a244.json,872:872,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+114584,08e0a244,GitHub,db218f09,data/db218f09/src/08e0a244.json,879:879,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+114585,08e0a244,GitHub,db218f09,data/db218f09/src/08e0a244.json,926:926,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+114586,08e0a244,GitHub,db218f09,data/db218f09/src/08e0a244.json,938:938,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
 114587,08e0a244,GitHub,db218f09,data/db218f09/src/08e0a244.json,1974:1974,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
 114588,64024aec,GitHub,db218f09,data/db218f09/src/64024aec.py,249:249,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
 114589,4f17d5db,GitHub,db218f09,data/db218f09/src/4f17d5db.rst,61:61,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 114590,4f17d5db,GitHub,db218f09,data/db218f09/src/4f17d5db.rst,93:93,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-114591,272b6876,GitHub,db218f09,data/db218f09/src/272b6876.py,266:266,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
-114592,272b6876,GitHub,db218f09,data/db218f09/src/272b6876.py,1239:1239,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
+114591,272b6876,GitHub,db218f09,data/db218f09/src/272b6876.py,266:266,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+114592,272b6876,GitHub,db218f09,data/db218f09/src/272b6876.py,1239:1239,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
 114593,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,263:263,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 114594,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,325:325,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 114595,32d2ce62,GitHub,db218f09,data/db218f09/test/32d2ce62.py,626:626,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
 114596,217a4391,GitHub,db218f09,data/db218f09/test/217a4391.py,121:121,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
-114597,9b6d01e0,GitHub,db218f09,data/db218f09/test/9b6d01e0.py,118:118,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Key & Token
+114597,9b6d01e0,GitHub,db218f09,data/db218f09/test/9b6d01e0.py,118:118,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
 114598,122e0972,GitHub,db218f09,data/db218f09/test/122e0972.py,102:102,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 114599,f8aa1a8e,GitHub,db218f09,data/db218f09/test/f8aa1a8e.py,204:204,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 132444,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1824:1824,T,F,,,F,F,,,,,0.00,,F,F,F,Other
 132445,659838d1,GitHub,db218f09,data/db218f09/test/659838d1.py,236:236,T,F,,,F,F,,,,,0.00,,F,F,F,Other
-132722,89d50865,GitHub,db218f09,data/db218f09/src/89d50865.rst,365:365,T,F,12,56,F,F,,,,,0.00,,F,F,F,"Seed, Salt, Nonce"
+132722,89d50865,GitHub,db218f09,data/db218f09/src/89d50865.rst,365:365,T,F,12,56,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
 132997,f2a47054,GitHub,db218f09,data/db218f09/src/f2a47054.js,1036:1036,F,F,,,F,F,,,,,0,0,F,F,F,Password
 132998,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,142:142,F,F,,,F,F,,,,,0,0,F,F,F,Password
 134667,2c623f3c,GitHub,db218f09,data/db218f09/src/2c623f3c.rst,283:283,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 134668,2c623f3c,GitHub,db218f09,data/db218f09/src/2c623f3c.rst,868:868,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-134669,0e7dccac,GitHub,db218f09,data/db218f09/test/0e7dccac.py,2899:2899,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-134670,0e7dccac,GitHub,db218f09,data/db218f09/test/0e7dccac.py,2948:2948,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-134671,0e7dccac,GitHub,db218f09,data/db218f09/test/0e7dccac.py,2949:2949,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+134669,0e7dccac,GitHub,db218f09,data/db218f09/test/0e7dccac.py,2899:2899,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+134670,0e7dccac,GitHub,db218f09,data/db218f09/test/0e7dccac.py,2948:2948,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+134671,0e7dccac,GitHub,db218f09,data/db218f09/test/0e7dccac.py,2949:2949,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 134672,29d59c57,GitHub,db218f09,data/db218f09/test/29d59c57.py,366:366,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 134673,51508c3f,GitHub,db218f09,data/db218f09/test/51508c3f.py,2275:2275,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-134674,6aa5da84,GitHub,db218f09,data/db218f09/test/6aa5da84.py,837:837,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-134675,6aa5da84,GitHub,db218f09,data/db218f09/test/6aa5da84.py,849:849,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-134676,6aa5da84,GitHub,db218f09,data/db218f09/test/6aa5da84.py,877:877,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-134677,6aa5da84,GitHub,db218f09,data/db218f09/test/6aa5da84.py,882:882,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-134678,9b6d01e0,GitHub,db218f09,data/db218f09/test/9b6d01e0.py,126:126,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-134679,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,388:388,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-134680,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,403:403,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-134681,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,411:411,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-134682,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,429:429,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-134683,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,439:439,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-134684,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,459:459,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-134685,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,469:469,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-134686,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,492:492,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-134687,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,502:502,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-134688,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,518:518,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+134674,6aa5da84,GitHub,db218f09,data/db218f09/test/6aa5da84.py,837:837,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+134675,6aa5da84,GitHub,db218f09,data/db218f09/test/6aa5da84.py,849:849,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+134676,6aa5da84,GitHub,db218f09,data/db218f09/test/6aa5da84.py,877:877,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+134677,6aa5da84,GitHub,db218f09,data/db218f09/test/6aa5da84.py,882:882,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+134678,9b6d01e0,GitHub,db218f09,data/db218f09/test/9b6d01e0.py,126:126,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+134679,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,388:388,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+134680,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,403:403,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+134681,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,411:411,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+134682,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,429:429,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+134683,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,439:439,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+134684,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,459:459,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+134685,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,469:469,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+134686,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,492:492,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+134687,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,502:502,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+134688,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,518:518,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 134689,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,419:419,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 134690,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,542:542,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-134691,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1199:1199,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-134692,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1255:1255,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-134693,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1256:1256,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-134694,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1265:1265,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-134695,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1290:1290,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-134696,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1310:1310,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-134697,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1322:1322,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
-134698,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1336:1336,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+134691,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1199:1199,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+134692,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1255:1255,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+134693,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1256:1256,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+134694,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1265:1265,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+134695,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1290:1290,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+134696,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1310:1310,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+134697,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1322:1322,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+134698,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1336:1336,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 134699,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1897:1897,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-134700,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,2435:2435,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Key & Token
+134700,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,2435:2435,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
