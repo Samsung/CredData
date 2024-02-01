@@ -312,7 +312,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 27595,d465aa46,GitHub,8cda00f3,data/8cda00f3/test/d465aa46.go,84:84,F,F,12,38,F,F,,,,,0,0,F,F,F,Generic Secret
 27627,6e890684,GitHub,8cda00f3,data/8cda00f3/test/6e890684.yaml,17:17,Template,T,24,43,F,F,Any,,,Secret,3.30,19,F,F,F,Password
 27710,87f21611,GitHub,8cda00f3,data/8cda00f3/test/87f21611.ts,20:20,F,F,8,23,F,F,,,,,0,0,F,F,F,Predefined Pattern
-27733,b3ca6fc0,GitHub,8cda00f3,data/8cda00f3/src/b3ca6fc0.go,207:207,Template,T,15,77,F,F,Any,,,Secret,3.50,62,F,F,F,Generic Secret
+27733,b3ca6fc0,GitHub,8cda00f3,data/8cda00f3/src/b3ca6fc0.go,207:207,Template,T,15,28,F,F,Any,,,Secret,3.50,62,F,F,F,Generic Secret
 27745,f927c47d,GitHub,8cda00f3,data/8cda00f3/test/f927c47d.yaml,14:14,Template,T,19,38,F,F,Any,,,Secret,3.30,19,F,F,F,Password
 27753,2a58b3e7,GitHub,8cda00f3,data/8cda00f3/src/2a58b3e7.ts,317:317,F,F,6,11,F,F,,,,,0,0,F,F,F,Generic Secret
 27774,218dc847,GitHub,8cda00f3,data/8cda00f3/other/218dc847.md,119:119,T,F,23,103,F,F,Any,,JSON Web Token,Unknown,5.04,80,F,F,F,Predefined Pattern
@@ -449,9 +449,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 47840,2215cf5f,GitHub,8cda00f3,data/8cda00f3/test/2215cf5f.yaml,22:22,T,F,15,55,F,F,Any,,,Unknown,4.75,40,F,F,F,Other
 47841,f927c47d,GitHub,8cda00f3,data/8cda00f3/test/f927c47d.yaml,24:24,T,F,15,55,F,F,Any,,,Unknown,4.75,40,F,F,F,Other
 47939,0e2a72e1,GitHub,8cda00f3,data/8cda00f3/other/0e2a72e1,8:8,Template,T,16,24,F,F,CharsOnly,,,Unknown,2.75,8,F,F,F,Password
-47962,2215cf5f,GitHub,8cda00f3,data/8cda00f3/test/2215cf5f.yaml,12:12,Template,T,0,19,F,F,Any,,,Secret,3.30,19,F,F,F,Password
+47962,2215cf5f,GitHub,8cda00f3,data/8cda00f3/test/2215cf5f.yaml,12:12,Template,T,21,40,F,F,Any,,,Secret,3.30,19,F,F,F,Password
 47986,1cb14005,GitHub,8cda00f3,data/8cda00f3/other/1cb14005.md,33:33,Template,T,109,114,T,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
-47987,1cb14005,GitHub,8cda00f3,data/8cda00f3/other/1cb14005.md,43:43,Template,T,100,105,T,F,CharOnly,,,Secret,2.32,5,F,F,F,Other
+47987,1cb14005,GitHub,8cda00f3,data/8cda00f3/other/1cb14005.md,43:43,Template,T,106,111,T,F,CharOnly,,,Secret,2.32,5,F,F,F,Other
 47988,1cb14005,GitHub,8cda00f3,data/8cda00f3/other/1cb14005.md,26:26,Template,T,85,90,T,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
 47989,1cb14005,GitHub,8cda00f3,data/8cda00f3/other/1cb14005.md,38:38,Template,T,26,31,T,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
 48030,fd22ae53,GitHub,8cda00f3,data/8cda00f3/test/fd22ae53.ts,26:26,Template,T,11,19,F,F,CharsOnly,,,Unknown,2.75,8,F,F,F,Password
@@ -467,7 +467,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 49189,218dc847,GitHub,8cda00f3,data/8cda00f3/other/218dc847.md,25:25,Template,T,19,24,T,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
 50380,b535b1c7,GitHub,8cda00f3,data/8cda00f3/other/b535b1c7.md,301:301,Template,T,43,48,T,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
 50381,b535b1c7,GitHub,8cda00f3,data/8cda00f3/other/b535b1c7.md,381:381,Template,T,43,48,T,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
-50452,1da35876,GitHub,8cda00f3,data/8cda00f3/other/1da35876.md,49:49,Template,T,10,15,T,F,CharOnly,,,Secret,2.32,5,F,F,F,Password
+50452,1da35876,GitHub,8cda00f3,data/8cda00f3/other/1da35876.md,49:49,Template,T,16,21,T,F,CharOnly,,,Secret,2.32,5,F,F,F,Password
 52938,f41b6cf3,GitHub,8cda00f3,data/8cda00f3/test/f41b6cf3.go,447:447,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 52939,f41b6cf3,GitHub,8cda00f3,data/8cda00f3/test/f41b6cf3.go,577:577,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 52940,f41b6cf3,GitHub,8cda00f3,data/8cda00f3/test/f41b6cf3.go,454:454,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -719,7 +719,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 107362,387aa4d0,GitHub,8cda00f3,data/8cda00f3/src/387aa4d0.c,91775:91775,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 107363,387aa4d0,GitHub,8cda00f3,data/8cda00f3/src/387aa4d0.c,91778:91778,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 107364,387aa4d0,GitHub,8cda00f3,data/8cda00f3/src/387aa4d0.c,117396:117396,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-107365,387aa4d0,GitHub,8cda00f3,data/8cda00f3/src/387aa4d0.c,128164:128164,Template,T,61,67,F,F,CharOnly,,,Secret,2.58,6,F,F,F,Password
+107365,387aa4d0,GitHub,8cda00f3,data/8cda00f3/src/387aa4d0.c,128164:128164,F,T,61,67,F,F,CharOnly,,,Secret,2.58,6,F,F,F,Password
 107366,387aa4d0,GitHub,8cda00f3,data/8cda00f3/src/387aa4d0.c,131868:131868,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 107367,387aa4d0,GitHub,8cda00f3,data/8cda00f3/src/387aa4d0.c,138391:138391,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 107368,387aa4d0,GitHub,8cda00f3,data/8cda00f3/src/387aa4d0.c,147298:147298,F,F,,,F,F,,,,,0.00,,F,F,F,Password
