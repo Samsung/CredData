@@ -243,8 +243,10 @@ def move_files(temp_dir, dataset_dir):
 
 def get_obfuscated_value(value, predefined_pattern):
     obfuscated_value = ""
-
-    if predefined_pattern == "AWS Client ID" or value.startswith("AKIA"):  # AKIA, AIPA, ASIA, AGPA, ...
+    if predefined_pattern == "Info":
+        # not a credential - does not required obfuscation
+        obfuscated_value = value
+    elif predefined_pattern == "AWS Client ID" or value.startswith("AKIA"):  # AKIA, AIPA, ASIA, AGPA, ...
         obfuscated_value = value[:4] + generate_value(value[4:])
     elif predefined_pattern == "Google API Key":  # AIza
         obfuscated_value = "AIza" + generate_value(value[4:])
