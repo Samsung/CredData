@@ -26,7 +26,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 25077,e99d6a11,GitHub,c41bb134,data/c41bb134/src/e99d6a11.nix,30:30,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 27088,978243c8,GitHub,c41bb134,data/c41bb134/test/978243c8.yaml,83:83,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 30884,30516eac,GitHub,c41bb134,data/c41bb134/test/30516eac.hs,348:348,Template,T,22,29,F,F,CharsOnly,,,Secret,2.24,7,F,F,F,Password
-30886,21b750a7,GitHub,c41bb134,data/c41bb134/test/21b750a7.hs,72:72,Template,F,16,20,F,F,CharsOnly,,,Unknown,2.00,4,F,F,F,Other
+30886,21b750a7,GitHub,c41bb134,data/c41bb134/test/21b750a7.hs,72:72,Template,F,32,36,F,F,CharsOnly,,,Unknown,2.00,4,F,F,F,Password
 31136,21b750a7,GitHub,c41bb134,data/c41bb134/test/21b750a7.hs,139:139,Template,T,63,75,F,F,Any,,,Secret,2.29,12,F,F,F,Password
 31160,68cbce99,GitHub,c41bb134,data/c41bb134/test/68cbce99.hs,147:147,F,F,13,37,F,F,,,,,0,0,F,F,F,Generic Secret
 31161,68cbce99,GitHub,c41bb134,data/c41bb134/test/68cbce99.hs,155:155,F,F,13,37,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -93,7 +93,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 48011,21b750a7,GitHub,c41bb134,data/c41bb134/test/21b750a7.hs,102:102,T,F,26,189,F,F,Any,,JSON Web Token,Token,5.23,163,F,F,F,Predefined Pattern
 49965,b032808b,GitHub,c41bb134,data/c41bb134/test/b032808b.hs,457:457,T,F,33,40,F,F,CharOnly,,,Secret,2.24,7,F,F,F,Password
 49966,b032808b,GitHub,c41bb134,data/c41bb134/test/b032808b.hs,465:465,Template,F,33,39,F,F,CharOnly,,,Secret,2.25,6,F,F,F,Password
-50282,8a3fd767,GitHub,c41bb134,data/c41bb134/test/8a3fd767.config,3:3,Template,T,14,46,F,F,CharsOnly,,,Unknown,2.68,32,F,F,F,Other
+50282,8a3fd767,GitHub,c41bb134,data/c41bb134/test/8a3fd767.config,3:3,Template,T,14,46,F,F,CharsOnly,,,Unknown,2.68,32,F,F,F,Generic Secret
 53992,b155aa73,GitHub,c41bb134,data/c41bb134/test/b155aa73.hs,342:342,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 53993,b155aa73,GitHub,c41bb134,data/c41bb134/test/b155aa73.hs,359:359,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 53994,b155aa73,GitHub,c41bb134,data/c41bb134/test/b155aa73.hs,372:372,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret

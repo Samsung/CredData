@@ -67,7 +67,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 28981,54ea9f65,GitHub,cba49987,data/cba49987/test/54ea9f65.py,14:14,Template,T,25,31,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
 29145,03fd5ca7,GitHub,cba49987,data/cba49987/src/03fd5ca7.py,31:31,Template,T,32,45,F,F,Any,,,Secret,2.61,13,F,F,F,Password
 29264,6e600ec7,GitHub,cba49987,data/cba49987/test/6e600ec7.sample,16:16,Template,F,32,43,F,F,Any,,,Secret,1.39,11,F,F,F,Password
-29288,6e600ec7,GitHub,cba49987,data/cba49987/test/6e600ec7.sample,11:11,Template,F,112,200,F,F,Any,,,Unknown,5.47,88,F,F,F,Other
+29288,6e600ec7,GitHub,cba49987,data/cba49987/test/6e600ec7.sample,11:11,Template,F,112,200,F,F,Any,,,Unknown,5.47,88,F,F,F,Generic Token
 29309,6e600ec7,GitHub,cba49987,data/cba49987/test/6e600ec7.sample,3:3,Template,F,32,44,F,F,Any,,,Secret,1.33,12,F,F,F,Password
 30496,6dbc9b13,GitHub,cba49987,data/cba49987/test/6dbc9b13.py,164:164,F,F,42,48,F,F,NumbersOnly,,,Secret,2.58,6,F,F,F,Password
 31126,85d6da67,GitHub,cba49987,data/cba49987/test/85d6da67.py,15:15,Template,T,14,24,F,F,Any,,,Secret,2.51,10,F,F,F,Password
@@ -75,8 +75,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 32293,aeb09b50,GitHub,cba49987,data/cba49987/test/aeb09b50.py,14:14,Template,T,31,40,F,F,Any,,,Secret,2.95,9,F,F,F,Password
 32765,62a24010,GitHub,cba49987,data/cba49987/src/62a24010.py,101:101,T,F,32,56,F,F,Any,,,Secret,4.14,24,F,F,F,Generic Secret
 32766,62a24010,GitHub,cba49987,data/cba49987/src/62a24010.py,100:100,F,F,28,100,F,F,,,,,0,0,F,F,F,Generic Secret
-35257,71ebea85,GitHub,cba49987,data/cba49987/test/71ebea85.py,17:17,T,F,12,54,F,F,Any,,,Unknown,4.95,42,F,F,F,Other
-35258,9f7de526,GitHub,cba49987,data/cba49987/test/9f7de526.py,12:12,T,F,12,60,F,F,Any,,,Unknown,5.10,48,F,F,F,Other
+35257,71ebea85,GitHub,cba49987,data/cba49987/test/71ebea85.py,17:17,T,F,12,54,F,F,Any,,,Unknown,4.95,42,F,F,F,Generic Secret
+35258,9f7de526,GitHub,cba49987,data/cba49987/test/9f7de526.py,12:12,T,F,12,60,F,F,Any,,,Unknown,5.10,48,F,F,F,Generic Secret
 35314,3ebb045d,GitHub,cba49987,data/cba49987/test/3ebb045d.key,1:27,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
 36063,953a4f13,GitHub,cba49987,data/cba49987/test/953a4f13.py,35:35,Template,T,12,20,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
 36452,d6d347c7,GitHub,cba49987,data/cba49987/test/d6d347c7.py,6:6,T,F,14,62,F,F,Any,,,Secret,5.10,48,F,F,F,Generic Secret
@@ -87,7 +87,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 42118,17c1348a,GitHub,cba49987,data/cba49987/src/17c1348a.py,48:48,F,F,,,F,F,,,,,0,0,F,F,F,Password
 42167,1ee0ab55,GitHub,cba49987,data/cba49987/src/1ee0ab55.py,68:68,F,F,,,F,F,,,,,0,0,F,F,F,Password
 42168,1ee0ab55,GitHub,cba49987,data/cba49987/src/1ee0ab55.py,69:69,F,F,,,F,F,,,,,0,0,F,F,F,Password
-46639,9f7de526,GitHub,cba49987,data/cba49987/test/9f7de526.py,111:111,Template,T,18,22,F,F,CharsOnly,,,Unknown,1.50,4,F,F,F,Other
+46639,9f7de526,GitHub,cba49987,data/cba49987/test/9f7de526.py,111:111,Template,T,18,22,F,F,CharsOnly,,,Unknown,1.50,4,F,F,F,Generic Secret
 50301,7cae9400,GitHub,cba49987,data/cba49987/test/7cae9400.py,7:7,Template,T,12,20,F,F,CharsOnly,,,Unknown,2.75,8,F,F,F,Password
 52926,2d2024e2,GitHub,cba49987,data/cba49987/src/2d2024e2.py,102:102,F,F,,,F,F,,,,,0,0,F,F,F,Password
 52927,2d2024e2,GitHub,cba49987,data/cba49987/src/2d2024e2.py,168:168,F,F,,,F,F,,,,,0,0,F,F,F,Password

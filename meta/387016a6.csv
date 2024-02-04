@@ -391,8 +391,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 31383,d59ac85f,GitHub,387016a6,data/387016a6/test/d59ac85f.java,58:58,Template,T,33,42,F,F,Any,,,Secret,2.07,9,F,F,F,Password
 31384,169b2067,GitHub,387016a6,data/387016a6/test/169b2067.java,104:104,Template,T,28,44,F,F,CharsOnly,,,Secret,3.12,16,F,F,F,Password
 31535,7f086ade,GitHub,387016a6,data/387016a6/src/7f086ade.gradle,116:116,Template,T,40,54,F,F,Any,,,Secret,3.11,14,F,F,F,Password
-32503,27e24e2f,GitHub,387016a6,data/387016a6/src/27e24e2f.asciidoc,91:91,T,F,26,46,F,F,Any,,,Key,3.91,20,F,F,F,Other
-33028,fe72bf0a,GitHub,387016a6,data/387016a6/test/fe72bf0a.java,485:485,T,F,19,39,F,F,Any,,,Key,3.69,20,F,F,F,Other
+32503,27e24e2f,GitHub,387016a6,data/387016a6/src/27e24e2f.asciidoc,91:91,T,F,26,46,F,F,Any,,,Key,3.91,20,F,F,F,Generic Secret
+33028,fe72bf0a,GitHub,387016a6,data/387016a6/test/fe72bf0a.java,485:485,T,F,19,39,F,F,Any,,,Key,3.69,20,F,F,F,Generic Secret
 33029,fe72bf0a,GitHub,387016a6,data/387016a6/test/fe72bf0a.java,486:486,T,F,23,44,F,F,Any,,,Secret,3.88,21,F,F,F,Generic Secret
 33033,3e3ad95b,GitHub,387016a6,data/387016a6/test/3e3ad95b.java,28:28,T,F,16,40,F,F,Any,,,Token,4.22,24,F,F,F,Generic Token
 33044,3e3ad95b,GitHub,387016a6,data/387016a6/test/3e3ad95b.java,20:20,T,F,16,60,F,F,Any,,,Token,4.85,44,F,F,F,Generic Token
@@ -414,8 +414,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 34981,0b540210,GitHub,387016a6,data/387016a6/src/0b540210.asciidoc,115:115,T,F,14,34,F,F,Any,,,Secret,3.04,20,F,F,F,Password
 35035,020efc06,GitHub,387016a6,data/387016a6/src/020efc06.asciidoc,183:183,T,F,18,38,F,F,Any,,,Token,3.82,20,F,F,F,Generic Token
 35049,a24a43f9,GitHub,387016a6,data/387016a6/src/a24a43f9.asciidoc,100:100,T,F,18,40,F,F,Any,,,Token,3.71,22,F,F,F,Generic Token
-35050,9b92dfd3,GitHub,387016a6,data/387016a6/src/9b92dfd3.asciidoc,87:87,T,F,11,33,F,F,Any,,,Key,4.10,22,F,F,F,Other
-35058,8930c0cb,GitHub,387016a6,data/387016a6/src/8930c0cb.asciidoc,138:138,T,F,11,33,F,F,Any,,,Key,4.10,22,F,F,F,Other
+35050,9b92dfd3,GitHub,387016a6,data/387016a6/src/9b92dfd3.asciidoc,87:87,T,F,11,33,F,F,Any,,,Key,4.10,22,F,F,F,Generic Secret
+35058,8930c0cb,GitHub,387016a6,data/387016a6/src/8930c0cb.asciidoc,138:138,T,F,11,33,F,F,Any,,,Key,4.10,22,F,F,F,Generic Secret
 35060,185213d9,GitHub,387016a6,data/387016a6/src/185213d9.asciidoc,1014:1014,T,F,18,40,F,F,Any,,,Token,3.71,22,F,F,F,Generic Token
 35086,4b6228ca,GitHub,387016a6,data/387016a6/src/4b6228ca.asciidoc,144:144,T,F,18,38,F,F,Any,,,Token,3.82,20,F,F,F,Generic Token
 35087,08f889f5,GitHub,387016a6,data/387016a6/src/08f889f5.asciidoc,70:70,T,F,19,41,F,F,Any,,,Token,3.71,22,F,F,F,Generic Token
@@ -432,7 +432,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 35850,2617a7bc,GitHub,387016a6,data/387016a6/test/2617a7bc.java,174:174,T,T,32,43,F,F,CharsOnly,,,Secret,2.85,11,F,F,F,Password
 35851,2617a7bc,GitHub,387016a6,data/387016a6/test/2617a7bc.java,175:175,Template,T,32,47,F,F,CharsOnly,,,Secret,3.37,15,F,F,F,Password
 36115,fba19b85,GitHub,387016a6,data/387016a6/test/fba19b85.properties,3:3,T,F,28,92,F,F,Any,,,Token,3.75,64,F,F,F,Generic Token
-36712,27e24e2f,GitHub,387016a6,data/387016a6/src/27e24e2f.asciidoc,161:161,T,F,26,46,F,F,Any,,,Key,3.91,20,F,F,F,Other
+36712,27e24e2f,GitHub,387016a6,data/387016a6/src/27e24e2f.asciidoc,161:161,T,F,26,46,F,F,Any,,,Key,3.91,20,F,F,F,Generic Secret
 37184,4b6228ca,GitHub,387016a6,data/387016a6/src/4b6228ca.asciidoc,141:141,T,F,18,122,F,F,Any,,,Token,5.02,104,F,F,F,Generic Token
 37328,020efc06,GitHub,387016a6,data/387016a6/src/020efc06.asciidoc,218:218,T,F,18,38,F,F,Any,,,Token,3.82,20,F,F,F,Generic Token
 37329,020efc06,GitHub,387016a6,data/387016a6/src/020efc06.asciidoc,233:233,T,F,18,38,F,F,Any,,,Token,3.82,20,F,F,F,Generic Token
@@ -451,7 +451,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 37366,8bc1c219,GitHub,387016a6,data/387016a6/test/8bc1c219.ldif,159:159,T,T,14,30,F,F,CharsOnly,,,Secret,3.88,16,F,F,F,Password
 37488,b8da60f9,GitHub,387016a6,data/387016a6/test/b8da60f9.java,335:335,T,T,30,37,F,F,Any,,,Secret,2.81,7,F,F,F,Password
 37489,b8da60f9,GitHub,387016a6,data/387016a6/test/b8da60f9.java,427:427,T,T,30,37,F,F,Any,,,Secret,2.81,7,F,F,F,Password
-41532,27e24e2f,GitHub,387016a6,data/387016a6/src/27e24e2f.asciidoc,81:81,T,F,11,33,F,F,Any,,,Key,4.10,22,F,F,F,Other
+41532,27e24e2f,GitHub,387016a6,data/387016a6/src/27e24e2f.asciidoc,81:81,T,F,11,33,F,F,Any,,,Key,4.10,22,F,F,F,Generic Secret
 41533,55466edf,GitHub,387016a6,data/387016a6/src/55466edf.gradle,31:31,Template,T,40,54,F,F,Any,,,Secret,3.11,14,F,F,F,Password
 41534,1ab23d09,GitHub,387016a6,data/387016a6/src/1ab23d09.gradle,24:24,Template,T,46,66,F,F,Any,,,Secret,3.14,20,F,F,F,Password
 41535,1ab23d09,GitHub,387016a6,data/387016a6/src/1ab23d09.gradle,25:25,Template,T,43,60,F,F,Any,,,Secret,2.93,17,F,F,F,Password
