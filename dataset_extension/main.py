@@ -58,7 +58,7 @@ def download(repo_url):
             tag = subprocess.check_output(['git', '-C', f'{temp_dir}/{ownername}/{reponame}', 'describe', '--long',
                                            '--dirty', '--tags']).decode('ascii').strip()
         except subprocess.CalledProcessError:
-            tag = None
+            tag = 'None'
         id = generate_unique_id()
         logger.info(f"Downloaded {repo_url} {commit_sha}")
         return {'id': id, 'url': repo_url, 'sha': commit_sha, 'tag': tag}
