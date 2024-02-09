@@ -94,8 +94,8 @@ def download_and_check(repo_data: dict):
             f"rm -rf {temp_dir}/{ownername}/{reponame}"
             f" && mkdir -p {temp_dir}/{ownername}/{reponame}"
             f" && cd {temp_dir}/{ownername}/{reponame}"
-            f" && git init && git remote add origin {repo_url}"
-            f" && git fetch --depth 1 origin {commit_sha} && git checkout FETCH_HEAD && git log --oneline -1")
+            f" && git init && git config advice.detachedHead false && git remote add origin {repo_url}"
+            f" && git fetch --depth 1 origin {commit_sha} && git checkout {commit_sha} && git log --oneline -1")
         subprocess.check_call(checkout_command, shell=True)
         logger.info(f"Downloaded {repo_url} {commit_sha}")
     except (subprocess.CalledProcessError, FileNotFoundError):
