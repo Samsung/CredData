@@ -12,7 +12,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 21094,71fd10b0,GitHub,cfdcc4f3,data/cfdcc4f3/src/71fd10b0.conf,17:17,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 21921,c7c88b7a,GitHub,cfdcc4f3,data/cfdcc4f3/src/c7c88b7a.json,5194:5194,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 21922,c7c88b7a,GitHub,cfdcc4f3,data/cfdcc4f3/src/c7c88b7a.json,5167:5167,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-23311,dec4b5eb,GitHub,cfdcc4f3,data/cfdcc4f3/src/dec4b5eb.yml,32:32,Template,T,35,46,T,F,CharOnly,,,Secret,2.48,11,F,F,F,Other
+23311,dec4b5eb,GitHub,cfdcc4f3,data/cfdcc4f3/src/dec4b5eb.yml,32:32,Template,T,35,46,T,F,CharOnly,,,Secret,2.48,11,F,F,F,Password
 28889,c0060087,GitHub,cfdcc4f3,data/cfdcc4f3/other/c0060087.md,16:16,Template,T,11,20,F,F,CharsOnly,,,Secret,2.73,9,F,F,F,Password
 29134,f91dce9f,GitHub,cfdcc4f3,data/cfdcc4f3/src/f91dce9f.yml,15:15,T,T,30,46,F,F,Any,,,Secret,3.20,16,F,F,F,Password
 29196,dec4b5eb,GitHub,cfdcc4f3,data/cfdcc4f3/src/dec4b5eb.yml,18:18,Template,T,20,31,F,F,CharsOnly,,,Secret,2.48,11,F,F,F,Password
@@ -32,7 +32,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 31146,5dfcbf8c,GitHub,cfdcc4f3,data/cfdcc4f3/other/5dfcbf8c.md,14:14,Template,T,28,43,F,F,Any,,,Secret,2.68,15,F,F,F,Password
 31240,c805e326,GitHub,cfdcc4f3,data/cfdcc4f3/src/c805e326.yml,61:61,T,F,12,17,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
 31491,a598bccc,GitHub,cfdcc4f3,data/cfdcc4f3/src/a598bccc.yml,23:23,Template,F,19,39,F,F,Any,,,Token,2.97,20,F,F,F,Generic Token
-32305,7e5c5a58,GitHub,cfdcc4f3,data/cfdcc4f3/src/7e5c5a58.yml,45:45,T,F,10,15,F,F,Any,,,Unknown,2.32,5,F,F,F,Other
+32305,7e5c5a58,GitHub,cfdcc4f3,data/cfdcc4f3/src/7e5c5a58.yml,45:45,T,F,10,42,F,F,Any,,,Unknown,2.32,5,F,F,F,Generic Secret
 32684,7e5c5a58,GitHub,cfdcc4f3,data/cfdcc4f3/src/7e5c5a58.yml,50:50,T,T,14,21,F,F,CharsOnly,,,Secret,2.52,7,F,F,F,Password
 33477,7e5c5a58,GitHub,cfdcc4f3,data/cfdcc4f3/src/7e5c5a58.yml,22:22,T,T,17,24,F,F,CharsOnly,,,Secret,2.52,7,F,F,F,Password
 33703,7e5c5a58,GitHub,cfdcc4f3,data/cfdcc4f3/src/7e5c5a58.yml,23:23,T,T,22,29,F,F,CharsOnly,,,Secret,2.52,7,F,F,F,Password

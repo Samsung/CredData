@@ -53,9 +53,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 3718,3295df72,GitHub,efb4b495,data/efb4b495/src/3295df72.sum,395:395,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 3727,3295df72,GitHub,efb4b495,data/efb4b495/src/3295df72.sum,394:394,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 3779,b3356305,GitHub,efb4b495,data/efb4b495/other/b3356305.md,326:326,Template,T,35,39,F,F,Any,,,Secret,3.46,15,F,F,F,Password
-4326,10a61d8f,GitHub,efb4b495,data/efb4b495/src/10a61d8f.sql,9:9,F,T,24,57,T,F,Any,,,Secret,2.49,33,F,F,F,Other
-4327,c08cf4d6,GitHub,efb4b495,data/efb4b495/src/c08cf4d6.sql,9:9,F,T,23,54,T,F,Any,,,Secret,2.55,31,F,F,F,Other
-4328,bd8c0745,GitHub,efb4b495,data/efb4b495/src/bd8c0745.sql,9:9,F,T,21,48,T,F,Any,,,Secret,2.60,27,F,F,F,Other
+4326,10a61d8f,GitHub,efb4b495,data/efb4b495/src/10a61d8f.sql,9:9,F,T,24,57,T,F,Any,,,Secret,2.49,33,F,F,F,Password
+4327,c08cf4d6,GitHub,efb4b495,data/efb4b495/src/c08cf4d6.sql,9:9,F,T,23,54,T,F,Any,,,Secret,2.55,31,F,F,F,Password
+4328,bd8c0745,GitHub,efb4b495,data/efb4b495/src/bd8c0745.sql,9:9,F,T,21,48,T,F,Any,,,Secret,2.60,27,F,F,F,Password
 4774,fc79203f,GitHub,efb4b495,data/efb4b495/test/fc79203f.go,58:58,F,F,,,F,F,,,,,0,0,F,F,F,Password
 5437,5d849cef,GitHub,efb4b495,data/efb4b495/other/5d849cef,2:2,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 7479,9a00b9b4,GitHub,efb4b495,data/efb4b495/src/9a00b9b4.go,89:89,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -72,21 +72,21 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 16991,21968930,GitHub,efb4b495,data/efb4b495/test/21968930.sql,19:19,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 18482,21968930,GitHub,efb4b495,data/efb4b495/test/21968930.sql,165:165,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 18606,21968930,GitHub,efb4b495,data/efb4b495/test/21968930.sql,191:191,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-21454,b3356305,GitHub,efb4b495,data/efb4b495/other/b3356305.md,497:497,Template,T,17,21,T,F,CharOnly,,,Secret,1.50,4,F,F,F,Other
-21456,b3356305,GitHub,efb4b495,data/efb4b495/other/b3356305.md,511:511,Template,T,17,21,T,F,CharOnly,,,Secret,1.50,4,F,F,F,Other
-21481,b3356305,GitHub,efb4b495,data/efb4b495/other/b3356305.md,498:498,Template,T,17,21,T,F,CharOnly,,,Secret,1.50,4,F,F,F,Other
+21454,b3356305,GitHub,efb4b495,data/efb4b495/other/b3356305.md,497:497,Template,T,17,21,T,F,CharOnly,,,Secret,1.50,4,F,F,F,Password
+21456,b3356305,GitHub,efb4b495,data/efb4b495/other/b3356305.md,511:511,Template,T,17,21,T,F,CharOnly,,,Secret,1.50,4,F,F,F,Password
+21481,b3356305,GitHub,efb4b495,data/efb4b495/other/b3356305.md,498:498,Template,T,17,21,T,F,CharOnly,,,Secret,1.50,4,F,F,F,Password
 21483,b3356305,GitHub,efb4b495,data/efb4b495/other/b3356305.md,499:499,Template,T,20,24,F,F,Any,,,Secret,3.46,11,F,F,F,Password
 21487,b3356305,GitHub,efb4b495,data/efb4b495/other/b3356305.md,323:323,Template,T,17,21,F,F,Any,,,Secret,3.46,15,F,F,F,Password
-21488,b3356305,GitHub,efb4b495,data/efb4b495/other/b3356305.md,496:496,Template,T,24,28,T,F,CharOnly,,,Secret,1.50,4,F,F,F,Other
+21488,b3356305,GitHub,efb4b495,data/efb4b495/other/b3356305.md,496:496,Template,T,24,28,T,F,CharOnly,,,Secret,1.50,4,F,F,F,Password
 21489,b3356305,GitHub,efb4b495,data/efb4b495/other/b3356305.md,484:484,Template,T,33,44,F,F,Any,,,Secret,3.46,11,F,F,F,Password
-21490,b3356305,GitHub,efb4b495,data/efb4b495/other/b3356305.md,483:483,Template,T,20,24,T,F,CharOnly,,,Secret,1.50,4,F,F,F,Other
+21490,b3356305,GitHub,efb4b495,data/efb4b495/other/b3356305.md,483:483,Template,T,20,24,T,F,CharOnly,,,Secret,1.50,4,F,F,F,Password
 21491,b3356305,GitHub,efb4b495,data/efb4b495/other/b3356305.md,487:487,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-21492,b3356305,GitHub,efb4b495,data/efb4b495/other/b3356305.md,482:482,Template,T,17,21,T,F,CharOnly,,,Secret,1.50,4,F,F,F,Other
+21492,b3356305,GitHub,efb4b495,data/efb4b495/other/b3356305.md,482:482,Template,T,17,21,T,F,CharOnly,,,Secret,1.50,4,F,F,F,Password
 21493,b3356305,GitHub,efb4b495,data/efb4b495/other/b3356305.md,507:507,Template,T,21,25,F,F,Any,,,Secret,3.00,8,F,F,F,Password
-21497,b3356305,GitHub,efb4b495,data/efb4b495/other/b3356305.md,506:506,Template,T,17,21,T,F,CharOnly,,,Secret,1.50,4,F,F,F,Other
-21498,b3356305,GitHub,efb4b495,data/efb4b495/other/b3356305.md,549:549,Template,T,23,27,T,F,CharOnly,,,Secret,1.50,4,F,F,F,Other
+21497,b3356305,GitHub,efb4b495,data/efb4b495/other/b3356305.md,506:506,Template,T,17,21,T,F,CharOnly,,,Secret,1.50,4,F,F,F,Password
+21498,b3356305,GitHub,efb4b495,data/efb4b495/other/b3356305.md,549:549,Template,T,23,27,T,F,CharOnly,,,Secret,1.50,4,F,F,F,Password
 21511,b3356305,GitHub,efb4b495,data/efb4b495/other/b3356305.md,491:491,Template,T,20,24,F,F,Any,,,Secret,3.46,11,F,F,F,Password
-21512,b3356305,GitHub,efb4b495,data/efb4b495/other/b3356305.md,490:490,Template,T,17,21,T,F,CharOnly,,,Secret,1.50,4,F,F,F,Other
+21512,b3356305,GitHub,efb4b495,data/efb4b495/other/b3356305.md,490:490,Template,T,17,21,T,F,CharOnly,,,Secret,1.50,4,F,F,F,Password
 21704,b3356305,GitHub,efb4b495,data/efb4b495/other/b3356305.md,790:790,F,F,,,F,F,,,,,0,0,F,F,F,Password
 23286,b9a644c2,GitHub,efb4b495,data/efb4b495/src/b9a644c2.go,34:34,F,F,,,F,F,,,,,0,0,F,F,F,Password
 23975,b9a644c2,GitHub,efb4b495,data/efb4b495/src/b9a644c2.go,33:33,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -134,7 +134,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 46047,fc79203f,GitHub,efb4b495,data/efb4b495/test/fc79203f.go,55:55,Template,F,34,36,F,F,CharsOnly,,,Unknown,1.00,2,F,F,F,Password
 46099,3d401dc7,GitHub,efb4b495,data/efb4b495/test/3d401dc7.go,80:80,T,T,20,28,F,F,Any,,,Unknown,2.75,8,F,F,F,Password
 49985,6e3750f5,GitHub,efb4b495,data/efb4b495/test/6e3750f5.sql,2:2,T,F,20,28,T,F,Any,,,Secret,2.75,8,F,F,F,Password
-62696,10a61d8f,GitHub,efb4b495,data/efb4b495/src/10a61d8f.sql,23:23,F,T,24,57,T,F,Any,,,Secret,2.49,33,F,F,F,Other
+62696,10a61d8f,GitHub,efb4b495,data/efb4b495/src/10a61d8f.sql,23:23,F,T,24,57,T,F,Any,,,Secret,2.49,33,F,F,F,Password
 80005,b3356305,GitHub,efb4b495,data/efb4b495/other/b3356305.md,341:341,Template,T,21,25,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
 80006,b3356305,GitHub,efb4b495,data/efb4b495/other/b3356305.md,550:550,Template,T,35,39,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
 80007,fc79203f,GitHub,efb4b495,data/efb4b495/test/fc79203f.go,79:79,F,F,36,38,F,F,,,,,0,0,F,F,F,Password

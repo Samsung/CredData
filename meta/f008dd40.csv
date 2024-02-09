@@ -128,7 +128,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 28810,c592e77b,GitHub,f008dd40,data/f008dd40/test/c592e77b.go,282:282,Template,T,11,109,F,F,Any,,,Secret,5.05,98,F,F,F,Generic Secret
 28812,9e2351f6,GitHub,f008dd40,data/f008dd40/src/9e2351f6.yml,562:562,Template,T,14,29,F,F,CharsOnly,,,Secret,3.06,15,F,F,F,Password
 28839,7084fda8,GitHub,f008dd40,data/f008dd40/test/7084fda8.yml,20:20,Template,F,15,38,F,F,Any,,,Secret,4.44,23,F,F,F,Generic Secret
-28841,7084fda8,GitHub,f008dd40,data/f008dd40/test/7084fda8.yml,18:18,Template,F,20,26,F,F,CharsOnly,,,Unknown,2.58,6,F,F,F,Other
+28841,7084fda8,GitHub,f008dd40,data/f008dd40/test/7084fda8.yml,18:18,Template,F,20,26,F,F,CharsOnly,,,Unknown,2.58,6,F,F,F,Generic Secret
 28854,c592e77b,GitHub,f008dd40,data/f008dd40/test/c592e77b.go,338:338,Template,T,11,131,F,F,Any,,,Secret,5.42,120,F,F,F,Generic Secret
 28870,1ea6d35f,GitHub,f008dd40,data/f008dd40/src/1ea6d35f.yml,12:12,Template,T,11,131,F,F,Any,,,Secret,5.42,120,F,F,F,Generic Secret
 28913,c592e77b,GitHub,f008dd40,data/f008dd40/test/c592e77b.go,353:353,Template,T,11,129,F,F,Any,,,Secret,5.39,118,F,F,F,Generic Secret
@@ -303,12 +303,12 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 55642,9e2351f6,GitHub,f008dd40,data/f008dd40/src/9e2351f6.yml,393:393,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 56639,c1d1b2dd,GitHub,f008dd40,data/f008dd40/test/c1d1b2dd.yml,64:64,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 64088,03384a51,GitHub,f008dd40,data/f008dd40/test/03384a51.go,392:392,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-64392,cbff23c8,GitHub,f008dd40,data/f008dd40/test/cbff23c8.yml,15:15,Template,F,17,23,F,F,CharsOnly,,,Unknown,2.58,6,F,F,F,Other
-64393,01e5fd9a,GitHub,f008dd40,data/f008dd40/other/01e5fd9a.md,32:32,Template,F,17,23,F,F,CharsOnly,,,Unknown,2.58,6,F,F,F,Other
-64394,9e2351f6,GitHub,f008dd40,data/f008dd40/src/9e2351f6.yml,92:92,Template,F,17,23,F,F,CharsOnly,,,Unknown,2.58,6,F,F,F,Other
-64395,10a31fe3,GitHub,f008dd40,data/f008dd40/test/10a31fe3.yml,14:14,Template,F,17,23,F,F,CharsOnly,,,Unknown,2.58,6,F,F,F,Other
-64396,5b6e1cea,GitHub,f008dd40,data/f008dd40/src/5b6e1cea.yml,92:92,Template,F,17,23,F,F,CharsOnly,,,Unknown,2.58,6,F,F,F,Other
-64397,18c52b1c,GitHub,f008dd40,data/f008dd40/src/18c52b1c.yml,33:33,Template,F,17,29,F,F,CharsOnly,,,Unknown,3.58,12,F,F,F,Other
+64392,cbff23c8,GitHub,f008dd40,data/f008dd40/test/cbff23c8.yml,15:15,Template,F,17,23,F,F,CharsOnly,,,Unknown,2.58,6,F,F,F,Generic Secret
+64393,01e5fd9a,GitHub,f008dd40,data/f008dd40/other/01e5fd9a.md,32:32,Template,F,17,23,F,F,CharsOnly,,,Unknown,2.58,6,F,F,F,Generic Secret
+64394,9e2351f6,GitHub,f008dd40,data/f008dd40/src/9e2351f6.yml,92:92,Template,F,17,23,F,F,CharsOnly,,,Unknown,2.58,6,F,F,F,Generic Secret
+64395,10a31fe3,GitHub,f008dd40,data/f008dd40/test/10a31fe3.yml,14:14,Template,F,17,23,F,F,CharsOnly,,,Unknown,2.58,6,F,F,F,Generic Secret
+64396,5b6e1cea,GitHub,f008dd40,data/f008dd40/src/5b6e1cea.yml,92:92,Template,F,17,23,F,F,CharsOnly,,,Unknown,2.58,6,F,F,F,Generic Secret
+64397,18c52b1c,GitHub,f008dd40,data/f008dd40/src/18c52b1c.yml,33:33,Template,F,17,29,F,F,CharsOnly,,,Unknown,3.58,12,F,F,F,Generic Secret
 74708,c592e77b,GitHub,f008dd40,data/f008dd40/test/c592e77b.go,345:345,Template,T,11,131,F,F,Any,,,Secret,5.42,120,F,F,F,Generic Secret
 74709,c592e77b,GitHub,f008dd40,data/f008dd40/test/c592e77b.go,360:360,Template,T,11,131,F,F,Any,,,Secret,5.42,120,F,F,F,Generic Secret
 74710,1ea6d35f,GitHub,f008dd40,data/f008dd40/src/1ea6d35f.yml,20:20,Template,T,11,131,F,F,Any,,,Secret,5.42,120,F,F,F,Generic Secret

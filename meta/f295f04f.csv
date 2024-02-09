@@ -31,12 +31,12 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 29337,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,211:211,T,T,24,44,F,F,Any,,,Auth,4.12,20,F,F,F,Authentication Credentials
 29338,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,349:349,Template,T,27,42,F,F,Any,,,Secret,2.93,15,F,F,F,Password
 29341,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,127:127,T,F,14,55,F,F,Any,,,SeedSalt,4.74,41,F,F,F,Cryptographic Primitives
-29377,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,148:148,Template,T,7,14,F,F,CharsOnly,,,Unknown,2.52,7,F,F,F,Other
+29377,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,148:148,Template,T,7,14,F,F,CharsOnly,,,Unknown,2.52,7,F,F,F,Password
 29485,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,262:262,Template,F,15,55,F,F,Any,,,Token,4.90,40,F,F,F,Generic Token
-29719,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,58:58,Template,T,12,19,F,F,CharsOnly,,,Unknown,2.52,7,F,F,F,Other
+29719,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,58:58,Template,T,12,19,F,F,CharsOnly,,,Unknown,2.52,7,F,F,F,Password
 29733,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,40:40,Template,T,21,41,F,F,Any,,,Auth,4.12,20,F,F,F,Authentication Credentials
 29943,b4951d4e,GitHub,f295f04f,data/f295f04f/test/b4951d4e.js,29:29,Template,T,9,18,F,F,Any,,,Secret,2.60,9,F,F,F,Password
-30683,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,173:173,T,T,15,35,F,F,Any,,,Unknown,4.12,20,F,F,F,Other
+30683,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,173:173,T,T,15,35,F,F,Any,,,Unknown,4.12,20,F,F,F,Generic Secret
 32281,cb37811e,GitHub,f295f04f,data/f295f04f/test/cb37811e.cnf,19:19,F,T,33,51,F,F,Any,,,Secret,3.49,18,F,F,F,Password
 32434,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,177:177,T,F,18,61,F,F,Any,,,Secret,4.77,43,F,F,F,Generic Secret
 32436,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,302:302,T,F,18,30,F,F,Any,,,Secret,2.86,12,F,F,F,Password
@@ -73,11 +73,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 36140,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,129:129,T,F,14,63,F,F,Any,,,Token,5.06,49,F,F,F,Generic Token
 36141,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,84:84,T,F,14,55,F,F,Any,,,Token,4.95,41,F,F,F,Generic Token
 36143,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,467:467,T,F,14,30,F,F,Any,,,Token,3.00,16,F,F,F,Generic Token
-36151,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,214:214,T,T,7,19,F,F,CharsOnly,,,Unknown,3.08,12,F,F,F,Other
+36151,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,214:214,T,T,7,19,F,F,CharsOnly,,,Unknown,3.08,12,F,F,F,Password
 36169,cb37811e,GitHub,f295f04f,data/f295f04f/test/cb37811e.cnf,7:7,Template,T,25,33,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-36204,cd330b14,GitHub,f295f04f,data/f295f04f/test/cd330b14.js,24:24,T,F,6,49,F,F,Any,,,Unknown,3.71,43,F,F,F,Other
+36204,cd330b14,GitHub,f295f04f,data/f295f04f/test/cd330b14.js,24:24,T,F,6,49,F,F,Any,,,Unknown,3.71,43,F,F,F,Generic Secret
 36441,d2a39ea6,GitHub,f295f04f,data/f295f04f/test/d2a39ea6.js,174:174,F,F,,,F,F,,,,,0,0,F,F,F,Password
-36443,d2a39ea6,GitHub,f295f04f,data/f295f04f/test/d2a39ea6.js,65:65,Template,T,9,13,F,F,CharsOnly,,,Unknown,1.50,4,F,F,F,Other
+36443,d2a39ea6,GitHub,f295f04f,data/f295f04f/test/d2a39ea6.js,65:65,Template,T,9,13,F,F,CharsOnly,,,Unknown,1.50,4,F,F,F,Password
 36694,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,218:218,T,F,18,61,F,F,Any,,,Secret,4.77,43,F,F,F,Generic Secret
 36695,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,261:261,T,F,18,61,F,F,Any,,,Secret,4.77,43,F,F,F,Generic Secret
 36696,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,410:410,T,F,18,61,F,F,Any,,,Secret,4.77,43,F,F,F,Generic Secret
@@ -127,10 +127,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 37616,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,544:544,T,F,14,55,F,F,Any,,,Token,4.95,41,F,F,F,Generic Token
 37617,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,512:512,T,F,14,30,F,F,Any,,,Token,3.00,16,F,F,F,Generic Token
 37618,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,582:582,T,F,14,30,F,F,Any,,,Token,3.00,16,F,F,F,Generic Token
-37625,cd330b14,GitHub,f295f04f,data/f295f04f/test/cd330b14.js,179:179,T,F,6,49,F,F,Any,,,Unknown,3.71,43,F,F,F,Other
-37756,d2a39ea6,GitHub,f295f04f,data/f295f04f/test/d2a39ea6.js,84:84,Template,T,9,13,F,F,CharsOnly,,,Unknown,1.50,4,F,F,F,Other
-37757,d2a39ea6,GitHub,f295f04f,data/f295f04f/test/d2a39ea6.js,115:115,Template,T,9,13,F,F,CharsOnly,,,Unknown,1.50,4,F,F,F,Other
-37758,d2a39ea6,GitHub,f295f04f,data/f295f04f/test/d2a39ea6.js,134:134,Template,T,9,13,F,F,CharsOnly,,,Unknown,1.50,4,F,F,F,Other
+37625,cd330b14,GitHub,f295f04f,data/f295f04f/test/cd330b14.js,179:179,T,F,6,49,F,F,Any,,,Unknown,3.71,43,F,F,F,Generic Secret
+37756,d2a39ea6,GitHub,f295f04f,data/f295f04f/test/d2a39ea6.js,84:84,Template,T,9,13,F,F,CharsOnly,,,Unknown,1.50,4,F,F,F,Password
+37757,d2a39ea6,GitHub,f295f04f,data/f295f04f/test/d2a39ea6.js,115:115,Template,T,9,13,F,F,CharsOnly,,,Unknown,1.50,4,F,F,F,Password
+37758,d2a39ea6,GitHub,f295f04f,data/f295f04f/test/d2a39ea6.js,134:134,Template,T,9,13,F,F,CharsOnly,,,Unknown,1.50,4,F,F,F,Password
 42866,f387f6d2,GitHub,f295f04f,data/f295f04f/src/f387f6d2.js,79:79,F,F,,,F,F,,,,,0,0,F,F,F,Password
 47426,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,103:103,F,F,,,F,F,,,,,0,0,F,F,F,Cryptographic Primitives
 47427,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,36:36,F,F,,,F,F,,,,,0,0,F,F,F,Other
@@ -145,7 +145,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 50401,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,216:216,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 52048,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,283:283,Template,F,15,55,F,F,Any,,,Token,4.90,40,F,F,F,Generic Token
 57135,47746fff,GitHub,f295f04f,data/f295f04f/test/47746fff.js,427:427,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-63531,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,192:192,Template,T,15,35,F,F,Any,,,Unknown,4.12,20,F,F,F,Other
+63531,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,192:192,Template,T,15,35,F,F,Any,,,Unknown,4.12,20,F,F,F,Generic Secret
 74083,b4951d4e,GitHub,f295f04f,data/f295f04f/test/b4951d4e.js,45:45,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 74084,b4951d4e,GitHub,f295f04f,data/f295f04f/test/b4951d4e.js,64:64,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 74085,b4951d4e,GitHub,f295f04f,data/f295f04f/test/b4951d4e.js,85:85,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -159,9 +159,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 74612,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,705:705,Template,T,9,21,F,F,Any,,,Auth,3.12,12,F,F,F,Authentication Credentials
 74613,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,54:54,Template,T,21,41,F,F,Any,,,Auth,4.12,20,F,F,F,Authentication Credentials
 74614,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,68:68,Template,T,21,41,F,F,Any,,,Auth,4.12,20,F,F,F,Authentication Credentials
-74677,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,193:193,Template,T,7,14,F,F,CharsOnly,,,Unknown,2.52,7,F,F,F,Other
-74678,317baecd,GitHub,f295f04f,data/f295f04f/test/317baecd.js,19:19,Template,T,7,14,F,F,CharsOnly,,,Unknown,2.52,7,F,F,F,Other
-74679,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,170:170,Template,T,7,14,F,F,CharsOnly,,,Unknown,2.52,7,F,F,F,Other
+74677,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,193:193,Template,T,7,14,F,F,CharsOnly,,,Unknown,2.52,7,F,F,F,Password
+74678,317baecd,GitHub,f295f04f,data/f295f04f/test/317baecd.js,19:19,Template,T,7,14,F,F,CharsOnly,,,Unknown,2.52,7,F,F,F,Password
+74679,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,170:170,Template,T,7,14,F,F,CharsOnly,,,Unknown,2.52,7,F,F,F,Password
 74894,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,240:240,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 74895,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,282:282,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 74896,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,328:328,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret

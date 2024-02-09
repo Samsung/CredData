@@ -27,18 +27,18 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 27535,f493cf70,GitHub,e0b41e26,data/e0b41e26/test/f493cf70.js,261:261,F,F,8,40,F,F,,,,,0,0,F,F,F,Generic Token
 27538,f493cf70,GitHub,e0b41e26,data/e0b41e26/test/f493cf70.js,278:278,F,F,8,28,F,F,,,,,0,0,F,F,F,Generic Token
 27539,a4b52bd0,GitHub,e0b41e26,data/e0b41e26/test/a4b52bd0.js,261:261,F,F,8,28,F,F,,,,,0,0,F,F,F,Generic Token
-28123,5a44a9f9,GitHub,e0b41e26,data/e0b41e26/test/5a44a9f9.js,508:508,Template,T,64,78,F,F,Any,,,Key,2.64,14,F,F,F,Other
+28123,5a44a9f9,GitHub,e0b41e26,data/e0b41e26/test/5a44a9f9.js,508:508,Template,T,64,78,F,F,Any,,,Key,2.64,14,F,F,F,Generic Secret
 29931,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,444:444,Template,F,11,14,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
 29954,65f266eb,GitHub,e0b41e26,data/e0b41e26/test/65f266eb.js,17:17,Template,F,18,27,F,F,CharsOnly,,,Secret,0.99,9,F,F,F,Password
-31047,3cb5b5a8,GitHub,e0b41e26,data/e0b41e26/src/3cb5b5a8.js,114:114,Template,F,22,26,F,F,CharsOnly,,,Unknown,2.00,4,F,F,F,Other
+31047,3cb5b5a8,GitHub,e0b41e26,data/e0b41e26/src/3cb5b5a8.js,114:114,Template,F,22,26,F,F,CharsOnly,,,Unknown,2.00,4,F,F,F,Generic Secret
 31055,c386ab3a,GitHub,e0b41e26,data/e0b41e26/test/c386ab3a.js,174:174,Template,F,22,26,F,F,CharsOnly,,,Secret,2.00,4,F,F,F,Password
 32569,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,332:332,T,T,,,F,F,Any,Private,,Unknown,5.75,1016,F,F,F,Private Key
 32587,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,513:513,T,F,12,32,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,Predefined Pattern
 32588,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,495:495,T,F,14,34,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,Predefined Pattern
 32589,2539a395,GitHub,e0b41e26,data/e0b41e26/src/2539a395.yaml,69:69,T,F,13,33,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,Predefined Pattern
 32590,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/9ce19240.yaml,81:81,T,F,13,33,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,Predefined Pattern
-32717,5a44a9f9,GitHub,e0b41e26,data/e0b41e26/test/5a44a9f9.js,330:330,T,F,9,29,F,F,Any,,,Key,4.32,20,F,F,F,Other
-32724,5a44a9f9,GitHub,e0b41e26,data/e0b41e26/test/5a44a9f9.js,370:370,T,F,9,29,F,F,Any,,,Key,3.82,20,F,F,F,Other
+32717,5a44a9f9,GitHub,e0b41e26,data/e0b41e26/test/5a44a9f9.js,330:330,T,F,9,29,F,F,Any,,,Key,4.32,20,F,F,F,Generic Secret
+32724,5a44a9f9,GitHub,e0b41e26,data/e0b41e26/test/5a44a9f9.js,370:370,T,F,9,29,F,F,Any,,,Key,3.82,20,F,F,F,Generic Secret
 34359,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,474:474,T,F,11,31,F,F,Any,,,Secret,3.57,20,F,F,F,Password
 34363,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,220:220,T,T,11,26,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
 34383,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,449:449,T,T,11,26,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
@@ -51,7 +51,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 35232,508b8489,GitHub,e0b41e26,data/e0b41e26/test/508b8489.js,1319:1319,T,F,18,22,F,F,CharsOnly,,,Secret,2.00,4,F,F,F,Password
 35766,27f723c6,GitHub,e0b41e26,data/e0b41e26/src/27f723c6.js,20:20,T,F,56,86,F,F,Any,,,Token,4.44,30,F,F,F,Generic Token
 35863,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,142:142,T,F,28,58,F,F,Any,,,Token,4.71,30,F,F,F,Generic Token
-35865,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,127:127,T,F,23,43,F,F,Any,,,Key,3.82,20,F,F,F,Other
+35865,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,127:127,T,F,23,43,F,F,Any,,,Key,3.82,20,F,F,F,Generic Secret
 36084,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/9ce19240.yaml,18:18,T,T,10,25,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
 36101,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/9ce19240.yaml,48:48,T,F,10,30,F,F,Any,,,Secret,3.57,20,F,F,F,Password
 36349,0defaa4e,GitHub,e0b41e26,data/e0b41e26/test/0defaa4e.js,60:60,T,F,16,46,F,F,Any,,,Token,4.51,30,F,F,F,Generic Token
@@ -61,7 +61,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 36728,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,504:504,T,F,14,34,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,Predefined Pattern
 36729,2539a395,GitHub,e0b41e26,data/e0b41e26/src/2539a395.yaml,78:78,T,F,13,33,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,Predefined Pattern
 36730,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/9ce19240.yaml,91:91,T,F,13,33,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,Predefined Pattern
-36749,5a44a9f9,GitHub,e0b41e26,data/e0b41e26/test/5a44a9f9.js,399:399,T,F,9,29,F,F,Any,,,Key,3.82,20,F,F,F,Other
+36749,5a44a9f9,GitHub,e0b41e26,data/e0b41e26/test/5a44a9f9.js,399:399,T,F,9,29,F,F,Any,,,Key,3.82,20,F,F,F,Generic Secret
 37125,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,234:234,T,T,11,26,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
 37126,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,242:242,T,T,11,26,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
 37127,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,258:258,T,T,11,26,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Password
@@ -145,13 +145,13 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 132467,a4b52bd0,GitHub,e0b41e26,data/e0b41e26/test/a4b52bd0.js,379:379,T,F,,,F,F,,,,,0.00,,F,F,F,Other
 132468,a4b52bd0,GitHub,e0b41e26,data/e0b41e26/test/a4b52bd0.js,398:398,T,F,,,F,F,,,,,0.00,,F,F,F,Other
 134702,cb7e4c87,GitHub,e0b41e26,data/e0b41e26/src/cb7e4c87.js,16:16,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
-134796,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,495:496,F,F,,,F,F,,,,,0,0,F,F,F,Other
-134797,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,504:505,F,F,,,F,F,,,,,0,0,F,F,F,Other
-134798,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,513:514,F,F,,,F,F,,,,,0,0,F,F,F,Other
-134799,2539a395,GitHub,e0b41e26,data/e0b41e26/src/2539a395.yaml,69:70,F,F,,,F,F,,,,,0,0,F,F,F,Other
-134800,2539a395,GitHub,e0b41e26,data/e0b41e26/src/2539a395.yaml,78:79,F,F,,,F,F,,,,,0,0,F,F,F,Other
-134801,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/9ce19240.yaml,81:82,F,F,,,F,F,,,,,0,0,F,F,F,Other
-134802,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/9ce19240.yaml,91:92,F,F,,,F,F,,,,,0,0,F,F,F,Other
-134803,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,273:274,F,F,,,F,F,,,,,0,0,F,F,F,Other
-134804,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,282:283,F,F,,,F,F,,,,,0,0,F,F,F,Other
-134805,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,579:580,F,F,,,F,F,,,,,0,0,F,F,F,Other
+134796,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,495:496,T,F,14,34,F,F,,,,,0,0,F,F,F,Other
+134797,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,504:505,T,F,14,34,F,F,,,,,0,0,F,F,F,Other
+134798,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,513:514,T,F,12,32,F,F,,,,,0,0,F,F,F,Other
+134799,2539a395,GitHub,e0b41e26,data/e0b41e26/src/2539a395.yaml,69:70,T,F,13,33,F,F,,,,,0,0,F,F,F,Other
+134800,2539a395,GitHub,e0b41e26,data/e0b41e26/src/2539a395.yaml,78:79,T,F,13,33,F,F,,,,,0,0,F,F,F,Other
+134801,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/9ce19240.yaml,81:82,T,F,13,33,F,F,,,,,0,0,F,F,F,Other
+134802,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/9ce19240.yaml,91:92,T,F,13,33,F,F,,,,,0,0,F,F,F,Other
+134803,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,273:274,T,F,14,34,F,F,,,,,0,0,F,F,F,Other
+134804,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,282:283,T,F,14,34,F,F,,,,,0,0,F,F,F,Other
+134805,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,579:580,T,F,14,34,F,F,,,,,0,0,F,F,F,Other
