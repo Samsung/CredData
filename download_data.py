@@ -10,7 +10,7 @@ import string
 import subprocess
 from argparse import ArgumentParser
 from multiprocessing import Pool
-from typing import List, Dict
+from typing import Dict, List
 
 import yaml
 
@@ -89,7 +89,6 @@ def download_and_check(repo_data: dict):
         logger.debug(f"Downloading {repo_url} {commit_sha} in {temp_dir}/{ownername}/{reponame}")
 
     try:
-        # fetch is necessary to test whether the repo available in cached mode
         checkout_command = (
             f"rm -rf {temp_dir}/{ownername}/{reponame}"
             f" && mkdir -p {temp_dir}/{ownername}/{reponame}"
@@ -98,7 +97,7 @@ def download_and_check(repo_data: dict):
             f" && git fetch --depth 1 origin {commit_sha} && git checkout {commit_sha} && git log --oneline -1")
         subprocess.check_call(checkout_command, shell=True)
         logger.info(f"Downloaded {repo_url} {commit_sha}")
-    except (subprocess.CalledProcessError, FileNotFoundError):
+    except subprocess.CalledProcessError:
         logger.error(f"Couldn't checkout repo {temp_dir}/{ownername}/{reponame}. {repo_data}")
         assert False, f"Couldn't checkout repo {temp_dir}/{ownername}/{reponame}. {repo_data}"
         # Remove repo
