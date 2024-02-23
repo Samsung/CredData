@@ -106,7 +106,6 @@ jobs:
 
       - name: Get diff for review
         run: |
-          ls -alt . review_base review_head
           if diff --color=always review_base/review_base.txt review_head/review_head.txt &>review_diff.txt; then
             # avoid failure in diff
             echo "No difference was found"
@@ -116,7 +115,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: review_diff.txt
+          name: review_diff
           path: review_diff.txt
 
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
