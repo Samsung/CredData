@@ -82,7 +82,7 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install --requirement requirements.txt
           python download_data.py --data_dir data
-          python review_data.py &>review_head.txt
+          python review_data.py &>review_base.txt
 
       - name: Upload artifact
         if: always()
@@ -106,7 +106,11 @@ jobs:
 
       - name: Get diff for review
         run: |
-          diff --color=always review_base.txt review_head.txt &>review_diff.txt
+          ls -alt . #dbg
+          if diff --color=always review_base.txt review_head.txt &>review_diff.txt; then
+            # avoid failure in diff
+            echo "No difference was found"
+          fi
 
       - name: Upload artifact
         if: always()
