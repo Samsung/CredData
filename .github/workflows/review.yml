@@ -106,11 +106,8 @@ jobs:
 
       - name: Get diff for review
         run: |
-          hd review_base | head
-          unzip review_base
-          unzip review_head
-          ls -alt . #dbg
-          if diff --color=always review_base.txt review_head.txt &>review_diff.txt; then
+          ls -alt . review_base review_head
+          if diff --color=always review_base/review_base.txt review_head/review_head.txt &>review_diff.txt; then
             # avoid failure in diff
             echo "No difference was found"
           fi
