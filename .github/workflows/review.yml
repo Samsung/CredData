@@ -47,7 +47,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: review_head.txt
+          name: review_head
           path: review_head.txt
 
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -88,7 +88,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: review_base.txt
+          name: review_base
           path: review_base.txt
 
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
@@ -106,6 +106,9 @@ jobs:
 
       - name: Get diff for review
         run: |
+          hd review_base | head
+          unzip review_base
+          unzip review_head
           ls -alt . #dbg
           if diff --color=always review_base.txt review_head.txt &>review_diff.txt; then
             # avoid failure in diff
