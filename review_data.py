@@ -7,10 +7,7 @@ from argparse import ArgumentParser
 from pathlib import Path
 from typing import Dict, List, Optional
 
-from pip._vendor.colorama import Fore, Back, Style
-
-
-# colorama may be not included in older pip, so install it separately
+from colorama import Fore, Back, Style
 
 
 class Cred:
