@@ -87,7 +87,7 @@ def read_data(path, line_start, line_end, value_start, value_end, ground_truth, 
             repo_id = path.split('/')[1]
             subprocess.run(
                 ["sed", "-i",
-                 f"/,{path},{line_start}:{line_end},.*\\/d",
+                 f"/.*{path.split('/')[-1]},{line_start}:{line_end},.*/d",
                  f"meta/{repo_id}.csv"])
     print("\n\n")
 
