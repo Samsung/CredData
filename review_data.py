@@ -9,6 +9,7 @@ from typing import Dict, List, Optional
 
 from colorama import Fore, Back, Style
 
+
 class Cred:
     def __init__(self, cs_cred: dict):
         self.rule = cs_cred["rule"]
@@ -76,17 +77,25 @@ def read_data(path, line_start, line_end, value_start, value_end, ground_truth, 
     print(f"{line_start}:{Style.RESET_ALL}{fore_style}{line}{Style.RESET_ALL}", flush=True)
     if not correct_value_position:
         print("Possible wrong value markup", flush=True)
-        # replace wrong markup if necessary
     if not line_found_in_cred:
         print("Markup was not found in creds in line", flush=True)
-
+        test_line = stripped_line.lower()
+        if not any(
+                x in test_line for x in
+                ["api", "pass", "secret", "pw", "key", "credential", "token", "auth", "nonce", "salt", "cert"]
+        ):
+            repo_id = path.split('/')[1]
+            subprocess.run(
+                ["sed", "-i",
+                 f"/,{path},{line_start}:{line_end},.*\\/d",
+                 f"meta/{repo_id}.csv"])
     print("\n\n")
 
 
 def read_meta(meta_dir, data_dir) -> List[Dict[str, str]]:
     meta = []
     ids = set()
-    dups = []
+    id_dups = []
     for root, dirs, files in os.walk(meta_dir):
         root_path = Path(root)
         for file in files:
@@ -116,11 +125,11 @@ def read_meta(meta_dir, data_dir) -> List[Dict[str, str]]:
                     meta.append(row)
                     if row["Id"] in ids:
                         row_csv = ','.join([str(x) for x in row.values()])
-                        dups.append(row_csv)
+                        id_dups.append(row_csv)
                         print(f"Check id duplication: {row_csv}")
                     else:
                         ids.add(row["Id"])
-    # assert not dups, '\n'.join(dups)
+    assert not id_dups, '\n'.join(id_dups)
     return meta
 
 
