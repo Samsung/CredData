@@ -29,6 +29,9 @@ jobs:
           path: tmp
           key: cred-data-${{ hashFiles('snapshot.yaml') }}
 
+      - name: install ansi2html
+        run: sudo apt update && sudo apt install colorized-logs
+
       - name: Set up Python 3.8
         uses: actions/setup-python@v4
         with:
@@ -42,13 +45,16 @@ jobs:
           git config --global init.defaultBranch work
           python download_data.py --data_dir data
           python review_data.py &>review_head.txt
+          ansi2html --style 'pre {font-family: monospace; font-size: large}' <review_head.txt  >review_head.html
 
       - name: Upload artifact
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: review_head
-          path: review_head.txt
+          path: |
+            review_head.txt
+            review_head.html
 
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
@@ -72,6 +78,9 @@ jobs:
           path: tmp
           key: cred-data-${{ hashFiles('snapshot.yaml') }}
 
+      - name: install ansi2html
+        run: sudo apt update && sudo apt install colorized-logs
+
       - name: Set up Python 3.8
         uses: actions/setup-python@v4
         with:
@@ -83,13 +92,16 @@ jobs:
           python -m pip install --requirement requirements.txt
           python download_data.py --data_dir data
           python review_data.py &>review_base.txt
+          ansi2html --style 'pre {font-family: monospace; font-size: large}' <review_base.txt  >review_base.html
 
       - name: Upload artifact
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: review_base
-          path: review_base.txt
+          path: |
+            review_base.txt
+            review_base.html
 
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
@@ -101,14 +113,19 @@ jobs:
 
     steps:
 
+      - name: install ansi2html
+        run: sudo apt update && sudo apt install colorized-logs
+
       - name: Download all workflow run artifacts
         uses: actions/download-artifact@v4
 
       - name: Get diff for review
         run: |
-          if diff --color=always review_base/review_base.txt review_head/review_head.txt &>review_diff.txt; then
-            # avoid failure in diff
-            echo "No difference was found"
+          # in case of difference - diff returns failure
+          if ! diff --color=always review_base/review_base.txt review_head/review_head.txt &>review_diff.txt; then
+            ansi2html --style 'pre {font-family: monospace; font-size: large}' <review_diff.txt  >review_diff.html
+          else
+            touch review_diff.html
           fi
 
       - name: Upload artifact
@@ -116,6 +133,8 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: review_diff
-          path: review_diff.txt
+          path: |
+            review_diff.txt
+            review_diff.html
 
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
