@@ -78,6 +78,7 @@ def read_data(path, line_start, line_end, value_start, value_end, ground_truth, 
     if not correct_value_position:
         print("Possible wrong value markup", flush=True)
     if not line_found_in_cred:
+        # todo: an activity to fine-tune markup
         print("Markup was not found in creds in line", flush=True)
         test_line = stripped_line.lower()
         if not any(
@@ -89,6 +90,7 @@ def read_data(path, line_start, line_end, value_start, value_end, ground_truth, 
                 ["sed", "-i",
                  f"/.*{path.split('/')[-1]},{line_start}:{line_end},.*/d",
                  f"meta/{repo_id}.csv"])
+
     print("\n\n")
 
 
