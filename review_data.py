@@ -7,10 +7,7 @@ from argparse import ArgumentParser
 from pathlib import Path
 from typing import Dict, List, Optional
 
-from pip._vendor.colorama import Fore, Back, Style
-
-
-# colorama may be not included in older pip, so install it separately
+from colorama import Fore, Back, Style
 
 
 class Cred:
@@ -35,61 +32,64 @@ class Cred:
 def read_data(path, line_start, line_end, value_start, value_end, ground_truth, creds: List[Cred]):
     with open(path, "r", encoding="utf8") as f:
         lines = f.readlines()
-        if line_start == line_end:
-            line = lines[line_start - 1]
-        else:
-            line = ''.join(lines[line_start - 1:line_end])
-        if 'T' == ground_truth:
-            fore_style = Fore.GREEN
-        elif 'F' == ground_truth:
-            fore_style = Fore.RED
-        elif 'Template' == ground_truth:
-            fore_style = Fore.MAGENTA
-        elif 'X' == ground_truth:
-            fore_style = Fore.LIGHTRED_EX
-        else:
-            raise RuntimeError(f"Unknown type {ground_truth}")
-        stripped_line = line.lstrip()
+    if line_start == line_end:
+        line = lines[line_start - 1]
+    else:
+        line = ''.join(lines[line_start - 1:line_end])
+    if 'T' == ground_truth:
+        fore_style = Fore.GREEN
+    elif 'F' == ground_truth:
+        fore_style = Fore.RED
+    elif 'Template' == ground_truth:
+        fore_style = Fore.MAGENTA
+    elif 'X' == ground_truth:
+        fore_style = Fore.LIGHTRED_EX
+    else:
+        raise RuntimeError(f"Unknown type {ground_truth}")
+    stripped_line = line.lstrip()
 
-        line_found_in_cred = False
-        correct_value_position = False
-        if creds:
-            for cred in creds:
-                if cred.path == path:
-                    if line_start == cred.line_start:
-                        line_found_in_cred = True
-                        # print all creds we found
-                        print(
-                            f"{cred.rule},{line_start}:{cred.strip_value_start},{cred.strip_value_end}:{Style.RESET_ALL}"
-                            f"{line[:cred.value_start]}{Back.LIGHTRED_EX}{line[cred.value_start:cred.value_end]}"
-                            f"{Style.RESET_ALL}{line[cred.value_end:]}", flush=True)
-                        if 0 <= value_start == cred.strip_value_start and 0 <= value_end == cred.strip_value_end:
-                            correct_value_position = True
-                        elif 0 <= value_start == cred.strip_value_start:
-                            correct_value_position = True
-        else:
-            line_found_in_cred = True
-            correct_value_position = True
+    line_found_in_cred = False
+    correct_value_position = False
+    if creds:
+        for cred in creds:
+            if cred.path == path:
+                if line_start == cred.line_start:
+                    line_found_in_cred = True
+                    # print all creds we found
+                    print(
+                        f"{cred.rule},{line_start}:{cred.strip_value_start},{cred.strip_value_end}:{Style.RESET_ALL}"
+                        f"{line[:cred.value_start]}{Back.LIGHTRED_EX}{line[cred.value_start:cred.value_end]}"
+                        f"{Style.RESET_ALL}{line[cred.value_end:]}", flush=True)
+                    if 0 <= value_start == cred.strip_value_start and 0 <= value_end == cred.strip_value_end:
+                        correct_value_position = True
+                    elif 0 <= value_start == cred.strip_value_start:
+                        correct_value_position = True
+    else:
+        line_found_in_cred = True
+        correct_value_position = True
 
-        if 0 <= value_start and 0 <= value_end:
-            line = stripped_line[:value_start] + Back.LIGHTYELLOW_EX + \
-                   stripped_line[value_start:value_end] + Style.RESET_ALL + \
-                   fore_style + stripped_line[value_end:]
-        else:
-            line = stripped_line
-        print(f"{line_start}:{Style.RESET_ALL}{fore_style}{line}{Style.RESET_ALL}", flush=True)
-        if not correct_value_position:
-            print("Possible wrong value markup", flush=True)
-            # replace wrong markup if necessary
-            if 'Template' == ground_truth:
-                repo_id = path.split('/')[1]
-                subprocess.run(
-                    ["sed", "-i",
-                     f"s|,{path},{line_start}:{line_end},Template,|,{path},{line_start}:{line_end},X,|",
-                     f"meta/{repo_id}.csv"])
-        if not line_found_in_cred:
-            print("Markup was not found in creds in line", flush=True)
-            # assert 0
+    if 0 <= value_start and 0 <= value_end:
+        line = stripped_line[:value_start] + Back.LIGHTYELLOW_EX + \
+               stripped_line[value_start:value_end] + Style.RESET_ALL + \
+               fore_style + stripped_line[value_end:]
+    else:
+        line = stripped_line
+    print(f"{line_start}:{Style.RESET_ALL}{fore_style}{line}{Style.RESET_ALL}", flush=True)
+    if not correct_value_position:
+        print("Possible wrong value markup", flush=True)
+    if not line_found_in_cred:
+        # todo: an activity to fine-tune markup
+        print("Markup was not found in creds in line", flush=True)
+        test_line = stripped_line.lower()
+        if not any(
+                x in test_line for x in
+                ["api", "pass", "secret", "pw", "key", "credential", "token", "auth", "nonce", "salt", "cert"]
+        ):
+            repo_id = path.split('/')[1]
+            subprocess.run(
+                ["sed", "-i",
+                 f"/.*{path.split('/')[-1]},{line_start}:{line_end},.*/d",
+                 f"meta/{repo_id}.csv"])
 
     print("\n\n")
 
@@ -97,7 +97,7 @@ def read_data(path, line_start, line_end, value_start, value_end, ground_truth, 
 def read_meta(meta_dir, data_dir) -> List[Dict[str, str]]:
     meta = []
     ids = set()
-    dups = []
+    id_dups = []
     for root, dirs, files in os.walk(meta_dir):
         root_path = Path(root)
         for file in files:
@@ -107,6 +107,7 @@ def read_meta(meta_dir, data_dir) -> List[Dict[str, str]]:
             with open(root_path / file, newline="") as f:
                 reader = csv.DictReader(f)
                 for row in reader:
+                    assert 22 == len(row), row
                     # verify correctness of data
                     file_path = row["FilePath"]
                     if file_path.startswith("data/"):
@@ -126,15 +127,15 @@ def read_meta(meta_dir, data_dir) -> List[Dict[str, str]]:
                     meta.append(row)
                     if row["Id"] in ids:
                         row_csv = ','.join([str(x) for x in row.values()])
-                        dups.append(row_csv)
+                        id_dups.append(row_csv)
                         print(f"Check id duplication: {row_csv}")
                     else:
                         ids.add(row["Id"])
-    assert not dups, '\n'.join(dups)
+    assert not id_dups, '\n'.join(id_dups)
     return meta
 
 
-def main(meta_dir, data_dir, data_filter, load_json: Optional[str] = None):
+def main(meta_dir, data_dir, data_filter, load_json: Optional[str] = None, category: Optional[str] = None):
     if not os.path.exists(meta_dir):
         raise FileExistsError(f"{meta_dir} directory does not exist.")
     if not os.path.exists(data_dir):
@@ -150,6 +151,8 @@ def main(meta_dir, data_dir, data_filter, load_json: Optional[str] = None):
     shown_rows = set()
     for row in meta:
         if not data_filter[row["GroundTruth"]]:
+            continue
+        if category and not category == row["Category"]:
             continue
 
         displayed_rows += 1
@@ -191,6 +194,7 @@ if __name__ == "__main__":
     parser.add_argument("-t", help="Show Template markup", action="store_true")
     parser.add_argument("-X", help="Show X markup", action="store_true")
     parser.add_argument("--load", help="Load json report from CredSweeper", nargs='?')
+    parser.add_argument("--category", help="Filter only with the category", nargs='?')
     _args = parser.parse_args()
 
     _data_filter = {"Other": False}
@@ -204,7 +208,7 @@ if __name__ == "__main__":
         _data_filter["F"] = _args.F
         _data_filter["Template"] = _args.t
         _data_filter["X"] = _args.X
-    exit_code = main(_args.meta_dir, _args.data_dir, _data_filter, _args.load)
+    exit_code = main(_args.meta_dir, _args.data_dir, _data_filter, _args.load, _args.category)
     sys.exit(exit_code)
 
 # use review with 'less'
