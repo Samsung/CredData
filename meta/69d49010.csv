@@ -41,7 +41,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 29334,1b7e760f,GitHub,69d49010,data/69d49010/test/1b7e760f,8:8,Template,F,41,47,F,F,Any,,,Unknown,2.12,7,F,F,F,Password
 29392,1b7e760f,GitHub,69d49010,data/69d49010/test/1b7e760f,11:11,Template,F,53,59,F,F,Any,,,Unknown,2.25,6,F,F,F,Password
 29871,1b7e760f,GitHub,69d49010,data/69d49010/test/1b7e760f,18:18,Template,F,35,41,F,F,Any,,,Unknown,2.12,7,F,F,F,Password
-30497,85d52436,GitHub,69d49010,data/69d49010/test/85d52436.py,236:236,F,T,55,61,F,F,CharsOnly,,,Unknown,2.25,6,F,F,F,Other
+30497,85d52436,GitHub,69d49010,data/69d49010/test/85d52436.py,236:236,T,T,55,61,F,F,CharsOnly,,,Unknown,2.25,6,F,F,F,Password
 30570,85d52436,GitHub,69d49010,data/69d49010/test/85d52436.py,248:248,Template,T,31,37,F,F,Any,,,Secret,3.63,23,F,F,F,Password
 30571,85d52436,GitHub,69d49010,data/69d49010/test/85d52436.py,234:234,Template,T,30,36,F,F,Any,,,Unknown,3.73,22,F,F,F,Password
 30628,53be66ac,GitHub,69d49010,data/69d49010/src/53be66ac.py,373:373,Template,F,16,19,F,F,CharsOnly,,,Secret,0,3,F,F,F,Password
@@ -113,7 +113,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 56071,e9271360,GitHub,69d49010,data/69d49010/test/e9271360.py,38:38,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 56603,53be66ac,GitHub,69d49010,data/69d49010/src/53be66ac.py,177:177,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 56604,4ed5ad38,GitHub,69d49010,data/69d49010/src/4ed5ad38.py,912:912,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-63134,85d52436,GitHub,69d49010,data/69d49010/test/85d52436.py,257:257,F,T,55,61,F,F,CharsOnly,,,Unknown,2.25,6,F,F,F,Other
+63134,85d52436,GitHub,69d49010,data/69d49010/test/85d52436.py,257:257,T,T,55,61,F,F,CharsOnly,,,Unknown,2.25,6,F,F,F,Password
 64418,50261f6e,GitHub,69d49010,data/69d49010/test/50261f6e.py,57:57,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 74363,234bac3c,GitHub,69d49010,data/69d49010/test/234bac3c.py,184:184,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 81718,057ca7ba,GitHub,69d49010,data/69d49010/test/057ca7ba.py,53:53,F,F,15,33,F,F,,,,,0,0,F,F,F,Generic Secret
