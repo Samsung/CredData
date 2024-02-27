@@ -20,32 +20,6 @@ logging.basicConfig(
 logger = logging.getLogger(__file__)
 
 
-def int2ascii(x, digs=string.ascii_lowercase):
-    # Based on example from https://stackoverflow.com/a/2267446
-    base = len(digs)
-
-    if x < 0:
-        sign = -1
-    elif x == 0:
-        return digs[0]
-    else:
-        sign = 1
-
-    x *= sign
-    digits = []
-
-    while x:
-        digits.append(digs[int(x % base)])
-        x = int(x / base)
-
-    if sign < 0:
-        digits.append('-')
-
-    digits.reverse()
-
-    return ''.join(digits)
-
-
 def get_file_type(file_path: str, file_extension: str):
     file_path = file_path.lower()
 
@@ -207,12 +181,10 @@ def move_files(temp_dir, dataset_dir):
             _, file_extension = os.path.splitext(full_path)
             file_type = get_file_type(short_path, file_extension)
             file_id = hashlib.sha256(short_path.encode()).hexdigest()[:8]
-            old_file_id = int2ascii(j)
-            logger.debug(f"{full_path} -> {file_id} OLD:{old_file_id}")
+            logger.debug(f"{full_path} -> {file_id}")
 
             code_file_basebir = f'{dataset_dir}/{new_repo_id}/{file_type}'
             code_file_location = f'{code_file_basebir}/{file_id}{file_extension}'
-            old_code_file_location = f'{code_file_basebir}/{old_file_id}{file_extension}'
 
             with open(meta_file_path) as csvfile:
                 meta_reader = csv.DictReader(csvfile)
@@ -221,7 +193,7 @@ def move_files(temp_dir, dataset_dir):
                         logger.debug(row)
                         break
                 else:
-                    logger.error(row, code_file_location, old_code_file_location)
+                    logger.error(row, code_file_location)
                     assert 0
 
             os.makedirs(code_file_basebir, exist_ok=True)
