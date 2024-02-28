@@ -174,7 +174,7 @@ def main(meta_dir, data_dir, data_filter, load_json: Optional[str] = None, categ
         except Exception as exc:
             print(f"Failure {row}", exc, flush=True)
             raise
-        row_str = f"{file_path},{line_start}:{line_end}"
+        row_str = f"{file_path},{line_start}:{line_end},{value_start},{value_end}"
         if row_str in shown_rows:
             print(f"Duplicate row {row}", flush=True)
             break
