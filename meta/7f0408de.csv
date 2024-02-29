@@ -42,8 +42,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 17912,d84ee876,GitHub,7f0408de,data/7f0408de/src/d84ee876.sh,58:58,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 17939,ab02d59e,GitHub,7f0408de,data/7f0408de/src/ab02d59e.sh,39:39,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 18437,abfe0f70,GitHub,7f0408de,data/7f0408de/other/abfe0f70.md,419:419,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-18438,e15fd91c,GitHub,7f0408de,data/7f0408de/other/e15fd91c.md,45:45,T,T,155,234,F,F,Any,,,Secret,4.46,79,F,F,F,Password
-18439,e15fd91c,GitHub,7f0408de,data/7f0408de/other/e15fd91c.md,46:46,T,T,407,485,F,F,Any,,,Secret,4.48,78,F,F,F,Password
+18438,e15fd91c,GitHub,7f0408de,data/7f0408de/other/e15fd91c.md,45:45,T,T,155,160,F,F,Any,,,Secret,4.46,5,F,F,F,Password
+18439,e15fd91c,GitHub,7f0408de,data/7f0408de/other/e15fd91c.md,46:46,T,T,407,412,F,F,Any,,,Secret,4.48,5,F,F,F,Password
 18449,5f0d7466,GitHub,7f0408de,data/7f0408de/other/5f0d7466.md,164:164,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 18492,5f0d7466,GitHub,7f0408de,data/7f0408de/other/5f0d7466.md,236:236,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 18493,5f0d7466,GitHub,7f0408de,data/7f0408de/other/5f0d7466.md,239:239,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -162,7 +162,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 50334,f9c0323e,GitHub,7f0408de,data/7f0408de/other/f9c0323e.md,92:92,Template,F,6,12,F,F,NumbersOnly,,,Secret,2.58,6,F,F,F,Password
 56955,5f0d7466,GitHub,7f0408de,data/7f0408de/other/5f0d7466.md,14:14,Template,F,18,29,F,F,Any,,,Secret,3.14,11,F,F,F,Password
 56956,ea71d1c9,GitHub,7f0408de,data/7f0408de/other/ea71d1c9.md,14:14,Template,F,23,32,F,F,Any,,,Secret,3.17,9,F,F,F,Password
-63873,372e9b20,GitHub,7f0408de,data/7f0408de/other/372e9b20.md,201:201,T,T,12,17,F,F,CharOnly,,,Secret,2.32,5,F,F,F,Password
+63873,372e9b20,GitHub,7f0408de,data/7f0408de/other/372e9b20.md,201:201,T,T,27,32,F,F,CharOnly,,,Secret,2.32,5,F,F,F,Password
 63874,372e9b20,GitHub,7f0408de,data/7f0408de/other/372e9b20.md,200:200,Template,T,12,16,F,F,CharOnly,,,Secret,1.50,4,F,F,F,Password
 107239,aea989ce,GitHub,7f0408de,data/7f0408de/other/aea989ce.md,85:85,Template,T,29,64,F,F,Any,,,Secret,3.50,35,F,F,F,Generic Secret
 107240,aea989ce,GitHub,7f0408de,data/7f0408de/other/aea989ce.md,86:86,Template,T,33,68,F,F,Any,,,Secret,3.50,35,F,F,F,Generic Secret
