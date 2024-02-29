@@ -122,7 +122,7 @@ jobs:
       - name: Get diff for review
         run: |
           # in case of difference - diff returns failure
-          if ! diff --color=always review_base/review_base.txt review_head/review_head.txt &>review_diff.txt; then
+          if ! diff --color=auto review_base/review_base.txt review_head/review_head.txt &>review_diff.txt; then
             ansi2html --style 'pre {font-family: monospace; font-size: large}' <review_diff.txt  >review_diff.html
           else
             touch review_diff.html
