@@ -1,9 +1,10 @@
 import csv
 import dataclasses
 import os
-import tabulate
 from abc import ABC, abstractmethod
 from typing import Tuple, Dict, List, Any
+
+import tabulate
 
 from benchmark.common import GitService, LineStatus, Result
 from benchmark.scanner.true_false_counter import TrueFalseCounter
@@ -43,6 +44,9 @@ class Scanner(ABC):
         for root, dirs, files in os.walk(f"{self.cred_data_dir}/meta"):
             for file in files:
                 with open(f"{root}/{file}", newline="") as f:
+                    if not file.endswith(".csv"):
+                        # git garbage files *.orig
+                        continue
                     reader = csv.DictReader(f)
                     for row in reader:
                         _, file_type = os.path.splitext(row["FilePath"])

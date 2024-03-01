@@ -294,7 +294,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 9455,3036e7bd,GitHub,0f133e09,data/0f133e09/test/3036e7bd.txt,21:21,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 9456,b95c8f2d,GitHub,0f133e09,data/0f133e09/test/b95c8f2d.txt,21:21,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 9457,0a0609f6,GitHub,0f133e09,data/0f133e09/test/0a0609f6.txt,21:21,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
-9458,bd93aa07,GitHub,0f133e09,data/0f133e09/test/bd93aa07.txt,10:10,T,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+9458,bd93aa07,GitHub,0f133e09,data/0f133e09/test/bd93aa07.txt,10:10,T,F,5299,5328,F,F,,,,,0,0,F,F,F,Authentication Credentials
 9459,4c239cf2,GitHub,0f133e09,data/0f133e09/test/4c239cf2.txt,21:21,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 9460,b65925df,GitHub,0f133e09,data/0f133e09/test/b65925df.txt,21:21,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 9461,ba4151e1,GitHub,0f133e09,data/0f133e09/test/ba4151e1.txt,10:10,F,F,,,F,F,,,,,0,0,F,F,F,Other
@@ -592,7 +592,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 10270,e10f1e23,GitHub,0f133e09,data/0f133e09/test/e10f1e23.txt,65:65,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 10271,0a9962e7,GitHub,0f133e09,data/0f133e09/test/0a9962e7.txt,32:32,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 10272,d29d3e50,GitHub,0f133e09,data/0f133e09/test/d29d3e50.txt,32:32,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-10273,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,285:285,T,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+10273,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,285:285,T,F,288,308,F,F,,,,,0,0,F,F,F,Generic Token
 10274,86ef70d4,GitHub,0f133e09,data/0f133e09/test/86ef70d4.txt,32:32,F,F,,,F,F,,,,,0,0,F,F,F,Other
 10275,3c654d2d,GitHub,0f133e09,data/0f133e09/test/3c654d2d.txt,65:65,F,F,,,F,F,,,,,0,0,F,F,F,Other
 10276,f46f26a2,GitHub,0f133e09,data/0f133e09/test/f46f26a2.txt,65:65,F,F,,,F,F,,,,,0,0,F,F,F,Other
@@ -1664,7 +1664,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 50432,5badb894,GitHub,0f133e09,data/0f133e09/test/5badb894.txt,10:10,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 50433,b1dd7266,GitHub,0f133e09,data/0f133e09/test/b1dd7266.txt,10:10,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 50435,e3e10fba,GitHub,0f133e09,data/0f133e09/test/e3e10fba.txt,10:10,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-50436,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,494:494,T,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+50436,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,494:494,T,F,287,307,F,F,,,,,0,0,F,F,F,Generic Token
 50437,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,435:435,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 50438,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,402:402,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 50439,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,347:347,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
@@ -1698,7 +1698,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 74648,d266e2f8,GitHub,0f133e09,data/0f133e09/test/d266e2f8.py,199:199,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 76955,51cb0d0f,GitHub,0f133e09,data/0f133e09/test/51cb0d0f.txt,21:21,F,F,,,F,F,,,,,0,0,F,F,F,Other
 76964,8ef19577,GitHub,0f133e09,data/0f133e09/test/8ef19577.txt,21:21,F,F,,,F,F,,,,,0,0,F,F,F,Other
-76965,8dd92670,GitHub,0f133e09,data/0f133e09/test/8dd92670.txt,21:21,T,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+76965,8dd92670,GitHub,0f133e09,data/0f133e09/test/8dd92670.txt,21:21,T,F,5299,5328,F,F,,,,,0,0,F,F,F,Authentication Credentials
 76966,2c6edd7f,GitHub,0f133e09,data/0f133e09/test/2c6edd7f.txt,21:21,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 76967,0b0d292f,GitHub,0f133e09,data/0f133e09/test/0b0d292f.txt,21:21,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 76968,8bfa1e8d,GitHub,0f133e09,data/0f133e09/test/8bfa1e8d.txt,21:21,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
