@@ -314,7 +314,8 @@ def replace_rows(data: List[Dict[str, str]]):
 
         predefined_pattern = row["PredefinedPattern"]
         value = old_line[indentation + value_start:indentation + value_end]
-        random.seed(line_start ^ int(row["FileID"], 16))
+        # credsweeper does not scan lines over 8000 symbols, so 1<<13 is enough
+        random.seed((line_start << 13 + value_start) ^ int(row["FileID"], 16))
         obfuscated_value = get_obfuscated_value(value, predefined_pattern)
         new_line = old_line[:indentation + value_start] + obfuscated_value + old_line[indentation + value_end:]
 
