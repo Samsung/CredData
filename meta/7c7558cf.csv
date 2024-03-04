@@ -1,10 +1,8 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-5,1ea02434,Github,7c7558cf,data/7c7558cf/other/1ea02434,40:40,F,F,37,41,F,F,,,,,,4,F,F,F,Authentication Credentials
+5,1ea02434,Github,7c7558cf,data/7c7558cf/other/1ea02434,40:40,F,F,47,51,T,F,,,,,,4,F,F,F,Authentication Credentials
 12,018118e4,Github,7c7558cf,data/7c7558cf/src/018118e4.py,13:13,F,F,12,24,F,F,,,,,,12,F,T,F,Other
-15,024426f1,Github,7c7558cf,data/7c7558cf/src/024426f1.yml,20:20,F,F,31,39,F,F,,,,,,8,F,F,F,Password
+15,024426f1,Github,7c7558cf,data/7c7558cf/src/024426f1.yml,20:20,T,F,31,39,F,F,,,,,,8,F,F,F,Password
 16,024426f1,Github,7c7558cf,data/7c7558cf/src/024426f1.yml,52:52,F,F,31,51,F,F,,,T,,,20,F,F,F,Predefined Pattern
-17,024426f1,Github,7c7558cf,data/7c7558cf/src/024426f1.yml,53:53,F,F,35,75,F,F,,,T,,,40,F,F,F,Predefined Pattern
-18,024426f1,Github,7c7558cf,data/7c7558cf/src/024426f1.yml,53:53,F,F,35,75,F,F,,,,,,40,T,F,F,Other
 21,024426f1,Github,7c7558cf,data/7c7558cf/src/024426f1.yml,53:53,F,F,35,75,F,F,,,,,,40,F,F,F,Password
 22,024426f1,Github,7c7558cf,data/7c7558cf/src/024426f1.yml,54:54,F,F,55,63,F,F,,,,,,8,F,F,F,Authentication Credentials
 31,2dbb7585,Github,7c7558cf,data/7c7558cf/src/2dbb7585.py,12:12,F,F,12,24,F,F,,,,,,12,F,T,F,Other
@@ -43,8 +41,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 130,c65b9371,Github,7c7558cf,data/7c7558cf/src/c65b9371.py,259:259,F,F,18,38,F,F,,,,,,20,F,F,F,Password
 131,c7e23c27,Github,7c7558cf,data/7c7558cf/src/c7e23c27.yml,24:24,F,F,29,37,F,F,,,,,,8,F,F,F,Password
 132,c7e23c27,Github,7c7558cf,data/7c7558cf/src/c7e23c27.yml,59:59,F,F,31,51,F,F,,,T,,,20,F,F,F,Predefined Pattern
-140,c7e23c27,Github,7c7558cf,data/7c7558cf/src/c7e23c27.yml,60:60,F,F,35,75,F,F,,,T,,,40,F,F,F,Predefined Pattern
-144,c7e23c27,Github,7c7558cf,data/7c7558cf/src/c7e23c27.yml,60:60,F,F,35,75,F,F,,,,,,40,T,F,F,Other
 145,c7e23c27,Github,7c7558cf,data/7c7558cf/src/c7e23c27.yml,60:60,F,F,35,75,F,F,,,,,,40,F,F,F,Password
 146,c7e23c27,Github,7c7558cf,data/7c7558cf/src/c7e23c27.yml,61:61,F,F,54,62,F,F,,,,,,8,F,F,F,Authentication Credentials
 147,c95d339e,Github,7c7558cf,data/7c7558cf/src/c95d339e.py,13:13,F,F,12,24,F,F,,,,,,12,F,T,F,Other
@@ -92,8 +88,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 233,d19577f2,Github,7c7558cf,data/7c7558cf/test/d19577f2.py,58:58,F,F,42,50,F,F,,,,,,8,F,F,F,Password
 236,d9540f8f,Github,7c7558cf,data/7c7558cf/test/d9540f8f.py,26:26,F,F,39,47,F,F,,,,,,8,F,F,F,Password
 237,d9540f8f,Github,7c7558cf,data/7c7558cf/test/d9540f8f.py,92:92,F,F,41,67,F,F,,,,,,26,F,F,F,Password
-239,e09719bd,Github,7c7558cf,data/7c7558cf/test/e09719bd.py,22:22,F,F,47,87,F,F,,,T,,,40,F,F,F,Predefined Pattern
-240,e09719bd,Github,7c7558cf,data/7c7558cf/test/e09719bd.py,22:22,F,F,47,87,F,F,,,,,,40,T,F,F,Other
 242,e09719bd,Github,7c7558cf,data/7c7558cf/test/e09719bd.py,22:22,F,F,47,87,F,F,,,,,,40,F,F,F,Password
 244,e6784891,Github,7c7558cf,data/7c7558cf/test/e6784891.py,66:66,F,F,25,33,F,F,,,,,,8,F,F,F,Password
 245,eec6ccc1,Github,7c7558cf,data/7c7558cf/test/eec6ccc1.py,56:56,F,F,56,68,F,F,,,,,,12,F,F,F,Password
