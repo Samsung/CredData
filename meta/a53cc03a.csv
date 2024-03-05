@@ -59,7 +59,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 25098,6ac9e39a,GitHub,a53cc03a,data/a53cc03a/test/6ac9e39a.py,12:12,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 25732,9874ea4e,GitHub,a53cc03a,data/a53cc03a/test/9874ea4e.py,18:18,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 25749,2c36e900,GitHub,a53cc03a,data/a53cc03a/test/2c36e900.py,13:13,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-26842,c25b8370,GitHub,a53cc03a,data/a53cc03a/test/c25b8370.py,33:33,F,F,,,F,F,,,,,0,0,F,F,F,Password
+26842,c25b8370,GitHub,a53cc03a,data/a53cc03a/test/c25b8370.py,33:33,T,F,10,20,F,F,,,,,0,0,F,F,F,Password
 29639,47d2f5c3,GitHub,a53cc03a,data/a53cc03a/test/47d2f5c3.template,20:20,T,F,13,23,F,F,Any,,,Secret,2.59,10,F,F,F,Password
 31127,257b71bf,GitHub,a53cc03a,data/a53cc03a/test/257b71bf.py,11:11,Template,F,46,74,F,F,Any,,,Unknown,2.46,28,F,F,F,Other
 31165,0f44be5f,GitHub,a53cc03a,data/a53cc03a/test/0f44be5f.py,28:28,Template,T,20,32,F,F,CharsOnly,,,Secret,3.25,12,F,F,F,Password

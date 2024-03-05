@@ -923,7 +923,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 27342,eb0705d8,GitHub,2ba83c6a,data/2ba83c6a/other/eb0705d8.pod,460:460,Template,F,52,68,F,F,Any,,,Secret,3.88,16,F,F,F,Generic Secret
 27386,dc676919,GitHub,2ba83c6a,data/2ba83c6a/test/dc676919.txt,1:1,F,F,32,37,F,F,,,,,0,0,F,F,F,Generic Secret
 27407,6cfa362d,GitHub,2ba83c6a,data/2ba83c6a/src/6cfa362d.cnf,344:344,Template,T,9,19,F,F,Any,,,Secret,2.31,10,F,F,F,Password
-27425,23d50951,GitHub,2ba83c6a,data/2ba83c6a/src/23d50951.cnf,358:358,T,T,9,36,F,F,Any,,,Secret,2.52,27,F,F,F,Password
+27425,23d50951,GitHub,2ba83c6a,data/2ba83c6a/src/23d50951.cnf,358:358,T,T,9,23,F,F,Any,,,Secret,2.52,14,F,F,F,Password
 27489,a3cf7bc8,GitHub,2ba83c6a,data/2ba83c6a/test/a3cf7bc8.txt,298:298,F,F,6,24,F,F,,,,,0,0,F,F,F,Generic Secret
 27490,a3cf7bc8,GitHub,2ba83c6a,data/2ba83c6a/test/a3cf7bc8.txt,282:282,F,F,6,14,F,F,,,,,0,0,F,F,F,Generic Secret
 27491,b40503ed,GitHub,2ba83c6a,data/2ba83c6a/test/b40503ed.txt,154:154,F,F,6,11,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -10044,3 +10044,4 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 133242,f46d3088,GitHub,2ba83c6a,data/2ba83c6a/test/f46d3088.c,2442:2442,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 133243,f46d3088,GitHub,2ba83c6a,data/2ba83c6a/test/f46d3088.c,2589:2589,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 133244,f46d3088,GitHub,2ba83c6a,data/2ba83c6a/test/f46d3088.c,2707:2707,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+100008,07d8fbd6,GitHub,2ba83c6a,data/2ba83c6a/test/07d8fbd6.t,71:71,T,F,89,117,F,F,,,,,2.8,,F,T,F,Generic Secret

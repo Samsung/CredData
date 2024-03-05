@@ -111,7 +111,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 24670,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,6180:6180,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 24676,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,6026:6026,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 24860,9418d4fb,GitHub,6c73b80a,data/6c73b80a/src/9418d4fb.go,1606:1606,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-25158,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,737:737,T,T,26,31,F,F,Any,,,Secret,2.32,5,F,F,F,Password
+25158,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,737:737,T,T,45,50,F,F,Any,,,Secret,2.32,5,F,F,F,Password
 25348,6460c9a4,GitHub,6c73b80a,data/6c73b80a/src/6460c9a4.go,2121:2121,F,F,,,F,F,,,,,0,0,F,F,F,Password
 26181,6c46bf4a,GitHub,6c73b80a,data/6c73b80a/src/6c46bf4a.go,247:247,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 26187,932778a5,GitHub,6c73b80a,data/6c73b80a/src/932778a5.go,288:288,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -448,7 +448,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 36741,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,4145:4145,T,T,35,43,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
 37021,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,3723:3723,Template,T,11,15,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
 37050,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,259:259,T,T,17,25,F,F,CharsOnly,,,Secret,2.50,8,F,F,F,Password
-37051,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,294:294,T,T,17,25,F,F,CharsOnly,,,Secret,2.50,8,F,F,F,Password
+37051,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,294:294,T,T,15,23,F,F,CharsOnly,,,Secret,2.50,8,F,F,F,Password
 37052,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1254:1254,T,T,17,25,F,F,CharsOnly,,,Secret,2.50,8,F,F,F,Password
 37064,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1422:1422,T,T,39,47,F,F,Any,,,Secret,1.25,8,F,F,F,Password
 37065,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1491:1491,T,T,39,47,F,F,Any,,,Secret,1.25,8,F,F,F,Password
@@ -828,3 +828,4 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 134815,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,3916:3916,T,F,40,47,F,F,,,Info,,0,0,F,F,F,Other
 134816,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,3918:3918,T,F,40,47,F,F,,,Info,,0,0,F,F,F,Other
 134817,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,3919:3919,T,F,41,48,F,F,,,Info,,0,0,F,F,F,Other
+134818,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,325:325,T,F,41,48,F,F,Any,,,Secret,2.52,7,F,F,F,Password
