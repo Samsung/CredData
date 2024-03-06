@@ -1,14 +1,11 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-5,1ea02434,Github,7c7558cf,data/7c7558cf/other/1ea02434,40:40,F,F,46,50,T,F,,,,,,4,F,F,F,Authentication Credentials
-12,018118e4,Github,7c7558cf,data/7c7558cf/src/018118e4.py,13:13,F,F,12,24,F,F,,,,,,12,F,T,F,Generic Secret
+5,1ea02434,Github,7c7558cf,data/7c7558cf/other/1ea02434,40:40,T,F,46,50,T,F,,,,,,4,F,F,F,Authentication Credentials
 15,024426f1,Github,7c7558cf,data/7c7558cf/src/024426f1.yml,20:20,T,F,21,29,F,F,,,,,,8,F,F,F,Password
 16,024426f1,Github,7c7558cf,data/7c7558cf/src/024426f1.yml,52:52,T,F,19,39,F,F,,,T,,,20,F,F,F,Predefined Pattern
-21,024426f1,Github,7c7558cf,data/7c7558cf/src/024426f1.yml,53:53,T,F,23,63,F,F,,,,,,40,F,F,F,Password
+21,024426f1,Github,7c7558cf,data/7c7558cf/src/024426f1.yml,53:53,T,F,23,63,F,F,,,,,,40,F,F,F,Generic Secret
 22,024426f1,Github,7c7558cf,data/7c7558cf/src/024426f1.yml,54:54,T,F,43,51,T,F,,,,,,8,F,F,F,Authentication Credentials
-36,2dbb7585,Github,7c7558cf,data/7c7558cf/src/2dbb7585.py,13:13,F,F,17,29,F,F,,,,,,12,F,T,F,Generic Secret
-77,81d08e8b,Github,7c7558cf,data/7c7558cf/src/81d08e8b.py,167:167,F,F,1,13,F,F,,,,,,12,F,T,F,Generic Secret
 126,c1f51cea,Github,7c7558cf,data/7c7558cf/src/c1f51cea.yml,41:41,T,F,19,39,F,F,,,T,,,20,F,F,F,Predefined Pattern
-129,c1f51cea,Github,7c7558cf,data/7c7558cf/src/c1f51cea.yml,42:42,T,F,24,64,F,F,,,,,,40,F,F,F,Password
+129,c1f51cea,Github,7c7558cf,data/7c7558cf/src/c1f51cea.yml,42:42,T,F,23,63,F,F,,,,,,40,F,F,F,Password
 130,c65b9371,Github,7c7558cf,data/7c7558cf/src/c65b9371.py,259:259,T,F,14,35,F,F,,,,,,20,F,F,F,Password
 131,c7e23c27,Github,7c7558cf,data/7c7558cf/src/c7e23c27.yml,24:24,T,F,19,27,F,F,,,,,,8,F,F,F,Password
 132,c7e23c27,Github,7c7558cf,data/7c7558cf/src/c7e23c27.yml,59:59,T,F,19,39,F,F,,,T,,,20,F,F,F,Predefined Pattern
@@ -22,20 +19,16 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 162,3c5fdab2,Github,7c7558cf,data/7c7558cf/test/3c5fdab2.py,30:30,T,F,48,56,F,F,,,,,,8,F,F,F,Password
 169,4ce50048,Github,7c7558cf,data/7c7558cf/test/4ce50048.py,14:14,T,F,24,50,F,F,,,,,,26,F,F,F,Password
 173,4f79033d,Github,7c7558cf,data/7c7558cf/test/4f79033d.py,109:109,T,F,30,62,F,F,,,,,,32,F,T,F,Generic Secret
-177,4f79033d,Github,7c7558cf,data/7c7558cf/test/4f79033d.py,240:240,F,F,21,61,F,F,,,,,,40,F,T,F,Generic Secret
 187,61d93137,Github,7c7558cf,data/7c7558cf/test/61d93137.py,163:163,T,F,59,67,F,F,,,,,,8,F,F,F,Password
 199,65d407e4,Github,7c7558cf,data/7c7558cf/test/65d407e4.py,132:132,F,F,13,27,F,F,,,,,,14,F,F,F,Password
 207,7ce0a07c,Github,7c7558cf,data/7c7558cf/test/7ce0a07c.py,70:70,T,F,13,25,F,F,,,,,,12,F,F,F,Password
-210,9c845213,Github,7c7558cf,data/7c7558cf/test/9c845213.py,18:18,F,F,4,74,F,F,,,,,,64,F,T,F,Generic Secret
 212,a1605950,Github,7c7558cf,data/7c7558cf/test/a1605950.py,117:117,T,F,28,42,F,F,,,,,,14,F,F,F,Password
-216,a9285a07,Github,7c7558cf,data/7c7558cf/test/a9285a07.py,656:656,T,F,58,70,F,F,,,,,,12,F,F,F,Password
+216,a9285a07,Github,7c7558cf,data/7c7558cf/test/a9285a07.py,656:656,T,F,42,54,F,F,,,,,,12,F,F,F,Password
 218,a9285a07,Github,7c7558cf,data/7c7558cf/test/a9285a07.py,695:695,T,F,41,57,F,F,,,,,,16,F,F,F,Password
-219,ab2ad39a,Github,7c7558cf,data/7c7558cf/test/ab2ad39a.py,10:10,F,F,1,73,F,F,,,,,,66,F,T,F,Generic Secret
-228,ab2ad39a,Github,7c7558cf,data/7c7558cf/test/ab2ad39a.py,31:31,F,F,4,85,F,F,,,,,,75,T,F,F,Generic Secret
 230,b5a9a68e,Github,7c7558cf,data/7c7558cf/test/b5a9a68e.py,136:136,T,F,52,60,F,F,,,,,,8,F,F,F,Password
 233,d19577f2,Github,7c7558cf,data/7c7558cf/test/d19577f2.py,58:58,T,F,40,48,F,F,,,,,,8,F,F,F,Password
 236,d9540f8f,Github,7c7558cf,data/7c7558cf/test/d9540f8f.py,26:26,T,F,31,39,F,F,,,,,,8,F,F,F,Password
-237,d9540f8f,Github,7c7558cf,data/7c7558cf/test/d9540f8f.py,92:92,T,F,33,"",F,F,,,,,,26,F,F,F,Password
+237,d9540f8f,Github,7c7558cf,data/7c7558cf/test/d9540f8f.py,92:92,T,F,33,56,F,F,,,,,,26,F,F,F,Password
 242,e09719bd,Github,7c7558cf,data/7c7558cf/test/e09719bd.py,22:22,T,F,39,79,F,F,,,,,,40,F,F,F,Password
 245,eec6ccc1,Github,7c7558cf,data/7c7558cf/test/eec6ccc1.py,56:56,T,F,44,56,F,F,,,,,,12,F,F,F,Password
 251,eed31b8d,Github,7c7558cf,data/7c7558cf/test/eed31b8d.py,37:37,T,F,36,56,F,F,,,,,,20,F,F,F,Password
@@ -43,13 +36,13 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 292,f3216c6f,Github,7c7558cf,data/7c7558cf/test/f3216c6f.py,34:34,T,F,24,50,F,F,,,,,,26,F,F,F,Password
 295,f477b7e6,Github,7c7558cf,data/7c7558cf/test/f477b7e6.py,45:45,T,F,20,28,F,F,,,,,,8,F,F,F,Password
 299,fc7c0052,Github,7c7558cf,data/7c7558cf/test/fc7c0052.py,23:23,T,F,29,37,F,F,,,,,,8,F,F,F,Password
-128,3c5fdab2,Github,7c7558cf,data/7c7558cf/test/3c5fdab2.py,18:18,T,F,40,47,F,F,,,,,0.4613456697472024,7,F,F,F,Other
-140,3c5fdab2,Github,7c7558cf,data/7c7558cf/test/3c5fdab2.py,21:21,T,F,40,47,F,F,,,,,0.4613456697472024,7,F,F,F,Other
-144,3c5fdab2,Github,7c7558cf,data/7c7558cf/test/3c5fdab2.py,24:24,T,F,40,47,F,F,,,,,0.4613456697472024,7,F,F,F,Other
-239,3c5fdab2,Github,7c7558cf,data/7c7558cf/test/3c5fdab2.py,27:27,T,F,40,47,F,F,,,,,0.4613456697472024,7,F,F,F,Other
-240,3c5fdab2,Github,7c7558cf,data/7c7558cf/test/3c5fdab2.py,28:28,T,F,40,47,F,F,,,,,0.4613456697472024,7,F,F,F,Other
-300,3c5fdab2,Github,7c7558cf,data/7c7558cf/test/3c5fdab2.py,31:31,T,F,39,46,F,F,,,,,0.4613456697472024,7,F,F,F,Other
-302,3c5fdab2,Github,7c7558cf,data/7c7558cf/test/3c5fdab2.py,37:37,T,F,39,46,F,F,,,,,0.4613456697472024,7,F,F,F,Other
-303,3c5fdab2,Github,7c7558cf,data/7c7558cf/test/3c5fdab2.py,43:43,T,F,39,46,F,F,,,,,0.4613456697472024,7,F,F,F,Other
-310,a9285a07,Github,7c7558cf,data/7c7558cf/test/a9285a07.py,643:643,T,F,62,69,F,F,,,,,2.5216406363433186,7,F,F,F,Password
-312,a9285a07,Github,7c7558cf,data/7c7558cf/test/a9285a07.py,671:671,T,F,48,55,F,F,,,,,2.5216406363433186,7,F,F,F,Password
+128,3c5fdab2,Github,7c7558cf,data/7c7558cf/test/3c5fdab2.py,18:18,T,F,40,47,F,F,,,Info,,0.46,7,F,F,F,Other
+140,3c5fdab2,Github,7c7558cf,data/7c7558cf/test/3c5fdab2.py,21:21,T,F,40,47,F,F,,,Info,,0.46,7,F,F,F,Other
+144,3c5fdab2,Github,7c7558cf,data/7c7558cf/test/3c5fdab2.py,24:24,T,F,40,47,F,F,,,Info,,0.46,7,F,F,F,Other
+239,3c5fdab2,Github,7c7558cf,data/7c7558cf/test/3c5fdab2.py,27:27,T,F,40,47,F,F,,,Info,,0.46,7,F,F,F,Other
+240,3c5fdab2,Github,7c7558cf,data/7c7558cf/test/3c5fdab2.py,28:28,T,F,40,47,F,F,,,Info,,0.46,7,F,F,F,Other
+300,3c5fdab2,Github,7c7558cf,data/7c7558cf/test/3c5fdab2.py,31:31,T,F,39,46,F,F,,,Info,,0.46,7,F,F,F,Other
+302,3c5fdab2,Github,7c7558cf,data/7c7558cf/test/3c5fdab2.py,37:37,T,F,39,46,F,F,,,Info,,0.46,7,F,F,F,Other
+303,3c5fdab2,Github,7c7558cf,data/7c7558cf/test/3c5fdab2.py,43:43,T,F,39,46,F,F,,,Info,,0.46,7,F,F,F,Other
+310,a9285a07,Github,7c7558cf,data/7c7558cf/test/a9285a07.py,643:643,T,F,62,69,F,F,,,,,2.52,7,F,F,F,Password
+312,a9285a07,Github,7c7558cf,data/7c7558cf/test/a9285a07.py,671:671,T,F,48,55,F,F,,,,,2.52,7,F,F,F,Password
