@@ -1034,8 +1034,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 113744,9322604b,GitHub,387016a6,data/387016a6/src/9322604b.asciidoc,159:159,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 113745,26b93822,GitHub,387016a6,data/387016a6/src/26b93822.java,55:55,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
 113746,26b93822,GitHub,387016a6,data/387016a6/src/26b93822.java,56:56,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
-113747,27d88c46,GitHub,387016a6,data/387016a6/other/27d88c46.md,24:24,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-113748,27d88c46,GitHub,387016a6,data/387016a6/other/27d88c46.md,29:29,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+113747,27d88c46,GitHub,387016a6,data/387016a6/other/27d88c46.md,24:24,T,F,36,46,F,F,,,,,0.00,,F,F,F,Other
+113748,27d88c46,GitHub,387016a6,data/387016a6/other/27d88c46.md,29:29,T,F,12,22,F,F,,,,,0.00,,F,F,F,Other
 113749,381e402d,GitHub,387016a6,data/387016a6/test/381e402d.properties,126:126,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
 113750,381e402d,GitHub,387016a6,data/387016a6/test/381e402d.properties,127:127,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
 113751,4efc52cf,GitHub,387016a6,data/387016a6/test/4efc52cf.yml,34:34,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
@@ -1056,15 +1056,15 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 130980,ce05eafb,GitHub,387016a6,data/387016a6/src/ce05eafb.java,341:341,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 130981,ce05eafb,GitHub,387016a6,data/387016a6/src/ce05eafb.java,95:95,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 131704,e03d5beb,GitHub,387016a6,data/387016a6/test/e03d5beb.java,2315:2315,T,F,,,F,F,,,,,0,0,F,F,F,Other
-131705,e03d5beb,GitHub,387016a6,data/387016a6/test/e03d5beb.java,1056:1056,F,F,,,F,F,,,,,0,0,F,F,F,Other
-131706,e03d5beb,GitHub,387016a6,data/387016a6/test/e03d5beb.java,1073:1073,F,F,,,F,F,,,,,0,0,F,F,F,Other
-131711,8930c0cb,GitHub,387016a6,data/387016a6/src/8930c0cb.asciidoc,135:135,F,F,,,F,F,,,,,0,0,F,F,F,Other
-131712,27e24e2f,GitHub,387016a6,data/387016a6/src/27e24e2f.asciidoc,79:79,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-131713,9b92dfd3,GitHub,387016a6,data/387016a6/src/9b92dfd3.asciidoc,85:85,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-131714,9b92dfd3,GitHub,387016a6,data/387016a6/src/9b92dfd3.asciidoc,100:100,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-131715,9b92dfd3,GitHub,387016a6,data/387016a6/src/9b92dfd3.asciidoc,146:146,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-131724,185213d9,GitHub,387016a6,data/387016a6/src/185213d9.asciidoc,1031:1031,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-131741,8930c0cb,GitHub,387016a6,data/387016a6/src/8930c0cb.asciidoc,166:166,T,F,,,F,F,,,,,0,0,F,F,F,Other
+131705,e03d5beb,GitHub,387016a6,data/387016a6/test/e03d5beb.java,1056:1056,F,F,1,21,F,F,,,,,0,0,F,F,F,Other
+131706,e03d5beb,GitHub,387016a6,data/387016a6/test/e03d5beb.java,1073:1073,F,F,69,89,F,F,,,,,0,0,F,F,F,Other
+131711,8930c0cb,GitHub,387016a6,data/387016a6/src/8930c0cb.asciidoc,135:135,F,F,6,26,F,F,,,,,0,0,F,F,F,Other
+131712,27e24e2f,GitHub,387016a6,data/387016a6/src/27e24e2f.asciidoc,79:79,F,F,6,26,F,F,,,,,0.00,,F,F,F,Other
+131713,9b92dfd3,GitHub,387016a6,data/387016a6/src/9b92dfd3.asciidoc,85:85,F,F,6,26,F,F,,,,,0.00,,F,F,F,Other
+131714,9b92dfd3,GitHub,387016a6,data/387016a6/src/9b92dfd3.asciidoc,100:100,F,F,11,31,F,F,,,,,0.00,,F,F,F,Other
+131715,9b92dfd3,GitHub,387016a6,data/387016a6/src/9b92dfd3.asciidoc,146:146,F,F,10,30,F,F,,,,,0.00,,F,F,F,Other
+131724,185213d9,GitHub,387016a6,data/387016a6/src/185213d9.asciidoc,1031:1031,F,F,511,543,F,F,,,,,0.00,,F,F,F,Other
+131741,8930c0cb,GitHub,387016a6,data/387016a6/src/8930c0cb.asciidoc,166:166,T,F,9,29,F,F,,,,,0,0,F,F,F,Other
 132680,1edbc8d7,GitHub,387016a6,data/387016a6/test/1edbc8d7.pem,1:12,T,F,,,F,F,Any,Private,,,0,0,F,F,F,Private Key
 132681,2a6fe145,GitHub,387016a6,data/387016a6/test/2a6fe145.key,1:52,T,F,,,F,F,Any,Private,,,0,0,F,F,F,Private Key
 132682,c92f5fd9,GitHub,387016a6,data/387016a6/test/c92f5fd9.key,1:5,T,F,,,F,F,Any,Private,,,0,0,F,F,F,Private Key
