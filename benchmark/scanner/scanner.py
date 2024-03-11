@@ -243,28 +243,55 @@ class Scanner(ABC):
         file_id = ""
         approximate = ""
 
+        # todo: use str(line_num) for comparison or integer values in meta
         for row in self.meta:
             if row["FilePath"] == path:
                 file_id = row["FileID"]
                 # by default the cred is false positive
                 approximate = f"{self.next_id},{file_id},GitHub,{project_id},{path}" \
                               f",{line_num}:{line_num},F,F,{value_start},{value_end},F,F,,,Info,,0,0,F,F,F,{rule}"
-                if self._check_line_num(row["LineStart:LineEnd"], line_num):
-                    code = str(project_id) + str(file_id) + str(row["LineStart:LineEnd"])
-                    if code in self.line_checker:
-                        self.result_cnt -= 1
-                        return LineStatus.CHECKED, project_id, file_id
-                    else:
-                        self.line_checker.add(code)
+                meta_start_num, meta_end_num = [int(x) for x in row["LineStart:LineEnd"].split(':')]
 
-                    if row["GroundTruth"] == "T":
-                        self.true_cnt += 1
-                        self._increase_result_dict_cnt(row["Category"], True)
-                        return LineStatus.TRUE, project_id, file_id
-                    elif row["GroundTruth"] == "F" or row["GroundTruth"] == "Template":
-                        self.false_cnt += 1
-                        self._increase_result_dict_cnt(row["Category"], False)
-                        return LineStatus.FALSE, project_id, file_id
+                # check line position
+                if meta_start_num == meta_end_num:
+                    # single line markup
+                    if line_num != meta_start_num:
+                        # not the line
+                        continue
+                elif meta_start_num < meta_end_num:
+                    # multiline markup
+                    if not meta_start_num <= line_num <= meta_end_num:
+                        # checked line does not belong to the markup
+                        continue
+                else:
+                    # wrong markup
+                    print(f"MARKUP ERROR (LineStart:LineEnd): {row}", flush=True)
+                    continue
+
+                # check value position if possible. multiline may be without start-end
+                meta_value_start = int(row["ValueStart"]) if row["ValueStart"] else -1
+                meta_value_end = int(row["ValueEnd"]) if row["ValueEnd"] else -1
+
+                if 0 <= meta_value_start:
+                    # meta start value must be set precisely
+                    if value_start != meta_value_start:
+                        continue
+
+                # unique id from meta for single markup (or use just id?)
+                code = f"{project_id};{file_id};{meta_start_num};{meta_end_num};{meta_value_start};{meta_value_end}"
+                if code in self.line_checker:
+                    self.result_cnt -= 1
+                    return LineStatus.CHECKED, project_id, file_id
+                else:
+                    self.line_checker.add(code)
+                if row["GroundTruth"] == "T":
+                    self.true_cnt += 1
+                    self._increase_result_dict_cnt(row["Category"], True)
+                    return LineStatus.TRUE, project_id, file_id
+                elif row["GroundTruth"] == "F" or row["GroundTruth"] == "Template":
+                    self.false_cnt += 1
+                    self._increase_result_dict_cnt(row["Category"], False)
+                    return LineStatus.FALSE, project_id, file_id
         self.lost_cnt += 1
         print(f"LOST: {approximate}", flush=True)
         self.next_id += 1
@@ -337,13 +364,6 @@ class Scanner(ABC):
             if row["Category"] == category and row["GroundTruth"] == "T":
                 total_true_cnt += 1
         return total_true_cnt
-
-    @staticmethod
-    def _check_line_num(line_arrange: str, line_num: int) -> bool:
-        start_num, end_num = [int(x) for x in line_arrange.split(":")]
-        if start_num <= line_num <= end_num:
-            return True
-        return False
 
     def _increase_result_dict_cnt(self, category: str, cnt_type: bool) -> None:
         if category not in self.result_dict:
