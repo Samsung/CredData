@@ -9,8 +9,12 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 28836,a3a7e022,GitHub,a8bdca79,data/a8bdca79/src/a3a7e022.java,186:186,F,F,12,74,F,F,,,,,0,0,F,F,F,Generic Secret
 29878,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,213:213,Template,F,17,23,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
 29879,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,216:216,Template,F,16,22,F,F,CharsOnly,,,Token,2.25,6,F,F,F,Generic Token
-30567,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,148:148,T,F,34,66,F,F,Any,,,SeedSalt,0,1,F,F,F,Cryptographic Primitives
-30569,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,113:113,T,F,87,119,F,F,Any,,,SeedSalt,0,1,F,F,F,Cryptographic Primitives
+30567,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,148:148,T,F,34,66,F,F,Any,,,SeedSalt,0,1,F,F,F,Authentication Credentials
+135270,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,148:148,T,F,138,188,F,F,,,,,0,0,F,F,F,Authentication Credentials
+135268,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,148:148,T,F,88,120,F,F,,,,,0,0,F,F,F,Authentication Credentials
+30569,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,113:113,T,F,87,119,F,F,Any,,,SeedSalt,0,1,F,F,F,Authentication Credentials
+135266,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,113:113,T,F,37,69,F,F,,,,,0,0,F,F,F,Authentication Credentials
+135267,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,113:113,T,F,141,173,F,F,,,,,0,0,F,F,F,Authentication Credentials
 32152,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,85:85,T,F,34,66,F,F,CharsOnly,,,SeedSalt,4.05,25,F,F,F,Cryptographic Primitives
 32737,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,203:203,F,F,14,42,F,F,Any,,,Unknown,4.59,28,F,F,F,Other
 32742,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,29:29,F,F,88,136,F,F,Any,,,Auth,4.84,48,F,F,T,Authentication Credentials
