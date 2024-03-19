@@ -31,6 +31,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 13521,257487e0,GitHub,ec138349,data/ec138349/src/257487e0.java,77:77,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 13531,9b2822cf,GitHub,ec138349,data/ec138349/src/9b2822cf.java,57:57,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 13561,59ccfca2,GitHub,ec138349,data/ec138349/src/59ccfca2.java,33:33,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+14520,c5437471,GitHub,ec138349,data/ec138349/src/c5437471.java,19:19,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 14525,93f9ed80,GitHub,ec138349,data/ec138349/src/93f9ed80.java,59:59,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 14529,7c0a564e,GitHub,ec138349,data/ec138349/test/7c0a564e.java,73:73,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 14545,d237e65b,GitHub,ec138349,data/ec138349/src/d237e65b.java,33:33,F,F,,,F,F,,,,,0,0,F,F,F,Other
@@ -79,7 +80,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 32577,5cba2249,GitHub,ec138349,data/ec138349/test/5cba2249.java,65:90,T,F,,,F,F,Any,Private,,Unknown,0.0,0,F,F,F,Private Key
 32741,2f9b15a9,GitHub,ec138349,data/ec138349/test/2f9b15a9.java,161:161,F,F,61,77,T,F,Any,,,Token,3.12,16,F,F,T,Generic Token
 32744,1c39b347,GitHub,ec138349,data/ec138349/test/1c39b347.java,64:64,F,F,14,42,F,F,Any,,,Unknown,4.59,28,F,F,F,Other
+33015,ac2c1669,GitHub,ec138349,data/ec138349/test/ac2c1669.java,33:33,T,F,18,59,F,F,Any,,,Unknown,4.72,41,F,F,F,Other
 33042,944501fe,GitHub,ec138349,data/ec138349/test/944501fe.java,73:73,T,T,14,1268,F,F,Any,,JSON Web Token,Token,5.73,1254,F,F,F,Predefined Pattern
+33937,651b0dfe,GitHub,ec138349,data/ec138349/test/651b0dfe.java,73:73,F,F,22,65,F,F,,,,,0,0,F,F,F,Generic Secret
+33974,651b0dfe,GitHub,ec138349,data/ec138349/test/651b0dfe.java,74:74,F,F,22,65,F,F,,,,,0,0,F,F,F,Generic Secret
 33990,651b0dfe,GitHub,ec138349,data/ec138349/test/651b0dfe.java,53:53,F,F,22,364,F,F,,,,,0,0,F,F,F,Generic Secret
 33991,651b0dfe,GitHub,ec138349,data/ec138349/test/651b0dfe.java,65:65,F,F,22,364,F,F,,,,,0,0,F,F,F,Generic Secret
 34054,c354e9cd,GitHub,ec138349,data/ec138349/test/c354e9cd.java,46:46,Template,T,43,51,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
@@ -101,10 +105,13 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 35497,69148d74,GitHub,ec138349,data/ec138349/test/69148d74.md,43:43,T,F,22,58,F,F,Any,,,Token,3.40,36,F,F,F,Generic Token
 35853,ecf1e034,GitHub,ec138349,data/ec138349/test/ecf1e034.jwt,1:1,T,T,0,1254,F,F,Any,,JSON Web Token,Token,5.73,1254,F,F,F,Predefined Pattern
 36273,5cba2249,GitHub,ec138349,data/ec138349/test/5cba2249.java,94:98,F,F,52,60,F,F,,,,,0,0,F,F,F,Other
+36286,525afad4,GitHub,ec138349,data/ec138349/test/525afad4.java,218:218,T,F,1,44,F,F,Any,,,Unknown,4.66,43,F,F,F,Other
+36287,525afad4,GitHub,ec138349,data/ec138349/test/525afad4.java,230:230,T,F,1,44,F,F,Any,,,Unknown,4.66,43,F,F,F,Other
 36854,944501fe,GitHub,ec138349,data/ec138349/test/944501fe.java,97:97,T,T,14,1268,F,F,Any,,JSON Web Token,Token,5.73,1254,F,F,F,Predefined Pattern
 37085,651b0dfe,GitHub,ec138349,data/ec138349/test/651b0dfe.java,114:114,F,F,22,364,F,F,,,,,0,0,F,F,F,Generic Secret
 37656,5cba2249,GitHub,ec138349,data/ec138349/test/5cba2249.java,100:104,F,F,68,76,F,F,,,,,0,0,F,F,F,Other
 46025,944501fe,GitHub,ec138349,data/ec138349/test/944501fe.java,122:122,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+46029,525afad4,GitHub,ec138349,data/ec138349/test/525afad4.java,255:255,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 46055,525afad4,GitHub,ec138349,data/ec138349/test/525afad4.java,239:239,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 46189,2d2abc99,GitHub,ec138349,data/ec138349/test/2d2abc99.java,408:408,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 46218,74dff624,GitHub,ec138349,data/ec138349/test/74dff624.java,250:250,T,T,22,240,F,F,Any,,JSON Web Token,Token,5.54,218,F,F,F,Predefined Pattern
@@ -139,6 +146,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 79476,5cba2249,GitHub,ec138349,data/ec138349/test/5cba2249.java,117:124,F,F,,,F,F,,,,,0,0,F,F,F,Private Key
 79477,5cba2249,GitHub,ec138349,data/ec138349/test/5cba2249.java,126:144,F,F,,,F,F,,,,,0,0,F,F,F,Private Key
 82634,37c07333,GitHub,ec138349,data/ec138349/test/37c07333.yml,17:17,Template,F,4,12,F,F,,,,,0,0,F,F,F,Password
+82635,525afad4,GitHub,ec138349,data/ec138349/test/525afad4.java,247:247,F,F,0,88,F,F,,,,,0,0,F,F,F,Generic Secret
 82636,525afad4,GitHub,ec138349,data/ec138349/test/525afad4.java,268:268,F,F,0,122,F,F,,,,,0,0,F,F,F,Generic Secret
 107536,ff764887,GitHub,ec138349,data/ec138349/src/ff764887.java,85:85,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 107539,7c0a564e,GitHub,ec138349,data/ec138349/test/7c0a564e.java,88:88,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
