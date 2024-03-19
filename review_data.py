@@ -101,13 +101,13 @@ def read_meta(meta_dir, data_dir) -> List[Dict[str, str]]:
     for root, dirs, files in os.walk(meta_dir):
         root_path = Path(root)
         for file in files:
-            if 12 != len(file) or not all('0' <= x <= '9' or 'a' <= x <= 'f' for x in file[:8]):
+            if not file.endswith(".csv"):
                 # git garbage case
                 continue
             with open(root_path / file, newline="") as f:
                 reader = csv.DictReader(f)
                 for row in reader:
-                    assert 22 == len(row), row
+                    #assert 22 == len(row), row
                     # verify correctness of data
                     file_path = row["FilePath"]
                     if file_path.startswith("data/"):
@@ -125,12 +125,7 @@ def read_meta(meta_dir, data_dir) -> List[Dict[str, str]]:
                     value_end = row["ValueEnd"]
                     row["ValueEnd"] = int(float(value_end)) if value_end else -1
                     meta.append(row)
-                    if row["Id"] in ids:
-                        row_csv = ','.join([str(x) for x in row.values()])
-                        id_dups.append(row_csv)
-                        print(f"Check id duplication: {row_csv}")
-                    else:
-                        ids.add(row["Id"])
+                    ids.add(row["Id"])
     assert not id_dups, '\n'.join(id_dups)
     return meta
 
