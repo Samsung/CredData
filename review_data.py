@@ -107,7 +107,6 @@ def read_meta(meta_dir, data_dir) -> List[Dict[str, str]]:
             with open(root_path / file, newline="") as f:
                 reader = csv.DictReader(f)
                 for row in reader:
-                    #assert 22 == len(row), row
                     # verify correctness of data
                     file_path = row["FilePath"]
                     if file_path.startswith("data/"):
@@ -125,7 +124,13 @@ def read_meta(meta_dir, data_dir) -> List[Dict[str, str]]:
                     value_end = row["ValueEnd"]
                     row["ValueEnd"] = int(float(value_end)) if value_end else -1
                     meta.append(row)
-                    ids.add(row["Id"])
+                    if 22 == len(row) and row["Id"] in ids:
+                        row_csv = ','.join([str(x) for x in row.values()])
+                        id_dups.append(row_csv)
+                        print(f"Check id duplication: {row_csv}")
+                    else:
+                        # aug data ...
+                        ids.add(row["Id"])
     assert not id_dups, '\n'.join(id_dups)
     return meta
 
