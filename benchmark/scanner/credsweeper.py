@@ -1,7 +1,6 @@
 import json
 import logging
 import subprocess
-from typing import Tuple
 
 from benchmark.common.constants import URL, LineStatus, ScannerType
 from benchmark.scanner.scanner import Scanner
@@ -47,7 +46,7 @@ class CredSweeper(Scanner):
                     check_line_result, line_data["project_id"], line_data["per_repo_file_id"] = \
                         self.check_line_from_meta(line_data["path"], line_data["line_num"],
                                                   line_data["value_start"] - offset, line_data["value_end"] - offset,
-                                                  result["rule"])
+                                                  result["rule"], line_data["value"])
                 except Exception as exc:
                     logging.getLogger(__file__).exception(exc)
                     continue
@@ -59,6 +58,18 @@ class CredSweeper(Scanner):
                     line_data["TP"] = "N"
                 elif check_line_result == LineStatus.CHECKED:
                     line_data["TP"] = "C"
+                if False:  # TP printable
+                    _line = str(result["line_data_list"][0]["line"])
+                    _start = result["line_data_list"][0]["value_start"]
+                    _end = result["line_data_list"][0]["value_end"]
+                    if _line and _start >= 0 and _end > 0:
+                        line = "\033[36m" + _line[:_start] \
+                               + "\033[32m" + _line[_start:_end] \
+                               + "\033[36m" + _line[_end:] + "\033[00m"
+                    else:
+                        line = _line
+                    print(line, flush=True)
+                    print(result, "\n\n", flush=True)
                 line_data["line"] = line_data["line"].strip()
                 line_data["rule"] = result["rule"]
                 line_data["severity"] = result["severity"]
