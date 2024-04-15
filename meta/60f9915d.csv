@@ -69,9 +69,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 32163,4dc56e64,GitHub,60f9915d,data/60f9915d/test/4dc56e64.go,219:219,T,T,53,69,T,F,Any,,,Secret,3.25,16,F,F,F,Password
 35875,e45e45ba,GitHub,60f9915d,data/60f9915d/src/e45e45ba.yml,48:48,T,T,19,26,F,F,CharsOnly,,,Secret,2.81,7,F,F,F,Password
 46090,35a99f76,GitHub,60f9915d,data/60f9915d/test/35a99f76.go,79:79,Template,T,15,21,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
-52007,3d9a9f38,GitHub,60f9915d,data/60f9915d/test/3d9a9f38.go,639:639,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-52008,3d9a9f38,GitHub,60f9915d,data/60f9915d/test/3d9a9f38.go,736:736,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-52009,7e47b56e,GitHub,60f9915d,data/60f9915d/test/7e47b56e.go,15:15,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+52007,3d9a9f38,GitHub,60f9915d,data/60f9915d/test/3d9a9f38.go,639:639,T,F,52,59,F,F,,,,,0,0,F,F,F,Predefined Pattern
+52008,3d9a9f38,GitHub,60f9915d,data/60f9915d/test/3d9a9f38.go,736:736,T,F,52,59,F,F,,,,,0,0,F,F,F,Predefined Pattern
+52009,7e47b56e,GitHub,60f9915d,data/60f9915d/test/7e47b56e.go,15:15,T,F,76,83,F,F,,,,,0,0,F,F,F,Predefined Pattern
 54004,492ba9f5,GitHub,60f9915d,data/60f9915d/test/492ba9f5.go,3622:3622,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 54005,492ba9f5,GitHub,60f9915d,data/60f9915d/test/492ba9f5.go,3632:3632,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 54058,492ba9f5,GitHub,60f9915d,data/60f9915d/test/492ba9f5.go,2969:2969,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
