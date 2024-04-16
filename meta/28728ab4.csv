@@ -434,7 +434,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 31759,e525c303,GitHub,28728ab4,data/28728ab4/other/e525c303.md,25:25,T,F,18,58,F,F,Any,,,Token,3.65,40,F,F,F,Generic Token
 31760,dba0b74c,GitHub,28728ab4,data/28728ab4/src/dba0b74c.toml,8:8,T,F,17,62,F,F,Any,,,Key,3.39,45,F,F,F,Generic Secret
 31761,8757f252,GitHub,28728ab4,data/28728ab4/other/8757f252.md,24:24,T,F,17,62,F,F,Any,,,Key,3.39,45,F,F,F,Generic Secret
-31763,caee0502,GitHub,28728ab4,data/28728ab4/other/caee0502.md,31:31,F,F,15,22,F,F,Any,,,Key,2.01,7,F,F,F,Other
+31763,caee0502,GitHub,28728ab4,data/28728ab4/other/caee0502.md,31:31,F,F,15,22,F,F,Any,,,Key,2.01,7,F,F,F,Generic Secret
 32196,76eae072,GitHub,28728ab4,data/28728ab4/test/76eae072.go,77:77,T,T,22,30,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
 32197,76eae072,GitHub,28728ab4,data/28728ab4/test/76eae072.go,76:76,F,F,18,25,F,F,,,,,0,0,F,F,F,Predefined Pattern
 32198,1d431144,GitHub,28728ab4,data/28728ab4/test/1d431144.go,42:42,Template,F,19,27,F,F,,,,,0,0,F,F,F,Password
@@ -452,7 +452,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 32450,e4fddbdc,GitHub,28728ab4,data/28728ab4/test/e4fddbdc.go,584:584,F,F,16,59,F,F,,,,,0,0,F,F,F,Generic Secret
 32460,3cd360b2,GitHub,28728ab4,data/28728ab4/test/3cd360b2.go,13:27,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
 32494,6f87efc9,GitHub,28728ab4,data/28728ab4/src/6f87efc9.toml,58:58,Template,F,20,49,F,F,,,,,0,0,F,F,F,Password
-32513,f0265b04,GitHub,28728ab4,data/28728ab4/test/f0265b04.go,130:130,F,F,20,26,F,F,Any,,,Key,2.15,6,F,F,F,Other
+32513,f0265b04,GitHub,28728ab4,data/28728ab4/test/f0265b04.go,130:130,F,F,20,26,F,F,Any,,,Key,2.15,6,F,F,F,Generic Secret
 32545,52fd698a,GitHub,28728ab4,data/28728ab4/src/52fd698a.toml,29:29,F,F,18,36,F,F,,,,,0,0,F,F,F,Password
 32555,88037fdb,GitHub,28728ab4,data/28728ab4/src/88037fdb.toml,22:22,Template,F,17,25,F,F,,,,,0,0,F,F,F,Password
 32580,caf14eec,GitHub,28728ab4,data/28728ab4/other/caf14eec.md,34:34,F,F,38,81,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -520,12 +520,12 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 36091,8487ba44,GitHub,28728ab4,data/28728ab4/test/8487ba44.go,118:118,T,F,21,28,F,F,Any,,,Secret,2.41,7,F,F,F,Password
 36294,d217af2a,GitHub,28728ab4,data/28728ab4/test/d217af2a.go,167:167,F,F,94,137,F,F,,,,,0,0,F,F,F,Generic Secret
 36440,c08708af,GitHub,28728ab4,data/28728ab4/test/c08708af.go,124:124,T,F,14,57,F,F,Any,,,Auth,4.74,43,F,F,F,Authentication Credentials
-36559,caee0502,GitHub,28728ab4,data/28728ab4/other/caee0502.md,36:36,F,F,15,22,F,F,Any,,,Key,2.01,7,F,F,F,Other
+36559,caee0502,GitHub,28728ab4,data/28728ab4/other/caee0502.md,36:36,F,F,15,22,F,F,Any,,,Key,2.01,7,F,F,F,Generic Secret
 36644,76eae072,GitHub,28728ab4,data/28728ab4/test/76eae072.go,177:177,T,T,22,30,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
 36645,76eae072,GitHub,28728ab4,data/28728ab4/test/76eae072.go,176:176,F,F,18,25,F,F,,,,,0,0,F,F,F,Predefined Pattern
-36714,f0265b04,GitHub,28728ab4,data/28728ab4/test/f0265b04.go,157:157,F,F,20,26,F,F,Any,,,Key,2.15,6,F,F,F,Other
-36715,f0265b04,GitHub,28728ab4,data/28728ab4/test/f0265b04.go,165:165,F,F,20,26,F,F,Any,,,Key,2.15,6,F,F,F,Other
-36716,f0265b04,GitHub,28728ab4,data/28728ab4/test/f0265b04.go,173:173,F,F,20,26,F,F,Any,,,Key,2.15,6,F,F,F,Other
+36714,f0265b04,GitHub,28728ab4,data/28728ab4/test/f0265b04.go,157:157,F,F,20,26,F,F,Any,,,Key,2.15,6,F,F,F,Generic Secret
+36715,f0265b04,GitHub,28728ab4,data/28728ab4/test/f0265b04.go,165:165,F,F,20,26,F,F,Any,,,Key,2.15,6,F,F,F,Generic Secret
+36716,f0265b04,GitHub,28728ab4,data/28728ab4/test/f0265b04.go,173:173,F,F,20,26,F,F,Any,,,Key,2.15,6,F,F,F,Generic Secret
 36726,caf14eec,GitHub,28728ab4,data/28728ab4/other/caf14eec.md,56:56,F,F,38,81,F,F,,,,,0,0,F,F,F,Generic Secret
 36744,108844d5,GitHub,28728ab4,data/28728ab4/test/108844d5.go,252:252,F,F,14,57,F,F,,,,,0,0,F,F,F,Generic Secret
 36750,54ebd195,GitHub,28728ab4,data/28728ab4/test/54ebd195.go,66:66,T,T,14,21,F,F,CharsOnly,,,Secret,2.52,7,F,F,F,Password

@@ -93,11 +93,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 33968,f1a9c0d7,GitHub,4a099ada,data/4a099ada/src/f1a9c0d7.yml,14:14,T,F,19,23,F,F,CharsOnly,,,Secret,2.00,4,F,F,F,Password
 34475,4c24badc,GitHub,4a099ada,data/4a099ada/other/4c24badc.md,529:529,T,F,17,53,F,F,Any,,,Token,3.44,36,F,F,F,Generic Token
 34476,4c24badc,GitHub,4a099ada,data/4a099ada/other/4c24badc.md,293:293,T,F,17,53,F,F,Any,,,Token,3.40,36,F,F,F,Generic Token
-34749,aba179aa,GitHub,4a099ada,data/4a099ada/test/aba179aa.go,38:38,Template,T,22,30,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-34954,aba179aa,GitHub,4a099ada,data/4a099ada/test/aba179aa.go,41:41,Template,T,22,30,F,F,CharsOnly,,,Secret,2.50,8,F,F,F,Password
-34971,e3150d65,GitHub,4a099ada,data/4a099ada/other/e3150d65.md,20:20,Template,T,13,23,F,F,CharsOnly,,,Secret,3.12,10,F,F,F,Password
-34972,4c24badc,GitHub,4a099ada,data/4a099ada/other/4c24badc.md,305:305,Template,T,13,19,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
-35051,4c24badc,GitHub,4a099ada,data/4a099ada/other/4c24badc.md,523:523,Template,F,15,25,F,F,Any,,,Key,2.79,10,F,F,F,Other
+34749,aba179aa,GitHub,4a099ada,data/4a099ada/test/aba179aa.go,38:38,T,T,22,30,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+34954,aba179aa,GitHub,4a099ada,data/4a099ada/test/aba179aa.go,41:41,T,T,22,30,F,F,CharsOnly,,,Secret,2.50,8,F,F,F,Password
+34971,e3150d65,GitHub,4a099ada,data/4a099ada/other/e3150d65.md,20:20,T,T,13,23,F,F,CharsOnly,,,Secret,3.12,10,F,F,F,Password
+34972,4c24badc,GitHub,4a099ada,data/4a099ada/other/4c24badc.md,305:305,T,T,13,19,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
+35051,4c24badc,GitHub,4a099ada,data/4a099ada/other/4c24badc.md,523:523,F,F,15,25,F,F,Any,,,Key,2.79,10,F,F,F,Generic Secret
 35070,4180450d,GitHub,4a099ada,data/4a099ada/other/4180450d.json,149:149,T,T,13,24,F,F,CharsOnly,,,Secret,3.10,11,F,F,F,Password
 35760,088d3691,GitHub,4a099ada,data/4a099ada/src/088d3691.go,155:155,T,F,23,59,F,F,Any,,,Token,3.44,36,F,F,F,Generic Token
 35762,406cafe7,GitHub,4a099ada,data/4a099ada/src/406cafe7.go,45:45,Template,T,46,50,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
