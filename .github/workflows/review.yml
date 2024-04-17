@@ -43,7 +43,7 @@ jobs:
           python -m pip install --requirement requirements.txt
           # skip extra hints from git
           git config --global init.defaultBranch work
-          python download_data.py --data_dir data
+          python download_data.py --data_dir data --jobs $(nproc)
           python review_data.py &>review_head.txt
           ansi2html --style 'pre {font-family: monospace; font-size: large}' <review_head.txt  >review_head.html
 
