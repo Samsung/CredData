@@ -70,12 +70,12 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 29534,0de0fea2,GitHub,98800b86,data/98800b86/test/0de0fea2.py,54:54,F,T,82,88,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
 30488,a7e9a1ea,GitHub,98800b86,data/98800b86/test/a7e9a1ea.py,89:89,Template,T,24,38,F,F,Any,,,Secret,2.78,14,F,F,F,Password
 31366,8d9a9f76,GitHub,98800b86,data/98800b86/test/8d9a9f76.py,32:32,Template,T,18,24,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
-31370,0f0c24f3,GitHub,98800b86,data/98800b86/test/0f0c24f3.py,42:42,Template,F,18,58,F,F,CharsOnly,,,Secret,0,40,F,F,F,Generic Secret
+31370,0f0c24f3,GitHub,98800b86,data/98800b86/test/0f0c24f3.py,42:42,T,F,18,58,F,F,CharsOnly,,,Secret,0,40,F,F,F,Generic Secret
 31374,ef2cef9f,GitHub,98800b86,data/98800b86/src/ef2cef9f.ini,74:74,Template,T,22,31,F,F,CharsOnly,,,Secret,2.64,9,F,F,F,Password
-31390,0f0c24f3,GitHub,98800b86,data/98800b86/test/0f0c24f3.py,43:43,Template,F,21,63,F,F,CharsOnly,,,Token,0,42,F,F,F,Generic Token
+31390,0f0c24f3,GitHub,98800b86,data/98800b86/test/0f0c24f3.py,43:43,T,F,21,63,F,F,CharsOnly,,,Token,0,42,F,F,F,Generic Token
 31405,3ec5c0d9,GitHub,98800b86,data/98800b86/test/3ec5c0d9.py,312:312,Template,F,38,50,F,F,Any,,,Key,3.58,12,F,F,F,Generic Secret
 31429,7167d8d8,GitHub,98800b86,data/98800b86/src/7167d8d8.yml,123:123,Template,T,23,32,F,F,CharsOnly,,,Secret,2.64,9,F,F,F,Password
-31436,0f0c24f3,GitHub,98800b86,data/98800b86/test/0f0c24f3.py,41:41,Template,F,18,38,F,F,CharsOnly,,,Unknown,0,20,F,F,F,Generic Secret
+31436,0f0c24f3,GitHub,98800b86,data/98800b86/test/0f0c24f3.py,41:41,T,F,18,38,F,F,CharsOnly,,,Unknown,0,20,F,F,F,Generic Secret
 33957,7167d8d8,GitHub,98800b86,data/98800b86/src/7167d8d8.yml,65:65,T,T,19,27,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
 34980,3ec5c0d9,GitHub,98800b86,data/98800b86/test/3ec5c0d9.py,206:206,T,F,13,17,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
 36049,f183e636,GitHub,98800b86,data/98800b86/test/f183e636.py,40:40,T,T,12,17,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
