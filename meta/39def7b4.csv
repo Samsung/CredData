@@ -442,7 +442,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 42425,bbcbb234,GitHub,39def7b4,data/39def7b4/src/bbcbb234.rb,40:40,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 42426,bbcbb234,GitHub,39def7b4,data/39def7b4/src/bbcbb234.rb,144:144,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 42434,efbd4d36,GitHub,39def7b4,data/39def7b4/src/efbd4d36.rb,48:48,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-42459,ca9593a1,GitHub,39def7b4,data/39def7b4/src/ca9593a1.rb,71:71,Template,F,24,58,F,F,CharsOnly,,,Secret,0.38,34,F,F,F,Generic Secret
+42459,ca9593a1,GitHub,39def7b4,data/39def7b4/src/ca9593a1.rb,71:71,T,F,24,58,F,F,CharsOnly,,,Secret,0.38,34,F,F,F,Generic Secret
 42462,91f970bf,GitHub,39def7b4,data/39def7b4/src/91f970bf.rb,85:85,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 42463,91f970bf,GitHub,39def7b4,data/39def7b4/src/91f970bf.rb,109:109,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 42464,91f970bf,GitHub,39def7b4,data/39def7b4/src/91f970bf.rb,121:121,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
@@ -474,7 +474,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 42649,52694a75,GitHub,39def7b4,data/39def7b4/src/52694a75.rb,46:46,T,F,15,33,F,F,Any,,,Secret,3.95,18,F,F,F,Generic Secret
 42650,52694a75,GitHub,39def7b4,data/39def7b4/src/52694a75.rb,52:52,T,F,15,33,F,F,Any,,,Secret,3.95,18,F,F,F,Generic Secret
 42652,d97e408a,GitHub,39def7b4,data/39def7b4/src/d97e408a.rb,119:119,T,T,26,46,F,F,Any,,AWS Client ID,Secret,3.68,20,F,F,F,Predefined Pattern
-42659,f149a41a,GitHub,39def7b4,data/39def7b4/src/f149a41a.rb,127:127,Template,F,19,53,F,F,CharsOnly,,,Secret,0.38,34,F,F,F,Generic Secret
+42659,f149a41a,GitHub,39def7b4,data/39def7b4/src/f149a41a.rb,127:127,T,F,19,53,F,F,CharsOnly,,,Secret,0.38,34,F,F,F,Generic Secret
 42661,1f4966ff,GitHub,39def7b4,data/39def7b4/src/1f4966ff.rb,33:33,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 42662,1f4966ff,GitHub,39def7b4,data/39def7b4/src/1f4966ff.rb,86:86,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 42678,db116dd4,GitHub,39def7b4,data/39def7b4/src/db116dd4.rb,186:186,Template,T,23,33,F,F,Any,,,Token,2.31,10,F,F,F,Generic Token
@@ -537,8 +537,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 50006,b3356305,GitHub,39def7b4,data/39def7b4/other/b3356305.md,182:182,Template,F,14,45,F,F,CharsOnly,,,Token,0,31,F,F,F,Generic Token
 51008,5d2c8cbb,GitHub,39def7b4,data/39def7b4/src/5d2c8cbb.rb,32:32,Template,F,8,42,F,F,CharsOnly,,,Unknown,0.38,34,F,F,F,Other
 51009,2d217115,GitHub,39def7b4,data/39def7b4/src/2d217115.rb,32:32,Template,F,8,42,F,F,CharsOnly,,,Unknown,0.38,34,F,F,F,Other
-52022,5d2c8cbb,GitHub,39def7b4,data/39def7b4/src/5d2c8cbb.rb,66:66,Template,F,8,42,F,F,Any,,Twilio API Key,Key,0.38,34,F,F,F,Predefined Pattern
-52023,5d2c8cbb,GitHub,39def7b4,data/39def7b4/src/5d2c8cbb.rb,129:129,Template,F,8,42,F,F,Any,,Twilio API Key,Key,0.38,34,F,F,F,Predefined Pattern
+52022,5d2c8cbb,GitHub,39def7b4,data/39def7b4/src/5d2c8cbb.rb,66:66,F,F,8,42,F,F,Any,,Twilio API Key,Key,0.38,34,F,F,F,Other
+52023,5d2c8cbb,GitHub,39def7b4,data/39def7b4/src/5d2c8cbb.rb,129:129,F,F,8,42,F,F,Any,,Twilio API Key,Key,0.38,34,F,F,F,Other
 52024,c5ca7a06,GitHub,39def7b4,data/39def7b4/src/c5ca7a06.rb,66:66,F,F,,,F,F,,,,,0,0,F,F,F,Other
 52025,c5ca7a06,GitHub,39def7b4,data/39def7b4/src/c5ca7a06.rb,129:129,F,F,,,F,F,,,,,0,0,F,F,F,Other
 52052,fdb22c4a,GitHub,39def7b4,data/39def7b4/src/fdb22c4a.rb,120:120,Template,F,31,35,T,F,NumberOnly,,,Secret,0.00,1,F,F,F,Password
@@ -1585,7 +1585,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 101448,2010d338,GitHub,39def7b4,data/39def7b4/src/2010d338.rb,383:383,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 101449,27be9d47,GitHub,39def7b4,data/39def7b4/src/27be9d47.rb,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 101450,7d9f5b9d,GitHub,39def7b4,data/39def7b4/src/7d9f5b9d.rb,390:390,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-101451,be070dc3,GitHub,39def7b4,data/39def7b4/src/be070dc3.rb,79:79,Template,F,74,106,F,F,Any,,,Secret,3.58,32,F,F,F,Generic Secret
+101451,be070dc3,GitHub,39def7b4,data/39def7b4/src/be070dc3.rb,79:79,T,F,74,106,F,F,Any,,,Secret,3.58,32,F,F,F,Generic Secret
 101452,b5ca0850,GitHub,39def7b4,data/39def7b4/src/b5ca0850.rb,25:25,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Token
 101453,b5ca0850,GitHub,39def7b4,data/39def7b4/src/b5ca0850.rb,32:32,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Token
 101454,0bed0bb2,GitHub,39def7b4,data/39def7b4/src/0bed0bb2.rb,37:37,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret

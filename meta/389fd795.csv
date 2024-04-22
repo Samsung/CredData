@@ -115,9 +115,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 28000,be0a3914,GitHub,389fd795,data/389fd795/test/be0a3914.go,529:585,T,T,,,F,F,Any,Private,,Unknown,2.77,37,F,F,F,Private Key
 30798,872aebd1,GitHub,389fd795,data/389fd795/test/872aebd1.go,24:24,Template,T,30,45,F,F,Any,,,Secret,3.51,15,F,F,F,Password
 30832,0623d5cf,GitHub,389fd795,data/389fd795/test/0623d5cf.go,23:23,Template,T,27,36,F,F,Any,,,Secret,2.60,9,F,F,F,Password
-30833,0623d5cf,GitHub,389fd795,data/389fd795/test/0623d5cf.go,22:22,Template,F,28,44,F,F,NumbersOnly,,,Token,0,16,F,F,F,Generic Token
-31389,4887442f,GitHub,389fd795,data/389fd795/test/4887442f.go,311:311,Template,F,44,88,F,F,Any,,,Unknown,4.86,44,F,F,F,Generic Secret
-31392,4887442f,GitHub,389fd795,data/389fd795/test/4887442f.go,101:101,Template,F,39,83,F,F,Any,,,Unknown,4.86,44,F,F,F,Generic Secret
+30833,0623d5cf,GitHub,389fd795,data/389fd795/test/0623d5cf.go,22:22,T,F,28,44,F,F,NumbersOnly,,,Token,0,16,F,F,F,Generic Token
+31389,4887442f,GitHub,389fd795,data/389fd795/test/4887442f.go,311:311,T,F,44,88,F,F,Any,,,Unknown,4.86,44,F,F,F,Generic Secret
+31392,4887442f,GitHub,389fd795,data/389fd795/test/4887442f.go,101:101,T,F,39,83,F,F,Any,,,Unknown,4.86,44,F,F,F,Generic Secret
 31450,6faf9d66,GitHub,389fd795,data/389fd795/test/6faf9d66.go,763:763,Template,T,15,21,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
 32404,872aebd1,GitHub,389fd795,data/389fd795/test/872aebd1.go,28:28,F,F,27,40,F,F,,,,,0,0,F,F,F,Generic Token
 35744,c159516b,GitHub,389fd795,data/389fd795/test/c159516b.go,185:185,T,F,25,54,F,F,Any,,,Token,4.28,29,F,F,F,Generic Token

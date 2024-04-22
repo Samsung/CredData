@@ -90,7 +90,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 34235,2e1903b6,GitHub,349ac2b1,data/349ac2b1/test/2e1903b6.rb,300:300,Template,T,107,116,F,F,Any,,,Token,3.17,9,F,F,F,Generic Token
 34396,f6924d3e,GitHub,349ac2b1,data/349ac2b1/test/f6924d3e.rb,206:206,Template,T,11,23,F,F,Any,,,Secret,2.95,12,F,F,F,Password
 34467,0ebf4c65,GitHub,349ac2b1,data/349ac2b1/test/0ebf4c65.rb,70:70,T,T,11,18,F,F,CharsOnly,,,Secret,2.24,7,F,F,F,Password
-34469,0ebf4c65,GitHub,349ac2b1,data/349ac2b1/test/0ebf4c65.rb,19:19,Template,T,11,24,F,F,CharsOnly,,,Secret,3.09,13,F,F,F,Password
+34469,0ebf4c65,GitHub,349ac2b1,data/349ac2b1/test/0ebf4c65.rb,19:19,T,T,11,24,F,F,CharsOnly,,,Secret,3.09,13,F,F,F,Password
 34523,f6924d3e,GitHub,349ac2b1,data/349ac2b1/test/f6924d3e.rb,207:207,Template,T,24,36,F,F,Any,,,Secret,2.95,12,F,F,F,Password
 34703,902720ba,GitHub,349ac2b1,data/349ac2b1/test/902720ba.rb,83:83,T,T,43,54,F,F,Any,,,Unknown,2.96,11,F,F,F,Generic Secret
 34752,eb9ab6bb,GitHub,349ac2b1,data/349ac2b1/test/eb9ab6bb.rb,100:100,Template,T,27,34,F,F,CharsOnly,,,Secret,2.52,7,F,F,F,Password
@@ -153,8 +153,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 48079,94e52ffc,GitHub,349ac2b1,data/349ac2b1/test/94e52ffc.rb,199:199,F,F,,,F,F,,,,,0,0,F,F,F,Password
 48080,2e1903b6,GitHub,349ac2b1,data/349ac2b1/test/2e1903b6.rb,213:213,F,F,,,F,F,,,,,0,0,F,F,F,Password
 48088,f49f05c2,GitHub,349ac2b1,data/349ac2b1/test/f49f05c2.rb,20:20,F,F,,,F,F,,,,,0,0,F,F,F,Password
-48089,f6924d3e,GitHub,349ac2b1,data/349ac2b1/test/f6924d3e.rb,87:87,Template,F,17,26,F,F,NumbersOnly,,,Secret,2.95,9,F,F,F,Password
-48091,f6924d3e,GitHub,349ac2b1,data/349ac2b1/test/f6924d3e.rb,88:88,Template,F,30,39,F,F,NumbersOnly,,,Secret,2.95,9,F,F,F,Password
+48089,f6924d3e,GitHub,349ac2b1,data/349ac2b1/test/f6924d3e.rb,87:87,T,F,17,26,F,F,NumbersOnly,,,Secret,2.95,9,F,F,F,Password
+48091,f6924d3e,GitHub,349ac2b1,data/349ac2b1/test/f6924d3e.rb,88:88,T,F,30,39,F,F,NumbersOnly,,,Secret,2.95,9,F,F,F,Password
 48126,3acbec8f,GitHub,349ac2b1,data/349ac2b1/test/3acbec8f.rb,99:99,F,F,27,32,F,F,,,,,0,0,F,F,F,Password
 48169,3acbec8f,GitHub,349ac2b1,data/349ac2b1/test/3acbec8f.rb,147:147,T,F,17,145,F,F,Any,,,Unknown,3.77,128,F,F,F,Info
 48170,3acbec8f,GitHub,349ac2b1,data/349ac2b1/test/3acbec8f.rb,140:140,F,F,31,38,F,F,,,,,0,0,F,F,F,Password

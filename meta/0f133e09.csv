@@ -713,14 +713,14 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 29321,eca12c0a,GitHub,0f133e09,data/0f133e09/other/eca12c0a.md,89:89,Template,T,12,23,F,F,Any,,,Secret,2.96,11,F,F,F,Password
 29342,eca12c0a,GitHub,0f133e09,data/0f133e09/other/eca12c0a.md,90:90,Template,T,15,23,F,F,Any,,,Token,2.62,8,F,F,F,Generic Token
 29536,5e62348b,GitHub,0f133e09,data/0f133e09/test/5e62348b.py,30:30,Template,T,22,43,F,F,Any,,,Secret,3.14,21,F,F,F,Password
-29607,6ec6580c,GitHub,0f133e09,data/0f133e09/test/6ec6580c.txt,7:7,Template,F,19,59,F,F,NumbersOnly,,,Secret,3.32,40,F,F,F,Generic Secret
+29607,6ec6580c,GitHub,0f133e09,data/0f133e09/test/6ec6580c.txt,7:7,T,F,19,59,F,F,NumbersOnly,,,Secret,3.32,40,F,F,F,Generic Secret
 29610,3e8093f9,GitHub,0f133e09,data/0f133e09/test/3e8093f9.txt,32:32,F,F,22,402,T,F,Any,,,Unknown,5.83,380,F,F,F,Generic Secret
 29611,a0a75a16,GitHub,0f133e09,data/0f133e09/test/a0a75a16.txt,7:7,F,T,9,397,F,F,Any,,,Unknown,5.83,388,F,F,F,Generic Secret
 29612,6d89ddbd,GitHub,0f133e09,data/0f133e09/test/6d89ddbd.txt,7:7,F,T,9,397,F,F,Any,,,Unknown,5.83,388,F,F,F,Generic Secret
 29614,6d89ddbd,GitHub,0f133e09,data/0f133e09/test/6d89ddbd.txt,10:10,F,T,57,437,T,F,Any,,,Unknown,5.83,380,F,F,F,Generic Secret
 29616,a0a75a16,GitHub,0f133e09,data/0f133e09/test/a0a75a16.txt,10:10,F,T,57,437,T,F,Any,,,Unknown,5.83,380,F,F,F,Generic Secret
-30738,d90d9e92,GitHub,0f133e09,data/0f133e09/test/d90d9e92.py,375:375,Template,F,15,55,F,F,NumbersOnly,,,Secret,3.32,40,F,F,F,Generic Secret
-30876,d4a67d01,GitHub,0f133e09,data/0f133e09/test/d4a67d01.txt,10:10,Template,F,57,437,T,F,Any,,,Secret,5.84,380,F,F,F,Generic Secret
+30738,d90d9e92,GitHub,0f133e09,data/0f133e09/test/d90d9e92.py,375:375,T,F,15,55,F,F,NumbersOnly,,,Secret,3.32,40,F,F,F,Generic Secret
+30876,d4a67d01,GitHub,0f133e09,data/0f133e09/test/d4a67d01.txt,10:10,F,F,57,437,T,F,Any,,,PublicKey,5.84,380,F,F,F,Generic Secret
 30877,d6019b5f,GitHub,0f133e09,data/0f133e09/test/d6019b5f.txt,10:10,F,T,74,454,T,F,Any,,,Unknown,5.83,380,F,F,F,Generic Secret
 30883,7400d4c5,GitHub,0f133e09,data/0f133e09/test/7400d4c5.txt,10:10,F,F,9,389,F,F,Any,,,Unknown,5.84,380,F,F,F,Generic Secret
 30951,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,10:10,T,T,110,130,T,F,Any,,AWS Client ID,Secret,3.78,20,F,F,F,Predefined Pattern

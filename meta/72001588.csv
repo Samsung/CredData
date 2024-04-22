@@ -12,8 +12,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 22022,62c135d6,GitHub,72001588,data/72001588/src/62c135d6.json,16:16,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 22282,fbeb53bc,GitHub,72001588,data/72001588/test/fbeb53bc.json,6:6,F,F,,,F,F,,,,,0,0,F,F,F,Password
 24811,163cd050,GitHub,72001588,data/72001588/src/163cd050.j2,15:15,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-27216,519f7a46,GitHub,72001588,data/72001588/src/519f7a46.ini,208:208,Template,F,26,45,F,F,CharsOnly,,,Secret,0,19,F,F,F,Password
-27292,919469cb,GitHub,72001588,data/72001588/src/919469cb.ini,209:209,Template,F,23,51,F,F,CharsOnly,,,Token,0,28,F,F,F,Generic Token
+27216,519f7a46,GitHub,72001588,data/72001588/src/519f7a46.ini,208:208,T,F,26,45,F,F,CharsOnly,,,Secret,0,19,F,F,F,Password
+27292,919469cb,GitHub,72001588,data/72001588/src/919469cb.ini,209:209,T,F,23,51,F,F,CharsOnly,,,Token,0,28,F,F,F,Generic Token
 28109,189f3770,GitHub,72001588,data/72001588/src/189f3770.erb,7:7,F,F,35,50,F,F,,,,,0,0,F,F,F,Generic Token
 28110,ddfe0c7c,GitHub,72001588,data/72001588/src/ddfe0c7c.erb,6:6,F,F,35,50,F,F,,,,,0,0,F,F,F,Generic Token
 28871,be76e124,GitHub,72001588,data/72001588/src/be76e124.yml,3:3,Template,T,11,15,F,F,CharsOnly,,,Secret,2.00,4,F,F,F,Password
@@ -30,10 +30,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 42705,0ed4f2dd,GitHub,72001588,data/72001588/src/0ed4f2dd.py,538:538,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 55616,919469cb,GitHub,72001588,data/72001588/src/919469cb.ini,169:169,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 55617,519f7a46,GitHub,72001588,data/72001588/src/519f7a46.ini,169:169,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-55618,919469cb,GitHub,72001588,data/72001588/src/919469cb.ini,208:208,Template,F,26,45,F,F,CharsOnly,,,Secret,0,19,F,F,F,Password
-55619,ad0c8ee5,GitHub,72001588,data/72001588/src/ad0c8ee5.ini,188:188,Template,F,26,45,F,F,CharsOnly,,,Secret,0,19,F,F,F,Password
-55620,519f7a46,GitHub,72001588,data/72001588/src/519f7a46.ini,209:209,Template,F,23,51,F,F,CharsOnly,,,Token,0,28,F,F,F,Generic Token
-55621,ad0c8ee5,GitHub,72001588,data/72001588/src/ad0c8ee5.ini,189:189,Template,F,23,51,F,F,CharsOnly,,,Token,0,28,F,F,F,Generic Token
+55618,919469cb,GitHub,72001588,data/72001588/src/919469cb.ini,208:208,T,F,26,45,F,F,CharsOnly,,,Secret,0,19,F,F,F,Password
+55619,ad0c8ee5,GitHub,72001588,data/72001588/src/ad0c8ee5.ini,188:188,T,F,26,45,F,F,CharsOnly,,,Secret,0,19,F,F,F,Password
+55620,519f7a46,GitHub,72001588,data/72001588/src/519f7a46.ini,209:209,T,F,23,51,F,F,CharsOnly,,,Token,0,28,F,F,F,Generic Token
+55621,ad0c8ee5,GitHub,72001588,data/72001588/src/ad0c8ee5.ini,189:189,T,F,23,51,F,F,CharsOnly,,,Token,0,28,F,F,F,Generic Token
 56047,0ed4f2dd,GitHub,72001588,data/72001588/src/0ed4f2dd.py,388:388,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 56048,eb486ff5,GitHub,72001588,data/72001588/src/eb486ff5.py,388:388,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 75074,4a6e201d,GitHub,72001588,data/72001588/src/4a6e201d.py,538:538,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
