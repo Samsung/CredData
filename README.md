@@ -178,6 +178,7 @@ Labeled data divided into 8 major categories according to their properties.
 |Cryptographic Primitives    |   Credential with seed, salt or nonce in variable name |
 |Generic Token               |   Credential with Token in VariableNameType and not covered by other categories|
 |Authentication Credentials  |   Credential with Auth in VariableNameType and not covered by other categories|
+|Info                        |   Rules with severity "info"|
 |Other                       |   Any credentials that is not covered by categories above|
 
 ## Relationship between Data and Metadata
