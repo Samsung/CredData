@@ -1,7 +1,7 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
 165,52925fcf,GitHub,784d78e8,data/784d78e8/other/52925fcf,515:515,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 913,be24a8e8,GitHub,784d78e8,data/784d78e8/src/be24a8e8.j2,22:22,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-1204,288d8a27,GitHub,784d78e8,data/784d78e8/src/288d8a27.yml,128:128,F,F,,,F,F,,,,,0,0,F,F,F,Other
+1204,288d8a27,GitHub,784d78e8,data/784d78e8/src/288d8a27.yml,128:128,F,F,,,F,F,,,,,0,0,F,F,F,Info
 1605,aedd861e,GitHub,784d78e8,data/784d78e8/other/aedd861e.md,158:158,T,F,22,28,F,F,Any,,,Secret,1.82,6,F,F,F,Password
 1904,f5ee60af,GitHub,784d78e8,data/784d78e8/src/f5ee60af.txt,42:42,F,F,,,F,F,,,,,0,0,F,F,F,Password
 2012,c7d90e53,GitHub,784d78e8,data/784d78e8/other/c7d90e53.md,72:72,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
@@ -70,9 +70,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 12857,5c04bd2c,GitHub,784d78e8,data/784d78e8/src/5c04bd2c.j2,286:286,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 14388,fa97dddf,GitHub,784d78e8,data/784d78e8/src/fa97dddf.yml,4:4,F,F,,,F,F,,,,,0,0,F,F,F,Password
 14389,03a32b65,GitHub,784d78e8,data/784d78e8/src/03a32b65.yml,11:11,F,F,,,F,F,,,,,0,0,F,F,F,Password
-17526,de119993,GitHub,784d78e8,data/784d78e8/other/de119993.md,104:104,F,F,,,F,F,,,,,0,0,F,F,F,Other
-17527,de119993,GitHub,784d78e8,data/784d78e8/other/de119993.md,67:67,F,F,,,F,F,,,,,0,0,F,F,F,Other
-17528,de119993,GitHub,784d78e8,data/784d78e8/other/de119993.md,44:44,F,F,,,F,F,,,,,0,0,F,F,F,Other
+17526,de119993,GitHub,784d78e8,data/784d78e8/other/de119993.md,104:104,F,F,,,F,F,,,,,0,0,F,F,F,Info
+17527,de119993,GitHub,784d78e8,data/784d78e8/other/de119993.md,67:67,F,F,,,F,F,,,,,0,0,F,F,F,Info
+17528,de119993,GitHub,784d78e8,data/784d78e8/other/de119993.md,44:44,F,F,,,F,F,,,,,0,0,F,F,F,Info
 18454,b54d19d1,GitHub,784d78e8,data/784d78e8/other/b54d19d1.md,46:46,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 18747,78f586b0,GitHub,784d78e8,data/784d78e8/src/78f586b0.yaml,22:22,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 18817,ef281d18,GitHub,784d78e8,data/784d78e8/src/ef281d18.yaml,282:282,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -82,7 +82,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 18827,52532fdc,GitHub,784d78e8,data/784d78e8/src/52532fdc.j2,188:188,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 18832,b6cdb279,GitHub,784d78e8,data/784d78e8/src/b6cdb279.j2,72:72,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 21326,cfeff289,GitHub,784d78e8,data/784d78e8/src/cfeff289.yaml,125:125,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-21354,7cb0881d,GitHub,784d78e8,data/784d78e8/src/7cb0881d.yaml,141:141,F,F,,,F,F,,,,,0,0,F,F,F,Other
+21354,7cb0881d,GitHub,784d78e8,data/784d78e8/src/7cb0881d.yaml,141:141,F,F,,,F,F,,,,,0,0,F,F,F,Info
 21732,abdad589,GitHub,784d78e8,data/784d78e8/src/abdad589.yaml,230:230,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 21733,c7d90e53,GitHub,784d78e8,data/784d78e8/other/c7d90e53.md,78:78,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 21734,b54d19d1,GitHub,784d78e8,data/784d78e8/other/b54d19d1.md,49:49,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -100,7 +100,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 30638,25820bb5,GitHub,784d78e8,data/784d78e8/src/25820bb5.j2,42:42,T,T,15,25,F,F,Any,,,Secret,2.99,10,F,F,F,Password
 30645,47124e11,GitHub,784d78e8,data/784d78e8/src/47124e11.j2,168:168,Template,T,20,27,F,F,Any,,,Secret,2.52,7,F,F,F,Password
 30647,f0c93ad6,GitHub,784d78e8,data/784d78e8/src/f0c93ad6.j2,167:167,Template,T,20,27,F,F,Any,,,Secret,2.52,7,F,F,F,Password
-31140,8762af8b,GitHub,784d78e8,data/784d78e8/other/8762af8b.md,168:168,T,T,131,141,F,F,Any,,,Secret,3.72,98,F,F,F,Password
+31140,8762af8b,GitHub,784d78e8,data/784d78e8/other/8762af8b.md,168:168,T,T,131,142,F,F,Any,,,Secret,3.72,98,F,F,F,Password
 32249,d38b4b1e,GitHub,784d78e8,data/784d78e8/src/d38b4b1e.yaml,20:20,Template,T,15,20,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
 34022,d38b4b1e,GitHub,784d78e8,data/784d78e8/src/d38b4b1e.yaml,16:16,T,F,19,26,F,F,CharsOnly,,,Secret,2.52,7,F,F,F,Password
 34271,629fa222,GitHub,784d78e8,data/784d78e8/src/629fa222.j2,124:124,T,T,16,41,F,F,Any,,,Secret,3.39,25,F,F,F,Password
@@ -251,9 +251,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 130764,c85ef60f,GitHub,784d78e8,data/784d78e8/src/c85ef60f.yaml,14:14,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130765,cfeff289,GitHub,784d78e8,data/784d78e8/src/cfeff289.yaml,72:72,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130766,c85ef60f,GitHub,784d78e8,data/784d78e8/src/c85ef60f.yaml,22:22,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-132042,cbac1473,GitHub,784d78e8,data/784d78e8/src/cbac1473.j2,251:251,T,F,59,74,F,F,,,Info,,0.00,,F,F,F,Other
-132043,9abb6374,GitHub,784d78e8,data/784d78e8/src/9abb6374.j2,22:22,F,F,6,13,F,F,,,Info,,0.00,,F,F,F,Other
-132044,d38b4b1e,GitHub,784d78e8,data/784d78e8/src/d38b4b1e.yaml,80:80,T,F,18,25,F,F,,,Info,,0.00,,F,F,F,Other
+132042,cbac1473,GitHub,784d78e8,data/784d78e8/src/cbac1473.j2,251:251,T,F,59,74,F,F,,,Info,,0.00,,F,F,F,Info
+132043,9abb6374,GitHub,784d78e8,data/784d78e8/src/9abb6374.j2,22:22,F,F,6,13,F,F,,,Info,,0.00,,F,F,F,Info
+132044,d38b4b1e,GitHub,784d78e8,data/784d78e8/src/d38b4b1e.yaml,80:80,T,F,18,25,F,F,,,Info,,0.00,,F,F,F,Info
 133472,69b28b6a,GitHub,784d78e8,data/784d78e8/other/69b28b6a.md,79:79,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 133473,69b28b6a,GitHub,784d78e8,data/784d78e8/other/69b28b6a.md,115:115,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 133474,d2360eed,GitHub,784d78e8,data/784d78e8/other/d2360eed.md,139:139,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern

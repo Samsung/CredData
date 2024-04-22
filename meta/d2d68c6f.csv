@@ -28,7 +28,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 2882,08c401d5,GitHub,d2d68c6f,data/d2d68c6f/test/08c401d5.cls,112:112,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 2916,a85d76d9,GitHub,d2d68c6f,data/d2d68c6f/test/a85d76d9.lkml,38:38,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 2949,31a9617c,GitHub,d2d68c6f,data/d2d68c6f/test/31a9617c.pony,84:84,F,F,,,F,F,,,,,0,0,F,F,F,Password
-2985,619154d6,GitHub,d2d68c6f,data/d2d68c6f/src/619154d6.kt,17:17,F,F,,,F,F,,,,,0,0,F,F,F,Other
+2985,619154d6,GitHub,d2d68c6f,data/d2d68c6f/src/619154d6.kt,17:17,F,F,,,F,F,,,,,0,0,F,F,F,Info
 2996,bfcf45b2,GitHub,d2d68c6f,data/d2d68c6f/src/bfcf45b2.kt,13:13,F,F,,,F,F,,,,,0,0,F,F,F,Password
 3001,5988acb6,GitHub,d2d68c6f,data/d2d68c6f/test/5988acb6.kt,13:13,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 3016,619154d6,GitHub,d2d68c6f,data/d2d68c6f/src/619154d6.kt,21:21,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -39,7 +39,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 3190,3e69952d,GitHub,d2d68c6f,data/d2d68c6f/test/3e69952d.gml,644:644,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 3212,446ae7d1,GitHub,d2d68c6f,data/d2d68c6f/test/446ae7d1.bat,34:34,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 3266,880dadb6,GitHub,d2d68c6f,data/d2d68c6f/test/880dadb6.graphql,51:51,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-3787,0f6eee91,GitHub,d2d68c6f,data/d2d68c6f/test/0f6eee91.sql,70:70,F,F,,,F,F,,,,,0,0,F,F,F,Other
+3787,0f6eee91,GitHub,d2d68c6f,data/d2d68c6f/test/0f6eee91.sql,70:70,F,F,,,F,F,,,,,0,0,F,F,F,Info
 4105,079b3db9,GitHub,d2d68c6f,data/d2d68c6f/test/079b3db9.ipynb,161:161,F,F,,,F,F,,,,,0,0,F,F,F,Password
 4106,079b3db9,GitHub,d2d68c6f,data/d2d68c6f/test/079b3db9.ipynb,85:85,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 4107,079b3db9,GitHub,d2d68c6f,data/d2d68c6f/test/079b3db9.ipynb,116:116,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -223,10 +223,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 9324,3fc1b53e,GitHub,d2d68c6f,data/d2d68c6f/test/3fc1b53e.smali,128:128,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 9352,cdd5ca0f,GitHub,d2d68c6f,data/d2d68c6f/test/cdd5ca0f.m,4825:4825,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 9354,e7871308,GitHub,d2d68c6f,data/d2d68c6f/test/e7871308.cc,883:883,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-9983,e3ceb47a,GitHub,d2d68c6f,data/d2d68c6f/test/e3ceb47a.cs,1:1,F,F,,,F,F,,,,,0,0,F,F,F,Other
+9983,e3ceb47a,GitHub,d2d68c6f,data/d2d68c6f/test/e3ceb47a.cs,1:1,F,F,,,F,F,,,,,0,0,F,F,F,Info
 10010,51ae100d,GitHub,d2d68c6f,data/d2d68c6f/test/51ae100d.rsc,220:220,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 10302,94a92fdb,GitHub,d2d68c6f,data/d2d68c6f/test/94a92fdb.m,43:43,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-10683,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,315:315,F,F,,,F,F,,,,,0,0,F,F,F,Other
+10683,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,315:315,F,F,,,F,F,,,,,0,0,F,F,F,Info
 10800,a382b60d,GitHub,d2d68c6f,data/d2d68c6f/src/a382b60d.kt,32:32,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 10841,18ea3ee4,GitHub,d2d68c6f,data/d2d68c6f/src/18ea3ee4.kt,15:15,F,F,,,F,F,,,,,0,0,F,F,F,Password
 10842,7c4c9540,GitHub,d2d68c6f,data/d2d68c6f/src/7c4c9540.kt,19:19,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -293,7 +293,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 14287,91a14c07,GitHub,d2d68c6f,data/d2d68c6f/src/91a14c07.kt,50:50,F,F,,,F,F,,,,,0,0,F,F,F,Password
 14288,f1c439fd,GitHub,d2d68c6f,data/d2d68c6f/src/f1c439fd.kt,151:151,F,F,,,F,F,,,,,0,0,F,F,F,Password
 14311,f1c439fd,GitHub,d2d68c6f,data/d2d68c6f/src/f1c439fd.kt,172:172,F,F,,,F,F,,,,,0,0,F,F,F,Password
-14340,f1c439fd,GitHub,d2d68c6f,data/d2d68c6f/src/f1c439fd.kt,144:144,F,F,,,F,F,,,,,0,0,F,F,F,Other
+14340,f1c439fd,GitHub,d2d68c6f,data/d2d68c6f/src/f1c439fd.kt,144:144,F,F,,,F,F,,,,,0,0,F,F,F,Info
 14403,bfcf45b2,GitHub,d2d68c6f,data/d2d68c6f/src/bfcf45b2.kt,32:32,F,F,,,F,F,,,,,0,0,F,F,F,Password
 14411,18ea3ee4,GitHub,d2d68c6f,data/d2d68c6f/src/18ea3ee4.kt,46:46,F,F,,,F,F,,,,,0,0,F,F,F,Password
 14424,18ea3ee4,GitHub,d2d68c6f,data/d2d68c6f/src/18ea3ee4.kt,32:32,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -376,7 +376,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 25298,e7871308,GitHub,d2d68c6f,data/d2d68c6f/test/e7871308.cc,89:89,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 25514,728b61a2,GitHub,d2d68c6f,data/d2d68c6f/test/728b61a2.proj,42:42,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 25521,247086ba,GitHub,d2d68c6f,data/d2d68c6f/test/247086ba.t,180:180,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-25522,247086ba,GitHub,d2d68c6f,data/d2d68c6f/test/247086ba.t,42:42,F,F,,,F,F,,,,,0,0,F,F,F,Other
+25522,247086ba,GitHub,d2d68c6f,data/d2d68c6f/test/247086ba.t,42:42,F,F,,,F,F,,,,,0,0,F,F,F,Info
 25637,33bceeeb,GitHub,d2d68c6f,data/d2d68c6f/test/33bceeeb.xib,15:15,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 25722,33bceeeb,GitHub,d2d68c6f,data/d2d68c6f/test/33bceeeb.xib,17:17,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 25766,33bceeeb,GitHub,d2d68c6f,data/d2d68c6f/test/33bceeeb.xib,16:16,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -585,7 +585,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 74457,d98e97d7,GitHub,d2d68c6f,data/d2d68c6f/test/d98e97d7.las,6171:6171,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 74553,78864cd0,GitHub,d2d68c6f,data/d2d68c6f/test/78864cd0.pm,191:191,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 74572,e7871308,GitHub,d2d68c6f,data/d2d68c6f/test/e7871308.cc,589:589,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-74651,91a14c07,GitHub,d2d68c6f,data/d2d68c6f/src/91a14c07.kt,46:46,F,F,,,F,F,,,,,0,0,F,F,F,Other
+74651,91a14c07,GitHub,d2d68c6f,data/d2d68c6f/src/91a14c07.kt,46:46,F,F,,,F,F,,,,,0,0,F,F,F,Info
 75114,e7871308,GitHub,d2d68c6f,data/d2d68c6f/test/e7871308.cc,920:920,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 75115,e7871308,GitHub,d2d68c6f,data/d2d68c6f/test/e7871308.cc,966:966,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 75116,e7871308,GitHub,d2d68c6f,data/d2d68c6f/test/e7871308.cc,989:989,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
@@ -676,14 +676,14 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 101698,7c4c9540,GitHub,d2d68c6f,data/d2d68c6f/src/7c4c9540.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
 101699,bfcf45b2,GitHub,d2d68c6f,data/d2d68c6f/src/bfcf45b2.kt,2:2,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
 101700,e7871308,GitHub,d2d68c6f,data/d2d68c6f/test/e7871308.cc,449:449,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-101701,d98e97d7,GitHub,d2d68c6f,data/d2d68c6f/test/d98e97d7.las,2223:2223,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+101701,d98e97d7,GitHub,d2d68c6f,data/d2d68c6f/test/d98e97d7.las,2223:2223,F,F,,,F,F,,,,,0.00,,F,F,F,Info
 101702,d98e97d7,GitHub,d2d68c6f,data/d2d68c6f/test/d98e97d7.las,3226:3226,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 101703,d98e97d7,GitHub,d2d68c6f,data/d2d68c6f/test/d98e97d7.las,3463:3463,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 101704,d98e97d7,GitHub,d2d68c6f,data/d2d68c6f/test/d98e97d7.las,3475:3475,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 101705,d98e97d7,GitHub,d2d68c6f,data/d2d68c6f/test/d98e97d7.las,3484:3484,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 101706,d98e97d7,GitHub,d2d68c6f,data/d2d68c6f/test/d98e97d7.las,3497:3497,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 101707,d98e97d7,GitHub,d2d68c6f,data/d2d68c6f/test/d98e97d7.las,7588:7588,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-101708,9f87b4f9,GitHub,d2d68c6f,data/d2d68c6f/test/9f87b4f9.ldml,2223:2223,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+101708,9f87b4f9,GitHub,d2d68c6f,data/d2d68c6f/test/9f87b4f9.ldml,2223:2223,F,F,,,F,F,,,,,0.00,,F,F,F,Info
 101709,9f87b4f9,GitHub,d2d68c6f,data/d2d68c6f/test/9f87b4f9.ldml,3226:3226,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 101710,9f87b4f9,GitHub,d2d68c6f,data/d2d68c6f/test/9f87b4f9.ldml,3463:3463,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 101711,9f87b4f9,GitHub,d2d68c6f,data/d2d68c6f/test/9f87b4f9.ldml,3475:3475,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
@@ -711,7 +711,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 101735,9a15edc7,GitHub,d2d68c6f,data/d2d68c6f/test/9a15edc7.pl,306:306,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 101736,9a15edc7,GitHub,d2d68c6f,data/d2d68c6f/test/9a15edc7.pl,330:330,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 101737,9a15edc7,GitHub,d2d68c6f,data/d2d68c6f/test/9a15edc7.pl,341:341,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-101738,9a15edc7,GitHub,d2d68c6f,data/d2d68c6f/test/9a15edc7.pl,520:520,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+101738,9a15edc7,GitHub,d2d68c6f,data/d2d68c6f/test/9a15edc7.pl,520:520,F,F,,,F,F,,,,,0.00,,F,F,F,Info
 101739,9a15edc7,GitHub,d2d68c6f,data/d2d68c6f/test/9a15edc7.pl,583:583,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 101740,9a15edc7,GitHub,d2d68c6f,data/d2d68c6f/test/9a15edc7.pl,656:656,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 101741,6e275579,GitHub,d2d68c6f,data/d2d68c6f/test/6e275579.purs,50:50,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
@@ -784,13 +784,13 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 130600,02b0e049,GitHub,d2d68c6f,data/d2d68c6f/test/02b0e049.tsx,821:821,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130602,143a5844,GitHub,d2d68c6f,data/d2d68c6f/test/143a5844.js,3974:3974,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130603,02b0e049,GitHub,d2d68c6f,data/d2d68c6f/test/02b0e049.tsx,781:781,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-132437,ddf3824a,GitHub,d2d68c6f,data/d2d68c6f/test/ddf3824a.c,558:558,T,F,53,60,F,F,,,Info,,0.00,,F,F,F,Other
-132438,1b05078b,GitHub,d2d68c6f,data/d2d68c6f/test/1b05078b.l,11:11,F,F,27,34,F,F,,,Info,,0.00,,F,F,F,Other
-132439,49b74355,GitHub,d2d68c6f,data/d2d68c6f/test/49b74355.lasso,10:10,F,F,41,48,F,F,,,Info,,0.00,,F,F,F,Other
-132440,d98e97d7,GitHub,d2d68c6f,data/d2d68c6f/test/d98e97d7.las,683:683,F,F,47,54,F,F,,,Info,,0.00,,F,F,F,Other
-132441,d98e97d7,GitHub,d2d68c6f,data/d2d68c6f/test/d98e97d7.las,8037:8037,F,F,66,73,F,F,,,Info,,0.00,,F,F,F,Other
-132442,9f87b4f9,GitHub,d2d68c6f,data/d2d68c6f/test/9f87b4f9.ldml,683:683,F,F,47,54,F,F,,,Info,,0.00,,F,F,F,Other
-132443,9f87b4f9,GitHub,d2d68c6f,data/d2d68c6f/test/9f87b4f9.ldml,8037:8037,F,F,66,73,F,F,,,Info,,0.00,,F,F,F,Other
+132437,ddf3824a,GitHub,d2d68c6f,data/d2d68c6f/test/ddf3824a.c,558:558,T,F,53,60,F,F,,,Info,,0.00,,F,F,F,Info
+132438,1b05078b,GitHub,d2d68c6f,data/d2d68c6f/test/1b05078b.l,11:11,F,F,27,34,F,F,,,Info,,0.00,,F,F,F,Info
+132439,49b74355,GitHub,d2d68c6f,data/d2d68c6f/test/49b74355.lasso,10:10,F,F,41,48,F,F,,,Info,,0.00,,F,F,F,Info
+132440,d98e97d7,GitHub,d2d68c6f,data/d2d68c6f/test/d98e97d7.las,683:683,F,F,47,54,F,F,,,Info,,0.00,,F,F,F,Info
+132441,d98e97d7,GitHub,d2d68c6f,data/d2d68c6f/test/d98e97d7.las,8037:8037,F,F,66,73,F,F,,,Info,,0.00,,F,F,F,Info
+132442,9f87b4f9,GitHub,d2d68c6f,data/d2d68c6f/test/9f87b4f9.ldml,683:683,F,F,47,54,F,F,,,Info,,0.00,,F,F,F,Info
+132443,9f87b4f9,GitHub,d2d68c6f,data/d2d68c6f/test/9f87b4f9.ldml,8037:8037,F,F,66,73,F,F,,,Info,,0.00,,F,F,F,Info
 132989,9a15edc7,GitHub,d2d68c6f,data/d2d68c6f/test/9a15edc7.pl,290:290,F,F,,,F,F,,,,,0,0,F,F,F,Password
 132990,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,573:573,F,F,,,F,F,,,,,0,0,F,F,F,Password
 132991,a9ff5d21,GitHub,d2d68c6f,data/d2d68c6f/test/a9ff5d21.tl,574:574,F,F,,,F,F,,,,,0,0,F,F,F,Password

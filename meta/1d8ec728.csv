@@ -70,7 +70,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 42481,0ad46c42,GitHub,1d8ec728,data/1d8ec728/src/0ad46c42.php,141:141,F,F,,,F,F,,,,,0,0,F,F,F,Password
 42684,be66b8c8,GitHub,1d8ec728,data/1d8ec728/src/be66b8c8.php,163:163,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 43060,4d59fdc8,GitHub,1d8ec728,data/1d8ec728/src/4d59fdc8.php,56:56,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-43104,ebc17e86,GitHub,1d8ec728,data/1d8ec728/src/ebc17e86.php,53:53,F,F,,,F,F,,,,,0,0,F,F,F,Other
+43104,ebc17e86,GitHub,1d8ec728,data/1d8ec728/src/ebc17e86.php,53:53,F,F,,,F,F,,,,,0,0,F,F,F,Info
 46806,2efd6594,GitHub,1d8ec728,data/1d8ec728/other/2efd6594.md,297:297,Template,T,20,26,F,F,CharsOnly,,,Unknown,2.25,6,F,F,F,Generic Secret
 46875,6c7ebbb8,GitHub,1d8ec728,data/1d8ec728/test/6c7ebbb8.php,2613:2613,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 46876,6c7ebbb8,GitHub,1d8ec728,data/1d8ec728/test/6c7ebbb8.php,2778:2778,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
@@ -90,7 +90,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 100550,be66b8c8,GitHub,1d8ec728,data/1d8ec728/src/be66b8c8.php,166:166,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100551,6694caa9,GitHub,1d8ec728,data/1d8ec728/src/6694caa9.php,208:208,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 100552,ebc17e86,GitHub,1d8ec728,data/1d8ec728/src/ebc17e86.php,356:356,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-100553,ed2ca8ce,GitHub,1d8ec728,data/1d8ec728/test/ed2ca8ce.php,843:843,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+100553,ed2ca8ce,GitHub,1d8ec728,data/1d8ec728/test/ed2ca8ce.php,843:843,F,F,,,F,F,,,,,0.00,,F,F,F,Info
 100554,9a6d8adf,GitHub,1d8ec728,data/1d8ec728/test/9a6d8adf.php,72:72,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100555,9a6d8adf,GitHub,1d8ec728,data/1d8ec728/test/9a6d8adf.php,82:82,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100556,9a6d8adf,GitHub,1d8ec728,data/1d8ec728/test/9a6d8adf.php,103:103,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
@@ -98,9 +98,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 100558,6c7ebbb8,GitHub,1d8ec728,data/1d8ec728/test/6c7ebbb8.php,2407:2407,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100559,6c7ebbb8,GitHub,1d8ec728,data/1d8ec728/test/6c7ebbb8.php,2434:2434,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100560,6c7ebbb8,GitHub,1d8ec728,data/1d8ec728/test/6c7ebbb8.php,2435:2435,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-100561,6c7ebbb8,GitHub,1d8ec728,data/1d8ec728/test/6c7ebbb8.php,2456:2456,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-100562,6c7ebbb8,GitHub,1d8ec728,data/1d8ec728/test/6c7ebbb8.php,2470:2470,F,F,,,F,F,,,,,0.00,,F,F,F,Other
-100563,6c7ebbb8,GitHub,1d8ec728,data/1d8ec728/test/6c7ebbb8.php,2471:2471,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+100561,6c7ebbb8,GitHub,1d8ec728,data/1d8ec728/test/6c7ebbb8.php,2456:2456,F,F,,,F,F,,,,,0.00,,F,F,F,Info
+100562,6c7ebbb8,GitHub,1d8ec728,data/1d8ec728/test/6c7ebbb8.php,2470:2470,F,F,,,F,F,,,,,0.00,,F,F,F,Info
+100563,6c7ebbb8,GitHub,1d8ec728,data/1d8ec728/test/6c7ebbb8.php,2471:2471,F,F,,,F,F,,,,,0.00,,F,F,F,Info
 100564,6c7ebbb8,GitHub,1d8ec728,data/1d8ec728/test/6c7ebbb8.php,2508:2508,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100565,6c7ebbb8,GitHub,1d8ec728,data/1d8ec728/test/6c7ebbb8.php,2529:2529,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 100566,6c7ebbb8,GitHub,1d8ec728,data/1d8ec728/test/6c7ebbb8.php,2530:2530,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
@@ -109,26 +109,26 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 110146,dd5b1f87,GitHub,1d8ec728,data/1d8ec728/src/dd5b1f87.php,93:93,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Token
 110147,be66b8c8,GitHub,1d8ec728,data/1d8ec728/src/be66b8c8.php,154:154,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 110148,1fd52c2c,GitHub,1d8ec728,data/1d8ec728/src/1fd52c2c.php,392:392,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-110149,f8e3b441,GitHub,1d8ec728,data/1d8ec728/other/f8e3b441.md,272:272,T,F,9,18,F,F,,,,,0.00,,F,F,F,Other
+110149,f8e3b441,GitHub,1d8ec728,data/1d8ec728/other/f8e3b441.md,272:272,T,F,9,18,F,F,,,,,0.00,,F,F,F,Info
 110150,94779cbb,GitHub,1d8ec728,data/1d8ec728/test/94779cbb.php,140:140,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
 130169,2420b207,GitHub,1d8ec728,data/1d8ec728/test/2420b207.php,230:230,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130173,0ad46c42,GitHub,1d8ec728,data/1d8ec728/src/0ad46c42.php,62:62,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130175,1fd52c2c,GitHub,1d8ec728,data/1d8ec728/src/1fd52c2c.php,86:86,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-131940,ed2ca8ce,GitHub,1d8ec728,data/1d8ec728/test/ed2ca8ce.php,249:249,F,F,23,31,F,F,,,,,0.00,,F,F,F,Other
-131941,ed2ca8ce,GitHub,1d8ec728,data/1d8ec728/test/ed2ca8ce.php,292:292,F,F,34,42,F,F,,,,,0.00,,F,F,F,Other
-131942,ed2ca8ce,GitHub,1d8ec728,data/1d8ec728/test/ed2ca8ce.php,328:328,F,F,20,27,F,F,,,,,0.00,,F,F,F,Other
-131943,ed2ca8ce,GitHub,1d8ec728,data/1d8ec728/test/ed2ca8ce.php,362:362,F,F,25,33,F,F,,,,,0.00,,F,F,F,Other
-131944,ed2ca8ce,GitHub,1d8ec728,data/1d8ec728/test/ed2ca8ce.php,408:408,F,F,23,30,F,F,,,,,0.00,,F,F,F,Other
-131945,ed2ca8ce,GitHub,1d8ec728,data/1d8ec728/test/ed2ca8ce.php,660:660,F,F,42,50,F,F,,,,,0.00,,F,F,F,Other
-131946,ed2ca8ce,GitHub,1d8ec728,data/1d8ec728/test/ed2ca8ce.php,774:774,F,F,24,31,F,F,,,,,0.00,,F,F,F,Other
-131947,ed2ca8ce,GitHub,1d8ec728,data/1d8ec728/test/ed2ca8ce.php,788:788,F,F,24,31,F,F,,,,,0.00,,F,F,F,Other
-131948,ed2ca8ce,GitHub,1d8ec728,data/1d8ec728/test/ed2ca8ce.php,795:795,F,F,24,31,F,F,,,,,0.00,,F,F,F,Other
-131949,ed2ca8ce,GitHub,1d8ec728,data/1d8ec728/test/ed2ca8ce.php,802:802,F,F,24,31,F,F,,,,,0.00,,F,F,F,Other
-131950,ed2ca8ce,GitHub,1d8ec728,data/1d8ec728/test/ed2ca8ce.php,809:809,F,F,24,31,F,F,,,,,0.00,,F,F,F,Other
-131951,ed2ca8ce,GitHub,1d8ec728,data/1d8ec728/test/ed2ca8ce.php,816:816,F,F,35,42,F,F,,,,,0.00,,F,F,F,Other
-131952,ed2ca8ce,GitHub,1d8ec728,data/1d8ec728/test/ed2ca8ce.php,823:823,F,F,24,31,F,F,,,,,0.00,,F,F,F,Other
-131953,7fc01820,GitHub,1d8ec728,data/1d8ec728/test/7fc01820.php,300:300,T,F,7,14,F,F,,,Info,,0.00,,F,F,F,Other
-131954,7fc01820,GitHub,1d8ec728,data/1d8ec728/test/7fc01820.php,301:301,T,F,7,14,F,F,,,Info,,0.00,,F,F,F,Other
+131940,ed2ca8ce,GitHub,1d8ec728,data/1d8ec728/test/ed2ca8ce.php,249:249,F,F,23,31,F,F,,,,,0.00,,F,F,F,Info
+131941,ed2ca8ce,GitHub,1d8ec728,data/1d8ec728/test/ed2ca8ce.php,292:292,F,F,34,42,F,F,,,,,0.00,,F,F,F,Info
+131942,ed2ca8ce,GitHub,1d8ec728,data/1d8ec728/test/ed2ca8ce.php,328:328,F,F,20,27,F,F,,,,,0.00,,F,F,F,Info
+131943,ed2ca8ce,GitHub,1d8ec728,data/1d8ec728/test/ed2ca8ce.php,362:362,F,F,25,33,F,F,,,,,0.00,,F,F,F,Info
+131944,ed2ca8ce,GitHub,1d8ec728,data/1d8ec728/test/ed2ca8ce.php,408:408,F,F,23,30,F,F,,,,,0.00,,F,F,F,Info
+131945,ed2ca8ce,GitHub,1d8ec728,data/1d8ec728/test/ed2ca8ce.php,660:660,F,F,42,50,F,F,,,,,0.00,,F,F,F,Info
+131946,ed2ca8ce,GitHub,1d8ec728,data/1d8ec728/test/ed2ca8ce.php,774:774,F,F,24,31,F,F,,,,,0.00,,F,F,F,Info
+131947,ed2ca8ce,GitHub,1d8ec728,data/1d8ec728/test/ed2ca8ce.php,788:788,F,F,24,31,F,F,,,,,0.00,,F,F,F,Info
+131948,ed2ca8ce,GitHub,1d8ec728,data/1d8ec728/test/ed2ca8ce.php,795:795,F,F,24,31,F,F,,,,,0.00,,F,F,F,Info
+131949,ed2ca8ce,GitHub,1d8ec728,data/1d8ec728/test/ed2ca8ce.php,802:802,F,F,24,31,F,F,,,,,0.00,,F,F,F,Info
+131950,ed2ca8ce,GitHub,1d8ec728,data/1d8ec728/test/ed2ca8ce.php,809:809,F,F,24,31,F,F,,,,,0.00,,F,F,F,Info
+131951,ed2ca8ce,GitHub,1d8ec728,data/1d8ec728/test/ed2ca8ce.php,816:816,F,F,35,42,F,F,,,,,0.00,,F,F,F,Info
+131952,ed2ca8ce,GitHub,1d8ec728,data/1d8ec728/test/ed2ca8ce.php,823:823,F,F,24,31,F,F,,,,,0.00,,F,F,F,Info
+131953,7fc01820,GitHub,1d8ec728,data/1d8ec728/test/7fc01820.php,300:300,T,F,7,14,F,F,,,Info,,0.00,,F,F,F,Info
+131954,7fc01820,GitHub,1d8ec728,data/1d8ec728/test/7fc01820.php,301:301,T,F,7,14,F,F,,,Info,,0.00,,F,F,F,Info
 132766,0ad46c42,GitHub,1d8ec728,data/1d8ec728/src/0ad46c42.php,94:94,F,F,,,F,F,,,,,0,0,F,F,F,Password
 132767,2420b207,GitHub,1d8ec728,data/1d8ec728/test/2420b207.php,227:227,T,F,17,30,F,F,,,,,0,0,F,F,F,Password
 133052,0ad46c42,GitHub,1d8ec728,data/1d8ec728/src/0ad46c42.php,122:122,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials

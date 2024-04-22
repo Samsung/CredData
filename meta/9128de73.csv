@@ -1,6 +1,6 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
 182,3b16f9fb,GitHub,9128de73,data/9128de73/src/3b16f9fb.sh,1457:1457,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-1485,fe7a244e,GitHub,9128de73,data/9128de73/test/fe7a244e.go,133:133,F,F,,,F,F,,,,,0,0,F,F,F,Other
+1485,fe7a244e,GitHub,9128de73,data/9128de73/test/fe7a244e.go,133:133,F,F,,,F,F,,,,,0,0,F,F,F,Info
 1810,072c0182,GitHub,9128de73,data/9128de73/test/072c0182.go,115:115,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 2312,3295df72,GitHub,9128de73,data/9128de73/src/3295df72.sum,446:446,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 2800,e9f5b47b,GitHub,9128de73,data/9128de73/test/e9f5b47b.go,52:52,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -13,8 +13,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 6049,ab3d3da2,GitHub,9128de73,data/9128de73/src/ab3d3da2.yaml,2:2,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 6094,c4b45dc5,GitHub,9128de73,data/9128de73/test/c4b45dc5.go,76:76,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 6107,88db6aa0,GitHub,9128de73,data/9128de73/test/88db6aa0.go,65:65,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-6579,fe7a244e,GitHub,9128de73,data/9128de73/test/fe7a244e.go,68:68,F,F,,,F,F,,,,,0,0,F,F,F,Other
-6580,fe7a244e,GitHub,9128de73,data/9128de73/test/fe7a244e.go,165:165,F,F,,,F,F,,,,,0,0,F,F,F,Other
+6579,fe7a244e,GitHub,9128de73,data/9128de73/test/fe7a244e.go,68:68,F,F,,,F,F,,,,,0,0,F,F,F,Info
+6580,fe7a244e,GitHub,9128de73,data/9128de73/test/fe7a244e.go,165:165,F,F,,,F,F,,,,,0,0,F,F,F,Info
 6873,3b16f9fb,GitHub,9128de73,data/9128de73/src/3b16f9fb.sh,354:354,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 6874,3b16f9fb,GitHub,9128de73,data/9128de73/src/3b16f9fb.sh,836:836,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 7494,3295df72,GitHub,9128de73,data/9128de73/src/3295df72.sum,522:522,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
@@ -23,7 +23,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 8887,5462ac3e,GitHub,9128de73,data/9128de73/other/5462ac3e.md,80:80,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 8892,19133b7a,GitHub,9128de73,data/9128de73/src/19133b7a.yaml,41:41,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 8893,eaf30260,GitHub,9128de73,data/9128de73/src/eaf30260.yaml,36:36,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-9769,c89fe1d7,GitHub,9128de73,data/9128de73/test/c89fe1d7.go,73:73,F,F,,,F,F,,,,,0,0,F,F,F,Other
+9769,c89fe1d7,GitHub,9128de73,data/9128de73/test/c89fe1d7.go,73:73,F,F,,,F,F,,,,,0,0,F,F,F,Info
 12220,bbf46775,GitHub,9128de73,data/9128de73/test/bbf46775.go,144:144,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 12433,3295df72,GitHub,9128de73,data/9128de73/src/3295df72.sum,529:529,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 12434,3295df72,GitHub,9128de73,data/9128de73/src/3295df72.sum,528:528,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
@@ -41,10 +41,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 26100,524e5f37,GitHub,9128de73,data/9128de73/src/524e5f37.go,75:75,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 30522,cc3efc56,GitHub,9128de73,data/9128de73/test/cc3efc56.yaml,7:7,T,T,6,,F,F,Any,,,Unknown,5.49,1852,F,F,F,Generic Secret
 30523,cc3efc56,GitHub,9128de73,data/9128de73/test/cc3efc56.yaml,16:16,T,T,6,,F,F,Any,,,Unknown,5.51,1952,F,F,F,Generic Secret
-30536,cc3efc56,GitHub,9128de73,data/9128de73/test/cc3efc56.yaml,8:8,T,T,4,,F,F,Any,,,Unknown,5.53,1732,F,F,F,Other
+30536,cc3efc56,GitHub,9128de73,data/9128de73/test/cc3efc56.yaml,8:8,T,T,4,,F,F,Any,,,Unknown,5.53,1732,F,F,F,Info
 31123,cc3efc56,GitHub,9128de73,data/9128de73/test/cc3efc56.yaml,6:6,T,T,,,F,F,Any,,,Unknown,5.64,2236,T,F,F,Private Key
 31124,cc3efc56,GitHub,9128de73,data/9128de73/test/cc3efc56.yaml,15:15,T,T,5,,F,F,Any,,,Unknown,5.62,2240,T,F,F,Predefined Pattern
-46252,fe7a244e,GitHub,9128de73,data/9128de73/test/fe7a244e.go,194:194,F,F,,,F,F,,,,,0,0,F,F,F,Other
+46252,fe7a244e,GitHub,9128de73,data/9128de73/test/fe7a244e.go,194:194,F,F,,,F,F,,,,,0,0,F,F,F,Info
 48073,5462ac3e,GitHub,9128de73,data/9128de73/other/5462ac3e.md,95:95,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 55571,e97c17b9,GitHub,9128de73,data/9128de73/src/e97c17b9.yaml,288:288,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 56565,6683e061,GitHub,9128de73,data/9128de73/src/6683e061.yaml,171:171,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -66,14 +66,14 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 110560,3295df72,GitHub,9128de73,data/9128de73/src/3295df72.sum,383:383,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
 110561,3295df72,GitHub,9128de73,data/9128de73/src/3295df72.sum,384:384,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
 110562,3295df72,GitHub,9128de73,data/9128de73/src/3295df72.sum,148:148,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-110563,3b16f9fb,GitHub,9128de73,data/9128de73/src/3b16f9fb.sh,1483:1483,F,F,,,F,F,,,,,0.00,,F,F,F,Other
+110563,3b16f9fb,GitHub,9128de73,data/9128de73/src/3b16f9fb.sh,1483:1483,F,F,,,F,F,,,,,0.00,,F,F,F,Info
 110564,3b16f9fb,GitHub,9128de73,data/9128de73/src/3b16f9fb.sh,349:349,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
 110565,11563907,GitHub,9128de73,data/9128de73/other/11563907.md,85:85,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 110566,11563907,GitHub,9128de73,data/9128de73/other/11563907.md,91:91,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 110567,11563907,GitHub,9128de73,data/9128de73/other/11563907.md,86:86,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
 110568,11563907,GitHub,9128de73,data/9128de73/other/11563907.md,92:92,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
 130427,e9f5b47b,GitHub,9128de73,data/9128de73/test/e9f5b47b.go,26:26,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-132152,11563907,GitHub,9128de73,data/9128de73/other/11563907.md,76:76,T,F,135,146,F,F,,,Info,,0.00,,F,F,F,Other
+132152,11563907,GitHub,9128de73,data/9128de73/other/11563907.md,76:76,T,F,135,146,F,F,,,Info,,0.00,,F,F,F,Info
 133977,5462ac3e,GitHub,9128de73,data/9128de73/other/5462ac3e.md,5:5,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 133978,5462ac3e,GitHub,9128de73,data/9128de73/other/5462ac3e.md,37:37,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 133979,5462ac3e,GitHub,9128de73,data/9128de73/other/5462ac3e.md,43:43,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
