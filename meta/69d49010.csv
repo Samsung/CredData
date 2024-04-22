@@ -108,7 +108,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 46474,2b70d37a,GitHub,69d49010,data/69d49010/test/2b70d37a.py,122:122,Template,T,13,20,F,F,CharsOnly,,,Secret,2.52,7,F,F,F,Password
 46475,2b70d37a,GitHub,69d49010,data/69d49010/test/2b70d37a.py,143:143,Template,T,13,20,F,F,CharsOnly,,,Secret,2.52,7,F,F,F,Password
 50337,24cbbb32,GitHub,69d49010,data/69d49010/test/24cbbb32.py,679:679,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-50373,85d52436,GitHub,69d49010,data/69d49010/test/85d52436.py,339:339,F,F,,,F,F,,,,,0,0,F,F,F,Other
+50373,85d52436,GitHub,69d49010,data/69d49010/test/85d52436.py,339:339,F,F,,,F,F,,,,,0,0,F,F,F,Info
 56069,8943f7fd,GitHub,69d49010,data/69d49010/test/8943f7fd.py,823:823,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 56071,e9271360,GitHub,69d49010,data/69d49010/test/e9271360.py,38:38,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 56603,53be66ac,GitHub,69d49010,data/69d49010/src/53be66ac.py,177:177,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -159,23 +159,23 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 130557,4ed5ad38,GitHub,69d49010,data/69d49010/src/4ed5ad38.py,173:173,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130558,53be66ac,GitHub,69d49010,data/69d49010/src/53be66ac.py,372:372,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130559,639b7716,GitHub,69d49010,data/69d49010/src/639b7716.py,26:26,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-132015,53be66ac,GitHub,69d49010,data/69d49010/src/53be66ac.py,656:656,T,F,14,26,F,F,,,Info,,0.00,,F,F,F,Other
-132016,234bac3c,GitHub,69d49010,data/69d49010/test/234bac3c.py,52:52,T,F,6,13,F,F,,,Info,,0.00,,F,F,F,Other
-132017,234bac3c,GitHub,69d49010,data/69d49010/test/234bac3c.py,58:58,T,F,21,28,F,F,,,Info,,0.00,,F,F,F,Other
-132018,234bac3c,GitHub,69d49010,data/69d49010/test/234bac3c.py,145:145,T,F,9,16,F,F,,,Info,,0.00,,F,F,F,Other
-132019,234bac3c,GitHub,69d49010,data/69d49010/test/234bac3c.py,148:148,T,F,20,27,F,F,,,Info,,0.00,,F,F,F,Other
-132020,50261f6e,GitHub,69d49010,data/69d49010/test/50261f6e.py,32:32,T,F,16,23,F,F,,,Info,,0.00,,F,F,F,Other
-132021,50261f6e,GitHub,69d49010,data/69d49010/test/50261f6e.py,33:33,T,F,15,22,F,F,,,Info,,0.00,,F,F,F,Other
-132022,50261f6e,GitHub,69d49010,data/69d49010/test/50261f6e.py,56:56,T,F,16,23,F,F,,,Info,,0.00,,F,F,F,Other
-132023,85d52436,GitHub,69d49010,data/69d49010/test/85d52436.py,290:290,T,F,1,14,F,F,,,Info,,0.00,,F,F,F,Other
-132024,85d52436,GitHub,69d49010,data/69d49010/test/85d52436.py,291:291,T,F,8,21,F,F,,,Info,,0.00,,F,F,F,Other
-132025,85d52436,GitHub,69d49010,data/69d49010/test/85d52436.py,540:540,T,F,1,28,F,F,,,Info,,0.00,,F,F,F,Other
-132026,85d52436,GitHub,69d49010,data/69d49010/test/85d52436.py,542:542,T,F,27,44,F,F,,,Info,,0.00,,F,F,F,Other
-132027,85d52436,GitHub,69d49010,data/69d49010/test/85d52436.py,546:546,T,F,2,19,F,F,,,Info,,0.00,,F,F,F,Other
-132028,85d52436,GitHub,69d49010,data/69d49010/test/85d52436.py,548:548,T,F,27,44,F,F,,,Info,,0.00,,F,F,F,Other
-132029,24cbbb32,GitHub,69d49010,data/69d49010/test/24cbbb32.py,761:761,T,F,8,15,F,F,,,Info,,0.00,,F,F,F,Other
-132030,24cbbb32,GitHub,69d49010,data/69d49010/test/24cbbb32.py,772:772,T,F,8,15,F,F,,,Info,,0.00,,F,F,F,Other
-132031,24cbbb32,GitHub,69d49010,data/69d49010/test/24cbbb32.py,807:807,T,F,,,F,F,,,,,0.00,,F,F,F,Other
+132015,53be66ac,GitHub,69d49010,data/69d49010/src/53be66ac.py,656:656,T,F,14,26,F,F,,,Info,,0.00,,F,F,F,Info
+132016,234bac3c,GitHub,69d49010,data/69d49010/test/234bac3c.py,52:52,T,F,6,13,F,F,,,Info,,0.00,,F,F,F,Info
+132017,234bac3c,GitHub,69d49010,data/69d49010/test/234bac3c.py,58:58,T,F,21,28,F,F,,,Info,,0.00,,F,F,F,Info
+132018,234bac3c,GitHub,69d49010,data/69d49010/test/234bac3c.py,145:145,T,F,9,16,F,F,,,Info,,0.00,,F,F,F,Info
+132019,234bac3c,GitHub,69d49010,data/69d49010/test/234bac3c.py,148:148,T,F,20,27,F,F,,,Info,,0.00,,F,F,F,Info
+132020,50261f6e,GitHub,69d49010,data/69d49010/test/50261f6e.py,32:32,T,F,16,23,F,F,,,Info,,0.00,,F,F,F,Info
+132021,50261f6e,GitHub,69d49010,data/69d49010/test/50261f6e.py,33:33,T,F,15,22,F,F,,,Info,,0.00,,F,F,F,Info
+132022,50261f6e,GitHub,69d49010,data/69d49010/test/50261f6e.py,56:56,T,F,16,23,F,F,,,Info,,0.00,,F,F,F,Info
+132023,85d52436,GitHub,69d49010,data/69d49010/test/85d52436.py,290:290,T,F,1,14,F,F,,,Info,,0.00,,F,F,F,Info
+132024,85d52436,GitHub,69d49010,data/69d49010/test/85d52436.py,291:291,T,F,8,21,F,F,,,Info,,0.00,,F,F,F,Info
+132025,85d52436,GitHub,69d49010,data/69d49010/test/85d52436.py,540:540,T,F,1,28,F,F,,,Info,,0.00,,F,F,F,Info
+132026,85d52436,GitHub,69d49010,data/69d49010/test/85d52436.py,542:542,T,F,27,44,F,F,,,Info,,0.00,,F,F,F,Info
+132027,85d52436,GitHub,69d49010,data/69d49010/test/85d52436.py,546:546,T,F,2,19,F,F,,,Info,,0.00,,F,F,F,Info
+132028,85d52436,GitHub,69d49010,data/69d49010/test/85d52436.py,548:548,T,F,27,44,F,F,,,Info,,0.00,,F,F,F,Info
+132029,24cbbb32,GitHub,69d49010,data/69d49010/test/24cbbb32.py,761:761,T,F,8,15,F,F,,,Info,,0.00,,F,F,F,Info
+132030,24cbbb32,GitHub,69d49010,data/69d49010/test/24cbbb32.py,772:772,T,F,8,15,F,F,,,Info,,0.00,,F,F,F,Info
+132031,24cbbb32,GitHub,69d49010,data/69d49010/test/24cbbb32.py,807:807,T,F,,,F,F,,,,,0.00,,F,F,F,Info
 132755,5aad918a,GitHub,69d49010,data/69d49010/test/5aad918a.py,403:403,T,F,28,42,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
 133408,9d3adc9d,GitHub,69d49010,data/69d49010/src/9d3adc9d.py,220:220,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 133409,d6cfb4be,GitHub,69d49010,data/69d49010/src/d6cfb4be.py,69:69,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
