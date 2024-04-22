@@ -18,7 +18,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 12442,528416ab,GitHub,81a41883,data/81a41883/test/528416ab.rb,23:23,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 12845,60c69c75,GitHub,81a41883,data/81a41883/src/60c69c75.js,406:406,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 14773,df96d0ce,GitHub,81a41883,data/81a41883/src/df96d0ce.rb,12:12,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-19258,3f372c1b,GitHub,81a41883,data/81a41883/test/3f372c1b.json,34:34,F,F,,,F,F,,,,,0,0,F,F,F,Other
+19258,3f372c1b,GitHub,81a41883,data/81a41883/test/3f372c1b.json,34:34,F,F,,,F,F,,,,,0,0,F,F,F,Info
 23084,797bf776,GitHub,81a41883,data/81a41883/src/797bf776.rb,4:4,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 23098,7829468e,GitHub,81a41883,data/81a41883/src/7829468e.yml,99:99,F,F,,,F,F,,,,,0,0,F,F,F,Password
 23103,b7aff2c1,GitHub,81a41883,data/81a41883/src/b7aff2c1.rb,8:8,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -48,7 +48,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 36724,b4eeffb8,GitHub,81a41883,data/81a41883/test/b4eeffb8.yml,12:12,T,F,32,62,F,F,Any,,,Token,4.02,30,F,F,F,Generic Token
 36725,b4eeffb8,GitHub,81a41883,data/81a41883/test/b4eeffb8.yml,13:13,T,F,35,53,F,F,Any,,,Token,3.83,18,F,F,F,Generic Token
 37351,9854d83a,GitHub,81a41883,data/81a41883/test/9854d83a.yml,4:4,T,F,17,53,F,F,Any,,,Secret,2.25,36,F,F,F,Generic Secret
-46792,30478019,GitHub,81a41883,data/81a41883/test/30478019.rb,207:207,T,F,32,72,F,F,Any,,,Unknown,3.55,40,F,F,F,Other
+46792,30478019,GitHub,81a41883,data/81a41883/test/30478019.rb,207:207,T,F,32,72,F,F,Any,,,Unknown,3.55,40,F,F,F,Info
 46804,6b47fced,GitHub,81a41883,data/81a41883/test/6b47fced.rb,154:154,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 46805,6b47fced,GitHub,81a41883,data/81a41883/test/6b47fced.rb,155:155,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 47156,ae2550b6,GitHub,81a41883,data/81a41883/test/ae2550b6.rb,18:18,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -77,9 +77,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,Value
 48105,a1b40181,GitHub,81a41883,data/81a41883/test/a1b40181.json,4:4,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 48106,c832cf12,GitHub,81a41883,data/81a41883/test/c832cf12.json,4:4,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 48124,3f372c1b,GitHub,81a41883,data/81a41883/test/3f372c1b.json,3:3,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-54630,3f372c1b,GitHub,81a41883,data/81a41883/test/3f372c1b.json,53:53,F,F,,,F,F,,,,,0,0,F,F,F,Other
-54631,3f372c1b,GitHub,81a41883,data/81a41883/test/3f372c1b.json,105:105,F,F,,,F,F,,,,,0,0,F,F,F,Other
-54632,3f372c1b,GitHub,81a41883,data/81a41883/test/3f372c1b.json,188:188,F,F,,,F,F,,,,,0,0,F,F,F,Other
+54630,3f372c1b,GitHub,81a41883,data/81a41883/test/3f372c1b.json,53:53,F,F,,,F,F,,,,,0,0,F,F,F,Info
+54631,3f372c1b,GitHub,81a41883,data/81a41883/test/3f372c1b.json,105:105,F,F,,,F,F,,,,,0,0,F,F,F,Info
+54632,3f372c1b,GitHub,81a41883,data/81a41883/test/3f372c1b.json,188:188,F,F,,,F,F,,,,,0,0,F,F,F,Info
 74883,3546d560,GitHub,81a41883,data/81a41883/test/3546d560.rb,120:120,Template,T,14,30,F,F,Any,,,Unknown,2.91,16,F,F,F,Generic Secret
 74884,3546d560,GitHub,81a41883,data/81a41883/test/3546d560.rb,165:165,Template,T,14,30,F,F,Any,,,Unknown,2.91,16,F,F,F,Generic Secret
 74885,3546d560,GitHub,81a41883,data/81a41883/test/3546d560.rb,288:288,Template,T,14,30,F,F,Any,,,Unknown,2.91,16,F,F,F,Generic Secret
