@@ -138,7 +138,7 @@ def move_files(temp_dir, dataset_dir):
         with open(meta_file_path) as csvfile:
             meta_reader = csv.DictReader(csvfile)
             for row in meta_reader:
-                assert 22 == len(row) and row["Category"], row
+                assert 23 == len(row) and row["Category"], row
                 key = row["FileID"]
                 file_path = row["FilePath"]
                 if key in interesting_files:
@@ -281,8 +281,8 @@ def replace_rows(data: List[Dict[str, str]]):
     # Change data in already copied files
     for row in data:
 
-        line_start = int(row["LineStart:LineEnd"].split(":")[0])
-        line_end = int(row["LineStart:LineEnd"].split(":")[1])
+        line_start = int(row["LineStart"])
+        line_end = int(row["LineEnd"])
 
         # PEM keys and other multiple-line credentials is processed in other function
         if row["CryptographyKey"] != "" or line_end - line_start > 0:
@@ -451,9 +451,8 @@ def process_pem_keys(data: List[Dict[str, str]]):
     # Change data in already copied files (only keys)
     for row in data:
 
-        line_start, line_end = row["LineStart:LineEnd"].split(":")
-        line_start = int(line_start)
-        line_end = int(line_end)
+        line_start = int(row["LineStart"])
+        line_end = int(row["LineEnd"])
 
         # Skip credentials that are not PEM or multiline
         if row["CryptographyKey"] == "" and line_end - line_start < 1:
@@ -477,13 +476,10 @@ def process_pem_keys(data: List[Dict[str, str]]):
             new_lines = create_new_multiline(lines[line_start - 1:line_end], value_start)
 
         lines[line_start - 1:line_end] = new_lines
-        # Remove empty last line. Redundant last line may appear due to `lines.split("\n")`
-        if lines[-1] == "":
-            lines = lines[:-1]
 
         with open(file_location, "w", encoding="utf8") as f:
-            for l in lines:
-                f.write(l + "\n")
+            for line in lines:
+                f.write(line + "\n")
 
 
 def obfuscate_creds(dataset_dir):
