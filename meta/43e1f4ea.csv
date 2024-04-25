@@ -1,70 +1,70 @@
-Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-190,8147dbcd,GitHub,43e1f4ea,data/43e1f4ea/test/8147dbcd.bat,28:28,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-1362,38ecf2ab,GitHub,43e1f4ea,data/43e1f4ea/test/38ecf2ab.gradle,9:9,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-2743,cda80703,GitHub,43e1f4ea,data/43e1f4ea/test/cda80703.gradle,3:3,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-3776,eeee420b,GitHub,43e1f4ea,data/43e1f4ea/test/eeee420b,29:29,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-4932,ac997a2c,GitHub,43e1f4ea,data/43e1f4ea/test/ac997a2c.java,60:60,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-5754,ac997a2c,GitHub,43e1f4ea,data/43e1f4ea/test/ac997a2c.java,65:65,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-8916,8661f4ba,GitHub,43e1f4ea,data/43e1f4ea/src/8661f4ba.gradle,59:59,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-9083,a748d289,GitHub,43e1f4ea,data/43e1f4ea/test/a748d289.gradle,10:10,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-9084,6cffa70f,GitHub,43e1f4ea,data/43e1f4ea/test/6cffa70f.gradle,6:6,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-11116,210b46ef,GitHub,43e1f4ea,data/43e1f4ea/src/210b46ef.yml,26:26,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-13957,317a1df2,GitHub,43e1f4ea,data/43e1f4ea/test/317a1df2.java,261:261,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-14522,6d82705a,GitHub,43e1f4ea,data/43e1f4ea/test/6d82705a.java,10:10,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-14569,f7b12f0f,GitHub,43e1f4ea,data/43e1f4ea/test/f7b12f0f.kt,13:13,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-14602,ecd9f4ac,GitHub,43e1f4ea,data/43e1f4ea/test/ecd9f4ac.java,54:54,Template,T,54,62,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Password
-14617,2dc94b2b,GitHub,43e1f4ea,data/43e1f4ea/test/2dc94b2b.java,69:69,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-23111,0884a595,GitHub,43e1f4ea,data/43e1f4ea/test/0884a595.yml,6:6,F,F,,,F,F,,,,,0,0,F,F,F,Password
-29407,78c35381,GitHub,43e1f4ea,data/43e1f4ea/test/78c35381.json,4:4,T,T,9,601,F,F,Any,,,Auth,5.57,592,F,F,F,Authentication Credentials
-29434,c93975df,GitHub,43e1f4ea,data/43e1f4ea/test/c93975df.java,27:27,Template,T,40,44,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-29435,2568f90a,GitHub,43e1f4ea,data/43e1f4ea/test/2568f90a.java,26:26,Template,T,40,44,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-29808,99cc63db,GitHub,43e1f4ea,data/43e1f4ea/test/99cc63db.java,27:27,Template,F,27,37,F,F,Any,,,Secret,3.12,10,F,F,F,Password
-29809,57a8aa7d,GitHub,43e1f4ea,data/43e1f4ea/test/57a8aa7d.java,31:31,Template,T,27,31,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-29818,a6f3081b,GitHub,43e1f4ea,data/43e1f4ea/test/a6f3081b.java,47:47,Template,T,54,62,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-29823,dad76817,GitHub,43e1f4ea,data/43e1f4ea/test/dad76817.java,23:23,Template,T,40,53,F,F,Any,,,Secret,2.90,13,F,F,F,Password
-29824,2fbdcc52,GitHub,43e1f4ea,data/43e1f4ea/test/2fbdcc52.java,16:16,Template,T,49,55,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
-29825,317a1df2,GitHub,43e1f4ea,data/43e1f4ea/test/317a1df2.java,56:56,Template,T,48,54,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
-29845,2ac82259,GitHub,43e1f4ea,data/43e1f4ea/test/2ac82259.java,31:31,Template,F,27,30,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-29936,fd2aeccc,GitHub,43e1f4ea,data/43e1f4ea/test/fd2aeccc.java,16:16,Template,F,35,38,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-30038,bb556958,GitHub,43e1f4ea,data/43e1f4ea/test/bb556958.java,32:32,Template,T,51,57,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
-30870,eeee420b,GitHub,43e1f4ea,data/43e1f4ea/test/eeee420b,22:22,Template,T,14,20,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
-31209,8147dbcd,GitHub,43e1f4ea,data/43e1f4ea/test/8147dbcd.bat,21:21,Template,T,18,24,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
-34034,deacfc7d,GitHub,43e1f4ea,data/43e1f4ea/test/deacfc7d.java,85:85,Template,T,27,35,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-34036,37a088c2,GitHub,43e1f4ea,data/43e1f4ea/test/37a088c2.java,39:39,T,T,32,37,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
-34037,2ac82259,GitHub,43e1f4ea,data/43e1f4ea/test/2ac82259.java,27:27,Template,T,32,40,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-34044,905e446c,GitHub,43e1f4ea,data/43e1f4ea/test/905e446c.java,24:24,T,T,27,33,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
-34055,fae73aef,GitHub,43e1f4ea,data/43e1f4ea/test/fae73aef.java,17:17,Template,T,43,56,F,F,Any,,,Token,2.61,13,F,F,F,Generic Token
-34069,d647e7a1,GitHub,43e1f4ea,data/43e1f4ea/test/d647e7a1.java,15:15,Template,T,47,66,F,F,Any,,,Secret,3.26,19,F,F,F,Password
-34075,5bdf1396,GitHub,43e1f4ea,data/43e1f4ea/test/5bdf1396.java,36:36,Template,T,48,53,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
-34076,5bdf1396,GitHub,43e1f4ea,data/43e1f4ea/test/5bdf1396.java,37:37,Template,T,55,59,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-34082,0c07c761,GitHub,43e1f4ea,data/43e1f4ea/test/0c07c761.java,18:18,F,T,44,52,F,F,Any,,,Unknown,2.38,8,F,F,F,Other
-34085,a49832bc,GitHub,43e1f4ea,data/43e1f4ea/test/a49832bc.java,37:37,T,T,40,49,F,F,CharsOnly,,,Secret,2.42,9,F,F,F,Password
-34087,df946eec,GitHub,43e1f4ea,data/43e1f4ea/test/df946eec.java,13:13,Template,T,46,54,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-34165,8a248cc4,GitHub,43e1f4ea,data/43e1f4ea/test/8a248cc4.yaml,1055:1055,T,T,23,32,F,F,CharsOnly,,,Secret,2.42,9,F,F,F,Password
-34288,7309c751,GitHub,43e1f4ea,data/43e1f4ea/test/7309c751.java,15:15,Template,T,45,53,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-34659,b5ec5339,GitHub,43e1f4ea,data/43e1f4ea/test/b5ec5339.java,28:28,T,T,40,66,F,F,Any,,,Secret,3.74,26,F,F,F,Password
-34921,8a248cc4,GitHub,43e1f4ea,data/43e1f4ea/test/8a248cc4.yaml,1036:1036,T,T,21,30,F,F,CharsOnly,,,Secret,2.42,9,F,F,F,Password
-35303,9c5a78d0,GitHub,43e1f4ea,data/43e1f4ea/test/9c5a78d0.pem,1:27,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
-35550,8a1d33c6,GitHub,43e1f4ea,data/43e1f4ea/test/8a1d33c6.pem,1:28,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,Private Key
-35749,c3312677,GitHub,43e1f4ea,data/43e1f4ea/src/c3312677.html,4:4,T,F,132,164,T,F,Any,,,Token,3.44,32,F,F,F,Generic Token
-36438,8a248cc4,GitHub,43e1f4ea,data/43e1f4ea/test/8a248cc4.yaml,1034:1034,T,T,19,28,F,F,CharsOnly,,,Secret,2.42,9,F,F,F,Password
-36451,8a248cc4,GitHub,43e1f4ea,data/43e1f4ea/test/8a248cc4.yaml,1135:1135,T,T,14,23,F,F,CharsOnly,,,Secret,2.42,9,F,F,F,Password
-37747,8a248cc4,GitHub,43e1f4ea,data/43e1f4ea/test/8a248cc4.yaml,1051:1051,T,T,19,28,F,F,CharsOnly,,,Secret,2.42,9,F,F,F,Password
-37748,8a248cc4,GitHub,43e1f4ea,data/43e1f4ea/test/8a248cc4.yaml,1133:1133,T,T,19,28,F,F,CharsOnly,,,Secret,2.42,9,F,F,F,Password
-42377,8661f4ba,GitHub,43e1f4ea,data/43e1f4ea/src/8661f4ba.gradle,156:156,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-42378,8661f4ba,GitHub,43e1f4ea,data/43e1f4ea/src/8661f4ba.gradle,164:164,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-48076,57a8aa7d,GitHub,43e1f4ea,data/43e1f4ea/test/57a8aa7d.java,27:27,Template,T,40,44,F,F,CharOnly,,,Secret,1.50,4,F,F,F,Password
-74876,317a1df2,GitHub,43e1f4ea,data/43e1f4ea/test/317a1df2.java,60:60,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-80855,8147dbcd,GitHub,43e1f4ea,data/43e1f4ea/test/8147dbcd.bat,29:29,Template,F,18,24,F,F,,,,,0,0,F,F,F,Generic Secret
-80856,eeee420b,GitHub,43e1f4ea,data/43e1f4ea/test/eeee420b,30:30,Template,F,14,20,F,F,,,,,0,0,F,F,F,Generic Secret
-100626,fae73aef,GitHub,43e1f4ea,data/43e1f4ea/test/fae73aef.java,36:36,Template,T,22,27,F,F,CharOnly,,,Secret,2.32,5,F,F,F,Password
-100627,fae73aef,GitHub,43e1f4ea,data/43e1f4ea/test/fae73aef.java,37:37,Template,T,28,41,F,F,Any,,,Secret,3.11,13,F,F,F,Password
-110193,8661f4ba,GitHub,43e1f4ea,data/43e1f4ea/src/8661f4ba.gradle,183:183,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-110194,8a248cc4,GitHub,43e1f4ea,data/43e1f4ea/test/8a248cc4.yaml,164:164,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-110195,8a248cc4,GitHub,43e1f4ea,data/43e1f4ea/test/8a248cc4.yaml,172:172,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-110196,8a248cc4,GitHub,43e1f4ea,data/43e1f4ea/test/8a248cc4.yaml,300:300,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-130195,ecd9f4ac,GitHub,43e1f4ea,data/43e1f4ea/test/ecd9f4ac.java,118:118,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-130196,b5ec5339,GitHub,43e1f4ea,data/43e1f4ea/test/b5ec5339.java,124:124,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-130197,ecd9f4ac,GitHub,43e1f4ea,data/43e1f4ea/test/ecd9f4ac.java,60:60,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-130198,ecd9f4ac,GitHub,43e1f4ea,data/43e1f4ea/test/ecd9f4ac.java,177:177,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-130199,b5ec5339,GitHub,43e1f4ea,data/43e1f4ea/test/b5ec5339.java,30:30,F,F,,,F,F,,,,,0.00,,F,F,F,Password
+Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
+190,8147dbcd,GitHub,43e1f4ea,data/43e1f4ea/test/8147dbcd.bat,28,28,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+1362,38ecf2ab,GitHub,43e1f4ea,data/43e1f4ea/test/38ecf2ab.gradle,9,9,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+2743,cda80703,GitHub,43e1f4ea,data/43e1f4ea/test/cda80703.gradle,3,3,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+3776,eeee420b,GitHub,43e1f4ea,data/43e1f4ea/test/eeee420b,29,29,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+4932,ac997a2c,GitHub,43e1f4ea,data/43e1f4ea/test/ac997a2c.java,60,60,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+5754,ac997a2c,GitHub,43e1f4ea,data/43e1f4ea/test/ac997a2c.java,65,65,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+8916,8661f4ba,GitHub,43e1f4ea,data/43e1f4ea/src/8661f4ba.gradle,59,59,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+9083,a748d289,GitHub,43e1f4ea,data/43e1f4ea/test/a748d289.gradle,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+9084,6cffa70f,GitHub,43e1f4ea,data/43e1f4ea/test/6cffa70f.gradle,6,6,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+11116,210b46ef,GitHub,43e1f4ea,data/43e1f4ea/src/210b46ef.yml,26,26,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+13957,317a1df2,GitHub,43e1f4ea,data/43e1f4ea/test/317a1df2.java,261,261,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+14522,6d82705a,GitHub,43e1f4ea,data/43e1f4ea/test/6d82705a.java,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+14569,f7b12f0f,GitHub,43e1f4ea,data/43e1f4ea/test/f7b12f0f.kt,13,13,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+14602,ecd9f4ac,GitHub,43e1f4ea,data/43e1f4ea/test/ecd9f4ac.java,54,54,Template,T,54,62,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Password
+14617,2dc94b2b,GitHub,43e1f4ea,data/43e1f4ea/test/2dc94b2b.java,69,69,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+23111,0884a595,GitHub,43e1f4ea,data/43e1f4ea/test/0884a595.yml,6,6,F,F,,,F,F,,,,,0,0,F,F,F,Password
+29407,78c35381,GitHub,43e1f4ea,data/43e1f4ea/test/78c35381.json,4,4,T,T,9,601,F,F,Any,,,Auth,5.57,592,F,F,F,Authentication Credentials
+29434,c93975df,GitHub,43e1f4ea,data/43e1f4ea/test/c93975df.java,27,27,Template,T,40,44,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
+29435,2568f90a,GitHub,43e1f4ea,data/43e1f4ea/test/2568f90a.java,26,26,Template,T,40,44,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
+29808,99cc63db,GitHub,43e1f4ea,data/43e1f4ea/test/99cc63db.java,27,27,Template,F,27,37,F,F,Any,,,Secret,3.12,10,F,F,F,Password
+29809,57a8aa7d,GitHub,43e1f4ea,data/43e1f4ea/test/57a8aa7d.java,31,31,Template,T,27,31,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
+29818,a6f3081b,GitHub,43e1f4ea,data/43e1f4ea/test/a6f3081b.java,47,47,Template,T,54,62,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+29823,dad76817,GitHub,43e1f4ea,data/43e1f4ea/test/dad76817.java,23,23,Template,T,40,53,F,F,Any,,,Secret,2.90,13,F,F,F,Password
+29824,2fbdcc52,GitHub,43e1f4ea,data/43e1f4ea/test/2fbdcc52.java,16,16,Template,T,49,55,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
+29825,317a1df2,GitHub,43e1f4ea,data/43e1f4ea/test/317a1df2.java,56,56,Template,T,48,54,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
+29845,2ac82259,GitHub,43e1f4ea,data/43e1f4ea/test/2ac82259.java,31,31,Template,F,27,30,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
+29936,fd2aeccc,GitHub,43e1f4ea,data/43e1f4ea/test/fd2aeccc.java,16,16,Template,F,35,38,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
+30038,bb556958,GitHub,43e1f4ea,data/43e1f4ea/test/bb556958.java,32,32,Template,T,51,57,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
+30870,eeee420b,GitHub,43e1f4ea,data/43e1f4ea/test/eeee420b,22,22,Template,T,14,20,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
+31209,8147dbcd,GitHub,43e1f4ea,data/43e1f4ea/test/8147dbcd.bat,21,21,Template,T,18,24,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
+34034,deacfc7d,GitHub,43e1f4ea,data/43e1f4ea/test/deacfc7d.java,85,85,Template,T,27,35,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+34036,37a088c2,GitHub,43e1f4ea,data/43e1f4ea/test/37a088c2.java,39,39,T,T,32,37,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
+34037,2ac82259,GitHub,43e1f4ea,data/43e1f4ea/test/2ac82259.java,27,27,Template,T,32,40,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+34044,905e446c,GitHub,43e1f4ea,data/43e1f4ea/test/905e446c.java,24,24,T,T,27,33,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
+34055,fae73aef,GitHub,43e1f4ea,data/43e1f4ea/test/fae73aef.java,17,17,Template,T,43,56,F,F,Any,,,Token,2.61,13,F,F,F,Generic Token
+34069,d647e7a1,GitHub,43e1f4ea,data/43e1f4ea/test/d647e7a1.java,15,15,Template,T,47,66,F,F,Any,,,Secret,3.26,19,F,F,F,Password
+34075,5bdf1396,GitHub,43e1f4ea,data/43e1f4ea/test/5bdf1396.java,36,36,Template,T,48,53,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
+34076,5bdf1396,GitHub,43e1f4ea,data/43e1f4ea/test/5bdf1396.java,37,37,Template,T,55,59,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
+34082,0c07c761,GitHub,43e1f4ea,data/43e1f4ea/test/0c07c761.java,18,18,F,T,44,52,F,F,Any,,,Unknown,2.38,8,F,F,F,Other
+34085,a49832bc,GitHub,43e1f4ea,data/43e1f4ea/test/a49832bc.java,37,37,T,T,40,49,F,F,CharsOnly,,,Secret,2.42,9,F,F,F,Password
+34087,df946eec,GitHub,43e1f4ea,data/43e1f4ea/test/df946eec.java,13,13,Template,T,46,54,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+34165,8a248cc4,GitHub,43e1f4ea,data/43e1f4ea/test/8a248cc4.yaml,1055,1055,T,T,23,32,F,F,CharsOnly,,,Secret,2.42,9,F,F,F,Password
+34288,7309c751,GitHub,43e1f4ea,data/43e1f4ea/test/7309c751.java,15,15,Template,T,45,53,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+34659,b5ec5339,GitHub,43e1f4ea,data/43e1f4ea/test/b5ec5339.java,28,28,T,T,40,66,F,F,Any,,,Secret,3.74,26,F,F,F,Password
+34921,8a248cc4,GitHub,43e1f4ea,data/43e1f4ea/test/8a248cc4.yaml,1036,1036,T,T,21,30,F,F,CharsOnly,,,Secret,2.42,9,F,F,F,Password
+35303,9c5a78d0,GitHub,43e1f4ea,data/43e1f4ea/test/9c5a78d0.pem,1,27,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
+35550,8a1d33c6,GitHub,43e1f4ea,data/43e1f4ea/test/8a1d33c6.pem,1,28,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,Private Key
+35749,c3312677,GitHub,43e1f4ea,data/43e1f4ea/src/c3312677.html,4,4,T,F,132,164,T,F,Any,,,Token,3.44,32,F,F,F,Generic Token
+36438,8a248cc4,GitHub,43e1f4ea,data/43e1f4ea/test/8a248cc4.yaml,1034,1034,T,T,19,28,F,F,CharsOnly,,,Secret,2.42,9,F,F,F,Password
+36451,8a248cc4,GitHub,43e1f4ea,data/43e1f4ea/test/8a248cc4.yaml,1135,1135,T,T,14,23,F,F,CharsOnly,,,Secret,2.42,9,F,F,F,Password
+37747,8a248cc4,GitHub,43e1f4ea,data/43e1f4ea/test/8a248cc4.yaml,1051,1051,T,T,19,28,F,F,CharsOnly,,,Secret,2.42,9,F,F,F,Password
+37748,8a248cc4,GitHub,43e1f4ea,data/43e1f4ea/test/8a248cc4.yaml,1133,1133,T,T,19,28,F,F,CharsOnly,,,Secret,2.42,9,F,F,F,Password
+42377,8661f4ba,GitHub,43e1f4ea,data/43e1f4ea/src/8661f4ba.gradle,156,156,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+42378,8661f4ba,GitHub,43e1f4ea,data/43e1f4ea/src/8661f4ba.gradle,164,164,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+48076,57a8aa7d,GitHub,43e1f4ea,data/43e1f4ea/test/57a8aa7d.java,27,27,Template,T,40,44,F,F,CharOnly,,,Secret,1.50,4,F,F,F,Password
+74876,317a1df2,GitHub,43e1f4ea,data/43e1f4ea/test/317a1df2.java,60,60,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+80855,8147dbcd,GitHub,43e1f4ea,data/43e1f4ea/test/8147dbcd.bat,29,29,Template,F,18,24,F,F,,,,,0,0,F,F,F,Generic Secret
+80856,eeee420b,GitHub,43e1f4ea,data/43e1f4ea/test/eeee420b,30,30,Template,F,14,20,F,F,,,,,0,0,F,F,F,Generic Secret
+100626,fae73aef,GitHub,43e1f4ea,data/43e1f4ea/test/fae73aef.java,36,36,Template,T,22,27,F,F,CharOnly,,,Secret,2.32,5,F,F,F,Password
+100627,fae73aef,GitHub,43e1f4ea,data/43e1f4ea/test/fae73aef.java,37,37,Template,T,28,41,F,F,Any,,,Secret,3.11,13,F,F,F,Password
+110193,8661f4ba,GitHub,43e1f4ea,data/43e1f4ea/src/8661f4ba.gradle,183,183,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+110194,8a248cc4,GitHub,43e1f4ea,data/43e1f4ea/test/8a248cc4.yaml,164,164,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+110195,8a248cc4,GitHub,43e1f4ea,data/43e1f4ea/test/8a248cc4.yaml,172,172,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+110196,8a248cc4,GitHub,43e1f4ea,data/43e1f4ea/test/8a248cc4.yaml,300,300,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+130195,ecd9f4ac,GitHub,43e1f4ea,data/43e1f4ea/test/ecd9f4ac.java,118,118,F,F,,,F,F,,,,,0.00,,F,F,F,Password
+130196,b5ec5339,GitHub,43e1f4ea,data/43e1f4ea/test/b5ec5339.java,124,124,F,F,,,F,F,,,,,0.00,,F,F,F,Password
+130197,ecd9f4ac,GitHub,43e1f4ea,data/43e1f4ea/test/ecd9f4ac.java,60,60,F,F,,,F,F,,,,,0.00,,F,F,F,Password
+130198,ecd9f4ac,GitHub,43e1f4ea,data/43e1f4ea/test/ecd9f4ac.java,177,177,F,F,,,F,F,,,,,0.00,,F,F,F,Password
+130199,b5ec5339,GitHub,43e1f4ea,data/43e1f4ea/test/b5ec5339.java,30,30,F,F,,,F,F,,,,,0.00,,F,F,F,Password
