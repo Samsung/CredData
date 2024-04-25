@@ -78,6 +78,10 @@ class Scanner(ABC):
                             # wrong markup should be detected
                             assert False, f"[WRONG MARKUP] {row}"
                         self.categories[row["Category"]] = (true_cnt, false_cnt, template_cnt)
+                        row["LineStart"] = int(row["LineStart"])
+                        row["LineEnd"] = int(row["LineEnd"])
+                        row["ValueStart"] = int(row["ValueStart"]) if row["ValueStart"] else -1
+                        row["ValueEnd"] = int(row["ValueEnd"]) if row["ValueEnd"] else -1
                         self.meta.append(row)
                         self.file_types[file_type_lower] = type_stat
         # use next_id for printing lost markup
@@ -248,7 +252,8 @@ class Scanner(ABC):
                 file_id = row["FileID"]
                 # by default the cred is false positive
                 approximate = f"{self.next_id},{file_id},GitHub,{project_id},{path}" \
-                              f",{line_num}:{line_num},F,F,{value_start},{value_end},F,F,,,Info,,0,0,F,F,F,{rule}"
+                              f",{line_num}:{line_num},F,F,{value_start},{value_end}" \
+                              f",F,F,,,,,0,0,F,F,F,{rule}"
                 if self._check_line_num(row["LineStart"], row["LineEnd"], line_num):
                     code = str(project_id) + str(file_id) + str(row["LineStart"]) + str(row["LineEnd"])
                     if code in self.line_checker:
