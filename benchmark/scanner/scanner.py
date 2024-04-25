@@ -1,16 +1,8 @@
-import contextlib
 import csv
 import dataclasses
 import os
 from abc import ABC, abstractmethod
 from typing import Optional, Tuple, Dict, List, Any
-
-import colorama
-import tabulate
-from colorama import Fore
-from colorama import Style
-
-import tabulate
 
 import tabulate
 
@@ -261,7 +253,7 @@ class Scanner(ABC):
                 file_id = row["FileID"]
                 # by default the cred is false positive
                 approximate = f"{self.next_id},{file_id},GitHub,{project_id},{path}" \
-                              f",{line_num}:{line_num},F,F,{value_start},{value_end}" \
+                              f",{line_num},{line_num},F,F,{value_start},{value_end}" \
                               f",F,F,,,,,0,0,F,F,F,{rule}"
                 if self._check_line_num(row["LineStart"], row["LineEnd"], line_num):
                     code = str(project_id) + str(file_id) + str(row["LineStart"]) + str(row["LineEnd"])
