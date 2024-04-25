@@ -249,8 +249,8 @@ class Scanner(ABC):
                 # by default the cred is false positive
                 approximate = f"{self.next_id},{file_id},GitHub,{project_id},{path}" \
                               f",{line_num}:{line_num},F,F,{value_start},{value_end},F,F,,,Info,,0,0,F,F,F,{rule}"
-                if self._check_line_num(row["LineStart:LineEnd"], line_num):
-                    code = str(project_id) + str(file_id) + str(row["LineStart:LineEnd"])
+                if self._check_line_num(row["LineStart"], row["LineEnd"], line_num):
+                    code = str(project_id) + str(file_id) + str(row["LineStart"]) + str(row["LineEnd"])
                     if code in self.line_checker:
                         self.result_cnt -= 1
                         return LineStatus.CHECKED, project_id, file_id
@@ -339,9 +339,8 @@ class Scanner(ABC):
         return total_true_cnt
 
     @staticmethod
-    def _check_line_num(line_arrange: str, line_num: int) -> bool:
-        start_num, end_num = [int(x) for x in line_arrange.split(":")]
-        if start_num <= line_num <= end_num:
+    def _check_line_num(line_start: int, line_end: int, line_num: int) -> bool:
+        if line_start <= line_num <= line_end:
             return True
         return False
 

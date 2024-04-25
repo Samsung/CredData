@@ -107,7 +107,7 @@ def read_meta(meta_dir, data_dir) -> List[Dict[str, str]]:
             with open(root_path / file, newline="") as f:
                 reader = csv.DictReader(f)
                 for row in reader:
-                    assert 22 == len(row), row
+                    assert 23 == len(row), row
                     # verify correctness of data
                     file_path = row["FilePath"]
                     if file_path.startswith("data/"):
@@ -116,14 +116,14 @@ def read_meta(meta_dir, data_dir) -> List[Dict[str, str]]:
                         pass  # keep as is - absolute path
                     else:
                         raise RuntimeError(f"Invalid path:", row)
-                    line_start, line_end = row["LineStart:LineEnd"].split(':')
-                    row["LineStart"] = int(line_start) if line_start else -1
-                    row["LineEnd"] = int(line_end) if line_end else -1
+                    row["LineStart"] = int(row["LineStart"])
+                    row["LineEnd"] = int(row["LineEnd"])
                     assert row["LineStart"] <= row["LineEnd"], row
                     value_start = row["ValueStart"]
-                    row["ValueStart"] = int(float(value_start)) if value_start else -1
+                    row["ValueStart"] = int(value_start) if value_start else -1
                     value_end = row["ValueEnd"]
-                    row["ValueEnd"] = int(float(value_end)) if value_end else -1
+                    row["ValueEnd"] = int(value_end) if value_end else -1
+                    assert -1 == row["ValueStart"] or -1 == row["ValueEnd"] or row["ValueStart"] <= row["ValueEnd"], row
                     meta.append(row)
                     if row["Id"] in ids:
                         row_csv = ','.join([str(x) for x in row.values()])
@@ -146,7 +146,7 @@ def main(meta_dir, data_dir, data_filter, load_json: Optional[str] = None, categ
             creds.extend([Cred(x) for x in json.load(f)])
 
     meta = read_meta(meta_dir, data_dir)
-    meta.sort(key=lambda x: (x['FilePath'], x['LineStart:LineEnd']))
+    meta.sort(key=lambda x: (x["FilePath"], x["LineStart"], x["LineEnd"], x["ValueStart"], x["ValueEnd"]))
     displayed_rows = 0
     shown_rows = set()
     for row in meta:
