@@ -2,7 +2,7 @@ import csv
 import dataclasses
 import os
 from abc import ABC, abstractmethod
-from typing import Optional, Tuple, Dict, List, Any
+from typing import Tuple, Dict, List, Any
 
 import tabulate
 
@@ -229,9 +229,8 @@ class Scanner(ABC):
     def parse_result(self) -> None:
         pass
 
-    def run_benchmark(self, output: Optional[str] = None) -> None:
-        if not output:
-            self.run_scanner()
+    def run_benchmark(self) -> None:
+        self.run_scanner()
         self.parse_result()
         self.analyze_result()
 
