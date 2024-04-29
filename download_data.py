@@ -219,8 +219,9 @@ def move_files(temp_dir, dataset_dir):
 
 
 CHARS4RAND = (string.digits + string.ascii_lowercase + string.ascii_uppercase).encode("ascii")
-OBFUSCATION_SET = {ord(x) for x in string.digits + string.ascii_lowercase + string.ascii_uppercase if
-                   x not in "falsetrun"}
+DIGITS = string.digits.encode("ascii")
+CHARS4OBF = {ord(x) for x in string.ascii_lowercase + string.ascii_uppercase if
+             x not in "falsetrun"}
 
 
 def obfuscate_jwt(value: str) -> str:
@@ -234,7 +235,9 @@ def obfuscate_jwt(value: str) -> str:
         decoded = base64.b64decode(value, validate=True)
     new_json = bytearray(len(decoded))
     for n, i in enumerate(decoded):
-        if i in OBFUSCATION_SET:
+        if i in DIGITS:
+            new_json[n] = random.choice(DIGITS)
+        elif i in CHARS4OBF:
             new_json[n] = random.choice(CHARS4RAND)
         else:
             new_json[n] = i
