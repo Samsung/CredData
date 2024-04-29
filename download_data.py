@@ -224,6 +224,7 @@ OBFUSCATION_SET = {ord(x) for x in string.digits + string.ascii_lowercase + stri
 
 
 def obfuscate_jwt(value: str) -> str:
+    len_value = len(value)
     pad_num = 0x3 & len(value)
     if pad_num:
         value += '=' * (4 - pad_num)
@@ -239,9 +240,9 @@ def obfuscate_jwt(value: str) -> str:
             new_json[n] = i
 
     encoded = base64.b64encode(new_json, altchars=b"-_").decode("ascii")
-    while len(encoded) > len(value):
+    while len(encoded) > len_value:
         encoded = encoded[:-1]
-    assert len(encoded) == len(value)
+    assert len(encoded) == len_value
 
     return encoded
 
@@ -350,8 +351,8 @@ def replace_rows(data: List[Dict[str, str]]):
             lines = lines[:-1]
 
         with open(file_location, "w", encoding="utf8") as f:
-            for l in lines:
-                f.write(l + "\n")
+            for line in lines:
+                f.write(line + "\n")
 
 
 def split_in_bounds(i: int, lines_len: int, old_line: str):
