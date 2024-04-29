@@ -97,7 +97,7 @@ class Scanner(ABC):
                     file_ext_lower = file_ext.lower()
                     # the type must be in dictionary
                     self.file_types[file_ext_lower].files_number += 1
-                    with open(os.path.join(root, file), "r", encoding="utf8") as f:
+                    with open(os.path.join(root, file), "r", encoding="utf8", errors='ignore') as f:
                         lines = f.readlines()
                         file_data_valid_lines = 0
                         for line in lines:
