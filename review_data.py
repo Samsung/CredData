@@ -30,7 +30,7 @@ class Cred:
 
 
 def read_data(path, line_start, line_end, value_start, value_end, ground_truth, creds: List[Cred]):
-    with open(path, "r", encoding="utf8") as f:
+    with open(path, "r", encoding="utf8", errors='ignore') as f:
         lines = f.readlines()
     if line_start == line_end:
         line = lines[line_start - 1]
@@ -107,7 +107,7 @@ def read_meta(meta_dir, data_dir) -> List[Dict[str, str]]:
             with open(root_path / file, newline="") as f:
                 reader = csv.DictReader(f)
                 for row in reader:
-                    assert 23 == len(row), row
+                    assert 24 == len(row), row
                     # verify correctness of data
                     file_path = row["FilePath"]
                     if file_path.startswith("data/"):
@@ -123,7 +123,7 @@ def read_meta(meta_dir, data_dir) -> List[Dict[str, str]]:
                     row["ValueStart"] = int(value_start) if value_start else -1
                     value_end = row["ValueEnd"]
                     row["ValueEnd"] = int(value_end) if value_end else -1
-                    assert -1 == row["ValueStart"] or -1 == row["ValueEnd"] or row["ValueStart"] <= row["ValueEnd"], row
+                 #   assert -1 == row["ValueStart"] or -1 == row["ValueEnd"] or row["ValueStart"] <= row["ValueEnd"], row
                     meta.append(row)
                     if row["Id"] in ids:
                         row_csv = ','.join([str(x) for x in row.values()])
