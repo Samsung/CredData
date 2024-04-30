@@ -218,9 +218,10 @@ def move_files(temp_dir, dataset_dir):
     return missing_repos
 
 
-# 0 on first position may break json e.g. "id":123, -> "qa":038, which is incorrect json
-CHARS4RAND = (string.digits[1:] + string.ascii_lowercase + string.ascii_uppercase).encode("ascii")
+CHARS4RAND = (string.digits + string.ascii_lowercase + string.ascii_uppercase).encode("ascii")
 DIGITS = string.digits.encode("ascii")
+# 0 on first position may break json e.g. "id":123, -> "qa":038, which is incorrect json
+DIGITS4RAND = DIGITS[1:]
 CHARS4OBF = {ord(x) for x in string.ascii_lowercase + string.ascii_uppercase if
              x not in "falsetrun"}
 
@@ -237,7 +238,7 @@ def obfuscate_jwt(value: str) -> str:
     new_json = bytearray(len(decoded))
     for n, i in enumerate(decoded):
         if i in DIGITS:
-            new_json[n] = random.choice(DIGITS)
+            new_json[n] = random.choice(DIGITS4RAND)
         elif i in CHARS4OBF:
             new_json[n] = random.choice(CHARS4RAND)
         else:
