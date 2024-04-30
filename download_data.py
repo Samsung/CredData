@@ -236,11 +236,19 @@ def obfuscate_jwt(value: str) -> str:
     else:
         decoded = base64.b64decode(value, validate=True)
     new_json = bytearray(len(decoded))
+    backslash = False
     for n, i in enumerate(decoded):
+        if backslash:
+            new_json[n] = 0x3F  # ord('?')
+            backslash = False
+            continue
         if i in DIGITS:
             new_json[n] = random.choice(DIGITS4RAND)
         elif i in CHARS4OBF:
             new_json[n] = random.choice(CHARS4RAND)
+        elif '\\' == i:
+            new_json[n] = 0x3F  # ord('?')
+            backslash = True
         else:
             new_json[n] = i
 
