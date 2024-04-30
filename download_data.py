@@ -218,7 +218,8 @@ def move_files(temp_dir, dataset_dir):
     return missing_repos
 
 
-CHARS4RAND = (string.digits + string.ascii_lowercase + string.ascii_uppercase).encode("ascii")
+# 0 on first position may break json e.g. "id":123, -> "qa":038, which is incorrect json
+CHARS4RAND = (string.digits[1:] + string.ascii_lowercase + string.ascii_uppercase).encode("ascii")
 DIGITS = string.digits.encode("ascii")
 CHARS4OBF = {ord(x) for x in string.ascii_lowercase + string.ascii_uppercase if
              x not in "falsetrun"}
