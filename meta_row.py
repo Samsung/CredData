@@ -1,4 +1,6 @@
 class MetaRow:
+    """Class represented meta markup row structure"""
+
     Id: str
     FileID: str
     Domain: str

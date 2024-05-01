@@ -1,3 +1,10 @@
+#!/usr/bin/env python3
+
+"""
+The script performs updating CredSweeper report with according markup
+currently the row from meta is placed to "api_validation" to keep the value at the position
+"""
+
 import csv
 import json
 import os

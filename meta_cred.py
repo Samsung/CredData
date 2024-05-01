@@ -3,6 +3,8 @@ from pathlib import Path
 
 
 class MetaCred:
+    """Class to read CredSweeper report item and fit value position"""
+
     valid_path_regex = re.compile(r"data/[0-9a-f]{8}/(src|test|other)/[0-9a-f]{8}(\.[\w-]+)?")
 
     def __init__(self, cs_cred: dict):
