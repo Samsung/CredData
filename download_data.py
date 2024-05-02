@@ -287,10 +287,10 @@ def get_obfuscated_value(value, predefined_pattern):
             obfuscated_value = '.'.join(obf_jwt)
         else:
             obfuscated_value = obfuscate_jwt(value)
-    elif value.startswith("xoxp"):
+    elif value.startswith("xoxp") or value.startswith("xoxt"):
         obfuscated_value = value[:4] + generate_value(value[4:])
-    elif value.startswith("xoxt"):
-        obfuscated_value = value[:4] + generate_value(value[4:])
+    elif value.startswith("base64:"):
+        obfuscated_value = value[:7] + generate_value(value[7:])
     elif "apps.googleusercontent.com" in value:
         pos = value.index("apps.googleusercontent.com")
         obfuscated_value = generate_value(value[:pos]) + "apps.googleusercontent.com" + generate_value(value[pos + 26:])
