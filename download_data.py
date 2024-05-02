@@ -1,3 +1,4 @@
+import base64
 import csv
 import hashlib
 import logging
@@ -217,37 +218,75 @@ def move_files(temp_dir, dataset_dir):
     return missing_repos
 
 
+CHARS4RAND = (string.digits + string.ascii_lowercase + string.ascii_uppercase).encode("ascii")
+DIGITS = string.digits.encode("ascii")
+# 0 on first position may break json e.g. "id":123, -> "qa":038, which is incorrect json
+DIGITS4RAND = DIGITS[1:]
+CHARS4OBF = {ord(x) for x in string.ascii_lowercase + string.ascii_uppercase if
+             x not in "falsetrun"}
+
+
+def obfuscate_jwt(value: str) -> str:
+    len_value = len(value)
+    pad_num = 0x3 & len(value)
+    if pad_num:
+        value += '=' * (4 - pad_num)
+    if '-' in value or '_' in value:
+        decoded = base64.b64decode(value, altchars=b"-_", validate=True)
+    else:
+        decoded = base64.b64decode(value, validate=True)
+    new_json = bytearray(len(decoded))
+    backslash = False
+    for n, i in enumerate(decoded):
+        if backslash:
+            new_json[n] = 0x3F  # ord('?')
+            backslash = False
+            continue
+        if i in DIGITS:
+            new_json[n] = random.choice(DIGITS4RAND)
+        elif i in CHARS4OBF:
+            new_json[n] = random.choice(CHARS4RAND)
+        elif '\\' == i:
+            new_json[n] = 0x3F  # ord('?')
+            backslash = True
+        else:
+            new_json[n] = i
+
+    encoded = base64.b64encode(new_json, altchars=b"-_").decode("ascii")
+    while len(encoded) > len_value:
+        encoded = encoded[:-1]
+    assert len(encoded) == len_value
+
+    return encoded
+
+
 def get_obfuscated_value(value, predefined_pattern):
     obfuscated_value = ""
     if predefined_pattern == "Info":
         # not a credential - does not required obfuscation
         obfuscated_value = value
-    elif predefined_pattern == "AWS Client ID" or value.startswith("AKIA"):  # AKIA, AIPA, ASIA, AGPA, ...
+    elif (predefined_pattern == "AWS Client ID" or any(value.startswith(x) for x in
+                                                       ["AKIA", "ABIA", "ACCA", "AGPA", "AIDA", "AIPA", "AKIA", "ANPA",
+                                                        "ANVA", "AROA", "APKA", "ASCA", "ASIA"])):
         obfuscated_value = value[:4] + generate_value(value[4:])
-    elif predefined_pattern == "Google API Key":  # AIza
+    elif value.startswith("AIza"):
         obfuscated_value = "AIza" + generate_value(value[4:])
-    elif predefined_pattern == "Google OAuth Access Token":  # ya29.
+    elif value.startswith("ya29."):
         obfuscated_value = "ya29." + generate_value(value[5:])
-    elif predefined_pattern == "JSON Web Token":  # eyJ
-        # Check if it's a proper "JSON Web Token" with header and payload
-        if ".eyJ" in value:
-            header = "eyJ" + generate_value(value.split(".")[0][3:])
-            payload = "eyJ" + generate_value(value.split(".")[1][3:])
-            obfuscated_value = header + "." + payload
-            if len(value.split(".")) >= 3:  # Signature is optional
-                signature = generate_value(value.split(".")[2])
-                obfuscated_value += "." + signature
-        # Otherwise it's a JWT-like token that also have eyJ indicator and encoded in similar way,
-        #  but contains only header/payload part
-        else:
-            obfuscated_value = "eyJ" + generate_value(value[3:])
     elif value.startswith("eyJ"):
-        if ".eyJ" in value:
-            pos = value.index(".eyJ")
-            obfuscated_value = "eyJ" + generate_value(value[3:pos]) + ".eyJ" + generate_value(value[pos + 4:])
+        # Check if it's a proper "JSON Web Token" with header and payload
+        if "." in value:
+            split_jwt = value.split(".")
+            obf_jwt = []
+            for part in split_jwt:
+                if part.startswith("eyJ"):
+                    obfuscated = obfuscate_jwt(part)
+                else:
+                    obfuscated = generate_value(part)
+                obf_jwt.append(obfuscated)
+            obfuscated_value = '.'.join(obf_jwt)
         else:
-            obfuscated_value = "eyJ" + generate_value(value[3:])
-
+            obfuscated_value = obfuscate_jwt(value)
     elif value.startswith("xoxp"):
         obfuscated_value = value[:4] + generate_value(value[4:])
     elif value.startswith("xoxt"):
@@ -325,8 +364,8 @@ def replace_rows(data: List[Dict[str, str]]):
             lines = lines[:-1]
 
         with open(file_location, "w", encoding="utf8") as f:
-            for l in lines:
-                f.write(l + "\n")
+            for line in lines:
+                f.write(line + "\n")
 
 
 def split_in_bounds(i: int, lines_len: int, old_line: str):
@@ -505,18 +544,26 @@ if __name__ == "__main__":
 
     parser = ArgumentParser(prog="python download_data.py")
 
-    parser.add_argument("--data_dir", dest="data_dir", required=True, help="Dataset location after download")
+    parser.add_argument("--data_dir", dest="data_dir", default="data", help="Dataset location after download")
     parser.add_argument("--jobs", dest="jobs", help="Jobs for multiprocessing")
+    parser.add_argument("--skip_download", help="Skip download", action="store_const", const=True)
+    parser.add_argument("--clean_data", help="Recreate data dir", action="store_const", const=True)
     args = parser.parse_args()
 
     temp_directory = "tmp"
 
     if os.path.exists(args.data_dir):
-        raise FileExistsError(f"{args.data_dir} directory already exists. Please remove it or select other directory.")
+        if not args.clean_data:
+            raise FileExistsError(f"{args.data_dir} directory already exists. "
+                                  f"Please remove it or select other directory.")
+        shutil.rmtree(args.data_dir)
 
-    logger.info("Start download")
-    download(temp_directory, 1 if not args.jobs else int(args.jobs))
-    logger.info("Download finished. Now processing the files...")
+    if not args.clean_data:
+        logger.info("Start download")
+        download(temp_directory, 1 if not args.jobs else int(args.jobs))
+        logger.info("Download finished. Now processing the files...")
+    else:
+        logger.info("Download skipped. Now processing the files...")
     removed_meta = move_files(temp_directory, args.data_dir)
     # check whether there were issues with downloading
     assert 0 == len(removed_meta), removed_meta

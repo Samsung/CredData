@@ -1,3 +1,13 @@
+#!/usr/bin/env python3
+
+"""
+The script generates ascii text with colorization only for markup lines
+RED - false cases
+GREEN - true
+MAGENTA - templates
+When value start-end defined - the text is marked
+"""
+
 import csv
 import json
 import os
@@ -9,27 +19,10 @@ from typing import Dict, List, Optional
 
 from colorama import Fore, Back, Style
 
-
-class Cred:
-    def __init__(self, cs_cred: dict):
-        self.rule = cs_cred["rule"]
-        line_data_list = cs_cred["line_data_list"]
-        path = Path(line_data_list[0]["path"])
-        self.path = '/'.join([str(x) for x in path.parts[-4:]])
-        if not self.path.startswith('data/'):
-            # license files ...
-            self.path = '/'.join([str(x) for x in path.parts[-3:]])
-        assert self.path.startswith('data/'), cs_cred
-        self.line_start = line_data_list[0]["line_num"]
-        self.line_end = line_data_list[-1]["line_num"]
-        self.value_start = line_data_list[0]["value_start"]
-        self.value_end = line_data_list[0]["value_end"]
-        offset = len(line_data_list[0]["line"]) - len(line_data_list[0]["line"].lstrip())
-        self.strip_value_start = self.value_start - offset
-        self.strip_value_end = self.value_end - offset
+from meta_cred import MetaCred
 
 
-def read_data(path, line_start, line_end, value_start, value_end, ground_truth, creds: List[Cred]):
+def read_data(path, line_start, line_end, value_start, value_end, ground_truth, creds: List[MetaCred]):
     with open(path, "r", encoding="utf8") as f:
         lines = f.readlines()
     if line_start == line_end:
@@ -143,7 +136,7 @@ def main(meta_dir, data_dir, data_filter, load_json: Optional[str] = None, categ
     creds = []
     if load_json:
         with open(load_json, "r") as f:
-            creds.extend([Cred(x) for x in json.load(f)])
+            creds.extend([MetaCred(x) for x in json.load(f)])
 
     meta = read_meta(meta_dir, data_dir)
     meta.sort(key=lambda x: (x["FilePath"], x["LineStart"], x["LineEnd"], x["ValueStart"], x["ValueEnd"]))
