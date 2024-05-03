@@ -287,7 +287,7 @@ def get_obfuscated_value(value, predefined_pattern):
             obfuscated_value = '.'.join(obf_jwt)
         else:
             obfuscated_value = obfuscate_jwt(value)
-    elif value.startswith("xoxp") or value.startswith("xoxt"):
+    elif value.startswith("xox") and 15 <= len(value) and value[3] in "aboprst" and '-' == value[4]:
         obfuscated_value = value[:4] + generate_value(value[4:])
     elif value.startswith("base64:"):
         obfuscated_value = value[:7] + generate_value(value[7:])
