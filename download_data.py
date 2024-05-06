@@ -560,6 +560,7 @@ def main(args: Namespace):
     logger.info("Finalizing dataset. Please wait a moment...")
     obfuscate_creds(args.data_dir)
     logger.info(f"Done! All files saved to {args.data_dir}")
+    return 0
 
 
 if __name__ == "__main__":
