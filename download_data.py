@@ -258,7 +258,7 @@ def obfuscate_jwt(value: str) -> str:
 
 
 def get_obfuscated_value(value, meta_row: MetaRow):
-    if "Info" == meta_row.PredefinedPattern or meta_row.Category.startswith("IPv"):
+    if "Info" == meta_row.PredefinedPattern or meta_row.Category in ["IPv4", "IPv6"]:
         # not a credential - does not required obfuscation
         obfuscated_value = value
     elif any(value.startswith(x) for x in ["AKIA", "ABIA", "ACCA", "AGPA", "AIDA", "AIPA", "AKIA", "ANPA",
