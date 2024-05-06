@@ -257,9 +257,8 @@ def obfuscate_jwt(value: str) -> str:
     return encoded
 
 
-def get_obfuscated_value(value, predefined_pattern):
-    obfuscated_value = ""
-    if predefined_pattern == "Info":
+def get_obfuscated_value(value, meta_row: MetaRow):
+    if "Info" == meta_row.PredefinedPattern or meta_row.Category.startswith("IPv"):
         # not a credential - does not required obfuscation
         obfuscated_value = value
     elif any(value.startswith(x) for x in ["AKIA", "ABIA", "ACCA", "AGPA", "AIDA", "AIPA", "AKIA", "ANPA",
@@ -287,12 +286,15 @@ def get_obfuscated_value(value, predefined_pattern):
         obfuscated_value = value[:4] + generate_value(value[4:])
     elif value.startswith("base64:"):
         obfuscated_value = value[:7] + generate_value(value[7:])
-    elif "apps.googleusercontent.com" in value:
-        pos = value.index("apps.googleusercontent.com")
-        obfuscated_value = generate_value(value[:pos]) + "apps.googleusercontent.com" + generate_value(value[pos + 26:])
-    elif "s3.amazonaws.com" in value:
-        pos = value.index("s3.amazonaws.com")
-        obfuscated_value = generate_value(value[:pos]) + "s3.amazonaws.com" + generate_value(value[pos + 16:])
+    elif ".apps.googleusercontent.com" in value:
+        pos = value.index(".apps.googleusercontent.com")
+        obfuscated_value = generate_value(value[:pos]) + ".apps.googleusercontent.com" + generate_value(value[pos + 27:])
+    elif ".s3.amazonaws.com" in value:
+        pos = value.index(".s3.amazonaws.com")
+        obfuscated_value = generate_value(value[:pos]) + ".s3.amazonaws.com" + generate_value(value[pos + 17:])
+    elif ".firebaseio.com" in value:
+        pos = value.index(".firebaseio.com")
+        obfuscated_value = generate_value(value[:pos]) + ".firebaseio.com" + generate_value(value[pos + 15:])
     else:
         obfuscated_value = generate_value(value)
 
@@ -319,24 +321,15 @@ def replace_rows(data: List[MetaRow]):
     # Change data in already copied files
     logger.info("Single line obfuscation")
     for row in data:
-
-        line_start = row.LineStart
-        line_end = row.LineEnd
-
         # PEM keys and other multiple-line credentials is processed in other function
-        if row.CryptographyKey != "" or line_end != line_start:
+        if "" != row.CryptographyKey or row.LineEnd != row.LineStart:
             continue
 
-        if row.GroundTruth not in ["T", "N/A"]:
+        if 'T' != row.GroundTruth:
+            # false cases do not require an onbuscation
             continue
 
-        if not row.ValueStart or not row.ValueEnd:
-            continue
-
-        value_start = row.ValueStart
-        value_end = row.ValueEnd
-
-        if 0 > value_start or 0 > value_end:
+        if not (0 <= row.ValueStart and 0 <= row.ValueEnd):
             continue
 
         file_location = row.FilePath
@@ -344,23 +337,17 @@ def replace_rows(data: List[MetaRow]):
         with open(file_location, "r", encoding="utf8") as f:
             lines = f.read().split('\n')
 
-        old_line = lines[line_start - 1]
+        old_line = lines[row.LineStart - 1]
 
-        non_spaces = set(string.ascii_letters + string.punctuation + string.digits)
-        indentation = 0
-        for c in old_line:
-            if c in non_spaces:
-                break
-            indentation += 1
+        indentation = len(old_line) - len(old_line.lstrip())
 
-        predefined_pattern = row.PredefinedPattern
-        value = old_line[indentation + value_start:indentation + value_end]
+        value = old_line[indentation + row.ValueStart:indentation + row.ValueEnd]
         # credsweeper does not scan lines over 8000 symbols, so 1<<13 is enough
-        random.seed((line_start << 13 + value_start) ^ int(row.FileID, 16))
-        obfuscated_value = get_obfuscated_value(value, predefined_pattern)
-        new_line = old_line[:indentation + value_start] + obfuscated_value + old_line[indentation + value_end:]
+        random.seed((row.LineStart << 13 + row.ValueStart) ^ int(row.FileID, 16))
+        obfuscated_value = get_obfuscated_value(value, row)
+        new_line = old_line[:indentation + row.ValueStart] + obfuscated_value + old_line[indentation + row.ValueEnd:]
 
-        lines[line_start - 1] = new_line
+        lines[row.LineStart - 1] = new_line
 
         with open(file_location, "w", encoding="utf8") as f:
             f.write('\n'.join(lines))
