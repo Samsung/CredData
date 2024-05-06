@@ -8,18 +8,17 @@ MAGENTA - templates
 When value start-end defined - the text is marked
 """
 
-import csv
 import json
 import os
 import subprocess
 import sys
 from argparse import ArgumentParser
-from pathlib import Path
-from typing import Dict, List, Optional
+from typing import List, Optional
 
 from colorama import Fore, Back, Style
 
 from meta_cred import MetaCred
+from meta_row import read_meta
 
 
 def read_data(path, line_start, line_end, value_start, value_end, ground_truth, creds: List[MetaCred]):
@@ -87,47 +86,6 @@ def read_data(path, line_start, line_end, value_start, value_end, ground_truth, 
     print("\n\n")
 
 
-def read_meta(meta_dir, data_dir) -> List[Dict[str, str]]:
-    meta = []
-    ids = set()
-    id_dups = []
-    for root, dirs, files in os.walk(meta_dir):
-        root_path = Path(root)
-        for file in files:
-            if 12 != len(file) or not all('0' <= x <= '9' or 'a' <= x <= 'f' for x in file[:8]):
-                # git garbage case
-                continue
-            with open(root_path / file, newline="") as f:
-                reader = csv.DictReader(f)
-                for row in reader:
-                    assert 23 == len(row), row
-                    # verify correctness of data
-                    file_path = row["FilePath"]
-                    if file_path.startswith("data/"):
-                        row["FilePath"] = f"{data_dir}/{file_path[5:]}"  # todo: check slicing
-                    elif file_path.startswith("/"):
-                        pass  # keep as is - absolute path
-                    else:
-                        raise RuntimeError(f"Invalid path:", row)
-                    row["LineStart"] = int(row["LineStart"])
-                    row["LineEnd"] = int(row["LineEnd"])
-                    assert row["LineStart"] <= row["LineEnd"], row
-                    value_start = row["ValueStart"]
-                    row["ValueStart"] = int(value_start) if value_start else -1
-                    value_end = row["ValueEnd"]
-                    row["ValueEnd"] = int(value_end) if value_end else -1
-                    assert -1 == row["ValueStart"] or -1 == row["ValueEnd"] or row["ValueStart"] <= row["ValueEnd"], row
-                    meta.append(row)
-                    if row["Id"] in ids:
-                        row_csv = ','.join([str(x) for x in row.values()])
-                        id_dups.append(row_csv)
-                        print(f"Check id duplication: {row_csv}")
-                    else:
-                        ids.add(row["Id"])
-    assert not id_dups, '\n'.join(id_dups)
-    return meta
-
-
 def main(meta_dir, data_dir, data_filter, load_json: Optional[str] = None, category: Optional[str] = None):
     if not os.path.exists(meta_dir):
         raise FileExistsError(f"{meta_dir} directory does not exist.")
@@ -138,42 +96,37 @@ def main(meta_dir, data_dir, data_filter, load_json: Optional[str] = None, categ
         with open(load_json, "r") as f:
             creds.extend([MetaCred(x) for x in json.load(f)])
 
-    meta = read_meta(meta_dir, data_dir)
-    meta.sort(key=lambda x: (x["FilePath"], x["LineStart"], x["LineEnd"], x["ValueStart"], x["ValueEnd"]))
+    sorted_meta_rows = read_meta(meta_dir)
+    sorted_meta_rows.sort(key=lambda x: (x.FilePath, x.LineStart, x.LineEnd, x.ValueStart, x.ValueEnd))
     displayed_rows = 0
     shown_rows = set()
-    for row in meta:
-        if not data_filter[row["GroundTruth"]]:
+    for meta_row in sorted_meta_rows:
+        if not data_filter[meta_row.GroundTruth]:
             continue
-        if category and not category == row["Category"]:
+        if category and not category == meta_row.Category:
             continue
 
         displayed_rows += 1
-        row_csv = ','.join([str(x) for x in row.values()])
-        print(row_csv, flush=True)
+        print(meta_row, flush=True)
         try:
-            file_path = str(row["FilePath"])
-            line_start = int(row["LineStart"])
-            line_end = int(row["LineEnd"])
-            value_start = int(row["ValueStart"])
-            value_end = int(row["ValueEnd"])
-            read_data(file_path,
-                      line_start,
-                      line_end,
-                      value_start,
-                      value_end,
-                      row["GroundTruth"],
+            read_data(meta_row.FilePath,
+                      meta_row.LineStart,
+                      meta_row.LineEnd,
+                      meta_row.ValueStart,
+                      meta_row.ValueEnd,
+                      meta_row.GroundTruth,
                       creds)
         except Exception as exc:
-            print(f"Failure {row}", exc, flush=True)
+            print(f"Failure {meta_row}", exc, flush=True)
             raise
-        row_str = f"{file_path},{line_start}:{line_end},{value_start},{value_end}"
-        if row_str in shown_rows:
-            print(f"Duplicate row {row}", flush=True)
-            break
+        cred_pos_uniq_str = f"{meta_row.FilePath}" \
+                            f" {meta_row.LineStart}:{meta_row.LineEnd}" \
+                            f" {meta_row.ValueStart}:{meta_row.ValueEnd}"
+        if cred_pos_uniq_str in shown_rows:
+            raise RuntimeError(f"Duplicate row {meta_row}")
         else:
-            shown_rows.add(row_str)
-    print(f"Shown {displayed_rows} of {len(meta)}", flush=True)
+            shown_rows.add(cred_pos_uniq_str)
+    print(f"Shown {displayed_rows} of {len(sorted_meta_rows)}", flush=True)
 
 
 if __name__ == "__main__":

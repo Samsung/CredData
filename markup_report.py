@@ -5,49 +5,25 @@ The script performs updating CredSweeper report with according markup
 currently the row from meta is placed to "api_validation" to keep the value at the position
 """
 
-import csv
 import json
 import os
 import sys
 from argparse import ArgumentParser
-from pathlib import Path
-from typing import Tuple, Dict, List
+from typing import Dict, List
 
 from meta_cred import MetaCred
-from meta_row import MetaRow
+from meta_key import MetaKey
+from meta_row import MetaRow, read_meta
 
 
-class MetaKey:
-    def __init__(self, file_path: str, line_start: int, line_end: int):
-        self.key: Tuple[str, int, int] = (file_path, line_start, line_end)
-
-    def __hash__(self):
-        return hash(self.key)
-
-    def __eq__(self, other):
-        return self.key == other.key
-
-    def __ne__(self, other):
-        return not (self == other)
-
-
-def read_meta(meta_dir) -> Dict[MetaKey, List[MetaRow]]:
+def prepare_meta(meta_dir) -> Dict[MetaKey, List[MetaRow]]:
     meta_dict = {}
-    for root, dirs, files in os.walk(meta_dir):
-        root_path = Path(root)
-        for file in files:
-            if not file.endswith(".csv"):
-                # *.csv.orig artifacts after git merge
-                continue
-            with open(root_path / file, newline="") as f:
-                reader = csv.DictReader(f)
-                for row in reader:
-                    meta_row = MetaRow(row)
-                    meta_key = MetaKey(meta_row.FilePath, meta_row.LineStart, meta_row.LineEnd)
-                    if meta_row in meta_dict:
-                        meta_dict[meta_key].append(meta_row)
-                    else:
-                        meta_dict[meta_key] = [meta_row]
+    for meta_row in read_meta(meta_dir):
+        meta_key = MetaKey(meta_row)
+        if meta_row in meta_dict:
+            meta_dict[meta_key].append(meta_row)
+        else:
+            meta_dict[meta_key] = [meta_row]
     return meta_dict
 
 
@@ -60,7 +36,7 @@ def main(output_json, meta_dir):
     with open(output_json, "r") as f:
         creds = json.load(f)
 
-    meta_dict = read_meta(meta_dir)
+    meta_dict = prepare_meta(meta_dir)
 
     # processed_creds = []
 
@@ -70,7 +46,7 @@ def main(output_json, meta_dir):
         if meta_rows := meta_dict.get(cred_key):
             cred["api_validation"] = ''.join(str(x) for x in meta_rows)
         else:
-            cred["api_validation"] = "not found in MetaRow"
+            cred["api_validation"] = "not found in meta"
 
     with open(f"{output_json}", "w") as f:
         json.dump(creds, f, indent=4)

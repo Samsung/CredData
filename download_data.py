@@ -1,5 +1,4 @@
 import base64
-import csv
 import hashlib
 import logging
 import os
@@ -9,11 +8,14 @@ import re
 import shutil
 import string
 import subprocess
-from argparse import ArgumentParser
+import sys
+from argparse import ArgumentParser, Namespace
 from multiprocessing import Pool
-from typing import Dict, List
+from typing import List
 
 import yaml
+
+from meta_row import read_meta, MetaRow
 
 logging.basicConfig(
     format="%(asctime)s | %(levelname)s | %(filename)s:%(lineno)s | %(message)s",
@@ -136,17 +138,15 @@ def move_files(temp_dir, dataset_dir):
 
         # Select file names from meta that we will use in dataset
         interesting_files = dict()
-        with open(meta_file_path) as csvfile:
-            meta_reader = csv.DictReader(csvfile)
-            for row in meta_reader:
-                assert 23 == len(row) and row["Category"], row
-                key = row["FileID"]
-                file_path = row["FilePath"]
-                if key in interesting_files:
-                    # check correctness
-                    assert interesting_files[key] == file_path, (key, file_path)
-                else:
-                    interesting_files[key] = file_path
+        meta_rows = read_meta(meta_file_path)
+        for row in meta_rows:
+            key = row.FileID
+            file_path = row.FilePath
+            if key in interesting_files:
+                # check correctness
+                assert interesting_files[key] == file_path, (key, file_path)
+            else:
+                interesting_files[key] = file_path
 
         # Select all files in the repo
         # pathlib.Path.glob used instead of glob.glob, as glob.glob could not search for a hidden files
@@ -173,7 +173,7 @@ def move_files(temp_dir, dataset_dir):
                          f"You can use git to restore {meta_file_path} file back")
             missing_repos.append(meta_file_path)
             if os.path.exists(meta_file_path):
-                os.remove(meta_file_path)
+                os.rename(meta_file_path, f"{meta_file_path}.bak")
             continue
 
         # Copy files to new dataset location
@@ -184,28 +184,25 @@ def move_files(temp_dir, dataset_dir):
             file_id = hashlib.sha256(short_path.encode()).hexdigest()[:8]
             logger.debug(f"{full_path} -> {file_id}")
 
-            code_file_basebir = f'{dataset_dir}/{new_repo_id}/{file_type}'
-            code_file_location = f'{code_file_basebir}/{file_id}{file_extension}'
+            code_file_basedir = f'{dataset_dir}/{new_repo_id}/{file_type}'
+            code_file_location = f'{code_file_basedir}/{file_id}{file_extension}'
 
-            with open(meta_file_path) as csvfile:
-                meta_reader = csv.DictReader(csvfile)
-                for row in meta_reader:
-                    if row["FilePath"] == code_file_location:
-                        logger.debug(row)
-                        break
-                else:
-                    logger.error(row, code_file_location)
-                    assert 0
+            for row in meta_rows:
+                if row.FilePath == code_file_location:
+                    logger.debug(row)
+                    break
+            else:
+                raise RuntimeError(f"Cannot find {code_file_location}")
 
-            os.makedirs(code_file_basebir, exist_ok=True)
+            os.makedirs(code_file_basedir, exist_ok=True)
             shutil.copy(full_path, code_file_location)
             logger.debug("COPIED FILE: %s -> %s", full_path, code_file_location)
 
         license_files = collect_licenses(temp_dir, ownername, reponame)
 
         # create dir for license files
-        code_file_basebir = f'{dataset_dir}/{new_repo_id}'
-        os.makedirs(code_file_basebir, exist_ok=True)
+        code_file_basedir = f'{dataset_dir}/{new_repo_id}'
+        os.makedirs(code_file_basedir, exist_ok=True)
         for license_location in license_files:
             name = os.path.basename(license_location)
             if os.path.isdir(license_location):
@@ -265,9 +262,8 @@ def get_obfuscated_value(value, predefined_pattern):
     if predefined_pattern == "Info":
         # not a credential - does not required obfuscation
         obfuscated_value = value
-    elif (predefined_pattern == "AWS Client ID" or any(value.startswith(x) for x in
-                                                       ["AKIA", "ABIA", "ACCA", "AGPA", "AIDA", "AIPA", "AKIA", "ANPA",
-                                                        "ANVA", "AROA", "APKA", "ASCA", "ASIA"])):
+    elif any(value.startswith(x) for x in ["AKIA", "ABIA", "ACCA", "AGPA", "AIDA", "AIPA", "AKIA", "ANPA",
+                                           "ANVA", "AROA", "APKA", "ASCA", "ASIA"]):
         obfuscated_value = value[:4] + generate_value(value[4:])
     elif value.startswith("AIza"):
         obfuscated_value = "AIza" + generate_value(value[4:])
@@ -294,6 +290,9 @@ def get_obfuscated_value(value, predefined_pattern):
     elif "apps.googleusercontent.com" in value:
         pos = value.index("apps.googleusercontent.com")
         obfuscated_value = generate_value(value[:pos]) + "apps.googleusercontent.com" + generate_value(value[pos + 26:])
+    elif "s3.amazonaws.com" in value:
+        pos = value.index("s3.amazonaws.com")
+        obfuscated_value = generate_value(value[:pos]) + "s3.amazonaws.com" + generate_value(value[pos + 16:])
     else:
         obfuscated_value = generate_value(value)
 
@@ -316,31 +315,34 @@ def generate_value(value):
     return obfuscated_value
 
 
-def replace_rows(data: List[Dict[str, str]]):
+def replace_rows(data: List[MetaRow]):
     # Change data in already copied files
+    logger.info("Single line obfuscation")
     for row in data:
 
-        line_start = int(row["LineStart"])
-        line_end = int(row["LineEnd"])
+        line_start = row.LineStart
+        line_end = row.LineEnd
 
         # PEM keys and other multiple-line credentials is processed in other function
-        if row["CryptographyKey"] != "" or line_end - line_start > 0:
+        if row.CryptographyKey != "" or line_end != line_start:
             continue
 
-        if row["GroundTruth"] not in ["T", "N/A"]:
+        if row.GroundTruth not in ["T", "N/A"]:
             continue
 
-        if not row["ValueStart"] or not row["ValueEnd"]:
+        if not row.ValueStart or not row.ValueEnd:
             continue
 
-        value_start = int(row["ValueStart"])
-        value_end = int(row["ValueEnd"])
+        value_start = row.ValueStart
+        value_end = row.ValueEnd
 
-        file_location = row["FilePath"]
+        if 0 > value_start or 0 > value_end:
+            continue
+
+        file_location = row.FilePath
 
         with open(file_location, "r", encoding="utf8") as f:
-            lines = f.read()
-        lines = lines.split("\n")
+            lines = f.read().split('\n')
 
         old_line = lines[line_start - 1]
 
@@ -351,21 +353,17 @@ def replace_rows(data: List[Dict[str, str]]):
                 break
             indentation += 1
 
-        predefined_pattern = row["PredefinedPattern"]
+        predefined_pattern = row.PredefinedPattern
         value = old_line[indentation + value_start:indentation + value_end]
         # credsweeper does not scan lines over 8000 symbols, so 1<<13 is enough
-        random.seed((line_start << 13 + value_start) ^ int(row["FileID"], 16))
+        random.seed((line_start << 13 + value_start) ^ int(row.FileID, 16))
         obfuscated_value = get_obfuscated_value(value, predefined_pattern)
         new_line = old_line[:indentation + value_start] + obfuscated_value + old_line[indentation + value_end:]
 
         lines[line_start - 1] = new_line
-        # Remove empty last line. Redundant last line may appear due to `lines.split("\n")`
-        if lines[-1] == "":
-            lines = lines[:-1]
 
         with open(file_location, "w", encoding="utf8") as f:
-            for line in lines:
-                f.write(line + "\n")
+            f.write('\n'.join(lines))
 
 
 def split_in_bounds(i: int, lines_len: int, old_line: str):
@@ -459,18 +457,15 @@ def create_new_multiline(lines: List[str], starting_position: int):
     # Create new lines with similar formatting as old one
     new_lines = []
 
-    # Process first line independently, so we won't damage variable name
     first_line = lines[0]
-    starting_position = int(starting_position)
-
-    # Add number of space-like characters from the line padding to the starting_position
-    c = 0
-    while c < len(first_line):
-        if first_line[c] in (string.ascii_letters + string.punctuation + string.digits):
-            break
-        else:
-            c += 1
-    starting_position += c
+    # First line might have an offset for variable name
+    if 0 <= starting_position:
+        # starting_position was obtained from stripped line!
+        offset = len(first_line) - len(first_line.lstrip())
+        starting_position += offset
+    else:
+        # empty integers are cast to -1 from csv
+        starting_position = 0
 
     new_lines.append(first_line[:starting_position] + obfuscate_segment(first_line[starting_position:]))
 
@@ -486,70 +481,46 @@ def create_new_multiline(lines: List[str], starting_position: int):
     return new_lines
 
 
-def process_pem_keys(data: List[Dict[str, str]]):
+def process_pem_key(row: MetaRow):
     # Change data in already copied files (only keys)
-    for row in data:
+    try:
+        with open(row.FilePath, "r", encoding="utf8") as f:
+            lines = f.read().split('\n')
 
-        line_start = int(row["LineStart"])
-        line_end = int(row["LineEnd"])
+        random.seed(row.LineStart ^ int(row.FileID, 16))
 
-        # Skip credentials that are not PEM or multiline
-        if row["CryptographyKey"] == "" and line_end - line_start < 1:
-            continue
-
-        if row["GroundTruth"] not in ["T", "N/A"]:
-            continue
-
-        file_location = row["FilePath"]
-
-        with open(file_location, "r", encoding="utf8") as f:
-            lines = f.read()
-        lines = lines.split("\n")
-
-        random.seed(line_start ^ int(row["FileID"], 16))
-
-        if row["CryptographyKey"] != "":
-            new_lines = create_new_key(lines[line_start - 1:line_end])
+        if row.CryptographyKey:
+            new_lines = create_new_key(lines[row.LineStart - 1:row.LineEnd])
         else:
-            value_start = int(row["ValueStart"])
-            new_lines = create_new_multiline(lines[line_start - 1:line_end], value_start)
+            new_lines = create_new_multiline(lines[row.LineStart - 1:row.LineEnd], row.ValueStart)
 
-        lines[line_start - 1:line_end] = new_lines
+        lines[row.LineStart - 1:row.LineEnd] = new_lines
 
-        with open(file_location, "w", encoding="utf8") as f:
-            for line in lines:
-                f.write(line + "\n")
+        with open(row.FilePath, "w", encoding="utf8") as f:
+            f.write('\n'.join(lines))
+
+    except Exception as exc:
+        raise RuntimeError(f"FAILURE: {row}")
 
 
-def obfuscate_creds(dataset_dir):
-    # use the mask ????????.csv to avoid any git artifacts using
-    metadata_files = list(pathlib.Path(f"meta").glob("????????.csv"))
-    metadata_files = [str(meta_file) for meta_file in metadata_files]
-    metadata_files = sorted(metadata_files)
+def process_pem_keys(data: List[MetaRow]):
+    logger.info("Private key obfuscation")
+    for row in data:
+        if 'T' == row.GroundTruth and "Private Key" == row.Category:
+            process_pem_key(row)
 
+
+def obfuscate_creds(meta_dir: str, dataset_dir: str):
     all_credentials = []
-
-    for meta_file in metadata_files:
-        with open(meta_file) as csvfile:
-            meta_reader = csv.DictReader(csvfile)
-            for row in meta_reader:
-                row["FilePath"] = row["FilePath"].replace("data", dataset_dir, 1)
-                all_credentials.append(row)
-
+    for meta_row in read_meta(meta_dir):
+        meta_row.FilePath = meta_row.FilePath.replace("data", dataset_dir, 1)
+        all_credentials.append(meta_row)
+    all_credentials.sort(key=lambda x: (x.FilePath, x.LineStart, x.LineEnd, x.ValueStart, x.ValueEnd))
     replace_rows(all_credentials)
     process_pem_keys(all_credentials)
 
 
-if __name__ == "__main__":
-
-    parser = ArgumentParser(prog="python download_data.py")
-
-    parser.add_argument("--data_dir", dest="data_dir", default="data", help="Dataset location after download")
-    parser.add_argument("--jobs", dest="jobs", help="Jobs for multiprocessing")
-    parser.add_argument("--skip_download", help="Skip download", action="store_const", const=True)
-    parser.add_argument("--clean_data", help="Recreate data dir", action="store_const", const=True)
-    args = parser.parse_args()
-
+def main(args: Namespace):
     temp_directory = "tmp"
 
     if os.path.exists(args.data_dir):
@@ -558,7 +529,7 @@ if __name__ == "__main__":
                                   f"Please remove it or select other directory.")
         shutil.rmtree(args.data_dir)
 
-    if not args.clean_data:
+    if not args.skip_download:
         logger.info("Start download")
         download(temp_directory, 1 if not args.jobs else int(args.jobs))
         logger.info("Download finished. Now processing the files...")
@@ -568,6 +539,17 @@ if __name__ == "__main__":
     # check whether there were issues with downloading
     assert 0 == len(removed_meta), removed_meta
     logger.info("Finalizing dataset. Please wait a moment...")
-    obfuscate_creds(args.data_dir)
-    logger.info("Done!")
-    logger.info(f"All files saved to {args.data_dir}")
+    obfuscate_creds("meta", args.data_dir)
+    logger.info(f"Done! All files saved to {args.data_dir}")
+
+
+if __name__ == "__main__":
+    parser = ArgumentParser(prog="python download_data.py")
+
+    parser.add_argument("--data_dir", dest="data_dir", default="data", help="Dataset location after download")
+    parser.add_argument("--jobs", dest="jobs", help="Jobs for multiprocessing")
+    parser.add_argument("--skip_download", help="Skip download", action="store_const", const=True)
+    parser.add_argument("--clean_data", help="Recreate data dir", action="store_const", const=True)
+    _args = parser.parse_args()
+
+    sys.exit(main(_args))

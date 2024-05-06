@@ -26,3 +26,8 @@ class MetaCred:
         self.strip_value_start = self.value_start - offset
         self.strip_value_end = self.value_end - offset
         self.line = line_data_list[0]["line"]
+        self.variable = line_data_list[0]["variable"]
+        self.value = line_data_list[0]["value"]
+
+    def __str__(self):
+        return str(self.__dict__)
