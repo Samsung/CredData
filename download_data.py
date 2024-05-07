@@ -9,7 +9,8 @@ import re
 import shutil
 import string
 import subprocess
-from argparse import ArgumentParser
+import sys
+from argparse import ArgumentParser, Namespace
 from multiprocessing import Pool
 from typing import Dict, List
 
@@ -333,6 +334,9 @@ def replace_rows(data: List[Dict[str, str]]):
         if not row["ValueStart"] or not row["ValueEnd"]:
             continue
 
+        if row["Category"] in ["IPv4", "IPv6"]:
+            continue
+
         value_start = int(row["ValueStart"])
         value_end = int(row["ValueEnd"])
 
@@ -344,12 +348,7 @@ def replace_rows(data: List[Dict[str, str]]):
 
         old_line = lines[line_start - 1]
 
-        non_spaces = set(string.ascii_letters + string.punctuation + string.digits)
-        indentation = 0
-        for c in old_line:
-            if c in non_spaces:
-                break
-            indentation += 1
+        indentation = len(old_line) - len(old_line.lstrip())
 
         predefined_pattern = row["PredefinedPattern"]
         value = old_line[indentation + value_start:indentation + value_end]
@@ -540,16 +539,7 @@ def obfuscate_creds(dataset_dir):
     process_pem_keys(all_credentials)
 
 
-if __name__ == "__main__":
-
-    parser = ArgumentParser(prog="python download_data.py")
-
-    parser.add_argument("--data_dir", dest="data_dir", default="data", help="Dataset location after download")
-    parser.add_argument("--jobs", dest="jobs", help="Jobs for multiprocessing")
-    parser.add_argument("--skip_download", help="Skip download", action="store_const", const=True)
-    parser.add_argument("--clean_data", help="Recreate data dir", action="store_const", const=True)
-    args = parser.parse_args()
-
+def main(args: Namespace):
     temp_directory = "tmp"
 
     if os.path.exists(args.data_dir):
@@ -558,7 +548,7 @@ if __name__ == "__main__":
                                   f"Please remove it or select other directory.")
         shutil.rmtree(args.data_dir)
 
-    if not args.clean_data:
+    if not args.skip_download:
         logger.info("Start download")
         download(temp_directory, 1 if not args.jobs else int(args.jobs))
         logger.info("Download finished. Now processing the files...")
@@ -569,5 +559,17 @@ if __name__ == "__main__":
     assert 0 == len(removed_meta), removed_meta
     logger.info("Finalizing dataset. Please wait a moment...")
     obfuscate_creds(args.data_dir)
-    logger.info("Done!")
-    logger.info(f"All files saved to {args.data_dir}")
+    logger.info(f"Done! All files saved to {args.data_dir}")
+    return 0
+
+
+if __name__ == "__main__":
+    parser = ArgumentParser(prog="python download_data.py")
+
+    parser.add_argument("--data_dir", dest="data_dir", default="data", help="Dataset location after download")
+    parser.add_argument("--jobs", dest="jobs", help="Jobs for multiprocessing")
+    parser.add_argument("--skip_download", help="Skip download", action="store_const", const=True)
+    parser.add_argument("--clean_data", help="Recreate data dir", action="store_const", const=True)
+    _args = parser.parse_args()
+
+    sys.exit(main(_args))
