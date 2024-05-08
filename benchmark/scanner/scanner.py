@@ -2,7 +2,7 @@ import csv
 import dataclasses
 import os
 from abc import ABC, abstractmethod
-from typing import Tuple, Dict, List, Any
+from typing import Tuple, Dict, List, Any, Optional
 
 import tabulate
 
@@ -17,6 +17,10 @@ class TypeStat:
     true_markup: int
     false_markup: int
     template_markup: int
+
+
+# temporally meta key - file_path,line_start,line_stop
+meta_file_lines_key = Tuple[str, int, int]
 
 
 class Scanner(ABC):
@@ -37,7 +41,7 @@ class Scanner(ABC):
         self.next_id = 0
         self.file_types: Dict[str, TypeStat] = {}
         self.total_data_valid_lines = 0
-        self.meta: List[Dict[str, Any]] = []
+        self.meta: Dict[meta_file_lines_key, List[Dict[str, Any]]] = {}
         self._read_meta()
 
     def _read_meta(self):
@@ -78,14 +82,23 @@ class Scanner(ABC):
                             # wrong markup should be detected
                             assert False, f"[WRONG MARKUP] {row}"
                         self.categories[row["Category"]] = (true_cnt, false_cnt, template_cnt)
-                        row["LineStart"] = int(row["LineStart"])
-                        row["LineEnd"] = int(row["LineEnd"])
+                        line_start = int(row["LineStart"])
+                        row["LineStart"] = line_start
+                        line_end = int(row["LineEnd"])
+                        row["LineEnd"] = line_end
                         row["ValueStart"] = int(row["ValueStart"]) if row["ValueStart"] else -1
                         row["ValueEnd"] = int(row["ValueEnd"]) if row["ValueEnd"] else -1
-                        self.meta.append(row)
+                        k = (row["FilePath"], row["LineStart"], row["LineEnd"])
+                        if m := self.meta.get(k):
+                            m.append(row)
+                        else:
+                            self.meta[k] = [row]
                         self.file_types[file_type_lower] = type_stat
-        # use next_id for printing lost markup
-        self.next_id = 1 + max(int(x["Id"]) for x in self.meta)
+
+                        meta_id = int(row["Id"])
+                        if meta_id > self.next_id:
+                            # use next_id for printing lost markup
+                            self.next_id = meta_id + 1
 
         # getting count of all not-empty lines
         data_dir = f"{self.cred_data_dir}/data"
@@ -229,33 +242,59 @@ class Scanner(ABC):
     def parse_result(self) -> None:
         pass
 
-    def run_benchmark(self) -> None:
-        self.run_scanner()
+    def run_benchmark(self, is_output_given: bool) -> None:
+        if not is_output_given:
+            self.run_scanner()
         self.parse_result()
         self.analyze_result()
 
     def check_line_from_meta(self,
                              file_path: str,
-                             line_num: int,
+                             line_start: int,
+                             line_end: int,
                              value_start: int = -1,
                              value_end: int = -1,
                              rule: str = "") -> Tuple[LineStatus, str, str]:
         self.result_cnt += 1
-        repo_name = file_path.split("/")[-3]
-        path = "data/" + "/".join(file_path.split("/")[-3:])
+        repo_name = file_path.split('/')[-3]
+        path = "data/" + '/'.join(file_path.split('/')[-3:])
         project_id = repo_name
-        file_id = ""
-        approximate = ""
+        file_name = path.split('/')[-1]
+        file_id = file_name.split('.')[0]
 
-        for row in self.meta:
+        # by default the cred is false positive
+        approximate = f"{self.next_id},{file_id}" \
+                      f",GitHub,{project_id},{path}" \
+                      f",{line_start},{line_end}" \
+                      f",F,F,{value_start},{value_end}" \
+                      f",F,F,,,,,0.0,0,F,F,F,{rule}"
+
+        if not (rows := self.meta.get((path, line_start, line_end))):
+            self.lost_cnt += 1
+            self.next_id += 1
+            print(f"NOT FOUND WITH KEY: {approximate}", flush=True)
+            return LineStatus.NOT_IN_DB, project_id, file_id
+
+        for row in rows:
             if row["FilePath"] == path:
-                file_id = row["FileID"]
-                # by default the cred is false positive
-                approximate = f"{self.next_id},{file_id},GitHub,{project_id},{path}" \
-                              f",{line_num},{line_num},F,F,{value_start},{value_end}" \
-                              f",F,F,,,,,0,0,F,F,F,{rule}"
-                if self._check_line_num(row["LineStart"], row["LineEnd"], line_num):
-                    code = str(project_id) + str(file_id) + str(row["LineStart"]) + str(row["LineEnd"])
+                if self._check_line_num(row["LineStart"], row["LineEnd"], line_start, line_end):
+                    if meta_value_start := row["ValueStart"]:
+                        meta_value_start = int(meta_value_start)
+                    else:
+                        meta_value_start = -1
+                    if meta_value_end := row["ValueEnd"]:
+                        meta_value_end = int(meta_value_end)
+                    else:
+                        meta_value_end = -1
+                    if meta_value_end < 0 <= meta_value_start:
+                        # only start value in markup
+                        if meta_value_start != value_start and 0 <= value_start:
+                            continue
+                    elif 0 <= meta_value_start and 0 <= meta_value_end:
+                        # both markers are available
+                        if meta_value_start != value_start and 0 <= value_start or meta_value_end != value_end and 0 <= value_end:
+                            continue
+                    code = str(project_id) + str(file_id) + str(row["LineStart"]) + str(row["LineEnd"]) + str(row["ValueStart"]) + str(row["ValueEnd"])
                     if code in self.line_checker:
                         self.result_cnt -= 1
                         return LineStatus.CHECKED, project_id, file_id
@@ -265,10 +304,12 @@ class Scanner(ABC):
                     if row["GroundTruth"] == "T":
                         self.true_cnt += 1
                         self._increase_result_dict_cnt(row["Category"], True)
+                        # print(f"TRUE:{file_path},{line_start},{line_end},{value_start},{value_end},{rule}   {row}")
                         return LineStatus.TRUE, project_id, file_id
                     elif row["GroundTruth"] == "F" or row["GroundTruth"] == "Template":
                         self.false_cnt += 1
                         self._increase_result_dict_cnt(row["Category"], False)
+                        # print(f"FALSE:{file_path},{line_start},{line_end},{value_start},{value_end},{rule}   {row}")
                         return LineStatus.FALSE, project_id, file_id
         self.lost_cnt += 1
         print(f"LOST: {approximate}", flush=True)
@@ -331,22 +372,32 @@ class Scanner(ABC):
 
     def _get_total_line_cnt(self, category: str) -> int:
         total_line_cnt = 0
-        for row in self.meta:
-            if row["Category"] == category:
-                total_line_cnt += 1
+        for rows in self.meta.values():
+            for row in rows:
+                if row["Category"] == category:
+                    total_line_cnt += 1
         return total_line_cnt
 
     def _get_total_true_cnt(self, category: str = None) -> int:
         total_true_cnt = 0
-        for row in self.meta:
-            if row["Category"] == category and row["GroundTruth"] == "T":
-                total_true_cnt += 1
+        for rows in self.meta.values():
+            for row in rows:
+                if row["Category"] == category and row["GroundTruth"] == "T":
+                    total_true_cnt += 1
         return total_true_cnt
 
     @staticmethod
-    def _check_line_num(line_start: int, line_end: int, line_num: int) -> bool:
-        if line_start <= line_num <= line_end:
-            return True
+    def _check_line_num(meta_line_start: int,
+                        meta_line_end: int,
+                        line_start: int,
+                        line_end: int) -> bool:
+        if 0 <= line_end:
+            # CredSweeper report must contain the value
+            if meta_line_start == line_start and meta_line_end == line_end:
+                return True
+        else:
+            if meta_line_start <= line_start <= meta_line_end:
+                return True
         return False
 
     def _increase_result_dict_cnt(self, category: str, cnt_type: bool) -> None:

@@ -1,5 +1,4 @@
 import json
-import logging
 import subprocess
 
 from benchmark.common.constants import URL, LineStatus, ScannerType
@@ -7,6 +6,10 @@ from benchmark.scanner.scanner import Scanner
 
 
 class CredSweeper(Scanner):
+    RESULT_DICT = {LineStatus.TRUE: 'O',
+                   LineStatus.FALSE: 'X',
+                   LineStatus.NOT_IN_DB: 'N',
+                   LineStatus.CHECKED: 'C'}
 
     def __init__(self, working_dir: str, cred_data_dir: str) -> None:
         super().__init__(ScannerType.CREDSWEEPER, URL.CREDSWEEPER, working_dir, cred_data_dir)
@@ -30,36 +33,35 @@ class CredSweeper(Scanner):
             "./venv/bin/python", "-m", "credsweeper", "--banner", "--path", f"{self.cred_data_dir}/data", "--jobs", "4",
             "--save-json", self.output_dir, "--sort"
         ],
-                        cwd=self.scanner_dir)
+            cwd=self.scanner_dir)
 
     def parse_result(self) -> None:
         with open(self.output_dir, "r") as f:
             data = json.load(f)
 
         for result in data:
-            for line_data in result["line_data_list"]:
-                path_upper = line_data["path"].upper()
-                if any(i in path_upper for i in ["/COPYING", "/LICENSE"]):
-                    continue
-                try:
-                    offset = len(line_data["line"]) - len(line_data["line"].lstrip())
-                    check_line_result, line_data["project_id"], line_data["per_repo_file_id"] = \
-                        self.check_line_from_meta(line_data["path"], line_data["line_num"],
-                                                  line_data["value_start"] - offset, line_data["value_end"] - offset,
-                                                  result["rule"])
-                except Exception as exc:
-                    logging.getLogger(__file__).exception(exc)
-                    continue
-                if check_line_result == LineStatus.TRUE:
-                    line_data["TP"] = "O"
-                elif check_line_result == LineStatus.FALSE:
-                    line_data["TP"] = "X"
-                elif check_line_result == LineStatus.NOT_IN_DB:
-                    line_data["TP"] = "N"
-                elif check_line_result == LineStatus.CHECKED:
-                    line_data["TP"] = "C"
-                line_data["line"] = line_data["line"].strip()
-                line_data["rule"] = result["rule"]
-                line_data["severity"] = result["severity"]
-                line_data["api_validation"] = result["api_validation"]
-                line_data["ml_validation"] = result["ml_validation"]
+            # path will be same for all line_data_list
+            path_upper = result["line_data_list"][0]["path"].upper()
+            if any(i in path_upper for i in ["/COPYING", "/LICENSE"]):
+                continue
+            # primary cred will be first, but line number is greater than secondary (multi pattern)
+            sorted_by_line_num = sorted(result["line_data_list"], key=lambda x: (x["line_num"], x["value_start"]))
+            line_data_first = sorted_by_line_num[0]
+            line_start = line_data_first["line_num"]
+            offset_first = len(line_data_first["line"]) - len(line_data_first["line"].lstrip())
+            value_start = line_data_first["value_start"] - offset_first
+
+            line_data_last = sorted_by_line_num[-1]
+            line_end = line_data_last["line_num"]
+            offset_last = len(line_data_last["line"]) - len(line_data_last["line"].lstrip())
+            value_end = line_data_last["value_end"] - offset_last
+
+            check_line_result, line_data_first["project_id"], line_data_first["per_repo_file_id"] = \
+                self.check_line_from_meta(file_path=line_data_first["path"],
+                                          line_start=line_start,
+                                          line_end=line_end,
+                                          value_start=value_start,
+                                          value_end=value_end,
+                                          rule=result["rule"])
+
+            line_data_first["TP"] = self.RESULT_DICT.get(check_line_result, '?')

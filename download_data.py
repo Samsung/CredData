@@ -266,9 +266,16 @@ def get_obfuscated_value(value, predefined_pattern):
     if predefined_pattern == "Info":
         # not a credential - does not required obfuscation
         obfuscated_value = value
-    elif (predefined_pattern == "AWS Client ID" or any(value.startswith(x) for x in
-                                                       ["AKIA", "ABIA", "ACCA", "AGPA", "AIDA", "AIPA", "AKIA", "ANPA",
-                                                        "ANVA", "AROA", "APKA", "ASCA", "ASIA"])):
+    elif value.startswith("Apikey "):
+        obfuscated_value = "Apikey " + generate_value(value[7:])
+    elif value.startswith("Bearer "):
+        obfuscated_value = "Bearer " + generate_value(value[7:])
+    elif value.startswith("Basic "):
+        obfuscated_value = "Basic " + generate_value(value[6:])
+    elif value.startswith("OAuth "):
+        obfuscated_value = "OAuth " + generate_value(value[6:])
+    elif any(value.startswith(x) for x in ["AKIA", "ABIA", "ACCA", "AGPA", "AIDA", "AIPA", "AKIA", "ANPA", "ANVA",
+                                           "AROA", "APKA", "ASCA", "ASIA"]):
         obfuscated_value = value[:4] + generate_value(value[4:])
     elif value.startswith("AIza"):
         obfuscated_value = "AIza" + generate_value(value[4:])
@@ -292,9 +299,23 @@ def get_obfuscated_value(value, predefined_pattern):
         obfuscated_value = value[:4] + generate_value(value[4:])
     elif value.startswith("base64:"):
         obfuscated_value = value[:7] + generate_value(value[7:])
-    elif "apps.googleusercontent.com" in value:
-        pos = value.index("apps.googleusercontent.com")
-        obfuscated_value = generate_value(value[:pos]) + "apps.googleusercontent.com" + generate_value(value[pos + 26:])
+    elif value.startswith("SWMTKN-1-"):
+        obfuscated_value = value[:9] + generate_value(value[9:])
+    elif value.startswith("hooks.slack.com/services/"):
+        obfuscated_value = "hooks.slack.com/services/" + generate_value(value[25:])
+    elif ".apps.googleusercontent.com" in value:
+        pos = value.index(".apps.googleusercontent.com")
+        obfuscated_value = generate_value(value[:pos]) + ".apps.googleusercontent.com" + generate_value(
+            value[pos + 27:])
+    elif ".s3.amazonaws.com" in value:
+        pos = value.index(".s3.amazonaws.com")
+        obfuscated_value = generate_value(value[:pos]) + ".s3.amazonaws.com" + generate_value(value[pos + 17:])
+    elif ".firebaseio.com" in value:
+        pos = value.index(".firebaseio.com")
+        obfuscated_value = generate_value(value[:pos]) + ".firebaseio.com" + generate_value(value[pos + 15:])
+    elif ".firebaseapp.com"in value:
+        pos = value.index(".firebaseapp.com")
+        obfuscated_value = generate_value(value[:pos]) + ".firebaseapp.com" + generate_value(value[pos + 16:])
     else:
         obfuscated_value = generate_value(value)
 
@@ -304,7 +325,16 @@ def get_obfuscated_value(value, predefined_pattern):
 def generate_value(value):
     obfuscated_value = ""
 
+    backslash_case = False
     for v in value:
+        if '\\' == v:
+            backslash_case = True
+            obfuscated_value += v
+            continue
+        if backslash_case:
+            obfuscated_value += v
+            backslash_case = False
+            continue
         if v in string.ascii_lowercase:
             obfuscated_value += random.choice(string.ascii_lowercase)
         elif v in string.ascii_uppercase:
@@ -313,6 +343,8 @@ def generate_value(value):
             obfuscated_value += random.choice(string.digits)
         else:
             obfuscated_value += v
+        if '\\' != v:
+            backslash_case = False
 
     return obfuscated_value
 
@@ -334,7 +366,8 @@ def replace_rows(data: List[Dict[str, str]]):
         if not row["ValueStart"] or not row["ValueEnd"]:
             continue
 
-        if row["Category"] in ["IPv4", "IPv6"]:
+        if row["Category"] in ["IPv4", "IPv6", "AWS Multi", "Google Multi"]:
+            # skip obfuscation for the categories which are multi pattern or info
             continue
 
         value_start = int(row["ValueStart"])
@@ -493,10 +526,14 @@ def process_pem_keys(data: List[Dict[str, str]]):
         line_end = int(row["LineEnd"])
 
         # Skip credentials that are not PEM or multiline
-        if row["CryptographyKey"] == "" and line_end - line_start < 1:
+        if row["CryptographyKey"] == "" and line_end == line_start:
             continue
 
         if row["GroundTruth"] not in ["T", "N/A"]:
+            continue
+
+        if row["Category"] in ["AWS Multi", "Google Multi"]:
+            # skip double obfuscation for the categories
             continue
 
         file_location = row["FilePath"]
