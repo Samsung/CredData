@@ -33,9 +33,8 @@ def read_data(path, line_start, line_end, value_start, value_end, ground_truth, 
         # todo: move the line to MetaCred class
         cred_line = '\n'.join(lines[line_start - 1:line_end])
         stripped_line = '\n'.join(x.strip() for x in lines[line_start - 1:line_end - 1])
-        last_line = lines[line_end - 1].lstrip()
         end_offset = len(stripped_line) + 1  # +1 for line feed
-        stripped_line = '\n'.join([stripped_line, last_line])
+        stripped_line = '\n'.join([stripped_line, lines[line_end - 1].strip()])
     else:
         raise RuntimeError(f"Line start must be less than end. {path},{line_start},{line_end}")
 
