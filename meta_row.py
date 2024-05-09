@@ -35,7 +35,6 @@ class MetaRow:
         if not isinstance(row, dict):
             raise RuntimeError(f"ERROR: wrong row {row}")
         for key, typ in self.__annotations__.items():
-            val = None
             if key.startswith("__"):
                 continue
             row_val = row.get(key)
@@ -52,6 +51,8 @@ class MetaRow:
                         val = 0.0
                 elif typ is str and isinstance(row_val, str):
                     val = row_val
+                else:
+                    raise RuntimeError(f"ERROR: Unsupported {typ}")
                 self.__setattr__(key, val)
         if self.LineStart > self.LineEnd:
             raise RuntimeError(f"ERROR: LineStart must be lower than LineEnd {row}")
