@@ -105,6 +105,7 @@ def _get_source_gen(meta_path: Union[Path]) -> Generator[dict, None, None]:
 
 
 def read_meta(meta_dir: Union[str, Path]) -> List[MetaRow]:
+    """Returns list of MetaRow read from file or directory. The same approach may be used to obtain a dict."""
     meta = []
     meta_ids = set()
 
