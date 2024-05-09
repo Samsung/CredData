@@ -25,7 +25,7 @@ jobs:
       - name: Markup hashing
         run: |
           for f in $(find meta -type f|sort); do md5sum $f; done >meta.md5
-          cat meta.md5
+          sha256sum meta.md5
 
       - name: Cache review
         id: cache-review
@@ -92,15 +92,15 @@ jobs:
       - name: Markup hashing
         run: |
           for f in $(find meta -type f|sort); do md5sum $f; done >meta.md5
-          cat meta.md5
+          sha256sum meta.md5
 
       - name: Cache review
         id: cache-review
         uses: actions/cache@v4
         with:
           path: |
-            review_head.txt
-            review_head.html
+            review_base.txt
+            review_base.html
           key: cred-data-${{ hashFiles('meta.md5', '*.py') }}
 
       - name: Cache tmp
