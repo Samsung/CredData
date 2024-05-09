@@ -1,6 +1,7 @@
 import csv
 import dataclasses
 import os
+import subprocess
 from abc import ABC, abstractmethod
 from typing import Tuple, Dict, List, Any
 
@@ -339,9 +340,17 @@ class Scanner(ABC):
         with open(data_path, "r", encoding="utf8") as f:
             lines = f.read().split('\n')
         print('\n'.join(x.strip() for x in lines[line_start - 1:line_end]))
-        if suggestion.startswith("UNMATCH"):
-            with open(f"meta/{repo_name}.csv", 'a') as f:
-                f.write(f"{approximate}\n")
+        if suggestion.startswith("NEARBY"):
+            # with open(f"meta/{repo_name}.csv", 'a') as f:
+            #     f.write(f"{approximate}\n")
+            subprocess.run(
+                ["sed", "-i",
+                 "s|"
+                 f",{data_path},{line_start},{line_end},([TF]),([TF]),{value_start},[0-9]*,"
+                 "|"
+                 f",{data_path},{line_start},{line_end},\\1,\\2,{value_start},{value_end},"
+                 "|",
+                 f"meta/{repo_name}.csv"])
 
         self.next_id += 1
         return LineStatus.NOT_IN_DB, project_id, file_id
