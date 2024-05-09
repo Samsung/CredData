@@ -340,9 +340,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 34705,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1204,1204,F,F,,,F,F,,,,,0,0,F,F,F,Password
 34764,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,2685,2685,T,T,69,73,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
 34799,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2100,2100,F,F,,,T,F,Any,,,Secret,2.00,4,F,F,F,Password
-34809,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,312,312,F,T,,,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-34810,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2131,2131,Template,F,33,37,T,F,Any,,,Secret,2.00,4,F,F,F,Password
-34811,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2132,2132,Template,F,33,37,T,F,Any,,,Secret,2.00,4,F,F,F,Password
+34809,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,312,312,T,T,40,48,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+34810,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2131,2131,F,F,,,T,F,Any,,,Secret,2.00,4,F,F,F,Password
+34811,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2132,2132,F,F,,,T,F,Any,,,Secret,2.00,4,F,F,F,Password
 34816,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,2836,2836,T,T,31,35,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
 34817,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,2633,2633,T,T,31,35,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
 34818,44141ad0,GitHub,6c73b80a,data/6c73b80a/test/44141ad0.go,565,565,T,T,31,35,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
@@ -830,8 +830,3 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 134817,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,3919,3919,T,F,41,48,F,F,,,Info,,0,0,F,F,F,IPv4
 135623,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,3919,3919,T,F,51,58,F,F,,,,,0,0,F,F,F,IPv4
 134818,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,325,325,T,F,41,48,F,F,Any,,,Secret,2.52,7,F,F,F,Password
-137965,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1566,1566,F,F,68,72,F,F,,,,,0.0,0,F,F,F,Generic Secret
-137970,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2131,2131,F,F,44,48,F,F,,,,,0.0,0,F,F,F,Password
-137971,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2132,2132,F,F,44,48,F,F,,,,,0.0,0,F,F,F,Password
-137973,b78f1942,GitHub,6c73b80a,data/6c73b80a/test/b78f1942.conf,21,21,F,F,40,44,F,F,,,,,0.0,0,F,F,F,Generic Secret
-138188,94ae447a,GitHub,6c73b80a,data/6c73b80a/src/94ae447a.go,696,696,F,F,62,89,F,F,,,,,0.0,0,F,F,F,Password

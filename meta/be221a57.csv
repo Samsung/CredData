@@ -18,21 +18,20 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 30863,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,2450,2450,F,F,44,192,F,F,,,,,0,0,F,F,F,Generic Secret
 30865,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,2445,2445,F,F,44,200,F,F,,,,,0,0,F,F,F,Generic Secret
 32400,d2b5e649,GitHub,be221a57,data/be221a57/test/d2b5e649.ts,6,6,Template,T,33,41,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-32443,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,1846,1846,F,T,42,46,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-137351,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,1846,1846,F,F,57,61,F,F,,,,,0.0,0,F,F,F,Password
+32443,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,1846,1846,F,T,,,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
 34364,b241041a,GitHub,be221a57,data/be221a57/test/b241041a.ts,70,70,Template,T,11,25,F,F,Any,,,Secret,2.98,14,F,F,F,Password
 34375,9b99e511,GitHub,be221a57,data/be221a57/test/9b99e511.ts,337,337,Template,T,11,25,F,F,CharsOnly,,,Secret,3.09,14,F,F,F,Password
 34379,b241041a,GitHub,be221a57,data/be221a57/test/b241041a.ts,56,56,Template,T,11,19,F,F,Any,,,Secret,2.38,8,F,F,F,Password
 34589,9cb1bd0e,GitHub,be221a57,data/be221a57/test/9cb1bd0e.ts,437,437,T,T,11,16,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
-34806,b241041a,GitHub,be221a57,data/be221a57/test/b241041a.ts,45,45,Template,T,18,22,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
+34806,b241041a,GitHub,be221a57,data/be221a57/test/b241041a.ts,45,45,F,T,,22,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
 34907,86368c44,GitHub,be221a57,data/be221a57/test/86368c44.ts,553,553,F,T,8,15,F,F,CharsOnly,,,Token,2.52,7,F,F,F,Generic Token
 34908,e73af842,GitHub,be221a57,data/be221a57/test/e73af842.ts,211,211,F,T,8,15,F,F,CharsOnly,,,Token,2.52,7,F,F,F,Generic Token
 34924,86368c44,GitHub,be221a57,data/be221a57/test/86368c44.ts,685,685,F,T,8,15,F,F,CharsOnly,,,Token,2.52,7,F,F,F,Generic Token
 35436,d2b5e649,GitHub,be221a57,data/be221a57/test/d2b5e649.ts,33,33,T,T,20,28,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
 36692,d2b5e649,GitHub,be221a57,data/be221a57/test/d2b5e649.ts,25,25,Template,T,33,41,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
 37137,9b99e511,GitHub,be221a57,data/be221a57/test/9b99e511.ts,392,392,Template,T,11,25,F,F,CharsOnly,,,Secret,3.09,14,F,F,F,Password
-37239,b241041a,GitHub,be221a57,data/be221a57/test/b241041a.ts,54,54,Template,T,18,22,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-37240,b241041a,GitHub,be221a57,data/be221a57/test/b241041a.ts,66,66,Template,T,18,22,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
+37239,b241041a,GitHub,be221a57,data/be221a57/test/b241041a.ts,54,54,F,T,,,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
+37240,b241041a,GitHub,be221a57,data/be221a57/test/b241041a.ts,66,66,F,T,,,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
 37266,86368c44,GitHub,be221a57,data/be221a57/test/86368c44.ts,583,583,F,T,8,15,F,F,CharsOnly,,,Token,2.52,7,F,F,F,Generic Token
 37267,86368c44,GitHub,be221a57,data/be221a57/test/86368c44.ts,609,609,F,T,8,15,F,F,CharsOnly,,,Token,2.52,7,F,F,F,Generic Token
 37268,86368c44,GitHub,be221a57,data/be221a57/test/86368c44.ts,647,647,F,T,8,15,F,F,CharsOnly,,,Token,2.52,7,F,F,F,Generic Token
@@ -75,6 +74,3 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 134358,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,1055,1055,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 134359,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,1063,1063,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 134360,e73af842,GitHub,be221a57,data/be221a57/test/e73af842.ts,196,196,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-138063,b241041a,GitHub,be221a57,data/be221a57/test/b241041a.ts,45,45,F,F,33,38,F,F,,,,,0.0,0,F,F,F,Password
-138064,b241041a,GitHub,be221a57,data/be221a57/test/b241041a.ts,54,54,F,F,33,38,F,F,,,,,0.0,0,F,F,F,Password
-138065,b241041a,GitHub,be221a57,data/be221a57/test/b241041a.ts,66,66,F,F,33,38,F,F,,,,,0.0,0,F,F,F,Password

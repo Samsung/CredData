@@ -64,7 +64,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 29568,7e9b3bf5,GitHub,4dccc5be,data/4dccc5be/src/7e9b3bf5.rb,29,29,Template,T,21,32,F,F,Any,,,Secret,2.96,11,F,F,F,Password
 29805,d0392256,GitHub,4dccc5be,data/4dccc5be/src/d0392256.rb,16,16,Template,F,18,24,F,F,CharsOnly,,,Unknown,2.25,6,F,F,F,Generic Secret
 29806,4a465bfe,GitHub,4dccc5be,data/4dccc5be/src/4a465bfe.rb,38,38,Template,T,28,39,F,F,Any,,,Secret,2.96,11,F,F,F,Password
-29859,2a054fac,GitHub,4dccc5be,data/4dccc5be/src/2a054fac.rb,382,382,Template,F,13,19,F,F,Any,,,Secret,2.15,6,F,F,F,Password
+29859,2a054fac,GitHub,4dccc5be,data/4dccc5be/src/2a054fac.rb,382,382,F,F,,,F,F,Any,,,Secret,2.15,6,F,F,F,Password
 29898,a80f94f5,GitHub,4dccc5be,data/4dccc5be/src/a80f94f5.template,55,55,Template,T,10,25,F,F,Any,,,Secret,2.73,15,F,F,F,Password
 29964,b3d5c854,GitHub,4dccc5be,data/4dccc5be/src/b3d5c854.rb,29,29,Template,T,19,30,F,F,Any,,,Secret,2.96,11,F,F,F,Password
 29981,6389ae55,GitHub,4dccc5be,data/4dccc5be/src/6389ae55.rb,421,421,Template,T,20,40,F,F,Any,,,Secret,2.70,20,F,F,F,Password
@@ -75,7 +75,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 30047,08f6de44,GitHub,4dccc5be,data/4dccc5be/src/08f6de44.rb,29,29,Template,T,21,29,F,F,Any,,,Token,2.62,8,F,F,F,Generic Token
 30059,123eb21e,GitHub,4dccc5be,data/4dccc5be/src/123eb21e.rb,26,26,Template,F,21,31,F,F,Any,,,Key,2.46,10,F,F,F,Generic Secret
 30062,6e4c7e42,GitHub,4dccc5be,data/4dccc5be/src/6e4c7e42.rb,267,267,Template,T,27,38,F,F,Any,,,Secret,2.96,11,F,F,F,Password
-30066,2a054fac,GitHub,4dccc5be,data/4dccc5be/src/2a054fac.rb,276,276,Template,T,34,45,F,F,Any,,,Secret,2.96,11,F,F,F,Password
+30066,2a054fac,GitHub,4dccc5be,data/4dccc5be/src/2a054fac.rb,276,276,F,T,,,F,F,Any,,,Secret,2.96,11,F,F,F,Password
 30070,a39eccbf,GitHub,4dccc5be,data/4dccc5be/other/a39eccbf,6,6,Template,T,20,33,F,F,Any,,,Unknown,2.52,13,F,F,F,Generic Secret
 30071,a39eccbf,GitHub,4dccc5be,data/4dccc5be/other/a39eccbf,7,7,Template,T,20,33,F,F,Any,,,Secret,2.61,13,F,F,F,Password
 30084,0e464c7a,GitHub,4dccc5be,data/4dccc5be/src/0e464c7a.rb,267,267,Template,T,24,30,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
@@ -216,7 +216,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 82156,90731e60,GitHub,4dccc5be,data/4dccc5be/src/90731e60.rb,426,426,Template,T,22,35,F,F,Any,,,Secret,2.98,13,F,F,F,Password
 82157,64e791a9,GitHub,4dccc5be,data/4dccc5be/src/64e791a9.rb,325,325,Template,T,15,26,F,F,Any,,,Secret,2.96,11,F,F,F,Password
 82158,2a054fac,GitHub,4dccc5be,data/4dccc5be/src/2a054fac.rb,269,269,Template,T,15,26,F,F,Any,,,Secret,2.96,11,F,F,F,Password
-82159,2a054fac,GitHub,4dccc5be,data/4dccc5be/src/2a054fac.rb,281,281,Template,T,13,24,F,F,Any,,,Secret,2.96,11,F,F,F,Password
+82159,2a054fac,GitHub,4dccc5be,data/4dccc5be/src/2a054fac.rb,281,281,F,T,,,F,F,Any,,,Secret,2.96,11,F,F,F,Password
 82160,2a054fac,GitHub,4dccc5be,data/4dccc5be/src/2a054fac.rb,286,286,Template,T,13,24,F,F,Any,,,Secret,2.96,11,F,F,F,Password
 82161,6e4c7e42,GitHub,4dccc5be,data/4dccc5be/src/6e4c7e42.rb,265,265,Template,T,15,26,F,F,Any,,,Secret,2.96,11,F,F,F,Password
 82162,4a465bfe,GitHub,4dccc5be,data/4dccc5be/src/4a465bfe.rb,221,221,Template,T,15,26,F,F,Any,,,Secret,2.96,11,F,F,F,Password
@@ -244,6 +244,3 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 130334,69dfdb73,GitHub,4dccc5be,data/4dccc5be/src/69dfdb73.rb,135,135,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 130335,f9fdbd2e,GitHub,4dccc5be,data/4dccc5be/src/f9fdbd2e.rb,73,73,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 133339,0690f4f4,GitHub,4dccc5be,data/4dccc5be/src/0690f4f4.rb,2,2,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-137303,2a054fac,GitHub,4dccc5be,data/4dccc5be/src/2a054fac.rb,276,276,F,F,73,82,F,F,,,,,0.0,0,F,F,F,Authentication Credentials
-137304,2a054fac,GitHub,4dccc5be,data/4dccc5be/src/2a054fac.rb,281,281,F,F,52,61,F,F,,,,,0.0,0,F,F,F,Authentication Credentials
-137305,2a054fac,GitHub,4dccc5be,data/4dccc5be/src/2a054fac.rb,382,382,F,F,47,56,F,F,,,,,0.0,0,F,F,F,Authentication Credentials
