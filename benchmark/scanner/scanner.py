@@ -305,6 +305,10 @@ class Scanner(ABC):
                         # or ...
                         if 0 <= value_end and meta_value_end != value_end:
                             # todo: add check for padding chars eyJ...x== - value_end may be different for some creds
+                            delta = 3
+                            if meta_value_end - delta <= value_end <= meta_value_end + delta \
+                                    or value_end - delta <= meta_value_end <= value_end + delta:
+                                suggestion = f"NEARBY {meta_value_start, meta_value_end}"
                             continue
                     elif 0 > meta_value_end and 0 > meta_value_start:
                         # meta markup for whole line
@@ -312,7 +316,8 @@ class Scanner(ABC):
                     else:
                         print(f"WARNING: check meta value start-end {row}")
                         continue
-                    code = str(project_id) + str(file_id) + str(row["LineStart"]) + str(row["LineEnd"]) + str(row["ValueStart"]) + str(row["ValueEnd"])
+                    code = str(project_id) + str(file_id) + str(row["LineStart"]) + str(row["LineEnd"]) + str(
+                        row["ValueStart"]) + str(row["ValueEnd"])
                     if code in self.line_checker:
                         self.result_cnt -= 1
                         return LineStatus.CHECKED, project_id, file_id
@@ -332,12 +337,11 @@ class Scanner(ABC):
         self.lost_cnt += 1
         print(f"{suggestion} {approximate}", flush=True)
         with open(data_path, "r", encoding="utf8") as f:
-            lines=f.read().split('\n')
-        print('\n'.join(x.strip() for x in lines[line_start-1:line_end]))
+            lines = f.read().split('\n')
+        print('\n'.join(x.strip() for x in lines[line_start - 1:line_end]))
         if suggestion.startswith("UNMATCH"):
             with open(f"meta/{repo_name}.csv", 'a') as f:
                 f.write(f"{approximate}\n")
-
 
         self.next_id += 1
         return LineStatus.NOT_IN_DB, project_id, file_id
