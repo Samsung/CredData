@@ -20,7 +20,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 71457,a9108d0e,GitHub,0436af4a,data/0436af4a/other/a9108d0e.md,1013,1013,T,F,30,70,F,F,,,,,3.74,40,F,F,F,Generic Secret,Secret
 71458,a9108d0e,GitHub,0436af4a,data/0436af4a/other/a9108d0e.md,1029,1029,T,F,36,76,F,F,,,,,3.39,40,F,F,F,Other,Secret
 71459,a9108d0e,GitHub,0436af4a,data/0436af4a/other/a9108d0e.md,1035,1035,T,F,39,79,F,F,,,,,3.39,40,F,F,F,Other,Secret
-71460,c7cee009,GitHub,0436af4a,data/0436af4a/other/c7cee009.md,52,52,T,F,17,27,F,F,,,,,3.12,10,F,F,F,Generic Secret,URL Credentials
+71460,c7cee009,GitHub,0436af4a,data/0436af4a/other/c7cee009.md,52,52,T,F,17,27,F,F,,,,,3.12,10,F,F,F,Generic Secret,Password
 71461,031868ed,GitHub,0436af4a,data/0436af4a/src/031868ed.axaml,5,5,F,F,75,82,F,F,,,,,2.52,7,F,F,F,Generic Secret,Credential
 71462,0a5f84be,GitHub,0436af4a,data/0436af4a/src/0a5f84be.axaml,5,5,F,F,68,75,F,F,,,,,2.52,7,F,F,F,Generic Secret,Credential
 71463,0f5653ad,GitHub,0436af4a,data/0436af4a/src/0f5653ad.cs,27,27,F,F,43,48,F,F,,,,,2.32,5,F,F,F,Generic Secret,Credential
@@ -105,3 +105,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 109403,92b8ee86,GitHub,0436af4a,data/0436af4a/test/92b8ee86.cs,80,80,F,F,29,38,F,F,,,,,2.6635327,,F,F,F,Password,Password
 109406,d5419004,GitHub,0436af4a,data/0436af4a/test/d5419004.cs,71,71,F,F,25,33,F,F,,,,,2.9219282,,F,F,F,Password,Password
 109407,df627f1b,GitHub,0436af4a,data/0436af4a/test/df627f1b.cs,119,119,F,F,26,37,F,F,,,,,3.3927474,,F,F,F,Password,Password
+1110163,a9108d0e,GitHub,0436af4a,data/0436af4a/other/a9108d0e.md,381,381,T,F,35,43,F,F,,,,,,42,F,F,F,Password,Password
+1110161,c7cee009,GitHub,0436af4a,data/0436af4a/other/c7cee009.md,52,52,T,F,17,27,F,F,,,,,,45,F,F,F,Password,Password
+1110164,2c196fef,GitHub,0436af4a,data/0436af4a/src/2c196fef.sln,42,42,F,F,113,135,F,F,,,,,,22,F,F,F,Gitlab Feed Token,Gitlab Feed Token
+1110165,2c196fef,GitHub,0436af4a,data/0436af4a/src/2c196fef.sln,44,44,F,F,131,153,F,F,,,,,,22,F,F,F,Gitlab Feed Token,Gitlab Feed Token
+1110169,70f9618e,GitHub,0436af4a,data/0436af4a/test/70f9618e.cs,67,67,T,F,31,45,F,F,,,,,,44,F,F,F,Password,Password
