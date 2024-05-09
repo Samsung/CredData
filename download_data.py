@@ -266,14 +266,14 @@ def get_obfuscated_value(value, predefined_pattern):
     if predefined_pattern == "Info":
         # not a credential - does not required obfuscation
         obfuscated_value = value
-    elif value.startswith("Apikey "):
-        obfuscated_value = "Apikey " + generate_value(value[7:])
-    elif value.startswith("Bearer "):
-        obfuscated_value = "Bearer " + generate_value(value[7:])
-    elif value.startswith("Basic "):
-        obfuscated_value = "Basic " + generate_value(value[6:])
-    elif value.startswith("OAuth "):
-        obfuscated_value = "OAuth " + generate_value(value[6:])
+    # elif value.startswith("Apikey "):
+    #     obfuscated_value = "Apikey " + generate_value(value[7:])
+    # elif value.startswith("Bearer "):
+    #     obfuscated_value = "Bearer " + generate_value(value[7:])
+    # elif value.startswith("Basic "):
+    #     obfuscated_value = "Basic " + generate_value(value[6:])
+    # elif value.startswith("OAuth "):
+    #     obfuscated_value = "OAuth " + generate_value(value[6:])
     elif any(value.startswith(x) for x in ["AKIA", "ABIA", "ACCA", "AGPA", "AIDA", "AIPA", "AKIA", "ANPA", "ANVA",
                                            "AROA", "APKA", "ASCA", "ASIA"]):
         obfuscated_value = value[:4] + generate_value(value[4:])
