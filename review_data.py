@@ -8,14 +8,12 @@ MAGENTA - templates
 When value start-end defined - the text is marked
 """
 
-import csv
 import json
 import os
 import subprocess
 import sys
 from argparse import ArgumentParser
-from pathlib import Path
-from typing import Dict, List, Optional
+from typing import List, Optional
 
 from colorama import Fore, Back, Style
 
@@ -119,22 +117,17 @@ def main(meta_dir, data_dir, data_filter, load_json: Optional[str] = None, categ
         displayed_rows += 1
         print(str(row), flush=True)
         try:
-            file_path = str(row.FilePath)
-            line_start = int(row.LineStart)
-            line_end = int(row.LineEnd)
-            value_start = int(row.ValueStart)
-            value_end = int(row.ValueEnd)
-            read_data(file_path,
-                      line_start,
-                      line_end,
-                      value_start,
-                      value_end,
+            read_data(row.FilePath,
+                      row.LineStart,
+                      row.LineEnd,
+                      row.ValueStart,
+                      row.ValueEnd,
                       row.GroundTruth,
                       creds)
         except Exception as exc:
             print(f"Failure {row}", exc, flush=True)
             raise
-        row_str = f"{file_path},{line_start}:{line_end},{value_start},{value_end}"
+        row_str = f"{row.FilePath},{row.LineStart}:{row.LineEnd},{row.ValueStart},{row.ValueEnd}"
         if row_str in shown_rows:
             print(f"Duplicate row {row}", flush=True)
             break
