@@ -346,9 +346,9 @@ class Scanner(ABC):
             subprocess.run(
                 ["sed", "-i",
                  "s|"
-                 f",{data_path},{line_start},{line_end},([TF]),([TF]),{value_start},[0-9]*,"
+                 f",{data_path},{line_start},{line_end},Template,\\([TF]\\),{value_start},[0-9]*,"
                  "|"
-                 f",{data_path},{line_start},{line_end},\\1,\\2,{value_start},{value_end},"
+                 f",{data_path},{line_start},{line_end},F,\\1,{value_start},{value_end},"
                  "|",
                  f"meta/{repo_name}.csv"])
 
