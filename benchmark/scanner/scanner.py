@@ -334,6 +334,11 @@ class Scanner(ABC):
         with open(data_path, "r", encoding="utf8") as f:
             lines=f.read().split('\n')
         print('\n'.join(x.strip() for x in lines[line_start-1:line_end]))
+        if suggestion.startswith("UNMATCH"):
+            with open(f"meta/{repo_name}.csv", 'a') as f:
+                f.write(f"{approximate}\n")
+
+
         self.next_id += 1
         return LineStatus.NOT_IN_DB, project_id, file_id
 
