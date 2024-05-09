@@ -24,11 +24,20 @@ from meta_cred import MetaCred
 
 def read_data(path, line_start, line_end, value_start, value_end, ground_truth, creds: List[MetaCred]):
     with open(path, "r", encoding="utf8") as f:
-        lines = f.readlines()
+        lines = f.read().split('\n')
     if line_start == line_end:
-        line = lines[line_start - 1]
+        cred_line = lines[line_start - 1]
+        stripped_line = cred_line.strip()
+        end_offset = 0
+    elif line_start < line_end:
+        # todo: move the line to MetaCred class
+        cred_line = '\n'.join(lines[line_start - 1:line_end])
+        stripped_line = '\n'.join(x.strip() for x in lines[line_start - 1:line_end - 1])
+        end_offset = len(stripped_line) + 1  # +1 for line feed
+        stripped_line = '\n'.join([stripped_line, lines[line_end - 1].strip()])
     else:
-        line = ''.join(lines[line_start - 1:line_end])
+        raise RuntimeError(f"Line start must be less than end. {path},{line_start},{line_end}")
+
     if 'T' == ground_truth:
         fore_style = Fore.GREEN
     elif 'F' == ground_truth:
@@ -39,7 +48,6 @@ def read_data(path, line_start, line_end, value_start, value_end, ground_truth, 
         fore_style = Fore.LIGHTRED_EX
     else:
         raise RuntimeError(f"Unknown type {ground_truth}")
-    stripped_line = line.lstrip()
 
     line_found_in_cred = False
     correct_value_position = False
@@ -51,8 +59,8 @@ def read_data(path, line_start, line_end, value_start, value_end, ground_truth, 
                     # print all creds we found
                     print(
                         f"{cred.rule},{line_start}:{cred.strip_value_start},{cred.strip_value_end}:{Style.RESET_ALL}"
-                        f"{line[:cred.value_start]}{Back.LIGHTRED_EX}{line[cred.value_start:cred.value_end]}"
-                        f"{Style.RESET_ALL}{line[cred.value_end:]}", flush=True)
+                        f"{cred_line[:cred.value_start]}{Back.LIGHTRED_EX}{cred_line[cred.value_start:cred.value_end]}"
+                        f"{Style.RESET_ALL}{cred_line[cred.value_end:]}", flush=True)
                     if 0 <= value_start == cred.strip_value_start and 0 <= value_end == cred.strip_value_end:
                         correct_value_position = True
                     elif 0 <= value_start == cred.strip_value_start:
@@ -63,8 +71,8 @@ def read_data(path, line_start, line_end, value_start, value_end, ground_truth, 
 
     if 0 <= value_start and 0 <= value_end:
         line = stripped_line[:value_start] + Back.LIGHTYELLOW_EX + \
-               stripped_line[value_start:value_end] + Style.RESET_ALL + \
-               fore_style + stripped_line[value_end:]
+               stripped_line[value_start:value_end + end_offset] + Style.RESET_ALL + \
+               fore_style + stripped_line[value_end + end_offset:]
     else:
         line = stripped_line
     print(f"{line_start}:{Style.RESET_ALL}{fore_style}{line}{Style.RESET_ALL}", flush=True)
