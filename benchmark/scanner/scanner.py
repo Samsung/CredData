@@ -2,7 +2,7 @@ import csv
 import dataclasses
 import os
 from abc import ABC, abstractmethod
-from typing import Tuple, Dict, List, Any, Optional
+from typing import Tuple, Dict, List, Any
 
 import tabulate
 
@@ -288,12 +288,19 @@ class Scanner(ABC):
                         meta_value_end = -1
                     if meta_value_end < 0 <= meta_value_start:
                         # only start value in markup
-                        if meta_value_start != value_start and 0 <= value_start:
+                        if 0 <= value_start and meta_value_start != value_start:
                             continue
-                    elif 0 <= meta_value_start and 0 <= meta_value_end:
+                    elif 0 <= meta_value_start < meta_value_end:
                         # both markers are available
-                        if meta_value_start != value_start and 0 <= value_start or meta_value_end != value_end and 0 <= value_end:
+                        if 0 <= value_start and meta_value_start != value_start:
                             continue
+                        # or ...
+                        if 0 <= value_end and meta_value_end != value_end:
+                            # todo: add check for padding chars eyJ...x== - value_end may be different for some creds
+                            continue
+                    else:
+                        print(f"WARNING: check meta value start-end {row}")
+                        continue
                     code = str(project_id) + str(file_id) + str(row["LineStart"]) + str(row["LineEnd"]) + str(row["ValueStart"]) + str(row["ValueEnd"])
                     if code in self.line_checker:
                         self.result_cnt -= 1
