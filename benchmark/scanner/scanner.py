@@ -267,26 +267,27 @@ class Scanner(ABC):
                              rule: str = "") -> Tuple[LineStatus, str, str]:
         self.result_cnt += 1
         repo_name = file_path.split('/')[-3]
-        path = "data/" + '/'.join(file_path.split('/')[-3:])
+        data_path = "data/" + '/'.join(file_path.split('/')[-3:])
         project_id = repo_name
-        file_name = path.split('/')[-1]
+        file_name = data_path.split('/')[-1]
         file_id = file_name.split('.')[0]
 
         # by default the cred is false positive
         approximate = f"{self.next_id},{file_id}" \
-                      f",GitHub,{project_id},{path}" \
+                      f",GitHub,{project_id},{data_path}" \
                       f",{line_start},{line_end}" \
                       f",F,F,{value_start},{value_end}" \
                       f",F,F,,,,,0.0,0,F,F,F,{rule}"
 
-        if not (rows := self.meta.get((path, line_start, line_end))):
+        if not (rows := self.meta.get((data_path, line_start, line_end))):
             self.lost_cnt += 1
             self.next_id += 1
             print(f"NOT FOUND WITH KEY: {approximate}", flush=True)
             return LineStatus.NOT_IN_DB, project_id, file_id
 
+        suggestion = "LOST:"
         for row in rows:
-            if row["FilePath"] == path:
+            if row["FilePath"] == data_path:
                 if self._check_line_num(row["LineStart"], row["LineEnd"], line_start, line_end):
                     meta_value_start = int(row.get("ValueStart", -1))
                     meta_value_end = int(row.get("ValueEnd", -1))
@@ -295,9 +296,12 @@ class Scanner(ABC):
                         if 0 <= value_start and meta_value_start != value_start:
                             continue
                     elif 0 <= meta_value_start < meta_value_end:
+                        suggestion = f"UNMATCH {meta_value_start, meta_value_end}:"
                         # both markers are available
                         if 0 <= value_start and meta_value_start != value_start:
                             continue
+                        else:
+                            suggestion = f"ALMOST {meta_value_start, meta_value_end}:"
                         # or ...
                         if 0 <= value_end and meta_value_end != value_end:
                             # todo: add check for padding chars eyJ...x== - value_end may be different for some creds
@@ -326,7 +330,10 @@ class Scanner(ABC):
                         # print(f"FALSE:{file_path},{line_start},{line_end},{value_start},{value_end},{rule}   {row}")
                         return LineStatus.FALSE, project_id, file_id
         self.lost_cnt += 1
-        print(f"LOST: {approximate}", flush=True)
+        print(f"{suggestion} {approximate}", flush=True)
+        with open(data_path, "r", encoding="utf8") as f:
+            lines=f.read().split('\n')
+        print('\n'.join(x.strip() for x in lines[line_start-1:line_end]))
         self.next_id += 1
         return LineStatus.NOT_IN_DB, project_id, file_id
 
