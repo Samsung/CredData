@@ -105,7 +105,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 28154,128a3f9f,GitHub,850c2319,data/850c2319/other/128a3f9f.md,98,98,Template,T,8,16,F,F,Any,,,Secret,2.75,8,F,F,F,Password
 28155,128a3f9f,GitHub,850c2319,data/850c2319/other/128a3f9f.md,95,95,Template,T,8,16,F,F,Any,,,Secret,2.75,8,F,F,F,Password
 28828,19a1e8ce,GitHub,850c2319,data/850c2319/test/19a1e8ce.golden,3,3,Template,F,11,19,F,F,Any,,,Secret,0,8,F,F,F,Password
-29093,3ea664a1,GitHub,850c2319,data/850c2319/test/3ea664a1.golden,158,158,Template,F,27,30,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
+29093,3ea664a1,GitHub,850c2319,data/850c2319/test/3ea664a1.golden,158,158,T,F,23,38,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
 29511,8a4439b7,GitHub,850c2319,data/850c2319/test/8a4439b7.golden,11,11,F,F,19,391,F,F,,,,,0,0,F,F,F,Generic Secret
 31466,a746be65,GitHub,850c2319,data/850c2319/src/a746be65.go,546,546,Template,F,29,37,F,F,Any,,,Secret,0,8,F,F,F,Password
 31485,a746be65,GitHub,850c2319,data/850c2319/src/a746be65.go,547,547,Template,F,27,35,F,F,Any,,,Secret,0,8,F,F,F,Password
@@ -188,4 +188,4 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 132095,f6959391,GitHub,850c2319,data/850c2319/test/f6959391.go,618,618,T,F,31,38,F,F,,,Info,,0.00,,F,F,F,IPv4
 133804,a746be65,GitHub,850c2319,data/850c2319/src/a746be65.go,642,642,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 133805,a746be65,GitHub,850c2319,data/850c2319/src/a746be65.go,643,643,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-137982,3ea664a1,GitHub,850c2319,data/850c2319/test/3ea664a1.golden,158,158,F,F,23,38,F,F,,,,,0.0,0,F,F,F,Password
+
