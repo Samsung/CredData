@@ -1,7 +1,6 @@
 import os
 import sqlite3
 import subprocess
-from typing import Tuple
 
 from benchmark.common.constants import URL, ScannerType
 from benchmark.scanner.scanner import Scanner

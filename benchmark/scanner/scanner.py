@@ -6,7 +6,7 @@ from typing import Tuple, Dict, List, Any
 
 import tabulate
 
-from benchmark.common import GitService, LineStatus, Result
+from benchmark.common import GitService, LineStatus, Result, ScannerType
 from benchmark.scanner.true_false_counter import TrueFalseCounter
 
 
@@ -24,8 +24,8 @@ meta_file_lines_key = Tuple[str, int, int]
 
 
 class Scanner(ABC):
-    def __init__(self, scanner_type: str, scanner_url: str, working_dir: str, cred_data_dir: str) -> None:
-        self.scanner_type: str = scanner_type
+    def __init__(self, scanner_type: ScannerType, scanner_url: str, working_dir: str, cred_data_dir: str) -> None:
+        self.scanner_type = scanner_type
         self.scanner_dir: str = GitService.set_scanner_up_to_date(working_dir, scanner_url)
         self.cred_data_dir: str = cred_data_dir
         self.line_checker: set = set()
@@ -43,6 +43,16 @@ class Scanner(ABC):
         self.total_data_valid_lines = 0
         self.meta: Dict[meta_file_lines_key, List[Dict[str, Any]]] = {}
         self._read_meta()
+
+    @property
+    @abstractmethod
+    def output_dir(self) -> str:
+        raise NotImplementedError()
+
+    @output_dir.setter
+    @abstractmethod
+    def output_dir(self, output_dir: str) -> None:
+        raise NotImplementedError()
 
     def _read_meta(self):
         for root, dirs, files in os.walk(f"{self.cred_data_dir}/meta"):
@@ -157,11 +167,11 @@ class Scanner(ABC):
         print(tabulate.tabulate(types_rows, types_headers), flush=True)
 
     @property
-    def scanner_type(self) -> str:
+    def scanner_type(self) -> ScannerType:
         return self._scanner_type
 
     @scanner_type.setter
-    def scanner_type(self, scanner_type: str) -> None:
+    def scanner_type(self, scanner_type: ScannerType) -> None:
         self._scanner_type = scanner_type
 
     @property
@@ -278,14 +288,8 @@ class Scanner(ABC):
         for row in rows:
             if row["FilePath"] == path:
                 if self._check_line_num(row["LineStart"], row["LineEnd"], line_start, line_end):
-                    if meta_value_start := row["ValueStart"]:
-                        meta_value_start = int(meta_value_start)
-                    else:
-                        meta_value_start = -1
-                    if meta_value_end := row["ValueEnd"]:
-                        meta_value_end = int(meta_value_end)
-                    else:
-                        meta_value_end = -1
+                    meta_value_start = int(row.get("ValueStart", -1))
+                    meta_value_end = int(row.get("ValueEnd", -1))
                     if meta_value_end < 0 <= meta_value_start:
                         # only start value in markup
                         if 0 <= value_start and meta_value_start != value_start:
@@ -298,6 +302,9 @@ class Scanner(ABC):
                         if 0 <= value_end and meta_value_end != value_end:
                             # todo: add check for padding chars eyJ...x== - value_end may be different for some creds
                             continue
+                    elif 0 > meta_value_end and 0 > meta_value_start:
+                        # meta markup for whole line
+                        pass
                     else:
                         print(f"WARNING: check meta value start-end {row}")
                         continue

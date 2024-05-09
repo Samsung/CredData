@@ -2,6 +2,7 @@ import os
 import subprocess
 from typing import Optional
 
+from benchmark.common import ScannerType
 from benchmark.scanner.scanner_factory import ScannerFactory
 
 
@@ -35,7 +36,10 @@ class Benchmark:
         return cred_data_path
 
     def run(self, scanner_type: str, output: Optional[str] = None) -> None:
-        scanner = ScannerFactory.create_scanner(scanner_type, self.working_dir, self.cred_data_path)
+        if _scanner_type := getattr(ScannerType, scanner_type.strip().upper(), None):
+            scanner = ScannerFactory.create_scanner(_scanner_type, self.working_dir, self.cred_data_path)
+        else:
+            raise RuntimeError(f"Wrong scanner_type='{scanner_type}'")
         if output:
             scanner.output_dir = output
         scanner.run_benchmark(bool(output))
