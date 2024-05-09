@@ -1,4 +1,4 @@
-from argparse import ArgumentParser
+from argparse import ArgumentParser, Namespace
 
 from benchmark.app import Benchmark
 
@@ -7,7 +7,7 @@ SCANNER_LIST = [
 ]
 
 
-def get_arguments() -> ArgumentParser.parse_args:
+def get_arguments() -> Namespace:
     parser = ArgumentParser(prog="python -m benchmark")
     parser.add_argument("--scanner",
                         nargs="?",
