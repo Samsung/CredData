@@ -54,11 +54,13 @@ class MetaRow:
                 else:
                     raise RuntimeError(f"ERROR: Unsupported {typ}")
                 self.__setattr__(key, val)
-        if self.LineStart > self.LineEnd:
+        if 0 > self.LineStart or 0 > self.LineEnd:
+            raise RuntimeError(f"ERROR: LineStart and LineEnd must be positive {row}")
+        elif self.LineStart > self.LineEnd:
             raise RuntimeError(f"ERROR: LineStart must be lower than LineEnd {row}")
         elif self.LineStart == self.LineEnd and 0 <= self.ValueStart and 0 <= self.ValueEnd < self.ValueStart:
+            # multiline value positions are independent
             raise RuntimeError(f"ERROR: ValueStart must be lower than ValueEnd for single line {row}")
-        # multiline value positions are independent
 
     def __str__(self) -> str:
         dict_values = self.__dict__.values()
