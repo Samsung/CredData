@@ -349,7 +349,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 27498,bf398449,GitHub,387016a6,data/387016a6/test/bf398449.java,24,24,Template,T,51,71,F,F,Any,,,Secret,3.14,20,F,F,F,Password
 27504,751faaae,GitHub,387016a6,data/387016a6/test/751faaae.java,60,60,T,T,40,47,F,F,Any,,,Secret,2.12,7,F,F,F,Password
 27505,d65413a8,GitHub,387016a6,data/387016a6/test/d65413a8.java,39,39,Template,T,40,58,F,F,Any,,,Secret,2.93,18,F,F,F,Password
-27543,2125c66c,GitHub,387016a6,data/387016a6/test/2125c66c.java,28,28,T,T,42,59,F,F,Any,,,Secret,3.21,17,F,F,F,Password
+27543,2125c66c,GitHub,387016a6,data/387016a6/test/2125c66c.java,28,28,T,T,42,59,F,F,Any,,,Secret,3.21,17,F,F,F,Key
 27554,45680f24,GitHub,387016a6,data/387016a6/test/45680f24.java,77,77,T,T,52,71,F,F,Any,,,Secret,3.38,19,F,F,F,Password
 27590,98dd0ea6,GitHub,387016a6,data/387016a6/test/98dd0ea6.java,80,80,Template,T,54,71,F,F,Any,,,Secret,2.97,17,F,F,F,Password
 27592,e819bbc9,GitHub,387016a6,data/387016a6/test/e819bbc9.java,29,29,Template,T,39,54,F,F,Any,,,Secret,3.06,15,F,F,F,Password
@@ -392,14 +392,14 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 31384,169b2067,GitHub,387016a6,data/387016a6/test/169b2067.java,104,104,Template,T,28,44,F,F,CharsOnly,,,Secret,3.12,16,F,F,F,Password
 31535,7f086ade,GitHub,387016a6,data/387016a6/src/7f086ade.gradle,116,116,Template,T,40,54,F,F,Any,,,Secret,3.11,14,F,F,F,Password
 32503,27e24e2f,GitHub,387016a6,data/387016a6/src/27e24e2f.asciidoc,91,91,T,F,26,46,F,F,Any,,,Key,3.91,20,F,F,F,Secret
-33028,fe72bf0a,GitHub,387016a6,data/387016a6/test/fe72bf0a.java,485,485,T,F,19,39,F,F,Any,,,Key,3.69,20,F,F,F,Secret
-33029,fe72bf0a,GitHub,387016a6,data/387016a6/test/fe72bf0a.java,486,486,T,F,23,44,F,F,Any,,,Secret,3.88,21,F,F,F,Secret
+33028,fe72bf0a,GitHub,387016a6,data/387016a6/test/fe72bf0a.java,485,485,T,F,19,39,F,F,Any,,,Key,3.69,20,F,F,F,API
+33029,fe72bf0a,GitHub,387016a6,data/387016a6/test/fe72bf0a.java,486,486,T,F,23,44,F,F,Any,,,Secret,3.88,21,F,F,F,API
 33033,3e3ad95b,GitHub,387016a6,data/387016a6/test/3e3ad95b.java,28,28,T,F,16,40,F,F,Any,,,Token,4.22,24,F,F,F,Token
 33044,3e3ad95b,GitHub,387016a6,data/387016a6/test/3e3ad95b.java,20,20,T,F,16,60,F,F,Any,,,Token,4.85,44,F,F,F,Token
 33396,4efc52cf,GitHub,387016a6,data/387016a6/test/4efc52cf.yml,124,124,T,T,22,38,F,F,CharsOnly,,,Secret,3.88,16,F,F,F,Password
 34052,7ee59dea,GitHub,387016a6,data/387016a6/test/7ee59dea.java,35,35,T,T,50,62,F,F,Any,,,Secret,3.42,12,F,F,F,Password
 34053,45680f24,GitHub,387016a6,data/387016a6/test/45680f24.java,82,82,T,F,45,109,F,F,Any,,,Secret,3.79,64,F,F,F,Secret
-34083,45680f24,GitHub,387016a6,data/387016a6/test/45680f24.java,84,84,T,F,51,83,F,F,Any,,,Token,3.55,32,F,F,F,Token
+34083,45680f24,GitHub,387016a6,data/387016a6/test/45680f24.java,84,84,T,F,51,83,F,F,Any,,,Token,3.55,32,F,F,F,API
 34089,efcc3a68,GitHub,387016a6,data/387016a6/test/efcc3a68.java,86,86,T,F,47,67,F,F,Any,,,Secret,2.05,20,F,F,F,Password
 34209,4b6228ca,GitHub,387016a6,data/387016a6/src/4b6228ca.asciidoc,117,117,T,F,11,115,F,F,Any,,,Token,5.02,104,F,F,F,Token
 34212,08f889f5,GitHub,387016a6,data/387016a6/src/08f889f5.asciidoc,69,69,T,F,11,47,F,F,Any,,,Token,4.06,36,F,F,F,Token
@@ -409,21 +409,21 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 34402,5c943f70,GitHub,387016a6,data/387016a6/test/5c943f70,2,2,T,F,16,40,F,F,Any,,,Token,4.25,24,F,F,F,Token
 34472,a24a43f9,GitHub,387016a6,data/387016a6/src/a24a43f9.asciidoc,97,97,T,F,18,54,F,F,Any,,,Token,4.06,36,F,F,F,Token
 34473,4b6228ca,GitHub,387016a6,data/387016a6/src/4b6228ca.asciidoc,84,84,T,F,18,122,F,F,Any,,,Token,5.02,104,F,F,F,Token
-34802,020efc06,GitHub,387016a6,data/387016a6/src/020efc06.asciidoc,283,283,T,F,43,81,F,F,Any,,,Token,4.27,38,F,F,F,Token
+34802,020efc06,GitHub,387016a6,data/387016a6/src/020efc06.asciidoc,283,283,T,F,43,81,F,F,Any,,,Token,4.27,38,F,F,F,Auth
 34960,d7bf4ffe,GitHub,387016a6,data/387016a6/src/d7bf4ffe.asciidoc,106,106,T,T,14,26,F,F,CharsOnly,,,Secret,3.02,12,F,F,F,Password
 34981,0b540210,GitHub,387016a6,data/387016a6/src/0b540210.asciidoc,115,115,T,F,14,34,F,F,Any,,,Secret,3.04,20,F,F,F,Password
-35035,020efc06,GitHub,387016a6,data/387016a6/src/020efc06.asciidoc,183,183,T,F,18,38,F,F,Any,,,Token,3.82,20,F,F,F,Token
+35035,020efc06,GitHub,387016a6,data/387016a6/src/020efc06.asciidoc,183,183,T,F,18,38,F,F,Any,,,Token,3.82,20,F,F,F,Gitlab Feed Token
 35049,a24a43f9,GitHub,387016a6,data/387016a6/src/a24a43f9.asciidoc,100,100,T,F,18,40,F,F,Any,,,Token,3.71,22,F,F,F,Token
 35050,9b92dfd3,GitHub,387016a6,data/387016a6/src/9b92dfd3.asciidoc,87,87,T,F,11,33,F,F,Any,,,Key,4.10,22,F,F,F,Secret
 35058,8930c0cb,GitHub,387016a6,data/387016a6/src/8930c0cb.asciidoc,138,138,T,F,11,33,F,F,Any,,,Key,4.10,22,F,F,F,Secret
 35060,185213d9,GitHub,387016a6,data/387016a6/src/185213d9.asciidoc,1014,1014,T,F,18,40,F,F,Any,,,Token,3.71,22,F,F,F,Token
-35086,4b6228ca,GitHub,387016a6,data/387016a6/src/4b6228ca.asciidoc,144,144,T,F,18,38,F,F,Any,,,Token,3.82,20,F,F,F,Token
+35086,4b6228ca,GitHub,387016a6,data/387016a6/src/4b6228ca.asciidoc,144,144,T,F,18,38,F,F,Any,,,Token,3.82,20,F,F,F,Gitlab Feed Token
 35087,08f889f5,GitHub,387016a6,data/387016a6/src/08f889f5.asciidoc,70,70,T,F,19,41,F,F,Any,,,Token,3.71,22,F,F,F,Token
 35137,8bc1c219,GitHub,387016a6,data/387016a6/test/8bc1c219.ldif,16,16,T,T,14,30,F,F,CharsOnly,,,Secret,3.88,16,F,F,F,Password
 35312,52181814,GitHub,387016a6,data/387016a6/test/52181814.key,1,27,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
 35313,b40522ba,GitHub,387016a6,data/387016a6/test/b40522ba.key,1,30,F,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
-35414,a114e4de,GitHub,387016a6,data/387016a6/test/a114e4de.properties,20,20,T,T,47,63,F,F,CharsOnly,,,Secret,3.88,16,F,F,F,Secret
-35422,a114e4de,GitHub,387016a6,data/387016a6/test/a114e4de.properties,10,10,T,T,34,50,F,F,CharsOnly,,,Secret,3.88,16,F,F,F,Secret
+35414,a114e4de,GitHub,387016a6,data/387016a6/test/a114e4de.properties,20,20,T,T,47,63,F,F,CharsOnly,,,Secret,3.88,16,F,F,F,Credential
+35422,a114e4de,GitHub,387016a6,data/387016a6/test/a114e4de.properties,10,10,T,T,34,50,F,F,CharsOnly,,,Secret,3.88,16,F,F,F,Auth
 35504,ee038c44,GitHub,387016a6,data/387016a6/test/ee038c44.key,1,52,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,Private Key
 35523,98700ed4,GitHub,387016a6,data/387016a6/test/98700ed4.key,1,16,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,Private Key
 35562,3754d6fe,GitHub,387016a6,data/387016a6/test/3754d6fe.pem,4,8,T,T,,,F,F,Any,Private,,Unknown,2.45,30,F,F,F,Private Key
@@ -431,11 +431,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 35848,d33ea6b4,GitHub,387016a6,data/387016a6/test/d33ea6b4.java,58,58,T,F,31,42,F,F,Any,,,Token,2.65,11,F,F,F,Token
 35850,2617a7bc,GitHub,387016a6,data/387016a6/test/2617a7bc.java,174,174,T,T,32,43,F,F,CharsOnly,,,Secret,2.85,11,F,F,F,Password
 35851,2617a7bc,GitHub,387016a6,data/387016a6/test/2617a7bc.java,175,175,T,T,32,47,F,F,CharsOnly,,,Secret,3.37,15,F,F,F,Password
-36115,fba19b85,GitHub,387016a6,data/387016a6/test/fba19b85.properties,3,3,T,F,28,92,F,F,Any,,,Token,3.75,64,F,F,F,Token
+36115,fba19b85,GitHub,387016a6,data/387016a6/test/fba19b85.properties,3,3,T,F,28,92,F,F,Any,,,Token,3.75,64,F,F,F,API
 36712,27e24e2f,GitHub,387016a6,data/387016a6/src/27e24e2f.asciidoc,161,161,T,F,26,46,F,F,Any,,,Key,3.91,20,F,F,F,Secret
 37184,4b6228ca,GitHub,387016a6,data/387016a6/src/4b6228ca.asciidoc,141,141,T,F,18,122,F,F,Any,,,Token,5.02,104,F,F,F,Token
-37328,020efc06,GitHub,387016a6,data/387016a6/src/020efc06.asciidoc,218,218,T,F,18,38,F,F,Any,,,Token,3.82,20,F,F,F,Token
-37329,020efc06,GitHub,387016a6,data/387016a6/src/020efc06.asciidoc,233,233,T,F,18,38,F,F,Any,,,Token,3.82,20,F,F,F,Token
+37328,020efc06,GitHub,387016a6,data/387016a6/src/020efc06.asciidoc,218,218,T,F,18,38,F,F,Any,,,Token,3.82,20,F,F,F,Gitlab Feed Token
+37329,020efc06,GitHub,387016a6,data/387016a6/src/020efc06.asciidoc,233,233,T,F,18,38,F,F,Any,,,Token,3.82,20,F,F,F,Gitlab Feed Token
 37330,020efc06,GitHub,387016a6,data/387016a6/src/020efc06.asciidoc,282,282,T,F,18,38,F,F,Any,,,Token,3.82,20,F,F,F,Token
 37350,4b6228ca,GitHub,387016a6,data/387016a6/src/4b6228ca.asciidoc,176,176,T,F,19,39,F,F,Any,,,Token,3.82,20,F,F,F,Token
 37356,8bc1c219,GitHub,387016a6,data/387016a6/test/8bc1c219.ldif,29,29,T,T,14,30,F,F,CharsOnly,,,Secret,3.88,16,F,F,F,Password
@@ -547,7 +547,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 42416,8a94930a,GitHub,387016a6,data/387016a6/src/8a94930a.asciidoc,84,84,F,F,,,F,F,,,,,0,0,F,F,F,Token
 42461,1fd2e71d,GitHub,387016a6,data/387016a6/src/1fd2e71d.gradle,20,20,Template,T,41,61,F,F,Any,,,Secret,3.14,20,F,F,F,Password
 42477,e1bfafc6,GitHub,387016a6,data/387016a6/src/e1bfafc6.asciidoc,142,142,F,F,,,F,F,,,,,0,0,F,F,F,Password
-42517,db1c0971,GitHub,387016a6,data/387016a6/src/db1c0971.asciidoc,63,63,T,F,59,214,T,F,Any,,JSON Web Token,Token,5.32,155,F,F,F,Predefined Pattern
+42517,db1c0971,GitHub,387016a6,data/387016a6/src/db1c0971.asciidoc,63,63,T,F,59,214,T,F,Any,,JSON Web Token,Token,5.32,155,F,F,F,JSON Web Token
 42518,db1c0971,GitHub,387016a6,data/387016a6/src/db1c0971.asciidoc,51,51,T,F,18,38,F,F,Any,,,Token,3.82,20,F,F,F,Token
 42523,ac75ea77,GitHub,387016a6,data/387016a6/src/ac75ea77.asciidoc,33,33,F,F,,,F,F,,,,,0,0,F,F,F,Token
 42541,30f935b4,GitHub,387016a6,data/387016a6/src/30f935b4.asciidoc,57,57,F,F,,,F,F,,,,,0,0,F,F,F,Token
@@ -1034,8 +1034,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 113744,9322604b,GitHub,387016a6,data/387016a6/src/9322604b.asciidoc,159,159,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 113745,26b93822,GitHub,387016a6,data/387016a6/src/26b93822.java,55,55,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
 113746,26b93822,GitHub,387016a6,data/387016a6/src/26b93822.java,56,56,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
-136847,27d88c46,GitHub,387016a6,data/387016a6/other/27d88c46.md,24,24,T,F,36,81,F,F,,,,,0.0,0,F,F,F,Other
-136848,27d88c46,GitHub,387016a6,data/387016a6/other/27d88c46.md,29,29,T,F,12,57,F,F,,,,,0.0,0,F,F,F,Other
+136847,27d88c46,GitHub,387016a6,data/387016a6/other/27d88c46.md,24,24,T,F,36,81,F,F,,,,,0.0,0,F,F,F,AWS S3 Bucket
+136848,27d88c46,GitHub,387016a6,data/387016a6/other/27d88c46.md,29,29,T,F,12,57,F,F,,,,,0.0,0,F,F,F,AWS S3 Bucket
 113749,381e402d,GitHub,387016a6,data/387016a6/test/381e402d.properties,126,126,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 113750,381e402d,GitHub,387016a6,data/387016a6/test/381e402d.properties,127,127,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 113751,4efc52cf,GitHub,387016a6,data/387016a6/test/4efc52cf.yml,34,34,F,F,,,F,F,,,,,0.00,,F,F,F,Auth

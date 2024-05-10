@@ -124,17 +124,17 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 31457,6d3b5a40,GitHub,eab0f8ed,data/eab0f8ed/test/6d3b5a40.cs,145,145,Template,T,16,32,F,F,Any,,,Secret,2.95,16,F,F,F,Password
 31513,d35008d1,GitHub,eab0f8ed,data/eab0f8ed/test/d35008d1.cs,21,21,Template,T,16,28,F,F,CharsOnly,,,Secret,3.02,12,F,F,F,Password
 33759,913aa667,GitHub,eab0f8ed,data/eab0f8ed/test/913aa667.cs,31,31,F,F,40,83,F,F,,,,,0,0,F,F,F,Secret
-34295,3692450e,GitHub,eab0f8ed,data/eab0f8ed/test/3692450e.json,16,16,T,F,51,81,T,F,Any,,,Token,3.38,30,F,F,F,Token
+34295,3692450e,GitHub,eab0f8ed,data/eab0f8ed/test/3692450e.json,16,16,T,F,51,81,T,F,Any,,,Token,3.38,30,F,F,F,Slack Token
 34296,b91e8f92,GitHub,eab0f8ed,data/eab0f8ed/test/b91e8f92.json,5,5,T,T,81,97,Template,F,Any,,,Secret,2.95,16,F,F,F,Secret
 34297,11b8baa3,GitHub,eab0f8ed,data/eab0f8ed/test/11b8baa3.json,5,5,Template,T,81,97,T,F,Any,,,Secret,2.95,16,F,F,F,Secret
 34298,5b7e1dc6,GitHub,eab0f8ed,data/eab0f8ed/test/5b7e1dc6.json,5,5,Template,T,85,101,T,F,Any,,,Secret,2.95,16,F,F,F,Secret
 34299,5525a5d0,GitHub,eab0f8ed,data/eab0f8ed/test/5525a5d0.json,5,5,Template,T,84,100,T,F,Any,,,Secret,2.95,16,F,F,F,Secret
 34452,f1a2eb7e,GitHub,eab0f8ed,data/eab0f8ed/test/f1a2eb7e.json,9,9,T,F,17,49,F,F,Any,,,Token,3.67,32,F,F,F,Token
-34454,3692450e,GitHub,eab0f8ed,data/eab0f8ed/test/3692450e.json,10,10,T,F,17,47,F,F,Any,,,Token,3.38,30,F,F,F,Token
+34454,3692450e,GitHub,eab0f8ed,data/eab0f8ed/test/3692450e.json,10,10,T,F,17,47,F,F,Any,,,Token,3.38,30,F,F,F,Slack Token
 34474,32238bab,GitHub,eab0f8ed,data/eab0f8ed/test/32238bab.json,10,10,T,F,17,57,F,F,Any,,,Token,3.83,40,F,F,F,Token
-34828,2632c570,GitHub,eab0f8ed,data/eab0f8ed/test/2632c570.json,30,30,T,F,13,682,F,F,Any,,JSON Web Token,Token,5.73,669,F,F,F,Predefined Pattern
-34848,2632c570,GitHub,eab0f8ed,data/eab0f8ed/test/2632c570.json,43,43,T,F,13,871,F,F,Any,,JSON Web Token,Token,5.72,858,F,F,F,Predefined Pattern
-34849,6784ef5b,GitHub,eab0f8ed,data/eab0f8ed/test/6784ef5b.json,12,12,T,F,13,529,F,F,Any,,JSON Web Token,Token,5.75,516,F,F,F,Predefined Pattern
+34828,2632c570,GitHub,eab0f8ed,data/eab0f8ed/test/2632c570.json,30,30,T,F,13,682,F,F,Any,,JSON Web Token,Token,5.73,669,F,F,F,JSON Web Token
+34848,2632c570,GitHub,eab0f8ed,data/eab0f8ed/test/2632c570.json,43,43,T,F,13,871,F,F,Any,,JSON Web Token,Token,5.72,858,F,F,F,JSON Web Token
+34849,6784ef5b,GitHub,eab0f8ed,data/eab0f8ed/test/6784ef5b.json,12,12,T,F,13,529,F,F,Any,,JSON Web Token,Token,5.75,516,F,F,F,JSON Web Token
 34984,fcfc4be2,GitHub,eab0f8ed,data/eab0f8ed/test/fcfc4be2.json,15,15,F,F,18,108,F,F,,,,,0,0,F,F,F,Secret
 35084,32238bab,GitHub,eab0f8ed,data/eab0f8ed/test/32238bab.json,14,14,T,F,18,58,F,F,Any,,,Token,3.69,40,F,F,F,Token
 35201,2632c570,GitHub,eab0f8ed,data/eab0f8ed/test/2632c570.json,16,16,F,F,6,348,F,F,,,,,0,0,F,F,F,Secret
@@ -142,7 +142,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 35508,0cf137ab,GitHub,eab0f8ed,data/eab0f8ed/src/0cf137ab.json,11,11,F,F,13,85,F,F,,,,,0,0,F,F,F,Secret
 35511,0cf137ab,GitHub,eab0f8ed,data/eab0f8ed/src/0cf137ab.json,8,8,T,F,17,57,F,F,Any,,,Secret,3.57,40,F,F,F,Secret
 35512,0cf137ab,GitHub,eab0f8ed,data/eab0f8ed/src/0cf137ab.json,12,12,T,F,17,41,F,F,Any,,,Secret,4.06,24,F,F,F,Secret
-35513,0cf137ab,GitHub,eab0f8ed,data/eab0f8ed/src/0cf137ab.json,4,4,T,F,17,32,F,F,Any,,,Secret,3.64,15,F,F,F,Secret
+35513,0cf137ab,GitHub,eab0f8ed,data/eab0f8ed/src/0cf137ab.json,4,4,T,F,17,32,F,F,Any,,,Secret,3.64,15,F,F,F,Dropbox App secret
 35517,0cf137ab,GitHub,eab0f8ed,data/eab0f8ed/src/0cf137ab.json,16,16,T,F,19,59,F,F,Any,,,Secret,4.75,40,F,F,F,Secret
 35547,7a0182e4,GitHub,eab0f8ed,data/eab0f8ed/test/7a0182e4.p8,1,3,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,Private Key
 35989,6784ef5b,GitHub,eab0f8ed,data/eab0f8ed/test/6784ef5b.json,94,94,F,F,1,217,F,F,,,,,0,0,F,F,F,Secret

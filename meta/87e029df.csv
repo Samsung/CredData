@@ -26,7 +26,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 34900,17a6313f,GitHub,87e029df,data/87e029df/test/17a6313f.js,93,93,Template,T,8,16,F,F,CharsOnly,,,Token,2.16,8,F,F,F,Token
 35000,0aa2d3d2,GitHub,87e029df,data/87e029df/test/0aa2d3d2.json,5,5,Template,T,31,36,T,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
 35001,1faa942a,GitHub,87e029df,data/87e029df/test/1faa942a.js,98,98,T,T,31,36,T,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
-35787,6f634e8e,GitHub,87e029df,data/87e029df/test/6f634e8e.ini,5,5,T,F,33,69,F,F,Any,,,Token,3.57,36,F,F,F,Token
+35787,6f634e8e,GitHub,87e029df,data/87e029df/test/6f634e8e.ini,5,5,T,F,33,69,F,F,Any,,,Token,3.57,36,F,F,F,Auth
 36076,17a6313f,GitHub,87e029df,data/87e029df/test/17a6313f.js,112,112,T,T,12,16,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
 37264,17a6313f,GitHub,87e029df,data/87e029df/test/17a6313f.js,170,170,Template,T,8,16,F,F,CharsOnly,,,Token,2.16,8,F,F,F,Token
 37562,17a6313f,GitHub,87e029df,data/87e029df/test/17a6313f.js,125,125,T,T,11,15,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
@@ -45,9 +45,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 75576,8aef0be9,GitHub,87e029df,data/87e029df/src/8aef0be9.js,82,82,F,F,,,F,F,,,,,0,0,F,F,F,Token
 75577,be42be26,GitHub,87e029df,data/87e029df/src/be42be26.js,189,189,F,F,,,F,F,,,,,0,0,F,F,F,Token
 102305,be42be26,GitHub,87e029df,data/87e029df/src/be42be26.js,270,270,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-113317,17a6313f,GitHub,87e029df,data/87e029df/test/17a6313f.js,123,123,T,F,7,19,F,F,CharOnly,,,Secret,3.02,12,F,F,F,Password
-113318,17a6313f,GitHub,87e029df,data/87e029df/test/17a6313f.js,145,145,T,F,8,20,F,F,CharOnly,,,Secret,3.02,12,F,F,F,Password
-113319,17a6313f,GitHub,87e029df,data/87e029df/test/17a6313f.js,151,151,T,F,7,19,F,F,CharOnly,,,Secret,3.02,12,F,F,F,Password
+113317,17a6313f,GitHub,87e029df,data/87e029df/test/17a6313f.js,123,123,T,F,7,19,F,F,CharOnly,,,Secret,3.02,12,F,F,F,Auth
+113318,17a6313f,GitHub,87e029df,data/87e029df/test/17a6313f.js,145,145,T,F,8,20,F,F,CharOnly,,,Secret,3.02,12,F,F,F,Auth
+113319,17a6313f,GitHub,87e029df,data/87e029df/test/17a6313f.js,151,151,T,F,7,19,F,F,CharOnly,,,Secret,3.02,12,F,F,F,Auth
 130917,8aef0be9,GitHub,87e029df,data/87e029df/src/8aef0be9.js,96,96,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 131717,79a1cf27,GitHub,87e029df,data/87e029df/test/79a1cf27.js,93,93,F,F,,,F,F,,,,,0.0,,F,F,F,Info
 132868,be42be26,GitHub,87e029df,data/87e029df/src/be42be26.js,216,216,F,F,,,F,F,,,,,0,0,F,F,F,Password

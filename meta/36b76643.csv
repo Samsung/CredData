@@ -18,7 +18,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 26121,365a318b,GitHub,36b76643,data/36b76643/src/365a318b.go,80,80,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 26372,5c1001d1,GitHub,36b76643,data/36b76643/src/5c1001d1.go,64,64,F,F,,,F,F,,,,,0,0,F,F,F,Password
 29445,73363c43,GitHub,36b76643,data/36b76643/test/73363c43.go,432,432,Template,T,23,44,F,F,Any,,,Secret,2.99,21,F,F,F,Password
-30807,0111c3f3,GitHub,36b76643,data/36b76643/test/0111c3f3.go,75,75,T,T,21,31,F,F,CharsOnly,,,Secret,2.17,10,F,F,F,Password
+30807,0111c3f3,GitHub,36b76643,data/36b76643/test/0111c3f3.go,75,75,T,T,21,31,F,F,CharsOnly,,,Secret,2.17,10,F,F,F,Secret
 31268,78c06c57,GitHub,36b76643,data/36b76643/test/78c06c57.env,1,1,Template,T,22,32,F,F,CharsOnly,,,Secret,2.17,10,F,F,F,Password
 31288,a714eca1,GitHub,36b76643,data/36b76643/test/a714eca1.env,2,2,Template,T,23,51,F,F,Any,,,Secret,3.35,28,F,F,F,Password
 31289,78c06c57,GitHub,36b76643,data/36b76643/test/78c06c57.env,12,12,Template,F,26,32,F,F,CharsOnly,,,Token,2.25,6,F,F,F,Token
@@ -69,7 +69,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 82482,7bdf330d,GitHub,36b76643,data/36b76643/test/7bdf330d.go,120,120,Template,T,9,19,F,F,CharsOnly,,,Secret,2.17,10,F,F,F,Password
 100183,b3356305,GitHub,36b76643,data/36b76643/other/b3356305.md,95,95,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 100184,a714eca1,GitHub,36b76643,data/36b76643/test/a714eca1.env,19,19,Template,T,33,46,F,F,Any,,,Secret,2.74,13,F,F,F,Password
-100185,b3356305,GitHub,36b76643,data/36b76643/other/b3356305.md,218,218,T,T,22,38,F,F,CharOnly,,,Secret,3.12,16,F,F,F,Password
+100185,b3356305,GitHub,36b76643,data/36b76643/other/b3356305.md,218,218,T,T,22,38,F,F,CharOnly,,,Secret,3.12,16,F,F,F,Secret
 100186,3295df72,GitHub,36b76643,data/36b76643/src/3295df72.sum,133,133,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 110022,3295df72,GitHub,36b76643,data/36b76643/src/3295df72.sum,237,237,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 110023,3295df72,GitHub,36b76643,data/36b76643/src/3295df72.sum,238,238,F,F,,,F,F,,,,,0.00,,F,F,F,Auth

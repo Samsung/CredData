@@ -64,61 +64,61 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 29274,f9312afb,GitHub,71455799,data/71455799/test/f9312afb.tf,19,19,T,F,24,33,F,F,CharsOnly,,,Secret,2.50,9,F,F,F,Password
 29275,004bbc21,GitHub,71455799,data/71455799/test/004bbc21.tf,19,19,T,F,24,33,F,F,CharsOnly,,,Secret,2.50,9,F,F,F,Password
 31371,15c8e8a5,GitHub,71455799,data/71455799/test/15c8e8a5.tf,27,27,T,T,12,28,F,F,CharsOnly,,,Unknown,3.33,16,F,F,F,Secret
-32234,8d6d06be,GitHub,71455799,data/71455799/test/8d6d06be.go,79,79,T,F,25,45,F,F,Any,,AWS Client ID,Token,3.72,20,F,F,F,Predefined Pattern
-32236,8d6d06be,GitHub,71455799,data/71455799/test/8d6d06be.go,71,71,T,F,25,45,F,F,Any,,AWS Client ID,Token,3.82,20,F,F,F,Predefined Pattern
-32237,8d6d06be,GitHub,71455799,data/71455799/test/8d6d06be.go,75,75,T,F,25,45,F,F,Any,,AWS Client ID,Token,3.72,20,F,F,F,Predefined Pattern
-32238,8d6d06be,GitHub,71455799,data/71455799/test/8d6d06be.go,67,67,T,F,25,45,F,F,Any,,AWS Client ID,Token,3.51,20,F,F,F,Predefined Pattern
-32553,7ff5251e,GitHub,71455799,data/71455799/test/7ff5251e.go,1088,1088,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.38,20,F,F,F,Predefined Pattern
-32554,7ff5251e,GitHub,71455799,data/71455799/test/7ff5251e.go,1063,1063,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.72,20,F,F,F,Predefined Pattern
-34172,4847bee0,GitHub,71455799,data/71455799/test/4847bee0.tfstate,77,77,T,F,14,35,F,F,Any,,AWS Client ID,Token,3.92,20,F,F,F,Predefined Pattern
-34173,9078d0c8,GitHub,71455799,data/71455799/test/9078d0c8.json,53,53,T,F,14,35,F,F,Any,,AWS Client ID,Token,3.92,20,F,F,F,Predefined Pattern
-34176,4847bee0,GitHub,71455799,data/71455799/test/4847bee0.tfstate,55,55,T,F,14,35,F,F,Any,,AWS Client ID,Token,3.92,20,F,F,F,Predefined Pattern
-34178,9078d0c8,GitHub,71455799,data/71455799/test/9078d0c8.json,35,35,T,F,14,35,F,F,Any,,AWS Client ID,Token,3.92,20,F,F,F,Predefined Pattern
-34179,9078d0c8,GitHub,71455799,data/71455799/test/9078d0c8.json,17,17,T,F,14,35,F,F,Any,,AWS Client ID,Token,3.92,20,F,F,F,Predefined Pattern
-34180,690c211f,GitHub,71455799,data/71455799/test/690c211f.json,13,13,T,F,14,35,F,F,Any,,AWS Client ID,Token,3.58,20,F,F,F,Predefined Pattern
-34181,690c211f,GitHub,71455799,data/71455799/test/690c211f.json,27,27,T,F,14,35,F,F,Any,,AWS Client ID,Token,4.02,20,F,F,F,Predefined Pattern
-34182,690c211f,GitHub,71455799,data/71455799/test/690c211f.json,41,41,T,F,14,35,F,F,Any,,AWS Client ID,Token,3.78,20,F,F,F,Predefined Pattern
-34183,79769e9c,GitHub,71455799,data/71455799/test/79769e9c.json,10,10,T,F,14,35,F,F,Any,,AWS Client ID,Token,3.68,20,F,F,F,Predefined Pattern
-34850,76c3d338,GitHub,71455799,data/71455799/test/76c3d338.json,35,35,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.38,20,F,F,F,Predefined Pattern
-34851,79769e9c,GitHub,71455799,data/71455799/test/79769e9c.json,17,17,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.55,20,F,F,F,Predefined Pattern
-34852,d01ed8d8,GitHub,71455799,data/71455799/test/d01ed8d8.json,24,24,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.72,20,F,F,F,Predefined Pattern
-34853,d01ed8d8,GitHub,71455799,data/71455799/test/d01ed8d8.json,15,15,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.82,20,F,F,F,Predefined Pattern
-34854,d01ed8d8,GitHub,71455799,data/71455799/test/d01ed8d8.json,33,33,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.72,20,F,F,F,Predefined Pattern
-34856,76c3d338,GitHub,71455799,data/71455799/test/76c3d338.json,11,11,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.72,20,F,F,F,Predefined Pattern
-34864,d01ed8d8,GitHub,71455799,data/71455799/test/d01ed8d8.json,6,6,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.51,20,F,F,F,Predefined Pattern
+32234,8d6d06be,GitHub,71455799,data/71455799/test/8d6d06be.go,79,79,T,F,25,45,F,F,Any,,AWS Client ID,Token,3.72,20,F,F,F,AWS Client ID
+32236,8d6d06be,GitHub,71455799,data/71455799/test/8d6d06be.go,71,71,T,F,25,45,F,F,Any,,AWS Client ID,Token,3.82,20,F,F,F,AWS Client ID
+32237,8d6d06be,GitHub,71455799,data/71455799/test/8d6d06be.go,75,75,T,F,25,45,F,F,Any,,AWS Client ID,Token,3.72,20,F,F,F,AWS Client ID
+32238,8d6d06be,GitHub,71455799,data/71455799/test/8d6d06be.go,67,67,T,F,25,45,F,F,Any,,AWS Client ID,Token,3.51,20,F,F,F,AWS Client ID
+32553,7ff5251e,GitHub,71455799,data/71455799/test/7ff5251e.go,1088,1088,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.38,20,F,F,F,AWS Client ID
+32554,7ff5251e,GitHub,71455799,data/71455799/test/7ff5251e.go,1063,1063,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.72,20,F,F,F,AWS Client ID
+34172,4847bee0,GitHub,71455799,data/71455799/test/4847bee0.tfstate,77,77,T,F,14,35,F,F,Any,,AWS Client ID,Token,3.92,20,F,F,F,AWS Client ID
+34173,9078d0c8,GitHub,71455799,data/71455799/test/9078d0c8.json,53,53,T,F,14,35,F,F,Any,,AWS Client ID,Token,3.92,20,F,F,F,AWS Client ID
+34176,4847bee0,GitHub,71455799,data/71455799/test/4847bee0.tfstate,55,55,T,F,14,35,F,F,Any,,AWS Client ID,Token,3.92,20,F,F,F,AWS Client ID
+34178,9078d0c8,GitHub,71455799,data/71455799/test/9078d0c8.json,35,35,T,F,14,35,F,F,Any,,AWS Client ID,Token,3.92,20,F,F,F,AWS Client ID
+34179,9078d0c8,GitHub,71455799,data/71455799/test/9078d0c8.json,17,17,T,F,14,35,F,F,Any,,AWS Client ID,Token,3.92,20,F,F,F,AWS Client ID
+34180,690c211f,GitHub,71455799,data/71455799/test/690c211f.json,13,13,T,F,14,35,F,F,Any,,AWS Client ID,Token,3.58,20,F,F,F,AWS Client ID
+34181,690c211f,GitHub,71455799,data/71455799/test/690c211f.json,27,27,T,F,14,35,F,F,Any,,AWS Client ID,Token,4.02,20,F,F,F,AWS Client ID
+34182,690c211f,GitHub,71455799,data/71455799/test/690c211f.json,41,41,T,F,14,35,F,F,Any,,AWS Client ID,Token,3.78,20,F,F,F,AWS Client ID
+34183,79769e9c,GitHub,71455799,data/71455799/test/79769e9c.json,10,10,T,F,14,35,F,F,Any,,AWS Client ID,Token,3.68,20,F,F,F,AWS Client ID
+34850,76c3d338,GitHub,71455799,data/71455799/test/76c3d338.json,35,35,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.38,20,F,F,F,AWS Client ID
+34851,79769e9c,GitHub,71455799,data/71455799/test/79769e9c.json,17,17,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.55,20,F,F,F,AWS Client ID
+34852,d01ed8d8,GitHub,71455799,data/71455799/test/d01ed8d8.json,24,24,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.72,20,F,F,F,AWS Client ID
+34853,d01ed8d8,GitHub,71455799,data/71455799/test/d01ed8d8.json,15,15,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.82,20,F,F,F,AWS Client ID
+34854,d01ed8d8,GitHub,71455799,data/71455799/test/d01ed8d8.json,33,33,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.72,20,F,F,F,AWS Client ID
+34856,76c3d338,GitHub,71455799,data/71455799/test/76c3d338.json,11,11,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.72,20,F,F,F,AWS Client ID
+34864,d01ed8d8,GitHub,71455799,data/71455799/test/d01ed8d8.json,6,6,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.51,20,F,F,F,AWS Client ID
 35023,e378fef4,GitHub,71455799,data/71455799/test/e378fef4.tfstate,86,86,T,F,11,51,F,F,Any,,,Secret,4.77,40,F,F,F,Secret
 35025,e378fef4,GitHub,71455799,data/71455799/test/e378fef4.tfstate,41,41,T,F,11,51,F,F,Any,,,Secret,4.82,40,F,F,F,Secret
 35039,e378fef4,GitHub,71455799,data/71455799/test/e378fef4.tfstate,23,23,T,F,11,51,F,F,Any,,,Secret,4.85,40,F,F,F,Secret
 35040,e378fef4,GitHub,71455799,data/71455799/test/e378fef4.tfstate,68,68,T,F,11,51,F,F,Any,,,Secret,4.82,40,F,F,F,Secret
-35462,d01ed8d8,GitHub,71455799,data/71455799/test/d01ed8d8.json,3,3,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.51,20,F,F,F,Predefined Pattern
-35463,d01ed8d8,GitHub,71455799,data/71455799/test/d01ed8d8.json,30,30,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.72,20,F,F,F,Predefined Pattern
-35464,d01ed8d8,GitHub,71455799,data/71455799/test/d01ed8d8.json,12,12,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.82,20,F,F,F,Predefined Pattern
-35564,d01ed8d8,GitHub,71455799,data/71455799/test/d01ed8d8.json,21,21,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.72,20,F,F,F,Predefined Pattern
+35462,d01ed8d8,GitHub,71455799,data/71455799/test/d01ed8d8.json,3,3,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.51,20,F,F,F,AWS Client ID
+35463,d01ed8d8,GitHub,71455799,data/71455799/test/d01ed8d8.json,30,30,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.72,20,F,F,F,AWS Client ID
+35464,d01ed8d8,GitHub,71455799,data/71455799/test/d01ed8d8.json,12,12,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.82,20,F,F,F,AWS Client ID
+35564,d01ed8d8,GitHub,71455799,data/71455799/test/d01ed8d8.json,21,21,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.72,20,F,F,F,AWS Client ID
 35818,b3356305,GitHub,71455799,data/71455799/other/b3356305.md,14,14,T,F,86,96,T,F,Any,,,Token,3.12,10,F,F,F,Token
-35874,79769e9c,GitHub,71455799,data/71455799/test/79769e9c.json,14,14,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.55,20,F,F,F,Predefined Pattern
-36720,7ff5251e,GitHub,71455799,data/71455799/test/7ff5251e.go,1166,1166,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.38,20,F,F,F,Predefined Pattern
-36721,7ff5251e,GitHub,71455799,data/71455799/test/7ff5251e.go,1094,1094,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.72,20,F,F,F,Predefined Pattern
-36722,7ff5251e,GitHub,71455799,data/71455799/test/7ff5251e.go,1142,1142,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.72,20,F,F,F,Predefined Pattern
-36723,7ff5251e,GitHub,71455799,data/71455799/test/7ff5251e.go,1173,1173,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.72,20,F,F,F,Predefined Pattern
-37251,76c3d338,GitHub,71455799,data/71455799/test/76c3d338.json,42,42,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.72,20,F,F,F,Predefined Pattern
-46918,e378fef4,GitHub,71455799,data/71455799/test/e378fef4.tfstate,20,20,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.51,20,F,F,F,Predefined Pattern
-46919,e378fef4,GitHub,71455799,data/71455799/test/e378fef4.tfstate,65,65,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.72,20,F,F,F,Predefined Pattern
-46920,e378fef4,GitHub,71455799,data/71455799/test/e378fef4.tfstate,38,38,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.82,20,F,F,F,Predefined Pattern
-46921,e378fef4,GitHub,71455799,data/71455799/test/e378fef4.tfstate,83,83,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.72,20,F,F,F,Predefined Pattern
+35874,79769e9c,GitHub,71455799,data/71455799/test/79769e9c.json,14,14,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.55,20,F,F,F,AWS Client ID
+36720,7ff5251e,GitHub,71455799,data/71455799/test/7ff5251e.go,1166,1166,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.38,20,F,F,F,AWS Client ID
+36721,7ff5251e,GitHub,71455799,data/71455799/test/7ff5251e.go,1094,1094,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.72,20,F,F,F,AWS Client ID
+36722,7ff5251e,GitHub,71455799,data/71455799/test/7ff5251e.go,1142,1142,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.72,20,F,F,F,AWS Client ID
+36723,7ff5251e,GitHub,71455799,data/71455799/test/7ff5251e.go,1173,1173,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.72,20,F,F,F,AWS Client ID
+37251,76c3d338,GitHub,71455799,data/71455799/test/76c3d338.json,42,42,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.72,20,F,F,F,AWS Client ID
+46918,e378fef4,GitHub,71455799,data/71455799/test/e378fef4.tfstate,20,20,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.51,20,F,F,F,AWS Client ID
+46919,e378fef4,GitHub,71455799,data/71455799/test/e378fef4.tfstate,65,65,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.72,20,F,F,F,AWS Client ID
+46920,e378fef4,GitHub,71455799,data/71455799/test/e378fef4.tfstate,38,38,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.82,20,F,F,F,AWS Client ID
+46921,e378fef4,GitHub,71455799,data/71455799/test/e378fef4.tfstate,83,83,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.72,20,F,F,F,AWS Client ID
 46938,e378fef4,GitHub,71455799,data/71455799/test/e378fef4.tfstate,42,42,T,F,25,69,F,F,Any,,,Unknown,4.88,44,F,F,F,Password
 46939,e378fef4,GitHub,71455799,data/71455799/test/e378fef4.tfstate,69,69,T,F,25,69,F,F,Any,,,Unknown,4.83,44,F,F,F,Password
 46940,e378fef4,GitHub,71455799,data/71455799/test/e378fef4.tfstate,87,87,T,F,25,69,F,F,Any,,,Unknown,4.82,44,F,F,F,Password
 46941,e378fef4,GitHub,71455799,data/71455799/test/e378fef4.tfstate,24,24,T,F,25,69,F,F,Any,,,Unknown,4.94,44,F,F,F,Password
-46943,4847bee0,GitHub,71455799,data/71455799/test/4847bee0.tfstate,33,33,T,F,14,35,F,F,Any,,AWS Client ID,Token,3.92,20,F,F,F,Predefined Pattern
+46943,4847bee0,GitHub,71455799,data/71455799/test/4847bee0.tfstate,33,33,T,F,14,35,F,F,Any,,AWS Client ID,Token,3.92,20,F,F,F,AWS Client ID
 47186,a20d32dc,GitHub,71455799,data/71455799/test/a20d32dc.json,74085,74085,F,F,,,F,F,,,,,0,0,F,F,F,Password
 47187,6cb40a1a,GitHub,71455799,data/71455799/test/6cb40a1a.json,74085,74085,F,F,,,F,F,,,,,0,0,F,F,F,Password
 47188,e6991e70,GitHub,71455799,data/71455799/test/e6991e70.json,74085,74085,F,F,,,F,F,,,,,0,0,F,F,F,Password
-47189,08a2c15d,GitHub,71455799,data/71455799/test/08a2c15d.tfstate,77,77,T,F,12,188,F,F,Any,,JSON Web Token,Unknown,5.14,176,F,F,F,Predefined Pattern
+47189,08a2c15d,GitHub,71455799,data/71455799/test/08a2c15d.tfstate,77,77,T,F,12,188,F,F,Any,,JSON Web Token,Unknown,5.14,176,F,F,F,JSON Web Token
 47190,87378121,GitHub,71455799,data/71455799/test/87378121.tfstate,80,80,T,T,12,188,F,F,Any,,JSON Web Token,Unknown,5.10,176,F,F,F,Predefined Pattern
-48108,ef3b3c2a,GitHub,71455799,data/71455799/test/ef3b3c2a.json,4,4,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.51,20,F,F,F,Predefined Pattern
-48109,ef3b3c2a,GitHub,71455799,data/71455799/test/ef3b3c2a.json,24,24,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.72,20,F,F,F,Predefined Pattern
-48110,ef3b3c2a,GitHub,71455799,data/71455799/test/ef3b3c2a.json,14,14,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.82,20,F,F,F,Predefined Pattern
-48111,ef3b3c2a,GitHub,71455799,data/71455799/test/ef3b3c2a.json,34,34,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.72,20,F,F,F,Predefined Pattern
+48108,ef3b3c2a,GitHub,71455799,data/71455799/test/ef3b3c2a.json,4,4,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.51,20,F,F,F,AWS Client ID
+48109,ef3b3c2a,GitHub,71455799,data/71455799/test/ef3b3c2a.json,24,24,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.72,20,F,F,F,AWS Client ID
+48110,ef3b3c2a,GitHub,71455799,data/71455799/test/ef3b3c2a.json,14,14,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.82,20,F,F,F,AWS Client ID
+48111,ef3b3c2a,GitHub,71455799,data/71455799/test/ef3b3c2a.json,34,34,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.72,20,F,F,F,AWS Client ID
 53984,08a2c15d,GitHub,71455799,data/71455799/test/08a2c15d.tfstate,35,35,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 53985,08a2c15d,GitHub,71455799,data/71455799/test/08a2c15d.tfstate,99,99,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 53986,432dca62,GitHub,71455799,data/71455799/test/432dca62.json,77,77,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -142,7 +142,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 74985,0ac56114,GitHub,71455799,data/71455799/test/0ac56114.tf,44,44,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 74986,0ac56114,GitHub,71455799,data/71455799/test/0ac56114.tf,15,15,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 77085,4411b77a,GitHub,71455799,data/71455799/test/4411b77a.go,74,74,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-82557,08a2c15d,GitHub,71455799,data/71455799/test/08a2c15d.tfstate,134,134,T,F,12,188,F,F,Any,,JSON Web Token,Unknown,5.14,176,F,F,F,Predefined Pattern
+82557,08a2c15d,GitHub,71455799,data/71455799/test/08a2c15d.tfstate,134,134,T,F,12,188,F,F,Any,,JSON Web Token,Unknown,5.14,176,F,F,F,JSON Web Token
 108511,3295df72,GitHub,71455799,data/71455799/src/3295df72.sum,515,515,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 114612,3295df72,GitHub,71455799,data/71455799/src/3295df72.sum,784,784,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 114613,3295df72,GitHub,71455799,data/71455799/src/3295df72.sum,785,785,F,F,,,F,F,,,,,0.00,,F,F,F,Auth

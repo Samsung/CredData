@@ -33,12 +33,12 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 27029,a3046da0,GitHub,c2d95db7,data/c2d95db7/test/a3046da0.example,278,278,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 28826,493620d1,GitHub,c2d95db7,data/c2d95db7/src/493620d1.json,13,13,Template,T,14,23,F,F,CharsOnly,,,Secret,2.64,9,F,F,F,Password
 28847,493620d1,GitHub,c2d95db7,data/c2d95db7/src/493620d1.json,7,7,Template,T,14,34,F,F,Any,,,Secret,2.76,20,F,F,F,Password
-28994,7a2d6ddf,GitHub,c2d95db7,data/c2d95db7/src/7a2d6ddf.json,2,2,T,F,8,41,F,F,Any,,,Unknown,3.41,33,F,F,F,Secret
+28994,7a2d6ddf,GitHub,c2d95db7,data/c2d95db7/src/7a2d6ddf.json,2,2,T,F,8,41,F,F,Any,,,Unknown,3.41,33,F,F,F,Key
 29210,a3046da0,GitHub,c2d95db7,data/c2d95db7/test/a3046da0.example,424,424,Template,T,18,24,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
 29383,be5fd676,GitHub,c2d95db7,data/c2d95db7/src/be5fd676.conf,167,167,Template,T,25,31,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
 29384,a3046da0,GitHub,c2d95db7,data/c2d95db7/test/a3046da0.example,638,638,Template,T,14,27,F,F,Any,,,Unknown,2.61,13,F,F,F,Secret
 29396,be5fd676,GitHub,c2d95db7,data/c2d95db7/src/be5fd676.conf,428,428,Template,T,33,39,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
-29769,be5fd676,GitHub,c2d95db7,data/c2d95db7/src/be5fd676.conf,55,55,T,T,18,47,F,F,Any,,,Secret,3.67,29,F,F,F,Password
+29769,be5fd676,GitHub,c2d95db7,data/c2d95db7/src/be5fd676.conf,55,55,T,T,18,47,F,F,Any,,,Secret,3.67,29,F,F,F,Secret
 29785,8e165a9d,GitHub,c2d95db7,data/c2d95db7/src/8e165a9d.sh,371,371,F,F,10,30,F,F,,,,,0,0,F,F,F,Password
 30241,a3046da0,GitHub,c2d95db7,data/c2d95db7/test/a3046da0.example,802,802,Template,T,29,57,F,F,Any,,,Unknown,3.15,28,F,F,F,Secret
 30487,a3046da0,GitHub,c2d95db7,data/c2d95db7/test/a3046da0.example,414,414,Template,T,17,23,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
@@ -68,10 +68,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 32657,a3046da0,GitHub,c2d95db7,data/c2d95db7/test/a3046da0.example,553,553,T,T,29,48,F,F,Any,,,Secret,3.25,19,F,F,F,Password
 32662,a3046da0,GitHub,c2d95db7,data/c2d95db7/test/a3046da0.example,937,937,T,T,19,28,F,F,CharsOnly,,,Secret,2.42,9,F,F,F,Password
 32687,a3046da0,GitHub,c2d95db7,data/c2d95db7/test/a3046da0.example,375,375,T,F,20,24,F,F,CharsOnly,,,Secret,1.00,4,F,F,F,Password
-33536,a3046da0,GitHub,c2d95db7,data/c2d95db7/test/a3046da0.example,453,453,T,T,16,25,F,F,CharsOnly,,,Unknown,2.95,9,F,F,F,Secret
+33536,a3046da0,GitHub,c2d95db7,data/c2d95db7/test/a3046da0.example,453,453,T,T,16,25,F,F,CharsOnly,,,Unknown,2.95,9,F,F,F,Key
 33538,a3046da0,GitHub,c2d95db7,data/c2d95db7/test/a3046da0.example,416,416,Template,T,22,26,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
 33541,a3046da0,GitHub,c2d95db7,data/c2d95db7/test/a3046da0.example,808,808,T,T,26,34,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-33734,f7a7d349,GitHub,c2d95db7,data/c2d95db7/src/f7a7d349.env,4,4,T,F,16,31,F,F,Any,,,Auth,3.06,15,F,F,F,Auth
+33734,f7a7d349,GitHub,c2d95db7,data/c2d95db7/src/f7a7d349.env,4,4,T,F,16,31,F,F,Any,,,Auth,3.06,15,F,F,F,Key
 33760,7ccdfb29,GitHub,c2d95db7,data/c2d95db7/other/7ccdfb29.md,1077,1077,Template,T,11,16,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
 33836,a3046da0,GitHub,c2d95db7,data/c2d95db7/test/a3046da0.example,439,439,T,T,22,27,F,F,CharsOnly,,,Unknown,2.32,5,F,F,F,Password
 33854,a3046da0,GitHub,c2d95db7,data/c2d95db7/test/a3046da0.example,766,766,T,T,21,29,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
@@ -86,7 +86,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 34256,14295e9c,GitHub,c2d95db7,data/c2d95db7/test/14295e9c.example,18,18,T,F,37,40,F,F,Any,,,Unknown,1.58,3,F,F,F,Password
 34260,14295e9c,GitHub,c2d95db7,data/c2d95db7/test/14295e9c.example,9,9,Template,T,43,53,F,F,CharsOnly,,,Unknown,3.12,10,F,F,F,Password
 34953,be5fd676,GitHub,c2d95db7,data/c2d95db7/src/be5fd676.conf,69,69,F,F,21,85,F,F,Any,,,Secret,3.85,64,F,F,F,Secret
-35056,493620d1,GitHub,c2d95db7,data/c2d95db7/src/493620d1.json,19,19,T,F,14,54,F,F,Any,,,Secret,4.83,40,F,F,F,Secret
+35056,493620d1,GitHub,c2d95db7,data/c2d95db7/src/493620d1.json,19,19,T,F,14,54,F,F,Any,,,Secret,4.83,40,F,F,F,Key
 35295,f39e5717,GitHub,c2d95db7,data/c2d95db7/other/f39e5717,1,51,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
 35732,7ccdfb29,GitHub,c2d95db7,data/c2d95db7/other/7ccdfb29.md,1334,1334,F,T,,,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
 41731,493620d1,GitHub,c2d95db7,data/c2d95db7/src/493620d1.json,25,25,Template,T,14,34,F,F,Any,,,Secret,2.76,20,F,F,F,Password
@@ -142,7 +142,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 110018,493620d1,GitHub,c2d95db7,data/c2d95db7/src/493620d1.json,26,26,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
 110019,a3046da0,GitHub,c2d95db7,data/c2d95db7/test/a3046da0.example,883,883,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
 110020,a3046da0,GitHub,c2d95db7,data/c2d95db7/test/a3046da0.example,938,938,F,F,,,F,F,,,,,0.00,,F,F,F,Token
-110021,493620d1,GitHub,c2d95db7,data/c2d95db7/src/493620d1.json,18,18,T,F,14,34,F,F,Any,,,Key,3.48,20,F,F,F,Token
+110021,493620d1,GitHub,c2d95db7,data/c2d95db7/src/493620d1.json,18,18,T,F,14,34,F,F,Any,,,Key,3.48,20,F,F,F,Key
 130008,5139694b,GitHub,c2d95db7,data/c2d95db7/src/5139694b.py,117,117,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130009,7ccdfb29,GitHub,c2d95db7,data/c2d95db7/other/7ccdfb29.md,1362,1362,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 132707,8e165a9d,GitHub,c2d95db7,data/c2d95db7/src/8e165a9d.sh,372,372,T,F,23,28,F,F,,,,,0.00,,F,F,F,Password
