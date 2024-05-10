@@ -75,7 +75,17 @@ def main(output_json, meta_dir):
                 #     f.write(f"{str(m)}\n")
                 # incorrect += 1
                 # meta_list.append(m)
-        # elif 1 < len(meta_list):
+        elif 1 < len(meta_list):
+            for m in meta_list:
+                assert 0 <= m.ValueStart, m
+                if m.ValueStart == meta_cred.strip_value_start and m.ValueEnd == meta_cred.strip_value_end:
+                    if meta_cred.rule not in m.Category:
+                        m.Category = meta_cred.rule
+                        # print(f"check\n{str(meta_cred)}\n{chr(0x0A).join(str(x) for x in meta_list)}\n\n")
+                        subprocess.run(
+                            ["sed", "-i",
+                             "s|" + str(m) + "|" + str(m) + f":{meta_cred.rule}|",
+                             f"meta/{m.RepoName}.csv"])
         #     print(f"Multiple markup \n{str(meta_cred)}\n{chr(0x0A).join(str(x) for x in meta_list)}\n\n")
         #     for i in meta_list:
         #         if i.ValueStart == meta_cred.strip_value_start and i.ValueEnd == meta_cred.strip_value_end:
@@ -97,8 +107,8 @@ def main(output_json, meta_dir):
         #     #         f.write(f"{str(m)}\n")
         #     #     meta_list.append(m)
         #     #     print(f"not found\n{str(meta_cred)}\n{chr(0x0A).join(str(x) for x in meta_list)}\n\n")
-        # else:
-        #     raise RuntimeError(str(cred))
+        else:
+            raise RuntimeError(str(cred))
     print(f"not found {notfound} incorrect {incorrect}")
     return 0
 
