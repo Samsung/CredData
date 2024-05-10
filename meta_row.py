@@ -1,7 +1,9 @@
 import csv
 import os
 from pathlib import Path
-from typing import Union, List, Generator
+from typing import Union, List, Generator, Dict, Callable
+
+from meta_key import MetaKey
 
 
 class MetaRow:
@@ -40,11 +42,16 @@ class MetaRow:
                 continue
             row_val = row.get(key)
             if row_val is not None:
-                if typ is int or typ is float:
+                if typ is int:
                     if row_val:
                         val = typ(row_val)
                     else:
                         val = -1
+                elif typ is float:
+                    if row_val:
+                        val = typ(row_val)
+                    else:
+                        val = 0.0
                 elif typ is str and isinstance(row_val, str):
                     val = row_val
                 self.__setattr__(key, val)
@@ -82,25 +89,52 @@ def _meta_from_dir(meta_path: Path) -> Generator[dict, None, None]:
         break
 
 
-def read_meta(meta_dir: Union[str, Path]) -> List[MetaRow]:
-    meta = []
-    meta_ids = set()
-    if isinstance(meta_dir, str):
-        meta_dir = Path(meta_dir)
-    if not meta_dir.exists():
-        raise RuntimeError(f"ERROR: {meta_dir} does not exist")
-    if meta_dir.is_dir():
+def _get_source_gen(meta_path: Union[Path]) -> Generator[dict, None, None]:
+    if not isinstance(meta_path, Path):
+        raise RuntimeError(f"ERROR: unsupported source {meta_path} type {type(meta_path)}")
+
+    if not meta_path.exists():
+        raise RuntimeError(f"ERROR: {meta_path} does not exist")
+
+    if meta_path.is_dir():
         source_gen = _meta_from_dir
-    elif meta_dir.is_file():
+    elif meta_path.is_file():
         source_gen = _meta_from_file
     else:
-        raise RuntimeError(f"ERROR: unsupported {meta_dir} type")
+        raise RuntimeError(f"ERROR: unsupported {meta_path} file type")
+    yield from source_gen(meta_path)
 
-    for row in source_gen(meta_dir):
+
+def read_meta_list(meta_dir: Union[str, Path]) -> List[MetaRow]:
+    meta = []
+    meta_ids = set()
+
+    for row in _get_source_gen(Path(meta_dir)):
         meta_row = MetaRow(row)
         if meta_row.Id in meta_ids:
             raise RuntimeError(f"ERROR: duplicate Id row {row}")
         meta_ids.add(meta_row.Id)
+
         meta.append(meta_row)
 
     return meta
+
+
+def read_meta_dict(meta_dir: Union[str, Path]) -> Dict[MetaKey, List[MetaRow]]:
+    meta_dict: Dict[MetaKey, List[MetaRow]] = {}
+    meta_ids = set()
+
+    for row in _get_source_gen(Path(meta_dir)):
+        meta_row = MetaRow(row)
+        meta_key = MetaKey(meta_row)
+        if meta_row.Id in meta_ids:
+            # check the Id anyway
+            raise RuntimeError(f"ERROR: duplicate Id row {row}")
+        meta_ids.add(meta_row.Id)
+
+        if meta_list := meta_dict.get(meta_key):
+            meta_list.append(meta_row)
+        else:
+            meta_dict[meta_key] = [meta_row]
+
+    return meta_dict
