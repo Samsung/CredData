@@ -10,6 +10,7 @@ class MetaCred:
     def __init__(self, cs_cred: dict):
         self.rule = cs_cred["rule"]
         line_data_list = cs_cred["line_data_list"]
+        line_data_list.sort(key=lambda x: (x["line_num"], x["value_start"], x["value_end"]))
         path = Path(line_data_list[0]["path"])
         self.path = '/'.join([str(x) for x in path.parts[-4:]])
         if not self.path.startswith('data/'):
@@ -17,15 +18,17 @@ class MetaCred:
             self.path = '/'.join([str(x) for x in path.parts[-3:]])
         assert self.path.startswith('data/'), cs_cred
         self.valid_path = bool(self.valid_path_regex.match(self.path))  # to skip license files
-        line_nums = [x["line_num"] for x in line_data_list]
-        self.line_start = min(line_nums)
-        self.line_end = max(line_nums)
+
+        self.line_start = line_data_list[0]["line_num"]
+        self.line_end = line_data_list[-1]["line_num"]
         self.value_start = line_data_list[0]["value_start"]
-        self.value_end = line_data_list[0]["value_end"]
+        self.value_end = line_data_list[-1]["value_end"]
         offset = len(line_data_list[0]["line"]) - len(line_data_list[0]["line"].lstrip())
         self.strip_value_start = self.value_start - offset
+        if 1 < len(line_data_list):
+            offset = len(line_data_list[-1]["line"]) - len(line_data_list[-1]["line"].lstrip())
         self.strip_value_end = self.value_end - offset
-        self.line = line_data_list[0]["line"]
+        self.line = '\n'.join(x["line"] for x in line_data_list)
         self.variable = line_data_list[0]["variable"]
         self.value = line_data_list[0]["value"]
 
