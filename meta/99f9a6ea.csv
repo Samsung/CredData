@@ -1,7 +1,7 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
 1310,48fc739c,GitHub,99f9a6ea,data/99f9a6ea/other/48fc739c.md,80,80,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 1311,f8f23a8d,GitHub,99f9a6ea,data/99f9a6ea/test/f8f23a8d.rb,3,3,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-2464,a179015a,GitHub,99f9a6ea,data/99f9a6ea/test/a179015a.rb,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+2464,a179015a,GitHub,99f9a6ea,data/99f9a6ea/test/a179015a.rb,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Token
 4997,de5ab07c,GitHub,99f9a6ea,data/99f9a6ea/test/de5ab07c.rb,12,12,Template,T,25,31,F,F,CharOnly,,,Secret,2.25,6,F,F,F,Password
 4998,bb68cd53,GitHub,99f9a6ea,data/99f9a6ea/test/bb68cd53.rb,10,10,Template,T,25,35,F,F,Any,,,Secret,2.79,10,F,F,F,Password
 4999,de5ab07c,GitHub,99f9a6ea,data/99f9a6ea/test/de5ab07c.rb,75,75,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
@@ -11,47 +11,47 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 5996,40c7cac8,GitHub,99f9a6ea,data/99f9a6ea/test/40c7cac8.rb,86,86,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 6080,de5ab07c,GitHub,99f9a6ea,data/99f9a6ea/test/de5ab07c.rb,150,150,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 6387,154a978d,GitHub,99f9a6ea,data/99f9a6ea/test/154a978d.rb,439,439,F,F,,,F,F,,,,,0,0,F,F,F,Info
-7556,40c7cac8,GitHub,99f9a6ea,data/99f9a6ea/test/40c7cac8.rb,85,85,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-7843,b3411fad,GitHub,99f9a6ea,data/99f9a6ea/src/b3411fad.rb,14,14,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-7930,f5062bb2,GitHub,99f9a6ea,data/99f9a6ea/src/f5062bb2.rb,13,13,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-8749,02896fbb,GitHub,99f9a6ea,data/99f9a6ea/test/02896fbb.rb,63,63,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
-8750,265de39f,GitHub,99f9a6ea,data/99f9a6ea/test/265de39f.rb,70,70,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+7556,40c7cac8,GitHub,99f9a6ea,data/99f9a6ea/test/40c7cac8.rb,85,85,F,F,,,F,F,,,,,0,0,F,F,F,Token
+7843,b3411fad,GitHub,99f9a6ea,data/99f9a6ea/src/b3411fad.rb,14,14,F,F,,,F,F,,,,,0,0,F,F,F,Token
+7930,f5062bb2,GitHub,99f9a6ea,data/99f9a6ea/src/f5062bb2.rb,13,13,F,F,,,F,F,,,,,0,0,F,F,F,Token
+8749,02896fbb,GitHub,99f9a6ea,data/99f9a6ea/test/02896fbb.rb,63,63,F,F,,,F,F,,,,,0,0,F,F,F,Auth
+8750,265de39f,GitHub,99f9a6ea,data/99f9a6ea/test/265de39f.rb,70,70,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 9231,15847881,GitHub,99f9a6ea,data/99f9a6ea/test/15847881.rb,7,7,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 9233,15847881,GitHub,99f9a6ea,data/99f9a6ea/test/15847881.rb,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-9234,ae9e9f69,GitHub,99f9a6ea,data/99f9a6ea/test/ae9e9f69.rb,99,99,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-9246,54a28c0b,GitHub,99f9a6ea,data/99f9a6ea/src/54a28c0b.rb,9,9,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+9234,ae9e9f69,GitHub,99f9a6ea,data/99f9a6ea/test/ae9e9f69.rb,99,99,F,F,,,F,F,,,,,0,0,F,F,F,Token
+9246,54a28c0b,GitHub,99f9a6ea,data/99f9a6ea/src/54a28c0b.rb,9,9,F,F,,,F,F,,,,,0,0,F,F,F,Token
 11239,de5ab07c,GitHub,99f9a6ea,data/99f9a6ea/test/de5ab07c.rb,11,11,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-13580,5347e807,GitHub,99f9a6ea,data/99f9a6ea/test/5347e807.rb,8,8,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
-14822,5347e807,GitHub,99f9a6ea,data/99f9a6ea/test/5347e807.rb,41,41,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+13580,5347e807,GitHub,99f9a6ea,data/99f9a6ea/test/5347e807.rb,8,8,F,F,,,F,F,,,,,0,0,F,F,F,Auth
+14822,5347e807,GitHub,99f9a6ea,data/99f9a6ea/test/5347e807.rb,41,41,F,F,,,F,F,,,,,0,0,F,F,F,Token
 14986,6826c0d9,GitHub,99f9a6ea,data/99f9a6ea/src/6826c0d9.rb,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 17382,a179015a,GitHub,99f9a6ea,data/99f9a6ea/test/a179015a.rb,13,13,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-17468,f9b25874,GitHub,99f9a6ea,data/99f9a6ea/src/f9b25874.rb,44,44,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-17469,f9b25874,GitHub,99f9a6ea,data/99f9a6ea/src/f9b25874.rb,48,48,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+17468,f9b25874,GitHub,99f9a6ea,data/99f9a6ea/src/f9b25874.rb,44,44,F,F,,,F,F,,,,,0,0,F,F,F,Token
+17469,f9b25874,GitHub,99f9a6ea,data/99f9a6ea/src/f9b25874.rb,48,48,F,F,,,F,F,,,,,0,0,F,F,F,Token
 18173,06572a96,GitHub,99f9a6ea,data/99f9a6ea/other/06572a96.md,555,555,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-23847,15847881,GitHub,99f9a6ea,data/99f9a6ea/test/15847881.rb,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-23872,f9b25874,GitHub,99f9a6ea,data/99f9a6ea/src/f9b25874.rb,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-23878,63c9d2b0,GitHub,99f9a6ea,data/99f9a6ea/src/63c9d2b0.rb,24,24,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-29474,40c7cac8,GitHub,99f9a6ea,data/99f9a6ea/test/40c7cac8.rb,165,165,Template,F,8,12,F,F,NumbersOnly,,,Token,2.00,4,F,F,F,Generic Token
-29477,c8ae98ae,GitHub,99f9a6ea,data/99f9a6ea/test/c8ae98ae.rb,66,66,Template,T,8,20,F,F,Any,,,Token,2.79,12,F,F,F,Generic Token
-29569,154a978d,GitHub,99f9a6ea,data/99f9a6ea/test/154a978d.rb,205,205,F,F,,,F,F,NumbersOnly,,,Token,2.00,4,F,F,F,Generic Token
-29570,154a978d,GitHub,99f9a6ea,data/99f9a6ea/test/154a978d.rb,220,220,F,F,,,F,F,NumbersOnly,,,Token,2.00,4,F,F,F,Generic Token
-29571,b9f4ca60,GitHub,99f9a6ea,data/99f9a6ea/test/b9f4ca60.rb,16,16,Template,T,15,33,F,F,Any,,,Token,3.11,18,F,F,F,Generic Token
-29572,f224b0c4,GitHub,99f9a6ea,data/99f9a6ea/test/f224b0c4.rb,18,18,Template,T,15,33,F,F,Any,,,Token,3.11,18,F,F,F,Generic Token
-29574,02896fbb,GitHub,99f9a6ea,data/99f9a6ea/test/02896fbb.rb,18,18,Template,T,15,38,F,F,Any,,,Token,3.23,23,F,F,F,Generic Token
-29662,f224b0c4,GitHub,99f9a6ea,data/99f9a6ea/test/f224b0c4.rb,12,12,T,F,22,42,F,F,Any,,,Token,4.32,20,F,F,F,Generic Token
-29663,265de39f,GitHub,99f9a6ea,data/99f9a6ea/test/265de39f.rb,12,12,Template,T,27,45,F,F,Any,,,Token,2.99,18,F,F,F,Generic Token
-29687,154a978d,GitHub,99f9a6ea,data/99f9a6ea/test/154a978d.rb,237,237,F,F,,,F,F,NumbersOnly,,,Token,2.00,4,F,F,F,Generic Token
+23847,15847881,GitHub,99f9a6ea,data/99f9a6ea/test/15847881.rb,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Token
+23872,f9b25874,GitHub,99f9a6ea,data/99f9a6ea/src/f9b25874.rb,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Token
+23878,63c9d2b0,GitHub,99f9a6ea,data/99f9a6ea/src/63c9d2b0.rb,24,24,F,F,,,F,F,,,,,0,0,F,F,F,Token
+29474,40c7cac8,GitHub,99f9a6ea,data/99f9a6ea/test/40c7cac8.rb,165,165,Template,F,8,12,F,F,NumbersOnly,,,Token,2.00,4,F,F,F,Token
+29477,c8ae98ae,GitHub,99f9a6ea,data/99f9a6ea/test/c8ae98ae.rb,66,66,Template,T,8,20,F,F,Any,,,Token,2.79,12,F,F,F,Token
+29569,154a978d,GitHub,99f9a6ea,data/99f9a6ea/test/154a978d.rb,205,205,F,F,,,F,F,NumbersOnly,,,Token,2.00,4,F,F,F,Token
+29570,154a978d,GitHub,99f9a6ea,data/99f9a6ea/test/154a978d.rb,220,220,F,F,,,F,F,NumbersOnly,,,Token,2.00,4,F,F,F,Token
+29571,b9f4ca60,GitHub,99f9a6ea,data/99f9a6ea/test/b9f4ca60.rb,16,16,Template,T,15,33,F,F,Any,,,Token,3.11,18,F,F,F,Token
+29572,f224b0c4,GitHub,99f9a6ea,data/99f9a6ea/test/f224b0c4.rb,18,18,Template,T,15,33,F,F,Any,,,Token,3.11,18,F,F,F,Token
+29574,02896fbb,GitHub,99f9a6ea,data/99f9a6ea/test/02896fbb.rb,18,18,Template,T,15,38,F,F,Any,,,Token,3.23,23,F,F,F,Token
+29662,f224b0c4,GitHub,99f9a6ea,data/99f9a6ea/test/f224b0c4.rb,12,12,T,F,22,42,F,F,Any,,,Token,4.32,20,F,F,F,Token
+29663,265de39f,GitHub,99f9a6ea,data/99f9a6ea/test/265de39f.rb,12,12,Template,T,27,45,F,F,Any,,,Token,2.99,18,F,F,F,Token
+29687,154a978d,GitHub,99f9a6ea,data/99f9a6ea/test/154a978d.rb,237,237,F,F,,,F,F,NumbersOnly,,,Token,2.00,4,F,F,F,Token
 30781,f8f23a8d,GitHub,99f9a6ea,data/99f9a6ea/test/f8f23a8d.rb,4,4,Template,T,17,23,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
 30782,85aac4fb,GitHub,99f9a6ea,data/99f9a6ea/test/85aac4fb.rb,15,15,Template,T,17,23,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
 30789,85aac4fb,GitHub,99f9a6ea,data/99f9a6ea/test/85aac4fb.rb,16,16,Template,T,21,31,F,F,Any,,,Secret,2.79,10,F,F,F,Password
-31284,b3356305,GitHub,99f9a6ea,data/99f9a6ea/other/b3356305.md,52,52,Template,T,16,38,F,F,Any,,,Key,3.26,22,F,F,F,Generic Secret
-34767,50da6341,GitHub,99f9a6ea,data/99f9a6ea/src/50da6341.yml,3,3,Template,T,16,21,F,F,CharsOnly,,,Token,2.32,5,F,F,F,Generic Token
-34895,40c7cac8,GitHub,99f9a6ea,data/99f9a6ea/test/40c7cac8.rb,79,79,Template,T,9,24,F,F,Any,,,Token,2.99,15,F,F,F,Generic Token
-34903,a179015a,GitHub,99f9a6ea,data/99f9a6ea/test/a179015a.rb,7,7,F,T,9,14,F,F,CharsOnly,,,Token,2.32,5,F,F,F,Generic Token
-34939,a51360a2,GitHub,99f9a6ea,data/99f9a6ea/test/a51360a2.rb,110,110,T,F,8,19,F,F,CharsOnly,,,Token,2.04,11,F,F,F,Generic Token
-35117,9854d83a,GitHub,99f9a6ea,data/99f9a6ea/test/9854d83a.yml,17,17,T,F,17,145,F,F,Any,,,Secret,3.94,128,F,F,F,Generic Secret
-35119,9854d83a,GitHub,99f9a6ea,data/99f9a6ea/test/9854d83a.yml,14,14,T,F,17,145,F,F,Any,,,Secret,3.92,128,F,F,F,Generic Secret
-37256,40c7cac8,GitHub,99f9a6ea,data/99f9a6ea/test/40c7cac8.rb,107,107,Template,T,9,24,F,F,Any,,,Token,2.99,15,F,F,F,Generic Token
+31284,b3356305,GitHub,99f9a6ea,data/99f9a6ea/other/b3356305.md,52,52,Template,T,16,38,F,F,Any,,,Key,3.26,22,F,F,F,Secret
+34767,50da6341,GitHub,99f9a6ea,data/99f9a6ea/src/50da6341.yml,3,3,Template,T,16,21,F,F,CharsOnly,,,Token,2.32,5,F,F,F,Token
+34895,40c7cac8,GitHub,99f9a6ea,data/99f9a6ea/test/40c7cac8.rb,79,79,Template,T,9,24,F,F,Any,,,Token,2.99,15,F,F,F,Token
+34903,a179015a,GitHub,99f9a6ea,data/99f9a6ea/test/a179015a.rb,7,7,F,T,9,14,F,F,CharsOnly,,,Token,2.32,5,F,F,F,Token
+34939,a51360a2,GitHub,99f9a6ea,data/99f9a6ea/test/a51360a2.rb,110,110,T,F,8,19,F,F,CharsOnly,,,Token,2.04,11,F,F,F,Token
+35117,9854d83a,GitHub,99f9a6ea,data/99f9a6ea/test/9854d83a.yml,17,17,T,F,17,145,F,F,Any,,,Secret,3.94,128,F,F,F,Secret
+35119,9854d83a,GitHub,99f9a6ea,data/99f9a6ea/test/9854d83a.yml,14,14,T,F,17,145,F,F,Any,,,Secret,3.92,128,F,F,F,Secret
+37256,40c7cac8,GitHub,99f9a6ea,data/99f9a6ea/test/40c7cac8.rb,107,107,Template,T,9,24,F,F,Any,,,Token,2.99,15,F,F,F,Token
 47195,c8ae98ae,GitHub,99f9a6ea,data/99f9a6ea/test/c8ae98ae.rb,67,67,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 47473,02896fbb,GitHub,99f9a6ea,data/99f9a6ea/test/02896fbb.rb,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 47474,265de39f,GitHub,99f9a6ea,data/99f9a6ea/test/265de39f.rb,35,35,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
@@ -59,38 +59,38 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 47476,f224b0c4,GitHub,99f9a6ea,data/99f9a6ea/test/f224b0c4.rb,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 47729,de5ab07c,GitHub,99f9a6ea,data/99f9a6ea/test/de5ab07c.rb,13,13,Template,T,25,35,F,F,Any,,,Unknown,2.79,10,F,F,F,Other
 47731,40c7cac8,GitHub,99f9a6ea,data/99f9a6ea/test/40c7cac8.rb,113,113,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-57935,15847881,GitHub,99f9a6ea,data/99f9a6ea/test/15847881.rb,25,25,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-62032,b9f4ca60,GitHub,99f9a6ea,data/99f9a6ea/test/b9f4ca60.rb,11,11,T,F,22,42,F,F,Any,,,Token,4.32,20,F,F,F,Generic Token
-62033,02896fbb,GitHub,99f9a6ea,data/99f9a6ea/test/02896fbb.rb,12,12,Template,T,27,45,F,F,Any,,,Token,2.99,18,F,F,F,Generic Token
-75317,f224b0c4,GitHub,99f9a6ea,data/99f9a6ea/test/f224b0c4.rb,86,86,Template,T,15,33,F,F,Any,,,Token,3.11,18,F,F,F,Generic Token
-75318,f224b0c4,GitHub,99f9a6ea,data/99f9a6ea/test/f224b0c4.rb,31,31,Template,T,15,33,F,F,Any,,,Token,3.11,18,F,F,F,Generic Token
-75319,b9f4ca60,GitHub,99f9a6ea,data/99f9a6ea/test/b9f4ca60.rb,27,27,Template,T,15,33,F,F,Any,,,Token,3.11,18,F,F,F,Generic Token
-75320,265de39f,GitHub,99f9a6ea,data/99f9a6ea/test/265de39f.rb,94,94,Template,T,15,38,F,F,Any,,,Token,3.23,23,F,F,F,Generic Token
-75321,02896fbb,GitHub,99f9a6ea,data/99f9a6ea/test/02896fbb.rb,31,31,Template,T,15,38,F,F,Any,,,Token,3.23,23,F,F,F,Generic Token
-75322,265de39f,GitHub,99f9a6ea,data/99f9a6ea/test/265de39f.rb,19,19,Template,T,15,38,F,F,Any,,,Token,3.23,23,F,F,F,Generic Token
-75323,265de39f,GitHub,99f9a6ea,data/99f9a6ea/test/265de39f.rb,34,34,Template,T,15,38,F,F,Any,,,Token,3.23,23,F,F,F,Generic Token
-75524,154a978d,GitHub,99f9a6ea,data/99f9a6ea/test/154a978d.rb,78,78,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-75525,154a978d,GitHub,99f9a6ea,data/99f9a6ea/test/154a978d.rb,93,93,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-75526,154a978d,GitHub,99f9a6ea,data/99f9a6ea/test/154a978d.rb,108,108,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-75527,154a978d,GitHub,99f9a6ea,data/99f9a6ea/test/154a978d.rb,125,125,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-75528,154a978d,GitHub,99f9a6ea,data/99f9a6ea/test/154a978d.rb,409,409,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-75529,6e249b00,GitHub,99f9a6ea,data/99f9a6ea/test/6e249b00.rb,38,38,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-75573,40c7cac8,GitHub,99f9a6ea,data/99f9a6ea/test/40c7cac8.rb,112,112,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-102334,63c9d2b0,GitHub,99f9a6ea,data/99f9a6ea/src/63c9d2b0.rb,13,13,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-102335,f9b25874,GitHub,99f9a6ea,data/99f9a6ea/src/f9b25874.rb,36,36,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Token
-102336,f9b25874,GitHub,99f9a6ea,data/99f9a6ea/src/f9b25874.rb,43,43,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Token
-102337,97f72a4a,GitHub,99f9a6ea,data/99f9a6ea/test/97f72a4a.rb,27,27,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-102338,97f72a4a,GitHub,99f9a6ea,data/99f9a6ea/test/97f72a4a.rb,43,43,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-102339,97f72a4a,GitHub,99f9a6ea,data/99f9a6ea/test/97f72a4a.rb,56,56,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-102340,bb68cd53,GitHub,99f9a6ea,data/99f9a6ea/test/bb68cd53.rb,25,25,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-102341,bb68cd53,GitHub,99f9a6ea,data/99f9a6ea/test/bb68cd53.rb,37,37,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-102342,bb68cd53,GitHub,99f9a6ea,data/99f9a6ea/test/bb68cd53.rb,49,49,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-102343,bb68cd53,GitHub,99f9a6ea,data/99f9a6ea/test/bb68cd53.rb,61,61,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-102344,bb68cd53,GitHub,99f9a6ea,data/99f9a6ea/test/bb68cd53.rb,73,73,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-102345,bb68cd53,GitHub,99f9a6ea,data/99f9a6ea/test/bb68cd53.rb,85,85,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-102346,bb68cd53,GitHub,99f9a6ea,data/99f9a6ea/test/bb68cd53.rb,98,98,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-102347,de5ab07c,GitHub,99f9a6ea,data/99f9a6ea/test/de5ab07c.rb,27,27,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-102348,de5ab07c,GitHub,99f9a6ea,data/99f9a6ea/test/de5ab07c.rb,140,140,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+57935,15847881,GitHub,99f9a6ea,data/99f9a6ea/test/15847881.rb,25,25,F,F,,,F,F,,,,,0,0,F,F,F,Token
+62032,b9f4ca60,GitHub,99f9a6ea,data/99f9a6ea/test/b9f4ca60.rb,11,11,T,F,22,42,F,F,Any,,,Token,4.32,20,F,F,F,Token
+62033,02896fbb,GitHub,99f9a6ea,data/99f9a6ea/test/02896fbb.rb,12,12,Template,T,27,45,F,F,Any,,,Token,2.99,18,F,F,F,Token
+75317,f224b0c4,GitHub,99f9a6ea,data/99f9a6ea/test/f224b0c4.rb,86,86,Template,T,15,33,F,F,Any,,,Token,3.11,18,F,F,F,Token
+75318,f224b0c4,GitHub,99f9a6ea,data/99f9a6ea/test/f224b0c4.rb,31,31,Template,T,15,33,F,F,Any,,,Token,3.11,18,F,F,F,Token
+75319,b9f4ca60,GitHub,99f9a6ea,data/99f9a6ea/test/b9f4ca60.rb,27,27,Template,T,15,33,F,F,Any,,,Token,3.11,18,F,F,F,Token
+75320,265de39f,GitHub,99f9a6ea,data/99f9a6ea/test/265de39f.rb,94,94,Template,T,15,38,F,F,Any,,,Token,3.23,23,F,F,F,Token
+75321,02896fbb,GitHub,99f9a6ea,data/99f9a6ea/test/02896fbb.rb,31,31,Template,T,15,38,F,F,Any,,,Token,3.23,23,F,F,F,Token
+75322,265de39f,GitHub,99f9a6ea,data/99f9a6ea/test/265de39f.rb,19,19,Template,T,15,38,F,F,Any,,,Token,3.23,23,F,F,F,Token
+75323,265de39f,GitHub,99f9a6ea,data/99f9a6ea/test/265de39f.rb,34,34,Template,T,15,38,F,F,Any,,,Token,3.23,23,F,F,F,Token
+75524,154a978d,GitHub,99f9a6ea,data/99f9a6ea/test/154a978d.rb,78,78,F,F,,,F,F,,,,,0,0,F,F,F,Token
+75525,154a978d,GitHub,99f9a6ea,data/99f9a6ea/test/154a978d.rb,93,93,F,F,,,F,F,,,,,0,0,F,F,F,Token
+75526,154a978d,GitHub,99f9a6ea,data/99f9a6ea/test/154a978d.rb,108,108,F,F,,,F,F,,,,,0,0,F,F,F,Token
+75527,154a978d,GitHub,99f9a6ea,data/99f9a6ea/test/154a978d.rb,125,125,F,F,,,F,F,,,,,0,0,F,F,F,Token
+75528,154a978d,GitHub,99f9a6ea,data/99f9a6ea/test/154a978d.rb,409,409,F,F,,,F,F,,,,,0,0,F,F,F,Token
+75529,6e249b00,GitHub,99f9a6ea,data/99f9a6ea/test/6e249b00.rb,38,38,F,F,,,F,F,,,,,0,0,F,F,F,Token
+75573,40c7cac8,GitHub,99f9a6ea,data/99f9a6ea/test/40c7cac8.rb,112,112,F,F,,,F,F,,,,,0,0,F,F,F,Token
+102334,63c9d2b0,GitHub,99f9a6ea,data/99f9a6ea/src/63c9d2b0.rb,13,13,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+102335,f9b25874,GitHub,99f9a6ea,data/99f9a6ea/src/f9b25874.rb,36,36,F,F,,,F,F,,,,,0.00,,F,F,F,Token
+102336,f9b25874,GitHub,99f9a6ea,data/99f9a6ea/src/f9b25874.rb,43,43,F,F,,,F,F,,,,,0.00,,F,F,F,Token
+102337,97f72a4a,GitHub,99f9a6ea,data/99f9a6ea/test/97f72a4a.rb,27,27,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+102338,97f72a4a,GitHub,99f9a6ea,data/99f9a6ea/test/97f72a4a.rb,43,43,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+102339,97f72a4a,GitHub,99f9a6ea,data/99f9a6ea/test/97f72a4a.rb,56,56,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+102340,bb68cd53,GitHub,99f9a6ea,data/99f9a6ea/test/bb68cd53.rb,25,25,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+102341,bb68cd53,GitHub,99f9a6ea,data/99f9a6ea/test/bb68cd53.rb,37,37,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+102342,bb68cd53,GitHub,99f9a6ea,data/99f9a6ea/test/bb68cd53.rb,49,49,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+102343,bb68cd53,GitHub,99f9a6ea,data/99f9a6ea/test/bb68cd53.rb,61,61,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+102344,bb68cd53,GitHub,99f9a6ea,data/99f9a6ea/test/bb68cd53.rb,73,73,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+102345,bb68cd53,GitHub,99f9a6ea,data/99f9a6ea/test/bb68cd53.rb,85,85,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+102346,bb68cd53,GitHub,99f9a6ea,data/99f9a6ea/test/bb68cd53.rb,98,98,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+102347,de5ab07c,GitHub,99f9a6ea,data/99f9a6ea/test/de5ab07c.rb,27,27,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+102348,de5ab07c,GitHub,99f9a6ea,data/99f9a6ea/test/de5ab07c.rb,140,140,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 132153,06572a96,GitHub,99f9a6ea,data/99f9a6ea/other/06572a96.md,283,283,F,F,0,7,F,F,,,Info,,0.00,,F,F,F,IPv4
-134217,b3356305,GitHub,99f9a6ea,data/99f9a6ea/other/b3356305.md,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-134218,b3356305,GitHub,99f9a6ea,data/99f9a6ea/other/b3356305.md,33,33,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+134217,b3356305,GitHub,99f9a6ea,data/99f9a6ea/other/b3356305.md,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+134218,b3356305,GitHub,99f9a6ea,data/99f9a6ea/other/b3356305.md,33,33,F,F,,,F,F,,,,,0,0,F,F,F,Secret
