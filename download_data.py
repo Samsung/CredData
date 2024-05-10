@@ -261,8 +261,16 @@ def get_obfuscated_value(value, meta_row: MetaRow):
     if "Info" == meta_row.PredefinedPattern or meta_row.Category in ["IPv4", "IPv6"]:
         # not a credential - does not required obfuscation
         obfuscated_value = value
-    elif any(value.startswith(x) for x in ["AKIA", "ABIA", "ACCA", "AGPA", "AIDA", "AIPA", "AKIA", "ANPA",
-                                           "ANVA", "AROA", "APKA", "ASCA", "ASIA"]):
+    elif value.startswith("Apikey "):
+        obfuscated_value = "Apikey " + generate_value(value[7:])
+    elif value.startswith("Bearer "):
+        obfuscated_value = "Bearer " + generate_value(value[7:])
+    elif value.startswith("Basic "):
+        obfuscated_value = "Basic " + generate_value(value[6:])
+    elif value.startswith("OAuth "):
+        obfuscated_value = "OAuth " + generate_value(value[6:])
+    elif any(value.startswith(x) for x in ["AKIA", "ABIA", "ACCA", "AGPA", "AIDA", "AIPA", "AKIA", "ANPA", "ANVA",
+                                           "AROA", "APKA", "ASCA", "ASIA"]):
         obfuscated_value = value[:4] + generate_value(value[4:])
     elif value.startswith("AIza"):
         obfuscated_value = "AIza" + generate_value(value[4:])
@@ -286,15 +294,23 @@ def get_obfuscated_value(value, meta_row: MetaRow):
         obfuscated_value = value[:4] + generate_value(value[4:])
     elif value.startswith("base64:"):
         obfuscated_value = value[:7] + generate_value(value[7:])
+    elif value.startswith("SWMTKN-1-"):
+        obfuscated_value = value[:9] + generate_value(value[9:])
+    elif value.startswith("hooks.slack.com/services/"):
+        obfuscated_value = "hooks.slack.com/services/" + generate_value(value[25:])
     elif ".apps.googleusercontent.com" in value:
         pos = value.index(".apps.googleusercontent.com")
-        obfuscated_value = generate_value(value[:pos]) + ".apps.googleusercontent.com" + generate_value(value[pos + 27:])
+        obfuscated_value = generate_value(value[:pos]) + ".apps.googleusercontent.com" + generate_value(
+            value[pos + 27:])
     elif ".s3.amazonaws.com" in value:
         pos = value.index(".s3.amazonaws.com")
         obfuscated_value = generate_value(value[:pos]) + ".s3.amazonaws.com" + generate_value(value[pos + 17:])
     elif ".firebaseio.com" in value:
         pos = value.index(".firebaseio.com")
         obfuscated_value = generate_value(value[:pos]) + ".firebaseio.com" + generate_value(value[pos + 15:])
+    elif ".firebaseapp.com"in value:
+        pos = value.index(".firebaseapp.com")
+        obfuscated_value = generate_value(value[:pos]) + ".firebaseapp.com" + generate_value(value[pos + 16:])
     else:
         obfuscated_value = generate_value(value)
 
@@ -304,7 +320,16 @@ def get_obfuscated_value(value, meta_row: MetaRow):
 def generate_value(value):
     obfuscated_value = ""
 
+    backslash_case = False
     for v in value:
+        if '\\' == v:
+            backslash_case = True
+            obfuscated_value += v
+            continue
+        if backslash_case:
+            obfuscated_value += v
+            backslash_case = False
+            continue
         if v in string.ascii_lowercase:
             obfuscated_value += random.choice(string.ascii_lowercase)
         elif v in string.ascii_uppercase:
@@ -313,6 +338,8 @@ def generate_value(value):
             obfuscated_value += random.choice(string.digits)
         else:
             obfuscated_value += v
+        if '\\' != v:
+            backslash_case = False
 
     return obfuscated_value
 
@@ -330,6 +357,10 @@ def replace_rows(data: List[MetaRow]):
             continue
 
         if not (0 <= row.ValueStart and 0 <= row.ValueEnd):
+            continue
+
+        if row.Category in ["IPv4", "IPv6", "AWS Multi", "Google Multi"]:
+            # skip obfuscation for the categories which are multi pattern or info
             continue
 
         file_location = row.FilePath
@@ -471,12 +502,21 @@ def create_new_multiline(lines: List[str], starting_position: int):
 def process_pem_key(row: MetaRow):
     # Change data in already copied files (only keys)
     try:
+        # Skip credentials that are not PEM or multiline
+        if row.CryptographyKey == "" and row.LineStart == row.LineEnd:
+            return
+
+        if row.Category in ["AWS Multi", "Google Multi"]:
+            # skip double obfuscation for the categories
+            return
+
         with open(row.FilePath, "r", encoding="utf8") as f:
-            lines = f.read().split('\n')
+            lines = f.read()
+        lines = lines.split("\n")
 
         random.seed(row.LineStart ^ int(row.FileID, 16))
 
-        if row.CryptographyKey:
+        if '' != row.CryptographyKey:
             new_lines = create_new_key(lines[row.LineStart - 1:row.LineEnd])
         else:
             new_lines = create_new_multiline(lines[row.LineStart - 1:row.LineEnd], row.ValueStart)
@@ -528,6 +568,7 @@ def main(args: Namespace):
     logger.info("Finalizing dataset. Please wait a moment...")
     obfuscate_creds("meta", args.data_dir)
     logger.info(f"Done! All files saved to {args.data_dir}")
+    return 0
 
 
 if __name__ == "__main__":

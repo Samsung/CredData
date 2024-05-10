@@ -1,7 +1,6 @@
 import os
 import sqlite3
 import subprocess
-from typing import Tuple
 
 from benchmark.common.constants import URL, ScannerType
 from benchmark.scanner.scanner import Scanner
@@ -65,4 +64,4 @@ class CredentialDigger(Scanner):
             line_data = {"file_name": data[1], "line_number": data[2]}
             if line_data["file_name"].split("/")[-1] == "LICENSE" or "COPYING" in line_data["file_name"].split("/")[-1]:
                 continue
-            _, _, _ = self.check_line_from_meta(line_data["file_name"], line_data["line_number"])
+            _, _, _ = self.check_line_from_meta(line_data["file_name"], line_data["line_number"], line_data["line_number"])

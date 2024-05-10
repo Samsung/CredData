@@ -1,9 +1,7 @@
 import csv
 import os
 from pathlib import Path
-from typing import Union, List, Generator, Dict, Callable
-
-from meta_key import MetaKey
+from typing import Union, List, Generator
 
 
 class MetaRow:
@@ -37,7 +35,6 @@ class MetaRow:
         if not isinstance(row, dict):
             raise RuntimeError(f"ERROR: wrong row {row}")
         for key, typ in self.__annotations__.items():
-            val = None
             if key.startswith("__"):
                 continue
             row_val = row.get(key)
@@ -54,9 +51,16 @@ class MetaRow:
                         val = 0.0
                 elif typ is str and isinstance(row_val, str):
                     val = row_val
+                else:
+                    raise RuntimeError(f"ERROR: Unsupported {typ}")
                 self.__setattr__(key, val)
-        if self.LineStart > self.LineEnd:
+        if 0 > self.LineStart or 0 > self.LineEnd:
+            raise RuntimeError(f"ERROR: LineStart and LineEnd must be positive {row}")
+        elif self.LineStart > self.LineEnd:
             raise RuntimeError(f"ERROR: LineStart must be lower than LineEnd {row}")
+        elif self.LineStart == self.LineEnd and 0 <= self.ValueStart and 0 <= self.ValueEnd < self.ValueStart:
+            # multiline value positions are independent
+            raise RuntimeError(f"ERROR: ValueStart must be lower than ValueEnd for single line {row}")
 
     def __str__(self) -> str:
         dict_values = self.__dict__.values()
@@ -105,7 +109,8 @@ def _get_source_gen(meta_path: Union[Path]) -> Generator[dict, None, None]:
     yield from source_gen(meta_path)
 
 
-def read_meta_list(meta_dir: Union[str, Path]) -> List[MetaRow]:
+def read_meta(meta_dir: Union[str, Path]) -> List[MetaRow]:
+    """Returns list of MetaRow read from file or directory. The same approach may be used to obtain a dict."""
     meta = []
     meta_ids = set()
 
@@ -118,23 +123,3 @@ def read_meta_list(meta_dir: Union[str, Path]) -> List[MetaRow]:
         meta.append(meta_row)
 
     return meta
-
-
-def read_meta_dict(meta_dir: Union[str, Path]) -> Dict[MetaKey, List[MetaRow]]:
-    meta_dict: Dict[MetaKey, List[MetaRow]] = {}
-    meta_ids = set()
-
-    for row in _get_source_gen(Path(meta_dir)):
-        meta_row = MetaRow(row)
-        meta_key = MetaKey(meta_row)
-        if meta_row.Id in meta_ids:
-            # check the Id anyway
-            raise RuntimeError(f"ERROR: duplicate Id row {row}")
-        meta_ids.add(meta_row.Id)
-
-        if meta_list := meta_dict.get(meta_key):
-            meta_list.append(meta_row)
-        else:
-            meta_dict[meta_key] = [meta_row]
-
-    return meta_dict

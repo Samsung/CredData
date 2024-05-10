@@ -20,14 +20,26 @@ from colorama import Fore, Back, Style
 from meta_cred import MetaCred
 from meta_row import read_meta
 
+EXIT_SUCCESS = 0
+EXIT_FAILURE = 1
+
 
 def read_data(path, line_start, line_end, value_start, value_end, ground_truth, creds: List[MetaCred]):
     with open(path, "r", encoding="utf8") as f:
-        lines = f.readlines()
+        lines = f.read().split('\n')
     if line_start == line_end:
-        line = lines[line_start - 1]
+        cred_line = lines[line_start - 1]
+        stripped_line = cred_line.strip()
+        end_offset = 0
+    elif line_start < line_end:
+        # todo: move the line to MetaCred class
+        cred_line = '\n'.join(lines[line_start - 1:line_end])
+        stripped_line = '\n'.join(x.strip() for x in lines[line_start - 1:line_end - 1])
+        end_offset = len(stripped_line) + 1  # +1 for line feed
+        stripped_line = '\n'.join([stripped_line, lines[line_end - 1].strip()])
     else:
-        line = ''.join(lines[line_start - 1:line_end])
+        raise RuntimeError(f"Line start must be less than end. {path},{line_start},{line_end}")
+
     if 'T' == ground_truth:
         fore_style = Fore.GREEN
     elif 'F' == ground_truth:
@@ -38,7 +50,6 @@ def read_data(path, line_start, line_end, value_start, value_end, ground_truth, 
         fore_style = Fore.LIGHTRED_EX
     else:
         raise RuntimeError(f"Unknown type {ground_truth}")
-    stripped_line = line.lstrip()
 
     line_found_in_cred = False
     correct_value_position = False
@@ -50,8 +61,8 @@ def read_data(path, line_start, line_end, value_start, value_end, ground_truth, 
                     # print all creds we found
                     print(
                         f"{cred.rule},{line_start}:{cred.strip_value_start},{cred.strip_value_end}:{Style.RESET_ALL}"
-                        f"{line[:cred.value_start]}{Back.LIGHTRED_EX}{line[cred.value_start:cred.value_end]}"
-                        f"{Style.RESET_ALL}{line[cred.value_end:]}", flush=True)
+                        f"{cred_line[:cred.value_start]}{Back.LIGHTRED_EX}{cred_line[cred.value_start:cred.value_end]}"
+                        f"{Style.RESET_ALL}{cred_line[cred.value_end:]}", flush=True)
                     if 0 <= value_start == cred.strip_value_start and 0 <= value_end == cred.strip_value_end:
                         correct_value_position = True
                     elif 0 <= value_start == cred.strip_value_start:
@@ -62,8 +73,8 @@ def read_data(path, line_start, line_end, value_start, value_end, ground_truth, 
 
     if 0 <= value_start and 0 <= value_end:
         line = stripped_line[:value_start] + Back.LIGHTYELLOW_EX + \
-               stripped_line[value_start:value_end] + Style.RESET_ALL + \
-               fore_style + stripped_line[value_end:]
+               stripped_line[value_start:value_end + end_offset] + Style.RESET_ALL + \
+               fore_style + stripped_line[value_end + end_offset:]
     else:
         line = stripped_line
     print(f"{line_start}:{Style.RESET_ALL}{fore_style}{line}{Style.RESET_ALL}", flush=True)
@@ -86,7 +97,8 @@ def read_data(path, line_start, line_end, value_start, value_end, ground_truth, 
     print("\n\n")
 
 
-def main(meta_dir, data_dir, data_filter, load_json: Optional[str] = None, category: Optional[str] = None):
+def main(meta_dir, data_dir, data_filter, load_json: Optional[str] = None, category: Optional[str] = None) -> int:
+    error_code = EXIT_FAILURE
     if not os.path.exists(meta_dir):
         raise FileExistsError(f"{meta_dir} directory does not exist.")
     if not os.path.exists(data_dir):
@@ -96,37 +108,39 @@ def main(meta_dir, data_dir, data_filter, load_json: Optional[str] = None, categ
         with open(load_json, "r") as f:
             creds.extend([MetaCred(x) for x in json.load(f)])
 
-    sorted_meta_rows = read_meta(meta_dir)
-    sorted_meta_rows.sort(key=lambda x: (x.FilePath, x.LineStart, x.LineEnd, x.ValueStart, x.ValueEnd))
+    meta = read_meta(meta_dir)
+    meta.sort(key=lambda x: (x.FilePath, x.LineStart, x.LineEnd, x.ValueStart, x.ValueEnd))
     displayed_rows = 0
     shown_rows = set()
-    for meta_row in sorted_meta_rows:
-        if not data_filter[meta_row.GroundTruth]:
+    for row in meta:
+        if not data_filter[row.GroundTruth]:
             continue
-        if category and not category == meta_row.Category:
+        if category and not category == row.Category:
             continue
 
         displayed_rows += 1
-        print(meta_row, flush=True)
+        print(str(row), flush=True)
         try:
-            read_data(meta_row.FilePath,
-                      meta_row.LineStart,
-                      meta_row.LineEnd,
-                      meta_row.ValueStart,
-                      meta_row.ValueEnd,
-                      meta_row.GroundTruth,
+            read_data(row.FilePath,
+                      row.LineStart,
+                      row.LineEnd,
+                      row.ValueStart,
+                      row.ValueEnd,
+                      row.GroundTruth,
                       creds)
         except Exception as exc:
-            print(f"Failure {meta_row}", exc, flush=True)
+            print(f"Failure {row}", exc, flush=True)
             raise
-        cred_pos_uniq_str = f"{meta_row.FilePath}" \
-                            f" {meta_row.LineStart}:{meta_row.LineEnd}" \
-                            f" {meta_row.ValueStart}:{meta_row.ValueEnd}"
-        if cred_pos_uniq_str in shown_rows:
-            raise RuntimeError(f"Duplicate row {meta_row}")
+        row_str = f"{row.FilePath},{row.LineStart}:{row.LineEnd},{row.ValueStart},{row.ValueEnd}"
+        if row_str in shown_rows:
+            print(f"Duplicate row {row}", flush=True)
+            break
         else:
-            shown_rows.add(cred_pos_uniq_str)
-    print(f"Shown {displayed_rows} of {len(sorted_meta_rows)}", flush=True)
+            shown_rows.add(row_str)
+    else:
+        error_code = EXIT_SUCCESS
+    print(f"Shown {displayed_rows} of {len(meta)}", flush=True)
+    return error_code
 
 
 if __name__ == "__main__":

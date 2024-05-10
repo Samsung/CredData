@@ -70,7 +70,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 26370,379d20b2,GitHub,4a099ada,data/4a099ada/src/379d20b2.go,166,166,F,F,,,F,F,,,,,0,0,F,F,F,Password
 27394,e57d933b,GitHub,4a099ada,data/4a099ada/other/e57d933b,5,5,Template,T,15,25,F,F,Any,,,Secret,3.12,10,F,F,F,Password
 27463,4c24badc,GitHub,4a099ada,data/4a099ada/other/4c24badc.md,522,522,Template,T,12,24,F,F,Any,,,Key,2.59,12,F,F,F,Generic Secret
-28203,6ac3f79f,GitHub,4a099ada,data/4a099ada/src/6ac3f79f.yml,12,12,Template,T,27,37,F,F,Any,,,Secret,3.12,10,F,F,F,Password
+28203,6ac3f79f,GitHub,4a099ada,data/4a099ada/src/6ac3f79f.yml,12,12,T,T,27,37,F,F,Any,,,Secret,3.12,10,F,F,F,Password
 28925,4c24badc,GitHub,4a099ada,data/4a099ada/other/4c24badc.md,157,157,Template,T,46,54,F,F,CharsOnly,,,Secret,2.16,8,F,F,F,Password
 28926,4903c49f,GitHub,4a099ada,data/4a099ada/other/4903c49f.md,15,15,Template,T,17,22,F,F,Any,,,Secret,1.92,5,F,F,F,Password
 28936,4903c49f,GitHub,4a099ada,data/4a099ada/other/4903c49f.md,14,14,Template,T,17,22,F,F,Any,,,Secret,1.92,5,F,F,F,Password
@@ -263,7 +263,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 108040,4c24badc,GitHub,4a099ada,data/4a099ada/other/4c24badc.md,489,489,F,F,,,F,F,,,,,0.00,,F,F,F,Info
 108041,a836957b,GitHub,4a099ada,data/4a099ada/other/a836957b.md,67,67,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 108042,0adefa1d,GitHub,4a099ada,data/4a099ada/src/0adefa1d.go,502,502,F,F,,,F,F,,,,,0.00,,F,F,F,Info
-108048,1fd39ac6,GitHub,4a099ada,data/4a099ada/test/1fd39ac6.sh,43,43,F,T,23,35,F,F,Any,,,Secret,2.65,12,F,F,F,Password
+108048,1fd39ac6,GitHub,4a099ada,data/4a099ada/test/1fd39ac6.sh,43,43,F,T,,,F,F,Any,,,Secret,2.65,12,F,F,F,Password
 114342,1a10510e,GitHub,4a099ada,data/4a099ada/src/1a10510e.go,98,98,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 114343,a2fd2c30,GitHub,4a099ada,data/4a099ada/other/a2fd2c30.md,22,22,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Token
 114344,4180450d,GitHub,4a099ada,data/4a099ada/other/4180450d.json,23,23,F,F,,,F,F,,,,,0.00,,F,F,F,Password
@@ -280,5 +280,5 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 132791,1fd39ac6,GitHub,4a099ada,data/4a099ada/test/1fd39ac6.sh,16,16,F,F,,,F,F,,,,,0,0,F,F,F,Password
 133322,a2fd2c30,GitHub,4a099ada,data/4a099ada/other/a2fd2c30.md,26,26,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 133323,7168ce73,GitHub,4a099ada,data/4a099ada/src/7168ce73.go,1514,1514,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-135403,6ac3f79f,GitHub,4a099ada,data/4a099ada/src/6ac3f79f.yml,12,12,T,T,117,122,F,F,Any,,,Secret,3.12,10,F,F,F,API
-135404,1fd39ac6,GitHub,4a099ada,data/4a099ada/test/1fd39ac6.sh,43,43,T,T,51,57,F,F,Any,,,Secret,2.65,12,F,F,F,Password
+137930,6ac3f79f,GitHub,4a099ada,data/4a099ada/src/6ac3f79f.yml,12,12,F,F,117,122,F,F,,,,,0.0,0,F,F,F,Generic Secret
+137931,6ac3f79f,GitHub,4a099ada,data/4a099ada/src/6ac3f79f.yml,12,12,F,F,132,141,F,F,,,,,0.0,0,F,F,F,Generic Secret
