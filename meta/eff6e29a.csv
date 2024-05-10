@@ -37,12 +37,12 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 29881,afb01e9d,GitHub,eff6e29a,data/eff6e29a/test/afb01e9d.go,209,209,Template,F,16,25,F,F,NumbersOnly,,,Token,3.17,9,F,F,F,Token
 29886,08a66e22,GitHub,eff6e29a,data/eff6e29a/test/08a66e22.go,115,115,T,T,17,27,F,F,CharsOnly,,,Secret,2.65,10,F,F,F,Secret
 29887,08a66e22,GitHub,eff6e29a,data/eff6e29a/test/08a66e22.go,117,117,T,T,17,31,F,F,CharsOnly,,,Secret,2.61,14,F,F,F,Secret
-29966,5f71d71d,GitHub,eff6e29a,data/eff6e29a/test/5f71d71d.env,3,3,Template,T,7,23,F,F,Any,,,Secret,3.38,16,F,F,F,Password
-30060,08a66e22,GitHub,eff6e29a,data/eff6e29a/test/08a66e22.go,344,344,Template,T,34,40,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
-31375,5f71d71d,GitHub,eff6e29a,data/eff6e29a/test/5f71d71d.env,2,2,Template,T,21,34,F,F,Any,,,Secret,2.74,13,F,F,F,Password
+29966,5f71d71d,GitHub,eff6e29a,data/eff6e29a/test/5f71d71d.env,3,3,Template,T,7,23,F,F,Any,,,Secret,3.38,16,F,F,F,Secret
+30060,08a66e22,GitHub,eff6e29a,data/eff6e29a/test/08a66e22.go,344,344,Template,T,34,40,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Secret
+31375,5f71d71d,GitHub,eff6e29a,data/eff6e29a/test/5f71d71d.env,2,2,Template,T,21,34,F,F,Any,,,Secret,2.74,13,F,F,F,Secret
 31393,a8b40460,GitHub,eff6e29a,data/eff6e29a/test/a8b40460.go,37,37,Template,F,33,42,F,F,NumbersOnly,,,Token,3.17,9,F,F,F,Token
-31447,ca7b7219,GitHub,eff6e29a,data/eff6e29a/test/ca7b7219.go,96,96,Template,T,15,22,F,F,CharsOnly,,,Secret,1.95,7,F,F,F,Password
-31451,ca7b7219,GitHub,eff6e29a,data/eff6e29a/test/ca7b7219.go,34,34,Template,T,15,21,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
+31447,ca7b7219,GitHub,eff6e29a,data/eff6e29a/test/ca7b7219.go,96,96,Template,T,15,22,F,F,CharsOnly,,,Secret,1.95,7,F,F,F,Secret
+31451,ca7b7219,GitHub,eff6e29a,data/eff6e29a/test/ca7b7219.go,34,34,Template,T,15,21,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Secret
 46183,afb01e9d,GitHub,eff6e29a,data/eff6e29a/test/afb01e9d.go,158,158,Template,T,15,22,F,F,CharsOnly,,,Unknown,1.95,7,F,F,F,Secret
 47219,f4261898,GitHub,eff6e29a,data/eff6e29a/test/f4261898.yaml,107,107,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 48190,fb3c5331,GitHub,eff6e29a,data/eff6e29a/test/fb3c5331.yml,103,103,F,F,,,F,F,,,,,0,0,F,F,F,Auth

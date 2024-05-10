@@ -59,9 +59,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 23967,8969083e,GitHub,d94d550a,data/d94d550a/src/8969083e.rst,190,190,F,F,,,F,F,,,,,0,0,F,F,F,Password
 23968,8969083e,GitHub,d94d550a,data/d94d550a/src/8969083e.rst,135,135,F,F,,,F,F,,,,,0,0,F,F,F,Password
 23973,8969083e,GitHub,d94d550a,data/d94d550a/src/8969083e.rst,161,161,F,F,,,F,F,,,,,0,0,F,F,F,Password
-28808,8c40d8b7,GitHub,d94d550a,data/d94d550a/test/8c40d8b7.py,94,94,Template,T,27,45,F,F,Any,,,Unknown,2.62,18,F,F,F,Secret
-28809,5ac0b0ad,GitHub,d94d550a,data/d94d550a/test/5ac0b0ad.py,52,52,Template,T,27,45,F,F,Any,,,Unknown,2.62,18,F,F,F,Secret
-28829,0c5ae732,GitHub,d94d550a,data/d94d550a/src/0c5ae732.rst,148,148,Template,F,11,16,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
+28808,8c40d8b7,GitHub,d94d550a,data/d94d550a/test/8c40d8b7.py,94,94,Template,T,27,45,F,F,Any,,,Unknown,2.62,18,F,F,F,Key
+28809,5ac0b0ad,GitHub,d94d550a,data/d94d550a/test/5ac0b0ad.py,52,52,Template,T,27,45,F,F,Any,,,Unknown,2.62,18,F,F,F,Key
+28829,0c5ae732,GitHub,d94d550a,data/d94d550a/src/0c5ae732.rst,148,148,Template,F,11,16,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Secret
 28830,fc789d4d,GitHub,d94d550a,data/d94d550a/test/fc789d4d.py,108,108,Template,F,11,16,F,F,CharsOnly,,,Secret,1.92,5,F,F,F,Secret
 28845,b4cd32e5,GitHub,d94d550a,data/d94d550a/test/b4cd32e5.py,27,27,T,F,17,33,F,F,Any,,,Unknown,4.00,16,F,F,F,Secret
 28919,fc789d4d,GitHub,d94d550a,data/d94d550a/test/fc789d4d.py,148,148,Template,T,18,24,F,F,CharsOnly,,,Token,1.79,6,F,F,F,Token
@@ -83,7 +83,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 29872,71b15ad9,GitHub,d94d550a,data/d94d550a/test/71b15ad9.py,151,151,Template,T,16,22,F,F,CharsOnly,,,Token,2.25,6,F,F,F,Token
 29888,8c40d8b7,GitHub,d94d550a,data/d94d550a/test/8c40d8b7.py,91,91,Template,T,16,22,F,F,CharsOnly,,,Token,2.25,6,F,F,F,Token
 29952,72a90f02,GitHub,d94d550a,data/d94d550a/test/72a90f02.py,31,31,Template,F,8,13,F,F,CharsOnly,,,Secret,1.92,5,F,F,F,Secret
-29953,9df40994,GitHub,d94d550a,data/d94d550a/test/9df40994.py,31,31,Template,T,8,14,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
+29953,9df40994,GitHub,d94d550a,data/d94d550a/test/9df40994.py,31,31,Template,T,8,14,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Secret
 30041,717f39b8,GitHub,d94d550a,data/d94d550a/test/717f39b8.py,227,227,T,F,7,22,F,F,Any,,,Secret,2.62,15,F,F,F,Password
 30073,8917a70f,GitHub,d94d550a,data/d94d550a/test/8917a70f.py,28,28,Template,T,26,32,F,F,CharsOnly,,,Token,2.25,6,F,F,F,Token
 30074,b9dbf2ad,GitHub,d94d550a,data/d94d550a/test/b9dbf2ad.py,31,31,Template,T,47,53,F,F,CharsOnly,,,Token,2.25,6,F,F,F,Token

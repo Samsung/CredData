@@ -70,8 +70,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 30474,eb9ab6bb,GitHub,349ac2b1,data/349ac2b1/test/eb9ab6bb.rb,32,32,F,F,45,51,F,F,CharsOnly,,,Token,2.58,6,F,F,F,Token
 30498,af643ff6,GitHub,349ac2b1,data/349ac2b1/test/af643ff6.rb,157,157,F,F,52,60,F,F,NumbersOnly,,,Secret,3.00,8,F,F,F,Password
 30499,af643ff6,GitHub,349ac2b1,data/349ac2b1/test/af643ff6.rb,189,189,F,F,52,60,F,F,NumbersOnly,,,Secret,3.00,8,F,F,F,Password
-30783,03d96bcb,GitHub,349ac2b1,data/349ac2b1/test/03d96bcb.rb,40,40,Template,T,21,36,F,F,Any,,,Secret,2.72,15,F,F,F,Password
-31004,feca55b8,GitHub,349ac2b1,data/349ac2b1/test/feca55b8.rb,17,17,F,T,33,40,F,F,CharsOnly,,,Secret,2.24,7,F,F,F,Password
+30783,03d96bcb,GitHub,349ac2b1,data/349ac2b1/test/03d96bcb.rb,40,40,Template,T,21,36,F,F,Any,,,Secret,2.72,15,F,F,F,Secret
+31004,feca55b8,GitHub,349ac2b1,data/349ac2b1/test/feca55b8.rb,17,17,F,T,33,40,F,F,CharsOnly,,,Secret,2.24,7,F,F,F,Secret
 31039,03d96bcb,GitHub,349ac2b1,data/349ac2b1/test/03d96bcb.rb,95,95,Template,T,94,104,F,F,Any,,,Secret,3.12,10,F,F,F,Password
 31323,409ec5b8,GitHub,349ac2b1,data/349ac2b1/test/409ec5b8.rb,102,102,Template,F,74,82,F,F,NumbersOnly,,,Secret,3.00,8,F,F,F,Password
 31327,b3356305,GitHub,349ac2b1,data/349ac2b1/other/b3356305.md,458,458,Template,T,96,102,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
@@ -81,9 +81,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 32423,1af66b53,GitHub,349ac2b1,data/349ac2b1/test/1af66b53.rb,5,5,T,F,26,154,F,F,Any,,,Secret,3.91,128,F,F,F,Key
 32760,df518d32,GitHub,349ac2b1,data/349ac2b1/test/df518d32.rb,457,457,F,T,,,F,F,CharsOnly,,,Secret,2.52,7,F,F,F,Password
 32768,af643ff6,GitHub,349ac2b1,data/349ac2b1/test/af643ff6.rb,244,244,F,T,,,F,F,CharsOnly,,,Secret,2.52,7,F,F,F,Password
-33830,7afa5933,GitHub,349ac2b1,data/349ac2b1/test/7afa5933.rb,6,6,Template,F,30,50,F,F,CharsOnly,,,Token,4.32,20,F,F,F,Token
-34010,feca55b8,GitHub,349ac2b1,data/349ac2b1/test/feca55b8.rb,7,7,Template,T,33,44,F,F,CharsOnly,,,Secret,3.28,11,F,F,F,Password
-34011,feca55b8,GitHub,349ac2b1,data/349ac2b1/test/feca55b8.rb,31,31,Template,T,33,39,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
+33830,7afa5933,GitHub,349ac2b1,data/349ac2b1/test/7afa5933.rb,6,6,Template,F,30,50,F,F,CharsOnly,,,Token,4.32,20,F,F,F,Auth
+34010,feca55b8,GitHub,349ac2b1,data/349ac2b1/test/feca55b8.rb,7,7,Template,T,33,44,F,F,CharsOnly,,,Secret,3.28,11,F,F,F,Secret
+34011,feca55b8,GitHub,349ac2b1,data/349ac2b1/test/feca55b8.rb,31,31,Template,T,33,39,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Secret
 34190,94e52ffc,GitHub,349ac2b1,data/349ac2b1/test/94e52ffc.rb,326,326,Template,T,81,88,F,F,CharsOnly,,,Secret,2.52,7,F,F,F,Password
 34213,2e1903b6,GitHub,349ac2b1,data/349ac2b1/test/2e1903b6.rb,157,157,F,T,38,60,F,F,Any,,,Token,3.38,22,F,F,F,Token
 34228,af643ff6,GitHub,349ac2b1,data/349ac2b1/test/af643ff6.rb,164,164,T,T,52,57,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
@@ -92,7 +92,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 34467,0ebf4c65,GitHub,349ac2b1,data/349ac2b1/test/0ebf4c65.rb,70,70,T,T,11,18,F,F,CharsOnly,,,Secret,2.24,7,F,F,F,Password
 34469,0ebf4c65,GitHub,349ac2b1,data/349ac2b1/test/0ebf4c65.rb,19,19,T,T,11,24,F,F,CharsOnly,,,Secret,3.09,13,F,F,F,Password
 34523,f6924d3e,GitHub,349ac2b1,data/349ac2b1/test/f6924d3e.rb,207,207,Template,T,24,36,F,F,Any,,,Secret,2.95,12,F,F,F,Password
-34703,902720ba,GitHub,349ac2b1,data/349ac2b1/test/902720ba.rb,83,83,T,T,43,54,F,F,Any,,,Unknown,2.96,11,F,F,F,Secret
+34703,902720ba,GitHub,349ac2b1,data/349ac2b1/test/902720ba.rb,83,83,T,T,43,54,F,F,Any,,,Unknown,2.96,11,F,F,F,Key
 34752,eb9ab6bb,GitHub,349ac2b1,data/349ac2b1/test/eb9ab6bb.rb,100,100,Template,T,27,34,F,F,CharsOnly,,,Secret,2.52,7,F,F,F,Password
 34829,808d8f9d,GitHub,349ac2b1,data/349ac2b1/test/808d8f9d.rb,100,100,F,T,30,42,F,F,CharsOnly,,,Secret,3.08,12,F,F,F,Password
 34830,808d8f9d,GitHub,349ac2b1,data/349ac2b1/test/808d8f9d.rb,77,77,Template,T,30,46,F,F,Any,,,Secret,3.25,16,F,F,F,Password
@@ -102,8 +102,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 34845,808d8f9d,GitHub,349ac2b1,data/349ac2b1/test/808d8f9d.rb,59,59,Template,T,27,39,F,F,Any,,,Secret,2.95,12,F,F,F,Password
 36763,af643ff6,GitHub,349ac2b1,data/349ac2b1/test/af643ff6.rb,263,263,F,T,,,F,F,CharsOnly,,,Secret,2.52,7,F,F,F,Password
 36764,af643ff6,GitHub,349ac2b1,data/349ac2b1/test/af643ff6.rb,274,274,F,T,,,F,F,CharsOnly,,,Secret,2.52,7,F,F,F,Password
-37086,feca55b8,GitHub,349ac2b1,data/349ac2b1/test/feca55b8.rb,69,69,Template,T,33,39,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
-37087,feca55b8,GitHub,349ac2b1,data/349ac2b1/test/feca55b8.rb,75,75,Template,T,33,39,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
+37086,feca55b8,GitHub,349ac2b1,data/349ac2b1/test/feca55b8.rb,69,69,Template,T,33,39,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Secret
+37087,feca55b8,GitHub,349ac2b1,data/349ac2b1/test/feca55b8.rb,75,75,Template,T,33,39,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Secret
 37163,f6924d3e,GitHub,349ac2b1,data/349ac2b1/test/f6924d3e.rb,228,228,Template,T,11,23,F,F,Any,,,Secret,2.95,12,F,F,F,Password
 37195,f6924d3e,GitHub,349ac2b1,data/349ac2b1/test/f6924d3e.rb,229,229,Template,T,24,36,F,F,Any,,,Secret,2.95,12,F,F,F,Password
 37225,eb9ab6bb,GitHub,349ac2b1,data/349ac2b1/test/eb9ab6bb.rb,114,114,Template,T,27,34,F,F,CharsOnly,,,Secret,2.52,7,F,F,F,Password

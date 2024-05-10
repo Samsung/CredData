@@ -566,7 +566,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 29649,bf6d4af2,GitHub,81cd05d0,data/81cd05d0/src/bf6d4af2.json,120940,120940,F,F,17,22,F,F,,,,,0,0,F,F,F,Token
 29665,334b19eb,GitHub,81cd05d0,data/81cd05d0/src/334b19eb.json,32667,32667,T,F,20,41,F,F,Any,,,Secret,2.95,21,F,F,F,Password
 29666,cb502bda,GitHub,81cd05d0,data/81cd05d0/src/cb502bda.json,82910,82910,T,F,17,53,F,F,Any,,,Token,3.18,36,F,F,F,Token
-29667,02fd2d8d,GitHub,81cd05d0,data/81cd05d0/src/02fd2d8d.json,915872,915872,Template,F,19,48,F,F,Any,,JSON Web Token,Token,3.43,29,F,F,F,Predefined Pattern
+29667,02fd2d8d,GitHub,81cd05d0,data/81cd05d0/src/02fd2d8d.json,915872,915872,Template,F,19,48,F,F,Any,,JSON Web Token,Token,3.43,29,F,F,F,Token
 29807,bf6d4af2,GitHub,81cd05d0,data/81cd05d0/src/bf6d4af2.json,121139,121139,Template,F,32,44,F,F,NumbersOnly,,,Secret,0,12,F,F,F,Password
 30063,bf6d4af2,GitHub,81cd05d0,data/81cd05d0/src/bf6d4af2.json,121137,121137,Template,F,35,47,F,F,NumbersOnly,,,Secret,0,12,F,F,F,Password
 32888,58013633,GitHub,81cd05d0,data/81cd05d0/test/58013633.java,122,122,T,F,29,84,F,F,Any,,,Token,5.09,55,F,F,F,Token
@@ -717,7 +717,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 42428,bf6d4af2,GitHub,81cd05d0,data/81cd05d0/src/bf6d4af2.json,121704,121704,Template,F,32,44,F,F,NumbersOnly,,,Secret,0,12,F,F,F,Password
 42553,bc39da73,GitHub,81cd05d0,data/81cd05d0/src/bc39da73.json,164438,164438,T,T,12,32,F,F,Any,,AWS Client ID,Token,3.68,20,F,F,F,AWS Client ID
 42870,c21f9f59,GitHub,81cd05d0,data/81cd05d0/src/c21f9f59.json,4,4,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-43100,02fd2d8d,GitHub,81cd05d0,data/81cd05d0/src/02fd2d8d.json,916987,916987,Template,F,19,48,F,F,Any,,JSON Web Token,Token,3.43,29,F,F,F,Predefined Pattern
+43100,02fd2d8d,GitHub,81cd05d0,data/81cd05d0/src/02fd2d8d.json,916987,916987,Template,F,19,48,F,F,Any,,JSON Web Token,Token,3.43,29,F,F,F,Token
 43149,088d0e81,GitHub,81cd05d0,data/81cd05d0/src/088d0e81.java,151,151,T,T,47,67,F,F,Any,,AWS Client ID,Token,3.68,20,F,F,F,AWS Client ID
 43150,088d0e81,GitHub,81cd05d0,data/81cd05d0/src/088d0e81.java,157,157,T,T,54,74,F,F,Any,,AWS Client ID,Token,3.68,20,F,F,F,AWS Client ID
 43151,088d0e81,GitHub,81cd05d0,data/81cd05d0/src/088d0e81.java,168,168,T,T,47,67,F,F,Any,,AWS Client ID,Token,3.68,20,F,F,F,AWS Client ID
@@ -726,13 +726,13 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 43154,088d0e81,GitHub,81cd05d0,data/81cd05d0/src/088d0e81.java,190,190,T,T,54,74,F,F,Any,,AWS Client ID,Token,3.68,20,F,F,F,AWS Client ID
 43160,bc39da73,GitHub,81cd05d0,data/81cd05d0/src/bc39da73.json,163872,163872,T,T,17,37,F,F,Any,,AWS Client ID,Token,3.68,20,F,F,F,Key
 43161,bc39da73,GitHub,81cd05d0,data/81cd05d0/src/bc39da73.json,164864,164864,T,T,17,37,F,F,Any,,AWS Client ID,Token,3.68,20,F,F,F,Key
-43162,631b3f02,GitHub,81cd05d0,data/81cd05d0/src/631b3f02.json,291273,291273,T,T,266,286,F,F,Any,,AWS Client ID,Token,3.68,20,F,F,F,Predefined Pattern
-43163,631b3f02,GitHub,81cd05d0,data/81cd05d0/src/631b3f02.json,291492,291492,T,T,266,286,F,F,Any,,AWS Client ID,Token,3.68,20,F,F,F,Predefined Pattern
-43164,631b3f02,GitHub,81cd05d0,data/81cd05d0/src/631b3f02.json,291495,291495,T,T,281,301,F,F,Any,,AWS Client ID,Token,3.68,20,F,F,F,Predefined Pattern
-43165,631b3f02,GitHub,81cd05d0,data/81cd05d0/src/631b3f02.json,291497,291497,T,T,275,295,F,F,Any,,AWS Client ID,Token,3.68,20,F,F,F,Predefined Pattern
-43166,631b3f02,GitHub,81cd05d0,data/81cd05d0/src/631b3f02.json,291531,291531,T,T,275,295,F,F,Any,,AWS Client ID,Token,3.68,20,F,F,F,Predefined Pattern
-43167,631b3f02,GitHub,81cd05d0,data/81cd05d0/src/631b3f02.json,291546,291546,T,T,281,301,F,F,Any,,AWS Client ID,Token,3.68,20,F,F,F,Predefined Pattern
-43168,631b3f02,GitHub,81cd05d0,data/81cd05d0/src/631b3f02.json,291552,291552,T,T,266,286,F,F,Any,,AWS Client ID,Token,3.68,20,F,F,F,Predefined Pattern
+43162,631b3f02,GitHub,81cd05d0,data/81cd05d0/src/631b3f02.json,291273,291273,T,T,266,286,F,F,Any,,AWS Client ID,Token,3.68,20,F,F,F,AWS Client ID
+43163,631b3f02,GitHub,81cd05d0,data/81cd05d0/src/631b3f02.json,291492,291492,T,T,266,286,F,F,Any,,AWS Client ID,Token,3.68,20,F,F,F,AWS Client ID
+43164,631b3f02,GitHub,81cd05d0,data/81cd05d0/src/631b3f02.json,291495,291495,T,T,281,301,F,F,Any,,AWS Client ID,Token,3.68,20,F,F,F,AWS Client ID
+43165,631b3f02,GitHub,81cd05d0,data/81cd05d0/src/631b3f02.json,291497,291497,T,T,275,295,F,F,Any,,AWS Client ID,Token,3.68,20,F,F,F,AWS Client ID
+43166,631b3f02,GitHub,81cd05d0,data/81cd05d0/src/631b3f02.json,291531,291531,T,T,275,295,F,F,Any,,AWS Client ID,Token,3.68,20,F,F,F,AWS Client ID
+43167,631b3f02,GitHub,81cd05d0,data/81cd05d0/src/631b3f02.json,291546,291546,T,T,281,301,F,F,Any,,AWS Client ID,Token,3.68,20,F,F,F,AWS Client ID
+43168,631b3f02,GitHub,81cd05d0,data/81cd05d0/src/631b3f02.json,291552,291552,T,T,266,286,F,F,Any,,AWS Client ID,Token,3.68,20,F,F,F,AWS Client ID
 46556,58013633,GitHub,81cd05d0,data/81cd05d0/test/58013633.java,124,124,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 46573,58013633,GitHub,81cd05d0,data/81cd05d0/test/58013633.java,129,129,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 46613,58013633,GitHub,81cd05d0,data/81cd05d0/test/58013633.java,132,132,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -755,11 +755,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 52045,5af86f05,GitHub,81cd05d0,data/81cd05d0/src/5af86f05.java,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Token
 52046,f4403e98,GitHub,81cd05d0,data/81cd05d0/src/f4403e98.java,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Token
 52047,254c7e39,GitHub,81cd05d0,data/81cd05d0/src/254c7e39.java,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Token
-52122,4d678f09,GitHub,81cd05d0,data/81cd05d0/test/4d678f09.java,151,151,F,T,161,225,F,F,Any,,,Secret,3.73,64,F,F,F,Secret
-52123,4d678f09,GitHub,81cd05d0,data/81cd05d0/test/4d678f09.java,154,154,F,T,174,238,F,F,Any,,,Secret,3.97,64,F,F,F,Secret
+52122,4d678f09,GitHub,81cd05d0,data/81cd05d0/test/4d678f09.java,151,151,F,T,161,225,F,F,Any,,,Secret,3.73,64,F,F,F,Bitbucket Client Secret
+52123,4d678f09,GitHub,81cd05d0,data/81cd05d0/test/4d678f09.java,154,154,F,T,174,238,F,F,Any,,,Secret,3.97,64,F,F,F,Bitbucket Client Secret
 52124,4d678f09,GitHub,81cd05d0,data/81cd05d0/test/4d678f09.java,85,85,F,T,141,205,F,F,Any,,,Secret,3.90,64,F,F,F,Secret
-52125,4d678f09,GitHub,81cd05d0,data/81cd05d0/test/4d678f09.java,88,88,F,T,154,218,F,F,Any,,,Secret,3.82,64,F,F,F,Secret
-52126,4d678f09,GitHub,81cd05d0,data/81cd05d0/test/4d678f09.java,249,249,F,T,139,203,F,F,Any,,,Secret,3.69,64,F,F,F,Secret
+52125,4d678f09,GitHub,81cd05d0,data/81cd05d0/test/4d678f09.java,88,88,F,T,154,218,F,F,Any,,,Secret,3.82,64,F,F,F,Bitbucket Client Secret
+52126,4d678f09,GitHub,81cd05d0,data/81cd05d0/test/4d678f09.java,249,249,F,T,139,203,F,F,Any,,,Secret,3.69,64,F,F,F,Bitbucket Client Secret
 52495,167483d3,GitHub,81cd05d0,data/81cd05d0/src/167483d3.json,145845,145845,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 52496,167483d3,GitHub,81cd05d0,data/81cd05d0/src/167483d3.json,145854,145854,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 52497,167483d3,GitHub,81cd05d0,data/81cd05d0/src/167483d3.json,148099,148099,F,F,,,F,F,,,,,0,0,F,F,F,Secret

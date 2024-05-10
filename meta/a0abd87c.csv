@@ -62,9 +62,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 21580,fcb28afe,GitHub,a0abd87c,data/a0abd87c/other/fcb28afe.md,119,119,F,F,,,F,F,,,,,0,0,F,F,F,Token
 22696,fcb28afe,GitHub,a0abd87c,data/a0abd87c/other/fcb28afe.md,103,103,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 22697,bcdc9806,GitHub,a0abd87c,data/a0abd87c/other/bcdc9806.md,44,44,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-30513,506440c8,GitHub,a0abd87c,data/a0abd87c/other/506440c8.md,22,22,Template,T,11,25,F,F,Any,,,Secret,3.11,14,F,F,F,Password
-32704,ee18e1cb,GitHub,a0abd87c,data/a0abd87c/test/ee18e1cb.py,25,25,T,F,13,45,F,F,Any,,,Secret,3.61,32,F,F,F,Secret
-32705,29093b48,GitHub,a0abd87c,data/a0abd87c/test/29093b48.py,48,48,T,F,13,45,F,F,Any,,,Secret,4.56,32,F,F,F,Secret
+30513,506440c8,GitHub,a0abd87c,data/a0abd87c/other/506440c8.md,22,22,Template,T,11,25,F,F,Any,,,Secret,3.11,14,F,F,F,Secret
+32704,ee18e1cb,GitHub,a0abd87c,data/a0abd87c/test/ee18e1cb.py,25,25,T,F,13,45,F,F,Any,,,Secret,3.61,32,F,F,F,Bitbucket Client Secret
+32705,29093b48,GitHub,a0abd87c,data/a0abd87c/test/29093b48.py,48,48,T,F,13,45,F,F,Any,,,Secret,4.56,32,F,F,F,Bitbucket Client Secret
 34345,fcb28afe,GitHub,a0abd87c,data/a0abd87c/other/fcb28afe.md,118,118,T,F,16,154,F,F,Any,,,Token,5.35,138,F,F,F,Token
 34390,6743e0de,GitHub,a0abd87c,data/a0abd87c/other/6743e0de.md,59,59,T,F,16,154,F,F,Any,,,Token,5.35,138,F,F,F,Token
 34460,fcb28afe,GitHub,a0abd87c,data/a0abd87c/other/fcb28afe.md,88,88,T,F,17,124,F,F,Any,,,Token,5.49,107,F,F,F,Token
@@ -73,7 +73,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 35635,ee18e1cb,GitHub,a0abd87c,data/a0abd87c/test/ee18e1cb.py,26,26,T,F,20,63,F,F,Any,,,Unknown,4.66,43,F,F,F,Key
 35786,ee18e1cb,GitHub,a0abd87c,data/a0abd87c/test/ee18e1cb.py,29,29,T,F,25,111,F,F,Any,,,Key,5.46,86,F,F,F,API
 35796,ee18e1cb,GitHub,a0abd87c,data/a0abd87c/test/ee18e1cb.py,28,28,T,F,25,132,F,F,Any,,,Token,5.49,107,F,F,F,Token
-35945,29093b48,GitHub,a0abd87c,data/a0abd87c/test/29093b48.py,65,65,T,F,9,41,F,F,Any,,,SeedSalt,4.69,32,F,F,F,Nonce
+35945,29093b48,GitHub,a0abd87c,data/a0abd87c/test/29093b48.py,65,65,T,F,9,41,F,F,Any,,,SeedSalt,4.69,32,F,F,F,Bitbucket Client Secret
 36255,5246398e,GitHub,a0abd87c,data/a0abd87c/src/5246398e.py,152,152,F,F,17,145,F,F,,,,,0,0,F,F,F,Token
 36256,ccaf232a,GitHub,a0abd87c,data/a0abd87c/src/ccaf232a.rst,87,87,T,F,17,145,F,F,,,,,0,0,F,F,F,Token
 36306,29093b48,GitHub,a0abd87c,data/a0abd87c/test/29093b48.py,133,133,T,F,16,102,F,F,Any,,,Key,5.15,86,F,F,F,API
@@ -126,9 +126,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 101262,29093b48,GitHub,a0abd87c,data/a0abd87c/test/29093b48.py,83,83,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 101263,fcb28afe,GitHub,a0abd87c,data/a0abd87c/other/fcb28afe.md,74,74,Template,T,32,41,F,F,CharOnly,,,Secret,2.73,9,F,F,F,Password
 101264,dcdf77ab,GitHub,a0abd87c,data/a0abd87c/src/dcdf77ab.rst,16,16,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-101265,dcdf77ab,GitHub,a0abd87c,data/a0abd87c/src/dcdf77ab.rst,215,215,Template,T,47,56,F,F,CharOnly,,,Secret,2.73,9,F,F,F,Password
-101266,dcdf77ab,GitHub,a0abd87c,data/a0abd87c/src/dcdf77ab.rst,306,306,Template,T,47,56,F,F,CharOnly,,,Secret,2.73,9,F,F,F,Password
-101267,a555c539,GitHub,a0abd87c,data/a0abd87c/src/a555c539.py,337,337,Template,T,47,56,F,F,CharOnly,,,Secret,2.73,9,F,F,F,Password
+101265,dcdf77ab,GitHub,a0abd87c,data/a0abd87c/src/dcdf77ab.rst,215,215,Template,T,47,56,F,F,CharOnly,,,Secret,2.73,9,F,F,F,Secret
+101266,dcdf77ab,GitHub,a0abd87c,data/a0abd87c/src/dcdf77ab.rst,306,306,Template,T,47,56,F,F,CharOnly,,,Secret,2.73,9,F,F,F,Secret
+101267,a555c539,GitHub,a0abd87c,data/a0abd87c/src/a555c539.py,337,337,Template,T,47,56,F,F,CharOnly,,,Secret,2.73,9,F,F,F,Secret
 110594,dcdf77ab,GitHub,a0abd87c,data/a0abd87c/src/dcdf77ab.rst,19,19,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
 110595,dcdf77ab,GitHub,a0abd87c,data/a0abd87c/src/dcdf77ab.rst,20,20,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
 110596,dcdf77ab,GitHub,a0abd87c,data/a0abd87c/src/dcdf77ab.rst,18,18,F,F,,,F,F,,,,,0.00,,F,F,F,Token

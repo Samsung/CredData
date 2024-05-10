@@ -118,7 +118,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 30833,0623d5cf,GitHub,389fd795,data/389fd795/test/0623d5cf.go,22,22,T,F,28,44,F,F,NumbersOnly,,,Token,0,16,F,F,F,Token
 31389,4887442f,GitHub,389fd795,data/389fd795/test/4887442f.go,311,311,T,F,44,88,F,F,Any,,,Unknown,4.86,44,F,F,F,Key
 31392,4887442f,GitHub,389fd795,data/389fd795/test/4887442f.go,101,101,T,F,39,83,F,F,Any,,,Unknown,4.86,44,F,F,F,Key
-31450,6faf9d66,GitHub,389fd795,data/389fd795/test/6faf9d66.go,763,763,Template,T,15,21,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
+31450,6faf9d66,GitHub,389fd795,data/389fd795/test/6faf9d66.go,763,763,Template,T,15,21,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Secret
 32404,872aebd1,GitHub,389fd795,data/389fd795/test/872aebd1.go,28,28,F,F,27,40,F,F,,,,,0,0,F,F,F,Token
 35744,c159516b,GitHub,389fd795,data/389fd795/test/c159516b.go,185,185,T,F,25,54,F,F,Any,,,Token,4.28,29,F,F,F,Token
 35745,c159516b,GitHub,389fd795,data/389fd795/test/c159516b.go,65,65,T,F,25,54,F,F,Any,,,Token,4.19,29,F,F,F,Token
@@ -170,9 +170,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 82397,8fcb61fc,GitHub,389fd795,data/389fd795/test/8fcb61fc.go,631,631,F,F,5,12,F,F,,,,,0,0,F,F,F,Secret
 82398,6faf9d66,GitHub,389fd795,data/389fd795/test/6faf9d66.go,776,776,F,F,41,47,F,F,,,,,0,0,F,F,F,Secret
 82399,6faf9d66,GitHub,389fd795,data/389fd795/test/6faf9d66.go,1062,1062,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-82400,6faf9d66,GitHub,389fd795,data/389fd795/test/6faf9d66.go,1765,1765,Template,T,15,21,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
-82401,6faf9d66,GitHub,389fd795,data/389fd795/test/6faf9d66.go,1786,1786,Template,T,15,21,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
-82402,6faf9d66,GitHub,389fd795,data/389fd795/test/6faf9d66.go,1795,1795,Template,T,15,21,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
+82400,6faf9d66,GitHub,389fd795,data/389fd795/test/6faf9d66.go,1765,1765,Template,T,15,21,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Secret
+82401,6faf9d66,GitHub,389fd795,data/389fd795/test/6faf9d66.go,1786,1786,Template,T,15,21,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Secret
+82402,6faf9d66,GitHub,389fd795,data/389fd795/test/6faf9d66.go,1795,1795,Template,T,15,21,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Secret
 82405,5be09764,GitHub,389fd795,data/389fd795/test/5be09764.go,115,115,F,F,12,16,F,F,,,,,0,0,F,F,F,Secret
 82406,5be09764,GitHub,389fd795,data/389fd795/test/5be09764.go,116,116,F,F,27,31,F,F,,,,,0,0,F,F,F,Secret
 107853,c35e6b52,GitHub,389fd795,data/389fd795/src/c35e6b52.go,146,146,F,F,,,F,F,,,,,0.00,,F,F,F,Token

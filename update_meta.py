@@ -55,13 +55,15 @@ def main(output_json, meta_dir):
             continue
         if 1 == len(meta_list):
             m = copy.deepcopy(meta_list[0])
-            if 0 <= m.ValueStart == meta_cred.strip_value_start and 0 <= m.ValueEnd == meta_cred.strip_value_end:
-                if meta_cred.rule != m.Category:
+            if 0 <= m.ValueStart == meta_cred.strip_value_start and 0 <= m.ValueEnd == meta_cred.strip_value_end \
+                    or 0 > m.ValueEnd and m.ValueStart == meta_cred.strip_value_start \
+                    or 0 > m.ValueStart and 0 > m.ValueEnd:
+                if meta_cred.rule not in m.Category:
                     m.Category = meta_cred.rule
                     # print(f"check\n{str(meta_cred)}\n{chr(0x0A).join(str(x) for x in meta_list)}\n\n")
                     subprocess.run(
                         ["sed", "-i",
-                         "s|" + str(meta_list[0]) + "|"+str(m)+"|",
+                         "s|" + str(m) + "|"+str(m)+f":{meta_cred.rule}|",
                          f"meta/{m.RepoName}.csv"])
                 # m.ValueStart = meta_cred.strip_value_start
                 # m.ValueEnd = meta_cred.strip_value_end

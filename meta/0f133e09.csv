@@ -715,17 +715,17 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 28988,5e62348b,GitHub,0f133e09,data/0f133e09/test/5e62348b.py,52,52,F,F,46,52,F,F,Any,,,Unknown,2.58,6,F,F,F,Info
 29321,eca12c0a,GitHub,0f133e09,data/0f133e09/other/eca12c0a.md,89,89,Template,T,12,23,F,F,Any,,,Secret,2.96,11,F,F,F,Password
 29342,eca12c0a,GitHub,0f133e09,data/0f133e09/other/eca12c0a.md,90,90,Template,T,15,23,F,F,Any,,,Token,2.62,8,F,F,F,Token
-29536,5e62348b,GitHub,0f133e09,data/0f133e09/test/5e62348b.py,30,30,Template,T,22,43,F,F,Any,,,Secret,3.14,21,F,F,F,Password
+29536,5e62348b,GitHub,0f133e09,data/0f133e09/test/5e62348b.py,30,30,Template,T,22,43,F,F,Any,,,Secret,3.14,21,F,F,F,Secret
 29607,6ec6580c,GitHub,0f133e09,data/0f133e09/test/6ec6580c.txt,7,7,T,F,19,59,F,F,NumbersOnly,,,Secret,3.32,40,F,F,F,Secret
-29610,3e8093f9,GitHub,0f133e09,data/0f133e09/test/3e8093f9.txt,32,32,F,F,22,402,T,F,Any,,,Unknown,5.83,380,F,F,F,Secret
+29610,3e8093f9,GitHub,0f133e09,data/0f133e09/test/3e8093f9.txt,32,32,F,F,22,402,T,F,Any,,,Unknown,5.83,380,F,F,F,Key
 29611,a0a75a16,GitHub,0f133e09,data/0f133e09/test/a0a75a16.txt,7,7,F,T,9,397,F,F,Any,,,Unknown,5.83,388,F,F,F,Secret
 29612,6d89ddbd,GitHub,0f133e09,data/0f133e09/test/6d89ddbd.txt,7,7,F,T,9,397,F,F,Any,,,Unknown,5.83,388,F,F,F,Secret
-29614,6d89ddbd,GitHub,0f133e09,data/0f133e09/test/6d89ddbd.txt,10,10,F,T,57,437,T,F,Any,,,Unknown,5.83,380,F,F,F,Secret
-29616,a0a75a16,GitHub,0f133e09,data/0f133e09/test/a0a75a16.txt,10,10,F,T,57,437,T,F,Any,,,Unknown,5.83,380,F,F,F,Secret
+29614,6d89ddbd,GitHub,0f133e09,data/0f133e09/test/6d89ddbd.txt,10,10,F,T,57,437,T,F,Any,,,Unknown,5.83,380,F,F,F,Key
+29616,a0a75a16,GitHub,0f133e09,data/0f133e09/test/a0a75a16.txt,10,10,F,T,57,437,T,F,Any,,,Unknown,5.83,380,F,F,F,Key
 30738,d90d9e92,GitHub,0f133e09,data/0f133e09/test/d90d9e92.py,375,375,T,F,15,55,F,F,NumbersOnly,,,Secret,3.32,40,F,F,F,Secret
-30876,d4a67d01,GitHub,0f133e09,data/0f133e09/test/d4a67d01.txt,10,10,F,F,57,437,T,F,Any,,,PublicKey,5.84,380,F,F,F,Secret
-30877,d6019b5f,GitHub,0f133e09,data/0f133e09/test/d6019b5f.txt,10,10,F,T,74,454,T,F,Any,,,Unknown,5.83,380,F,F,F,Secret
-30883,7400d4c5,GitHub,0f133e09,data/0f133e09/test/7400d4c5.txt,10,10,F,F,9,389,F,F,Any,,,Unknown,5.84,380,F,F,F,Secret
+30876,d4a67d01,GitHub,0f133e09,data/0f133e09/test/d4a67d01.txt,10,10,F,F,57,437,T,F,Any,,,PublicKey,5.84,380,F,F,F,Key
+30877,d6019b5f,GitHub,0f133e09,data/0f133e09/test/d6019b5f.txt,10,10,F,T,74,454,T,F,Any,,,Unknown,5.83,380,F,F,F,Key
+30883,7400d4c5,GitHub,0f133e09,data/0f133e09/test/7400d4c5.txt,10,10,F,F,9,389,F,F,Any,,,Unknown,5.84,380,F,F,F,Key
 30951,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,10,10,T,T,110,130,T,F,Any,,AWS Client ID,Secret,3.78,20,F,F,F,Predefined Pattern
 136763,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,10,10,T,F,8,37,F,F,,,,,0.0,0,F,F,F,Other
 30984,5e62348b,GitHub,0f133e09,data/0f133e09/test/5e62348b.py,56,56,F,F,33,39,F,F,Any,,,Unknown,2.58,6,F,F,F,Info
@@ -1935,8 +1935,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 107295,0c13b160,GitHub,0f133e09,data/0f133e09/test/0c13b160.py,82,82,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 107296,d2a1ed30,GitHub,0f133e09,data/0f133e09/test/d2a1ed30.py,69,69,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 107297,bf1f825a,GitHub,0f133e09,data/0f133e09/test/bf1f825a.txt,10,10,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
-107299,9c0f3a30,GitHub,0f133e09,data/0f133e09/test/9c0f3a30.txt,28,28,Template,T,55,87,F,F,Any,,,Secret,3.53,32,F,F,F,Password
-107300,541cad72,GitHub,0f133e09,data/0f133e09/test/541cad72.txt,28,28,Template,T,19,51,F,F,Any,,,Secret,3.53,32,F,F,F,Password
+107299,9c0f3a30,GitHub,0f133e09,data/0f133e09/test/9c0f3a30.txt,28,28,Template,T,55,87,F,F,Any,,,Secret,3.53,32,F,F,F,Auth
+107300,541cad72,GitHub,0f133e09,data/0f133e09/test/541cad72.txt,28,28,Template,T,19,51,F,F,Any,,,Secret,3.53,32,F,F,F,Auth
 107301,25bf4114,GitHub,0f133e09,data/0f133e09/test/25bf4114.txt,28,28,F,T,19,51,F,F,Any,,,Secret,3.53,32,F,F,F,Auth
 107302,d90d9e92,GitHub,0f133e09,data/0f133e09/test/d90d9e92.py,48,48,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 113958,d266e2f8,GitHub,0f133e09,data/0f133e09/test/d266e2f8.py,142,142,F,F,,,F,F,,,,,0.00,,F,F,F,Auth

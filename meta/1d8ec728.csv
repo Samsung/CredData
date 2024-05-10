@@ -5,7 +5,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 5622,ed87cf4e,GitHub,1d8ec728,data/1d8ec728/test/ed87cf4e.php,83,83,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 5623,ed87cf4e,GitHub,1d8ec728,data/1d8ec728/test/ed87cf4e.php,85,85,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 5646,83fd9a06,GitHub,1d8ec728,data/1d8ec728/test/83fd9a06.php,77,77,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-5648,dda1f668,GitHub,1d8ec728,data/1d8ec728/test/dda1f668.php,161,161,Template,F,19,25,T,F,Any,,,Secret,1.82,6,F,F,T,Password
+5648,dda1f668,GitHub,1d8ec728,data/1d8ec728/test/dda1f668.php,161,161,Template,F,19,25,T,F,Any,,,Secret,1.82,6,F,F,T,URL Credentials
 5649,83fd9a06,GitHub,1d8ec728,data/1d8ec728/test/83fd9a06.php,78,78,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 5674,43cc6424,GitHub,1d8ec728,data/1d8ec728/test/43cc6424.php,144,144,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 5675,83fd9a06,GitHub,1d8ec728,data/1d8ec728/test/83fd9a06.php,74,74,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
@@ -41,29 +41,29 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 23753,ed2ca8ce,GitHub,1d8ec728,data/1d8ec728/test/ed2ca8ce.php,844,844,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 29116,2420b207,GitHub,1d8ec728,data/1d8ec728/test/2420b207.php,239,239,Template,T,20,44,F,F,Any,,,Secret,3.47,24,F,F,F,Password
 29595,f8e3b441,GitHub,1d8ec728,data/1d8ec728/other/f8e3b441.md,206,206,Template,T,12,26,F,F,Any,,,Token,3.12,14,F,F,F,Token
-29608,89992649,GitHub,1d8ec728,data/1d8ec728/other/89992649.md,145,145,Template,T,46,54,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+29608,89992649,GitHub,1d8ec728,data/1d8ec728/other/89992649.md,145,145,Template,T,46,54,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Secret
 29844,94779cbb,GitHub,1d8ec728,data/1d8ec728/test/94779cbb.php,29,29,Template,T,18,29,F,F,CharsOnly,,,Token,3.28,11,F,F,F,Token
 30495,632248a1,GitHub,1d8ec728,data/1d8ec728/test/632248a1.php,48,48,Template,T,19,23,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-31024,b73c7e93,GitHub,1d8ec728,data/1d8ec728/test/b73c7e93.php,65,65,Template,T,23,29,T,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
+31024,b73c7e93,GitHub,1d8ec728,data/1d8ec728/test/b73c7e93.php,65,65,Template,T,23,29,T,F,CharsOnly,,,Secret,2.25,6,F,F,F,URL Credentials
 31067,9a6d8adf,GitHub,1d8ec728,data/1d8ec728/test/9a6d8adf.php,113,113,Template,F,13,16,T,F,Any,,,Secret,0,3,F,F,F,Password
 31077,9a6d8adf,GitHub,1d8ec728,data/1d8ec728/test/9a6d8adf.php,156,156,Template,F,18,21,T,F,Any,,,Secret,0,3,F,F,F,Password
 31479,89992649,GitHub,1d8ec728,data/1d8ec728/other/89992649.md,163,163,Template,F,66,69,F,F,CharsOnly,,,Secret,0.92,3,F,F,F,Password
 32706,9a6d8adf,GitHub,1d8ec728,data/1d8ec728/test/9a6d8adf.php,106,106,T,T,47,53,T,F,Any,,,Secret,1.82,6,F,F,T,URL Credentials
-32707,9a6d8adf,GitHub,1d8ec728,data/1d8ec728/test/9a6d8adf.php,154,154,Template,F,35,41,T,F,Any,,,Secret,1.82,6,F,F,T,Password
+32707,9a6d8adf,GitHub,1d8ec728,data/1d8ec728/test/9a6d8adf.php,154,154,Template,F,35,41,T,F,Any,,,Secret,1.82,6,F,F,T,URL Credentials
 34035,bda46dd0,GitHub,1d8ec728,data/1d8ec728/test/bda46dd0.php,30,30,Template,T,18,32,F,F,CharsOnly,,,Token,3.04,14,F,F,F,Token
 34091,bda46dd0,GitHub,1d8ec728,data/1d8ec728/test/bda46dd0.php,26,26,T,T,25,37,F,F,Any,,,Unknown,3.12,12,F,F,F,Key
-34294,2efd6594,GitHub,1d8ec728,data/1d8ec728/other/2efd6594.md,164,164,Template,T,25,33,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-34576,62153845,GitHub,1d8ec728,data/1d8ec728/test/62153845.php,63,63,Template,T,42,52,T,F,Any,,,Secret,2.79,10,F,F,T,Password
-34580,62153845,GitHub,1d8ec728,data/1d8ec728/test/62153845.php,81,81,Template,T,42,50,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-34592,62153845,GitHub,1d8ec728,data/1d8ec728/test/62153845.php,130,130,Template,T,42,50,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+34294,2efd6594,GitHub,1d8ec728,data/1d8ec728/other/2efd6594.md,164,164,Template,T,25,33,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
+34576,62153845,GitHub,1d8ec728,data/1d8ec728/test/62153845.php,63,63,Template,T,42,52,T,F,Any,,,Secret,2.79,10,F,F,T,URL Credentials
+34580,62153845,GitHub,1d8ec728,data/1d8ec728/test/62153845.php,81,81,Template,T,42,50,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
+34592,62153845,GitHub,1d8ec728,data/1d8ec728/test/62153845.php,130,130,Template,T,42,50,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
 36048,a871cf33,GitHub,1d8ec728,data/1d8ec728/test/a871cf33.php,46,46,Template,T,23,27,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-36472,9a6d8adf,GitHub,1d8ec728,data/1d8ec728/test/9a6d8adf.php,98,98,Template,F,29,35,T,F,Any,,,Secret,1.82,6,F,F,T,Password
+36472,9a6d8adf,GitHub,1d8ec728,data/1d8ec728/test/9a6d8adf.php,98,98,Template,F,29,35,T,F,Any,,,Secret,1.82,6,F,F,T,URL Credentials
 36473,7fc01820,GitHub,1d8ec728,data/1d8ec728/test/7fc01820.php,275,275,Template,T,11,15,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-37207,62153845,GitHub,1d8ec728,data/1d8ec728/test/62153845.php,97,97,Template,T,42,50,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-37208,62153845,GitHub,1d8ec728,data/1d8ec728/test/62153845.php,113,113,Template,T,42,50,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-37209,62153845,GitHub,1d8ec728,data/1d8ec728/test/62153845.php,218,218,Template,T,42,50,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-37210,62153845,GitHub,1d8ec728,data/1d8ec728/test/62153845.php,233,233,Template,T,42,50,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-37213,62153845,GitHub,1d8ec728,data/1d8ec728/test/62153845.php,150,150,Template,T,42,50,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+37207,62153845,GitHub,1d8ec728,data/1d8ec728/test/62153845.php,97,97,Template,T,42,50,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
+37208,62153845,GitHub,1d8ec728,data/1d8ec728/test/62153845.php,113,113,Template,T,42,50,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
+37209,62153845,GitHub,1d8ec728,data/1d8ec728/test/62153845.php,218,218,Template,T,42,50,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
+37210,62153845,GitHub,1d8ec728,data/1d8ec728/test/62153845.php,233,233,Template,T,42,50,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
+37213,62153845,GitHub,1d8ec728,data/1d8ec728/test/62153845.php,150,150,Template,T,42,50,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
 41110,ebc17e86,GitHub,1d8ec728,data/1d8ec728/src/ebc17e86.php,187,187,F,F,,,F,F,,,,,0,0,F,F,F,Password
 41111,6694caa9,GitHub,1d8ec728,data/1d8ec728/src/6694caa9.php,198,198,F,F,,,F,F,,,,,0,0,F,F,F,Password
 41112,6694caa9,GitHub,1d8ec728,data/1d8ec728/src/6694caa9.php,210,210,T,F,27,33,F,F,,,,,0,0,F,F,F,Password
