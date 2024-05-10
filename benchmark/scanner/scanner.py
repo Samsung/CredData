@@ -328,30 +328,13 @@ class Scanner(ABC):
                     if row["GroundTruth"] == "T":
                         self.true_cnt += 1
                         self._increase_result_dict_cnt(row["Category"], True)
-                        # print(f"TRUE:{file_path},{line_start},{line_end},{value_start},{value_end},{rule}   {row}")
                         return LineStatus.TRUE, project_id, file_id
                     elif row["GroundTruth"] == "F" or row["GroundTruth"] == "Template":
                         self.false_cnt += 1
                         self._increase_result_dict_cnt(row["Category"], False)
-                        # print(f"FALSE:{file_path},{line_start},{line_end},{value_start},{value_end},{rule}   {row}")
                         return LineStatus.FALSE, project_id, file_id
         self.lost_cnt += 1
         print(f"{suggestion} {approximate}", flush=True)
-        with open(data_path, "r", encoding="utf8") as f:
-            lines = f.read().split('\n')
-        print('\n'.join(x.strip() for x in lines[line_start - 1:line_end]))
-        if suggestion.startswith("NEARBY"):
-            # with open(f"meta/{repo_name}.csv", 'a') as f:
-            #     f.write(f"{approximate}\n")
-            subprocess.run(
-                ["sed", "-i",
-                 "s|"
-                 f",{data_path},{line_start},{line_end},Template,\\([TF]\\),{value_start},[0-9]*,"
-                 "|"
-                 f",{data_path},{line_start},{line_end},F,\\1,{value_start},{value_end},"
-                 "|",
-                 f"meta/{repo_name}.csv"])
-
         self.next_id += 1
         return LineStatus.NOT_IN_DB, project_id, file_id
 
