@@ -56,7 +56,7 @@ def main(output_json, meta_dir):
         if 1 == len(meta_list):
             m = copy.deepcopy(meta_list[0])
             if 0 <= m.ValueStart == meta_cred.strip_value_start and 0 <= m.ValueEnd == meta_cred.strip_value_end:
-                if m.Category != meta_cred.rule:
+                if meta_cred.rule != m.Category:
                     m.Category = meta_cred.rule
                     # print(f"check\n{str(meta_cred)}\n{chr(0x0A).join(str(x) for x in meta_list)}\n\n")
                     subprocess.run(
