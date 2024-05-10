@@ -374,7 +374,7 @@ def replace_rows(data: List[Dict[str, str]]):
 
         file_location = row["FilePath"]
 
-        with open(file_location, "r", encoding="utf8") as f:
+        with open(file_location, "r", encoding="utf8", errors='ignore') as f:
             lines = f.read()
         lines = lines.split("\n")
 

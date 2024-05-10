@@ -22,7 +22,7 @@ from meta_row import read_meta
 
 
 def read_data(path, line_start, line_end, value_start, value_end, ground_truth, creds: List[MetaCred]):
-    with open(path, "r", encoding="utf8") as f:
+    with open(path, "r", encoding="utf8", errors='ignore') as f:
         lines = f.read().split('\n')
     if line_start == line_end:
         cred_line = lines[line_start - 1]
