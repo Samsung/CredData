@@ -159,7 +159,7 @@ jobs:
         run: |
           # in case of difference - diff returns failure
           if ! diff --color=auto review_base/review_base.txt review_head/review_head.txt &>review_diff.txt; then
-            while IFS= read -r line; do echo -n $line; echo -e '\033[m'; done <review_diff.txt | ansi2html --style 'pre {font-family: monospace; font-size: large}' >review_diff.html
+            cat review_diff.txt | ansi2html --style 'pre {font-family: monospace; font-size: large}' >review_diff.html
           else
             touch review_diff.html
           fi
