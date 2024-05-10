@@ -7,25 +7,27 @@ Run the script with report obtained without ML and filters
 import copy
 import json
 import os
-import subprocess
 import sys
 from argparse import ArgumentParser
+from pathlib import Path
 from typing import Tuple, Dict, List
 
 from meta_cred import MetaCred
-from meta_row import MetaRow, read_meta
+from meta_row import MetaRow, _get_source_gen
 
 
 def prepare_meta(meta_dir) -> Dict[Tuple[str, int, int], List[MetaRow]]:
     meta_dict = {}
-    meta = read_meta(meta_dir)
-    for meta_row in meta:
+
+    for row in _get_source_gen(Path(meta_dir)):
+        meta_row = MetaRow(row)
         meta_key = (meta_row.FilePath, meta_row.LineStart, meta_row.LineEnd)
         if meta_list := meta_dict.get(meta_key):
             meta_list.append(meta_row)
             meta_dict[meta_key] = meta_list
         else:
             meta_dict[meta_key] = [meta_row]
+
     return meta_dict
 
 
@@ -52,7 +54,7 @@ def main(output_json, meta_dir):
             continue
         if 1 == len(meta_list):
             m = copy.deepcopy(meta_list[0])
-            if m.LineStart == m.LineEnd and m.ValueStart>=0 and m.ValueStart != meta_cred.strip_value_start \
+            if m.LineStart == m.LineEnd and m.ValueStart >= 0 and m.ValueStart != meta_cred.strip_value_start \
                     and 1 == len(cred["line_data_list"]):
                 # one line markup
                 print(f"check\n{str(meta_cred)}\n{chr(0x0A).join(str(x) for x in meta_list)}\n\n")
@@ -68,7 +70,7 @@ def main(output_json, meta_dir):
                 m.ValueStart = meta_cred.strip_value_start
                 m.ValueEnd = meta_cred.strip_value_end
                 m.Category = meta_cred.rule
-                m.GroundTruth='T' # to be obfuscated
+                m.GroundTruth = 'T'  # to be obfuscated
                 m.Id = next_meta_id
                 next_meta_id += 1
                 with open(f"meta/{m.RepoName}.csv", "a") as f:
@@ -102,6 +104,7 @@ def main(output_json, meta_dir):
         else:
             raise RuntimeError(str(cred))
     print(f"not found {notfound} incorrect {incorrect}")
+    return 0
 
 
 if __name__ == "__main__":
