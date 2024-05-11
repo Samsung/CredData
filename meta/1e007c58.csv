@@ -38,9 +38,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 24777,21dc9dca,GitHub,1e007c58,data/1e007c58/src/21dc9dca.go,22,22,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 24778,21dc9dca,GitHub,1e007c58,data/1e007c58/src/21dc9dca.go,26,26,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 24779,21dc9dca,GitHub,1e007c58,data/1e007c58/src/21dc9dca.go,23,23,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-28784,7fd7d2c8,GitHub,1e007c58,data/1e007c58/test/7fd7d2c8.go,26,26,T,F,92,124,F,F,Any,,,Secret,3.71,32,F,F,F,Bitbucket Client Secret
-30609,26058707,GitHub,1e007c58,data/1e007c58/test/26058707.go,12,12,Template,T,17,30,F,F,CharsOnly,,,Key,3.09,13,F,F,F,Key
-30616,26058707,GitHub,1e007c58,data/1e007c58/test/26058707.go,13,13,Template,T,17,30,F,F,CharsOnly,,,Secret,3.03,13,F,F,F,Key
+28784,7fd7d2c8,GitHub,1e007c58,data/1e007c58/test/7fd7d2c8.go,26,26,T,F,92,124,F,F,Any,,,Secret,3.71,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Secret
+30609,26058707,GitHub,1e007c58,data/1e007c58/test/26058707.go,12,12,Template,T,17,30,F,F,CharsOnly,,,Key,3.09,13,F,F,F,API:Key
+30616,26058707,GitHub,1e007c58,data/1e007c58/test/26058707.go,13,13,Template,T,17,30,F,F,CharsOnly,,,Secret,3.03,13,F,F,F,API:Key:Secret
 41526,d8d87df6,GitHub,1e007c58,data/1e007c58/src/d8d87df6.go,508,508,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 41527,c79b11f4,GitHub,1e007c58,data/1e007c58/src/c79b11f4.go,213,213,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 41528,4c2fad54,GitHub,1e007c58,data/1e007c58/src/4c2fad54.go,34,34,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -90,9 +90,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 82618,4c2fad54,GitHub,1e007c58,data/1e007c58/src/4c2fad54.go,297,297,F,F,34,48,F,F,,,,,0,0,F,F,F,Predefined Pattern
 82619,4c2fad54,GitHub,1e007c58,data/1e007c58/src/4c2fad54.go,368,368,F,F,34,48,F,F,,,,,0,0,F,F,F,Predefined Pattern
 82620,21dc9dca,GitHub,1e007c58,data/1e007c58/src/21dc9dca.go,24,24,F,F,31,49,F,F,,,,,0,0,F,F,F,Predefined Pattern
-82621,26058707,GitHub,1e007c58,data/1e007c58/test/26058707.go,21,21,Template,T,17,30,F,F,CharsOnly,,,Secret,3.03,13,F,F,F,Secret
+82621,26058707,GitHub,1e007c58,data/1e007c58/test/26058707.go,21,21,Template,T,17,30,F,F,CharsOnly,,,Secret,3.03,13,F,F,F,Key:Secret
 101439,353aa75d,GitHub,1e007c58,data/1e007c58/src/353aa75d.go,39,39,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-101440,2c9566ed,GitHub,1e007c58,data/1e007c58/src/2c9566ed.go,23,23,Template,T,24,44,F,F,Any,,,Secret,2.77,20,F,F,F,Password
+101440,2c9566ed,GitHub,1e007c58,data/1e007c58/src/2c9566ed.go,23,23,Template,T,24,44,F,F,Any,,,Secret,2.77,20,F,F,F,Gitlab Feed Token:Password
 110648,c79b11f4,GitHub,1e007c58,data/1e007c58/src/c79b11f4.go,195,195,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
 110649,c79b11f4,GitHub,1e007c58,data/1e007c58/src/c79b11f4.go,199,199,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
 110650,c79b11f4,GitHub,1e007c58,data/1e007c58/src/c79b11f4.go,203,203,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern

@@ -21,20 +21,20 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 29253,3b519499,GitHub,fec1969a,data/fec1969a/other/3b519499.md,165,165,T,F,12,62,F,F,NumbersOnly,,,Secret,0,50,F,F,F,Secret
 29256,aa2bad02,GitHub,fec1969a,data/fec1969a/src/aa2bad02.js,134,134,T,F,12,62,F,F,NumbersOnly,,,Secret,0,50,F,F,F,Secret
 29257,3b519499,GitHub,fec1969a,data/fec1969a/other/3b519499.md,157,157,T,F,12,44,F,F,NumbersOnly,,,Secret,0,32,F,F,F,Secret
-29263,3b519499,GitHub,fec1969a,data/fec1969a/other/3b519499.md,160,160,F,T,8,79,F,F,Any,,,Google Multi,2.17,71,F,F,F,Unknown
+29263,3b519499,GitHub,fec1969a,data/fec1969a/other/3b519499.md,160,160,F,T,8,79,F,F,Any,,,Google Multi,2.17,71,F,F,F,Unknown:notfound
 29967,3b519499,GitHub,fec1969a,data/fec1969a/other/3b519499.md,170,170,Template,T,10,28,F,F,Any,,,Secret,3.11,18,F,F,F,Secret
 30045,21b1fe66,GitHub,fec1969a,data/fec1969a/src/21b1fe66.yml,47,47,Template,T,5,9,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-30058,b15a1989,GitHub,fec1969a,data/fec1969a/test/b15a1989.js,279,279,Template,T,34,44,F,F,Any,,,Secret,2.59,10,F,F,F,Secret
-30061,b15a1989,GitHub,fec1969a,data/fec1969a/test/b15a1989.js,285,285,Template,T,34,48,F,F,Any,,,Secret,2.78,14,F,F,F,Secret
-30069,b15a1989,GitHub,fec1969a,data/fec1969a/test/b15a1989.js,281,281,Template,T,34,44,F,F,Any,,,Secret,2.79,10,F,F,F,Secret
-30734,0a9556b4,GitHub,fec1969a,data/fec1969a/test/0a9556b4.js,9,9,Template,T,41,63,F,F,Any,,,Token,2.71,22,F,F,F,Token
+30058,b15a1989,GitHub,fec1969a,data/fec1969a/test/b15a1989.js,279,279,Template,T,34,44,F,F,Any,,,Secret,2.59,10,F,F,F,Auth:Secret
+30061,b15a1989,GitHub,fec1969a,data/fec1969a/test/b15a1989.js,285,285,Template,T,34,48,F,F,Any,,,Secret,2.78,14,F,F,F,Auth:Secret
+30069,b15a1989,GitHub,fec1969a,data/fec1969a/test/b15a1989.js,281,281,Template,T,34,44,F,F,Any,,,Secret,2.79,10,F,F,F,Auth:Secret
+30734,0a9556b4,GitHub,fec1969a,data/fec1969a/test/0a9556b4.js,9,9,Template,T,41,63,F,F,Any,,,Token,2.71,22,F,F,F,Secret:Token
 30862,fdbb5ade,GitHub,fec1969a,data/fec1969a/test/fdbb5ade.html,5,5,F,F,18,89,F,F,,,,,0,0,F,F,F,Secret
 34170,21b1fe66,GitHub,fec1969a,data/fec1969a/src/21b1fe66.yml,40,40,T,T,10,16,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
 34198,21b1fe66,GitHub,fec1969a,data/fec1969a/src/21b1fe66.yml,61,61,T,T,5,11,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
 34199,21b1fe66,GitHub,fec1969a,data/fec1969a/src/21b1fe66.yml,65,65,T,T,5,11,F,F,CharsOnly,,,Secret,1.92,6,F,F,F,Password
 34284,21b1fe66,GitHub,fec1969a,data/fec1969a/src/21b1fe66.yml,43,43,T,T,10,16,F,F,CharsOnly,,,Secret,1.92,6,F,F,F,Password
-34917,22718529,GitHub,fec1969a,data/fec1969a/test/22718529.js,135,135,T,T,15,22,F,F,Any,,,Token,2.81,7,F,F,F,Secret
-35431,43be0f56,GitHub,fec1969a,data/fec1969a/test/43be0f56.js,54,54,T,T,46,53,F,F,Any,,,Token,2.81,7,F,F,F,Secret
+34917,22718529,GitHub,fec1969a,data/fec1969a/test/22718529.js,135,135,T,T,15,22,F,F,Any,,,Token,2.81,7,F,F,F,Secret:Token
+35431,43be0f56,GitHub,fec1969a,data/fec1969a/test/43be0f56.js,54,54,T,T,46,53,F,F,Any,,,Token,2.81,7,F,F,F,Secret:Token
 35767,23d1d221,GitHub,fec1969a,data/fec1969a/src/23d1d221.js,70,70,Template,T,25,29,T,F,Any,,,Secret,1.50,4,F,F,F,Password
 41109,21b1fe66,GitHub,fec1969a,data/fec1969a/src/21b1fe66.yml,69,69,F,F,,,F,F,,,,,0,0,F,F,F,Password
 42024,aa2bad02,GitHub,fec1969a,data/fec1969a/src/aa2bad02.js,138,138,Template,F,12,44,F,F,NumbersOnly,,,Secret,0,32,F,F,F,Secret

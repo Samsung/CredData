@@ -69,10 +69,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 25300,3706378d,GitHub,5f62aae4,data/5f62aae4/test/3706378d.html,18,18,F,F,,,F,F,,,,,0,0,F,F,F,Password
 27400,37683e0f,GitHub,5f62aae4,data/5f62aae4/test/37683e0f.py,11,11,F,F,26,39,F,F,,,,,0,0,F,F,F,Password
 27599,de9ce27d,GitHub,5f62aae4,data/5f62aae4/test/de9ce27d.py,5,5,F,F,65,80,F,F,,,,,0,0,F,F,F,Predefined Pattern
-27772,0aad1ebd,GitHub,5f62aae4,data/5f62aae4/test/0aad1ebd.rst,24,24,T,T,44,59,F,F,Any,,,Unknown,3.25,15,F,F,F,Unknown
+27772,0aad1ebd,GitHub,5f62aae4,data/5f62aae4/test/0aad1ebd.rst,24,24,T,T,44,59,F,F,Any,,,Unknown,3.25,15,F,F,F,Unknown:notfound
 29250,2b8eecd7,GitHub,5f62aae4,data/5f62aae4/test/2b8eecd7.py,184,184,Template,T,26,30,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-30067,612c455e,GitHub,5f62aae4,data/5f62aae4/test/612c455e.py,6,6,Template,F,14,23,F,F,NumbersOnly,,,Secret,3.17,9,F,F,F,Secret
-33816,37683e0f,GitHub,5f62aae4,data/5f62aae4/test/37683e0f.py,12,12,T,F,26,55,F,F,CharsOnly,,,SeedSalt,4.12,29,F,F,F,Password
+30067,612c455e,GitHub,5f62aae4,data/5f62aae4/test/612c455e.py,6,6,Template,F,14,23,F,F,NumbersOnly,,,Secret,3.17,9,F,F,F,Key:Secret
+33816,37683e0f,GitHub,5f62aae4,data/5f62aae4/test/37683e0f.py,12,12,T,F,26,55,F,F,CharsOnly,,,SeedSalt,4.12,29,F,F,F,Password:Salt
 58006,b10cd7f7,GitHub,5f62aae4,data/5f62aae4/src/b10cd7f7.js,243,243,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 58007,02960178,GitHub,5f62aae4,data/5f62aae4/src/02960178.js,244,244,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 58008,aa35a772,GitHub,5f62aae4,data/5f62aae4/src/aa35a772.js,119,119,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
@@ -88,8 +88,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 58260,b10cd7f7,GitHub,5f62aae4,data/5f62aae4/src/b10cd7f7.js,4116,4116,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 61601,b10cd7f7,GitHub,5f62aae4,data/5f62aae4/src/b10cd7f7.js,597,597,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 61602,b10cd7f7,GitHub,5f62aae4,data/5f62aae4/src/b10cd7f7.js,6241,6241,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-61896,de9ce27d,GitHub,5f62aae4,data/5f62aae4/test/de9ce27d.py,2,2,Template,F,14,23,F,F,NumbersOnly,,,Secret,3.17,9,F,F,F,Secret
-61897,37683e0f,GitHub,5f62aae4,data/5f62aae4/test/37683e0f.py,2,2,Template,F,14,23,F,F,NumbersOnly,,,Secret,3.17,9,F,F,F,Secret
+61896,de9ce27d,GitHub,5f62aae4,data/5f62aae4/test/de9ce27d.py,2,2,Template,F,14,23,F,F,NumbersOnly,,,Secret,3.17,9,F,F,F,Key:Secret
+61897,37683e0f,GitHub,5f62aae4,data/5f62aae4/test/37683e0f.py,2,2,Template,F,14,23,F,F,NumbersOnly,,,Secret,3.17,9,F,F,F,Key:Secret
 64563,02960178,GitHub,5f62aae4,data/5f62aae4/src/02960178.js,3413,3413,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 64564,02960178,GitHub,5f62aae4,data/5f62aae4/src/02960178.js,3600,3600,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 64565,b10cd7f7,GitHub,5f62aae4,data/5f62aae4/src/b10cd7f7.js,5991,5991,F,F,,,F,F,,,,,0,0,F,F,F,Secret

@@ -23,7 +23,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 23418,0bc4739d,GitHub,6aae1316,data/6aae1316/src/0bc4739d.json,8,8,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 23449,20a593c4,GitHub,6aae1316,data/6aae1316/src/20a593c4.rb,39,39,F,F,,,F,F,,,,,0,0,F,F,F,Token
 23553,bc60f4ea,GitHub,6aae1316,data/6aae1316/src/bc60f4ea.rb,80,80,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-28859,d628a613,GitHub,6aae1316,data/6aae1316/src/d628a613.rb,26,26,Template,T,29,46,F,F,Any,,,Token,2.61,17,F,F,F,Token
+28859,d628a613,GitHub,6aae1316,data/6aae1316/src/d628a613.rb,26,26,Template,T,29,46,F,F,Any,,,Token,2.61,17,F,F,F,API:Token
 28923,22ac2671,GitHub,6aae1316,data/6aae1316/src/22ac2671.json,264,264,T,T,240,260,T,F,Any,,AWS Client ID,Secret,3.18,20,F,F,F,Predefined Pattern:AWS Client ID:Gitlab Feed Token
 28924,22ac2671,GitHub,6aae1316,data/6aae1316/src/22ac2671.json,186,186,T,T,240,260,T,F,Any,,AWS Client ID,Secret,3.18,20,F,F,F,Predefined Pattern:AWS Client ID:Gitlab Feed Token
 28941,a9ce2831,GitHub,6aae1316,data/6aae1316/src/a9ce2831.json,472,472,T,T,240,260,T,F,Any,,AWS Client ID,Secret,3.18,20,F,F,F,Predefined Pattern:AWS Client ID:Gitlab Feed Token
@@ -78,20 +78,20 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 29089,e038314c,GitHub,6aae1316,data/6aae1316/src/e038314c.json,134,134,T,T,240,260,T,F,Any,,AWS Client ID,Secret,3.18,20,F,F,F,Predefined Pattern:AWS Client ID:Gitlab Feed Token
 29738,293a543a,GitHub,6aae1316,data/6aae1316/src/293a543a.slim,251,251,Template,T,16,39,F,F,Any,,,Token,3.29,23,F,F,F,Token
 29739,293a543a,GitHub,6aae1316,data/6aae1316/src/293a543a.slim,250,250,Template,T,16,39,F,F,Any,,,Token,3.41,23,F,F,F,Token
-31334,25b3ab72,GitHub,6aae1316,data/6aae1316/src/25b3ab72.diff,280,280,Template,T,16,22,F,F,CharsOnly,,,Key,2.25,6,F,F,F,Key
+31334,25b3ab72,GitHub,6aae1316,data/6aae1316/src/25b3ab72.diff,280,280,Template,T,16,22,F,F,CharsOnly,,,Key,2.25,6,F,F,F,API:Key
 31448,31cb2a2e,GitHub,6aae1316,data/6aae1316/src/31cb2a2e.rb,11,11,F,F,42,50,F,F,Any,,,Secret,0,8,F,F,F,Password
 31453,9ba5270d,GitHub,6aae1316,data/6aae1316/src/9ba5270d.rb,11,11,F,F,39,47,F,F,Any,,,Token,0,8,F,F,F,Token
 32358,7add020c,GitHub,6aae1316,data/6aae1316/src/7add020c.rb,97,97,T,F,99,113,T,F,Any,,,Token,3.18,14,F,F,F,Token
 32359,7add020c,GitHub,6aae1316,data/6aae1316/src/7add020c.rb,98,98,T,F,118,132,T,F,Any,,,Token,3.18,14,F,F,F,Token
 32964,3ab46ee2,GitHub,6aae1316,data/6aae1316/src/3ab46ee2.yml,23,23,T,F,7,29,F,F,Any,,,Token,3.30,22,F,F,F,Token
 33928,a9ce2831,GitHub,6aae1316,data/6aae1316/src/a9ce2831.json,49,49,F,T,298,355,T,F,Any,,,Secret,4.55,57,F,F,F,Secret
-34807,284e02c6,GitHub,6aae1316,data/6aae1316/src/284e02c6.json,66,66,T,F,79,115,T,F,Any,,,Key,3.38,36,F,F,F,Unknown
-34826,7d88565f,GitHub,6aae1316,data/6aae1316/src/7d88565f.json,18,18,T,F,105,141,T,F,Any,,,Key,3.33,36,F,F,F,Unknown
+34807,284e02c6,GitHub,6aae1316,data/6aae1316/src/284e02c6.json,66,66,T,F,79,115,T,F,Any,,,Key,3.38,36,F,F,F,Unknown:notfound
+34826,7d88565f,GitHub,6aae1316,data/6aae1316/src/7d88565f.json,18,18,T,F,105,141,T,F,Any,,,Key,3.33,36,F,F,F,Unknown:notfound
 35815,f43bde42,GitHub,6aae1316,data/6aae1316/src/f43bde42.rb,504,504,F,F,134,148,T,F,Any,,,Token,3.18,14,F,F,F,Token
 35816,f43bde42,GitHub,6aae1316,data/6aae1316/src/f43bde42.rb,494,494,F,F,121,135,T,F,Any,,,Token,3.18,14,F,F,F,Token
 35817,f43bde42,GitHub,6aae1316,data/6aae1316/src/f43bde42.rb,489,489,F,F,113,127,T,F,Any,,,Token,3.18,14,F,F,F,Token
-37245,7d88565f,GitHub,6aae1316,data/6aae1316/src/7d88565f.json,66,66,T,F,105,141,T,F,Any,,,Key,3.33,36,F,F,F,Unknown
-37246,7d88565f,GitHub,6aae1316,data/6aae1316/src/7d88565f.json,122,122,T,F,105,141,T,F,Any,,,Key,3.33,36,F,F,F,Unknown
+37245,7d88565f,GitHub,6aae1316,data/6aae1316/src/7d88565f.json,66,66,T,F,105,141,T,F,Any,,,Key,3.33,36,F,F,F,Unknown:notfound
+37246,7d88565f,GitHub,6aae1316,data/6aae1316/src/7d88565f.json,122,122,T,F,105,141,T,F,Any,,,Key,3.33,36,F,F,F,Unknown:notfound
 37492,f43bde42,GitHub,6aae1316,data/6aae1316/src/f43bde42.rb,499,499,F,F,113,127,T,F,Any,,,Token,3.18,14,F,F,F,Token
 41572,a9ce2831,GitHub,6aae1316,data/6aae1316/src/a9ce2831.json,505,505,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 41573,a9ce2831,GitHub,6aae1316,data/6aae1316/src/a9ce2831.json,568,568,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -124,7 +124,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 41601,f43bde42,GitHub,6aae1316,data/6aae1316/src/f43bde42.rb,397,397,F,F,35,71,F,F,,,,,0,0,F,F,F,Secret
 42392,a9ce2831,GitHub,6aae1316,data/6aae1316/src/a9ce2831.json,342,342,T,T,240,260,T,F,Any,,AWS Client ID,Secret,3.18,20,F,F,F,Predefined Pattern:AWS Client ID:Gitlab Feed Token
 42393,a9ce2831,GitHub,6aae1316,data/6aae1316/src/a9ce2831.json,446,446,T,T,240,260,T,F,Any,,AWS Client ID,Secret,3.18,20,F,F,F,Predefined Pattern:AWS Client ID:Gitlab Feed Token
-42432,3ab46ee2,GitHub,6aae1316,data/6aae1316/src/3ab46ee2.yml,24,24,T,F,8,26,F,F,Any,,,Token,3.28,18,F,F,F,Token
+42432,3ab46ee2,GitHub,6aae1316,data/6aae1316/src/3ab46ee2.yml,24,24,T,F,8,26,F,F,Any,,,Token,3.28,18,F,F,F,Bitbucket Client ID:Token
 52935,a9ce2831,GitHub,6aae1316,data/6aae1316/src/a9ce2831.json,587,587,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 52936,a9ce2831,GitHub,6aae1316,data/6aae1316/src/a9ce2831.json,573,573,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 52937,e038314c,GitHub,6aae1316,data/6aae1316/src/e038314c.json,572,572,F,F,,,F,F,,,,,0,0,F,F,F,Auth

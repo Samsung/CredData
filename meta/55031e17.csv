@@ -117,10 +117,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 23906,8663f3f7,GitHub,55031e17,data/55031e17/src/8663f3f7.py,19,19,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 25503,e307c213,GitHub,55031e17,data/55031e17/src/e307c213.py,98,98,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 25505,e307c213,GitHub,55031e17,data/55031e17/src/e307c213.py,97,97,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-29415,e6d555e3,GitHub,55031e17,data/55031e17/test/e6d555e3.py,42,42,Template,T,41,47,F,F,CharsOnly,,,Unknown,2.65,10,F,F,F,Unknown
-29503,8afec6c9,GitHub,55031e17,data/55031e17/test/8afec6c9.py,16,16,T,F,15,30,F,F,Any,,,Secret,2.56,15,F,F,F,Dropbox App secret
+29415,e6d555e3,GitHub,55031e17,data/55031e17/test/e6d555e3.py,42,42,Template,T,41,47,F,F,CharsOnly,,,Unknown,2.65,10,F,F,F,Unknown:notfound
+29503,8afec6c9,GitHub,55031e17,data/55031e17/test/8afec6c9.py,16,16,T,F,15,30,F,F,Any,,,Secret,2.56,15,F,F,F,Dropbox App secret:Secret
 29535,5cb0936e,GitHub,55031e17,data/55031e17/test/5cb0936e.py,92,92,F,F,28,38,F,F,Any,,,Secret,0,10,F,F,F,Password
-29562,bdfb8299,GitHub,55031e17,data/55031e17/test/bdfb8299.py,1564,1564,F,T,29,39,F,F,CharsOnly,,,Unknown,2.65,10,F,F,F,Unknown
+29562,bdfb8299,GitHub,55031e17,data/55031e17/test/bdfb8299.py,1564,1564,F,T,29,39,F,F,CharsOnly,,,Unknown,2.65,10,F,F,F,Unknown:notfound
 29731,fadacae4,GitHub,55031e17,data/55031e17/test/fadacae4.py,240,240,Template,T,80,89,F,F,Any,,,Unknown,2.60,9,F,F,F,Secret
 30077,b4e617dc,GitHub,55031e17,data/55031e17/test/b4e617dc.py,431,431,F,F,36,44,F,F,,,,,0,0,F,F,F,Password
 30078,46e098d7,GitHub,55031e17,data/55031e17/test/46e098d7.py,25,25,F,F,45,48,F,F,,,,,0,0,F,F,F,Password
@@ -195,12 +195,12 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 46757,c54dd5aa,GitHub,55031e17,data/55031e17/test/c54dd5aa.py,302,302,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 46758,c54dd5aa,GitHub,55031e17,data/55031e17/test/c54dd5aa.py,310,310,F,F,,,F,F,,,,,0,0,F,F,F,Info
 46759,c54dd5aa,GitHub,55031e17,data/55031e17/test/c54dd5aa.py,307,307,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47488,48baa271,GitHub,55031e17,data/55031e17/test/48baa271.py,166,166,Template,T,38,45,F,F,CharOnly,,,Secret,2.81,7,F,F,F,Unknown
+47488,48baa271,GitHub,55031e17,data/55031e17/test/48baa271.py,166,166,Template,T,38,45,F,F,CharOnly,,,Secret,2.81,7,F,F,F,Unknown:notfound
 47507,eb752b5a,GitHub,55031e17,data/55031e17/test/eb752b5a.py,558,558,F,F,,,F,F,,,,,0,0,F,F,F,Password
 47534,bdfb8299,GitHub,55031e17,data/55031e17/test/bdfb8299.py,1403,1403,F,F,,,F,F,,,,,0,0,F,F,F,Info
 47539,c54dd5aa,GitHub,55031e17,data/55031e17/test/c54dd5aa.py,297,297,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 47597,c54dd5aa,GitHub,55031e17,data/55031e17/test/c54dd5aa.py,305,305,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47599,bdfb8299,GitHub,55031e17,data/55031e17/test/bdfb8299.py,1433,1433,T,F,15,47,F,F,Any,,,Unknown,3.86,32,F,F,F,Bitbucket Client Secret
+47599,bdfb8299,GitHub,55031e17,data/55031e17/test/bdfb8299.py,1433,1433,T,F,15,47,F,F,Any,,,Unknown,3.86,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret
 47621,9538e70c,GitHub,55031e17,data/55031e17/test/9538e70c.py,124,124,F,F,,,F,F,,,,,0,0,F,F,F,Info
 47624,e6d555e3,GitHub,55031e17,data/55031e17/test/e6d555e3.py,415,415,F,F,,,F,F,,,,,0,0,F,F,F,Info
 47633,c54dd5aa,GitHub,55031e17,data/55031e17/test/c54dd5aa.py,246,246,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
@@ -210,7 +210,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 47953,c54dd5aa,GitHub,55031e17,data/55031e17/test/c54dd5aa.py,338,338,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 49194,5af72409,GitHub,55031e17,data/55031e17/test/5af72409.py,11,11,F,F,,,F,F,,,,,0,0,F,F,F,Password
 50368,b4e617dc,GitHub,55031e17,data/55031e17/test/b4e617dc.py,140,140,F,F,,,F,F,,,,,0,0,F,F,F,Info
-51011,cb11ba4c,GitHub,55031e17,data/55031e17/test/cb11ba4c.py,107,107,F,F,39,48,T,F,Any,,,Unknown,2.95,9,F,F,F,Unknown
+51011,cb11ba4c,GitHub,55031e17,data/55031e17/test/cb11ba4c.py,107,107,F,F,39,48,T,F,Any,,,Unknown,2.95,9,F,F,F,Unknown:notfound
 52019,cb11ba4c,GitHub,55031e17,data/55031e17/test/cb11ba4c.py,154,154,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 52020,cb11ba4c,GitHub,55031e17,data/55031e17/test/cb11ba4c.py,223,223,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 52021,cb11ba4c,GitHub,55031e17,data/55031e17/test/cb11ba4c.py,233,233,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern

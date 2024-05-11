@@ -7,7 +7,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 1464,65730f03,GitHub,54f6f35d,data/54f6f35d/src/65730f03.go,3121,3121,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 1467,b49e7ffe,GitHub,54f6f35d,data/54f6f35d/test/b49e7ffe.go,79,79,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 1624,57ec3d8d,GitHub,54f6f35d,data/54f6f35d/src/57ec3d8d.go,200,200,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-1715,7f6d95cc,GitHub,54f6f35d,data/54f6f35d/test/7f6d95cc.html,27,27,T,F,15,164,F,F,Any,,JSON Web Token,Token,5.35,149,F,F,F,JSON Web Token
+1715,7f6d95cc,GitHub,54f6f35d,data/54f6f35d/test/7f6d95cc.html,27,27,T,F,15,164,F,F,Any,,JSON Web Token,Token,5.35,149,F,F,F,JSON Web Token:Token
 1796,549bcc94,GitHub,54f6f35d,data/54f6f35d/test/549bcc94.js,9,9,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 2393,a4108aed,GitHub,54f6f35d,data/54f6f35d/test/a4108aed.go,205,205,Template,T,16,30,F,F,Any,,,Secret,3.05,14,F,F,F,Password
 2707,95e23b13,GitHub,54f6f35d,data/54f6f35d/src/95e23b13.go,133,133,F,F,,,F,F,,,,,0,0,F,F,F,Token
@@ -115,7 +115,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 26984,bf57d101,GitHub,54f6f35d,data/54f6f35d/test/bf57d101.go,69,69,Template,T,12,17,F,F,CharOnly,,,Secret,2.32,5,F,F,F,Password
 30101,6a60d77d,GitHub,54f6f35d,data/54f6f35d/test/6a60d77d.go,14,14,T,F,19,59,F,F,Any,,,Secret,4.20,40,F,F,F,Secret
 30892,47ef0082,GitHub,54f6f35d,data/54f6f35d/src/47ef0082.go,35,35,F,T,18,51,F,F,Any,,,Token,3.18,33,F,F,F,Token
-32398,1684838b,GitHub,54f6f35d,data/54f6f35d/test/1684838b.go,16,16,T,T,26,58,F,F,Any,,,Secret,3.45,32,F,F,F,Key
+32398,1684838b,GitHub,54f6f35d,data/54f6f35d/test/1684838b.go,16,16,T,T,26,58,F,F,Any,,,Secret,3.45,32,F,F,F,Key:Secret
 33702,1100d2c4,GitHub,54f6f35d,data/54f6f35d/test/1100d2c4.yml,8,8,Template,T,21,31,F,F,CharsOnly,,,Secret,2.92,10,F,F,F,Password
 34206,6a60d77d,GitHub,54f6f35d,data/54f6f35d/test/6a60d77d.go,13,13,F,F,19,59,F,F,,,,,0,0,F,F,F,Secret
 34403,f394589c,GitHub,54f6f35d,data/54f6f35d/test/f394589c.go,26,26,T,T,11,19,F,F,Any,,,Secret,2.38,8,F,F,F,Password

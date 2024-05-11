@@ -598,8 +598,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 27467,dd71110d,GitHub,b6b2487d,data/b6b2487d/src/dd71110d.json,334,334,F,F,13,19,F,F,,,,,0,0,F,F,F,Password
 27469,13236614,GitHub,b6b2487d,data/b6b2487d/src/13236614.json,335,335,F,F,13,25,F,F,,,,,0,0,F,F,F,Password
 27472,2a202127,GitHub,b6b2487d,data/b6b2487d/src/2a202127.json,363,363,F,F,13,20,F,F,,,,,0,0,F,F,F,Password
-28177,e1b00c5f,GitHub,b6b2487d,data/b6b2487d/src/e1b00c5f.properties,4,4,T,F,19,26,F,F,CharsOnly,,,Secret,2.52,7,F,F,F,Key
-28181,e1b00c5f,GitHub,b6b2487d,data/b6b2487d/src/e1b00c5f.properties,3,3,T,F,19,26,F,F,CharsOnly,,,Secret,2.52,7,F,F,F,Key
+28177,e1b00c5f,GitHub,b6b2487d,data/b6b2487d/src/e1b00c5f.properties,4,4,T,F,19,26,F,F,CharsOnly,,,Secret,2.52,7,F,F,F,Key:Password
+28181,e1b00c5f,GitHub,b6b2487d,data/b6b2487d/src/e1b00c5f.properties,3,3,T,F,19,26,F,F,CharsOnly,,,Secret,2.52,7,F,F,F,Key:Password
 28188,be007282,GitHub,b6b2487d,data/b6b2487d/test/be007282.example,218,218,T,F,20,28,F,F,Any,,,Secret,3.00,8,F,F,F,Password
 40075,dd71110d,GitHub,b6b2487d,data/b6b2487d/src/dd71110d.json,470,470,F,F,,,F,F,,,,,0,0,F,F,F,Password
 40076,2f5469a0,GitHub,b6b2487d,data/b6b2487d/src/2f5469a0.js,175,175,Template,T,13,25,F,F,Any,,,Secret,2.89,12,F,F,F,Password
@@ -1021,7 +1021,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 40492,91f1e137,GitHub,b6b2487d,data/b6b2487d/src/91f1e137.json,254,254,F,F,,,F,F,,,,,0,0,F,F,F,Password
 40493,91f1e137,GitHub,b6b2487d,data/b6b2487d/src/91f1e137.json,397,397,F,F,,,F,F,,,,,0,0,F,F,F,Password
 40494,91f1e137,GitHub,b6b2487d,data/b6b2487d/src/91f1e137.json,431,431,F,F,,,F,F,,,,,0,0,F,F,F,Password
-40495,56f78c25,GitHub,b6b2487d,data/b6b2487d/src/56f78c25.postinst,57,57,T,T,22,44,F,F,CharsOnly,,,Secret,3.57,22,F,F,F,Password
+40495,56f78c25,GitHub,b6b2487d,data/b6b2487d/src/56f78c25.postinst,57,57,T,T,22,44,F,F,CharsOnly,,,Secret,3.57,22,F,F,F,Auth:Password
 40496,56f78c25,GitHub,b6b2487d,data/b6b2487d/src/56f78c25.postinst,138,138,T,T,26,37,F,F,CharsOnly,,,Secret,3.10,11,F,F,F,Password
 41741,65d808ce,GitHub,b6b2487d,data/b6b2487d/src/65d808ce.json,304,304,F,F,,,F,F,,,,,0,0,F,F,F,Password
 41742,65d808ce,GitHub,b6b2487d,data/b6b2487d/src/65d808ce.json,451,451,F,F,,,F,F,,,,,0,0,F,F,F,Password

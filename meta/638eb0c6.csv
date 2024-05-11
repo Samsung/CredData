@@ -46,7 +46,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 31504,931e2c76,GitHub,638eb0c6,data/638eb0c6/test/931e2c76.ts,37,37,Template,T,43,63,F,F,Any,,,Secret,2.34,20,F,F,F,Secret
 32350,8e4a7d73,GitHub,638eb0c6,data/638eb0c6/other/8e4a7d73,3,3,Template,T,55,63,F,F,Any,,,Secret,2.75,8,F,F,F,Password
 32364,b3356305,GitHub,638eb0c6,data/638eb0c6/other/b3356305.md,116,116,F,T,91,108,T,F,Any,,,Secret,3.02,17,F,F,F,URL Credentials
-32385,8cd6fba0,GitHub,638eb0c6,data/638eb0c6/test/8cd6fba0.sql,11,11,Template,T,60,68,F,F,CharsOnly,,,Unknown,2.75,8,F,F,F,Unknown
+32385,8cd6fba0,GitHub,638eb0c6,data/638eb0c6/test/8cd6fba0.sql,11,11,Template,T,60,68,F,F,CharsOnly,,,Unknown,2.75,8,F,F,F,Unknown:notfound
 32411,df79c119,GitHub,638eb0c6,data/638eb0c6/test/df79c119.js,3,3,Template,T,33,45,T,F,Any,,,Secret,2.79,12,F,F,F,URL Credentials
 33005,b803fcb7,GitHub,638eb0c6,data/638eb0c6/src/b803fcb7.yml,36,36,T,T,39,47,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
 33961,b803fcb7,GitHub,638eb0c6,data/638eb0c6/src/b803fcb7.yml,61,61,T,T,19,27,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
@@ -66,7 +66,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 36202,a8678ed0,GitHub,638eb0c6,data/638eb0c6/test/a8678ed0.sql,25,25,T,F,111,117,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
 41098,b803fcb7,GitHub,638eb0c6,data/638eb0c6/src/b803fcb7.yml,37,37,T,T,33,41,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
 42499,b803fcb7,GitHub,638eb0c6,data/638eb0c6/src/b803fcb7.yml,38,38,T,T,43,51,T,F,CharOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-49197,d4451bab,GitHub,638eb0c6,data/638eb0c6/test/d4451bab.md,579,579,T,F,22,129,F,F,Any,,JSON Web Token,Token,4.97,107,F,F,F,Auth
+49197,d4451bab,GitHub,638eb0c6,data/638eb0c6/test/d4451bab.md,579,579,T,F,22,129,F,F,Any,,JSON Web Token,Token,4.97,107,F,F,F,Auth:JSON Web Token
 50332,04b06f40,GitHub,638eb0c6,data/638eb0c6/other/04b06f40.md,65,65,T,T,25,33,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
 74842,2ee8da4e,GitHub,638eb0c6,data/638eb0c6/src/2ee8da4e.ts,398,398,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 76811,d30cf858,GitHub,638eb0c6,data/638eb0c6/src/d30cf858.ts,81,81,F,F,,,F,F,,,,,0,0,F,F,F,Secret

@@ -40,7 +40,6 @@ def prepare_cred(meta_creds: List[dict]) -> Dict[Tuple[str, int, int], List[Meta
         meta_key = (meta_cred.path, meta_cred.line_start, meta_cred.line_end)
         if meta_list := cred_dict.get(meta_key):
             meta_list.append(meta_cred)
-            cred_dict[meta_key] = meta_list
         else:
             cred_dict[meta_key] = [meta_cred]
 
@@ -64,6 +63,13 @@ def main(output_json, meta_dir):
         if 1 == len(v):
             m = copy.deepcopy(v[0])
             creds = cred_dict.get(k)
+            if not creds:
+                m.Category += ':notfound'
+                subprocess.run(
+                    ["sed", "-i",
+                     "s|" + str(v[0]) + "|" + str(m) + "|",
+                     f"meta/{m.RepoName}.csv"])
+                continue
             # cred_rules=[] # sorted([x.rule for x in creds])
             if 0>m.ValueStart:
                 cred_rules = sorted([x.rule for x in creds])

@@ -14,31 +14,31 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 32152,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,85,85,T,F,34,66,F,F,CharsOnly,,,SeedSalt,4.05,25,F,F,F,Cryptographic Primitives:Nonce:Auth:Bitbucket Client Secret:Bitbucket Client ID
 137348,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,85,85,T,F,88,124,F,F,,,,,0.0,0,F,F,F,Auth
 135349,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,85,85,T,F,199,224,F,F,CharsOnly,,,SeedSalt,4.05,25,F,F,F,Cryptographic Primitives:Key:Auth
-32737,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,203,203,F,F,14,42,F,F,Any,,,Unknown,4.59,28,F,F,F,Unknown
-32742,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,29,29,F,F,88,136,F,F,Any,,,Auth,4.84,48,F,F,T,Unknown
-35377,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,68,68,T,F,15,65,F,F,Any,,,Unknown,4.92,50,F,F,F,Unknown
+32737,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,203,203,F,F,14,42,F,F,Any,,,Unknown,4.59,28,F,F,F,Unknown:notfound
+32742,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,29,29,F,F,88,136,F,F,Any,,,Auth,4.84,48,F,F,T,Unknown:notfound
+35377,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,68,68,T,F,15,65,F,F,Any,,,Unknown,4.92,50,F,F,F,Unknown:notfound
 35400,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,96,96,T,F,17,49,F,F,Any,,,Auth,4.60,32,F,F,F,Auth
-35401,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,124,124,T,F,19,64,F,F,Any,,,Auth,4.94,45,F,F,F,Unknown
-35402,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,123,123,T,F,13,63,F,F,Any,,,Auth,4.65,50,F,F,F,Unknown
+35401,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,124,124,T,F,19,64,F,F,Any,,,Auth,4.94,45,F,F,F,Unknown:notfound
+35402,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,123,123,T,F,13,63,F,F,Any,,,Auth,4.65,50,F,F,F,Unknown:notfound
 35632,b04b38d4,GitHub,a8bdca79,data/a8bdca79/src/b04b38d4.html,4,4,F,F,47,90,F,F,,,,,0,0,F,F,F,Secret
 35721,f94e9c95,GitHub,a8bdca79,data/a8bdca79/other/f94e9c95.md,24,24,T,F,86,96,T,F,Any,,,Token,3.12,10,F,F,F,Token
-36181,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,73,73,T,F,27,59,F,F,Any,,,SeedSalt,4.81,32,F,F,F,Bitbucket Client ID
-37437,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,92,92,T,F,15,65,F,F,Any,,,Unknown,4.92,50,F,F,F,Unknown
-37438,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,120,120,T,F,15,65,F,F,Any,,,Unknown,4.92,50,F,F,F,Unknown
-37622,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,100,100,T,F,27,59,F,F,Any,,,SeedSalt,4.81,32,F,F,F,Bitbucket Client ID
+36181,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,73,73,T,F,27,59,F,F,Any,,,SeedSalt,4.81,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret
+37437,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,92,92,T,F,15,65,F,F,Any,,,Unknown,4.92,50,F,F,F,Unknown:notfound
+37438,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,120,120,T,F,15,65,F,F,Any,,,Unknown,4.92,50,F,F,F,Unknown:notfound
+37622,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,100,100,T,F,27,59,F,F,Any,,,SeedSalt,4.81,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret
 49232,f94e9c95,GitHub,a8bdca79,data/a8bdca79/other/f94e9c95.md,80,80,F,F,,,F,F,,,,,0,0,F,F,F,Token
 49994,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,218,218,F,F,,,F,F,,,,,0,0,F,F,F,Info
 49996,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,229,229,F,F,,,F,F,,,,,0,0,F,F,F,Info
 49997,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,155,155,F,F,,,F,F,,,,,0,0,F,F,F,Info
-50296,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,131,131,T,F,32,64,F,F,Any,,,SeedSalt,4.81,32,F,F,F,Bitbucket Client ID
+50296,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,131,131,T,F,32,64,F,F,Any,,,SeedSalt,4.81,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret
 82735,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,227,227,Template,F,20,26,F,F,,,,,0,0,F,F,F,Secret
-108638,f94e9c95,GitHub,a8bdca79,data/a8bdca79/other/f94e9c95.md,70,70,Template,T,15,27,F,F,CharOnly,,,Secret,2.86,12,F,F,F,Unknown
+108638,f94e9c95,GitHub,a8bdca79,data/a8bdca79/other/f94e9c95.md,70,70,Template,T,15,27,F,F,CharOnly,,,Secret,2.86,12,F,F,F,Unknown:notfound
 108639,e8ba995b,GitHub,a8bdca79,data/a8bdca79/src/e8ba995b.java,81,81,F,F,,,F,F,,,,,0.00,,F,F,F,Token
 108640,e8ba995b,GitHub,a8bdca79,data/a8bdca79/src/e8ba995b.java,113,113,F,F,,,F,F,,,,,0.00,,F,F,F,Token
-108641,253c6330,GitHub,a8bdca79,data/a8bdca79/test/253c6330.java,26,26,Template,T,15,27,F,F,CharOnly,,,Secret,2.86,12,F,F,F,Unknown
-108642,253c6330,GitHub,a8bdca79,data/a8bdca79/test/253c6330.java,38,38,Template,T,15,27,F,F,CharOnly,,,Secret,2.86,12,F,F,F,Unknown
-108643,253c6330,GitHub,a8bdca79,data/a8bdca79/test/253c6330.java,60,60,Template,T,15,27,F,F,CharOnly,,,Secret,2.86,12,F,F,F,Unknown
-108644,253c6330,GitHub,a8bdca79,data/a8bdca79/test/253c6330.java,73,73,Template,T,15,27,F,F,CharOnly,,,Secret,2.86,12,F,F,F,Unknown
+108641,253c6330,GitHub,a8bdca79,data/a8bdca79/test/253c6330.java,26,26,Template,T,15,27,F,F,CharOnly,,,Secret,2.86,12,F,F,F,Unknown:notfound
+108642,253c6330,GitHub,a8bdca79,data/a8bdca79/test/253c6330.java,38,38,Template,T,15,27,F,F,CharOnly,,,Secret,2.86,12,F,F,F,Unknown:notfound
+108643,253c6330,GitHub,a8bdca79,data/a8bdca79/test/253c6330.java,60,60,Template,T,15,27,F,F,CharOnly,,,Secret,2.86,12,F,F,F,Unknown:notfound
+108644,253c6330,GitHub,a8bdca79,data/a8bdca79/test/253c6330.java,73,73,Template,T,15,27,F,F,CharOnly,,,Secret,2.86,12,F,F,F,Unknown:notfound
 108645,e8ba995b,GitHub,a8bdca79,data/a8bdca79/src/e8ba995b.java,168,168,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 108646,a3a7e022,GitHub,a8bdca79,data/a8bdca79/src/a3a7e022.java,220,220,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 108647,1a5f2491,GitHub,a8bdca79,data/a8bdca79/test/1a5f2491.java,74,74,F,F,,,F,F,,,,,0.00,,F,F,F,Auth

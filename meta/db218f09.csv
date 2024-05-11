@@ -126,11 +126,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 27431,23164cdb,GitHub,db218f09,data/db218f09/src/23164cdb.py,70,70,T,F,16,26,F,F,Any,,,Key,2.92,10,F,F,F,API
 27662,6aa5da84,GitHub,db218f09,data/db218f09/test/6aa5da84.py,824,824,T,F,31,37,F,F,CharsOnly,,,Unknown,2.25,6,F,F,F,Secret
 27737,04b0e957,GitHub,db218f09,data/db218f09/test/04b0e957.py,8,8,Template,T,24,29,F,F,CharsOnly,,,Unknown,3.00,8,F,F,F,Secret
-27796,7b3ed02b,GitHub,db218f09,data/db218f09/other/7b3ed02b.rst,153,153,Template,T,22,44,F,F,Any,,,Secret,2.87,22,F,F,F,Secret
-28085,6aa5da84,GitHub,db218f09,data/db218f09/test/6aa5da84.py,1026,1026,T,F,37,565,F,F,Any,,JSON Web Token,Token,5.57,528,F,F,F,Auth
-28086,6aa5da84,GitHub,db218f09,data/db218f09/test/6aa5da84.py,1013,1013,T,F,37,604,F,F,Any,,JSON Web Token,Token,5.61,567,F,F,F,Auth
+27796,7b3ed02b,GitHub,db218f09,data/db218f09/other/7b3ed02b.rst,153,153,Template,T,22,44,F,F,Any,,,Secret,2.87,22,F,F,F,Key:Secret
+28085,6aa5da84,GitHub,db218f09,data/db218f09/test/6aa5da84.py,1026,1026,T,F,37,565,F,F,Any,,JSON Web Token,Token,5.57,528,F,F,F,Auth:JSON Web Token
+28086,6aa5da84,GitHub,db218f09,data/db218f09/test/6aa5da84.py,1013,1013,T,F,37,604,F,F,Any,,JSON Web Token,Token,5.61,567,F,F,F,Auth:JSON Web Token
 33534,89d50865,GitHub,db218f09,data/db218f09/src/89d50865.rst,157,157,Template,T,48,58,F,F,CharsOnly,,,Secret,3.12,10,F,F,F,Password
-34234,89d50865,GitHub,db218f09,data/db218f09/src/89d50865.rst,160,160,T,F,10,223,F,F,Any,,JSON Web Token,Token,5.38,213,F,F,F,JSON Web Token
+34234,89d50865,GitHub,db218f09,data/db218f09/src/89d50865.rst,160,160,T,F,10,223,F,F,Any,,JSON Web Token,Token,5.38,213,F,F,F,JSON Web Token:Token
 36458,659838d1,GitHub,db218f09,data/db218f09/test/659838d1.py,277,277,F,F,14,46,F,F,,,,,0,0,F,F,F,Info
 43074,ff56562a,GitHub,db218f09,data/db218f09/src/ff56562a.py,72,72,F,F,,,F,F,,,,,0,0,F,F,F,Password
 46401,659838d1,GitHub,db218f09,data/db218f09/test/659838d1.py,251,251,F,F,,,F,F,,,,,0,0,F,F,F,Info
