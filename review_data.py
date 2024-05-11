@@ -20,6 +20,9 @@ from colorama import Fore, Back, Style
 from meta_cred import MetaCred
 from meta_row import read_meta
 
+EXIT_SUCCESS = 0
+EXIT_FAILURE = 1
+
 
 def read_data(path, line_start, line_end, value_start, value_end, ground_truth, creds: List[MetaCred]):
     with open(path, "r", encoding="utf8") as f:
@@ -94,7 +97,8 @@ def read_data(path, line_start, line_end, value_start, value_end, ground_truth, 
     print("\n\n")
 
 
-def main(meta_dir, data_dir, data_filter, load_json: Optional[str] = None, category: Optional[str] = None):
+def main(meta_dir, data_dir, data_filter, load_json: Optional[str] = None, category: Optional[str] = None) -> int:
+    error_code = EXIT_FAILURE
     if not os.path.exists(meta_dir):
         raise FileExistsError(f"{meta_dir} directory does not exist.")
     if not os.path.exists(data_dir):
@@ -133,7 +137,10 @@ def main(meta_dir, data_dir, data_filter, load_json: Optional[str] = None, categ
             break
         else:
             shown_rows.add(row_str)
+    else:
+        error_code = EXIT_SUCCESS
     print(f"Shown {displayed_rows} of {len(meta)}", flush=True)
+    return error_code
 
 
 if __name__ == "__main__":
