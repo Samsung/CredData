@@ -1,7 +1,6 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
 69,137f4881,GitHub,98800b86,data/98800b86/src/137f4881.py,203,203,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 74,b6810ea8,GitHub,98800b86,data/98800b86/test/b6810ea8.py,196,196,F,F,,,F,F,,,,,0,0,F,F,F,Password
-197,f509f734,GitHub,98800b86,data/98800b86/src/f509f734.py,271,271,F,F,,,F,F,,,,,0,0,F,F,F,Password
 1230,c0a35895,GitHub,98800b86,data/98800b86/src/c0a35895.py,115,115,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 1335,e3e5d8eb,GitHub,98800b86,data/98800b86/src/e3e5d8eb.py,79,79,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 1550,e3e5d8eb,GitHub,98800b86,data/98800b86/src/e3e5d8eb.py,71,71,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
@@ -82,7 +81,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 37307,3ec5c0d9,GitHub,98800b86,data/98800b86/test/3ec5c0d9.py,239,239,T,F,13,17,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
 37308,3ec5c0d9,GitHub,98800b86,data/98800b86/test/3ec5c0d9.py,272,272,T,F,13,17,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
 46737,68e2d702,GitHub,98800b86,data/98800b86/test/68e2d702.py,1548,1548,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-47022,3ec5c0d9,GitHub,98800b86,data/98800b86/test/3ec5c0d9.py,322,322,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 47140,68e2d702,GitHub,98800b86,data/98800b86/test/68e2d702.py,1540,1540,Template,T,10,44,F,F,Any,,,Secret,3.31,34,F,F,F,Generic Secret
 47542,0de0fea2,GitHub,98800b86,data/98800b86/test/0de0fea2.py,49,49,Template,T,75,81,F,F,CharOnly,,,Secret,2.25,6,F,F,F,Password
 47543,0de0fea2,GitHub,98800b86,data/98800b86/test/0de0fea2.py,43,43,Template,T,43,49,F,F,CharOnly,,,Secret,2.25,6,F,F,F,Password
@@ -108,15 +106,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 75391,f814a37e,GitHub,98800b86,data/98800b86/test/f814a37e.py,182,182,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 75392,f814a37e,GitHub,98800b86,data/98800b86/test/f814a37e.py,203,203,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 102550,137f4881,GitHub,98800b86,data/98800b86/src/137f4881.py,114,114,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-102551,a7e9a1ea,GitHub,98800b86,data/98800b86/test/a7e9a1ea.py,158,158,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-102552,a7e9a1ea,GitHub,98800b86,data/98800b86/test/a7e9a1ea.py,164,164,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-102553,60a9ccb7,GitHub,98800b86,data/98800b86/src/60a9ccb7.js,2036,2036,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130954,60a9ccb7,GitHub,98800b86,data/98800b86/src/60a9ccb7.js,186,186,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130955,52d93d53,GitHub,98800b86,data/98800b86/src/52d93d53.py,106,106,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130956,60a9ccb7,GitHub,98800b86,data/98800b86/src/60a9ccb7.js,591,591,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130957,68c8b2e2,GitHub,98800b86,data/98800b86/test/68c8b2e2.py,191,191,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130958,7167d8d8,GitHub,98800b86,data/98800b86/src/7167d8d8.yml,106,106,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130959,60a9ccb7,GitHub,98800b86,data/98800b86/src/60a9ccb7.js,587,587,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-134214,60a9ccb7,GitHub,98800b86,data/98800b86/src/60a9ccb7.js,472,472,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 134215,ef2cef9f,GitHub,98800b86,data/98800b86/src/ef2cef9f.ini,44,44,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 134216,ef2cef9f,GitHub,98800b86,data/98800b86/src/ef2cef9f.ini,45,45,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
