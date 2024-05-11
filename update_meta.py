@@ -32,6 +32,21 @@ def prepare_meta(meta_dir) -> Dict[Tuple[str, int, int], List[MetaRow]]:
     return meta_dict
 
 
+def prepare_cred(meta_creds: List[dict]) -> Dict[Tuple[str, int, int], List[MetaCred]]:
+    cred_dict = {}
+
+    for i in meta_creds:
+        meta_cred = MetaCred(i)
+        meta_key = (meta_cred.path, meta_cred.line_start, meta_cred.line_end)
+        if meta_list := cred_dict.get(meta_key):
+            meta_list.append(meta_cred)
+            cred_dict[meta_key] = meta_list
+        else:
+            cred_dict[meta_key] = [meta_cred]
+
+    return cred_dict
+
+
 def main(output_json, meta_dir):
     if not os.path.exists(output_json) or not os.path.isfile(output_json):
         raise FileExistsError(f"{output_json} report does not exist.")
@@ -39,75 +54,86 @@ def main(output_json, meta_dir):
         raise FileExistsError(f"{meta_dir} directory does not exist.")
 
     meta_dict = prepare_meta(meta_dir)
-    next_meta_id = 1 + max(max(y.Id for y in x) for x in meta_dict.values())
+    # next_meta_id = 1 + max(max(y.Id for y in x) for x in meta_dict.values())
 
     with open(output_json, "r") as f:
-        creds = json.load(f)
+        cred_dict = prepare_cred(json.load(f))
     incorrect = 0
     notfound = 0
-    for cred in creds:
-        meta_cred = MetaCred(cred)
-        cred_line_key = (meta_cred.path, meta_cred.line_start, meta_cred.line_end)
-        meta_list = meta_dict.get(cred_line_key)
-        if not meta_list:
-            notfound += 1
-            print(f"not found {str(cred)}")
-            continue
-        if 1 == len(meta_list):
-            m = copy.deepcopy(meta_list[0])
-            if 0 <= m.ValueStart == meta_cred.strip_value_start and 0 <= m.ValueEnd == meta_cred.strip_value_end \
-                    or 0 > m.ValueEnd and m.ValueStart == meta_cred.strip_value_start \
-                    or 0 > m.ValueStart and 0 > m.ValueEnd:
-                if meta_cred.rule not in m.Category:
-                    m.Category = meta_cred.rule
-                    # print(f"check\n{str(meta_cred)}\n{chr(0x0A).join(str(x) for x in meta_list)}\n\n")
-                    subprocess.run(
-                        ["sed", "-i",
-                         "s|" + str(m) + "|"+str(m)+f":{meta_cred.rule}|",
-                         f"meta/{m.RepoName}.csv"])
-                # m.ValueStart = meta_cred.strip_value_start
-                # m.ValueEnd = meta_cred.strip_value_end
-                # m.Category = meta_cred.rule
-                # m.GroundTruth = 'T'  # to be obfuscated
-                # m.Id = next_meta_id
-                # next_meta_id += 1
-                # with open(f"meta/{m.RepoName}.csv", "a") as f:
-                #     f.write(f"{str(m)}\n")
-                # incorrect += 1
-                # meta_list.append(m)
-        elif 1 < len(meta_list):
-            for m in meta_list:
-                assert 0 <= m.ValueStart, m
-                if m.ValueStart == meta_cred.strip_value_start and m.ValueEnd == meta_cred.strip_value_end:
-                    if meta_cred.rule not in m.Category:
-                        # print(f"check\n{str(meta_cred)}\n{chr(0x0A).join(str(x) for x in meta_list)}\n\n")
-                        subprocess.run(
-                            ["sed", "-i",
-                             "s|" + str(m) + "|" + str(m) + f":{meta_cred.rule}|",
-                             f"meta/{m.RepoName}.csv"])
-        #     print(f"Multiple markup \n{str(meta_cred)}\n{chr(0x0A).join(str(x) for x in meta_list)}\n\n")
-        #     for i in meta_list:
-        #         if i.ValueStart == meta_cred.strip_value_start and i.ValueEnd == meta_cred.strip_value_end:
-        #             break
-        #             # , \                    f"{cred},\n{chr(0x0A).join(str(x) for x in meta_list)}"
-        #     # else:
-        #     #     notfound += 1
-        #     #     m = copy.deepcopy(meta_list[0])
-        #     #     m.ValueStart = meta_cred.strip_value_start
-        #     #     m.ValueEnd = meta_cred.strip_value_end
-        #     #     m.Category = meta_cred.rule
-        #     #     m.Id = next_meta_id
-        #     #     next_meta_id += 1
-        #     #     if meta_cred.rule.startswith("IP"):
-        #     #         m.PredefinedPattern = "Info"
-        #     #     else:
-        #     #         m.GroundTruth = 'F'
-        #     #     with open(f"meta/{m.RepoName}.csv", "a") as f:
-        #     #         f.write(f"{str(m)}\n")
-        #     #     meta_list.append(m)
-        #     #     print(f"not found\n{str(meta_cred)}\n{chr(0x0A).join(str(x) for x in meta_list)}\n\n")
-        else:
-            raise RuntimeError(str(cred))
+    for k, v in meta_dict.items():
+        x = cred_dict.get(k)
+        if not x:
+            if 1 == len(v):
+                m = copy.deepcopy(v[0])
+                m.Category = "Unknown"
+                subprocess.run(
+                    ["sed", "-i",
+                     "s|" + str(v[0]) + "|" + str(m) + "|",
+                     f"meta/{m.RepoName}.csv"])
+            else:
+                print(v)
+        # meta_cred = MetaCred(cred)
+        # cred_line_key = (meta_cred.path, meta_cred.line_start, meta_cred.line_end)
+        # meta_list = meta_dict.get(cred_line_key)
+        # if not meta_list:
+        #     notfound += 1
+        #     print(f"not found {str(cred)}")
+        #     continue
+        # if 1 == len(meta_list):
+        #     m = copy.deepcopy(meta_list[0])
+        #     if 0 <= m.ValueStart == meta_cred.strip_value_start and 0 <= m.ValueEnd == meta_cred.strip_value_end \
+        #             or 0 > m.ValueEnd and m.ValueStart == meta_cred.strip_value_start \
+        #             or 0 > m.ValueStart and 0 > m.ValueEnd:
+        #         if meta_cred.rule not in m.Category:
+        #             m.Category = meta_cred.rule
+        #             # print(f"check\n{str(meta_cred)}\n{chr(0x0A).join(str(x) for x in meta_list)}\n\n")
+        #             subprocess.run(
+        #                 ["sed", "-i",
+        #                  "s|" + str(m) + "|"+str(m)+f":{meta_cred.rule}|",
+        #                  f"meta/{m.RepoName}.csv"])
+        #         # m.ValueStart = meta_cred.strip_value_start
+        #         # m.ValueEnd = meta_cred.strip_value_end
+        #         # m.Category = meta_cred.rule
+        #         # m.GroundTruth = 'T'  # to be obfuscated
+        #         # m.Id = next_meta_id
+        #         # next_meta_id += 1
+        #         # with open(f"meta/{m.RepoName}.csv", "a") as f:
+        #         #     f.write(f"{str(m)}\n")
+        #         # incorrect += 1
+        #         # meta_list.append(m)
+        # elif 1 < len(meta_list):
+        #     for m in meta_list:
+        #         assert 0 <= m.ValueStart, m
+        #         if m.ValueStart == meta_cred.strip_value_start and m.ValueEnd == meta_cred.strip_value_end:
+        #             if meta_cred.rule not in m.Category:
+        #                 # print(f"check\n{str(meta_cred)}\n{chr(0x0A).join(str(x) for x in meta_list)}\n\n")
+        #                 subprocess.run(
+        #                     ["sed", "-i",
+        #                      "s|" + str(m) + "|" + str(m) + f":{meta_cred.rule}|",
+        #                      f"meta/{m.RepoName}.csv"])
+        # #     print(f"Multiple markup \n{str(meta_cred)}\n{chr(0x0A).join(str(x) for x in meta_list)}\n\n")
+        # #     for i in meta_list:
+        # #         if i.ValueStart == meta_cred.strip_value_start and i.ValueEnd == meta_cred.strip_value_end:
+        # #             break
+        # #             # , \                    f"{cred},\n{chr(0x0A).join(str(x) for x in meta_list)}"
+        # #     # else:
+        # #     #     notfound += 1
+        # #     #     m = copy.deepcopy(meta_list[0])
+        # #     #     m.ValueStart = meta_cred.strip_value_start
+        # #     #     m.ValueEnd = meta_cred.strip_value_end
+        # #     #     m.Category = meta_cred.rule
+        # #     #     m.Id = next_meta_id
+        # #     #     next_meta_id += 1
+        # #     #     if meta_cred.rule.startswith("IP"):
+        # #     #         m.PredefinedPattern = "Info"
+        # #     #     else:
+        # #     #         m.GroundTruth = 'F'
+        # #     #     with open(f"meta/{m.RepoName}.csv", "a") as f:
+        # #     #         f.write(f"{str(m)}\n")
+        # #     #     meta_list.append(m)
+        # #     #     print(f"not found\n{str(meta_cred)}\n{chr(0x0A).join(str(x) for x in meta_list)}\n\n")
+        # else:
+        #     raise RuntimeError(str(cred))
     print(f"not found {notfound} incorrect {incorrect}")
     return 0
 

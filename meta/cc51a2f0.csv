@@ -39,7 +39,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 28849,4cfd9848,GitHub,cc51a2f0,data/cc51a2f0/test/4cfd9848.ext,66,66,T,F,72,77,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
 28991,881d34ce,GitHub,cc51a2f0,data/cc51a2f0/test/881d34ce.json,24,24,T,F,8,,F,F,,,,,0.0,0,F,F,F,Predefined Pattern
 28993,c973b298,GitHub,cc51a2f0,data/cc51a2f0/test/c973b298.json,30,30,T,F,8,,F,F,Any,,,Unknown,5.62,2272,F,F,F,Secret
-29046,bc530885,GitHub,cc51a2f0,data/cc51a2f0/test/bc530885.txt,2,2,F,T,3,219,F,F,Any,,,Unknown,5.77,216,F,F,F,Info
+29046,bc530885,GitHub,cc51a2f0,data/cc51a2f0/test/bc530885.txt,2,2,F,T,3,219,F,F,Any,,,Unknown,5.77,216,F,F,F,Unknown
 29303,3288b20b,GitHub,cc51a2f0,data/cc51a2f0/other/3288b20b.md,86,86,Template,T,20,32,F,F,Any,,,Secret,2.82,12,F,F,F,Password
 29405,c973b298,GitHub,cc51a2f0,data/cc51a2f0/test/c973b298.json,29,29,T,T,16,,F,F,Any,,,Unknown,5.57,4636,F,F,F,Secret
 29760,881d34ce,GitHub,cc51a2f0,data/cc51a2f0/test/881d34ce.json,23,23,T,F,,,F,F,,,,,0.0,0,F,F,F,Secret
@@ -50,8 +50,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 32260,ebf8806d,GitHub,cc51a2f0,data/cc51a2f0/src/ebf8806d.cf,3,3,T,T,27,32,F,F,CharsOnly,,,Unknown,2.32,5,F,F,F,Password
 32261,e6419eaf,GitHub,cc51a2f0,data/cc51a2f0/test/e6419eaf.cf,4,4,T,T,19,24,F,F,CharsOnly,,,Unknown,2.32,5,F,F,F,Password
 34554,f044b163,GitHub,cc51a2f0,data/cc51a2f0/test/f044b163.ext,3,3,Template,T,62,66,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-34985,41c756a7,GitHub,cc51a2f0,data/cc51a2f0/test/41c756a7.txt,2,2,T,T,3,219,F,F,Any,,,Unknown,5.74,216,F,F,F,Info
-34999,a551d545,GitHub,cc51a2f0,data/cc51a2f0/test/a551d545.md,87,88,T,F,3,253,F,F,Any,,,Unknown,5.71,250,F,F,F,Other
+34985,41c756a7,GitHub,cc51a2f0,data/cc51a2f0/test/41c756a7.txt,2,2,T,T,3,219,F,F,Any,,,Unknown,5.74,216,F,F,F,Unknown
+34999,a551d545,GitHub,cc51a2f0,data/cc51a2f0/test/a551d545.md,87,88,T,F,3,253,F,F,Any,,,Unknown,5.71,250,F,F,F,Unknown
 35270,d60596d0,GitHub,cc51a2f0,data/cc51a2f0/test/d60596d0.private,1,15,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
 35327,251af18f,GitHub,cc51a2f0,data/cc51a2f0/test/251af18f.pem,1,27,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
 35451,b3356305,GitHub,cc51a2f0,data/cc51a2f0/other/b3356305.md,257,257,T,T,15,20,F,F,CharsOnly,,,Unknown,2.32,5,F,F,F,Password

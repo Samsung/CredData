@@ -158,11 +158,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 27748,35fcd6a1,GitHub,23689bd1,data/23689bd1/src/35fcd6a1.ts,49,49,T,F,20,40,F,F,Any,,JSON Web Token,Token,0.00,,F,F,F,Predefined Pattern
 27749,fdc00c72,GitHub,23689bd1,data/23689bd1/src/fdc00c72.ts,48,48,T,F,24,366,F,F,Any,,,Unknown,5.72,342,F,F,F,Key
 27756,1407312b,GitHub,23689bd1,data/23689bd1/test/1407312b.mjs,41,41,T,F,27,84,F,F,Any,,JSON Web Token,Token,4.63,56,F,F,F,JSON Web Token
-27757,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,320,320,T,F,6,49,F,F,Any,,,Unknown,4.69,43,F,F,F,Info
-27758,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,266,266,T,F,6,49,F,F,Any,,,Unknown,4.88,43,F,F,F,Info
-27759,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,469,469,T,F,6,49,F,F,Any,,,Unknown,4.52,43,F,F,F,Info
-27760,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,577,577,T,F,6,49,F,F,Any,,,Unknown,4.69,43,F,F,F,Info
-27761,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,199,199,T,F,6,49,F,F,Any,,,Unknown,4.88,43,F,F,F,Info
+27757,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,320,320,T,F,6,49,F,F,Any,,,Unknown,4.69,43,F,F,F,Unknown
+27758,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,266,266,T,F,6,49,F,F,Any,,,Unknown,4.88,43,F,F,F,Unknown
+27759,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,469,469,T,F,6,49,F,F,Any,,,Unknown,4.52,43,F,F,F,Unknown
+27760,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,577,577,T,F,6,49,F,F,Any,,,Unknown,4.69,43,F,F,F,Unknown
+27761,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,199,199,T,F,6,49,F,F,Any,,,Unknown,4.88,43,F,F,F,Unknown
 27771,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,217,217,F,F,1,343,F,F,,,,,0,0,F,F,F,Secret
 27775,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,851,851,F,F,1,365,F,F,,,,,0,0,F,F,F,Secret
 27779,94864ff4,GitHub,23689bd1,data/23689bd1/test/94864ff4.mjs,200,200,F,F,1,87,F,F,,,,,0,0,F,F,F,Secret
@@ -176,8 +176,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 27858,9d43c1e9,GitHub,23689bd1,data/23689bd1/test/9d43c1e9.mjs,60,60,F,F,4,175,F,F,,,,,0,0,F,F,F,Secret
 27913,5211fcfa,GitHub,23689bd1,data/23689bd1/test/5211fcfa.mjs,41,41,F,F,19,62,F,F,,,,,0,0,F,F,F,Secret
 27914,5211fcfa,GitHub,23689bd1,data/23689bd1/test/5211fcfa.mjs,42,42,F,F,19,62,F,F,,,,,0,0,F,F,F,Secret
-27958,792d4c24,GitHub,23689bd1,data/23689bd1/other/792d4c24.md,23,23,T,F,13,88,F,F,Any,,,Unknown,5.15,75,F,F,F,Info
-27959,e85adc16,GitHub,23689bd1,data/23689bd1/test/e85adc16.mjs,23,23,T,F,13,88,F,F,Any,,,Unknown,5.07,75,F,F,F,Info
+27958,792d4c24,GitHub,23689bd1,data/23689bd1/other/792d4c24.md,23,23,T,F,13,88,F,F,Any,,,Unknown,5.15,75,F,F,F,Unknown
+27959,e85adc16,GitHub,23689bd1,data/23689bd1/test/e85adc16.mjs,23,23,T,F,13,88,F,F,Any,,,Unknown,5.07,75,F,F,F,Unknown
 27960,6a9c6ace,GitHub,23689bd1,data/23689bd1/src/6a9c6ace.ts,57,57,F,F,17,92,F,F,,,,,0,0,F,F,F,Secret
 27969,b2db93fc,GitHub,23689bd1,data/23689bd1/test/b2db93fc.mjs,75,75,F,F,5,176,F,F,,,,,0,0,F,F,F,Secret
 27970,a57bbb8c,GitHub,23689bd1,data/23689bd1/test/a57bbb8c.mjs,88,88,F,F,5,176,F,F,,,,,0,0,F,F,F,Secret
@@ -312,7 +312,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 37464,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,671,671,T,F,16,48,F,F,Any,,,Unknown,4.28,32,F,F,F,Bitbucket Client Secret
 37465,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,733,733,T,F,16,48,F,F,Any,,,Unknown,4.53,32,F,F,F,Bitbucket Client Secret
 37466,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,922,922,T,F,16,48,F,F,Any,,,Unknown,4.59,32,F,F,F,Bitbucket Client Secret
-40742,fdc00c72,GitHub,23689bd1,data/23689bd1/src/fdc00c72.ts,41,41,T,F,17,92,F,F,Any,,,Unknown,5.15,75,F,F,F,Info
+40742,fdc00c72,GitHub,23689bd1,data/23689bd1/src/fdc00c72.ts,41,41,T,F,17,92,F,F,Any,,,Unknown,5.15,75,F,F,F,Unknown
 40743,35fcd6a1,GitHub,23689bd1,data/23689bd1/src/35fcd6a1.ts,45,45,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 40744,23c7d6d0,GitHub,23689bd1,data/23689bd1/src/23c7d6d0.ts,140,140,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 40745,23c7d6d0,GitHub,23689bd1,data/23689bd1/src/23c7d6d0.ts,141,141,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -368,7 +368,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 47158,94864ff4,GitHub,23689bd1,data/23689bd1/test/94864ff4.mjs,490,490,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 47173,b2db93fc,GitHub,23689bd1,data/23689bd1/test/b2db93fc.mjs,107,107,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 47174,b2db93fc,GitHub,23689bd1,data/23689bd1/test/b2db93fc.mjs,108,108,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-47197,e85adc16,GitHub,23689bd1,data/23689bd1/test/e85adc16.mjs,39,39,T,F,13,88,F,F,Any,,,Unknown,5.07,75,F,F,F,Info
+47197,e85adc16,GitHub,23689bd1,data/23689bd1/test/e85adc16.mjs,39,39,T,F,13,88,F,F,Any,,,Unknown,5.07,75,F,F,F,Unknown
 47216,3220d10c,GitHub,23689bd1,data/23689bd1/test/3220d10c.mjs,23,23,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 47435,49e2e9d5,GitHub,23689bd1,data/23689bd1/test/49e2e9d5.mjs,160,160,F,F,,,F,F,,,,,0,0,F,F,F,Info
 47436,49e2e9d5,GitHub,23689bd1,data/23689bd1/test/49e2e9d5.mjs,133,133,F,F,,,F,F,,,,,0,0,F,F,F,Info
@@ -413,7 +413,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 47851,5211fcfa,GitHub,23689bd1,data/23689bd1/test/5211fcfa.mjs,163,163,F,F,,,F,F,,,,,0,0,F,F,F,Info
 47852,5211fcfa,GitHub,23689bd1,data/23689bd1/test/5211fcfa.mjs,171,171,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 47853,5211fcfa,GitHub,23689bd1,data/23689bd1/test/5211fcfa.mjs,153,153,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-48138,3ba90705,GitHub,23689bd1,data/23689bd1/other/3ba90705.md,23,23,T,F,13,88,F,F,Any,,,Unknown,5.15,75,F,F,F,Info
+48138,3ba90705,GitHub,23689bd1,data/23689bd1/other/3ba90705.md,23,23,T,F,13,88,F,F,Any,,,Unknown,5.15,75,F,F,F,Unknown
 56240,4b52b21e,GitHub,23689bd1,data/23689bd1/src/4b52b21e.ts,20,20,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 56241,4b52b21e,GitHub,23689bd1,data/23689bd1/src/4b52b21e.ts,23,23,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 63474,b2db93fc,GitHub,23689bd1,data/23689bd1/test/b2db93fc.mjs,194,194,F,F,,,F,F,,,,,0,0,F,F,F,Secret
