@@ -80,7 +80,6 @@ def main(output_json, meta_dir):
                 assert 0 <= m.ValueStart, m
                 if m.ValueStart == meta_cred.strip_value_start and m.ValueEnd == meta_cred.strip_value_end:
                     if meta_cred.rule not in m.Category:
-                        m.Category = meta_cred.rule
                         # print(f"check\n{str(meta_cred)}\n{chr(0x0A).join(str(x) for x in meta_list)}\n\n")
                         subprocess.run(
                             ["sed", "-i",
