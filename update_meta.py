@@ -61,17 +61,26 @@ def main(output_json, meta_dir):
     incorrect = 0
     notfound = 0
     for k, v in meta_dict.items():
-        x = cred_dict.get(k)
-        if not x:
-            if 1 == len(v):
-                m = copy.deepcopy(v[0])
-                m.Category = "Unknown"
+        if 1 == len(v):
+            m = copy.deepcopy(v[0])
+            creds = cred_dict.get(k)
+            # cred_rules=[] # sorted([x.rule for x in creds])
+            if 0>m.ValueStart:
+                cred_rules = sorted([x.rule for x in creds])
+            elif 0>m.ValueEnd:
+                cred_rules = sorted([x.rule for x in creds if x.strip_value_start == m.ValueStart])
+            else:
+                cred_rules = sorted([x.rule for x in creds if x.strip_value_start == m.ValueStart and x.strip_value_end==m.ValueEnd])
+
+            if not cred_rules:
+                print(m)
+            else:
+                m.Category = ':'.join(cred_rules)
                 subprocess.run(
                     ["sed", "-i",
                      "s|" + str(v[0]) + "|" + str(m) + "|",
                      f"meta/{m.RepoName}.csv"])
-            else:
-                print(v)
+
         # meta_cred = MetaCred(cred)
         # cred_line_key = (meta_cred.path, meta_cred.line_start, meta_cred.line_end)
         # meta_list = meta_dict.get(cred_line_key)
