@@ -60,32 +60,34 @@ def main(output_json, meta_dir):
     incorrect = 0
     notfound = 0
     for k, v in meta_dict.items():
-        if 1 == len(v):
-            m = copy.deepcopy(v[0])
-            creds = cred_dict.get(k)
-            if not creds:
-                m.Category += ':notfound'
-                subprocess.run(
-                    ["sed", "-i",
-                     "s|" + str(v[0]) + "|" + str(m) + "|",
-                     f"meta/{m.RepoName}.csv"])
-                continue
-            # cred_rules=[] # sorted([x.rule for x in creds])
-            if 0>m.ValueStart:
-                cred_rules = sorted([x.rule for x in creds])
-            elif 0>m.ValueEnd:
-                cred_rules = sorted([x.rule for x in creds if x.strip_value_start == m.ValueStart])
-            else:
-                cred_rules = sorted([x.rule for x in creds if x.strip_value_start == m.ValueStart and x.strip_value_end==m.ValueEnd])
+        if 1 < len(v):
+            for m in v:
+                assert 0 <= m.ValueStart, str(m)  # at least start position must be positive
+                creds = cred_dict.get(k)
+                assert creds, str(m)
 
-            if not cred_rules:
-                print(m)
-            else:
-                m.Category = ':'.join(cred_rules)
-                subprocess.run(
-                    ["sed", "-i",
-                     "s|" + str(v[0]) + "|" + str(m) + "|",
-                     f"meta/{m.RepoName}.csv"])
+                if 0 > m.ValueEnd:
+                    # end position was not decided - detect only for start pos
+                    cred_rules = sorted([x.rule for x in creds if x.strip_value_start == m.ValueStart])
+                else:
+                    cred_rules = sorted([x.rule for x in creds if
+                                         x.strip_value_start == m.ValueStart and x.strip_value_end == m.ValueEnd])
+
+                assert cred_rules, creds
+
+                cred_rules_set = set(creds)
+
+                meta_rules_set = set(m.Category.split(':'))
+
+                if meta_rules_set.difference(cred_rules_set) or cred_rules_set.difference(meta_rules_set)
+
+                    new_category = sorted(list(meta_rules_set | cred_rules_set))
+                    n = copy.deepcopy(m)
+                    n.Category = ':'.join(new_category)
+                    subprocess.run(
+                        ["sed", "-i",
+                         "s|" + str(m) + "|" + str(n) + "|",
+                         f"meta/{m.RepoName}.csv"])
 
         # meta_cred = MetaCred(cred)
         # cred_line_key = (meta_cred.path, meta_cred.line_start, meta_cred.line_end)
