@@ -24,8 +24,11 @@ jobs:
 
       - name: Markup hashing
         run: |
-          for f in $(find meta -type f|sort); do md5sum $f; done >meta.md5
-          sha256sum meta.md5
+          md5sum snapshot.yaml >head_checksums.md5
+          for f in $(find meta -type f|sort); do md5sum $f; done >>head_checksums.md5
+          for f in $(find . -maxdepth 1 -type f -name "*.py"|sort); do md5sum $f; done >>head_checksums.md5
+          cat head_checksums.md5
+          sha256sum head_checksums.md5
 
       - name: Cache review
         id: cache-review
@@ -34,7 +37,7 @@ jobs:
           path: |
             review_head.txt
             review_head.html
-          key: cred-data-${{ hashFiles('meta.md5', '*.py') }}
+          key: cred-data-${{ hashFiles('head_checksums.md5') }}
 
       - name: Cache tmp
         if: steps.cache-review.outputs.cache-hit != 'true'
@@ -91,8 +94,11 @@ jobs:
 
       - name: Markup hashing
         run: |
-          for f in $(find meta -type f|sort); do md5sum $f; done >meta.md5
-          sha256sum meta.md5
+          md5sum snapshot.yaml >base_checksums.md5
+          for f in $(find meta -type f|sort); do md5sum $f; done >>base_checksums.md5
+          for f in $(find . -maxdepth 1 -type f -name "*.py"|sort); do md5sum $f; done >>base_checksums.md5
+          cat base_checksums.md5
+          sha256sum base_checksums.md5
 
       - name: Cache review
         id: cache-review
@@ -101,7 +107,7 @@ jobs:
           path: |
             review_base.txt
             review_base.html
-          key: cred-data-${{ hashFiles('meta.md5', '*.py') }}
+          key: cred-data-${{ hashFiles('base_checksums.md5') }}
 
       - name: Cache tmp
         if: steps.cache-review.outputs.cache-hit != 'true'
