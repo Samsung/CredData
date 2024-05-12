@@ -15,7 +15,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 24986,18e6517e,GitHub,234978d9,data/234978d9/src/18e6517e.go,59,59,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 25023,46680f9b,GitHub,234978d9,data/234978d9/src/46680f9b.go,19,19,F,F,,,F,F,,,,,0,0,F,F,F,Password
 26098,70819234,GitHub,234978d9,data/234978d9/src/70819234.go,233,233,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-29620,ea830582,GitHub,234978d9,data/234978d9/test/ea830582.go,13,13,Template,F,70,73,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password:Secret:Key
+29620,ea830582,GitHub,234978d9,data/234978d9/test/ea830582.go,13,13,Template,F,70,73,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Key:Password:Secret
 30544,647fc66a,GitHub,234978d9,data/234978d9/test/647fc66a.go,48,48,Template,F,22,25,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Key:Secret
 41116,2f736c25,GitHub,234978d9,data/234978d9/src/2f736c25.go,84,84,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 42214,8857ef72,GitHub,234978d9,data/234978d9/src/8857ef72.go,413,413,F,F,,,F,F,,,,,0,0,F,F,F,Token
@@ -32,4 +32,4 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 114687,3295df72,GitHub,234978d9,data/234978d9/src/3295df72.sum,4,4,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 114688,58a825c7,GitHub,234978d9,data/234978d9/other/58a825c7.md,131,131,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 133068,58a825c7,GitHub,234978d9,data/234978d9/other/58a825c7.md,170,170,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-137869,ea830582,GitHub,234978d9,data/234978d9/test/ea830582.go,13,13,F,F,7,13,F,F,,,,,0.0,0,F,F,F,Secret:Key
+137869,ea830582,GitHub,234978d9,data/234978d9/test/ea830582.go,13,13,F,F,7,13,F,F,,,,,0.0,0,F,F,F,Key:Secret

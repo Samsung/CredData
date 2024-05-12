@@ -920,7 +920,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 27187,73a06946,GitHub,2ba83c6a,data/2ba83c6a/src/73a06946.pl,40,40,T,T,72,77,T,F,Any,,,Unknown,2.32,5,F,F,F,Password
 27201,773ee5d9,GitHub,2ba83c6a,data/2ba83c6a/test/773ee5d9.csv,93,93,F,F,0,238,F,F,,,,,0,0,F,F,F,Password
 27239,911dde03,GitHub,2ba83c6a,data/2ba83c6a/test/911dde03.txt,10948,10948,F,F,6,54,F,F,,,,,0,0,F,F,F,Secret
-27342,eb0705d8,GitHub,2ba83c6a,data/2ba83c6a/other/eb0705d8.pod,460,460,T,F,21,37,F,F,Any,,,Secret,3.88,16,F,F,F,Secret:Key
+27342,eb0705d8,GitHub,2ba83c6a,data/2ba83c6a/other/eb0705d8.pod,460,460,T,F,21,37,F,F,Any,,,Secret,3.88,16,F,F,F,Key:Secret
 138189,eb0705d8,GitHub,2ba83c6a,data/2ba83c6a/other/eb0705d8.pod,460,460,F,F,52,63,F,F,,,,,0.0,0,F,F,F,Secret
 27386,dc676919,GitHub,2ba83c6a,data/2ba83c6a/test/dc676919.txt,1,1,F,F,32,37,F,F,,,,,0,0,F,F,F,Secret
 27407,6cfa362d,GitHub,2ba83c6a,data/2ba83c6a/src/6cfa362d.cnf,344,344,Template,T,9,19,F,F,Any,,,Secret,2.31,10,F,F,F,Password:Secret
@@ -936,8 +936,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 27516,a3cf7bc8,GitHub,2ba83c6a,data/2ba83c6a/test/a3cf7bc8.txt,264,264,F,F,6,18,F,F,,,,,0,0,F,F,F,Secret
 27523,a3cf7bc8,GitHub,2ba83c6a,data/2ba83c6a/test/a3cf7bc8.txt,322,322,F,F,6,18,F,F,,,,,0,0,F,F,F,Secret
 27524,a3cf7bc8,GitHub,2ba83c6a,data/2ba83c6a/test/a3cf7bc8.txt,270,270,F,F,6,18,F,F,,,,,0,0,F,F,F,Secret
-27531,242e213c,GitHub,2ba83c6a,data/2ba83c6a/other/242e213c.in,132,132,Template,F,59,65,F,F,Any,,,Unknown,2.25,6,F,F,F,Secret:Key
-27532,242e213c,GitHub,2ba83c6a,data/2ba83c6a/other/242e213c.in,127,127,Template,F,59,65,F,F,Any,,,Unknown,2.25,6,F,F,F,Secret:Key
+27531,242e213c,GitHub,2ba83c6a,data/2ba83c6a/other/242e213c.in,132,132,Template,F,59,65,F,F,Any,,,Unknown,2.25,6,F,F,F,Key:Secret
+27532,242e213c,GitHub,2ba83c6a,data/2ba83c6a/other/242e213c.in,127,127,Template,F,59,65,F,F,Any,,,Unknown,2.25,6,F,F,F,Key:Secret
 27534,911dde03,GitHub,2ba83c6a,data/2ba83c6a/test/911dde03.txt,15888,15888,F,F,6,70,F,F,,,,,0,0,F,F,F,Secret
 27557,911dde03,GitHub,2ba83c6a,data/2ba83c6a/test/911dde03.txt,17563,17563,F,F,6,38,F,F,,,,,0,0,F,F,F,Secret
 27560,2c37d376,GitHub,2ba83c6a,data/2ba83c6a/test/2c37d376.cnf,6,6,Template,T,13,22,F,F,Any,,,Secret,2.07,9,F,F,F,Secret
@@ -981,7 +981,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 28351,afbc9d54,GitHub,2ba83c6a,data/2ba83c6a/src/afbc9d54.pl,113,113,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 28455,07d8fbd6,GitHub,2ba83c6a,data/2ba83c6a/test/07d8fbd6.t,45,45,Template,T,73,79,F,F,Any,,,Secret,2.25,6,F,F,F,Password:Secret
 28459,07d8fbd6,GitHub,2ba83c6a,data/2ba83c6a/test/07d8fbd6.t,48,48,Template,T,75,81,F,F,Any,,,Secret,2.25,6,F,F,F,Password:Secret
-28460,07d8fbd6,GitHub,2ba83c6a,data/2ba83c6a/test/07d8fbd6.t,51,51,Template,T,70,76,F,F,Any,,,Secret,2.25,6,F,F,F,Password:Key
+28460,07d8fbd6,GitHub,2ba83c6a,data/2ba83c6a/test/07d8fbd6.t,51,51,Template,T,70,76,F,F,Any,,,Secret,2.25,6,F,F,F,Key:Password
 28538,4acf8d32,GitHub,2ba83c6a,data/2ba83c6a/test/4acf8d32.txt,29,29,Template,F,7,11,F,F,CharsOnly,,,Unknown,1.50,4,F,F,F,Secret
 28552,d6f29cb7,GitHub,2ba83c6a,data/2ba83c6a/test/d6f29cb7.cnf,37,37,Template,T,13,22,F,F,Any,,,Secret,2.07,9,F,F,F,Secret
 28964,75550394,GitHub,2ba83c6a,data/2ba83c6a/test/75550394.txt,4633,4633,T,F,13,73,F,F,Any,,,Secret,3.82,60,F,F,F,Secret
@@ -7615,11 +7615,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 101899,8119ac7d,GitHub,2ba83c6a,data/2ba83c6a/src/8119ac7d.c,203,203,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 101900,eba027be,GitHub,2ba83c6a,data/2ba83c6a/src/eba027be.c,114,114,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 101901,07d8fbd6,GitHub,2ba83c6a,data/2ba83c6a/test/07d8fbd6.t,34,34,T,F,76,104,F,F,Any,,,Key,3.92,28,F,F,F,Cryptographic Primitives:Key
-135335,07d8fbd6,GitHub,2ba83c6a,data/2ba83c6a/test/07d8fbd6.t,34,34,T,F,162,194,F,F,Any,,,Key,3.92,28,F,F,F,Cryptographic Primitives:Salt:Bitbucket Client Secret:Bitbucket Client ID
-101902,07d8fbd6,GitHub,2ba83c6a,data/2ba83c6a/test/07d8fbd6.t,60,60,T,F,83,111,F,F,Any,,,Key,4.01,28,F,F,F,Secret:Key
-135346,07d8fbd6,GitHub,2ba83c6a,data/2ba83c6a/test/07d8fbd6.t,60,60,T,F,169,201,F,F,Any,,,Key,4.01,28,F,F,F,Secret:Salt:Bitbucket Client Secret:Bitbucket Client ID
-101903,07d8fbd6,GitHub,2ba83c6a,data/2ba83c6a/test/07d8fbd6.t,74,74,T,F,90,118,F,F,Any,,,Key,4.01,28,F,F,F,Secret:Key
-135347,07d8fbd6,GitHub,2ba83c6a,data/2ba83c6a/test/07d8fbd6.t,74,74,T,F,176,208,F,F,Any,,,Key,4.01,28,F,F,F,Secret:Salt:Bitbucket Client Secret:Bitbucket Client ID
+135335,07d8fbd6,GitHub,2ba83c6a,data/2ba83c6a/test/07d8fbd6.t,34,34,T,F,162,194,F,F,Any,,,Key,3.92,28,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Cryptographic Primitives:Salt
+101902,07d8fbd6,GitHub,2ba83c6a,data/2ba83c6a/test/07d8fbd6.t,60,60,T,F,83,111,F,F,Any,,,Key,4.01,28,F,F,F,Key:Secret
+135346,07d8fbd6,GitHub,2ba83c6a,data/2ba83c6a/test/07d8fbd6.t,60,60,T,F,169,201,F,F,Any,,,Key,4.01,28,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Salt:Secret
+101903,07d8fbd6,GitHub,2ba83c6a,data/2ba83c6a/test/07d8fbd6.t,74,74,T,F,90,118,F,F,Any,,,Key,4.01,28,F,F,F,Key:Secret
+135347,07d8fbd6,GitHub,2ba83c6a,data/2ba83c6a/test/07d8fbd6.t,74,74,T,F,176,208,F,F,Any,,,Key,4.01,28,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Salt:Secret
 101904,fa4dafbb,GitHub,2ba83c6a,data/2ba83c6a/test/fa4dafbb.t,68,68,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 101905,fa4dafbb,GitHub,2ba83c6a,data/2ba83c6a/test/fa4dafbb.t,74,74,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 101906,7b9b02b8,GitHub,2ba83c6a,data/2ba83c6a/test/7b9b02b8.txt,33,33,F,F,,,F,F,,,,,0.00,,F,F,F,Password
@@ -9919,9 +9919,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 132642,cf577288,GitHub,2ba83c6a,data/2ba83c6a/src/cf577288.txt,1091,1091,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
 132643,cf577288,GitHub,2ba83c6a,data/2ba83c6a/src/cf577288.txt,1100,1100,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 132704,cf577288,GitHub,2ba83c6a,data/2ba83c6a/src/cf577288.txt,833,833,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-132752,07d8fbd6,GitHub,2ba83c6a,data/2ba83c6a/test/07d8fbd6.t,31,31,T,T,168,200,F,F,Any,,,Secret,1.46,5,F,F,F,Cryptographic Primitives:Salt:Bitbucket Client Secret:Bitbucket Client ID
+132752,07d8fbd6,GitHub,2ba83c6a,data/2ba83c6a/test/07d8fbd6.t,31,31,T,T,168,200,F,F,Any,,,Secret,1.46,5,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Cryptographic Primitives:Salt
 135327,07d8fbd6,GitHub,2ba83c6a,data/2ba83c6a/test/07d8fbd6.t,31,31,T,T,82,110,F,F,Any,,,Secret,1.46,5,F,F,F,Cryptographic Primitives:Key
-132753,07d8fbd6,GitHub,2ba83c6a,data/2ba83c6a/test/07d8fbd6.t,57,57,T,T,168,200,F,F,Any,,,Secret,1.46,5,F,F,F,Cryptographic Primitives:Salt:Bitbucket Client Secret:Bitbucket Client ID
+132753,07d8fbd6,GitHub,2ba83c6a,data/2ba83c6a/test/07d8fbd6.t,57,57,T,T,168,200,F,F,Any,,,Secret,1.46,5,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Cryptographic Primitives:Salt
 135343,07d8fbd6,GitHub,2ba83c6a,data/2ba83c6a/test/07d8fbd6.t,57,57,T,T,82,110,F,F,Any,,,Secret,1.46,5,F,F,F,Cryptographic Primitives:Key
 133119,1aa4b790,GitHub,2ba83c6a,data/2ba83c6a/other/1aa4b790.in,412,412,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 133120,1aa4b790,GitHub,2ba83c6a,data/2ba83c6a/other/1aa4b790.in,413,413,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -10051,15 +10051,15 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 133244,f46d3088,GitHub,2ba83c6a,data/2ba83c6a/test/f46d3088.c,2707,2707,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 100008,07d8fbd6,GitHub,2ba83c6a,data/2ba83c6a/test/07d8fbd6.t,71,71,T,F,89,117,F,F,,,,,2.8,,F,T,F,Secret
 135422,e13bccc3,GitHub,2ba83c6a,data/2ba83c6a/test/e13bccc3.c,267,267,T,F,51,58,F,F,,,,,0,0,F,F,F,IPv4
-137882,242e213c,GitHub,2ba83c6a,data/2ba83c6a/other/242e213c.in,127,127,F,F,38,46,F,F,,,,,0.0,0,F,F,F,Secret:Key
-137883,242e213c,GitHub,2ba83c6a,data/2ba83c6a/other/242e213c.in,132,132,F,F,38,46,F,F,,,,,0.0,0,F,F,F,Secret:Key
+137882,242e213c,GitHub,2ba83c6a,data/2ba83c6a/other/242e213c.in,127,127,F,F,38,46,F,F,,,,,0.0,0,F,F,F,Key:Secret
+137883,242e213c,GitHub,2ba83c6a,data/2ba83c6a/other/242e213c.in,132,132,F,F,38,46,F,F,,,,,0.0,0,F,F,F,Key:Secret
 137885,23d50951,GitHub,2ba83c6a,data/2ba83c6a/src/23d50951.cnf,344,344,F,F,14,19,F,F,,,,,0.0,0,F,F,F,Password
 137886,23d50951,GitHub,2ba83c6a,data/2ba83c6a/src/23d50951.cnf,358,358,F,F,31,36,F,F,,,,,0.0,0,F,F,F,Password
 137888,6cfa362d,GitHub,2ba83c6a,data/2ba83c6a/src/6cfa362d.cnf,344,344,F,F,14,19,F,F,,,,,0.0,0,F,F,F,Password
-137889,07d8fbd6,GitHub,2ba83c6a,data/2ba83c6a/test/07d8fbd6.t,45,45,F,F,51,57,F,F,,,,,0.0,0,F,F,F,Secret:Key
-137890,07d8fbd6,GitHub,2ba83c6a,data/2ba83c6a/test/07d8fbd6.t,48,48,F,F,51,59,F,F,,,,,0.0,0,F,F,F,Secret:Key
-137891,07d8fbd6,GitHub,2ba83c6a,data/2ba83c6a/test/07d8fbd6.t,51,51,F,F,51,57,F,F,,,,,0.0,0,F,F,F,Secret:Key
-137892,07d8fbd6,GitHub,2ba83c6a,data/2ba83c6a/test/07d8fbd6.t,60,60,F,F,61,67,F,F,,,,,0.0,0,F,F,F,Secret:Key
-137893,07d8fbd6,GitHub,2ba83c6a,data/2ba83c6a/test/07d8fbd6.t,71,71,F,F,48,55,F,F,,,,,0.0,0,F,F,F,Secret:Key
-137894,07d8fbd6,GitHub,2ba83c6a,data/2ba83c6a/test/07d8fbd6.t,74,74,F,F,48,52,F,F,,,,,0.0,0,F,F,F,Secret:Key
+137889,07d8fbd6,GitHub,2ba83c6a,data/2ba83c6a/test/07d8fbd6.t,45,45,F,F,51,57,F,F,,,,,0.0,0,F,F,F,Key:Secret
+137890,07d8fbd6,GitHub,2ba83c6a,data/2ba83c6a/test/07d8fbd6.t,48,48,F,F,51,59,F,F,,,,,0.0,0,F,F,F,Key:Secret
+137891,07d8fbd6,GitHub,2ba83c6a,data/2ba83c6a/test/07d8fbd6.t,51,51,F,F,51,57,F,F,,,,,0.0,0,F,F,F,Key:Secret
+137892,07d8fbd6,GitHub,2ba83c6a,data/2ba83c6a/test/07d8fbd6.t,60,60,F,F,61,67,F,F,,,,,0.0,0,F,F,F,Key:Secret
+137893,07d8fbd6,GitHub,2ba83c6a,data/2ba83c6a/test/07d8fbd6.t,71,71,F,F,48,55,F,F,,,,,0.0,0,F,F,F,Key:Secret
+137894,07d8fbd6,GitHub,2ba83c6a,data/2ba83c6a/test/07d8fbd6.t,74,74,F,F,48,52,F,F,,,,,0.0,0,F,F,F,Key:Secret
 137895,fa4dafbb,GitHub,2ba83c6a,data/2ba83c6a/test/fa4dafbb.t,48,48,F,F,17,25,F,F,,,,,0.0,0,F,F,F,Password

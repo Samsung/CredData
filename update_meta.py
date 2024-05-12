@@ -78,42 +78,45 @@ def main(output_json, meta_dir):
                 if 0 > m.ValueStart:
                     # all rules in the creds are false
                     cred_rules = sorted([x.rule for x in creds])
+                    assert False, m
                 elif 0 > m.ValueEnd:
                     # end position was not decided - detect only for start pos
-                    cred_rules = sorted([x.rule for x in creds if x.strip_value_start == m.ValueStart])
+                    cred_rules = sorted([x.rule for x in creds if x.strip_value_start == m.ValueStart
+                                         and (x.strip_value_start, x.strip_value_end) not in meta_val_positions])
                 else:
                     cred_rules = sorted([x.rule for x in creds if
-                                         x.strip_value_start == m.ValueStart and x.strip_value_end == m.ValueEnd])
+                                         x.strip_value_start == m.ValueStart and x.strip_value_end == m.ValueEnd
+                                         and (x.strip_value_start, x.strip_value_end) not in meta_val_positions])
 
-                if not cred_rules:
-                    n = copy.deepcopy(m)
-                    n.VariableNameType = "WrongPos"
-                    for start_pos, end_pos in set((x.strip_value_start, x.strip_value_end) for x in creds):
-                        if (start_pos,end_pos) in meta_val_positions:
-                            # the positions have markup in other meta
-                            continue
-                        n.Id = next_meta_id
-                        next_meta_id += 1
-                        n.ValueStart = start_pos
-                        n.ValueEnd = end_pos
-                        cred_rules = sorted([x.rule for x in creds if x.strip_value_start == start_pos])
-                        n.Category = ':'.join(cred_rules)
-                        with open(f"meta/{m.RepoName}.csv", "a") as f:
-                            f.write(f"{str(n)}\n")
-                    continue
-
-                # cred_rules_set = set(cred_rules)
-                #
-                # meta_rules_set = set(m.Category.split(':'))
-                #
-                # if meta_rules_set.difference(cred_rules_set) or cred_rules_set.difference(meta_rules_set):
-                #     new_category = sorted(list(meta_rules_set | cred_rules_set))
+                # if not cred_rules:
                 #     n = copy.deepcopy(m)
-                #     n.Category = ':'.join(new_category)
-                #     subprocess.run(
-                #         ["sed", "-i",
-                #          "s|" + str(m) + "|" + str(n) + "|",
-                #          f"meta/{m.RepoName}.csv"])
+                #     n.VariableNameType = "WrongPos"
+                #     for start_pos, end_pos in set((x.strip_value_start, x.strip_value_end) for x in creds):
+                #         if (start_pos,end_pos) in meta_val_positions:
+                #             # the positions have markup in other meta
+                #             continue
+                #         n.Id = next_meta_id
+                #         next_meta_id += 1
+                #         n.ValueStart = start_pos
+                #         n.ValueEnd = end_pos
+                #         cred_rules = sorted([x.rule for x in creds if x.strip_value_start == start_pos])
+                #         n.Category = ':'.join(cred_rules)
+                #         with open(f"meta/{m.RepoName}.csv", "a") as f:
+                #             f.write(f"{str(n)}\n")
+                #     continue
+
+                cred_rules_set = set(cred_rules)
+
+                meta_rules_set = set(m.Category.split(':'))
+
+                if meta_rules_set.difference(cred_rules_set) or cred_rules_set.difference(meta_rules_set):
+                    new_category = sorted(list(meta_rules_set | cred_rules_set))
+                    n = copy.deepcopy(m)
+                    n.Category = ':'.join(new_category)
+                    subprocess.run(
+                        ["sed", "-i",
+                         "s|" + str(m) + "|" + str(n) + "|",
+                         f"meta/{m.RepoName}.csv"])
 
         # meta_cred = MetaCred(cred)
         # cred_line_key = (meta_cred.path, meta_cred.line_start, meta_cred.line_end)
