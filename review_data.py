@@ -91,7 +91,7 @@ def read_data(path, line_start, line_end, value_start, value_end, ground_truth, 
             repo_id = path.split('/')[1]
             subprocess.run(
                 ["sed", "-i",
-                 f"/.*{path.split('/')[-1]},{line_start}:{line_end},.*/d",
+                 f"/.*{path.split('/')[-1]},{line_start},{line_end},.*/d",
                  f"meta/{repo_id}.csv"])
 
     print("\n\n")
@@ -116,7 +116,7 @@ def main(meta_dir: str,
     meta = read_meta(meta_dir)
     meta.sort(key=lambda x: (x.FilePath, x.LineStart, x.LineEnd, x.ValueStart, x.ValueEnd))
     displayed_rows = 0
-    shown_rows = set()
+    shown_markup = {}
     for row in meta:
         if not data_filter[row.GroundTruth]:
             continue
@@ -137,12 +137,12 @@ def main(meta_dir: str,
             except Exception as exc:
                 print(f"Failure {row}", exc, flush=True)
                 raise
-        row_str = f"{row.FilePath},{row.LineStart}:{row.LineEnd},{row.ValueStart},{row.ValueEnd}"
-        if row_str in shown_rows:
-            print(f"Duplicate row {row}", flush=True)
+        markup_key = (row.FilePath, row.LineStart, row.LineEnd, row.ValueStart, row.ValueEnd)
+        if markup_key in shown_markup:
+            print(f"Duplicate markup!\nSHOWN:{shown_markup[markup_key]}\nTHIS:{row}", flush=True)
             break
         else:
-            shown_rows.add(row_str)
+            shown_markup[markup_key] = row
     else:
         error_code = EXIT_SUCCESS
     print(f"Shown {displayed_rows} of {len(meta)}", flush=True)
