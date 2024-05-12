@@ -1,14 +1,14 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
 556,41d180f6,GitHub,41d10ede,data/41d10ede/test/41d180f6.py,33,33,F,F,,,F,F,,,,,0,0,F,F,F,Password
-5139,576c228c,GitHub,41d10ede,data/41d10ede/src/576c228c.py,30,30,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-5140,576c228c,GitHub,41d10ede,data/41d10ede/src/576c228c.py,31,31,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-5141,576c228c,GitHub,41d10ede,data/41d10ede/src/576c228c.py,41,41,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-5142,576c228c,GitHub,41d10ede,data/41d10ede/src/576c228c.py,35,35,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-5143,576c228c,GitHub,41d10ede,data/41d10ede/src/576c228c.py,36,36,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-5144,576c228c,GitHub,41d10ede,data/41d10ede/src/576c228c.py,42,42,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-8461,45acb2e0,GitHub,41d10ede,data/41d10ede/src/45acb2e0.py,89,89,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-9160,5c3e86ec,GitHub,41d10ede,data/41d10ede/src/5c3e86ec.py,409,409,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-9187,5c3e86ec,GitHub,41d10ede,data/41d10ede/src/5c3e86ec.py,406,406,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+5139,576c228c,GitHub,41d10ede,data/41d10ede/src/576c228c.py,30,30,F,F,,,F,F,,,,,0,0,F,F,F,Token
+5140,576c228c,GitHub,41d10ede,data/41d10ede/src/576c228c.py,31,31,F,F,,,F,F,,,,,0,0,F,F,F,Token
+5141,576c228c,GitHub,41d10ede,data/41d10ede/src/576c228c.py,41,41,F,F,,,F,F,,,,,0,0,F,F,F,Token
+5142,576c228c,GitHub,41d10ede,data/41d10ede/src/576c228c.py,35,35,F,F,,,F,F,,,,,0,0,F,F,F,Token
+5143,576c228c,GitHub,41d10ede,data/41d10ede/src/576c228c.py,36,36,F,F,,,F,F,,,,,0,0,F,F,F,Token
+5144,576c228c,GitHub,41d10ede,data/41d10ede/src/576c228c.py,42,42,F,F,,,F,F,,,,,0,0,F,F,F,Token
+8461,45acb2e0,GitHub,41d10ede,data/41d10ede/src/45acb2e0.py,89,89,F,F,,,F,F,,,,,0,0,F,F,F,Token
+9160,5c3e86ec,GitHub,41d10ede,data/41d10ede/src/5c3e86ec.py,409,409,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+9187,5c3e86ec,GitHub,41d10ede,data/41d10ede/src/5c3e86ec.py,406,406,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 17642,fb8cd055,GitHub,41d10ede,data/41d10ede/test/fb8cd055.py,12,12,F,F,,,F,F,,,,,0,0,F,F,F,Password
 18177,7f6b49c0,GitHub,41d10ede,data/41d10ede/src/7f6b49c0.txt,8,8,Template,T,26,34,F,F,Any,,,Secret,3.12,12,F,F,F,Password
 27451,41d180f6,GitHub,41d10ede,data/41d10ede/test/41d180f6.py,342,342,Template,F,19,25,T,F,Any,,,Secret,1.82,6,F,F,T,Password
@@ -41,7 +41,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 100570,7b3ed02b,GitHub,41d10ede,data/41d10ede/other/7b3ed02b.rst,46,46,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 100571,86910f2a,GitHub,41d10ede,data/41d10ede/src/86910f2a.py,556,556,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 100572,86910f2a,GitHub,41d10ede,data/41d10ede/src/86910f2a.py,597,597,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-100573,5c3e86ec,GitHub,41d10ede,data/41d10ede/src/5c3e86ec.py,264,264,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+100573,5c3e86ec,GitHub,41d10ede,data/41d10ede/src/5c3e86ec.py,264,264,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 100574,fb8cd055,GitHub,41d10ede,data/41d10ede/test/fb8cd055.py,18,18,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 100575,fb8cd055,GitHub,41d10ede,data/41d10ede/test/fb8cd055.py,59,59,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 100576,41d180f6,GitHub,41d10ede,data/41d10ede/test/41d180f6.py,349,349,Template,F,8,12,F,F,Any,,,Secret,1.00,4,F,F,F,Password
@@ -51,8 +51,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 130177,86910f2a,GitHub,41d10ede,data/41d10ede/src/86910f2a.py,512,512,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130178,86910f2a,GitHub,41d10ede,data/41d10ede/src/86910f2a.py,1355,1355,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130179,9e08e8c7,GitHub,41d10ede,data/41d10ede/test/9e08e8c7.py,18,18,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-133304,45acb2e0,GitHub,41d10ede,data/41d10ede/src/45acb2e0.py,415,415,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-133305,45acb2e0,GitHub,41d10ede,data/41d10ede/src/45acb2e0.py,421,421,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-133306,45acb2e0,GitHub,41d10ede,data/41d10ede/src/45acb2e0.py,500,500,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+133304,45acb2e0,GitHub,41d10ede,data/41d10ede/src/45acb2e0.py,415,415,F,F,,,F,F,,,,,0,0,F,F,F,Token
+133305,45acb2e0,GitHub,41d10ede,data/41d10ede/src/45acb2e0.py,421,421,F,F,,,F,F,,,,,0,0,F,F,F,Token
+133306,45acb2e0,GitHub,41d10ede,data/41d10ede/src/45acb2e0.py,500,500,F,F,,,F,F,,,,,0,0,F,F,F,Token
 133307,41d180f6,GitHub,41d10ede,data/41d10ede/test/41d180f6.py,343,343,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 137924,9e08e8c7,GitHub,41d10ede,data/41d10ede/test/9e08e8c7.py,11,11,F,F,28,38,F,F,,,,,0.0,0,F,F,F,Password

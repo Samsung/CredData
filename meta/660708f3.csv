@@ -4,7 +4,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 13509,f3591641,GitHub,660708f3,data/660708f3/src/f3591641.php,14,14,F,F,,,F,F,,,,,0,0,F,F,F,Password
 14898,05f87a07,GitHub,660708f3,data/660708f3/src/05f87a07.php,39,39,F,F,,,F,F,,,,,0,0,F,F,F,Password
 15986,f3591641,GitHub,660708f3,data/660708f3/src/f3591641.php,28,28,F,F,,,F,F,,,,,0,0,F,F,F,Password
-16398,14fbb5fd,GitHub,660708f3,data/660708f3/src/14fbb5fd.php,62,62,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+16398,14fbb5fd,GitHub,660708f3,data/660708f3/src/14fbb5fd.php,62,62,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 16468,6e395352,GitHub,660708f3,data/660708f3/src/6e395352.js,3830,3830,F,F,,,F,F,,,,,0,0,F,F,F,Password
 16469,6e395352,GitHub,660708f3,data/660708f3/src/6e395352.js,3829,3829,F,F,,,F,F,,,,,0,0,F,F,F,Password
 16478,6e395352,GitHub,660708f3,data/660708f3/src/6e395352.js,3782,3782,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -14,18 +14,18 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 16538,6e395352,GitHub,660708f3,data/660708f3/src/6e395352.js,3701,3701,F,F,,,F,F,,,,,0,0,F,F,F,Password
 16539,6e395352,GitHub,660708f3,data/660708f3/src/6e395352.js,3700,3700,F,F,,,F,F,,,,,0,0,F,F,F,Password
 16540,6e395352,GitHub,660708f3,data/660708f3/src/6e395352.js,3699,3699,Template,T,19,27,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Password
-17546,b3356305,GitHub,660708f3,data/660708f3/other/b3356305.md,14,14,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-17547,b3356305,GitHub,660708f3,data/660708f3/other/b3356305.md,13,13,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+17546,b3356305,GitHub,660708f3,data/660708f3/other/b3356305.md,14,14,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+17547,b3356305,GitHub,660708f3,data/660708f3/other/b3356305.md,13,13,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 19011,cb220955,GitHub,660708f3,data/660708f3/other/cb220955,437,437,F,F,,,F,F,,,,,0,0,F,F,F,Info
 19184,cb220955,GitHub,660708f3,data/660708f3/other/cb220955,491,491,F,F,,,F,F,,,,,0,0,F,F,F,Info
-19270,cb220955,GitHub,660708f3,data/660708f3/other/cb220955,266,266,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
-21516,05f87a07,GitHub,660708f3,data/660708f3/src/05f87a07.php,19,19,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+19270,cb220955,GitHub,660708f3,data/660708f3/other/cb220955,266,266,F,F,,,F,F,,,,,0,0,F,F,F,Auth
+21516,05f87a07,GitHub,660708f3,data/660708f3/src/05f87a07.php,19,19,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 27689,6e395352,GitHub,660708f3,data/660708f3/src/6e395352.js,3827,3827,F,F,19,60,F,F,,,,,0,0,F,F,F,Password
 27709,6e395352,GitHub,660708f3,data/660708f3/src/6e395352.js,3831,3831,F,F,20,32,F,F,,,,,0,0,F,F,F,Password
 27713,6e395352,GitHub,660708f3,data/660708f3/src/6e395352.js,3824,3824,F,T,27,43,F,F,Any,,,Secret,3.38,16,F,F,F,Password
 27714,6e395352,GitHub,660708f3,data/660708f3/src/6e395352.js,3823,3823,Template,T,19,31,F,F,Any,,,Secret,2.95,12,F,F,F,Password
 27718,6e395352,GitHub,660708f3,data/660708f3/src/6e395352.js,3815,3815,Template,T,21,38,F,F,Any,,,Secret,3.10,17,F,F,F,Password
-54740,6e395352,GitHub,660708f3,data/660708f3/src/6e395352.js,8,8,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+54740,6e395352,GitHub,660708f3,data/660708f3/src/6e395352.js,8,8,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 55970,6e395352,GitHub,660708f3,data/660708f3/src/6e395352.js,3796,3796,F,F,,,F,F,,,,,0,0,F,F,F,Password
 63065,6e395352,GitHub,660708f3,data/660708f3/src/6e395352.js,6999,6999,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 63066,6e395352,GitHub,660708f3,data/660708f3/src/6e395352.js,7012,7012,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
@@ -34,7 +34,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 74771,6e395352,GitHub,660708f3,data/660708f3/src/6e395352.js,7492,7492,F,F,,,F,F,,,,,0,0,F,F,F,Password
 74775,6e395352,GitHub,660708f3,data/660708f3/src/6e395352.js,4355,4355,F,F,,,F,F,,,,,0,0,F,F,F,Password
 100938,6e395352,GitHub,660708f3,data/660708f3/src/6e395352.js,939,939,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-110491,05f87a07,GitHub,660708f3,data/660708f3/src/05f87a07.php,205,205,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+110491,05f87a07,GitHub,660708f3,data/660708f3/src/05f87a07.php,205,205,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 110492,f3591641,GitHub,660708f3,data/660708f3/src/f3591641.php,38,38,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130355,6e395352,GitHub,660708f3,data/660708f3/src/6e395352.js,938,938,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130356,6e395352,GitHub,660708f3,data/660708f3/src/6e395352.js,1555,1555,F,F,,,F,F,,,,,0.00,,F,F,F,Password

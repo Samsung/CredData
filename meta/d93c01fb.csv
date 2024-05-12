@@ -13,29 +13,29 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 13749,265ac038,GitHub,d93c01fb,data/d93c01fb/test/265ac038.bats,148,148,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 16851,66e55eb1,GitHub,d93c01fb,data/d93c01fb/other/66e55eb1.md,115,115,F,F,,,F,F,,,,,0,0,F,F,F,Password
 21937,b3500312,GitHub,d93c01fb,data/d93c01fb/test/b3500312.lock,1052,1052,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-23675,86091c5c,GitHub,d93c01fb,data/d93c01fb/other/86091c5c,8,8,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
-25136,fefdac88,GitHub,d93c01fb,data/d93c01fb/test/fefdac88.py,25,25,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+23675,86091c5c,GitHub,d93c01fb,data/d93c01fb/other/86091c5c,8,8,F,F,,,F,F,,,,,0,0,F,F,F,Token
+25136,fefdac88,GitHub,d93c01fb,data/d93c01fb/test/fefdac88.py,25,25,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 32638,1e2b4f87,GitHub,d93c01fb,data/d93c01fb/test/1e2b4f87.bats,43,43,F,F,36,47,F,F,CharsOnly,,,Secret,2.73,11,F,F,F,Password
 32654,e137b4a1,GitHub,d93c01fb,data/d93c01fb/test/e137b4a1.bats,80,80,F,F,36,47,F,F,CharsOnly,,,Secret,2.73,11,F,F,F,Password
-34986,e137b4a1,GitHub,d93c01fb,data/d93c01fb/test/e137b4a1.bats,70,70,T,F,94,105,F,F,CharsOnly,,,Secret,2.73,11,F,F,F,Generic Secret
-35633,ec8653c8,GitHub,d93c01fb,data/d93c01fb/src/ec8653c8.py,289,289,F,F,114,185,F,F,,,,,0,0,F,F,F,Generic Secret
-36737,e137b4a1,GitHub,d93c01fb,data/d93c01fb/test/e137b4a1.bats,86,86,T,F,39,50,F,F,CharsOnly,,,Secret,2.73,11,F,F,F,Generic Secret
-48134,265ac038,GitHub,d93c01fb,data/d93c01fb/test/265ac038.bats,290,290,F,F,39,45,F,F,Any,,,Key,2.58,6,F,F,F,Generic Secret
-75144,e137b4a1,GitHub,d93c01fb,data/d93c01fb/test/e137b4a1.bats,104,104,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-75145,1e2b4f87,GitHub,d93c01fb,data/d93c01fb/test/1e2b4f87.bats,34,34,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-100188,e5fadea2,GitHub,d93c01fb,data/d93c01fb/test/e5fadea2.js,17,17,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-100189,e5fadea2,GitHub,d93c01fb,data/d93c01fb/test/e5fadea2.js,34,34,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-100190,fefdac88,GitHub,d93c01fb,data/d93c01fb/test/fefdac88.py,88,88,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-110027,ec8653c8,GitHub,d93c01fb,data/d93c01fb/src/ec8653c8.py,216,216,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-110028,66e55eb1,GitHub,d93c01fb,data/d93c01fb/other/66e55eb1.md,21,21,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-110029,66e55eb1,GitHub,d93c01fb,data/d93c01fb/other/66e55eb1.md,24,24,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-110030,66e55eb1,GitHub,d93c01fb,data/d93c01fb/other/66e55eb1.md,39,39,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-110031,aada8416,GitHub,d93c01fb,data/d93c01fb/test/aada8416.sum,102,102,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
-110032,aada8416,GitHub,d93c01fb,data/d93c01fb/test/aada8416.sum,103,103,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
-110033,aada8416,GitHub,d93c01fb,data/d93c01fb/test/aada8416.sum,104,104,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
-110034,e5fadea2,GitHub,d93c01fb,data/d93c01fb/test/e5fadea2.js,41,41,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-134662,66e55eb1,GitHub,d93c01fb,data/d93c01fb/other/66e55eb1.md,7,7,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-134663,66e55eb1,GitHub,d93c01fb,data/d93c01fb/other/66e55eb1.md,42,42,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-134664,66e55eb1,GitHub,d93c01fb,data/d93c01fb/other/66e55eb1.md,50,50,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-134665,66e55eb1,GitHub,d93c01fb,data/d93c01fb/other/66e55eb1.md,56,56,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-134666,ec8653c8,GitHub,d93c01fb,data/d93c01fb/src/ec8653c8.py,46,46,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+34986,e137b4a1,GitHub,d93c01fb,data/d93c01fb/test/e137b4a1.bats,70,70,T,F,94,105,F,F,CharsOnly,,,Secret,2.73,11,F,F,F,Secret
+35633,ec8653c8,GitHub,d93c01fb,data/d93c01fb/src/ec8653c8.py,289,289,F,F,114,185,F,F,,,,,0,0,F,F,F,Secret
+36737,e137b4a1,GitHub,d93c01fb,data/d93c01fb/test/e137b4a1.bats,86,86,T,F,39,50,F,F,CharsOnly,,,Secret,2.73,11,F,F,F,Secret
+48134,265ac038,GitHub,d93c01fb,data/d93c01fb/test/265ac038.bats,290,290,F,F,39,45,F,F,Any,,,Key,2.58,6,F,F,F,Secret
+75144,e137b4a1,GitHub,d93c01fb,data/d93c01fb/test/e137b4a1.bats,104,104,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+75145,1e2b4f87,GitHub,d93c01fb,data/d93c01fb/test/1e2b4f87.bats,34,34,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+100188,e5fadea2,GitHub,d93c01fb,data/d93c01fb/test/e5fadea2.js,17,17,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+100189,e5fadea2,GitHub,d93c01fb,data/d93c01fb/test/e5fadea2.js,34,34,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+100190,fefdac88,GitHub,d93c01fb,data/d93c01fb/test/fefdac88.py,88,88,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+110027,ec8653c8,GitHub,d93c01fb,data/d93c01fb/src/ec8653c8.py,216,216,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+110028,66e55eb1,GitHub,d93c01fb,data/d93c01fb/other/66e55eb1.md,21,21,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+110029,66e55eb1,GitHub,d93c01fb,data/d93c01fb/other/66e55eb1.md,24,24,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+110030,66e55eb1,GitHub,d93c01fb,data/d93c01fb/other/66e55eb1.md,39,39,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+110031,aada8416,GitHub,d93c01fb,data/d93c01fb/test/aada8416.sum,102,102,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
+110032,aada8416,GitHub,d93c01fb,data/d93c01fb/test/aada8416.sum,103,103,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
+110033,aada8416,GitHub,d93c01fb,data/d93c01fb/test/aada8416.sum,104,104,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
+110034,e5fadea2,GitHub,d93c01fb,data/d93c01fb/test/e5fadea2.js,41,41,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+134662,66e55eb1,GitHub,d93c01fb,data/d93c01fb/other/66e55eb1.md,7,7,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+134663,66e55eb1,GitHub,d93c01fb,data/d93c01fb/other/66e55eb1.md,42,42,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+134664,66e55eb1,GitHub,d93c01fb,data/d93c01fb/other/66e55eb1.md,50,50,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+134665,66e55eb1,GitHub,d93c01fb,data/d93c01fb/other/66e55eb1.md,56,56,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+134666,ec8653c8,GitHub,d93c01fb,data/d93c01fb/src/ec8653c8.py,46,46,F,F,,,F,F,,,,,0,0,F,F,F,Secret
