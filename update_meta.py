@@ -92,7 +92,6 @@ def main(output_json, meta_dir):
                         next_meta_id += 1
                         n.ValueStart = start_pos
                         n.ValueEnd = end_pos
-                        n.ValueEnd = -1
                         cred_rules = sorted([x.rule for x in creds if x.strip_value_start == start_pos])
                         n.Category = ':'.join(cred_rules)
                         with open(f"meta/{m.RepoName}.csv", "a") as f:
