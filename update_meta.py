@@ -74,7 +74,10 @@ def main(output_json, meta_dir):
                          f"meta/{m.RepoName}.csv"])
                     continue
 
-                if 0 > m.ValueEnd:
+                if 0 > m.ValueStart:
+                    # all rules in the creds are false
+                    cred_rules = sorted([x.rule for x in creds])
+                elif 0 > m.ValueEnd:
                     # end position was not decided - detect only for start pos
                     cred_rules = sorted([x.rule for x in creds if x.strip_value_start == m.ValueStart])
                 else:
