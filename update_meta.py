@@ -53,7 +53,7 @@ def main(output_json, meta_dir):
         raise FileExistsError(f"{meta_dir} directory does not exist.")
 
     meta_dict = prepare_meta(meta_dir)
-    # next_meta_id = 1 + max(max(y.Id for y in x) for x in meta_dict.values())
+    next_meta_id = 1 + max(max(y.Id for y in x) for x in meta_dict.values())
 
     with open(output_json, "r") as f:
         cred_dict = prepare_cred(json.load(f))
@@ -86,12 +86,14 @@ def main(output_json, meta_dir):
 
                 if not cred_rules:
                     n = copy.deepcopy(m)
-                    n.VariableNameType = "NoRuleFound"
-                    subprocess.run(
-                        ["sed", "-i",
-                         "s|" + str(m) + "|" + str(n) + "|",
-                         f"meta/{m.RepoName}.csv"])
-                    continue
+                    for start_pos in set(x.strip_value_start for x in creds):
+                        n.Id = next_meta_id
+                        next_meta_id += 1
+                        n.ValueStart = start_pos
+                        n.VariableNameType = "WrongPos"
+                        with open(f"meta/{m.RepoName}.csv", "a") as f:
+                            f.write(f"{str(n)}\n")
+                continue
 
                 cred_rules_set = set(cred_rules)
 
