@@ -97,7 +97,12 @@ def read_data(path, line_start, line_end, value_start, value_end, ground_truth, 
     print("\n\n")
 
 
-def main(meta_dir, data_dir, data_filter, load_json: Optional[str] = None, category: Optional[str] = None) -> int:
+def main(meta_dir: str,
+         data_dir: str,
+         check_only: bool,
+         data_filter: dict,
+         load_json: Optional[str] = None,
+         category: Optional[str] = None) -> int:
     error_code = EXIT_FAILURE
     if not os.path.exists(meta_dir):
         raise FileExistsError(f"{meta_dir} directory does not exist.")
@@ -119,18 +124,19 @@ def main(meta_dir, data_dir, data_filter, load_json: Optional[str] = None, categ
             continue
 
         displayed_rows += 1
-        print(str(row), flush=True)
-        try:
-            read_data(row.FilePath,
-                      row.LineStart,
-                      row.LineEnd,
-                      row.ValueStart,
-                      row.ValueEnd,
-                      row.GroundTruth,
-                      creds)
-        except Exception as exc:
-            print(f"Failure {row}", exc, flush=True)
-            raise
+        if not check_only:
+            print(str(row), flush=True)
+            try:
+                read_data(row.FilePath,
+                          row.LineStart,
+                          row.LineEnd,
+                          row.ValueStart,
+                          row.ValueEnd,
+                          row.GroundTruth,
+                          creds)
+            except Exception as exc:
+                print(f"Failure {row}", exc, flush=True)
+                raise
         row_str = f"{row.FilePath},{row.LineStart}:{row.LineEnd},{row.ValueStart},{row.ValueEnd}"
         if row_str in shown_rows:
             print(f"Duplicate row {row}", flush=True)
@@ -149,6 +155,7 @@ if __name__ == "__main__":
 
     parser.add_argument("meta_dir", help="Markup location", nargs='?', default="meta")
     parser.add_argument("data_dir", help="Dataset location", nargs='?', default="data")
+    parser.add_argument("--check_only", help="Check meta markup only", action='store_true')
     parser.add_argument("-T", help="Show TRUE markup", action="store_true")
     parser.add_argument("-F", help="Show FALSE markup", action="store_true")
     parser.add_argument("-t", help="Show Template markup", action="store_true")
@@ -168,7 +175,7 @@ if __name__ == "__main__":
         _data_filter["F"] = _args.F
         _data_filter["Template"] = _args.t
         _data_filter["X"] = _args.X
-    exit_code = main(_args.meta_dir, _args.data_dir, _data_filter, _args.load, _args.category)
+    exit_code = main(_args.meta_dir, _args.data_dir, bool(_args.check_only), _data_filter, _args.load, _args.category)
     sys.exit(exit_code)
 
 # use review with 'less'
