@@ -277,7 +277,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 100950,dae658b6,GitHub,55031e17,data/55031e17/src/dae658b6.py,86,86,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 100951,3a27de4b,GitHub,55031e17,data/55031e17/test/3a27de4b.py,50,50,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 100952,aa2879ba,GitHub,55031e17,data/55031e17/test/aa2879ba.py,86,86,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-100953,aa2879ba,GitHub,55031e17,data/55031e17/test/aa2879ba.py,98,98,T,F,45,55,F,F,CharOnly,,,Secret,3.12,10,F,F,F,Password
+100953,aa2879ba,GitHub,55031e17,data/55031e17/test/aa2879ba.py,98,98,T,F,45,55,F,F,CharOnly,,,NoCredsFound,3.12,10,F,F,F,Password
 100954,aa2879ba,GitHub,55031e17,data/55031e17/test/aa2879ba.py,103,103,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 100955,aa2879ba,GitHub,55031e17,data/55031e17/test/aa2879ba.py,111,111,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 100956,b8fa2fad,GitHub,55031e17,data/55031e17/test/b8fa2fad.py,258,258,F,F,,,F,F,,,,,0.00,,F,F,F,Password
@@ -301,5 +301,5 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 130381,dae658b6,GitHub,55031e17,data/55031e17/src/dae658b6.py,347,347,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130382,4702a6b2,GitHub,55031e17,data/55031e17/src/4702a6b2.py,72,72,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 133365,6cb899b4,GitHub,55031e17,data/55031e17/src/6cb899b4.py,178,178,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-137941,aa2879ba,GitHub,55031e17,data/55031e17/test/aa2879ba.py,98,98,T,F,62,71,F,F,,,,,0.0,0,F,F,F,Password
+137941,aa2879ba,GitHub,55031e17,data/55031e17/test/aa2879ba.py,98,98,T,F,62,71,F,F,,,,NoCredsFound,0.0,0,F,F,F,Password
 137942,b4e617dc,GitHub,55031e17,data/55031e17/test/b4e617dc.py,431,431,F,F,39,45,F,F,,,,,0.0,0,F,F,F,Password
