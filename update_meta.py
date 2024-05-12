@@ -61,6 +61,7 @@ def main(output_json, meta_dir):
     notfound = 0
     for k, v in meta_dict.items():
         if 1 < len(v):
+            meta_val_positions = [(x.ValueStart,x.ValueEnd) for x in v]
             for m in v:
                 assert 0 <= m.ValueStart, str(m)  # at least start position must be positive
                 creds = cred_dict.get(k)
@@ -88,6 +89,9 @@ def main(output_json, meta_dir):
                     n = copy.deepcopy(m)
                     n.VariableNameType = "WrongPos"
                     for start_pos, end_pos in set((x.strip_value_start, x.strip_value_end) for x in creds):
+                        if (start_pos,end_pos) in meta_val_positions:
+                            # the positions have markup in other meta
+                            continue
                         n.Id = next_meta_id
                         next_meta_id += 1
                         n.ValueStart = start_pos
@@ -98,18 +102,18 @@ def main(output_json, meta_dir):
                             f.write(f"{str(n)}\n")
                     continue
 
-                cred_rules_set = set(cred_rules)
-
-                meta_rules_set = set(m.Category.split(':'))
-
-                if meta_rules_set.difference(cred_rules_set) or cred_rules_set.difference(meta_rules_set):
-                    new_category = sorted(list(meta_rules_set | cred_rules_set))
-                    n = copy.deepcopy(m)
-                    n.Category = ':'.join(new_category)
-                    subprocess.run(
-                        ["sed", "-i",
-                         "s|" + str(m) + "|" + str(n) + "|",
-                         f"meta/{m.RepoName}.csv"])
+                # cred_rules_set = set(cred_rules)
+                #
+                # meta_rules_set = set(m.Category.split(':'))
+                #
+                # if meta_rules_set.difference(cred_rules_set) or cred_rules_set.difference(meta_rules_set):
+                #     new_category = sorted(list(meta_rules_set | cred_rules_set))
+                #     n = copy.deepcopy(m)
+                #     n.Category = ':'.join(new_category)
+                #     subprocess.run(
+                #         ["sed", "-i",
+                #          "s|" + str(m) + "|" + str(n) + "|",
+                #          f"meta/{m.RepoName}.csv"])
 
         # meta_cred = MetaCred(cred)
         # cred_line_key = (meta_cred.path, meta_cred.line_start, meta_cred.line_end)
