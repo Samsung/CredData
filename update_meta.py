@@ -86,14 +86,17 @@ def main(output_json, meta_dir):
 
                 if not cred_rules:
                     n = copy.deepcopy(m)
+                    n.VariableNameType = "WrongPos"
                     for start_pos in set(x.strip_value_start for x in creds):
                         n.Id = next_meta_id
                         next_meta_id += 1
                         n.ValueStart = start_pos
-                        n.VariableNameType = "WrongPos"
+                        n.ValueEnd = -1
+                        cred_rules = sorted([x.rule for x in creds if x.strip_value_start == start_pos])
+                        n.Category = ':'.join(cred_rules)
                         with open(f"meta/{m.RepoName}.csv", "a") as f:
                             f.write(f"{str(n)}\n")
-                continue
+                    continue
 
                 cred_rules_set = set(cred_rules)
 
