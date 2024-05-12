@@ -103,7 +103,8 @@ def main(meta_dir: str,
          data_filter: dict,
          load_json: Optional[str] = None,
          category: Optional[str] = None) -> int:
-    error_code = EXIT_FAILURE
+    errors = 0
+    duplicates = 0
     if not os.path.exists(meta_dir):
         raise FileExistsError(f"{meta_dir} directory does not exist.")
     if not os.path.exists(data_dir):
@@ -136,17 +137,16 @@ def main(meta_dir: str,
                           creds)
             except Exception as exc:
                 print(f"Failure {row}", exc, flush=True)
-                raise
+                errors += 1
         markup_key = (row.FilePath, row.LineStart, row.LineEnd, row.ValueStart, row.ValueEnd)
         if markup_key in shown_markup:
             print(f"Duplicate markup!\nSHOWN:{shown_markup[markup_key]}\nTHIS:{row}", flush=True)
-            break
+            duplicates += 1
         else:
             shown_markup[markup_key] = row
-    else:
-        error_code = EXIT_SUCCESS
-    print(f"Shown {displayed_rows} of {len(meta)}", flush=True)
-    return error_code
+    result = EXIT_SUCCESS if 0 == duplicates == errors else EXIT_FAILURE
+    print(f"Shown {displayed_rows} of {len(meta)}, errors: {errors}, duplicates: {duplicates}, {result}", flush=True)
+    return result
 
 
 if __name__ == "__main__":
