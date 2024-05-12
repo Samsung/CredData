@@ -87,7 +87,7 @@ def main(output_json, meta_dir):
                 if not cred_rules:
                     n = copy.deepcopy(m)
                     n.VariableNameType = "WrongPos"
-                    for start_pos, end_pos in set((x.strip_value_start,x.strip_value_end) for x in creds):
+                    for start_pos, end_pos in set((x.strip_value_start, x.strip_value_end) for x in creds):
                         n.Id = next_meta_id
                         next_meta_id += 1
                         n.ValueStart = start_pos
