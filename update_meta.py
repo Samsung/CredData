@@ -64,7 +64,15 @@ def main(output_json, meta_dir):
             for m in v:
                 assert 0 <= m.ValueStart, str(m)  # at least start position must be positive
                 creds = cred_dict.get(k)
-                assert creds, str(m)
+
+                if not creds:
+                    n = copy.deepcopy(m)
+                    n.VariableNameType = "NoCredsFound"
+                    subprocess.run(
+                        ["sed", "-i",
+                         "s|" + str(m) + "|" + str(n) + "|",
+                         f"meta/{m.RepoName}.csv"])
+                    continue
 
                 if 0 > m.ValueEnd:
                     # end position was not decided - detect only for start pos
@@ -74,7 +82,13 @@ def main(output_json, meta_dir):
                                          x.strip_value_start == m.ValueStart and x.strip_value_end == m.ValueEnd])
 
                 if not cred_rules:
-                    print(f"X3: {str(m)}")
+                    n = copy.deepcopy(m)
+                    n.VariableNameType = "NoRuleFound"
+                    subprocess.run(
+                        ["sed", "-i",
+                         "s|" + str(m) + "|" + str(n) + "|",
+                         f"meta/{m.RepoName}.csv"])
+                    continue
 
                 cred_rules_set = set(cred_rules)
 
