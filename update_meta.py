@@ -73,14 +73,14 @@ def main(output_json, meta_dir):
                     cred_rules = sorted([x.rule for x in creds if
                                          x.strip_value_start == m.ValueStart and x.strip_value_end == m.ValueEnd])
 
-                assert cred_rules, creds
+                if not cred_rules:
+                    print(f"X3: {str(m)}")
 
-                cred_rules_set = set(creds)
+                cred_rules_set = set(cred_rules)
 
                 meta_rules_set = set(m.Category.split(':'))
 
-                if meta_rules_set.difference(cred_rules_set) or cred_rules_set.difference(meta_rules_set)
-
+                if meta_rules_set.difference(cred_rules_set) or cred_rules_set.difference(meta_rules_set):
                     new_category = sorted(list(meta_rules_set | cred_rules_set))
                     n = copy.deepcopy(m)
                     n.Category = ':'.join(new_category)
