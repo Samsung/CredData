@@ -171,7 +171,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 21601,a431c748,GitHub,894e3377,data/894e3377/src/a431c748.php,1451,1451,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 21631,4dbda4af,GitHub,894e3377,data/894e3377/test/4dbda4af.php,64,72,T,F,,,F,F,Any,Private,,Unknown,0.0,0,F,F,F,Private Key
 21635,a431c748,GitHub,894e3377,data/894e3377/src/a431c748.php,2783,2783,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-29108,40a8ca9e,GitHub,894e3377,data/894e3377/test/40a8ca9e.php,531,531,Template,T,8,208,F,F,Any,,,Unknown,5.67,200,F,F,F,Key
+29108,40a8ca9e,GitHub,894e3377,data/894e3377/test/40a8ca9e.php,531,531,T,T,8,208,F,F,Any,,,Unknown,5.67,200,F,F,F,Key
 29109,692d9463,GitHub,894e3377,data/894e3377/test/692d9463.php,252,252,F,T,8,601,F,F,Any,,,Unknown,5.85,593,F,F,F,Other
 29124,ac94d981,GitHub,894e3377,data/894e3377/test/ac94d981.php,382,382,F,F,42,143,F,F,Any,,,Unknown,4.99,101,F,F,F,Other
 29125,ac94d981,GitHub,894e3377,data/894e3377/test/ac94d981.php,358,358,F,F,42,313,F,F,Any,,,Unknown,5.64,271,F,F,F,Other
@@ -180,7 +180,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 29159,40a8ca9e,GitHub,894e3377,data/894e3377/test/40a8ca9e.php,1125,1125,T,F,8,1060,F,F,Any,,,Unknown,3.99,1052,F,F,F,Key
 29212,8fd0c9cf,GitHub,894e3377,data/894e3377/test/8fd0c9cf.php,66,76,F,F,8,102,F,F,,,,,0,0,F,F,F,Info
 29214,8fd0c9cf,GitHub,894e3377,data/894e3377/test/8fd0c9cf.php,247,263,F,F,8,72,F,F,,,,,0,0,F,F,F,Info
-29217,c638a17a,GitHub,894e3377,data/894e3377/test/c638a17a.php,15,25,T,T,9,86,F,F,Any,,,Unknown,4.61,77,F,F,F,Unknown:notfound
+29217,c638a17a,GitHub,894e3377,data/894e3377/test/c638a17a.php,15,25,T,T,9,7,F,F,Any,,,Unknown,4.61,77,F,F,F,Unknown:notfound
 33764,08865fe8,GitHub,894e3377,data/894e3377/test/08865fe8.php,30,30,F,F,2,34,F,F,,,,,0,0,F,F,F,Info
 33765,08865fe8,GitHub,894e3377,data/894e3377/test/08865fe8.php,29,29,F,F,2,34,F,F,,,,,0,0,F,F,F,Info
 34002,a61e6f6a,GitHub,894e3377,data/894e3377/src/a61e6f6a.sh,14,14,T,F,10,34,F,F,Any,,,Secret,3.97,24,F,F,F,Atlassian Old PAT token:Password
@@ -188,13 +188,13 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 35809,832c519e,GitHub,894e3377,data/894e3377/src/832c519e.sh,7,7,T,F,31,55,F,F,Any,,,Secret,3.97,24,F,F,F,Atlassian Old PAT token:Password
 35878,b679985c,GitHub,894e3377,data/894e3377/test/b679985c.php,111,111,F,F,34,111,F,F,,,,,0,0,F,F,F,Secret
 35892,40a8ca9e,GitHub,894e3377,data/894e3377/test/40a8ca9e.php,348,348,F,F,51,94,F,F,Any,,,Unknown,4.69,43,F,F,F,Unknown:notfound
-35943,af1ed3df,GitHub,894e3377,data/894e3377/test/af1ed3df.php,99,100,T,T,22,142,F,F,Any,,,Unknown,5.51,120,T,F,F,Unknown:notfound
+35943,af1ed3df,GitHub,894e3377,data/894e3377/test/af1ed3df.php,99,100,T,T,22,53,F,F,Any,,,Unknown,5.51,120,T,F,F,Unknown:notfound
 36019,3088fb74,GitHub,894e3377,data/894e3377/test/3088fb74.php,76,89,T,F,8,72,F,F,Any,,,Unknown,4.43,64,F,F,F,Unknown:notfound
 36067,0079851c,GitHub,894e3377,data/894e3377/test/0079851c.php,110,115,F,T,30,45,F,F,CharsOnly,,,Unknown,3.77,15,F,F,F,Unknown:notfound
 36089,8fd0c9cf,GitHub,894e3377,data/894e3377/test/8fd0c9cf.php,344,344,F,F,28,117,F,F,,,,,0,0,F,F,F,Secret
 36110,af1ed3df,GitHub,894e3377,data/894e3377/test/af1ed3df.php,154,154,T,T,12,945,F,F,Any,,JSON Web Token,Token,5.67,933,F,F,F,JSON Web Token
 36114,40a8ca9e,GitHub,894e3377,data/894e3377/test/40a8ca9e.php,647,647,Template,F,9,13,F,F,CharsOnly,,,Unknown,2.00,4,F,F,F,Password
-36116,af1ed3df,GitHub,894e3377,data/894e3377/test/af1ed3df.php,94,97,T,T,26,146,F,F,Any,,,Unknown,5.19,120,T,F,F,Unknown:notfound
+36116,af1ed3df,GitHub,894e3377,data/894e3377/test/af1ed3df.php,94,97,T,T,26,49,F,F,Any,,,Unknown,5.19,120,T,F,F,Unknown:notfound
 36168,ac94d981,GitHub,894e3377,data/894e3377/test/ac94d981.php,304,304,F,F,42,221,F,F,Any,,,Unknown,5.36,179,F,F,F,Other
 36170,40a8ca9e,GitHub,894e3377,data/894e3377/test/40a8ca9e.php,1050,1050,Template,T,8,565,F,F,Any,,,Unknown,5.86,557,F,F,F,Secret
 36171,40a8ca9e,GitHub,894e3377,data/894e3377/test/40a8ca9e.php,338,343,F,F,8,81,F,F,Any,,,Unknown,4.65,73,F,F,F,Unknown:notfound
@@ -214,7 +214,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 37580,40a8ca9e,GitHub,894e3377,data/894e3377/test/40a8ca9e.php,892,892,Template,F,9,13,F,F,CharsOnly,,,Unknown,2.00,4,F,F,F,Password
 37581,40a8ca9e,GitHub,894e3377,data/894e3377/test/40a8ca9e.php,932,932,Template,F,9,13,F,F,CharsOnly,,,Unknown,2.00,4,F,F,F,Password
 37621,40a8ca9e,GitHub,894e3377,data/894e3377/test/40a8ca9e.php,135,145,T,F,8,84,F,F,Any,,,Unknown,5.39,76,F,F,F,Unknown:notfound
-37726,c638a17a,GitHub,894e3377,data/894e3377/test/c638a17a.php,73,83,T,F,9,86,F,F,Any,,,Unknown,4.61,77,F,F,F,Unknown:notfound
+37726,c638a17a,GitHub,894e3377,data/894e3377/test/c638a17a.php,73,83,T,F,9,8,F,F,Any,,,Unknown,4.61,77,F,F,F,Unknown:notfound
 41121,09ee0f50,GitHub,894e3377,data/894e3377/src/09ee0f50.php,11,11,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 41122,5812f623,GitHub,894e3377,data/894e3377/src/5812f623.php,11,11,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 41147,754ff268,GitHub,894e3377,data/894e3377/src/754ff268.php,104,104,F,F,,,F,F,,,,,0,0,F,F,F,Info
@@ -785,7 +785,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 133823,ed108d6d,GitHub,894e3377,data/894e3377/src/ed108d6d.php,451,451,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 133824,ed108d6d,GitHub,894e3377,data/894e3377/src/ed108d6d.php,498,498,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 133825,ed108d6d,GitHub,894e3377,data/894e3377/src/ed108d6d.php,3745,3745,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-133826,40a8ca9e,GitHub,894e3377,data/894e3377/test/40a8ca9e.php,95,95,T,F,8,84,F,F,,,,,0,0,F,F,F,Secret
+133826,40a8ca9e,GitHub,894e3377,data/894e3377/test/40a8ca9e.php,95,95,F,F,8,84,F,F,,,,,0,0,F,F,F,Secret
 133827,40a8ca9e,GitHub,894e3377,data/894e3377/test/40a8ca9e.php,115,115,T,F,8,84,F,F,,,,,0,0,F,F,F,Secret
 133828,40a8ca9e,GitHub,894e3377,data/894e3377/test/40a8ca9e.php,135,135,T,F,8,84,F,F,,,,,0,0,F,F,F,Secret
 133829,40a8ca9e,GitHub,894e3377,data/894e3377/test/40a8ca9e.php,500,500,T,F,8,80,F,F,,,,,0,0,F,F,F,Secret
