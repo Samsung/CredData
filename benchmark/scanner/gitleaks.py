@@ -36,4 +36,4 @@ class Gitleaks(Scanner):
         for line_data in data:
             if line_data["file"].split("/")[-1] == "LICENSE":
                 continue
-            _, _, _ = self.check_line_from_meta(line_data["file"], line_data["lineNumber"])
+            _, _, _ = self.check_line_from_meta(line_data["file"], line_data["lineNumber"], line_data["lineNumber"])

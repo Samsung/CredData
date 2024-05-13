@@ -299,6 +299,8 @@ def get_obfuscated_value(value, predefined_pattern):
         obfuscated_value = value[:4] + generate_value(value[4:])
     elif value.startswith("base64:"):
         obfuscated_value = value[:7] + generate_value(value[7:])
+    elif value.startswith("phpass:"):
+        obfuscated_value = value[:7] + generate_value(value[7:])
     elif value.startswith("SWMTKN-1-"):
         obfuscated_value = value[:9] + generate_value(value[9:])
     elif value.startswith("hooks.slack.com/services/"):
@@ -366,7 +368,8 @@ def replace_rows(data: List[Dict[str, str]]):
         if not row["ValueStart"] or not row["ValueEnd"]:
             continue
 
-        if row["Category"] in ["IPv4", "IPv6"]:
+        if row["Category"] in ["IPv4", "IPv6", "AWS Multi", "Google Multi"]:
+            # skip obfuscation for the categories which are multi pattern or info
             continue
 
         value_start = int(row["ValueStart"])
@@ -525,10 +528,14 @@ def process_pem_keys(data: List[Dict[str, str]]):
         line_end = int(row["LineEnd"])
 
         # Skip credentials that are not PEM or multiline
-        if row["CryptographyKey"] == "" and line_end - line_start < 1:
+        if row["CryptographyKey"] == "" and line_end == line_start:
             continue
 
         if row["GroundTruth"] not in ["T", "N/A"]:
+            continue
+
+        if row["Category"] in ["AWS Multi", "Google Multi"]:
+            # skip double obfuscation for the categories
             continue
 
         file_location = row["FilePath"]
