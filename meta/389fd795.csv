@@ -64,9 +64,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 14335,a1b75c39,GitHub,389fd795,data/389fd795/test/a1b75c39.go,11619,11619,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 17595,a826ac15,GitHub,389fd795,data/389fd795/test/a826ac15.html,60,60,F,F,,,F,F,,,,,0,0,F,F,F,Token
 17741,0623d5cf,GitHub,389fd795,data/389fd795/test/0623d5cf.go,17,17,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-17763,09cc750a,GitHub,389fd795,data/389fd795/src/09cc750a.go,574,574,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+17763,09cc750a,GitHub,389fd795,data/389fd795/src/09cc750a.go,574,574,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 19558,c35e6b52,GitHub,389fd795,data/389fd795/src/c35e6b52.go,52,52,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-20023,a0a21c11,GitHub,389fd795,data/389fd795/test/a0a21c11.go,30,30,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+20023,a0a21c11,GitHub,389fd795,data/389fd795/test/a0a21c11.go,30,30,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 20166,8d4499f1,GitHub,389fd795,data/389fd795/test/8d4499f1.go,54,54,F,F,,,F,F,,,,,0,0,F,F,F,Token
 20259,8d4499f1,GitHub,389fd795,data/389fd795/test/8d4499f1.go,83,83,F,F,,,F,F,,,,,0,0,F,F,F,Token
 20260,8d4499f1,GitHub,389fd795,data/389fd795/test/8d4499f1.go,70,70,F,F,,,F,F,,,,,0,0,F,F,F,Token
@@ -94,7 +94,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 25018,872aebd1,GitHub,389fd795,data/389fd795/test/872aebd1.go,117,117,F,F,,,F,F,,,,,0,0,F,F,F,Token
 25019,872aebd1,GitHub,389fd795,data/389fd795/test/872aebd1.go,131,131,F,F,,,F,F,,,,,0,0,F,F,F,Token
 25034,a0a21c11,GitHub,389fd795,data/389fd795/test/a0a21c11.go,75,75,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-25036,a0a21c11,GitHub,389fd795,data/389fd795/test/a0a21c11.go,66,66,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+25036,a0a21c11,GitHub,389fd795,data/389fd795/test/a0a21c11.go,66,66,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 25040,8d4499f1,GitHub,389fd795,data/389fd795/test/8d4499f1.go,126,126,F,F,,,F,F,,,,,0,0,F,F,F,Token
 25041,8d4499f1,GitHub,389fd795,data/389fd795/test/8d4499f1.go,122,122,F,F,,,F,F,,,,,0,0,F,F,F,Token
 25042,8d4499f1,GitHub,389fd795,data/389fd795/test/8d4499f1.go,135,135,F,F,,,F,F,,,,,0,0,F,F,F,Token
@@ -112,7 +112,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 25495,21155b45,GitHub,389fd795,data/389fd795/test/21155b45.go,2320,2320,F,F,,,F,F,,,,,0,0,F,F,F,Token
 25496,21155b45,GitHub,389fd795,data/389fd795/test/21155b45.go,2321,2321,F,F,,,F,F,,,,,0,0,F,F,F,Token
 26802,6faf9d66,GitHub,389fd795,data/389fd795/test/6faf9d66.go,1827,1827,F,F,,,F,F,,,,,0,0,F,F,F,Password
-28000,be0a3914,GitHub,389fd795,data/389fd795/test/be0a3914.go,529,585,T,T,,,F,F,Any,Private,,Unknown,2.77,37,F,F,F,Private Key
+28000,be0a3914,GitHub,389fd795,data/389fd795/test/be0a3914.go,529,585,T,T,,,F,F,Any,Private,,Unknown,2.77,37,F,F,F,Private Key:PEM Private Key
 30798,872aebd1,GitHub,389fd795,data/389fd795/test/872aebd1.go,24,24,Template,T,30,45,F,F,Any,,,Secret,3.51,15,F,F,F,Key:Password
 30832,0623d5cf,GitHub,389fd795,data/389fd795/test/0623d5cf.go,23,23,Template,T,27,36,F,F,Any,,,Secret,2.60,9,F,F,F,Password
 30833,0623d5cf,GitHub,389fd795,data/389fd795/test/0623d5cf.go,22,22,T,F,28,44,F,F,NumbersOnly,,,Token,0,16,F,F,F,Token

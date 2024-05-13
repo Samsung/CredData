@@ -14,8 +14,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 8567,7b8f0478,GitHub,8d217d6c,data/8d217d6c/test/7b8f0478.php,18,18,F,F,,,F,F,,,,,0,0,F,F,F,Password
 9232,3fab299d,GitHub,8d217d6c,data/8d217d6c/src/3fab299d.php,27,27,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 14120,44406e5b,GitHub,8d217d6c,data/8d217d6c/other/44406e5b.html,453,453,Template,T,11,24,F,F,Any,,,Secret,2.95,13,F,F,F,Password
-15788,d8eb2ecb,GitHub,8d217d6c,data/8d217d6c/src/d8eb2ecb.php,49,49,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-15789,fd348efc,GitHub,8d217d6c,data/8d217d6c/src/fd348efc.php,65,65,Template,F,45,53,F,F,NumberOnly,,,Secret,1.00,2,F,F,F,Password
+15788,d8eb2ecb,GitHub,8d217d6c,data/8d217d6c/src/d8eb2ecb.php,49,49,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern:URL Credentials
+15789,fd348efc,GitHub,8d217d6c,data/8d217d6c/src/fd348efc.php,65,65,Template,F,45,53,F,F,NumberOnly,,,Secret,1.00,2,F,F,F,Password:URL Credentials
 15892,227d626e,GitHub,8d217d6c,data/8d217d6c/src/227d626e.php,143,143,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 15981,44406e5b,GitHub,8d217d6c,data/8d217d6c/other/44406e5b.html,468,468,Template,T,13,26,F,F,Any,,,Secret,2.95,13,F,F,F,Password
 15983,fb8c5aed,GitHub,8d217d6c,data/8d217d6c/src/fb8c5aed.txt,15,15,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -38,7 +38,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 17116,a9dcc94f,GitHub,8d217d6c,data/8d217d6c/src/a9dcc94f.php,359,359,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 21519,99082c4e,GitHub,8d217d6c,data/8d217d6c/src/99082c4e.php,56,56,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 21552,5f1482b7,GitHub,8d217d6c,data/8d217d6c/src/5f1482b7.php,420,420,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-21934,f37acfaa,GitHub,8d217d6c,data/8d217d6c/src/f37acfaa.lock,1003,1003,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+21934,f37acfaa,GitHub,8d217d6c,data/8d217d6c/src/f37acfaa.lock,1003,1003,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern:API
 25177,0f5f69a7,GitHub,8d217d6c,data/8d217d6c/src/0f5f69a7.php,306,306,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 25235,44406e5b,GitHub,8d217d6c,data/8d217d6c/other/44406e5b.html,7,7,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 29164,616d2627,GitHub,8d217d6c,data/8d217d6c/src/616d2627.php,271,271,T,T,9,,F,F,Any,,,Unknown,5.46,2228,F,F,F,Predefined Pattern
@@ -73,7 +73,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 108328,7b8f0478,GitHub,8d217d6c,data/8d217d6c/test/7b8f0478.php,145,145,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 114507,343a5c5e,GitHub,8d217d6c,data/8d217d6c/src/343a5c5e.php,191,191,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 114508,343a5c5e,GitHub,8d217d6c,data/8d217d6c/src/343a5c5e.php,150,150,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-114509,09417338,GitHub,8d217d6c,data/8d217d6c/src/09417338.php,110,110,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+114509,09417338,GitHub,8d217d6c,data/8d217d6c/src/09417338.php,110,110,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
 114510,1c08b27b,GitHub,8d217d6c,data/8d217d6c/src/1c08b27b.php,1153,1153,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 114511,7954279b,GitHub,8d217d6c,data/8d217d6c/other/7954279b.md,22,22,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 131523,b803fcb7,GitHub,8d217d6c,data/8d217d6c/src/b803fcb7.yml,36,36,F,F,,,F,F,,,,,0.00,,F,F,F,Password
@@ -88,16 +88,21 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 132881,343a5c5e,GitHub,8d217d6c,data/8d217d6c/src/343a5c5e.php,358,358,F,F,,,F,F,,,,,0,0,F,F,F,Password
 132882,343a5c5e,GitHub,8d217d6c,data/8d217d6c/src/343a5c5e.php,385,385,F,F,,,F,F,,,,,0,0,F,F,F,Password
 132883,fb8c5aed,GitHub,8d217d6c,data/8d217d6c/src/fb8c5aed.txt,39,39,F,F,,,F,F,,,,,0,0,F,F,F,Password
-133926,1c08b27b,GitHub,8d217d6c,data/8d217d6c/src/1c08b27b.php,943,943,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+133926,1c08b27b,GitHub,8d217d6c,data/8d217d6c/src/1c08b27b.php,943,943,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern:API
 133927,343a5c5e,GitHub,8d217d6c,data/8d217d6c/src/343a5c5e.php,120,120,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-133928,343a5c5e,GitHub,8d217d6c,data/8d217d6c/src/343a5c5e.php,575,575,F,F,,,F,F,,,,,0,0,F,F,F,Cryptographic Primitives
-133929,483f34ef,GitHub,8d217d6c,data/8d217d6c/src/483f34ef.php,472,472,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-133930,483f34ef,GitHub,8d217d6c,data/8d217d6c/src/483f34ef.php,576,576,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-133931,a9dcc94f,GitHub,8d217d6c,data/8d217d6c/src/a9dcc94f.php,236,236,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-133932,c220733a,GitHub,8d217d6c,data/8d217d6c/src/c220733a.php,232,232,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+133928,343a5c5e,GitHub,8d217d6c,data/8d217d6c/src/343a5c5e.php,575,575,F,F,,,F,F,,,,,0,0,F,F,F,Cryptographic Primitives:Nonce
+133929,483f34ef,GitHub,8d217d6c,data/8d217d6c/src/483f34ef.php,472,472,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+133930,483f34ef,GitHub,8d217d6c,data/8d217d6c/src/483f34ef.php,576,576,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+133931,a9dcc94f,GitHub,8d217d6c,data/8d217d6c/src/a9dcc94f.php,236,236,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+133932,c220733a,GitHub,8d217d6c,data/8d217d6c/src/c220733a.php,232,232,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 100004,c72b46d8,GitHub,8d217d6c,data/8d217d6c/test/c72b46d8.php,44,44,T,F,21,81,F,F,Any,,,Secret,3.91,60,F,F,F,Secret
 100005,da28ac29,GitHub,8d217d6c,data/8d217d6c/test/da28ac29.php,42,42,T,T,21,81,F,F,Any,,,Secret,3.91,60,F,F,F,Secret
 137993,c72b46d8,GitHub,8d217d6c,data/8d217d6c/test/c72b46d8.php,44,44,F,F,97,101,F,F,,,,,0.0,0,F,F,F,Password
 137996,da28ac29,GitHub,8d217d6c,data/8d217d6c/test/da28ac29.php,42,42,F,F,97,101,F,F,,,,,0.0,0,F,F,F,Password
 138200,da28ac29,GitHub,8d217d6c,data/8d217d6c/test/da28ac29.php,42,42,T,T,14,81,F,F,Any,,,WrongPos,3.91,60,F,F,F,Password
 138201,c72b46d8,GitHub,8d217d6c,data/8d217d6c/test/c72b46d8.php,44,44,T,F,14,81,F,F,Any,,,WrongPos,3.91,60,F,F,F,Password
+138255,db79c851,GitHub,8d217d6c,data/8d217d6c/test/db79c851.php,67,67,F,F,40,48,F,F,,,,,0.0,0,F,F,F,Password
+138256,db79c851,GitHub,8d217d6c,data/8d217d6c/test/db79c851.php,174,174,F,F,40,48,F,F,,,,,0.0,0,F,F,F,Password
+138257,db79c851,GitHub,8d217d6c,data/8d217d6c/test/db79c851.php,174,174,F,F,93,101,F,F,,,,,0.0,0,F,F,F,Password
+138258,db79c851,GitHub,8d217d6c,data/8d217d6c/test/db79c851.php,174,174,F,F,19,27,F,F,,,,,0.0,0,F,F,F,URL Credentials
+138259,db79c851,GitHub,8d217d6c,data/8d217d6c/test/db79c851.php,174,174,F,F,72,80,F,F,,,,,0.0,0,F,F,F,URL Credentials

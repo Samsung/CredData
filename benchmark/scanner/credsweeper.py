@@ -1,5 +1,8 @@
 import json
 import subprocess
+from typing import List, Any
+
+import tabulate
 
 from benchmark.common.constants import URL, LineStatus, ScannerType
 from benchmark.scanner.scanner import Scanner
@@ -39,11 +42,15 @@ class CredSweeper(Scanner):
         with open(self.output_dir, "r") as f:
             data = json.load(f)
 
+        rules_dict = {}
+
         for result in data:
             # path will be same for all line_data_list
             path_upper = result["line_data_list"][0]["path"].upper()
             if any(i in path_upper for i in ["/COPYING", "/LICENSE"]):
                 continue
+            rule = result["rule"]
+            rules_dict[rule] = 1 + rules_dict.get(rule, 0)
             # primary cred will be first, but line number is greater than secondary (multi pattern)
             sorted_by_line_num = sorted(result["line_data_list"], key=lambda x: (x["line_num"], x["value_start"]))
             line_data_first = sorted_by_line_num[0]
@@ -62,6 +69,16 @@ class CredSweeper(Scanner):
                                           line_end=line_end,
                                           value_start=value_start,
                                           value_end=value_end,
-                                          rule=result["rule"])
+                                          rule=rule)
 
             line_data_first["TP"] = self.RESULT_DICT.get(check_line_result, '?')
+
+        header = ["Rules in report", "count"]
+        rows: List[List[Any]] = []
+        total=0
+        for key, val in rules_dict.items():
+            rows.append([key, val])
+            total+=val
+        rows.sort(key=lambda x: x[0])
+        rows.append(["TOTAL:", total])
+        print(tabulate.tabulate(rows, header), flush=True)

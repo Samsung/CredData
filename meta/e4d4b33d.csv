@@ -27,7 +27,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 3157,77926823,GitHub,e4d4b33d,data/e4d4b33d/src/77926823.js,23,23,F,F,,,F,F,,,,,0,0,F,F,F,Password
 3686,4ca16199,GitHub,e4d4b33d,data/e4d4b33d/src/4ca16199.js,1219,1219,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 11171,47b6ac5e,GitHub,e4d4b33d,data/e4d4b33d/src/47b6ac5e.js,110,110,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-11218,1550ec65,GitHub,e4d4b33d,data/e4d4b33d/other/1550ec65.md,256,256,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+11218,1550ec65,GitHub,e4d4b33d,data/e4d4b33d/other/1550ec65.md,256,256,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern:URL Credentials
 13112,b45ff509,GitHub,e4d4b33d,data/e4d4b33d/src/b45ff509.js,191,191,F,F,,,F,F,,,,,0,0,F,F,F,Password
 18459,92ab9a36,GitHub,e4d4b33d,data/e4d4b33d/src/92ab9a36.yml,50,50,F,F,,,F,F,,,,,0,0,F,F,F,Password
 29268,46efb9fa,GitHub,e4d4b33d,data/e4d4b33d/other/46efb9fa.md,487,487,Template,T,12,18,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
@@ -38,7 +38,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 32410,0f2b05dd,GitHub,e4d4b33d,data/e4d4b33d/test/0f2b05dd.js,19,19,Template,T,50,56,F,F,Any,,,Secret,1.82,6,F,F,F,Password
 33479,92ab9a36,GitHub,e4d4b33d,data/e4d4b33d/src/92ab9a36.yml,5,5,T,T,16,27,F,F,Any,,,Secret,2.96,11,F,F,F,Password
 34507,e32bc721,GitHub,e4d4b33d,data/e4d4b33d/test/e32bc721.js,9,9,T,T,29,35,T,F,CharsOnly,,,Secret,2.25,6,F,F,F,URL Credentials
-35308,d3563194,GitHub,e4d4b33d,data/e4d4b33d/test/d3563194.key,1,15,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
+35308,d3563194,GitHub,e4d4b33d,data/e4d4b33d/test/d3563194.key,1,15,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key:PEM Private Key
 36107,90fb43a5,GitHub,e4d4b33d,data/e4d4b33d/test/90fb43a5.js,4,4,Template,T,12,18,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
 36108,0f2b05dd,GitHub,e4d4b33d,data/e4d4b33d/test/0f2b05dd.js,7,7,Template,T,12,18,F,F,Any,,,Secret,1.82,6,F,F,F,Password
 36155,c853df7b,GitHub,e4d4b33d,data/e4d4b33d/test/c853df7b.js,4,4,T,F,16,21,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
@@ -98,4 +98,4 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 130291,5c1ae2b5,GitHub,e4d4b33d,data/e4d4b33d/test/5c1ae2b5.js,155,155,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130292,b35c70f1,GitHub,e4d4b33d,data/e4d4b33d/src/b35c70f1.js,56,56,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 133006,b35c70f1,GitHub,e4d4b33d,data/e4d4b33d/src/b35c70f1.js,47,47,F,F,,,F,F,,,,,0,0,F,F,F,Password
-135293,e32bc721,GitHub,e4d4b33d,data/e4d4b33d/test/e32bc721.js,20,20,F,F,,,F,F,,,,,0,0,F,F,F,Password
+135293,e32bc721,GitHub,e4d4b33d,data/e4d4b33d/test/e32bc721.js,20,20,F,F,,,F,F,,,,,0,0,F,F,F,Password:URL Credentials

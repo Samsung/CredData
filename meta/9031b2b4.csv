@@ -26,7 +26,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 16274,b7813a95,GitHub,9031b2b4,data/9031b2b4/test/b7813a95.php,170,170,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 16304,65b0c78e,GitHub,9031b2b4,data/9031b2b4/src/65b0c78e.php,77,77,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 16309,48a28261,GitHub,9031b2b4,data/9031b2b4/src/48a28261.php,74,74,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-16395,7c571394,GitHub,9031b2b4,data/9031b2b4/src/7c571394.php,184,184,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+16395,7c571394,GitHub,9031b2b4,data/9031b2b4/src/7c571394.php,184,184,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 16421,0de22d6b,GitHub,9031b2b4,data/9031b2b4/src/0de22d6b.php,130,130,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 16465,e3581427,GitHub,9031b2b4,data/9031b2b4/src/e3581427.php,172,172,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 17745,ae85b4bf,GitHub,9031b2b4,data/9031b2b4/test/ae85b4bf.php,428,428,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -34,7 +34,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 23751,c38ac0ea,GitHub,9031b2b4,data/9031b2b4/test/c38ac0ea.sh,23,23,F,F,,,F,F,,,,,0,0,F,F,F,Password
 24614,3b9e46b7,GitHub,9031b2b4,data/9031b2b4/src/3b9e46b7.xsl,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 26007,9f44a55d,GitHub,9031b2b4,data/9031b2b4/test/9f44a55d.php,36,36,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-26024,9f44a55d,GitHub,9031b2b4,data/9031b2b4/test/9f44a55d.php,61,61,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+26024,9f44a55d,GitHub,9031b2b4,data/9031b2b4/test/9f44a55d.php,61,61,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 27466,8b82f16a,GitHub,9031b2b4,data/9031b2b4/test/8b82f16a.php,38,38,T,F,13,29,F,F,Any,,,Secret,2.50,16,F,F,T,Password
 28807,e19854ad,GitHub,9031b2b4,data/9031b2b4/test/e19854ad.dist,13,13,Template,T,10,31,F,F,Any,,,Secret,2.64,21,F,F,F,Password
 32746,b803fcb7,GitHub,9031b2b4,data/9031b2b4/src/b803fcb7.yml,83,83,T,T,8,16,F,F,CharsOnly,,,Unknown,2.75,8,F,F,F,Password
@@ -61,8 +61,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 100348,7c571394,GitHub,9031b2b4,data/9031b2b4/src/7c571394.php,156,156,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 100349,7c571394,GitHub,9031b2b4,data/9031b2b4/src/7c571394.php,162,162,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 130062,8b82f16a,GitHub,9031b2b4,data/9031b2b4/test/8b82f16a.php,40,40,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-133970,c4a9030a,GitHub,9031b2b4,data/9031b2b4/src/c4a9030a.php,1041,1041,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-133971,cb4a422a,GitHub,9031b2b4,data/9031b2b4/src/cb4a422a.php,1752,1752,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-133972,cb4a422a,GitHub,9031b2b4,data/9031b2b4/src/cb4a422a.php,1838,1838,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-133973,cb4a422a,GitHub,9031b2b4,data/9031b2b4/src/cb4a422a.php,3006,3006,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-133974,cb4a422a,GitHub,9031b2b4,data/9031b2b4/src/cb4a422a.php,3010,3010,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+133970,c4a9030a,GitHub,9031b2b4,data/9031b2b4/src/c4a9030a.php,1041,1041,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+133971,cb4a422a,GitHub,9031b2b4,data/9031b2b4/src/cb4a422a.php,1752,1752,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+133972,cb4a422a,GitHub,9031b2b4,data/9031b2b4/src/cb4a422a.php,1838,1838,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+133973,cb4a422a,GitHub,9031b2b4,data/9031b2b4/src/cb4a422a.php,3006,3006,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+133974,cb4a422a,GitHub,9031b2b4,data/9031b2b4/src/cb4a422a.php,3010,3010,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key

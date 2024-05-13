@@ -34,11 +34,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 32939,a3046da0,GitHub,31423103,data/31423103/test/a3046da0.example,44,44,T,F,13,45,F,F,Any,,,Token,3.36,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Token
 32942,a3046da0,GitHub,31423103,data/31423103/test/a3046da0.example,32,32,T,F,12,37,F,F,Any,,,Unknown,4.48,25,F,F,F,Key
 32944,a3046da0,GitHub,31423103,data/31423103/test/a3046da0.example,33,33,T,F,15,65,F,F,Any,,,Secret,4.88,50,F,F,F,Secret
-33397,a3046da0,GitHub,31423103,data/31423103/test/a3046da0.example,17,17,T,F,11,43,F,F,Any,,,Unknown,3.80,32,F,F,F,Secret
+33397,a3046da0,GitHub,31423103,data/31423103/test/a3046da0.example,17,17,T,F,11,43,F,F,Any,,,Unknown,3.80,32,F,F,F,Secret:Key
 33410,a3046da0,GitHub,31423103,data/31423103/test/a3046da0.example,38,38,T,F,12,26,F,F,Any,,,Unknown,3.66,14,F,F,F,Unknown:notfound
 33412,a3046da0,GitHub,31423103,data/31423103/test/a3046da0.example,39,39,T,F,16,32,F,F,Any,,,Secret,3.50,16,F,F,F,Secret
 33542,a3046da0,GitHub,31423103,data/31423103/test/a3046da0.example,8,8,T,F,17,29,F,F,Any,,,Secret,3.42,12,F,F,F,Password
-33803,a3046da0,GitHub,31423103,data/31423103/test/a3046da0.example,41,41,T,F,10,42,F,F,Any,,,Unknown,3.40,32,F,F,F,Secret
+33803,a3046da0,GitHub,31423103,data/31423103/test/a3046da0.example,41,41,T,F,10,42,F,F,Any,,,Unknown,3.40,32,F,F,F,Secret:Key
 33817,a3046da0,GitHub,31423103,data/31423103/test/a3046da0.example,21,21,T,F,16,59,F,F,Any,,,Secret,4.41,43,F,F,F,Secret
 33936,a3046da0,GitHub,31423103,data/31423103/test/a3046da0.example,15,15,T,F,8,51,F,F,Any,,,Unknown,3.85,32,F,F,F,Key
 33964,a3046da0,GitHub,31423103,data/31423103/test/a3046da0.example,67,67,T,F,17,81,F,F,Any,,,Secret,3.89,64,F,F,F,Bitbucket Client Secret:Secret
@@ -50,11 +50,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 43067,fa60852f,GitHub,31423103,data/31423103/src/fa60852f.js,410,410,F,F,,,F,F,,,,,0,0,F,F,F,Token
 43068,fa60852f,GitHub,31423103,data/31423103/src/fa60852f.js,461,461,F,F,,,F,F,,,,,0,0,F,F,F,Token
 43069,fa60852f,GitHub,31423103,data/31423103/src/fa60852f.js,638,638,F,F,,,F,F,,,,,0,0,F,F,F,Token
-48340,06572a96,GitHub,31423103,data/31423103/other/06572a96.md,18,18,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+48340,06572a96,GitHub,31423103,data/31423103/other/06572a96.md,18,18,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern:API
 61899,a3046da0,GitHub,31423103,data/31423103/test/a3046da0.example,13,13,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 108049,06572a96,GitHub,31423103,data/31423103/other/06572a96.md,226,226,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 108050,b3356305,GitHub,31423103,data/31423103/other/b3356305.md,350,350,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-108051,a3046da0,GitHub,31423103,data/31423103/test/a3046da0.example,5,5,F,T,15,,F,F,Any,,,Secret,3.09,29,F,F,F,Password
+108051,a3046da0,GitHub,31423103,data/31423103/test/a3046da0.example,5,5,F,T,15,,F,F,Any,,,Secret,3.09,29,F,F,F,Password:Secret
 108052,e07d531a,GitHub,31423103,data/31423103/src/e07d531a.js,17,17,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 108053,e07d531a,GitHub,31423103,data/31423103/src/e07d531a.js,189,189,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 108054,e07d531a,GitHub,31423103,data/31423103/src/e07d531a.js,190,190,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
@@ -97,7 +97,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 131440,fa60852f,GitHub,31423103,data/31423103/src/fa60852f.js,555,555,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 131441,fa60852f,GitHub,31423103,data/31423103/src/fa60852f.js,245,245,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 131442,782628b4,GitHub,31423103,data/31423103/src/782628b4.js,210,210,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-131742,06572a96,GitHub,31423103,data/31423103/other/06572a96.md,63,63,F,F,63,78,F,F,,,,,0,0,F,F,F,Info
+131742,06572a96,GitHub,31423103,data/31423103/other/06572a96.md,63,63,F,F,63,78,F,F,,,,,0,0,F,F,F,Info:Dropbox App secret
 133250,f63d3cf7,GitHub,31423103,data/31423103/src/f63d3cf7.js,65,65,F,F,,,F,F,,,,,0,0,F,F,F,Token
 133251,f63d3cf7,GitHub,31423103,data/31423103/src/f63d3cf7.js,87,87,F,F,,,F,F,,,,,0,0,F,F,F,Token
 133252,f63d3cf7,GitHub,31423103,data/31423103/src/f63d3cf7.js,138,138,F,F,,,F,F,,,,,0,0,F,F,F,Token

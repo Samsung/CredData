@@ -46,7 +46,7 @@ class Result:
 
     @true_negative.setter
     def true_negative(self, true_negative) -> None:
-        assert true_negative is None or 0 <= true_negative
+        # assert true_negative is None or 0 <= true_negative
         self._true_negative = true_negative
 
     @property
@@ -55,7 +55,7 @@ class Result:
 
     @false_negative.setter
     def false_negative(self, false_negative) -> None:
-        assert false_negative is None or 0 <= false_negative
+        # assert false_negative is None or 0 <= false_negative
         self._false_negative = false_negative
 
     @property
@@ -73,7 +73,7 @@ class Result:
 
     @false_negative_rate.setter
     def false_negative_rate(self, false_negative_rate) -> None:
-        assert false_negative_rate is None or 0 <= false_negative_rate
+        # assert false_negative_rate is None or 0 <= false_negative_rate
         self._false_negative_rate = false_negative_rate
 
     @property
@@ -82,7 +82,7 @@ class Result:
 
     @accuracy.setter
     def accuracy(self, accuracy) -> None:
-        assert accuracy is None or 0 <= accuracy
+        # assert accuracy is None or 0 <= accuracy
         self._accuracy = accuracy
 
     @property

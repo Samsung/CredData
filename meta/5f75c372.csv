@@ -53,7 +53,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 12522,3295df72,GitHub,5f75c372,data/5f75c372/src/3295df72.sum,680,680,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 12685,78a8a197,GitHub,5f75c372,data/5f75c372/src/78a8a197.yml,89,89,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 13146,9ace91f5,GitHub,5f75c372,data/5f75c372/src/9ace91f5.go,128,128,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-13149,2c65b57f,GitHub,5f75c372,data/5f75c372/test/2c65b57f.tf,23,23,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+13149,2c65b57f,GitHub,5f75c372,data/5f75c372/test/2c65b57f.tf,23,23,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 13621,a801b635,GitHub,5f75c372,data/5f75c372/src/a801b635.go,71,71,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 13622,b9ee5a22,GitHub,5f75c372,data/5f75c372/src/b9ee5a22.go,214,214,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 13623,a801b635,GitHub,5f75c372,data/5f75c372/src/a801b635.go,106,106,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -142,8 +142,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 113764,3295df72,GitHub,5f75c372,data/5f75c372/src/3295df72.sum,514,514,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 113765,3295df72,GitHub,5f75c372,data/5f75c372/src/3295df72.sum,515,515,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 113766,3295df72,GitHub,5f75c372,data/5f75c372/src/3295df72.sum,516,516,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-113767,04a02b14,GitHub,5f75c372,data/5f75c372/test/04a02b14.tf,124,124,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-113768,04a02b14,GitHub,5f75c372,data/5f75c372/test/04a02b14.tf,157,157,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+113767,04a02b14,GitHub,5f75c372,data/5f75c372/test/04a02b14.tf,124,124,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
+113768,04a02b14,GitHub,5f75c372,data/5f75c372/test/04a02b14.tf,157,157,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
 130984,8def9ba9,GitHub,5f75c372,data/5f75c372/test/8def9ba9.go,95,95,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130985,8def9ba9,GitHub,5f75c372,data/5f75c372/test/8def9ba9.go,67,67,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130986,b9e72547,GitHub,5f75c372,data/5f75c372/test/b9e72547.tf,39,39,F,F,,,F,F,,,,,0.00,,F,F,F,Password

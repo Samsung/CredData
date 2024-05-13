@@ -1,3 +1,4 @@
+import copy
 import csv
 import dataclasses
 import os
@@ -66,33 +67,28 @@ class Scanner(ABC):
                     for row in reader:
                         _, file_type = os.path.splitext(row["FilePath"])
                         file_type_lower = file_type.lower()
-                        if file_type_lower in self.file_types:
-                            type_stat = self.file_types[file_type_lower]
-                        else:
-                            type_stat = TypeStat(0, 0, 0, 0, 0)
+                        type_stat = self.file_types.get(file_type_lower, TypeStat(0, 0, 0, 0, 0))
                         if not row["Category"]:
-                            # all unmarked categories are Other
-                            row["Category"] = "Other"
-                        if row["Category"] not in self.categories:
-                            # init the counters
-                            self.categories[row["Category"]] = (0, 0, 0)
-                        true_cnt, false_cnt, template_cnt = self.categories[row["Category"]]
-                        if row["GroundTruth"] == "T":
-                            true_cnt += 1
-                            self.total_true_cnt += 1
-                            type_stat.true_markup += 1
-                        elif row["GroundTruth"] == "F":
-                            self.total_false_cnt += 1
-                            false_cnt += 1
-                            type_stat.false_markup += 1
-                        elif row["GroundTruth"] == "Template":
-                            self.total_template_cnt += 1
-                            template_cnt += 1
-                            type_stat.template_markup += 1
-                        else:
-                            # wrong markup should be detected
-                            assert False, f"[WRONG MARKUP] {row}"
-                        self.categories[row["Category"]] = (true_cnt, false_cnt, template_cnt)
+                            raise RuntimeError(f"Markup has to be categorized {row}")
+                        rules = row["Category"].split(':')
+                        for rule in rules:
+                            true_cnt, false_cnt, template_cnt = self.categories.get(rule, (0, 0, 0))
+                            if row["GroundTruth"] == "T":
+                                true_cnt += 1
+                                self.total_true_cnt += 1
+                                type_stat.true_markup += 1
+                            elif row["GroundTruth"] == "F":
+                                self.total_false_cnt += 1
+                                false_cnt += 1
+                                type_stat.false_markup += 1
+                            elif row["GroundTruth"] == "Template":
+                                self.total_template_cnt += 1
+                                template_cnt += 1
+                                type_stat.template_markup += 1
+                            else:
+                                # wrong markup should be detected
+                                raise RuntimeError(f"[WRONG MARKUP] {row}")
+                            self.categories[rule] = (true_cnt, false_cnt, template_cnt)
                         line_start = int(row["LineStart"])
                         row["LineStart"] = line_start
                         line_end = int(row["LineEnd"])
@@ -132,14 +128,14 @@ class Scanner(ABC):
 
         print(f"DATA: {self.total_data_valid_lines} valid lines. MARKUP: {len(self.meta)} items", flush=True)
         # f"T:{self.total_true_cnt} F:{self.total_false_cnt}"
-        header = ["Category", "Positives", "Negatives", "Template"]
+        header = ["Rules", "Positives", "Negatives", "Templates"]
         rows: List[List[Any]] = []
         for key, val in self.categories.items():
             rows.append([key, val[0] or None, val[1] or None, val[2] or None])
         rows.sort(key=lambda x: x[0])
         rows.append(["TOTAL:", self.total_true_cnt, self.total_false_cnt, self.total_template_cnt])
         print(tabulate.tabulate(rows, header), flush=True)
-        types_headers = ["FileType", "FileNumber", "ValidLines", "Positives", "Negatives", "Template"]
+        types_headers = ["FileType", "FileNumber", "ValidLines", "Positives", "Negatives", "Templates"]
         types_rows: List[List[Any]] = []
         check_files_number = 0
         check_data_valid_lines = 0
@@ -292,7 +288,10 @@ class Scanner(ABC):
                 if self._check_line_num(row["LineStart"], row["LineEnd"], line_start, line_end):
                     meta_value_start = int(row.get("ValueStart", -1))
                     meta_value_end = int(row.get("ValueEnd", -1))
-                    if meta_value_end < 0 <= meta_value_start:
+                    if 0 > meta_value_start and 0 > meta_value_end:
+                        # markup for line only
+                        pass
+                    elif meta_value_end < 0 <= meta_value_start:
                         # only start value in markup
                         if 0 <= value_start and meta_value_start != value_start:
                             continue
@@ -311,14 +310,19 @@ class Scanner(ABC):
                                     or value_end - delta <= meta_value_end <= value_end + delta:
                                 suggestion = f"NEARBY {meta_value_start, meta_value_end}"
                             continue
-                    elif 0 > meta_value_end and 0 > meta_value_start:
-                        # meta markup for whole line
-                        pass
                     else:
                         print(f"WARNING: check meta value start-end {row}")
                         continue
-                    code = str(project_id) + str(file_id) + str(row["LineStart"]) + str(row["LineEnd"]) + str(
-                        row["ValueStart"]) + str(row["ValueEnd"])
+
+                    if rule not in row["Category"]:
+                        # subprocess.run(
+                        #     ["sed", "-i",
+                        #      f"s|^{row['Id']},\\(.*\\),{row['Category']}$|{row['Id']},\\1,{row['Category']}:{rule}|",
+                        #      f"meta/{repo_name}.csv"])
+                        print(f"WARNING: '{rule}' not in {row['Category']}")
+
+                    code = f'{project_id},{file_id},{row["LineStart"]},{row["LineEnd"]}'\
+                            f',{row["ValueStart"]},{row["ValueEnd"]},{rule}'
                     if code in self.line_checker:
                         self.result_cnt -= 1
                         return LineStatus.CHECKED, project_id, file_id
@@ -327,11 +331,15 @@ class Scanner(ABC):
 
                     if row["GroundTruth"] == "T":
                         self.true_cnt += 1
-                        self._increase_result_dict_cnt(row["Category"], True)
+                        for meta_rule in row["Category"].split(':'):
+                            if meta_rule == rule:
+                                self._increase_result_dict_cnt(meta_rule, True)
                         return LineStatus.TRUE, project_id, file_id
                     elif row["GroundTruth"] == "F" or row["GroundTruth"] == "Template":
                         self.false_cnt += 1
-                        self._increase_result_dict_cnt(row["Category"], False)
+                        for meta_rule in row["Category"].split(':'):
+                            if meta_rule == rule:
+                                self._increase_result_dict_cnt(meta_rule, False)
                         return LineStatus.FALSE, project_id, file_id
         self.lost_cnt += 1
         print(f"{suggestion} {approximate}", flush=True)

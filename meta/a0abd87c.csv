@@ -54,10 +54,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 17685,73d08892,GitHub,a0abd87c,data/a0abd87c/src/73d08892.py,22,22,F,F,,,F,F,,,,,0,0,F,F,F,Token
 17689,ccaf232a,GitHub,a0abd87c,data/a0abd87c/src/ccaf232a.rst,14,14,F,F,,,F,F,,,,,0,0,F,F,F,Token
 17692,ccaf232a,GitHub,a0abd87c,data/a0abd87c/src/ccaf232a.rst,17,17,F,F,,,F,F,,,,,0,0,F,F,F,Token
-20309,fcb28afe,GitHub,a0abd87c,data/a0abd87c/other/fcb28afe.md,134,134,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+20309,fcb28afe,GitHub,a0abd87c,data/a0abd87c/other/fcb28afe.md,134,134,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern:API
 20329,4d786f2a,GitHub,a0abd87c,data/a0abd87c/test/4d786f2a.json,13,13,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 20330,29093b48,GitHub,a0abd87c,data/a0abd87c/test/29093b48.py,649,649,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-20331,29093b48,GitHub,a0abd87c,data/a0abd87c/test/29093b48.py,672,672,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+20331,29093b48,GitHub,a0abd87c,data/a0abd87c/test/29093b48.py,672,672,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 21578,a44a7cf1,GitHub,a0abd87c,data/a0abd87c/src/a44a7cf1.py,34,34,F,F,,,F,F,,,,,0,0,F,F,F,Token
 21580,fcb28afe,GitHub,a0abd87c,data/a0abd87c/other/fcb28afe.md,119,119,F,F,,,F,F,,,,,0,0,F,F,F,Token
 22696,fcb28afe,GitHub,a0abd87c,data/a0abd87c/other/fcb28afe.md,103,103,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -79,8 +79,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 36306,29093b48,GitHub,a0abd87c,data/a0abd87c/test/29093b48.py,133,133,T,F,16,102,F,F,Any,,,Key,5.15,86,F,F,F,API
 41892,5246398e,GitHub,a0abd87c,data/a0abd87c/src/5246398e.py,31,31,F,F,,,F,F,,,,,0,0,F,F,F,Password
 48228,6743e0de,GitHub,a0abd87c,data/a0abd87c/other/6743e0de.md,60,60,F,F,,,F,F,,,,,0,0,F,F,F,Token
-48238,6743e0de,GitHub,a0abd87c,data/a0abd87c/other/6743e0de.md,157,157,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-48239,6743e0de,GitHub,a0abd87c,data/a0abd87c/other/6743e0de.md,158,158,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+48238,6743e0de,GitHub,a0abd87c,data/a0abd87c/other/6743e0de.md,157,157,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern:API
+48239,6743e0de,GitHub,a0abd87c,data/a0abd87c/other/6743e0de.md,158,158,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern:API
 49992,6743e0de,GitHub,a0abd87c,data/a0abd87c/other/6743e0de.md,24,24,Template,T,11,25,F,F,Any,,,Unknown,3.11,14,F,F,F,Secret
 50258,29093b48,GitHub,a0abd87c,data/a0abd87c/test/29093b48.py,50,50,T,F,25,132,F,F,Any,,,Token,5.49,107,F,F,F,Token
 50259,29093b48,GitHub,a0abd87c,data/a0abd87c/test/29093b48.py,51,51,T,F,25,111,F,F,Any,,,Key,5.46,86,F,F,F,API
@@ -90,14 +90,14 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 50375,ee18e1cb,GitHub,a0abd87c,data/a0abd87c/test/ee18e1cb.py,68,68,T,F,13,53,F,F,Any,,,Unknown,3.77,40,F,F,F,Unknown:notfound
 50376,14fabf8b,GitHub,a0abd87c,data/a0abd87c/test/14fabf8b.py,8,8,T,F,13,53,F,F,Any,,,Unknown,3.70,40,F,F,F,Info
 50377,15231524,GitHub,a0abd87c,data/a0abd87c/test/15231524.py,8,8,T,F,13,53,F,F,Any,,,Unknown,3.70,40,F,F,F,Info
-54044,4d786f2a,GitHub,a0abd87c,data/a0abd87c/test/4d786f2a.json,34,34,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-54045,29093b48,GitHub,a0abd87c,data/a0abd87c/test/29093b48.py,733,733,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+54044,4d786f2a,GitHub,a0abd87c,data/a0abd87c/test/4d786f2a.json,34,34,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+54045,29093b48,GitHub,a0abd87c,data/a0abd87c/test/29093b48.py,733,733,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 54046,29093b48,GitHub,a0abd87c,data/a0abd87c/test/29093b48.py,706,706,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 54047,4d786f2a,GitHub,a0abd87c,data/a0abd87c/test/4d786f2a.json,7,7,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 54048,29093b48,GitHub,a0abd87c,data/a0abd87c/test/29093b48.py,712,712,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 56051,5246398e,GitHub,a0abd87c,data/a0abd87c/src/5246398e.py,134,134,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-56060,dcdf77ab,GitHub,a0abd87c,data/a0abd87c/src/dcdf77ab.rst,244,244,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-56061,a555c539,GitHub,a0abd87c,data/a0abd87c/src/a555c539.py,366,366,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+56060,dcdf77ab,GitHub,a0abd87c,data/a0abd87c/src/dcdf77ab.rst,244,244,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+56061,a555c539,GitHub,a0abd87c,data/a0abd87c/src/a555c539.py,366,366,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 56062,dcdf77ab,GitHub,a0abd87c,data/a0abd87c/src/dcdf77ab.rst,221,221,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 56063,a555c539,GitHub,a0abd87c,data/a0abd87c/src/a555c539.py,343,343,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 56064,a555c539,GitHub,a0abd87c,data/a0abd87c/src/a555c539.py,348,348,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -125,17 +125,17 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 101261,ee18e1cb,GitHub,a0abd87c,data/a0abd87c/test/ee18e1cb.py,112,112,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 101262,29093b48,GitHub,a0abd87c,data/a0abd87c/test/29093b48.py,83,83,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 101263,fcb28afe,GitHub,a0abd87c,data/a0abd87c/other/fcb28afe.md,74,74,Template,T,32,41,F,F,CharOnly,,,Secret,2.73,9,F,F,F,Unknown:notfound
-101264,dcdf77ab,GitHub,a0abd87c,data/a0abd87c/src/dcdf77ab.rst,16,16,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+101264,dcdf77ab,GitHub,a0abd87c,data/a0abd87c/src/dcdf77ab.rst,16,16,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
 101265,dcdf77ab,GitHub,a0abd87c,data/a0abd87c/src/dcdf77ab.rst,215,215,Template,T,47,56,F,F,CharOnly,,,Secret,2.73,9,F,F,F,Secret
 101266,dcdf77ab,GitHub,a0abd87c,data/a0abd87c/src/dcdf77ab.rst,306,306,Template,T,47,56,F,F,CharOnly,,,Secret,2.73,9,F,F,F,Secret
 101267,a555c539,GitHub,a0abd87c,data/a0abd87c/src/a555c539.py,337,337,Template,T,47,56,F,F,CharOnly,,,Secret,2.73,9,F,F,F,Secret
-110594,dcdf77ab,GitHub,a0abd87c,data/a0abd87c/src/dcdf77ab.rst,19,19,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
-110595,dcdf77ab,GitHub,a0abd87c,data/a0abd87c/src/dcdf77ab.rst,20,20,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
+110594,dcdf77ab,GitHub,a0abd87c,data/a0abd87c/src/dcdf77ab.rst,19,19,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern:API
+110595,dcdf77ab,GitHub,a0abd87c,data/a0abd87c/src/dcdf77ab.rst,20,20,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern:API
 110596,dcdf77ab,GitHub,a0abd87c,data/a0abd87c/src/dcdf77ab.rst,18,18,F,F,,,F,F,,,,,0.00,,F,F,F,Token
 110597,ccaf232a,GitHub,a0abd87c,data/a0abd87c/src/ccaf232a.rst,18,18,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-110598,29093b48,GitHub,a0abd87c,data/a0abd87c/test/29093b48.py,132,132,T,F,12,28,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
-110599,14fabf8b,GitHub,a0abd87c,data/a0abd87c/test/14fabf8b.py,10,10,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
-110600,15231524,GitHub,a0abd87c,data/a0abd87c/test/15231524.py,10,10,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110598,29093b48,GitHub,a0abd87c,data/a0abd87c/test/29093b48.py,132,132,T,F,12,28,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives:Nonce
+110599,14fabf8b,GitHub,a0abd87c,data/a0abd87c/test/14fabf8b.py,10,10,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives:Nonce
+110600,15231524,GitHub,a0abd87c,data/a0abd87c/test/15231524.py,10,10,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives:Nonce
 130470,5246398e,GitHub,a0abd87c,data/a0abd87c/src/5246398e.py,42,42,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130471,ccaf232a,GitHub,a0abd87c,data/a0abd87c/src/ccaf232a.rst,8,8,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-134306,dcdf77ab,GitHub,a0abd87c,data/a0abd87c/src/dcdf77ab.rst,15,15,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+134306,dcdf77ab,GitHub,a0abd87c,data/a0abd87c/src/dcdf77ab.rst,15,15,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key

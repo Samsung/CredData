@@ -17,9 +17,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 4415,5c45b095,GitHub,df70e863,data/df70e863/src/5c45b095.go,122,122,F,F,,,F,F,,,,,0,0,F,F,F,Password
 5758,be3b5a55,GitHub,df70e863,data/df70e863/test/be3b5a55.go,216,216,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 5964,dc796fb7,GitHub,df70e863,data/df70e863/test/dc796fb7.go,46,46,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-6854,43bcabac,GitHub,df70e863,data/df70e863/test/43bcabac.go,254,254,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-6855,660c7e21,GitHub,df70e863,data/df70e863/test/660c7e21.go,134,134,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-6856,660c7e21,GitHub,df70e863,data/df70e863/test/660c7e21.go,107,107,F,F,,,F,F,,,,,0,0,F,F,F,Auth
+6854,43bcabac,GitHub,df70e863,data/df70e863/test/43bcabac.go,254,254,F,F,,,F,F,,,,,0,0,F,F,F,Auth:Token
+6855,660c7e21,GitHub,df70e863,data/df70e863/test/660c7e21.go,134,134,F,F,,,F,F,,,,,0,0,F,F,F,Auth:Token
+6856,660c7e21,GitHub,df70e863,data/df70e863/test/660c7e21.go,107,107,F,F,,,F,F,,,,,0,0,F,F,F,Auth:Token
 7548,b94c5b92,GitHub,df70e863,data/df70e863/test/b94c5b92.go,193,193,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 7858,7e2d9479,GitHub,df70e863,data/df70e863/test/7e2d9479.go,212,212,F,F,,,F,F,,,,,0,0,F,F,F,Token
 7859,7e2d9479,GitHub,df70e863,data/df70e863/test/7e2d9479.go,108,108,F,F,,,F,F,,,,,0,0,F,F,F,Token
@@ -48,7 +48,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 23644,3441a672,GitHub,df70e863,data/df70e863/test/3441a672.go,636,636,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 24819,731f3c78,GitHub,df70e863,data/df70e863/src/731f3c78.go,49,49,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 24823,731f3c78,GitHub,df70e863,data/df70e863/src/731f3c78.go,38,38,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-24826,731f3c78,GitHub,df70e863,data/df70e863/src/731f3c78.go,43,43,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+24826,731f3c78,GitHub,df70e863,data/df70e863/src/731f3c78.go,43,43,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 24827,731f3c78,GitHub,df70e863,data/df70e863/src/731f3c78.go,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 24853,676eac28,GitHub,df70e863,data/df70e863/test/676eac28.go,686,686,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 25049,ab4aca85,GitHub,df70e863,data/df70e863/test/ab4aca85.go,88,88,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -185,8 +185,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 74628,7e2d9479,GitHub,df70e863,data/df70e863/test/7e2d9479.go,251,251,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 75505,7e2d9479,GitHub,df70e863,data/df70e863/test/7e2d9479.go,120,120,F,F,,,F,F,,,,,0,0,F,F,F,Token
 75506,7e2d9479,GitHub,df70e863,data/df70e863/test/7e2d9479.go,225,225,F,F,,,F,F,,,,,0,0,F,F,F,Token
-76843,660c7e21,GitHub,df70e863,data/df70e863/test/660c7e21.go,220,220,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-76844,43bcabac,GitHub,df70e863,data/df70e863/test/43bcabac.go,210,210,F,F,,,F,F,,,,,0,0,F,F,F,Auth
+76843,660c7e21,GitHub,df70e863,data/df70e863/test/660c7e21.go,220,220,F,F,,,F,F,,,,,0,0,F,F,F,Auth:Token
+76844,43bcabac,GitHub,df70e863,data/df70e863/test/43bcabac.go,210,210,F,F,,,F,F,,,,,0,0,F,F,F,Auth:Token
 82421,0171acdb,GitHub,df70e863,data/df70e863/src/0171acdb.go,171,171,F,F,17,32,F,F,,,,,0,0,F,F,F,Secret
 82422,3441a672,GitHub,df70e863,data/df70e863/test/3441a672.go,466,466,F,F,0,77,F,F,,,,,0,0,F,F,F,Secret
 82423,3441a672,GitHub,df70e863,data/df70e863/test/3441a672.go,487,487,F,F,0,77,F,F,,,,,0,0,F,F,F,Secret

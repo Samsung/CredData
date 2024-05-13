@@ -35,7 +35,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 34284,21b1fe66,GitHub,fec1969a,data/fec1969a/src/21b1fe66.yml,43,43,T,T,10,16,F,F,CharsOnly,,,Secret,1.92,6,F,F,F,Password
 34917,22718529,GitHub,fec1969a,data/fec1969a/test/22718529.js,135,135,T,T,15,22,F,F,Any,,,Token,2.81,7,F,F,F,Secret:Token
 35431,43be0f56,GitHub,fec1969a,data/fec1969a/test/43be0f56.js,54,54,T,T,46,53,F,F,Any,,,Token,2.81,7,F,F,F,Secret:Token
-35767,23d1d221,GitHub,fec1969a,data/fec1969a/src/23d1d221.js,70,70,Template,T,25,29,T,F,Any,,,Secret,1.50,4,F,F,F,Password
+35767,23d1d221,GitHub,fec1969a,data/fec1969a/src/23d1d221.js,70,70,Template,T,25,29,T,F,Any,,,Secret,1.50,4,F,F,F,Password:URL Credentials
 41109,21b1fe66,GitHub,fec1969a,data/fec1969a/src/21b1fe66.yml,69,69,F,F,,,F,F,,,,,0,0,F,F,F,Password
 42024,aa2bad02,GitHub,fec1969a,data/fec1969a/src/aa2bad02.js,138,138,Template,F,12,44,F,F,NumbersOnly,,,Secret,0,32,F,F,F,Secret
 42025,aa2bad02,GitHub,fec1969a,data/fec1969a/src/aa2bad02.js,142,142,Template,F,12,36,F,F,NumbersOnly,,,Secret,0,24,F,F,F,Password
@@ -60,7 +60,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 101556,b15a1989,GitHub,fec1969a,data/fec1969a/test/b15a1989.js,297,297,Template,T,34,48,F,F,Any,,,Secret,2.92,14,F,F,F,Secret
 101557,b15a1989,GitHub,fec1969a,data/fec1969a/test/b15a1989.js,298,298,Template,T,32,43,F,F,Any,,,Secret,2.96,11,F,F,F,Secret
 101558,3b519499,GitHub,fec1969a,data/fec1969a/other/3b519499.md,110,110,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-110827,aa2bad02,GitHub,fec1969a,data/fec1969a/src/aa2bad02.js,51,51,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
+110827,aa2bad02,GitHub,fec1969a,data/fec1969a/src/aa2bad02.js,51,51,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern:Certificate
 110828,b15a1989,GitHub,fec1969a,data/fec1969a/test/b15a1989.js,278,278,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 110829,b15a1989,GitHub,fec1969a,data/fec1969a/test/b15a1989.js,280,280,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 110830,b15a1989,GitHub,fec1969a,data/fec1969a/test/b15a1989.js,284,284,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
@@ -69,6 +69,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 130537,23d1d221,GitHub,fec1969a,data/fec1969a/src/23d1d221.js,81,81,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130538,23d1d221,GitHub,fec1969a,data/fec1969a/src/23d1d221.js,79,79,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130539,2498b191,GitHub,fec1969a,data/fec1969a/src/2498b191.js,43,43,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-134775,23d1d221,GitHub,fec1969a,data/fec1969a/src/23d1d221.js,253,253,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-134776,23d1d221,GitHub,fec1969a,data/fec1969a/src/23d1d221.js,287,287,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-134777,23d1d221,GitHub,fec1969a,data/fec1969a/src/23d1d221.js,291,291,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+134775,23d1d221,GitHub,fec1969a,data/fec1969a/src/23d1d221.js,253,253,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+134776,23d1d221,GitHub,fec1969a,data/fec1969a/src/23d1d221.js,287,287,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+134777,23d1d221,GitHub,fec1969a,data/fec1969a/src/23d1d221.js,291,291,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key

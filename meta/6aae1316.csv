@@ -1,5 +1,5 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-4128,a9ce2831,GitHub,6aae1316,data/6aae1316/src/a9ce2831.json,555,555,F,F,,,F,F,,,,,0,0,F,F,F,Password
+4128,a9ce2831,GitHub,6aae1316,data/6aae1316/src/a9ce2831.json,555,555,F,F,,,F,F,,,,,0,0,F,F,F,Password:API:Key:Secret:Token
 4158,cf286fb8,GitHub,6aae1316,data/6aae1316/src/cf286fb8.json,11,11,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 4612,1180cfbe,GitHub,6aae1316,data/6aae1316/src/1180cfbe.json,20,20,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 4613,d43ecb85,GitHub,6aae1316,data/6aae1316/src/d43ecb85.json,19,19,F,F,,,F,F,,,,,0,0,F,F,F,Auth
@@ -9,9 +9,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 6850,1558a03d,GitHub,6aae1316,data/6aae1316/src/1558a03d.json,1,1,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 6930,cca8b484,GitHub,6aae1316,data/6aae1316/src/cca8b484.json,12,12,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 6931,8433837e,GitHub,6aae1316,data/6aae1316/src/8433837e.json,3,3,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-8462,5ce45c54,GitHub,6aae1316,data/6aae1316/src/5ce45c54.rb,17,17,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+8462,5ce45c54,GitHub,6aae1316,data/6aae1316/src/5ce45c54.rb,17,17,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 8504,eb763f1e,GitHub,6aae1316,data/6aae1316/src/eb763f1e.rb,16,16,F,F,,,F,F,,,,,0,0,F,F,F,Token
-12136,32bc5ef5,GitHub,6aae1316,data/6aae1316/src/32bc5ef5.rb,262,262,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+12136,32bc5ef5,GitHub,6aae1316,data/6aae1316/src/32bc5ef5.rb,262,262,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 12687,78a8a197,GitHub,6aae1316,data/6aae1316/src/78a8a197.yml,15,15,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 17539,20a593c4,GitHub,6aae1316,data/6aae1316/src/20a593c4.rb,323,323,F,F,,,F,F,,,,,0,0,F,F,F,Token
 20201,284e02c6,GitHub,6aae1316,data/6aae1316/src/284e02c6.json,26,26,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
@@ -22,7 +22,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 23319,3ab46ee2,GitHub,6aae1316,data/6aae1316/src/3ab46ee2.yml,25,25,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 23418,0bc4739d,GitHub,6aae1316,data/6aae1316/src/0bc4739d.json,8,8,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 23449,20a593c4,GitHub,6aae1316,data/6aae1316/src/20a593c4.rb,39,39,F,F,,,F,F,,,,,0,0,F,F,F,Token
-23553,bc60f4ea,GitHub,6aae1316,data/6aae1316/src/bc60f4ea.rb,80,80,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+23553,bc60f4ea,GitHub,6aae1316,data/6aae1316/src/bc60f4ea.rb,80,80,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern:API
 28859,d628a613,GitHub,6aae1316,data/6aae1316/src/d628a613.rb,26,26,Template,T,29,46,F,F,Any,,,Token,2.61,17,F,F,F,API:Token
 28923,22ac2671,GitHub,6aae1316,data/6aae1316/src/22ac2671.json,264,264,T,T,240,260,T,F,Any,,AWS Client ID,Secret,3.18,20,F,F,F,AWS Client ID:Gitlab Feed Token:Predefined Pattern
 28924,22ac2671,GitHub,6aae1316,data/6aae1316/src/22ac2671.json,186,186,T,T,240,260,T,F,Any,,AWS Client ID,Secret,3.18,20,F,F,F,AWS Client ID:Gitlab Feed Token:Predefined Pattern
@@ -128,8 +128,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 52935,a9ce2831,GitHub,6aae1316,data/6aae1316/src/a9ce2831.json,587,587,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 52936,a9ce2831,GitHub,6aae1316,data/6aae1316/src/a9ce2831.json,573,573,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 52937,e038314c,GitHub,6aae1316,data/6aae1316/src/e038314c.json,572,572,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-55009,e038314c,GitHub,6aae1316,data/6aae1316/src/e038314c.json,554,554,F,F,,,F,F,,,,,0,0,F,F,F,Password
-55010,22ac2671,GitHub,6aae1316,data/6aae1316/src/22ac2671.json,558,558,F,F,,,F,F,,,,,0,0,F,F,F,Password
+55009,e038314c,GitHub,6aae1316,data/6aae1316/src/e038314c.json,554,554,F,F,,,F,F,,,,,0,0,F,F,F,Password:API:Key:Secret:Token
+55010,22ac2671,GitHub,6aae1316,data/6aae1316/src/22ac2671.json,558,558,F,F,,,F,F,,,,,0,0,F,F,F,Password:API:Key:Secret:Token
 74215,78a8a197,GitHub,6aae1316,data/6aae1316/src/78a8a197.yml,18,18,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 82724,a9ce2831,GitHub,6aae1316,data/6aae1316/src/a9ce2831.json,582,582,F,F,12,52,F,F,,,,,0,0,F,F,F,Secret
 82725,22ac2671,GitHub,6aae1316,data/6aae1316/src/22ac2671.json,518,518,F,F,14,54,F,F,,,,,0,0,F,F,F,Secret
@@ -144,11 +144,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 82734,04d92e3f,GitHub,6aae1316,data/6aae1316/src/04d92e3f.diff,2515,2515,F,F,29,40,F,F,,,,,0,0,F,F,F,Secret
 108381,f43bde42,GitHub,6aae1316,data/6aae1316/src/f43bde42.rb,503,503,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 108382,eb763f1e,GitHub,6aae1316,data/6aae1316/src/eb763f1e.rb,110,110,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-108383,31cb2a2e,GitHub,6aae1316,data/6aae1316/src/31cb2a2e.rb,28,28,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
-108384,31cb2a2e,GitHub,6aae1316,data/6aae1316/src/31cb2a2e.rb,32,32,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
-108385,9ba5270d,GitHub,6aae1316,data/6aae1316/src/9ba5270d.rb,28,28,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
-108386,9ba5270d,GitHub,6aae1316,data/6aae1316/src/9ba5270d.rb,32,32,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
-114553,293a543a,GitHub,6aae1316,data/6aae1316/src/293a543a.slim,239,239,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+108383,31cb2a2e,GitHub,6aae1316,data/6aae1316/src/31cb2a2e.rb,28,28,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern:API
+108384,31cb2a2e,GitHub,6aae1316,data/6aae1316/src/31cb2a2e.rb,32,32,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern:API
+108385,9ba5270d,GitHub,6aae1316,data/6aae1316/src/9ba5270d.rb,28,28,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern:API
+108386,9ba5270d,GitHub,6aae1316,data/6aae1316/src/9ba5270d.rb,32,32,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern:API
+114553,293a543a,GitHub,6aae1316,data/6aae1316/src/293a543a.slim,239,239,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
 114554,5ce45c54,GitHub,6aae1316,data/6aae1316/src/5ce45c54.rb,46,46,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
 131535,eb763f1e,GitHub,6aae1316,data/6aae1316/src/eb763f1e.rb,14,14,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 131536,5ce45c54,GitHub,6aae1316,data/6aae1316/src/5ce45c54.rb,12,12,F,F,,,F,F,,,,,0.00,,F,F,F,Password

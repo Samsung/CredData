@@ -10,7 +10,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 5531,c9dd5006,GitHub,349ac2b1,data/349ac2b1/src/c9dd5006.markerb,7,7,F,F,,,F,F,,,,,0,0,F,F,F,Token
 5618,2e1903b6,GitHub,349ac2b1,data/349ac2b1/test/2e1903b6.rb,240,240,F,F,,,F,F,,,,,0,0,F,F,F,Password
 5738,eb9ab6bb,GitHub,349ac2b1,data/349ac2b1/test/eb9ab6bb.rb,78,78,F,F,,,F,F,,,,,0,0,F,F,F,Token
-6353,902720ba,GitHub,349ac2b1,data/349ac2b1/test/902720ba.rb,59,59,F,F,,,F,F,,,,,0,0,F,F,F,Auth
+6353,902720ba,GitHub,349ac2b1,data/349ac2b1/test/902720ba.rb,59,59,F,F,,,F,F,,,,,0,0,F,F,F,Auth:Token
 6479,0bdd6262,GitHub,349ac2b1,data/349ac2b1/src/0bdd6262.rb,150,150,F,F,,,F,F,,,,,0,0,F,F,F,Token
 8157,af643ff6,GitHub,349ac2b1,data/349ac2b1/test/af643ff6.rb,210,210,F,F,37,52,F,F,,,,,0,0,F,F,F,Password
 8195,df518d32,GitHub,349ac2b1,data/349ac2b1/test/df518d32.rb,90,90,F,F,,,F,F,,,,,0,0,F,F,F,Token
@@ -182,7 +182,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 107886,feca55b8,GitHub,349ac2b1,data/349ac2b1/test/feca55b8.rb,117,117,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 107887,b3356305,GitHub,349ac2b1,data/349ac2b1/other/b3356305.md,242,242,F,F,19,23,F,F,,,,,0.00,,F,F,F,Password
 107888,b3356305,GitHub,349ac2b1,data/349ac2b1/other/b3356305.md,284,284,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-107889,b3356305,GitHub,349ac2b1,data/349ac2b1/other/b3356305.md,451,451,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+107889,b3356305,GitHub,349ac2b1,data/349ac2b1/other/b3356305.md,451,451,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
 107890,32eda675,GitHub,349ac2b1,data/349ac2b1/src/32eda675.rb,19,19,Template,T,48,59,F,F,Any,,,Secret,3.28,11,F,F,F,Unknown:notfound
 107891,32eda675,GitHub,349ac2b1,data/349ac2b1/src/32eda675.rb,52,52,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 107892,32eda675,GitHub,349ac2b1,data/349ac2b1/src/32eda675.rb,98,98,F,F,,,F,F,,,,,0.00,,F,F,F,Password
@@ -264,10 +264,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 107968,2e1903b6,GitHub,349ac2b1,data/349ac2b1/test/2e1903b6.rb,294,294,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 107969,2e1903b6,GitHub,349ac2b1,data/349ac2b1/test/2e1903b6.rb,308,308,T,F,151,160,F,F,,,,,0.00,,F,F,F,Password
 107970,2e1903b6,GitHub,349ac2b1,data/349ac2b1/test/2e1903b6.rb,346,346,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-114212,558e4f5d,GitHub,349ac2b1,data/349ac2b1/src/558e4f5d.rb,166,166,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+114212,558e4f5d,GitHub,349ac2b1,data/349ac2b1/src/558e4f5d.rb,166,166,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
 114213,5403065b,GitHub,349ac2b1,data/349ac2b1/src/5403065b.rb,282,282,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 114214,5403065b,GitHub,349ac2b1,data/349ac2b1/src/5403065b.rb,300,300,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-114215,24204e6c,GitHub,349ac2b1,data/349ac2b1/src/24204e6c.rb,7,7,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+114215,24204e6c,GitHub,349ac2b1,data/349ac2b1/src/24204e6c.rb,7,7,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
 114216,32eda675,GitHub,349ac2b1,data/349ac2b1/src/32eda675.rb,104,104,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 114217,32eda675,GitHub,349ac2b1,data/349ac2b1/src/32eda675.rb,113,113,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 114218,32eda675,GitHub,349ac2b1,data/349ac2b1/src/32eda675.rb,126,126,F,F,,,F,F,,,,,0.00,,F,F,F,Password
@@ -359,7 +359,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 132781,f6924d3e,GitHub,349ac2b1,data/349ac2b1/test/f6924d3e.rb,123,123,F,F,68,87,F,F,,,,,0,0,F,F,F,Password
 132782,f6924d3e,GitHub,349ac2b1,data/349ac2b1/test/f6924d3e.rb,139,139,F,F,67,78,F,F,,,,,0,0,F,F,F,Password
 133269,b3356305,GitHub,349ac2b1,data/349ac2b1/other/b3356305.md,14,14,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-133270,04bdb324,GitHub,349ac2b1,data/349ac2b1/src/04bdb324.rb,40,40,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+133270,04bdb324,GitHub,349ac2b1,data/349ac2b1/src/04bdb324.rb,40,40,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 133271,821954b8,GitHub,349ac2b1,data/349ac2b1/test/821954b8.rb,233,233,F,F,,,F,F,,,,,0,0,F,F,F,Token
 137903,b3356305,GitHub,349ac2b1,data/349ac2b1/other/b3356305.md,242,242,F,F,159,163,F,F,,,,,0.0,0,F,F,F,Password
 137905,2e1903b6,GitHub,349ac2b1,data/349ac2b1/test/2e1903b6.rb,300,300,F,F,32,36,F,F,,,,,0.0,0,F,F,F,Password

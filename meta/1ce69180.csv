@@ -7,7 +7,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 703,9f28279e,GitHub,1ce69180,data/1ce69180/src/9f28279e.rb,39,39,F,F,,,F,F,,,,,0,0,F,F,F,Info
 850,9f28279e,GitHub,1ce69180,data/1ce69180/src/9f28279e.rb,164,164,F,F,,,F,F,,,,,0,0,F,F,F,Info
 851,560ba91b,GitHub,1ce69180,data/1ce69180/src/560ba91b.rb,54,54,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-852,1e5305b3,GitHub,1ce69180,data/1ce69180/src/1e5305b3.rb,39,39,T,F,88,328,F,F,,,,,0,0,F,F,F,Predefined Pattern
+852,1e5305b3,GitHub,1ce69180,data/1ce69180/src/1e5305b3.rb,39,39,T,F,88,328,F,F,,,,,0,0,F,F,F,Predefined Pattern:JSON Web Token
 853,0de86720,GitHub,1ce69180,data/1ce69180/src/0de86720.rb,545,545,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 910,7cec5529,GitHub,1ce69180,data/1ce69180/src/7cec5529.rb,172,172,F,F,,,F,F,,,,,0,0,F,F,F,Info
 1818,e7c55fa4,GitHub,1ce69180,data/1ce69180/src/e7c55fa4.rb,35,35,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -589,8 +589,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 29365,fcf0ceac,GitHub,1ce69180,data/1ce69180/src/fcf0ceac.txt,3,3,Template,F,13,22,F,F,CharsOnly,,,Token,0,9,F,F,F,Token
 29418,560ba91b,GitHub,1ce69180,data/1ce69180/src/560ba91b.rb,39,39,Template,F,9,30,F,F,Any,,,Token,1.18,21,F,F,T,Token
 29446,560ba91b,GitHub,1ce69180,data/1ce69180/src/560ba91b.rb,25,25,Template,F,65,86,F,F,Any,,,Token,1.18,21,F,F,T,Token
-29969,5e754a57,GitHub,1ce69180,data/1ce69180/src/5e754a57.rb,21,21,T,F,94,126,F,F,CharsOnly,,,Token,1.00,2,F,F,F,Auth
-29971,5e754a57,GitHub,1ce69180,data/1ce69180/src/5e754a57.rb,29,29,T,F,94,126,F,F,CharsOnly,,,Token,1.00,2,F,F,F,Auth
+29969,5e754a57,GitHub,1ce69180,data/1ce69180/src/5e754a57.rb,21,21,T,F,94,126,F,F,CharsOnly,,,Token,1.00,2,F,F,F,Auth:Nonce
+29971,5e754a57,GitHub,1ce69180,data/1ce69180/src/5e754a57.rb,29,29,T,F,94,126,F,F,CharsOnly,,,Token,1.00,2,F,F,F,Auth:Nonce
 30682,9b1a0b33,GitHub,1ce69180,data/1ce69180/test/9b1a0b33.md,39,39,Template,T,18,35,F,F,Any,,,Unknown,3.02,17,F,F,F,Key
 30800,9b1a0b33,GitHub,1ce69180,data/1ce69180/test/9b1a0b33.md,31,31,Template,T,26,46,F,F,Any,,,Secret,3.01,20,F,F,F,Gitlab Feed Token:Secret
 30815,9b1a0b33,GitHub,1ce69180,data/1ce69180/test/9b1a0b33.md,89,89,Template,T,30,47,F,F,Any,,,Token,3.14,17,F,F,F,Token
@@ -654,4 +654,4 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 114064,5e754a57,GitHub,1ce69180,data/1ce69180/src/5e754a57.rb,22,22,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 114065,5e754a57,GitHub,1ce69180,data/1ce69180/src/5e754a57.rb,30,30,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 114066,fcf0ceac,GitHub,1ce69180,data/1ce69180/src/fcf0ceac.txt,2,2,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-131923,1e5305b3,GitHub,1ce69180,data/1ce69180/src/1e5305b3.rb,36,36,T,F,84,324,F,F,,,,,0.00,,F,F,F,Predefined Pattern
+131923,1e5305b3,GitHub,1ce69180,data/1ce69180/src/1e5305b3.rb,36,36,T,F,84,324,F,F,,,,,0.00,,F,F,F,Predefined Pattern:JSON Web Token

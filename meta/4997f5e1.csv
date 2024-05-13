@@ -36,7 +36,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 4231,0fb3d135,GitHub,4997f5e1,data/4997f5e1/test/0fb3d135.ts,41,41,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 5186,de4f5d68,GitHub,4997f5e1,data/4997f5e1/src/de4f5d68.ts,3617,3617,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 6095,78a8a197,GitHub,4997f5e1,data/4997f5e1/src/78a8a197.yml,131,131,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-6096,78a8a197,GitHub,4997f5e1,data/4997f5e1/src/78a8a197.yml,86,86,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+6096,78a8a197,GitHub,4997f5e1,data/4997f5e1/src/78a8a197.yml,86,86,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 6355,de4f5d68,GitHub,4997f5e1,data/4997f5e1/src/de4f5d68.ts,1524,1524,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 6356,de4f5d68,GitHub,4997f5e1,data/4997f5e1/src/de4f5d68.ts,1534,1534,F,F,,,F,F,,,,,0,0,F,F,F,Password
 6357,de4f5d68,GitHub,4997f5e1,data/4997f5e1/src/de4f5d68.ts,1515,1515,F,F,,,F,F,,,,,0,0,F,F,F,Auth
@@ -120,9 +120,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 29017,00f45da5,GitHub,4997f5e1,data/4997f5e1/src/00f45da5.json,63,63,Template,T,13,23,F,F,Any,,,Secret,3.32,10,F,F,F,Password
 29171,e45e45ba,GitHub,4997f5e1,data/4997f5e1/src/e45e45ba.yml,50,50,Template,T,20,24,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
 29421,4ab14652,GitHub,4997f5e1,data/4997f5e1/test/4ab14652.ts,20,20,Template,F,22,27,F,F,NumbersOnly,,,Token,2.32,5,F,F,F,Token
-29469,b59d8fc7,GitHub,4997f5e1,data/4997f5e1/other/b59d8fc7.md,42,42,Template,T,22,26,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-29581,1548fb9f,GitHub,4997f5e1,data/4997f5e1/test/1548fb9f.ts,12,12,Template,T,22,26,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-29583,7f744544,GitHub,4997f5e1,data/4997f5e1/other/7f744544.md,46,46,Template,T,22,26,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
+29469,b59d8fc7,GitHub,4997f5e1,data/4997f5e1/other/b59d8fc7.md,42,42,Template,T,22,26,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password:URL Credentials
+29581,1548fb9f,GitHub,4997f5e1,data/4997f5e1/test/1548fb9f.ts,12,12,Template,T,22,26,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password:URL Credentials
+29583,7f744544,GitHub,4997f5e1,data/4997f5e1/other/7f744544.md,46,46,Template,T,22,26,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password:URL Credentials
 29678,546f3d64,GitHub,4997f5e1,data/4997f5e1/test/546f3d64.ts,17,17,Template,T,14,23,F,F,CharsOnly,,,Token,2.73,9,F,F,F,Token
 29718,329b698a,GitHub,4997f5e1,data/4997f5e1/test/329b698a.ts,9,9,Template,T,78,85,T,F,CharsOnly,,,Secret,2.52,7,F,F,F,URL Credentials
 29726,bc40da41,GitHub,4997f5e1,data/4997f5e1/test/bc40da41.ts,9,9,Template,T,78,85,T,F,CharsOnly,,,Secret,2.52,7,F,F,F,URL Credentials
@@ -192,7 +192,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 61756,bd227ae2,GitHub,4997f5e1,data/4997f5e1/src/bd227ae2.ts,475,475,Template,T,20,24,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
 62990,de4f5d68,GitHub,4997f5e1,data/4997f5e1/src/de4f5d68.ts,1485,1485,F,F,,,F,F,,,,,0,0,F,F,F,Password
 63175,0fb3d135,GitHub,4997f5e1,data/4997f5e1/test/0fb3d135.ts,75,75,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-63328,78a8a197,GitHub,4997f5e1,data/4997f5e1/src/78a8a197.yml,96,96,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+63328,78a8a197,GitHub,4997f5e1,data/4997f5e1/src/78a8a197.yml,96,96,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 63472,769a819c,GitHub,4997f5e1,data/4997f5e1/src/769a819c.ts,117,117,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 63509,b0595b84,GitHub,4997f5e1,data/4997f5e1/other/b0595b84.md,559,559,F,F,,,F,F,,,,,0,0,F,F,F,Info
 63510,b0595b84,GitHub,4997f5e1,data/4997f5e1/other/b0595b84.md,577,577,F,F,,,F,F,,,,,0,0,F,F,F,Info
@@ -268,4 +268,4 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 130035,1bf90ea1,GitHub,4997f5e1,data/4997f5e1/src/1bf90ea1.ts,778,778,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130045,f7f5476c,GitHub,4997f5e1,data/4997f5e1/test/f7f5476c.ts,47,47,Template,F,11,14,F,F,CharOnly,,,Secret,1.58,3,F,F,F,Password
 130047,f7f5476c,GitHub,4997f5e1,data/4997f5e1/test/f7f5476c.ts,33,33,Template,F,23,26,F,F,CharOnly,,,Secret,1.58,3,F,F,F,Credential:Password
-133320,3346a779,GitHub,4997f5e1,data/4997f5e1/src/3346a779.ts,881,881,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+133320,3346a779,GitHub,4997f5e1,data/4997f5e1/src/3346a779.ts,881,881,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key

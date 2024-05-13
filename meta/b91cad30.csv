@@ -11,7 +11,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 12910,35f3a7a0,GitHub,b91cad30,data/b91cad30/src/35f3a7a0.html,233,233,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 12927,35f3a7a0,GitHub,b91cad30,data/b91cad30/src/35f3a7a0.html,238,238,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 13045,35f3a7a0,GitHub,b91cad30,data/b91cad30/src/35f3a7a0.html,228,228,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-14884,1ceb2f17,GitHub,b91cad30,data/b91cad30/other/1ceb2f17.md,179,179,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+14884,1ceb2f17,GitHub,b91cad30,data/b91cad30/other/1ceb2f17.md,179,179,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern:API
 17120,0a774f95,GitHub,b91cad30,data/b91cad30/src/0a774f95.java,30,30,F,F,,,F,F,,,,,0,0,F,F,F,Token
 17549,f7355942,GitHub,b91cad30,data/b91cad30/other/f7355942.md,488,488,F,F,,,F,F,,,,,0,0,F,F,F,Token
 23468,693573a4,GitHub,b91cad30,data/b91cad30/test/693573a4.java,34,34,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -41,13 +41,13 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 31001,1a64cdab,GitHub,b91cad30,data/b91cad30/other/1a64cdab.md,26,26,Template,F,20,26,F,F,NumbersOnly,,,Secret,2.58,6,F,F,F,Key:Password
 31174,473da3d3,GitHub,b91cad30,data/b91cad30/other/473da3d3.md,40,40,T,T,26,44,F,F,CharsOnly,,,Secret,2.97,18,F,F,F,Bitbucket Client ID:Password:Secret
 32165,e1aba4fb,GitHub,b91cad30,data/b91cad30/src/e1aba4fb.yml,24,24,F,F,15,21,F,F,Any,,,Secret,2.58,6,F,F,F,Secret
-32586,4f46a670,GitHub,b91cad30,data/b91cad30/other/4f46a670.md,237,237,T,T,12,20,F,F,CharsOnly,,,Unknown,2.00,8,F,F,F,Secret
+32586,4f46a670,GitHub,b91cad30,data/b91cad30/other/4f46a670.md,237,237,T,T,12,20,F,F,CharsOnly,,,Unknown,2.00,8,F,F,F,Secret:Key
 33039,690de892,GitHub,b91cad30,data/b91cad30/test/690de892.java,46,46,F,F,14,22,F,F,,,,,0,0,F,F,F,Secret
 34041,14c2728a,GitHub,b91cad30,data/b91cad30/src/14c2728a.java,20,20,T,T,22,30,F,F,CharsOnly,,,Unknown,3.00,8,F,F,F,Secret
-34059,20ee45c4,GitHub,b91cad30,data/b91cad30/src/20ee45c4.yml,18,18,T,T,15,23,F,F,CharsOnly,,,Unknown,2.00,8,F,F,F,Secret
-34071,20ee45c4,GitHub,b91cad30,data/b91cad30/src/20ee45c4.yml,19,19,Template,T,15,23,F,F,CharsOnly,,,Secret,2.00,8,F,F,F,Password
+34059,20ee45c4,GitHub,b91cad30,data/b91cad30/src/20ee45c4.yml,18,18,T,T,15,23,F,F,CharsOnly,,,Unknown,2.00,8,F,F,F,Secret:Key
+34071,20ee45c4,GitHub,b91cad30,data/b91cad30/src/20ee45c4.yml,19,19,Template,T,15,23,F,F,CharsOnly,,,Secret,2.00,8,F,F,F,Password:Key:Secret
 34416,c4ba1209,GitHub,b91cad30,data/b91cad30/src/c4ba1209.yml,5,5,Template,T,10,14,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-34451,d08b0337,GitHub,b91cad30,data/b91cad30/other/d08b0337.adoc,105,105,T,T,17,620,F,F,Any,,JSON Web Token,Token,5.70,603,F,F,F,Predefined Pattern
+34451,d08b0337,GitHub,b91cad30,data/b91cad30/other/d08b0337.adoc,105,105,T,T,17,620,F,F,Any,,JSON Web Token,Token,5.70,603,F,F,F,Predefined Pattern:JSON Web Token
 34571,968a5c6e,GitHub,b91cad30,data/b91cad30/other/968a5c6e.md,81,81,Template,T,10,15,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
 34573,0d88cbd6,GitHub,b91cad30,data/b91cad30/other/0d88cbd6.md,87,87,F,F,14,46,F,F,Any,,,Secret,4.54,32,F,F,F,Secret
 34611,fb945907,GitHub,b91cad30,data/b91cad30/src/fb945907.yml,9,9,Template,T,10,14,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
@@ -55,7 +55,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 34630,4bca4856,GitHub,b91cad30,data/b91cad30/src/4bca4856.yml,10,10,T,T,10,15,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
 34700,ff4179d0,GitHub,b91cad30,data/b91cad30/other/ff4179d0.md,26,26,Template,T,27,31,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
 35081,d08b0337,GitHub,b91cad30,data/b91cad30/other/d08b0337.adoc,107,107,T,F,18,681,F,F,Any,,JSON Web Token,Token,5.72,663,F,F,F,JSON Web Token:Token
-35243,4f46a670,GitHub,b91cad30,data/b91cad30/other/4f46a670.md,238,238,Template,T,12,20,F,F,CharsOnly,,,Secret,2.00,8,F,F,F,Password
+35243,4f46a670,GitHub,b91cad30,data/b91cad30/other/4f46a670.md,238,238,Template,T,12,20,F,F,CharsOnly,,,Secret,2.00,8,F,F,F,Password:Key:Secret
 35333,d08b0337,GitHub,b91cad30,data/b91cad30/other/d08b0337.adoc,141,141,T,F,32,695,F,F,Any,,JSON Web Token,Token,5.72,663,F,F,F,JSON Web Token:Token
 35537,74775e6e,GitHub,b91cad30,data/b91cad30/src/74775e6e.sql,25,25,T,F,56,66,F,F,Any,,,Secret,3.12,10,F,F,F,Password
 35538,74775e6e,GitHub,b91cad30,data/b91cad30/src/74775e6e.sql,19,19,T,T,73,83,F,F,Any,,,Secret,3.12,10,F,F,F,Password
@@ -84,10 +84,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 101543,d08b0337,GitHub,b91cad30,data/b91cad30/other/d08b0337.adoc,28,28,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 101544,d08b0337,GitHub,b91cad30,data/b91cad30/other/d08b0337.adoc,35,35,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 101545,d08b0337,GitHub,b91cad30,data/b91cad30/other/d08b0337.adoc,43,43,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-110823,e1aba4fb,GitHub,b91cad30,data/b91cad30/src/e1aba4fb.yml,8,8,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+110823,e1aba4fb,GitHub,b91cad30,data/b91cad30/src/e1aba4fb.yml,8,8,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
 110824,74775e6e,GitHub,b91cad30,data/b91cad30/src/74775e6e.sql,15,15,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 110825,d08b0337,GitHub,b91cad30,data/b91cad30/other/d08b0337.adoc,68,68,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-110826,1a64cdab,GitHub,b91cad30,data/b91cad30/other/1a64cdab.md,22,22,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+110826,1a64cdab,GitHub,b91cad30,data/b91cad30/other/1a64cdab.md,22,22,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
 130526,35f3a7a0,GitHub,b91cad30,data/b91cad30/src/35f3a7a0.html,272,272,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130527,473da3d3,GitHub,b91cad30,data/b91cad30/other/473da3d3.md,44,44,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130529,7eb22716,GitHub,b91cad30,data/b91cad30/test/7eb22716.java,28,28,F,F,,,F,F,,,,,0.00,,F,F,F,Password

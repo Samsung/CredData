@@ -6,7 +6,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 4375,b8f355e6,GitHub,ec869dbc,data/ec869dbc/src/b8f355e6.py,737,737,F,F,,,F,F,,,,,0,0,F,F,F,Info
 4377,4c4bc3b5,GitHub,ec869dbc,data/ec869dbc/src/4c4bc3b5.py,74,74,F,F,,,F,F,,,,,0,0,F,F,F,Password
 4378,b4738a3b,GitHub,ec869dbc,data/ec869dbc/src/b4738a3b.py,57,57,F,F,,,F,F,,,,,0,0,F,F,F,Password
-6033,0a749636,GitHub,ec869dbc,data/ec869dbc/src/0a749636.conf,7,7,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+6033,0a749636,GitHub,ec869dbc,data/ec869dbc/src/0a749636.conf,7,7,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern:API
 8217,b0b6f63d,GitHub,ec869dbc,data/ec869dbc/src/b0b6f63d.py,109,109,F,F,,,F,F,,,,,0,0,F,F,F,Token
 13174,433a76e1,GitHub,ec869dbc,data/ec869dbc/src/433a76e1.py,473,473,F,F,,,F,F,,,,,0,0,F,F,F,Password
 21520,0be51a9a,GitHub,ec869dbc,data/ec869dbc/src/0be51a9a.py,170,170,F,F,,,F,F,,,,,0,0,F,F,F,Info
@@ -15,11 +15,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 27631,ebaee658,GitHub,ec869dbc,data/ec869dbc/src/ebaee658.ps1,4775,4775,F,F,5,26,F,F,,,,,0,0,F,F,F,Password
 27765,b0b6f63d,GitHub,ec869dbc,data/ec869dbc/src/b0b6f63d.py,99,99,F,F,12,28,F,F,,,,,0,0,F,F,F,Password
 27786,a8ed9fe1,GitHub,ec869dbc,data/ec869dbc/src/a8ed9fe1.py,39,39,F,F,12,29,F,F,,,,,0,0,F,F,F,Password
-28153,d2b0676d,GitHub,ec869dbc,data/ec869dbc/src/d2b0676d.py,83,83,T,F,17,81,F,F,,,,,0,0,F,F,F,Secret
+28153,d2b0676d,GitHub,ec869dbc,data/ec869dbc/src/d2b0676d.py,83,83,T,F,17,81,F,F,,,,,0,0,F,F,F,Secret:Key
 28529,8c5f1168,GitHub,ec869dbc,data/ec869dbc/src/8c5f1168.py,184,184,Template,T,9,18,F,F,Any,,,Secret,2.60,9,F,F,F,Password
 29799,0a749636,GitHub,ec869dbc,data/ec869dbc/src/0a749636.conf,15,15,Template,F,9,15,F,F,Any,,,Secret,2.58,6,F,F,F,Password
 34746,02229152,GitHub,ec869dbc,data/ec869dbc/src/02229152.py,29,29,T,F,19,24,F,F,Any,,,Unknown,2.32,5,F,F,F,Password
-35563,cb50da89,GitHub,ec869dbc,data/ec869dbc/src/cb50da89.pem,1,28,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,Private Key
+35563,cb50da89,GitHub,ec869dbc,data/ec869dbc/src/cb50da89.pem,1,28,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,Private Key:PEM Private Key
 36053,0a749636,GitHub,ec869dbc,data/ec869dbc/src/0a749636.conf,10,10,T,T,9,21,F,F,Any,,,Secret,3.12,12,F,F,F,Password
 41199,4c4bc3b5,GitHub,ec869dbc,data/ec869dbc/src/4c4bc3b5.py,24,24,F,F,,,F,F,,,,,0,0,F,F,F,Password
 41200,433a76e1,GitHub,ec869dbc,data/ec869dbc/src/433a76e1.py,386,386,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -48,7 +48,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 113187,74b8c7f1,GitHub,ec869dbc,data/ec869dbc/src/74b8c7f1.py,311,311,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 113188,8c5f1168,GitHub,ec869dbc,data/ec869dbc/src/8c5f1168.py,135,135,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 113189,8c5f1168,GitHub,ec869dbc,data/ec869dbc/src/8c5f1168.py,182,182,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-113190,0a749636,GitHub,ec869dbc,data/ec869dbc/src/0a749636.conf,8,8,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
+113190,0a749636,GitHub,ec869dbc,data/ec869dbc/src/0a749636.conf,8,8,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern:API
 113191,b0b6f63d,GitHub,ec869dbc,data/ec869dbc/src/b0b6f63d.py,62,62,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 130825,02229152,GitHub,ec869dbc,data/ec869dbc/src/02229152.py,38,38,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130826,d2b0676d,GitHub,ec869dbc,data/ec869dbc/src/d2b0676d.py,70,70,F,F,,,F,F,,,,,0.00,,F,F,F,Password

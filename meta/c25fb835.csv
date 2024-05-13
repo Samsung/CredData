@@ -1,20 +1,20 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
 1905,a84dd0c1,GitHub,c25fb835,data/c25fb835/other/a84dd0c1.md,15,15,F,F,,,F,F,,,,,0,0,F,F,F,Password
 5885,8f72f523,GitHub,c25fb835,data/c25fb835/src/8f72f523.yml,122,122,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-5891,69eee04a,GitHub,c25fb835,data/c25fb835/test/69eee04a.yml,39,39,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+5891,69eee04a,GitHub,c25fb835,data/c25fb835/test/69eee04a.yml,39,39,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern:API
 5908,119b8aac,GitHub,c25fb835,data/c25fb835/src/119b8aac.yaml,1,1,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 6044,2b572cdd,GitHub,c25fb835,data/c25fb835/src/2b572cdd.yaml,1,1,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 6526,4be2293f,GitHub,c25fb835,data/c25fb835/other/4be2293f.md,6,6,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 12654,4bae2c06,GitHub,c25fb835,data/c25fb835/src/4bae2c06.yml,34,34,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-12672,765e18d9,GitHub,c25fb835,data/c25fb835/src/765e18d9.yml,53,53,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+12672,765e18d9,GitHub,c25fb835,data/c25fb835/src/765e18d9.yml,53,53,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 12701,765e18d9,GitHub,c25fb835,data/c25fb835/src/765e18d9.yml,33,33,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 12783,765e18d9,GitHub,c25fb835,data/c25fb835/src/765e18d9.yml,58,58,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 12784,765e18d9,GitHub,c25fb835,data/c25fb835/src/765e18d9.yml,43,43,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-12832,765e18d9,GitHub,c25fb835,data/c25fb835/src/765e18d9.yml,63,63,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+12832,765e18d9,GitHub,c25fb835,data/c25fb835/src/765e18d9.yml,63,63,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 12833,765e18d9,GitHub,c25fb835,data/c25fb835/src/765e18d9.yml,38,38,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 12848,765e18d9,GitHub,c25fb835,data/c25fb835/src/765e18d9.yml,48,48,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-12849,765e18d9,GitHub,c25fb835,data/c25fb835/src/765e18d9.yml,68,68,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-18812,119b8aac,GitHub,c25fb835,data/c25fb835/src/119b8aac.yaml,28,28,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+12849,765e18d9,GitHub,c25fb835,data/c25fb835/src/765e18d9.yml,68,68,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+18812,119b8aac,GitHub,c25fb835,data/c25fb835/src/119b8aac.yaml,28,28,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 18828,5dcea0ac,GitHub,c25fb835,data/c25fb835/src/5dcea0ac.yaml,37,37,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 23715,f6fa1a87,GitHub,c25fb835,data/c25fb835/src/f6fa1a87.go,48,48,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 27419,4bcea99a,GitHub,c25fb835,data/c25fb835/src/4bcea99a.yml,28,28,F,F,12,22,F,F,,,,,0,0,F,F,F,Secret
@@ -29,7 +29,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 35948,0ea8ab87,GitHub,c25fb835,data/c25fb835/src/0ea8ab87.yml,12,12,T,T,10,66,F,F,Any,,,SeedSalt,4.73,56,F,F,F,Key:Nonce
 35949,0ea8ab87,GitHub,c25fb835,data/c25fb835/src/0ea8ab87.yml,16,16,T,T,11,67,F,F,Any,,,SeedSalt,4.69,56,F,F,F,Nonce:Salt
 36079,c0c412f9,GitHub,c25fb835,data/c25fb835/src/c0c412f9.yml,8,8,T,F,10,22,F,F,Any,,,Secret,3.19,12,F,F,F,Password
-36400,0ea8ab87,GitHub,c25fb835,data/c25fb835/src/0ea8ab87.yml,10,10,T,T,13,69,F,F,Any,,,Unknown,4.70,56,F,F,F,Secret
+36400,0ea8ab87,GitHub,c25fb835,data/c25fb835/src/0ea8ab87.yml,10,10,T,T,13,69,F,F,Any,,,Unknown,4.70,56,F,F,F,Secret:Key
 36401,0ea8ab87,GitHub,c25fb835,data/c25fb835/src/0ea8ab87.yml,15,15,T,T,14,70,F,F,Any,,,SeedSalt,4.75,56,F,F,F,Salt
 83097,4bcea99a,GitHub,c25fb835,data/c25fb835/src/4bcea99a.yml,1,1,F,F,12,19,F,F,,,,,0,0,F,F,F,Predefined Pattern
 83098,765e18d9,GitHub,c25fb835,data/c25fb835/src/765e18d9.yml,1,1,F,F,12,19,F,F,,,,,0,0,F,F,F,Predefined Pattern

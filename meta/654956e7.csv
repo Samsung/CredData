@@ -20,7 +20,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 5547,fd525480,GitHub,654956e7,data/654956e7/other/fd525480.md,341,341,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 5548,fd525480,GitHub,654956e7,data/654956e7/other/fd525480.md,339,339,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 5549,fb8a2953,GitHub,654956e7,data/654956e7/src/fb8a2953.Jenkinsfile,16,16,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-5550,fb8a2953,GitHub,654956e7,data/654956e7/src/fb8a2953.Jenkinsfile,14,14,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+5550,fb8a2953,GitHub,654956e7,data/654956e7/src/fb8a2953.Jenkinsfile,14,14,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 5551,fb8a2953,GitHub,654956e7,data/654956e7/src/fb8a2953.Jenkinsfile,17,17,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 5552,fb8a2953,GitHub,654956e7,data/654956e7/src/fb8a2953.Jenkinsfile,18,18,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 6109,5357e046,GitHub,654956e7,data/654956e7/src/5357e046.rb,24,24,F,F,,,F,F,,,,,0,0,F,F,F,Token
@@ -65,8 +65,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 42822,a726c6e6,GitHub,654956e7,data/654956e7/src/a726c6e6.rb,88,88,F,F,,,F,F,,,,,0,0,F,F,F,Token
 42898,f9d99652,GitHub,654956e7,data/654956e7/src/f9d99652.sh,163,163,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 46382,5f089171,GitHub,654956e7,data/654956e7/other/5f089171.md,293,293,F,F,,,F,F,,,,,0,0,F,F,F,Password
-47682,fd525480,GitHub,654956e7,data/654956e7/other/fd525480.md,394,394,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-47683,fd525480,GitHub,654956e7,data/654956e7/other/fd525480.md,475,475,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+47682,fd525480,GitHub,654956e7,data/654956e7/other/fd525480.md,394,394,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Credential
+47683,fd525480,GitHub,654956e7,data/654956e7/other/fd525480.md,475,475,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Credential
 55629,bdff7206,GitHub,654956e7,data/654956e7/src/bdff7206.rb,37,37,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 55644,f9d99652,GitHub,654956e7,data/654956e7/src/f9d99652.sh,31,31,F,F,,,F,F,,,,,0,0,F,F,F,Token
 57924,4df7519b,GitHub,654956e7,data/654956e7/src/4df7519b.rb,77,77,F,F,,,F,F,,,,,0,0,F,F,F,Token
@@ -74,8 +74,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 62601,fd525480,GitHub,654956e7,data/654956e7/other/fd525480.md,434,434,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 62602,fd525480,GitHub,654956e7,data/654956e7/other/fd525480.md,343,343,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 62603,fd525480,GitHub,654956e7,data/654956e7/other/fd525480.md,433,433,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-62604,fd525480,GitHub,654956e7,data/654956e7/other/fd525480.md,340,340,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-62605,fd525480,GitHub,654956e7,data/654956e7/other/fd525480.md,430,430,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+62604,fd525480,GitHub,654956e7,data/654956e7/other/fd525480.md,340,340,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+62605,fd525480,GitHub,654956e7,data/654956e7/other/fd525480.md,430,430,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 62606,fd525480,GitHub,654956e7,data/654956e7/other/fd525480.md,342,342,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 62607,fd525480,GitHub,654956e7,data/654956e7/other/fd525480.md,432,432,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 62608,fd525480,GitHub,654956e7,data/654956e7/other/fd525480.md,429,429,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -112,4 +112,4 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 102540,a726c6e6,GitHub,654956e7,data/654956e7/src/a726c6e6.rb,98,98,F,F,,,F,F,,,,,0.00,,F,F,F,Info
 113721,bb631147,GitHub,654956e7,data/654956e7/src/bb631147.js,68,68,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
 132013,09180f55,GitHub,654956e7,data/654956e7/test/09180f55.graphql,2,2,T,F,152,166,F,F,,,Info,,0.00,,F,F,F,IPv4
-133401,5f089171,GitHub,654956e7,data/654956e7/other/5f089171.md,23,23,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+133401,5f089171,GitHub,654956e7,data/654956e7/other/5f089171.md,23,23,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Credential

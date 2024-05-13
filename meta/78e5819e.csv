@@ -10,7 +10,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 1559,2cf36eb8,GitHub,78e5819e,data/78e5819e/src/2cf36eb8.py,40,40,F,F,,,F,F,,,,,0,0,F,F,F,Password
 1925,3a0501b0,GitHub,78e5819e,data/78e5819e/src/3a0501b0.py,16,16,F,F,,,F,F,,,,,0,0,F,F,F,Password
 2936,2f2dd667,GitHub,78e5819e,data/78e5819e/src/2f2dd667.ts,5,5,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-3067,a3f07a59,GitHub,78e5819e,data/78e5819e/src/a3f07a59.toml,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+3067,a3f07a59,GitHub,78e5819e,data/78e5819e/src/a3f07a59.toml,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern:API
 6381,2f2dd667,GitHub,78e5819e,data/78e5819e/src/2f2dd667.ts,33,33,F,F,,,F,F,,,,,0,0,F,F,F,Token
 6385,d42c32e5,GitHub,78e5819e,data/78e5819e/src/d42c32e5.ts,24,24,F,F,,,F,F,,,,,0,0,F,F,F,Info
 6386,da9cb1d3,GitHub,78e5819e,data/78e5819e/src/da9cb1d3.ts,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -28,7 +28,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 7874,75b771bc,GitHub,78e5819e,data/78e5819e/src/75b771bc.ts,15,15,F,F,,,F,F,,,,,0,0,F,F,F,Token
 7954,da9cb1d3,GitHub,78e5819e,data/78e5819e/src/da9cb1d3.ts,73,73,F,F,,,F,F,,,,,0,0,F,F,F,Token
 9363,44f10467,GitHub,78e5819e,data/78e5819e/src/44f10467.ts,9,9,F,F,,,F,F,,,,,0,0,F,F,F,Token
-9434,e841b4d6,GitHub,78e5819e,data/78e5819e/src/e841b4d6.py,96,96,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+9434,e841b4d6,GitHub,78e5819e,data/78e5819e/src/e841b4d6.py,96,96,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 11242,e841b4d6,GitHub,78e5819e,data/78e5819e/src/e841b4d6.py,55,55,F,F,,,F,F,,,,,0,0,F,F,F,Token
 11772,63c2be56,GitHub,78e5819e,data/78e5819e/test/63c2be56.py,88,88,F,F,,,F,F,,,,,0,0,F,F,F,Password
 13382,43569e92,GitHub,78e5819e,data/78e5819e/src/43569e92.vue,44,44,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -38,7 +38,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 14404,a2048ae1,GitHub,78e5819e,data/78e5819e/test/a2048ae1.py,27,27,F,F,,,F,F,,,,,0,0,F,F,F,Password
 18127,a2048ae1,GitHub,78e5819e,data/78e5819e/test/a2048ae1.py,14,14,F,F,,,F,F,,,,,0,0,F,F,F,Password
 18148,b3356305,GitHub,78e5819e,data/78e5819e/other/b3356305.md,123,123,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-24617,5a800657,GitHub,78e5819e,data/78e5819e/src/5a800657.dockerfile,1,1,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+24617,5a800657,GitHub,78e5819e,data/78e5819e/src/5a800657.dockerfile,1,1,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern:API
 25117,60965372,GitHub,78e5819e,data/78e5819e/src/60965372.mjml,9,9,F,F,,,F,F,,,,,0,0,F,F,F,Password
 26592,35573b32,GitHub,78e5819e,data/78e5819e/src/35573b32.vue,13,13,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 28848,c2067af3,GitHub,78e5819e,data/78e5819e/src/c2067af3.json,10,10,Template,T,15,25,F,F,CharsOnly,,,Secret,3.12,10,F,F,F,Key:Secret
@@ -63,7 +63,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 74702,63c2be56,GitHub,78e5819e,data/78e5819e/test/63c2be56.py,73,73,F,F,,,F,F,,,,,0,0,F,F,F,Password
 74703,63c2be56,GitHub,78e5819e,data/78e5819e/test/63c2be56.py,84,84,F,F,,,F,F,,,,,0,0,F,F,F,Password
 74704,a2048ae1,GitHub,78e5819e,data/78e5819e/test/a2048ae1.py,41,41,F,F,,,F,F,,,,,0,0,F,F,F,Password
-102300,b3356305,GitHub,78e5819e,data/78e5819e/other/b3356305.md,103,103,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+102300,b3356305,GitHub,78e5819e,data/78e5819e/other/b3356305.md,103,103,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
 102301,be4fbf03,GitHub,78e5819e,data/78e5819e/src/be4fbf03.vue,76,76,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130903,63c2be56,GitHub,78e5819e,data/78e5819e/test/63c2be56.py,48,48,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130904,7dccaddd,GitHub,78e5819e,data/78e5819e/src/7dccaddd.py,75,75,F,F,,,F,F,,,,,0.00,,F,F,F,Password

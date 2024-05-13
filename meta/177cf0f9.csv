@@ -23,7 +23,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 24852,be836bad,GitHub,177cf0f9,data/177cf0f9/src/be836bad.go,27,27,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 24857,c4589fcd,GitHub,177cf0f9,data/177cf0f9/src/c4589fcd.go,170,170,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 24974,f898f865,GitHub,177cf0f9,data/177cf0f9/src/f898f865.go,156,156,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-24975,c9373636,GitHub,177cf0f9,data/177cf0f9/test/c9373636.go,245,245,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+24975,c9373636,GitHub,177cf0f9,data/177cf0f9/test/c9373636.go,245,245,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 25000,b01e9cc9,GitHub,177cf0f9,data/177cf0f9/test/b01e9cc9.go,278,278,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 25054,9e1dbe40,GitHub,177cf0f9,data/177cf0f9/src/9e1dbe40.go,25,25,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 25065,c13cba72,GitHub,177cf0f9,data/177cf0f9/test/c13cba72.go,59,59,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -64,7 +64,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 46139,35b5dafa,GitHub,177cf0f9,data/177cf0f9/test/35b5dafa.go,29,29,F,F,,,F,F,,,,,0,0,F,F,F,Info
 46140,35b5dafa,GitHub,177cf0f9,data/177cf0f9/test/35b5dafa.go,37,37,F,F,,,F,F,,,,,0,0,F,F,F,Info
 61549,6062c177,GitHub,177cf0f9,data/177cf0f9/test/6062c177.go,194,194,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-61553,c9373636,GitHub,177cf0f9,data/177cf0f9/test/c9373636.go,301,301,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+61553,c9373636,GitHub,177cf0f9,data/177cf0f9/test/c9373636.go,301,301,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 64496,e3ff1a34,GitHub,177cf0f9,data/177cf0f9/src/e3ff1a34.go,328,328,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 64542,35b5dafa,GitHub,177cf0f9,data/177cf0f9/test/35b5dafa.go,43,43,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 107977,e3ff1a34,GitHub,177cf0f9,data/177cf0f9/src/e3ff1a34.go,334,334,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
@@ -84,8 +84,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 131932,1923faff,GitHub,177cf0f9,data/177cf0f9/src/1923faff.go,26,26,T,F,18,33,F,F,,,Info,,0.00,,F,F,F,IPv4
 131933,1923faff,GitHub,177cf0f9,data/177cf0f9/src/1923faff.go,27,27,T,F,18,32,F,F,,,Info,,0.00,,F,F,F,IPv4
 131934,1923faff,GitHub,177cf0f9,data/177cf0f9/src/1923faff.go,28,28,T,F,18,31,F,F,,,Info,,0.00,,F,F,F,IPv4
-131935,c13cba72,GitHub,177cf0f9,data/177cf0f9/test/c13cba72.go,18,18,T,F,,,F,F,,,,,0.00,,F,F,F,Info
-131936,c13cba72,GitHub,177cf0f9,data/177cf0f9/test/c13cba72.go,20,20,T,F,,,F,F,,,,,0.00,,F,F,F,Info
+131935,c13cba72,GitHub,177cf0f9,data/177cf0f9/test/c13cba72.go,18,18,T,F,,,F,F,,,,,0.00,,F,F,F,Info:IPv4
+131936,c13cba72,GitHub,177cf0f9,data/177cf0f9/test/c13cba72.go,20,20,T,F,,,F,F,,,,,0.00,,F,F,F,Info:IPv4
 131937,c13cba72,GitHub,177cf0f9,data/177cf0f9/test/c13cba72.go,100,100,T,F,15,37,F,F,,,Info,,0.00,,F,F,F,IPv6
 131938,c13cba72,GitHub,177cf0f9,data/177cf0f9/test/c13cba72.go,102,102,T,F,51,73,F,F,,,Info,,0.00,,F,F,F,IPv6
 131939,0b7f43aa,GitHub,177cf0f9,data/177cf0f9/test/0b7f43aa.go,37,37,T,F,14,21,F,F,,,Info,,0.00,,F,F,F,IPv4

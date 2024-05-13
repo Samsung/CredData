@@ -60,7 +60,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 27411,eb85e4f0,GitHub,41659445,data/41659445/test/eb85e4f0.ts,8,8,Template,T,9,19,F,F,CharsOnly,,,Secret,2.17,10,F,F,F,Secret
 28187,91fd135b,GitHub,41659445,data/41659445/src/91fd135b.ts,169,169,T,T,64,80,T,F,CharsOnly,,,Secret,3.38,16,F,F,F,Secret
 31476,5398b006,GitHub,41659445,data/41659445/test/5398b006.js,131,131,F,T,41,46,F,F,Any,,,Token,1.52,5,F,F,F,Token
-32427,b2f74201,GitHub,41659445,data/41659445/test/b2f74201.ts,16,16,T,F,16,32,F,F,Any,,,Secret,3.00,16,F,F,F,Password
+32427,b2f74201,GitHub,41659445,data/41659445/test/b2f74201.ts,16,16,T,F,16,32,F,F,Any,,,Secret,3.00,16,F,F,F,Password:Secret
 32428,c7cb0c45,GitHub,41659445,data/41659445/test/c7cb0c45.js,8,8,T,F,16,55,F,F,Any,,,Secret,3.61,39,F,F,F,Secret
 32441,c7cb0c45,GitHub,41659445,data/41659445/test/c7cb0c45.js,18,18,T,F,16,32,F,F,Any,,,Secret,3.45,16,F,F,F,Secret
 32442,b3356305,GitHub,41659445,data/41659445/other/b3356305.md,94,94,T,F,16,48,F,F,CharsOnly,,,Secret,4.05,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Secret
@@ -97,7 +97,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 34942,faf09b36,GitHub,41659445,data/41659445/test/faf09b36.ts,132,132,F,F,8,16,F,F,,,,,0,0,F,F,F,Token
 35218,5398b006,GitHub,41659445,data/41659445/test/5398b006.js,201,201,T,F,9,41,F,F,Any,,,Secret,4.20,32,F,F,F,Secret
 35220,bf2cd4b4,GitHub,41659445,data/41659445/test/bf2cd4b4.ts,27,27,T,F,9,25,F,F,Any,,,Secret,3.75,16,F,F,F,Secret
-35221,bf2cd4b4,GitHub,41659445,data/41659445/test/bf2cd4b4.ts,9,9,T,F,9,25,F,F,Any,,,Secret,3.00,16,F,F,F,Password
+35221,bf2cd4b4,GitHub,41659445,data/41659445/test/bf2cd4b4.ts,9,9,T,F,9,25,F,F,Any,,,Secret,3.00,16,F,F,F,Password:Secret
 35233,5398b006,GitHub,41659445,data/41659445/test/5398b006.js,210,210,T,F,9,41,F,F,Any,,,Secret,3.99,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Secret
 35249,bf2cd4b4,GitHub,41659445,data/41659445/test/bf2cd4b4.ts,33,33,T,F,9,25,F,F,Any,,,Secret,3.38,16,F,F,F,Secret
 35250,bf2cd4b4,GitHub,41659445,data/41659445/test/bf2cd4b4.ts,21,21,T,F,9,25,F,F,Any,,,Secret,3.62,16,F,F,F,Secret
@@ -117,7 +117,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 35349,074dc7a7,GitHub,41659445,data/41659445/test/074dc7a7.ts,24,24,F,F,15,21,F,F,,,,,0,0,F,F,F,Token
 35350,074dc7a7,GitHub,41659445,data/41659445/test/074dc7a7.ts,29,29,F,F,15,21,F,F,,,,,0,0,F,F,F,Token
 37409,5398b006,GitHub,41659445,data/41659445/test/5398b006.js,205,205,T,F,9,41,F,F,Any,,,Secret,4.20,32,F,F,F,Secret
-37410,bf2cd4b4,GitHub,41659445,data/41659445/test/bf2cd4b4.ts,15,15,T,F,9,25,F,F,Any,,,Secret,3.00,16,F,F,F,Password
+37410,bf2cd4b4,GitHub,41659445,data/41659445/test/bf2cd4b4.ts,15,15,T,F,9,25,F,F,Any,,,Secret,3.00,16,F,F,F,Password:Secret
 37420,074dc7a7,GitHub,41659445,data/41659445/test/074dc7a7.ts,68,68,T,F,8,14,F,F,,,,,0,0,F,F,F,Token
 37421,074dc7a7,GitHub,41659445,data/41659445/test/074dc7a7.ts,82,82,T,F,8,14,F,F,,,,,0,0,F,F,F,Token
 37422,074dc7a7,GitHub,41659445,data/41659445/test/074dc7a7.ts,67,67,T,F,9,41,F,F,Any,,,Secret,4.20,32,F,F,F,Secret
@@ -138,10 +138,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 48002,bf2cd4b4,GitHub,41659445,data/41659445/test/bf2cd4b4.ts,11,11,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 48003,bf2cd4b4,GitHub,41659445,data/41659445/test/bf2cd4b4.ts,23,23,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 48004,074dc7a7,GitHub,41659445,data/41659445/test/074dc7a7.ts,72,72,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-48067,18278ad7,GitHub,41659445,data/41659445/test/18278ad7.ts,10,10,T,F,9,25,F,F,Any,,,Secret,3.00,16,F,F,F,Password
-48068,18278ad7,GitHub,41659445,data/41659445/test/18278ad7.ts,34,34,T,F,9,25,F,F,Any,,,Secret,3.00,16,F,F,F,Password
-48069,18278ad7,GitHub,41659445,data/41659445/test/18278ad7.ts,26,26,T,F,9,25,F,F,Any,,,Secret,3.00,16,F,F,F,Password
-48070,18278ad7,GitHub,41659445,data/41659445/test/18278ad7.ts,18,18,T,F,9,25,F,F,Any,,,Secret,3.00,16,F,F,F,Password
+48067,18278ad7,GitHub,41659445,data/41659445/test/18278ad7.ts,10,10,T,F,9,25,F,F,Any,,,Secret,3.00,16,F,F,F,Password:Secret
+48068,18278ad7,GitHub,41659445,data/41659445/test/18278ad7.ts,34,34,T,F,9,25,F,F,Any,,,Secret,3.00,16,F,F,F,Password:Secret
+48069,18278ad7,GitHub,41659445,data/41659445/test/18278ad7.ts,26,26,T,F,9,25,F,F,Any,,,Secret,3.00,16,F,F,F,Password:Secret
+48070,18278ad7,GitHub,41659445,data/41659445/test/18278ad7.ts,18,18,T,F,9,25,F,F,Any,,,Secret,3.00,16,F,F,F,Password:Secret
 48082,074dc7a7,GitHub,41659445,data/41659445/test/074dc7a7.ts,75,75,Template,F,8,14,F,F,NumbersOnly,,,Token,1.92,6,F,F,F,Token
 50063,a0f82dc2,GitHub,41659445,data/41659445/test/a0f82dc2.ts,5,5,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 63346,1b313185,GitHub,41659445,data/41659445/src/1b313185.ts,113,113,F,F,,,F,F,,,,,0,0,F,F,F,Secret

@@ -35,9 +35,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 13143,6af9f160,GitHub,4dccc5be,data/4dccc5be/src/6af9f160.rb,146,146,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 13189,b1271e78,GitHub,4dccc5be,data/4dccc5be/other/b1271e78,9,9,F,F,,,F,F,,,,,0,0,F,F,F,Token
 17467,5a1f0c98,GitHub,4dccc5be,data/4dccc5be/src/5a1f0c98.rb,61,61,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-21077,e4843df9,GitHub,4dccc5be,data/4dccc5be/other/e4843df9,56,56,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+21077,e4843df9,GitHub,4dccc5be,data/4dccc5be/other/e4843df9,56,56,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 27436,0e464c7a,GitHub,4dccc5be,data/4dccc5be/src/0e464c7a.rb,346,346,F,F,29,40,F,F,,,,,0,0,F,F,F,Password
-28001,0690f4f4,GitHub,4dccc5be,data/4dccc5be/src/0690f4f4.rb,27,59,T,T,,,F,F,Any,Private,,Unknown,2.77,37,F,F,F,Private Key
+28001,0690f4f4,GitHub,4dccc5be,data/4dccc5be/src/0690f4f4.rb,27,59,T,T,,,F,F,Any,Private,,Unknown,2.77,37,F,F,F,Private Key:PEM Private Key
 28010,3d6171a9,GitHub,4dccc5be,data/4dccc5be/other/3d6171a9,9,9,Template,F,18,28,F,F,Any,,,Key,2.46,10,F,F,F,API:Key
 28877,b5f84ab3,GitHub,4dccc5be,data/4dccc5be/other/b5f84ab3,83,83,Template,T,30,50,F,F,Any,,,Secret,2.70,20,F,F,F,Password
 28878,b5f84ab3,GitHub,4dccc5be,data/4dccc5be/other/b5f84ab3,93,93,Template,T,35,46,F,F,Any,,,Secret,2.96,11,F,F,F,Password
@@ -64,7 +64,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 29568,7e9b3bf5,GitHub,4dccc5be,data/4dccc5be/src/7e9b3bf5.rb,29,29,Template,T,21,32,F,F,Any,,,Secret,2.96,11,F,F,F,Password
 29805,d0392256,GitHub,4dccc5be,data/4dccc5be/src/d0392256.rb,16,16,Template,F,18,24,F,F,CharsOnly,,,Unknown,2.25,6,F,F,F,Key
 29806,4a465bfe,GitHub,4dccc5be,data/4dccc5be/src/4a465bfe.rb,38,38,Template,T,28,39,F,F,Any,,,Secret,2.96,11,F,F,F,Password
-29859,2a054fac,GitHub,4dccc5be,data/4dccc5be/src/2a054fac.rb,382,382,F,F,,,F,F,Any,,,Secret,2.15,6,F,F,F,Password
+29859,2a054fac,GitHub,4dccc5be,data/4dccc5be/src/2a054fac.rb,382,382,F,F,,,F,F,Any,,,Secret,2.15,6,F,F,F,Password:Auth
 29898,a80f94f5,GitHub,4dccc5be,data/4dccc5be/src/a80f94f5.template,55,55,Template,T,10,25,F,F,Any,,,Secret,2.73,15,F,F,F,Password
 29964,b3d5c854,GitHub,4dccc5be,data/4dccc5be/src/b3d5c854.rb,29,29,Template,T,19,30,F,F,Any,,,Secret,2.96,11,F,F,F,Password
 29981,6389ae55,GitHub,4dccc5be,data/4dccc5be/src/6389ae55.rb,421,421,Template,T,20,40,F,F,Any,,,Secret,2.70,20,F,F,F,Password
@@ -75,7 +75,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 30047,08f6de44,GitHub,4dccc5be,data/4dccc5be/src/08f6de44.rb,29,29,Template,T,21,29,F,F,Any,,,Token,2.62,8,F,F,F,Token
 30059,123eb21e,GitHub,4dccc5be,data/4dccc5be/src/123eb21e.rb,26,26,Template,F,21,31,F,F,Any,,,Key,2.46,10,F,F,F,API:Key
 30062,6e4c7e42,GitHub,4dccc5be,data/4dccc5be/src/6e4c7e42.rb,267,267,Template,T,27,38,F,F,Any,,,Secret,2.96,11,F,F,F,Password
-30066,2a054fac,GitHub,4dccc5be,data/4dccc5be/src/2a054fac.rb,276,276,F,T,,,F,F,Any,,,Secret,2.96,11,F,F,F,Password
+30066,2a054fac,GitHub,4dccc5be,data/4dccc5be/src/2a054fac.rb,276,276,F,T,,,F,F,Any,,,Secret,2.96,11,F,F,F,Password:Auth
 30070,a39eccbf,GitHub,4dccc5be,data/4dccc5be/other/a39eccbf,6,6,Template,T,20,33,F,F,Any,,,Unknown,2.52,13,F,F,F,Key
 30071,a39eccbf,GitHub,4dccc5be,data/4dccc5be/other/a39eccbf,7,7,Template,T,20,33,F,F,Any,,,Secret,2.61,13,F,F,F,Key:Secret
 30084,0e464c7a,GitHub,4dccc5be,data/4dccc5be/src/0e464c7a.rb,267,267,Template,T,24,30,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
@@ -120,8 +120,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 32298,f9fdbd2e,GitHub,4dccc5be,data/4dccc5be/src/f9fdbd2e.rb,26,26,Template,T,22,27,F,F,CharsOnly,,,Token,2.32,5,F,F,F,API:Token
 34014,438f1f52,GitHub,4dccc5be,data/4dccc5be/src/438f1f52.rb,46,46,Template,T,19,35,F,F,Any,,,Secret,3.38,16,F,F,F,Password
 34015,438f1f52,GitHub,4dccc5be,data/4dccc5be/src/438f1f52.rb,6,6,Template,T,19,29,F,F,CharsOnly,,,Secret,3.12,10,F,F,F,Password
-34141,7a820c92,GitHub,4dccc5be,data/4dccc5be/src/7a820c92.rb,12,12,Template,T,21,25,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-34167,b9311aeb,GitHub,4dccc5be,data/4dccc5be/other/b9311aeb,12,12,Template,T,25,29,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
+34141,7a820c92,GitHub,4dccc5be,data/4dccc5be/src/7a820c92.rb,12,12,Template,T,21,25,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password:URL Credentials
+34167,b9311aeb,GitHub,4dccc5be,data/4dccc5be/other/b9311aeb,12,12,Template,T,25,29,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password:URL Credentials
 34245,b1271e78,GitHub,4dccc5be,data/4dccc5be/other/b1271e78,10,10,Template,T,19,28,F,F,Any,,,Token,2.60,9,F,F,F,Token
 34769,3b048855,GitHub,4dccc5be,data/4dccc5be/src/3b048855.rb,20,20,T,T,17,24,F,F,CharsOnly,,,Secret,2.52,7,F,F,F,Password
 35002,8349f09f,GitHub,4dccc5be,data/4dccc5be/src/8349f09f.rb,189,189,T,T,24,39,F,F,Any,,,Secret,3.11,15,F,F,F,Password
@@ -181,9 +181,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 43101,90731e60,GitHub,4dccc5be,data/4dccc5be/src/90731e60.rb,344,344,Template,F,19,29,F,F,Any,,,Key,2.46,10,F,F,F,API:Key
 43102,90731e60,GitHub,4dccc5be,data/4dccc5be/src/90731e60.rb,404,404,Template,F,19,29,F,F,Any,,,Key,2.46,10,F,F,F,API:Key
 43103,90731e60,GitHub,4dccc5be,data/4dccc5be/src/90731e60.rb,425,425,Template,F,19,29,F,F,Any,,,Key,2.46,10,F,F,F,API:Key
-43147,0690f4f4,GitHub,4dccc5be,data/4dccc5be/src/0690f4f4.rb,85,117,T,T,,,F,F,Any,Private,,Unknown,2.58,41,F,F,F,Private Key
-43157,0690f4f4,GitHub,4dccc5be,data/4dccc5be/src/0690f4f4.rb,143,175,T,T,,,F,F,Any,Private,,Unknown,2.58,41,F,F,F,Private Key
-43158,0690f4f4,GitHub,4dccc5be,data/4dccc5be/src/0690f4f4.rb,201,233,T,T,,,F,F,Any,Private,,Unknown,2.58,41,F,F,F,Private Key
+43147,0690f4f4,GitHub,4dccc5be,data/4dccc5be/src/0690f4f4.rb,85,117,T,T,,,F,F,Any,Private,,Unknown,2.58,41,F,F,F,Private Key:PEM Private Key
+43157,0690f4f4,GitHub,4dccc5be,data/4dccc5be/src/0690f4f4.rb,143,175,T,T,,,F,F,Any,Private,,Unknown,2.58,41,F,F,F,Private Key:PEM Private Key
+43158,0690f4f4,GitHub,4dccc5be,data/4dccc5be/src/0690f4f4.rb,201,233,T,T,,,F,F,Any,Private,,Unknown,2.58,41,F,F,F,Private Key:PEM Private Key
 52096,6e4c7e42,GitHub,4dccc5be,data/4dccc5be/src/6e4c7e42.rb,280,280,Template,T,34,45,F,F,Any,,,Secret,2.96,11,F,F,F,Password
 63071,b765542b,GitHub,4dccc5be,data/4dccc5be/src/b765542b.rb,157,157,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 63072,a80f94f5,GitHub,4dccc5be,data/4dccc5be/src/a80f94f5.template,21,21,Template,T,9,19,F,F,Any,,,Key,2.13,10,F,F,F,API:Key
@@ -216,7 +216,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 82156,90731e60,GitHub,4dccc5be,data/4dccc5be/src/90731e60.rb,426,426,Template,T,22,35,F,F,Any,,,Secret,2.98,13,F,F,F,API:Secret
 82157,64e791a9,GitHub,4dccc5be,data/4dccc5be/src/64e791a9.rb,325,325,Template,T,15,26,F,F,Any,,,Secret,2.96,11,F,F,F,Password
 82158,2a054fac,GitHub,4dccc5be,data/4dccc5be/src/2a054fac.rb,269,269,Template,T,15,26,F,F,Any,,,Secret,2.96,11,F,F,F,Password
-82159,2a054fac,GitHub,4dccc5be,data/4dccc5be/src/2a054fac.rb,281,281,F,T,,,F,F,Any,,,Secret,2.96,11,F,F,F,Password
+82159,2a054fac,GitHub,4dccc5be,data/4dccc5be/src/2a054fac.rb,281,281,F,T,,,F,F,Any,,,Secret,2.96,11,F,F,F,Password:Auth
 82160,2a054fac,GitHub,4dccc5be,data/4dccc5be/src/2a054fac.rb,286,286,Template,T,13,24,F,F,Any,,,Secret,2.96,11,F,F,F,Password
 82161,6e4c7e42,GitHub,4dccc5be,data/4dccc5be/src/6e4c7e42.rb,265,265,Template,T,15,26,F,F,Any,,,Secret,2.96,11,F,F,F,Password
 82162,4a465bfe,GitHub,4dccc5be,data/4dccc5be/src/4a465bfe.rb,221,221,Template,T,15,26,F,F,Any,,,Secret,2.96,11,F,F,F,Password
@@ -243,4 +243,4 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 130333,79358c60,GitHub,4dccc5be,data/4dccc5be/src/79358c60.rb,150,150,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 130334,69dfdb73,GitHub,4dccc5be,data/4dccc5be/src/69dfdb73.rb,135,135,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 130335,f9fdbd2e,GitHub,4dccc5be,data/4dccc5be/src/f9fdbd2e.rb,73,73,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-133339,0690f4f4,GitHub,4dccc5be,data/4dccc5be/src/0690f4f4.rb,2,2,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+133339,0690f4f4,GitHub,4dccc5be,data/4dccc5be/src/0690f4f4.rb,2,2,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key

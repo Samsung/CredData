@@ -101,8 +101,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 14930,4921ffc4,GitHub,a15774b8,data/a15774b8/src/4921ffc4.py,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Password
 14957,e581b06d,GitHub,a15774b8,data/a15774b8/src/e581b06d.sh,33,33,F,F,,,F,F,,,,,0,0,F,F,F,Password
 14987,f763c0ab,GitHub,a15774b8,data/a15774b8/src/f763c0ab.sh,16,16,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-15161,df42e160,GitHub,a15774b8,data/a15774b8/src/df42e160.sh,129,129,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-15162,21bc3b14,GitHub,a15774b8,data/a15774b8/src/21bc3b14.sh,52,52,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+15161,df42e160,GitHub,a15774b8,data/a15774b8/src/df42e160.sh,129,129,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+15162,21bc3b14,GitHub,a15774b8,data/a15774b8/src/21bc3b14.sh,52,52,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 17974,b02fb0b1,GitHub,a15774b8,data/a15774b8/other/b02fb0b1.md,28,28,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 17975,4fbd4982,GitHub,a15774b8,data/a15774b8/other/4fbd4982.md,30,30,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 17976,d54685c1,GitHub,a15774b8,data/a15774b8/other/d54685c1.md,22,22,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -405,7 +405,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 47944,b6c51d6a,GitHub,a15774b8,data/a15774b8/other/b6c51d6a,55,55,F,F,,,F,F,,,,,0,0,F,F,F,Password
 47945,28f44148,GitHub,a15774b8,data/a15774b8/other/28f44148,76,76,F,F,,,F,F,,,,,0,0,F,F,F,Password
 50328,d4e266b0,GitHub,a15774b8,data/a15774b8/other/d4e266b0.md,22,22,Template,T,9,30,F,F,CharOnly,,,Secret,3.50,21,F,F,F,Password
-56239,df42e160,GitHub,a15774b8,data/a15774b8/src/df42e160.sh,163,163,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+56239,df42e160,GitHub,a15774b8,data/a15774b8/src/df42e160.sh,163,163,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 56487,4fbd4982,GitHub,a15774b8,data/a15774b8/other/4fbd4982.md,27,27,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 56488,b02fb0b1,GitHub,a15774b8,data/a15774b8/other/b02fb0b1.md,25,25,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 56559,461ce245,GitHub,a15774b8,data/a15774b8/src/461ce245.yml,19,19,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
@@ -605,8 +605,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 114103,f6b639e9,GitHub,a15774b8,data/a15774b8/src/f6b639e9.groovy,163,163,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 114104,f6b639e9,GitHub,a15774b8,data/a15774b8/src/f6b639e9.groovy,913,913,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 114105,8bd9187e,GitHub,a15774b8,data/a15774b8/other/8bd9187e.md,243,243,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
-114106,67f4851b,GitHub,a15774b8,data/a15774b8/other/67f4851b.md,63,63,T,F,26,111,F,F,,,,,0.00,,F,F,F,Token
-114107,67f4851b,GitHub,a15774b8,data/a15774b8/other/67f4851b.md,70,70,T,F,28,113,F,F,,,,,0.00,,F,F,F,Token
+114106,67f4851b,GitHub,a15774b8,data/a15774b8/other/67f4851b.md,63,63,T,F,26,111,F,F,,,,,0.00,,F,F,F,Token:Docker Swarm Token
+114107,67f4851b,GitHub,a15774b8,data/a15774b8/other/67f4851b.md,70,70,T,F,28,113,F,F,,,,,0.00,,F,F,F,Token:Docker Swarm Token
 114108,8de498c4,GitHub,a15774b8,data/a15774b8/other/8de498c4.md,66,66,T,F,18,22,F,F,CharOnly,,,Secret,2.00,4,F,F,F,Password
 114109,8de498c4,GitHub,a15774b8,data/a15774b8/other/8de498c4.md,118,118,T,F,18,22,F,F,CharOnly,,,Secret,2.00,4,F,F,F,Password
 114110,8de498c4,GitHub,a15774b8,data/a15774b8/other/8de498c4.md,145,145,T,F,18,22,F,F,CharOnly,,,Secret,2.00,4,F,F,F,Password
@@ -644,8 +644,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 131242,8d29f1ad,GitHub,a15774b8,data/a15774b8/src/8d29f1ad.sh,309,309,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 131244,67c42b1d,GitHub,a15774b8,data/a15774b8/src/67c42b1d.sh,290,290,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 131248,8d29f1ad,GitHub,a15774b8,data/a15774b8/src/8d29f1ad.sh,332,332,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-131850,67f4851b,GitHub,a15774b8,data/a15774b8/other/67f4851b.md,79,79,T,F,,,F,F,,,,,0.00,,F,F,F,Info
-132222,5c1ef65c,GitHub,a15774b8,data/a15774b8/other/5c1ef65c.md,11,11,F,F,,,F,F,,,,,0.00,,F,F,F,Info
+131850,67f4851b,GitHub,a15774b8,data/a15774b8/other/67f4851b.md,79,79,T,F,,,F,F,,,,,0.00,,F,F,F,Info:Gitlab Incoming Email Token
+132222,5c1ef65c,GitHub,a15774b8,data/a15774b8/other/5c1ef65c.md,11,11,F,F,,,F,F,,,,,0.00,,F,F,F,Info:IPv4
 132223,5c1ef65c,GitHub,a15774b8,data/a15774b8/other/5c1ef65c.md,39,39,F,F,91,99,F,F,,,Info,,0.00,,F,F,F,IPv4
 132224,5c1ef65c,GitHub,a15774b8,data/a15774b8/other/5c1ef65c.md,50,50,F,F,27,35,F,F,,,Info,,0.00,,F,F,F,IPv4
 132225,5c1ef65c,GitHub,a15774b8,data/a15774b8/other/5c1ef65c.md,56,56,F,F,60,68,F,F,,,Info,,0.00,,F,F,F,Info
@@ -760,7 +760,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 132334,5d0ce7cf,GitHub,a15774b8,data/a15774b8/other/5d0ce7cf.md,259,259,F,F,17,25,F,F,,,Info,,0.00,,F,F,F,IPv4
 132335,5d0ce7cf,GitHub,a15774b8,data/a15774b8/other/5d0ce7cf.md,305,305,F,F,185,193,F,F,,,Info,,0.00,,F,F,F,IPv4
 132336,5d0ce7cf,GitHub,a15774b8,data/a15774b8/other/5d0ce7cf.md,317,317,F,F,17,25,F,F,,,Info,,0.00,,F,F,F,IPv4
-132337,5d0ce7cf,GitHub,a15774b8,data/a15774b8/other/5d0ce7cf.md,350,350,F,F,,,F,F,,,,,0.00,,F,F,F,Info
+132337,5d0ce7cf,GitHub,a15774b8,data/a15774b8/other/5d0ce7cf.md,350,350,F,F,,,F,F,,,,,0.00,,F,F,F,Info:IPv4
 132338,5d0ce7cf,GitHub,a15774b8,data/a15774b8/other/5d0ce7cf.md,372,372,F,F,45,53,F,F,,,Info,,0.00,,F,F,F,IPv4
 132339,5d0ce7cf,GitHub,a15774b8,data/a15774b8/other/5d0ce7cf.md,378,378,F,F,28,36,F,F,,,Info,,0.00,,F,F,F,IPv4
 132340,5d0ce7cf,GitHub,a15774b8,data/a15774b8/other/5d0ce7cf.md,388,388,F,F,45,53,F,F,,,Info,,0.00,,F,F,F,IPv4
@@ -783,9 +783,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 132357,728aed53,GitHub,a15774b8,data/a15774b8/other/728aed53.md,19,19,F,F,36,44,F,F,,,Info,,0.00,,F,F,F,IPv4
 132358,728aed53,GitHub,a15774b8,data/a15774b8/other/728aed53.md,38,38,F,F,91,99,F,F,,,Info,,0.00,,F,F,F,IPv4
 132359,728aed53,GitHub,a15774b8,data/a15774b8/other/728aed53.md,41,41,F,F,27,35,F,F,,,Info,,0.00,,F,F,F,IPv4
-132360,32c4ae9f,GitHub,a15774b8,data/a15774b8/src/32c4ae9f.rsp,252,252,T,F,,,F,F,,,,,0.00,,F,F,F,Info
-132361,c341df35,GitHub,a15774b8,data/a15774b8/src/c341df35.rsp,268,268,T,F,,,F,F,,,,,0.00,,F,F,F,Info
-132362,ee038f1d,GitHub,a15774b8,data/a15774b8/src/ee038f1d.rsp,252,252,F,F,,,F,F,,,,,0.00,,F,F,F,Info
+132360,32c4ae9f,GitHub,a15774b8,data/a15774b8/src/32c4ae9f.rsp,252,252,T,F,,,F,F,,,,,0.00,,F,F,F,Info:IPv4
+132361,c341df35,GitHub,a15774b8,data/a15774b8/src/c341df35.rsp,268,268,T,F,,,F,F,,,,,0.00,,F,F,F,Info:IPv4
+132362,ee038f1d,GitHub,a15774b8,data/a15774b8/src/ee038f1d.rsp,252,252,F,F,,,F,F,,,,,0.00,,F,F,F,Info:IPv4
 132363,b3633663,GitHub,a15774b8,data/a15774b8/src/b3633663.yml,8,8,F,F,41,49,F,F,,,Info,,0.00,,F,F,F,IPv4
 132364,67c42b1d,GitHub,a15774b8,data/a15774b8/src/67c42b1d.sh,297,297,F,F,77,85,F,F,,,Info,,0.00,,F,F,F,IPv4
 132365,8d29f1ad,GitHub,a15774b8,data/a15774b8/src/8d29f1ad.sh,337,337,F,F,77,85,F,F,,,Info,,0.00,,F,F,F,IPv4

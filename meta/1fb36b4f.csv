@@ -11,12 +11,12 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 14442,54d6e7e9,GitHub,1fb36b4f,data/1fb36b4f/test/54d6e7e9.cc,197,197,F,F,,,F,F,,,,,0,0,F,F,F,Password
 14500,9e7a5429,GitHub,1fb36b4f,data/1fb36b4f/src/9e7a5429.cc,89,89,F,F,,,F,F,,,,,0,0,F,F,F,Password
 17739,93039278,GitHub,1fb36b4f,data/1fb36b4f/src/93039278.csp,16,16,F,F,,,F,F,,,,,0,0,F,F,F,Password
-17742,04f215c4,GitHub,1fb36b4f,data/1fb36b4f/test/04f215c4.json,28,28,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+17742,04f215c4,GitHub,1fb36b4f,data/1fb36b4f/test/04f215c4.json,28,28,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 20271,1ccc82d3,GitHub,1fb36b4f,data/1fb36b4f/test/1ccc82d3.cc,1924,1924,F,F,,,F,F,,,,,0,0,F,F,F,Password
 20272,5f9b11ca,GitHub,1fb36b4f,data/1fb36b4f/test/5f9b11ca.cc,17,17,F,F,,,F,F,,,,,0,0,F,F,F,Info
 22374,93039278,GitHub,1fb36b4f,data/1fb36b4f/src/93039278.csp,70,70,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 22703,93039278,GitHub,1fb36b4f,data/1fb36b4f/src/93039278.csp,50,50,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-22704,93039278,GitHub,1fb36b4f,data/1fb36b4f/src/93039278.csp,71,71,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+22704,93039278,GitHub,1fb36b4f,data/1fb36b4f/src/93039278.csp,71,71,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 22872,062ba17e,GitHub,1fb36b4f,data/1fb36b4f/other/062ba17e.md,171,171,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 22873,062ba17e,GitHub,1fb36b4f,data/1fb36b4f/other/062ba17e.md,169,169,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 22875,062ba17e,GitHub,1fb36b4f,data/1fb36b4f/other/062ba17e.md,170,170,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
@@ -29,7 +29,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 42586,41007037,GitHub,1fb36b4f,data/1fb36b4f/src/41007037.cc,905,905,F,F,,,F,F,,,,,0,0,F,F,F,Password
 47131,54d6e7e9,GitHub,1fb36b4f,data/1fb36b4f/test/54d6e7e9.cc,379,379,F,F,,,F,F,,,,,0,0,F,F,F,Password
 55011,93039278,GitHub,1fb36b4f,data/1fb36b4f/src/93039278.csp,60,60,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-57196,f710dc29,GitHub,1fb36b4f,data/1fb36b4f/src/f710dc29.csp,28,28,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+57196,f710dc29,GitHub,1fb36b4f,data/1fb36b4f/src/f710dc29.csp,28,28,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 61641,b3356305,GitHub,1fb36b4f,data/1fb36b4f/other/b3356305.md,167,167,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 61642,13f564fa,GitHub,1fb36b4f,data/1fb36b4f/other/13f564fa.md,170,170,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 61643,13f564fa,GitHub,1fb36b4f,data/1fb36b4f/other/13f564fa.md,169,169,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
@@ -51,6 +51,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 131187,04f215c4,GitHub,1fb36b4f,data/1fb36b4f/test/04f215c4.json,55,55,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 131189,f710dc29,GitHub,1fb36b4f,data/1fb36b4f/src/f710dc29.csp,55,55,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 131190,cd3b33e0,GitHub,1fb36b4f,data/1fb36b4f/src/cd3b33e0.h,110,110,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-133062,9e7a5429,GitHub,1fb36b4f,data/1fb36b4f/src/9e7a5429.cc,70,70,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-133063,9e7a5429,GitHub,1fb36b4f,data/1fb36b4f/src/9e7a5429.cc,74,74,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-133064,9e7a5429,GitHub,1fb36b4f,data/1fb36b4f/src/9e7a5429.cc,83,83,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+133062,9e7a5429,GitHub,1fb36b4f,data/1fb36b4f/src/9e7a5429.cc,70,70,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+133063,9e7a5429,GitHub,1fb36b4f,data/1fb36b4f/src/9e7a5429.cc,74,74,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+133064,9e7a5429,GitHub,1fb36b4f,data/1fb36b4f/src/9e7a5429.cc,83,83,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
