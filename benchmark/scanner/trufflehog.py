@@ -46,7 +46,7 @@ class TruffleHog(Scanner):
                 continue
             line = base64.b64decode(line_data["Raw"]).decode("utf-8", "backslashreplace")
             line_num = self._get_line_num(file_path, line)
-            _, _, _ = self.check_line_from_meta(file_path, line_num)
+            _, _, _ = self.check_line_from_meta(file_path, line_num, line_num)
 
     def _get_line_num(self, file_path: str, match: str) -> int:
         with open(file_path, "r") as f:
