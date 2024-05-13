@@ -299,6 +299,8 @@ def get_obfuscated_value(value, predefined_pattern):
         obfuscated_value = value[:4] + generate_value(value[4:])
     elif value.startswith("base64:"):
         obfuscated_value = value[:7] + generate_value(value[7:])
+    elif value.startswith("phpass:"):
+        obfuscated_value = value[:7] + generate_value(value[7:])
     elif value.startswith("SWMTKN-1-"):
         obfuscated_value = value[:9] + generate_value(value[9:])
     elif value.startswith("hooks.slack.com/services/"):
