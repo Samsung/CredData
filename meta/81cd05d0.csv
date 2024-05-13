@@ -557,8 +557,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 26423,b8de3c87,GitHub,81cd05d0,data/81cd05d0/src/b8de3c87.java,25,25,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 26427,b8de3c87,GitHub,81cd05d0,data/81cd05d0/src/b8de3c87.java,24,24,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 27461,2502bd2d,GitHub,81cd05d0,data/81cd05d0/src/2502bd2d.json,50229,50229,Template,F,24,34,F,F,Any,,,Token,2.33,10,F,F,F,Generic Token
-27570,3f8a6f71,GitHub,81cd05d0,data/81cd05d0/src/3f8a6f71.json,13697,13697,T,F,12,32,F,F,Any,,AWS Client ID,Token,3.88,20,F,F,F,Predefined Pattern
-27571,3f8a6f71,GitHub,81cd05d0,data/81cd05d0/src/3f8a6f71.json,13749,13749,T,F,12,32,F,F,Any,,AWS Client ID,Token,3.31,20,F,F,F,Predefined Pattern
+27570,3f8a6f71,GitHub,81cd05d0,data/81cd05d0/src/3f8a6f71.json,13697,13697,T,F,12,33,F,F,Any,,AWS Client ID,Token,3.88,20,F,F,F,Predefined Pattern
+27571,3f8a6f71,GitHub,81cd05d0,data/81cd05d0/src/3f8a6f71.json,13749,13749,T,F,12,33,F,F,Any,,AWS Client ID,Token,3.31,20,F,F,F,Predefined Pattern
 27901,6f8a2a14,GitHub,81cd05d0,data/81cd05d0/src/6f8a2a14.json,13351,13351,T,T,21,62,F,F,Any,,,Secret,4.71,41,F,F,F,Generic Secret
 28172,91eb9e36,GitHub,81cd05d0,data/81cd05d0/src/91eb9e36.java,155,155,T,F,38,50,F,F,Any,,,Secret,3.58,12,F,F,F,Password
 29629,bc39da73,GitHub,81cd05d0,data/81cd05d0/src/bc39da73.json,164921,164921,T,T,14,38,F,F,Any,,,Secret,3.76,24,F,F,F,Password
@@ -573,9 +573,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 33032,5291df26,GitHub,81cd05d0,data/81cd05d0/test/5291df26.java,27,27,T,F,27,63,F,F,Any,,,Token,3.40,36,F,F,F,Generic Token
 34983,0c04f109,GitHub,81cd05d0,data/81cd05d0/src/0c04f109.json,66833,66833,T,F,24,60,F,F,Any,,,Token,3.42,36,F,F,F,Generic Token
 35442,970588b6,GitHub,81cd05d0,data/81cd05d0/src/970588b6.json,52165,52165,T,T,16,507,F,F,Any,,,Token,5.69,491,F,F,F,Generic Token
-35452,02fd2d8d,GitHub,81cd05d0,data/81cd05d0/src/02fd2d8d.json,916585,916585,T,F,8,28,F,F,Any,,AWS Client ID,Token,3.42,20,F,F,F,Predefined Pattern
-35453,02fd2d8d,GitHub,81cd05d0,data/81cd05d0/src/02fd2d8d.json,913894,913894,T,F,8,28,F,F,Any,,AWS Client ID,Token,3.78,20,F,F,F,Predefined Pattern
-35454,02fd2d8d,GitHub,81cd05d0,data/81cd05d0/src/02fd2d8d.json,915222,915222,T,F,8,28,F,F,Any,,AWS Client ID,Token,3.92,20,F,F,F,Predefined Pattern
+35452,02fd2d8d,GitHub,81cd05d0,data/81cd05d0/src/02fd2d8d.json,916585,916585,T,F,8,29,F,F,Any,,AWS Client ID,Token,3.42,20,F,F,F,Predefined Pattern
+35453,02fd2d8d,GitHub,81cd05d0,data/81cd05d0/src/02fd2d8d.json,913894,913894,T,F,8,29,F,F,Any,,AWS Client ID,Token,3.78,20,F,F,F,Predefined Pattern
+35454,02fd2d8d,GitHub,81cd05d0,data/81cd05d0/src/02fd2d8d.json,915222,915222,T,F,8,29,F,F,Any,,AWS Client ID,Token,3.92,20,F,F,F,Predefined Pattern
 35509,6274d7e5,GitHub,81cd05d0,data/81cd05d0/src/6274d7e5.json,51683,51683,T,F,24,60,F,F,Any,,,Token,3.47,36,F,F,F,Generic Token
 35510,6274d7e5,GitHub,81cd05d0,data/81cd05d0/src/6274d7e5.json,51744,51744,T,F,24,60,F,F,Any,,,Token,3.22,36,F,F,F,Generic Token
 35983,631b3f02,GitHub,81cd05d0,data/81cd05d0/src/631b3f02.json,305957,305957,Template,T,24,37,F,F,CharsOnly,,,Secret,3.39,13,F,F,F,Password
@@ -685,6 +685,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 42183,6f8a2a14,GitHub,81cd05d0,data/81cd05d0/src/6f8a2a14.json,13413,13413,T,T,17,37,F,F,Any,,AWS Client ID,Token,3.68,20,F,F,F,Predefined Pattern
 42184,6f8a2a14,GitHub,81cd05d0,data/81cd05d0/src/6f8a2a14.json,13508,13508,T,T,17,37,F,F,Any,,AWS Client ID,Token,3.68,20,F,F,F,Predefined Pattern
 42185,6f8a2a14,GitHub,81cd05d0,data/81cd05d0/src/6f8a2a14.json,13535,13535,T,T,17,37,F,F,Any,,AWS Client ID,Token,3.68,20,F,F,F,Predefined Pattern
+136468,6f8a2a14,GitHub,81cd05d0,data/81cd05d0/src/6f8a2a14.json,13413,13414,T,F,17,62,F,F,,,,,0.0,0,F,F,F,AWS Multi
+136469,6f8a2a14,GitHub,81cd05d0,data/81cd05d0/src/6f8a2a14.json,13508,13509,T,F,17,62,F,F,,,,,0.0,0,F,F,F,AWS Multi
+136470,6f8a2a14,GitHub,81cd05d0,data/81cd05d0/src/6f8a2a14.json,13535,13536,T,F,17,62,F,F,,,,,0.0,0,F,F,F,AWS Multi
 42186,6f8a2a14,GitHub,81cd05d0,data/81cd05d0/src/6f8a2a14.json,13509,13509,T,T,21,62,F,F,Any,,,Secret,4.71,41,F,F,F,Generic Secret
 42187,6f8a2a14,GitHub,81cd05d0,data/81cd05d0/src/6f8a2a14.json,13536,13536,T,T,21,62,F,F,Any,,,Secret,4.71,41,F,F,F,Generic Secret
 42279,b2182b6e,GitHub,81cd05d0,data/81cd05d0/src/b2182b6e.java,859,859,T,F,41,53,F,F,Any,,,Secret,3.58,12,F,F,F,Password
@@ -705,11 +708,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 42329,91eb9e36,GitHub,81cd05d0,data/81cd05d0/src/91eb9e36.java,303,303,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 42330,91eb9e36,GitHub,81cd05d0,data/81cd05d0/src/91eb9e36.java,322,322,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 42331,91eb9e36,GitHub,81cd05d0,data/81cd05d0/src/91eb9e36.java,335,335,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-42405,3f8a6f71,GitHub,81cd05d0,data/81cd05d0/src/3f8a6f71.json,13744,13744,T,F,12,32,F,F,Any,,AWS Client ID,Token,3.88,20,F,F,F,Predefined Pattern
-42406,3f8a6f71,GitHub,81cd05d0,data/81cd05d0/src/3f8a6f71.json,13769,13769,T,F,12,32,F,F,Any,,AWS Client ID,Token,3.31,20,F,F,F,Predefined Pattern
-42407,3f8a6f71,GitHub,81cd05d0,data/81cd05d0/src/3f8a6f71.json,13788,13788,T,F,12,32,F,F,Any,,AWS Client ID,Token,3.31,20,F,F,F,Predefined Pattern
-42408,3f8a6f71,GitHub,81cd05d0,data/81cd05d0/src/3f8a6f71.json,13794,13794,T,F,12,32,F,F,Any,,AWS Client ID,Token,3.31,20,F,F,F,Predefined Pattern
-42409,3f8a6f71,GitHub,81cd05d0,data/81cd05d0/src/3f8a6f71.json,13896,13896,T,F,12,32,F,F,Any,,AWS Client ID,Token,3.88,20,F,F,F,Predefined Pattern
+42405,3f8a6f71,GitHub,81cd05d0,data/81cd05d0/src/3f8a6f71.json,13744,13744,T,F,12,33,F,F,Any,,AWS Client ID,Token,3.88,20,F,F,F,Predefined Pattern
+42406,3f8a6f71,GitHub,81cd05d0,data/81cd05d0/src/3f8a6f71.json,13769,13769,T,F,12,33,F,F,Any,,AWS Client ID,Token,3.31,20,F,F,F,Predefined Pattern
+42407,3f8a6f71,GitHub,81cd05d0,data/81cd05d0/src/3f8a6f71.json,13788,13788,T,F,12,33,F,F,Any,,AWS Client ID,Token,3.31,20,F,F,F,Predefined Pattern
+42408,3f8a6f71,GitHub,81cd05d0,data/81cd05d0/src/3f8a6f71.json,13794,13794,T,F,12,33,F,F,Any,,AWS Client ID,Token,3.31,20,F,F,F,Predefined Pattern
+42409,3f8a6f71,GitHub,81cd05d0,data/81cd05d0/src/3f8a6f71.json,13896,13896,T,F,12,33,F,F,Any,,AWS Client ID,Token,3.88,20,F,F,F,Predefined Pattern
 42427,bf6d4af2,GitHub,81cd05d0,data/81cd05d0/src/bf6d4af2.json,121702,121702,Template,F,35,47,F,F,NumbersOnly,,,Secret,0,12,F,F,F,Password
 42428,bf6d4af2,GitHub,81cd05d0,data/81cd05d0/src/bf6d4af2.json,121704,121704,Template,F,32,44,F,F,NumbersOnly,,,Secret,0,12,F,F,F,Password
 42553,bc39da73,GitHub,81cd05d0,data/81cd05d0/src/bc39da73.json,164438,164438,T,T,12,32,F,F,Any,,AWS Client ID,Token,3.68,20,F,F,F,Predefined Pattern
@@ -2245,9 +2248,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 83226,e10fed3a,GitHub,81cd05d0,data/81cd05d0/src/e10fed3a.java,233,233,F,F,25,34,F,F,,,,,0,0,F,F,F,Generic Token
 83227,e22477dd,GitHub,81cd05d0,data/81cd05d0/src/e22477dd.java,859,859,F,F,22,31,F,F,,,,,0,0,F,F,F,Password
 83228,e953f0a7,GitHub,81cd05d0,data/81cd05d0/src/e953f0a7.java,321,321,F,F,25,34,F,F,,,,,0,0,F,F,F,Generic Token
-83229,05b12c99,GitHub,81cd05d0,data/81cd05d0/src/05b12c99.json,6854,6854,F,F,200,214,F,F,,,,,0,0,F,F,F,Predefined Pattern
-83230,05b12c99,GitHub,81cd05d0,data/81cd05d0/src/05b12c99.json,7074,7074,F,F,200,214,F,F,,,,,0,0,F,F,F,Predefined Pattern
-83231,05b12c99,GitHub,81cd05d0,data/81cd05d0/src/05b12c99.json,7134,7134,F,F,200,214,F,F,,,,,0,0,F,F,F,Predefined Pattern
+83229,05b12c99,GitHub,81cd05d0,data/81cd05d0/src/05b12c99.json,6854,6854,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+83230,05b12c99,GitHub,81cd05d0,data/81cd05d0/src/05b12c99.json,7074,7074,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+83231,05b12c99,GitHub,81cd05d0,data/81cd05d0/src/05b12c99.json,7134,7134,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 83232,cbcdead5,GitHub,81cd05d0,data/81cd05d0/src/cbcdead5.java,2643,2643,F,F,22,31,F,F,,,,,0,0,F,F,F,Password
 83233,46b28a4b,GitHub,81cd05d0,data/81cd05d0/src/46b28a4b.java,1128,1128,F,F,25,34,F,F,,,,,0,0,F,F,F,Generic Token
 102795,6ad4fa88,GitHub,81cd05d0,data/81cd05d0/src/6ad4fa88.json,48138,48138,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret

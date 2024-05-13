@@ -3,7 +3,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 482,bedf7d56,GitHub,cc51a2f0,data/cc51a2f0/test/bedf7d56.bats,16,16,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 829,d62b7815,GitHub,cc51a2f0,data/cc51a2f0/other/d62b7815.md,95,95,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 3242,382e37a6,GitHub,cc51a2f0,data/cc51a2f0/src/382e37a6.cf,81,81,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-3979,28956cbb,GitHub,cc51a2f0,data/cc51a2f0/test/28956cbb.bats,23,23,Template,T,18,32,F,F,Any,,,Secret,2.78,14,F,F,F,Password
+3979,28956cbb,GitHub,cc51a2f0,data/cc51a2f0/test/28956cbb.bats,23,23,F,T,18,31,F,F,Any,,,Secret,2.78,14,F,F,F,Password
 4361,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/c65d41b8.bats,1179,1179,F,F,,,F,F,,,,,0,0,F,F,F,Password
 4447,979604dc,GitHub,cc51a2f0,data/cc51a2f0/test/979604dc.bats,17,17,F,F,,,F,F,,,,,0,0,F,F,F,Password
 5555,141cf316,GitHub,cc51a2f0,data/cc51a2f0/src/141cf316.sh,625,625,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -45,7 +45,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 29760,881d34ce,GitHub,cc51a2f0,data/cc51a2f0/test/881d34ce.json,23,23,T,F,,,F,F,,,,,0.0,0,F,F,F,Generic Secret
 30056,3ac92298,GitHub,cc51a2f0,data/cc51a2f0/test/3ac92298.md,45,45,Template,T,24,32,F,F,Any,,,Secret,2.75,8,F,F,F,Password
 30195,3ac92298,GitHub,cc51a2f0,data/cc51a2f0/test/3ac92298.md,38,38,Template,T,13,21,F,F,Any,,,Unknown,2.75,8,F,F,F,Password
-31155,23a4ef27,GitHub,cc51a2f0,data/cc51a2f0/other/23a4ef27.md,15,15,T,F,23,40,F,F,CharsOnly,,,Unknown,0.34,40,F,F,F,Password
+31155,23a4ef27,GitHub,cc51a2f0,data/cc51a2f0/other/23a4ef27.md,15,15,T,F,19,39,F,F,CharsOnly,,,Unknown,0.34,40,F,F,F,Other
 31706,29a4c140,GitHub,cc51a2f0,data/cc51a2f0/test/29a4c140.bats,31,31,T,T,16,21,F,F,Any,,,Unknown,2.01,5,F,F,F,Password
 32260,ebf8806d,GitHub,cc51a2f0,data/cc51a2f0/src/ebf8806d.cf,3,3,T,T,27,32,F,F,CharsOnly,,,Unknown,2.32,5,F,F,F,Password
 32261,e6419eaf,GitHub,cc51a2f0,data/cc51a2f0/test/e6419eaf.cf,4,4,T,T,19,24,F,F,CharsOnly,,,Unknown,2.32,5,F,F,F,Password

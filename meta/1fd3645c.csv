@@ -32,9 +32,12 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 25051,7441d9f4,GitHub,1fd3645c,data/1fd3645c/test/7441d9f4.py,11,11,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 29525,6ac3f79f,GitHub,1fd3645c,data/1fd3645c/src/6ac3f79f.yml,9,9,F,F,8,692,F,F,Any,,,Unknown,5.95,684,F,F,F,Info
 35242,d4186827,GitHub,1fd3645c,data/1fd3645c/test/d4186827.py,12,12,T,F,10,30,F,F,Any,,,Secret,4.12,20,F,F,F,Generic Secret
-50287,7afbbe95,GitHub,1fd3645c,data/1fd3645c/test/7afbbe95.py,12,12,Template,T,36,46,F,F,Any,,,Secret,3.12,10,F,F,F,Password
-50288,7488154d,GitHub,1fd3645c,data/1fd3645c/test/7488154d.py,16,16,Template,T,36,46,F,F,Any,,,Secret,3.12,10,F,F,F,Password
-50289,d3cc277f,GitHub,1fd3645c,data/1fd3645c/test/d3cc277f.py,20,20,Template,T,36,46,F,F,Any,,,Secret,3.12,10,F,F,F,Password
+50287,7afbbe95,GitHub,1fd3645c,data/1fd3645c/test/7afbbe95.py,12,12,T,T,36,46,F,F,Any,,,Secret,3.12,10,F,F,F,Password
+50288,7488154d,GitHub,1fd3645c,data/1fd3645c/test/7488154d.py,16,16,T,T,36,46,F,F,Any,,,Secret,3.12,10,F,F,F,Password
+50289,d3cc277f,GitHub,1fd3645c,data/1fd3645c/test/d3cc277f.py,20,20,T,T,36,46,F,F,Any,,,Secret,3.12,10,F,F,F,Password
+137267,7488154d,GitHub,1fd3645c,data/1fd3645c/test/7488154d.py,16,16,F,F,19,32,F,F,,,,,0.0,0,F,F,F,Password
+137268,7afbbe95,GitHub,1fd3645c,data/1fd3645c/test/7afbbe95.py,12,12,F,F,19,32,F,F,,,,,0.0,0,F,F,F,Password
+137269,d3cc277f,GitHub,1fd3645c,data/1fd3645c/test/d3cc277f.py,20,20,F,F,19,32,F,F,,,,,0.0,0,F,F,F,Password
 57315,650a6959,GitHub,1fd3645c,data/1fd3645c/src/650a6959.py,603,603,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 57322,8661d86a,GitHub,1fd3645c,data/1fd3645c/src/8661d86a.py,132,132,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 75136,8661d86a,GitHub,1fd3645c,data/1fd3645c/src/8661d86a.py,204,204,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret

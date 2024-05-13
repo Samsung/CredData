@@ -53,8 +53,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 27783,f6f5ef7e,GitHub,c9b945fa,data/c9b945fa/src/f6f5ef7e.py,97,97,T,F,16,32,F,F,Any,,,Token,3.11,16,F,F,F,Generic Token
 28144,cb378009,GitHub,c9b945fa,data/c9b945fa/test/cb378009.py,106,106,Template,T,23,32,F,F,CharsOnly,,,Token,2.73,9,F,F,F,Generic Token
 28927,0cb23f01,GitHub,c9b945fa,data/c9b945fa/test/0cb23f01.py,245,245,Template,T,23,34,F,F,Any,,,Token,2.71,11,F,F,F,Generic Token
-28931,64e62af6,GitHub,c9b945fa,data/c9b945fa/src/64e62af6.rst,56,56,T,T,13,115,F,F,Any,,,Token,5.28,102,F,F,F,Authentication Credentials
-28934,64e62af6,GitHub,c9b945fa,data/c9b945fa/src/64e62af6.rst,119,119,T,T,13,121,F,F,Any,,,Token,5.26,108,F,F,F,Authentication Credentials
+28931,64e62af6,GitHub,c9b945fa,data/c9b945fa/src/64e62af6.rst,56,56,T,T,13,55,F,F,Any,,,Token,5.28,102,F,F,F,Generic Token
+28934,64e62af6,GitHub,c9b945fa,data/c9b945fa/src/64e62af6.rst,119,119,T,T,13,61,F,F,Any,,,Token,5.26,108,F,F,F,Authentication Credentials
 29464,0cb23f01,GitHub,c9b945fa,data/c9b945fa/test/0cb23f01.py,162,162,Template,F,40,43,T,F,CharsOnly,,,Token,0.92,3,F,F,F,Generic Token
 29497,eee38f11,GitHub,c9b945fa,data/c9b945fa/test/eee38f11.py,52,52,Template,T,22,38,F,F,CharsOnly,,,Secret,3.12,16,F,F,F,Password
 29564,eee38f11,GitHub,c9b945fa,data/c9b945fa/test/eee38f11.py,440,440,Template,T,21,31,F,F,Any,,,Token,2.31,10,F,F,F,Generic Token
@@ -144,13 +144,13 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 82642,cb378009,GitHub,c9b945fa,data/c9b945fa/test/cb378009.py,65,65,T,T,15,31,F,F,CharsOnly,,,Secret,3.12,16,F,F,F,Password
 82643,cb378009,GitHub,c9b945fa,data/c9b945fa/test/cb378009.py,117,117,T,T,15,31,F,F,CharsOnly,,,Secret,3.12,16,F,F,F,Password
 82644,cb378009,GitHub,c9b945fa,data/c9b945fa/test/cb378009.py,147,147,T,T,15,31,F,F,CharsOnly,,,Secret,3.12,16,F,F,F,Password
-82645,eee38f11,GitHub,c9b945fa,data/c9b945fa/test/eee38f11.py,223,223,Template,T,32,41,F,F,Any,,,Token,2.95,9,F,F,F,Generic Token
+82645,eee38f11,GitHub,c9b945fa,data/c9b945fa/test/eee38f11.py,223,223,F,T,32,41,F,F,Any,,,Token,2.95,9,F,F,F,Generic Token
 82646,eee38f11,GitHub,c9b945fa,data/c9b945fa/test/eee38f11.py,241,241,Template,T,45,54,F,F,Any,,,Token,2.95,9,F,F,F,Generic Token
 82647,eee38f11,GitHub,c9b945fa,data/c9b945fa/test/eee38f11.py,297,297,Template,T,20,36,F,F,CharsOnly,,,Secret,3.12,16,F,F,F,Password
 82648,eee38f11,GitHub,c9b945fa,data/c9b945fa/test/eee38f11.py,405,405,Template,T,45,54,F,F,Any,,,Token,2.95,9,F,F,F,Generic Token
 82649,eee38f11,GitHub,c9b945fa,data/c9b945fa/test/eee38f11.py,410,410,Template,T,37,46,F,F,Any,,,Secret,2.95,9,F,F,F,Password
 82650,eee38f11,GitHub,c9b945fa,data/c9b945fa/test/eee38f11.py,492,492,Template,T,45,54,F,F,Any,,,Token,2.95,9,F,F,F,Generic Token
-82651,eee38f11,GitHub,c9b945fa,data/c9b945fa/test/eee38f11.py,495,495,Template,T,32,41,F,F,Any,,,Token,2.95,9,F,F,F,Generic Token
+82651,eee38f11,GitHub,c9b945fa,data/c9b945fa/test/eee38f11.py,495,495,F,T,32,41,F,F,Any,,,Token,2.95,9,F,F,F,Generic Token
 108004,64e62af6,GitHub,c9b945fa,data/c9b945fa/src/64e62af6.rst,50,50,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 108005,64e62af6,GitHub,c9b945fa,data/c9b945fa/src/64e62af6.rst,99,99,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 108006,64e62af6,GitHub,c9b945fa,data/c9b945fa/src/64e62af6.rst,101,101,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
@@ -209,3 +209,13 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 134586,0cb23f01,GitHub,c9b945fa,data/c9b945fa/test/0cb23f01.py,228,228,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
 135003,f6f5ef7e,GitHub,c9b945fa,data/c9b945fa/src/f6f5ef7e.py,305,305,T,F,96,109,F,F,Any,,,Token,3.58,15,F,F,F,Generic Token
 135004,f6f5ef7e,GitHub,c9b945fa,data/c9b945fa/src/f6f5ef7e.py,335,335,T,F,96,109,F,F,Any,,,Token,3.58,15,F,F,F,Generic Token
+138072,64e62af6,GitHub,c9b945fa,data/c9b945fa/src/64e62af6.rst,56,56,T,F,75,115,F,F,,,,,0.0,0,F,F,F,Generic Token
+138075,64e62af6,GitHub,c9b945fa,data/c9b945fa/src/64e62af6.rst,119,119,T,F,81,121,F,F,,,,,0.0,0,F,F,F,Generic Token
+138082,0cb23f01,GitHub,c9b945fa,data/c9b945fa/test/0cb23f01.py,110,110,F,F,106,115,F,F,,,,,0.0,0,F,F,F,Authentication Credentials
+138083,0cb23f01,GitHub,c9b945fa,data/c9b945fa/test/0cb23f01.py,123,123,F,F,25,33,F,F,,,,,0.0,0,F,F,F,Authentication Credentials
+138090,0cb23f01,GitHub,c9b945fa,data/c9b945fa/test/0cb23f01.py,139,139,F,F,106,115,F,F,,,,,0.0,0,F,F,F,Authentication Credentials
+138097,0cb23f01,GitHub,c9b945fa,data/c9b945fa/test/0cb23f01.py,149,149,F,F,106,115,F,F,,,,,0.0,0,F,F,F,Authentication Credentials
+138098,0cb23f01,GitHub,c9b945fa,data/c9b945fa/test/0cb23f01.py,286,286,F,F,25,33,F,F,,,,,0.0,0,F,F,F,Authentication Credentials
+138099,0cb23f01,GitHub,c9b945fa,data/c9b945fa/test/0cb23f01.py,314,314,F,F,25,33,F,F,,,,,0.0,0,F,F,F,Authentication Credentials
+138100,eee38f11,GitHub,c9b945fa,data/c9b945fa/test/eee38f11.py,223,223,T,F,54,63,F,F,,,,,0.0,0,F,F,F,Password
+138101,eee38f11,GitHub,c9b945fa,data/c9b945fa/test/eee38f11.py,495,495,T,F,54,63,F,F,,,,,0.0,0,F,F,F,Password
