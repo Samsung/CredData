@@ -163,7 +163,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 29584,2ffd440d,GitHub,a09d9e50,data/a09d9e50/test/2ffd440d.js,850,850,Template,T,30,38,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
 29696,c419ffed,GitHub,a09d9e50,data/a09d9e50/test/c419ffed.js,488,488,Template,F,25,28,T,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
 29869,2ffd440d,GitHub,a09d9e50,data/a09d9e50/test/2ffd440d.js,536,536,Template,F,11,14,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-30049,f5b179ce,GitHub,a09d9e50,data/a09d9e50/src/f5b179ce.asciidoc,132,132,Template,F,20,23,T,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
+30049,f5b179ce,GitHub,a09d9e50,data/a09d9e50/src/f5b179ce.asciidoc,132,132,F,F,,,T,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
 30476,c419ffed,GitHub,a09d9e50,data/a09d9e50/test/c419ffed.js,489,489,Template,F,36,39,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
 30608,0391cf43,GitHub,a09d9e50,data/a09d9e50/test/0391cf43.js,308,308,Template,F,9,15,F,F,CharsOnly,,,Key,2.25,6,F,F,F,Generic Secret
 30614,7190d8d8,GitHub,a09d9e50,data/a09d9e50/test/7190d8d8.ts,374,374,Template,F,10,13,F,F,CharsOnly,,,Key,0.92,3,F,F,F,Generic Secret
@@ -178,10 +178,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 34366,7190d8d8,GitHub,a09d9e50,data/a09d9e50/test/7190d8d8.ts,355,355,Template,T,11,19,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
 34381,cc7afccf,GitHub,a09d9e50,data/a09d9e50/test/cc7afccf.asciidoc,12,12,Template,T,11,15,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
 34588,2ffd440d,GitHub,a09d9e50,data/a09d9e50/test/2ffd440d.js,1105,1105,T,T,11,16,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
-34797,c419ffed,GitHub,a09d9e50,data/a09d9e50/test/c419ffed.js,588,588,Template,T,26,34,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+34797,c419ffed,GitHub,a09d9e50,data/a09d9e50/test/c419ffed.js,588,588,F,T,,,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
 35289,cef07059,GitHub,a09d9e50,data/a09d9e50/test/cef07059.key,1,27,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
 35324,b79d75fa,GitHub,a09d9e50,data/a09d9e50/src/b79d75fa.key,1,27,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
-35944,27c04b11,GitHub,a09d9e50,data/a09d9e50/src/27c04b11.asciidoc,126,126,Template,T,24,32,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+35944,27c04b11,GitHub,a09d9e50,data/a09d9e50/src/27c04b11.asciidoc,126,126,F,T,,,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
 36734,d94baedb,GitHub,a09d9e50,data/a09d9e50/test/d94baedb.ts,65,65,Template,T,41,49,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
 36735,d94baedb,GitHub,a09d9e50,data/a09d9e50/test/d94baedb.ts,104,104,Template,T,41,49,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
 36745,2ffd440d,GitHub,a09d9e50,data/a09d9e50/test/2ffd440d.js,470,470,T,F,9,21,F,F,Any,,,Key,3.25,12,F,F,F,Generic Secret
@@ -189,8 +189,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 36747,2ffd440d,GitHub,a09d9e50,data/a09d9e50/test/2ffd440d.js,534,534,T,F,9,21,F,F,Any,,,Key,3.25,12,F,F,F,Generic Secret
 36748,2ffd440d,GitHub,a09d9e50,data/a09d9e50/test/2ffd440d.js,953,953,T,F,9,21,F,F,Any,,,Key,3.25,12,F,F,F,Generic Secret
 37109,454027e6,GitHub,a09d9e50,data/a09d9e50/test/454027e6.js,141,141,T,T,21,26,T,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
-37236,c419ffed,GitHub,a09d9e50,data/a09d9e50/test/c419ffed.js,697,697,Template,T,26,34,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-37237,c419ffed,GitHub,a09d9e50,data/a09d9e50/test/c419ffed.js,726,726,Template,T,26,34,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+37236,c419ffed,GitHub,a09d9e50,data/a09d9e50/test/c419ffed.js,697,697,F,T,,,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+37237,c419ffed,GitHub,a09d9e50,data/a09d9e50/test/c419ffed.js,726,726,F,T,,,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
 41530,27c04b11,GitHub,a09d9e50,data/a09d9e50/src/27c04b11.asciidoc,51,51,Template,T,11,19,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
 41531,27c04b11,GitHub,a09d9e50,data/a09d9e50/src/27c04b11.asciidoc,77,77,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 41781,f5b179ce,GitHub,a09d9e50,data/a09d9e50/src/f5b179ce.asciidoc,242,242,Template,T,11,19,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
@@ -321,6 +321,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 132679,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1659,1659,T,F,2548,2568,F,F,,,Info,,0.00,,F,F,F,IPv6
 132730,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1730,1730,T,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
 132731,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,2838,2838,T,F,538,598,F,F,,,,,0.00,,F,F,F,Password
+137110,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,2838,2838,T,F,1527,1547,F,F,,,,,0.0,0,F,F,F,Info
 132732,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,3530,3530,T,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
 132733,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,3880,3880,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 132734,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,4039,4039,T,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
@@ -432,3 +433,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 135838,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1659,1659,T,F,2488,2508,F,F,,,,,0,0,F,F,F,IPv6
 135842,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,4237,4237,T,F,1102,1114,F,F,,,,,0,0,F,F,F,IPv4
 135843,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,4574,4574,T,F,662,669,F,F,,,,,0,0,F,F,F,IPv4
+137360,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1341,1341,F,F,1365,,F,F,,,,,0.0,0,F,F,F,Authentication Credentials
+138191,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1341,1341,F,F,2416,,F,F,,,,,0.0,0,F,F,F,Authentication Credentials
+137361,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1659,1659,F,F,2493,2514,F,F,,,,,0.0,0,F,F,F,Authentication Credentials

@@ -1,9 +1,10 @@
 from benchmark.common import ScannerType
 from benchmark.scanner import Scanner
 
+
 class ScannerFactory:
     @classmethod
-    def create_scanner(cls, scanner_type: str, working_dir: str, cred_data_dir: str) -> Scanner:
+    def create_scanner(cls, scanner_type: ScannerType, working_dir: str, cred_data_dir: str) -> Scanner:
         if scanner_type == ScannerType.CREDSWEEPER:
             from benchmark.scanner import CredSweeper
             return CredSweeper(working_dir, cred_data_dir)

@@ -53,4 +53,4 @@ class Wraith(Scanner):
             if line_data["FilePath"].split("/")[-1] == "LICENSE":
                 continue
 
-            _, _, _ = self.check_line_from_meta(line_data["FilePath"], int(line_data["LineNumber"]))
+            _, _, _ = self.check_line_from_meta(line_data["FilePath"], int(line_data["LineNumber"]), int(line_data["LineNumber"]))

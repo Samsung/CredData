@@ -918,7 +918,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 61520,ec2934b5,GitHub,387016a6,data/387016a6/test/ec2934b5.java,102,102,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 61521,ec2934b5,GitHub,387016a6,data/387016a6/test/ec2934b5.java,113,113,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 61786,230b7df4,GitHub,387016a6,data/387016a6/test/230b7df4.txt,49,49,F,F,,,F,F,,,,,0,0,F,F,F,Password
-61904,9ca7dd81,GitHub,387016a6,data/387016a6/src/9ca7dd81.bat,63,63,Template,T,25,57,F,F,Any,,,Secret,3.54,32,F,F,F,Password
+61904,9ca7dd81,GitHub,387016a6,data/387016a6/src/9ca7dd81.bat,63,63,F,T,25,,F,F,Any,,,Secret,3.54,32,F,F,F,Password
 61996,b8da60f9,GitHub,387016a6,data/387016a6/test/b8da60f9.java,587,587,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 61997,b8da60f9,GitHub,387016a6,data/387016a6/test/b8da60f9.java,621,621,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
 61998,b8da60f9,GitHub,387016a6,data/387016a6/test/b8da60f9.java,581,581,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
@@ -1034,8 +1034,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 113744,9322604b,GitHub,387016a6,data/387016a6/src/9322604b.asciidoc,159,159,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
 113745,26b93822,GitHub,387016a6,data/387016a6/src/26b93822.java,55,55,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
 113746,26b93822,GitHub,387016a6,data/387016a6/src/26b93822.java,56,56,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
-113747,27d88c46,GitHub,387016a6,data/387016a6/other/27d88c46.md,24,24,T,F,36,46,F,F,,,,,0.00,,F,F,F,Info
-113748,27d88c46,GitHub,387016a6,data/387016a6/other/27d88c46.md,29,29,T,F,12,22,F,F,,,,,0.00,,F,F,F,Info
+136847,27d88c46,GitHub,387016a6,data/387016a6/other/27d88c46.md,24,24,T,F,36,81,F,F,,,,,0.0,0,F,F,F,Other
+136848,27d88c46,GitHub,387016a6,data/387016a6/other/27d88c46.md,29,29,T,F,12,57,F,F,,,,,0.0,0,F,F,F,Other
 113749,381e402d,GitHub,387016a6,data/387016a6/test/381e402d.properties,126,126,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
 113750,381e402d,GitHub,387016a6,data/387016a6/test/381e402d.properties,127,127,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
 113751,4efc52cf,GitHub,387016a6,data/387016a6/test/4efc52cf.yml,34,34,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
@@ -1095,3 +1095,5 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 133293,ce086542,GitHub,387016a6,data/387016a6/test/ce086542.yml,76,76,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
 135298,020efc06,GitHub,387016a6,data/387016a6/src/020efc06.asciidoc,156,156,T,F,31,135,F,F,,,,,0,0,F,F,F,Authentication Credentials
 135299,8930c0cb,GitHub,387016a6,data/387016a6/src/8930c0cb.asciidoc,156,156,T,F,31,91,F,F,,,,,0,0,F,F,F,Authentication Credentials
+137916,7f086ade,GitHub,387016a6,data/387016a6/src/7f086ade.gradle,114,114,F,F,10,29,F,F,,,,,0.0,0,F,F,F,Password
+137918,c836fc91,GitHub,387016a6,data/387016a6/src/c836fc91.gradle,8,8,F,F,10,29,F,F,,,,,0.0,0,F,F,F,Password
