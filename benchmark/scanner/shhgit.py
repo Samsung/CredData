@@ -41,7 +41,7 @@ class Shhgit(Scanner):
                     continue
                 for match in row["Matches"].split(", "):
                     line_num = self._get_line_num(file_path, match)
-                    _, _, _ = self.check_line_from_meta(file_path, line_num)
+                    _, _, _ = self.check_line_from_meta(file_path, line_num, line_num)
 
     def _get_line_num(self, file_path: str, match: str) -> int:
         with open(f"{self.cred_data_dir}/data/{file_path}", "r") as f:
