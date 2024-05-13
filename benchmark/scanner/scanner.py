@@ -295,7 +295,8 @@ class Scanner(ABC):
                         # only start value in markup
                         if 0 <= value_start and meta_value_start != value_start:
                             continue
-                    elif 0 <= meta_value_start < meta_value_end:
+                    elif 0 <= meta_value_start and 0 <= meta_value_end:
+                        # ! meta value_end may be less than start in multiline markup
                         suggestion = f"UNMATCH {meta_value_start, meta_value_end}:"
                         # both markers are available
                         if 0 <= value_start and meta_value_start != value_start:
@@ -310,6 +311,7 @@ class Scanner(ABC):
                                     or value_end - delta <= meta_value_end <= value_end + delta:
                                 suggestion = f"NEARBY {meta_value_start, meta_value_end}"
                             continue
+                        # precisely matching
                     else:
                         print(f"WARNING: check meta value start-end {row}")
                         continue
