@@ -91,14 +91,20 @@ def read_data(path, line_start, line_end, value_start, value_end, ground_truth, 
             repo_id = path.split('/')[1]
             subprocess.run(
                 ["sed", "-i",
-                 f"/.*{path.split('/')[-1]},{line_start}:{line_end},.*/d",
+                 f"/.*{path.split('/')[-1]},{line_start},{line_end},.*/d",
                  f"meta/{repo_id}.csv"])
 
     print("\n\n")
 
 
-def main(meta_dir, data_dir, data_filter, load_json: Optional[str] = None, category: Optional[str] = None) -> int:
-    error_code = EXIT_FAILURE
+def main(meta_dir: str,
+         data_dir: str,
+         check_only: bool,
+         data_filter: dict,
+         load_json: Optional[str] = None,
+         category: Optional[str] = None) -> int:
+    errors = 0
+    duplicates = 0
     if not os.path.exists(meta_dir):
         raise FileExistsError(f"{meta_dir} directory does not exist.")
     if not os.path.exists(data_dir):
@@ -111,7 +117,7 @@ def main(meta_dir, data_dir, data_filter, load_json: Optional[str] = None, categ
     meta = read_meta(meta_dir)
     meta.sort(key=lambda x: (x.FilePath, x.LineStart, x.LineEnd, x.ValueStart, x.ValueEnd))
     displayed_rows = 0
-    shown_rows = set()
+    shown_markup = {}
     for row in meta:
         if not data_filter[row.GroundTruth]:
             continue
@@ -119,28 +125,28 @@ def main(meta_dir, data_dir, data_filter, load_json: Optional[str] = None, categ
             continue
 
         displayed_rows += 1
-        print(str(row), flush=True)
-        try:
-            read_data(row.FilePath,
-                      row.LineStart,
-                      row.LineEnd,
-                      row.ValueStart,
-                      row.ValueEnd,
-                      row.GroundTruth,
-                      creds)
-        except Exception as exc:
-            print(f"Failure {row}", exc, flush=True)
-            raise
-        row_str = f"{row.FilePath},{row.LineStart}:{row.LineEnd},{row.ValueStart},{row.ValueEnd}"
-        if row_str in shown_rows:
-            print(f"Duplicate row {row}", flush=True)
-            break
+        if not check_only:
+            print(str(row), flush=True)
+            try:
+                read_data(row.FilePath,
+                          row.LineStart,
+                          row.LineEnd,
+                          row.ValueStart,
+                          row.ValueEnd,
+                          row.GroundTruth,
+                          creds)
+            except Exception as exc:
+                print(f"Failure {row}", exc, flush=True)
+                errors += 1
+        markup_key = (row.FilePath, row.LineStart, row.LineEnd, row.ValueStart, row.ValueEnd)
+        if markup_key in shown_markup:
+            print(f"Duplicate markup!\nSHOWN:{shown_markup[markup_key]}\nTHIS:{row}", flush=True)
+            duplicates += 1
         else:
-            shown_rows.add(row_str)
-    else:
-        error_code = EXIT_SUCCESS
-    print(f"Shown {displayed_rows} of {len(meta)}", flush=True)
-    return error_code
+            shown_markup[markup_key] = row
+    result = EXIT_SUCCESS if 0 == duplicates == errors else EXIT_FAILURE
+    print(f"Shown {displayed_rows} of {len(meta)}, errors: {errors}, duplicates: {duplicates}, {result}", flush=True)
+    return result
 
 
 if __name__ == "__main__":
@@ -149,6 +155,7 @@ if __name__ == "__main__":
 
     parser.add_argument("meta_dir", help="Markup location", nargs='?', default="meta")
     parser.add_argument("data_dir", help="Dataset location", nargs='?', default="data")
+    parser.add_argument("--check_only", help="Check meta markup only", action='store_true')
     parser.add_argument("-T", help="Show TRUE markup", action="store_true")
     parser.add_argument("-F", help="Show FALSE markup", action="store_true")
     parser.add_argument("-t", help="Show Template markup", action="store_true")
@@ -168,7 +175,7 @@ if __name__ == "__main__":
         _data_filter["F"] = _args.F
         _data_filter["Template"] = _args.t
         _data_filter["X"] = _args.X
-    exit_code = main(_args.meta_dir, _args.data_dir, _data_filter, _args.load, _args.category)
+    exit_code = main(_args.meta_dir, _args.data_dir, bool(_args.check_only), _data_filter, _args.load, _args.category)
     sys.exit(exit_code)
 
 # use review with 'less'
