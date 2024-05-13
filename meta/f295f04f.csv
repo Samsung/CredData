@@ -32,7 +32,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 29338,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,349,349,Template,T,27,42,F,F,Any,,,Secret,2.93,15,F,F,F,Secret
 29341,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,127,127,T,F,14,55,F,F,Any,,,SeedSalt,4.74,41,F,F,F,Auth:Nonce
 29377,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,148,148,Template,T,7,14,F,F,CharsOnly,,,Unknown,2.52,7,F,F,F,Password
-29485,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,262,262,T,F,15,55,F,F,Any,,,Token,4.90,40,F,F,F,Token
+29485,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,262,262,T,F,15,55,F,F,Any,,,Token,4.90,40,F,F,F,Token:Secret
 29719,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,58,58,Template,T,12,19,F,F,CharsOnly,,,Unknown,2.52,7,F,F,F,Password
 29733,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,40,40,T,T,21,41,F,F,Any,,,Auth,4.12,20,F,F,F,Auth:Gitlab Feed Token:Key
 29943,b4951d4e,GitHub,f295f04f,data/f295f04f/test/b4951d4e.js,29,29,Template,T,9,18,F,F,Any,,,Secret,2.60,9,F,F,F,Password
@@ -143,7 +143,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 50297,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,469,469,T,F,18,46,F,F,Any,,,Auth,4.66,28,F,F,F,Auth
 50382,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,678,678,Template,T,0,12,F,F,Any,,,Secret,2.72,12,F,F,F,Password
 50401,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,216,216,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-52048,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,283,283,T,F,15,55,F,F,Any,,,Token,4.90,40,F,F,F,Token
+52048,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,283,283,T,F,15,55,F,F,Any,,,Token,4.90,40,F,F,F,Token:Secret
 57135,47746fff,GitHub,f295f04f,data/f295f04f/test/47746fff.js,427,427,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 63531,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,192,192,T,T,15,35,F,F,Any,,,Unknown,4.12,20,F,F,F,Gitlab Feed Token:Key
 74083,b4951d4e,GitHub,f295f04f,data/f295f04f/test/b4951d4e.js,45,45,F,F,,,F,F,,,,,0,0,F,F,F,Secret

@@ -301,7 +301,7 @@ class Scanner(ABC):
                         if 0 <= value_start and meta_value_start != value_start:
                             continue
                         else:
-                            suggestion = f"ALMOST {meta_value_start, meta_value_end}:"
+                            suggestion = f"ALMOST {meta_value_start, meta_value_end} {row['Category']}:"
                         # or ...
                         if 0 <= value_end and meta_value_end != value_end:
                             # todo: add check for padding chars eyJ...x== - value_end may be different for some creds
@@ -334,13 +334,15 @@ class Scanner(ABC):
                         for meta_rule in row["Category"].split(':'):
                             if meta_rule == rule:
                                 self._increase_result_dict_cnt(meta_rule, True)
-                        return LineStatus.TRUE, project_id, file_id
+                                return LineStatus.TRUE, project_id, file_id
+
                     elif row["GroundTruth"] == "F" or row["GroundTruth"] == "Template":
                         self.false_cnt += 1
                         for meta_rule in row["Category"].split(':'):
                             if meta_rule == rule:
                                 self._increase_result_dict_cnt(meta_rule, False)
-                        return LineStatus.FALSE, project_id, file_id
+                                return LineStatus.FALSE, project_id, file_id
+
         self.lost_cnt += 1
         print(f"{suggestion} {approximate}", flush=True)
         self.next_id += 1
@@ -354,6 +356,7 @@ class Scanner(ABC):
         header = ["Category", "TP", "FP", "TN", "FN", "FPR", "FNR", "ACC", "PRC", "RCL", "F1"]
         rows: List[List[Any]] = []
 
+        tp=fp=tn=fn=0
         for category, value in self.result_dict.items():
             if category == "":
                 continue
@@ -374,7 +377,27 @@ class Scanner(ABC):
                 Result.round_micro(result.recall),
                 Result.round_micro(result.f1),
             ])
+            tp+=result.true_positive
+            fp +=result.false_positive
+            tn += result.true_negative
+            fn+=result.false_negative
         rows.sort(key=lambda x: x[0])
+
+
+        new_result = Result(self.true_cnt, self.false_cnt, self.total_true_cnt, self.total_false_cnt)
+        rows.append([
+            "total_new",
+            new_result.true_positive,
+            new_result.false_positive,
+            new_result.true_negative,
+            new_result.false_negative,
+            Result.round_micro(new_result.false_positive_rate),
+            Result.round_micro(new_result.false_negative_rate),
+            Result.round_micro(new_result.accuracy),
+            Result.round_micro(new_result.precision),
+            Result.round_micro(new_result.recall),
+            Result.round_micro(new_result.f1),
+        ])
 
         total_result = Result(self.true_cnt, self.false_cnt, self.total_true_cnt,
                               self.total_data_valid_lines - self.total_true_cnt)
@@ -404,7 +427,7 @@ class Scanner(ABC):
         total_line_cnt = 0
         for rows in self.meta.values():
             for row in rows:
-                if row["Category"] == category:
+                if category in row["Category"]:
                     total_line_cnt += 1
         return total_line_cnt
 
@@ -412,7 +435,7 @@ class Scanner(ABC):
         total_true_cnt = 0
         for rows in self.meta.values():
             for row in rows:
-                if row["Category"] == category and row["GroundTruth"] == "T":
+                if category in row["Category"] and row["GroundTruth"] == "T":
                     total_true_cnt += 1
         return total_true_cnt
 

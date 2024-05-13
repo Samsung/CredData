@@ -3,9 +3,9 @@ from typing import Optional
 
 
 class Result:
-    def __init__(self, true_count: int, false_count: int, total_true_count: int, total_false_count: int) -> None:
-        self.true_positive: Optional[int] = true_count
-        self.false_positive: Optional[int] = false_count
+    def __init__(self, true_positives: int, false_positives: int, total_true_count: int, total_false_count: int) -> None:
+        self.true_positive: Optional[int] = true_positives
+        self.false_positive: Optional[int] = false_positives
         self.true_negative: Optional[int] = self._minus(total_false_count, self.false_positive)
         self.false_negative: Optional[int] = self._minus(total_true_count, self.true_positive)
         self.false_positive_rate: Optional[float] = self._divide(self.false_positive, total_false_count)
@@ -46,7 +46,7 @@ class Result:
 
     @true_negative.setter
     def true_negative(self, true_negative) -> None:
-        # assert true_negative is None or 0 <= true_negative
+        assert true_negative is None or 0 <= true_negative
         self._true_negative = true_negative
 
     @property
@@ -55,7 +55,7 @@ class Result:
 
     @false_negative.setter
     def false_negative(self, false_negative) -> None:
-        # assert false_negative is None or 0 <= false_negative
+        assert false_negative is None or 0 <= false_negative
         self._false_negative = false_negative
 
     @property
@@ -73,7 +73,7 @@ class Result:
 
     @false_negative_rate.setter
     def false_negative_rate(self, false_negative_rate) -> None:
-        # assert false_negative_rate is None or 0 <= false_negative_rate
+        assert false_negative_rate is None or 0 <= false_negative_rate
         self._false_negative_rate = false_negative_rate
 
     @property
@@ -82,7 +82,7 @@ class Result:
 
     @accuracy.setter
     def accuracy(self, accuracy) -> None:
-        # assert accuracy is None or 0 <= accuracy
+        assert accuracy is None or 0 <= accuracy
         self._accuracy = accuracy
 
     @property
@@ -133,7 +133,7 @@ class Result:
         return a * b
 
     @staticmethod
-    def round_micro(a: Optional[float]) -> Optional[float]:
+    def round_micro(a: Optional[float]) -> Optional[Decimal]:
         """ rounds optional float to 10^-6 for report table or return None """
         if a is None:
             return None
@@ -148,3 +148,8 @@ class Result:
                f"PRC : {self.round_micro(self.precision)}, " \
                f"RCL : {self.round_micro(self.recall)}, " \
                f"F1 : {self.round_micro(self.f1)}"
+
+
+if __name__ == "__main__":
+    r = Result(90,10,100,10)
+    print (r)

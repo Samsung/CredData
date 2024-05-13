@@ -132,7 +132,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 31424,374a400a,GitHub,255bae6f,data/255bae6f/other/374a400a.md,66,66,T,T,23,46,F,F,Any,,,Secret,3.33,23,F,F,F,Password
 31434,374a400a,GitHub,255bae6f,data/255bae6f/other/374a400a.md,65,65,T,T,18,33,F,F,Any,,,Secret,3.32,15,F,F,F,Dropbox App secret:Password
 31435,a3046da0,GitHub,255bae6f,data/255bae6f/test/a3046da0.example,169,169,Template,T,16,35,F,F,Any,,,Unknown,2.91,19,F,F,F,Key
-31438,88be4086,GitHub,255bae6f,data/255bae6f/test/88be4086.test,1,1,T,T,17,39,F,F,CharsOnly,,,Token,3.30,22,F,F,F,Token
+31438,88be4086,GitHub,255bae6f,data/255bae6f/test/88be4086.test,1,1,T,T,17,39,F,F,CharsOnly,,,Token,3.30,22,F,F,F,Token:Secret
 31440,4e203951,GitHub,255bae6f,data/255bae6f/other/4e203951.md,60,60,T,T,18,33,F,F,Any,,,Secret,3.32,15,F,F,F,Dropbox App secret:Password
 31499,fb66a9a2,GitHub,255bae6f,data/255bae6f/other/fb66a9a2.md,95,95,T,T,18,39,F,F,CharsOnly,,,Secret,3.14,21,F,F,F,Key:Secret
 31520,374a400a,GitHub,255bae6f,data/255bae6f/other/374a400a.md,80,80,T,T,21,37,F,F,Any,,,Secret,3.45,16,F,F,F,Password
@@ -255,7 +255,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 80850,d575cd94,GitHub,255bae6f,data/255bae6f/src/d575cd94.rb,539,539,Template,T,37,53,F,F,CharsOnly,,,Unknown,2.66,16,F,F,F,Secret
 80851,d575cd94,GitHub,255bae6f,data/255bae6f/src/d575cd94.rb,567,567,Template,T,37,53,F,F,CharsOnly,,,Unknown,2.66,16,F,F,F,Secret
 80852,d575cd94,GitHub,255bae6f,data/255bae6f/src/d575cd94.rb,596,596,Template,T,37,53,F,F,CharsOnly,,,Unknown,2.66,16,F,F,F,Secret
-80853,88be4086,GitHub,255bae6f,data/255bae6f/test/88be4086.test,5,5,T,F,20,37,F,F,,,,,0,0,F,F,F,Auth
+80853,88be4086,GitHub,255bae6f,data/255bae6f/test/88be4086.test,5,5,T,F,20,37,F,F,,,,,0,0,F,F,F,Auth:Secret
 83210,374a400a,GitHub,255bae6f,data/255bae6f/other/374a400a.md,97,97,T,T,28,44,F,F,Any,,,Secret,3.45,16,F,F,F,Password
 108087,3765405c,GitHub,255bae6f,data/255bae6f/src/3765405c.rb,38,38,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 108088,3765405c,GitHub,255bae6f,data/255bae6f/src/3765405c.rb,63,63,F,F,,,F,F,,,,,0.00,,F,F,F,Secret

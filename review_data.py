@@ -121,7 +121,7 @@ def main(meta_dir: str,
     for row in meta:
         if not data_filter[row.GroundTruth]:
             continue
-        if category and not category == row.Category:
+        if category and category not in row.Category:
             continue
 
         displayed_rows += 1
