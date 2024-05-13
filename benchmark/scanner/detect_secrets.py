@@ -45,7 +45,7 @@ class DetectSecrets(Scanner):
                 if line_data["filename"].split("/")[-1] == "LICENSE":
                     continue
                 check_line_result, line_data["project_id"], line_data["per_repo_file_id"] = self.check_line_from_meta(
-                    line_data["filename"], line_data["line_number"])
+                    line_data["filename"], line_data["line_number"], line_data["line_number"])
                 if check_line_result == LineStatus.TRUE:
                     line_data["TP"] = "O"
                 elif check_line_result == LineStatus.FALSE:

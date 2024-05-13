@@ -44,4 +44,4 @@ class TruffleHog3(Scanner):
                 line_data = {"path": data["path"], "line_number": int(line.split(" ")[0])}
                 if line_data["path"].split("/")[-1] == "LICENSE":
                     continue
-                _, _, _ = self.check_line_from_meta(line_data["path"], line_data["line_number"])
+                _, _, _ = self.check_line_from_meta(line_data["path"], line_data["line_number"], line_data["line_number"])
