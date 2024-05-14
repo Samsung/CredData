@@ -34,7 +34,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 14520,c5437471,GitHub,ec138349,data/ec138349/src/c5437471.java,19,19,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 14525,93f9ed80,GitHub,ec138349,data/ec138349/src/93f9ed80.java,59,59,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 14529,7c0a564e,GitHub,ec138349,data/ec138349/test/7c0a564e.java,73,73,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-14545,d237e65b,GitHub,ec138349,data/ec138349/src/d237e65b.java,33,33,F,F,,,F,F,,,,,0,0,F,F,F,Info
+14545,d237e65b,GitHub,ec138349,data/ec138349/src/d237e65b.java,33,33,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
 14600,ff764887,GitHub,ec138349,data/ec138349/src/ff764887.java,84,84,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 15565,349036a3,GitHub,ec138349,data/ec138349/test/349036a3.java,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 15880,59ccfca2,GitHub,ec138349,data/ec138349/src/59ccfca2.java,163,163,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -66,7 +66,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 29816,2d2ec00a,GitHub,ec138349,data/ec138349/test/2d2ec00a.java,45,45,Template,T,53,71,F,F,Any,,,Secret,3.22,18,F,F,F,Secret
 30036,9b2822cf,GitHub,ec138349,data/ec138349/src/9b2822cf.java,38,38,Template,T,37,49,F,F,Any,,,Token,2.79,12,F,F,F,Token
 30493,69d2ad5d,GitHub,ec138349,data/ec138349/test/69d2ad5d.java,71,71,F,T,74,81,F,F,CharsOnly,,,Token,2.81,7,F,F,F,Auth:Token
-30502,2d2abc99,GitHub,ec138349,data/ec138349/test/2d2abc99.java,345,345,F,T,51,58,F,F,CharsOnly,,,SeedSalt,2.52,7,F,F,F,Cryptographic Primitives
+30502,2d2abc99,GitHub,ec138349,data/ec138349/test/2d2abc99.java,345,345,F,T,,,F,F,CharsOnly,,,SeedSalt,2.52,7,F,F,F,Nonce
 30505,2f9b15a9,GitHub,ec138349,data/ec138349/test/2f9b15a9.java,139,139,F,F,75,80,T,F,NumbersOnly,,,Token,2.32,5,F,F,F,Token
 30506,2f9b15a9,GitHub,ec138349,data/ec138349/test/2f9b15a9.java,127,127,F,F,61,70,T,F,Any,,,Token,2.29,9,F,F,T,Token
 30507,2f9b15a9,GitHub,ec138349,data/ec138349/test/2f9b15a9.java,149,149,F,F,61,69,T,F,Any,,,Token,2.38,8,F,F,F,Token
@@ -79,8 +79,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 32576,c7e94b6e,GitHub,ec138349,data/ec138349/test/c7e94b6e.java,166,166,F,F,44,85,F,F,,,,,0,0,F,F,F,Secret
 32577,5cba2249,GitHub,ec138349,data/ec138349/test/5cba2249.java,65,90,T,F,,,F,F,Any,Private,,Unknown,0.0,0,F,F,F,PEM Private Key
 32741,2f9b15a9,GitHub,ec138349,data/ec138349/test/2f9b15a9.java,161,161,F,F,61,77,T,F,Any,,,Token,3.12,16,F,F,T,Token
-32744,1c39b347,GitHub,ec138349,data/ec138349/test/1c39b347.java,64,64,F,F,14,42,F,F,Any,,,Unknown,4.59,28,F,F,F,Unknown:notfound
-33015,ac2c1669,GitHub,ec138349,data/ec138349/test/ac2c1669.java,33,33,T,F,18,59,F,F,Any,,,Unknown,4.72,41,F,F,F,Unknown:notfound
+32744,1c39b347,GitHub,ec138349,data/ec138349/test/1c39b347.java,64,64,F,F,14,42,F,F,Any,,,Unknown,4.59,28,F,F,F,Info
+33015,ac2c1669,GitHub,ec138349,data/ec138349/test/ac2c1669.java,33,33,T,F,18,59,F,F,Any,,,Unknown,4.72,41,F,F,F,Info
 33042,944501fe,GitHub,ec138349,data/ec138349/test/944501fe.java,73,73,T,T,14,1268,F,F,Any,,JSON Web Token,Token,5.73,1254,F,F,F,JSON Web Token:Azure Access Token
 33937,651b0dfe,GitHub,ec138349,data/ec138349/test/651b0dfe.java,73,73,F,F,22,65,F,F,,,,,0,0,F,F,F,Secret
 33974,651b0dfe,GitHub,ec138349,data/ec138349/test/651b0dfe.java,74,74,F,F,22,65,F,F,,,,,0,0,F,F,F,Secret
@@ -105,8 +105,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 35497,69148d74,GitHub,ec138349,data/ec138349/test/69148d74.md,43,43,T,F,22,58,F,F,Any,,,Token,3.40,36,F,F,F,Token
 35853,ecf1e034,GitHub,ec138349,data/ec138349/test/ecf1e034.jwt,1,1,T,T,0,1254,F,F,Any,,JSON Web Token,Token,5.73,1254,F,F,F,Azure Access Token:JSON Web Token
 36273,5cba2249,GitHub,ec138349,data/ec138349/test/5cba2249.java,94,98,F,F,52,60,F,F,,,,,0,0,F,F,F,Other
-36286,525afad4,GitHub,ec138349,data/ec138349/test/525afad4.java,218,218,T,F,1,44,F,F,Any,,,Unknown,4.66,43,F,F,F,Unknown:notfound
-36287,525afad4,GitHub,ec138349,data/ec138349/test/525afad4.java,230,230,T,F,1,44,F,F,Any,,,Unknown,4.66,43,F,F,F,Unknown:notfound
+36286,525afad4,GitHub,ec138349,data/ec138349/test/525afad4.java,218,218,T,F,1,44,F,F,Any,,,Unknown,4.66,43,F,F,F,Info
+36287,525afad4,GitHub,ec138349,data/ec138349/test/525afad4.java,230,230,T,F,1,44,F,F,Any,,,Unknown,4.66,43,F,F,F,Info
 36854,944501fe,GitHub,ec138349,data/ec138349/test/944501fe.java,97,97,T,T,14,1268,F,F,Any,,JSON Web Token,Token,5.73,1254,F,F,F,Azure Access Token:JSON Web Token
 37085,651b0dfe,GitHub,ec138349,data/ec138349/test/651b0dfe.java,114,114,F,F,22,364,F,F,,,,,0,0,F,F,F,Secret
 37656,5cba2249,GitHub,ec138349,data/ec138349/test/5cba2249.java,100,104,F,F,68,76,F,F,,,,,0,0,F,F,F,Other
@@ -154,12 +154,12 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 107545,7df3d414,GitHub,ec138349,data/ec138349/test/7df3d414.java,123,123,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 107546,8ebabaf2,GitHub,ec138349,data/ec138349/test/8ebabaf2.java,89,89,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 107547,fbd12b2e,GitHub,ec138349,data/ec138349/test/fbd12b2e.java,126,126,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-107548,24325dd6,GitHub,ec138349,data/ec138349/test/24325dd6.sql,60,60,F,F,,,F,F,,,,,0.00,,F,F,F,Info
+107548,24325dd6,GitHub,ec138349,data/ec138349/test/24325dd6.sql,60,60,F,F,,,F,F,,,,,0.00,,F,F,F,Gitlab Feed Token
 107551,8ca6f43a,GitHub,ec138349,data/ec138349/test/8ca6f43a.java,164,164,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 107552,8ca6f43a,GitHub,ec138349,data/ec138349/test/8ca6f43a.java,176,176,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 107553,d965f676,GitHub,ec138349,data/ec138349/test/d965f676.java,70,70,F,F,,,F,F,,,,,0.00,,F,F,F,Token
 107554,d965f676,GitHub,ec138349,data/ec138349/test/d965f676.java,81,81,F,F,,,F,F,,,,,0.00,,F,F,F,Token
-107561,2ad086c4,GitHub,ec138349,data/ec138349/test/2ad086c4.java,376,376,T,F,26,31,F,F,CharOnly,,,Secret,2.32,5,F,F,F,Unknown:notfound
+107561,2ad086c4,GitHub,ec138349,data/ec138349/test/2ad086c4.java,376,376,T,F,26,31,F,F,CharOnly,,,Secret,2.32,5,F,F,F,Info
 107562,18b43943,GitHub,ec138349,data/ec138349/test/18b43943.java,98,98,F,F,,,F,F,,,,,0.00,,F,F,F,Token
 107563,18b43943,GitHub,ec138349,data/ec138349/test/18b43943.java,115,115,F,F,,,F,F,,,,,0.00,,F,F,F,Token
 107564,2d2abc99,GitHub,ec138349,data/ec138349/test/2d2abc99.java,440,440,F,F,,,F,F,,,,,0.00,,F,F,F,Auth

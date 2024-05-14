@@ -18,11 +18,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 12442,528416ab,GitHub,81a41883,data/81a41883/test/528416ab.rb,23,23,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 12845,60c69c75,GitHub,81a41883,data/81a41883/src/60c69c75.js,406,406,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 14773,df96d0ce,GitHub,81a41883,data/81a41883/src/df96d0ce.rb,12,12,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-19258,3f372c1b,GitHub,81a41883,data/81a41883/test/3f372c1b.json,34,34,F,F,,,F,F,,,,,0,0,F,F,F,Info
+19258,3f372c1b,GitHub,81a41883,data/81a41883/test/3f372c1b.json,34,34,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
 23084,797bf776,GitHub,81a41883,data/81a41883/src/797bf776.rb,4,4,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 23098,7829468e,GitHub,81a41883,data/81a41883/src/7829468e.yml,99,99,F,F,,,F,F,,,,,0,0,F,F,F,Password
 23103,b7aff2c1,GitHub,81a41883,data/81a41883/src/b7aff2c1.rb,8,8,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
-23498,97d3ec05,GitHub,81a41883,data/81a41883/src/97d3ec05.rb,70,70,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+23498,97d3ec05,GitHub,81a41883,data/81a41883/src/97d3ec05.rb,70,70,F,F,,,F,F,,,,,0,0,F,F,F,API
 23871,96365e38,GitHub,81a41883,data/81a41883/test/96365e38.rb,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 23875,fe5f237c,GitHub,81a41883,data/81a41883/src/fe5f237c.rb,20,20,F,F,,,F,F,,,,,0,0,F,F,F,Token
 25114,b72b0a2e,GitHub,81a41883,data/81a41883/test/b72b0a2e.rb,3,3,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -32,11 +32,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 29471,3546d560,GitHub,81a41883,data/81a41883/test/3546d560.rb,89,89,Template,T,8,29,F,F,Any,,,Token,3.25,21,F,F,F,Token
 29973,6b6bfe80,GitHub,81a41883,data/81a41883/test/6b6bfe80.yml,6,6,Template,T,9,27,F,F,Any,,,Secret,3.06,18,F,F,F,Secret
 30055,96365e38,GitHub,81a41883,data/81a41883/test/96365e38.rb,81,81,Template,T,14,30,F,F,Any,,,Unknown,2.91,16,F,F,F,Key
-32289,fe5f237c,GitHub,81a41883,data/81a41883/src/fe5f237c.rb,37,37,F,F,17,29,F,F,,,,,0,0,F,F,F,Predefined Pattern
+32289,fe5f237c,GitHub,81a41883,data/81a41883/src/fe5f237c.rb,37,37,F,F,17,29,F,F,,,,,0,0,F,F,F,API
 32562,b4eeffb8,GitHub,81a41883,data/81a41883/test/b4eeffb8.yml,5,5,T,F,32,62,F,F,Any,,,Token,4.02,30,F,F,F,Token
 32563,b4eeffb8,GitHub,81a41883,data/81a41883/test/b4eeffb8.yml,36,36,T,F,35,53,F,F,Any,,,Token,3.83,18,F,F,F,Token
 32564,b4eeffb8,GitHub,81a41883,data/81a41883/test/b4eeffb8.yml,6,6,T,F,35,53,F,F,Any,,,Token,3.83,18,F,F,F,Token
-34914,9854d83a,GitHub,81a41883,data/81a41883/test/9854d83a.yml,7,7,T,F,7,12,F,F,Any,,,Token,2.32,5,F,F,F,Unknown:notfound
+34914,9854d83a,GitHub,81a41883,data/81a41883/test/9854d83a.yml,7,7,T,F,7,12,F,F,Any,,,Token,2.32,5,F,F,F,Info
 34922,f4ebb70f,GitHub,81a41883,data/81a41883/test/f4ebb70f.rb,9,9,Template,F,8,14,F,F,Any,,,Token,2.25,6,F,F,F,Token
 35111,9854d83a,GitHub,81a41883,data/81a41883/test/9854d83a.yml,2,2,T,F,17,53,F,F,Any,,,Secret,2.25,36,F,F,F,Key:Secret
 35225,4ca53116,GitHub,81a41883,data/81a41883/other/4ca53116.md,98,98,T,F,8,48,F,F,Any,,,Secret,3.73,40,F,F,F,Secret
@@ -48,7 +48,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 36724,b4eeffb8,GitHub,81a41883,data/81a41883/test/b4eeffb8.yml,12,12,T,F,32,62,F,F,Any,,,Token,4.02,30,F,F,F,Token
 36725,b4eeffb8,GitHub,81a41883,data/81a41883/test/b4eeffb8.yml,13,13,T,F,35,53,F,F,Any,,,Token,3.83,18,F,F,F,Token
 37351,9854d83a,GitHub,81a41883,data/81a41883/test/9854d83a.yml,4,4,T,F,17,53,F,F,Any,,,Secret,2.25,36,F,F,F,Key:Secret
-46792,30478019,GitHub,81a41883,data/81a41883/test/30478019.rb,207,207,T,F,32,72,F,F,Any,,,Unknown,3.55,40,F,F,F,Unknown:notfound
+46792,30478019,GitHub,81a41883,data/81a41883/test/30478019.rb,207,207,T,F,32,72,F,F,Any,,,Unknown,3.55,40,F,F,F,Info
 46804,6b47fced,GitHub,81a41883,data/81a41883/test/6b47fced.rb,154,154,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 46805,6b47fced,GitHub,81a41883,data/81a41883/test/6b47fced.rb,155,155,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 47156,ae2550b6,GitHub,81a41883,data/81a41883/test/ae2550b6.rb,18,18,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -77,9 +77,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 48105,a1b40181,GitHub,81a41883,data/81a41883/test/a1b40181.json,4,4,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 48106,c832cf12,GitHub,81a41883,data/81a41883/test/c832cf12.json,4,4,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 48124,3f372c1b,GitHub,81a41883,data/81a41883/test/3f372c1b.json,3,3,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-54630,3f372c1b,GitHub,81a41883,data/81a41883/test/3f372c1b.json,53,53,F,F,,,F,F,,,,,0,0,F,F,F,Info
-54631,3f372c1b,GitHub,81a41883,data/81a41883/test/3f372c1b.json,105,105,F,F,,,F,F,,,,,0,0,F,F,F,Info
-54632,3f372c1b,GitHub,81a41883,data/81a41883/test/3f372c1b.json,188,188,F,F,,,F,F,,,,,0,0,F,F,F,Info
+54630,3f372c1b,GitHub,81a41883,data/81a41883/test/3f372c1b.json,53,53,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
+54631,3f372c1b,GitHub,81a41883,data/81a41883/test/3f372c1b.json,105,105,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
+54632,3f372c1b,GitHub,81a41883,data/81a41883/test/3f372c1b.json,188,188,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
 74883,3546d560,GitHub,81a41883,data/81a41883/test/3546d560.rb,120,120,Template,T,14,30,F,F,Any,,,Unknown,2.91,16,F,F,F,Key
 74884,3546d560,GitHub,81a41883,data/81a41883/test/3546d560.rb,165,165,Template,T,14,30,F,F,Any,,,Unknown,2.91,16,F,F,F,Key
 74885,3546d560,GitHub,81a41883,data/81a41883/test/3546d560.rb,288,288,Template,T,14,30,F,F,Any,,,Unknown,2.91,16,F,F,F,Key
@@ -119,14 +119,14 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 100904,4ca53116,GitHub,81a41883,data/81a41883/other/4ca53116.md,134,134,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 100905,fe5f237c,GitHub,81a41883,data/81a41883/src/fe5f237c.rb,84,84,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 100906,fe5f237c,GitHub,81a41883,data/81a41883/src/fe5f237c.rb,168,168,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-100908,9edf7dfc,GitHub,81a41883,data/81a41883/test/9edf7dfc.rb,15,15,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
-100909,9edf7dfc,GitHub,81a41883,data/81a41883/test/9edf7dfc.rb,24,24,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
-100910,9edf7dfc,GitHub,81a41883,data/81a41883/test/9edf7dfc.rb,486,486,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
-100911,30478019,GitHub,81a41883,data/81a41883/test/30478019.rb,53,53,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
-100912,f3732772,GitHub,81a41883,data/81a41883/test/f3732772.rb,180,180,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
-100913,f3732772,GitHub,81a41883,data/81a41883/test/f3732772.rb,193,193,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
-100914,f3732772,GitHub,81a41883,data/81a41883/test/f3732772.rb,254,254,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
-100915,10b41f5d,GitHub,81a41883,data/81a41883/test/10b41f5d.rb,121,121,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
+100908,9edf7dfc,GitHub,81a41883,data/81a41883/test/9edf7dfc.rb,15,15,F,F,,,F,F,,,,,0.00,,F,F,F,API
+100909,9edf7dfc,GitHub,81a41883,data/81a41883/test/9edf7dfc.rb,24,24,F,F,,,F,F,,,,,0.00,,F,F,F,API
+100910,9edf7dfc,GitHub,81a41883,data/81a41883/test/9edf7dfc.rb,486,486,F,F,,,F,F,,,,,0.00,,F,F,F,API
+100911,30478019,GitHub,81a41883,data/81a41883/test/30478019.rb,53,53,F,F,,,F,F,,,,,0.00,,F,F,F,API
+100912,f3732772,GitHub,81a41883,data/81a41883/test/f3732772.rb,180,180,F,F,,,F,F,,,,,0.00,,F,F,F,API
+100913,f3732772,GitHub,81a41883,data/81a41883/test/f3732772.rb,193,193,F,F,,,F,F,,,,,0.00,,F,F,F,API
+100914,f3732772,GitHub,81a41883,data/81a41883/test/f3732772.rb,254,254,F,F,,,F,F,,,,,0.00,,F,F,F,API
+100915,10b41f5d,GitHub,81a41883,data/81a41883/test/10b41f5d.rb,121,121,F,F,,,F,F,,,,,0.00,,F,F,F,API
 110484,982ac230,GitHub,81a41883,data/81a41883/src/982ac230.rb,433,433,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
 110485,1a767061,GitHub,81a41883,data/81a41883/src/1a767061.rb,8,8,F,F,,,F,F,,,,,0.00,,F,F,F,API
 110486,df96d0ce,GitHub,81a41883,data/81a41883/src/df96d0ce.rb,30,30,F,F,,,F,F,,,,,0.00,,F,F,F,API

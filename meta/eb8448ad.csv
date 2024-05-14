@@ -1,6 +1,6 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
 5888,ae39a300,GitHub,eb8448ad,data/eb8448ad/src/ae39a300.yaml,2,2,F,F,,,F,F,,,,,0,0,F,F,F,API
-5901,12fc8db2,GitHub,eb8448ad,data/eb8448ad/src/12fc8db2.yaml,1,1,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+5901,12fc8db2,GitHub,eb8448ad,data/eb8448ad/src/12fc8db2.yaml,1,1,F,F,,,F,F,,,,,0,0,F,F,F,API
 11746,bdd2cc92,GitHub,eb8448ad,data/eb8448ad/test/bdd2cc92.yaml,3,3,F,F,,,F,F,,,,,0,0,F,F,F,Password
 12653,12fc8db2,GitHub,eb8448ad,data/eb8448ad/src/12fc8db2.yaml,111,111,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 12825,12fc8db2,GitHub,eb8448ad,data/eb8448ad/src/12fc8db2.yaml,50,50,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -35,7 +35,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 36262,91b3c8bc,GitHub,eb8448ad,data/eb8448ad/src/91b3c8bc.yaml,44,44,T,F,11,127,F,F,Any,,JSON Web Token,Token,5.23,116,F,F,F,JSON Web Token:Token
 42429,1b2cd3a7,GitHub,eb8448ad,data/eb8448ad/src/1b2cd3a7.lock,4065,4065,F,F,,,F,F,,,,,0,0,F,F,F,API
 42903,91b3c8bc,GitHub,eb8448ad,data/eb8448ad/src/91b3c8bc.yaml,54,54,Template,T,31,41,T,F,Any,,,Secret,2.46,10,F,F,F,URL Credentials
-83197,ae39a300,GitHub,eb8448ad,data/eb8448ad/src/ae39a300.yaml,10,10,F,F,12,19,F,F,,,,,0,0,F,F,F,Predefined Pattern
+83197,ae39a300,GitHub,eb8448ad,data/eb8448ad/src/ae39a300.yaml,10,10,F,F,12,19,F,F,,,,,0,0,F,F,F,API
 107671,09c8c391,GitHub,eb8448ad,data/eb8448ad/other/09c8c391,23,23,Template,T,11,21,F,F,Any,,,Secret,2.46,10,F,F,F,Secret
 107672,91b3c8bc,GitHub,eb8448ad,data/eb8448ad/src/91b3c8bc.yaml,106,106,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 107673,6eb51d25,GitHub,eb8448ad,data/eb8448ad/src/6eb51d25.sh,16,16,F,F,,,F,F,,,,,0.00,,F,F,F,Secret

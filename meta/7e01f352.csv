@@ -27,8 +27,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 5791,f52120aa,GitHub,7e01f352,data/7e01f352/test/f52120aa.rb,56,56,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 5792,f52120aa,GitHub,7e01f352,data/7e01f352/test/f52120aa.rb,70,70,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 6235,e3f3d458,GitHub,7e01f352,data/7e01f352/test/e3f3d458.rb,1342,1342,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-6272,3dfd3f19,GitHub,7e01f352,data/7e01f352/src/3dfd3f19.rb,152,152,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-6273,3dfd3f19,GitHub,7e01f352,data/7e01f352/src/3dfd3f19.rb,139,139,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+6272,3dfd3f19,GitHub,7e01f352,data/7e01f352/src/3dfd3f19.rb,152,152,F,F,,,F,F,,,,,0,0,F,F,F,Certificate
+6273,3dfd3f19,GitHub,7e01f352,data/7e01f352/src/3dfd3f19.rb,139,139,F,F,,,F,F,,,,,0,0,F,F,F,Certificate
 7669,ea69b25b,GitHub,7e01f352,data/7e01f352/test/ea69b25b.rb,266,266,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 8213,87879265,GitHub,7e01f352,data/7e01f352/src/87879265.rb,143,143,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 9195,1cbe1222,GitHub,7e01f352,data/7e01f352/test/1cbe1222.rb,246,246,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -88,7 +88,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 47463,1925951b,GitHub,7e01f352,data/7e01f352/test/1925951b.rb,79,79,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 47732,3a9b8e41,GitHub,7e01f352,data/7e01f352/test/3a9b8e41.rb,265,265,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 47738,51dfb24d,GitHub,7e01f352,data/7e01f352/test/51dfb24d.rb,101,101,F,F,,,F,F,,,,,0,0,F,F,F,Password
-47759,1925951b,GitHub,7e01f352,data/7e01f352/test/1925951b.rb,72,72,T,F,52,84,F,F,Any,,,SeedSalt,3.50,32,F,F,F,Cryptographic Primitives
+47759,1925951b,GitHub,7e01f352,data/7e01f352/test/1925951b.rb,72,72,T,F,52,84,F,F,Any,,,SeedSalt,3.50,32,F,F,F,Bitbucket Client ID
 56091,7e2523aa,GitHub,7e01f352,data/7e01f352/test/7e2523aa,8,8,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 57897,e694d969,GitHub,7e01f352,data/7e01f352/src/e694d969.rb,437,437,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 57898,e694d969,GitHub,7e01f352,data/7e01f352/src/e694d969.rb,320,320,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -96,7 +96,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 57900,e694d969,GitHub,7e01f352,data/7e01f352/src/e694d969.rb,322,322,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 57901,e694d969,GitHub,7e01f352,data/7e01f352/src/e694d969.rb,356,356,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 63158,1b502b5a,GitHub,7e01f352,data/7e01f352/test/1b502b5a.rb,1518,1518,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-63342,3dfd3f19,GitHub,7e01f352,data/7e01f352/src/3dfd3f19.rb,167,167,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+63342,3dfd3f19,GitHub,7e01f352,data/7e01f352/src/3dfd3f19.rb,167,167,F,F,,,F,F,,,,,0,0,F,F,F,Certificate
 63371,e3f3d458,GitHub,7e01f352,data/7e01f352/test/e3f3d458.rb,1083,1083,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 63410,176e29bf,GitHub,7e01f352,data/7e01f352/test/176e29bf.rb,70,70,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 64202,1925951b,GitHub,7e01f352,data/7e01f352/test/1925951b.rb,57,57,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -111,7 +111,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 82107,1925951b,GitHub,7e01f352,data/7e01f352/test/1925951b.rb,95,95,F,F,41,56,F,F,,,,,0,0,F,F,F,Secret
 82108,1925951b,GitHub,7e01f352,data/7e01f352/test/1925951b.rb,96,96,F,F,43,58,F,F,,,,,0,0,F,F,F,Secret
 82109,1925951b,GitHub,7e01f352,data/7e01f352/test/1925951b.rb,97,97,F,F,5,13,F,F,,,,,0,0,F,F,F,Secret
-82110,1925951b,GitHub,7e01f352,data/7e01f352/test/1925951b.rb,102,102,T,F,52,84,F,F,NumbersOnly,,,SeedSalt,3.50,32,F,F,F,Cryptographic Primitives
+82110,1925951b,GitHub,7e01f352,data/7e01f352/test/1925951b.rb,102,102,T,F,52,84,F,F,NumbersOnly,,,SeedSalt,3.50,32,F,F,F,Bitbucket Client ID
 108683,1b502b5a,GitHub,7e01f352,data/7e01f352/test/1b502b5a.rb,180,180,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 108684,1b502b5a,GitHub,7e01f352,data/7e01f352/test/1b502b5a.rb,184,184,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 108685,1b502b5a,GitHub,7e01f352,data/7e01f352/test/1b502b5a.rb,1383,1383,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
@@ -130,11 +130,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 114712,71dd2038,GitHub,7e01f352,data/7e01f352/src/71dd2038.rb,450,450,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 114713,c894cd95,GitHub,7e01f352,data/7e01f352/src/c894cd95.rb,100,100,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
 114714,8f0182ab,GitHub,7e01f352,data/7e01f352/src/8f0182ab.rb,112,112,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-114715,3dfd3f19,GitHub,7e01f352,data/7e01f352/src/3dfd3f19.rb,119,119,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
+114715,3dfd3f19,GitHub,7e01f352,data/7e01f352/src/3dfd3f19.rb,119,119,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
 114716,ea69b25b,GitHub,7e01f352,data/7e01f352/test/ea69b25b.rb,73,73,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 114717,1396c138,GitHub,7e01f352,data/7e01f352/test/1396c138.rb,102,102,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
-114718,3a9b8e41,GitHub,7e01f352,data/7e01f352/test/3a9b8e41.rb,176,176,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
-114719,3a9b8e41,GitHub,7e01f352,data/7e01f352/test/3a9b8e41.rb,232,232,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
+114718,3a9b8e41,GitHub,7e01f352,data/7e01f352/test/3a9b8e41.rb,176,176,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
+114719,3a9b8e41,GitHub,7e01f352,data/7e01f352/test/3a9b8e41.rb,232,232,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
 114720,6dbc650f,GitHub,7e01f352,data/7e01f352/test/6dbc650f.rb,1047,1047,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 114721,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,952,952,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 114722,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,991,991,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
@@ -150,25 +150,25 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 114732,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,1218,1218,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 114733,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,1245,1245,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 114734,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,1289,1289,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-114735,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,951,951,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
-114736,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,990,990,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
+114735,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,951,951,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
+114736,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,990,990,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
 114737,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,1008,1008,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
-114738,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,1019,1019,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
-114739,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,1023,1023,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
+114738,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,1019,1019,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
+114739,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,1023,1023,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
 114740,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,1047,1047,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
-114741,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,1058,1058,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
-114742,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,1060,1060,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
+114741,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,1058,1058,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
+114742,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,1060,1060,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
 114743,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,1077,1077,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
-114744,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,1118,1118,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
-114745,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,1153,1153,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
+114744,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,1118,1118,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
+114745,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,1153,1153,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
 114746,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,1171,1171,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
-114747,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,1182,1182,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
-114748,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,1186,1186,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
+114747,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,1182,1182,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
+114748,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,1186,1186,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
 114749,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,1204,1204,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
-114750,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,1215,1215,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
-114751,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,1217,1217,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
+114750,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,1215,1215,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
+114751,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,1217,1217,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
 114752,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,1235,1235,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
-114753,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,1244,1244,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
+114753,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,1244,1244,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
 114754,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,1320,1320,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
 114755,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,1339,1339,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
 114756,7cf1d784,GitHub,7e01f352,data/7e01f352/test/7cf1d784.rb,1362,1362,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate

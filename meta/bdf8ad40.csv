@@ -49,8 +49,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 27454,3b2c368e,GitHub,bdf8ad40,data/bdf8ad40/test/3b2c368e.json,576,576,F,F,9,49,F,F,,,,,0,0,F,F,F,Secret
 27456,3b2c368e,GitHub,bdf8ad40,data/bdf8ad40/test/3b2c368e.json,316,316,F,F,9,45,F,F,,,,,0,0,F,F,F,Secret
 29352,03d780df,GitHub,bdf8ad40,data/bdf8ad40/other/03d780df.md,994,994,Template,T,43,51,F,F,Any,,,Secret,2.75,8,F,F,F,Password
-29985,9a415784,GitHub,bdf8ad40,data/bdf8ad40/src/9a415784.yml,14,14,F,T,8,692,F,F,Any,,,Unknown,5.91,684,F,F,F,Unknown:notfound
-29986,2d46a225,GitHub,bdf8ad40,data/bdf8ad40/src/2d46a225.yml,16,16,F,F,8,692,F,F,Any,,,Unknown,5.94,684,F,F,F,Unknown:notfound
+29985,9a415784,GitHub,bdf8ad40,data/bdf8ad40/src/9a415784.yml,14,14,F,T,8,692,F,F,Any,,,Unknown,5.91,684,F,F,F,Info
+29986,2d46a225,GitHub,bdf8ad40,data/bdf8ad40/src/2d46a225.yml,16,16,F,F,8,692,F,F,Any,,,Unknown,5.94,684,F,F,F,Info
 30868,03d780df,GitHub,bdf8ad40,data/bdf8ad40/other/03d780df.md,643,643,Template,F,59,62,F,F,NumbersOnly,,,Secret,1.58,3,F,F,F,Password
 31100,fa3932ec,GitHub,bdf8ad40,data/bdf8ad40/src/fa3932ec.yml,38,38,Template,T,25,31,F,F,CharsOnly,,,Unknown,2.25,6,F,F,F,Password
 31290,f1a9c0d7,GitHub,bdf8ad40,data/bdf8ad40/src/f1a9c0d7.yml,140,140,Template,T,67,71,F,F,Any,,,Secret,2.00,4,F,F,F,Password
@@ -65,9 +65,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 33771,e8764f49,GitHub,bdf8ad40,data/bdf8ad40/other/e8764f49.md,53,53,Template,T,11,19,F,F,CharsOnly,,,Secret,1.50,8,F,F,F,Password
 33773,2711c6ed,GitHub,bdf8ad40,data/bdf8ad40/src/2711c6ed.ini,32,32,Template,T,11,19,F,F,CharsOnly,,,Secret,1.50,8,F,F,F,Password
 33819,f1a9c0d7,GitHub,bdf8ad40,data/bdf8ad40/src/f1a9c0d7.yml,74,74,T,F,13,25,F,F,Any,,,Secret,3.42,12,F,F,F,Password
-34218,0b251a68,GitHub,bdf8ad40,data/bdf8ad40/other/0b251a68.md,78,78,Template,T,9,17,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Unknown:notfound
-34716,0b251a68,GitHub,bdf8ad40,data/bdf8ad40/other/0b251a68.md,386,386,T,T,5,13,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Unknown:notfound
-34730,0b251a68,GitHub,bdf8ad40,data/bdf8ad40/other/0b251a68.md,411,411,T,F,5,13,F,F,Any,,,Secret,2.75,8,F,F,F,Unknown:notfound
+34218,0b251a68,GitHub,bdf8ad40,data/bdf8ad40/other/0b251a68.md,78,78,Template,T,9,17,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Info
+34716,0b251a68,GitHub,bdf8ad40,data/bdf8ad40/other/0b251a68.md,386,386,T,T,5,13,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Info
+34730,0b251a68,GitHub,bdf8ad40,data/bdf8ad40/other/0b251a68.md,411,411,T,F,5,13,F,F,Any,,,Secret,2.75,8,F,F,F,Info
 35448,5623b191,GitHub,bdf8ad40,data/bdf8ad40/src/5623b191.yml,27,27,T,F,14,26,F,F,Any,,,Secret,3.42,12,F,F,F,Password
 35465,5623b191,GitHub,bdf8ad40,data/bdf8ad40/src/5623b191.yml,30,30,T,F,17,29,F,F,Any,,,Secret,3.42,12,F,F,F,Password
 35466,5623b191,GitHub,bdf8ad40,data/bdf8ad40/src/5623b191.yml,11,11,T,F,17,21,F,F,CharsOnly,,,Secret,2.00,4,F,F,F,Password
@@ -92,10 +92,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 43080,7b99d825,GitHub,bdf8ad40,data/bdf8ad40/src/7b99d825.sum,12,12,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 48231,3b2c368e,GitHub,bdf8ad40,data/bdf8ad40/test/3b2c368e.json,411,411,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 48232,3b2c368e,GitHub,bdf8ad40,data/bdf8ad40/test/3b2c368e.json,577,577,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-48233,3b2c368e,GitHub,bdf8ad40,data/bdf8ad40/test/3b2c368e.json,632,632,F,F,,,F,F,,,,,0,0,F,F,F,Info
-48235,3b2c368e,GitHub,bdf8ad40,data/bdf8ad40/test/3b2c368e.json,299,299,F,F,,,F,F,,,,,0,0,F,F,F,Info
+48233,3b2c368e,GitHub,bdf8ad40,data/bdf8ad40/test/3b2c368e.json,632,632,F,F,,,F,F,,,,,0,0,F,F,F,Atlassian Old PAT token
+48235,3b2c368e,GitHub,bdf8ad40,data/bdf8ad40/test/3b2c368e.json,299,299,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
 48236,3b2c368e,GitHub,bdf8ad40,data/bdf8ad40/test/3b2c368e.json,317,317,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-48237,3b2c368e,GitHub,bdf8ad40,data/bdf8ad40/test/3b2c368e.json,161,161,F,F,,,F,F,,,,,0,0,F,F,F,Info
+48237,3b2c368e,GitHub,bdf8ad40,data/bdf8ad40/test/3b2c368e.json,161,161,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
 56531,18483560,GitHub,bdf8ad40,data/bdf8ad40/src/18483560.go,1514,1514,F,F,,,F,F,,,,,0,0,F,F,F,Token
 56532,18483560,GitHub,bdf8ad40,data/bdf8ad40/src/18483560.go,1532,1532,F,F,,,F,F,,,,,0,0,F,F,F,Token
 56533,18483560,GitHub,bdf8ad40,data/bdf8ad40/src/18483560.go,1809,1809,F,F,,,F,F,,,,,0,0,F,F,F,Token

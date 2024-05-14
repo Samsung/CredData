@@ -42,11 +42,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 13366,de76051b,GitHub,91cfdb2b,data/91cfdb2b/src/de76051b.cs,95,95,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 13371,2494729c,GitHub,91cfdb2b,data/91cfdb2b/src/2494729c.cs,28,28,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 13507,23c9e33f,GitHub,91cfdb2b,data/91cfdb2b/src/23c9e33f.cs,18,18,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-14886,455373bf,GitHub,91cfdb2b,data/91cfdb2b/src/455373bf.cs,42,42,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-14887,455373bf,GitHub,91cfdb2b,data/91cfdb2b/src/455373bf.cs,46,46,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-14888,455373bf,GitHub,91cfdb2b,data/91cfdb2b/src/455373bf.cs,40,40,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-14889,455373bf,GitHub,91cfdb2b,data/91cfdb2b/src/455373bf.cs,41,41,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-17709,dfcd28a8,GitHub,91cfdb2b,data/91cfdb2b/src/dfcd28a8.cs,140,140,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+14886,455373bf,GitHub,91cfdb2b,data/91cfdb2b/src/455373bf.cs,42,42,F,F,,,F,F,,,,,0,0,F,F,F,API
+14887,455373bf,GitHub,91cfdb2b,data/91cfdb2b/src/455373bf.cs,46,46,F,F,,,F,F,,,,,0,0,F,F,F,API
+14888,455373bf,GitHub,91cfdb2b,data/91cfdb2b/src/455373bf.cs,40,40,F,F,,,F,F,,,,,0,0,F,F,F,API
+14889,455373bf,GitHub,91cfdb2b,data/91cfdb2b/src/455373bf.cs,41,41,F,F,,,F,F,,,,,0,0,F,F,F,API
+17709,dfcd28a8,GitHub,91cfdb2b,data/91cfdb2b/src/dfcd28a8.cs,140,140,F,F,,,F,F,,,,,0,0,F,F,F,API
 21315,a8ea1151,GitHub,91cfdb2b,data/91cfdb2b/src/a8ea1151.ps1,9,9,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 22997,723d4f3d,GitHub,91cfdb2b,data/91cfdb2b/src/723d4f3d.cs,239,239,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 23741,e1527255,GitHub,91cfdb2b,data/91cfdb2b/src/e1527255.cs,31,31,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -239,10 +239,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 101409,488efedb,GitHub,91cfdb2b,data/91cfdb2b/src/488efedb.txt,466,466,F,F,,,F,F,,,,,0.00,,F,F,F,API
 101411,e5bfdad9,GitHub,91cfdb2b,data/91cfdb2b/src/e5bfdad9.txt,219,219,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 101412,e5bfdad9,GitHub,91cfdb2b,data/91cfdb2b/src/e5bfdad9.txt,355,355,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-101413,de76051b,GitHub,91cfdb2b,data/91cfdb2b/src/de76051b.cs,91,91,F,F,,,F,F,,,,,0.00,,F,F,F,Info
+101413,de76051b,GitHub,91cfdb2b,data/91cfdb2b/src/de76051b.cs,91,91,F,F,,,F,F,,,,,0.00,,F,F,F,Bitbucket Client ID
 101414,dfcd28a8,GitHub,91cfdb2b,data/91cfdb2b/src/dfcd28a8.cs,86,86,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-101415,dfcd28a8,GitHub,91cfdb2b,data/91cfdb2b/src/dfcd28a8.cs,106,106,F,F,,,F,F,,,,,0.00,,F,F,F,Info
-101416,dfcd28a8,GitHub,91cfdb2b,data/91cfdb2b/src/dfcd28a8.cs,108,108,F,F,,,F,F,,,,,0.00,,F,F,F,Info
+101415,dfcd28a8,GitHub,91cfdb2b,data/91cfdb2b/src/dfcd28a8.cs,106,106,F,F,,,F,F,,,,,0.00,,F,F,F,Bitbucket Client ID
+101416,dfcd28a8,GitHub,91cfdb2b,data/91cfdb2b/src/dfcd28a8.cs,108,108,F,F,,,F,F,,,,,0.00,,F,F,F,Bitbucket Client ID
 110618,56e60b5c,GitHub,91cfdb2b,data/91cfdb2b/src/56e60b5c.txt,359,359,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
 110619,dbd51584,GitHub,91cfdb2b,data/91cfdb2b/src/dbd51584.config,8,8,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
 110620,e5bfdad9,GitHub,91cfdb2b,data/91cfdb2b/src/e5bfdad9.txt,356,356,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
@@ -373,11 +373,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 134061,2307aa34,GitHub,91cfdb2b,data/91cfdb2b/src/2307aa34.txt,2968,2968,F,F,,,F,F,,,,,0,0,F,F,F,Token
 134062,2307aa34,GitHub,91cfdb2b,data/91cfdb2b/src/2307aa34.txt,3252,3252,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 134063,2307aa34,GitHub,91cfdb2b,data/91cfdb2b/src/2307aa34.txt,3253,3253,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-134064,2307aa34,GitHub,91cfdb2b,data/91cfdb2b/src/2307aa34.txt,3352,3352,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+134064,2307aa34,GitHub,91cfdb2b,data/91cfdb2b/src/2307aa34.txt,3352,3352,F,F,,,F,F,,,,,0,0,F,F,F,API
 134065,2307aa34,GitHub,91cfdb2b,data/91cfdb2b/src/2307aa34.txt,3379,3379,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 134066,2307aa34,GitHub,91cfdb2b,data/91cfdb2b/src/2307aa34.txt,3395,3395,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 134067,2307aa34,GitHub,91cfdb2b,data/91cfdb2b/src/2307aa34.txt,3402,3402,F,F,,,F,F,,,,,0,0,F,F,F,API
-134068,2307aa34,GitHub,91cfdb2b,data/91cfdb2b/src/2307aa34.txt,3481,3481,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+134068,2307aa34,GitHub,91cfdb2b,data/91cfdb2b/src/2307aa34.txt,3481,3481,F,F,,,F,F,,,,,0,0,F,F,F,API
 134069,2307aa34,GitHub,91cfdb2b,data/91cfdb2b/src/2307aa34.txt,3499,3499,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 134070,2307aa34,GitHub,91cfdb2b,data/91cfdb2b/src/2307aa34.txt,3509,3509,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 134071,2307aa34,GitHub,91cfdb2b,data/91cfdb2b/src/2307aa34.txt,3650,3650,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key

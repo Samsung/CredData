@@ -7,7 +7,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 7847,a4b52bd0,GitHub,e0b41e26,data/e0b41e26/test/a4b52bd0.js,297,297,F,F,,,F,F,,,,,0,0,F,F,F,Token
 7848,f493cf70,GitHub,e0b41e26,data/e0b41e26/test/f493cf70.js,295,295,F,F,,,F,F,,,,,0,0,F,F,F,Token
 7873,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,297,297,F,F,,,F,F,,,,,0,0,F,F,F,Token
-8723,3c850ff9,GitHub,e0b41e26,data/e0b41e26/test/3c850ff9.js,45,45,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+8723,3c850ff9,GitHub,e0b41e26,data/e0b41e26/test/3c850ff9.js,45,45,F,F,,,F,F,,,,,0,0,F,F,F,API
 9108,eb46492c,GitHub,e0b41e26,data/e0b41e26/src/eb46492c.js,70,70,F,F,,,F,F,,,,,0,0,F,F,F,API
 9410,2a34abd7,GitHub,e0b41e26,data/e0b41e26/test/2a34abd7.ndjson,4,4,T,F,7,19,F,F,,,Info,,0,0,F,F,F,IPv4
 9411,2a34abd7,GitHub,e0b41e26,data/e0b41e26/test/2a34abd7.ndjson,2,2,T,F,7,18,F,F,,,Info,,0,0,F,F,F,IPv4
@@ -57,7 +57,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 36349,0defaa4e,GitHub,e0b41e26,data/e0b41e26/test/0defaa4e.js,60,60,T,F,16,46,F,F,Any,,,Token,4.51,30,F,F,F,Token
 36361,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,580,580,T,F,22,62,F,F,Any,,,Secret,5.00,40,F,F,F,Secret:Key
 36362,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,579,579,T,F,22,42,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,AWS Client ID:Gitlab Feed Token:Key
-36463,11753c42,GitHub,e0b41e26,data/e0b41e26/src/11753c42.js,37,37,T,T,1,41,F,F,Any,,,Unknown,4.77,40,F,F,F,Unknown:notfound
+36463,11753c42,GitHub,e0b41e26,data/e0b41e26/src/11753c42.js,37,37,T,T,1,41,F,F,Any,,,Unknown,4.77,40,F,F,F,Info
 36728,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,504,504,T,F,14,34,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,AWS Client ID:Gitlab Feed Token:Key
 36729,2539a395,GitHub,e0b41e26,data/e0b41e26/src/2539a395.yaml,78,78,T,F,13,33,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,AWS Client ID:Gitlab Feed Token:Key
 36730,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/9ce19240.yaml,91,91,T,F,13,33,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,AWS Client ID:Gitlab Feed Token:Key
@@ -90,7 +90,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 42456,bd3fe8db,GitHub,e0b41e26,data/e0b41e26/src/bd3fe8db.js,191,191,Template,T,14,21,F,F,CharsOnly,,,Secret,2.81,7,F,F,F,Credential
 42457,bd3fe8db,GitHub,e0b41e26,data/e0b41e26/src/bd3fe8db.js,228,228,Template,T,14,21,F,F,CharsOnly,,,Secret,2.81,7,F,F,F,Credential
 42458,bd3fe8db,GitHub,e0b41e26,data/e0b41e26/src/bd3fe8db.js,245,245,Template,T,14,21,F,F,CharsOnly,,,Secret,2.81,7,F,F,F,Credential
-46442,508b8489,GitHub,e0b41e26,data/e0b41e26/test/508b8489.js,1303,1303,F,F,,,F,F,,,,,0,0,F,F,F,Info
+46442,508b8489,GitHub,e0b41e26,data/e0b41e26/test/508b8489.js,1303,1303,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
 46443,a4b52bd0,GitHub,e0b41e26,data/e0b41e26/test/a4b52bd0.js,279,279,F,F,,,F,F,,,,,0,0,F,F,F,Token
 47949,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,273,273,T,F,14,34,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,AWS Client ID:Gitlab Feed Token:Key
 47950,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,282,282,T,F,14,34,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,AWS Client ID:Gitlab Feed Token:Key
@@ -110,15 +110,15 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 75108,dd45288f,GitHub,e0b41e26,data/e0b41e26/test/dd45288f.js,98,98,F,F,,,F,F,,,,,0,0,F,F,F,Token
 75109,dd45288f,GitHub,e0b41e26,data/e0b41e26/test/dd45288f.js,151,151,F,F,,,F,F,,,,,0,0,F,F,F,Token
 75110,dd45288f,GitHub,e0b41e26,data/e0b41e26/test/dd45288f.js,199,199,F,F,,,F,F,,,,,0,0,F,F,F,Token
-79248,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,331,331,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-82283,508b8489,GitHub,e0b41e26,data/e0b41e26/test/508b8489.js,1372,1372,F,F,10,42,F,F,,,,,0,0,F,F,F,Info
+79248,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,331,331,F,F,,,F,F,,,,,0,0,F,F,F,Certificate
+82283,508b8489,GitHub,e0b41e26,data/e0b41e26/test/508b8489.js,1372,1372,F,F,10,42,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
 82284,3c850ff9,GitHub,e0b41e26,data/e0b41e26/test/3c850ff9.js,46,46,F,T,66,72,F,F,CharsOnly,,,Key,2.58,6,F,F,F,Other
-107281,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,236,236,Template,T,43,58,F,F,CharOnly,,,Secret,2.74,15,F,F,F,Unknown:notfound
+107281,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,236,236,Template,T,43,58,F,F,CharOnly,,,Secret,2.74,15,F,F,F,Info
 107282,508b8489,GitHub,e0b41e26,data/e0b41e26/test/508b8489.js,1465,1465,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
-107283,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,46,46,Template,T,32,40,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Unknown:notfound
-107284,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,150,150,Template,T,32,40,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Unknown:notfound
-107285,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,177,177,Template,T,32,40,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Unknown:notfound
-107286,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,278,278,Template,T,32,40,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Unknown:notfound
+107283,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,46,46,Template,T,32,40,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Info
+107284,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,150,150,Template,T,32,40,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Info
+107285,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,177,177,Template,T,32,40,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Info
+107286,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,278,278,Template,T,32,40,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Info
 113949,3cb5b5a8,GitHub,e0b41e26,data/e0b41e26/src/3cb5b5a8.js,58,58,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
 113950,3cb5b5a8,GitHub,e0b41e26,data/e0b41e26/src/3cb5b5a8.js,69,69,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
 113951,3cb5b5a8,GitHub,e0b41e26,data/e0b41e26/src/3cb5b5a8.js,134,134,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key

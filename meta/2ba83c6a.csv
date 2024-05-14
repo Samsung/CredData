@@ -76,8 +76,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 4354,9caddd4c,GitHub,2ba83c6a,data/2ba83c6a/test/9caddd4c.pl,92,92,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 4408,ac041dcc,GitHub,2ba83c6a,data/2ba83c6a/test/ac041dcc.c,232,232,F,F,,,F,F,,,,,0,0,F,F,F,Token
 4422,0ca18ba6,GitHub,2ba83c6a,data/2ba83c6a/other/0ca18ba6.in,381,381,F,F,,,F,F,,,,,0,0,F,F,F,Password:Key
-4471,b689ad42,GitHub,2ba83c6a,data/2ba83c6a/src/b689ad42.txt,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-4472,b689ad42,GitHub,2ba83c6a,data/2ba83c6a/src/b689ad42.txt,28,28,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+4471,b689ad42,GitHub,2ba83c6a,data/2ba83c6a/src/b689ad42.txt,32,32,F,F,,,F,F,,,,,0,0,F,F,F,API
+4472,b689ad42,GitHub,2ba83c6a,data/2ba83c6a/src/b689ad42.txt,28,28,F,F,,,F,F,,,,,0,0,F,F,F,API
 4474,8119ac7d,GitHub,2ba83c6a,data/2ba83c6a/src/8119ac7d.c,503,503,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 4625,cf577288,GitHub,2ba83c6a,data/2ba83c6a/src/cf577288.txt,506,506,F,F,,,F,F,,,,,0,0,F,F,F,Token
 4626,cf577288,GitHub,2ba83c6a,data/2ba83c6a/src/cf577288.txt,514,514,F,F,,,F,F,,,,,0,0,F,F,F,Token
@@ -102,14 +102,14 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 5033,cf5b9201,GitHub,2ba83c6a,data/2ba83c6a/src/cf5b9201.txt,1547,1547,F,F,,,F,F,,,,,0,0,F,F,F,Token
 5608,a088cda0,GitHub,2ba83c6a,data/2ba83c6a/test/a088cda0.c,515,515,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 5609,a088cda0,GitHub,2ba83c6a,data/2ba83c6a/test/a088cda0.c,636,636,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-5611,cf5b9201,GitHub,2ba83c6a,data/2ba83c6a/src/cf5b9201.txt,1688,1688,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+5611,cf5b9201,GitHub,2ba83c6a,data/2ba83c6a/src/cf5b9201.txt,1688,1688,F,F,,,F,F,,,,,0,0,F,F,F,Certificate
 5612,cf5b9201,GitHub,2ba83c6a,data/2ba83c6a/src/cf5b9201.txt,1658,1658,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 5613,cf5b9201,GitHub,2ba83c6a,data/2ba83c6a/src/cf5b9201.txt,1634,1634,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 5633,51920e95,GitHub,2ba83c6a,data/2ba83c6a/other/51920e95.md,322,322,F,F,,,F,F,,,,,0,0,F,F,F,API
 6118,32929be3,GitHub,2ba83c6a,data/2ba83c6a/src/32929be3.c,133,133,F,F,,,F,F,,,,,0,0,F,F,F,Password
 6119,e67932fe,GitHub,2ba83c6a,data/2ba83c6a/src/e67932fe.c,110,110,F,F,,,F,F,,,,,0,0,F,F,F,Password
-6138,7399d8e5,GitHub,2ba83c6a,data/2ba83c6a/src/7399d8e5.c,846,846,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-6139,7399d8e5,GitHub,2ba83c6a,data/2ba83c6a/src/7399d8e5.c,1019,1019,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+6138,7399d8e5,GitHub,2ba83c6a,data/2ba83c6a/src/7399d8e5.c,846,846,F,F,,,F,F,,,,,0,0,F,F,F,API
+6139,7399d8e5,GitHub,2ba83c6a,data/2ba83c6a/src/7399d8e5.c,1019,1019,F,F,,,F,F,,,,,0,0,F,F,F,API
 6188,32929be3,GitHub,2ba83c6a,data/2ba83c6a/src/32929be3.c,169,169,F,F,,,F,F,,,,,0,0,F,F,F,Password
 6191,ea838e3f,GitHub,2ba83c6a,data/2ba83c6a/src/ea838e3f.c,321,321,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 6205,bd82fe2b,GitHub,2ba83c6a,data/2ba83c6a/src/bd82fe2b.c,3353,3353,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -269,7 +269,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 15963,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,2114,2114,F,F,,,F,F,,,,,0,0,F,F,F,Password
 16032,3fc35e88,GitHub,2ba83c6a,data/2ba83c6a/test/3fc35e88.t,39,39,F,F,,,F,F,,,,,0,0,F,F,F,Password
 16183,f4d4fc50,GitHub,2ba83c6a,data/2ba83c6a/test/f4d4fc50.t,410,410,F,F,,,F,F,,,,,0,0,F,F,F,Password
-17293,d975bf65,GitHub,2ba83c6a,data/2ba83c6a/other/d975bf65.md,789,789,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+17293,d975bf65,GitHub,2ba83c6a,data/2ba83c6a/other/d975bf65.md,789,789,F,F,,,F,F,,,,,0,0,F,F,F,API
 17295,d975bf65,GitHub,2ba83c6a,data/2ba83c6a/other/d975bf65.md,790,790,F,F,,,F,F,,,,,0,0,F,F,F,API
 17367,78ed4660,GitHub,2ba83c6a,data/2ba83c6a/src/78ed4660.c,246,246,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 17370,38a47bf1,GitHub,2ba83c6a,data/2ba83c6a/src/38a47bf1.c,312,312,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -289,7 +289,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 18175,48f32f2b,GitHub,2ba83c6a,data/2ba83c6a/src/48f32f2b.c,50,50,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 18176,38a47bf1,GitHub,2ba83c6a,data/2ba83c6a/src/38a47bf1.c,366,366,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 18476,4669a020,GitHub,2ba83c6a,data/2ba83c6a/src/4669a020.pem,1,12,T,T,,,F,F,Any,Private,,Unknown,2.59,31,F,F,F,PEM Private Key
-18571,3035acd5,GitHub,2ba83c6a,data/2ba83c6a/src/3035acd5.c,134,134,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+18571,3035acd5,GitHub,2ba83c6a,data/2ba83c6a/src/3035acd5.c,134,134,F,F,,,F,F,,,,,0,0,F,F,F,Certificate
 18591,88cb4913,GitHub,2ba83c6a,data/2ba83c6a/src/88cb4913.sh,28,28,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 18595,09b140a4,GitHub,2ba83c6a,data/2ba83c6a/other/09b140a4.md,476,476,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 18604,09b140a4,GitHub,2ba83c6a,data/2ba83c6a/other/09b140a4.md,301,301,F,F,,,F,F,,,,,0,0,F,F,F,API
@@ -328,7 +328,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 23000,cf5b9201,GitHub,2ba83c6a,data/2ba83c6a/src/cf5b9201.txt,416,416,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 23007,cf5b9201,GitHub,2ba83c6a,data/2ba83c6a/src/cf5b9201.txt,410,410,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 23107,b689ad42,GitHub,2ba83c6a,data/2ba83c6a/src/b689ad42.txt,11,11,F,F,,,F,F,,,,,0,0,F,F,F,API:Key
-23108,7399d8e5,GitHub,2ba83c6a,data/2ba83c6a/src/7399d8e5.c,1506,1506,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+23108,7399d8e5,GitHub,2ba83c6a,data/2ba83c6a/src/7399d8e5.c,1506,1506,F,F,,,F,F,,,,,0,0,F,F,F,API
 23159,cf5b9201,GitHub,2ba83c6a,data/2ba83c6a/src/cf5b9201.txt,502,502,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 23189,1d31ec72,GitHub,2ba83c6a,data/2ba83c6a/src/1d31ec72.c,55,55,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 23194,5dd63760,GitHub,2ba83c6a,data/2ba83c6a/test/5dd63760.txt,1,1,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -1867,46 +1867,46 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 41708,6b861e09,GitHub,2ba83c6a,data/2ba83c6a/src/6b861e09.c,466,466,Template,T,55,65,F,F,Any,,,Secret,2.79,10,F,F,F,Secret
 41709,6b861e09,GitHub,2ba83c6a,data/2ba83c6a/src/6b861e09.c,467,467,Template,T,57,67,F,F,Any,,,Secret,2.39,10,F,F,F,Secret
 41710,6b861e09,GitHub,2ba83c6a,data/2ba83c6a/src/6b861e09.c,468,468,Template,T,61,73,F,F,Any,,,Secret,2.59,12,F,F,F,Secret
-41711,6cfa362d,GitHub,2ba83c6a,data/2ba83c6a/src/6cfa362d.cnf,189,189,Template,T,21,41,F,F,Any,,,Secret,3.49,20,F,F,F,Unknown:notfound
-41712,23d50951,GitHub,2ba83c6a,data/2ba83c6a/src/23d50951.cnf,189,189,Template,T,21,41,F,F,Any,,,Secret,3.49,20,F,F,F,Unknown:notfound
+41711,6cfa362d,GitHub,2ba83c6a,data/2ba83c6a/src/6cfa362d.cnf,189,189,Template,T,21,41,F,F,Any,,,Secret,3.49,20,F,F,F,Info
+41712,23d50951,GitHub,2ba83c6a,data/2ba83c6a/src/23d50951.cnf,189,189,Template,T,21,41,F,F,Any,,,Secret,3.49,20,F,F,F,Info
 41713,23d50951,GitHub,2ba83c6a,data/2ba83c6a/src/23d50951.cnf,344,344,T,T,9,19,F,F,Any,,,Secret,2.32,5,F,F,F,Password:Secret
-46335,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,302,302,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46336,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,324,324,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46337,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,438,438,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46338,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,291,291,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46339,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,494,494,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46340,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,488,488,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46341,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,501,501,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46342,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,364,364,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46343,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,361,361,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46344,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,500,500,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46345,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,286,286,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46346,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,444,444,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46347,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,487,487,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46348,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,449,449,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46349,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,398,398,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46350,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,443,443,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46351,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,402,402,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46352,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,327,327,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46353,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,491,491,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46354,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,289,289,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46355,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,485,485,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46356,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,492,492,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46357,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,493,493,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46358,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,486,486,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46359,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,406,406,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46360,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,439,439,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46361,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,368,368,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46362,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,331,331,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46368,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,460,460,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46369,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,416,416,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46370,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,514,514,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46371,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,511,511,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46372,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,341,341,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46373,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,513,513,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46374,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,512,512,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46375,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,378,378,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46376,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,459,459,F,F,,,F,F,,,,,0,0,F,F,F,Info
+46335,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,302,302,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+46336,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,324,324,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+46337,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,438,438,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+46338,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,291,291,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+46339,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,494,494,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+46340,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,488,488,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+46341,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,501,501,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+46342,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,364,364,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+46343,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,361,361,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+46344,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,500,500,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+46345,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,286,286,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+46346,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,444,444,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+46347,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,487,487,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+46348,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,449,449,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+46349,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,398,398,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+46350,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,443,443,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+46351,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,402,402,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+46352,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,327,327,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+46353,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,491,491,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+46354,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,289,289,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+46355,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,485,485,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+46356,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,492,492,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+46357,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,493,493,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+46358,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,486,486,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+46359,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,406,406,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+46360,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,439,439,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+46361,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,368,368,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+46362,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,331,331,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+46368,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,460,460,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+46369,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,416,416,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+46370,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,514,514,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+46371,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,511,511,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+46372,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,341,341,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+46373,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,513,513,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+46374,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,512,512,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+46375,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,378,378,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+46376,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,459,459,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
 46377,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,722,722,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 46378,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,706,706,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 46379,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,726,726,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -1914,92 +1914,92 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 46381,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,708,708,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 46404,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,351,351,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 46406,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,352,352,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-46412,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,349,349,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46415,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,353,353,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46418,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,354,354,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46809,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,141,141,F,F,,,F,F,,,,,0,0,F,F,F,Info
+46412,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,349,349,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46415,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,353,353,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46418,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,354,354,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46809,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,141,141,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
 46810,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,246,246,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 46811,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,230,230,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-46812,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,116,116,F,F,,,F,F,,,,,0,0,F,F,F,Info
+46812,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,116,116,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
 46813,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,232,232,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-46814,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,87,87,F,F,,,F,F,,,,,0,0,F,F,F,Info
+46814,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,87,87,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
 46815,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,231,231,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 46816,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,247,247,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-46817,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,53,53,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46818,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,50,50,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46819,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,58,58,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46820,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,115,115,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46821,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,54,54,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46822,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,101,101,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46823,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,228,228,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46824,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,84,84,F,F,,,F,F,,,,,0,0,F,F,F,Info
+46817,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,53,53,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46818,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,50,50,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46819,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,58,58,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46820,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,115,115,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46821,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,54,54,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46822,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,101,101,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46823,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,228,228,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46824,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,84,84,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
 46825,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,142,142,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-46826,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,117,117,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46827,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,91,91,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46828,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,72,72,F,F,,,F,F,,,,,0,0,F,F,F,Info
+46826,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,117,117,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46827,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,91,91,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46828,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,72,72,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
 46829,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,236,236,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-46830,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,56,56,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46831,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,126,126,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46832,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,63,63,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46833,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,62,62,F,F,,,F,F,,,,,0,0,F,F,F,Info
+46830,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,56,56,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46831,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,126,126,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46832,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,63,63,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46833,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,62,62,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
 46834,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,177,177,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-46835,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,233,233,F,F,,,F,F,,,,,0,0,F,F,F,Info
+46835,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,233,233,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
 46836,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,248,248,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-46838,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,61,61,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46839,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,60,60,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46840,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,124,124,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46841,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,52,52,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46842,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,66,66,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46843,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,78,78,F,F,,,F,F,,,,,0,0,F,F,F,Info
+46838,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,61,61,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46839,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,60,60,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46840,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,124,124,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46841,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,52,52,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46842,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,66,66,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46843,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,78,78,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
 46844,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,250,250,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-46845,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,89,89,F,F,,,F,F,,,,,0,0,F,F,F,Info
+46845,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,89,89,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
 46847,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,68,68,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-46848,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,235,235,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46849,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,125,125,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46850,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,79,79,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46851,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,164,164,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46852,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,119,119,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46854,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,73,73,F,F,,,F,F,,,,,0,0,F,F,F,Info
+46848,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,235,235,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46849,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,125,125,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46850,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,79,79,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46851,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,164,164,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46852,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,119,119,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46854,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,73,73,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
 46855,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,249,249,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-46856,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,120,120,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46857,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,90,90,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46858,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,129,129,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46859,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,128,128,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46860,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,74,74,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46861,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,118,118,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46862,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,234,234,F,F,,,F,F,,,,,0,0,F,F,F,Info
+46856,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,120,120,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46857,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,90,90,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46858,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,129,129,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46859,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,128,128,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46860,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,74,74,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46861,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,118,118,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46862,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,234,234,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
 46863,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,130,130,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-46864,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,76,76,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46865,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,57,57,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46866,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,59,59,F,F,,,F,F,,,,,0,0,F,F,F,Info
+46864,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,76,76,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46865,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,57,57,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46866,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,59,59,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
 46867,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,251,251,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-46868,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,145,145,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46869,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,81,81,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46870,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,105,105,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46890,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,82,82,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46891,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,55,55,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46894,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,75,75,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46895,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,80,80,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46899,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,67,67,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46901,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,77,77,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46902,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,127,127,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46903,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,83,83,F,F,,,F,F,,,,,0,0,F,F,F,Info
+46868,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,145,145,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46869,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,81,81,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46870,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,105,105,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46890,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,82,82,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46891,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,55,55,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46894,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,75,75,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46895,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,80,80,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46899,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,67,67,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46901,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,77,77,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46902,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,127,127,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46903,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,83,83,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
 46904,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,106,106,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-46905,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,64,64,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46906,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,85,85,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46907,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,146,146,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46911,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,71,71,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46912,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,86,86,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46913,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,65,65,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46914,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,163,163,F,F,,,F,F,,,,,0,0,F,F,F,Info
+46905,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,64,64,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46906,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,85,85,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46907,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,146,146,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46911,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,71,71,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46912,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,86,86,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46913,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,65,65,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+46914,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,163,163,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
 46915,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,189,189,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-46916,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,88,88,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47222,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,218,218,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47223,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,217,217,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47226,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,216,216,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47227,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,215,215,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47228,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,219,219,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47262,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,730,730,F,F,,,F,F,,,,,0,0,F,F,F,Info
+46916,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,88,88,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47222,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,218,218,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47223,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,217,217,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47226,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,216,216,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47227,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,215,215,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47228,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,219,219,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47262,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,730,730,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
 47263,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,658,658,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 47264,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,638,638,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 47265,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,659,659,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -2010,75 +2010,75 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 47270,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,628,628,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 47271,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,627,627,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 47272,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,637,637,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-47273,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,675,675,F,F,,,F,F,,,,,0,0,F,F,F,Info
+47273,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,675,675,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
 47274,975e0bee,GitHub,2ba83c6a,data/2ba83c6a/test/975e0bee.c,205,205,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-47275,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,108,108,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47276,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,764,764,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47277,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,743,743,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47278,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,745,745,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47279,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,746,746,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47280,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,109,109,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47287,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,770,770,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47288,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,766,766,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47289,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,769,769,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47290,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,673,673,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47291,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,742,742,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47292,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,150,150,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47293,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,691,691,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47294,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,709,709,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47295,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,727,727,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47296,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,689,689,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47297,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,767,767,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47298,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,763,763,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47299,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,707,707,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47300,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,725,725,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47301,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,750,750,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47302,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,723,723,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47303,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,693,693,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47304,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,774,774,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47305,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,712,712,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47306,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,134,134,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47308,975e0bee,GitHub,2ba83c6a,data/2ba83c6a/test/975e0bee.c,206,206,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47309,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,151,151,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47311,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,135,135,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47312,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,94,94,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47313,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,95,95,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47430,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,214,214,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47694,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,360,360,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47695,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,397,397,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47696,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,437,437,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47698,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,363,363,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47699,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,401,401,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47700,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,442,442,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47860,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1307,1307,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47861,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1291,1291,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47862,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1259,1259,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47863,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1299,1299,F,F,,,F,F,,,,,0,0,F,F,F,Info
+47275,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,108,108,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+47276,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,764,764,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47277,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,743,743,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47278,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,745,745,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47279,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,746,746,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47280,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,109,109,F,F,,,F,F,,,,,0,0,F,F,F,Atlassian Old PAT token
+47287,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,770,770,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47288,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,766,766,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47289,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,769,769,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47290,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,673,673,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47291,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,742,742,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47292,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,150,150,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+47293,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,691,691,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47294,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,709,709,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47295,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,727,727,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47296,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,689,689,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47297,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,767,767,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47298,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,763,763,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47299,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,707,707,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47300,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,725,725,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47301,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,750,750,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47302,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,723,723,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47303,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,693,693,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47304,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,774,774,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47305,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,712,712,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47306,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,134,134,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+47308,975e0bee,GitHub,2ba83c6a,data/2ba83c6a/test/975e0bee.c,206,206,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47309,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,151,151,F,F,,,F,F,,,,,0,0,F,F,F,Atlassian Old PAT token
+47311,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,135,135,F,F,,,F,F,,,,,0,0,F,F,F,Atlassian Old PAT token
+47312,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,94,94,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+47313,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,95,95,F,F,,,F,F,,,,,0,0,F,F,F,Atlassian Old PAT token
+47430,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,214,214,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47694,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,360,360,F,F,,,F,F,,,,,0,0,F,F,F,Atlassian Old PAT token
+47695,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,397,397,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+47696,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,437,437,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+47698,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,363,363,F,F,,,F,F,,,,,0,0,F,F,F,Atlassian Old PAT token
+47699,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,401,401,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+47700,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,442,442,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+47860,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1307,1307,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47861,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1291,1291,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47862,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1259,1259,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47863,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1299,1299,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
 47864,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1244,1244,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 47865,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1236,1236,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-47866,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1263,1263,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47867,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1304,1304,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47868,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1292,1292,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47869,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1284,1284,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47870,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1288,1288,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47871,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1255,1255,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47872,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1261,1261,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47873,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1295,1295,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47874,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1283,1283,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47875,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1300,1300,F,F,,,F,F,,,,,0,0,F,F,F,Info
+47866,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1263,1263,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47867,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1304,1304,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47868,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1292,1292,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47869,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1284,1284,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47870,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1288,1288,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47871,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1255,1255,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47872,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1261,1261,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47873,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1295,1295,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47874,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1283,1283,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47875,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1300,1300,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
 47876,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1232,1232,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 47877,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1238,1238,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 47878,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1240,1240,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 47879,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1234,1234,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-47880,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1296,1296,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47881,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1257,1257,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47882,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1267,1267,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47883,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1308,1308,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47884,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1287,1287,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47885,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1265,1265,F,F,,,F,F,,,,,0,0,F,F,F,Info
-48008,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,377,377,F,F,,,F,F,,,,,0,0,F,F,F,Info
-48009,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,458,458,F,F,,,F,F,,,,,0,0,F,F,F,Info
-48010,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,415,415,F,F,,,F,F,,,,,0,0,F,F,F,Info
+47880,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1296,1296,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47881,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1257,1257,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47882,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1267,1267,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47883,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1308,1308,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47884,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1287,1287,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+47885,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,1265,1265,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+48008,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,377,377,F,F,,,F,F,,,,,0,0,F,F,F,Atlassian Old PAT token
+48009,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,458,458,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+48010,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,415,415,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
 48200,590cdcba,GitHub,2ba83c6a,data/2ba83c6a/other/590cdcba.pod,391,396,F,F,,,F,F,,,,,0,0,F,F,F,PEM Private Key
 48349,99a8cb87,GitHub,2ba83c6a,data/2ba83c6a/test/99a8cb87.key,1,7,T,T,,,F,F,Any,Private,,Unknown,2.45,30,F,F,F,PEM Private Key
 48354,ed9d180d,GitHub,2ba83c6a,data/2ba83c6a/test/ed9d180d.txt,984,989,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,PEM Private Key
@@ -2874,17 +2874,17 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 49159,35e9096f,GitHub,2ba83c6a,data/2ba83c6a/test/35e9096f.key,1,27,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,PEM Private Key
 49210,a0cd4dbc,GitHub,2ba83c6a,data/2ba83c6a/test/a0cd4dbc.txt,125,125,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 49211,a0cd4dbc,GitHub,2ba83c6a,data/2ba83c6a/test/a0cd4dbc.txt,95,95,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-49214,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,135,135,F,F,,,F,F,,,,,0,0,F,F,F,Info
-49215,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,101,101,F,F,,,F,F,,,,,0,0,F,F,F,Info
-49216,b40503ed,GitHub,2ba83c6a,data/2ba83c6a/test/b40503ed.txt,42,42,F,F,,,F,F,,,,,0,0,F,F,F,Info
-49217,a0cd4dbc,GitHub,2ba83c6a,data/2ba83c6a/test/a0cd4dbc.txt,70,70,F,F,,,F,F,,,,,0,0,F,F,F,Info
-49218,a3cf7bc8,GitHub,2ba83c6a,data/2ba83c6a/test/a3cf7bc8.txt,49,49,F,F,,,F,F,,,,,0,0,F,F,F,Info
-49223,b40503ed,GitHub,2ba83c6a,data/2ba83c6a/test/b40503ed.txt,62,62,F,F,,,F,F,,,,,0,0,F,F,F,Info
-49224,a0cd4dbc,GitHub,2ba83c6a,data/2ba83c6a/test/a0cd4dbc.txt,266,266,F,F,,,F,F,,,,,0,0,F,F,F,Info
-49225,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,329,329,F,F,,,F,F,,,,,0,0,F,F,F,Info
+49214,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,135,135,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
+49215,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,101,101,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
+49216,b40503ed,GitHub,2ba83c6a,data/2ba83c6a/test/b40503ed.txt,42,42,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
+49217,a0cd4dbc,GitHub,2ba83c6a,data/2ba83c6a/test/a0cd4dbc.txt,70,70,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
+49218,a3cf7bc8,GitHub,2ba83c6a,data/2ba83c6a/test/a3cf7bc8.txt,49,49,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
+49223,b40503ed,GitHub,2ba83c6a,data/2ba83c6a/test/b40503ed.txt,62,62,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
+49224,a0cd4dbc,GitHub,2ba83c6a,data/2ba83c6a/test/a0cd4dbc.txt,266,266,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
+49225,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,329,329,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
 49226,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,337,337,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-49227,a0cd4dbc,GitHub,2ba83c6a,data/2ba83c6a/test/a0cd4dbc.txt,260,260,F,F,,,F,F,,,,,0,0,F,F,F,Info
-49228,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,314,314,F,F,,,F,F,,,,,0,0,F,F,F,Info
+49227,a0cd4dbc,GitHub,2ba83c6a,data/2ba83c6a/test/a0cd4dbc.txt,260,260,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+49228,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,314,314,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
 49229,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,346,346,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 49235,8d9cfa62,GitHub,2ba83c6a,data/2ba83c6a/test/8d9cfa62.txt,25,25,Template,T,12,20,F,F,CharsOnly,,,Unknown,2.75,8,F,F,F,Password
 49236,8a68cd28,GitHub,2ba83c6a,data/2ba83c6a/test/8a68cd28.txt,17,17,Template,T,12,20,F,F,CharsOnly,,,Unknown,2.75,8,F,F,F,Password
@@ -6221,9 +6221,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 62585,a088cda0,GitHub,2ba83c6a,data/2ba83c6a/test/a088cda0.c,700,700,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 63308,ea838e3f,GitHub,2ba83c6a,data/2ba83c6a/src/ea838e3f.c,329,329,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 63309,ea838e3f,GitHub,2ba83c6a,data/2ba83c6a/src/ea838e3f.c,352,352,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-63336,7399d8e5,GitHub,2ba83c6a,data/2ba83c6a/src/7399d8e5.c,1076,1076,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-63337,7399d8e5,GitHub,2ba83c6a,data/2ba83c6a/src/7399d8e5.c,943,943,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-63338,7399d8e5,GitHub,2ba83c6a,data/2ba83c6a/src/7399d8e5.c,996,996,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+63336,7399d8e5,GitHub,2ba83c6a,data/2ba83c6a/src/7399d8e5.c,1076,1076,F,F,,,F,F,,,,,0,0,F,F,F,API
+63337,7399d8e5,GitHub,2ba83c6a,data/2ba83c6a/src/7399d8e5.c,943,943,F,F,,,F,F,,,,,0,0,F,F,F,API
+63338,7399d8e5,GitHub,2ba83c6a,data/2ba83c6a/src/7399d8e5.c,996,996,F,F,,,F,F,,,,,0,0,F,F,F,API
 63584,4c34afef,GitHub,2ba83c6a,data/2ba83c6a/src/4c34afef.c,34,34,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 63865,db882b7e,GitHub,2ba83c6a,data/2ba83c6a/src/db882b7e.c,266,266,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 63866,78ed4660,GitHub,2ba83c6a,data/2ba83c6a/src/78ed4660.c,357,357,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -7516,21 +7516,21 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 82859,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,180,180,F,F,0,27,F,F,,,,,0,0,F,F,F,Info
 82860,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,192,192,F,F,0,35,F,F,,,,,0,0,F,F,F,Info
 82861,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,193,193,F,F,0,27,F,F,,,,,0,0,F,F,F,Info
-82863,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,118,118,F,F,10,30,F,F,,,,,0,0,F,F,F,Info
-82864,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,123,123,F,F,9,29,F,F,,,,,0,0,F,F,F,Info
-82865,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,142,142,F,F,9,29,F,F,,,,,0,0,F,F,F,Info
-82866,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,149,149,F,F,9,29,F,F,,,,,0,0,F,F,F,Info
-82867,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,156,156,F,F,9,29,F,F,,,,,0,0,F,F,F,Info
-82868,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,168,168,F,F,9,29,F,F,,,,,0,0,F,F,F,Info
-82869,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,180,180,F,F,9,29,F,F,,,,,0,0,F,F,F,Info
-82870,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,192,192,F,F,9,29,F,F,,,,,0,0,F,F,F,Info
-82871,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,200,200,F,F,9,29,F,F,,,,,0,0,F,F,F,Info
-82872,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,322,322,F,F,7,39,F,F,,,,,0,0,F,F,F,Info
-82873,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,355,355,F,F,7,39,F,F,,,,,0,0,F,F,F,Info
-82874,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,364,364,F,F,7,27,F,F,,,,,0,0,F,F,F,Info
-82875,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,372,372,F,F,7,27,F,F,,,,,0,0,F,F,F,Info
-82876,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,378,378,F,F,7,27,F,F,,,,,0,0,F,F,F,Info
-82877,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,384,384,F,F,7,27,F,F,,,,,0,0,F,F,F,Info
+82863,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,118,118,F,F,10,30,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
+82864,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,123,123,F,F,9,29,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
+82865,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,142,142,F,F,9,29,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
+82866,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,149,149,F,F,9,29,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
+82867,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,156,156,F,F,9,29,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
+82868,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,168,168,F,F,9,29,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
+82869,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,180,180,F,F,9,29,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
+82870,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,192,192,F,F,9,29,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
+82871,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,200,200,F,F,9,29,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
+82872,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,322,322,F,F,7,39,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+82873,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,355,355,F,F,7,39,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+82874,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,364,364,F,F,7,27,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
+82875,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,372,372,F,F,7,27,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
+82876,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,378,378,F,F,7,27,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
+82877,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,384,384,F,F,7,27,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
 82878,8a68cd28,GitHub,2ba83c6a,data/2ba83c6a/test/8a68cd28.txt,24,24,Template,T,12,20,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
 82879,8a68cd28,GitHub,2ba83c6a,data/2ba83c6a/test/8a68cd28.txt,31,31,Template,T,12,20,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
 82880,8a68cd28,GitHub,2ba83c6a,data/2ba83c6a/test/8a68cd28.txt,38,38,Template,T,12,20,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
@@ -7539,17 +7539,17 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 82883,8a68cd28,GitHub,2ba83c6a,data/2ba83c6a/test/8a68cd28.txt,59,59,Template,T,12,20,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
 82884,8a68cd28,GitHub,2ba83c6a,data/2ba83c6a/test/8a68cd28.txt,66,66,Template,T,12,20,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
 82885,8a68cd28,GitHub,2ba83c6a,data/2ba83c6a/test/8a68cd28.txt,73,73,Template,T,12,20,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-82886,b40503ed,GitHub,2ba83c6a,data/2ba83c6a/test/b40503ed.txt,69,69,F,F,9,29,F,F,,,,,0,0,F,F,F,Info
-82887,b40503ed,GitHub,2ba83c6a,data/2ba83c6a/test/b40503ed.txt,77,77,F,F,9,29,F,F,,,,,0,0,F,F,F,Info
-82888,b40503ed,GitHub,2ba83c6a,data/2ba83c6a/test/b40503ed.txt,84,84,F,F,9,29,F,F,,,,,0,0,F,F,F,Info
-82889,b40503ed,GitHub,2ba83c6a,data/2ba83c6a/test/b40503ed.txt,90,90,F,F,9,29,F,F,,,,,0,0,F,F,F,Info
-82890,b40503ed,GitHub,2ba83c6a,data/2ba83c6a/test/b40503ed.txt,109,109,F,F,9,29,F,F,,,,,0,0,F,F,F,Info
-82891,b40503ed,GitHub,2ba83c6a,data/2ba83c6a/test/b40503ed.txt,210,210,F,F,9,29,F,F,,,,,0,0,F,F,F,Info
-82892,a3cf7bc8,GitHub,2ba83c6a,data/2ba83c6a/test/a3cf7bc8.txt,54,54,F,F,9,29,F,F,,,,,0,0,F,F,F,Info
-82893,a3cf7bc8,GitHub,2ba83c6a,data/2ba83c6a/test/a3cf7bc8.txt,60,60,F,F,9,29,F,F,,,,,0,0,F,F,F,Info
-82894,a3cf7bc8,GitHub,2ba83c6a,data/2ba83c6a/test/a3cf7bc8.txt,80,80,F,F,9,29,F,F,,,,,0,0,F,F,F,Info
-82895,a3cf7bc8,GitHub,2ba83c6a,data/2ba83c6a/test/a3cf7bc8.txt,87,87,F,F,9,29,F,F,,,,,0,0,F,F,F,Info
-82896,a3cf7bc8,GitHub,2ba83c6a,data/2ba83c6a/test/a3cf7bc8.txt,94,94,F,F,9,29,F,F,,,,,0,0,F,F,F,Info
+82886,b40503ed,GitHub,2ba83c6a,data/2ba83c6a/test/b40503ed.txt,69,69,F,F,9,29,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
+82887,b40503ed,GitHub,2ba83c6a,data/2ba83c6a/test/b40503ed.txt,77,77,F,F,9,29,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
+82888,b40503ed,GitHub,2ba83c6a,data/2ba83c6a/test/b40503ed.txt,84,84,F,F,9,29,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
+82889,b40503ed,GitHub,2ba83c6a,data/2ba83c6a/test/b40503ed.txt,90,90,F,F,9,29,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
+82890,b40503ed,GitHub,2ba83c6a,data/2ba83c6a/test/b40503ed.txt,109,109,F,F,9,29,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
+82891,b40503ed,GitHub,2ba83c6a,data/2ba83c6a/test/b40503ed.txt,210,210,F,F,9,29,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
+82892,a3cf7bc8,GitHub,2ba83c6a,data/2ba83c6a/test/a3cf7bc8.txt,54,54,F,F,9,29,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
+82893,a3cf7bc8,GitHub,2ba83c6a,data/2ba83c6a/test/a3cf7bc8.txt,60,60,F,F,9,29,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
+82894,a3cf7bc8,GitHub,2ba83c6a,data/2ba83c6a/test/a3cf7bc8.txt,80,80,F,F,9,29,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
+82895,a3cf7bc8,GitHub,2ba83c6a,data/2ba83c6a/test/a3cf7bc8.txt,87,87,F,F,9,29,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
+82896,a3cf7bc8,GitHub,2ba83c6a,data/2ba83c6a/test/a3cf7bc8.txt,94,94,F,F,9,29,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
 82898,a0cd4dbc,GitHub,2ba83c6a,data/2ba83c6a/test/a0cd4dbc.txt,101,101,F,F,10,46,F,F,,,,,0,0,F,F,F,Secret
 82899,a0cd4dbc,GitHub,2ba83c6a,data/2ba83c6a/test/a0cd4dbc.txt,113,113,F,F,9,45,F,F,,,,,0,0,F,F,F,Secret
 82900,a0cd4dbc,GitHub,2ba83c6a,data/2ba83c6a/test/a0cd4dbc.txt,132,132,F,F,9,44,F,F,,,,,0,0,F,F,F,Secret
@@ -9794,7 +9794,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 130792,0e0b1c0e,GitHub,2ba83c6a,data/2ba83c6a/src/0e0b1c0e.c,331,331,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 130793,cf577288,GitHub,2ba83c6a,data/2ba83c6a/src/cf577288.txt,55,55,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130795,8a68cd28,GitHub,2ba83c6a,data/2ba83c6a/test/8a68cd28.txt,145,145,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-130797,c4df9321,GitHub,2ba83c6a,data/2ba83c6a/src/c4df9321.c,1343,1343,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
+130797,c4df9321,GitHub,2ba83c6a,data/2ba83c6a/src/c4df9321.c,1343,1343,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
 130799,07d8fbd6,GitHub,2ba83c6a,data/2ba83c6a/test/07d8fbd6.t,80,80,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130800,d2be8070,GitHub,2ba83c6a,data/2ba83c6a/test/d2be8070.c,1209,1209,F,F,30,34,F,F,,,,,0.00,,F,F,F,Password
 130801,0e0b1c0e,GitHub,2ba83c6a,data/2ba83c6a/src/0e0b1c0e.c,800,800,F,F,,,F,F,,,,,0.00,,F,F,F,Password
@@ -9822,7 +9822,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 132545,cf577288,GitHub,2ba83c6a,data/2ba83c6a/src/cf577288.txt,37,37,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
 132546,cf577288,GitHub,2ba83c6a,data/2ba83c6a/src/cf577288.txt,57,57,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
 132547,cf577288,GitHub,2ba83c6a,data/2ba83c6a/src/cf577288.txt,59,59,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
-132548,cf577288,GitHub,2ba83c6a,data/2ba83c6a/src/cf577288.txt,68,68,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
+132548,cf577288,GitHub,2ba83c6a,data/2ba83c6a/src/cf577288.txt,68,68,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
 132549,cf577288,GitHub,2ba83c6a,data/2ba83c6a/src/cf577288.txt,76,76,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
 132550,cf577288,GitHub,2ba83c6a,data/2ba83c6a/src/cf577288.txt,85,85,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
 132551,cf577288,GitHub,2ba83c6a,data/2ba83c6a/src/cf577288.txt,111,111,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
@@ -9888,7 +9888,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 132611,cf577288,GitHub,2ba83c6a,data/2ba83c6a/src/cf577288.txt,572,572,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
 132612,cf577288,GitHub,2ba83c6a,data/2ba83c6a/src/cf577288.txt,573,573,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
 132613,cf577288,GitHub,2ba83c6a,data/2ba83c6a/src/cf577288.txt,578,578,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-132614,cf577288,GitHub,2ba83c6a,data/2ba83c6a/src/cf577288.txt,585,585,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
+132614,cf577288,GitHub,2ba83c6a,data/2ba83c6a/src/cf577288.txt,585,585,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
 132615,cf577288,GitHub,2ba83c6a,data/2ba83c6a/src/cf577288.txt,587,587,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
 132616,cf577288,GitHub,2ba83c6a,data/2ba83c6a/src/cf577288.txt,596,596,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
 132617,cf577288,GitHub,2ba83c6a,data/2ba83c6a/src/cf577288.txt,627,627,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
@@ -9950,8 +9950,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 133143,6cfa362d,GitHub,2ba83c6a,data/2ba83c6a/src/6cfa362d.cnf,308,308,F,F,,,F,F,,,,,0,0,F,F,F,Certificate
 133144,6cfa362d,GitHub,2ba83c6a,data/2ba83c6a/src/6cfa362d.cnf,326,326,F,F,,,F,F,,,,,0,0,F,F,F,Certificate
 133145,7399d8e5,GitHub,2ba83c6a,data/2ba83c6a/src/7399d8e5.c,181,181,F,F,,,F,F,,,,,0,0,F,F,F,API
-133146,7399d8e5,GitHub,2ba83c6a,data/2ba83c6a/src/7399d8e5.c,182,182,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-133147,7399d8e5,GitHub,2ba83c6a,data/2ba83c6a/src/7399d8e5.c,183,183,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+133146,7399d8e5,GitHub,2ba83c6a,data/2ba83c6a/src/7399d8e5.c,182,182,F,F,,,F,F,,,,,0,0,F,F,F,API
+133147,7399d8e5,GitHub,2ba83c6a,data/2ba83c6a/src/7399d8e5.c,183,183,F,F,,,F,F,,,,,0,0,F,F,F,API
 133148,b689ad42,GitHub,2ba83c6a,data/2ba83c6a/src/b689ad42.txt,9,9,F,F,,,F,F,,,,,0,0,F,F,F,API
 133149,b689ad42,GitHub,2ba83c6a,data/2ba83c6a/src/b689ad42.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,API
 133150,b689ad42,GitHub,2ba83c6a,data/2ba83c6a/src/b689ad42.txt,12,12,F,F,,,F,F,,,,,0,0,F,F,F,API
@@ -10030,7 +10030,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 133223,cf5b9201,GitHub,2ba83c6a,data/2ba83c6a/src/cf5b9201.txt,1426,1426,F,F,,,F,F,,,,,0,0,F,F,F,Certificate
 133224,cf5b9201,GitHub,2ba83c6a,data/2ba83c6a/src/cf5b9201.txt,1430,1430,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 133225,cf5b9201,GitHub,2ba83c6a,data/2ba83c6a/src/cf5b9201.txt,1483,1483,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
-133226,cf5b9201,GitHub,2ba83c6a,data/2ba83c6a/src/cf5b9201.txt,1520,1520,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+133226,cf5b9201,GitHub,2ba83c6a,data/2ba83c6a/src/cf5b9201.txt,1520,1520,F,F,,,F,F,,,,,0,0,F,F,F,Certificate
 133227,cf5b9201,GitHub,2ba83c6a,data/2ba83c6a/src/cf5b9201.txt,1538,1538,F,F,,,F,F,,,,,0,0,F,F,F,Certificate
 133228,cf5b9201,GitHub,2ba83c6a,data/2ba83c6a/src/cf5b9201.txt,1539,1539,F,F,,,F,F,,,,,0,0,F,F,F,Certificate
 133229,cf5b9201,GitHub,2ba83c6a,data/2ba83c6a/src/cf5b9201.txt,1540,1540,F,F,,,F,F,,,,,0,0,F,F,F,Certificate

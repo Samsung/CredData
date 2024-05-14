@@ -66,7 +66,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 15962,f39085c6,GitHub,bdaf1007,data/bdaf1007/src/f39085c6.c,992,992,F,F,,,F,F,,,,,0,0,F,F,F,Token
 16980,31041e6a,GitHub,bdaf1007,data/bdaf1007/src/31041e6a.rs,18,18,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 17092,a86e4631,GitHub,bdaf1007,data/bdaf1007/src/a86e4631.rs,34,34,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
-17751,8a44ff48,GitHub,bdaf1007,data/bdaf1007/src/8a44ff48.rs,203,203,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+17751,8a44ff48,GitHub,bdaf1007,data/bdaf1007/src/8a44ff48.rs,203,203,F,F,,,F,F,,,,,0,0,F,F,F,Key
 17773,e4425a36,GitHub,bdaf1007,data/bdaf1007/src/e4425a36.rs,78,78,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 18072,f39085c6,GitHub,bdaf1007,data/bdaf1007/src/f39085c6.c,973,973,F,F,,,F,F,,,,,0,0,F,F,F,Token
 18073,8b0a1f2f,GitHub,bdaf1007,data/bdaf1007/src/8b0a1f2f.c,496,496,F,F,,,F,F,,,,,0,0,F,F,F,Token
@@ -160,7 +160,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 110074,8a44ff48,GitHub,bdaf1007,data/bdaf1007/src/8a44ff48.rs,779,779,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 110075,742c6aac,GitHub,bdaf1007,data/bdaf1007/src/742c6aac.rs,90,90,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 110076,742c6aac,GitHub,bdaf1007,data/bdaf1007/src/742c6aac.rs,124,124,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-110077,742c6aac,GitHub,bdaf1007,data/bdaf1007/src/742c6aac.rs,70,70,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110077,742c6aac,GitHub,bdaf1007,data/bdaf1007/src/742c6aac.rs,70,70,F,F,,,F,F,,,,,0.00,,F,F,F,Salt
 110078,035a162c,GitHub,bdaf1007,data/bdaf1007/src/035a162c.rs,91,91,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 110079,035a162c,GitHub,bdaf1007,data/bdaf1007/src/035a162c.rs,95,95,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 110080,035a162c,GitHub,bdaf1007,data/bdaf1007/src/035a162c.rs,130,130,F,F,,,F,F,,,,,0.00,,F,F,F,Password
@@ -172,8 +172,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 110086,fb3d81be,GitHub,bdaf1007,data/bdaf1007/src/fb3d81be.rs,935,935,F,F,,,F,F,,,,,0.00,,F,F,F,Salt
 110087,fb3d81be,GitHub,bdaf1007,data/bdaf1007/src/fb3d81be.rs,936,936,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 110088,fb3d81be,GitHub,bdaf1007,data/bdaf1007/src/fb3d81be.rs,938,938,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-110089,fb3d81be,GitHub,bdaf1007,data/bdaf1007/src/fb3d81be.rs,1040,1040,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
-110090,fb3d81be,GitHub,bdaf1007,data/bdaf1007/src/fb3d81be.rs,1131,1131,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
+110089,fb3d81be,GitHub,bdaf1007,data/bdaf1007/src/fb3d81be.rs,1040,1040,F,F,,,F,F,,,,,0.00,,F,F,F,Nonce
+110090,fb3d81be,GitHub,bdaf1007,data/bdaf1007/src/fb3d81be.rs,1131,1131,F,F,,,F,F,,,,,0.00,,F,F,F,Nonce
 110091,c26518a1,GitHub,bdaf1007,data/bdaf1007/src/c26518a1.rs,28,28,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 110092,c26518a1,GitHub,bdaf1007,data/bdaf1007/src/c26518a1.rs,34,34,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 110093,c26518a1,GitHub,bdaf1007,data/bdaf1007/src/c26518a1.rs,40,40,F,F,,,F,F,,,,,0.00,,F,F,F,Secret

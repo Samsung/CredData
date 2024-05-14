@@ -4,7 +4,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 686,1c1c5fd0,GitHub,f008dd40,data/f008dd40/src/1c1c5fd0.ts,8,8,F,F,,,F,F,,,,,0,0,F,F,F,Password
 823,0bbc7302,GitHub,f008dd40,data/f008dd40/src/0bbc7302.yml,672,672,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 824,0bbc7302,GitHub,f008dd40,data/f008dd40/src/0bbc7302.yml,675,675,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-825,0bbc7302,GitHub,f008dd40,data/f008dd40/src/0bbc7302.yml,756,756,T,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+825,0bbc7302,GitHub,f008dd40,data/f008dd40/src/0bbc7302.yml,756,756,T,F,,,F,F,,,,,0,0,F,F,F,JSON Web Token
 826,0bbc7302,GitHub,f008dd40,data/f008dd40/src/0bbc7302.yml,796,796,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 827,0bbc7302,GitHub,f008dd40,data/f008dd40/src/0bbc7302.yml,669,669,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 828,0bbc7302,GitHub,f008dd40,data/f008dd40/src/0bbc7302.yml,705,705,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -53,7 +53,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 4409,03384a51,GitHub,f008dd40,data/f008dd40/test/03384a51.go,374,374,F,F,,,F,F,,,,,0,0,F,F,F,Token
 5762,a40d8da9,GitHub,f008dd40,data/f008dd40/test/a40d8da9.go,41,41,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 5764,26b86f57,GitHub,f008dd40,data/f008dd40/test/26b86f57.go,49,49,F,F,,,F,F,,,,,0,0,F,F,F,Password
-5883,0903b235,GitHub,f008dd40,data/f008dd40/other/0903b235.md,213,213,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+5883,0903b235,GitHub,f008dd40,data/f008dd40/other/0903b235.md,213,213,F,F,,,F,F,,,,,0,0,F,F,F,API
 7508,1abcfe50,GitHub,f008dd40,data/f008dd40/src/1abcfe50.go,25,25,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 7561,690181bf,GitHub,f008dd40,data/f008dd40/src/690181bf.ts,6,6,F,F,,,F,F,,,,,0,0,F,F,F,Token
 8560,68f31c9a,GitHub,f008dd40,data/f008dd40/other/68f31c9a.md,33,33,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -370,8 +370,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 83089,3295df72,GitHub,f008dd40,data/f008dd40/src/3295df72.sum,256,256,F,F,45,89,F,F,,,,,0,0,F,F,F,Predefined Pattern
 83090,3295df72,GitHub,f008dd40,data/f008dd40/src/3295df72.sum,257,257,F,F,45,89,F,F,,,,,0,0,F,F,F,Predefined Pattern
 83091,4026905e,GitHub,f008dd40,data/f008dd40/src/4026905e.tsx,29,29,F,F,15,23,F,F,,,,,0,0,F,F,F,Password
-83092,716b6859,GitHub,f008dd40,data/f008dd40/test/716b6859.yml,2,2,F,F,12,19,F,F,,,,,0,0,F,F,F,Predefined Pattern
-83093,c1d1b2dd,GitHub,f008dd40,data/f008dd40/test/c1d1b2dd.yml,2,2,F,F,12,19,F,F,,,,,0,0,F,F,F,Predefined Pattern
+83092,716b6859,GitHub,f008dd40,data/f008dd40/test/716b6859.yml,2,2,F,F,12,19,F,F,,,,,0,0,F,F,F,API
+83093,c1d1b2dd,GitHub,f008dd40,data/f008dd40/test/c1d1b2dd.yml,2,2,F,F,12,19,F,F,,,,,0,0,F,F,F,API
 101922,bad29981,GitHub,f008dd40,data/f008dd40/other/bad29981.md,56,56,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 101923,0903b235,GitHub,f008dd40,data/f008dd40/other/0903b235.md,69,69,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 101924,0903b235,GitHub,f008dd40,data/f008dd40/other/0903b235.md,120,120,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
@@ -409,10 +409,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 101956,5b6e1cea,GitHub,f008dd40,data/f008dd40/src/5b6e1cea.yml,579,579,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 101957,5b6e1cea,GitHub,f008dd40,data/f008dd40/src/5b6e1cea.yml,583,583,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 101958,5b6e1cea,GitHub,f008dd40,data/f008dd40/src/5b6e1cea.yml,598,598,Template,T,10,26,F,F,Any,,,Secret,2.58,16,F,F,F,Secret
-101959,cfd22398,GitHub,f008dd40,data/f008dd40/test/cfd22398.go,143,143,F,F,,,F,F,,,,,0.00,,F,F,F,Info
-101960,cfd22398,GitHub,f008dd40,data/f008dd40/test/cfd22398.go,285,285,F,F,,,F,F,,,,,0.00,,F,F,F,Info
-101961,cfd22398,GitHub,f008dd40,data/f008dd40/test/cfd22398.go,299,299,F,F,,,F,F,,,,,0.00,,F,F,F,Info
-101962,a09d0f8e,GitHub,f008dd40,data/f008dd40/test/a09d0f8e.js,9,9,Template,T,45,51,F,F,CharOnly,,,Secret,2.25,6,F,F,F,Unknown:notfound
+101959,cfd22398,GitHub,f008dd40,data/f008dd40/test/cfd22398.go,143,143,F,F,,,F,F,,,,,0.00,,F,F,F,Bitbucket Client ID
+101960,cfd22398,GitHub,f008dd40,data/f008dd40/test/cfd22398.go,285,285,F,F,,,F,F,,,,,0.00,,F,F,F,Bitbucket Client ID
+101961,cfd22398,GitHub,f008dd40,data/f008dd40/test/cfd22398.go,299,299,F,F,,,F,F,,,,,0.00,,F,F,F,Bitbucket Client ID
+101962,a09d0f8e,GitHub,f008dd40,data/f008dd40/test/a09d0f8e.js,9,9,Template,T,45,51,F,F,CharOnly,,,Secret,2.25,6,F,F,F,Info
 101963,bad29981,GitHub,f008dd40,data/f008dd40/other/bad29981.md,20,20,Template,T,10,18,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Password
 101964,57c75806,GitHub,f008dd40,data/f008dd40/src/57c75806.go,6,6,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 101965,57c75806,GitHub,f008dd40,data/f008dd40/src/57c75806.go,24,24,F,F,,,F,F,,,,,0.00,,F,F,F,Password
@@ -445,22 +445,22 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 101994,d485c46a,GitHub,f008dd40,data/f008dd40/test/d485c46a.md,123,123,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 101995,d485c46a,GitHub,f008dd40,data/f008dd40/test/d485c46a.md,127,127,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 101996,d485c46a,GitHub,f008dd40,data/f008dd40/test/d485c46a.md,128,128,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-101997,d485c46a,GitHub,f008dd40,data/f008dd40/test/d485c46a.md,129,129,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
+101997,d485c46a,GitHub,f008dd40,data/f008dd40/test/d485c46a.md,129,129,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
 101998,d485c46a,GitHub,f008dd40,data/f008dd40/test/d485c46a.md,131,131,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 101999,d485c46a,GitHub,f008dd40,data/f008dd40/test/d485c46a.md,134,134,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 102000,1c846536,GitHub,f008dd40,data/f008dd40/test/1c846536.yml,88,88,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 102001,1c846536,GitHub,f008dd40,data/f008dd40/test/1c846536.yml,89,89,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-102002,1c846536,GitHub,f008dd40,data/f008dd40/test/1c846536.yml,91,91,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
+102002,1c846536,GitHub,f008dd40,data/f008dd40/test/1c846536.yml,91,91,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
 102003,1c846536,GitHub,f008dd40,data/f008dd40/test/1c846536.yml,92,92,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 102004,c592e77b,GitHub,f008dd40,data/f008dd40/test/c592e77b.go,68,68,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-102005,c592e77b,GitHub,f008dd40,data/f008dd40/test/c592e77b.go,80,80,Template,T,39,44,F,F,CharOnly,,,Secret,1.92,5,F,F,F,Unknown:notfound
+102005,c592e77b,GitHub,f008dd40,data/f008dd40/test/c592e77b.go,80,80,Template,T,39,44,F,F,CharOnly,,,Secret,1.92,5,F,F,F,Info
 102006,c592e77b,GitHub,f008dd40,data/f008dd40/test/c592e77b.go,92,92,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 102007,c592e77b,GitHub,f008dd40,data/f008dd40/test/c592e77b.go,105,105,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 102008,c592e77b,GitHub,f008dd40,data/f008dd40/test/c592e77b.go,116,116,Template,T,39,43,F,F,CharOnly,,,Secret,2.00,4,F,F,F,Password
-102009,c592e77b,GitHub,f008dd40,data/f008dd40/test/c592e77b.go,141,141,Template,T,32,37,F,F,CharOnly,,,Secret,1.92,5,F,F,F,Unknown:notfound
-102010,c592e77b,GitHub,f008dd40,data/f008dd40/test/c592e77b.go,146,146,Template,T,39,44,F,F,CharOnly,,,Secret,1.92,5,F,F,F,Unknown:notfound
-102011,c592e77b,GitHub,f008dd40,data/f008dd40/test/c592e77b.go,159,159,Template,T,32,37,F,F,CharOnly,,,Secret,1.92,5,F,F,F,Unknown:notfound
-102012,c592e77b,GitHub,f008dd40,data/f008dd40/test/c592e77b.go,164,164,Template,T,39,44,F,F,CharOnly,,,Secret,1.92,5,F,F,F,Unknown:notfound
+102009,c592e77b,GitHub,f008dd40,data/f008dd40/test/c592e77b.go,141,141,Template,T,32,37,F,F,CharOnly,,,Secret,1.92,5,F,F,F,Info
+102010,c592e77b,GitHub,f008dd40,data/f008dd40/test/c592e77b.go,146,146,Template,T,39,44,F,F,CharOnly,,,Secret,1.92,5,F,F,F,Info
+102011,c592e77b,GitHub,f008dd40,data/f008dd40/test/c592e77b.go,159,159,Template,T,32,37,F,F,CharOnly,,,Secret,1.92,5,F,F,F,Info
+102012,c592e77b,GitHub,f008dd40,data/f008dd40/test/c592e77b.go,164,164,Template,T,39,44,F,F,CharOnly,,,Secret,1.92,5,F,F,F,Info
 102013,c592e77b,GitHub,f008dd40,data/f008dd40/test/c592e77b.go,167,167,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 102014,c592e77b,GitHub,f008dd40,data/f008dd40/test/c592e77b.go,179,179,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 102015,c592e77b,GitHub,f008dd40,data/f008dd40/test/c592e77b.go,180,180,F,F,,,F,F,,,,,0.00,,F,F,F,Password
@@ -471,19 +471,19 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 102020,603602c6,GitHub,f008dd40,data/f008dd40/test/603602c6.go,621,621,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 102021,a40d8da9,GitHub,f008dd40,data/f008dd40/test/a40d8da9.go,16,16,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 102022,a40d8da9,GitHub,f008dd40,data/f008dd40/test/a40d8da9.go,25,25,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-102023,a40d8da9,GitHub,f008dd40,data/f008dd40/test/a40d8da9.go,29,29,F,F,,,F,F,,,,,0.00,,F,F,F,Info
+102023,a40d8da9,GitHub,f008dd40,data/f008dd40/test/a40d8da9.go,29,29,F,F,,,F,F,,,,,0.00,,F,F,F,Atlassian Old PAT token
 102024,a40d8da9,GitHub,f008dd40,data/f008dd40/test/a40d8da9.go,50,50,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-102025,a40d8da9,GitHub,f008dd40,data/f008dd40/test/a40d8da9.go,65,65,F,F,,,F,F,,,,,0.00,,F,F,F,Info
+102025,a40d8da9,GitHub,f008dd40,data/f008dd40/test/a40d8da9.go,65,65,F,F,,,F,F,,,,,0.00,,F,F,F,Atlassian Old PAT token
 102026,a40d8da9,GitHub,f008dd40,data/f008dd40/test/a40d8da9.go,81,81,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 102027,a40d8da9,GitHub,f008dd40,data/f008dd40/test/a40d8da9.go,88,88,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-102028,a40d8da9,GitHub,f008dd40,data/f008dd40/test/a40d8da9.go,98,98,F,F,,,F,F,,,,,0.00,,F,F,F,Info
-102029,a40d8da9,GitHub,f008dd40,data/f008dd40/test/a40d8da9.go,107,107,F,F,,,F,F,,,,,0.00,,F,F,F,Info
-102030,a40d8da9,GitHub,f008dd40,data/f008dd40/test/a40d8da9.go,116,116,F,F,,,F,F,,,,,0.00,,F,F,F,Info
-102031,a40d8da9,GitHub,f008dd40,data/f008dd40/test/a40d8da9.go,125,125,F,F,,,F,F,,,,,0.00,,F,F,F,Info
-102032,a40d8da9,GitHub,f008dd40,data/f008dd40/test/a40d8da9.go,134,134,F,F,,,F,F,,,,,0.00,,F,F,F,Info
-102033,a40d8da9,GitHub,f008dd40,data/f008dd40/test/a40d8da9.go,143,143,F,F,,,F,F,,,,,0.00,,F,F,F,Info
-102034,a40d8da9,GitHub,f008dd40,data/f008dd40/test/a40d8da9.go,153,153,F,F,,,F,F,,,,,0.00,,F,F,F,Info
-102035,a40d8da9,GitHub,f008dd40,data/f008dd40/test/a40d8da9.go,162,162,F,F,,,F,F,,,,,0.00,,F,F,F,Info
+102028,a40d8da9,GitHub,f008dd40,data/f008dd40/test/a40d8da9.go,98,98,F,F,,,F,F,,,,,0.00,,F,F,F,Atlassian Old PAT token
+102029,a40d8da9,GitHub,f008dd40,data/f008dd40/test/a40d8da9.go,107,107,F,F,,,F,F,,,,,0.00,,F,F,F,Atlassian Old PAT token
+102030,a40d8da9,GitHub,f008dd40,data/f008dd40/test/a40d8da9.go,116,116,F,F,,,F,F,,,,,0.00,,F,F,F,Atlassian Old PAT token
+102031,a40d8da9,GitHub,f008dd40,data/f008dd40/test/a40d8da9.go,125,125,F,F,,,F,F,,,,,0.00,,F,F,F,Atlassian Old PAT token
+102032,a40d8da9,GitHub,f008dd40,data/f008dd40/test/a40d8da9.go,134,134,F,F,,,F,F,,,,,0.00,,F,F,F,Atlassian Old PAT token
+102033,a40d8da9,GitHub,f008dd40,data/f008dd40/test/a40d8da9.go,143,143,F,F,,,F,F,,,,,0.00,,F,F,F,Atlassian Old PAT token
+102034,a40d8da9,GitHub,f008dd40,data/f008dd40/test/a40d8da9.go,153,153,F,F,,,F,F,,,,,0.00,,F,F,F,Atlassian Old PAT token
+102035,a40d8da9,GitHub,f008dd40,data/f008dd40/test/a40d8da9.go,162,162,F,F,,,F,F,,,,,0.00,,F,F,F,Atlassian Old PAT token
 102036,a40d8da9,GitHub,f008dd40,data/f008dd40/test/a40d8da9.go,171,171,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 102037,a40d8da9,GitHub,f008dd40,data/f008dd40/test/a40d8da9.go,177,177,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 102038,a40d8da9,GitHub,f008dd40,data/f008dd40/test/a40d8da9.go,222,222,F,F,,,F,F,,,,,0.00,,F,F,F,Password
@@ -520,7 +520,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 113130,d485c46a,GitHub,f008dd40,data/f008dd40/test/d485c46a.md,45,45,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 130810,006b950d,GitHub,f008dd40,data/f008dd40/test/006b950d.go,88,88,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130811,1c1c5fd0,GitHub,f008dd40,data/f008dd40/src/1c1c5fd0.ts,13,13,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-130813,0945e78c,GitHub,f008dd40,data/f008dd40/src/0945e78c.go,34,34,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
+130813,0945e78c,GitHub,f008dd40,data/f008dd40/src/0945e78c.go,34,34,F,F,,,F,F,,,,,0.00,,F,F,F,API
 130814,6e415fc6,GitHub,f008dd40,data/f008dd40/test/6e415fc6.go,30,30,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130815,006b950d,GitHub,f008dd40,data/f008dd40/test/006b950d.go,47,47,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130816,c592e77b,GitHub,f008dd40,data/f008dd40/test/c592e77b.go,267,267,F,F,,,F,F,,,,,0.00,,F,F,F,Password

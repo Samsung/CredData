@@ -1,11 +1,11 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
 143,9ecafaf4,GitHub,654956e7,data/654956e7/src/9ecafaf4.sh,48,48,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 231,42f56881,GitHub,654956e7,data/654956e7/src/42f56881.sh,77,77,F,F,,,F,F,,,,,0,0,F,F,F,Token
-304,1d0a3691,GitHub,654956e7,data/654956e7/src/1d0a3691.scala,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Info
+304,1d0a3691,GitHub,654956e7,data/654956e7/src/1d0a3691.scala,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
 473,bfaf6417,GitHub,654956e7,data/654956e7/other/bfaf6417.md,35,35,F,F,,,F,F,,,,,0,0,F,F,F,Token
 474,ec906265,GitHub,654956e7,data/654956e7/other/ec906265.md,29,29,F,F,,,F,F,,,,,0,0,F,F,F,Token
 1021,9f10437f,GitHub,654956e7,data/654956e7/other/9f10437f,24,24,F,F,,,F,F,,,,,0,0,F,F,F,Token
-2761,fadae465,GitHub,654956e7,data/654956e7/src/fadae465.sh,11,11,F,F,,,F,F,,,,,0,0,F,F,F,Info
+2761,fadae465,GitHub,654956e7,data/654956e7/src/fadae465.sh,11,11,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
 3198,4a2dc115,GitHub,654956e7,data/654956e7/other/4a2dc115,140,140,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 3199,4a2dc115,GitHub,654956e7,data/654956e7/other/4a2dc115,125,125,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 3832,4df7519b,GitHub,654956e7,data/654956e7/src/4df7519b.rb,26,26,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -46,7 +46,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 21009,657c501c,GitHub,654956e7,data/654956e7/src/657c501c.sh,20,20,F,F,,,F,F,,,,,0,0,F,F,F,Token
 23430,4df7519b,GitHub,654956e7,data/654956e7/src/4df7519b.rb,141,141,F,F,,,F,F,,,,,0,0,F,F,F,Token
 23450,bdff7206,GitHub,654956e7,data/654956e7/src/bdff7206.rb,87,87,F,F,,,F,F,,,,,0,0,F,F,F,Token
-23722,2d0bafab,GitHub,654956e7,data/654956e7/other/2d0bafab.md,81,81,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+23722,2d0bafab,GitHub,654956e7,data/654956e7/other/2d0bafab.md,81,81,F,F,,,F,F,,,,,0,0,F,F,F,API
 23822,83fae64a,GitHub,654956e7,data/654956e7/src/83fae64a.sh,57,57,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 23823,39ab7bf3,GitHub,654956e7,data/654956e7/src/39ab7bf3.sh,58,58,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 23824,39ab7bf3,GitHub,654956e7,data/654956e7/src/39ab7bf3.sh,57,57,F,F,,,F,F,,,,,0,0,F,F,F,Auth
@@ -109,7 +109,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 102536,bdff7206,GitHub,654956e7,data/654956e7/src/bdff7206.rb,108,108,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 102537,bdff7206,GitHub,654956e7,data/654956e7/src/bdff7206.rb,109,109,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 102538,bdff7206,GitHub,654956e7,data/654956e7/src/bdff7206.rb,117,117,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-102540,a726c6e6,GitHub,654956e7,data/654956e7/src/a726c6e6.rb,98,98,F,F,,,F,F,,,,,0.00,,F,F,F,Info
+102540,a726c6e6,GitHub,654956e7,data/654956e7/src/a726c6e6.rb,98,98,F,F,,,F,F,,,,,0.00,,F,F,F,Gitlab Feed Token
 113721,bb631147,GitHub,654956e7,data/654956e7/src/bb631147.js,68,68,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
 132013,09180f55,GitHub,654956e7,data/654956e7/test/09180f55.graphql,2,2,T,F,152,166,F,F,,,Info,,0.00,,F,F,F,IPv4
 133401,5f089171,GitHub,654956e7,data/654956e7/other/5f089171.md,23,23,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Credential

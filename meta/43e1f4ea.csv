@@ -5,7 +5,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 3776,eeee420b,GitHub,43e1f4ea,data/43e1f4ea/test/eeee420b,29,29,F,F,,,F,F,,,,,0,0,F,F,F,Token
 4932,ac997a2c,GitHub,43e1f4ea,data/43e1f4ea/test/ac997a2c.java,60,60,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 5754,ac997a2c,GitHub,43e1f4ea,data/43e1f4ea/test/ac997a2c.java,65,65,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-8916,8661f4ba,GitHub,43e1f4ea,data/43e1f4ea/src/8661f4ba.gradle,59,59,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+8916,8661f4ba,GitHub,43e1f4ea,data/43e1f4ea/src/8661f4ba.gradle,59,59,F,F,,,F,F,,,,,0,0,F,F,F,API
 9083,a748d289,GitHub,43e1f4ea,data/43e1f4ea/test/a748d289.gradle,10,10,F,F,,,F,F,,,,,0,0,F,F,F,API
 9084,6cffa70f,GitHub,43e1f4ea,data/43e1f4ea/test/6cffa70f.gradle,6,6,F,F,,,F,F,,,,,0,0,F,F,F,API
 11116,210b46ef,GitHub,43e1f4ea,data/43e1f4ea/src/210b46ef.yml,26,26,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -57,8 +57,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 74876,317a1df2,GitHub,43e1f4ea,data/43e1f4ea/test/317a1df2.java,60,60,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 80855,8147dbcd,GitHub,43e1f4ea,data/43e1f4ea/test/8147dbcd.bat,29,29,Template,F,18,24,F,F,,,,,0,0,F,F,F,Secret
 80856,eeee420b,GitHub,43e1f4ea,data/43e1f4ea/test/eeee420b,30,30,Template,F,14,20,F,F,,,,,0,0,F,F,F,Secret
-100626,fae73aef,GitHub,43e1f4ea,data/43e1f4ea/test/fae73aef.java,36,36,Template,T,22,27,F,F,CharOnly,,,Secret,2.32,5,F,F,F,Unknown:notfound
-100627,fae73aef,GitHub,43e1f4ea,data/43e1f4ea/test/fae73aef.java,37,37,Template,T,28,41,F,F,Any,,,Secret,3.11,13,F,F,F,Unknown:notfound
+100626,fae73aef,GitHub,43e1f4ea,data/43e1f4ea/test/fae73aef.java,36,36,Template,T,22,27,F,F,CharOnly,,,Secret,2.32,5,F,F,F,Info
+100627,fae73aef,GitHub,43e1f4ea,data/43e1f4ea/test/fae73aef.java,37,37,Template,T,28,41,F,F,Any,,,Secret,3.11,13,F,F,F,Info
 110193,8661f4ba,GitHub,43e1f4ea,data/43e1f4ea/src/8661f4ba.gradle,183,183,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
 110194,8a248cc4,GitHub,43e1f4ea,data/43e1f4ea/test/8a248cc4.yaml,164,164,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Credential
 110195,8a248cc4,GitHub,43e1f4ea,data/43e1f4ea/test/8a248cc4.yaml,172,172,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Credential

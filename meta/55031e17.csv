@@ -68,7 +68,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 11570,56565499,GitHub,55031e17,data/55031e17/src/56565499.py,138,138,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 11589,3884a377,GitHub,55031e17,data/55031e17/test/3884a377.py,87,87,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 11773,38202780,GitHub,55031e17,data/55031e17/src/38202780.py,219,219,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-11848,962488f5,GitHub,55031e17,data/55031e17/test/962488f5.py,50,50,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+11848,962488f5,GitHub,55031e17,data/55031e17/test/962488f5.py,50,50,F,F,,,F,F,,,,,0,0,F,F,F,URL Credentials
 12159,18f41449,GitHub,55031e17,data/55031e17/src/18f41449.py,152,152,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 12259,0f9b956e,GitHub,55031e17,data/55031e17/src/0f9b956e.py,16,16,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 12457,2c6b0595,GitHub,55031e17,data/55031e17/src/2c6b0595.py,225,225,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -86,7 +86,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 14391,e730089a,GitHub,55031e17,data/55031e17/test/e730089a.py,26,26,F,F,,,F,F,,,,,0,0,F,F,F,URL Credentials
 14392,5bf90f43,GitHub,55031e17,data/55031e17/test/5bf90f43.py,28,28,F,F,,,F,F,,,,,0,0,F,F,F,URL Credentials
 14393,fbe3767b,GitHub,55031e17,data/55031e17/test/fbe3767b.py,33,33,F,F,,,F,F,,,,,0,0,F,F,F,URL Credentials
-15047,cb11ba4c,GitHub,55031e17,data/55031e17/test/cb11ba4c.py,60,60,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+15047,cb11ba4c,GitHub,55031e17,data/55031e17/test/cb11ba4c.py,60,60,F,F,,,F,F,,,,,0,0,F,F,F,IPv4
 15053,730dacdf,GitHub,55031e17,data/55031e17/test/730dacdf.py,282,282,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 15083,cb11ba4c,GitHub,55031e17,data/55031e17/test/cb11ba4c.py,36,36,F,F,,,F,F,,,,,0,0,F,F,F,Password:URL Credentials
 15129,eb752b5a,GitHub,55031e17,data/55031e17/test/eb752b5a.py,340,340,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -106,8 +106,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 21096,cd64aeba,GitHub,55031e17,data/55031e17/src/cd64aeba.py,250,250,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 21097,cd64aeba,GitHub,55031e17,data/55031e17/src/cd64aeba.py,253,253,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 21307,d9e6bd07,GitHub,55031e17,data/55031e17/src/d9e6bd07.py,215,215,F,F,,,F,F,NumberOnly,,,Secret,2.00,4,F,F,F,Password:URL Credentials
-21620,7d2d6b5a,GitHub,55031e17,data/55031e17/src/7d2d6b5a.py,293,293,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-22894,34a3abd4,GitHub,55031e17,data/55031e17/src/34a3abd4.py,8,8,F,F,,,F,F,,,,,0,0,F,F,F,Info
+21620,7d2d6b5a,GitHub,55031e17,data/55031e17/src/7d2d6b5a.py,293,293,F,F,,,F,F,,,,,0,0,F,F,F,API
+22894,34a3abd4,GitHub,55031e17,data/55031e17/src/34a3abd4.py,8,8,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
 22958,10e3a7ea,GitHub,55031e17,data/55031e17/src/10e3a7ea.py,181,181,F,F,,,F,F,,,,,0,0,F,F,F,Token
 22959,10e3a7ea,GitHub,55031e17,data/55031e17/src/10e3a7ea.py,177,177,F,F,,,F,F,,,,,0,0,F,F,F,Token
 22960,10e3a7ea,GitHub,55031e17,data/55031e17/src/10e3a7ea.py,183,183,F,F,,,F,F,,,,,0,0,F,F,F,Token
@@ -117,10 +117,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 23906,8663f3f7,GitHub,55031e17,data/55031e17/src/8663f3f7.py,19,19,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 25503,e307c213,GitHub,55031e17,data/55031e17/src/e307c213.py,98,98,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 25505,e307c213,GitHub,55031e17,data/55031e17/src/e307c213.py,97,97,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-29415,e6d555e3,GitHub,55031e17,data/55031e17/test/e6d555e3.py,42,42,Template,T,41,47,F,F,CharsOnly,,,Unknown,2.65,10,F,F,F,Unknown:notfound
+29415,e6d555e3,GitHub,55031e17,data/55031e17/test/e6d555e3.py,42,42,Template,T,41,47,F,F,CharsOnly,,,Unknown,2.65,10,F,F,F,Info
 29503,8afec6c9,GitHub,55031e17,data/55031e17/test/8afec6c9.py,16,16,T,F,15,30,F,F,Any,,,Secret,2.56,15,F,F,F,Dropbox App secret:Secret
 29535,5cb0936e,GitHub,55031e17,data/55031e17/test/5cb0936e.py,92,92,F,F,28,38,F,F,Any,,,Secret,0,10,F,F,F,Password
-29562,bdfb8299,GitHub,55031e17,data/55031e17/test/bdfb8299.py,1564,1564,F,T,29,39,F,F,CharsOnly,,,Unknown,2.65,10,F,F,F,Unknown:notfound
+29562,bdfb8299,GitHub,55031e17,data/55031e17/test/bdfb8299.py,1564,1564,F,T,29,39,F,F,CharsOnly,,,Unknown,2.65,10,F,F,F,Info
 29731,fadacae4,GitHub,55031e17,data/55031e17/test/fadacae4.py,240,240,Template,T,80,89,F,F,Any,,,Unknown,2.60,9,F,F,F,Secret
 30077,b4e617dc,GitHub,55031e17,data/55031e17/test/b4e617dc.py,431,431,F,F,36,44,F,F,,,,,0,0,F,F,F,Password
 30078,46e098d7,GitHub,55031e17,data/55031e17/test/46e098d7.py,25,25,F,F,45,48,F,F,,,,,0,0,F,F,F,Password
@@ -172,7 +172,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 37397,cb11ba4c,GitHub,55031e17,data/55031e17/test/cb11ba4c.py,320,320,Template,T,24,28,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
 37418,48baa271,GitHub,55031e17,data/55031e17/test/48baa271.py,87,87,F,F,25,29,F,F,,,,,0,0,F,F,F,Info
 37657,c2981f7a,GitHub,55031e17,data/55031e17/test/c2981f7a.py,46,46,F,F,7,17,F,F,,,,,0,0,F,F,F,Predefined Pattern
-41498,33f1f2f9,GitHub,55031e17,data/55031e17/src/33f1f2f9.py,1362,1362,F,F,,,F,F,,,,,0,0,F,F,F,Info
+41498,33f1f2f9,GitHub,55031e17,data/55031e17/src/33f1f2f9.py,1362,1362,F,F,,,F,F,,,,,0,0,F,F,F,Atlassian Old PAT token
 46383,e6d555e3,GitHub,55031e17,data/55031e17/test/e6d555e3.py,666,666,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 46384,e6d555e3,GitHub,55031e17,data/55031e17/test/e6d555e3.py,787,787,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 46385,e6d555e3,GitHub,55031e17,data/55031e17/test/e6d555e3.py,791,791,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -187,37 +187,37 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 46394,e6d555e3,GitHub,55031e17,data/55031e17/test/e6d555e3.py,670,670,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 46395,e6d555e3,GitHub,55031e17,data/55031e17/test/e6d555e3.py,795,795,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 46396,e6d555e3,GitHub,55031e17,data/55031e17/test/e6d555e3.py,668,668,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-46447,c54dd5aa,GitHub,55031e17,data/55031e17/test/c54dd5aa.py,195,195,F,F,,,F,F,,,,,0,0,F,F,F,Info
+46447,c54dd5aa,GitHub,55031e17,data/55031e17/test/c54dd5aa.py,195,195,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
 46753,c54dd5aa,GitHub,55031e17,data/55031e17/test/c54dd5aa.py,300,300,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-46754,c54dd5aa,GitHub,55031e17,data/55031e17/test/c54dd5aa.py,308,308,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46755,c54dd5aa,GitHub,55031e17,data/55031e17/test/c54dd5aa.py,309,309,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46756,c54dd5aa,GitHub,55031e17,data/55031e17/test/c54dd5aa.py,311,311,F,F,,,F,F,,,,,0,0,F,F,F,Info
+46754,c54dd5aa,GitHub,55031e17,data/55031e17/test/c54dd5aa.py,308,308,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+46755,c54dd5aa,GitHub,55031e17,data/55031e17/test/c54dd5aa.py,309,309,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+46756,c54dd5aa,GitHub,55031e17,data/55031e17/test/c54dd5aa.py,311,311,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
 46757,c54dd5aa,GitHub,55031e17,data/55031e17/test/c54dd5aa.py,302,302,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-46758,c54dd5aa,GitHub,55031e17,data/55031e17/test/c54dd5aa.py,310,310,F,F,,,F,F,,,,,0,0,F,F,F,Info
-46759,c54dd5aa,GitHub,55031e17,data/55031e17/test/c54dd5aa.py,307,307,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47488,48baa271,GitHub,55031e17,data/55031e17/test/48baa271.py,166,166,Template,T,38,45,F,F,CharOnly,,,Secret,2.81,7,F,F,F,Unknown:notfound
+46758,c54dd5aa,GitHub,55031e17,data/55031e17/test/c54dd5aa.py,310,310,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+46759,c54dd5aa,GitHub,55031e17,data/55031e17/test/c54dd5aa.py,307,307,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+47488,48baa271,GitHub,55031e17,data/55031e17/test/48baa271.py,166,166,Template,T,38,45,F,F,CharOnly,,,Secret,2.81,7,F,F,F,Info
 47507,eb752b5a,GitHub,55031e17,data/55031e17/test/eb752b5a.py,558,558,F,F,,,F,F,,,,,0,0,F,F,F,Password
-47534,bdfb8299,GitHub,55031e17,data/55031e17/test/bdfb8299.py,1403,1403,F,F,,,F,F,,,,,0,0,F,F,F,Info
+47534,bdfb8299,GitHub,55031e17,data/55031e17/test/bdfb8299.py,1403,1403,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
 47539,c54dd5aa,GitHub,55031e17,data/55031e17/test/c54dd5aa.py,297,297,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-47597,c54dd5aa,GitHub,55031e17,data/55031e17/test/c54dd5aa.py,305,305,F,F,,,F,F,,,,,0,0,F,F,F,Info
+47597,c54dd5aa,GitHub,55031e17,data/55031e17/test/c54dd5aa.py,305,305,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
 47599,bdfb8299,GitHub,55031e17,data/55031e17/test/bdfb8299.py,1433,1433,T,F,15,47,F,F,Any,,,Unknown,3.86,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret
-47621,9538e70c,GitHub,55031e17,data/55031e17/test/9538e70c.py,124,124,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47624,e6d555e3,GitHub,55031e17,data/55031e17/test/e6d555e3.py,415,415,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47633,c54dd5aa,GitHub,55031e17,data/55031e17/test/c54dd5aa.py,246,246,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+47621,9538e70c,GitHub,55031e17,data/55031e17/test/9538e70c.py,124,124,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+47624,e6d555e3,GitHub,55031e17,data/55031e17/test/e6d555e3.py,415,415,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+47633,c54dd5aa,GitHub,55031e17,data/55031e17/test/c54dd5aa.py,246,246,F,F,,,F,F,,,,,0,0,F,F,F,API
 47634,c54dd5aa,GitHub,55031e17,data/55031e17/test/c54dd5aa.py,248,248,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-47635,bdfb8299,GitHub,55031e17,data/55031e17/test/bdfb8299.py,1348,1348,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47636,bdfb8299,GitHub,55031e17,data/55031e17/test/bdfb8299.py,1347,1347,F,F,,,F,F,,,,,0,0,F,F,F,Info
+47635,bdfb8299,GitHub,55031e17,data/55031e17/test/bdfb8299.py,1348,1348,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+47636,bdfb8299,GitHub,55031e17,data/55031e17/test/bdfb8299.py,1347,1347,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
 47953,c54dd5aa,GitHub,55031e17,data/55031e17/test/c54dd5aa.py,338,338,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 49194,5af72409,GitHub,55031e17,data/55031e17/test/5af72409.py,11,11,F,F,,,F,F,,,,,0,0,F,F,F,Password
-50368,b4e617dc,GitHub,55031e17,data/55031e17/test/b4e617dc.py,140,140,F,F,,,F,F,,,,,0,0,F,F,F,Info
-51011,cb11ba4c,GitHub,55031e17,data/55031e17/test/cb11ba4c.py,107,107,F,F,39,48,T,F,Any,,,Unknown,2.95,9,F,F,F,Unknown:notfound
+50368,b4e617dc,GitHub,55031e17,data/55031e17/test/b4e617dc.py,140,140,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+51011,cb11ba4c,GitHub,55031e17,data/55031e17/test/cb11ba4c.py,107,107,F,F,39,48,T,F,Any,,,Unknown,2.95,9,F,F,F,Info
 52019,cb11ba4c,GitHub,55031e17,data/55031e17/test/cb11ba4c.py,154,154,F,F,,,F,F,,,,,0,0,F,F,F,URL Credentials
 52020,cb11ba4c,GitHub,55031e17,data/55031e17/test/cb11ba4c.py,223,223,F,F,,,F,F,,,,,0,0,F,F,F,URL Credentials
 52021,cb11ba4c,GitHub,55031e17,data/55031e17/test/cb11ba4c.py,233,233,F,F,,,F,F,,,,,0,0,F,F,F,URL Credentials
 52043,cb11ba4c,GitHub,55031e17,data/55031e17/test/cb11ba4c.py,152,152,F,F,,,F,F,,,,,0,0,F,F,F,URL Credentials
 52044,cb11ba4c,GitHub,55031e17,data/55031e17/test/cb11ba4c.py,126,126,F,F,,,F,F,,,,,0,0,F,F,F,URL Credentials
-58017,34a3abd4,GitHub,55031e17,data/55031e17/src/34a3abd4.py,110,110,F,F,,,F,F,,,,,0,0,F,F,F,Info
-58018,34a3abd4,GitHub,55031e17,data/55031e17/src/34a3abd4.py,131,131,F,F,,,F,F,,,,,0,0,F,F,F,Info
+58017,34a3abd4,GitHub,55031e17,data/55031e17/src/34a3abd4.py,110,110,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
+58018,34a3abd4,GitHub,55031e17,data/55031e17/src/34a3abd4.py,131,131,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
 63042,778e45d7,GitHub,55031e17,data/55031e17/test/778e45d7.py,42,42,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 63043,778e45d7,GitHub,55031e17,data/55031e17/test/778e45d7.py,52,52,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 63537,a2dcc45b,GitHub,55031e17,data/55031e17/src/a2dcc45b.py,119,119,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -260,12 +260,12 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 82463,c54dd5aa,GitHub,55031e17,data/55031e17/test/c54dd5aa.py,299,299,F,F,15,55,F,F,,,,,0,0,F,F,F,Secret
 82464,c54dd5aa,GitHub,55031e17,data/55031e17/test/c54dd5aa.py,301,301,F,F,27,67,F,F,,,,,0,0,F,F,F,Secret
 82465,c54dd5aa,GitHub,55031e17,data/55031e17/test/c54dd5aa.py,303,303,F,F,31,71,F,F,,,,,0,0,F,F,F,Secret
-82466,bdfb8299,GitHub,55031e17,data/55031e17/test/bdfb8299.py,1368,1368,F,F,36,68,F,F,,,,,0,0,F,F,F,Info
-82467,bdfb8299,GitHub,55031e17,data/55031e17/test/bdfb8299.py,1370,1370,F,F,36,68,F,F,,,,,0,0,F,F,F,Info
-82468,bdfb8299,GitHub,55031e17,data/55031e17/test/bdfb8299.py,1377,1377,F,F,36,68,F,F,,,,,0,0,F,F,F,Info
-82469,bdfb8299,GitHub,55031e17,data/55031e17/test/bdfb8299.py,1402,1402,F,F,14,46,F,F,,,,,0,0,F,F,F,Info
-82470,bdfb8299,GitHub,55031e17,data/55031e17/test/bdfb8299.py,1430,1430,F,F,15,47,F,F,,,,,0,0,F,F,F,Info
-82471,bdfb8299,GitHub,55031e17,data/55031e17/test/bdfb8299.py,1432,1432,F,F,15,47,F,F,,,,,0,0,F,F,F,Info
+82466,bdfb8299,GitHub,55031e17,data/55031e17/test/bdfb8299.py,1368,1368,F,F,36,68,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+82467,bdfb8299,GitHub,55031e17,data/55031e17/test/bdfb8299.py,1370,1370,F,F,36,68,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+82468,bdfb8299,GitHub,55031e17,data/55031e17/test/bdfb8299.py,1377,1377,F,F,36,68,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+82469,bdfb8299,GitHub,55031e17,data/55031e17/test/bdfb8299.py,1402,1402,F,F,14,46,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+82470,bdfb8299,GitHub,55031e17,data/55031e17/test/bdfb8299.py,1430,1430,F,F,15,47,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+82471,bdfb8299,GitHub,55031e17,data/55031e17/test/bdfb8299.py,1432,1432,F,F,15,47,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
 100942,cf0eacdf,GitHub,55031e17,data/55031e17/src/cf0eacdf.py,40,40,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 100943,cf0eacdf,GitHub,55031e17,data/55031e17/src/cf0eacdf.py,43,43,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 100944,aa2879ba,GitHub,55031e17,data/55031e17/test/aa2879ba.py,78,78,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
