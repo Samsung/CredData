@@ -42,8 +42,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 30522,cc3efc56,GitHub,9128de73,data/9128de73/test/cc3efc56.yaml,7,7,T,T,6,,F,F,Any,,,Unknown,5.49,1852,F,F,F,Secret:Certificate
 30523,cc3efc56,GitHub,9128de73,data/9128de73/test/cc3efc56.yaml,16,16,T,T,6,,F,F,Any,,,Unknown,5.51,1952,F,F,F,Secret:Certificate
 30536,cc3efc56,GitHub,9128de73,data/9128de73/test/cc3efc56.yaml,8,8,T,T,4,,F,F,Any,,,Unknown,5.53,1732,F,F,F,Info
-31123,cc3efc56,GitHub,9128de73,data/9128de73/test/cc3efc56.yaml,6,6,T,T,,,F,F,Any,,,Unknown,5.64,2236,T,F,F,Private Key:BASE64 encoded PEM Private Key
-31124,cc3efc56,GitHub,9128de73,data/9128de73/test/cc3efc56.yaml,15,15,T,T,5,,F,F,Any,,,Unknown,5.62,2240,T,F,F,Predefined Pattern:Key:BASE64 encoded PEM Private Key
+31123,cc3efc56,GitHub,9128de73,data/9128de73/test/cc3efc56.yaml,6,6,T,T,,,F,F,Any,,,Unknown,5.64,2236,T,F,F,BASE64 encoded PEM Private Key
+31124,cc3efc56,GitHub,9128de73,data/9128de73/test/cc3efc56.yaml,15,15,T,T,5,,F,F,Any,,,Unknown,5.62,2240,T,F,F,Key:BASE64 encoded PEM Private Key
 46252,fe7a244e,GitHub,9128de73,data/9128de73/test/fe7a244e.go,194,194,F,F,,,F,F,,,,,0,0,F,F,F,Info
 48073,5462ac3e,GitHub,9128de73,data/9128de73/other/5462ac3e.md,95,95,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 55571,e97c17b9,GitHub,9128de73,data/9128de73/src/e97c17b9.yaml,288,288,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -66,14 +66,14 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 110560,3295df72,GitHub,9128de73,data/9128de73/src/3295df72.sum,383,383,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 110561,3295df72,GitHub,9128de73,data/9128de73/src/3295df72.sum,384,384,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 110562,3295df72,GitHub,9128de73,data/9128de73/src/3295df72.sum,148,148,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-110563,3b16f9fb,GitHub,9128de73,data/9128de73/src/3b16f9fb.sh,1483,1483,F,F,,,F,F,,,,,0.00,,F,F,F,Info:AWS S3 Bucket
-110564,3b16f9fb,GitHub,9128de73,data/9128de73/src/3b16f9fb.sh,349,349,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern:Certificate
+110563,3b16f9fb,GitHub,9128de73,data/9128de73/src/3b16f9fb.sh,1483,1483,F,F,,,F,F,,,,,0.00,,F,F,F,AWS S3 Bucket
+110564,3b16f9fb,GitHub,9128de73,data/9128de73/src/3b16f9fb.sh,349,349,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
 110565,11563907,GitHub,9128de73,data/9128de73/other/11563907.md,85,85,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
 110566,11563907,GitHub,9128de73,data/9128de73/other/11563907.md,91,91,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
-110567,11563907,GitHub,9128de73,data/9128de73/other/11563907.md,86,86,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern:Certificate
-110568,11563907,GitHub,9128de73,data/9128de73/other/11563907.md,92,92,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern:Certificate
+110567,11563907,GitHub,9128de73,data/9128de73/other/11563907.md,86,86,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
+110568,11563907,GitHub,9128de73,data/9128de73/other/11563907.md,92,92,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
 130427,e9f5b47b,GitHub,9128de73,data/9128de73/test/e9f5b47b.go,26,26,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 132152,11563907,GitHub,9128de73,data/9128de73/other/11563907.md,76,76,T,F,135,146,F,F,,,Info,,0.00,,F,F,F,IPv4
-133977,5462ac3e,GitHub,9128de73,data/9128de73/other/5462ac3e.md,5,5,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern:API
-133978,5462ac3e,GitHub,9128de73,data/9128de73/other/5462ac3e.md,37,37,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern:Certificate
-133979,5462ac3e,GitHub,9128de73,data/9128de73/other/5462ac3e.md,43,43,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern:Certificate
+133977,5462ac3e,GitHub,9128de73,data/9128de73/other/5462ac3e.md,5,5,F,F,,,F,F,,,,,0,0,F,F,F,API
+133978,5462ac3e,GitHub,9128de73,data/9128de73/other/5462ac3e.md,37,37,F,F,,,F,F,,,,,0,0,F,F,F,Certificate
+133979,5462ac3e,GitHub,9128de73,data/9128de73/other/5462ac3e.md,43,43,F,F,,,F,F,,,,,0,0,F,F,F,Certificate

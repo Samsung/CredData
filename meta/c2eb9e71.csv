@@ -28,7 +28,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 10403,0b72aeda,GitHub,c2eb9e71,data/c2eb9e71/src/0b72aeda.py,64,64,F,F,,,F,F,,,,,0,0,F,F,F,Password
 10751,1a6832e1,GitHub,c2eb9e71,data/c2eb9e71/src/1a6832e1.py,56,56,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 11221,fabf1c08,GitHub,c2eb9e71,data/c2eb9e71/src/fabf1c08.html,293,293,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-11879,71bf72fd,GitHub,c2eb9e71,data/c2eb9e71/src/71bf72fd.yml,1,1,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern:API
+11879,71bf72fd,GitHub,c2eb9e71,data/c2eb9e71/src/71bf72fd.yml,1,1,F,F,,,F,F,,,,,0,0,F,F,F,API
 12187,f7b5f2e6,GitHub,c2eb9e71,data/c2eb9e71/src/f7b5f2e6.py,72,72,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 12228,1a6832e1,GitHub,c2eb9e71,data/c2eb9e71/src/1a6832e1.py,50,50,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 12622,aebd6a2f,GitHub,c2eb9e71,data/c2eb9e71/src/aebd6a2f.py,412,412,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -51,10 +51,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 37200,71bf72fd,GitHub,c2eb9e71,data/c2eb9e71/src/71bf72fd.yml,1404,1404,T,T,10,25,F,F,Any,,,Secret,3.51,15,F,F,F,Password
 42063,fabf1c08,GitHub,c2eb9e71,data/c2eb9e71/src/fabf1c08.html,114,114,T,T,59,74,F,F,Any,,,Secret,3.51,15,F,F,F,Password
 64509,f7b5f2e6,GitHub,c2eb9e71,data/c2eb9e71/src/f7b5f2e6.py,82,82,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-78005,71bf72fd,GitHub,c2eb9e71,data/c2eb9e71/src/71bf72fd.yml,564,568,F,F,,,F,F,,,,,0,0,F,F,F,Private Key
-78006,71bf72fd,GitHub,c2eb9e71,data/c2eb9e71/src/71bf72fd.yml,2236,2250,F,F,,,F,F,,,,,0,0,F,F,F,Private Key
-78007,71bf72fd,GitHub,c2eb9e71,data/c2eb9e71/src/71bf72fd.yml,2265,2279,F,F,,,F,F,,,,,0,0,F,F,F,Private Key
-78008,71bf72fd,GitHub,c2eb9e71,data/c2eb9e71/src/71bf72fd.yml,2284,2298,F,F,,,F,F,,,,,0,0,F,F,F,Private Key
+78005,71bf72fd,GitHub,c2eb9e71,data/c2eb9e71/src/71bf72fd.yml,564,568,F,F,,,F,F,,,,,0,0,F,F,F,PEM Private Key
+78006,71bf72fd,GitHub,c2eb9e71,data/c2eb9e71/src/71bf72fd.yml,2236,2250,F,F,,,F,F,,,,,0,0,F,F,F,PEM Private Key
+78007,71bf72fd,GitHub,c2eb9e71,data/c2eb9e71/src/71bf72fd.yml,2265,2279,F,F,,,F,F,,,,,0,0,F,F,F,PEM Private Key
+78008,71bf72fd,GitHub,c2eb9e71,data/c2eb9e71/src/71bf72fd.yml,2284,2298,F,F,,,F,F,,,,,0,0,F,F,F,PEM Private Key
 100195,fae7edf7,GitHub,c2eb9e71,data/c2eb9e71/src/fae7edf7.py,205,205,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 100196,fae7edf7,GitHub,c2eb9e71,data/c2eb9e71/src/fae7edf7.py,447,447,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 100197,599d4d36,GitHub,c2eb9e71,data/c2eb9e71/src/599d4d36.py,728,728,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives
@@ -74,6 +74,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 130014,ad368c74,GitHub,c2eb9e71,data/c2eb9e71/src/ad368c74.py,325,325,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 132423,71bf72fd,GitHub,c2eb9e71,data/c2eb9e71/src/71bf72fd.yml,1816,1816,T,F,10,17,F,F,,,Info,,0.00,,F,F,F,IPv4
 132424,71bf72fd,GitHub,c2eb9e71,data/c2eb9e71/src/71bf72fd.yml,1818,1818,T,F,10,17,F,F,,,Info,,0.00,,F,F,F,IPv4
-134370,71bf72fd,GitHub,c2eb9e71,data/c2eb9e71/src/71bf72fd.yml,8,8,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern:API
+134370,71bf72fd,GitHub,c2eb9e71,data/c2eb9e71/src/71bf72fd.yml,8,8,F,F,,,F,F,,,,,0,0,F,F,F,API
 134371,fae7edf7,GitHub,c2eb9e71,data/c2eb9e71/src/fae7edf7.py,56,56,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 134372,fae7edf7,GitHub,c2eb9e71,data/c2eb9e71/src/fae7edf7.py,540,540,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key

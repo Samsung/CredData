@@ -30,7 +30,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 9948,c2bb414a,GitHub,54f6f35d,data/54f6f35d/test/c2bb414a.go,152,152,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 10418,520332d9,GitHub,54f6f35d,data/54f6f35d/test/520332d9.go,48,48,F,F,,,F,F,,,,,0,0,F,F,F,Password
 10870,4a4e783c,GitHub,54f6f35d,data/54f6f35d/test/4a4e783c.go,13,13,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-11198,8e19c74f,GitHub,54f6f35d,data/54f6f35d/test/8e19c74f.go,37,63,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key:PEM Private Key
+11198,8e19c74f,GitHub,54f6f35d,data/54f6f35d/test/8e19c74f.go,37,63,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,PEM Private Key
 11445,c01f8ace,GitHub,54f6f35d,data/54f6f35d/test/c01f8ace.go,22,22,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 12112,f7031e19,GitHub,54f6f35d,data/54f6f35d/src/f7031e19.go,157,157,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 12200,c51dd511,GitHub,54f6f35d,data/54f6f35d/src/c51dd511.go,140,140,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -96,8 +96,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 23422,c1c4a08a,GitHub,54f6f35d,data/54f6f35d/src/c1c4a08a.go,53,53,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 23423,c1c4a08a,GitHub,54f6f35d,data/54f6f35d/src/c1c4a08a.go,43,43,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 23427,b6b01a21,GitHub,54f6f35d,data/54f6f35d/test/b6b01a21.md,134,134,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-23719,94e84989,GitHub,54f6f35d,data/54f6f35d/src/94e84989.go,11,11,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern:API
-23755,94e84989,GitHub,54f6f35d,data/54f6f35d/src/94e84989.go,12,12,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern:API
+23719,94e84989,GitHub,54f6f35d,data/54f6f35d/src/94e84989.go,11,11,F,F,,,F,F,,,,,0,0,F,F,F,API
+23755,94e84989,GitHub,54f6f35d,data/54f6f35d/src/94e84989.go,12,12,F,F,,,F,F,,,,,0,0,F,F,F,API
 24656,d572fb88,GitHub,54f6f35d,data/54f6f35d/test/d572fb88.js,1834,1834,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 24864,95e23b13,GitHub,54f6f35d,data/54f6f35d/src/95e23b13.go,92,92,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 24920,86faa575,GitHub,54f6f35d,data/54f6f35d/test/86faa575.go,50,50,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -124,12 +124,12 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 34435,f394589c,GitHub,54f6f35d,data/54f6f35d/test/f394589c.go,20,20,T,T,11,28,F,F,Any,,,Secret,2.90,17,F,F,F,Password
 34568,dbb8abec,GitHub,54f6f35d,data/54f6f35d/test/dbb8abec.md,36,36,Template,T,10,15,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
 34801,a4108aed,GitHub,54f6f35d,data/54f6f35d/test/a4108aed.go,86,86,T,T,52,64,F,F,Any,,,Secret,2.22,12,F,F,F,Password
-35326,1ae43328,GitHub,54f6f35d,data/54f6f35d/test/1ae43328.key,1,27,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key:PEM Private Key
+35326,1ae43328,GitHub,54f6f35d,data/54f6f35d/test/1ae43328.key,1,27,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,PEM Private Key
 35332,17c69652,GitHub,54f6f35d,data/54f6f35d/test/17c69652.md,17,17,Template,T,27,32,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
 35356,a4108aed,GitHub,54f6f35d,data/54f6f35d/test/a4108aed.go,84,84,T,T,11,23,F,F,Any,,,Secret,2.22,12,F,F,F,Password
 35362,52903d91,GitHub,54f6f35d,data/54f6f35d/src/52903d91.go,165,165,T,T,16,30,F,F,Any,,,Secret,3.05,14,F,F,F,Password
 35363,52903d91,GitHub,54f6f35d,data/54f6f35d/src/52903d91.go,161,161,T,T,16,28,F,F,Any,,,Secret,2.22,12,F,F,F,Password
-35500,b21eba06,GitHub,54f6f35d,data/54f6f35d/test/b21eba06.pem,1,27,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,Private Key:PEM Private Key
+35500,b21eba06,GitHub,54f6f35d,data/54f6f35d/test/b21eba06.pem,1,27,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,PEM Private Key
 35768,ee3ab00f,GitHub,54f6f35d,data/54f6f35d/test/ee3ab00f.go,61,61,Template,T,27,35,F,F,Any,,,Unknown,2.60,9,F,F,F,Password
 35773,a4108aed,GitHub,54f6f35d,data/54f6f35d/test/a4108aed.go,68,68,T,T,33,45,F,F,CharsOnly,,,Unknown,2.22,12,F,F,F,Password
 36025,a4108aed,GitHub,54f6f35d,data/54f6f35d/test/a4108aed.go,119,119,T,T,42,54,F,F,Any,,,Secret,2.22,12,F,F,F,Password
@@ -156,15 +156,15 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 46141,1684838b,GitHub,54f6f35d,data/54f6f35d/test/1684838b.go,81,81,F,F,,,F,F,,,,,0,0,F,F,F,Password
 46144,a4108aed,GitHub,54f6f35d,data/54f6f35d/test/a4108aed.go,138,138,T,T,11,25,F,F,Any,,,Secret,3.05,14,F,F,F,Password
 46169,e872492d,GitHub,54f6f35d,data/54f6f35d/test/e872492d.go,140,140,T,F,17,38,F,F,Any,,,Secret,2.41,21,F,F,F,Secret
-46219,16a6cb0d,GitHub,54f6f35d,data/54f6f35d/test/16a6cb0d.go,73,73,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern:API
+46219,16a6cb0d,GitHub,54f6f35d,data/54f6f35d/test/16a6cb0d.go,73,73,F,F,,,F,F,,,,,0,0,F,F,F,API
 46220,d315ce37,GitHub,54f6f35d,data/54f6f35d/test/d315ce37.go,91,91,F,F,,,F,F,,,,,0,0,F,F,F,Password
-46221,eb791254,GitHub,54f6f35d,data/54f6f35d/test/eb791254.go,141,141,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern:API
+46221,eb791254,GitHub,54f6f35d,data/54f6f35d/test/eb791254.go,141,141,F,F,,,F,F,,,,,0,0,F,F,F,API
 46247,a4108aed,GitHub,54f6f35d,data/54f6f35d/test/a4108aed.go,182,182,T,T,15,29,F,F,Any,,,Secret,3.05,14,F,F,F,Password
 46249,ee3ab00f,GitHub,54f6f35d,data/54f6f35d/test/ee3ab00f.go,66,66,F,F,,,F,F,,,,,0,0,F,F,F,Password
 46253,706e371f,GitHub,54f6f35d,data/54f6f35d/test/706e371f.go,16,16,F,T,,,F,F,CharsOnly,,,Token,2.32,5,F,F,F,Token
-46314,11649b0d,GitHub,54f6f35d,data/54f6f35d/test/11649b0d.go,67,67,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern:API
-46315,99027c29,GitHub,54f6f35d,data/54f6f35d/test/99027c29.go,41,41,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern:API
-46316,925d4b15,GitHub,54f6f35d,data/54f6f35d/test/925d4b15.go,53,53,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern:API
+46314,11649b0d,GitHub,54f6f35d,data/54f6f35d/test/11649b0d.go,67,67,F,F,,,F,F,,,,,0,0,F,F,F,API
+46315,99027c29,GitHub,54f6f35d,data/54f6f35d/test/99027c29.go,41,41,F,F,,,F,F,,,,,0,0,F,F,F,API
+46316,925d4b15,GitHub,54f6f35d,data/54f6f35d/test/925d4b15.go,53,53,F,F,,,F,F,,,,,0,0,F,F,F,API
 47727,1100d2c4,GitHub,54f6f35d,data/54f6f35d/test/1100d2c4.yml,11,11,Template,T,16,26,F,F,CharsOnly,,,Unknown,2.92,10,F,F,F,Password
 50307,dbb8abec,GitHub,54f6f35d,data/54f6f35d/test/dbb8abec.md,41,41,T,T,10,23,F,F,Any,,,Secret,2.74,13,F,F,F,Password
 54016,cc219aa1,GitHub,54f6f35d,data/54f6f35d/test/cc219aa1.json,53,53,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -193,7 +193,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 57183,99027c29,GitHub,54f6f35d,data/54f6f35d/test/99027c29.go,53,53,F,F,,,F,F,,,,,0,0,F,F,F,Token
 74693,91db7bed,GitHub,54f6f35d,data/54f6f35d/test/91db7bed.go,103,103,F,F,,,F,F,,,,,0,0,F,F,F,Password
 74738,59595c52,GitHub,54f6f35d,data/54f6f35d/test/59595c52.yml,12,12,F,F,,,F,F,,,,,0,0,F,F,F,Password
-79317,8e19c74f,GitHub,54f6f35d,data/54f6f35d/test/8e19c74f.go,15,33,F,F,,,F,F,,,,,0,0,F,F,F,Private Key
+79317,8e19c74f,GitHub,54f6f35d,data/54f6f35d/test/8e19c74f.go,15,33,F,F,,,F,F,,,,,0,0,F,F,F,PEM Private Key
 80842,b28a0667,GitHub,54f6f35d,data/54f6f35d/src/b28a0667.go,389,389,F,F,25,34,F,F,,,,,0,0,F,F,F,Password
 80843,b28a0667,GitHub,54f6f35d,data/54f6f35d/src/b28a0667.go,417,417,F,F,25,34,F,F,,,,,0,0,F,F,F,Password
 80844,b28a0667,GitHub,54f6f35d,data/54f6f35d/src/b28a0667.go,447,447,F,F,15,24,F,F,,,,,0,0,F,F,F,Password
@@ -220,7 +220,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 110205,4dc56cff,GitHub,54f6f35d,data/54f6f35d/src/4dc56cff.go,19,19,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
 110206,b28a0667,GitHub,54f6f35d,data/54f6f35d/src/b28a0667.go,263,263,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 110207,95e23b13,GitHub,54f6f35d,data/54f6f35d/src/95e23b13.go,13,13,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
-110208,bf57d101,GitHub,54f6f35d,data/54f6f35d/test/bf57d101.go,68,68,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives:Salt
+110208,bf57d101,GitHub,54f6f35d,data/54f6f35d/test/bf57d101.go,68,68,F,F,,,F,F,,,,,0.00,,F,F,F,Salt
 110209,29dd5278,GitHub,54f6f35d,data/54f6f35d/test/29dd5278.md,310,310,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
 110210,3edd36a0,GitHub,54f6f35d,data/54f6f35d/test/3edd36a0.sample,8,8,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 130200,f394589c,GitHub,54f6f35d,data/54f6f35d/test/f394589c.go,89,89,F,F,,,F,F,,,,,0.00,,F,F,F,Password

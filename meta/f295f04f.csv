@@ -40,7 +40,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 32281,cb37811e,GitHub,f295f04f,data/f295f04f/test/cb37811e.cnf,19,19,F,T,33,51,F,F,Any,,,Secret,3.49,18,F,F,F,Password
 32434,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,177,177,T,F,18,61,F,F,Any,,,Secret,4.77,43,F,F,F,Secret
 32436,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,302,302,T,F,18,30,F,F,Any,,,Secret,2.86,12,F,F,F,Secret
-33528,80c369ce,GitHub,f295f04f,data/f295f04f/test/80c369ce.js,11,37,T,F,,,F,F,Any,Private,,Unknown,0.0,0,F,F,F,Private Key:PEM Private Key
+33528,80c369ce,GitHub,f295f04f,data/f295f04f/test/80c369ce.js,11,37,T,F,,,F,F,Any,Private,,Unknown,0.0,0,F,F,F,PEM Private Key
 34038,47746fff,GitHub,f295f04f,data/f295f04f/test/47746fff.js,19,19,Template,T,22,30,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
 34250,2eb01c91,GitHub,f295f04f,data/f295f04f/test/2eb01c91.js,109,109,Template,T,20,24,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password:URL Credentials
 34674,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,105,105,F,F,21,65,F,F,Any,,,Unknown,4.99,44,F,F,F,Unknown:notfound
@@ -59,8 +59,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 34923,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,300,300,T,F,8,24,F,F,Any,,,Token,3.00,16,F,F,F,Token
 34929,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,258,258,T,F,8,57,F,F,Any,,,Token,5.06,49,F,F,F,Token
 34931,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,214,214,T,F,8,49,F,F,Any,,,Token,4.95,41,F,F,F,Token
-35281,53f2639b,GitHub,f295f04f,data/f295f04f/test/53f2639b.key,1,51,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key:PEM Private Key
-35524,8a9ab6e4,GitHub,f295f04f,data/f295f04f/test/8a9ab6e4.key,1,15,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key:PEM Private Key
+35281,53f2639b,GitHub,f295f04f,data/f295f04f/test/53f2639b.key,1,51,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,PEM Private Key
+35524,8a9ab6e4,GitHub,f295f04f,data/f295f04f/test/8a9ab6e4.key,1,15,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,PEM Private Key
 35734,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,88,88,F,F,4,47,F,F,Any,,,Unknown,4.77,43,F,F,F,Unknown:notfound
 35735,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,133,133,F,F,4,47,F,F,Any,,,Unknown,4.77,43,F,F,F,Unknown:notfound
 35736,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,45,45,F,F,4,47,F,F,Any,,,Unknown,4.77,43,F,F,F,Unknown:notfound
@@ -68,7 +68,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 36124,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,86,86,T,F,17,60,F,F,Any,,,Auth,4.80,43,F,F,F,Auth
 36133,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,297,297,T,F,24,40,F,F,Any,,,Auth,2.83,16,F,F,F,Key
 36137,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,463,463,T,F,21,37,F,F,Any,,,Auth,2.83,16,F,F,F,Auth:Key
-36138,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,82,82,T,F,14,55,F,F,Any,,,SeedSalt,5.00,41,F,F,F,Cryptographic Primitives:Auth:Nonce
+36138,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,82,82,T,F,14,55,F,F,Any,,,SeedSalt,5.00,41,F,F,F,Auth:Nonce
 36139,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,41,41,T,F,14,57,F,F,Any,,,SeedSalt,4.88,43,F,F,F,Auth:Nonce
 36140,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,129,129,T,F,14,63,F,F,Any,,,Token,5.06,49,F,F,F,Auth:Token
 36141,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,84,84,T,F,14,55,F,F,Any,,,Token,4.95,41,F,F,F,Auth:Token
@@ -113,10 +113,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 37602,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,556,556,T,F,24,40,F,F,Any,,,Auth,2.83,16,F,F,F,Key
 37603,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,508,508,T,F,21,37,F,F,Any,,,Auth,2.83,16,F,F,F,Auth:Key
 37604,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,578,578,T,F,21,37,F,F,Any,,,Auth,2.83,16,F,F,F,Auth:Key
-37605,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,97,97,T,F,14,55,F,F,Any,,,SeedSalt,5.00,41,F,F,F,Cryptographic Primitives:Auth:Nonce
-37606,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,112,112,T,F,14,55,F,F,Any,,,SeedSalt,5.00,41,F,F,F,Cryptographic Primitives:Auth:Nonce
-37607,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,422,422,T,F,14,55,F,F,Any,,,SeedSalt,5.00,41,F,F,F,Cryptographic Primitives:Auth:Nonce
-37608,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,541,541,T,F,14,55,F,F,Any,,,SeedSalt,5.00,41,F,F,F,Cryptographic Primitives:Auth:Nonce
+37605,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,97,97,T,F,14,55,F,F,Any,,,SeedSalt,5.00,41,F,F,F,Auth:Nonce
+37606,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,112,112,T,F,14,55,F,F,Any,,,SeedSalt,5.00,41,F,F,F,Auth:Nonce
+37607,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,422,422,T,F,14,55,F,F,Any,,,SeedSalt,5.00,41,F,F,F,Auth:Nonce
+37608,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,541,541,T,F,14,55,F,F,Any,,,SeedSalt,5.00,41,F,F,F,Auth:Nonce
 37609,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,55,55,T,F,14,57,F,F,Any,,,SeedSalt,4.88,43,F,F,F,Auth:Nonce
 37610,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,69,69,T,F,14,57,F,F,Any,,,SeedSalt,4.88,43,F,F,F,Auth:Nonce
 37611,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,144,144,T,F,14,63,F,F,Any,,,Token,5.06,49,F,F,F,Auth:Token
@@ -132,13 +132,13 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 37757,d2a39ea6,GitHub,f295f04f,data/f295f04f/test/d2a39ea6.js,115,115,Template,T,9,13,F,F,CharsOnly,,,Unknown,1.50,4,F,F,F,Password
 37758,d2a39ea6,GitHub,f295f04f,data/f295f04f/test/d2a39ea6.js,134,134,Template,T,9,13,F,F,CharsOnly,,,Unknown,1.50,4,F,F,F,Password
 42866,f387f6d2,GitHub,f295f04f,data/f295f04f/src/f387f6d2.js,79,79,F,F,,,F,F,,,,,0,0,F,F,F,Password
-47426,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,103,103,F,F,,,F,F,,,,,0,0,F,F,F,Cryptographic Primitives:Nonce
+47426,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,103,103,F,F,,,F,F,,,,,0,0,F,F,F,Nonce
 47427,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,36,36,F,F,,,F,F,,,,,0,0,F,F,F,Info
 47721,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,64,64,F,F,,,F,F,,,,,0,0,F,F,F,Password
-49150,43f54bf7,GitHub,f295f04f,data/f295f04f/test/43f54bf7.key,1,30,F,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
-49154,7d56b825,GitHub,f295f04f,data/f295f04f/test/7d56b825.key,1,27,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key:PEM Private Key
-49160,de10bb98,GitHub,f295f04f,data/f295f04f/test/de10bb98.key,1,27,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key:PEM Private Key
-50294,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,212,212,T,F,8,49,F,F,Any,,,SeedSalt,5.00,41,F,F,F,Cryptographic Primitives:Nonce
+49150,43f54bf7,GitHub,f295f04f,data/f295f04f/test/43f54bf7.key,1,30,F,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,PEM Private Key
+49154,7d56b825,GitHub,f295f04f,data/f295f04f/test/7d56b825.key,1,27,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,PEM Private Key
+49160,de10bb98,GitHub,f295f04f,data/f295f04f/test/de10bb98.key,1,27,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,PEM Private Key
+50294,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,212,212,T,F,8,49,F,F,Any,,,SeedSalt,5.00,41,F,F,F,Nonce
 50295,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,174,174,T,F,8,51,F,F,Any,,,SeedSalt,4.88,43,F,F,F,Nonce
 50297,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,469,469,T,F,18,46,F,F,Any,,,Auth,4.66,28,F,F,F,Auth
 50382,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,678,678,Template,T,0,12,F,F,Any,,,Secret,2.72,12,F,F,F,Password
@@ -177,16 +177,16 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 76920,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,156,156,T,F,,,F,F,,,,,0,0,F,F,F,Auth:Gitlab Feed Token
 76921,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,421,421,T,F,,,F,F,,,,,0,0,F,F,F,Auth:Gitlab Feed Token
 76922,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,540,540,T,F,,,F,F,,,,,0,0,F,F,F,Auth:Gitlab Feed Token
-78246,80c369ce,GitHub,f295f04f,data/f295f04f/test/80c369ce.js,42,50,F,F,,,F,F,,,,,0,0,F,F,F,Private Key
-78247,80c369ce,GitHub,f295f04f,data/f295f04f/test/80c369ce.js,53,61,F,F,,,F,F,,,,,0,0,F,F,F,Private Key
+78246,80c369ce,GitHub,f295f04f,data/f295f04f/test/80c369ce.js,42,50,F,F,,,F,F,,,,,0,0,F,F,F,PEM Private Key
+78247,80c369ce,GitHub,f295f04f,data/f295f04f/test/80c369ce.js,53,61,F,F,,,F,F,,,,,0,0,F,F,F,PEM Private Key
 82558,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,142,142,T,F,14,55,F,F,Any,,,SeedSalt,4.74,41,F,F,F,Auth:Nonce
 82559,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,157,157,T,F,14,55,F,F,Any,,,SeedSalt,4.74,41,F,F,F,Auth:Nonce
 82560,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,193,193,T,F,8,51,F,F,Any,,,SeedSalt,4.88,43,F,F,F,Nonce
-82561,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,234,234,T,F,8,49,F,F,Any,,,SeedSalt,5.00,41,F,F,F,Cryptographic Primitives:Nonce
+82561,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,234,234,T,F,8,49,F,F,Any,,,SeedSalt,5.00,41,F,F,F,Nonce
 82562,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,238,238,F,F,11,54,F,F,,,,,0,0,F,F,F,Secret
 82563,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,256,256,T,F,8,49,F,F,Any,,,SeedSalt,4.74,41,F,F,F,Nonce
 82564,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,277,277,T,F,8,49,F,F,Any,,,SeedSalt,4.74,41,F,F,F,Nonce
-82565,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,404,404,T,F,8,49,F,F,Any,,,SeedSalt,5.00,41,F,F,F,Cryptographic Primitives:Nonce
+82565,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,404,404,T,F,8,49,F,F,Any,,,SeedSalt,5.00,41,F,F,F,Nonce
 82566,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,408,408,F,F,11,54,F,F,,,,,0,0,F,F,F,Secret
 82567,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,514,514,T,F,18,46,F,F,Any,,,Auth,4.66,28,F,F,F,Auth
 82568,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,525,525,T,F,8,49,F,F,,,,,0,0,F,F,F,Auth:Nonce
@@ -251,13 +251,13 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 114704,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,511,511,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 114705,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,543,543,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 114706,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,581,581,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-114707,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,298,298,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives:Nonce
-114708,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,324,324,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives:Nonce
-114709,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,438,438,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives:Nonce
-114710,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,479,479,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives:Nonce
-114711,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,557,557,F,F,,,F,F,,,,,0.00,,F,F,F,Cryptographic Primitives:Nonce
+114707,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,298,298,F,F,,,F,F,,,,,0.00,,F,F,F,Nonce
+114708,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,324,324,F,F,,,F,F,,,,,0.00,,F,F,F,Nonce
+114709,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,438,438,F,F,,,F,F,,,,,0.00,,F,F,F,Nonce
+114710,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,479,479,F,F,,,F,F,,,,,0.00,,F,F,F,Nonce
+114711,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,557,557,F,F,,,F,F,,,,,0.00,,F,F,F,Nonce
 120004,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,380,380,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 120005,456f5110,GitHub,f295f04f,data/f295f04f/test/456f5110.js,393,393,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-134729,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,66,66,F,F,,,F,F,,,,,0,0,F,F,F,Cryptographic Primitives:Nonce
-134730,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,68,68,F,F,,,F,F,,,,,0,0,F,F,F,Cryptographic Primitives:Nonce
+134729,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,66,66,F,F,,,F,F,,,,,0,0,F,F,F,Nonce
+134730,1266b54d,GitHub,f295f04f,data/f295f04f/test/1266b54d.js,68,68,F,F,,,F,F,,,,,0,0,F,F,F,Nonce
 135324,317baecd,GitHub,f295f04f,data/f295f04f/test/317baecd.js,76,76,T,F,15,31,F,F,,,,,0,0,F,F,F,Auth

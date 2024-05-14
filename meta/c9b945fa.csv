@@ -70,7 +70,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 30943,f6f5ef7e,GitHub,c9b945fa,data/c9b945fa/src/f6f5ef7e.py,66,66,Template,T,21,27,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Secret
 32388,f6f5ef7e,GitHub,c9b945fa,data/c9b945fa/src/f6f5ef7e.py,305,305,T,F,64,76,F,F,Any,,,Token,3.58,12,F,F,F,Auth:Token
 32392,f6f5ef7e,GitHub,c9b945fa,data/c9b945fa/src/f6f5ef7e.py,65,65,F,F,18,28,F,F,,,,,0,0,F,F,F,Secret
-33896,0cb23f01,GitHub,c9b945fa,data/c9b945fa/test/0cb23f01.py,33,59,T,F,,,F,F,Any,Private,,Unknown,0.0,0,F,F,F,Private Key:PEM Private Key
+33896,0cb23f01,GitHub,c9b945fa,data/c9b945fa/test/0cb23f01.py,33,59,T,F,,,F,F,Any,Private,,Unknown,0.0,0,F,F,F,PEM Private Key
 34445,eee38f11,GitHub,c9b945fa,data/c9b945fa/test/eee38f11.py,44,44,T,F,17,41,F,F,Any,,,Token,3.91,24,F,F,F,Atlassian Old PAT token:Gitlab Incoming Email Token:Token
 34446,2a0e7bcd,GitHub,c9b945fa,data/c9b945fa/test/2a0e7bcd.py,14,14,T,F,17,41,F,F,Any,,,Token,3.91,24,F,F,F,Atlassian Old PAT token:Gitlab Incoming Email Token:Token
 34447,cb378009,GitHub,c9b945fa,data/c9b945fa/test/cb378009.py,302,302,T,T,17,57,F,F,Any,,,Token,4.80,40,F,F,F,Token
@@ -183,7 +183,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 114323,64e62af6,GitHub,c9b945fa,data/c9b945fa/src/64e62af6.rst,54,54,F,F,,,F,F,,,,,0.00,,F,F,F,Auth:Token
 114324,64e62af6,GitHub,c9b945fa,data/c9b945fa/src/64e62af6.rst,117,117,F,F,,,F,F,,,,,0.00,,F,F,F,Auth:Token
 114325,64e62af6,GitHub,c9b945fa,data/c9b945fa/src/64e62af6.rst,193,193,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-114326,cb378009,GitHub,c9b945fa,data/c9b945fa/test/cb378009.py,235,235,F,F,,,F,F,,,,,0.00,,F,F,F,Info:AWS S3 Bucket
+114326,cb378009,GitHub,c9b945fa,data/c9b945fa/test/cb378009.py,235,235,F,F,,,F,F,,,,,0.00,,F,F,F,AWS S3 Bucket
 114327,2a0e7bcd,GitHub,c9b945fa,data/c9b945fa/test/2a0e7bcd.py,45,45,F,F,,,F,F,,,,,0.00,,F,F,F,Token
 114328,0cb23f01,GitHub,c9b945fa,data/c9b945fa/test/0cb23f01.py,246,246,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 114329,0cb23f01,GitHub,c9b945fa,data/c9b945fa/test/0cb23f01.py,263,263,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
@@ -196,8 +196,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 131403,165bee60,GitHub,c9b945fa,data/c9b945fa/src/165bee60.rst,155,155,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 131404,0cb23f01,GitHub,c9b945fa,data/c9b945fa/test/0cb23f01.py,110,110,T,T,161,191,F,F,,,,,0.00,,F,F,F,Auth
 131405,0cb23f01,GitHub,c9b945fa,data/c9b945fa/test/0cb23f01.py,115,115,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-131721,0cb23f01,GitHub,c9b945fa,data/c9b945fa/test/0cb23f01.py,63,63,F,F,,,F,F,,,,,0,0,F,F,F,Info:Atlassian Old PAT token
-131737,0cb23f01,GitHub,c9b945fa,data/c9b945fa/test/0cb23f01.py,65,65,F,F,,,F,F,,,,,0,0,F,F,F,Info:Bitbucket Client ID
+131721,0cb23f01,GitHub,c9b945fa,data/c9b945fa/test/0cb23f01.py,63,63,F,F,,,F,F,,,,,0,0,F,F,F,Atlassian Old PAT token
+131737,0cb23f01,GitHub,c9b945fa,data/c9b945fa/test/0cb23f01.py,65,65,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
 132543,0cb23f01,GitHub,c9b945fa,data/c9b945fa/test/0cb23f01.py,139,139,T,F,161,191,F,F,,,,,0.00,,F,F,F,Auth
 134579,64e62af6,GitHub,c9b945fa,data/c9b945fa/src/64e62af6.rst,143,143,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 134580,0cb23f01,GitHub,c9b945fa,data/c9b945fa/test/0cb23f01.py,173,173,F,F,,,F,F,,,,,0,0,F,F,F,Auth

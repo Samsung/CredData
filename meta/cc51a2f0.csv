@@ -37,7 +37,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 25532,c8a43705,GitHub,cc51a2f0,data/cc51a2f0/test/c8a43705.md,41,41,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 28843,90e6e936,GitHub,cc51a2f0,data/cc51a2f0/test/90e6e936.ext,18,18,Template,T,19,23,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
 28849,4cfd9848,GitHub,cc51a2f0,data/cc51a2f0/test/4cfd9848.ext,66,66,T,F,72,77,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
-28991,881d34ce,GitHub,cc51a2f0,data/cc51a2f0/test/881d34ce.json,24,24,T,F,8,,F,F,,,,,0.0,0,F,F,F,Predefined Pattern:Key:BASE64 encoded PEM Private Key
+28991,881d34ce,GitHub,cc51a2f0,data/cc51a2f0/test/881d34ce.json,24,24,T,F,8,,F,F,,,,,0.0,0,F,F,F,Key:BASE64 encoded PEM Private Key
 28993,c973b298,GitHub,cc51a2f0,data/cc51a2f0/test/c973b298.json,30,30,T,F,8,,F,F,Any,,,Unknown,5.62,2272,F,F,F,Secret:Key:BASE64 encoded PEM Private Key
 29046,bc530885,GitHub,cc51a2f0,data/cc51a2f0/test/bc530885.txt,2,2,F,T,3,219,F,F,Any,,,Unknown,5.77,216,F,F,F,Unknown:notfound
 29303,3288b20b,GitHub,cc51a2f0,data/cc51a2f0/other/3288b20b.md,86,86,Template,T,20,32,F,F,Any,,,Secret,2.82,12,F,F,F,Password
@@ -52,12 +52,12 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 34554,f044b163,GitHub,cc51a2f0,data/cc51a2f0/test/f044b163.ext,3,3,Template,T,62,66,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
 34985,41c756a7,GitHub,cc51a2f0,data/cc51a2f0/test/41c756a7.txt,2,2,T,T,3,219,F,F,Any,,,Unknown,5.74,216,F,F,F,Unknown:notfound
 34999,a551d545,GitHub,cc51a2f0,data/cc51a2f0/test/a551d545.md,87,88,T,F,3,187,F,F,Any,,,Unknown,5.71,250,F,F,F,Unknown:notfound
-35270,d60596d0,GitHub,cc51a2f0,data/cc51a2f0/test/d60596d0.private,1,15,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key:PEM Private Key
-35327,251af18f,GitHub,cc51a2f0,data/cc51a2f0/test/251af18f.pem,1,27,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key:PEM Private Key
+35270,d60596d0,GitHub,cc51a2f0,data/cc51a2f0/test/d60596d0.private,1,15,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,PEM Private Key
+35327,251af18f,GitHub,cc51a2f0,data/cc51a2f0/test/251af18f.pem,1,27,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,PEM Private Key
 35451,b3356305,GitHub,cc51a2f0,data/cc51a2f0/other/b3356305.md,257,257,T,T,15,20,F,F,CharsOnly,,,Unknown,2.32,5,F,F,F,Password
 35470,b3356305,GitHub,cc51a2f0,data/cc51a2f0/other/b3356305.md,268,268,Template,T,26,31,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Auth:Password
-35530,c0e60355,GitHub,cc51a2f0,data/cc51a2f0/test/c0e60355.pem,1,5,T,T,,,F,F,Any,Private,,Unknown,2.45,30,F,F,F,Private Key:PEM Private Key
-35553,6e208fac,GitHub,cc51a2f0,data/cc51a2f0/test/6e208fac.key,1,28,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,Private Key:PEM Private Key
+35530,c0e60355,GitHub,cc51a2f0,data/cc51a2f0/test/c0e60355.pem,1,5,T,T,,,F,F,Any,Private,,Unknown,2.45,30,F,F,F,PEM Private Key
+35553,6e208fac,GitHub,cc51a2f0,data/cc51a2f0/test/6e208fac.key,1,28,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,PEM Private Key
 36055,0e1c05ad,GitHub,cc51a2f0,data/cc51a2f0/src/0e1c05ad.conf,6,6,T,T,11,37,F,F,Any,,,Secret,3.43,26,F,F,F,Password
 37553,0e1c05ad,GitHub,cc51a2f0,data/cc51a2f0/src/0e1c05ad.conf,20,20,T,T,11,37,F,F,Any,,,Secret,3.43,26,F,F,F,Password
 46181,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/c65d41b8.bats,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -107,7 +107,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 114537,881d34ce,GitHub,cc51a2f0,data/cc51a2f0/test/881d34ce.json,15,15,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 114538,c973b298,GitHub,cc51a2f0,data/cc51a2f0/test/c973b298.json,19,19,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 114539,82e7fd26,GitHub,cc51a2f0,data/cc51a2f0/test/82e7fd26.conf,44,44,F,F,,,F,F,,,,,0.00,,F,F,F,Auth:Certificate
-114541,c457c85a,GitHub,cc51a2f0,data/cc51a2f0/test/c457c85a.bats,108,108,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern:Certificate
+114541,c457c85a,GitHub,cc51a2f0,data/cc51a2f0/test/c457c85a.bats,108,108,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
 114542,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/c65d41b8.bats,19,19,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 114543,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/c65d41b8.bats,42,42,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 114544,c8a43705,GitHub,cc51a2f0,data/cc51a2f0/test/c8a43705.md,63,63,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
@@ -135,7 +135,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 134591,141cf316,GitHub,cc51a2f0,data/cc51a2f0/src/141cf316.sh,1066,1066,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 134592,29a4c140,GitHub,cc51a2f0,data/cc51a2f0/test/29a4c140.bats,42,42,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 134593,29a4c140,GitHub,cc51a2f0,data/cc51a2f0/test/29a4c140.bats,207,207,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-134594,82e7fd26,GitHub,cc51a2f0,data/cc51a2f0/test/82e7fd26.conf,24,24,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern:Certificate
+134594,82e7fd26,GitHub,cc51a2f0,data/cc51a2f0/test/82e7fd26.conf,24,24,F,F,,,F,F,,,,,0,0,F,F,F,Certificate
 134595,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/c65d41b8.bats,173,173,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 134596,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/c65d41b8.bats,178,178,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 134597,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/c65d41b8.bats,934,934,F,F,,,F,F,,,,,0,0,F,F,F,Auth

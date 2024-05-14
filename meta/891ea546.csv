@@ -27,7 +27,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 5125,67c41b9f,GitHub,891ea546,data/891ea546/src/67c41b9f.go,123,123,F,F,,,F,F,,,,,0,0,F,F,F,Token
 5137,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,92,92,F,F,,,F,F,,,,,0,0,F,F,F,Token
 8732,14128680,GitHub,891ea546,data/891ea546/src/14128680.sql,12,12,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-10970,38ca79c5,GitHub,891ea546,data/891ea546/src/38ca79c5.go,91,91,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern:URL Credentials
+10970,38ca79c5,GitHub,891ea546,data/891ea546/src/38ca79c5.go,91,91,F,F,,,F,F,,,,,0,0,F,F,F,URL Credentials
 11901,14128680,GitHub,891ea546,data/891ea546/src/14128680.sql,13,13,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 20284,23f3a9eb,GitHub,891ea546,data/891ea546/src/23f3a9eb.go,345,345,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 20291,42356610,GitHub,891ea546,data/891ea546/src/42356610.go,280,280,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -38,7 +38,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 24664,46eb8535,GitHub,891ea546,data/891ea546/src/46eb8535.go,235,235,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 26983,7a1e5ecd,GitHub,891ea546,data/891ea546/src/7a1e5ecd.go,61,61,F,F,,,F,F,,,,,0,0,F,F,F,Password
 35478,e45e45ba,GitHub,891ea546,data/891ea546/src/e45e45ba.yml,31,31,T,T,20,33,F,F,Any,,,Secret,3.11,13,F,F,F,Password
-35501,3659743a,GitHub,891ea546,data/891ea546/test/3659743a.pem,1,28,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,Private Key:PEM Private Key
+35501,3659743a,GitHub,891ea546,data/891ea546/test/3659743a.pem,1,28,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,PEM Private Key
 41720,3295df72,GitHub,891ea546,data/891ea546/src/3295df72.sum,87,87,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 41721,3295df72,GitHub,891ea546,data/891ea546/src/3295df72.sum,88,88,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 41914,570c8415,GitHub,891ea546,data/891ea546/src/570c8415.toml,15,15,Template,T,46,54,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials

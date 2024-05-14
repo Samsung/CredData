@@ -71,7 +71,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 32353,78a8a197,GitHub,848ad017,data/848ad017/src/78a8a197.yml,247,247,Template,T,17,32,F,F,Any,,,Secret,3.11,15,F,F,F,Password
 32633,b3356305,GitHub,848ad017,data/848ad017/other/b3356305.md,250,250,T,T,49,57,F,F,CharsOnly,,,Unknown,2.75,8,F,F,F,Unknown:notfound
 33395,81fa6af7,GitHub,848ad017,data/848ad017/src/81fa6af7.secrets,8,8,Template,T,10,23,F,F,Any,,,Unknown,2.67,13,F,F,F,Password
-34257,5f2dd11c,GitHub,848ad017,data/848ad017/src/5f2dd11c.yml,691,699,F,F,,,F,F,,,,,0,0,F,F,F,Private Key
+34257,5f2dd11c,GitHub,848ad017,data/848ad017/src/5f2dd11c.yml,691,699,F,F,,,F,F,,,,,0,0,F,F,F,PEM Private Key
 36553,b3356305,GitHub,848ad017,data/848ad017/other/b3356305.md,265,265,Template,T,38,46,F,F,CharsOnly,,,Unknown,2.75,8,F,F,F,Password
 36554,b3356305,GitHub,848ad017,data/848ad017/other/b3356305.md,298,298,Template,T,38,46,F,F,CharsOnly,,,Unknown,2.75,8,F,F,F,Password
 36687,78a8a197,GitHub,848ad017,data/848ad017/src/78a8a197.yml,260,260,Template,T,17,32,F,F,Any,,,Secret,3.11,15,F,F,F,Password
@@ -92,7 +92,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 42449,5f2dd11c,GitHub,848ad017,data/848ad017/src/5f2dd11c.yml,1436,1436,Template,T,13,31,F,F,Any,,,Secret,3.11,18,F,F,F,Secret
 47926,e7010a6a,GitHub,848ad017,data/848ad017/other/e7010a6a.md,57,57,T,T,31,39,F,F,Any,,,Secret,2.75,8,F,F,F,Key:Secret
 47927,e7010a6a,GitHub,848ad017,data/848ad017/other/e7010a6a.md,204,204,T,T,31,39,F,F,Any,,,Secret,2.75,8,F,F,F,Key:Secret
-78103,5f2dd11c,GitHub,848ad017,data/848ad017/src/5f2dd11c.yml,678,686,F,F,,,F,F,,,,,0,0,F,F,F,Private Key
+78103,5f2dd11c,GitHub,848ad017,data/848ad017/src/5f2dd11c.yml,678,686,F,F,,,F,F,,,,,0,0,F,F,F,PEM Private Key
 101064,b3356305,GitHub,848ad017,data/848ad017/other/b3356305.md,151,151,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 101065,b3356305,GitHub,848ad017,data/848ad017/other/b3356305.md,153,153,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 101066,b3356305,GitHub,848ad017,data/848ad017/other/b3356305.md,607,607,F,F,,,F,F,,,,,0.00,,F,F,F,Info
@@ -137,7 +137,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 101105,df2df337,GitHub,848ad017,data/848ad017/src/df2df337.yml,79,79,Template,T,12,20,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Password
 101106,df2df337,GitHub,848ad017,data/848ad017/src/df2df337.yml,87,87,Template,T,12,20,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Password
 110527,5f2dd11c,GitHub,848ad017,data/848ad017/src/5f2dd11c.yml,1098,1098,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-110528,5f2dd11c,GitHub,848ad017,data/848ad017/src/5f2dd11c.yml,817,817,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern:Certificate
+110528,5f2dd11c,GitHub,848ad017,data/848ad017/src/5f2dd11c.yml,817,817,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
 110529,df2df337,GitHub,848ad017,data/848ad017/src/df2df337.yml,99,99,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 110530,df2df337,GitHub,848ad017,data/848ad017/src/df2df337.yml,170,170,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
 110531,e7010a6a,GitHub,848ad017,data/848ad017/other/e7010a6a.md,156,156,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
@@ -157,8 +157,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 130404,b3356305,GitHub,848ad017,data/848ad017/other/b3356305.md,627,627,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
 130405,037ea159,GitHub,848ad017,data/848ad017/src/037ea159.yml,10,10,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130406,b3356305,GitHub,848ad017,data/848ad017/other/b3356305.md,619,619,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
-132090,934fe23a,GitHub,848ad017,data/848ad017/other/934fe23a,42,42,F,F,,,F,F,,,,,0.00,,F,F,F,Info:IPv4
+132090,934fe23a,GitHub,848ad017,data/848ad017/other/934fe23a,42,42,F,F,,,F,F,,,,,0.00,,F,F,F,IPv4
 132858,b3356305,GitHub,848ad017,data/848ad017/other/b3356305.md,595,595,F,F,,,F,F,,,,,0,0,F,F,F,Password
 133801,4d714c23,GitHub,848ad017,data/848ad017/other/4d714c23,450,450,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 133802,b3356305,GitHub,848ad017,data/848ad017/other/b3356305.md,673,673,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-133803,5f2dd11c,GitHub,848ad017,data/848ad017/src/5f2dd11c.yml,1041,1041,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern:Certificate
+133803,5f2dd11c,GitHub,848ad017,data/848ad017/src/5f2dd11c.yml,1041,1041,F,F,,,F,F,,,,,0,0,F,F,F,Certificate

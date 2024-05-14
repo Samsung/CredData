@@ -73,11 +73,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 30508,2f9b15a9,GitHub,ec138349,data/ec138349/test/2f9b15a9.java,117,117,F,F,61,66,T,F,NumbersOnly,,,Token,2.32,5,F,F,F,Token
 30511,2f9b15a9,GitHub,ec138349,data/ec138349/test/2f9b15a9.java,107,107,F,F,74,79,T,F,NumbersOnly,,,Token,2.32,5,F,F,F,Token
 31119,37c07333,GitHub,ec138349,data/ec138349/test/37c07333.yml,16,16,Template,T,20,26,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Key:Password
-31739,74dff624,GitHub,ec138349,data/ec138349/test/74dff624.java,156,167,T,F,,,F,F,Any,Private,,Unknown,0.0,0,F,F,F,Private Key:PEM Private Key
+31739,74dff624,GitHub,ec138349,data/ec138349/test/74dff624.java,156,167,T,F,,,F,F,Any,Private,,Unknown,0.0,0,F,F,F,PEM Private Key
 32381,8ca6f43a,GitHub,ec138349,data/ec138349/test/8ca6f43a.java,189,189,T,F,25,57,F,F,Any,,,Unknown,3.53,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret
 32560,525afad4,GitHub,ec138349,data/ec138349/test/525afad4.java,166,166,F,F,70,111,F,F,,,,,0,0,F,F,F,Secret
 32576,c7e94b6e,GitHub,ec138349,data/ec138349/test/c7e94b6e.java,166,166,F,F,44,85,F,F,,,,,0,0,F,F,F,Secret
-32577,5cba2249,GitHub,ec138349,data/ec138349/test/5cba2249.java,65,90,T,F,,,F,F,Any,Private,,Unknown,0.0,0,F,F,F,Private Key:PEM Private Key
+32577,5cba2249,GitHub,ec138349,data/ec138349/test/5cba2249.java,65,90,T,F,,,F,F,Any,Private,,Unknown,0.0,0,F,F,F,PEM Private Key
 32741,2f9b15a9,GitHub,ec138349,data/ec138349/test/2f9b15a9.java,161,161,F,F,61,77,T,F,Any,,,Token,3.12,16,F,F,T,Token
 32744,1c39b347,GitHub,ec138349,data/ec138349/test/1c39b347.java,64,64,F,F,14,42,F,F,Any,,,Unknown,4.59,28,F,F,F,Unknown:notfound
 33015,ac2c1669,GitHub,ec138349,data/ec138349/test/ac2c1669.java,33,33,T,F,18,59,F,F,Any,,,Unknown,4.72,41,F,F,F,Unknown:notfound
@@ -134,17 +134,17 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 63307,4bd8786f,GitHub,ec138349,data/ec138349/src/4bd8786f.java,90,90,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 64117,32181d74,GitHub,ec138349,data/ec138349/src/32181d74.java,96,96,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 75473,7c719700,GitHub,ec138349,data/ec138349/src/7c719700.js,387,387,F,F,,,F,F,,,,,0,0,F,F,F,Token
-78226,35900f5a,GitHub,ec138349,data/ec138349/test/35900f5a.java,71,88,F,F,,,F,F,,,,,0,0,F,F,F,Private Key
-79014,74dff624,GitHub,ec138349,data/ec138349/test/74dff624.java,178,181,F,F,,,F,F,,,,,0,0,F,F,F,Private Key
+78226,35900f5a,GitHub,ec138349,data/ec138349/test/35900f5a.java,71,88,F,F,,,F,F,,,,,0,0,F,F,F,PEM Private Key
+79014,74dff624,GitHub,ec138349,data/ec138349/test/74dff624.java,178,181,F,F,,,F,F,,,,,0,0,F,F,F,PEM Private Key
 79015,74dff624,GitHub,ec138349,data/ec138349/test/74dff624.java,184,184,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-79016,74dff624,GitHub,ec138349,data/ec138349/test/74dff624.java,190,193,F,F,,,F,F,,,,,0,0,F,F,F,Private Key
+79016,74dff624,GitHub,ec138349,data/ec138349/test/74dff624.java,190,193,F,F,,,F,F,,,,,0,0,F,F,F,PEM Private Key
 79017,74dff624,GitHub,ec138349,data/ec138349/test/74dff624.java,195,195,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-79018,74dff624,GitHub,ec138349,data/ec138349/test/74dff624.java,223,226,F,F,,,F,F,,,,,0,0,F,F,F,Private Key
+79018,74dff624,GitHub,ec138349,data/ec138349/test/74dff624.java,223,226,F,F,,,F,F,,,,,0,0,F,F,F,PEM Private Key
 79019,74dff624,GitHub,ec138349,data/ec138349/test/74dff624.java,231,231,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-79020,74dff624,GitHub,ec138349,data/ec138349/test/74dff624.java,245,248,F,F,,,F,F,,,,,0,0,F,F,F,Private Key
-79475,5cba2249,GitHub,ec138349,data/ec138349/test/5cba2249.java,107,115,F,F,,,F,F,,,,,0,0,F,F,F,Private Key
-79476,5cba2249,GitHub,ec138349,data/ec138349/test/5cba2249.java,117,124,F,F,,,F,F,,,,,0,0,F,F,F,Private Key
-79477,5cba2249,GitHub,ec138349,data/ec138349/test/5cba2249.java,126,144,F,F,,,F,F,,,,,0,0,F,F,F,Private Key
+79020,74dff624,GitHub,ec138349,data/ec138349/test/74dff624.java,245,248,F,F,,,F,F,,,,,0,0,F,F,F,PEM Private Key
+79475,5cba2249,GitHub,ec138349,data/ec138349/test/5cba2249.java,107,115,F,F,,,F,F,,,,,0,0,F,F,F,PEM Private Key
+79476,5cba2249,GitHub,ec138349,data/ec138349/test/5cba2249.java,117,124,F,F,,,F,F,,,,,0,0,F,F,F,PEM Private Key
+79477,5cba2249,GitHub,ec138349,data/ec138349/test/5cba2249.java,126,144,F,F,,,F,F,,,,,0,0,F,F,F,PEM Private Key
 82634,37c07333,GitHub,ec138349,data/ec138349/test/37c07333.yml,17,17,Template,F,4,12,F,F,,,,,0,0,F,F,F,Password
 82635,525afad4,GitHub,ec138349,data/ec138349/test/525afad4.java,247,247,F,F,0,88,F,F,,,,,0,0,F,F,F,Secret
 82636,525afad4,GitHub,ec138349,data/ec138349/test/525afad4.java,268,268,F,F,0,122,F,F,,,,,0,0,F,F,F,Secret

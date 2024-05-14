@@ -29,7 +29,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 15285,8943f7fd,GitHub,69d49010,data/69d49010/test/8943f7fd.py,793,793,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 15437,e9271360,GitHub,69d49010,data/69d49010/test/e9271360.py,11,11,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 16571,e7bdc301,GitHub,69d49010,data/69d49010/test/e7bdc301.py,71,71,F,F,,,F,F,,,,,0,0,F,F,F,Token
-18645,0096a9db,GitHub,69d49010,data/69d49010/test/0096a9db,1,38,T,T,,,F,F,Any,Private,,Unknown,2.45,30,F,F,F,Private Key:PEM Private Key
+18645,0096a9db,GitHub,69d49010,data/69d49010/test/0096a9db,1,38,T,T,,,F,F,Any,Private,,Unknown,2.45,30,F,F,F,PEM Private Key
 18914,d8bdaaee,GitHub,69d49010,data/69d49010/src/d8bdaaee.py,195,195,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 24644,e7bdc301,GitHub,69d49010,data/69d49010/test/e7bdc301.py,20,20,F,F,18,43,F,F,,,,,0,0,F,F,F,Secret:Gitlab Incoming Email Token
 26305,d6cfb4be,GitHub,69d49010,data/69d49010/src/d6cfb4be.py,67,67,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
@@ -138,22 +138,22 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 101641,0f740ef3,GitHub,69d49010,data/69d49010/src/0f740ef3.py,50,50,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 101642,85d52436,GitHub,69d49010,data/69d49010/test/85d52436.py,255,255,Template,T,36,42,F,F,CharOnly,,,Secret,2.25,6,F,F,F,Password
 101643,24985056,GitHub,69d49010,data/69d49010/test/24985056.py,190,190,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-110861,234bac3c,GitHub,69d49010,data/69d49010/test/234bac3c.py,284,284,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern:API
-110862,234bac3c,GitHub,69d49010,data/69d49010/test/234bac3c.py,289,289,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern:API
-110863,234bac3c,GitHub,69d49010,data/69d49010/test/234bac3c.py,294,294,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern:API
-110864,234bac3c,GitHub,69d49010,data/69d49010/test/234bac3c.py,306,306,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern:API
-110865,0ad35f25,GitHub,69d49010,data/69d49010/test/0ad35f25.py,186,186,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern:API
-110866,8943f7fd,GitHub,69d49010,data/69d49010/test/8943f7fd.py,772,772,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern:API
+110861,234bac3c,GitHub,69d49010,data/69d49010/test/234bac3c.py,284,284,F,F,,,F,F,,,,,0.00,,F,F,F,API
+110862,234bac3c,GitHub,69d49010,data/69d49010/test/234bac3c.py,289,289,F,F,,,F,F,,,,,0.00,,F,F,F,API
+110863,234bac3c,GitHub,69d49010,data/69d49010/test/234bac3c.py,294,294,F,F,,,F,F,,,,,0.00,,F,F,F,API
+110864,234bac3c,GitHub,69d49010,data/69d49010/test/234bac3c.py,306,306,F,F,,,F,F,,,,,0.00,,F,F,F,API
+110865,0ad35f25,GitHub,69d49010,data/69d49010/test/0ad35f25.py,186,186,F,F,,,F,F,,,,,0.00,,F,F,F,API
+110866,8943f7fd,GitHub,69d49010,data/69d49010/test/8943f7fd.py,772,772,F,F,,,F,F,,,,,0.00,,F,F,F,API
 110867,8943f7fd,GitHub,69d49010,data/69d49010/test/8943f7fd.py,63,63,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
 110868,8943f7fd,GitHub,69d49010,data/69d49010/test/8943f7fd.py,430,430,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
 110869,8943f7fd,GitHub,69d49010,data/69d49010/test/8943f7fd.py,440,440,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
 110870,8943f7fd,GitHub,69d49010,data/69d49010/test/8943f7fd.py,449,449,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
 110871,24985056,GitHub,69d49010,data/69d49010/test/24985056.py,213,213,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
 110872,5aad918a,GitHub,69d49010,data/69d49010/test/5aad918a.py,412,412,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
-110873,e7bdc301,GitHub,69d49010,data/69d49010/test/e7bdc301.py,30,30,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern:API
-110874,e7bdc301,GitHub,69d49010,data/69d49010/test/e7bdc301.py,35,35,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern:API
-110875,e7bdc301,GitHub,69d49010,data/69d49010/test/e7bdc301.py,42,42,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern:API
-110876,e7bdc301,GitHub,69d49010,data/69d49010/test/e7bdc301.py,51,51,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern:API
+110873,e7bdc301,GitHub,69d49010,data/69d49010/test/e7bdc301.py,30,30,F,F,,,F,F,,,,,0.00,,F,F,F,API
+110874,e7bdc301,GitHub,69d49010,data/69d49010/test/e7bdc301.py,35,35,F,F,,,F,F,,,,,0.00,,F,F,F,API
+110875,e7bdc301,GitHub,69d49010,data/69d49010/test/e7bdc301.py,42,42,F,F,,,F,F,,,,,0.00,,F,F,F,API
+110876,e7bdc301,GitHub,69d49010,data/69d49010/test/e7bdc301.py,51,51,F,F,,,F,F,,,,,0.00,,F,F,F,API
 130555,07babff1,GitHub,69d49010,data/69d49010/src/07babff1.py,141,141,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130556,07babff1,GitHub,69d49010,data/69d49010/src/07babff1.py,377,377,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130557,4ed5ad38,GitHub,69d49010,data/69d49010/src/4ed5ad38.py,173,173,F,F,,,F,F,,,,,0.00,,F,F,F,Password
@@ -175,10 +175,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 132028,85d52436,GitHub,69d49010,data/69d49010/test/85d52436.py,548,548,T,F,27,44,F,F,,,Info,,0.00,,F,F,F,IPv6
 132029,24cbbb32,GitHub,69d49010,data/69d49010/test/24cbbb32.py,761,761,T,F,8,15,F,F,,,Info,,0.00,,F,F,F,IPv4
 132030,24cbbb32,GitHub,69d49010,data/69d49010/test/24cbbb32.py,772,772,T,F,8,15,F,F,,,Info,,0.00,,F,F,F,IPv4
-132031,24cbbb32,GitHub,69d49010,data/69d49010/test/24cbbb32.py,807,807,T,F,,,F,F,,,,,0.00,,F,F,F,Info:IPv4
+132031,24cbbb32,GitHub,69d49010,data/69d49010/test/24cbbb32.py,807,807,T,F,,,F,F,,,,,0.00,,F,F,F,IPv4
 132755,5aad918a,GitHub,69d49010,data/69d49010/test/5aad918a.py,403,403,T,F,28,42,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
 133408,9d3adc9d,GitHub,69d49010,data/69d49010/src/9d3adc9d.py,220,220,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
-133409,d6cfb4be,GitHub,69d49010,data/69d49010/src/d6cfb4be.py,69,69,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern:API
-133410,d6cfb4be,GitHub,69d49010,data/69d49010/src/d6cfb4be.py,75,75,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern:API
+133409,d6cfb4be,GitHub,69d49010,data/69d49010/src/d6cfb4be.py,69,69,F,F,,,F,F,,,,,0,0,F,F,F,API
+133410,d6cfb4be,GitHub,69d49010,data/69d49010/src/d6cfb4be.py,75,75,F,F,,,F,F,,,,,0,0,F,F,F,API
 133411,24cbbb32,GitHub,69d49010,data/69d49010/test/24cbbb32.py,680,680,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 135283,85d52436,GitHub,69d49010,data/69d49010/test/85d52436.py,279,279,T,F,8,21,F,F,,,,,0,0,F,F,F,Password:URL Credentials

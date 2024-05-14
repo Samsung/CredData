@@ -1,8 +1,8 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-1014,4a6e201d,GitHub,72001588,data/72001588/src/4a6e201d.py,503,503,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern:API
-5965,a2b952af,GitHub,72001588,data/72001588/src/a2b952af.yml,4,4,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern:API
+1014,4a6e201d,GitHub,72001588,data/72001588/src/4a6e201d.py,503,503,F,F,,,F,F,,,,,0,0,F,F,F,API
+5965,a2b952af,GitHub,72001588,data/72001588/src/a2b952af.yml,4,4,F,F,,,F,F,,,,,0,0,F,F,F,API
 6052,85fc2629,GitHub,72001588,data/72001588/src/85fc2629.yaml,2,2,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-6064,6887e6ef,GitHub,72001588,data/72001588/src/6887e6ef.yml,4,4,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern:API
+6064,6887e6ef,GitHub,72001588,data/72001588/src/6887e6ef.yml,4,4,F,F,,,F,F,,,,,0,0,F,F,F,API
 7887,12925cc4,GitHub,72001588,data/72001588/src/12925cc4.yaml,6,6,F,F,,,F,F,,,,,0,0,F,F,F,Token
 13821,eb486ff5,GitHub,72001588,data/72001588/src/eb486ff5.py,586,586,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 16590,4a6e201d,GitHub,72001588,data/72001588/src/4a6e201d.py,364,364,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -20,14 +20,14 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 28882,ed73bc37,GitHub,72001588,data/72001588/src/ed73bc37.yml,3,3,Template,T,11,15,F,F,CharsOnly,,,Secret,2.00,4,F,F,F,Password
 31519,4a6e201d,GitHub,72001588,data/72001588/src/4a6e201d.py,13,13,Template,F,30,36,F,F,Any,,,Secret,2.58,6,F,F,F,Key:Secret
 31522,0ed4f2dd,GitHub,72001588,data/72001588/src/0ed4f2dd.py,13,13,Template,F,30,36,F,F,Any,,,Secret,2.58,6,F,F,F,Key:Secret
-35267,27d3362d,GitHub,72001588,data/72001588/other/27d3362d,1,30,F,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
-35287,07e6ca2d,GitHub,72001588,data/72001588/other/07e6ca2d,1,30,F,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key
+35267,27d3362d,GitHub,72001588,data/72001588/other/27d3362d,1,30,F,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,PEM Private Key
+35287,07e6ca2d,GitHub,72001588,data/72001588/other/07e6ca2d,1,30,F,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,PEM Private Key
 36062,f5cb4f6a,GitHub,72001588,data/72001588/test/f5cb4f6a.tf,4,4,Template,T,12,20,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
 36433,6887e6ef,GitHub,72001588,data/72001588/src/6887e6ef.yml,7,7,T,F,14,37,F,F,Any,,,Token,3.53,23,F,F,F,Token
 41120,eb486ff5,GitHub,72001588,data/72001588/src/eb486ff5.py,13,13,Template,F,30,36,F,F,Any,,,Secret,2.58,6,F,F,F,Key:Secret
-41782,eb486ff5,GitHub,72001588,data/72001588/src/eb486ff5.py,538,538,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern:API
+41782,eb486ff5,GitHub,72001588,data/72001588/src/eb486ff5.py,538,538,F,F,,,F,F,,,,,0,0,F,F,F,API
 42419,a2b952af,GitHub,72001588,data/72001588/src/a2b952af.yml,12,12,T,F,14,37,F,F,Any,,,Token,3.53,23,F,F,F,Token
-42705,0ed4f2dd,GitHub,72001588,data/72001588/src/0ed4f2dd.py,538,538,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern:API
+42705,0ed4f2dd,GitHub,72001588,data/72001588/src/0ed4f2dd.py,538,538,F,F,,,F,F,,,,,0,0,F,F,F,API
 55616,919469cb,GitHub,72001588,data/72001588/src/919469cb.ini,169,169,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 55617,519f7a46,GitHub,72001588,data/72001588/src/519f7a46.ini,169,169,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 55618,919469cb,GitHub,72001588,data/72001588/src/919469cb.ini,208,208,T,F,26,45,F,F,CharsOnly,,,Secret,0,19,F,F,F,Password:Key:Secret

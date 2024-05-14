@@ -120,7 +120,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 35033,77092789,GitHub,d94d550a,data/d94d550a/test/77092789.py,38,38,T,F,17,58,F,F,Any,,,Token,4.43,41,F,F,F,Token
 35036,4b0207e6,GitHub,d94d550a,data/d94d550a/test/4b0207e6.py,38,38,T,F,18,43,F,F,Any,,,Token,4.22,25,F,F,F,Token
 35043,717f39b8,GitHub,d94d550a,data/d94d550a/test/717f39b8.py,470,470,T,T,25,35,F,F,Any,,,Secret,3.12,10,F,F,F,Password
-35077,fc789d4d,GitHub,d94d550a,data/d94d550a/test/fc789d4d.py,109,113,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,Private Key:PEM Private Key
+35077,fc789d4d,GitHub,d94d550a,data/d94d550a/test/fc789d4d.py,109,113,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,PEM Private Key
 35078,717f39b8,GitHub,d94d550a,data/d94d550a/test/717f39b8.py,121,121,T,T,14,21,F,F,CharsOnly,,,Secret,2.52,7,F,F,F,Password
 35079,717f39b8,GitHub,d94d550a,data/d94d550a/test/717f39b8.py,154,154,T,T,14,21,F,F,CharsOnly,,,Secret,2.52,7,F,F,F,Password
 35080,717f39b8,GitHub,d94d550a,data/d94d550a/test/717f39b8.py,122,122,T,T,14,21,F,F,CharsOnly,,,Secret,2.52,7,F,F,F,Password
@@ -162,7 +162,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 37348,717f39b8,GitHub,d94d550a,data/d94d550a/test/717f39b8.py,1528,1528,T,T,14,21,F,F,CharsOnly,,,Secret,2.52,7,F,F,F,Password
 37728,717f39b8,GitHub,d94d550a,data/d94d550a/test/717f39b8.py,540,540,T,T,34,41,F,F,CharsOnly,,,Secret,2.52,7,F,F,F,Password
 37729,717f39b8,GitHub,d94d550a,data/d94d550a/test/717f39b8.py,863,863,T,T,34,41,F,F,CharsOnly,,,Secret,2.52,7,F,F,F,Password
-40617,0c5ae732,GitHub,d94d550a,data/d94d550a/src/0c5ae732.rst,156,160,F,F,,,F,F,,,,,0,0,F,F,F,Private Key
+40617,0c5ae732,GitHub,d94d550a,data/d94d550a/src/0c5ae732.rst,156,160,F,F,,,F,F,,,,,0,0,F,F,F,PEM Private Key
 41755,8e6ecefa,GitHub,d94d550a,data/d94d550a/src/8e6ecefa.py,62,62,F,F,,,F,F,,,,,0,0,F,F,F,Token
 41998,1e698c88,GitHub,d94d550a,data/d94d550a/src/1e698c88.py,30,30,F,F,,,F,F,,,,,0,0,F,F,F,Password
 42301,aca468f7,GitHub,d94d550a,data/d94d550a/src/aca468f7.py,55,55,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -221,17 +221,17 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 100843,717f39b8,GitHub,d94d550a,data/d94d550a/test/717f39b8.py,362,362,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 100844,717f39b8,GitHub,d94d550a,data/d94d550a/test/717f39b8.py,744,744,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 110446,0c5ae732,GitHub,d94d550a,data/d94d550a/src/0c5ae732.rst,1249,1249,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
-110447,0c5ae732,GitHub,d94d550a,data/d94d550a/src/0c5ae732.rst,1355,1355,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern:API
+110447,0c5ae732,GitHub,d94d550a,data/d94d550a/src/0c5ae732.rst,1355,1355,F,F,,,F,F,,,,,0.00,,F,F,F,API
 110448,aca468f7,GitHub,d94d550a,data/d94d550a/src/aca468f7.py,383,383,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 110449,aca468f7,GitHub,d94d550a,data/d94d550a/src/aca468f7.py,498,498,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 110450,fee90bbc,GitHub,d94d550a,data/d94d550a/src/fee90bbc.py,33,33,F,F,,,F,F,,,,,0.00,,F,F,F,Token
-110451,61f17933,GitHub,d94d550a,data/d94d550a/test/61f17933.py,28,28,F,F,,,F,F,,,,,0.00,,F,F,F,Info:AWS S3 Bucket
-110452,61f17933,GitHub,d94d550a,data/d94d550a/test/61f17933.py,146,146,F,F,,,F,F,,,,,0.00,,F,F,F,Info:AWS S3 Bucket
+110451,61f17933,GitHub,d94d550a,data/d94d550a/test/61f17933.py,28,28,F,F,,,F,F,,,,,0.00,,F,F,F,AWS S3 Bucket
+110452,61f17933,GitHub,d94d550a,data/d94d550a/test/61f17933.py,146,146,F,F,,,F,F,,,,,0.00,,F,F,F,AWS S3 Bucket
 110453,72a90f02,GitHub,d94d550a,data/d94d550a/test/72a90f02.py,110,110,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 130307,71b15ad9,GitHub,d94d550a,data/d94d550a/test/71b15ad9.py,432,432,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130308,717f39b8,GitHub,d94d550a,data/d94d550a/test/717f39b8.py,201,201,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-131843,4d608fc7,GitHub,d94d550a,data/d94d550a/test/4d608fc7.py,36,36,T,F,,,F,F,,,,,0.00,,F,F,F,Info:Gitlab Incoming Email Token
-131844,4d608fc7,GitHub,d94d550a,data/d94d550a/test/4d608fc7.py,38,38,T,F,,,F,F,,,,,0.00,,F,F,F,Info:Gitlab Incoming Email Token
+131843,4d608fc7,GitHub,d94d550a,data/d94d550a/test/4d608fc7.py,36,36,T,F,,,F,F,,,,,0.00,,F,F,F,Gitlab Incoming Email Token
+131844,4d608fc7,GitHub,d94d550a,data/d94d550a/test/4d608fc7.py,38,38,T,F,,,F,F,,,,,0.00,,F,F,F,Gitlab Incoming Email Token
 138110,717f39b8,GitHub,d94d550a,data/d94d550a/test/717f39b8.py,356,356,T,F,47,57,F,F,,,,,0.0,0,F,F,F,Password
 138111,717f39b8,GitHub,d94d550a,data/d94d550a/test/717f39b8.py,367,367,T,F,47,57,F,F,,,,,0.0,0,F,F,F,Password
 138112,717f39b8,GitHub,d94d550a,data/d94d550a/test/717f39b8.py,388,388,T,F,42,52,F,F,,,,,0.0,0,F,F,F,Password

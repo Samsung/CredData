@@ -5,7 +5,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 5344,9e7115c5,GitHub,49e2a965,data/49e2a965/src/9e7115c5.ts,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 5955,ae95a565,GitHub,49e2a965,data/49e2a965/other/ae95a565.md,194,194,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 14564,97db29a7,GitHub,49e2a965,data/49e2a965/other/97db29a7.md,186,186,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-17081,ae95a565,GitHub,49e2a965,data/49e2a965/other/ae95a565.md,109,109,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern:URL Credentials
+17081,ae95a565,GitHub,49e2a965,data/49e2a965/other/ae95a565.md,109,109,F,F,,,F,F,,,,,0,0,F,F,F,URL Credentials
 17347,c22885d9,GitHub,49e2a965,data/49e2a965/test/c22885d9.md,40,40,F,F,,,F,F,,,,,0,0,F,F,F,Token
 26430,7f6254f3,GitHub,49e2a965,data/49e2a965/other/7f6254f3.md,106,106,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 27410,ef6fe596,GitHub,49e2a965,data/49e2a965/test/ef6fe596.ts,40,40,Template,T,9,15,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Secret
@@ -21,12 +21,12 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 29961,97db29a7,GitHub,49e2a965,data/49e2a965/other/97db29a7.md,187,187,Template,T,9,25,F,F,Any,,,Secret,3.58,16,F,F,F,Secret
 30053,69c9100f,GitHub,49e2a965,data/49e2a965/src/69c9100f.ts,113,113,Template,T,13,34,F,F,Any,,,Unknown,3.35,21,F,F,F,Secret
 30790,63da967b,GitHub,49e2a965,data/49e2a965/test/63da967b.ts,22,22,Template,T,24,30,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Secret
-32402,63da967b,GitHub,49e2a965,data/49e2a965/test/63da967b.ts,13,21,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key:PEM Private Key
-32444,617abb47,GitHub,49e2a965,data/49e2a965/test/617abb47.ts,13,21,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key:PEM Private Key
-33753,d0299fed,GitHub,49e2a965,data/49e2a965/test/d0299fed.ts,6,14,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key:PEM Private Key
-33879,76ccf172,GitHub,49e2a965,data/49e2a965/test/76ccf172.ts,74,74,T,F,1,,F,F,Any,Private,,Unknown,0.50,4,F,F,F,Private Key:PEM Private Key
+32402,63da967b,GitHub,49e2a965,data/49e2a965/test/63da967b.ts,13,21,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,PEM Private Key
+32444,617abb47,GitHub,49e2a965,data/49e2a965/test/617abb47.ts,13,21,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,PEM Private Key
+33753,d0299fed,GitHub,49e2a965,data/49e2a965/test/d0299fed.ts,6,14,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,PEM Private Key
+33879,76ccf172,GitHub,49e2a965,data/49e2a965/test/76ccf172.ts,74,74,T,F,1,,F,F,Any,Private,,Unknown,0.50,4,F,F,F,PEM Private Key
 34066,13d6465f,GitHub,49e2a965,data/49e2a965/test/13d6465f.ts,24,24,F,T,13,24,F,F,Any,,,Unknown,2.96,11,F,F,F,Key
-35291,91cf9921,GitHub,49e2a965,data/49e2a965/test/91cf9921.pem,1,51,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key:PEM Private Key
+35291,91cf9921,GitHub,49e2a965,data/49e2a965/test/91cf9921.pem,1,51,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,PEM Private Key
 47191,30ef539d,GitHub,49e2a965,data/49e2a965/test/30ef539d.ts,115,115,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 47198,85f228e9,GitHub,49e2a965,data/49e2a965/test/85f228e9.ts,102,102,T,F,16,56,F,F,Any,,,Secret,3.74,40,F,F,F,Secret
 47217,ef6fe596,GitHub,49e2a965,data/49e2a965/test/ef6fe596.ts,74,74,Template,T,9,15,F,F,CharsOnly,,,Unknown,2.25,6,F,F,F,Secret
@@ -35,13 +35,13 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 47701,b369b381,GitHub,49e2a965,data/49e2a965/test/b369b381.snap,14,14,T,F,25,65,F,F,Any,,,Secret,3.74,40,F,F,F,Secret
 48100,0a7ae4db,GitHub,49e2a965,data/49e2a965/test/0a7ae4db.json,4,4,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 48107,0a7ae4db,GitHub,49e2a965,data/49e2a965/test/0a7ae4db.json,3,3,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-50064,ef6fe596,GitHub,49e2a965,data/49e2a965/test/ef6fe596.ts,12,20,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,Private Key:PEM Private Key
+50064,ef6fe596,GitHub,49e2a965,data/49e2a965/test/ef6fe596.ts,12,20,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,PEM Private Key
 61604,d0299fed,GitHub,49e2a965,data/49e2a965/test/d0299fed.ts,80,80,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 62643,0cd594dd,GitHub,49e2a965,data/49e2a965/src/0cd594dd.ts,19,19,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 62644,0cd594dd,GitHub,49e2a965,data/49e2a965/src/0cd594dd.ts,25,25,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 62645,0cd594dd,GitHub,49e2a965,data/49e2a965/src/0cd594dd.ts,31,31,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 62646,0cd594dd,GitHub,49e2a965,data/49e2a965/src/0cd594dd.ts,37,37,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-82695,ae95a565,GitHub,49e2a965,data/49e2a965/other/ae95a565.md,150,150,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern:URL Credentials
+82695,ae95a565,GitHub,49e2a965,data/49e2a965/other/ae95a565.md,150,150,F,F,,,F,F,,,,,0,0,F,F,F,URL Credentials
 82696,97db29a7,GitHub,49e2a965,data/49e2a965/other/97db29a7.md,209,209,F,F,13,44,F,F,,,,,0,0,F,F,F,Secret
 82697,97db29a7,GitHub,49e2a965,data/49e2a965/other/97db29a7.md,210,210,Template,T,9,25,F,F,Any,,,Secret,3.58,16,F,F,F,Secret
 82698,97db29a7,GitHub,49e2a965,data/49e2a965/other/97db29a7.md,236,236,F,F,13,44,F,F,,,,,0,0,F,F,F,Secret
