@@ -1,5 +1,6 @@
 import dataclasses
 import os
+import subprocess
 from abc import ABC, abstractmethod
 from pathlib import Path
 from typing import Tuple, Dict, List, Any
@@ -293,7 +294,7 @@ class Scanner(ABC):
             if rule not in meta_row.Category.split(':'):
                 # subprocess.run(
                 #     ["sed", "-i",
-                #      f"s|^{row['Id']},\\(.*\\),{row['Category']}$|{row['Id']},\\1,{row['Category']}:{rule}|",
+                #      f"s|^{meta_row.Id},\\(.*\\),{meta_row.Category}$|{meta_row.Id},\\1,{meta_row.Category}:{rule}|",
                 #      f"meta/{repo_name}.csv"])
                 print(f"WARNING: '{rule}' not in {meta_row.Category}")
 
@@ -328,15 +329,6 @@ class Scanner(ABC):
             f"{self.scanner_type} result_cnt : {self.result_cnt}, lost_cnt : {self.lost_cnt}"
             f", true_cnt : {self.true_cnt}, false_cnt : {self.false_cnt}"
         )
-
-        # # f"T:{self.total_true_cnt} F:{self.total_false_cnt}"
-        # header = ["Rules", "Positives", "Negatives", "Templates"]
-        # rows: List[List[Any]] = []
-        # for key, val in self.categories.items():
-        #     rows.append([key, val[0] or None, val[1] or None, val[2] or None])
-        # rows.sort(key=lambda x: x[0])
-        # rows.append(["TOTAL:", self.total_true_cnt, self.total_false_cnt, self.total_template_cnt])
-        # print(tabulate.tabulate(rows, header), flush=True)
 
         header = ["Rules", "Positives", "Negatives", "Templates", "Reported",
                   "TP", "FP", "TN", "FN", "FPR", "FNR", "ACC", "PRC", "RCL", "F1"]
