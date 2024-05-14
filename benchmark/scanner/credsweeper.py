@@ -51,6 +51,7 @@ class CredSweeper(Scanner):
                         meta_cred.value_start, meta_cred.value_end,
                         meta_cred.path, meta_cred.rule)
             if cred_key in cred_set:
+                # after sanitize there may be duplicated coordinates
                 continue
             cred_set.add(cred_key)
 

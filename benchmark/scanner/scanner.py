@@ -401,26 +401,6 @@ class Scanner(ABC):
             Result.round_micro(total_result.recall),
             Result.round_micro(total_result.f1),
         ])
-
-        dbg_result = Result(tp_sum, fp_sum, tn_sum, fn_sum)
-        rows.append([
-            "dbg",
-            tp_sum,
-            fp_sum,
-            fn_sum,
-            reported_sum,
-            dbg_result.true_positive,
-            dbg_result.false_positive,
-            dbg_result.true_negative,
-            dbg_result.false_negative,
-            Result.round_micro(dbg_result.false_positive_rate),
-            Result.round_micro(dbg_result.false_negative_rate),
-            Result.round_micro(dbg_result.accuracy),
-            Result.round_micro(dbg_result.precision),
-            Result.round_micro(dbg_result.recall),
-            Result.round_micro(dbg_result.f1),
-        ])
-
         print(tabulate.tabulate(rows, header, floatfmt=".6f"))
 
     def _get_total_true_false_count(self, category: str) -> Tuple[int, int]:
