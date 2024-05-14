@@ -1,8 +1,6 @@
-import copy
 import csv
 import dataclasses
 import os
-import subprocess
 from abc import ABC, abstractmethod
 from typing import Tuple, Dict, List, Any
 
@@ -44,6 +42,7 @@ class Scanner(ABC):
         self.file_types: Dict[str, TypeStat] = {}
         self.total_data_valid_lines = 0
         self.meta: Dict[meta_file_lines_key, List[Dict[str, Any]]] = {}
+        self.reported: Dict[str, int] = {}  # counter of reported credentials by rules
         self._read_meta()
 
     @property
@@ -61,7 +60,7 @@ class Scanner(ABC):
             for file in files:
                 with open(f"{root}/{file}", newline="") as f:
                     if not file.endswith(".csv"):
-                        # git garbage files *.orig
+                        # git garbage files *.origf
                         continue
                     reader = csv.DictReader(f)
                     for row in reader:
@@ -127,14 +126,14 @@ class Scanner(ABC):
                         self.file_types[file_ext_lower].valid_lines += file_data_valid_lines
 
         print(f"DATA: {self.total_data_valid_lines} valid lines. MARKUP: {len(self.meta)} items", flush=True)
-        # f"T:{self.total_true_cnt} F:{self.total_false_cnt}"
-        header = ["Rules", "Positives", "Negatives", "Templates"]
-        rows: List[List[Any]] = []
-        for key, val in self.categories.items():
-            rows.append([key, val[0] or None, val[1] or None, val[2] or None])
-        rows.sort(key=lambda x: x[0])
-        rows.append(["TOTAL:", self.total_true_cnt, self.total_false_cnt, self.total_template_cnt])
-        print(tabulate.tabulate(rows, header), flush=True)
+        # # f"T:{self.total_true_cnt} F:{self.total_false_cnt}"
+        # header = ["Rules", "Positives", "Negatives", "Templates"]
+        # rows: List[List[Any]] = []
+        # for key, val in self.categories.items():
+        #     rows.append([key, val[0] or None, val[1] or None, val[2] or None])
+        # rows.sort(key=lambda x: x[0])
+        # rows.append(["TOTAL:", self.total_true_cnt, self.total_false_cnt, self.total_template_cnt])
+        # print(tabulate.tabulate(rows, header), flush=True)
         types_headers = ["FileType", "FileNumber", "ValidLines", "Positives", "Negatives", "Templates"]
         types_rows: List[List[Any]] = []
         check_files_number = 0
@@ -323,8 +322,8 @@ class Scanner(ABC):
                         #      f"meta/{repo_name}.csv"])
                         print(f"WARNING: '{rule}' not in {row['Category']}")
 
-                    code = f'{project_id},{file_id},{row["LineStart"]},{row["LineEnd"]}'\
-                            f',{row["ValueStart"]},{row["ValueEnd"]},{rule}'
+                    code = f'{project_id},{file_id},{row["LineStart"]},{row["LineEnd"]}' \
+                           f',{row["ValueStart"]},{row["ValueEnd"]},{rule}'
                     if code in self.line_checker:
                         self.result_cnt -= 1
                         return LineStatus.CHECKED, project_id, file_id
@@ -355,19 +354,43 @@ class Scanner(ABC):
             f"{self.scanner_type} result_cnt : {self.result_cnt}, lost_cnt : {self.lost_cnt}"
             f", true_cnt : {self.true_cnt}, false_cnt : {self.false_cnt}"
         )
-        header = ["Category", "TP", "FP", "TN", "FN", "FPR", "FNR", "ACC", "PRC", "RCL", "F1"]
+
+        # # f"T:{self.total_true_cnt} F:{self.total_false_cnt}"
+        # header = ["Rules", "Positives", "Negatives", "Templates"]
+        # rows: List[List[Any]] = []
+        # for key, val in self.categories.items():
+        #     rows.append([key, val[0] or None, val[1] or None, val[2] or None])
+        # rows.sort(key=lambda x: x[0])
+        # rows.append(["TOTAL:", self.total_true_cnt, self.total_false_cnt, self.total_template_cnt])
+        # print(tabulate.tabulate(rows, header), flush=True)
+
+        header = ["Rules", "Positives", "Negatives", "Templates", "Reported",
+                  "TP", "FP", "TN", "FN", "FPR", "FNR", "ACC", "PRC", "RCL", "F1"]
         rows: List[List[Any]] = []
 
-        tp=fp=tn=fn=0
-        for category, value in self.result_dict.items():
-            if category == "":
-                continue
+        # append empty scores for absent rules
+        for key, val in self.categories.items():
+            if key not in self.result_dict:
+                self.result_dict[key] = TrueFalseCounter()
+
+        # append for reported but not markup rules
+        for key, val in self.reported.items():
+            if key not in self.result_dict:
+                self.result_dict[key] = TrueFalseCounter()
+
+        reported_sum = tp_sum = fp_sum = tn_sum = fn_sum = 0
+        for rule, value in self.result_dict.items():
+            assert rule
             true_cnt = value.true_cnt
             false_cnt = value.false_cnt
-            total_true_cnt, total_false_cnt = self._get_total_true_false_count(category)
+            total_true_cnt, total_false_cnt = self._get_total_true_false_count(rule)
             result = Result(true_cnt, false_cnt, total_true_cnt, total_false_cnt)
             rows.append([
-                category,
+                rule,
+                self.categories[rule][0],
+                self.categories[rule][1],
+                self.categories[rule][2],
+                self.reported.get(rule),
                 result.true_positive,
                 result.false_positive,
                 result.true_negative,
@@ -379,32 +402,20 @@ class Scanner(ABC):
                 Result.round_micro(result.recall),
                 Result.round_micro(result.f1),
             ])
-            tp+=result.true_positive
-            fp +=result.false_positive
-            tn += result.true_negative
-            fn+=result.false_negative
+            reported_sum += self.reported.get(rule,0)
+            tp_sum += result.true_positive
+            fp_sum += result.false_positive
+            tn_sum += result.true_negative
+            fn_sum += result.false_negative
         rows.sort(key=lambda x: x[0])
 
-
-        new_result = Result(self.true_cnt, self.false_cnt, self.total_true_cnt, self.total_false_cnt)
-        rows.append([
-            "total_new",
-            new_result.true_positive,
-            new_result.false_positive,
-            new_result.true_negative,
-            new_result.false_negative,
-            Result.round_micro(new_result.false_positive_rate),
-            Result.round_micro(new_result.false_negative_rate),
-            Result.round_micro(new_result.accuracy),
-            Result.round_micro(new_result.precision),
-            Result.round_micro(new_result.recall),
-            Result.round_micro(new_result.f1),
-        ])
-
-        total_result = Result(self.true_cnt, self.false_cnt, self.total_true_cnt,
-                              self.total_data_valid_lines - self.total_true_cnt)
+        total_result = Result(self.true_cnt, self.false_cnt, self.total_true_cnt, self.total_false_cnt)
         rows.append([
             "",
+            self.total_true_cnt,
+            self.total_false_cnt,
+            self.total_template_cnt,
+            reported_sum,
             total_result.true_positive,
             total_result.false_positive,
             total_result.true_negative,
