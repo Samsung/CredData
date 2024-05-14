@@ -14,15 +14,16 @@ from pathlib import Path
 from typing import Tuple, Dict, List
 
 from meta_cred import MetaCred
+from meta_key import MetaKey
 from meta_row import MetaRow, _get_source_gen
 
 
-def prepare_meta(meta_dir) -> Dict[Tuple[str, int, int], List[MetaRow]]:
+def prepare_meta(meta_dir) -> Dict[MetaKey, List[MetaRow]]:
     meta_dict = {}
 
     for row in _get_source_gen(Path(meta_dir)):
         meta_row = MetaRow(row)
-        meta_key = (meta_row.FilePath, meta_row.LineStart, meta_row.LineEnd)
+        meta_key = MetaKey(meta_row.FilePath, meta_row.LineStart, meta_row.LineEnd)
         if meta_list := meta_dict.get(meta_key):
             meta_list.append(meta_row)
             meta_dict[meta_key] = meta_list
@@ -32,12 +33,12 @@ def prepare_meta(meta_dir) -> Dict[Tuple[str, int, int], List[MetaRow]]:
     return meta_dict
 
 
-def prepare_cred(meta_creds: List[dict]) -> Dict[Tuple[str, int, int], List[MetaCred]]:
+def prepare_cred(meta_creds: List[dict]) -> Dict[MetaKey, List[MetaCred]]:
     cred_dict = {}
 
     for i in meta_creds:
         meta_cred = MetaCred(i)
-        meta_key = (meta_cred.path, meta_cred.line_start, meta_cred.line_end)
+        meta_key = MetaKey(meta_cred.path, meta_cred.line_start, meta_cred.line_end)
         if meta_list := cred_dict.get(meta_key):
             meta_list.append(meta_cred)
         else:

@@ -6,6 +6,7 @@ import tabulate
 
 from benchmark.common.constants import URL, LineStatus, ScannerType
 from benchmark.scanner.scanner import Scanner
+from meta_cred import MetaCred
 
 
 class CredSweeper(Scanner):
@@ -42,42 +43,18 @@ class CredSweeper(Scanner):
         with open(self.output_dir, "r") as f:
             data = json.load(f)
 
-
-        for result in data:
+        for cred in data:
+            meta_cred = MetaCred(cred)
             # path will be same for all line_data_list
-            path_upper = result["line_data_list"][0]["path"].upper()
+            path_upper = meta_cred.path.upper()
             if any(i in path_upper for i in ["/COPYING", "/LICENSE"]):
                 continue
-            rule = result["rule"]
-            self.reported[rule] = 1 + self.reported.get(rule, 0)
-            # primary cred will be first, but line number is greater than secondary (multi pattern)
-            sorted_by_line_num = sorted(result["line_data_list"], key=lambda x: (x["line_num"], x["value_start"]))
-            line_data_first = sorted_by_line_num[0]
-            line_start = line_data_first["line_num"]
-            offset_first = len(line_data_first["line"]) - len(line_data_first["line"].lstrip())
-            value_start = line_data_first["value_start"] - offset_first
+            self.reported[meta_cred.rule] = 1 + self.reported.get(meta_cred.rule, 0)
 
-            line_data_last = sorted_by_line_num[-1]
-            line_end = line_data_last["line_num"]
-            offset_last = len(line_data_last["line"]) - len(line_data_last["line"].lstrip())
-            value_end = line_data_last["value_end"] - offset_last
-
-            check_line_result, line_data_first["project_id"], line_data_first["per_repo_file_id"] = \
-                self.check_line_from_meta(file_path=line_data_first["path"],
-                                          line_start=line_start,
-                                          line_end=line_end,
-                                          value_start=value_start,
-                                          value_end=value_end,
-                                          rule=rule)
-
-            line_data_first["TP"] = self.RESULT_DICT.get(check_line_result, '?')
-
-        # header = ["Rules in report", "count"]
-        # rows: List[List[Any]] = []
-        # total = 0
-        # for key, val in rules_dict.items():
-        #     rows.append([key, val])
-        #     total += val
-        # rows.sort(key=lambda x: x[0])
-        # rows.append(["TOTAL:", total])
-        # print(tabulate.tabulate(rows, header), flush=True)
+            check_line_result, project_id, file_id = \
+                self.check_line_from_meta(file_path=meta_cred.path,
+                                          line_start=meta_cred.line_start,
+                                          line_end=meta_cred.line_end,
+                                          value_start=meta_cred.strip_value_start,
+                                          value_end=meta_cred.strip_value_end,
+                                          rule=meta_cred.rule)
