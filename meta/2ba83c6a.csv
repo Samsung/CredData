@@ -1867,8 +1867,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 41708,6b861e09,GitHub,2ba83c6a,data/2ba83c6a/src/6b861e09.c,466,466,Template,T,55,65,F,F,Any,,,Secret,2.79,10,F,F,F,Secret
 41709,6b861e09,GitHub,2ba83c6a,data/2ba83c6a/src/6b861e09.c,467,467,Template,T,57,67,F,F,Any,,,Secret,2.39,10,F,F,F,Secret
 41710,6b861e09,GitHub,2ba83c6a,data/2ba83c6a/src/6b861e09.c,468,468,Template,T,61,73,F,F,Any,,,Secret,2.59,12,F,F,F,Secret
-41711,6cfa362d,GitHub,2ba83c6a,data/2ba83c6a/src/6cfa362d.cnf,189,189,Template,T,21,41,F,F,Any,,,Secret,3.49,20,F,F,F,Info
-41712,23d50951,GitHub,2ba83c6a,data/2ba83c6a/src/23d50951.cnf,189,189,Template,T,21,41,F,F,Any,,,Secret,3.49,20,F,F,F,Info
 41713,23d50951,GitHub,2ba83c6a,data/2ba83c6a/src/23d50951.cnf,344,344,T,T,9,19,F,F,Any,,,Secret,2.32,5,F,F,F,Password:Secret
 46335,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,302,302,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
 46336,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,324,324,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
@@ -7499,23 +7497,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 82842,cf5b9201,GitHub,2ba83c6a,data/2ba83c6a/src/cf5b9201.txt,802,802,F,F,0,38,F,F,,,,,0,0,F,F,F,Secret
 82843,cf5b9201,GitHub,2ba83c6a,data/2ba83c6a/src/cf5b9201.txt,927,927,F,F,0,38,F,F,,,,,0,0,F,F,F,Secret
 82844,cf5b9201,GitHub,2ba83c6a,data/2ba83c6a/src/cf5b9201.txt,1553,1553,F,F,0,38,F,F,,,,,0,0,F,F,F,Secret
-82845,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,243,243,F,F,0,67,F,F,,,,,0,0,F,F,F,Info
 82846,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,245,245,F,F,0,68,F,F,,,,,0,0,F,F,F,Secret
-82847,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,335,335,F,F,0,68,F,F,,,,,0,0,F,F,F,Info
-82848,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,336,336,F,F,0,67,F,F,,,,,0,0,F,F,F,Info
-82849,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,337,337,F,F,0,67,F,F,,,,,0,0,F,F,F,Info
-82850,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,338,338,F,F,0,67,F,F,,,,,0,0,F,F,F,Info
-82851,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,339,339,F,F,0,67,F,F,,,,,0,0,F,F,F,Info
-82852,1c980fd9,GitHub,2ba83c6a,data/2ba83c6a/test/1c980fd9.c,340,340,F,F,0,67,F,F,,,,,0,0,F,F,F,Info
-82853,14874dba,GitHub,2ba83c6a,data/2ba83c6a/test/14874dba.c,311,311,F,F,0,36,F,F,,,,,0,0,F,F,F,Info
-82854,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,159,159,F,F,0,66,F,F,,,,,0,0,F,F,F,Info
 82855,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,160,160,F,F,0,48,F,F,,,,,0,0,F,F,F,Secret
-82856,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,167,167,F,F,0,35,F,F,,,,,0,0,F,F,F,Info
-82857,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,168,168,F,F,0,27,F,F,,,,,0,0,F,F,F,Info
-82858,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,179,179,F,F,0,35,F,F,,,,,0,0,F,F,F,Info
-82859,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,180,180,F,F,0,27,F,F,,,,,0,0,F,F,F,Info
-82860,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,192,192,F,F,0,35,F,F,,,,,0,0,F,F,F,Info
-82861,17c4fdcf,GitHub,2ba83c6a,data/2ba83c6a/test/17c4fdcf.c,193,193,F,F,0,27,F,F,,,,,0,0,F,F,F,Info
 82863,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,118,118,F,F,10,30,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
 82864,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,123,123,F,F,9,29,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
 82865,82a92fc8,GitHub,2ba83c6a,data/2ba83c6a/test/82a92fc8.txt,142,142,F,F,9,29,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
@@ -7608,7 +7591,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 101893,cf5b9201,GitHub,2ba83c6a,data/2ba83c6a/src/cf5b9201.txt,434,434,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 101894,cf5b9201,GitHub,2ba83c6a,data/2ba83c6a/src/cf5b9201.txt,441,441,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 101895,c4df9321,GitHub,2ba83c6a,data/2ba83c6a/src/c4df9321.c,1348,1348,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-101896,a30711f1,GitHub,2ba83c6a,data/2ba83c6a/src/a30711f1.c,11,11,F,F,,,F,F,,,,,0.00,,F,F,F,Predefined Pattern
 101897,0e0b1c0e,GitHub,2ba83c6a,data/2ba83c6a/src/0e0b1c0e.c,146,146,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 101898,ce2be930,GitHub,2ba83c6a,data/2ba83c6a/src/ce2be930.c,41,41,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 101899,8119ac7d,GitHub,2ba83c6a,data/2ba83c6a/src/8119ac7d.c,203,203,F,F,,,F,F,,,,,0.00,,F,F,F,Secret

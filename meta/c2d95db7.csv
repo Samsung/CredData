@@ -3,7 +3,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 4736,2a3822bc,GitHub,c2d95db7,data/c2d95db7/src/2a3822bc.sh,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 4954,cfd3bc8e,GitHub,c2d95db7,data/c2d95db7/src/cfd3bc8e.sh,123,123,F,F,,,F,F,,,,,0,0,F,F,F,Token
 4960,2a3822bc,GitHub,c2d95db7,data/c2d95db7/src/2a3822bc.sh,20,20,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
-6178,5139694b,GitHub,c2d95db7,data/c2d95db7/src/5139694b.py,106,106,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
 11531,bae99bf6,GitHub,c2d95db7,data/c2d95db7/src/bae99bf6.js,25,25,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 15368,7ccdfb29,GitHub,c2d95db7,data/c2d95db7/other/7ccdfb29.md,802,802,F,F,,,F,F,,,,,0,0,F,F,F,Password
 18692,e45e45ba,GitHub,c2d95db7,data/c2d95db7/src/e45e45ba.yml,780,780,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -81,10 +80,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 34025,be5fd676,GitHub,c2d95db7,data/c2d95db7/src/be5fd676.conf,67,67,Template,T,20,25,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
 34030,a3046da0,GitHub,c2d95db7,data/c2d95db7/test/a3046da0.example,936,936,T,T,36,45,F,F,CharsOnly,,,Secret,2.42,9,F,F,F,Password
 34146,a3046da0,GitHub,c2d95db7,data/c2d95db7/test/a3046da0.example,866,866,Template,T,70,75,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
-34254,14295e9c,GitHub,c2d95db7,data/c2d95db7/test/14295e9c.example,30,30,T,F,37,40,F,F,Any,,,Unknown,1.58,3,F,F,F,Info
-34255,14295e9c,GitHub,c2d95db7,data/c2d95db7/test/14295e9c.example,24,24,T,F,37,40,F,F,Any,,,Unknown,1.58,3,F,F,F,Info
-34256,14295e9c,GitHub,c2d95db7,data/c2d95db7/test/14295e9c.example,18,18,T,F,37,40,F,F,Any,,,Unknown,1.58,3,F,F,F,Info
-34260,14295e9c,GitHub,c2d95db7,data/c2d95db7/test/14295e9c.example,9,9,Template,T,43,53,F,F,CharsOnly,,,Unknown,3.12,10,F,F,F,Info
 34953,be5fd676,GitHub,c2d95db7,data/c2d95db7/src/be5fd676.conf,69,69,F,F,21,85,F,F,Any,,,Secret,3.85,64,F,F,F,Bitbucket Client Secret:Password
 35056,493620d1,GitHub,c2d95db7,data/c2d95db7/src/493620d1.json,19,19,T,F,14,54,F,F,Any,,,Secret,4.83,40,F,F,F,Key:Secret
 35295,f39e5717,GitHub,c2d95db7,data/c2d95db7/other/f39e5717,1,51,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,PEM Private Key
