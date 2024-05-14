@@ -291,11 +291,11 @@ class Scanner(ABC):
                 continue
 
             # dbg correction
-            if rule not in meta_row.Category.split(':') and meta_row.Category in ["Info","Predefined Pattern","Cryptographic Primitives"]:
-                # subprocess.run(
-                #     ["sed", "-i",
-                #      f"s|^{meta_row.Id},\\(.*\\),{meta_row.Category}$|{meta_row.Id},\\1,{rule}|",
-                #      f"meta/{repo_name}.csv"])
+            if rule not in meta_row.Category.split(':') and meta_row.Category in ["Other"]:
+                subprocess.run(
+                    ["sed", "-i",
+                     f"s|^{meta_row.Id},\\(.*\\),{meta_row.Category}$|{meta_row.Id},\\1,{rule}|",
+                     f"meta/{repo_name}.csv"])
                 print(f"WARNING: '{rule}' not in {meta_row.Category}")
 
             code = f'{project_id},{file_id},{meta_row.LineStart},{meta_row.LineEnd}' \
