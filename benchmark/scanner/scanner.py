@@ -305,22 +305,18 @@ class Scanner(ABC):
             else:
                 self.line_checker.add(code)
 
-            if 'T' == meta_row.GroundTruth:
-                self.true_cnt += 1
-                for meta_rule in meta_row.Category.split(':'):
-                    if meta_rule == rule:
+            for meta_rule in meta_row.Category.split(':'):
+                if meta_rule == rule:
+                    if 'T' == meta_row.GroundTruth:
                         self._increase_result_dict_cnt(meta_rule, True)
-                        return LineStatus.TRUE, project_id, file_id
-                else:
-                    print(f"WARNING: '{rule}' is not mentioned in {meta_row}")
-            elif 'F' == meta_row.GroundTruth or "Template" == meta_row.GroundTruth:
-                self.false_cnt += 1
-                for meta_rule in meta_row.Category.split(':'):
-                    if meta_rule == rule:
-                        self._increase_result_dict_cnt(meta_rule, False)
+                        self.true_cnt += 1
                         return LineStatus.FALSE, project_id, file_id
-                else:
-                    print(f"WARNING: '{rule}' is not mentioned in {meta_row}")
+                    elif 'F' == meta_row.GroundTruth or "Template" == meta_row.GroundTruth:
+                        self._increase_result_dict_cnt(meta_rule, False)
+                        self.false_cnt += 1
+                        return LineStatus.TRUE, project_id, file_id
+            else:
+                print(f"WARNING: '{rule}' is not mentioned in {meta_row}")
 
         self.lost_cnt += 1
         print(f"{suggestion} {approximate}", flush=True)

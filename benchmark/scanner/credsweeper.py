@@ -1,8 +1,5 @@
 import json
 import subprocess
-from typing import List, Any
-
-import tabulate
 
 from benchmark.common.constants import URL, LineStatus, ScannerType
 from benchmark.scanner.scanner import Scanner
@@ -43,12 +40,20 @@ class CredSweeper(Scanner):
         with open(self.output_dir, "r") as f:
             data = json.load(f)
 
+        cred_set = set()
         for cred in data:
             meta_cred = MetaCred(cred)
             # path will be same for all line_data_list
             path_upper = meta_cred.path.upper()
             if any(i in path_upper for i in ["/COPYING", "/LICENSE"]):
                 continue
+            cred_key = (meta_cred.line_start, meta_cred.line_end,
+                        meta_cred.value_start, meta_cred.value_end,
+                        meta_cred.path, meta_cred.rule)
+            if cred_key in cred_set:
+                continue
+            cred_set.add(cred_key)
+
             self.reported[meta_cred.rule] = 1 + self.reported.get(meta_cred.rule, 0)
 
             check_line_result, project_id, file_id = \
