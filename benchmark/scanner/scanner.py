@@ -253,7 +253,7 @@ class Scanner(ABC):
         if not (rows := self.meta.get(MetaKey(data_path, line_start, line_end))):
             self.lost_cnt += 1
             self.next_id += 1
-            print(f"NOT FOUND WITH KEY: {approximate}", flush=True)
+            # print(f"NOT FOUND WITH KEY: {approximate}", flush=True)
             return LineStatus.NOT_IN_DB, project_id, file_id
 
         suggestion = "LOST:"
