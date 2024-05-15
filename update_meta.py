@@ -11,7 +11,7 @@ import subprocess
 import sys
 from argparse import ArgumentParser
 from pathlib import Path
-from typing import Tuple, Dict, List
+from typing import Dict, List
 
 from meta_cred import MetaCred
 from meta_key import MetaKey
@@ -66,12 +66,14 @@ def main(output_json, meta_dir):
             if 'T' == m.GroundTruth and 0>m.ValueStart and m.LineEnd==m.LineStart:
                 if creds:=cred_dict.get(k) :
                     if  1 ==len(creds):
-                        m.LineStart=creds[0].strip_value_start
+                        m.ValueStart = creds[0].strip_value_start
+                        # m.Category = creds[0].rule
                         subprocess.run(
                         ["sed", "-i",
-                         "s|" + str(v[0]) + "|"+str(m)+'|',
+                         f"s|\\(.*\\),{m.FilePath},{m.LineStart},{m.LineEnd},T,\\(.\\),\\(,.*\\),{m.Category}|"
+                         f"\\1,{m.FilePath},{m.LineStart},{m.LineEnd},T,\\2,{m.ValueStart},\\3,{creds[0].rule}|",
                          f"meta/{m.RepoName}.csv"])
-                    else:
+                        # else:
                         print (f"unknown val start {m}")
                 # m.ValueStart = meta_cred.strip_value_start
                 # m.ValueEnd = meta_cred.strip_value_end
