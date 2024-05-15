@@ -138,6 +138,9 @@ def main(meta_dir: str,
             except Exception as exc:
                 print(f"Failure {row}", exc, flush=True)
                 errors += 1
+        if 'T' == row.GroundTruth and 0 > row.ValueStart and row.LineStart == row.LineEnd:
+            print(f"Missed ValueStart for TRUE markup!\n{row}", flush=True)
+            errors += 1
         markup_key = (row.FilePath, row.LineStart, row.LineEnd, row.ValueStart, row.ValueEnd)
         if markup_key in shown_markup:
             print(f"Duplicate markup!\nSHOWN:{shown_markup[markup_key]}\nTHIS:{row}", flush=True)
