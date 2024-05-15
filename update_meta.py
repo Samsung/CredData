@@ -72,13 +72,13 @@ def main(output_json, meta_dir):
             value_positions = set()  # set((x.value_start, x.value_end) for x in v)
             for cred in v:
                 print(cred)
-                ck = (cred.value_start, cred.value_end)
+                ck = (cred.strip_value_start, cred.strip_value_end)
                 if ck not in value_positions:
                     # by default the cred is false positive
                     approximate = f"{next_meta_id},{file_id}" \
                                   f",GitHub,{project_id},{data_path}" \
                                   f",{cred.line_start},{cred.line_end}" \
-                                  f",F,F,{cred.value_start},{cred.value_end}" \
+                                  f",F,F,{cred.strip_value_start},{cred.strip_value_end}" \
                                   f",F,F,,,,,0.0,0,F,F,F,{cred.rule}"
                     next_meta_id += 1
                     with open(f"meta/{project_id}.csv", "a") as f:
@@ -87,7 +87,8 @@ def main(output_json, meta_dir):
                 else:
                     subprocess.run(
                         ["sed", "-i",
-                         f"s|{data_path},{ck[0]},{ck[1]}\\(.*\\)|{data_path},{ck[0]},{ck[1]}\\1:{cred.rule}|",
+                         f"s|{data_path},{k.key[1]},{k.key[2]}\\(.*\\)"
+                         f"|{data_path},{k.key[1]},{k.key[2]}\\1:{cred.rule}|",
                          f"meta/{project_id}.csv"])
 
 
