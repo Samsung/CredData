@@ -4,10 +4,8 @@
 The script updates dataset with rules
 Run the script with report obtained without ML and filters
 """
-import copy
 import json
 import os
-import subprocess
 import sys
 from argparse import ArgumentParser
 from pathlib import Path
@@ -60,19 +58,42 @@ def main(output_json, meta_dir):
         cred_dict = prepare_cred(json.load(f))
     incorrect = 0
     notfound = 0
-    for k, v in meta_dict.items():
-        if 1 == len(v):
-            m = copy.deepcopy(v[0])
-            if 'T' == m.GroundTruth and 0>m.ValueStart and m.LineEnd==m.LineStart:
-                if creds:=cred_dict.get(k) :
-                    for cred in creds:
-                        m.Id=next_meta_id
-                        m.ValueStart=cred.strip_value_start
-                        m.ValueEnd=cred.strip_value_end
-                        m.Category=cred.rule
-                        next_meta_id += 1
-                        with open(f"meta/{m.RepoName}.csv", "a") as f:
-                            f.write(f"{str(m)}\n")
+
+    for k, v in cred_dict.items():
+        if k not in meta_dict:
+            notfound += 1
+            if 1 == len(v):
+                for cred in v:
+                    print(cred)
+
+                    repo_name = cred.path.split('/')[-3]
+                    data_path = "data/" + '/'.join(cred.path.split('/')[-3:])
+                    project_id = repo_name
+                    file_name = data_path.split('/')[-1]
+                    file_id = file_name.split('.')[0]
+
+                    # by default the cred is false positive
+                    approximate = f"{next_meta_id},{file_id}" \
+                                  f",GitHub,{project_id},{data_path}" \
+                                  f",{cred.line_start},{cred.line_end}" \
+                                  f",F,F,,,F,F,,,,,0.0,0,F,F,F,{cred.rule}"
+
+                    with open(f"meta/{project_id}.csv", "a") as f:
+                        f.write(f"{approximate}\n")
+
+    # for k, v in meta_dict.items():
+    #     if 1 == len(v):
+    #         m = copy.deepcopy(v[0])
+    #         if 'T' == m.GroundTruth and 0>m.ValueStart and m.LineEnd==m.LineStart:
+    #             if creds:=cred_dict.get(k) :
+    #                 for cred in creds:
+    #                     m.Id=next_meta_id
+    #                     m.ValueStart=cred.strip_value_start
+    #                     m.ValueEnd=cred.strip_value_end
+    #                     m.Category=cred.rule
+    #                     next_meta_id += 1
+    #                     with open(f"meta/{m.RepoName}.csv", "a") as f:
+    #                         f.write(f"{str(m)}\n")
                 # m.ValueStart = meta_cred.strip_value_start
                 # m.ValueEnd = meta_cred.strip_value_end
                 # m.Category = meta_cred.rule
