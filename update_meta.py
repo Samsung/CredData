@@ -71,7 +71,7 @@ def main(output_json, meta_dir):
                         subprocess.run(
                         ["sed", "-i",
                          f"s|\\(.*\\),{m.FilePath},{m.LineStart},{m.LineEnd},T,\\(.\\),\\(,.*\\),{m.Category}|"
-                         f"\\1,{m.FilePath},{m.LineStart},{m.LineEnd},T,\\2,{m.ValueStart},\\3,{creds[0].rule}|",
+                         f"\\1,{m.FilePath},{m.LineStart},{m.LineEnd},T,\\2,{m.ValueStart}\\3,{creds[0].rule}|",
                          f"meta/{m.RepoName}.csv"])
                         # else:
                         print (f"unknown val start {m}")

@@ -445,7 +445,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 29855,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,31,31,T,F,11,19,F,F,Any,,,Secret,2.12,8,F,F,F,Password
 31455,04593541,GitHub,8ba59c91,data/8ba59c91/src/04593541.ts,32,32,F,F,46,52,F,F,NumbersOnly,,,Token,0,6,F,F,F,Token
 32458,b4ff962d,GitHub,8ba59c91,data/8ba59c91/src/b4ff962d.ts,136,136,Template,T,32,37,F,F,Any,,,Secret,0,5,F,F,F,Password
-32561,f7e33e13,GitHub,8ba59c91,data/8ba59c91/src/f7e33e13.js,19,19,T,F,,,F,F,Any,Private,,Unknown,0.93,5,F,F,F,PEM Private Key
+32561,f7e33e13,GitHub,8ba59c91,data/8ba59c91/src/f7e33e13.js,19,19,T,F,20,,F,F,Any,Private,,Unknown,0.93,5,F,F,F,PEM Private Key
 34348,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,63,63,T,T,11,35,F,F,Any,,,Secret,4.03,24,F,F,F,Password
 34456,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,115,115,T,F,11,41,F,F,Any,,,Secret,4.19,30,F,F,F,Password
 34477,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,140,140,T,F,11,41,F,F,Any,,,Secret,3.59,30,F,F,F,Password
@@ -1000,8 +1000,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 110370,ec71fabd,GitHub,8ba59c91,data/8ba59c91/src/ec71fabd.json,208,208,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 110371,ec71fabd,GitHub,8ba59c91,data/8ba59c91/src/ec71fabd.json,211,211,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 130293,b4ff962d,GitHub,8ba59c91,data/8ba59c91/src/b4ff962d.ts,121,121,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-131719,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,155,155,T,F,,,F,F,,,,,0.0,,F,F,F,Gitlab Feed Token
-131720,f7e33e13,GitHub,8ba59c91,data/8ba59c91/src/f7e33e13.js,22,22,T,F,,,F,F,,,,,0.0,,F,F,F,Atlassian Old PAT token
+131719,836751a1,GitHub,8ba59c91,data/8ba59c91/src/836751a1.yml,155,155,T,F,9,,F,F,,,,,0.0,,F,F,F,Gitlab Feed Token
+131720,f7e33e13,GitHub,8ba59c91,data/8ba59c91/src/f7e33e13.js,22,22,T,F,52,,F,F,,,,,0.0,,F,F,F,Atlassian Old PAT token
 132871,17cbff1b,GitHub,8ba59c91,data/8ba59c91/src/17cbff1b.json,26,26,F,F,,,F,F,,,,,0,0,F,F,F,Password
 132872,76d6b12c,GitHub,8ba59c91,data/8ba59c91/src/76d6b12c.json,279,279,F,F,,,F,F,,,,,0,0,F,F,F,Password
 133837,0ba49240,GitHub,8ba59c91,data/8ba59c91/src/0ba49240.json,241,241,F,F,,,F,F,,,,,0,0,F,F,F,Auth
