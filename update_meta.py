@@ -65,15 +65,13 @@ def main(output_json, meta_dir):
             m = copy.deepcopy(v[0])
             if 'T' == m.GroundTruth and 0>m.ValueStart and m.LineEnd==m.LineStart:
                 if creds:=cred_dict.get(k) :
-                    if  1 <len(creds):
-                        min_start=min(x.strip_value_start for x in creds)
-                        max_start=max(x.strip_value_start for x in creds)
-                        if min_start==max_start:
-                            m.ValueStart = creds[0].strip_value_start
+                    for cred in creds:
+                        if cred.rule == m.Category:
+                            m.ValueStart = cred.strip_value_start
                             subprocess.run(
                             ["sed", "-i",
                              f"s|\\(.*\\),{m.FilePath},{m.LineStart},{m.LineEnd},T,\\(.\\),\\(,.*\\),{m.Category}|"
-                             f"\\1,{m.FilePath},{m.LineStart},{m.LineEnd},T,\\2,{m.ValueStart}\\3,{':'.join(sorted([x.rule for x in creds]))}|",
+                             f"\\1,{m.FilePath},{m.LineStart},{m.LineEnd},T,\\2,{m.ValueStart}\\3,{m.Category}|",
                              f"meta/{m.RepoName}.csv"])
                         else:
                             print (f"unknown val start {m} in {creds}")
