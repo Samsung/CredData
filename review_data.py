@@ -13,12 +13,12 @@ import os
 import subprocess
 import sys
 from argparse import ArgumentParser
-from typing import List, Optional
+from typing import List, Optional, Tuple, Dict
 
 from colorama import Fore, Back, Style
 
 from meta_cred import MetaCred
-from meta_row import read_meta
+from meta_row import read_meta, MetaRow
 
 EXIT_SUCCESS = 0
 EXIT_FAILURE = 1
@@ -117,7 +117,7 @@ def main(meta_dir: str,
     meta = read_meta(meta_dir)
     meta.sort(key=lambda x: (x.FilePath, x.LineStart, x.LineEnd, x.ValueStart, x.ValueEnd))
     displayed_rows = 0
-    shown_markup = {}
+    shown_markup: Dict[Tuple[str, int, int, int, int], MetaRow] = {}
     for row in meta:
         if not data_filter[row.GroundTruth]:
             continue
