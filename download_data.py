@@ -568,7 +568,7 @@ def main(args: Namespace):
     # check whether there were issues with downloading
     assert 0 == len(removed_meta), removed_meta
     logger.info("Finalizing dataset. Please wait a moment...")
-    # obfuscate_creds("meta", args.data_dir)
+    obfuscate_creds("meta", args.data_dir)
     logger.info(f"Done! All files saved to {args.data_dir}")
     return 0
 
