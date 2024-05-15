@@ -66,15 +66,13 @@ def main(output_json, meta_dir):
             if 'T' == m.GroundTruth and 0>m.ValueStart and m.LineEnd==m.LineStart:
                 if creds:=cred_dict.get(k) :
                     for cred in creds:
-                        if cred.rule == m.Category:
-                            m.ValueStart = cred.strip_value_start
-                            subprocess.run(
-                            ["sed", "-i",
-                             f"s|\\(.*\\),{m.FilePath},{m.LineStart},{m.LineEnd},T,\\(.\\),\\(,.*\\),{m.Category}|"
-                             f"\\1,{m.FilePath},{m.LineStart},{m.LineEnd},T,\\2,{m.ValueStart}\\3,{m.Category}|",
-                             f"meta/{m.RepoName}.csv"])
-                        else:
-                            print (f"unknown val start {m} in {creds}")
+                        m.Id=next_meta_id
+                        m.ValueStart=cred.strip_value_start
+                        m.ValueEnd=cred.strip_value_end
+                        m.Category=cred.rule
+                        next_meta_id += 1
+                        with open(f"meta/{m.RepoName}.csv", "a") as f:
+                            f.write(f"{str(m)}\n")
                 # m.ValueStart = meta_cred.strip_value_start
                 # m.ValueEnd = meta_cred.strip_value_end
                 # m.Category = meta_cred.rule
