@@ -513,8 +513,8 @@ def process_pem_key(row: MetaRow):
             return
 
         with open(row.FilePath, "r", encoding="utf8") as f:
-            lines = f.read()
-        lines = lines.split("\n")
+            text = f.read()
+        lines = text.split("\n")
 
         random.seed(row.LineStart ^ int(row.FileID, 16))
 
@@ -568,7 +568,7 @@ def main(args: Namespace):
     # check whether there were issues with downloading
     assert 0 == len(removed_meta), removed_meta
     logger.info("Finalizing dataset. Please wait a moment...")
-    obfuscate_creds("meta", args.data_dir)
+    # obfuscate_creds("meta", args.data_dir)
     logger.info(f"Done! All files saved to {args.data_dir}")
     return 0
 
