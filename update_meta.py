@@ -6,6 +6,7 @@ Run the script with report obtained without ML and filters
 """
 import json
 import os
+import subprocess
 import sys
 from argparse import ArgumentParser
 from pathlib import Path
@@ -60,26 +61,38 @@ def main(output_json, meta_dir):
     notfound = 0
 
     for k, v in cred_dict.items():
+        repo_name = v[0].path.split('/')[-3]
+        data_path = "data/" + '/'.join(v[0].path.split('/')[-3:])
+        project_id = repo_name
+        file_name = data_path.split('/')[-1]
+        file_id = file_name.split('.')[0]
+
         if k not in meta_dict:
             notfound += 1
-            if 1 == len(v):
-                for cred in v:
-                    print(cred)
-
-                    repo_name = cred.path.split('/')[-3]
-                    data_path = "data/" + '/'.join(cred.path.split('/')[-3:])
-                    project_id = repo_name
-                    file_name = data_path.split('/')[-1]
-                    file_id = file_name.split('.')[0]
-
+            value_positions = set()  # set((x.value_start, x.value_end) for x in v)
+            for cred in v:
+                print(cred)
+                ck = (cred.value_start, cred.value_end)
+                if ck not in value_positions:
                     # by default the cred is false positive
                     approximate = f"{next_meta_id},{file_id}" \
                                   f",GitHub,{project_id},{data_path}" \
                                   f",{cred.line_start},{cred.line_end}" \
-                                  f",F,F,,,F,F,,,,,0.0,0,F,F,F,{cred.rule}"
-
+                                  f",F,F,{cred.value_start},{cred.value_end}" \
+                                  f",F,F,,,,,0.0,0,F,F,F,{cred.rule}"
+                    next_meta_id += 1
                     with open(f"meta/{project_id}.csv", "a") as f:
                         f.write(f"{approximate}\n")
+                    value_positions.add(ck)
+                else:
+                    subprocess.run(
+                        ["sed", "-i",
+                         f"s|{data_path},{ck[0]},{ck[1]}\\(.*\\)|{data_path},{ck[0]},{ck[1]}\\1:{cred.rule}|",
+                         f"meta/{project_id}.csv"])
+
+
+
+
 
     # for k, v in meta_dict.items():
     #     if 1 == len(v):
