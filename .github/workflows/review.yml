@@ -181,7 +181,7 @@ jobs:
 
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-  report_markup test:
+  report_markup_test:
 
     runs-on: ubuntu-latest
 
@@ -209,7 +209,7 @@ jobs:
                         "confidence": "moderate",
                         "line_data_list": [
                             {
-                                "line": "",
+                                "line": "   *",
                                 "line_num": 4256,
                                 "path": "data/00408ef6/src/eee97fd2.c",
                                 "value": "",
