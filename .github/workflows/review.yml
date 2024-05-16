@@ -180,3 +180,54 @@ jobs:
             review_diff.html
 
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+  report_markup test:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout CredData
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.8"
+
+      - name: Report markup test
+        run: |
+          echo '[
+                    {
+                        "api_validation": "",
+                        "ml_validation": "",
+                        "ml_probability": 0.5,
+                        "rule": "URL Credentials",
+                        "severity": "high",
+                        "confidence": "moderate",
+                        "line_data_list": [
+                            {
+                                "line": "",
+                                "line_num": 4256,
+                                "path": "data/00408ef6/src/eee97fd2.c",
+                                "value": "",
+                                "value_start": 16,
+                                "value_end": 24,
+                                "variable": null
+                            }
+                        ]
+                    }
+                ]' >report.json
+          cp report.json report.bak
+          python report_markup.py report.json
+          if diff report.bak report.json; then
+            echo "Something went wrong. The files must be different"
+            exit 1
+          else
+            # the substring from markup must appear in "api_validation"
+            grep 'eee97fd2,GitHub,00408ef6' report.json
+          elif
+
+  # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #

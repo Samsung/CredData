@@ -9,21 +9,26 @@ import json
 import os
 import sys
 from argparse import ArgumentParser
+from pathlib import Path
 from typing import Dict, List
 
 from meta_cred import MetaCred
 from meta_key import MetaKey
-from meta_row import MetaRow, read_meta
+from meta_row import MetaRow, _get_source_gen
 
 
 def prepare_meta(meta_dir) -> Dict[MetaKey, List[MetaRow]]:
-    meta_dict = {}
-    for meta_row in read_meta(meta_dir):
-        meta_key = MetaKey(meta_row)
-        if meta_row in meta_dict:
-            meta_dict[meta_key].append(meta_row)
+    meta_dict: Dict[MetaKey, List[MetaRow]] = {}
+
+    for row in _get_source_gen(Path(meta_dir)):
+        meta_row = MetaRow(row)
+        meta_key = MetaKey(meta_row.FilePath, meta_row.LineStart, meta_row.LineEnd)
+        if meta_list := meta_dict.get(meta_key):
+            meta_list.append(meta_row)
+            meta_dict[meta_key] = meta_list
         else:
             meta_dict[meta_key] = [meta_row]
+
     return meta_dict
 
 
@@ -37,8 +42,6 @@ def main(output_json, meta_dir):
         creds = json.load(f)
 
     meta_dict = prepare_meta(meta_dir)
-
-    # processed_creds = []
 
     for cred in creds:
         meta_cred = MetaCred(cred)
