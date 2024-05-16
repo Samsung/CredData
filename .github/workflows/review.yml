@@ -181,7 +181,7 @@ jobs:
 
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-  report_markup_test:
+  markup_report_test:
 
     runs-on: ubuntu-latest
 
@@ -221,7 +221,7 @@ jobs:
                     }
                 ]' >report.json
           cp report.json report.bak
-          python report_markup.py report.json
+          python markup_report.py report.json
           if diff report.bak report.json; then
             echo "Something went wrong. The files must be different"
             exit 1
