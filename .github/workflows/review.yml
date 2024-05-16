@@ -228,6 +228,6 @@ jobs:
           else
             # the substring from markup must appear in "api_validation"
             grep 'eee97fd2,GitHub,00408ef6' report.json
-          elif
+          fi
 
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
