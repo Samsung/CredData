@@ -84,16 +84,7 @@ Labeled data divided into 8 major categories according to their properties.
 
 ##### True credentials by category
 
-|[Category](#category)|True credentials|
-|--------|--------|
-|Password                    |  1,395|
-|Generic Secret              |  1,056|
-|Private Key                 |   992|
-|Generic Token               |   333|
-|Predefined Pattern          |   327|
-|Authentication Credentials  |    67|
-|Cryptographic Primitives    |    39|
-|Other                       |   374|
+please, find wide info in https://raw.githubusercontent.com/Samsung/CredSweeper/main/cicd/benchmark.txt
 
 <img src="images/Category.png" width="520"/>
 
@@ -122,9 +113,9 @@ We classify the detection results to the three credential type.
 		
 In order to compose an accurate Ground Truth set, we proceed data review based on the following 'Ground Rules':
 1. All credentials in test (example) directories should be labeled as True.
-2. Credentials with obvious placeholders (`password = <YOUR_PASSWORD>;`) should be labeled as Template.
+2. Credentials with obvious placeholders (`password = <YOUR_PASSWORD>;`) should be labeled as False.
 3. Function calls without string literals (`password=getPass();`) and environmental variable assignments (`password=${pass}`) should be labeled as False.
-4. Base64 and other encoded data should be labeled as False. If it is a plaintext credential just encoded to Base64, that should be labeled as True.
+4. Base64 and other encoded data: the decision must be after research. Use True if original data contain are credentials. 
 5. Package and resource version hash is not a credential, so common hash string (`integrity sha512-W7s+uC5bikET2twEFg==`) is False.
 6. Be careful about filetype when checking variable assignment:
    
@@ -142,43 +133,35 @@ Metadata includes Ground Truth values and additional information for credential 
  
 ### Properties on the Metadata
 Name of property | Data Type | Description
---              | --                | -- 
-ID              | Integer           | Credential ID
-FileID          | String            | Filename hash. Used to download correct file from a external repo
-Domain          | String            | Domain of repository. (ex. Github)
-RepoName        | String            | Project name that credential was found
-FilePath        | String            | File path where credential information was included
-LineStart:LineEnd      | Integer:Integer | Line information, it can be single(2:2) or multiple(ex. 2:4 means 2 to 4 inclusive)
-GroundTruth     | String            | Ground Truth of this credential. True / False or Template
-ValueStart      | Integer           | Index of value on the line after lstrip().
-ValueEnd        | Integer           | Index of character right after value ends in the line (after lstrip). 
-InURL             | Boolean         | Flag to indicate if credential is a part of a URL, such as "http://user:pwd@site.com"
-CharacterSet      | String          | Characters used in the credential (NumberOnly, CharOnly, Any)
-CryptographyKey   | String          | Type of a key: Private or Public
-PredefinedPattern | String          | Credential with defined regex patterns (AWS token with `AKIA...` pattern)
-VariableNameType  | String          | Categorize credentials by variable name into Secret, Key, Token, SeedSalt and Auth
-Entropy           | Float           | Shanon entropy of a credential
-WithWords         | Boolean         | Flag to indicate word(https://github.com/first20hours/google-10000-english) is included on the credential
-Length            | Integer         | Value length, similar to ValueEnd - ValueStart
-Base64Encode      | Boolean         | Is credential a base64 string?
-HexEncode         | Boolean         | Is credential a hex encoded string? (like `\xFF` or `FF 02 33`)
-URLEncode         | Boolean         | Is credential a url encoded string? (like `one%20two`)
-Category          | String          | Labeled data divided into 8 major categories according to their properties. see [Category](#category).
+--              |-----------| -- 
+ID              | Integer   | Credential ID
+FileID          | String    | Filename hash. Used to download correct file from a external repo
+Domain          | String    | Domain of repository. (ex. Github)
+RepoName        | String    | Project name that credential was found
+FilePath        | String    | File path where credential information was included
+LineStart       | Integer   | Line start in file from 1, like in most editors. In common cases it equals LineEnd.
+LineEnd         | Integer   | End line of credential MUST be great or equal like LineStart. Sort line_data_list with line_num for this.
+GroundTruth     | String    | Ground Truth of this credential. True (T) / False (F) or Template
+ValueStart      | Integer   | Index of value on the line after lstrip(). This is start position on LineStart. Empty or -1 means the markup for whole line (for False only)
+ValueEnd        | Integer   | Index of character right after value ends in the line (after lstrip). This is end position on LineEnd. May be -1 or empty.
+InURL             | Boolean   | Flag to indicate if credential is a part of a URL, such as "http://user:pwd@site.com"
+CharacterSet      | String    | Characters used in the credential (NumberOnly, CharOnly, Any)
+CryptographyKey   | String    | Type of a key: Private or Public
+PredefinedPattern | String    | Credential with defined regex patterns (AWS token with `AKIA...` pattern)
+VariableNameType  | String    | Categorize credentials by variable name into Secret, Key, Token, SeedSalt and Auth
+Entropy           | Float     | Shanon entropy of a credential
+WithWords         | Boolean   | Flag to indicate word(https://github.com/first20hours/google-10000-english) is included on the credential
+Length            | Integer   | Value length, similar to ValueEnd - ValueStart
+Base64Encode      | Boolean   | Is credential a base64 string?
+HexEncode         | Boolean   | Is credential a hex encoded string? (like `\xFF` or `FF 02 33`)
+URLEncode         | Boolean   | Is credential a url encoded string? (like `one%20two`)
+Category          | String    | Labeled data according CredSweeper rules. see [Category](#category).
 
 ### Category
 
-Labeled data divided into 8 major categories according to their properties.
-
-|Name|Description|
-|--------|--------|
-|Password                    |   Short secret with entropy <3.5 or Password keyword in variable name|
-|Generic Secret              |   Secret of any length with high entropy|
-|Private Key                 |   Private cryptographic key|
-|Predefined Pattern          |   Credential detected based on defined regex, such as Google API Key/JWT/AWS Client ID|
-|Cryptographic Primitives    |   Credential with seed, salt or nonce in variable name |
-|Generic Token               |   Credential with Token in VariableNameType and not covered by other categories|
-|Authentication Credentials  |   Credential with Auth in VariableNameType and not covered by other categories|
-|Other                       |   Any credentials that is not covered by categories above|
+Labeled data for according rules with splitting by colon sign ``:``
+Preferred sort - by alphabet.
+E.g. ``Slack Token:Token`` - the value is matched for 2 rules ``Token`` and ``Slack Token``
 
 ## Relationship between Data and Metadata
 You can see metadata files in the meta directory.
@@ -188,14 +171,14 @@ Let's look at the  [meta/02dfa7ec.csv](meta/02dfa7ec.csv).  file as an example.
 
 ```
 Id,FileID,Domain,RepoName,FilePath,LineStart:LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,...
-34024,61ed9af5,GitHub,02dfa7ec,data/02dfa7ec/test/61ed9af5.example,83:83,T,F,31,73,...
+34024,61ed9af5,GitHub,02dfa7ec,data/02dfa7ec/test/61ed9af5.example,83,83,T,F,31,73,...
 ```
 
 Convert the above line with only essential columns into a table format:
 
-|...|RepoName|FilePath|LineStart:LineEnd|GroundTruth|...|ValueStart|ValueEnd|...|
-|-|-|-|-|-|-|-|-|-|
-|...|02dfa7ec|data/02dfa7ec/test/61ed9af5.example|83:83|True|...|31|73|...|
+|...|RepoName|FilePath|LineStart| LineEnd |GroundTruth|...|ValueStart|ValueEnd|...|
+|-|-|-|-|---------|-|-|-|-|-|
+|...|02dfa7ec|data/02dfa7ec/test/61ed9af5.example|83| 83      |T|...|31|73|...|
 
 
 This line means that the credential line exists in the 83th line of the `data/02dfa7ec/test/61ed9af5.example` file that downloaded and obfuscated output after running the `download_data.py` script.
@@ -218,8 +201,8 @@ hfbpozfhvuwgtfosmo2imqskc73w04jf3313309829
 With them, you can use ``review_data.py`` script to review the markup in console with colorization.
 
 <pre>
-34024,61ed9af5,GitHub,02dfa7ec,data/02dfa7ec/test/61ed9af5.example,83:83,T,F,31,73,F,F,Any,,,Secret,3.74,42,F,F,F,Generic Secret,83,83
-83:<font color="#00AA00"># GITHUB_ENTERPRISE_ORG_SECRET=</font><span style="background-color:#FFFF55"><font color="#00AA00">hfbpozfhvuwgtfosmo2imqskc73w04jf3313309829</font></span>
+34024,61ed9af5,GitHub,02dfa7ec,data/02dfa7ec/test/61ed9af5.example,83,83,T,F,31,73,F,F,Any,,,Secret,3.74,42,F,F,F,Secret:Token
+83:<font color="#00AA00"># GITHUB_ENTERPRISE_ORG_SECRET_TOKEN=</font><span style="background-color:#FFFF55"><font color="#00AA00">hfbpozfhvuwgtfosmo2imqskc73w04jf3313309829</font></span>
 </pre>
 
 
