@@ -47,13 +47,13 @@ class CredSweeper(Scanner):
             path_upper = meta_cred.path.upper()
             if any(i in path_upper for i in ["/COPYING", "/LICENSE"]):
                 continue
-            cred_key = (meta_cred.line_start, meta_cred.line_end,
+            uniq_cred_key = (meta_cred.line_start, meta_cred.line_end,
                         meta_cred.value_start, meta_cred.value_end,
                         meta_cred.path, meta_cred.rule)
-            if cred_key in cred_set:
-                # after sanitize there may be duplicated coordinates
+            if uniq_cred_key in cred_set:
+                # after value sanitize there may be duplicated coordinates - skip them
                 continue
-            cred_set.add(cred_key)
+            cred_set.add(uniq_cred_key)
 
             self.reported[meta_cred.rule] = 1 + self.reported.get(meta_cred.rule, 0)
 

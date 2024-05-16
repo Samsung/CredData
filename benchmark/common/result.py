@@ -1,9 +1,10 @@
 from decimal import Decimal
-from typing import Optional
+from typing import Optional, Union
 
 
 class Result:
-    def __init__(self, true_positives: int, false_positives: int, total_true_count: int, total_false_count: int) -> None:
+    def __init__(self, true_positives: int, false_positives: int, total_true_count: int,
+                 total_false_count: int) -> None:
         self.true_positive: Optional[int] = true_positives
         self.false_positive: Optional[int] = false_positives
         self.true_negative: Optional[int] = self._minus(total_false_count, self.false_positive)
@@ -112,22 +113,26 @@ class Result:
         assert f1 is None or 0 <= f1
         self._f1 = f1
 
-    def _plus(self, a: Optional[float], b: Optional[float]) -> Optional[float]:
+    @staticmethod
+    def _plus(a: Optional[float], b: Optional[float]) -> Optional[float]:
         if a is None or b is None:
             return None
         return a + b
 
-    def _minus(self, a: Optional[float], b: Optional[float]) -> Optional[float]:
+    @staticmethod
+    def _minus(a: Union[None, int, float], b: Union[None, int, float]) -> Union[None, int, float]:
         if a is None or b is None:
             return None
         return a - b
 
-    def _divide(self, a: Optional[float], b: Optional[float]) -> Optional[float]:
-        if a is None or b is None or a == 0 or b == 0:
+    @staticmethod
+    def _divide(a: Optional[float], b: Optional[float]) -> Optional[float]:
+        if a is None or b is None or b == 0:
             return None
         return a / b
 
-    def _multiply(self, a: Optional[float], b: Optional[float]) -> Optional[float]:
+    @staticmethod
+    def _multiply(a: Optional[float], b: Optional[float]) -> Optional[float]:
         if a is None or b is None:
             return None
         return a * b
@@ -140,7 +145,7 @@ class Result:
         return round(Decimal(a), 6)
 
     def __repr__(self) -> str:
-        return f"TP : {self.true_positive}, FP : {self.false_positive}, "\
+        return f"TP : {self.true_positive}, FP : {self.false_positive}, " \
                f"TN : {self.true_negative}, FN : {self.false_negative}, " \
                f"FPR : {self.round_micro(self.false_positive_rate)}, " \
                f"FNR : {self.round_micro(self.false_negative_rate)}, " \
@@ -148,8 +153,3 @@ class Result:
                f"PRC : {self.round_micro(self.precision)}, " \
                f"RCL : {self.round_micro(self.recall)}, " \
                f"F1 : {self.round_micro(self.f1)}"
-
-
-if __name__ == "__main__":
-    r = Result(90,10,100,10)
-    print (r)
