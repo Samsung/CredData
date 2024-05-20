@@ -1,27 +1,15 @@
-import csv
-import dataclasses
 import os
-import subprocess
 from abc import ABC, abstractmethod
+from pathlib import Path
 from typing import Tuple, Dict, List, Any
 
 import tabulate
 
 from benchmark.common import GitService, LineStatus, Result, ScannerType
+from benchmark.scanner.file_type_stat import FileTypeStat
 from benchmark.scanner.true_false_counter import TrueFalseCounter
-
-
-@dataclasses.dataclass
-class TypeStat:
-    files_number: int
-    valid_lines: int
-    true_markup: int
-    false_markup: int
-    template_markup: int
-
-
-# temporally meta key - file_path,line_start,line_stop
-meta_file_lines_key = Tuple[str, int, int]
+from meta_key import MetaKey
+from meta_row import _get_source_gen, MetaRow
 
 
 class Scanner(ABC):
@@ -38,12 +26,13 @@ class Scanner(ABC):
         self.total_true_cnt = 0
         self.total_false_cnt = 0
         self.total_template_cnt = 0
-        self.categories: Dict[str, Tuple[int, int, int]] = {}  # category: (true_cnt, false_cnt, template_cnt)
-        self.next_id = 0
-        self.file_types: Dict[str, TypeStat] = {}
+        self.rules_markup_counters: Dict[str, Tuple[int, int, int]] = {}  # category: true_cnt, false_cnt, template_cnt
+        self.meta_next_id = 0  # used in suggestion
+        self.file_types: Dict[str, FileTypeStat] = {}
         self.total_data_valid_lines = 0
-        self.meta: Dict[meta_file_lines_key, List[Dict[str, Any]]] = {}
-        self._read_meta()
+        self.meta: Dict[MetaKey, List[MetaRow]] = {}
+        self.reported: Dict[str, int] = {}  # counter of reported credentials by rules
+        self._prepare_meta()
 
     @property
     @abstractmethod
@@ -55,61 +44,38 @@ class Scanner(ABC):
     def output_dir(self, output_dir: str) -> None:
         raise NotImplementedError()
 
-    def _read_meta(self):
-        for root, dirs, files in os.walk(f"{self.cred_data_dir}/meta"):
-            for file in files:
-                with open(f"{root}/{file}", newline="") as f:
-                    if not file.endswith(".csv"):
-                        # git garbage files *.orig
-                        continue
-                    reader = csv.DictReader(f)
-                    for row in reader:
-                        _, file_type = os.path.splitext(row["FilePath"])
-                        file_type_lower = file_type.lower()
-                        if file_type_lower in self.file_types:
-                            type_stat = self.file_types[file_type_lower]
-                        else:
-                            type_stat = TypeStat(0, 0, 0, 0, 0)
-                        if not row["Category"]:
-                            # all unmarked categories are Other
-                            row["Category"] = "Other"
-                        if row["Category"] not in self.categories:
-                            # init the counters
-                            self.categories[row["Category"]] = (0, 0, 0)
-                        true_cnt, false_cnt, template_cnt = self.categories[row["Category"]]
-                        if row["GroundTruth"] == "T":
-                            true_cnt += 1
-                            self.total_true_cnt += 1
-                            type_stat.true_markup += 1
-                        elif row["GroundTruth"] == "F":
-                            self.total_false_cnt += 1
-                            false_cnt += 1
-                            type_stat.false_markup += 1
-                        elif row["GroundTruth"] == "Template":
-                            self.total_template_cnt += 1
-                            template_cnt += 1
-                            type_stat.template_markup += 1
-                        else:
-                            # wrong markup should be detected
-                            assert False, f"[WRONG MARKUP] {row}"
-                        self.categories[row["Category"]] = (true_cnt, false_cnt, template_cnt)
-                        line_start = int(row["LineStart"])
-                        row["LineStart"] = line_start
-                        line_end = int(row["LineEnd"])
-                        row["LineEnd"] = line_end
-                        row["ValueStart"] = int(row["ValueStart"]) if row["ValueStart"] else -1
-                        row["ValueEnd"] = int(row["ValueEnd"]) if row["ValueEnd"] else -1
-                        k = (row["FilePath"], row["LineStart"], row["LineEnd"])
-                        if m := self.meta.get(k):
-                            m.append(row)
-                        else:
-                            self.meta[k] = [row]
-                        self.file_types[file_type_lower] = type_stat
-
-                        meta_id = int(row["Id"])
-                        if meta_id > self.next_id:
-                            # use next_id for printing lost markup
-                            self.next_id = meta_id + 1
+    def _prepare_meta(self):
+        for _row in _get_source_gen(Path(f"{self.cred_data_dir}/meta")):
+            meta_row = MetaRow(_row)
+            meta_key = MetaKey(meta_row)
+            if meta_rows := self.meta.get(meta_key):
+                meta_rows.append(meta_row)
+            else:
+                self.meta[meta_key] = [meta_row]
+            # get file extension like in CredSweeper
+            _, file_type = os.path.splitext(meta_row.FilePath)
+            file_type_lower = file_type.lower()
+            type_stat = self.file_types.get(file_type_lower, FileTypeStat(0, 0, 0, 0, 0))
+            rules = meta_row.Category.split(':')
+            for rule in rules:
+                true_cnt, false_cnt, template_cnt = self.rules_markup_counters.get(rule, (0, 0, 0))
+                if 'T' == meta_row.GroundTruth:
+                    true_cnt += 1
+                    self.total_true_cnt += 1
+                    type_stat.true_markup += 1
+                elif 'F' == meta_row.GroundTruth:
+                    self.total_false_cnt += 1
+                    false_cnt += 1
+                    type_stat.false_markup += 1
+                else:
+                    # "Template" - correctness will be checked in MetaRow
+                    self.total_template_cnt += 1
+                    template_cnt += 1
+                    type_stat.template_markup += 1
+                self.rules_markup_counters[rule] = (true_cnt, false_cnt, template_cnt)
+            self.file_types[file_type_lower] = type_stat
+            if self.meta_next_id < meta_row.Id:
+                self.meta_next_id = meta_row.Id + 1
 
         # getting count of all not-empty lines
         data_dir = f"{self.cred_data_dir}/data"
@@ -122,25 +88,18 @@ class Scanner(ABC):
                     # the type must be in dictionary
                     self.file_types[file_ext_lower].files_number += 1
                     with open(os.path.join(root, file), "r", encoding="utf8") as f:
-                        lines = f.readlines()
+                        lines = f.read().split('\n')
                         file_data_valid_lines = 0
                         for line in lines:
-                            if line.strip() != "":
+                            # minimal length of IPv4 detection is 7 e.g. 8.8.8.8
+                            if 7 <= len(line.strip()):
                                 file_data_valid_lines += 1
                         self.total_data_valid_lines += file_data_valid_lines
                         self.file_types[file_ext_lower].valid_lines += file_data_valid_lines
 
-        print(f"DATA: {self.total_data_valid_lines} valid lines. MARKUP: {len(self.meta)} items", flush=True)
-        # f"T:{self.total_true_cnt} F:{self.total_false_cnt}"
-        header = ["Category", "Positives", "Negatives", "Template"]
-        rows: List[List[Any]] = []
-        for key, val in self.categories.items():
-            rows.append([key, val[0] or None, val[1] or None, val[2] or None])
-        rows.sort(key=lambda x: x[0])
-        rows.append(["TOTAL:", self.total_true_cnt, self.total_false_cnt, self.total_template_cnt])
-        print(tabulate.tabulate(rows, header), flush=True)
-        types_headers = ["FileType", "FileNumber", "ValidLines", "Positives", "Negatives", "Template"]
-        types_rows: List[List[Any]] = []
+        print(f"DATA: {self.total_data_valid_lines} interested lines. MARKUP: {len(self.meta)} items", flush=True)
+        types_headers = ["FileType", "FileNumber", "ValidLines", "Positives", "Negatives", "Templates"]
+        types_rows = []
         check_files_number = 0
         check_data_valid_lines = 0
         check_true_cnt = 0
@@ -274,68 +233,83 @@ class Scanner(ABC):
         file_id = file_name.split('.')[0]
 
         # by default the cred is false positive
-        approximate = f"{self.next_id},{file_id}" \
+        approximate = f"{self.meta_next_id},{file_id}" \
                       f",GitHub,{project_id},{data_path}" \
                       f",{line_start},{line_end}" \
                       f",F,F,{value_start},{value_end}" \
                       f",F,F,,,,,0.0,0,F,F,F,{rule}"
 
-        if not (rows := self.meta.get((data_path, line_start, line_end))):
+        if not (rows := self.meta.get(MetaKey(data_path, line_start, line_end))):
             self.lost_cnt += 1
-            self.next_id += 1
+            self.meta_next_id += 1
             print(f"NOT FOUND WITH KEY: {approximate}", flush=True)
             return LineStatus.NOT_IN_DB, project_id, file_id
 
         suggestion = "LOST:"
         for row in rows:
-            if row["FilePath"] == data_path:
-                if self._check_line_num(row["LineStart"], row["LineEnd"], line_start, line_end):
-                    meta_value_start = int(row.get("ValueStart", -1))
-                    meta_value_end = int(row.get("ValueEnd", -1))
-                    if meta_value_end < 0 <= meta_value_start:
-                        # only start value in markup
-                        if 0 <= value_start and meta_value_start != value_start:
-                            continue
-                    elif 0 <= meta_value_start < meta_value_end:
-                        suggestion = f"UNMATCH {meta_value_start, meta_value_end}:"
-                        # both markers are available
-                        if 0 <= value_start and meta_value_start != value_start:
-                            continue
-                        else:
-                            suggestion = f"ALMOST {meta_value_start, meta_value_end}:"
-                        # or ...
-                        if 0 <= value_end and meta_value_end != value_end:
-                            # todo: add check for padding chars eyJ...x== - value_end may be different for some creds
-                            delta = 3
-                            if meta_value_end - delta <= value_end <= meta_value_end + delta \
-                                    or value_end - delta <= meta_value_end <= value_end + delta:
-                                suggestion = f"NEARBY {meta_value_start, meta_value_end}"
-                            continue
-                    elif 0 > meta_value_end and 0 > meta_value_start:
-                        # meta markup for whole line
-                        pass
-                    else:
-                        print(f"WARNING: check meta value start-end {row}")
-                        continue
-                    code = str(project_id) + str(file_id) + str(row["LineStart"]) + str(row["LineEnd"]) + str(
-                        row["ValueStart"]) + str(row["ValueEnd"])
-                    if code in self.line_checker:
-                        self.result_cnt -= 1
-                        return LineStatus.CHECKED, project_id, file_id
-                    else:
-                        self.line_checker.add(code)
+            # it means, all markups are the same file with line start-end
+            if 0 > row.ValueStart and 0 > row.ValueEnd:
+                # the markup is for whole line - any value_start, value_end match
+                if 'T' == row.GroundTruth and row.LineStart == row.LineEnd:
+                    # True markup has to be marked at least start value in single line
+                    print(f"WARNING True markup for whole line: {row}", flush=True)
+                pass
+            elif row.ValueEnd < 0 <= row.ValueStart:
+                # the markup points only start value position
+                if 0 <= value_start and row.ValueStart != value_start:
+                    # start position must be matched if was given from a scanner (value_start=-1 means it is not)
+                    continue
+            elif row.LineStart == row.LineEnd and 0 <= row.ValueStart < row.ValueEnd \
+                    or row.LineStart < row.LineEnd and 0 <= row.ValueStart and 0 <= row.ValueEnd:
+                # ! meta value_end may be less than start in multiline markup
+                suggestion = f"UNMATCH {row.ValueStart, row.ValueEnd}:"
+                # both markers are available
+                if 0 <= value_start and row.ValueStart != value_start:
+                    # given value_start does not match
+                    continue
+                else:
+                    suggestion = f"ALMOST {row.ValueStart, row.ValueEnd} {row.Category}:"
+                # or ...
+                if 0 <= value_end and row.ValueEnd != value_end:
+                    # for suggestion, padding for base64 encoded items
+                    delta = 3
+                    if row.ValueEnd - delta <= value_end <= row.ValueEnd + delta \
+                            or value_end - delta <= row.ValueEnd <= value_end + delta:
+                        suggestion = f"NEARBY {row.ValueStart, row.ValueEnd}"
+                    # given value_end does not match
+                    continue
+                # all checks have passed - there is precisely matching value markup
+            else:
+                print(f"WARNING: check meta value start-end {row}", flush=True)
+                continue
 
-                    if row["GroundTruth"] == "T":
+            code = (project_id, file_id, row.LineStart, row.LineEnd, row.ValueStart, row.ValueEnd, rule)
+            if code in self.line_checker:
+                self.result_cnt -= 1
+                if 'T' == row.GroundTruth:
+                    print(f"WARNING: Already checked True! Duplicate? {code}", flush=True)
+                return LineStatus.CHECKED, project_id, file_id
+            else:
+                self.line_checker.add(code)
+
+            for meta_rule in row.Category.split(':'):
+                # increase the counter only for corresponded rule metioned in markup
+                if meta_rule == rule:
+                    if 'T' == row.GroundTruth:
+                        self._increase_result_dict_cnt(meta_rule, True)
                         self.true_cnt += 1
-                        self._increase_result_dict_cnt(row["Category"], True)
-                        return LineStatus.TRUE, project_id, file_id
-                    elif row["GroundTruth"] == "F" or row["GroundTruth"] == "Template":
-                        self.false_cnt += 1
-                        self._increase_result_dict_cnt(row["Category"], False)
                         return LineStatus.FALSE, project_id, file_id
+                    else:
+                        # MetaRow class checks the correctness of row.GroundTruth = ['T', 'F', "Template"]
+                        self._increase_result_dict_cnt(meta_rule, False)
+                        self.false_cnt += 1
+                        return LineStatus.TRUE, project_id, file_id
+            else:
+                print(f"WARNING: '{rule}' is not mentioned in {row}")
+        # meta has no markup for given credential
         self.lost_cnt += 1
         print(f"{suggestion} {approximate}", flush=True)
-        self.next_id += 1
+        self.meta_next_id += 1
         return LineStatus.NOT_IN_DB, project_id, file_id
 
     def analyze_result(self) -> None:
@@ -343,18 +317,34 @@ class Scanner(ABC):
             f"{self.scanner_type} result_cnt : {self.result_cnt}, lost_cnt : {self.lost_cnt}"
             f", true_cnt : {self.true_cnt}, false_cnt : {self.false_cnt}"
         )
-        header = ["Category", "TP", "FP", "TN", "FN", "FPR", "FNR", "ACC", "PRC", "RCL", "F1"]
+
+        header = ["Rules", "Positives", "Negatives", "Templates", "Reported",
+                  "TP", "FP", "TN", "FN", "FPR", "FNR", "ACC", "PRC", "RCL", "F1"]
         rows: List[List[Any]] = []
 
-        for category, value in self.result_dict.items():
-            if category == "":
-                continue
+        # augment empty scores counters for rules which were not reported
+        for key in self.rules_markup_counters.keys():
+            if key not in self.result_dict:
+                self.result_dict[key] = TrueFalseCounter()
+
+        # augment for reported but not markup rules
+        for key in self.reported.keys():
+            if key not in self.result_dict:
+                self.result_dict[key] = TrueFalseCounter()
+
+        reported_sum = tp_sum = fp_sum = tn_sum = fn_sum = 0
+        for rule, value in self.result_dict.items():
+            assert rule
             true_cnt = value.true_cnt
             false_cnt = value.false_cnt
-            total_true_cnt, total_false_cnt = self._get_total_true_false_count(category)
+            total_true_cnt, total_false_cnt = self._get_total_true_false_count(rule)
             result = Result(true_cnt, false_cnt, total_true_cnt, total_false_cnt)
             rows.append([
-                category,
+                rule,
+                self.rules_markup_counters[rule][0],
+                self.rules_markup_counters[rule][1],
+                self.rules_markup_counters[rule][2],
+                self.reported.get(rule),
                 result.true_positive,
                 result.false_positive,
                 result.true_negative,
@@ -366,12 +356,21 @@ class Scanner(ABC):
                 Result.round_micro(result.recall),
                 Result.round_micro(result.f1),
             ])
+            reported_sum += self.reported.get(rule, 0)
+            tp_sum += result.true_positive
+            fp_sum += result.false_positive
+            tn_sum += result.true_negative
+            fn_sum += result.false_negative
+        # sort in rule alphabetical order
         rows.sort(key=lambda x: x[0])
-
-        total_result = Result(self.true_cnt, self.false_cnt, self.total_true_cnt,
-                              self.total_data_valid_lines - self.total_true_cnt)
+        # summary row
+        total_result = Result(self.true_cnt, self.false_cnt, self.total_true_cnt, self.total_false_cnt)
         rows.append([
             "",
+            self.total_true_cnt,
+            self.total_false_cnt,
+            self.total_template_cnt,
+            reported_sum,
             total_result.true_positive,
             total_result.false_positive,
             total_result.true_negative,
@@ -383,7 +382,6 @@ class Scanner(ABC):
             Result.round_micro(total_result.recall),
             Result.round_micro(total_result.f1),
         ])
-
         print(tabulate.tabulate(rows, header, floatfmt=".6f"))
 
     def _get_total_true_false_count(self, category: str) -> Tuple[int, int]:
@@ -392,37 +390,23 @@ class Scanner(ABC):
         total_false_cnt = total_line_cnt - total_true_cnt
         return total_true_cnt, total_false_cnt
 
-    def _get_total_line_cnt(self, category: str) -> int:
+    def _get_total_line_cnt(self, rule: str) -> int:
         total_line_cnt = 0
         for rows in self.meta.values():
             for row in rows:
-                if row["Category"] == category:
+                if rule in row.Category.split(':'):
                     total_line_cnt += 1
         return total_line_cnt
 
-    def _get_total_true_cnt(self, category: str = None) -> int:
+    def _get_total_true_cnt(self, rule: str) -> int:
         total_true_cnt = 0
         for rows in self.meta.values():
             for row in rows:
-                if row["Category"] == category and row["GroundTruth"] == "T":
+                if 'T' == row.GroundTruth and rule in row.Category.split(':'):
                     total_true_cnt += 1
         return total_true_cnt
 
-    @staticmethod
-    def _check_line_num(meta_line_start: int,
-                        meta_line_end: int,
-                        line_start: int,
-                        line_end: int) -> bool:
-        if 0 <= line_end:
-            # CredSweeper report must contain the value
-            if meta_line_start == line_start and meta_line_end == line_end:
-                return True
-        else:
-            if meta_line_start <= line_start <= meta_line_end:
-                return True
-        return False
-
-    def _increase_result_dict_cnt(self, category: str, cnt_type: bool) -> None:
-        if category not in self.result_dict:
-            self.result_dict[category] = TrueFalseCounter()
-        self.result_dict[category].increase(cnt_type)
+    def _increase_result_dict_cnt(self, rule: str, cnt_type: bool) -> None:
+        if rule not in self.result_dict:
+            self.result_dict[rule] = TrueFalseCounter()
+        self.result_dict[rule].increase(cnt_type)

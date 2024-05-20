@@ -1,33 +1,33 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-259,ba37813c,GitHub,472d4c24,data/472d4c24/test/ba37813c.rb,259,259,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
-297,46b38b01,GitHub,472d4c24,data/472d4c24/src/46b38b01.rb,1208,1208,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+259,ba37813c,GitHub,472d4c24,data/472d4c24/test/ba37813c.rb,259,259,F,F,,,F,F,,,,,0,0,F,F,F,Auth
+297,46b38b01,GitHub,472d4c24,data/472d4c24/src/46b38b01.rb,1208,1208,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 449,3310bdc3,GitHub,472d4c24,data/472d4c24/src/3310bdc3.rb,195,195,F,F,,,F,F,,,,,0,0,F,F,F,Password
-1359,46b38b01,GitHub,472d4c24,data/472d4c24/src/46b38b01.rb,2109,2109,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-5470,12b9f212,GitHub,472d4c24,data/472d4c24/test/12b9f212.rb,9,9,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+1359,46b38b01,GitHub,472d4c24,data/472d4c24/src/46b38b01.rb,2109,2109,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+5470,12b9f212,GitHub,472d4c24,data/472d4c24/test/12b9f212.rb,9,9,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 5471,d17da2d4,GitHub,472d4c24,data/472d4c24/test/d17da2d4.rb,33,33,F,F,,,F,F,,,,,0,0,F,F,F,Password
-7205,46b38b01,GitHub,472d4c24,data/472d4c24/src/46b38b01.rb,1021,1021,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-7206,46b38b01,GitHub,472d4c24,data/472d4c24/src/46b38b01.rb,858,858,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-7207,46b38b01,GitHub,472d4c24,data/472d4c24/src/46b38b01.rb,556,556,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-8480,46b38b01,GitHub,472d4c24,data/472d4c24/src/46b38b01.rb,1128,1128,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+7205,46b38b01,GitHub,472d4c24,data/472d4c24/src/46b38b01.rb,1021,1021,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+7206,46b38b01,GitHub,472d4c24,data/472d4c24/src/46b38b01.rb,858,858,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+7207,46b38b01,GitHub,472d4c24,data/472d4c24/src/46b38b01.rb,556,556,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+8480,46b38b01,GitHub,472d4c24,data/472d4c24/src/46b38b01.rb,1128,1128,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 8620,3310bdc3,GitHub,472d4c24,data/472d4c24/src/3310bdc3.rb,245,245,F,F,,,F,F,,,,,0,0,F,F,F,Password
 13252,3f5ec77f,GitHub,472d4c24,data/472d4c24/test/3f5ec77f.rb,25,25,T,F,56,64,F,F,,,,,0,0,F,F,F,Password
 14479,b3356305,GitHub,472d4c24,data/472d4c24/other/b3356305.md,312,312,F,F,,,F,F,,,,,0,0,F,F,F,Password
 17574,b3356305,GitHub,472d4c24,data/472d4c24/other/b3356305.md,375,375,F,F,,,F,F,,,,,0,0,F,F,F,Password
-21306,46b38b01,GitHub,472d4c24,data/472d4c24/src/46b38b01.rb,157,157,Template,T,20,28,T,F,CharOnly,,,Secret,2.75,8,F,F,F,Password
-21375,46b38b01,GitHub,472d4c24,data/472d4c24/src/46b38b01.rb,619,619,F,F,,,F,F,,,,,0,0,F,F,F,Info
-23536,b3356305,GitHub,472d4c24,data/472d4c24/other/b3356305.md,333,333,F,F,,,F,F,,,,,0,0,F,F,F,Info
-23818,faff1af3,GitHub,472d4c24,data/472d4c24/test/faff1af3.yml,127,127,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
-23821,faff1af3,GitHub,472d4c24,data/472d4c24/test/faff1af3.yml,117,117,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+21306,46b38b01,GitHub,472d4c24,data/472d4c24/src/46b38b01.rb,157,157,Template,T,20,28,T,F,CharOnly,,,Secret,2.75,8,F,F,F,URL Credentials
+21375,46b38b01,GitHub,472d4c24,data/472d4c24/src/46b38b01.rb,619,619,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
+23536,b3356305,GitHub,472d4c24,data/472d4c24/other/b3356305.md,333,333,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
+23818,faff1af3,GitHub,472d4c24,data/472d4c24/test/faff1af3.yml,127,127,F,F,,,F,F,,,,,0,0,F,F,F,Auth
+23821,faff1af3,GitHub,472d4c24,data/472d4c24/test/faff1af3.yml,117,117,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 23886,3310bdc3,GitHub,472d4c24,data/472d4c24/src/3310bdc3.rb,198,198,F,F,,,F,F,,,,,0,0,F,F,F,Password
-23887,9aa0f24e,GitHub,472d4c24,data/472d4c24/src/9aa0f24e.rb,23,23,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+23887,9aa0f24e,GitHub,472d4c24,data/472d4c24/src/9aa0f24e.rb,23,23,F,F,,,F,F,,,,,0,0,F,F,F,Token
 28835,46b38b01,GitHub,472d4c24,data/472d4c24/src/46b38b01.rb,845,845,Template,T,43,63,T,F,Any,,,Secret,3.00,20,F,F,F,Password
 28909,4beb1f7a,GitHub,472d4c24,data/472d4c24/test/4beb1f7a.rb,52,52,Template,F,11,20,F,F,Any,,,Secret,2.28,9,F,F,F,Password
 28910,4beb1f7a,GitHub,472d4c24,data/472d4c24/test/4beb1f7a.rb,32,32,Template,F,11,19,F,F,CharsOnly,,,Secret,2.00,8,F,F,F,Password
 29252,46b38b01,GitHub,472d4c24,data/472d4c24/src/46b38b01.rb,1185,1185,Template,F,51,54,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
 29290,ff8c441e,GitHub,472d4c24,data/472d4c24/test/ff8c441e.rb,16,16,Template,T,12,16,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
 29291,e246815b,GitHub,472d4c24,data/472d4c24/test/e246815b.rb,17,17,Template,T,12,16,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-29322,c37d06b6,GitHub,472d4c24,data/472d4c24/test/c37d06b6.rb,9,9,Template,T,26,39,F,F,Any,,,Unknown,2.67,13,F,F,F,Generic Secret
-29331,d8fe0072,GitHub,472d4c24,data/472d4c24/test/d8fe0072.rb,9,9,Template,T,27,41,F,F,Any,,,Unknown,2.64,14,F,F,F,Generic Secret
+29322,c37d06b6,GitHub,472d4c24,data/472d4c24/test/c37d06b6.rb,9,9,Template,T,26,39,F,F,Any,,,Unknown,2.67,13,F,F,F,Key
+29331,d8fe0072,GitHub,472d4c24,data/472d4c24/test/d8fe0072.rb,9,9,Template,T,27,41,F,F,Any,,,Unknown,2.64,14,F,F,F,Key
 29457,5ff8e937,GitHub,472d4c24,data/472d4c24/test/5ff8e937.rb,74,74,Template,T,14,18,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
 29771,4beb1f7a,GitHub,472d4c24,data/472d4c24/test/4beb1f7a.rb,53,53,Template,F,24,33,F,F,Any,,,Secret,2.28,9,F,F,F,Password
 29783,4beb1f7a,GitHub,472d4c24,data/472d4c24/test/4beb1f7a.rb,33,33,Template,F,24,32,F,F,CharsOnly,,,Secret,2.00,8,F,F,F,Password
@@ -37,17 +37,17 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 32255,eeb0d149,GitHub,472d4c24,data/472d4c24/test/eeb0d149.rb,10,10,Template,T,16,23,F,F,CharsOnly,,,Secret,2.52,7,F,F,F,Password
 32256,4beb1f7a,GitHub,472d4c24,data/472d4c24/test/4beb1f7a.rb,77,77,Template,T,16,25,F,F,CharsOnly,,,Secret,2.73,9,F,F,F,Password
 32257,4beb1f7a,GitHub,472d4c24,data/472d4c24/test/4beb1f7a.rb,78,78,Template,T,29,38,F,F,CharsOnly,,,Secret,2.73,9,F,F,F,Password
-32291,faff1af3,GitHub,472d4c24,data/472d4c24/test/faff1af3.yml,130,130,T,F,23,31,F,F,CharsOnly,,,Secret,2.00,8,F,F,F,Password
+32291,faff1af3,GitHub,472d4c24,data/472d4c24/test/faff1af3.yml,130,130,T,F,23,31,F,F,CharsOnly,,,Secret,2.00,8,F,F,F,Password:Auth
 33838,3f5ec77f,GitHub,472d4c24,data/472d4c24/test/3f5ec77f.rb,22,22,Template,F,49,54,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
 33972,faff1af3,GitHub,472d4c24,data/472d4c24/test/faff1af3.yml,44,44,T,F,19,27,F,F,CharsOnly,,,Secret,2.00,8,F,F,F,Password
 34063,3310bdc3,GitHub,472d4c24,data/472d4c24/src/3310bdc3.rb,84,84,Template,F,18,26,F,F,,,,,0,0,F,F,F,Password
-34065,46b38b01,GitHub,472d4c24,data/472d4c24/src/46b38b01.rb,215,215,T,F,44,64,T,F,Any,,,Secret,3.92,20,F,F,F,Generic Secret
-34093,3bc16105,GitHub,472d4c24,data/472d4c24/test/3bc16105.yml,5,5,F,F,19,147,F,F,,,,,0,0,F,F,F,Generic Token
-34094,e9f27c74,GitHub,472d4c24,data/472d4c24/test/e9f27c74.yml,36,36,F,F,19,147,F,F,,,,,0,0,F,F,F,Generic Token
-34095,e9f27c74,GitHub,472d4c24,data/472d4c24/test/e9f27c74.yml,25,25,F,F,19,147,F,F,,,,,0,0,F,F,F,Generic Token
-34108,e9f27c74,GitHub,472d4c24,data/472d4c24/test/e9f27c74.yml,12,12,F,F,19,147,F,F,,,,,0,0,F,F,F,Generic Token
-34109,267046bc,GitHub,472d4c24,data/472d4c24/test/267046bc.yml,6,6,F,F,19,147,F,F,,,,,0,0,F,F,F,Generic Token
-34110,267046bc,GitHub,472d4c24,data/472d4c24/test/267046bc.yml,15,15,F,F,19,147,F,F,,,,,0,0,F,F,F,Generic Token
+34065,46b38b01,GitHub,472d4c24,data/472d4c24/src/46b38b01.rb,215,215,T,F,44,64,T,F,Any,,,Secret,3.92,20,F,F,F,Credential:Gitlab Feed Token
+34093,3bc16105,GitHub,472d4c24,data/472d4c24/test/3bc16105.yml,5,5,F,F,19,147,F,F,,,,,0,0,F,F,F,Token
+34094,e9f27c74,GitHub,472d4c24,data/472d4c24/test/e9f27c74.yml,36,36,F,F,19,147,F,F,,,,,0,0,F,F,F,Token
+34095,e9f27c74,GitHub,472d4c24,data/472d4c24/test/e9f27c74.yml,25,25,F,F,19,147,F,F,,,,,0,0,F,F,F,Token
+34108,e9f27c74,GitHub,472d4c24,data/472d4c24/test/e9f27c74.yml,12,12,F,F,19,147,F,F,,,,,0,0,F,F,F,Token
+34109,267046bc,GitHub,472d4c24,data/472d4c24/test/267046bc.yml,6,6,F,F,19,147,F,F,,,,,0,0,F,F,F,Token
+34110,267046bc,GitHub,472d4c24,data/472d4c24/test/267046bc.yml,15,15,F,F,19,147,F,F,,,,,0,0,F,F,F,Token
 34144,46b38b01,GitHub,472d4c24,data/472d4c24/src/46b38b01.rb,652,652,Template,T,31,40,F,F,CharsOnly,,,Secret,2.73,9,F,F,F,Password
 34145,46b38b01,GitHub,472d4c24,data/472d4c24/src/46b38b01.rb,651,651,Template,T,18,27,F,F,CharsOnly,,,Secret,2.73,9,F,F,F,Password
 34441,4beb1f7a,GitHub,472d4c24,data/472d4c24/test/4beb1f7a.rb,130,130,T,F,11,17,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
@@ -82,23 +82,23 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 42717,3310bdc3,GitHub,472d4c24,data/472d4c24/src/3310bdc3.rb,46,46,F,F,,,F,F,,,,,0,0,F,F,F,Password
 42718,3310bdc3,GitHub,472d4c24,data/472d4c24/src/3310bdc3.rb,317,317,F,F,,,F,F,,,,,0,0,F,F,F,Password
 47192,faff1af3,GitHub,472d4c24,data/472d4c24/test/faff1af3.yml,98,98,Template,F,12,20,F,F,CharsOnly,,,Secret,2.00,8,F,F,F,Password
-47502,e246815b,GitHub,472d4c24,data/472d4c24/test/e246815b.rb,19,19,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47503,e246815b,GitHub,472d4c24,data/472d4c24/test/e246815b.rb,30,30,F,F,,,F,F,,,,,0,0,F,F,F,Info
+47502,e246815b,GitHub,472d4c24,data/472d4c24/test/e246815b.rb,19,19,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+47503,e246815b,GitHub,472d4c24,data/472d4c24/test/e246815b.rb,30,30,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
 47556,4beb1f7a,GitHub,472d4c24,data/472d4c24/test/4beb1f7a.rb,45,45,T,F,11,19,F,F,CharsOnly,,,Secret,2.00,8,F,F,F,Password
 47557,4beb1f7a,GitHub,472d4c24,data/472d4c24/test/4beb1f7a.rb,66,66,T,F,11,20,F,F,Any,,,Secret,2.28,9,F,F,F,Password
 47580,4beb1f7a,GitHub,472d4c24,data/472d4c24/test/4beb1f7a.rb,46,46,T,F,24,32,F,F,CharsOnly,,,Secret,2.00,8,F,F,F,Password
 47581,4beb1f7a,GitHub,472d4c24,data/472d4c24/test/4beb1f7a.rb,67,67,T,F,24,33,F,F,Any,,,Secret,2.28,9,F,F,F,Password
-47598,e246815b,GitHub,472d4c24,data/472d4c24/test/e246815b.rb,18,18,T,F,8,48,F,F,Any,,,SeedSalt,3.75,40,F,F,F,Cryptographic Primitives
+47598,e246815b,GitHub,472d4c24,data/472d4c24/test/e246815b.rb,18,18,T,F,8,48,F,F,Any,,,SeedSalt,3.75,40,F,F,F,Salt
 47665,3f5ec77f,GitHub,472d4c24,data/472d4c24/test/3f5ec77f.rb,10,10,T,T,58,66,F,F,CharsOnly,,,Secret,3.00,8,F,F,F,Password
 47746,ba37813c,GitHub,472d4c24,data/472d4c24/test/ba37813c.rb,265,265,F,F,,,F,F,,,,,0,0,F,F,F,Password
-47756,ff8c441e,GitHub,472d4c24,data/472d4c24/test/ff8c441e.rb,18,18,F,F,,,F,F,,,,,0,0,F,F,F,Info
-47757,ff8c441e,GitHub,472d4c24,data/472d4c24/test/ff8c441e.rb,29,29,F,F,,,F,F,,,,,0,0,F,F,F,Info
+47756,ff8c441e,GitHub,472d4c24,data/472d4c24/test/ff8c441e.rb,18,18,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+47757,ff8c441e,GitHub,472d4c24,data/472d4c24/test/ff8c441e.rb,29,29,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
 47763,5ff8e937,GitHub,472d4c24,data/472d4c24/test/5ff8e937.rb,136,136,F,F,,,F,F,,,,,0,0,F,F,F,Password
 47764,5ff8e937,GitHub,472d4c24,data/472d4c24/test/5ff8e937.rb,162,162,F,F,,,F,F,,,,,0,0,F,F,F,Password
 47765,5ff8e937,GitHub,472d4c24,data/472d4c24/test/5ff8e937.rb,73,73,F,F,,,F,F,,,,,0,0,F,F,F,Password
 47768,5ff8e937,GitHub,472d4c24,data/472d4c24/test/5ff8e937.rb,137,137,F,F,,,F,F,,,,,0,0,F,F,F,Password
 47769,5ff8e937,GitHub,472d4c24,data/472d4c24/test/5ff8e937.rb,72,72,F,F,,,F,F,,,,,0,0,F,F,F,Password
-47799,ff8c441e,GitHub,472d4c24,data/472d4c24/test/ff8c441e.rb,17,17,T,F,8,48,F,F,Any,,,SeedSalt,3.75,40,F,F,F,Cryptographic Primitives
+47799,ff8c441e,GitHub,472d4c24,data/472d4c24/test/ff8c441e.rb,17,17,T,F,8,48,F,F,Any,,,SeedSalt,3.75,40,F,F,F,Salt
 47844,5ff8e937,GitHub,472d4c24,data/472d4c24/test/5ff8e937.rb,123,123,Template,T,17,25,F,F,Any,,,Unknown,2.38,8,F,F,F,Password
 48034,ba37813c,GitHub,472d4c24,data/472d4c24/test/ba37813c.rb,45,45,F,F,,,F,F,,,,,0,0,F,F,F,Password
 74684,ff8c441e,GitHub,472d4c24,data/472d4c24/test/ff8c441e.rb,27,27,Template,T,12,16,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
@@ -107,23 +107,23 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 74687,e246815b,GitHub,472d4c24,data/472d4c24/test/e246815b.rb,28,28,Template,T,12,16,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
 74688,e246815b,GitHub,472d4c24,data/472d4c24/test/e246815b.rb,38,38,Template,T,12,16,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
 74689,e246815b,GitHub,472d4c24,data/472d4c24/test/e246815b.rb,46,46,Template,T,12,16,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-81720,ff8c441e,GitHub,472d4c24,data/472d4c24/test/ff8c441e.rb,28,28,T,F,8,48,F,F,Any,,,SeedSalt,3.75,40,F,F,F,Cryptographic Primitives
-81721,ff8c441e,GitHub,472d4c24,data/472d4c24/test/ff8c441e.rb,38,38,T,F,8,48,F,F,Any,,,SeedSalt,3.75,40,F,F,F,Cryptographic Primitives
-81722,ff8c441e,GitHub,472d4c24,data/472d4c24/test/ff8c441e.rb,39,39,F,F,19,51,F,F,,,,,0,0,F,F,F,Info
-81723,ff8c441e,GitHub,472d4c24,data/472d4c24/test/ff8c441e.rb,46,46,T,F,8,48,F,F,Any,,,SeedSalt,3.75,40,F,F,F,Cryptographic Primitives
-81724,e246815b,GitHub,472d4c24,data/472d4c24/test/e246815b.rb,29,29,T,F,8,48,F,F,Any,,,SeedSalt,3.75,40,F,F,F,Cryptographic Primitives
-81725,e246815b,GitHub,472d4c24,data/472d4c24/test/e246815b.rb,39,39,T,F,8,48,F,F,Any,,,SeedSalt,3.75,40,F,F,F,Cryptographic Primitives
-81726,e246815b,GitHub,472d4c24,data/472d4c24/test/e246815b.rb,40,40,F,F,19,51,F,F,,,,,0,0,F,F,F,Info
-81727,e246815b,GitHub,472d4c24,data/472d4c24/test/e246815b.rb,47,47,T,F,8,48,F,F,Any,,,SeedSalt,3.75,40,F,F,F,Cryptographic Primitives
+81720,ff8c441e,GitHub,472d4c24,data/472d4c24/test/ff8c441e.rb,28,28,T,F,8,48,F,F,Any,,,SeedSalt,3.75,40,F,F,F,Salt
+81721,ff8c441e,GitHub,472d4c24,data/472d4c24/test/ff8c441e.rb,38,38,T,F,8,48,F,F,Any,,,SeedSalt,3.75,40,F,F,F,Salt
+81722,ff8c441e,GitHub,472d4c24,data/472d4c24/test/ff8c441e.rb,39,39,F,F,19,51,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+81723,ff8c441e,GitHub,472d4c24,data/472d4c24/test/ff8c441e.rb,46,46,T,F,8,48,F,F,Any,,,SeedSalt,3.75,40,F,F,F,Salt
+81724,e246815b,GitHub,472d4c24,data/472d4c24/test/e246815b.rb,29,29,T,F,8,48,F,F,Any,,,SeedSalt,3.75,40,F,F,F,Salt
+81725,e246815b,GitHub,472d4c24,data/472d4c24/test/e246815b.rb,39,39,T,F,8,48,F,F,Any,,,SeedSalt,3.75,40,F,F,F,Salt
+81726,e246815b,GitHub,472d4c24,data/472d4c24/test/e246815b.rb,40,40,F,F,19,51,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+81727,e246815b,GitHub,472d4c24,data/472d4c24/test/e246815b.rb,47,47,T,F,8,48,F,F,Any,,,SeedSalt,3.75,40,F,F,F,Salt
 101763,3310bdc3,GitHub,472d4c24,data/472d4c24/src/3310bdc3.rb,78,78,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 101764,c77fa22b,GitHub,472d4c24,data/472d4c24/src/c77fa22b.rb,64,64,Template,T,20,28,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Password
 101765,46b38b01,GitHub,472d4c24,data/472d4c24/src/46b38b01.rb,866,866,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 101766,46b38b01,GitHub,472d4c24,data/472d4c24/src/46b38b01.rb,868,868,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-101767,46b38b01,GitHub,472d4c24,data/472d4c24/src/46b38b01.rb,970,970,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
-101768,46b38b01,GitHub,472d4c24,data/472d4c24/src/46b38b01.rb,978,978,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+101767,46b38b01,GitHub,472d4c24,data/472d4c24/src/46b38b01.rb,970,970,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
+101768,46b38b01,GitHub,472d4c24,data/472d4c24/src/46b38b01.rb,978,978,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 101769,46b38b01,GitHub,472d4c24,data/472d4c24/src/46b38b01.rb,1048,1048,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-101770,46b38b01,GitHub,472d4c24,data/472d4c24/src/46b38b01.rb,1469,1469,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
-101771,46b38b01,GitHub,472d4c24,data/472d4c24/src/46b38b01.rb,1807,1807,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+101770,46b38b01,GitHub,472d4c24,data/472d4c24/src/46b38b01.rb,1469,1469,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
+101771,46b38b01,GitHub,472d4c24,data/472d4c24/src/46b38b01.rb,1807,1807,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 101772,5ff8e937,GitHub,472d4c24,data/472d4c24/test/5ff8e937.rb,26,26,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 101773,5ff8e937,GitHub,472d4c24,data/472d4c24/test/5ff8e937.rb,118,118,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 101774,5ff8e937,GitHub,472d4c24,data/472d4c24/test/5ff8e937.rb,131,131,F,F,,,F,F,,,,,0.00,,F,F,F,Password
@@ -133,13 +133,13 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 101778,eeb0d149,GitHub,472d4c24,data/472d4c24/test/eeb0d149.rb,23,23,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 101779,d17da2d4,GitHub,472d4c24,data/472d4c24/test/d17da2d4.rb,81,81,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 101780,ba37813c,GitHub,472d4c24,data/472d4c24/test/ba37813c.rb,248,248,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-110912,faff1af3,GitHub,472d4c24,data/472d4c24/test/faff1af3.yml,116,116,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
-110913,faff1af3,GitHub,472d4c24,data/472d4c24/test/faff1af3.yml,118,118,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
-110914,faff1af3,GitHub,472d4c24,data/472d4c24/test/faff1af3.yml,119,119,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
-110915,faff1af3,GitHub,472d4c24,data/472d4c24/test/faff1af3.yml,126,126,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
-110916,faff1af3,GitHub,472d4c24,data/472d4c24/test/faff1af3.yml,128,128,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
-110917,eeb0d149,GitHub,472d4c24,data/472d4c24/test/eeb0d149.rb,37,37,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
-110918,eeb0d149,GitHub,472d4c24,data/472d4c24/test/eeb0d149.rb,51,51,F,F,,,F,F,,,,,0.00,,F,F,F,Authentication Credentials
+110912,faff1af3,GitHub,472d4c24,data/472d4c24/test/faff1af3.yml,116,116,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
+110913,faff1af3,GitHub,472d4c24,data/472d4c24/test/faff1af3.yml,118,118,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
+110914,faff1af3,GitHub,472d4c24,data/472d4c24/test/faff1af3.yml,119,119,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
+110915,faff1af3,GitHub,472d4c24,data/472d4c24/test/faff1af3.yml,126,126,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
+110916,faff1af3,GitHub,472d4c24,data/472d4c24/test/faff1af3.yml,128,128,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
+110917,eeb0d149,GitHub,472d4c24,data/472d4c24/test/eeb0d149.rb,37,37,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
+110918,eeb0d149,GitHub,472d4c24,data/472d4c24/test/eeb0d149.rb,51,51,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 130711,3310bdc3,GitHub,472d4c24,data/472d4c24/src/3310bdc3.rb,231,231,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130712,e9f27c74,GitHub,472d4c24,data/472d4c24/test/e9f27c74.yml,11,11,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130713,46b38b01,GitHub,472d4c24,data/472d4c24/src/46b38b01.rb,2160,2160,F,F,,,F,F,,,,,0.00,,F,F,F,Password
@@ -161,4 +161,4 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 132008,d17da2d4,GitHub,472d4c24,data/472d4c24/test/d17da2d4.rb,119,119,T,F,14,21,F,F,,,Info,,0.00,,F,F,F,IPv4
 132644,3310bdc3,GitHub,472d4c24,data/472d4c24/src/3310bdc3.rb,21,21,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 132790,3310bdc3,GitHub,472d4c24,data/472d4c24/src/3310bdc3.rb,246,246,F,F,,,F,F,,,,,0,0,F,F,F,Password
-133318,46b38b01,GitHub,472d4c24,data/472d4c24/src/46b38b01.rb,796,796,F,F,,,F,F,,,,,0,0,F,F,F,Authentication Credentials
+133318,46b38b01,GitHub,472d4c24,data/472d4c24/src/46b38b01.rb,796,796,F,F,,,F,F,,,,,0,0,F,F,F,Auth

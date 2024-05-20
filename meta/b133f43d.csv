@@ -1,17 +1,16 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-483,044e7d55,GitHub,b133f43d,data/b133f43d/other/044e7d55.md,14,14,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-484,137e5c87,GitHub,b133f43d,data/b133f43d/src/137e5c87.py,29,29,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-485,137e5c87,GitHub,b133f43d,data/b133f43d/src/137e5c87.py,30,30,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-486,2ca01fd6,GitHub,b133f43d,data/b133f43d/src/2ca01fd6.py,30,30,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-1617,55c545e2,GitHub,b133f43d,data/b133f43d/src/55c545e2.j2,11,11,T,F,24,29,T,F,CharOnly,,,Secret,2.32,5,F,F,F,Password
-5900,21ff5a06,GitHub,b133f43d,data/b133f43d/test/21ff5a06.yml,2,2,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-8516,2ca01fd6,GitHub,b133f43d,data/b133f43d/src/2ca01fd6.py,147,147,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+483,044e7d55,GitHub,b133f43d,data/b133f43d/other/044e7d55.md,14,14,F,F,,,F,F,,,,,0,0,F,F,F,API
+484,137e5c87,GitHub,b133f43d,data/b133f43d/src/137e5c87.py,29,29,F,F,,,F,F,,,,,0,0,F,F,F,API:Token
+485,137e5c87,GitHub,b133f43d,data/b133f43d/src/137e5c87.py,30,30,F,F,,,F,F,,,,,0,0,F,F,F,API:Key
+486,2ca01fd6,GitHub,b133f43d,data/b133f43d/src/2ca01fd6.py,30,30,F,F,,,F,F,,,,,0,0,F,F,F,API:Key
+5900,21ff5a06,GitHub,b133f43d,data/b133f43d/test/21ff5a06.yml,2,2,F,F,,,F,F,,,,,0,0,F,F,F,API
+8516,2ca01fd6,GitHub,b133f43d,data/b133f43d/src/2ca01fd6.py,147,147,F,F,,,F,F,,,,,0,0,F,F,F,API
 11243,76a96497,GitHub,b133f43d,data/b133f43d/src/76a96497.yml,46,46,F,F,,,F,F,,,,,0,0,F,F,F,Password
-11506,cf768e6e,GitHub,b133f43d,data/b133f43d/src/cf768e6e.yml,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-17832,21342b01,GitHub,b133f43d,data/b133f43d/other/21342b01.md,58,58,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-17833,21342b01,GitHub,b133f43d,data/b133f43d/other/21342b01.md,75,75,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-17877,21342b01,GitHub,b133f43d,data/b133f43d/other/21342b01.md,76,76,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-21798,a538d193,GitHub,b133f43d,data/b133f43d/other/a538d193.md,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Generic Token
+11506,cf768e6e,GitHub,b133f43d,data/b133f43d/src/cf768e6e.yml,21,21,F,F,,,F,F,,,,,0,0,F,F,F,API
+17832,21342b01,GitHub,b133f43d,data/b133f43d/other/21342b01.md,58,58,F,F,,,F,F,,,,,0,0,F,F,F,API
+17833,21342b01,GitHub,b133f43d,data/b133f43d/other/21342b01.md,75,75,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+17877,21342b01,GitHub,b133f43d,data/b133f43d/other/21342b01.md,76,76,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+21798,a538d193,GitHub,b133f43d,data/b133f43d/other/a538d193.md,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Token
 28881,80f0c7c2,GitHub,b133f43d,data/b133f43d/src/80f0c7c2.yml,102,102,Template,F,11,15,F,F,NumbersOnly,,,Secret,2.00,4,F,F,F,Password
 29114,8152c2de,GitHub,b133f43d,data/b133f43d/src/8152c2de.j2,53,53,Template,T,13,19,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
 29904,a3f1936a,GitHub,b133f43d,data/b133f43d/src/a3f1936a.yml,14,14,Template,T,10,16,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
@@ -20,19 +19,16 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 33505,146cfc3e,GitHub,b133f43d,data/b133f43d/src/146cfc3e.yml,42,42,T,F,16,21,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
 33910,146cfc3e,GitHub,b133f43d,data/b133f43d/src/146cfc3e.yml,39,39,Template,T,21,25,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
 35280,80f0c7c2,GitHub,b133f43d,data/b133f43d/src/80f0c7c2.yml,166,166,Template,T,15,20,F,F,CharsOnly,,,Unknown,2.32,5,F,F,F,Password
-35495,a844bf5e,GitHub,b133f43d,data/b133f43d/test/a844bf5e.p8,1,28,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,Private Key
-35548,8082c3b6,GitHub,b133f43d,data/b133f43d/test/8082c3b6.p8,1,28,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,Private Key
-40669,ee7f4b87,GitHub,b133f43d,data/b133f43d/src/ee7f4b87.yml,7,7,T,F,5,35,F,F,Any,,,Unknown,3.53,30,F,F,F,Info
-40670,ee7f4b87,GitHub,b133f43d,data/b133f43d/src/ee7f4b87.yml,8,8,T,F,6,36,F,F,Any,,,Unknown,3.31,30,F,F,F,Info
-40671,ee7f4b87,GitHub,b133f43d,data/b133f43d/src/ee7f4b87.yml,9,9,T,F,6,36,F,F,Any,,,Unknown,3.49,30,F,F,F,Info
-42019,2ca01fd6,GitHub,b133f43d,data/b133f43d/src/2ca01fd6.py,29,29,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-42020,2ca01fd6,GitHub,b133f43d,data/b133f43d/src/2ca01fd6.py,339,339,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-42021,2ca01fd6,GitHub,b133f43d,data/b133f43d/src/2ca01fd6.py,341,341,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-42239,137e5c87,GitHub,b133f43d,data/b133f43d/src/137e5c87.py,339,339,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-42240,137e5c87,GitHub,b133f43d,data/b133f43d/src/137e5c87.py,341,341,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
+35495,a844bf5e,GitHub,b133f43d,data/b133f43d/test/a844bf5e.p8,1,28,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,PEM Private Key
+35548,8082c3b6,GitHub,b133f43d,data/b133f43d/test/8082c3b6.p8,1,28,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,PEM Private Key
+42019,2ca01fd6,GitHub,b133f43d,data/b133f43d/src/2ca01fd6.py,29,29,F,F,,,F,F,,,,,0,0,F,F,F,API:Token
+42020,2ca01fd6,GitHub,b133f43d,data/b133f43d/src/2ca01fd6.py,339,339,F,F,,,F,F,,,,,0,0,F,F,F,API:Token
+42021,2ca01fd6,GitHub,b133f43d,data/b133f43d/src/2ca01fd6.py,341,341,F,F,,,F,F,,,,,0,0,F,F,F,API:Token
+42239,137e5c87,GitHub,b133f43d,data/b133f43d/src/137e5c87.py,339,339,F,F,,,F,F,,,,,0,0,F,F,F,API:Token
+42240,137e5c87,GitHub,b133f43d,data/b133f43d/src/137e5c87.py,341,341,F,F,,,F,F,,,,,0,0,F,F,F,API:Token
 42475,a3f1936a,GitHub,b133f43d,data/b133f43d/src/a3f1936a.yml,18,18,Template,T,10,16,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
 74713,80f0c7c2,GitHub,b133f43d,data/b133f43d/src/80f0c7c2.yml,111,111,Template,F,11,15,F,F,NumbersOnly,,,Secret,2.00,4,F,F,F,Password
-75216,137e5c87,GitHub,b133f43d,data/b133f43d/src/137e5c87.py,147,147,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-108432,21342b01,GitHub,b133f43d,data/b133f43d/other/21342b01.md,71,71,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+75216,137e5c87,GitHub,b133f43d,data/b133f43d/src/137e5c87.py,147,147,F,F,,,F,F,,,,,0,0,F,F,F,API
+108432,21342b01,GitHub,b133f43d,data/b133f43d/other/21342b01.md,71,71,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 108433,ee7f4b87,GitHub,b133f43d,data/b133f43d/src/ee7f4b87.yml,16,16,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 114556,ee7f4b87,GitHub,b133f43d,data/b133f43d/src/ee7f4b87.yml,14,14,F,F,,,F,F,,,,,0.00,,F,F,F,Password

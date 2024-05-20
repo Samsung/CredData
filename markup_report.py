@@ -5,75 +5,62 @@ The script performs updating CredSweeper report with according markup
 currently the row from meta is placed to "api_validation" to keep the value at the position
 """
 
-import csv
 import json
-import os
 import sys
 from argparse import ArgumentParser
 from pathlib import Path
-from typing import Tuple, Dict, List
+from typing import Dict, List, Tuple
 
 from meta_cred import MetaCred
-from meta_row import MetaRow
+from meta_row import MetaRow, _get_source_gen
 
 
-class MetaKey:
-    def __init__(self, file_path: str, line_start: int, line_end: int):
-        self.key: Tuple[str, int, int] = (file_path, line_start, line_end)
+def prepare_meta(meta_dir) -> Dict[Tuple[str, int, int, int, int], List[MetaRow]]:
+    meta_dict: Dict[Tuple[str, int, int, int, int], List[MetaRow]] = {}
 
-    def __hash__(self):
-        return hash(self.key)
+    for row in _get_source_gen(Path(meta_dir)):
+        meta_row = MetaRow(row)
+        markup_key = (meta_row.FilePath, meta_row.LineStart, meta_row.LineEnd, meta_row.ValueStart, meta_row.ValueEnd)
+        if meta_list := meta_dict.get(markup_key):
+            meta_list.append(meta_row)
+            meta_dict[markup_key] = meta_list
+        else:
+            meta_dict[markup_key] = [meta_row]
 
-    def __eq__(self, other):
-        return self.key == other.key
-
-    def __ne__(self, other):
-        return not (self == other)
-
-
-def read_meta(meta_dir) -> Dict[MetaKey, List[MetaRow]]:
-    meta_dict = {}
-    for root, dirs, files in os.walk(meta_dir):
-        root_path = Path(root)
-        for file in files:
-            if not file.endswith(".csv"):
-                # *.csv.orig artifacts after git merge
-                continue
-            with open(root_path / file, newline="") as f:
-                reader = csv.DictReader(f)
-                for row in reader:
-                    meta_row = MetaRow(row)
-                    meta_key = MetaKey(meta_row.FilePath, meta_row.LineStart, meta_row.LineEnd)
-                    if meta_row in meta_dict:
-                        meta_dict[meta_key].append(meta_row)
-                    else:
-                        meta_dict[meta_key] = [meta_row]
     return meta_dict
 
 
-def main(output_json, meta_dir):
-    if not os.path.exists(output_json) or not os.path.isfile(output_json):
-        raise FileExistsError(f"{output_json} report does not exist.")
-    if not os.path.exists(meta_dir) or not os.path.isdir(meta_dir):
-        raise FileExistsError(f"{meta_dir} directory does not exist.")
+def main(report_file: str, meta_dir: str):
+    errors = 0
 
-    with open(output_json, "r") as f:
+    with open(report_file, "r") as f:
         creds = json.load(f)
 
-    meta_dict = read_meta(meta_dir)
-
-    # processed_creds = []
+    meta_dict = prepare_meta(meta_dir)
 
     for cred in creds:
         meta_cred = MetaCred(cred)
-        cred_key = MetaKey(meta_cred.path, meta_cred.line_start, meta_cred.line_end)
-        if meta_rows := meta_dict.get(cred_key):
-            cred["api_validation"] = ''.join(str(x) for x in meta_rows)
+        key_variants = [
+            # exactly match
+            (meta_cred.path, meta_cred.line_start, meta_cred.line_end, meta_cred.strip_value_start, meta_cred.strip_value_end),
+            # meta markup only with start position
+            (meta_cred.path, meta_cred.line_start, meta_cred.line_end, meta_cred.strip_value_start, -1),
+            # markup for whole line
+            (meta_cred.path, meta_cred.line_start, meta_cred.line_end, -1, -1)
+        ]
+        for key in key_variants:
+            if rows := meta_dict.get(key):
+                cred["api_validation"] = ';'.join(str(x) for x in rows)
+                break
         else:
-            cred["api_validation"] = "not found in MetaRow"
+            cred["api_validation"] = "not found in meta"
+            # something was wrong
+            errors += 1
 
-    with open(f"{output_json}", "w") as f:
+    with open(f"{report_file}", "w") as f:
         json.dump(creds, f, indent=4)
+
+    return errors
 
 
 if __name__ == "__main__":

@@ -13,12 +13,12 @@ import os
 import subprocess
 import sys
 from argparse import ArgumentParser
-from typing import List, Optional
+from typing import List, Optional, Tuple, Dict
 
 from colorama import Fore, Back, Style
 
 from meta_cred import MetaCred
-from meta_row import read_meta
+from meta_row import read_meta, MetaRow
 
 EXIT_SUCCESS = 0
 EXIT_FAILURE = 1
@@ -117,11 +117,11 @@ def main(meta_dir: str,
     meta = read_meta(meta_dir)
     meta.sort(key=lambda x: (x.FilePath, x.LineStart, x.LineEnd, x.ValueStart, x.ValueEnd))
     displayed_rows = 0
-    shown_markup = {}
+    shown_markup: Dict[Tuple[str, int, int, int, int], MetaRow] = {}
     for row in meta:
         if not data_filter[row.GroundTruth]:
             continue
-        if category and not category == row.Category:
+        if category and category not in row.Category:
             continue
 
         displayed_rows += 1
@@ -138,6 +138,9 @@ def main(meta_dir: str,
             except Exception as exc:
                 print(f"Failure {row}", exc, flush=True)
                 errors += 1
+        if 'T' == row.GroundTruth and 0 > row.ValueStart and row.LineStart == row.LineEnd:
+            print(f"Missed ValueStart for TRUE markup!\n{row}", flush=True)
+            errors += 1
         markup_key = (row.FilePath, row.LineStart, row.LineEnd, row.ValueStart, row.ValueEnd)
         if markup_key in shown_markup:
             print(f"Duplicate markup!\nSHOWN:{shown_markup[markup_key]}\nTHIS:{row}", flush=True)

@@ -54,6 +54,15 @@ class MetaRow:
                 else:
                     raise RuntimeError(f"ERROR: Unsupported {typ}")
                 self.__setattr__(key, val)
+        if not self.Category:
+            raise RuntimeError(f"ERROR: Category must be set {row}")
+        if ':' in self.Category:
+            rules = self.Category.split(':')
+            if len(rules) != len(set(rules)):
+                raise RuntimeError(f"ERROR: Rule must be once in Category {row}")
+        allowed_GroundTruth = ['T', 'F', "Template"]
+        if self.GroundTruth not in allowed_GroundTruth:
+            raise RuntimeError(f"ERROR: GroundTruth must be in {allowed_GroundTruth} {row}")
         if 0 > self.LineStart or 0 > self.LineEnd:
             raise RuntimeError(f"ERROR: LineStart and LineEnd must be positive {row}")
         elif self.LineStart > self.LineEnd:

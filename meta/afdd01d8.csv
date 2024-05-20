@@ -1,11 +1,11 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-2560,c913dbe4,GitHub,afdd01d8,data/afdd01d8/src/c913dbe4.ts,463,463,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-2573,5ff8fcf4,GitHub,afdd01d8,data/afdd01d8/src/5ff8fcf4.ts,285,285,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-13349,458712c0,GitHub,afdd01d8,data/afdd01d8/test/458712c0.ts,5,5,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-13388,458712c0,GitHub,afdd01d8,data/afdd01d8/test/458712c0.ts,18,18,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-13406,458712c0,GitHub,afdd01d8,data/afdd01d8/test/458712c0.ts,16,16,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+2560,c913dbe4,GitHub,afdd01d8,data/afdd01d8/src/c913dbe4.ts,463,463,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+2573,5ff8fcf4,GitHub,afdd01d8,data/afdd01d8/src/5ff8fcf4.ts,285,285,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+13349,458712c0,GitHub,afdd01d8,data/afdd01d8/test/458712c0.ts,5,5,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+13388,458712c0,GitHub,afdd01d8,data/afdd01d8/test/458712c0.ts,18,18,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+13406,458712c0,GitHub,afdd01d8,data/afdd01d8/test/458712c0.ts,16,16,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 14088,2e36af1b,GitHub,afdd01d8,data/afdd01d8/src/2e36af1b.ts,9,9,F,F,,,F,F,,,,,0,0,F,F,F,Password
-22889,c9cfede6,GitHub,afdd01d8,data/afdd01d8/src/c9cfede6.ts,93,93,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+22889,c9cfede6,GitHub,afdd01d8,data/afdd01d8/src/c9cfede6.ts,93,93,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 27391,03609cb6,GitHub,afdd01d8,data/afdd01d8/test/03609cb6.yml,37,37,T,T,16,26,F,F,Any,,,Secret,3.32,10,F,F,F,Password
 27393,84f0ebf3,GitHub,afdd01d8,data/afdd01d8/src/84f0ebf3.dist,5,5,T,T,15,25,F,F,Any,,,Secret,3.32,10,F,F,F,Password
 27526,84f0ebf3,GitHub,afdd01d8,data/afdd01d8/src/84f0ebf3.dist,13,13,Template,T,18,22,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
@@ -25,10 +25,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 36998,e45e45ba,GitHub,afdd01d8,data/afdd01d8/src/e45e45ba.yml,23,23,Template,T,22,27,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
 61650,e45e45ba,GitHub,afdd01d8,data/afdd01d8/src/e45e45ba.yml,25,25,Template,T,17,21,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
 61755,e45e45ba,GitHub,afdd01d8,data/afdd01d8/src/e45e45ba.yml,36,36,Template,T,20,24,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-64401,c9cfede6,GitHub,afdd01d8,data/afdd01d8/src/c9cfede6.ts,330,330,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-100877,344c39fb,GitHub,afdd01d8,data/afdd01d8/src/344c39fb.yml,60,60,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-100878,5ff8fcf4,GitHub,afdd01d8,data/afdd01d8/src/5ff8fcf4.ts,412,412,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
-110482,c9cfede6,GitHub,afdd01d8,data/afdd01d8/src/c9cfede6.ts,333,333,F,F,,,F,F,,,,,0.00,,F,F,F,Generic Secret
+64401,c9cfede6,GitHub,afdd01d8,data/afdd01d8/src/c9cfede6.ts,330,330,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+100877,344c39fb,GitHub,afdd01d8,data/afdd01d8/src/344c39fb.yml,60,60,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+100878,5ff8fcf4,GitHub,afdd01d8,data/afdd01d8/src/5ff8fcf4.ts,412,412,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+110482,c9cfede6,GitHub,afdd01d8,data/afdd01d8/src/c9cfede6.ts,333,333,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 130341,c9cfede6,GitHub,afdd01d8,data/afdd01d8/src/c9cfede6.ts,477,477,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130344,5ff8fcf4,GitHub,afdd01d8,data/afdd01d8/src/5ff8fcf4.ts,492,492,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130345,344c39fb,GitHub,afdd01d8,data/afdd01d8/src/344c39fb.yml,35,35,F,F,,,F,F,,,,,0.00,,F,F,F,Password

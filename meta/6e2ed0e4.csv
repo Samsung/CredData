@@ -1,17 +1,16 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
 1524,3046a149,GitHub,6e2ed0e4,data/6e2ed0e4/src/3046a149.py,7,7,F,F,,,F,F,,,,,0,0,F,F,F,Password
-2530,df06678e,GitHub,6e2ed0e4,data/6e2ed0e4/src/df06678e.cshtml,61,61,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-2533,59030b46,GitHub,6e2ed0e4,data/6e2ed0e4/src/59030b46.cshtml,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-2534,59030b46,GitHub,6e2ed0e4,data/6e2ed0e4/src/59030b46.cshtml,16,16,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-2536,df06678e,GitHub,6e2ed0e4,data/6e2ed0e4/src/df06678e.cshtml,67,67,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+2530,df06678e,GitHub,6e2ed0e4,data/6e2ed0e4/src/df06678e.cshtml,61,61,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+2533,59030b46,GitHub,6e2ed0e4,data/6e2ed0e4/src/59030b46.cshtml,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+2534,59030b46,GitHub,6e2ed0e4,data/6e2ed0e4/src/59030b46.cshtml,16,16,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+2536,df06678e,GitHub,6e2ed0e4,data/6e2ed0e4/src/df06678e.cshtml,67,67,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 9275,9006c836,GitHub,6e2ed0e4,data/6e2ed0e4/src/9006c836.cs,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Password
-10825,da00b62c,GitHub,6e2ed0e4,data/6e2ed0e4/src/da00b62c.js,729,729,F,F,,,F,F,,,,,0,0,F,F,F,Info
-11163,f3e01d70,GitHub,6e2ed0e4,data/6e2ed0e4/src/f3e01d70.js,4386,4386,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-12207,f3e01d70,GitHub,6e2ed0e4,data/6e2ed0e4/src/f3e01d70.js,2211,2211,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-12239,f3e01d70,GitHub,6e2ed0e4,data/6e2ed0e4/src/f3e01d70.js,4119,4119,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-12628,9249abc2,GitHub,6e2ed0e4,data/6e2ed0e4/src/9249abc2.js,100,100,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
-13762,a03c6f3f,GitHub,6e2ed0e4,data/6e2ed0e4/src/a03c6f3f.go,23,23,F,F,,,F,F,,,,,0,0,F,F,F,Predefined Pattern
-25137,7588ba51,GitHub,6e2ed0e4,data/6e2ed0e4/test/7588ba51.py,31,31,F,F,,,F,F,,,,,0,0,F,F,F,Generic Secret
+10825,da00b62c,GitHub,6e2ed0e4,data/6e2ed0e4/src/da00b62c.js,729,729,F,F,,,F,F,,,,,0,0,F,F,F,Atlassian Old PAT token
+11163,f3e01d70,GitHub,6e2ed0e4,data/6e2ed0e4/src/f3e01d70.js,4386,4386,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+12207,f3e01d70,GitHub,6e2ed0e4,data/6e2ed0e4/src/f3e01d70.js,2211,2211,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+12239,f3e01d70,GitHub,6e2ed0e4,data/6e2ed0e4/src/f3e01d70.js,4119,4119,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+12628,9249abc2,GitHub,6e2ed0e4,data/6e2ed0e4/src/9249abc2.js,100,100,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+25137,7588ba51,GitHub,6e2ed0e4,data/6e2ed0e4/test/7588ba51.py,31,31,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 28258,3195fb48,GitHub,6e2ed0e4,data/6e2ed0e4/src/3195fb48.yaml,10,10,T,F,12,17,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
 29494,486848f5,GitHub,6e2ed0e4,data/6e2ed0e4/src/486848f5.properties,7,7,F,F,27,56,F,F,,,,,0,0,F,F,F,Password
 29495,6b447a06,GitHub,6e2ed0e4,data/6e2ed0e4/src/6b447a06.properties,8,8,F,F,27,53,F,F,,,,,0,0,F,F,F,Password
@@ -27,7 +26,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 35483,427771e7,GitHub,6e2ed0e4,data/6e2ed0e4/src/427771e7.yaml,37,37,T,T,22,31,F,F,CharsOnly,,,Secret,3.17,9,F,F,F,Password
 37457,427771e7,GitHub,6e2ed0e4,data/6e2ed0e4/src/427771e7.yaml,38,38,T,T,17,26,F,F,CharsOnly,,,Secret,3.17,9,F,F,F,Password
 37458,8f12af88,GitHub,6e2ed0e4,data/6e2ed0e4/src/8f12af88.yaml,18,18,T,T,20,29,F,F,CharsOnly,,,Secret,3.17,9,F,F,F,Password
-42700,117efb4c,GitHub,6e2ed0e4,data/6e2ed0e4/src/117efb4c.yaml,18,18,T,T,35,51,T,F,CharsOnly,,,Secret,3.45,16,F,F,F,Password
+42700,117efb4c,GitHub,6e2ed0e4,data/6e2ed0e4/src/117efb4c.yaml,18,18,T,T,35,51,T,F,CharsOnly,,,Secret,3.45,16,F,F,F,URL Credentials
 131603,f3e01d70,GitHub,6e2ed0e4,data/6e2ed0e4/src/f3e01d70.js,8826,8826,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 131604,f3e01d70,GitHub,6e2ed0e4,data/6e2ed0e4/src/f3e01d70.js,2119,2119,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 131607,3046a149,GitHub,6e2ed0e4,data/6e2ed0e4/src/3046a149.py,11,11,F,F,,,F,F,,,,,0.00,,F,F,F,Password
