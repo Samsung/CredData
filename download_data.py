@@ -310,7 +310,7 @@ def get_obfuscated_value(value, meta_row: MetaRow):
     elif ".firebaseio.com" in value:
         pos = value.index(".firebaseio.com")
         obfuscated_value = generate_value(value[:pos]) + ".firebaseio.com" + generate_value(value[pos + 15:])
-    elif ".firebaseapp.com"in value:
+    elif ".firebaseapp.com" in value:
         pos = value.index(".firebaseapp.com")
         obfuscated_value = generate_value(value[:pos]) + ".firebaseapp.com" + generate_value(value[pos + 16:])
     else:
@@ -321,6 +321,28 @@ def get_obfuscated_value(value, meta_row: MetaRow):
 
 def generate_value(value):
     obfuscated_value = ""
+
+    digits_set = string.digits
+    upper_set = string.ascii_uppercase
+    lower_set = string.ascii_lowercase
+
+    base_32 = True
+    hex_upper = True
+    hex_lower = True
+    for i in value:
+        if base_32 and i not in "ABCDEFGHIJKLMNOPQRSTUVWXYZ234567":
+            base_32 = False
+        if hex_upper and i not in "0123456789ABCDEF":
+            hex_upper = False
+        if hex_lower and i not in "0123456789abcdef":
+            hex_lower = False
+
+    if hex_lower:
+        lower_set = lower_set[:6]
+    elif base_32 and not hex_upper:
+        digits_set = digits_set[2:8]
+    elif hex_upper:
+        upper_set = upper_set[:6]
 
     backslash_case = False
     for v in value:
@@ -333,11 +355,11 @@ def generate_value(value):
             backslash_case = False
             continue
         if v in string.ascii_lowercase:
-            obfuscated_value += random.choice(string.ascii_lowercase)
+            obfuscated_value += random.choice(lower_set)
         elif v in string.ascii_uppercase:
-            obfuscated_value += random.choice(string.ascii_uppercase)
+            obfuscated_value += random.choice(upper_set)
         elif v in string.digits:
-            obfuscated_value += random.choice(string.digits)
+            obfuscated_value += random.choice(digits_set)
         else:
             obfuscated_value += v
         if '\\' != v:
