@@ -58,11 +58,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 26664,d4a2a492,GitHub,41659445,data/41659445/src/d4a2a492.ts,39,39,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 26665,d4a2a492,GitHub,41659445,data/41659445/src/d4a2a492.ts,29,29,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 27411,eb85e4f0,GitHub,41659445,data/41659445/test/eb85e4f0.ts,8,8,Template,T,9,19,F,F,CharsOnly,,,Secret,2.17,10,F,F,F,Secret
-28187,91fd135b,GitHub,41659445,data/41659445/src/91fd135b.ts,169,169,T,T,64,80,T,F,CharsOnly,,,Secret,3.38,16,F,F,F,Secret
+28187,91fd135b,GitHub,41659445,data/41659445/src/91fd135b.ts,169,169,T,T,64,80,T,F,CharsOnly,,,Secret,3.38,16,F,F,F,Jira 2FA:Secret
 31476,5398b006,GitHub,41659445,data/41659445/test/5398b006.js,131,131,F,T,41,46,F,F,Any,,,Token,1.52,5,F,F,F,Token
 32427,b2f74201,GitHub,41659445,data/41659445/test/b2f74201.ts,16,16,T,F,16,32,F,F,Any,,,Secret,3.00,16,F,F,F,Password:Secret
 32428,c7cb0c45,GitHub,41659445,data/41659445/test/c7cb0c45.js,8,8,T,F,16,55,F,F,Any,,,Secret,3.61,39,F,F,F,Secret
-32441,c7cb0c45,GitHub,41659445,data/41659445/test/c7cb0c45.js,18,18,T,F,16,32,F,F,Any,,,Secret,3.45,16,F,F,F,Secret
+32441,c7cb0c45,GitHub,41659445,data/41659445/test/c7cb0c45.js,18,18,T,F,16,32,F,F,Any,,,Secret,3.45,16,F,F,F,Jira 2FA:Secret
 32442,b3356305,GitHub,41659445,data/41659445/other/b3356305.md,94,94,T,F,16,48,F,F,CharsOnly,,,Secret,4.05,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Secret
 33951,b3356305,GitHub,41659445,data/41659445/other/b3356305.md,447,447,T,F,21,53,F,F,CharsOnly,,,Secret,4.05,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Secret
 34868,bf2cd4b4,GitHub,41659445,data/41659445/test/bf2cd4b4.ts,8,8,F,F,8,14,F,F,,,,,0,0,F,F,F,Token
@@ -74,7 +74,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 34874,faf09b36,GitHub,41659445,data/41659445/test/faf09b36.ts,78,78,F,F,8,16,F,F,,,,,0,0,F,F,F,Token
 34875,faf09b36,GitHub,41659445,data/41659445/test/faf09b36.ts,174,174,F,F,8,16,F,F,,,,,0,0,F,F,F,Token
 34876,5398b006,GitHub,41659445,data/41659445/test/5398b006.js,207,207,F,F,8,14,F,F,,,,,0,0,F,F,F,Token
-34877,5398b006,GitHub,41659445,data/41659445/test/5398b006.js,212,212,F,F,8,14,F,F,,,,,0,0,F,F,F,Token
+34877,5398b006,GitHub,41659445,data/41659445/test/5398b006.js,212,212,T,F,8,14,F,F,,,,,0,0,F,F,F,Token
 34879,5398b006,GitHub,41659445,data/41659445/test/5398b006.js,202,202,F,F,8,14,F,F,,,,,0,0,F,F,F,Token
 34881,18278ad7,GitHub,41659445,data/41659445/test/18278ad7.ts,39,39,F,F,8,14,F,F,,,,,0,0,F,F,F,Token
 34882,faf09b36,GitHub,41659445,data/41659445/test/faf09b36.ts,162,162,F,F,8,16,F,F,,,,,0,0,F,F,F,Token

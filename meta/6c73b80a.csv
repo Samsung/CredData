@@ -138,7 +138,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 29110,91de30fa,GitHub,6c73b80a,data/6c73b80a/test/91de30fa.go,113,113,Template,F,25,28,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
 29123,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1283,1283,Template,F,52,55,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
 29128,f1bada03,GitHub,6c73b80a,data/6c73b80a/test/f1bada03.go,3658,3658,Template,F,49,52,T,F,CharsOnly,,,Secret,1.58,3,F,F,F,URL Credentials
-29135,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,520,520,F,F,8,64,F,F,Any,,,Unknown,4.55,56,F,F,F,Key
+29135,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,520,520,T,F,8,64,F,F,Any,,,Unknown,4.55,56,F,F,F,Key
 29137,7f0ec905,GitHub,6c73b80a,data/6c73b80a/src/7f0ec905.conf,36,36,F,F,8,64,F,F,Any,,,Unknown,4.54,56,F,F,F,Key
 29138,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,545,545,F,F,8,64,F,F,Any,,,Unknown,4.67,56,F,F,F,Key
 29153,91de30fa,GitHub,6c73b80a,data/6c73b80a/test/91de30fa.go,28,28,Template,F,11,14,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
@@ -393,7 +393,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 36145,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3112,3112,Template,T,21,30,F,F,CharsOnly,,,Token,2.64,9,F,F,F,Token
 36150,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1293,1293,F,F,,,F,F,,,,,0,0,F,F,F,Password
 36153,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,1287,1287,T,T,6,12,F,F,CharsOnly,,,Unknown,2.58,6,F,F,F,Password
-36157,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1016,1016,F,F,9,65,F,F,Any,,,Unknown,4.59,56,F,F,F,Key
+36157,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1016,1016,T,F,9,65,F,F,Any,,,Unknown,4.59,56,F,F,F,Key
 36163,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,270,270,T,T,8,13,F,F,CharsOnly,,,Unknown,2.32,5,F,F,F,Password
 36284,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,611,611,T,F,20,76,F,F,Any,,,Unknown,4.52,56,F,F,F,Key
 36285,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,616,616,T,F,15,71,F,F,CharsOnly,,,Unknown,4.60,56,F,F,F,Secret:Key
@@ -658,8 +658,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 82100,69abb428,GitHub,6c73b80a,data/6c73b80a/test/69abb428.go,8971,8971,F,F,30,36,F,F,,,,,0,0,F,F,F,Password
 82101,69abb428,GitHub,6c73b80a,data/6c73b80a/test/69abb428.go,8975,8975,F,F,30,36,F,F,,,,,0,0,F,F,F,Password
 82102,69abb428,GitHub,6c73b80a,data/6c73b80a/test/69abb428.go,10651,10651,F,F,30,36,F,F,,,,,0,0,F,F,F,Password
-82103,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,587,587,F,F,8,64,F,F,Any,,,Unknown,4.55,56,F,F,F,Key
-82104,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,612,612,F,F,8,64,F,F,Any,,,Unknown,4.67,56,F,F,F,Key
+82103,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,587,587,T,F,8,64,F,F,Any,,,Unknown,4.55,56,F,F,F,Key
+82104,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,612,612,T,F,8,64,F,F,Any,,,Unknown,4.67,56,F,F,F,Key
 82105,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,1468,1468,F,F,68,73,F,F,,,,,0,0,F,F,F,Password
 82106,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,1530,1530,F,F,24,27,F,F,,,,,0,0,F,F,F,Password
 84010,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,345,345,T,F,25,31,F,F,Any,,,Secret,2.25,6,F,F,F,Password
@@ -705,15 +705,15 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 102710,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,343,343,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 102711,1eb6d192,GitHub,6c73b80a,data/6c73b80a/test/1eb6d192.go,110,110,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 102712,1eb6d192,GitHub,6c73b80a,data/6c73b80a/test/1eb6d192.go,124,124,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-102713,1eb6d192,GitHub,6c73b80a,data/6c73b80a/test/1eb6d192.go,211,211,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
-102714,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,879,879,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
-102715,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,880,880,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
-102716,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,995,995,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
-102717,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,996,996,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
-102718,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1015,1015,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
-102719,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1089,1089,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
-102720,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1134,1134,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
-102721,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1150,1150,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
+102713,1eb6d192,GitHub,6c73b80a,data/6c73b80a/test/1eb6d192.go,211,211,T,F,8,64,F,F,,,,,0.00,,F,F,F,Key
+102714,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,879,879,T,F,8,64,F,F,,,,,0.00,,F,F,F,Key
+102715,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,880,880,T,F,8,64,F,F,,,,,0.00,,F,F,F,Key
+102716,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,995,995,T,F,9,65,F,F,,,,,0.00,,F,F,F,Key
+102717,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,996,996,T,F,9,65,F,F,,,,,0.00,,F,F,F,Key
+102718,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1015,1015,T,F,9,65,F,F,,,,,0.00,,F,F,F,Key
+102719,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1089,1089,T,F,8,64,F,F,,,,,0.00,,F,F,F,Key
+102720,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1134,1134,F,F,,,F,F,,,,,0.00,,F,F,F,Key
+102721,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1150,1150,T,F,8,64,F,F,,,,,0.00,,F,F,F,Key
 102722,d59cf806,GitHub,6c73b80a,data/6c73b80a/test/d59cf806.go,306,306,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 102723,d59cf806,GitHub,6c73b80a,data/6c73b80a/test/d59cf806.go,307,307,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 102724,d59cf806,GitHub,6c73b80a,data/6c73b80a/test/d59cf806.go,311,311,F,F,,,F,F,,,,,0.00,,F,F,F,Password
@@ -737,8 +737,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 102744,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,678,678,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
 102745,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,713,713,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 102746,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,717,717,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-102747,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1586,1586,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
-102748,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1588,1588,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
+102747,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1586,1586,T,F,79,135,F,F,,,,,0.00,,F,F,F,Key
+102748,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1588,1588,T,F,79,135,F,F,,,,,0.00,,F,F,F,Key
 113782,083a78c6,GitHub,6c73b80a,data/6c73b80a/other/083a78c6.md,49,49,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 113783,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1390,1390,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 113784,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1421,1421,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
