@@ -81,7 +81,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 11040,7eb207d4,GitHub,28728ab4,data/28728ab4/test/7eb207d4.go,20,20,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
 12397,18282143,GitHub,28728ab4,data/28728ab4/other/18282143.md,65,65,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 13141,56575ef0,GitHub,28728ab4,data/28728ab4/test/56575ef0.go,417,417,T,F,22,36,F,F,,,,,0,0,F,F,F,Password
-137298,56575ef0,GitHub,28728ab4,data/28728ab4/test/56575ef0.go,417,417,T,F,138,156,F,F,,,,,0.0,0,F,F,F,Auth
+137298,56575ef0,GitHub,28728ab4,data/28728ab4/test/56575ef0.go,417,417,T,F,138,149,F,F,,,,,0.0,0,F,F,F,Auth
 13600,b13659e2,GitHub,28728ab4,data/28728ab4/src/b13659e2.go,93,93,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 13601,b13659e2,GitHub,28728ab4,data/28728ab4/src/b13659e2.go,113,113,F,F,,,F,F,,,,,0,0,F,F,F,Token
 13960,dbebddd3,GitHub,28728ab4,data/28728ab4/src/dbebddd3.go,35,35,F,F,,,F,F,,,,,0,0,F,F,F,API
@@ -166,12 +166,12 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 29061,f0b5d46b,GitHub,28728ab4,data/28728ab4/src/f0b5d46b.toml,17,17,Template,T,27,40,F,F,Any,,,Secret,2.90,13,F,F,F,Password
 29121,1749c62f,GitHub,28728ab4,data/28728ab4/src/1749c62f.toml,14,14,Template,F,17,24,F,F,Any,,,Key,2.41,7,F,F,F,API:Key
 29122,3ec8668b,GitHub,28728ab4,data/28728ab4/src/3ec8668b.toml,22,22,Template,T,23,50,F,F,Any,,,Secret,3.61,27,F,F,F,Key:Secret
-29133,81d18044,GitHub,28728ab4,data/28728ab4/test/81d18044.go,209,209,T,T,30,45,F,F,Any,,,Key,3.89,55,F,F,F,Dropbox App secret
-29136,81d18044,GitHub,28728ab4,data/28728ab4/test/81d18044.go,119,119,T,T,27,42,F,F,Any,,,Key,3.78,55,F,F,F,Dropbox App secret
+29133,81d18044,GitHub,28728ab4,data/28728ab4/test/81d18044.go,209,209,T,T,30,45,F,F,Any,,,Key,3.89,55,F,F,F,API:Dropbox App secret:Key
+29136,81d18044,GitHub,28728ab4,data/28728ab4/test/81d18044.go,119,119,T,T,27,42,F,F,Any,,,Key,3.78,55,F,F,F,API:Dropbox App secret:Key
 29146,81d18044,GitHub,28728ab4,data/28728ab4/test/81d18044.go,130,130,Template,T,27,42,F,F,Any,,,Key,3.80,55,F,F,F,Secret
 29152,87277328,GitHub,28728ab4,data/28728ab4/test/87277328.go,85,85,Template,F,11,13,F,F,CharsOnly,,,Secret,1.00,2,F,F,F,Password
 29193,2d352228,GitHub,28728ab4,data/28728ab4/src/2d352228.toml,15,15,Template,T,26,40,F,F,Any,,,Secret,2.92,14,F,F,F,API:Key:Secret
-29227,81d18044,GitHub,28728ab4,data/28728ab4/test/81d18044.go,160,160,T,T,44,59,F,F,Any,,,Key,3.57,130,F,F,F,Dropbox App secret
+29227,81d18044,GitHub,28728ab4,data/28728ab4/test/81d18044.go,160,160,T,T,44,59,F,F,Any,,,Key,3.57,130,F,F,F,API:Dropbox App secret:Key
 29247,29233561,GitHub,28728ab4,data/28728ab4/src/29233561.toml,16,16,Template,F,21,28,F,F,Any,,,Key,2.41,7,F,F,F,API:Key
 29361,ea0c5d0c,GitHub,28728ab4,data/28728ab4/src/ea0c5d0c.toml,14,14,Template,T,23,35,F,F,Any,,,Key,2.82,12,F,F,F,API:Key
 29378,25792cd4,GitHub,28728ab4,data/28728ab4/src/25792cd4.toml,12,12,Template,T,25,35,F,F,Any,,,Secret,2.79,10,F,F,F,Secret
