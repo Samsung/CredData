@@ -26,7 +26,7 @@ class LineStatus(Enum):
 
 
 class URL:
-    CREDSWEEPER = "dummy://github.com/Samsung/CredSweeper.git"
+    CREDSWEEPER = "https://github.com/Samsung/CredSweeper.git"
     DETECT_SECRETS = "detect_secrets"
     GITLEAKS = "gitleaks"
     SHHGIT = "shhgit"
