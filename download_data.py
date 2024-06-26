@@ -346,7 +346,8 @@ def generate_value(value):
 
     backslash_case = False
     for v in value:
-        if '\\' == v:
+        # \u....  and %2.... will be kept
+        if '\\' == v or '%' == v:
             backslash_case = True
             obfuscated_value += v
             continue
@@ -362,7 +363,7 @@ def generate_value(value):
             obfuscated_value += random.choice(digits_set)
         else:
             obfuscated_value += v
-        if '\\' != v:
+        if '\\' != v or '%' == v:
             backslash_case = False
 
     return obfuscated_value
