@@ -344,17 +344,22 @@ def generate_value(value):
     elif hex_upper:
         upper_set = upper_set[:6]
 
-    backslash_case = False
+    backslash_case = 0
     for v in value:
-        # \u....  and %2.... will be kept
-        if '\\' == v or '%' == v:
-            backslash_case = True
+        if '%' == v:
+            backslash_case = 2
             obfuscated_value += v
             continue
-        if backslash_case:
+        if '\\' == v:
+            backslash_case = 1
             obfuscated_value += v
-            backslash_case = False
             continue
+        if 0 < backslash_case:
+            obfuscated_value += v
+            backslash_case -= 1
+            continue
+        else:
+            backslash_case = 0
         if v in string.ascii_lowercase:
             obfuscated_value += random.choice(lower_set)
         elif v in string.ascii_uppercase:
@@ -363,8 +368,6 @@ def generate_value(value):
             obfuscated_value += random.choice(digits_set)
         else:
             obfuscated_value += v
-        if '\\' != v or '%' == v:
-            backslash_case = False
 
     return obfuscated_value
 
