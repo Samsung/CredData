@@ -8,8 +8,8 @@ from benchmark.scanner.scanner import Scanner
 
 
 class Shhgit(Scanner):
-    def __init__(self, working_dir: str, cred_data_dir: str) -> None:
-        super().__init__(ScannerType.SHHGIT, URL.SHHGIT, working_dir, cred_data_dir)
+    def __init__(self, working_dir: str, cred_data_dir: str, preload: bool) -> None:
+        super().__init__(ScannerType.SHHGIT, URL.SHHGIT, working_dir, cred_data_dir, preload)
         self.output_dir = f"{self.scanner_dir}/output.csv"
 
     @property

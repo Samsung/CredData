@@ -37,7 +37,7 @@ class Benchmark:
 
     def run(self, scanner_type: str, output: Optional[str] = None) -> None:
         if _scanner_type := getattr(ScannerType, scanner_type.strip().upper(), None):
-            scanner = ScannerFactory.create_scanner(_scanner_type, self.working_dir, self.cred_data_path)
+            scanner = ScannerFactory.create_scanner(_scanner_type, self.working_dir, self.cred_data_path, bool(output))
         else:
             raise RuntimeError(f"Wrong scanner_type='{scanner_type}'")
         if output:
