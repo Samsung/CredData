@@ -54,6 +54,8 @@ class MetaRow:
                 else:
                     raise RuntimeError(f"ERROR: Unsupported {typ}")
                 self.__setattr__(key, val)
+            else:
+                raise RuntimeError(f"ERROR: Unknown {key}")
         if not self.Category:
             raise RuntimeError(f"ERROR: Category must be set {row}")
         if ':' in self.Category:
