@@ -32,7 +32,7 @@ class MetaRow:
     Category: str
 
     def __init__(self, row: dict):
-        if not isinstance(row, dict):
+        if not isinstance(row, dict) or self.__annotations__.keys() != row.keys():
             raise RuntimeError(f"ERROR: wrong row {row}")
         for key, typ in self.__annotations__.items():
             if key.startswith("__"):
@@ -54,8 +54,6 @@ class MetaRow:
                 else:
                     raise RuntimeError(f"ERROR: Unsupported {typ}")
                 self.__setattr__(key, val)
-            else:
-                raise RuntimeError(f"ERROR: Unknown {key}")
         if not self.Category:
             raise RuntimeError(f"ERROR: Category must be set {row}")
         if ':' in self.Category:
