@@ -296,6 +296,8 @@ def get_obfuscated_value(value, meta_row: MetaRow):
         obfuscated_value = value[:7] + generate_value(value[7:])
     elif value.startswith("phpass:"):
         obfuscated_value = value[:7] + generate_value(value[7:])
+    elif value.startswith("hexpass:"):
+        obfuscated_value = value[:8] + generate_value(value[8:])
     elif value.startswith("SWMTKN-1-"):
         obfuscated_value = value[:9] + generate_value(value[9:])
     elif value.startswith("hooks.slack.com/services/"):
