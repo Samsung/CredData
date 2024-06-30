@@ -13,6 +13,7 @@ import os
 import subprocess
 import sys
 from argparse import ArgumentParser
+from functools import cache
 from typing import List, Optional, Tuple, Dict
 
 from colorama import Fore, Back, Style
@@ -24,9 +25,14 @@ EXIT_SUCCESS = 0
 EXIT_FAILURE = 1
 
 
-def read_data(path, line_start, line_end, value_start, value_end, ground_truth, creds: List[MetaCred]):
+@cache
+def read_cache(path) -> list[str]:
     with open(path, "r", encoding="utf8") as f:
-        lines = f.read().split('\n')
+        return f.read().split('\n')
+
+
+def read_data(path, line_start, line_end, value_start, value_end, ground_truth, creds: List[MetaCred]):
+    lines = read_cache(path)
     if line_start == line_end:
         cred_line = lines[line_start - 1]
         stripped_line = cred_line.strip()
@@ -138,9 +144,14 @@ def main(meta_dir: str,
             except Exception as exc:
                 print(f"Failure {row}", exc, flush=True)
                 errors += 1
-        if 'T' == row.GroundTruth and 0 > row.ValueStart and row.LineStart == row.LineEnd:
-            print(f"Missed ValueStart for TRUE markup!\n{row}", flush=True)
-            errors += 1
+        if 'T' == row.GroundTruth and row.LineStart == row.LineEnd:
+            if 0 > row.ValueStart:
+                print(f"Missed ValueStart for TRUE markup!\n{row}", flush=True)
+                errors += 1
+            elif 0 < row.ValueEnd and 4 > row.ValueEnd - row.ValueStart:
+                print(f"Too short value for TRUE markup!\n{row}", flush=True)
+                errors += 1
+
         markup_key = (row.FilePath, row.LineStart, row.LineEnd, row.ValueStart, row.ValueEnd)
         if markup_key in shown_markup:
             print(f"Duplicate markup!\nSHOWN:{shown_markup[markup_key]}\nTHIS:{row}", flush=True)
