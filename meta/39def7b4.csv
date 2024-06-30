@@ -128,11 +128,14 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 8971,fe313ddd,GitHub,39def7b4,data/39def7b4/src/fe313ddd.rb,18,18,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 8972,b5f11327,GitHub,39def7b4,data/39def7b4/src/b5f11327.rb,8,8,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 10958,b5ca0850,GitHub,39def7b4,data/39def7b4/src/b5ca0850.rb,89,89,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Credential
+17247,d97e408a,GitHub,39def7b4,data/39def7b4/src/d97e408a.rb,91,91,T,F,26,87,F,F,,,,,0,0,F,F,F,Credential
+1338229,d97e408a,GitHub,39def7b4,data/39def7b4/src/d97e408a.rb,91,91,T,F,26,46,F,F,,,,,0.0,0,F,F,F,AWS Client ID
+1238230,d97e408a,GitHub,39def7b4,data/39def7b4/src/d97e408a.rb,91,94,T,F,,,F,F,,,,,0.0,0,F,F,F,AWS Multi
 11037,d97e408a,GitHub,39def7b4,data/39def7b4/src/d97e408a.rb,94,94,T,F,28,89,F,F,,,,,0,0,F,F,F,Credential
+1238231,d97e408a,GitHub,39def7b4,data/39def7b4/src/d97e408a.rb,94,94,T,F,28,48,F,F,,,,,0.0,0,F,F,F,AWS Client ID
 12188,e84ecee2,GitHub,39def7b4,data/39def7b4/src/e84ecee2.rb,45,45,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 14554,2010d338,GitHub,39def7b4,data/39def7b4/src/2010d338.rb,380,380,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 17245,589b1acf,GitHub,39def7b4,data/39def7b4/src/589b1acf.rb,104,104,F,F,,,F,F,,,,,0,0,F,F,F,Password
-17247,d97e408a,GitHub,39def7b4,data/39def7b4/src/d97e408a.rb,91,91,T,F,26,87,F,F,,,,,0,0,F,F,F,Credential
 17353,39d9ae6e,GitHub,39def7b4,data/39def7b4/src/39d9ae6e.rb,91,91,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 17385,822745c5,GitHub,39def7b4,data/39def7b4/src/822745c5.rb,18,18,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 17386,822745c5,GitHub,39def7b4,data/39def7b4/src/822745c5.rb,58,58,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -464,7 +467,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 42649,52694a75,GitHub,39def7b4,data/39def7b4/src/52694a75.rb,46,46,T,F,15,33,F,F,Any,,,Secret,3.95,18,F,F,F,Bitbucket Client ID:Credential
 42650,52694a75,GitHub,39def7b4,data/39def7b4/src/52694a75.rb,52,52,T,F,15,33,F,F,Any,,,Secret,3.95,18,F,F,F,Bitbucket Client ID:Credential
 42652,d97e408a,GitHub,39def7b4,data/39def7b4/src/d97e408a.rb,119,119,T,T,26,46,F,F,Any,,AWS Client ID,Secret,3.68,20,F,F,F,AWS Client ID:Gitlab Feed Token
-1238213,d97e408a,GitHub,39def7b4,data/39def7b4/src/d97e408a.rb,119,119,T,F,26,87,F,F,,,,,0.0,0,F,F,F,AWS Multi
+1238213,d97e408a,GitHub,39def7b4,data/39def7b4/src/d97e408a.rb,119,119,T,F,26,87,F,F,,,,,0.0,0,F,F,F,AWS Multi:Credential
 42659,f149a41a,GitHub,39def7b4,data/39def7b4/src/f149a41a.rb,127,127,T,F,19,53,F,F,CharsOnly,,,Secret,0.38,34,F,F,F,Credential
 42661,1f4966ff,GitHub,39def7b4,data/39def7b4/src/1f4966ff.rb,33,33,F,F,,,F,F,,,,,0,0,F,F,F,API
 42662,1f4966ff,GitHub,39def7b4,data/39def7b4/src/1f4966ff.rb,86,86,F,F,,,F,F,,,,,0,0,F,F,F,API
@@ -1602,4 +1605,3 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 131997,7c3ffd88,GitHub,39def7b4,data/39def7b4/src/7c3ffd88.rb,63,63,T,F,15,27,F,F,,,Info,,0.00,,F,F,F,IPv4
 131998,7c3ffd88,GitHub,39def7b4,data/39def7b4/src/7c3ffd88.rb,133,133,T,F,15,27,F,F,,,Info,,0.00,,F,F,F,IPv4
 131999,d56bb3ab,GitHub,39def7b4,data/39def7b4/src/d56bb3ab.rb,58,58,T,F,7,20,F,F,,,Info,,0.00,,F,F,F,IPv4
-1042652,d97e408a,GitHub,39def7b4,data/39def7b4/src/d97e408a.rb,119,119,T,F,26,87,F,F,Any,,,,3.68,20,F,F,F,Credential

@@ -192,5 +192,8 @@ if __name__ == "__main__":
     exit_code = main(_args.meta_dir, _args.data_dir, bool(_args.check_only), _data_filter, _args.load, _args.category)
     sys.exit(exit_code)
 
+# review generation command
+# .venv/bin/python review_data.py meta data >review.$(now).$(git rev-parse HEAD).txt
+
 # use review with 'less'
 # python review_data.py | less -R
