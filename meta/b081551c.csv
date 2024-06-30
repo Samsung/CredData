@@ -35,7 +35,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 27791,939bdae4,GitHub,b081551c,data/b081551c/test/939bdae4.py,894,894,Template,T,13,46,F,F,Any,,,Secret,3.36,33,F,F,F,Password:Secret
 28500,939bdae4,GitHub,b081551c,data/b081551c/test/939bdae4.py,198,198,T,T,10,25,F,F,CharsOnly,,,Secret,3.19,15,F,F,F,Dropbox App secret:Password
 28713,50935cdd,GitHub,b081551c,data/b081551c/src/50935cdd.py,1775,1775,Template,T,18,26,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-28723,89572d6c,GitHub,b081551c,data/b081551c/src/89572d6c.py,459,459,Template,T,18,22,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,URL Credentials
+28723,89572d6c,GitHub,b081551c,data/b081551c/src/89572d6c.py,459,459,F,F,,,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password:URL Credentials
 31074,939bdae4,GitHub,b081551c,data/b081551c/test/939bdae4.py,521,521,Template,F,13,16,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
 31076,939bdae4,GitHub,b081551c,data/b081551c/test/939bdae4.py,393,393,Template,F,13,19,F,F,NumbersOnly,,,Secret,1.58,6,F,F,F,Password
 34539,53fca3db,GitHub,b081551c,data/b081551c/test/53fca3db.py,359,359,T,T,10,22,F,F,CharsOnly,,,Secret,2.86,12,F,F,F,Password
@@ -63,7 +63,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 37720,939bdae4,GitHub,b081551c,data/b081551c/test/939bdae4.py,383,383,Template,T,15,20,F,F,CharsOnly,,,Secret,1.92,5,F,F,F,Password
 37721,939bdae4,GitHub,b081551c,data/b081551c/test/939bdae4.py,404,404,Template,T,15,20,F,F,CharsOnly,,,Secret,1.92,5,F,F,F,Password
 37722,939bdae4,GitHub,b081551c,data/b081551c/test/939bdae4.py,432,432,Template,T,15,20,F,F,CharsOnly,,,Secret,1.92,5,F,F,F,Password
-41714,89572d6c,GitHub,b081551c,data/b081551c/src/89572d6c.py,857,857,Template,T,18,22,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,URL Credentials
+41714,89572d6c,GitHub,b081551c,data/b081551c/src/89572d6c.py,857,857,F,T,,,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password:URL Credentials
 42961,c5b786f0,GitHub,b081551c,data/b081551c/src/c5b786f0.pyx,166,166,F,F,,,F,F,,,,,0,0,F,F,F,Password
 42962,c5b786f0,GitHub,b081551c,data/b081551c/src/c5b786f0.pyx,171,171,F,F,,,F,F,,,,,0,0,F,F,F,Password
 46729,939bdae4,GitHub,b081551c,data/b081551c/test/939bdae4.py,442,442,Template,F,13,19,F,F,NumbersOnly,,,Secret,1.58,6,F,F,F,Password
