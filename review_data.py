@@ -151,6 +151,16 @@ def main(meta_dir: str,
             elif 0 < row.ValueEnd and 4 > row.ValueEnd - row.ValueStart:
                 print(f"Too short value for TRUE markup!\n{row}", flush=True)
                 errors += 1
+            elif 0 < row.ValueEnd and "Password" in row.Category and 31 < row.ValueEnd - row.ValueStart:
+                print(f"Too long for Password TRUE markup!\n{row}", flush=True)
+                errors += 1
+
+        if row.FileID not in row.FilePath:
+            print(f"FileID error!\n{row}", flush=True)
+            errors += 1
+        if row.RepoName not in row.FilePath:
+            print(f"RepoName error!\n{row}", flush=True)
+            errors += 1
 
         markup_key = (row.FilePath, row.LineStart, row.LineEnd, row.ValueStart, row.ValueEnd)
         if markup_key in shown_markup:
