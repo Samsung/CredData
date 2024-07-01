@@ -8,8 +8,8 @@ from benchmark.scanner.scanner import Scanner
 
 class CredentialDigger(Scanner):
 
-    def __init__(self, working_dir: str, cred_data_dir: str) -> None:
-        super().__init__(ScannerType.CREDENTIAL_DIGGER, URL.CREDENTIAL_DIGGER, working_dir, cred_data_dir)
+    def __init__(self, working_dir: str, cred_data_dir: str, preload: bool) -> None:
+        super().__init__(ScannerType.CREDENTIAL_DIGGER, URL.CREDENTIAL_DIGGER, working_dir, cred_data_dir, preload)
         self.output_dir: str = f"{self.scanner_dir}/output.db"
         self.working_dir: str = working_dir
 

@@ -61,7 +61,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 31385,a3046da0,GitHub,c2d95db7,data/c2d95db7/test/a3046da0.example,579,579,Template,T,24,38,F,F,Any,,,Token,2.51,14,F,F,F,Token
 31388,a3046da0,GitHub,c2d95db7,data/c2d95db7/test/a3046da0.example,577,577,Template,T,24,38,F,F,Any,,,Token,2.56,14,F,F,F,Token
 31416,a3046da0,GitHub,c2d95db7,data/c2d95db7/test/a3046da0.example,446,446,Template,T,27,41,F,F,Any,,,Unknown,2.91,14,F,F,F,Key
-32465,a3046da0,GitHub,c2d95db7,data/c2d95db7/test/a3046da0.example,565,565,T,F,24,88,F,F,Any,,,Secret,3.81,64,F,F,F,Bitbucket Client Secret:Password
+32465,a3046da0,GitHub,c2d95db7,data/c2d95db7/test/a3046da0.example,565,565,Template,F,24,88,F,F,Any,,,Secret,3.81,64,F,F,F,Bitbucket Client Secret:Password
 32471,a3046da0,GitHub,c2d95db7,data/c2d95db7/test/a3046da0.example,731,731,T,T,21,29,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
 32544,a3046da0,GitHub,c2d95db7,data/c2d95db7/test/a3046da0.example,747,747,T,T,29,48,F,F,Any,,,Secret,3.71,19,F,F,F,Password
 32657,a3046da0,GitHub,c2d95db7,data/c2d95db7/test/a3046da0.example,553,553,T,T,29,48,F,F,Any,,,Secret,3.25,19,F,F,F,Password
@@ -122,7 +122,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 51057,4e77194c,GitHub,c2d95db7,data/c2d95db7/src/4e77194c.ppk,41,41,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 51058,4e77194c,GitHub,c2d95db7,data/c2d95db7/src/4e77194c.ppk,6,6,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 51060,4e77194c,GitHub,c2d95db7,data/c2d95db7/src/4e77194c.ppk,30,30,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-58193,7ccdfb29,GitHub,c2d95db7,data/c2d95db7/other/7ccdfb29.md,1354,1354,T,F,24,88,F,F,Any,,,Secret,3.81,64,F,F,F,Bitbucket Client Secret:Password
+58193,7ccdfb29,GitHub,c2d95db7,data/c2d95db7/other/7ccdfb29.md,1354,1354,Template,F,24,88,F,F,Any,,,Secret,3.81,64,F,F,F,Bitbucket Client Secret:Password
 100172,5139694b,GitHub,c2d95db7,data/c2d95db7/src/5139694b.py,96,96,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 100173,a3046da0,GitHub,c2d95db7,data/c2d95db7/test/a3046da0.example,697,697,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 100174,a3046da0,GitHub,c2d95db7,data/c2d95db7/test/a3046da0.example,651,651,F,F,,,F,F,,,,,0.00,,F,F,F,Password

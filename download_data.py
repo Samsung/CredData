@@ -296,6 +296,8 @@ def get_obfuscated_value(value, meta_row: MetaRow):
         obfuscated_value = value[:7] + generate_value(value[7:])
     elif value.startswith("phpass:"):
         obfuscated_value = value[:7] + generate_value(value[7:])
+    elif value.startswith("hexpass:"):
+        obfuscated_value = value[:8] + generate_value(value[8:])
     elif value.startswith("SWMTKN-1-"):
         obfuscated_value = value[:9] + generate_value(value[9:])
     elif value.startswith("hooks.slack.com/services/"):
@@ -344,16 +346,22 @@ def generate_value(value):
     elif hex_upper:
         upper_set = upper_set[:6]
 
-    backslash_case = False
+    backslash_case = 0
     for v in value:
+        if '%' == v:
+            backslash_case = 2
+            obfuscated_value += v
+            continue
         if '\\' == v:
-            backslash_case = True
+            backslash_case = 1
             obfuscated_value += v
             continue
-        if backslash_case:
+        if 0 < backslash_case:
             obfuscated_value += v
-            backslash_case = False
+            backslash_case -= 1
             continue
+        else:
+            backslash_case = 0
         if v in string.ascii_lowercase:
             obfuscated_value += random.choice(lower_set)
         elif v in string.ascii_uppercase:
@@ -362,8 +370,6 @@ def generate_value(value):
             obfuscated_value += random.choice(digits_set)
         else:
             obfuscated_value += v
-        if '\\' != v:
-            backslash_case = False
 
     return obfuscated_value
 

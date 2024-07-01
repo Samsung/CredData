@@ -12,8 +12,8 @@ class CredSweeper(Scanner):
                    LineStatus.NOT_IN_DB: 'N',
                    LineStatus.CHECKED: 'C'}
 
-    def __init__(self, working_dir: str, cred_data_dir: str) -> None:
-        super().__init__(ScannerType.CREDSWEEPER, URL.CREDSWEEPER, working_dir, cred_data_dir)
+    def __init__(self, working_dir: str, cred_data_dir: str, preload: bool) -> None:
+        super().__init__(ScannerType.CREDSWEEPER, URL.CREDSWEEPER, working_dir, cred_data_dir, preload)
         self.output_dir: str = f"{self.scanner_dir}/output.json"
 
     @property

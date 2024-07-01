@@ -51,11 +51,11 @@ jobs:
         if: steps.cache-data.outputs.cache-hit != 'true'
         run: sudo apt update && sudo apt install colorized-logs
 
-      - name: Set up Python 3.8
+      - name: Set up Python 3.10
         if: steps.cache-data.outputs.cache-hit != 'true'
         uses: actions/setup-python@v4
         with:
-          python-version: "3.8"
+          python-version: "3.10"
 
       - name: Produce review report from HEAD
         if: steps.cache-data.outputs.cache-hit != 'true'
@@ -121,11 +121,11 @@ jobs:
         if: steps.cache-data.outputs.cache-hit != 'true'
         run: sudo apt update && sudo apt install colorized-logs
 
-      - name: Set up Python 3.8
+      - name: Set up Python 3.10
         if: steps.cache-data.outputs.cache-hit != 'true'
         uses: actions/setup-python@v4
         with:
-          python-version: "3.8"
+          python-version: "3.10"
 
       - name: Produce review report from HEAD
         if: steps.cache-data.outputs.cache-hit != 'true'
@@ -164,7 +164,7 @@ jobs:
       - name: Get diff for review
         run: |
           # in case of difference - diff returns failure
-          if ! diff --color=auto review_base/review_base.txt review_head/review_head.txt &>review_diff.txt; then
+          if ! diff --unified=1 --color=auto review_base/review_base.txt review_head/review_head.txt &>review_diff.txt; then
             cat review_diff.txt | ansi2html --style 'pre {font-family: monospace; font-size: large}' >review_diff.html
           else
             touch review_diff.html
@@ -192,10 +192,10 @@ jobs:
         with:
           ref: ${{ github.event.pull_request.head.sha }}
 
-      - name: Set up Python 3.8
+      - name: Set up Python 3.10
         uses: actions/setup-python@v4
         with:
-          python-version: "3.8"
+          python-version: "3.10"
 
       - name: Report markup test
         run: |

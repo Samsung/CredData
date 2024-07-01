@@ -8,8 +8,8 @@ from benchmark.scanner.scanner import Scanner
 
 
 class Gitleaks(Scanner):
-    def __init__(self, working_dir, cred_data_dir):
-        super().__init__(ScannerType.GITLEAKS, URL.GITLEAKS, working_dir, cred_data_dir)
+    def __init__(self, working_dir, cred_data_dir, preload: bool):
+        super().__init__(ScannerType.GITLEAKS, URL.GITLEAKS, working_dir, cred_data_dir, preload)
         self.output_dir: str = f"{self.scanner_dir}/output.json"
 
     @property

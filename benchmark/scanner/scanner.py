@@ -13,9 +13,10 @@ from meta_row import _get_source_gen, MetaRow
 
 
 class Scanner(ABC):
-    def __init__(self, scanner_type: ScannerType, scanner_url: str, working_dir: str, cred_data_dir: str) -> None:
+    def __init__(self, scanner_type: ScannerType, scanner_url: str, working_dir: str, cred_data_dir: str,
+                 preload: bool) -> None:
         self.scanner_type = scanner_type
-        self.scanner_dir: str = GitService.set_scanner_up_to_date(working_dir, scanner_url)
+        self.scanner_dir: str = GitService.set_scanner_up_to_date(working_dir, scanner_url, preload)
         self.cred_data_dir: str = cred_data_dir
         self.line_checker: set = set()
         self.result_cnt: int = 0

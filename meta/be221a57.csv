@@ -16,7 +16,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 29478,2f3e8826,GitHub,be221a57,data/be221a57/src/2f3e8826.ts,1402,1402,Template,T,8,14,F,F,CharsOnly,,,Token,2.25,6,F,F,F,Token
 30863,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,2450,2450,F,F,44,192,F,F,,,,,0,0,F,F,F,Secret
 30865,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,2445,2445,F,F,44,200,F,F,,,,,0,0,F,F,F,Secret
-32400,d2b5e649,GitHub,be221a57,data/be221a57/test/d2b5e649.ts,6,6,Template,T,33,41,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
+32400,d2b5e649,GitHub,be221a57,data/be221a57/test/d2b5e649.ts,6,6,F,T,,,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials:Password
 32443,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,1846,1846,F,T,,,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password:URL Credentials
 34364,b241041a,GitHub,be221a57,data/be221a57/test/b241041a.ts,70,70,Template,T,11,25,F,F,Any,,,Secret,2.98,14,F,F,F,Password
 34375,9b99e511,GitHub,be221a57,data/be221a57/test/9b99e511.ts,337,337,Template,T,11,25,F,F,CharsOnly,,,Secret,3.09,14,F,F,F,Password
@@ -28,7 +28,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 34908,e73af842,GitHub,be221a57,data/be221a57/test/e73af842.ts,211,211,F,T,8,15,F,F,CharsOnly,,,Token,2.52,7,F,F,F,Token
 34924,86368c44,GitHub,be221a57,data/be221a57/test/86368c44.ts,685,685,F,T,8,15,F,F,CharsOnly,,,Token,2.52,7,F,F,F,Token
 35436,d2b5e649,GitHub,be221a57,data/be221a57/test/d2b5e649.ts,33,33,T,T,20,28,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-36692,d2b5e649,GitHub,be221a57,data/be221a57/test/d2b5e649.ts,25,25,Template,T,33,41,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
+36692,d2b5e649,GitHub,be221a57,data/be221a57/test/d2b5e649.ts,25,25,F,F,,,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials:Password
 37137,9b99e511,GitHub,be221a57,data/be221a57/test/9b99e511.ts,392,392,Template,T,11,25,F,F,CharsOnly,,,Secret,3.09,14,F,F,F,Password
 37239,b241041a,GitHub,be221a57,data/be221a57/test/b241041a.ts,54,54,F,T,,,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password:URL Credentials
 37240,b241041a,GitHub,be221a57,data/be221a57/test/b241041a.ts,66,66,F,T,,,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password:URL Credentials
@@ -73,3 +73,4 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 134358,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,1055,1055,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 134359,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,1063,1063,F,F,,,F,F,,,,,0,0,F,F,F,Certificate
 134360,e73af842,GitHub,be221a57,data/be221a57/test/e73af842.ts,196,196,F,F,,,F,F,,,,,0,0,F,F,F,Token
+1138243,9cb1bd0e,GitHub,be221a57,data/be221a57/test/9cb1bd0e.ts,452,452,T,F,22,38,F,F,,,,,0.0,0,F,F,F,Auth
