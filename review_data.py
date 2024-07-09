@@ -123,6 +123,7 @@ def main(meta_dir: str,
     meta = read_meta(meta_dir)
     meta.sort(key=lambda x: (x.FilePath, x.LineStart, x.LineEnd, x.ValueStart, x.ValueEnd))
     displayed_rows = 0
+    shown_single_line: Dict[Tuple[str, int], MetaRow] = {}
     shown_markup: Dict[Tuple[str, int, int, int, int], MetaRow] = {}
     for row in meta:
         if not data_filter[row.GroundTruth]:
@@ -162,12 +163,26 @@ def main(meta_dir: str,
             print(f"RepoName error!\n{row}", flush=True)
             errors += 1
 
+        # collects all lines without value positions - whole line
+        if row.LineStart == row.LineEnd and -1 == row.ValueStart == row.ValueEnd:
+            whole_line_key = (row.FilePath, row.LineStart)
+            if whole_line_key in shown_single_line:
+                print(f"Duplicate line markup!\nSHOWN:{shown_single_line[whole_line_key]}\nTHIS:{row}", flush=True)
+                duplicates += 1
+            else:
+                shown_single_line[whole_line_key] = row
+
         markup_key = (row.FilePath, row.LineStart, row.LineEnd, row.ValueStart, row.ValueEnd)
         if markup_key in shown_markup:
             print(f"Duplicate markup!\nSHOWN:{shown_markup[markup_key]}\nTHIS:{row}", flush=True)
             duplicates += 1
         else:
             shown_markup[markup_key] = row
+    for row in shown_markup.values():
+        if row.LineStart == row.LineEnd and 0 <= row.ValueStart and (row.FilePath, row.LineStart) in shown_single_line:
+            print(f"Duplicate!\nSHOWN:{shown_single_line[(row.FilePath, row.LineStart)]}\nTHIS:{row}", flush=True)
+            duplicates += 1
+
     result = EXIT_SUCCESS if 0 == duplicates == errors else EXIT_FAILURE
     print(f"Shown {displayed_rows} of {len(meta)}, errors: {errors}, duplicates: {duplicates}, {result}", flush=True)
     return result
