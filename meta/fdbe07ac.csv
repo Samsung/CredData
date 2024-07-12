@@ -1,6 +1,6 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
 481,2ad9e188,GitHub,fdbe07ac,data/fdbe07ac/other/2ad9e188,17,17,F,F,,,F,F,,,,,0,0,F,F,F,Password
-1095,9efd3e1c,GitHub,fdbe07ac,data/fdbe07ac/test/9efd3e1c.go,415,415,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+1095,9efd3e1c,GitHub,fdbe07ac,data/fdbe07ac/test/9efd3e1c.go,415,415,F,F,,,F,F,,,,,0,0,F,F,F,Key:Token
 1261,9ce83424,GitHub,fdbe07ac,data/fdbe07ac/src/9ce83424.go,191,191,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 2021,c5c63d8b,GitHub,fdbe07ac,data/fdbe07ac/src/c5c63d8b.go,173,173,F,F,,,F,F,,,,,0,0,F,F,F,Password
 2804,c5c63d8b,GitHub,fdbe07ac,data/fdbe07ac/src/c5c63d8b.go,290,290,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -12,8 +12,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 11966,35658be4,GitHub,fdbe07ac,data/fdbe07ac/test/35658be4.go,435,435,F,F,,,F,F,,,,,0,0,F,F,F,Password
 11967,35658be4,GitHub,fdbe07ac,data/fdbe07ac/test/35658be4.go,349,349,F,F,,,F,F,,,,,0,0,F,F,F,Password
 12067,d8a593d1,GitHub,fdbe07ac,data/fdbe07ac/test/d8a593d1.go,3036,3036,F,F,,,F,F,,,,,0,0,F,F,F,Password
-13943,a3fda3f7,GitHub,fdbe07ac,data/fdbe07ac/src/a3fda3f7.go,176,176,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-13944,a3fda3f7,GitHub,fdbe07ac,data/fdbe07ac/src/a3fda3f7.go,341,341,F,F,,,F,F,,,,,0,0,F,F,F,Certificate
+13943,a3fda3f7,GitHub,fdbe07ac,data/fdbe07ac/src/a3fda3f7.go,176,176,F,F,,,F,F,,,,,0,0,F,F,F,Key
+13944,a3fda3f7,GitHub,fdbe07ac,data/fdbe07ac/src/a3fda3f7.go,341,341,F,F,,,F,F,,,,,0,0,F,F,F,Key
 14233,43adee96,GitHub,fdbe07ac,data/fdbe07ac/test/43adee96.go,123,123,F,F,,,F,F,,,,,0,0,F,F,F,Password
 16842,84760b8a,GitHub,fdbe07ac,data/fdbe07ac/test/84760b8a.go,52,52,F,F,,,F,F,,,,,0,0,F,F,F,Password
 16843,2b6903fb,GitHub,fdbe07ac,data/fdbe07ac/test/2b6903fb.go,52,52,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -31,7 +31,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 24798,932a4f07,GitHub,fdbe07ac,data/fdbe07ac/src/932a4f07.go,136,136,F,F,,,F,F,,,,,0,0,F,F,F,Password
 24799,f15d80cd,GitHub,fdbe07ac,data/fdbe07ac/src/f15d80cd.go,68,68,F,F,,,F,F,,,,,0,0,F,F,F,Password
 24800,f15d80cd,GitHub,fdbe07ac,data/fdbe07ac/src/f15d80cd.go,69,69,F,F,,,F,F,,,,,0,0,F,F,F,Password
-24814,932a4f07,GitHub,fdbe07ac,data/fdbe07ac/src/932a4f07.go,703,703,F,F,,,F,F,,,,,0,0,F,F,F,Password
+24814,932a4f07,GitHub,fdbe07ac,data/fdbe07ac/src/932a4f07.go,703,703,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 25487,f85da004,GitHub,fdbe07ac,data/fdbe07ac/test/f85da004.go,110,110,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 26990,495db90c,GitHub,fdbe07ac,data/fdbe07ac/src/495db90c.go,49,49,F,F,,,F,F,,,,,0,0,F,F,F,Password
 27004,ae821d17,GitHub,fdbe07ac,data/fdbe07ac/src/ae821d17.go,46,46,F,F,,,F,F,,,,,0,0,F,F,F,Password

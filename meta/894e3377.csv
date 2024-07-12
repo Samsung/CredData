@@ -4,8 +4,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 2679,07b1ba56,GitHub,894e3377,data/894e3377/src/07b1ba56.php,85,85,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 3763,dc238167,GitHub,894e3377,data/894e3377/test/dc238167.php,185,185,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 3764,3b2f056f,GitHub,894e3377,data/894e3377/src/3b2f056f.php,1230,1230,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-3765,313f18f6,GitHub,894e3377,data/894e3377/src/313f18f6.php,130,130,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-3766,40a8ca9e,GitHub,894e3377,data/894e3377/test/40a8ca9e.php,454,454,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+3765,313f18f6,GitHub,894e3377,data/894e3377/src/313f18f6.php,130,130,F,F,,,F,F,,,,,0,0,F,F,F,Key
+3766,40a8ca9e,GitHub,894e3377,data/894e3377/test/40a8ca9e.php,454,454,F,F,,,F,F,,,,,0,0,F,F,F,Key
 3767,3099cfcc,GitHub,894e3377,data/894e3377/src/3099cfcc.php,81,81,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 3768,dc238167,GitHub,894e3377,data/894e3377/test/dc238167.php,111,111,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 3769,dc238167,GitHub,894e3377,data/894e3377/test/dc238167.php,15,15,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -20,14 +20,14 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 3836,5812f623,GitHub,894e3377,data/894e3377/src/5812f623.php,245,245,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 3837,041d1481,GitHub,894e3377,data/894e3377/src/041d1481.php,130,130,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 3838,041d1481,GitHub,894e3377,data/894e3377/src/041d1481.php,99,99,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-3839,3099cfcc,GitHub,894e3377,data/894e3377/src/3099cfcc.php,228,228,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-3840,313f18f6,GitHub,894e3377,data/894e3377/src/313f18f6.php,206,206,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-3940,5b508048,GitHub,894e3377,data/894e3377/src/5b508048.php,27,27,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+3839,3099cfcc,GitHub,894e3377,data/894e3377/src/3099cfcc.php,228,228,F,F,,,F,F,,,,,0,0,F,F,F,Key
+3840,313f18f6,GitHub,894e3377,data/894e3377/src/313f18f6.php,206,206,F,F,,,F,F,,,,,0,0,F,F,F,Key
+3940,5b508048,GitHub,894e3377,data/894e3377/src/5b508048.php,27,27,F,F,,,F,F,,,,,0,0,F,F,F,Key
 4340,9cbcc19e,GitHub,894e3377,data/894e3377/src/9cbcc19e.php,609,609,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 4341,3099cfcc,GitHub,894e3377,data/894e3377/src/3099cfcc.php,230,230,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 13400,a431c748,GitHub,894e3377,data/894e3377/src/a431c748.php,927,927,F,F,,,F,F,,,,,0,0,F,F,F,Password
 14740,9cbcc19e,GitHub,894e3377,data/894e3377/src/9cbcc19e.php,515,515,F,F,,,F,F,,,,,0,0,F,F,F,Password
-14966,a431c748,GitHub,894e3377,data/894e3377/src/a431c748.php,487,487,F,F,,,F,F,,,,,0,0,F,F,F,Password
+14966,a431c748,GitHub,894e3377,data/894e3377/src/a431c748.php,487,487,F,F,,,F,F,,,,,0,0,F,F,F,Password:Salt
 15953,8be083d2,GitHub,894e3377,data/894e3377/src/8be083d2.php,12,12,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 15954,20a41e25,GitHub,894e3377,data/894e3377/src/20a41e25.php,13,13,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 15955,9cbcc19e,GitHub,894e3377,data/894e3377/src/9cbcc19e.php,13,13,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -41,7 +41,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 16021,b679985c,GitHub,894e3377,data/894e3377/test/b679985c.php,824,851,T,T,,,F,F,Any,Private,,Unknown,2.59,31,F,F,F,PEM Private Key
 16023,b679985c,GitHub,894e3377,data/894e3377/test/b679985c.php,155,169,T,T,,,F,F,CharsOnly,Private,,Unknown,3.77,15,F,F,F,PEM Private Key
 16030,b679985c,GitHub,894e3377,data/894e3377/test/b679985c.php,545,559,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,PEM Private Key
-16038,3b2f056f,GitHub,894e3377,data/894e3377/src/3b2f056f.php,1243,1243,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+16038,3b2f056f,GitHub,894e3377,data/894e3377/src/3b2f056f.php,1243,1243,F,F,,,F,F,,,,,0,0,F,F,F,Key
 16039,d8c229f9,GitHub,894e3377,data/894e3377/src/d8c229f9.php,452,452,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 16040,a431c748,GitHub,894e3377,data/894e3377/src/a431c748.php,1023,1023,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 16042,a431c748,GitHub,894e3377,data/894e3377/src/a431c748.php,1042,1042,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -105,7 +105,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 16369,ac94d981,GitHub,894e3377,data/894e3377/test/ac94d981.php,432,432,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 16370,62321f5a,GitHub,894e3377,data/894e3377/src/62321f5a.php,167,167,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 16371,3099cfcc,GitHub,894e3377,data/894e3377/src/3099cfcc.php,227,227,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-16373,8e8fb867,GitHub,894e3377,data/894e3377/src/8e8fb867.php,153,153,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+16373,8e8fb867,GitHub,894e3377,data/894e3377/src/8e8fb867.php,153,153,F,F,,,F,F,,,,,0,0,F,F,F,Key
 16380,8be083d2,GitHub,894e3377,data/894e3377/src/8be083d2.php,64,64,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 16381,963ab3ac,GitHub,894e3377,data/894e3377/src/963ab3ac.php,236,236,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 16382,963ab3ac,GitHub,894e3377,data/894e3377/src/963ab3ac.php,211,211,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
@@ -122,7 +122,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 16401,20a41e25,GitHub,894e3377,data/894e3377/src/20a41e25.php,181,181,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 16402,ac94d981,GitHub,894e3377,data/894e3377/test/ac94d981.php,397,397,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 16403,ac94d981,GitHub,894e3377,data/894e3377/test/ac94d981.php,401,401,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-16408,ec518683,GitHub,894e3377,data/894e3377/src/ec518683.php,55,55,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+16408,ec518683,GitHub,894e3377,data/894e3377/src/ec518683.php,55,55,F,F,,,F,F,,,,,0,0,F,F,F,Key
 16409,40a8ca9e,GitHub,894e3377,data/894e3377/test/40a8ca9e.php,377,377,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 16410,40a8ca9e,GitHub,894e3377,data/894e3377/test/40a8ca9e.php,939,939,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 16412,40a8ca9e,GitHub,894e3377,data/894e3377/test/40a8ca9e.php,50,62,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,PEM Private Key
@@ -493,7 +493,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 55757,40a8ca9e,GitHub,894e3377,data/894e3377/test/40a8ca9e.php,220,227,F,F,,,F,F,,,,,0,0,F,F,F,PEM Private Key
 55758,40a8ca9e,GitHub,894e3377,data/894e3377/test/40a8ca9e.php,311,318,F,F,,,F,F,,,,,0,0,F,F,F,PEM Private Key
 55759,40a8ca9e,GitHub,894e3377,data/894e3377/test/40a8ca9e.php,353,360,F,F,,,F,F,,,,,0,0,F,F,F,PEM Private Key
-55760,801f07a7,GitHub,894e3377,data/894e3377/src/801f07a7.php,87,87,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+55760,801f07a7,GitHub,894e3377,data/894e3377/src/801f07a7.php,87,87,F,F,,,F,F,,,,,0,0,F,F,F,Key
 55762,692d9463,GitHub,894e3377,data/894e3377/test/692d9463.php,163,163,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 55763,40a8ca9e,GitHub,894e3377,data/894e3377/test/40a8ca9e.php,474,474,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 55765,692d9463,GitHub,894e3377,data/894e3377/test/692d9463.php,24,24,F,F,,,F,F,,,,,0,0,F,F,F,Secret

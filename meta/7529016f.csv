@@ -3,9 +3,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 5059,0bc62cee,GitHub,7529016f,data/7529016f/src/0bc62cee.go,145,145,F,F,,,F,F,,,,,0,0,F,F,F,Token
 22921,1e1be099,GitHub,7529016f,data/7529016f/src/1e1be099.yml,3,3,F,F,,,F,F,,,,,0,0,F,F,F,Token
 23775,e45e45ba,GitHub,7529016f,data/7529016f/src/e45e45ba.yml,11,11,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-25026,71ca9e54,GitHub,7529016f,data/7529016f/test/71ca9e54.go,300,300,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-25027,71ca9e54,GitHub,7529016f,data/7529016f/test/71ca9e54.go,200,200,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-25060,71ca9e54,GitHub,7529016f,data/7529016f/test/71ca9e54.go,205,205,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+25026,71ca9e54,GitHub,7529016f,data/7529016f/test/71ca9e54.go,300,300,F,F,,,F,F,,,,,0,0,F,F,F,Key
+25027,71ca9e54,GitHub,7529016f,data/7529016f/test/71ca9e54.go,200,200,F,F,,,F,F,,,,,0,0,F,F,F,Key
+25060,71ca9e54,GitHub,7529016f,data/7529016f/test/71ca9e54.go,205,205,F,F,,,F,F,,,,,0,0,F,F,F,Key
 25063,71ca9e54,GitHub,7529016f,data/7529016f/test/71ca9e54.go,17,17,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 25064,71ca9e54,GitHub,7529016f,data/7529016f/test/71ca9e54.go,12,12,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 25073,1e1be099,GitHub,7529016f,data/7529016f/src/1e1be099.yml,2,2,F,F,,,F,F,,,,,0,0,F,F,F,Token
@@ -19,7 +19,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 34504,093483f8,GitHub,7529016f,data/7529016f/test/093483f8.yml,9,9,T,T,10,25,F,F,Any,,,Secret,2.88,15,F,F,F,Password
 41529,e45e45ba,GitHub,7529016f,data/7529016f/src/e45e45ba.yml,29,29,Template,T,19,29,F,F,CharsOnly,,,Secret,3.12,10,F,F,F,Password
 56952,db164cdb,GitHub,7529016f,data/7529016f/src/db164cdb.toml,78,78,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-61552,71ca9e54,GitHub,7529016f,data/7529016f/test/71ca9e54.go,295,295,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+61552,71ca9e54,GitHub,7529016f,data/7529016f/test/71ca9e54.go,295,295,F,F,,,F,F,,,,,0,0,F,F,F,Key
 64040,b3356305,GitHub,7529016f,data/7529016f/other/b3356305.md,136,136,Template,T,29,44,F,F,Any,,,Secret,2.17,15,F,F,F,Key:Secret
 64041,b3356305,GitHub,7529016f,data/7529016f/other/b3356305.md,153,153,Template,T,29,44,F,F,Any,,,Secret,2.17,15,F,F,F,Key:Secret
 83217,db164cdb,GitHub,7529016f,data/7529016f/src/db164cdb.toml,69,69,Template,T,22,34,F,F,Any,,,Secret,2.82,12,F,F,F,Password
