@@ -1,6 +1,6 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
 1902,68f6e826,GitHub,71455799,data/71455799/test/68f6e826.tf,45,45,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-1929,0ac56114,GitHub,71455799,data/71455799/test/0ac56114.tf,14,14,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+1929,0ac56114,GitHub,71455799,data/71455799/test/0ac56114.tf,14,14,F,F,,,F,F,,,,,0,0,F,F,F,Key
 9855,4411b77a,GitHub,71455799,data/71455799/test/4411b77a.go,75,75,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 9856,4411b77a,GitHub,71455799,data/71455799/test/4411b77a.go,76,76,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 9857,4411b77a,GitHub,71455799,data/71455799/test/4411b77a.go,62,62,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -11,7 +11,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 13150,68f6e826,GitHub,71455799,data/71455799/test/68f6e826.tf,17,17,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 13151,68f6e826,GitHub,71455799,data/71455799/test/68f6e826.tf,46,46,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 20251,432dca62,GitHub,71455799,data/71455799/test/432dca62.json,66,66,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-20252,08a2c15d,GitHub,71455799,data/71455799/test/08a2c15d.tfstate,46,46,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+20252,08a2c15d,GitHub,71455799,data/71455799/test/08a2c15d.tfstate,46,46,F,F,,,F,F,,,,,0,0,F,F,F,Key
 20280,432dca62,GitHub,71455799,data/71455799/test/432dca62.json,14,14,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 20662,97a023e7,GitHub,71455799,data/71455799/src/97a023e7.go,38,38,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 20735,a20d32dc,GitHub,71455799,data/71455799/test/a20d32dc.json,97223,97223,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -87,7 +87,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 48111,ef3b3c2a,GitHub,71455799,data/71455799/test/ef3b3c2a.json,34,34,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.72,20,F,F,F,AWS Client ID:Gitlab Feed Token
 53984,08a2c15d,GitHub,71455799,data/71455799/test/08a2c15d.tfstate,35,35,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 53985,08a2c15d,GitHub,71455799,data/71455799/test/08a2c15d.tfstate,99,99,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-53986,432dca62,GitHub,71455799,data/71455799/test/432dca62.json,77,77,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+53986,432dca62,GitHub,71455799,data/71455799/test/432dca62.json,77,77,F,F,,,F,F,,,,,0,0,F,F,F,Key
 54477,6cb40a1a,GitHub,71455799,data/71455799/test/6cb40a1a.json,97223,97223,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 54478,d5cce558,GitHub,71455799,data/71455799/test/d5cce558.json,97223,97223,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 54479,e6991e70,GitHub,71455799,data/71455799/test/e6991e70.json,97223,97223,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -98,7 +98,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 61547,02ec928a,GitHub,71455799,data/71455799/test/02ec928a.go,139,139,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 61581,4411b77a,GitHub,71455799,data/71455799/test/4411b77a.go,44,44,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 64205,0ac56114,GitHub,71455799,data/71455799/test/0ac56114.tf,43,43,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-64206,68f6e826,GitHub,71455799,data/71455799/test/68f6e826.tf,16,16,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+64206,68f6e826,GitHub,71455799,data/71455799/test/68f6e826.tf,16,16,F,F,,,F,F,,,,,0,0,F,F,F,Key
 64207,68f6e826,GitHub,71455799,data/71455799/test/68f6e826.tf,61,61,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 64208,0ac56114,GitHub,71455799,data/71455799/test/0ac56114.tf,59,59,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 64549,88fa54fc,GitHub,71455799,data/71455799/test/88fa54fc.go,358,358,F,F,,,F,F,,,,,0,0,F,F,F,Secret

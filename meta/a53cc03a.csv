@@ -25,7 +25,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 18043,cd2e73c4,GitHub,a53cc03a,data/a53cc03a/src/cd2e73c4.py,17,17,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 18045,1f72342e,GitHub,a53cc03a,data/a53cc03a/src/1f72342e.py,28,28,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 18097,9ffe91f0,GitHub,a53cc03a,data/a53cc03a/test/9ffe91f0.template,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-18101,52a9f3a0,GitHub,a53cc03a,data/a53cc03a/test/52a9f3a0.template,45,45,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+18101,52a9f3a0,GitHub,a53cc03a,data/a53cc03a/test/52a9f3a0.template,45,45,F,F,,,F,F,,,,,0,0,F,F,F,Key
 18102,bb86cefc,GitHub,a53cc03a,data/a53cc03a/test/bb86cefc.template,586,586,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 18103,6b11dd96,GitHub,a53cc03a,data/a53cc03a/test/6b11dd96.template,113,113,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 18105,a0d59776,GitHub,a53cc03a,data/a53cc03a/test/a0d59776.template,206,206,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -52,9 +52,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 23258,3a983a64,GitHub,a53cc03a,data/a53cc03a/test/3a983a64.py,87,87,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 23263,c91eaccb,GitHub,a53cc03a,data/a53cc03a/test/c91eaccb.py,31,31,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 23264,e619d4f6,GitHub,a53cc03a,data/a53cc03a/test/e619d4f6.py,73,73,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-23270,257b71bf,GitHub,a53cc03a,data/a53cc03a/test/257b71bf.py,164,164,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-23280,e619d4f6,GitHub,a53cc03a,data/a53cc03a/test/e619d4f6.py,51,51,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-23320,72f50ee1,GitHub,a53cc03a,data/a53cc03a/test/72f50ee1.py,103,103,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+23270,257b71bf,GitHub,a53cc03a,data/a53cc03a/test/257b71bf.py,164,164,F,F,,,F,F,,,,,0,0,F,F,F,Key
+23280,e619d4f6,GitHub,a53cc03a,data/a53cc03a/test/e619d4f6.py,51,51,F,F,,,F,F,,,,,0,0,F,F,F,Key
+23320,72f50ee1,GitHub,a53cc03a,data/a53cc03a/test/72f50ee1.py,103,103,F,F,,,F,F,,,,,0,0,F,F,F,Credential
 24780,e619d4f6,GitHub,a53cc03a,data/a53cc03a/test/e619d4f6.py,53,53,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 25098,6ac9e39a,GitHub,a53cc03a,data/a53cc03a/test/6ac9e39a.py,12,12,F,F,,,F,F,,,,,0,0,F,F,F,API
 25732,9874ea4e,GitHub,a53cc03a,data/a53cc03a/test/9874ea4e.py,18,18,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -112,8 +112,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 52775,4784d940,GitHub,a53cc03a,data/a53cc03a/src/4784d940.py,151,151,F,F,,,F,F,,,,,0,0,F,F,F,Password
 52776,815aeca7,GitHub,a53cc03a,data/a53cc03a/src/815aeca7.py,53,53,F,F,,,F,F,,,,,0,0,F,F,F,Password
 52777,815aeca7,GitHub,a53cc03a,data/a53cc03a/src/815aeca7.py,126,126,F,F,,,F,F,,,,,0,0,F,F,F,Password
-61593,257b71bf,GitHub,a53cc03a,data/a53cc03a/test/257b71bf.py,188,188,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-61594,257b71bf,GitHub,a53cc03a,data/a53cc03a/test/257b71bf.py,212,212,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+61593,257b71bf,GitHub,a53cc03a,data/a53cc03a/test/257b71bf.py,188,188,F,F,,,F,F,,,,,0,0,F,F,F,Key
+61594,257b71bf,GitHub,a53cc03a,data/a53cc03a/test/257b71bf.py,212,212,F,F,,,F,F,,,,,0,0,F,F,F,Key
 61595,c91eaccb,GitHub,a53cc03a,data/a53cc03a/test/c91eaccb.py,47,47,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 74927,041f57bb,GitHub,a53cc03a,data/a53cc03a/src/041f57bb.py,244,244,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 82637,0f44be5f,GitHub,a53cc03a,data/a53cc03a/test/0f44be5f.py,69,69,T,T,20,32,F,F,CharsOnly,,,Secret,3.25,12,F,F,F,Password

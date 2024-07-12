@@ -3,7 +3,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 1512,d096d42d,GitHub,49b08818,data/49b08818/src/d096d42d.txt,1,1,F,F,,,F,F,,,,,0,0,F,F,F,API
 3908,6da61865,GitHub,49b08818,data/49b08818/src/6da61865.txt,2,2,F,F,,,F,F,,,,,0,0,F,F,F,API
 4082,6f9552a0,GitHub,49b08818,data/49b08818/src/6f9552a0.js,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-6440,4b49490b,GitHub,49b08818,data/49b08818/src/4b49490b.m,3,3,F,F,,,F,F,,,,,0,0,F,F,F,Password
+1006440,4b49490b,GitHub,49b08818,data/49b08818/src/4b49490b.m,3,3,T,F,30,35,F,F,,,,,0,0,F,F,F,Auth
+6440,4b49490b,GitHub,49b08818,data/49b08818/src/4b49490b.m,3,3,T,F,45,53,F,F,,,,,0,0,F,F,F,Password:Auth
 6851,c647c1a0,GitHub,49b08818,data/49b08818/src/c647c1a0.java,17,17,F,F,36,,F,F,,,,,0,0,F,F,F,Auth
 1006851,c647c1a0,GitHub,49b08818,data/49b08818/src/c647c1a0.java,17,17,T,F,51,59,F,F,,,,,0,0,F,F,F,Auth:Password
 7469,013e55dd,GitHub,49b08818,data/49b08818/src/013e55dd.R,6,6,T,F,14,22,F,F,CharOnly,,,Secret,2.50,8,F,F,F,Password:Auth
