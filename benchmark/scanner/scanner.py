@@ -75,7 +75,7 @@ class Scanner(ABC):
                     type_stat.template_markup += 1
                 self.rules_markup_counters[rule] = (true_cnt, false_cnt, template_cnt)
             self.file_types[file_type_lower] = type_stat
-            if self.meta_next_id < meta_row.Id:
+            if self.meta_next_id <= meta_row.Id:
                 self.meta_next_id = meta_row.Id + 1
 
         # getting count of all not-empty lines
