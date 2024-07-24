@@ -331,9 +331,12 @@ def generate_value(value):
     base_32 = True
     hex_upper = True
     hex_lower = True
-    for i in value:
+    for n, i in enumerate(value):
         if base_32 and i not in "ABCDEFGHIJKLMNOPQRSTUVWXYZ234567":
             base_32 = False
+        if '-' == i and 36 == len(value) and n in [8, 13, 18, 23]:
+            # UUID separator
+            continue
         if hex_upper and i not in "0123456789ABCDEF":
             hex_upper = False
         if hex_lower and i not in "0123456789abcdef":
