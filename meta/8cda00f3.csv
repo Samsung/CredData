@@ -287,14 +287,14 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 26195,7963a636,GitHub,8cda00f3,data/8cda00f3/src/7963a636.go,247,247,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 26493,e8e52d91,GitHub,8cda00f3,data/8cda00f3/src/e8e52d91.html,137,137,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 26582,417a477f,GitHub,8cda00f3,data/8cda00f3/src/417a477f.tsx,209,209,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-27188,1cb14005,GitHub,8cda00f3,data/8cda00f3/other/1cb14005.md,46,46,T,T,60,148,F,F,Any,,JSON Web Token,Unknown,5.34,88,F,F,F,Key:JSON Web Token:Grafana Provisioned API Key
+27188,1cb14005,GitHub,8cda00f3,data/8cda00f3/other/1cb14005.md,46,46,T,T,60,148,F,F,Any,,JSON Web Token,Unknown,5.34,88,F,F,F,Key:Grafana Provisioned API Key
 27220,f41b6cf3,GitHub,8cda00f3,data/8cda00f3/test/f41b6cf3.go,150,150,F,F,8,15,F,F,,,,,0,0,F,F,F,Secret
 27253,543847ae,GitHub,8cda00f3,data/8cda00f3/test/543847ae.go,79,79,F,F,38,71,F,F,Any,,,Unknown,0.82,33,F,F,F,Slack Token
 27254,ad5c0931,GitHub,8cda00f3,data/8cda00f3/test/ad5c0931.go,42,42,Template,F,67,76,F,F,Any,,,Secret,0,9,F,F,F,Password
 27351,543847ae,GitHub,8cda00f3,data/8cda00f3/test/543847ae.go,60,60,T,F,10,43,F,F,Any,,,Token,0.82,33,F,F,F,Slack Token:Token
 27401,040bcd48,GitHub,8cda00f3,data/8cda00f3/other/040bcd48.md,97,97,Template,T,37,52,F,F,Any,,,Secret,2.80,15,F,F,F,Password
 27405,51e4f558,GitHub,8cda00f3,data/8cda00f3/src/51e4f558.lock,4861,4861,F,F,16,123,F,F,,,,,0,0,F,F,F,Secret
-27429,24e05f8d,GitHub,8cda00f3,data/8cda00f3/test/24e05f8d.go,434,434,T,F,13,89,F,F,Any,,JSON Web Token,Key,5.10,76,F,F,F,API:JSON Web Token:Key:Grafana Provisioned API Key
+27429,24e05f8d,GitHub,8cda00f3,data/8cda00f3/test/24e05f8d.go,434,434,T,F,13,89,F,F,Any,,JSON Web Token,Key,5.10,76,F,F,F,API:Key:Grafana Provisioned API Key
 27432,eaf18c55,GitHub,8cda00f3,data/8cda00f3/other/eaf18c55.md,276,276,Template,T,16,28,F,F,Any,,,Secret,2.95,12,F,F,F,Password
 27433,1da35876,GitHub,8cda00f3,data/8cda00f3/other/1da35876.md,47,47,Template,T,16,23,F,F,CharsOnly,,,Secret,2.52,7,F,F,F,Password
 27434,1da35876,GitHub,8cda00f3,data/8cda00f3/other/1da35876.md,46,46,Template,T,16,21,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
@@ -309,7 +309,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 27733,b3ca6fc0,GitHub,8cda00f3,data/8cda00f3/src/b3ca6fc0.go,207,207,Template,T,15,28,F,F,Any,,,Secret,3.50,62,F,F,F,Secret
 27745,f927c47d,GitHub,8cda00f3,data/8cda00f3/test/f927c47d.yaml,14,14,Template,T,19,38,F,F,Any,,,Secret,3.30,19,F,F,F,Password
 27753,2a58b3e7,GitHub,8cda00f3,data/8cda00f3/src/2a58b3e7.ts,317,317,F,F,6,11,F,F,,,,,0,0,F,F,F,Secret
-27774,218dc847,GitHub,8cda00f3,data/8cda00f3/other/218dc847.md,119,119,T,F,23,103,F,F,Any,,JSON Web Token,Unknown,5.04,80,F,F,F,Grafana Provisioned API Key:JSON Web Token:Key
+27774,218dc847,GitHub,8cda00f3,data/8cda00f3/other/218dc847.md,119,119,T,F,23,103,F,F,Any,,JSON Web Token,Unknown,5.04,80,F,F,F,Grafana Provisioned API Key:Key
 27801,b3ca6fc0,GitHub,8cda00f3,data/8cda00f3/src/b3ca6fc0.go,138,138,Template,T,24,30,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Key:Secret
 27824,ad5c0931,GitHub,8cda00f3,data/8cda00f3/test/ad5c0931.go,55,55,Template,T,43,49,T,F,CharsOnly,,,Secret,2.25,6,F,F,F,URL Credentials
 27962,ee758638,GitHub,8cda00f3,data/8cda00f3/src/ee758638.go,20,20,Template,F,21,31,F,F,Any,,,Token,1.99,10,F,F,F,Token
@@ -334,7 +334,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 31496,d22c35d6,GitHub,8cda00f3,data/8cda00f3/other/d22c35d6.md,61,61,T,T,29,51,F,F,Any,,,Key,3.39,22,F,F,F,API:Key
 31756,0e2a72e1,GitHub,8cda00f3,data/8cda00f3/other/0e2a72e1,6,6,Template,T,21,29,F,F,CharsOnly,,,Secret,2.50,8,F,F,F,Password
 32267,70159169,GitHub,8cda00f3,data/8cda00f3/other/70159169.md,47,47,T,F,17,24,F,F,CharsOnly,,,Secret,2.13,7,F,F,F,Password
-32403,218dc847,GitHub,8cda00f3,data/8cda00f3/other/218dc847.md,51,51,T,F,21,,T,F,Any,,JSON Web Token,Secret,5.09,50,F,F,F,JSON Web Token:URL Credentials:API:Key
+32403,218dc847,GitHub,8cda00f3,data/8cda00f3/other/218dc847.md,51,51,T,F,21,,T,F,Any,,JSON Web Token,Secret,5.09,50,F,F,F,URL Credentials:API:Key
 32486,4f7c27e2,GitHub,8cda00f3,data/8cda00f3/src/4f7c27e2.sh,8,8,T,F,15,22,F,F,CharsOnly,,,Secret,2.13,7,F,F,F,Password
 32488,3f8a56cf,GitHub,8cda00f3,data/8cda00f3/src/3f8a56cf.ini,170,170,Template,T,17,22,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
 32688,e71ac2c5,GitHub,8cda00f3,data/8cda00f3/other/e71ac2c5.md,90,90,T,F,24,45,F,F,CharsOnly,,,Secret,1.58,21,F,F,F,Key:Secret
@@ -784,40 +784,40 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 131113,387aa4d0,GitHub,8cda00f3,data/8cda00f3/src/387aa4d0.c,139451,139451,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 131114,387aa4d0,GitHub,8cda00f3,data/8cda00f3/src/387aa4d0.c,139408,139408,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 131115,3569d385,GitHub,8cda00f3,data/8cda00f3/src/3569d385.scss,194,194,Template,F,0,0,F,F,NumberOnly,,,Secret,0.00,0,F,F,F,Password
-131861,218dc847,GitHub,8cda00f3,data/8cda00f3/other/218dc847.md,100,100,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth:JSON Web Token
-131862,218dc847,GitHub,8cda00f3,data/8cda00f3/other/218dc847.md,132,132,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth:JSON Web Token
-131863,218dc847,GitHub,8cda00f3,data/8cda00f3/other/218dc847.md,42,42,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth:JSON Web Token
-131864,218dc847,GitHub,8cda00f3,data/8cda00f3/other/218dc847.md,67,67,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth:JSON Web Token
-131865,5e6dbad9,GitHub,8cda00f3,data/8cda00f3/other/5e6dbad9.md,101,101,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth:JSON Web Token
-131866,5e6dbad9,GitHub,8cda00f3,data/8cda00f3/other/5e6dbad9.md,138,138,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth:JSON Web Token
-131867,5e6dbad9,GitHub,8cda00f3,data/8cda00f3/other/5e6dbad9.md,162,162,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth:JSON Web Token
-131868,5e6dbad9,GitHub,8cda00f3,data/8cda00f3/other/5e6dbad9.md,179,179,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth:JSON Web Token
-131869,5e6dbad9,GitHub,8cda00f3,data/8cda00f3/other/5e6dbad9.md,216,216,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth:JSON Web Token
-131870,5e6dbad9,GitHub,8cda00f3,data/8cda00f3/other/5e6dbad9.md,25,25,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth:JSON Web Token
-131871,5e6dbad9,GitHub,8cda00f3,data/8cda00f3/other/5e6dbad9.md,255,255,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth:JSON Web Token
-131872,5e6dbad9,GitHub,8cda00f3,data/8cda00f3/other/5e6dbad9.md,277,277,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth:JSON Web Token
-131873,5e6dbad9,GitHub,8cda00f3,data/8cda00f3/other/5e6dbad9.md,64,64,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth:JSON Web Token
-131874,031f4ed1,GitHub,8cda00f3,data/8cda00f3/other/031f4ed1.md,107,107,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth:JSON Web Token
-131875,031f4ed1,GitHub,8cda00f3,data/8cda00f3/other/031f4ed1.md,36,36,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth:JSON Web Token
-131876,b535b1c7,GitHub,8cda00f3,data/8cda00f3/other/b535b1c7.md,112,112,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth:JSON Web Token
-131877,b535b1c7,GitHub,8cda00f3,data/8cda00f3/other/b535b1c7.md,134,134,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth:JSON Web Token
-131878,b535b1c7,GitHub,8cda00f3,data/8cda00f3/other/b535b1c7.md,162,162,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth:JSON Web Token
-131879,b535b1c7,GitHub,8cda00f3,data/8cda00f3/other/b535b1c7.md,31,31,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth:JSON Web Token
-131880,b535b1c7,GitHub,8cda00f3,data/8cda00f3/other/b535b1c7.md,56,56,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth:JSON Web Token
-131881,b535b1c7,GitHub,8cda00f3,data/8cda00f3/other/b535b1c7.md,86,86,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth:JSON Web Token
-131882,510d4d25,GitHub,8cda00f3,data/8cda00f3/other/510d4d25.md,132,132,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth:JSON Web Token
-131883,510d4d25,GitHub,8cda00f3,data/8cda00f3/other/510d4d25.md,190,190,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth:JSON Web Token
-131884,510d4d25,GitHub,8cda00f3,data/8cda00f3/other/510d4d25.md,24,24,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth:JSON Web Token
-131885,510d4d25,GitHub,8cda00f3,data/8cda00f3/other/510d4d25.md,98,98,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth:JSON Web Token
-131886,eaf18c55,GitHub,8cda00f3,data/8cda00f3/other/eaf18c55.md,138,138,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth:JSON Web Token
-131887,eaf18c55,GitHub,8cda00f3,data/8cda00f3/other/eaf18c55.md,241,241,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth:JSON Web Token
-131888,eaf18c55,GitHub,8cda00f3,data/8cda00f3/other/eaf18c55.md,272,272,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth:JSON Web Token
-131889,eaf18c55,GitHub,8cda00f3,data/8cda00f3/other/eaf18c55.md,324,324,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth:JSON Web Token
-131890,eaf18c55,GitHub,8cda00f3,data/8cda00f3/other/eaf18c55.md,348,348,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth:JSON Web Token
-131891,eaf18c55,GitHub,8cda00f3,data/8cda00f3/other/eaf18c55.md,378,378,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth:JSON Web Token
-131892,eaf18c55,GitHub,8cda00f3,data/8cda00f3/other/eaf18c55.md,402,402,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth:JSON Web Token
-131893,1cb14005,GitHub,8cda00f3,data/8cda00f3/other/1cb14005.md,57,57,T,F,50,138,F,F,,,,,0.00,,F,F,F,Auth:JSON Web Token:Grafana Provisioned API Key
-131894,24e05f8d,GitHub,8cda00f3,data/8cda00f3/test/24e05f8d.go,139,139,T,F,50,,F,F,,,,,0.00,,F,F,F,Grafana Provisioned API Key:JSON Web Token
+131861,218dc847,GitHub,8cda00f3,data/8cda00f3/other/218dc847.md,100,100,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth
+131862,218dc847,GitHub,8cda00f3,data/8cda00f3/other/218dc847.md,132,132,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth
+131863,218dc847,GitHub,8cda00f3,data/8cda00f3/other/218dc847.md,42,42,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth
+131864,218dc847,GitHub,8cda00f3,data/8cda00f3/other/218dc847.md,67,67,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth
+131865,5e6dbad9,GitHub,8cda00f3,data/8cda00f3/other/5e6dbad9.md,101,101,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth
+131866,5e6dbad9,GitHub,8cda00f3,data/8cda00f3/other/5e6dbad9.md,138,138,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth
+131867,5e6dbad9,GitHub,8cda00f3,data/8cda00f3/other/5e6dbad9.md,162,162,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth
+131868,5e6dbad9,GitHub,8cda00f3,data/8cda00f3/other/5e6dbad9.md,179,179,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth
+131869,5e6dbad9,GitHub,8cda00f3,data/8cda00f3/other/5e6dbad9.md,216,216,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth
+131870,5e6dbad9,GitHub,8cda00f3,data/8cda00f3/other/5e6dbad9.md,25,25,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth
+131871,5e6dbad9,GitHub,8cda00f3,data/8cda00f3/other/5e6dbad9.md,255,255,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth
+131872,5e6dbad9,GitHub,8cda00f3,data/8cda00f3/other/5e6dbad9.md,277,277,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth
+131873,5e6dbad9,GitHub,8cda00f3,data/8cda00f3/other/5e6dbad9.md,64,64,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth
+131874,031f4ed1,GitHub,8cda00f3,data/8cda00f3/other/031f4ed1.md,107,107,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth
+131875,031f4ed1,GitHub,8cda00f3,data/8cda00f3/other/031f4ed1.md,36,36,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth
+131876,b535b1c7,GitHub,8cda00f3,data/8cda00f3/other/b535b1c7.md,112,112,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth
+131877,b535b1c7,GitHub,8cda00f3,data/8cda00f3/other/b535b1c7.md,134,134,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth
+131878,b535b1c7,GitHub,8cda00f3,data/8cda00f3/other/b535b1c7.md,162,162,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth
+131879,b535b1c7,GitHub,8cda00f3,data/8cda00f3/other/b535b1c7.md,31,31,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth
+131880,b535b1c7,GitHub,8cda00f3,data/8cda00f3/other/b535b1c7.md,56,56,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth
+131881,b535b1c7,GitHub,8cda00f3,data/8cda00f3/other/b535b1c7.md,86,86,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth
+131882,510d4d25,GitHub,8cda00f3,data/8cda00f3/other/510d4d25.md,132,132,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth
+131883,510d4d25,GitHub,8cda00f3,data/8cda00f3/other/510d4d25.md,190,190,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth
+131884,510d4d25,GitHub,8cda00f3,data/8cda00f3/other/510d4d25.md,24,24,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth
+131885,510d4d25,GitHub,8cda00f3,data/8cda00f3/other/510d4d25.md,98,98,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth
+131886,eaf18c55,GitHub,8cda00f3,data/8cda00f3/other/eaf18c55.md,138,138,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth
+131887,eaf18c55,GitHub,8cda00f3,data/8cda00f3/other/eaf18c55.md,241,241,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth
+131888,eaf18c55,GitHub,8cda00f3,data/8cda00f3/other/eaf18c55.md,272,272,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth
+131889,eaf18c55,GitHub,8cda00f3,data/8cda00f3/other/eaf18c55.md,324,324,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth
+131890,eaf18c55,GitHub,8cda00f3,data/8cda00f3/other/eaf18c55.md,348,348,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth
+131891,eaf18c55,GitHub,8cda00f3,data/8cda00f3/other/eaf18c55.md,378,378,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth
+131892,eaf18c55,GitHub,8cda00f3,data/8cda00f3/other/eaf18c55.md,402,402,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth
+131893,1cb14005,GitHub,8cda00f3,data/8cda00f3/other/1cb14005.md,57,57,T,F,50,138,F,F,,,,,0.00,,F,F,F,Auth:Grafana Provisioned API Key
+131894,24e05f8d,GitHub,8cda00f3,data/8cda00f3/test/24e05f8d.go,139,139,T,F,50,,F,F,,,,,0.00,,F,F,F,Grafana Provisioned API Key
 132873,387aa4d0,GitHub,8cda00f3,data/8cda00f3/src/387aa4d0.c,108569,108569,F,F,,,F,F,,,,,0,0,F,F,F,Password
 132874,387aa4d0,GitHub,8cda00f3,data/8cda00f3/src/387aa4d0.c,108570,108570,F,F,,,F,F,,,,,0,0,F,F,F,Password
 132875,387aa4d0,GitHub,8cda00f3,data/8cda00f3/src/387aa4d0.c,108571,108571,F,F,,,F,F,,,,,0,0,F,F,F,Password
