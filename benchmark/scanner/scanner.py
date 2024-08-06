@@ -294,7 +294,7 @@ class Scanner(ABC):
                 self.line_checker.add(code)
 
             for meta_rule in row.Category.split(':'):
-                # increase the counter only for corresponded rule metioned in markup
+                # increase the counter only for corresponded rule mentioned in markup
                 if meta_rule == rule:
                     if 'T' == row.GroundTruth:
                         self._increase_result_dict_cnt(meta_rule, True)
