@@ -628,7 +628,6 @@ def main(args: Namespace):
 
 
 if __name__ == "__main__":
-    # print(obfuscate_jwt("eyJleHAiOmZhbHNlLCJmb28iOiJhZGFzIn0")) # dbg
     parser = ArgumentParser(prog="python download_data.py")
 
     parser.add_argument("--data_dir", dest="data_dir", default="data", help="Dataset location after download")
