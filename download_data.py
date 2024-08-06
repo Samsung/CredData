@@ -239,24 +239,29 @@ def obfuscate_jwt(value: str) -> str:
             backslash = False
             n += 1
             continue
-        for wrd in [b"null", b"false", b"true",
-                    b'"alg":', b'"typ":', b'"kid":',
-                    b'"jku":', b'"jwk":', b'"crit":', b'"iat":', b'"nbf":',
-                    b'"x5t#S256":', b'"x5u":', b'"x5c":', b'"x5t":',
-                    b'"iss":', b'"exp":', b'"sub":', b'"role":', b'"enc":', b'"cty":',
-                    b'"cid":', b'"jti":', b'"arn":', b'"type":', b'"zip":', b'"aud":',
-                    b'"username":', b'"name":', b'"id":',
-                    b'"HS256"', b'"HS384"', b'"HS512"', b'"ES256"', b'"ES256K"', b'"ES384"', b'"ES512"', b'"RS256"',
-                    b'"RS384"', b'"RS512"', b'"PS256"', b'"PS384"', b'"PS512"', b'"EdDSA"',
-                    b'"none"', b'"token"', b'"secret"', b'"password"', b'"JWT"',
-                    ]:
-            # safe words to keep JSON structure (false, true, null)
-            # and important JWT ("alg", "type", ...)
-            if decoded[n:n + len(wrd)] == wrd:
-                end_pos = n + len(wrd)
-                while n < end_pos:
-                    new_json[n] = decoded[n]
-                    n += 1
+        if decoded[n] in b'nft"':
+            reserved_word_found = False
+            for wrd in [b"null", b"false", b"true",
+                        b'"alg":', b'"typ":', b'"kid":',
+                        b'"jku":', b'"jwk":', b'"crit":', b'"iat":', b'"nbf":',
+                        b'"x5t#S256":', b'"x5u":', b'"x5c":', b'"x5t":',
+                        b'"iss":', b'"exp":', b'"sub":', b'"role":', b'"enc":', b'"cty":',
+                        b'"cid":', b'"jti":', b'"arn":', b'"type":', b'"zip":', b'"aud":',
+                        b'"username":', b'"name":', b'"id":',
+                        b'"HS256"', b'"HS384"', b'"HS512"', b'"ES256"', b'"ES256K"', b'"ES384"', b'"ES512"', b'"RS256"',
+                        b'"RS384"', b'"RS512"', b'"PS256"', b'"PS384"', b'"PS512"', b'"EdDSA"',
+                        b'"none"', b'"token"', b'"secret"', b'"password"', b'"JWT"',
+                        ]:
+                # safe words to keep JSON structure (false, true, null)
+                # and important JWT ("alg", "type", ...)
+                if decoded[n:n + len(wrd)] == wrd:
+                    end_pos = n + len(wrd)
+                    while n < end_pos:
+                        new_json[n] = decoded[n]
+                        n += 1
+                    reserved_word_found = True
+                    break
+            if reserved_word_found:
                 continue
         # any other data will be obfuscated
         if decoded[n] in DIGITS:
@@ -623,6 +628,7 @@ def main(args: Namespace):
 
 
 if __name__ == "__main__":
+    # print(obfuscate_jwt("eyJleHAiOmZhbHNlLCJmb28iOiJhZGFzIn0")) # dbg
     parser = ArgumentParser(prog="python download_data.py")
 
     parser.add_argument("--data_dir", dest="data_dir", default="data", help="Dataset location after download")
