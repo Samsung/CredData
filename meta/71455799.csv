@@ -79,8 +79,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 47186,a20d32dc,GitHub,71455799,data/71455799/test/a20d32dc.json,74085,74085,F,F,,,F,F,,,,,0,0,F,F,F,Password
 47187,6cb40a1a,GitHub,71455799,data/71455799/test/6cb40a1a.json,74085,74085,F,F,,,F,F,,,,,0,0,F,F,F,Password
 47188,e6991e70,GitHub,71455799,data/71455799/test/e6991e70.json,74085,74085,F,F,,,F,F,,,,,0,0,F,F,F,Password
-47189,08a2c15d,GitHub,71455799,data/71455799/test/08a2c15d.tfstate,77,77,T,F,12,188,F,F,Any,,JSON Web Token,Unknown,5.14,176,F,F,F,Grafana Provisioned API Key:JSON Web Token
-47190,87378121,GitHub,71455799,data/71455799/test/87378121.tfstate,80,80,T,T,12,188,F,F,Any,,JSON Web Token,Unknown,5.10,176,F,F,F,JSON Web Token
+47189,08a2c15d,GitHub,71455799,data/71455799/test/08a2c15d.tfstate,77,77,T,F,12,188,F,F,Any,,JSON Web Token,Unknown,5.14,176,F,F,F,Grafana Provisioned API Key
+47190,87378121,GitHub,71455799,data/71455799/test/87378121.tfstate,80,80,F,T,12,188,F,F,Any,,JSON Web Token,Unknown,5.10,176,F,F,F,JSON Web Token
 48108,ef3b3c2a,GitHub,71455799,data/71455799/test/ef3b3c2a.json,4,4,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.51,20,F,F,F,AWS Client ID:Gitlab Feed Token
 48109,ef3b3c2a,GitHub,71455799,data/71455799/test/ef3b3c2a.json,24,24,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.72,20,F,F,F,AWS Client ID:Gitlab Feed Token
 48110,ef3b3c2a,GitHub,71455799,data/71455799/test/ef3b3c2a.json,14,14,T,F,7,27,F,F,Any,,AWS Client ID,Token,3.82,20,F,F,F,AWS Client ID:Gitlab Feed Token
@@ -108,7 +108,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 74985,0ac56114,GitHub,71455799,data/71455799/test/0ac56114.tf,44,44,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 74986,0ac56114,GitHub,71455799,data/71455799/test/0ac56114.tf,15,15,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 77085,4411b77a,GitHub,71455799,data/71455799/test/4411b77a.go,74,74,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-82557,08a2c15d,GitHub,71455799,data/71455799/test/08a2c15d.tfstate,134,134,T,F,12,188,F,F,Any,,JSON Web Token,Unknown,5.14,176,F,F,F,Grafana Provisioned API Key:JSON Web Token
+82557,08a2c15d,GitHub,71455799,data/71455799/test/08a2c15d.tfstate,134,134,T,F,12,188,F,F,Any,,JSON Web Token,Unknown,5.14,176,F,F,F,Grafana Provisioned API Key
 108511,3295df72,GitHub,71455799,data/71455799/src/3295df72.sum,515,515,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 114612,3295df72,GitHub,71455799,data/71455799/src/3295df72.sum,784,784,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 114613,3295df72,GitHub,71455799,data/71455799/src/3295df72.sum,785,785,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
