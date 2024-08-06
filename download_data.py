@@ -258,7 +258,7 @@ def obfuscate_jwt(value: str) -> str:
 
 
 def get_obfuscated_value(value, meta_row: MetaRow):
-    if "Info" == meta_row.PredefinedPattern or meta_row.Category in ["IPv4", "IPv6"]:
+    if "Info" == meta_row.PredefinedPattern:
         # not a credential - does not required obfuscation
         obfuscated_value = value
     elif value.startswith("Apikey "):
@@ -389,7 +389,7 @@ def replace_rows(data: List[MetaRow]):
         if not (0 <= row.ValueStart and 0 <= row.ValueEnd):
             continue
 
-        if row.Category in ["IPv4", "IPv6", "AWS Multi", "Google Multi"]:
+        if row.Category in ["AWS Multi", "Google Multi"]:
             # skip obfuscation for the categories which are multi pattern or info
             continue
 
