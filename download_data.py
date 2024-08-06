@@ -246,10 +246,9 @@ def obfuscate_jwt(value: str) -> str:
                     b'"iss":', b'"exp":', b'"sub":', b'"role":', b'"enc":', b'"cty":',
                     b'"cid":', b'"jti":', b'"arn":', b'"type":', b'"zip":', b'"aud":',
                     b'"username":', b'"name":', b'"id":',
-                    b'"JWT"',
                     b'"HS256"', b'"HS384"', b'"HS512"', b'"ES256"', b'"ES256K"', b'"ES384"', b'"ES512"', b'"RS256"',
                     b'"RS384"', b'"RS512"', b'"PS256"', b'"PS384"', b'"PS512"', b'"EdDSA"',
-                    b'"none"',
+                    b'"none"', b'"token"', b'"secret"', b'"password"', b'"JWT"',
                     ]:
             # safe words to keep JSON structure (false, true, null)
             # and important JWT ("alg", "type", ...)
