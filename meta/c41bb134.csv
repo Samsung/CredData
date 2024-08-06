@@ -38,20 +38,27 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 32600,68cbce99,GitHub,c41bb134,data/c41bb134/test/68cbce99.hs,74,74,T,T,43,75,F,F,Any,,,Secret,2.68,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Secret
 32611,bc5f4e29,GitHub,c41bb134,data/c41bb134/test/bc5f4e29.hs,817,817,F,F,1,18,F,F,,,,,0,0,F,F,F,Secret
 32612,bc5f4e29,GitHub,c41bb134,data/c41bb134/test/bc5f4e29.hs,851,851,F,F,1,18,F,F,,,,,0,0,F,F,F,Secret
-32613,21b750a7,GitHub,c41bb134,data/c41bb134/test/21b750a7.hs,80,80,T,F,37,333,F,F,Any,,JSON Web Token,Token,5.52,296,F,F,F,Token
-32614,21b750a7,GitHub,c41bb134,data/c41bb134/test/21b750a7.hs,73,73,T,F,37,181,F,F,Any,,JSON Web Token,Token,5.21,144,F,F,F,Token
+32613,21b750a7,GitHub,c41bb134,data/c41bb134/test/21b750a7.hs,80,80,T,F,37,333,F,F,Any,,JSON Web Token,Token,5.52,296,F,F,F,JSON Web Token:Token
+32614,21b750a7,GitHub,c41bb134,data/c41bb134/test/21b750a7.hs,73,73,T,F,37,181,F,F,Any,,JSON Web Token,Token,5.21,144,F,F,F,JSON Web Token:Token
 33749,30516eac,GitHub,c41bb134,data/c41bb134/test/30516eac.hs,343,343,T,T,22,29,F,F,CharsOnly,,,Secret,2.52,7,F,F,F,Password
 33750,28ae4445,GitHub,c41bb134,data/c41bb134/test/28ae4445.hs,80,80,T,T,22,29,F,F,CharsOnly,,,Secret,2.52,7,F,F,F,Password
 33751,b032808b,GitHub,c41bb134,data/c41bb134/test/b032808b.hs,463,463,T,F,20,26,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Secret
 33752,b032808b,GitHub,c41bb134,data/c41bb134/test/b032808b.hs,455,455,T,F,20,27,F,F,CharsOnly,,,Secret,2.24,7,F,F,F,Secret
+33762,b032808b,GitHub,c41bb134,data/c41bb134/test/b032808b.hs,454,454,T,F,17,157,F,F,Any,,JSON Web Token,Token,5.25,140,F,F,F,JSON Web Token
+33763,b032808b,GitHub,c41bb134,data/c41bb134/test/b032808b.hs,462,462,T,T,17,157,F,F,Any,,JSON Web Token,Token,5.31,140,F,F,F,JSON Web Token
 33794,476936d5,GitHub,c41bb134,data/c41bb134/test/476936d5.py,29,29,T,T,10,42,F,F,CharsOnly,,,Secret,2.68,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Secret
 33976,ad0de80c,GitHub,c41bb134,data/c41bb134/test/ad0de80c.yaml,19,19,T,F,18,50,F,F,Any,,,Secret,4.29,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Secret
 34003,978243c8,GitHub,c41bb134,data/c41bb134/test/978243c8.yaml,84,84,Template,T,19,30,F,F,Any,,,Secret,2.52,11,F,F,F,Secret
+34225,b155aa73,GitHub,c41bb134,data/c41bb134/test/b155aa73.hs,798,798,T,F,56,180,F,F,Any,,JSON Web Token,Token,5.32,124,F,F,F,JSON Web Token
 34261,2b83012b,GitHub,c41bb134,data/c41bb134/src/2b83012b.nix,17,17,F,F,20,72,F,F,,,,,0,0,F,F,F,Secret
 34768,8a84ef5d,GitHub,c41bb134,data/c41bb134/src/8a84ef5d.nix,16,16,F,F,10,62,F,F,,,,,0,0,F,F,F,Secret
 35224,96677aa3,GitHub,c41bb134,data/c41bb134/src/96677aa3.json,16,16,Template,T,65,69,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password:URL Credentials
 35776,bb7e3057,GitHub,c41bb134,data/c41bb134/src/bb7e3057.hs,135,135,Template,T,27,31,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password:URL Credentials
 35808,37c1ec24,GitHub,c41bb134,data/c41bb134/test/37c1ec24.sh,14,14,T,T,25,57,F,F,CharsOnly,,,Secret,2.68,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Secret
+35854,7e4c9074,GitHub,c41bb134,data/c41bb134/test/7e4c9074.jwt,1,1,T,F,0,124,F,F,Any,,JSON Web Token,Token,5.13,124,F,F,F,JSON Web Token
+35855,2717cf05,GitHub,c41bb134,data/c41bb134/test/2717cf05.jwt,1,1,T,F,0,124,F,F,Any,,JSON Web Token,Token,5.33,124,F,F,F,JSON Web Token
+35856,8273ece7,GitHub,c41bb134,data/c41bb134/test/8273ece7.jwt,1,1,T,T,0,124,F,F,Any,,JSON Web Token,Token,5.25,124,F,F,F,JSON Web Token
+35872,f85b082b,GitHub,c41bb134,data/c41bb134/test/f85b082b.jwt,1,1,T,F,0,124,F,F,Any,,JSON Web Token,Token,5.17,124,F,F,F,JSON Web Token
 36263,573f06b5,GitHub,c41bb134,data/c41bb134/test/573f06b5.config,3,3,T,T,14,46,F,F,CharsOnly,,,Secret,2.68,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Secret
 36290,09a0e86d,GitHub,c41bb134,data/c41bb134/src/09a0e86d.patch,25,25,F,F,15,67,F,F,,,,,0,0,F,F,F,Secret
 36313,505b2696,GitHub,c41bb134,data/c41bb134/test/505b2696.config,17,17,T,T,14,50,F,F,CharsOnly,,,Secret,2.88,36,F,F,F,Secret
@@ -59,10 +66,29 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 36315,acc69d57,GitHub,c41bb134,data/c41bb134/test/acc69d57.config,17,17,T,F,14,46,F,F,Any,,,Secret,4.29,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Secret
 36316,13a43822,GitHub,c41bb134,data/c41bb134/test/13a43822.config,17,17,T,F,14,46,F,F,Any,,,Secret,4.29,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Secret
 36317,9279daa5,GitHub,c41bb134,data/c41bb134/test/9279daa5.config,5,5,T,T,14,49,F,F,CharsOnly,,,Secret,2.52,35,F,F,F,Secret
-36364,21b750a7,GitHub,c41bb134,data/c41bb134/test/21b750a7.hs,175,175,T,F,13,153,F,F,Any,,JSON Web Token,Token,5.25,140,F,F,F,Token
+36364,21b750a7,GitHub,c41bb134,data/c41bb134/test/21b750a7.hs,175,175,T,F,13,153,F,F,Any,,JSON Web Token,Token,5.25,140,F,F,F,JSON Web Token:Token
+36459,12ab9a21,GitHub,c41bb134,data/c41bb134/test/12ab9a21.hs,19,19,T,F,26,436,F,F,Any,,JSON Web Token,Token,5.72,410,F,F,F,JSON Web Token
+36474,21b750a7,GitHub,c41bb134,data/c41bb134/test/21b750a7.hs,86,86,T,F,26,309,F,F,Any,,JSON Web Token,Token,5.56,283,F,F,F,JSON Web Token
+36475,21b750a7,GitHub,c41bb134,data/c41bb134/test/21b750a7.hs,39,39,T,F,26,150,F,F,Any,,JSON Web Token,Token,5.32,124,F,F,F,JSON Web Token
+36476,8db9ad42,GitHub,c41bb134,data/c41bb134/test/8db9ad42.hs,159,159,T,F,26,150,F,F,Any,,JSON Web Token,Token,5.32,124,F,F,F,JSON Web Token
+36477,21b750a7,GitHub,c41bb134,data/c41bb134/test/21b750a7.hs,91,91,T,F,26,166,F,F,Any,,JSON Web Token,Token,5.25,140,F,F,F,JSON Web Token
+36486,21b750a7,GitHub,c41bb134,data/c41bb134/test/21b750a7.hs,129,129,T,T,26,110,F,F,Any,,JSON Web Token,Auth,4.96,84,F,F,F,JSON Web Token
+36487,a1c174a7,GitHub,c41bb134,data/c41bb134/test/a1c174a7.hs,29,29,T,F,26,217,F,F,Any,,JSON Web Token,Token,5.32,191,F,F,F,JSON Web Token
+36488,a1c174a7,GitHub,c41bb134,data/c41bb134/test/a1c174a7.hs,42,42,T,F,26,189,F,F,Any,,JSON Web Token,Token,5.23,163,F,F,F,JSON Web Token
+36489,21b750a7,GitHub,c41bb134,data/c41bb134/test/21b750a7.hs,134,134,T,F,26,125,F,F,Any,,JSON Web Token,Token,5.04,99,F,F,F,JSON Web Token
+36490,21b750a7,GitHub,c41bb134,data/c41bb134/test/21b750a7.hs,166,166,T,F,26,118,F,F,Any,,JSON Web Token,Token,5.01,92,F,F,F,JSON Web Token
+36491,21b750a7,GitHub,c41bb134,data/c41bb134/test/21b750a7.hs,148,148,T,F,26,118,F,F,Any,,JSON Web Token,Token,5.15,92,F,F,F,JSON Web Token
+36492,21b750a7,GitHub,c41bb134,data/c41bb134/test/21b750a7.hs,157,157,T,T,26,118,F,F,Any,,JSON Web Token,Token,5.15,92,F,F,F,JSON Web Token
+36493,21b750a7,GitHub,c41bb134,data/c41bb134/test/21b750a7.hs,96,96,T,F,26,254,F,F,Any,,JSON Web Token,Token,5.33,228,F,F,F,JSON Web Token
+36494,21b750a7,GitHub,c41bb134,data/c41bb134/test/21b750a7.hs,107,107,T,F,26,189,F,F,Any,,JSON Web Token,Token,5.40,163,F,F,F,JSON Web Token
+37765,21b750a7,GitHub,c41bb134,data/c41bb134/test/21b750a7.hs,63,63,T,F,26,150,F,F,Any,,JSON Web Token,Token,5.32,124,F,F,F,JSON Web Token
+37766,8db9ad42,GitHub,c41bb134,data/c41bb134/test/8db9ad42.hs,481,481,T,F,26,150,F,F,Any,,JSON Web Token,Token,5.32,124,F,F,F,JSON Web Token
+37767,21b750a7,GitHub,c41bb134,data/c41bb134/test/21b750a7.hs,140,140,T,F,26,166,F,F,Any,,JSON Web Token,Token,5.25,140,F,F,F,JSON Web Token
+47043,b155aa73,GitHub,c41bb134,data/c41bb134/test/b155aa73.hs,801,801,T,F,14,138,F,F,Any,,JSON Web Token,Token,5.32,124,F,F,F,JSON Web Token
 47082,b155aa73,GitHub,c41bb134,data/c41bb134/test/b155aa73.hs,826,826,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 47083,b155aa73,GitHub,c41bb134,data/c41bb134/test/b155aa73.hs,852,852,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 48006,476936d5,GitHub,c41bb134,data/c41bb134/test/476936d5.py,519,519,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+48011,21b750a7,GitHub,c41bb134,data/c41bb134/test/21b750a7.hs,102,102,T,F,26,189,F,F,Any,,JSON Web Token,Token,5.23,163,F,F,F,JSON Web Token
 49965,b032808b,GitHub,c41bb134,data/c41bb134/test/b032808b.hs,457,457,T,F,33,40,F,F,CharOnly,,,Secret,2.24,7,F,F,F,Secret
 49966,b032808b,GitHub,c41bb134,data/c41bb134/test/b032808b.hs,465,465,Template,F,33,39,F,F,CharOnly,,,Secret,2.25,6,F,F,F,Secret
 50282,8a3fd767,GitHub,c41bb134,data/c41bb134/test/8a3fd767.config,3,3,T,T,14,46,F,F,CharsOnly,,,Unknown,2.68,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Secret
