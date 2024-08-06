@@ -240,14 +240,16 @@ def obfuscate_jwt(value: str) -> str:
             n += 1
             continue
         for wrd in [b"null", b"false", b"true",
-                    b"alg", b"typ", b"kid",
-                    b"jku", b"jwk", b"crit", b"iat", b"nbf",
-                    b"x5t#S256", b"x5u", b"x5c", b"x5t",
-                    b"iss", b"exp", b"sub", b"role", b"enc", b"cty",
-                    b"cid", b"jti", b"arn", b"type", b"zip", b"aud",
-                    b"username", b"name",
-                    b"id",
-                    b"JWT", b"HS256", b"none"
+                    b'"alg":', b'"typ":', b'"kid":',
+                    b'"jku":', b'"jwk":', b'"crit":', b'"iat":', b'"nbf":',
+                    b'"x5t#S256":', b'"x5u":', b'"x5c":', b'"x5t":',
+                    b'"iss":', b'"exp":', b'"sub":', b'"role":', b'"enc":', b'"cty":',
+                    b'"cid":', b'"jti":', b'"arn":', b'"type":', b'"zip":', b'"aud":',
+                    b'"username":', b'"name":', b'"id":',
+                    b'"JWT"',
+                    b'"HS256"', b'"HS384"', b'"HS512"', b'"ES256"', b'"ES256K"', b'"ES384"', b'"ES512"', b'"RS256"',
+                    b'"RS384"', b'"RS512"', b'"PS256"', b'"PS384"', b'"PS512"', b'"EdDSA"',
+                    b'"none"',
                     ]:
             # safe words to keep JSON structure (false, true, null)
             # and important JWT ("alg", "type", ...)
