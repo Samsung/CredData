@@ -284,17 +284,17 @@ class Scanner(ABC):
                 print(f"WARNING: check meta value start-end {row}", flush=True)
                 continue
 
-            code = (project_id, file_id, row.LineStart, row.LineEnd, row.ValueStart, row.ValueEnd, rule)
+            code = (data_path, row.LineStart, row.LineEnd, row.ValueStart, row.ValueEnd, rule)
             if code in self.line_checker:
                 self.result_cnt -= 1
                 if 'T' == row.GroundTruth:
                     print(f"WARNING: Already checked True! Duplicate? {code}", flush=True)
-                return LineStatus.CHECKED, project_id, file_id
+                return LineStatus.CHECKED, project_id, file_name
             else:
                 self.line_checker.add(code)
 
             for meta_rule in row.Category.split(':'):
-                # increase the counter only for corresponded rule metioned in markup
+                # increase the counter only for corresponded rule mentioned in markup
                 if meta_rule == rule:
                     if 'T' == row.GroundTruth:
                         self._increase_result_dict_cnt(meta_rule, True)
@@ -340,6 +340,8 @@ class Scanner(ABC):
             false_cnt = value.false_cnt
             total_true_cnt, total_false_cnt = self._get_total_true_false_count(rule)
             result = Result(true_cnt, false_cnt, total_true_cnt, total_false_cnt)
+            if rule not in self.rules_markup_counters:
+                self.rules_markup_counters[rule] = (0, 0, 0)
             rows.append([
                 rule,
                 self.rules_markup_counters[rule][0],
