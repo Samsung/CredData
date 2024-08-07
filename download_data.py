@@ -241,16 +241,16 @@ def obfuscate_jwt(value: str) -> str:
             continue
         if decoded[n] in b'nft"':
             reserved_word_found = False
-            for wrd in [b"null", b"false", b"true",
-                        b'"alg":', b'"typ":', b'"kid":',
-                        b'"jku":', b'"jwk":', b'"crit":', b'"iat":', b'"nbf":',
-                        b'"x5t#S256":', b'"x5u":', b'"x5c":', b'"x5t":',
-                        b'"iss":', b'"exp":', b'"sub":', b'"role":', b'"enc":', b'"cty":',
-                        b'"cid":', b'"jti":', b'"arn":', b'"type":', b'"zip":', b'"aud":',
-                        b'"username":', b'"name":', b'"id":',
-                        b'"HS256"', b'"HS384"', b'"HS512"', b'"ES256"', b'"ES256K"', b'"ES384"', b'"ES512"', b'"RS256"',
-                        b'"RS384"', b'"RS512"', b'"PS256"', b'"PS384"', b'"PS512"', b'"EdDSA"',
-                        b'"none"', b'"token"', b'"secret"', b'"password"', b'"JWT"',
+            for wrd in [
+                # reserved words in JSON
+                b"null", b"false", b"true",
+                # trigger words from CredSweeper filter ValueJsonWebTokenCheck
+                b'"alg":', b'"apu":', b'"apv":', b'"aud":', b'"b64":', b'"crit":', b'"crv":', b'"cty":', b'"d":',
+                b'"dp":', b'"dq":', b'"e":', b'"enc":', b'"epk":', b'"exp":', b'"ext":', b'"iat":', b'"id":', b'"iss":',
+                b'"iv":', b'"jku":', b'"jti":', b'"jwk":', b'"k":', b'"key_ops":', b'"keys":', b'"kid":', b'"kty":',
+                b'"n":', b'"nbf":', b'"nonce":', b'"oth":', b'"p":', b'"p2c":', b'"p2s":', b'"password":', b'"ppt":',
+                b'"q":', b'"qi":', b'"role":', b'"secret":', b'"sub":', b'"svt":', b'"tag":', b'"token":', b'"typ":',
+                b'"url":', b'"use":', b'"x":', b'"x5c":', b'"x5t":', b'"x5t#S256":', b'"x5u":', b'"y":', b'"zip":'
                         ]:
                 # safe words to keep JSON structure (false, true, null)
                 # and important JWT ("alg", "type", ...)
