@@ -205,7 +205,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 29673,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1009,1009,Template,F,30,33,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
 29680,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,3118,3118,Template,T,19,22,F,F,Any,,,Secret,1.58,3,F,F,F,Password
 29698,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,4185,4185,Template,F,35,38,T,F,CharsOnly,,,SeedSalt,1.58,3,F,F,F,Password
-29732,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,6446,6446,Template,T,30,38,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
+29732,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,6446,6446,T,T,30,38,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
 29735,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1010,1010,Template,F,31,34,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
 29743,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3222,3222,Template,F,47,50,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
 29744,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1207,1207,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -801,3 +801,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 1338475,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2964,2964,T,F,58,664,F,F,,,,,0.0,0,F,F,F,JSON Web Token
 1338476,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,43,43,T,F,8,822,F,F,,,,,0.0,0,F,F,F,JSON Web Token
 1338569,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2580,2580,T,F,50,55,F,F,,,,,0.0,0,F,F,F,URL Credentials
+1341514,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,764,764,T,F,48,53,F,F,,,,,0.0,0,F,F,F,URL Credentials
+1041514,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,768,768,T,F,48,53,F,F,,,,,0.0,0,F,F,F,URL Credentials
+1341541,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,295,295,F,F,,,F,F,,,,,0.0,0,F,F,F,Password
+1337696,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,7023,7023,T,F,30,66,F,F,,,,,0.0,0,F,F,F,UUID

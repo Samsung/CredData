@@ -8,7 +8,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 71446,4663e076,GitHub,0436af4a,data/0436af4a/other/4663e076.md,39,39,T,F,26,36,F,F,,,,,3.12,10,F,F,F,Credential
 71447,4663e076,GitHub,0436af4a,data/0436af4a/other/4663e076.md,65,65,T,F,26,31,F,F,,,,,1.92,5,F,F,F,Credential
 71448,a9108d0e,GitHub,0436af4a,data/0436af4a/other/a9108d0e.md,730,730,F,F,37,50,F,F,,,,,2.54,13,F,F,F,Credential
-71449,94b788c0,GitHub,0436af4a,data/0436af4a/other/94b788c0.md,77,77,T,F,16,52,F,F,,,,,3.54,36,F,F,F,Auth
+71449,94b788c0,GitHub,0436af4a,data/0436af4a/other/94b788c0.md,77,77,T,F,16,52,F,F,,,,,3.54,36,F,F,F,Auth:UUID
 71450,94b788c0,GitHub,0436af4a,data/0436af4a/other/94b788c0.md,78,78,T,F,20,40,F,F,,,,,3.58,20,F,F,F,Secret:Auth
 71452,a9108d0e,GitHub,0436af4a,data/0436af4a/other/a9108d0e.md,387,387,T,F,38,46,F,F,,,,,2.75,8,F,F,F,Password:URL Credentials
 71453,a9108d0e,GitHub,0436af4a,data/0436af4a/other/a9108d0e.md,724,724,F,F,34,47,F,F,,,,,2.54,13,F,F,F,Credential
@@ -63,7 +63,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 71502,2c05a92b,GitHub,0436af4a,data/0436af4a/test/2c05a92b.cs,111,111,F,F,74,84,F,F,,,,,2.99,10,F,F,F,Auth
 71503,2c05a92b,GitHub,0436af4a,data/0436af4a/test/2c05a92b.cs,405,405,F,F,43,49,F,F,,,,,2.15,6,F,F,F,Auth
 71504,dc9185d3,GitHub,0436af4a,data/0436af4a/test/dc9185d3.cs,23,23,T,F,29,39,F,F,,,,,3.12,10,F,F,F,Password
-71505,4433e6a4,GitHub,0436af4a,data/0436af4a/test/4433e6a4.cs,15,15,F,F,41,73,F,F,,,,,3.50,32,F,F,F,Secret
+71505,4433e6a4,GitHub,0436af4a,data/0436af4a/test/4433e6a4.cs,15,15,T,F,41,73,F,F,,,,,3.50,32,F,F,F,Secret
 71506,4433e6a4,GitHub,0436af4a,data/0436af4a/test/4433e6a4.cs,145,145,T,F,33,43,F,F,,,,,2.72,10,F,F,F,Auth
 71507,4433e6a4,GitHub,0436af4a,data/0436af4a/test/4433e6a4.cs,284,284,F,F,36,45,F,F,,,,,2.24,9,F,F,F,Token
 71508,4433e6a4,GitHub,0436af4a,data/0436af4a/test/4433e6a4.cs,245,245,F,F,31,44,F,F,,,,,2.54,13,F,F,F,Token
@@ -90,22 +90,20 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 71529,d2b2603a,GitHub,0436af4a,data/0436af4a/test/d2b2603a.cs,150,150,T,F,29,37,F,F,,,,,2.75,8,F,F,F,Key
 71530,df627f1b,GitHub,0436af4a,data/0436af4a/test/df627f1b.cs,169,169,T,F,26,36,F,F,,,,,3.12,10,F,F,F,Password
 71531,df627f1b,GitHub,0436af4a,data/0436af4a/test/df627f1b.cs,170,170,T,F,26,37,F,F,,,,,3.28,11,F,F,F,Password
-109384,0f5653ad,GitHub,0436af4a,data/0436af4a/src/0f5653ad.cs,16,16,Template,F,35,71,F,F,,,,,3.9329994,,F,F,F,Other
+109384,0f5653ad,GitHub,0436af4a,data/0436af4a/src/0f5653ad.cs,16,16,T,F,35,71,F,F,,,,,3.9329994,,F,F,F,UUID
 109385,399829cf,GitHub,0436af4a,data/0436af4a/src/399829cf.cs,21,21,T,F,25,35,F,F,,,,,3.251629,,F,F,F,Password
 109390,6d6c3e78,GitHub,0436af4a,data/0436af4a/src/6d6c3e78.cs,212,212,F,F,,,F,F,,,,,3.8077636,,F,F,F,Token
-109395,e79ea97a,GitHub,0436af4a,data/0436af4a/src/e79ea97a.cs,162,162,F,F,37,73,F,F,,,,,3.7499413,,F,F,F,Token
+109395,e79ea97a,GitHub,0436af4a,data/0436af4a/src/e79ea97a.cs,162,162,T,F,37,73,F,F,,,,,3.7499413,,F,F,F,UUID
 109396,114e3c56,GitHub,0436af4a,data/0436af4a/test/114e3c56.cs,19,19,F,F,42,55,F,F,,,,,3.7004397,,F,F,F,Token
 109397,114e3c56,GitHub,0436af4a,data/0436af4a/test/114e3c56.cs,22,22,F,F,43,56,F,F,,,,,3.7004397,,F,F,F,Token
-109399,61d643c5,GitHub,0436af4a,data/0436af4a/test/61d643c5.cs,16,16,Template,F,33,69,F,F,,,,,3.7499413,,F,F,F,Other
-109400,697a0f01,GitHub,0436af4a,data/0436af4a/test/697a0f01.cs,16,16,Template,F,25,61,F,F,,,,,3.8292398,,F,F,F,Other
-109401,4856a9ca,GitHub,0436af4a,data/0436af4a/test/4856a9ca.cs,610,610,Template,F,25,61,F,F,,,,,3.5312107,,F,F,F,Other
-109402,92b8ee86,GitHub,0436af4a,data/0436af4a/test/92b8ee86.cs,208,208,Template,F,19,55,F,F,,,,,3.7527153,,F,F,F,Other
+109399,61d643c5,GitHub,0436af4a,data/0436af4a/test/61d643c5.cs,16,16,T,F,33,69,F,F,,,,,3.7499413,,F,F,F,UUID
+109400,697a0f01,GitHub,0436af4a,data/0436af4a/test/697a0f01.cs,16,16,T,F,25,61,F,F,,,,,3.8292398,,F,F,F,UUID
+109401,4856a9ca,GitHub,0436af4a,data/0436af4a/test/4856a9ca.cs,610,610,T,F,25,61,F,F,,,,,3.5312107,,F,F,F,UUID
+109402,92b8ee86,GitHub,0436af4a,data/0436af4a/test/92b8ee86.cs,208,208,T,F,19,55,F,F,,,,,3.7527153,,F,F,F,UUID
 109403,92b8ee86,GitHub,0436af4a,data/0436af4a/test/92b8ee86.cs,80,80,F,F,29,38,F,F,,,,,2.6635327,,F,F,F,Password
 109406,d5419004,GitHub,0436af4a,data/0436af4a/test/d5419004.cs,71,71,F,F,25,33,F,F,,,,,2.9219282,,F,F,F,Password
 109407,df627f1b,GitHub,0436af4a,data/0436af4a/test/df627f1b.cs,119,119,T,F,26,37,F,F,,,,,3.3927474,,F,F,F,Password
 1110163,a9108d0e,GitHub,0436af4a,data/0436af4a/other/a9108d0e.md,381,381,T,F,35,43,F,F,,,,,,42,F,F,F,Password:URL Credentials
-1110164,2c196fef,GitHub,0436af4a,data/0436af4a/src/2c196fef.sln,42,42,F,F,113,135,F,F,,,,,,22,F,F,F,Gitlab Feed Token
-1110165,2c196fef,GitHub,0436af4a,data/0436af4a/src/2c196fef.sln,44,44,F,F,131,153,F,F,,,,,,22,F,F,F,Gitlab Feed Token
 1110169,70f9618e,GitHub,0436af4a,data/0436af4a/test/70f9618e.cs,67,67,T,F,31,45,F,F,,,,,,44,F,F,F,Password:URL Credentials
 1113045,4663e076,GitHub,0436af4a,data/0436af4a/other/4663e076.md,206,206,F,F,37,50,F,F,,,,,0.0,0,F,F,F,Credential
 1113046,2570e05e,GitHub,0436af4a,data/0436af4a/src/2570e05e.cs,169,169,F,F,18,48,F,F,,,,,0.0,0,F,F,F,Password
@@ -155,3 +153,29 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 1113088,df627f1b,GitHub,0436af4a,data/0436af4a/test/df627f1b.cs,57,57,T,F,25,35,F,F,,,,,0.0,0,F,F,F,Password
 1113089,df627f1b,GitHub,0436af4a,data/0436af4a/test/df627f1b.cs,118,118,T,F,26,36,F,F,,,,,0.0,0,F,F,F,Password
 1113090,ef52c2b8,GitHub,0436af4a,data/0436af4a/test/ef52c2b8.cs,24,24,T,F,25,35,F,F,,,,,0.0,0,F,F,F,Password
+1370174,0f5653ad,GitHub,0436af4a,data/0436af4a/src/0f5653ad.cs,11,11,T,F,45,81,F,F,,,,,0.0,0,F,F,F,UUID
+1370667,6d6c3e78,GitHub,0436af4a,data/0436af4a/src/6d6c3e78.cs,19,19,T,F,51,87,F,F,,,,,0.0,0,F,F,F,UUID
+1370668,6d6c3e78,GitHub,0436af4a,data/0436af4a/src/6d6c3e78.cs,24,24,T,F,51,87,F,F,,,,,0.0,0,F,F,F,UUID
+1370669,cfa449d4,GitHub,0436af4a,data/0436af4a/src/cfa449d4.cs,158,158,T,F,78,114,F,F,,,,,0.0,0,F,F,F,UUID
+1370670,4856a9ca,GitHub,0436af4a,data/0436af4a/test/4856a9ca.cs,609,609,T,F,25,61,F,F,,,,,0.0,0,F,F,F,UUID
+1370671,4856a9ca,GitHub,0436af4a,data/0436af4a/test/4856a9ca.cs,788,788,T,F,53,89,F,F,,,,,0.0,0,F,F,F,UUID
+1370672,4856a9ca,GitHub,0436af4a,data/0436af4a/test/4856a9ca.cs,789,789,T,F,60,96,F,F,,,,,0.0,0,F,F,F,UUID
+1370673,4856a9ca,GitHub,0436af4a,data/0436af4a/test/4856a9ca.cs,790,790,T,F,53,89,F,F,,,,,0.0,0,F,F,F,UUID
+1370674,4856a9ca,GitHub,0436af4a,data/0436af4a/test/4856a9ca.cs,791,791,T,F,60,96,F,F,,,,,0.0,0,F,F,F,UUID
+1370675,4856a9ca,GitHub,0436af4a,data/0436af4a/test/4856a9ca.cs,792,792,T,F,53,89,F,F,,,,,0.0,0,F,F,F,UUID
+1370676,4856a9ca,GitHub,0436af4a,data/0436af4a/test/4856a9ca.cs,793,793,T,F,62,98,F,F,,,,,0.0,0,F,F,F,UUID
+1370677,4856a9ca,GitHub,0436af4a,data/0436af4a/test/4856a9ca.cs,794,794,T,F,53,89,F,F,,,,,0.0,0,F,F,F,UUID
+1370678,4856a9ca,GitHub,0436af4a,data/0436af4a/test/4856a9ca.cs,795,795,T,F,61,97,F,F,,,,,0.0,0,F,F,F,UUID
+1370679,4856a9ca,GitHub,0436af4a,data/0436af4a/test/4856a9ca.cs,800,800,T,F,53,89,F,F,,,,,0.0,0,F,F,F,UUID
+1370680,4856a9ca,GitHub,0436af4a,data/0436af4a/test/4856a9ca.cs,801,801,T,F,60,96,F,F,,,,,0.0,0,F,F,F,UUID
+1370681,4856a9ca,GitHub,0436af4a,data/0436af4a/test/4856a9ca.cs,804,804,T,F,53,89,F,F,,,,,0.0,0,F,F,F,UUID
+1370682,4856a9ca,GitHub,0436af4a,data/0436af4a/test/4856a9ca.cs,807,807,T,F,60,96,F,F,,,,,0.0,0,F,F,F,UUID
+1370683,697a0f01,GitHub,0436af4a,data/0436af4a/test/697a0f01.cs,50,50,T,F,13,49,F,F,,,,,0.0,0,F,F,F,UUID
+1370684,697a0f01,GitHub,0436af4a,data/0436af4a/test/697a0f01.cs,51,51,T,F,18,54,F,F,,,,,0.0,0,F,F,F,UUID
+1370685,697a0f01,GitHub,0436af4a,data/0436af4a/test/697a0f01.cs,52,52,T,F,18,54,F,F,,,,,0.0,0,F,F,F,UUID
+1370686,697a0f01,GitHub,0436af4a,data/0436af4a/test/697a0f01.cs,53,53,T,F,18,54,F,F,,,,,0.0,0,F,F,F,UUID
+1370687,697a0f01,GitHub,0436af4a,data/0436af4a/test/697a0f01.cs,54,54,T,F,24,60,F,F,,,,,0.0,0,F,F,F,UUID
+1370688,697a0f01,GitHub,0436af4a,data/0436af4a/test/697a0f01.cs,55,55,T,F,24,60,F,F,,,,,0.0,0,F,F,F,UUID
+1370689,697a0f01,GitHub,0436af4a,data/0436af4a/test/697a0f01.cs,56,56,T,F,24,60,F,F,,,,,0.0,0,F,F,F,UUID
+1370690,697a0f01,GitHub,0436af4a,data/0436af4a/test/697a0f01.cs,66,66,T,F,23,59,F,F,,,,,0.0,0,F,F,F,UUID
+1371381,6d6c3e78,GitHub,0436af4a,data/0436af4a/src/6d6c3e78.cs,151,151,F,F,35,45,F,F,,,,,0.0,0,F,F,F,Auth
