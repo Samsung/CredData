@@ -42,9 +42,9 @@ def main(report_file: str, meta_dir: str):
         meta_cred = MetaCred(cred)
         key_variants = [
             # exactly match
-            (meta_cred.path, meta_cred.line_start, meta_cred.line_end, meta_cred.strip_value_start, meta_cred.strip_value_end),
+            (meta_cred.path, meta_cred.line_start, meta_cred.line_end, meta_cred.value_start, meta_cred.value_end),
             # meta markup only with start position
-            (meta_cred.path, meta_cred.line_start, meta_cred.line_end, meta_cred.strip_value_start, -1),
+            (meta_cred.path, meta_cred.line_start, meta_cred.line_end, meta_cred.value_start, -1),
             # markup for whole line
             (meta_cred.path, meta_cred.line_start, meta_cred.line_end, -1, -1)
         ]
