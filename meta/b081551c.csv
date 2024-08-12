@@ -64,7 +64,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 37721,939bdae4,GitHub,b081551c,data/b081551c/test/939bdae4.py,404,404,Template,T,15,20,F,F,CharsOnly,,,Secret,1.92,5,F,F,F,Password
 37722,939bdae4,GitHub,b081551c,data/b081551c/test/939bdae4.py,432,432,Template,T,15,20,F,F,CharsOnly,,,Secret,1.92,5,F,F,F,Password
 41714,89572d6c,GitHub,b081551c,data/b081551c/src/89572d6c.py,857,857,F,T,,,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password:URL Credentials
-42961,c5b786f0,GitHub,b081551c,data/b081551c/src/c5b786f0.pyx,166,166,F,F,,,F,F,,,,,0,0,F,F,F,Password
+42961,c5b786f0,GitHub,b081551c,data/b081551c/src/c5b786f0.pyx,166,166,F,F,,,F,F,,,,,0,0,F,F,F,Password:Salt
 42962,c5b786f0,GitHub,b081551c,data/b081551c/src/c5b786f0.pyx,171,171,F,F,,,F,F,,,,,0,0,F,F,F,Password
 46729,939bdae4,GitHub,b081551c,data/b081551c/test/939bdae4.py,442,442,Template,F,13,19,F,F,NumbersOnly,,,Secret,1.58,6,F,F,F,Password
 46730,939bdae4,GitHub,b081551c,data/b081551c/test/939bdae4.py,453,453,Template,F,13,19,F,F,NumbersOnly,,,Secret,1.58,6,F,F,F,Password
@@ -110,3 +110,4 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 132965,939bdae4,GitHub,b081551c,data/b081551c/test/939bdae4.py,789,789,F,F,,,F,F,,,,,0,0,F,F,F,Password
 138053,939bdae4,GitHub,b081551c,data/b081551c/test/939bdae4.py,894,894,F,F,42,46,F,F,,,,,0.0,0,F,F,F,Password
 1381069,939bdae4,GitHub,b081551c,data/b081551c/test/939bdae4.py,793,793,F,F,42,46,F,F,,,,,0.0,0,F,F,F,Password
+1381085,c5b786f0,GitHub,b081551c,data/b081551c/src/c5b786f0.pyx,159,159,F,F,,,F,F,,,,,0.0,0,F,F,F,Nonce
