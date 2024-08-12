@@ -105,9 +105,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 20004,22f20554,GitHub,4764adaf,data/4764adaf/test/22f20554.json,353,353,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 20011,a7d63009,GitHub,4764adaf,data/4764adaf/test/a7d63009.js,8,8,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 20012,a7d5a18a,GitHub,4764adaf,data/4764adaf/test/a7d5a18a.js,604,604,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-20013,edc165c7,GitHub,4764adaf,data/4764adaf/test/edc165c7.js,220,220,F,F,8,17,F,F,,,,,0,0,F,F,F,Secret:Key
-20014,f4f2a7ed,GitHub,4764adaf,data/4764adaf/test/f4f2a7ed.js,345,345,F,F,8,17,F,F,,,,,0,0,F,F,F,Secret:Key
-20015,6afbed1c,GitHub,4764adaf,data/4764adaf/test/6afbed1c.js,345,345,F,F,8,17,F,F,,,,,0,0,F,F,F,Secret:Key
+20013,edc165c7,GitHub,4764adaf,data/4764adaf/test/edc165c7.js,220,220,F,F,14,23,F,F,,,,,0.0,0,F,F,F,Secret:Key
+20014,f4f2a7ed,GitHub,4764adaf,data/4764adaf/test/f4f2a7ed.js,345,345,F,F,14,23,F,F,,,,,0.0,0,F,F,F,Secret:Key
+20015,6afbed1c,GitHub,4764adaf,data/4764adaf/test/6afbed1c.js,345,345,F,F,14,23,F,F,,,,,0.0,0,F,F,F,Secret:Key
 20029,a7d5a18a,GitHub,4764adaf,data/4764adaf/test/a7d5a18a.js,750,750,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 20032,a7d5a18a,GitHub,4764adaf,data/4764adaf/test/a7d5a18a.js,665,665,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 20043,edc165c7,GitHub,4764adaf,data/4764adaf/test/edc165c7.js,232,232,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -160,8 +160,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 20717,6afbed1c,GitHub,4764adaf,data/4764adaf/test/6afbed1c.js,66,66,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 20722,a7d5a18a,GitHub,4764adaf,data/4764adaf/test/a7d5a18a.js,3014,3014,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 20728,a7d5a18a,GitHub,4764adaf,data/4764adaf/test/a7d5a18a.js,515,515,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-20729,f4f2a7ed,GitHub,4764adaf,data/4764adaf/test/f4f2a7ed.js,439,439,F,F,8,15,F,F,,,,,0,0,F,F,F,Secret:Key
-20730,6afbed1c,GitHub,4764adaf,data/4764adaf/test/6afbed1c.js,439,439,F,F,8,15,F,F,,,,,0,0,F,F,F,Secret:Key
+20729,f4f2a7ed,GitHub,4764adaf,data/4764adaf/test/f4f2a7ed.js,439,439,F,F,14,21,F,F,,,,,0.0,0,F,F,F,Secret:Key
+20730,6afbed1c,GitHub,4764adaf,data/4764adaf/test/6afbed1c.js,439,439,F,F,14,21,F,F,,,,,0.0,0,F,F,F,Secret:Key
 20734,18f68b6e,GitHub,4764adaf,data/4764adaf/test/18f68b6e.js,84,84,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 20742,a7d5a18a,GitHub,4764adaf,data/4764adaf/test/a7d5a18a.js,1358,1358,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 20744,6afbed1c,GitHub,4764adaf,data/4764adaf/test/6afbed1c.js,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -175,53 +175,53 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 20768,a5efdb78,GitHub,4764adaf,data/4764adaf/test/a5efdb78.json,38,38,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 20771,18b5e1ee,GitHub,4764adaf,data/4764adaf/test/18b5e1ee.js,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 20773,f9ff81e7,GitHub,4764adaf,data/4764adaf/test/f9ff81e7.js,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-22185,ea9346a2,GitHub,4764adaf,data/4764adaf/test/ea9346a2.json,6,6,Template,F,16,22,F,F,Any,,,Secret,2.58,6,F,F,F,Secret
-22255,337c5eb2,GitHub,4764adaf,data/4764adaf/src/337c5eb2.json,448,448,Template,T,1,9,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Password
-28844,ea9346a2,GitHub,4764adaf,data/4764adaf/test/ea9346a2.json,12,12,Template,T,11,34,F,F,Any,,,Secret,2.76,23,F,F,F,Secret
-29088,52c4868e,GitHub,4764adaf,data/4764adaf/test/52c4868e.js,587,587,Template,T,11,21,F,F,Any,,,Secret,3.12,10,F,F,F,Password
-29344,e45e45ba,GitHub,4764adaf,data/4764adaf/src/e45e45ba.yml,43,43,Template,T,15,23,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-29925,c907da53,GitHub,4764adaf,data/4764adaf/test/c907da53.js,203,203,Template,T,11,18,F,F,Any,,,Secret,2.52,7,F,F,F,Password
-29926,7e37e5b4,GitHub,4764adaf,data/4764adaf/test/7e37e5b4.js,6893,6893,Template,T,11,18,F,F,Any,,,Secret,2.52,7,F,F,F,Password
-30500,52c4868e,GitHub,4764adaf,data/4764adaf/test/52c4868e.js,573,573,F,F,36,46,F,F,,,,,0,0,F,F,F,Password
-31135,b3356305,GitHub,4764adaf,data/4764adaf/other/b3356305.md,41,41,Template,T,16,24,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-34367,c907da53,GitHub,4764adaf,data/4764adaf/test/c907da53.js,109,109,Template,T,11,19,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-34369,52c4868e,GitHub,4764adaf,data/4764adaf/test/52c4868e.js,89,89,Template,T,11,19,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-34387,7daff6a3,GitHub,4764adaf,data/4764adaf/test/7daff6a3.js,850,850,T,T,11,22,F,F,Any,,,Secret,3.03,11,F,F,F,Password
-34393,7daff6a3,GitHub,4764adaf,data/4764adaf/test/7daff6a3.js,829,829,T,T,11,21,F,F,Any,,,Secret,3.12,10,F,F,F,Password
-34886,6c4ac771,GitHub,4764adaf,data/4764adaf/test/6c4ac771.js,56,56,T,F,8,20,T,F,,,,,0,0,F,F,F,Token
-35022,f07c4281,GitHub,4764adaf,data/4764adaf/src/f07c4281.json,33,33,T,T,13,26,F,F,Any,,,Secret,2.90,13,F,F,F,Password
-36228,b37ca27a,GitHub,4764adaf,data/4764adaf/test/b37ca27a.js,631,631,Template,T,13,21,F,F,CharsOnly,,,Secret,2.50,8,F,F,F,Password
-36239,b37ca27a,GitHub,4764adaf,data/4764adaf/test/b37ca27a.js,499,499,Template,T,13,24,F,F,CharsOnly,,,Secret,2.91,11,F,F,F,Password
-36339,b37ca27a,GitHub,4764adaf,data/4764adaf/test/b37ca27a.js,472,472,Template,T,13,27,F,F,Any,,,Secret,2.56,14,F,F,F,Password
-36444,e45b2ef1,GitHub,4764adaf,data/4764adaf/test/e45b2ef1.js,661,661,T,T,18,25,F,F,Any,,,Secret,2.81,7,F,F,F,Password
-37129,c907da53,GitHub,4764adaf,data/4764adaf/test/c907da53.js,124,124,Template,T,11,19,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-37130,52c4868e,GitHub,4764adaf,data/4764adaf/test/52c4868e.js,2246,2246,Template,T,11,19,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-37131,52c4868e,GitHub,4764adaf,data/4764adaf/test/52c4868e.js,2289,2289,Template,T,11,19,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-37132,52c4868e,GitHub,4764adaf,data/4764adaf/test/52c4868e.js,2485,2485,Template,T,11,19,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-37133,52c4868e,GitHub,4764adaf,data/4764adaf/test/52c4868e.js,2540,2540,Template,T,11,19,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-37161,7daff6a3,GitHub,4764adaf,data/4764adaf/test/7daff6a3.js,885,885,T,T,11,22,F,F,Any,,,Secret,3.03,11,F,F,F,Password
-37162,7daff6a3,GitHub,4764adaf,data/4764adaf/test/7daff6a3.js,870,870,T,T,11,21,F,F,Any,,,Secret,3.12,10,F,F,F,Password
-37628,b37ca27a,GitHub,4764adaf,data/4764adaf/test/b37ca27a.js,651,651,Template,T,13,21,F,F,CharsOnly,,,Secret,2.50,8,F,F,F,Password
-37647,b37ca27a,GitHub,4764adaf,data/4764adaf/test/b37ca27a.js,561,561,Template,T,13,24,F,F,CharsOnly,,,Secret,2.91,11,F,F,F,Password
+22185,ea9346a2,GitHub,4764adaf,data/4764adaf/test/ea9346a2.json,6,6,Template,F,18,24,F,F,Any,,,Secret,2.58,6,F,F,F,Secret
+22255,337c5eb2,GitHub,4764adaf,data/4764adaf/src/337c5eb2.json,448,448,Template,T,9,17,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Password
+28844,ea9346a2,GitHub,4764adaf,data/4764adaf/test/ea9346a2.json,12,12,Template,T,15,38,F,F,Any,,,Secret,2.76,23,F,F,F,Secret
+29088,52c4868e,GitHub,4764adaf,data/4764adaf/test/52c4868e.js,587,587,Template,T,25,35,F,F,Any,,,Secret,3.12,10,F,F,F,Password
+29344,e45e45ba,GitHub,4764adaf,data/4764adaf/src/e45e45ba.yml,43,43,Template,T,21,29,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+29925,c907da53,GitHub,4764adaf,data/4764adaf/test/c907da53.js,203,203,Template,T,19,26,F,F,Any,,,Secret,2.52,7,F,F,F,Password
+29926,7e37e5b4,GitHub,4764adaf,data/4764adaf/test/7e37e5b4.js,6893,6893,Template,T,27,34,F,F,Any,,,Secret,2.52,7,F,F,F,Password
+30500,52c4868e,GitHub,4764adaf,data/4764adaf/test/52c4868e.js,573,573,F,F,46,56,F,F,,,,,0.0,0,F,F,F,Password
+31135,b3356305,GitHub,4764adaf,data/4764adaf/other/b3356305.md,41,41,Template,T,20,28,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+34367,c907da53,GitHub,4764adaf,data/4764adaf/test/c907da53.js,109,109,Template,T,19,27,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+34369,52c4868e,GitHub,4764adaf,data/4764adaf/test/52c4868e.js,89,89,Template,T,27,35,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+34387,7daff6a3,GitHub,4764adaf,data/4764adaf/test/7daff6a3.js,850,850,T,T,19,30,F,F,Any,,,Secret,3.03,11,F,F,F,Password
+34393,7daff6a3,GitHub,4764adaf,data/4764adaf/test/7daff6a3.js,829,829,T,T,19,29,F,F,Any,,,Secret,3.12,10,F,F,F,Password
+34886,6c4ac771,GitHub,4764adaf,data/4764adaf/test/6c4ac771.js,56,56,T,F,16,28,T,F,,,,,0.0,0,F,F,F,Token
+35022,f07c4281,GitHub,4764adaf,data/4764adaf/src/f07c4281.json,33,33,T,T,17,30,F,F,Any,,,Secret,2.9,13,F,F,F,Password
+36228,b37ca27a,GitHub,4764adaf,data/4764adaf/test/b37ca27a.js,631,631,Template,T,25,33,F,F,CharsOnly,,,Secret,2.5,8,F,F,F,Password
+36239,b37ca27a,GitHub,4764adaf,data/4764adaf/test/b37ca27a.js,499,499,Template,T,29,40,F,F,CharsOnly,,,Secret,2.91,11,F,F,F,Password
+36339,b37ca27a,GitHub,4764adaf,data/4764adaf/test/b37ca27a.js,472,472,Template,T,25,39,F,F,Any,,,Secret,2.56,14,F,F,F,Password
+36444,e45b2ef1,GitHub,4764adaf,data/4764adaf/test/e45b2ef1.js,661,661,T,T,30,37,F,F,Any,,,Secret,2.81,7,F,F,F,Password
+37129,c907da53,GitHub,4764adaf,data/4764adaf/test/c907da53.js,124,124,Template,T,17,25,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+37130,52c4868e,GitHub,4764adaf,data/4764adaf/test/52c4868e.js,2246,2246,Template,T,27,35,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+37131,52c4868e,GitHub,4764adaf,data/4764adaf/test/52c4868e.js,2289,2289,Template,T,25,33,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+37132,52c4868e,GitHub,4764adaf,data/4764adaf/test/52c4868e.js,2485,2485,Template,T,23,31,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+37133,52c4868e,GitHub,4764adaf,data/4764adaf/test/52c4868e.js,2540,2540,Template,T,23,31,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+37161,7daff6a3,GitHub,4764adaf,data/4764adaf/test/7daff6a3.js,885,885,T,T,19,30,F,F,Any,,,Secret,3.03,11,F,F,F,Password
+37162,7daff6a3,GitHub,4764adaf,data/4764adaf/test/7daff6a3.js,870,870,T,T,19,29,F,F,Any,,,Secret,3.12,10,F,F,F,Password
+37628,b37ca27a,GitHub,4764adaf,data/4764adaf/test/b37ca27a.js,651,651,Template,T,25,33,F,F,CharsOnly,,,Secret,2.5,8,F,F,F,Password
+37647,b37ca27a,GitHub,4764adaf,data/4764adaf/test/b37ca27a.js,561,561,Template,T,29,40,F,F,CharsOnly,,,Secret,2.91,11,F,F,F,Password
 46429,2d456272,GitHub,4764adaf,data/4764adaf/test/2d456272.js,157,157,F,F,,,F,F,,,,,0,0,F,F,F,Atlassian Old PAT token
 46430,2d456272,GitHub,4764adaf,data/4764adaf/test/2d456272.js,207,207,F,F,,,F,F,,,,,0,0,F,F,F,Atlassian Old PAT token
 46452,2d456272,GitHub,4764adaf,data/4764adaf/test/2d456272.js,99,99,F,F,,,F,F,,,,,0,0,F,F,F,Atlassian Old PAT token
 46453,2d456272,GitHub,4764adaf,data/4764adaf/test/2d456272.js,100,100,F,F,,,F,F,,,,,0,0,F,F,F,Atlassian Old PAT token
-46524,7e37e5b4,GitHub,4764adaf,data/4764adaf/test/7e37e5b4.js,6855,6855,Template,T,11,19,F,F,CharsOnly,,,Unknown,2.75,8,F,F,F,Password
-46747,52c4868e,GitHub,4764adaf,data/4764adaf/test/52c4868e.js,818,818,Template,T,11,21,F,F,Any,,,Secret,3.12,10,F,F,F,Password
-46788,b37ca27a,GitHub,4764adaf,data/4764adaf/test/b37ca27a.js,786,786,Template,T,13,25,F,F,Any,,,Secret,2.79,12,F,F,F,Password
+46524,7e37e5b4,GitHub,4764adaf,data/4764adaf/test/7e37e5b4.js,6855,6855,Template,T,29,37,F,F,CharsOnly,,,Unknown,2.75,8,F,F,F,Password
+46747,52c4868e,GitHub,4764adaf,data/4764adaf/test/52c4868e.js,818,818,Template,T,27,37,F,F,Any,,,Secret,3.12,10,F,F,F,Password
+46788,b37ca27a,GitHub,4764adaf,data/4764adaf/test/b37ca27a.js,786,786,Template,T,27,39,F,F,Any,,,Secret,2.79,12,F,F,F,Password
 47085,a7d5a18a,GitHub,4764adaf,data/4764adaf/test/a7d5a18a.js,3221,3221,F,F,,,F,F,,,,,0,0,F,F,F,API
-47125,7daff6a3,GitHub,4764adaf,data/4764adaf/test/7daff6a3.js,815,815,Template,T,11,19,F,F,CharsOnly,,,Unknown,2.75,8,F,F,F,Password
-47204,a7d5a18a,GitHub,4764adaf,data/4764adaf/test/a7d5a18a.js,1403,1403,Template,T,11,19,F,F,CharsOnly,,,Unknown,2.75,8,F,F,F,Password
+47125,7daff6a3,GitHub,4764adaf,data/4764adaf/test/7daff6a3.js,815,815,Template,T,23,31,F,F,CharsOnly,,,Unknown,2.75,8,F,F,F,Password
+47204,a7d5a18a,GitHub,4764adaf,data/4764adaf/test/a7d5a18a.js,1403,1403,Template,T,21,29,F,F,CharsOnly,,,Unknown,2.75,8,F,F,F,Password
 47281,22f20554,GitHub,4764adaf,data/4764adaf/test/22f20554.json,592,592,F,F,,,F,F,,,,,0,0,F,F,F,Atlassian Old PAT token
 47282,84d932dd,GitHub,4764adaf,data/4764adaf/test/84d932dd.json,592,592,F,F,,,F,F,,,,,0,0,F,F,F,Atlassian Old PAT token
 47283,84d932dd,GitHub,4764adaf,data/4764adaf/test/84d932dd.json,593,593,F,F,,,F,F,,,,,0,0,F,F,F,Atlassian Old PAT token
 47284,22f20554,GitHub,4764adaf,data/4764adaf/test/22f20554.json,593,593,F,F,,,F,F,,,,,0,0,F,F,F,Atlassian Old PAT token
 47285,84d932dd,GitHub,4764adaf,data/4764adaf/test/84d932dd.json,594,594,F,F,,,F,F,,,,,0,0,F,F,F,Atlassian Old PAT token
 47286,22f20554,GitHub,4764adaf,data/4764adaf/test/22f20554.json,594,594,F,F,,,F,F,,,,,0,0,F,F,F,Atlassian Old PAT token
-47571,c907da53,GitHub,4764adaf,data/4764adaf/test/c907da53.js,230,230,Template,T,11,18,F,F,Any,,,Secret,2.52,7,F,F,F,Password
-47572,c907da53,GitHub,4764adaf,data/4764adaf/test/c907da53.js,212,212,Template,T,11,18,F,F,Any,,,Secret,2.52,7,F,F,F,Password
-47573,c907da53,GitHub,4764adaf,data/4764adaf/test/c907da53.js,221,221,Template,T,11,18,F,F,Any,,,Secret,2.52,7,F,F,F,Password
+47571,c907da53,GitHub,4764adaf,data/4764adaf/test/c907da53.js,230,230,Template,T,19,26,F,F,Any,,,Secret,2.52,7,F,F,F,Password
+47572,c907da53,GitHub,4764adaf,data/4764adaf/test/c907da53.js,212,212,Template,T,19,26,F,F,Any,,,Secret,2.52,7,F,F,F,Password
+47573,c907da53,GitHub,4764adaf,data/4764adaf/test/c907da53.js,221,221,Template,T,19,26,F,F,Any,,,Secret,2.52,7,F,F,F,Password
 47705,edc165c7,GitHub,4764adaf,data/4764adaf/test/edc165c7.js,235,235,F,F,,,F,F,,,,,0,0,F,F,F,Atlassian Old PAT token
 47706,f9ff81e7,GitHub,4764adaf,data/4764adaf/test/f9ff81e7.js,374,374,F,F,,,F,F,,,,,0,0,F,F,F,Atlassian Old PAT token
 47707,f4f2a7ed,GitHub,4764adaf,data/4764adaf/test/f4f2a7ed.js,374,374,F,F,,,F,F,,,,,0,0,F,F,F,Atlassian Old PAT token
@@ -250,7 +250,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 54091,a7d5a18a,GitHub,4764adaf,data/4764adaf/test/a7d5a18a.js,994,994,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 54092,a7d5a18a,GitHub,4764adaf,data/4764adaf/test/a7d5a18a.js,1278,1278,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 54093,a7d5a18a,GitHub,4764adaf,data/4764adaf/test/a7d5a18a.js,816,816,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-54101,f9ff81e7,GitHub,4764adaf,data/4764adaf/test/f9ff81e7.js,345,345,F,F,8,17,F,F,,,,,0,0,F,F,F,Secret:Key
+54101,f9ff81e7,GitHub,4764adaf,data/4764adaf/test/f9ff81e7.js,345,345,F,F,14,23,F,F,,,,,0.0,0,F,F,F,Secret:Key
 54103,a7d5a18a,GitHub,4764adaf,data/4764adaf/test/a7d5a18a.js,861,861,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 54104,a7d5a18a,GitHub,4764adaf,data/4764adaf/test/a7d5a18a.js,942,942,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 54105,a7d5a18a,GitHub,4764adaf,data/4764adaf/test/a7d5a18a.js,1174,1174,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -323,7 +323,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 54491,18b5e1ee,GitHub,4764adaf,data/4764adaf/test/18b5e1ee.js,2007,2007,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 54492,18b5e1ee,GitHub,4764adaf,data/4764adaf/test/18b5e1ee.js,2208,2208,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 54493,aede01f7,GitHub,4764adaf,data/4764adaf/test/aede01f7.js,61,61,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-54497,f9ff81e7,GitHub,4764adaf,data/4764adaf/test/f9ff81e7.js,439,439,F,F,8,15,F,F,,,,,0,0,F,F,F,Secret:Key
+54497,f9ff81e7,GitHub,4764adaf,data/4764adaf/test/f9ff81e7.js,439,439,F,F,14,21,F,F,,,,,0.0,0,F,F,F,Secret:Key
 54503,aede01f7,GitHub,4764adaf,data/4764adaf/test/aede01f7.js,26,26,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 54504,a7d5a18a,GitHub,4764adaf,data/4764adaf/test/a7d5a18a.js,3397,3397,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 54505,a7d5a18a,GitHub,4764adaf,data/4764adaf/test/a7d5a18a.js,3538,3538,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -430,17 +430,17 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 75395,331d276b,GitHub,4764adaf,data/4764adaf/test/331d276b.js,726,726,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 75404,52c4868e,GitHub,4764adaf,data/4764adaf/test/52c4868e.js,843,843,F,F,,,F,F,,,,,0,0,F,F,F,Token
 77101,32dc0f3b,GitHub,4764adaf,data/4764adaf/src/32dc0f3b.js,544,544,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
-82289,337c5eb2,GitHub,4764adaf,data/4764adaf/src/337c5eb2.json,465,465,Template,T,1,9,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-82290,337c5eb2,GitHub,4764adaf,data/4764adaf/src/337c5eb2.json,479,479,Template,T,1,9,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-82291,337c5eb2,GitHub,4764adaf,data/4764adaf/src/337c5eb2.json,513,513,Template,T,1,9,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-82292,2d456272,GitHub,4764adaf,data/4764adaf/test/2d456272.js,158,158,F,F,12,36,F,F,,,,,0,0,F,F,F,Atlassian Old PAT token
-82293,2d456272,GitHub,4764adaf,data/4764adaf/test/2d456272.js,208,208,F,F,12,36,F,F,,,,,0,0,F,F,F,Atlassian Old PAT token
-82294,a7d5a18a,GitHub,4764adaf,data/4764adaf/test/a7d5a18a.js,1474,1474,Template,T,11,19,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-82295,7e37e5b4,GitHub,4764adaf,data/4764adaf/test/7e37e5b4.js,6877,6877,Template,T,11,19,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-82296,7e37e5b4,GitHub,4764adaf,data/4764adaf/test/7e37e5b4.js,9843,9843,Template,T,11,19,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-82297,7e37e5b4,GitHub,4764adaf,data/4764adaf/test/7e37e5b4.js,9889,9889,Template,T,11,19,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-100509,f07c4281,GitHub,4764adaf,data/4764adaf/src/f07c4281.json,12,12,Template,T,16,37,F,F,Any,,,Secret,2.11,21,F,F,F,Secret
-100510,f07c4281,GitHub,4764adaf,data/4764adaf/src/f07c4281.json,27,27,Template,T,11,32,F,F,Any,,,Secret,2.11,21,F,F,F,Secret
+82289,337c5eb2,GitHub,4764adaf,data/4764adaf/src/337c5eb2.json,465,465,Template,T,11,19,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+82290,337c5eb2,GitHub,4764adaf,data/4764adaf/src/337c5eb2.json,479,479,Template,T,9,17,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+82291,337c5eb2,GitHub,4764adaf,data/4764adaf/src/337c5eb2.json,513,513,Template,T,9,17,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+82292,2d456272,GitHub,4764adaf,data/4764adaf/test/2d456272.js,158,158,F,F,36,60,F,F,,,,,0.0,0,F,F,F,Atlassian Old PAT token
+82293,2d456272,GitHub,4764adaf,data/4764adaf/test/2d456272.js,208,208,F,F,36,60,F,F,,,,,0.0,0,F,F,F,Atlassian Old PAT token
+82294,a7d5a18a,GitHub,4764adaf,data/4764adaf/test/a7d5a18a.js,1474,1474,Template,T,21,29,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+82295,7e37e5b4,GitHub,4764adaf,data/4764adaf/test/7e37e5b4.js,6877,6877,Template,T,27,35,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+82296,7e37e5b4,GitHub,4764adaf,data/4764adaf/test/7e37e5b4.js,9843,9843,Template,T,25,33,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+82297,7e37e5b4,GitHub,4764adaf,data/4764adaf/test/7e37e5b4.js,9889,9889,Template,T,25,33,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+100509,f07c4281,GitHub,4764adaf,data/4764adaf/src/f07c4281.json,12,12,Template,T,18,39,F,F,Any,,,Secret,2.11,21,F,F,F,Secret
+100510,f07c4281,GitHub,4764adaf,data/4764adaf/src/f07c4281.json,27,27,Template,T,15,36,F,F,Any,,,Secret,2.11,21,F,F,F,Secret
 110119,32dc0f3b,GitHub,4764adaf,data/4764adaf/src/32dc0f3b.js,179,179,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
 110120,b42fa7a3,GitHub,4764adaf,data/4764adaf/src/b42fa7a3.js,16,16,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 130113,b37ca27a,GitHub,4764adaf,data/4764adaf/test/b37ca27a.js,54,54,F,F,,,F,F,,,,,0.00,,F,F,F,Password

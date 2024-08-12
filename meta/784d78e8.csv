@@ -2,7 +2,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 165,52925fcf,GitHub,784d78e8,data/784d78e8/other/52925fcf,515,515,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 913,be24a8e8,GitHub,784d78e8,data/784d78e8/src/be24a8e8.j2,22,22,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 1204,288d8a27,GitHub,784d78e8,data/784d78e8/src/288d8a27.yml,128,128,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
-1605,aedd861e,GitHub,784d78e8,data/784d78e8/other/aedd861e.md,158,158,T,F,22,28,F,F,Any,,,Secret,1.82,6,F,F,F,Password
+1605,aedd861e,GitHub,784d78e8,data/784d78e8/other/aedd861e.md,158,158,T,F,26,32,F,F,Any,,,Secret,1.82,6,F,F,F,Password
 1904,f5ee60af,GitHub,784d78e8,data/784d78e8/src/f5ee60af.txt,42,42,F,F,,,F,F,,,,,0,0,F,F,F,Password
 2012,c7d90e53,GitHub,784d78e8,data/784d78e8/other/c7d90e53.md,72,72,F,F,,,F,F,,,,,0,0,F,F,F,Token
 2769,52925fcf,GitHub,784d78e8,data/784d78e8/other/52925fcf,512,512,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
@@ -90,31 +90,31 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 26369,f5ee60af,GitHub,784d78e8,data/784d78e8/src/f5ee60af.txt,18,18,F,F,,,F,F,,,,,0,0,F,F,F,Password
 27182,6b896691,GitHub,784d78e8,data/784d78e8/src/6b896691.j2,7,7,F,F,,,F,F,,,,,0,0,F,F,F,Password
 29404,13210d77,GitHub,784d78e8,data/784d78e8/src/13210d77.cfg,525,525,Template,T,7,15,F,F,Any,,,Token,2.62,8,F,F,F,Token
-29481,1420d33a,GitHub,784d78e8,data/784d78e8/other/1420d33a.md,110,110,T,F,7,31,F,F,CharsOnly,,JSON Web Token,Token,1.92,24,F,F,F,Atlassian Old PAT token:Token
-29580,6c7156cb,GitHub,784d78e8,data/784d78e8/test/6c7156cb.yaml,7,7,Template,F,21,30,F,F,Any,,,Secret,0,9,F,F,F,Password
-29909,dca0818e,GitHub,784d78e8,data/784d78e8/other/dca0818e.md,28,28,T,T,10,18,F,F,Any,,,Secret,2.38,8,F,F,F,Password
-30638,25820bb5,GitHub,784d78e8,data/784d78e8/src/25820bb5.j2,42,42,T,T,15,25,F,F,Any,,,Secret,2.99,10,F,F,F,Password
+29481,1420d33a,GitHub,784d78e8,data/784d78e8/other/1420d33a.md,110,110,T,F,11,35,F,F,CharsOnly,,JSON Web Token,Token,1.92,24,F,F,F,Atlassian Old PAT token:Token
+29580,6c7156cb,GitHub,784d78e8,data/784d78e8/test/6c7156cb.yaml,7,7,Template,F,27,36,F,F,Any,,,Secret,0.0,9,F,F,F,Password
+29909,dca0818e,GitHub,784d78e8,data/784d78e8/other/dca0818e.md,28,28,T,T,12,20,F,F,Any,,,Secret,2.38,8,F,F,F,Password
+30638,25820bb5,GitHub,784d78e8,data/784d78e8/src/25820bb5.j2,42,42,T,T,17,27,F,F,Any,,,Secret,2.99,10,F,F,F,Password
 30645,47124e11,GitHub,784d78e8,data/784d78e8/src/47124e11.j2,168,168,Template,T,20,27,F,F,Any,,,Secret,2.52,7,F,F,F,Password
 30647,f0c93ad6,GitHub,784d78e8,data/784d78e8/src/f0c93ad6.j2,167,167,Template,T,20,27,F,F,Any,,,Secret,2.52,7,F,F,F,Password
 31140,8762af8b,GitHub,784d78e8,data/784d78e8/other/8762af8b.md,168,168,T,T,131,142,F,F,Any,,,Secret,3.72,98,F,F,F,Password
-32249,d38b4b1e,GitHub,784d78e8,data/784d78e8/src/d38b4b1e.yaml,20,20,Template,T,15,20,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
+32249,d38b4b1e,GitHub,784d78e8,data/784d78e8/src/d38b4b1e.yaml,20,20,Template,T,17,22,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
 34022,d38b4b1e,GitHub,784d78e8,data/784d78e8/src/d38b4b1e.yaml,16,16,T,F,19,26,F,F,CharsOnly,,,Secret,2.52,7,F,F,F,Secret
 34271,629fa222,GitHub,784d78e8,data/784d78e8/src/629fa222.j2,124,124,T,T,16,41,F,F,Any,,,Secret,3.39,25,F,F,F,Password
 34272,629fa222,GitHub,784d78e8,data/784d78e8/src/629fa222.j2,131,131,T,T,16,41,F,F,Any,,,Secret,3.26,25,F,F,F,Password
 34273,629fa222,GitHub,784d78e8,data/784d78e8/src/629fa222.j2,108,108,T,T,16,34,F,F,Any,,,Secret,2.89,18,F,F,F,Password
 34275,629fa222,GitHub,784d78e8,data/784d78e8/src/629fa222.j2,117,117,T,T,16,33,F,F,Any,,,Secret,3.14,17,F,F,F,Password
 34515,bdc8707e,GitHub,784d78e8,data/784d78e8/src/bdc8707e.j2,82,82,Template,T,19,27,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-34559,dca0818e,GitHub,784d78e8,data/784d78e8/other/dca0818e.md,40,40,T,F,10,25,F,F,Any,,,Secret,3.38,15,F,F,F,Password
-34598,dca0818e,GitHub,784d78e8,data/784d78e8/other/dca0818e.md,33,33,T,T,10,15,F,F,CharsOnly,,,Secret,1.92,5,F,F,F,Password
-34599,cfeff289,GitHub,784d78e8,data/784d78e8/src/cfeff289.yaml,79,79,T,T,10,15,F,F,CharsOnly,,,Secret,1.92,5,F,F,F,Password
+34559,dca0818e,GitHub,784d78e8,data/784d78e8/other/dca0818e.md,40,40,T,F,12,27,F,F,Any,,,Secret,3.38,15,F,F,F,Password
+34598,dca0818e,GitHub,784d78e8,data/784d78e8/other/dca0818e.md,33,33,T,T,12,17,F,F,CharsOnly,,,Secret,1.92,5,F,F,F,Password
+34599,cfeff289,GitHub,784d78e8,data/784d78e8/src/cfeff289.yaml,79,79,T,T,12,17,F,F,CharsOnly,,,Secret,1.92,5,F,F,F,Password
 35438,59bb2be3,GitHub,784d78e8,data/784d78e8/other/59bb2be3.md,157,157,T,F,13,45,T,F,Any,,,Secret,3.61,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:URL Credentials
 37088,d38b4b1e,GitHub,784d78e8,data/784d78e8/src/d38b4b1e.yaml,145,145,T,F,19,26,F,F,CharsOnly,,,Secret,2.52,7,F,F,F,Secret
 40593,f0c93ad6,GitHub,784d78e8,data/784d78e8/src/f0c93ad6.j2,183,183,Template,T,19,25,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Secret
 40594,bdc8707e,GitHub,784d78e8,data/784d78e8/src/bdc8707e.j2,154,154,Template,T,20,28,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
 40595,bdc8707e,GitHub,784d78e8,data/784d78e8/src/bdc8707e.j2,170,170,Template,T,19,25,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Secret
 40596,47124e11,GitHub,784d78e8,data/784d78e8/src/47124e11.j2,184,184,Template,T,19,25,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Secret
-40597,cfeff289,GitHub,784d78e8,data/784d78e8/src/cfeff289.yaml,68,68,Template,T,10,18,F,F,Any,,,Secret,2.38,8,F,F,F,Password
-40598,cfeff289,GitHub,784d78e8,data/784d78e8/src/cfeff289.yaml,101,101,T,F,10,25,F,F,Any,,,Secret,3.38,15,F,F,F,Password
+40597,cfeff289,GitHub,784d78e8,data/784d78e8/src/cfeff289.yaml,68,68,Template,T,12,20,F,F,Any,,,Secret,2.38,8,F,F,F,Password
+40598,cfeff289,GitHub,784d78e8,data/784d78e8/src/cfeff289.yaml,101,101,T,F,12,27,F,F,Any,,,Secret,3.38,15,F,F,F,Password
 40599,abdad589,GitHub,784d78e8,data/784d78e8/src/abdad589.yaml,329,329,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 42043,cbac1473,GitHub,784d78e8,data/784d78e8/src/cbac1473.j2,330,330,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 42247,f88ae37f,GitHub,784d78e8,data/784d78e8/src/f88ae37f.j2,28,28,F,F,,,F,F,,,,,0,0,F,F,F,API

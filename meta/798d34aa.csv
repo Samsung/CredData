@@ -60,34 +60,34 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 23689,1c25f72b,GitHub,798d34aa,data/798d34aa/src/1c25f72b.ts,151,151,F,F,,,F,F,,,,,0,0,F,F,F,Token
 25102,ad886f81,GitHub,798d34aa,data/798d34aa/src/ad886f81.ts,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Password
 27129,3f5c652d,GitHub,798d34aa,data/798d34aa/src/3f5c652d.ts,2,2,F,F,,,F,F,,,,,0,0,F,F,F,Password
-27365,9542f82d,GitHub,798d34aa,data/798d34aa/src/9542f82d.yml,223,223,Template,T,28,36,F,F,CharsOnly,,,Secret,3.00,8,F,F,F,Password
-27465,74b200a7,GitHub,798d34aa,data/798d34aa/test/74b200a7.example,42,42,Template,T,14,22,F,F,CharsOnly,,,Secret,3.00,8,F,F,F,Password
-27705,1a6bfd2b,GitHub,798d34aa,data/798d34aa/src/1a6bfd2b.ts,12,12,Template,T,9,25,F,F,Any,,,Key,3.12,16,F,F,F,API:Key
-27763,d4a31c5d,GitHub,798d34aa,data/798d34aa/src/d4a31c5d.ts,19,19,Template,F,11,18,F,F,Any,,,Key,2.41,7,F,F,F,API:Key
-27767,9542f82d,GitHub,798d34aa,data/798d34aa/src/9542f82d.yml,23,23,Template,F,28,44,F,F,CharsOnly,,,Secret,3.45,16,F,F,F,Secret
-27904,25ca8871,GitHub,798d34aa,data/798d34aa/test/25ca8871.example,7,7,Template,F,9,65,F,F,Any,,,Key,0.21,56,F,F,F,API:Key
-28156,74b200a7,GitHub,798d34aa,data/798d34aa/test/74b200a7.example,20,20,T,F,15,30,F,F,CharsOnly,,,Secret,1.00,15,F,F,F,Secret
-28157,74b200a7,GitHub,798d34aa,data/798d34aa/test/74b200a7.example,25,25,T,F,15,27,F,F,CharsOnly,,,Secret,1.00,12,F,F,F,Secret
-28158,74b200a7,GitHub,798d34aa,data/798d34aa/test/74b200a7.example,15,15,T,F,15,24,F,F,CharsOnly,,,Secret,0.99,9,F,F,F,Secret
-28893,b3356305,GitHub,798d34aa,data/798d34aa/other/b3356305.md,207,207,Template,T,11,30,F,F,CharsOnly,,,Secret,3.22,19,F,F,F,Password
-32212,acf3dd27,GitHub,798d34aa,data/798d34aa/src/acf3dd27.ts,10,10,T,F,15,47,F,F,Any,,,Secret,3.57,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Secret
+27365,9542f82d,GitHub,798d34aa,data/798d34aa/src/9542f82d.yml,223,223,Template,T,34,42,F,F,CharsOnly,,,Secret,3.0,8,F,F,F,Password
+27465,74b200a7,GitHub,798d34aa,data/798d34aa/test/74b200a7.example,42,42,Template,T,18,26,F,F,CharsOnly,,,Secret,3.0,8,F,F,F,Password
+27705,1a6bfd2b,GitHub,798d34aa,data/798d34aa/src/1a6bfd2b.ts,12,12,Template,T,19,35,F,F,Any,,,Key,3.12,16,F,F,F,API:Key
+27763,d4a31c5d,GitHub,798d34aa,data/798d34aa/src/d4a31c5d.ts,19,19,Template,F,13,20,F,F,Any,,,Key,2.41,7,F,F,F,API:Key
+27767,9542f82d,GitHub,798d34aa,data/798d34aa/src/9542f82d.yml,23,23,Template,F,34,50,F,F,CharsOnly,,,Secret,3.45,16,F,F,F,Secret
+27904,25ca8871,GitHub,798d34aa,data/798d34aa/test/25ca8871.example,7,7,Template,F,11,67,F,F,Any,,,Key,0.21,56,F,F,F,API:Key
+28156,74b200a7,GitHub,798d34aa,data/798d34aa/test/74b200a7.example,20,20,T,F,23,38,F,F,CharsOnly,,,Secret,1.0,15,F,F,F,Secret
+28157,74b200a7,GitHub,798d34aa,data/798d34aa/test/74b200a7.example,25,25,T,F,23,35,F,F,CharsOnly,,,Secret,1.0,12,F,F,F,Secret
+28158,74b200a7,GitHub,798d34aa,data/798d34aa/test/74b200a7.example,15,15,T,F,23,32,F,F,CharsOnly,,,Secret,0.99,9,F,F,F,Secret
+28893,b3356305,GitHub,798d34aa,data/798d34aa/other/b3356305.md,207,207,Template,T,19,38,F,F,CharsOnly,,,Secret,3.22,19,F,F,F,Password
+32212,acf3dd27,GitHub,798d34aa,data/798d34aa/src/acf3dd27.ts,10,10,T,F,21,53,F,F,Any,,,Secret,3.57,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Secret
 32426,ddf77893,GitHub,798d34aa,data/798d34aa/src/ddf77893.ts,3,3,T,F,16,74,F,F,Any,,,Secret,3.46,58,F,F,F,Secret
-34232,b3356305,GitHub,798d34aa,data/798d34aa/other/b3356305.md,222,222,T,F,10,58,F,F,Any,,,Token,4.00,48,F,F,F,Token
-34570,c679447c,GitHub,798d34aa,data/798d34aa/other/c679447c.md,28,28,T,F,29,224,F,F,Any,,JSON Web Token,Token,5.43,195,F,F,F,JSON Web Token:Token
-34770,27bdd816,GitHub,798d34aa,data/798d34aa/src/27bdd816.yaml,21,21,T,F,16,139,F,F,Any,,,Secret,5.37,123,F,F,F,Secret
-35246,74b200a7,GitHub,798d34aa,data/798d34aa/test/74b200a7.example,10,10,T,F,9,81,F,F,Any,,JSON Web Token,Secret,4.91,72,F,F,F,Grafana Provisioned API Key:Secret
-36099,c679447c,GitHub,798d34aa,data/798d34aa/other/c679447c.md,62,62,T,T,11,22,F,F,Any,,,Secret,2.96,11,F,F,F,Password
-40748,9542f82d,GitHub,798d34aa,data/798d34aa/src/9542f82d.yml,45,45,T,F,28,44,F,F,CharsOnly,,,Secret,3.45,16,F,F,F,Secret
+34232,b3356305,GitHub,798d34aa,data/798d34aa/other/b3356305.md,222,222,T,F,26,74,F,F,Any,,,Token,4.0,48,F,F,F,Token
+34570,c679447c,GitHub,798d34aa,data/798d34aa/other/c679447c.md,28,28,T,F,33,228,F,F,Any,,JSON Web Token,Token,5.43,195,F,F,F,JSON Web Token:Token
+34770,27bdd816,GitHub,798d34aa,data/798d34aa/src/27bdd816.yaml,21,21,T,F,20,143,F,F,Any,,,Secret,5.37,123,F,F,F,Secret
+35246,74b200a7,GitHub,798d34aa,data/798d34aa/test/74b200a7.example,10,10,T,F,15,87,F,F,Any,,JSON Web Token,Secret,4.91,72,F,F,F,Grafana Provisioned API Key:Secret
+36099,c679447c,GitHub,798d34aa,data/798d34aa/other/c679447c.md,62,62,T,T,17,28,F,F,Any,,,Secret,2.96,11,F,F,F,Password
+40748,9542f82d,GitHub,798d34aa,data/798d34aa/src/9542f82d.yml,45,45,T,F,34,50,F,F,CharsOnly,,,Secret,3.45,16,F,F,F,Secret
 41725,78e33b5c,GitHub,798d34aa,data/798d34aa/src/78e33b5c.ts,2239,2239,F,F,,,F,F,,,,,0,0,F,F,F,Password
-41926,9542f82d,GitHub,798d34aa,data/798d34aa/src/9542f82d.yml,67,67,Template,F,28,44,F,F,CharsOnly,,,Secret,3.45,16,F,F,F,Secret
-41927,9542f82d,GitHub,798d34aa,data/798d34aa/src/9542f82d.yml,89,89,Template,F,28,44,F,F,CharsOnly,,,Secret,3.45,16,F,F,F,Secret
-41928,9542f82d,GitHub,798d34aa,data/798d34aa/src/9542f82d.yml,111,111,Template,F,28,44,F,F,CharsOnly,,,Secret,3.45,16,F,F,F,Secret
-41929,9542f82d,GitHub,798d34aa,data/798d34aa/src/9542f82d.yml,133,133,Template,F,28,44,F,F,CharsOnly,,,Secret,3.45,16,F,F,F,Secret
-41930,9542f82d,GitHub,798d34aa,data/798d34aa/src/9542f82d.yml,155,155,Template,F,28,44,F,F,CharsOnly,,,Secret,3.45,16,F,F,F,Secret
-41931,9542f82d,GitHub,798d34aa,data/798d34aa/src/9542f82d.yml,179,179,Template,F,28,44,F,F,CharsOnly,,,Secret,3.45,16,F,F,F,Secret
+41926,9542f82d,GitHub,798d34aa,data/798d34aa/src/9542f82d.yml,67,67,Template,F,34,50,F,F,CharsOnly,,,Secret,3.45,16,F,F,F,Secret
+41927,9542f82d,GitHub,798d34aa,data/798d34aa/src/9542f82d.yml,89,89,Template,F,34,50,F,F,CharsOnly,,,Secret,3.45,16,F,F,F,Secret
+41928,9542f82d,GitHub,798d34aa,data/798d34aa/src/9542f82d.yml,111,111,Template,F,34,50,F,F,CharsOnly,,,Secret,3.45,16,F,F,F,Secret
+41929,9542f82d,GitHub,798d34aa,data/798d34aa/src/9542f82d.yml,133,133,Template,F,34,50,F,F,CharsOnly,,,Secret,3.45,16,F,F,F,Secret
+41930,9542f82d,GitHub,798d34aa,data/798d34aa/src/9542f82d.yml,155,155,Template,F,34,50,F,F,CharsOnly,,,Secret,3.45,16,F,F,F,Secret
+41931,9542f82d,GitHub,798d34aa,data/798d34aa/src/9542f82d.yml,179,179,Template,F,34,50,F,F,CharsOnly,,,Secret,3.45,16,F,F,F,Secret
 42133,1c25f72b,GitHub,798d34aa,data/798d34aa/src/1c25f72b.ts,47,47,F,F,,,F,F,,,,,0,0,F,F,F,Password
-47558,c679447c,GitHub,798d34aa,data/798d34aa/other/c679447c.md,15,15,Template,T,11,30,F,F,CharsOnly,,,Secret,3.22,19,F,F,F,Password
-48081,25ca8871,GitHub,798d34aa,data/798d34aa/test/25ca8871.example,23,23,T,T,14,22,F,F,CharsOnly,,,Secret,3.00,8,F,F,F,Password
+47558,c679447c,GitHub,798d34aa,data/798d34aa/other/c679447c.md,15,15,Template,T,19,38,F,F,CharsOnly,,,Secret,3.22,19,F,F,F,Password
+48081,25ca8871,GitHub,798d34aa,data/798d34aa/test/25ca8871.example,23,23,T,T,18,26,F,F,CharsOnly,,,Secret,3.0,8,F,F,F,Password
 56644,037ea159,GitHub,798d34aa,data/798d34aa/src/037ea159.yml,105,105,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 56645,037ea159,GitHub,798d34aa,data/798d34aa/src/037ea159.yml,126,126,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 56646,037ea159,GitHub,798d34aa,data/798d34aa/src/037ea159.yml,147,147,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -117,7 +117,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 75564,78e33b5c,GitHub,798d34aa,data/798d34aa/src/78e33b5c.ts,214,214,F,F,,,F,F,,,,,0,0,F,F,F,Token
 75571,1f2a6bb0,GitHub,798d34aa,data/798d34aa/src/1f2a6bb0.ts,30,30,F,F,,,F,F,,,,,0,0,F,F,F,Token
 75572,1f2a6bb0,GitHub,798d34aa,data/798d34aa/src/1f2a6bb0.ts,55,55,F,F,,,F,F,,,,,0,0,F,F,F,Token
-82282,ad886f81,GitHub,798d34aa,data/798d34aa/src/ad886f81.ts,10,10,F,F,28,68,F,F,,,,,0,0,F,F,F,Password
+82282,ad886f81,GitHub,798d34aa,data/798d34aa/src/ad886f81.ts,10,10,F,F,30,70,F,F,,,,,0.0,0,F,F,F,Password
 101787,27bdd816,GitHub,798d34aa,data/798d34aa/src/27bdd816.yaml,14,14,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 110927,10734973,GitHub,798d34aa,data/798d34aa/src/10734973.ts,47,47,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 110928,10734973,GitHub,798d34aa,data/798d34aa/src/10734973.ts,93,93,F,F,,,F,F,,,,,0.00,,F,F,F,Auth

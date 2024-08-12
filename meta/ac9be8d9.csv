@@ -108,11 +108,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 13261,d08887b7,GitHub,ac9be8d9,data/ac9be8d9/src/d08887b7.ex,49,49,F,F,,,F,F,,,,,0,0,F,F,F,Password
 13347,f79c2c33,GitHub,ac9be8d9,data/ac9be8d9/src/f79c2c33.ex,106,106,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 13889,97085c94,GitHub,ac9be8d9,data/ac9be8d9/test/97085c94.exs,153,153,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-14059,047edd4c,GitHub,ac9be8d9,data/ac9be8d9/src/047edd4c.ex,326,326,Template,T,10,15,F,F,Any,,,Secret,1.46,5,F,F,F,Password
+14059,047edd4c,GitHub,ac9be8d9,data/ac9be8d9/src/047edd4c.ex,326,326,Template,T,18,23,F,F,Any,,,Secret,1.46,5,F,F,F,Password
 14167,b2cabe1a,GitHub,ac9be8d9,data/ac9be8d9/src/b2cabe1a.ex,7,7,F,F,,,F,F,,,,,0,0,F,F,F,Password
 14198,cb9db124,GitHub,ac9be8d9,data/ac9be8d9/src/cb9db124.ex,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 14223,97085c94,GitHub,ac9be8d9,data/ac9be8d9/test/97085c94.exs,26,26,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-14276,08701d20,GitHub,ac9be8d9,data/ac9be8d9/test/08701d20.exs,261,261,Template,T,24,31,F,F,CharOnly,,,Secret,2.81,7,F,F,F,Password
+14276,08701d20,GitHub,ac9be8d9,data/ac9be8d9/test/08701d20.exs,261,261,Template,T,34,41,F,F,CharOnly,,,Secret,2.81,7,F,F,F,Password
 14283,e1929c62,GitHub,ac9be8d9,data/ac9be8d9/src/e1929c62.leex,8,8,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 14319,ea2e03d3,GitHub,ac9be8d9,data/ac9be8d9/src/ea2e03d3.ex,39,39,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 14417,1870d95b,GitHub,ac9be8d9,data/ac9be8d9/src/1870d95b.ex,60,60,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -152,33 +152,33 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 24602,cc944e70,GitHub,ac9be8d9,data/ac9be8d9/test/cc944e70.exs,173,173,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 24603,cc944e70,GitHub,ac9be8d9,data/ac9be8d9/test/cc944e70.exs,177,177,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 24606,cc944e70,GitHub,ac9be8d9,data/ac9be8d9/test/cc944e70.exs,185,185,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-27655,31c31183,GitHub,ac9be8d9,data/ac9be8d9/test/31c31183.exs,524,524,F,T,83,91,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-27911,95a19c59,GitHub,ac9be8d9,data/ac9be8d9/other/95a19c59.md,83,83,Template,T,25,29,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password:URL Credentials
-27912,047edd4c,GitHub,ac9be8d9,data/ac9be8d9/src/047edd4c.ex,350,350,Template,T,25,29,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password:URL Credentials
-29660,4404f8f4,GitHub,ac9be8d9,data/ac9be8d9/test/4404f8f4.yml,19,19,T,T,13,26,F,F,Any,,,Secret,2.90,13,F,F,F,Password
-30472,aef64994,GitHub,ac9be8d9,data/ac9be8d9/test/aef64994.exs,552,552,F,T,81,94,F,F,Any,,,Secret,2.90,13,F,F,F,Password
-30480,31c31183,GitHub,ac9be8d9,data/ac9be8d9/test/31c31183.exs,578,578,F,T,77,90,F,F,Any,,,Secret,2.90,13,F,F,F,Password
-30579,08701d20,GitHub,ac9be8d9,data/ac9be8d9/test/08701d20.exs,500,500,Template,F,81,87,F,F,NumbersOnly,,,Secret,2.58,6,F,F,F,Password
-32640,aef64994,GitHub,ac9be8d9,data/ac9be8d9/test/aef64994.exs,495,495,F,T,87,95,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-32642,aef64994,GitHub,ac9be8d9,data/ac9be8d9/test/aef64994.exs,496,496,F,T,88,96,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+27655,31c31183,GitHub,ac9be8d9,data/ac9be8d9/test/31c31183.exs,524,524,F,T,89,97,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+27911,95a19c59,GitHub,ac9be8d9,data/ac9be8d9/other/95a19c59.md,83,83,Template,T,31,35,T,F,CharsOnly,,,Secret,1.5,4,F,F,F,Password:URL Credentials
+27912,047edd4c,GitHub,ac9be8d9,data/ac9be8d9/src/047edd4c.ex,350,350,Template,T,35,39,T,F,CharsOnly,,,Secret,1.5,4,F,F,F,Password:URL Credentials
+29660,4404f8f4,GitHub,ac9be8d9,data/ac9be8d9/test/4404f8f4.yml,19,19,T,T,19,32,F,F,Any,,,Secret,2.9,13,F,F,F,Password
+30472,aef64994,GitHub,ac9be8d9,data/ac9be8d9/test/aef64994.exs,552,552,F,T,87,100,F,F,Any,,,Secret,2.9,13,F,F,F,Password
+30480,31c31183,GitHub,ac9be8d9,data/ac9be8d9/test/31c31183.exs,578,578,F,T,83,96,F,F,Any,,,Secret,2.9,13,F,F,F,Password
+30579,08701d20,GitHub,ac9be8d9,data/ac9be8d9/test/08701d20.exs,500,500,Template,F,87,93,F,F,NumbersOnly,,,Secret,2.58,6,F,F,F,Password
+32640,aef64994,GitHub,ac9be8d9,data/ac9be8d9/test/aef64994.exs,495,495,F,T,93,101,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+32642,aef64994,GitHub,ac9be8d9,data/ac9be8d9/test/aef64994.exs,496,496,F,T,94,102,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
 32644,8ebcc986,GitHub,ac9be8d9,data/ac9be8d9/test/8ebcc986.exs,30,30,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 32645,8ebcc986,GitHub,ac9be8d9,data/ac9be8d9/test/8ebcc986.exs,18,18,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 33798,c82a804a,GitHub,ac9be8d9,data/ac9be8d9/other/c82a804a.md,217,217,T,F,17,81,F,F,Any,,,Secret,5.13,64,F,F,F,Key:Secret
-33959,4404f8f4,GitHub,ac9be8d9,data/ac9be8d9/test/4404f8f4.yml,8,8,T,T,19,27,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-34412,55b9cf5b,GitHub,ac9be8d9,data/ac9be8d9/other/55b9cf5b.md,138,138,T,T,11,19,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-34419,e3fe37f7,GitHub,ac9be8d9,data/ac9be8d9/other/e3fe37f7.md,528,528,Template,T,11,15,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-34433,08701d20,GitHub,ac9be8d9,data/ac9be8d9/test/08701d20.exs,289,289,Template,F,11,29,F,F,,,,,0,0,F,F,F,Password
+33959,4404f8f4,GitHub,ac9be8d9,data/ac9be8d9/test/4404f8f4.yml,8,8,T,T,25,33,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+34412,55b9cf5b,GitHub,ac9be8d9,data/ac9be8d9/other/55b9cf5b.md,138,138,T,T,13,21,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+34419,e3fe37f7,GitHub,ac9be8d9,data/ac9be8d9/other/e3fe37f7.md,528,528,Template,T,13,17,F,F,CharsOnly,,,Secret,1.5,4,F,F,F,Password
+34433,08701d20,GitHub,ac9be8d9,data/ac9be8d9/test/08701d20.exs,289,289,Template,F,21,39,F,F,,,,,0.0,0,F,F,F,Password
 34597,c82a804a,GitHub,ac9be8d9,data/ac9be8d9/other/c82a804a.md,215,215,T,F,37,101,F,F,Any,,,Secret,5.13,64,F,F,F,Key:Secret
 34601,7a145e4e,GitHub,ac9be8d9,data/ac9be8d9/other/7a145e4e.md,27,27,Template,T,34,38,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password:URL Credentials
-34899,c0bada0d,GitHub,ac9be8d9,data/ac9be8d9/test/c0bada0d.exs,86,86,T,F,8,44,F,F,Any,,,Token,3.23,36,F,F,F,Token:UUID
-35101,1ac02d79,GitHub,ac9be8d9,data/ac9be8d9/src/1ac02d79.ex,51,51,T,F,18,52,F,F,Any,,,Secret,4.18,34,F,F,F,Key:Secret
+34899,c0bada0d,GitHub,ac9be8d9,data/ac9be8d9/test/c0bada0d.exs,86,86,T,F,21,57,F,F,Any,,,Token,3.23,36,F,F,F,Token:UUID
+35101,1ac02d79,GitHub,ac9be8d9,data/ac9be8d9/src/1ac02d79.ex,51,51,T,F,26,60,F,F,Any,,,Secret,4.18,34,F,F,F,Key:Secret
 35292,766cf329,GitHub,ac9be8d9,data/ac9be8d9/test/766cf329.pem,1,27,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,PEM Private Key
-35423,94033c4d,GitHub,ac9be8d9,data/ac9be8d9/src/94033c4d.ex,148,148,T,F,19,53,F,F,Any,,,Secret,4.18,34,F,F,F,Secret
-37176,08701d20,GitHub,ac9be8d9,data/ac9be8d9/test/08701d20.exs,301,301,Template,F,11,29,F,F,,,,,0,0,F,F,F,Password
+35423,94033c4d,GitHub,ac9be8d9,data/ac9be8d9/src/94033c4d.ex,148,148,T,F,25,59,F,F,Any,,,Secret,4.18,34,F,F,F,Secret
+37176,08701d20,GitHub,ac9be8d9,data/ac9be8d9/test/08701d20.exs,301,301,Template,F,21,39,F,F,,,,,0.0,0,F,F,F,Password
 47105,5276c6aa,GitHub,ac9be8d9,data/ac9be8d9/test/5276c6aa.exs,351,351,F,F,,,F,F,,,,,0,0,F,F,F,Password
 47134,5276c6aa,GitHub,ac9be8d9,data/ac9be8d9/test/5276c6aa.exs,350,350,F,F,,,F,F,,,,,0,0,F,F,F,Password
 47135,5276c6aa,GitHub,ac9be8d9,data/ac9be8d9/test/5276c6aa.exs,352,352,F,F,,,F,F,,,,,0,0,F,F,F,Password
-47213,08701d20,GitHub,ac9be8d9,data/ac9be8d9/test/08701d20.exs,470,470,T,T,24,31,F,F,CharsOnly,,,Secret,2.81,7,F,F,F,Password
+47213,08701d20,GitHub,ac9be8d9,data/ac9be8d9/test/08701d20.exs,470,470,T,T,34,41,F,F,CharsOnly,,,Secret,2.81,7,F,F,F,Password
 47535,9aab4bff,GitHub,ac9be8d9,data/ac9be8d9/test/9aab4bff.exs,81,81,F,F,,,F,F,,,,,0,0,F,F,F,API
 47735,31c31183,GitHub,ac9be8d9,data/ac9be8d9/test/31c31183.exs,579,579,F,F,,,F,F,,,,,0,0,F,F,F,Password
 47736,aef64994,GitHub,ac9be8d9,data/ac9be8d9/test/aef64994.exs,553,553,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -198,7 +198,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 64010,cc944e70,GitHub,ac9be8d9,data/ac9be8d9/test/cc944e70.exs,183,183,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 64011,cc944e70,GitHub,ac9be8d9,data/ac9be8d9/test/cc944e70.exs,187,187,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 66249,dc576351,GitHub,ac9be8d9,data/ac9be8d9/test/dc576351.exs,24,24,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-74774,047edd4c,GitHub,ac9be8d9,data/ac9be8d9/src/047edd4c.ex,334,334,Template,T,10,15,F,F,Any,,,Secret,1.46,5,F,F,F,Password
+74774,047edd4c,GitHub,ac9be8d9,data/ac9be8d9/src/047edd4c.ex,334,334,Template,T,18,23,F,F,Any,,,Secret,1.46,5,F,F,F,Password
 74830,97085c94,GitHub,ac9be8d9,data/ac9be8d9/test/97085c94.exs,34,34,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 74831,97085c94,GitHub,ac9be8d9,data/ac9be8d9/test/97085c94.exs,42,42,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 74832,97085c94,GitHub,ac9be8d9,data/ac9be8d9/test/97085c94.exs,50,50,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -210,14 +210,14 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 74838,97085c94,GitHub,ac9be8d9,data/ac9be8d9/test/97085c94.exs,156,156,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 75532,c0bada0d,GitHub,ac9be8d9,data/ac9be8d9/test/c0bada0d.exs,68,68,F,F,,,F,F,,,,,0,0,F,F,F,Token
 77113,c4325fad,GitHub,ac9be8d9,data/ac9be8d9/other/c4325fad.md,834,834,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-80020,08701d20,GitHub,ac9be8d9,data/ac9be8d9/test/08701d20.exs,260,260,F,F,11,20,F,F,,,,,0,0,F,F,F,Password
-80021,08701d20,GitHub,ac9be8d9,data/ac9be8d9/test/08701d20.exs,469,469,F,F,11,20,F,F,,,,,0,0,F,F,F,Password
-80022,08701d20,GitHub,ac9be8d9,data/ac9be8d9/test/08701d20.exs,493,493,F,F,115,133,F,F,,,,,0,0,F,F,F,Password
-83069,b8748fa5,GitHub,ac9be8d9,data/ac9be8d9/src/b8748fa5.eex,39,39,F,F,24,51,F,F,,,,,0,0,F,F,F,Password
-83070,ee01fe2f,GitHub,ac9be8d9,data/ac9be8d9/src/ee01fe2f.eex,11,11,F,F,24,51,F,F,,,,,0,0,F,F,F,Password
-83071,d08887b7,GitHub,ac9be8d9,data/ac9be8d9/src/d08887b7.ex,38,38,F,F,22,34,F,F,,,,,0,0,F,F,F,Password
-83072,595c896a,GitHub,ac9be8d9,data/ac9be8d9/test/595c896a.exs,35,35,F,F,72,83,F,F,,,,,0,0,F,F,F,Password
-83073,595c896a,GitHub,ac9be8d9,data/ac9be8d9/test/595c896a.exs,94,94,F,F,71,89,F,F,,,,,0,0,F,F,F,Password
+80020,08701d20,GitHub,ac9be8d9,data/ac9be8d9/test/08701d20.exs,260,260,F,F,21,30,F,F,,,,,0.0,0,F,F,F,Password
+80021,08701d20,GitHub,ac9be8d9,data/ac9be8d9/test/08701d20.exs,469,469,F,F,21,30,F,F,,,,,0.0,0,F,F,F,Password
+80022,08701d20,GitHub,ac9be8d9,data/ac9be8d9/test/08701d20.exs,493,493,F,F,121,139,F,F,,,,,0.0,0,F,F,F,Password
+83069,b8748fa5,GitHub,ac9be8d9,data/ac9be8d9/src/b8748fa5.eex,39,39,F,F,26,53,F,F,,,,,0.0,0,F,F,F,Password
+83070,ee01fe2f,GitHub,ac9be8d9,data/ac9be8d9/src/ee01fe2f.eex,11,11,F,F,26,53,F,F,,,,,0.0,0,F,F,F,Password
+83071,d08887b7,GitHub,ac9be8d9,data/ac9be8d9/src/d08887b7.ex,38,38,F,F,26,38,F,F,,,,,0.0,0,F,F,F,Password
+83072,595c896a,GitHub,ac9be8d9,data/ac9be8d9/test/595c896a.exs,35,35,F,F,80,91,F,F,,,,,0.0,0,F,F,F,Password
+83073,595c896a,GitHub,ac9be8d9,data/ac9be8d9/test/595c896a.exs,94,94,F,F,79,97,F,F,,,,,0.0,0,F,F,F,Password
 101171,7a145e4e,GitHub,ac9be8d9,data/ac9be8d9/other/7a145e4e.md,26,26,Template,T,25,43,F,F,Any,,,Secret,3.07,18,F,F,F,Key:Secret
 101172,7a145e4e,GitHub,ac9be8d9,data/ac9be8d9/other/7a145e4e.md,34,34,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 101173,95a19c59,GitHub,ac9be8d9,data/ac9be8d9/other/95a19c59.md,77,77,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
@@ -328,8 +328,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 130458,94b4c7f2,GitHub,ac9be8d9,data/ac9be8d9/src/94b4c7f2.ex,40,40,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130465,5276c6aa,GitHub,ac9be8d9,data/ac9be8d9/test/5276c6aa.exs,301,301,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130469,ac098961,GitHub,ac9be8d9,data/ac9be8d9/src/ac098961.eex,25,25,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-132757,137993fd,GitHub,ac9be8d9,data/ac9be8d9/test/137993fd.exs,84,84,T,F,13,49,F,F,,,,,0,0,F,F,F,Secret:UUID
-1338241,13e807ef,GitHub,ac9be8d9,data/ac9be8d9/test/13e807ef.exs,233,233,F,F,42,52,F,F,,,,,0.0,0,F,F,F,Password
+132757,137993fd,GitHub,ac9be8d9,data/ac9be8d9/test/137993fd.exs,84,84,T,F,36,72,F,F,,,,,0.0,0,F,F,F,Secret:UUID
+1338241,13e807ef,GitHub,ac9be8d9,data/ac9be8d9/test/13e807ef.exs,233,233,F,F,57,67,F,F,,,,,0.0,0,F,F,F,Password
 132960,d2fe6ab0,GitHub,ac9be8d9,data/ac9be8d9/test/d2fe6ab0.exs,28,28,F,F,,,F,F,,,,,0,0,F,F,F,Password
 132961,d2fe6ab0,GitHub,ac9be8d9,data/ac9be8d9/test/d2fe6ab0.exs,35,35,F,F,,,F,F,,,,,0,0,F,F,F,Password
 132962,d2fe6ab0,GitHub,ac9be8d9,data/ac9be8d9/test/d2fe6ab0.exs,68,68,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -338,10 +338,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 134322,640c024a,GitHub,ac9be8d9,data/ac9be8d9/other/640c024a.md,307,307,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 134323,f79c2c33,GitHub,ac9be8d9,data/ac9be8d9/src/f79c2c33.ex,73,73,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 134324,f79c2c33,GitHub,ac9be8d9,data/ac9be8d9/src/f79c2c33.ex,74,74,F,F,,,F,F,,,,,0,0,F,F,F,Certificate
-1338578,b42689a1,GitHub,ac9be8d9,data/ac9be8d9/test/b42689a1.exs,445,445,F,F,68,78,F,F,,,,,0.0,0,F,F,F,Password
-1381004,b42689a1,GitHub,ac9be8d9,data/ac9be8d9/test/b42689a1.exs,453,453,F,F,66,76,F,F,,,,,0.0,0,F,F,F,Password
-1340831,43075814,GitHub,ac9be8d9,data/ac9be8d9/src/43075814.ex,299,299,T,F,20,56,F,F,,,,,0.0,0,F,F,F,UUID
-1340832,43075814,GitHub,ac9be8d9,data/ac9be8d9/src/43075814.ex,320,320,T,F,20,56,F,F,,,,,0.0,0,F,F,F,UUID
-1340833,13e807ef,GitHub,ac9be8d9,data/ac9be8d9/test/13e807ef.exs,95,95,T,F,33,69,F,F,,,,,0.0,0,F,F,F,UUID
-1340834,13e807ef,GitHub,ac9be8d9,data/ac9be8d9/test/13e807ef.exs,98,98,T,F,29,65,F,F,,,,,0.0,0,F,F,F,UUID
-1340835,13e807ef,GitHub,ac9be8d9,data/ac9be8d9/test/13e807ef.exs,99,99,T,F,34,70,F,F,,,,,0.0,0,F,F,F,UUID
+1338578,b42689a1,GitHub,ac9be8d9,data/ac9be8d9/test/b42689a1.exs,445,445,F,F,76,86,F,F,,,,,0.0,0,F,F,F,Password
+1381004,b42689a1,GitHub,ac9be8d9,data/ac9be8d9/test/b42689a1.exs,453,453,F,F,74,84,F,F,,,,,0.0,0,F,F,F,Password
+1340831,43075814,GitHub,ac9be8d9,data/ac9be8d9/src/43075814.ex,299,299,T,F,28,64,F,F,,,,,0.0,0,F,F,F,UUID
+1340832,43075814,GitHub,ac9be8d9,data/ac9be8d9/src/43075814.ex,320,320,T,F,28,64,F,F,,,,,0.0,0,F,F,F,UUID
+1340833,13e807ef,GitHub,ac9be8d9,data/ac9be8d9/test/13e807ef.exs,95,95,T,F,37,73,F,F,,,,,0.0,0,F,F,F,UUID
+1340834,13e807ef,GitHub,ac9be8d9,data/ac9be8d9/test/13e807ef.exs,98,98,T,F,33,69,F,F,,,,,0.0,0,F,F,F,UUID
+1340835,13e807ef,GitHub,ac9be8d9,data/ac9be8d9/test/13e807ef.exs,99,99,T,F,38,74,F,F,,,,,0.0,0,F,F,F,UUID

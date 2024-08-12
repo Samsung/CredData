@@ -122,15 +122,15 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 22063,217a4391,GitHub,db218f09,data/db218f09/test/217a4391.py,617,617,F,F,,,F,F,,,,,0,0,F,F,F,API
 22112,217a4391,GitHub,db218f09,data/db218f09/test/217a4391.py,620,620,F,F,,,F,F,,,,,0,0,F,F,F,API
 23053,0e7dccac,GitHub,db218f09,data/db218f09/test/0e7dccac.py,588,588,F,F,,,F,F,,,,,0,0,F,F,F,API
-27431,23164cdb,GitHub,db218f09,data/db218f09/src/23164cdb.py,70,70,T,F,16,26,F,F,Any,,,Key,2.92,10,F,F,F,API
-27662,6aa5da84,GitHub,db218f09,data/db218f09/test/6aa5da84.py,824,824,T,F,31,37,F,F,CharsOnly,,,Unknown,2.25,6,F,F,F,Secret
-27737,04b0e957,GitHub,db218f09,data/db218f09/test/04b0e957.py,8,8,Template,T,24,29,F,F,CharsOnly,,,Unknown,3.00,8,F,F,F,Secret
-27796,7b3ed02b,GitHub,db218f09,data/db218f09/other/7b3ed02b.rst,153,153,Template,T,22,44,F,F,Any,,,Secret,2.87,22,F,F,F,Key:Secret
-28085,6aa5da84,GitHub,db218f09,data/db218f09/test/6aa5da84.py,1026,1026,T,F,37,565,F,F,Any,,JSON Web Token,Token,5.57,528,F,F,F,Auth:JSON Web Token
-28086,6aa5da84,GitHub,db218f09,data/db218f09/test/6aa5da84.py,1013,1013,T,F,37,604,F,F,Any,,JSON Web Token,Token,5.61,567,F,F,F,Auth:JSON Web Token
-33534,89d50865,GitHub,db218f09,data/db218f09/src/89d50865.rst,157,157,Template,T,48,58,F,F,CharsOnly,,,Secret,3.12,10,F,F,F,Password
-34234,89d50865,GitHub,db218f09,data/db218f09/src/89d50865.rst,160,160,T,F,10,223,F,F,Any,,JSON Web Token,Token,5.38,213,F,F,F,JSON Web Token:Token
-36458,659838d1,GitHub,db218f09,data/db218f09/test/659838d1.py,277,277,F,F,14,46,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+27431,23164cdb,GitHub,db218f09,data/db218f09/src/23164cdb.py,70,70,T,F,20,30,F,F,Any,,,Key,2.92,10,F,F,F,API
+27662,6aa5da84,GitHub,db218f09,data/db218f09/test/6aa5da84.py,824,824,T,F,39,45,F,F,CharsOnly,,,Unknown,2.25,6,F,F,F,Secret
+27737,04b0e957,GitHub,db218f09,data/db218f09/test/04b0e957.py,8,8,Template,T,36,41,F,F,CharsOnly,,,Unknown,3.0,8,F,F,F,Secret
+27796,7b3ed02b,GitHub,db218f09,data/db218f09/other/7b3ed02b.rst,153,153,Template,T,26,48,F,F,Any,,,Secret,2.87,22,F,F,F,Key:Secret
+28085,6aa5da84,GitHub,db218f09,data/db218f09/test/6aa5da84.py,1026,1026,T,F,45,573,F,F,Any,,JSON Web Token,Token,5.57,528,F,F,F,Auth:JSON Web Token
+28086,6aa5da84,GitHub,db218f09,data/db218f09/test/6aa5da84.py,1013,1013,T,F,45,612,F,F,Any,,JSON Web Token,Token,5.61,567,F,F,F,Auth:JSON Web Token
+33534,89d50865,GitHub,db218f09,data/db218f09/src/89d50865.rst,157,157,Template,T,52,62,F,F,CharsOnly,,,Secret,3.12,10,F,F,F,Password
+34234,89d50865,GitHub,db218f09,data/db218f09/src/89d50865.rst,160,160,T,F,18,231,F,F,Any,,JSON Web Token,Token,5.38,213,F,F,F,JSON Web Token:Token
+36458,659838d1,GitHub,db218f09,data/db218f09/test/659838d1.py,277,277,F,F,26,58,F,F,,,,,0.0,0,F,F,F,Bitbucket Client ID
 43074,ff56562a,GitHub,db218f09,data/db218f09/src/ff56562a.py,72,72,F,F,,,F,F,,,,,0,0,F,F,F,Password
 46401,659838d1,GitHub,db218f09,data/db218f09/test/659838d1.py,251,251,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
 46402,659838d1,GitHub,db218f09,data/db218f09/test/659838d1.py,253,253,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
@@ -216,9 +216,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 74825,0e7dccac,GitHub,db218f09,data/db218f09/test/0e7dccac.py,657,657,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 74826,0e7dccac,GitHub,db218f09,data/db218f09/test/0e7dccac.py,684,684,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 74827,0e7dccac,GitHub,db218f09,data/db218f09/test/0e7dccac.py,714,714,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-82490,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1865,1865,F,F,14,32,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
-82491,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1889,1889,F,F,14,32,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
-83029,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1443,1443,F,F,21,58,F,F,,,,,0,0,F,F,F,API
+82490,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1865,1865,F,F,35,53,F,F,,,,,0.0,0,F,F,F,Bitbucket Client ID
+82491,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1889,1889,F,F,35,53,F,F,,,,,0.0,0,F,F,F,Bitbucket Client ID
+83029,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1443,1443,F,F,29,66,F,F,,,,,0.0,0,F,F,F,API
 108477,08e0a244,GitHub,db218f09,data/db218f09/src/08e0a244.json,4130,4130,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 108478,08e0a244,GitHub,db218f09,data/db218f09/src/08e0a244.json,4134,4134,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 108479,08e0a244,GitHub,db218f09,data/db218f09/src/08e0a244.json,4138,4138,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
@@ -233,7 +233,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 108488,0e7dccac,GitHub,db218f09,data/db218f09/test/0e7dccac.py,1683,1683,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 108489,0e7dccac,GitHub,db218f09,data/db218f09/test/0e7dccac.py,2354,2354,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 108490,0e7dccac,GitHub,db218f09,data/db218f09/test/0e7dccac.py,2375,2375,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-114581,89d50865,GitHub,db218f09,data/db218f09/src/89d50865.rst,456,456,T,F,19,29,F,F,,,,,0.00,,F,F,F,API
+114581,89d50865,GitHub,db218f09,data/db218f09/src/89d50865.rst,456,456,T,F,23,33,F,F,,,,,0.0,-1,F,F,F,API
 114582,08e0a244,GitHub,db218f09,data/db218f09/src/08e0a244.json,2497,2497,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 114583,08e0a244,GitHub,db218f09,data/db218f09/src/08e0a244.json,872,872,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 114584,08e0a244,GitHub,db218f09,data/db218f09/src/08e0a244.json,879,879,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
@@ -252,7 +252,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 114597,9b6d01e0,GitHub,db218f09,data/db218f09/test/9b6d01e0.py,118,118,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 114598,122e0972,GitHub,db218f09,data/db218f09/test/122e0972.py,102,102,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 114599,f8aa1a8e,GitHub,db218f09,data/db218f09/test/f8aa1a8e.py,204,204,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-132722,89d50865,GitHub,db218f09,data/db218f09/src/89d50865.rst,365,365,T,F,12,56,F,F,,,,,0.00,,F,F,F,Salt
+132722,89d50865,GitHub,db218f09,data/db218f09/src/89d50865.rst,365,365,T,F,18,62,F,F,,,,,0.0,-1,F,F,F,Salt
 132997,f2a47054,GitHub,db218f09,data/db218f09/src/f2a47054.js,1036,1036,F,F,,,F,F,,,,,0,0,F,F,F,Password
 132998,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,142,142,F,F,,,F,F,,,,,0,0,F,F,F,Password
 134667,2c623f3c,GitHub,db218f09,data/db218f09/src/2c623f3c.rst,283,283,F,F,,,F,F,,,,,0,0,F,F,F,API
@@ -288,19 +288,19 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 134698,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1336,1336,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 134699,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1897,1897,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 134700,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,2435,2435,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-1340863,7bd2a56f,GitHub,db218f09,data/db218f09/src/7bd2a56f.rst,185,185,T,F,53,89,F,F,,,,,0.0,0,F,F,F,UUID
-1340864,89d50865,GitHub,db218f09,data/db218f09/src/89d50865.rst,202,202,T,F,0,36,F,F,,,,,0.0,0,F,F,F,UUID
-1340865,89d50865,GitHub,db218f09,data/db218f09/src/89d50865.rst,216,216,T,F,8,44,F,F,,,,,0.0,0,F,F,F,UUID
-1340866,89d50865,GitHub,db218f09,data/db218f09/src/89d50865.rst,225,225,T,F,68,104,F,F,,,,,0.0,0,F,F,F,UUID
-1340867,89d50865,GitHub,db218f09,data/db218f09/src/89d50865.rst,235,235,T,F,66,102,F,F,,,,,0.0,0,F,F,F,UUID
-1340868,89d50865,GitHub,db218f09,data/db218f09/src/89d50865.rst,245,245,T,F,8,44,F,F,,,,,0.0,0,F,F,F,UUID
-1340869,d40a360a,GitHub,db218f09,data/db218f09/src/d40a360a.py,1601,1601,T,F,13,49,F,F,,,,,0.0,0,F,F,F,UUID
-1340870,0e7dccac,GitHub,db218f09,data/db218f09/test/0e7dccac.py,2479,2479,T,F,8,44,F,F,,,,,0.0,0,F,F,F,UUID
-1340871,0e7dccac,GitHub,db218f09,data/db218f09/test/0e7dccac.py,2491,2491,T,F,8,44,F,F,,,,,0.0,0,F,F,F,UUID
-1340872,0e7dccac,GitHub,db218f09,data/db218f09/test/0e7dccac.py,2503,2503,T,F,8,44,F,F,,,,,0.0,0,F,F,F,UUID
-1340873,0e7dccac,GitHub,db218f09,data/db218f09/test/0e7dccac.py,2586,2586,T,F,8,44,F,F,,,,,0.0,0,F,F,F,UUID
-1340874,0e7dccac,GitHub,db218f09,data/db218f09/test/0e7dccac.py,2598,2598,T,F,8,44,F,F,,,,,0.0,0,F,F,F,UUID
-1340875,0e7dccac,GitHub,db218f09,data/db218f09/test/0e7dccac.py,2610,2610,T,F,8,44,F,F,,,,,0.0,0,F,F,F,UUID
-1340876,32d2ce62,GitHub,db218f09,data/db218f09/test/32d2ce62.py,1010,1010,T,F,13,49,F,F,,,,,0.0,0,F,F,F,UUID
-1340877,659838d1,GitHub,db218f09,data/db218f09/test/659838d1.py,290,290,T,F,7,43,F,F,,,,,0.0,0,F,F,F,UUID
-1340878,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1624,1624,T,F,7,43,F,F,,,,,0.0,0,F,F,F,UUID
+1340863,7bd2a56f,GitHub,db218f09,data/db218f09/src/7bd2a56f.rst,185,185,T,F,55,91,F,F,,,,,0.0,0,F,F,F,UUID
+1340864,89d50865,GitHub,db218f09,data/db218f09/src/89d50865.rst,202,202,T,F,4,40,F,F,,,,,0.0,0,F,F,F,UUID
+1340865,89d50865,GitHub,db218f09,data/db218f09/src/89d50865.rst,216,216,T,F,20,56,F,F,,,,,0.0,0,F,F,F,UUID
+1340866,89d50865,GitHub,db218f09,data/db218f09/src/89d50865.rst,225,225,T,F,76,112,F,F,,,,,0.0,0,F,F,F,UUID
+1340867,89d50865,GitHub,db218f09,data/db218f09/src/89d50865.rst,235,235,T,F,70,106,F,F,,,,,0.0,0,F,F,F,UUID
+1340868,89d50865,GitHub,db218f09,data/db218f09/src/89d50865.rst,245,245,T,F,16,52,F,F,,,,,0.0,0,F,F,F,UUID
+1340869,d40a360a,GitHub,db218f09,data/db218f09/src/d40a360a.py,1601,1601,T,F,21,57,F,F,,,,,0.0,0,F,F,F,UUID
+1340870,0e7dccac,GitHub,db218f09,data/db218f09/test/0e7dccac.py,2479,2479,T,F,20,56,F,F,,,,,0.0,0,F,F,F,UUID
+1340871,0e7dccac,GitHub,db218f09,data/db218f09/test/0e7dccac.py,2491,2491,T,F,20,56,F,F,,,,,0.0,0,F,F,F,UUID
+1340872,0e7dccac,GitHub,db218f09,data/db218f09/test/0e7dccac.py,2503,2503,T,F,20,56,F,F,,,,,0.0,0,F,F,F,UUID
+1340873,0e7dccac,GitHub,db218f09,data/db218f09/test/0e7dccac.py,2586,2586,T,F,20,56,F,F,,,,,0.0,0,F,F,F,UUID
+1340874,0e7dccac,GitHub,db218f09,data/db218f09/test/0e7dccac.py,2598,2598,T,F,20,56,F,F,,,,,0.0,0,F,F,F,UUID
+1340875,0e7dccac,GitHub,db218f09,data/db218f09/test/0e7dccac.py,2610,2610,T,F,20,56,F,F,,,,,0.0,0,F,F,F,UUID
+1340876,32d2ce62,GitHub,db218f09,data/db218f09/test/32d2ce62.py,1010,1010,T,F,38,74,F,F,,,,,0.0,0,F,F,F,UUID
+1340877,659838d1,GitHub,db218f09,data/db218f09/test/659838d1.py,290,290,T,F,19,55,F,F,,,,,0.0,0,F,F,F,UUID
+1340878,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1624,1624,T,F,15,51,F,F,,,,,0.0,0,F,F,F,UUID

@@ -90,7 +90,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 24274,15b5a776,GitHub,5cecf769,data/5cecf769/src/15b5a776.py,52,52,F,F,,,F,F,,,,,0,0,F,F,F,API
 24813,15b5a776,GitHub,5cecf769,data/5cecf769/src/15b5a776.py,51,51,F,F,,,F,F,,,,,0,0,F,F,F,API
 26490,1243809b,GitHub,5cecf769,data/5cecf769/src/1243809b.storyboard,36,36,F,F,,,F,F,,,,,0,0,F,F,F,Key
-33489,724f0a84,GitHub,5cecf769,data/5cecf769/test/724f0a84.json,5,5,T,F,16,,F,F,Any,Private,,Unknown,1.00,4,F,F,F,PEM Private Key
+33489,724f0a84,GitHub,5cecf769,data/5cecf769/test/724f0a84.json,5,5,T,F,18,-1,F,F,Any,Private,,Unknown,1.0,4,F,F,F,PEM Private Key
 41113,dcd99814,GitHub,5cecf769,data/5cecf769/src/dcd99814.cc,1481,1481,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 41114,dcd99814,GitHub,5cecf769,data/5cecf769/src/dcd99814.cc,1484,1484,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 41115,dcd99814,GitHub,5cecf769,data/5cecf769/src/dcd99814.cc,1487,1487,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -416,20 +416,20 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 76889,ea86160c,GitHub,5cecf769,data/5cecf769/src/ea86160c.cc,157,157,F,F,,,F,F,,,,,0,0,F,F,F,Token
 76890,ea86160c,GitHub,5cecf769,data/5cecf769/src/ea86160c.cc,429,429,F,F,,,F,F,,,,,0,0,F,F,F,Token
 76891,ea86160c,GitHub,5cecf769,data/5cecf769/src/ea86160c.cc,485,485,F,F,,,F,F,,,,,0,0,F,F,F,Token
-83131,c8e8fa46,GitHub,5cecf769,data/5cecf769/src/c8e8fa46.bzl,150,150,F,F,30,37,F,F,,,,,0,0,F,F,F,API
-83132,6662d694,GitHub,5cecf769,data/5cecf769/other/6662d694,117,117,F,F,41,48,F,F,,,,,0,0,F,F,F,API
-83133,6662d694,GitHub,5cecf769,data/5cecf769/other/6662d694,118,118,F,F,30,37,F,F,,,,,0,0,F,F,F,API
-83134,6662d694,GitHub,5cecf769,data/5cecf769/other/6662d694,264,264,F,F,41,48,F,F,,,,,0,0,F,F,F,API
-83135,b0666d81,GitHub,5cecf769,data/5cecf769/other/b0666d81,37,37,F,F,46,65,F,F,,,,,0,0,F,F,F,API
-83136,82b4ec02,GitHub,5cecf769,data/5cecf769/test/82b4ec02.cc,2023,2023,F,F,44,53,F,F,,,,,0,0,F,F,F,Token
-83137,82b4ec02,GitHub,5cecf769,data/5cecf769/test/82b4ec02.cc,2048,2048,F,F,44,53,F,F,,,,,0,0,F,F,F,Token
-83138,82b4ec02,GitHub,5cecf769,data/5cecf769/test/82b4ec02.cc,2073,2073,F,F,44,53,F,F,,,,,0,0,F,F,F,Token
-83139,82b4ec02,GitHub,5cecf769,data/5cecf769/test/82b4ec02.cc,2098,2098,F,F,44,53,F,F,,,,,0,0,F,F,F,Token
-83140,82b4ec02,GitHub,5cecf769,data/5cecf769/test/82b4ec02.cc,2144,2144,F,F,44,63,F,F,,,,,0,0,F,F,F,Token
-83141,82b4ec02,GitHub,5cecf769,data/5cecf769/test/82b4ec02.cc,2189,2189,F,F,44,63,F,F,,,,,0,0,F,F,F,Token
-83142,82b4ec02,GitHub,5cecf769,data/5cecf769/test/82b4ec02.cc,2196,2196,F,F,44,63,F,F,,,,,0,0,F,F,F,Token
-83143,82b4ec02,GitHub,5cecf769,data/5cecf769/test/82b4ec02.cc,3372,3372,F,F,44,53,F,F,,,,,0,0,F,F,F,Token
-83144,82b4ec02,GitHub,5cecf769,data/5cecf769/test/82b4ec02.cc,3447,3447,F,F,44,53,F,F,,,,,0,0,F,F,F,Token
+83131,c8e8fa46,GitHub,5cecf769,data/5cecf769/src/c8e8fa46.bzl,150,150,F,F,42,49,F,F,,,,,0.0,0,F,F,F,API
+83132,6662d694,GitHub,5cecf769,data/5cecf769/other/6662d694,117,117,F,F,49,56,F,F,,,,,0.0,0,F,F,F,API
+83133,6662d694,GitHub,5cecf769,data/5cecf769/other/6662d694,118,118,F,F,38,45,F,F,,,,,0.0,0,F,F,F,API
+83134,6662d694,GitHub,5cecf769,data/5cecf769/other/6662d694,264,264,F,F,49,56,F,F,,,,,0.0,0,F,F,F,API
+83135,b0666d81,GitHub,5cecf769,data/5cecf769/other/b0666d81,37,37,F,F,54,73,F,F,,,,,0.0,0,F,F,F,API
+83136,82b4ec02,GitHub,5cecf769,data/5cecf769/test/82b4ec02.cc,2023,2023,F,F,50,59,F,F,,,,,0.0,0,F,F,F,Token
+83137,82b4ec02,GitHub,5cecf769,data/5cecf769/test/82b4ec02.cc,2048,2048,F,F,50,59,F,F,,,,,0.0,0,F,F,F,Token
+83138,82b4ec02,GitHub,5cecf769,data/5cecf769/test/82b4ec02.cc,2073,2073,F,F,50,59,F,F,,,,,0.0,0,F,F,F,Token
+83139,82b4ec02,GitHub,5cecf769,data/5cecf769/test/82b4ec02.cc,2098,2098,F,F,50,59,F,F,,,,,0.0,0,F,F,F,Token
+83140,82b4ec02,GitHub,5cecf769,data/5cecf769/test/82b4ec02.cc,2144,2144,F,F,55,74,F,F,,,,,0.0,0,F,F,F,Token
+83141,82b4ec02,GitHub,5cecf769,data/5cecf769/test/82b4ec02.cc,2189,2189,F,F,55,74,F,F,,,,,0.0,0,F,F,F,Token
+83142,82b4ec02,GitHub,5cecf769,data/5cecf769/test/82b4ec02.cc,2196,2196,F,F,55,74,F,F,,,,,0.0,0,F,F,F,Token
+83143,82b4ec02,GitHub,5cecf769,data/5cecf769/test/82b4ec02.cc,3372,3372,F,F,55,64,F,F,,,,,0.0,0,F,F,F,Token
+83144,82b4ec02,GitHub,5cecf769,data/5cecf769/test/82b4ec02.cc,3447,3447,F,F,55,64,F,F,,,,,0.0,0,F,F,F,Token
 83145,e40b8304,GitHub,5cecf769,data/5cecf769/test/e40b8304.cc,163,163,F,F,,,F,F,,,,,0,0,F,F,F,API
 83146,e40b8304,GitHub,5cecf769,data/5cecf769/test/e40b8304.cc,190,190,F,F,,,F,F,,,,,0,0,F,F,F,API
 101417,2b1b6930,GitHub,5cecf769,data/5cecf769/other/2b1b6930.md,3284,3284,F,F,,,F,F,,,,,0.00,,F,F,F,Secret

@@ -21,78 +21,78 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 26059,8948b0f1,GitHub,e0b41e26,data/e0b41e26/src/8948b0f1.js,446,446,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 26586,eca12c0a,GitHub,e0b41e26,data/e0b41e26/other/eca12c0a.md,60,60,F,F,,,F,F,,,,,0,0,F,F,F,API
 26588,cf87f726,GitHub,e0b41e26,data/e0b41e26/src/cf87f726.js,21,21,F,F,,,F,F,,,,,0,0,F,F,F,API
-27535,f493cf70,GitHub,e0b41e26,data/e0b41e26/test/f493cf70.js,261,261,F,F,8,40,F,F,,,,,0,0,F,F,F,Token
-27538,f493cf70,GitHub,e0b41e26,data/e0b41e26/test/f493cf70.js,278,278,F,F,8,28,F,F,,,,,0,0,F,F,F,Token
-27539,a4b52bd0,GitHub,e0b41e26,data/e0b41e26/test/a4b52bd0.js,261,261,F,F,8,28,F,F,,,,,0,0,F,F,F,Token
-28123,5a44a9f9,GitHub,e0b41e26,data/e0b41e26/test/5a44a9f9.js,508,508,Template,T,64,78,F,F,Any,,,Key,2.64,14,F,F,F,API:Key
-29931,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,444,444,Template,F,11,14,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-29954,65f266eb,GitHub,e0b41e26,data/e0b41e26/test/65f266eb.js,17,17,Template,F,18,27,F,F,CharsOnly,,,Secret,0.99,9,F,F,F,Key:Secret
-31047,3cb5b5a8,GitHub,e0b41e26,data/e0b41e26/src/3cb5b5a8.js,114,114,Template,F,22,26,F,F,CharsOnly,,,Unknown,2.00,4,F,F,F,Secret
-31055,c386ab3a,GitHub,e0b41e26,data/e0b41e26/test/c386ab3a.js,174,174,Template,F,22,26,F,F,CharsOnly,,,Secret,2.00,4,F,F,F,Password
-32569,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,332,332,T,T,6,,F,F,Any,Private,,Unknown,5.75,1016,F,F,F,PEM Private Key
-32587,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,513,513,T,F,12,32,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,AWS Client ID:Gitlab Feed Token:Key
-32588,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,495,495,T,F,14,34,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,AWS Client ID:Gitlab Feed Token:Key
-32589,2539a395,GitHub,e0b41e26,data/e0b41e26/src/2539a395.yaml,69,69,T,F,13,33,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,AWS Client ID:Gitlab Feed Token:Key
-32590,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/9ce19240.yaml,81,81,T,F,13,33,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,AWS Client ID:Gitlab Feed Token:Key
-32717,5a44a9f9,GitHub,e0b41e26,data/e0b41e26/test/5a44a9f9.js,330,330,T,F,9,29,F,F,Any,,,Key,4.32,20,F,F,F,API:Gitlab Feed Token:Key
-32724,5a44a9f9,GitHub,e0b41e26,data/e0b41e26/test/5a44a9f9.js,370,370,T,F,9,29,F,F,Any,,,Key,3.82,20,F,F,F,API:Gitlab Feed Token:Key
-34359,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,474,474,T,F,11,31,F,F,Any,,,Secret,3.57,20,F,F,F,Password
-34363,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,220,220,T,T,11,26,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Dropbox App secret:Password
-34383,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,449,449,T,T,11,26,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Dropbox App secret:Password
-34509,2539a395,GitHub,e0b41e26,data/e0b41e26/src/2539a395.yaml,85,85,T,F,10,26,F,F,Any,,,Secret,3.62,16,F,F,F,Password
-34510,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/9ce19240.yaml,99,99,T,F,10,26,F,F,Any,,,Secret,3.62,16,F,F,F,Password
-34586,5851db11,GitHub,e0b41e26,data/e0b41e26/test/5851db11.js,12,12,T,F,11,27,F,F,Any,,,Secret,3.62,16,F,F,F,Password
-34587,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,436,436,T,F,11,27,F,F,Any,,,Secret,3.62,16,F,F,F,Password
-35229,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/9ce19240.yaml,82,82,T,F,17,57,F,F,Any,,,Secret,5.00,40,F,F,F,Secret:Key
-35231,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,496,496,T,F,18,58,F,F,Any,,,Secret,5.00,40,F,F,F,Secret:Key
-35232,508b8489,GitHub,e0b41e26,data/e0b41e26/test/508b8489.js,1319,1319,T,F,18,22,F,F,CharsOnly,,,Secret,2.00,4,F,F,F,Password:Key:Secret
-35766,27f723c6,GitHub,e0b41e26,data/e0b41e26/src/27f723c6.js,20,20,T,F,56,86,F,F,Any,,,Token,4.44,30,F,F,F,Auth:Token
+27535,f493cf70,GitHub,e0b41e26,data/e0b41e26/test/f493cf70.js,261,261,F,F,31,63,F,F,,,,,0.0,0,F,F,F,Token
+27538,f493cf70,GitHub,e0b41e26,data/e0b41e26/test/f493cf70.js,278,278,F,F,31,51,F,F,,,,,0.0,0,F,F,F,Token
+27539,a4b52bd0,GitHub,e0b41e26,data/e0b41e26/test/a4b52bd0.js,261,261,F,F,32,52,F,F,,,,,0.0,0,F,F,F,Token
+28123,5a44a9f9,GitHub,e0b41e26,data/e0b41e26/test/5a44a9f9.js,508,508,Template,T,76,90,F,F,Any,,,Key,2.64,14,F,F,F,API:Key
+29931,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,444,444,Template,F,19,22,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
+29954,65f266eb,GitHub,e0b41e26,data/e0b41e26/test/65f266eb.js,17,17,Template,F,26,35,F,F,CharsOnly,,,Secret,0.99,9,F,F,F,Key:Secret
+31047,3cb5b5a8,GitHub,e0b41e26,data/e0b41e26/src/3cb5b5a8.js,114,114,Template,F,42,46,F,F,CharsOnly,,,Unknown,2.0,4,F,F,F,Secret
+31055,c386ab3a,GitHub,e0b41e26,data/e0b41e26/test/c386ab3a.js,174,174,Template,F,50,54,F,F,CharsOnly,,,Secret,2.0,4,F,F,F,Password
+32569,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,332,332,T,T,10,-1,F,F,Any,Private,,Unknown,5.75,1016,F,F,F,PEM Private Key
+32587,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,513,513,T,F,20,40,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,AWS Client ID:Gitlab Feed Token:Key
+32588,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,495,495,T,F,22,42,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,AWS Client ID:Gitlab Feed Token:Key
+32589,2539a395,GitHub,e0b41e26,data/e0b41e26/src/2539a395.yaml,69,69,T,F,17,37,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,AWS Client ID:Gitlab Feed Token:Key
+32590,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/9ce19240.yaml,81,81,T,F,17,37,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,AWS Client ID:Gitlab Feed Token:Key
+32717,5a44a9f9,GitHub,e0b41e26,data/e0b41e26/test/5a44a9f9.js,330,330,T,F,25,45,F,F,Any,,,Key,4.32,20,F,F,F,API:Gitlab Feed Token:Key
+32724,5a44a9f9,GitHub,e0b41e26,data/e0b41e26/test/5a44a9f9.js,370,370,T,F,25,45,F,F,Any,,,Key,3.82,20,F,F,F,API:Gitlab Feed Token:Key
+34359,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,474,474,T,F,19,39,F,F,Any,,,Secret,3.57,20,F,F,F,Password
+34363,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,220,220,T,T,15,30,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Dropbox App secret:Password
+34383,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,449,449,T,T,19,34,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Dropbox App secret:Password
+34509,2539a395,GitHub,e0b41e26,data/e0b41e26/src/2539a395.yaml,85,85,T,F,14,30,F,F,Any,,,Secret,3.62,16,F,F,F,Password
+34510,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/9ce19240.yaml,99,99,T,F,14,30,F,F,Any,,,Secret,3.62,16,F,F,F,Password
+34586,5851db11,GitHub,e0b41e26,data/e0b41e26/test/5851db11.js,12,12,T,F,15,31,F,F,Any,,,Secret,3.62,16,F,F,F,Password
+34587,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,436,436,T,F,19,35,F,F,Any,,,Secret,3.62,16,F,F,F,Password
+35229,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/9ce19240.yaml,82,82,T,F,21,61,F,F,Any,,,Secret,5.0,40,F,F,F,Secret:Key
+35231,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,496,496,T,F,26,66,F,F,Any,,,Secret,5.0,40,F,F,F,Secret:Key
+35232,508b8489,GitHub,e0b41e26,data/e0b41e26/test/508b8489.js,1319,1319,T,F,34,38,F,F,CharsOnly,,,Secret,2.0,4,F,F,F,Password:Key:Secret
+35766,27f723c6,GitHub,e0b41e26,data/e0b41e26/src/27f723c6.js,20,20,T,F,64,94,F,F,Any,,,Token,4.44,30,F,F,F,Auth:Token
 35863,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,142,142,T,F,28,58,F,F,Any,,,Token,4.71,30,F,F,F,Token
 35865,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,127,127,T,F,23,43,F,F,Any,,,Key,3.82,20,F,F,F,API:Gitlab Feed Token:Key
-36084,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/9ce19240.yaml,18,18,T,T,10,25,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Dropbox App secret:Password
-36101,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/9ce19240.yaml,48,48,T,F,10,30,F,F,Any,,,Secret,3.57,20,F,F,F,Password
-36349,0defaa4e,GitHub,e0b41e26,data/e0b41e26/test/0defaa4e.js,60,60,T,F,16,46,F,F,Any,,,Token,4.51,30,F,F,F,Token
-36361,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,580,580,T,F,22,62,F,F,Any,,,Secret,5.00,40,F,F,F,Secret:Key
-36362,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,579,579,T,F,22,42,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,AWS Client ID:Gitlab Feed Token:Key
-36728,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,504,504,T,F,14,34,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,AWS Client ID:Gitlab Feed Token:Key
-36729,2539a395,GitHub,e0b41e26,data/e0b41e26/src/2539a395.yaml,78,78,T,F,13,33,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,AWS Client ID:Gitlab Feed Token:Key
-36730,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/9ce19240.yaml,91,91,T,F,13,33,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,AWS Client ID:Gitlab Feed Token:Key
-36749,5a44a9f9,GitHub,e0b41e26,data/e0b41e26/test/5a44a9f9.js,399,399,T,F,9,29,F,F,Any,,,Key,3.82,20,F,F,F,API:Gitlab Feed Token:Key
-37125,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,234,234,T,T,11,26,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Dropbox App secret:Password
-37126,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,242,242,T,T,11,26,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Dropbox App secret:Password
-37127,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,258,258,T,T,11,26,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Dropbox App secret:Password
-37156,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,458,458,T,T,11,26,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Dropbox App secret:Password
-37157,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,466,466,T,T,11,26,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Dropbox App secret:Password
-37158,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,482,482,T,T,11,26,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Dropbox App secret:Password
-37159,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,530,530,T,T,11,26,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Dropbox App secret:Password
-37414,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/9ce19240.yaml,92,92,T,F,17,57,F,F,Any,,,Secret,5.00,40,F,F,F,Secret:Key
-37415,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,505,505,T,F,18,58,F,F,Any,,,Secret,5.00,40,F,F,F,Secret:Key
-37416,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,514,514,T,F,18,58,F,F,Any,,,Secret,5.00,40,F,F,F,Secret:Key
-37564,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/9ce19240.yaml,28,28,T,T,10,25,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Dropbox App secret:Password
-37565,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/9ce19240.yaml,38,38,T,T,10,25,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Dropbox App secret:Password
-37566,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/9ce19240.yaml,58,58,T,T,10,25,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Dropbox App secret:Password
-40751,2539a395,GitHub,e0b41e26,data/e0b41e26/src/2539a395.yaml,13,13,T,T,10,25,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Dropbox App secret:Password
-40752,2539a395,GitHub,e0b41e26,data/e0b41e26/src/2539a395.yaml,40,40,T,F,10,30,F,F,Any,,,Secret,3.57,20,F,F,F,Password
-40753,2539a395,GitHub,e0b41e26,data/e0b41e26/src/2539a395.yaml,70,70,T,F,17,57,F,F,Any,,,Secret,5.00,40,F,F,F,Secret:Key
+36084,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/9ce19240.yaml,18,18,T,T,14,29,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Dropbox App secret:Password
+36101,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/9ce19240.yaml,48,48,T,F,14,34,F,F,Any,,,Secret,3.57,20,F,F,F,Password
+36349,0defaa4e,GitHub,e0b41e26,data/e0b41e26/test/0defaa4e.js,60,60,T,F,24,54,F,F,Any,,,Token,4.51,30,F,F,F,Token
+36361,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,580,580,T,F,32,72,F,F,Any,,,Secret,5.0,40,F,F,F,Secret:Key
+36362,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,579,579,T,F,32,52,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,AWS Client ID:Gitlab Feed Token:Key
+36728,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,504,504,T,F,22,42,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,AWS Client ID:Gitlab Feed Token:Key
+36729,2539a395,GitHub,e0b41e26,data/e0b41e26/src/2539a395.yaml,78,78,T,F,17,37,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,AWS Client ID:Gitlab Feed Token:Key
+36730,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/9ce19240.yaml,91,91,T,F,17,37,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,AWS Client ID:Gitlab Feed Token:Key
+36749,5a44a9f9,GitHub,e0b41e26,data/e0b41e26/test/5a44a9f9.js,399,399,T,F,25,45,F,F,Any,,,Key,3.82,20,F,F,F,API:Gitlab Feed Token:Key
+37125,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,234,234,T,T,15,30,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Dropbox App secret:Password
+37126,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,242,242,T,T,15,30,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Dropbox App secret:Password
+37127,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,258,258,T,T,15,30,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Dropbox App secret:Password
+37156,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,458,458,T,T,19,34,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Dropbox App secret:Password
+37157,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,466,466,T,T,19,34,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Dropbox App secret:Password
+37158,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,482,482,T,T,19,34,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Dropbox App secret:Password
+37159,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,530,530,T,T,19,34,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Dropbox App secret:Password
+37414,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/9ce19240.yaml,92,92,T,F,21,61,F,F,Any,,,Secret,5.0,40,F,F,F,Secret:Key
+37415,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,505,505,T,F,26,66,F,F,Any,,,Secret,5.0,40,F,F,F,Secret:Key
+37416,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,514,514,T,F,26,66,F,F,Any,,,Secret,5.0,40,F,F,F,Secret:Key
+37564,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/9ce19240.yaml,28,28,T,T,14,29,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Dropbox App secret:Password
+37565,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/9ce19240.yaml,38,38,T,T,14,29,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Dropbox App secret:Password
+37566,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/9ce19240.yaml,58,58,T,T,14,29,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Dropbox App secret:Password
+40751,2539a395,GitHub,e0b41e26,data/e0b41e26/src/2539a395.yaml,13,13,T,T,14,29,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Dropbox App secret:Password
+40752,2539a395,GitHub,e0b41e26,data/e0b41e26/src/2539a395.yaml,40,40,T,F,14,34,F,F,Any,,,Secret,3.57,20,F,F,F,Password
+40753,2539a395,GitHub,e0b41e26,data/e0b41e26/src/2539a395.yaml,70,70,T,F,21,61,F,F,Any,,,Secret,5.0,40,F,F,F,Secret:Key
 41777,27f723c6,GitHub,e0b41e26,data/e0b41e26/src/27f723c6.js,18,18,F,F,,,F,F,,,,,0,0,F,F,F,Token
 41971,d2d15f00,GitHub,e0b41e26,data/e0b41e26/src/d2d15f00.js,79,79,F,F,,,F,F,,,,,0,0,F,F,F,API
 41972,d2d15f00,GitHub,e0b41e26,data/e0b41e26/src/d2d15f00.js,70,70,F,F,,,F,F,,,,,0,0,F,F,F,Token
-42220,2539a395,GitHub,e0b41e26,data/e0b41e26/src/2539a395.yaml,79,79,T,F,17,57,F,F,Any,,,Secret,5.00,40,F,F,F,Secret:Key
-42221,2539a395,GitHub,e0b41e26,data/e0b41e26/src/2539a395.yaml,22,22,T,T,10,25,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Dropbox App secret:Password
-42222,2539a395,GitHub,e0b41e26,data/e0b41e26/src/2539a395.yaml,31,31,T,T,10,25,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Dropbox App secret:Password
-42223,2539a395,GitHub,e0b41e26,data/e0b41e26/src/2539a395.yaml,49,49,T,T,10,25,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Dropbox App secret:Password
-42454,bd3fe8db,GitHub,e0b41e26,data/e0b41e26/src/bd3fe8db.js,134,134,Template,T,14,21,F,F,CharsOnly,,,Secret,2.81,7,F,F,F,Credential
-42455,bd3fe8db,GitHub,e0b41e26,data/e0b41e26/src/bd3fe8db.js,178,178,Template,T,14,21,F,F,CharsOnly,,,Secret,2.81,7,F,F,F,Credential
-42456,bd3fe8db,GitHub,e0b41e26,data/e0b41e26/src/bd3fe8db.js,191,191,Template,T,14,21,F,F,CharsOnly,,,Secret,2.81,7,F,F,F,Credential
-42457,bd3fe8db,GitHub,e0b41e26,data/e0b41e26/src/bd3fe8db.js,228,228,Template,T,14,21,F,F,CharsOnly,,,Secret,2.81,7,F,F,F,Credential
-42458,bd3fe8db,GitHub,e0b41e26,data/e0b41e26/src/bd3fe8db.js,245,245,Template,T,14,21,F,F,CharsOnly,,,Secret,2.81,7,F,F,F,Credential
+42220,2539a395,GitHub,e0b41e26,data/e0b41e26/src/2539a395.yaml,79,79,T,F,21,61,F,F,Any,,,Secret,5.0,40,F,F,F,Secret:Key
+42221,2539a395,GitHub,e0b41e26,data/e0b41e26/src/2539a395.yaml,22,22,T,T,14,29,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Dropbox App secret:Password
+42222,2539a395,GitHub,e0b41e26,data/e0b41e26/src/2539a395.yaml,31,31,T,T,14,29,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Dropbox App secret:Password
+42223,2539a395,GitHub,e0b41e26,data/e0b41e26/src/2539a395.yaml,49,49,T,T,14,29,F,F,CharsOnly,,,Secret,2.87,15,F,F,F,Dropbox App secret:Password
+42454,bd3fe8db,GitHub,e0b41e26,data/e0b41e26/src/bd3fe8db.js,134,134,Template,T,26,33,F,F,CharsOnly,,,Secret,2.81,7,F,F,F,Credential
+42455,bd3fe8db,GitHub,e0b41e26,data/e0b41e26/src/bd3fe8db.js,178,178,Template,T,26,33,F,F,CharsOnly,,,Secret,2.81,7,F,F,F,Credential
+42456,bd3fe8db,GitHub,e0b41e26,data/e0b41e26/src/bd3fe8db.js,191,191,Template,T,26,33,F,F,CharsOnly,,,Secret,2.81,7,F,F,F,Credential
+42457,bd3fe8db,GitHub,e0b41e26,data/e0b41e26/src/bd3fe8db.js,228,228,Template,T,34,41,F,F,CharsOnly,,,Secret,2.81,7,F,F,F,Credential
+42458,bd3fe8db,GitHub,e0b41e26,data/e0b41e26/src/bd3fe8db.js,245,245,Template,T,26,33,F,F,CharsOnly,,,Secret,2.81,7,F,F,F,Credential
 46442,508b8489,GitHub,e0b41e26,data/e0b41e26/test/508b8489.js,1303,1303,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
 46443,a4b52bd0,GitHub,e0b41e26,data/e0b41e26/test/a4b52bd0.js,279,279,F,F,,,F,F,,,,,0,0,F,F,F,Token
-47949,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,273,273,T,F,14,34,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,AWS Client ID:Gitlab Feed Token:Key
-47950,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,282,282,T,F,14,34,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,AWS Client ID:Gitlab Feed Token:Key
-48025,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,250,250,T,F,11,31,F,F,Any,,,Unknown,2.82,9,F,F,F,Password
-48071,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,283,283,T,F,18,58,F,F,Any,,,Secret,5.00,40,F,F,F,Secret:Key
-48072,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,274,274,T,F,18,58,F,F,Any,,,Secret,5.00,40,F,F,F,Secret:Key
+47949,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,273,273,T,F,18,38,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,AWS Client ID:Gitlab Feed Token:Key
+47950,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,282,282,T,F,18,38,F,F,Any,,AWS Client ID,Token,3.45,20,F,F,F,AWS Client ID:Gitlab Feed Token:Key
+48025,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,250,250,T,F,15,35,F,F,Any,,,Unknown,2.82,9,F,F,F,Password
+48071,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,283,283,T,F,22,62,F,F,Any,,,Secret,5.0,40,F,F,F,Secret:Key
+48072,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,274,274,T,F,22,62,F,F,Any,,,Secret,5.0,40,F,F,F,Secret:Key
 56054,c386ab3a,GitHub,e0b41e26,data/e0b41e26/test/c386ab3a.js,173,173,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 56055,3cb5b5a8,GitHub,e0b41e26,data/e0b41e26/src/3cb5b5a8.js,115,115,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 63573,27f723c6,GitHub,e0b41e26,data/e0b41e26/src/27f723c6.js,30,30,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -107,7 +107,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 75109,dd45288f,GitHub,e0b41e26,data/e0b41e26/test/dd45288f.js,151,151,F,F,,,F,F,,,,,0,0,F,F,F,Token
 75110,dd45288f,GitHub,e0b41e26,data/e0b41e26/test/dd45288f.js,199,199,F,F,,,F,F,,,,,0,0,F,F,F,Token
 79248,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,331,331,F,F,,,F,F,,,,,0,0,F,F,F,Certificate
-82283,508b8489,GitHub,e0b41e26,data/e0b41e26/test/508b8489.js,1372,1372,F,F,10,42,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+82283,508b8489,GitHub,e0b41e26,data/e0b41e26/test/508b8489.js,1372,1372,F,F,34,66,F,F,,,,,0.0,0,F,F,F,Bitbucket Client ID
 82284,3c850ff9,GitHub,e0b41e26,data/e0b41e26/test/3c850ff9.js,46,46,F,T,,,F,F,CharsOnly,,,Key,2.58,6,F,F,F,Key
 107282,508b8489,GitHub,e0b41e26,data/e0b41e26/test/508b8489.js,1465,1465,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
 113949,3cb5b5a8,GitHub,e0b41e26,data/e0b41e26/src/3cb5b5a8.js,58,58,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
@@ -120,17 +120,17 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 113956,c386ab3a,GitHub,e0b41e26,data/e0b41e26/test/c386ab3a.js,196,196,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
 113957,c386ab3a,GitHub,e0b41e26,data/e0b41e26/test/c386ab3a.js,207,207,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
 134702,cb7e4c87,GitHub,e0b41e26,data/e0b41e26/src/cb7e4c87.js,16,16,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-137844,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,495,496,T,F,14,58,F,F,,,,,0.0,0,F,F,F,AWS Multi
-137845,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,504,505,T,F,14,58,F,F,,,,,0.0,0,F,F,F,AWS Multi
-137846,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,513,514,T,F,12,58,F,F,,,,,0.0,0,F,F,F,AWS Multi
-137847,2539a395,GitHub,e0b41e26,data/e0b41e26/src/2539a395.yaml,69,70,T,F,13,57,F,F,,,,,0.0,0,F,F,F,AWS Multi
-137848,2539a395,GitHub,e0b41e26,data/e0b41e26/src/2539a395.yaml,78,79,T,F,13,57,F,F,,,,,0.0,0,F,F,F,AWS Multi
-137849,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/9ce19240.yaml,81,82,T,F,13,57,F,F,,,,,0.0,0,F,F,F,AWS Multi
-137850,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/9ce19240.yaml,91,92,T,F,13,57,F,F,,,,,0.0,0,F,F,F,AWS Multi
-137854,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,273,274,T,F,14,58,F,F,,,,,0.0,0,F,F,F,AWS Multi
-137855,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,282,283,T,F,14,58,F,F,,,,,0.0,0,F,F,F,AWS Multi
-137856,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,579,580,T,F,22,62,F,F,,,,,0.0,0,F,F,F,AWS Multi
+137844,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,495,496,T,F,22,66,F,F,,,,,0.0,0,F,F,F,AWS Multi
+137845,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,504,505,T,F,22,66,F,F,,,,,0.0,0,F,F,F,AWS Multi
+137846,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,513,514,T,F,20,66,F,F,,,,,0.0,0,F,F,F,AWS Multi
+137847,2539a395,GitHub,e0b41e26,data/e0b41e26/src/2539a395.yaml,69,70,T,F,17,61,F,F,,,,,0.0,0,F,F,F,AWS Multi
+137848,2539a395,GitHub,e0b41e26,data/e0b41e26/src/2539a395.yaml,78,79,T,F,17,61,F,F,,,,,0.0,0,F,F,F,AWS Multi
+137849,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/9ce19240.yaml,81,82,T,F,17,61,F,F,,,,,0.0,0,F,F,F,AWS Multi
+137850,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/9ce19240.yaml,91,92,T,F,17,61,F,F,,,,,0.0,0,F,F,F,AWS Multi
+137854,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,273,274,T,F,18,62,F,F,,,,,0.0,0,F,F,F,AWS Multi
+137855,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,282,283,T,F,18,62,F,F,,,,,0.0,0,F,F,F,AWS Multi
+137856,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,579,580,T,F,32,72,F,F,,,,,0.0,0,F,F,F,AWS Multi
 138123,2a34abd7,GitHub,e0b41e26,data/e0b41e26/test/2a34abd7.ndjson,2,2,F,F,103,135,F,F,,,,,0.0,0,F,F,F,Token
 138124,2a34abd7,GitHub,e0b41e26,data/e0b41e26/test/2a34abd7.ndjson,4,4,F,F,102,122,F,F,,,,,0.0,0,F,F,F,Token
 138125,2a34abd7,GitHub,e0b41e26,data/e0b41e26/test/2a34abd7.ndjson,6,6,F,F,104,142,F,F,,,,,0.0,0,F,F,F,Token
-1013650,508b8489,GitHub,e0b41e26,data/e0b41e26/test/508b8489.js,189,189,Template,F,22,36,F,F,,,,,0,0,F,F,F,Token
+1013650,508b8489,GitHub,e0b41e26,data/e0b41e26/test/508b8489.js,189,189,Template,F,34,48,F,F,,,,,0.0,0,F,F,F,Token
