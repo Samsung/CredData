@@ -428,14 +428,11 @@ def replace_rows(data: List[MetaRow]):
             lines = f.read().split('\n')
 
         old_line = lines[row.LineStart - 1]
-
-        indentation = len(old_line) - len(old_line.lstrip())
-
-        value = old_line[indentation + row.ValueStart:indentation + row.ValueEnd]
+        value = old_line[row.ValueStart:row.ValueEnd]
         # credsweeper does not scan lines over 8000 symbols, so 1<<13 is enough
         random.seed((row.LineStart << 13 + row.ValueStart) ^ int(row.FileID, 16))
         obfuscated_value = get_obfuscated_value(value, row)
-        new_line = old_line[:indentation + row.ValueStart] + obfuscated_value + old_line[indentation + row.ValueEnd:]
+        new_line = old_line[:row.ValueStart] + obfuscated_value + old_line[row.ValueEnd:]
 
         lines[row.LineStart - 1] = new_line
 
@@ -535,14 +532,6 @@ def create_new_multiline(lines: List[str], starting_position: int):
     new_lines = []
 
     first_line = lines[0]
-    # First line might have an offset for variable name
-    if 0 <= starting_position:
-        # starting_position was obtained from stripped line!
-        offset = len(first_line) - len(first_line.lstrip())
-        starting_position += offset
-    else:
-        # empty integers are cast to -1 from csv
-        starting_position = 0
 
     new_lines.append(first_line[:starting_position] + obfuscate_segment(first_line[starting_position:]))
 
