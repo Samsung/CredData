@@ -164,12 +164,12 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 35492,d0b71133,GitHub,f008dd40,data/f008dd40/src/d0b71133.pem,1,28,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,PEM Private Key
 35823,0bbc7302,GitHub,f008dd40,data/f008dd40/src/0bbc7302.yml,708,708,T,T,125,177,F,F,Any,,,Secret,4.64,52,F,F,F,Secret
 36074,9e2351f6,GitHub,f008dd40,data/f008dd40/src/9e2351f6.yml,396,396,T,F,14,22,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-36092,c592e77b,GitHub,f008dd40,data/f008dd40/test/c592e77b.go,368,368,T,T,40,103,F,F,Any,,,Secret,5.03,63,F,F,F,Secret
-36093,c592e77b,GitHub,f008dd40,data/f008dd40/test/c592e77b.go,309,309,T,F,41,103,F,F,Any,,,Secret,5.07,62,F,F,F,Secret
-36094,86db8848,GitHub,f008dd40,data/f008dd40/src/86db8848.yml,12,12,T,F,44,112,F,F,Any,,,Secret,4.94,68,F,F,F,Secret
-36095,c592e77b,GitHub,f008dd40,data/f008dd40/test/c592e77b.go,383,383,T,T,44,106,F,F,Any,,,Secret,4.86,62,F,F,F,Secret
-36097,c592e77b,GitHub,f008dd40,data/f008dd40/test/c592e77b.go,375,375,T,T,44,106,F,F,Any,,,Secret,4.86,62,F,F,F,Secret
-36105,c592e77b,GitHub,f008dd40,data/f008dd40/test/c592e77b.go,393,393,T,T,44,106,F,F,Any,,,Secret,4.83,62,F,F,F,Secret
+36092,c592e77b,GitHub,f008dd40,data/f008dd40/test/c592e77b.go,368,368,F,T,40,103,F,F,Any,,,argon2i,5.03,63,F,F,F,Password
+36093,c592e77b,GitHub,f008dd40,data/f008dd40/test/c592e77b.go,309,309,F,F,41,103,F,F,Any,,,argon2i,5.07,62,F,F,F,Password
+36094,86db8848,GitHub,f008dd40,data/f008dd40/src/86db8848.yml,12,12,F,F,15,112,F,F,Any,,,argon2i,4.94,68,F,F,F,Password
+36095,c592e77b,GitHub,f008dd40,data/f008dd40/test/c592e77b.go,383,383,F,T,44,106,F,F,Any,,,argon2i,4.86,62,F,F,F,Password
+36097,c592e77b,GitHub,f008dd40,data/f008dd40/test/c592e77b.go,375,375,F,T,44,106,F,F,Any,,,argon2i,4.86,62,F,F,F,Password
+36105,c592e77b,GitHub,f008dd40,data/f008dd40/test/c592e77b.go,393,393,F,T,44,106,F,F,Any,,,argon2i,4.83,62,F,F,F,Password
 36106,acf40ee3,GitHub,f008dd40,data/f008dd40/test/acf40ee3.go,74,74,Template,T,14,22,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
 36251,dbc7c85c,GitHub,f008dd40,data/f008dd40/test/dbc7c85c.yml,7,7,T,F,12,75,F,F,Any,,,Secret,5.19,63,F,F,F,Secret
 36261,7e3cddc8,GitHub,f008dd40,data/f008dd40/test/7e3cddc8.yml,11,11,T,T,14,38,F,F,Any,,,Secret,3.74,24,F,F,F,Atlassian Old PAT token:Secret
@@ -455,3 +455,4 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 134726,698aef8a,GitHub,f008dd40,data/f008dd40/test/698aef8a.conf,1044,1044,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 134727,a40d8da9,GitHub,f008dd40,data/f008dd40/test/a40d8da9.go,274,274,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 134728,c592e77b,GitHub,f008dd40,data/f008dd40/test/c592e77b.go,226,226,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+1036094,86db8848,GitHub,f008dd40,data/f008dd40/src/86db8848.yml,12,12,T,F,130,138,F,F,Any,,,Secret,4.94,68,F,F,F,Password
