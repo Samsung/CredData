@@ -3,7 +3,7 @@
 """
 The script is developed to update meta with absolute positions of value instead from stripped line
 """
-
+import copy
 import os
 import subprocess
 import sys
@@ -33,12 +33,13 @@ def main(meta_dir: str, data_dir: str) -> int:
 
     meta = read_meta(meta_dir)
     meta.sort(key=lambda x: (x.FilePath, x.LineStart, x.LineEnd, x.ValueStart, x.ValueEnd))
-    for row in meta:
-        categories = set(row.Category.split(':'))
+    for i in meta:
+        categories = set(i.Category.split(':'))
         if "Secret" in categories:
-            lines = read_cache(row.FilePath)
-            line = lines[row.LineStart - 1].lower()
+            lines = read_cache(i.FilePath)
+            line = lines[i.LineStart - 1].lower()
             if "secret" not in line:
+                row=copy.deepcopy(i)
                 # there is no the keyword in the line
                 if 1 == len(categories):
                     if "cred" in line:
