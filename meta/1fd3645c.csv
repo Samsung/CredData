@@ -13,8 +13,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 10963,dce24682,GitHub,1fd3645c,data/1fd3645c/test/dce24682.py,10,10,F,F,,,F,F,,,,,0,0,F,F,F,API
 10964,7441d9f4,GitHub,1fd3645c,data/1fd3645c/test/7441d9f4.py,24,24,F,F,,,F,F,,,,,0,0,F,F,F,API
 10965,22a37990,GitHub,1fd3645c,data/1fd3645c/test/22a37990.py,10,10,F,F,,,F,F,,,,,0,0,F,F,F,API
-11414,7eb88f2b,GitHub,1fd3645c,data/1fd3645c/test/7eb88f2b.py,20,20,Template,T,19,32,F,F,Any,,,Secret,2.98,13,F,F,F,Password
-11415,3fc6fc71,GitHub,1fd3645c,data/1fd3645c/test/3fc6fc71.py,10,10,Template,T,0,5,F,F,CharOnly,,,Secret,2.32,5,F,F,F,Password
+11414,7eb88f2b,GitHub,1fd3645c,data/1fd3645c/test/7eb88f2b.py,20,20,Template,T,23,36,F,F,Any,,,Secret,2.98,13,F,F,F,Password
+11415,3fc6fc71,GitHub,1fd3645c,data/1fd3645c/test/3fc6fc71.py,10,10,Template,T,4,9,F,F,CharOnly,,,Secret,2.32,5,F,F,F,Password
 11535,ffa95f10,GitHub,1fd3645c,data/1fd3645c/test/ffa95f10.py,20,20,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 11536,7afbbe95,GitHub,1fd3645c,data/1fd3645c/test/7afbbe95.py,97,97,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 12192,7eb88f2b,GitHub,1fd3645c,data/1fd3645c/test/7eb88f2b.py,11,11,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
@@ -30,13 +30,13 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 17686,650a6959,GitHub,1fd3645c,data/1fd3645c/src/650a6959.py,55,55,F,F,,,F,F,,,,,0,0,F,F,F,Token
 23726,7441d9f4,GitHub,1fd3645c,data/1fd3645c/test/7441d9f4.py,12,12,F,F,,,F,F,,,,,0,0,F,F,F,API
 25051,7441d9f4,GitHub,1fd3645c,data/1fd3645c/test/7441d9f4.py,11,11,F,F,,,F,F,,,,,0,0,F,F,F,Token
-35242,d4186827,GitHub,1fd3645c,data/1fd3645c/test/d4186827.py,12,12,T,F,10,30,F,F,Any,,,Secret,4.12,20,F,F,F,Gitlab Feed Token:Secret
-50287,7afbbe95,GitHub,1fd3645c,data/1fd3645c/test/7afbbe95.py,12,12,T,T,36,46,F,F,Any,,,Secret,3.12,10,F,F,F,Password
-50288,7488154d,GitHub,1fd3645c,data/1fd3645c/test/7488154d.py,16,16,T,T,36,46,F,F,Any,,,Secret,3.12,10,F,F,F,Password
-50289,d3cc277f,GitHub,1fd3645c,data/1fd3645c/test/d3cc277f.py,20,20,T,T,36,46,F,F,Any,,,Secret,3.12,10,F,F,F,Password
-137267,7488154d,GitHub,1fd3645c,data/1fd3645c/test/7488154d.py,16,16,F,F,19,32,F,F,,,,,0.0,0,F,F,F,Password
-137268,7afbbe95,GitHub,1fd3645c,data/1fd3645c/test/7afbbe95.py,12,12,F,F,19,32,F,F,,,,,0.0,0,F,F,F,Password
-137269,d3cc277f,GitHub,1fd3645c,data/1fd3645c/test/d3cc277f.py,20,20,F,F,19,32,F,F,,,,,0.0,0,F,F,F,Password
+35242,d4186827,GitHub,1fd3645c,data/1fd3645c/test/d4186827.py,12,12,T,F,14,34,F,F,Any,,,Secret,4.12,20,F,F,F,Gitlab Feed Token:Secret
+50287,7afbbe95,GitHub,1fd3645c,data/1fd3645c/test/7afbbe95.py,12,12,T,T,40,50,F,F,Any,,,Secret,3.12,10,F,F,F,Password
+50288,7488154d,GitHub,1fd3645c,data/1fd3645c/test/7488154d.py,16,16,T,T,40,50,F,F,Any,,,Secret,3.12,10,F,F,F,Password
+50289,d3cc277f,GitHub,1fd3645c,data/1fd3645c/test/d3cc277f.py,20,20,T,T,40,50,F,F,Any,,,Secret,3.12,10,F,F,F,Password
+137267,7488154d,GitHub,1fd3645c,data/1fd3645c/test/7488154d.py,16,16,F,F,23,36,F,F,,,,,0.0,0,F,F,F,Password
+137268,7afbbe95,GitHub,1fd3645c,data/1fd3645c/test/7afbbe95.py,12,12,F,F,23,36,F,F,,,,,0.0,0,F,F,F,Password
+137269,d3cc277f,GitHub,1fd3645c,data/1fd3645c/test/d3cc277f.py,20,20,F,F,23,36,F,F,,,,,0.0,0,F,F,F,Password
 57315,650a6959,GitHub,1fd3645c,data/1fd3645c/src/650a6959.py,603,603,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 57322,8661d86a,GitHub,1fd3645c,data/1fd3645c/src/8661d86a.py,132,132,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 75136,8661d86a,GitHub,1fd3645c,data/1fd3645c/src/8661d86a.py,204,204,F,F,,,F,F,,,,,0,0,F,F,F,Secret

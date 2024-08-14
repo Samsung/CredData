@@ -32,7 +32,7 @@ class CredSweeper(Scanner):
         self.init_scanner()
         subprocess.call([
             "./venv/bin/python", "-m", "credsweeper", "--banner", "--path", f"{self.cred_data_dir}/data", "--jobs", "4",
-            "--save-json", self.output_dir, "--sort"
+            "--save-json", self.output_dir, "--sort", "--subtext"
         ],
             cwd=self.scanner_dir)
 
@@ -61,6 +61,6 @@ class CredSweeper(Scanner):
                 self.check_line_from_meta(file_path=meta_cred.path,
                                           line_start=meta_cred.line_start,
                                           line_end=meta_cred.line_end,
-                                          value_start=meta_cred.strip_value_start,
-                                          value_end=meta_cred.strip_value_end,
+                                          value_start=meta_cred.value_start,
+                                          value_end=meta_cred.value_end,
                                           rule=meta_cred.rule)

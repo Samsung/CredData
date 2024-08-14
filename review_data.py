@@ -28,21 +28,17 @@ EXIT_FAILURE = 1
 @cache
 def read_cache(path) -> list[str]:
     with open(path, "r", encoding="utf8") as f:
-        return f.read().split('\n')
+        return f.read().replace("\r\n", '\n').replace('\r', '\n').split('\n')
 
 
 def read_data(path, line_start, line_end, value_start, value_end, ground_truth, creds: List[MetaCred]):
     lines = read_cache(path)
     if line_start == line_end:
         cred_line = lines[line_start - 1]
-        stripped_line = cred_line.strip()
-        end_offset = 0
+        multiline_end_offset = 0
     elif line_start < line_end:
-        # todo: move the line to MetaCred class
         cred_line = '\n'.join(lines[line_start - 1:line_end])
-        stripped_line = '\n'.join(x.strip() for x in lines[line_start - 1:line_end - 1])
-        end_offset = len(stripped_line) + 1  # +1 for line feed
-        stripped_line = '\n'.join([stripped_line, lines[line_end - 1].strip()])
+        multiline_end_offset = len(cred_line) - len(lines[line_end - 1])
     else:
         raise RuntimeError(f"Line start must be less than end. {path},{line_start},{line_end}")
 
@@ -66,30 +62,33 @@ def read_data(path, line_start, line_end, value_start, value_end, ground_truth, 
                     line_found_in_cred = True
                     # print all creds we found
                     print(
-                        f"{cred.rule},{line_start}:{cred.strip_value_start},{cred.strip_value_end}:{Style.RESET_ALL}"
+                        f"{cred.rule},{line_start}:{cred.value_start},{cred.value_end}:{Style.RESET_ALL}"
                         f"{cred_line[:cred.value_start]}{Back.LIGHTRED_EX}{cred_line[cred.value_start:cred.value_end]}"
                         f"{Style.RESET_ALL}{cred_line[cred.value_end:]}", flush=True)
-                    if 0 <= value_start == cred.strip_value_start and 0 <= value_end == cred.strip_value_end:
+                    if 0 <= value_start == cred.value_start and 0 <= value_end == cred.value_end:
                         correct_value_position = True
-                    elif 0 <= value_start == cred.strip_value_start:
+                    elif 0 <= value_start == cred.value_start:
                         correct_value_position = True
     else:
         line_found_in_cred = True
         correct_value_position = True
 
     if 0 <= value_start and 0 <= value_end:
-        line = stripped_line[:value_start] + Back.LIGHTYELLOW_EX + \
-               stripped_line[value_start:value_end + end_offset] + Style.RESET_ALL + \
-               fore_style + stripped_line[value_end + end_offset:]
+        line = cred_line[:value_start] \
+               + Back.LIGHTYELLOW_EX \
+               + cred_line[value_start:value_end + multiline_end_offset] \
+               + Style.RESET_ALL \
+               + fore_style \
+               + cred_line[value_end + multiline_end_offset:]
     else:
-        line = stripped_line
+        line = cred_line
     print(f"{line_start}:{Style.RESET_ALL}{fore_style}{line}{Style.RESET_ALL}", flush=True)
     if not correct_value_position:
         print("Possible wrong value markup", flush=True)
     if not line_found_in_cred:
         # todo: an activity to fine-tune markup
         print("Markup was not found in creds in line", flush=True)
-        test_line = stripped_line.lower()
+        test_line = cred_line.lower()
         if not any(
                 x in test_line for x in
                 ["api", "pass", "secret", "pw", "key", "credential", "token", "auth", "nonce", "salt", "cert"]

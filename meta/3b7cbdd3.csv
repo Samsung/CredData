@@ -28,11 +28,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 22321,b1bbe846,GitHub,3b7cbdd3,data/3b7cbdd3/other/b1bbe846.md,19,19,F,F,,,F,F,,,,,0,0,F,F,F,API
 25140,77b35193,GitHub,3b7cbdd3,data/3b7cbdd3/other/77b35193.md,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 25141,da24b355,GitHub,3b7cbdd3,data/3b7cbdd3/test/da24b355.py,27,27,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-27660,f4a2aeff,GitHub,3b7cbdd3,data/3b7cbdd3/test/f4a2aeff.py,63,63,F,F,41,49,T,F,Any,,,Secret,0,8,F,F,F,Password
-27664,da24b355,GitHub,3b7cbdd3,data/3b7cbdd3/test/da24b355.py,32,32,F,F,33,37,F,F,Any,,,Secret,1.50,4,F,F,F,Password
+27660,f4a2aeff,GitHub,3b7cbdd3,data/3b7cbdd3/test/f4a2aeff.py,63,63,F,F,45,53,T,F,Any,,,Secret,0.0,8,F,F,F,Password
+27664,da24b355,GitHub,3b7cbdd3,data/3b7cbdd3/test/da24b355.py,32,32,F,F,37,41,F,F,Any,,,Secret,1.5,4,F,F,F,Password
 27742,77b35193,GitHub,3b7cbdd3,data/3b7cbdd3/other/77b35193.md,74,74,T,F,20,35,T,F,Any,,,Secret,3.24,15,F,F,F,URL Credentials
-30578,da24b355,GitHub,3b7cbdd3,data/3b7cbdd3/test/da24b355.py,16,16,Template,F,23,30,F,F,Any,,,Secret,2.41,7,F,F,F,Key:Secret
-32565,da24b355,GitHub,3b7cbdd3,data/3b7cbdd3/test/da24b355.py,14,14,T,T,41,45,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,URL Credentials
+30578,da24b355,GitHub,3b7cbdd3,data/3b7cbdd3/test/da24b355.py,16,16,Template,F,31,38,F,F,Any,,,Secret,2.41,7,F,F,F,Key:Secret
+32565,da24b355,GitHub,3b7cbdd3,data/3b7cbdd3/test/da24b355.py,14,14,T,T,49,53,T,F,CharsOnly,,,Secret,1.5,4,F,F,F,URL Credentials
 33782,77b35193,GitHub,3b7cbdd3,data/3b7cbdd3/other/77b35193.md,35,35,T,F,11,34,F,F,Any,,,Secret,3.77,23,F,F,F,Key:Secret
 42339,e939ae94,GitHub,3b7cbdd3,data/3b7cbdd3/src/e939ae94.py,108,108,F,F,,,F,F,,,,,0,0,F,F,F,Password
 47314,29a33be0,GitHub,3b7cbdd3,data/3b7cbdd3/test/29a33be0.py,115,115,F,F,,,F,F,,,,,0,0,F,F,F,API
@@ -47,9 +47,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 63144,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,310,310,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 63145,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,338,338,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 75206,3a9c01c9,GitHub,3b7cbdd3,data/3b7cbdd3/src/3a9c01c9.py,67,67,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-81805,99ab667f,GitHub,3b7cbdd3,data/3b7cbdd3/test/99ab667f.py,61,61,F,F,50,57,F,F,,,,,0,0,F,F,F,Secret
-81806,99ab667f,GitHub,3b7cbdd3,data/3b7cbdd3/test/99ab667f.py,77,77,F,F,50,57,F,F,,,,,0,0,F,F,F,Secret
-81807,99ab667f,GitHub,3b7cbdd3,data/3b7cbdd3/test/99ab667f.py,109,109,F,F,57,64,F,F,,,,,0,0,F,F,F,Secret
+81805,99ab667f,GitHub,3b7cbdd3,data/3b7cbdd3/test/99ab667f.py,61,61,F,F,54,61,F,F,,,,,0.0,0,F,F,F,Secret
+81806,99ab667f,GitHub,3b7cbdd3,data/3b7cbdd3/test/99ab667f.py,77,77,F,F,54,61,F,F,,,,,0.0,0,F,F,F,Secret
+81807,99ab667f,GitHub,3b7cbdd3,data/3b7cbdd3/test/99ab667f.py,109,109,F,F,61,68,F,F,,,,,0.0,0,F,F,F,Secret
 100858,77b35193,GitHub,3b7cbdd3,data/3b7cbdd3/other/77b35193.md,178,178,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 100859,99ab667f,GitHub,3b7cbdd3,data/3b7cbdd3/test/99ab667f.py,78,78,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 100860,99ab667f,GitHub,3b7cbdd3,data/3b7cbdd3/test/99ab667f.py,79,79,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
@@ -77,7 +77,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 110479,fe702eb4,GitHub,3b7cbdd3,data/3b7cbdd3/test/fe702eb4.py,336,336,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 110480,05180dda,GitHub,3b7cbdd3,data/3b7cbdd3/test/05180dda.py,297,297,F,F,,,F,F,,,,,0.00,,F,F,F,Nonce
 133296,e939ae94,GitHub,3b7cbdd3,data/3b7cbdd3/src/e939ae94.py,28,28,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
-1339567,d161c06b,GitHub,3b7cbdd3,data/3b7cbdd3/test/d161c06b.py,181,181,T,F,29,65,F,F,,,,,0.0,0,F,F,F,UUID
-1339568,d161c06b,GitHub,3b7cbdd3,data/3b7cbdd3/test/d161c06b.py,183,183,T,F,36,72,F,F,,,,,0.0,0,F,F,F,UUID
-1339569,d161c06b,GitHub,3b7cbdd3,data/3b7cbdd3/test/d161c06b.py,186,186,T,F,35,71,F,F,,,,,0.0,0,F,F,F,UUID
-1339570,d161c06b,GitHub,3b7cbdd3,data/3b7cbdd3/test/d161c06b.py,188,188,T,F,10,46,F,F,,,,,0.0,0,F,F,F,UUID
+1339567,d161c06b,GitHub,3b7cbdd3,data/3b7cbdd3/test/d161c06b.py,181,181,T,F,33,69,F,F,,,,,0.0,0,F,F,F,UUID
+1339568,d161c06b,GitHub,3b7cbdd3,data/3b7cbdd3/test/d161c06b.py,183,183,T,F,40,76,F,F,,,,,0.0,0,F,F,F,UUID
+1339569,d161c06b,GitHub,3b7cbdd3,data/3b7cbdd3/test/d161c06b.py,186,186,T,F,47,83,F,F,,,,,0.0,0,F,F,F,UUID
+1339570,d161c06b,GitHub,3b7cbdd3,data/3b7cbdd3/test/d161c06b.py,188,188,T,F,18,54,F,F,,,,,0.0,0,F,F,F,UUID

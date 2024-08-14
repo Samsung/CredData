@@ -15,7 +15,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 23839,bf62c906,GitHub,02dfa7ec,data/02dfa7ec/src/bf62c906.py,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Password
 28832,61ed9af5,GitHub,02dfa7ec,data/02dfa7ec/test/61ed9af5.example,74,74,T,F,32,73,F,F,Any,,,Secret,3.03,41,F,F,F,Auth:Secret
 29294,61ed9af5,GitHub,02dfa7ec,data/02dfa7ec/test/61ed9af5.example,82,82,T,F,28,50,F,F,Any,,,Unknown,3.36,22,F,F,F,Key
-29502,e43ec22b,GitHub,02dfa7ec,data/02dfa7ec/test/e43ec22b.py,15,15,T,T,17,33,F,F,CharsOnly,,,Secret,3.12,16,F,F,F,Password
+29502,e43ec22b,GitHub,02dfa7ec,data/02dfa7ec/test/e43ec22b.py,15,15,T,T,25,41,F,F,CharsOnly,,,Secret,3.12,16,F,F,F,Password
 29657,a758153b,GitHub,02dfa7ec,data/02dfa7ec/test/a758153b.example,70,70,Template,T,18,33,F,F,Any,,,Token,2.99,15,F,F,F,Auth:Token
 30366,5fb5a784,GitHub,02dfa7ec,data/02dfa7ec/src/5fb5a784.env,50,50,Template,T,16,36,F,F,Any,,,Key,3.17,20,F,F,F,API:Gitlab Feed Token:Key
 31246,a758153b,GitHub,02dfa7ec,data/02dfa7ec/test/a758153b.example,25,25,Template,T,18,30,F,F,Any,,,Secret,2.42,12,F,F,F,Key:Secret
@@ -24,13 +24,13 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 32701,a758153b,GitHub,02dfa7ec,data/02dfa7ec/test/a758153b.example,47,47,Template,T,15,28,F,F,Any,,,Secret,2.90,13,F,F,F,Password
 32757,61ed9af5,GitHub,02dfa7ec,data/02dfa7ec/test/61ed9af5.example,28,28,T,F,18,82,F,F,Any,,,Secret,5.33,64,F,F,F,Bitbucket Client Secret:Key:Secret
 34024,61ed9af5,GitHub,02dfa7ec,data/02dfa7ec/test/61ed9af5.example,83,83,T,F,31,73,F,F,Any,,,Secret,3.74,42,F,F,F,Secret
-35963,3279f9a1,GitHub,02dfa7ec,data/02dfa7ec/src/3279f9a1.py,100,100,T,F,22,86,F,F,Any,,,Unknown,5.33,64,F,F,F,Bitbucket Client Secret
-36233,3f04cb2a,GitHub,02dfa7ec,data/02dfa7ec/test/3f04cb2a.py,32,32,Template,T,13,17,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-37642,3f04cb2a,GitHub,02dfa7ec,data/02dfa7ec/test/3f04cb2a.py,49,49,Template,T,13,17,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-37643,3f04cb2a,GitHub,02dfa7ec,data/02dfa7ec/test/3f04cb2a.py,60,60,Template,T,13,17,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-37644,3f04cb2a,GitHub,02dfa7ec,data/02dfa7ec/test/3f04cb2a.py,70,70,Template,T,13,17,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-37645,3f04cb2a,GitHub,02dfa7ec,data/02dfa7ec/test/3f04cb2a.py,83,83,Template,T,13,17,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-50371,a5c0c9aa,GitHub,02dfa7ec,data/02dfa7ec/test/a5c0c9aa.py,60,60,T,T,17,33,F,F,CharsOnly,,,Secret,3.12,16,F,F,F,Password
+35963,3279f9a1,GitHub,02dfa7ec,data/02dfa7ec/src/3279f9a1.py,100,100,T,F,26,90,F,F,Any,,,Unknown,5.33,64,F,F,F,Bitbucket Client Secret
+36233,3f04cb2a,GitHub,02dfa7ec,data/02dfa7ec/test/3f04cb2a.py,32,32,Template,T,29,33,F,F,CharsOnly,,,Secret,1.5,4,F,F,F,Password
+37642,3f04cb2a,GitHub,02dfa7ec,data/02dfa7ec/test/3f04cb2a.py,49,49,Template,T,29,33,F,F,CharsOnly,,,Secret,1.5,4,F,F,F,Password
+37643,3f04cb2a,GitHub,02dfa7ec,data/02dfa7ec/test/3f04cb2a.py,60,60,Template,T,29,33,F,F,CharsOnly,,,Secret,1.5,4,F,F,F,Password
+37644,3f04cb2a,GitHub,02dfa7ec,data/02dfa7ec/test/3f04cb2a.py,70,70,Template,T,29,33,F,F,CharsOnly,,,Secret,1.5,4,F,F,F,Password
+37645,3f04cb2a,GitHub,02dfa7ec,data/02dfa7ec/test/3f04cb2a.py,83,83,Template,T,29,33,F,F,CharsOnly,,,Secret,1.5,4,F,F,F,Password
+50371,a5c0c9aa,GitHub,02dfa7ec,data/02dfa7ec/test/a5c0c9aa.py,60,60,T,T,25,41,F,F,CharsOnly,,,Secret,3.12,16,F,F,F,Password
 58202,a758153b,GitHub,02dfa7ec,data/02dfa7ec/test/a758153b.example,61,61,Template,T,16,36,F,F,Any,,,Key,3.17,20,F,F,F,API:Gitlab Feed Token:Key
 58203,61ed9af5,GitHub,02dfa7ec,data/02dfa7ec/test/61ed9af5.example,43,43,Template,T,16,36,F,F,Any,,,Key,3.17,20,F,F,F,API:Gitlab Feed Token:Key
 62037,61ed9af5,GitHub,02dfa7ec,data/02dfa7ec/test/61ed9af5.example,55,55,Template,T,18,33,F,F,Any,,,Token,2.99,15,F,F,F,Auth:Token

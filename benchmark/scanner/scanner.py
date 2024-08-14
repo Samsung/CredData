@@ -1,3 +1,5 @@
+import binascii
+import hashlib
 import os
 from abc import ABC, abstractmethod
 from pathlib import Path
@@ -45,8 +47,19 @@ class Scanner(ABC):
     def output_dir(self, output_dir: str) -> None:
         raise NotImplementedError()
 
+    @staticmethod
+    def _meta_checksum(meta_location) -> str:
+        checksum = hashlib.md5(b'').digest()
+        for root, dirs, files in os.walk(meta_location):
+            for file in files:
+                with open(os.path.join(root, file), "rb") as f:
+                    cvs_checksum = hashlib.md5(f.read()).digest()
+                checksum = bytes(a ^ b for a, b in zip(checksum, cvs_checksum))
+        return binascii.hexlify(checksum).decode()
+
     def _prepare_meta(self):
-        for _row in _get_source_gen(Path(f"{self.cred_data_dir}/meta")):
+        meta_path = Path(f"{self.cred_data_dir}/meta")
+        for _row in _get_source_gen(meta_path):
             meta_row = MetaRow(_row)
             meta_key = MetaKey(meta_row)
             if meta_rows := self.meta.get(meta_key):
@@ -78,6 +91,7 @@ class Scanner(ABC):
             if self.meta_next_id <= meta_row.Id:
                 self.meta_next_id = meta_row.Id + 1
 
+        data_checksum = hashlib.md5(b'').digest()
         # getting count of all not-empty lines
         data_dir = f"{self.cred_data_dir}/data"
         valid_dir_list = ["src", "test", "other"]
@@ -88,8 +102,11 @@ class Scanner(ABC):
                     file_ext_lower = file_ext.lower()
                     # the type must be in dictionary
                     self.file_types[file_ext_lower].files_number += 1
-                    with open(os.path.join(root, file), "r", encoding="utf8") as f:
-                        lines = f.read().split('\n')
+                    with open(os.path.join(root, file), "rb") as f:
+                        data = f.read()
+                        file_checksum = hashlib.md5(data).digest()
+                        data_checksum = bytes(a ^ b for a, b in zip(data_checksum, file_checksum))
+                        lines = data.decode("utf-8").split('\n')
                         file_data_valid_lines = 0
                         for line in lines:
                             # minimal length of IPv4 detection is 7 e.g. 8.8.8.8
@@ -98,6 +115,8 @@ class Scanner(ABC):
                         self.total_data_valid_lines += file_data_valid_lines
                         self.file_types[file_ext_lower].valid_lines += file_data_valid_lines
 
+        print(f"META MD5 {self._meta_checksum(meta_path)}", flush=True)
+        print(f"DATA MD5 {binascii.hexlify(data_checksum).decode()}", flush=True)
         print(f"DATA: {self.total_data_valid_lines} interested lines. MARKUP: {len(self.meta)} items", flush=True)
         types_headers = ["FileType", "FileNumber", "ValidLines", "Positives", "Negatives", "Templates"]
         types_rows = []

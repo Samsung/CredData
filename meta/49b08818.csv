@@ -5,51 +5,51 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 4082,6f9552a0,GitHub,49b08818,data/49b08818/src/6f9552a0.js,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 1006440,4b49490b,GitHub,49b08818,data/49b08818/src/4b49490b.m,3,3,T,F,30,35,F,F,,,,,0,0,F,F,F,Auth
 6440,4b49490b,GitHub,49b08818,data/49b08818/src/4b49490b.m,3,3,T,F,45,53,F,F,,,,,0,0,F,F,F,Password:Auth
-6851,c647c1a0,GitHub,49b08818,data/49b08818/src/c647c1a0.java,17,17,F,F,36,,F,F,,,,,0,0,F,F,F,Auth
-1006851,c647c1a0,GitHub,49b08818,data/49b08818/src/c647c1a0.java,17,17,T,F,51,59,F,F,,,,,0,0,F,F,F,Auth:Password
-7469,013e55dd,GitHub,49b08818,data/49b08818/src/013e55dd.R,6,6,T,F,14,22,F,F,CharOnly,,,Secret,2.50,8,F,F,F,Password:Auth
+6851,c647c1a0,GitHub,49b08818,data/49b08818/src/c647c1a0.java,17,17,F,F,38,-1,F,F,,,,,0.0,0,F,F,F,Auth
+1006851,c647c1a0,GitHub,49b08818,data/49b08818/src/c647c1a0.java,17,17,T,F,53,61,F,F,,,,,0.0,0,F,F,F,Auth:Password
+7469,013e55dd,GitHub,49b08818,data/49b08818/src/013e55dd.R,6,6,T,F,16,24,F,F,CharOnly,,,Secret,2.5,8,F,F,F,Password:Auth
 11232,3e21913a,GitHub,49b08818,data/49b08818/src/3e21913a.dart,7,7,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-15090,197c2ce6,GitHub,49b08818,data/49b08818/src/197c2ce6.py,4,4,T,F,11,16,F,F,,,,,0,0,F,F,F,Secret
-15410,fbad69af,GitHub,49b08818,data/49b08818/src/fbad69af.py,5,5,T,F,20,29,F,F,,,,,0,0,F,F,F,Password
+15090,197c2ce6,GitHub,49b08818,data/49b08818/src/197c2ce6.py,4,4,T,F,13,18,F,F,,,,,0.0,0,F,F,F,Secret
+15410,fbad69af,GitHub,49b08818,data/49b08818/src/fbad69af.py,5,5,T,F,24,33,F,F,,,,,0.0,0,F,F,F,Password
 16596,0fa02ca1,GitHub,49b08818,data/49b08818/src/0fa02ca1.py,5,5,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 22108,cf5e135b,GitHub,49b08818,data/49b08818/src/cf5e135b.json,7,7,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 23154,b4b1e510,GitHub,49b08818,data/49b08818/src/b4b1e510.py,4,4,F,F,,,F,F,,,,,0,0,F,F,F,API:Token
-29190,5ac249ea,GitHub,49b08818,data/49b08818/src/5ac249ea.py,4,4,Template,T,14,29,F,F,Any,,,Key,2.60,15,F,F,F,Secret
-29191,032e3050,GitHub,49b08818,data/49b08818/src/032e3050.py,4,4,Template,F,14,23,F,F,NumbersOnly,,,Key,3.17,9,F,F,F,API:Key
-29702,4b1ef33e,GitHub,49b08818,data/49b08818/src/4b1ef33e.yml,7,7,Template,T,14,27,F,F,Any,,,Secret,2.90,13,F,F,F,Password
-29906,4fcd0c6c,GitHub,49b08818,data/49b08818/src/4fcd0c6c.yml,10,10,Template,T,10,23,F,F,Any,,,Secret,2.90,13,F,F,F,Password
-30115,24013877,GitHub,49b08818,data/49b08818/src/24013877.R,4,4,F,F,21,119,F,F,,,,,0,0,F,F,F,Auth
+29190,5ac249ea,GitHub,49b08818,data/49b08818/src/5ac249ea.py,4,4,Template,T,18,33,F,F,Any,,,Key,2.6,15,F,F,F,Secret
+29191,032e3050,GitHub,49b08818,data/49b08818/src/032e3050.py,4,4,Template,F,18,27,F,F,NumbersOnly,,,Key,3.17,9,F,F,F,API:Key
+29702,4b1ef33e,GitHub,49b08818,data/49b08818/src/4b1ef33e.yml,7,7,Template,T,18,31,F,F,Any,,,Secret,2.9,13,F,F,F,Password
+29906,4fcd0c6c,GitHub,49b08818,data/49b08818/src/4fcd0c6c.yml,10,10,Template,T,18,31,F,F,Any,,,Secret,2.9,13,F,F,F,Password
+30115,24013877,GitHub,49b08818,data/49b08818/src/24013877.R,4,4,F,F,23,121,F,F,,,,,0.0,0,F,F,F,Auth
 30339,1cafa8a2,GitHub,49b08818,data/49b08818/src/1cafa8a2.txt,1,1,F,F,83,90,F,F,,,,,0,0,F,F,F,Secret
 30347,f12dd9ee,GitHub,49b08818,data/49b08818/src/f12dd9ee.txt,1,1,Template,T,51,60,T,F,CharsOnly,,,Secret,3.17,9,F,F,F,Password
-30630,5759a792,GitHub,49b08818,data/49b08818/src/5759a792.R,5,5,Template,T,14,23,F,F,CharsOnly,,,Secret,3.17,9,F,F,F,Password
-31068,af53983f,GitHub,49b08818,data/49b08818/src/af53983f.py,5,5,Template,F,8,15,F,F,CharsOnly,,,Unknown,2.81,7,F,F,F,Key
-31443,17c30e05,GitHub,49b08818,data/49b08818/src/17c30e05.py,4,4,F,F,20,118,F,F,,,,,0,0,F,F,F,Auth
-32265,341ddfa2,GitHub,49b08818,data/49b08818/src/341ddfa2.ex,10,10,Template,T,47,58,F,F,Any,,,Secret,3.28,11,F,F,F,Password
+30630,5759a792,GitHub,49b08818,data/49b08818/src/5759a792.R,5,5,Template,T,16,25,F,F,CharsOnly,,,Secret,3.17,9,F,F,F,Password
+31068,af53983f,GitHub,49b08818,data/49b08818/src/af53983f.py,5,5,Template,F,12,19,F,F,CharsOnly,,,Unknown,2.81,7,F,F,F,Key
+31443,17c30e05,GitHub,49b08818,data/49b08818/src/17c30e05.py,4,4,F,F,24,122,F,F,,,,,0.0,0,F,F,F,Auth
+32265,341ddfa2,GitHub,49b08818,data/49b08818/src/341ddfa2.ex,10,10,Template,T,49,60,F,F,Any,,,Secret,3.28,11,F,F,F,Password
 32311,ed043ee1,GitHub,49b08818,data/49b08818/src/ed043ee1.py,8,8,Template,T,46,57,F,F,Any,,,Secret,3.28,11,F,F,F,Password
 32328,4625057a,GitHub,49b08818,data/49b08818/src/4625057a.txt,1,1,T,F,107,115,T,F,CharsOnly,,,Secret,2.50,8,F,F,F,Password:Auth
 137302,4625057a,GitHub,49b08818,data/49b08818/src/4625057a.txt,1,1,F,F,87,92,F,F,,,,,0.0,0,F,F,F,Auth
 32343,c0c4ebcf,GitHub,49b08818,data/49b08818/src/c0c4ebcf.txt,1,1,T,F,70,102,F,F,Any,,,Token,3.66,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Token
 32344,22a38fb8,GitHub,49b08818,data/49b08818/src/22a38fb8.txt,1,1,Template,T,110,121,F,F,Any,,,Secret,3.28,11,F,F,F,Password
-32599,df1fefb3,GitHub,49b08818,data/49b08818/src/df1fefb3.R,5,5,T,F,16,48,F,F,Any,,,Token,3.66,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Token
-34404,00a89c86,GitHub,49b08818,data/49b08818/src/00a89c86.yml,27,27,Template,T,10,18,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-34798,100a3d7b,GitHub,49b08818,data/49b08818/src/100a3d7b.yml,13,13,Template,T,14,22,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-35026,cf5e135b,GitHub,49b08818,data/49b08818/src/cf5e135b.json,8,8,T,F,13,21,F,F,CharsOnly,,,Secret,2.50,8,F,F,F,Password:Auth
-36244,31b87c9d,GitHub,49b08818,data/49b08818/src/31b87c9d.py,5,5,T,F,15,47,F,F,Any,,,Token,3.66,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Token
-36347,0fa02ca1,GitHub,49b08818,data/49b08818/src/0fa02ca1.py,6,6,T,F,13,21,F,F,CharsOnly,,,Secret,2.50,8,F,F,F,Password:Auth
-36374,17c30e05,GitHub,49b08818,data/49b08818/src/17c30e05.py,10,10,T,F,14,301,F,F,Any,,,Unknown,5.84,287,F,F,F,Key
-36375,24013877,GitHub,49b08818,data/49b08818/src/24013877.R,10,10,T,F,15,302,F,F,Any,,,Unknown,5.84,287,F,F,F,Key
+32599,df1fefb3,GitHub,49b08818,data/49b08818/src/df1fefb3.R,5,5,T,F,18,50,F,F,Any,,,Token,3.66,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Token
+34404,00a89c86,GitHub,49b08818,data/49b08818/src/00a89c86.yml,27,27,Template,T,18,26,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+34798,100a3d7b,GitHub,49b08818,data/49b08818/src/100a3d7b.yml,13,13,Template,T,18,26,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
+35026,cf5e135b,GitHub,49b08818,data/49b08818/src/cf5e135b.json,8,8,T,F,21,29,F,F,CharsOnly,,,Secret,2.5,8,F,F,F,Password:Auth
+36244,31b87c9d,GitHub,49b08818,data/49b08818/src/31b87c9d.py,5,5,T,F,19,51,F,F,Any,,,Token,3.66,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Token
+36347,0fa02ca1,GitHub,49b08818,data/49b08818/src/0fa02ca1.py,6,6,T,F,15,23,F,F,CharsOnly,,,Secret,2.5,8,F,F,F,Password:Auth
+36374,17c30e05,GitHub,49b08818,data/49b08818/src/17c30e05.py,10,10,T,F,18,305,F,F,Any,,,Unknown,5.84,287,F,F,F,Key
+36375,24013877,GitHub,49b08818,data/49b08818/src/24013877.R,10,10,T,F,17,304,F,F,Any,,,Unknown,5.84,287,F,F,F,Key
 41506,87ca342b,GitHub,49b08818,data/49b08818/src/87ca342b.m,17,17,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
 41507,24013877,GitHub,49b08818,data/49b08818/src/24013877.R,13,13,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
 41508,17c30e05,GitHub,49b08818,data/49b08818/src/17c30e05.py,13,13,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
 76778,2e3ee6a7,GitHub,49b08818,data/49b08818/src/2e3ee6a7.dart,7,7,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-82486,87ca342b,GitHub,49b08818,data/49b08818/src/87ca342b.m,66,66,F,F,53,117,F,F,,,,,0,0,F,F,F,Auth
-82487,87ca342b,GitHub,49b08818,data/49b08818/src/87ca342b.m,75,75,F,F,6,38,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+82486,87ca342b,GitHub,49b08818,data/49b08818/src/87ca342b.m,66,66,F,F,57,121,F,F,,,,,0.0,0,F,F,F,Auth
+82487,87ca342b,GitHub,49b08818,data/49b08818/src/87ca342b.m,75,75,F,F,10,42,F,F,,,,,0.0,0,F,F,F,Bitbucket Client ID
 100344,b49d6202,GitHub,49b08818,data/49b08818/src/b49d6202.js,1,1,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 100345,4b49490b,GitHub,49b08818,data/49b08818/src/4b49490b.m,15,15,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 110056,013e55dd,GitHub,49b08818,data/49b08818/src/013e55dd.R,5,5,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 130057,8c0f91d8,GitHub,49b08818,data/49b08818/src/8c0f91d8.yml,10,10,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130058,92239c75,GitHub,49b08818,data/49b08818/src/92239c75.yml,20,20,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 133321,6f9552a0,GitHub,49b08818,data/49b08818/src/6f9552a0.js,46,46,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-1339607,00a89c86,GitHub,49b08818,data/49b08818/src/00a89c86.yml,5,5,T,F,43,79,F,F,,,,,0.0,0,F,F,F,UUID
-1339608,100a3d7b,GitHub,49b08818,data/49b08818/src/100a3d7b.yml,2,2,T,F,44,80,F,F,,,,,0.0,0,F,F,F,UUID
-1339609,100a3d7b,GitHub,49b08818,data/49b08818/src/100a3d7b.yml,4,4,T,F,43,79,F,F,,,,,0.0,0,F,F,F,UUID
+1339607,00a89c86,GitHub,49b08818,data/49b08818/src/00a89c86.yml,5,5,T,F,49,85,F,F,,,,,0.0,0,F,F,F,UUID
+1339608,100a3d7b,GitHub,49b08818,data/49b08818/src/100a3d7b.yml,2,2,T,F,46,82,F,F,,,,,0.0,0,F,F,F,UUID
+1339609,100a3d7b,GitHub,49b08818,data/49b08818/src/100a3d7b.yml,4,4,T,F,47,83,F,F,,,,,0.0,0,F,F,F,UUID

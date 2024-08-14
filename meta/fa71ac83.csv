@@ -15,8 +15,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 8863,927991a3,GitHub,fa71ac83,data/fa71ac83/src/927991a3.js,841,841,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 9359,98dab0bb,GitHub,fa71ac83,data/fa71ac83/src/98dab0bb.js,5813,5813,F,F,,,F,F,,,,,0,0,F,F,F,Token
 9999,7142121f,GitHub,fa71ac83,data/fa71ac83/src/7142121f.js,1328,1328,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
-10684,5222ac44,GitHub,fa71ac83,data/fa71ac83/test/5222ac44.js,127,127,Template,T,21,35,F,F,Any,,,Secret,2.98,14,F,F,F,Password
-10710,5222ac44,GitHub,fa71ac83,data/fa71ac83/test/5222ac44.js,113,113,Template,T,13,17,F,F,CharOnly,,,Secret,1.50,4,F,F,F,Password
+10684,5222ac44,GitHub,fa71ac83,data/fa71ac83/test/5222ac44.js,127,127,Template,T,27,41,F,F,Any,,,Secret,2.98,14,F,F,F,Password
+10710,5222ac44,GitHub,fa71ac83,data/fa71ac83/test/5222ac44.js,113,113,Template,T,19,23,F,F,CharOnly,,,Secret,1.5,4,F,F,F,Password
 10862,116fac3d,GitHub,fa71ac83,data/fa71ac83/src/116fac3d.js,4346,4346,F,F,,,F,F,,,,,0,0,F,F,F,Token
 10917,9aa3c9b2,GitHub,fa71ac83,data/fa71ac83/src/9aa3c9b2.js,79,79,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 11139,9a5357a6,GitHub,fa71ac83,data/fa71ac83/src/9a5357a6.js,15,15,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -42,14 +42,14 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 15852,98dab0bb,GitHub,fa71ac83,data/fa71ac83/src/98dab0bb.js,7828,7828,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 17294,4c6b5060,GitHub,fa71ac83,data/fa71ac83/src/4c6b5060.css,549,549,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 17335,a654b738,GitHub,fa71ac83,data/fa71ac83/test/a654b738.js,147,147,F,F,,,F,F,,,,,0,0,F,F,F,Password
-29567,9aa3c9b2,GitHub,fa71ac83,data/fa71ac83/src/9aa3c9b2.js,46,46,Template,T,17,33,F,F,Any,,,Secret,3.08,16,F,F,F,Secret
-29957,9aa3c9b2,GitHub,fa71ac83,data/fa71ac83/src/9aa3c9b2.js,102,102,Template,T,12,27,F,F,Any,,,Secret,2.80,15,F,F,F,Password
-30774,9aa3c9b2,GitHub,fa71ac83,data/fa71ac83/src/9aa3c9b2.js,88,88,Template,T,15,40,F,F,Any,,,Secret,3.55,25,F,F,F,Secret
-31022,9aa3c9b2,GitHub,fa71ac83,data/fa71ac83/src/9aa3c9b2.js,129,129,T,T,15,40,F,F,CharsOnly,,,Secret,2.45,25,F,F,F,Secret
-32591,a654b738,GitHub,fa71ac83,data/fa71ac83/test/a654b738.js,100,100,T,F,14,39,F,F,Any,,,Token,3.54,25,F,F,F,Gitlab Incoming Email Token:Token
-34531,7593a72b,GitHub,fa71ac83,data/fa71ac83/test/7593a72b.js,18,18,T,F,12,26,F,F,CharsOnly,,,Unknown,0.73,14,F,F,F,Password
-34532,a654b738,GitHub,fa71ac83,data/fa71ac83/test/a654b738.js,144,144,T,F,12,16,F,F,CharsOnly,,,Unknown,1.00,4,F,F,F,Password
-36152,9aa3c9b2,GitHub,fa71ac83,data/fa71ac83/src/9aa3c9b2.js,73,73,T,T,7,11,F,F,CharsOnly,,,Unknown,2.00,4,F,F,F,Password
+29567,9aa3c9b2,GitHub,fa71ac83,data/fa71ac83/src/9aa3c9b2.js,46,46,Template,T,19,35,F,F,Any,,,Secret,3.08,16,F,F,F,Secret
+29957,9aa3c9b2,GitHub,fa71ac83,data/fa71ac83/src/9aa3c9b2.js,102,102,Template,T,16,31,F,F,Any,,,Secret,2.8,15,F,F,F,Password
+30774,9aa3c9b2,GitHub,fa71ac83,data/fa71ac83/src/9aa3c9b2.js,88,88,Template,T,19,44,F,F,Any,,,Secret,3.55,25,F,F,F,Secret
+31022,9aa3c9b2,GitHub,fa71ac83,data/fa71ac83/src/9aa3c9b2.js,129,129,T,T,19,44,F,F,CharsOnly,,,Secret,2.45,25,F,F,F,Secret
+32591,a654b738,GitHub,fa71ac83,data/fa71ac83/test/a654b738.js,100,100,T,F,24,49,F,F,Any,,,Token,3.54,25,F,F,F,Gitlab Incoming Email Token:Token
+34531,7593a72b,GitHub,fa71ac83,data/fa71ac83/test/7593a72b.js,18,18,T,F,14,28,F,F,CharsOnly,,,Unknown,0.73,14,F,F,F,Password
+34532,a654b738,GitHub,fa71ac83,data/fa71ac83/test/a654b738.js,144,144,T,F,18,22,F,F,CharsOnly,,,Unknown,1.0,4,F,F,F,Password
+36152,9aa3c9b2,GitHub,fa71ac83,data/fa71ac83/src/9aa3c9b2.js,73,73,T,T,13,17,F,F,CharsOnly,,,Unknown,2.0,4,F,F,F,Password
 42677,98dab0bb,GitHub,fa71ac83,data/fa71ac83/src/98dab0bb.js,5815,5815,F,F,,,F,F,,,,,0,0,F,F,F,Token
 74246,7593a72b,GitHub,fa71ac83,data/fa71ac83/test/7593a72b.js,232,232,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 74680,7593a72b,GitHub,fa71ac83,data/fa71ac83/test/7593a72b.js,74,74,F,F,,,F,F,,,,,0,0,F,F,F,Password

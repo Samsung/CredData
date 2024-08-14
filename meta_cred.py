@@ -23,11 +23,6 @@ class MetaCred:
         self.line_end = line_data_list[-1]["line_num"]
         self.value_start = line_data_list[0]["value_start"]
         self.value_end = line_data_list[-1]["value_end"]
-        offset = len(line_data_list[0]["line"]) - len(line_data_list[0]["line"].lstrip())
-        self.strip_value_start = self.value_start - offset
-        if 1 < len(line_data_list):
-            offset = len(line_data_list[-1]["line"]) - len(line_data_list[-1]["line"].lstrip())
-        self.strip_value_end = self.value_end - offset
         self.line = '\n'.join(x["line"] for x in line_data_list)
         self.variable = line_data_list[0]["variable"]
         self.value = line_data_list[0]["value"]
