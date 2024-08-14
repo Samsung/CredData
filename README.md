@@ -132,31 +132,31 @@ In order to compose an accurate Ground Truth set, we proceed data review based o
 Metadata includes Ground Truth values and additional information for credential lines detected by various tools.
  
 ### Properties on the Metadata
-| Name of property   | Data Type | Description                                                                                                                                  |
-|--------------------|-----------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| Id                 | Integer   | Credential ID                                                                                                                                |
-| FileID             | String    | Filename hash. Used to download correct file from a external repo                                                                            |
-| Domain             | String    | Domain of repository. (ex. Github)                                                                                                           |
-| RepoName           | String    | Project name that credential was found                                                                                                       |
-| FilePath           | String    | File path where credential information was included                                                                                          |
-| LineStart          | Integer   | Line start in file from 1, like in most editors. In common cases it equals LineEnd.                                                          |
-| LineEnd            | Integer   | End line of credential MUST be great or equal like LineStart. Sort line_data_list with line_num for this.                                    |
-| GroundTruth        | String    | Ground Truth of this credential. True (T) / False (F) or Template                                                                            |
-| WithWords          | Boolean   | Flag to indicate word(https://github.com/first20hours/google-10000-english) is included on the credential                                    |
-| ValueStart         | Integer   | Index of value on the line after lstrip(). This is start position on LineStart. Empty or -1 means the markup for whole line (for False only) |
-| ValueEnd           | Integer   | Index of character right after value ends in the line (after lstrip). This is end position on LineEnd. May be -1 or empty.                   |
-| InURL              | Boolean   | Flag to indicate if credential is a part of a URL, such as "http://user:pwd@site.com"                                                        |
-| InRuntimeParameter | Boolean   | Flag to indicate if credential is in runtime parameter                                                                                       |
-| CharacterSet       | String    | Characters used in the credential (NumberOnly, CharOnly, Any)                                                                                |
-| CryptographyKey    | String    | Type of a key: Private or Public                                                                                                             |
-| PredefinedPattern  | String    | Credential with defined regex patterns (AWS token with `AKIA...` pattern)                                                                    |
-| VariableNameType   | String    | Categorize credentials by variable name into Secret, Key, Token, SeedSalt and Auth                                                           |
-| Entropy            | Float     | Shanon entropy of a credential                                                                                                               |
-| Length             | Integer   | Value length, similar to ValueEnd - ValueStart                                                                                               |
-| Base64Encode       | Boolean   | Is credential a base64 string?                                                                                                               |
-| HexEncode          | Boolean   | Is credential a hex encoded string? (like `\xFF` or `FF 02 33`)                                                                              |
-| URLEncode          | Boolean   | Is credential a url encoded string? (like `one%20two`)                                                                                       |
-| Category           | String    | Labeled data according CredSweeper rules. see [Category](#category).                                                                         |
+| Name of property   | Data Type | Description                                                                                                                                              |
+|--------------------|-----------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Id                 | Integer   | Credential ID                                                                                                                                            |
+| FileID             | String    | Filename hash. Used to download correct file from a external repo                                                                                        |
+| Domain             | String    | Domain of repository. (ex. Github)                                                                                                                       |
+| RepoName           | String    | Project name that credential was found                                                                                                                   |
+| FilePath           | String    | File path where credential information was included                                                                                                      |
+| LineStart          | Integer   | Line start in file from 1, like in most editors. In common cases it equals LineEnd.                                                                      |
+| LineEnd            | Integer   | End line of credential MUST be great or equal like LineStart. Sort line_data_list with line_num for this.                                                |
+| GroundTruth        | String    | Ground Truth of this credential. True (T) / False (F) or Template                                                                                        |
+| WithWords          | Boolean   | Flag to indicate word(https://github.com/first20hours/google-10000-english) is included on the credential                                                |
+| ValueStart         | Integer   | Index of value on the line like in CredSweeper report. This is start position on LineStart. Empty or -1 means the markup for whole line (for False only) |
+| ValueEnd           | Integer   | Index of character right after value ends in the line. This is end position on LineEnd. May be -1 or empty.                               |
+| InURL              | Boolean   | Flag to indicate if credential is a part of a URL, such as "http://user:pwd@site.com"                                                                    |
+| InRuntimeParameter | Boolean   | Flag to indicate if credential is in runtime parameter                                                                                                   |
+| CharacterSet       | String    | Characters used in the credential (NumberOnly, CharOnly, Any)                                                                                            |
+| CryptographyKey    | String    | Type of a key: Private or Public                                                                                                                         |
+| PredefinedPattern  | String    | Credential with defined regex patterns (AWS token with `AKIA...` pattern)                                                                                |
+| VariableNameType   | String    | Categorize credentials by variable name into Secret, Key, Token, SeedSalt and Auth                                                                       |
+| Entropy            | Float     | Shanon entropy of a credential                                                                                                                           |
+| Length             | Integer   | Value length, similar to ValueEnd - ValueStart                                                                                                           |
+| Base64Encode       | Boolean   | Is credential a base64 string?                                                                                                                           |
+| HexEncode          | Boolean   | Is credential a hex encoded string? (like `\xFF` or `FF 02 33`)                                                                                          |
+| URLEncode          | Boolean   | Is credential a url encoded string? (like `one%20two`)                                                                                                   |
+| Category           | String    | Labeled data according CredSweeper rules. see [Category](#category).                                                                                     |
 
 ### Category
 
