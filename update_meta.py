@@ -51,14 +51,14 @@ def main(meta_dir: str, data_dir: str) -> int:
                         row.Category = "Other"
                     errors += subprocess.check_call(
                         ["sed", "-i",
-                        "s|^" + str(row.Id) + ".*,Secret|" + str(row) + "|",
+                        "s|^" + str(row.Id) + ".*,Secret$|" + str(row) + "|",
                         f"{meta_dir}/{row.RepoName}.csv"])
                 else:
                     categories.remove("Secret")
                     row.Category = ':'.join(categories)
                     errors += subprocess.check_call(
                         ["sed", "-i",
-                         "s|^" + str(row.Id) + ".*|" + str(row) + "|",
+                         "s|^" + str(row.Id) + ".*$|" + str(row) + "|",
                          f"{meta_dir}/{row.RepoName}.csv"])
                 updated_rows += 1
 
