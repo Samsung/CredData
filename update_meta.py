@@ -37,16 +37,22 @@ def main(meta_dir: str, data_dir: str) -> int:
         categories = set(row.Category.split(':'))
         if "Secret" in categories:
             lines = read_cache(row.FilePath)
-            line = lines[row.LineStart - 1]
-            if 0 > line.lower().find("secret"):
+            line = lines[row.LineStart - 1].lower()
+            if "secret" not in line:
                 # there is no the keyword in the line
                 if 1 == len(categories):
-                    row.Category = "Other"
+                    if "cred" in line:
+                        row.Category = "Credential"
+                    elif "pass" in line or "pwd" in line:
+                        row.Category = "Password"
+                    elif "key" in line:
+                        row.Category = "Key"
+                    else:
+                        row.Category = "Other"
                     errors += subprocess.check_call(
-                    ["sed", "-i",
-                     "s|^" + str(row.Id) + ".*,Secret|" + str(row) + "|",
-                     f"{meta_dir}/{row.RepoName}.csv"])
-                    updated_rows += 1
+                        ["sed", "-i",
+                        "s|^" + str(row.Id) + ".*,Secret|" + str(row) + "|",
+                        f"{meta_dir}/{row.RepoName}.csv"])
                 else:
                     categories.remove("Secret")
                     row.Category = ':'.join(categories)
@@ -54,7 +60,7 @@ def main(meta_dir: str, data_dir: str) -> int:
                         ["sed", "-i",
                          "s|^" + str(row.Id) + ".*|" + str(row) + "|",
                          f"{meta_dir}/{row.RepoName}.csv"])
-                    updated_rows += 1
+                updated_rows += 1
 
     result = EXIT_SUCCESS if 0 == errors else EXIT_FAILURE
     print(f"Updated {updated_rows} of {len(meta)}, errors: {errors}, {result}", flush=True)
