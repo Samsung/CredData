@@ -41,26 +41,35 @@ def main(meta_dir: str, data_dir: str) -> int:
             if "secret" not in line:
                 # there is no the keyword in the line
                 row=copy.deepcopy(i)
-                if 1 == len(categories):
-                    if "cred" in line:
-                        row.Category = "Credential"
-                    elif "pass" in line or "pwd" in line:
-                        row.Category = "Password"
-                    elif "key" in line:
-                        row.Category = "Key"
-                    else:
-                        row.Category = "Other"
-                    errors += subprocess.call(
-                        ["sed", "-i",
-                        f"s|^{row.Id},{row.FileID},.*,Secret$|" + str(row) + "|",
-                        f"{meta_dir}/{row.RepoName}.csv"])
-                else:
-                    categories.remove("Secret")
-                    row.Category = ':'.join(categories)
-                    errors += subprocess.call(
-                        ["sed", "-i",
-                         f"s|^{row.Id},{row.FileID},.*$|" + str(row) + "|",
-                         f"{meta_dir}/{row.RepoName}.csv"])
+                categories.remove("Secret")
+                if 0 <= row.ValueStart:
+                    line = line[:row.ValueStart]
+                if 160 < len(line):
+                    line = line[:-160]
+
+                for keyword, category in [
+                    ("credential", "Credential"),
+                    ("cert", "Certificate"),
+                    ("://", "URL Credentials"),
+                    ("pass", "Password"),
+                    ("pw", "Password"),
+                    ("key","Key"),
+                    ("token", "Token"),
+                    ("nonce", "Nonce"),
+                    ("salt", "Salt"),
+                    ("api", "API"),
+                    ("auth", "Auth"),
+                ]:
+                    if keyword in line:
+                        categories.add(category)
+
+                if not categories:
+                    categories.add("Other")
+                row.Category = ':'.join(categories)
+                errors += subprocess.call(
+                    ["sed", "-i",
+                     f"s|^{row.Id},{row.FileID},.*$|" + str(row) + "|",
+                     f"{meta_dir}/{row.RepoName}.csv"])
                 updated_rows += 1
 
     result = EXIT_SUCCESS if 0 == errors else EXIT_FAILURE
