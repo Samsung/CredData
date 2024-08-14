@@ -34,26 +34,27 @@ def main(meta_dir: str, data_dir: str) -> int:
     meta = read_meta(meta_dir)
     meta.sort(key=lambda x: (x.FilePath, x.LineStart, x.LineEnd, x.ValueStart, x.ValueEnd))
     for row in meta:
-        offset = offset_aux = 0
-        if 0 <= row.ValueStart:
+        categories = set(row.Category.split(':'))
+        if "Secret" in categories:
             lines = read_cache(row.FilePath)
             line = lines[row.LineStart - 1]
-            offset = len(line) - len(line.lstrip())
-            row.ValueStart += offset
-            if 0 <= row.ValueEnd:
-                if row.LineStart == row.LineEnd:
-                    row.ValueEnd += offset
+            if 0 > line.lower().find("secret"):
+                # there is no the keyword in the line
+                if 1 == len(categories):
+                    row.Category = "Other"
+                    errors += subprocess.check_call(
+                    ["sed", "-i",
+                     "s|^" + str(row.Id) + ".*,Secret|" + str(row) + "|",
+                     f"{meta_dir}/{row.RepoName}.csv"])
+                    updated_rows += 1
                 else:
-                    line_aux = lines[row.LineEnd - 1]
-                    offset_aux = len(line_aux) - len(line_aux.lstrip())
-                    row.ValueEnd += offset_aux
-            if 0 > offset or 0 > offset_aux:
-                errors += 1
-        if 0 < (offset + offset_aux):
-            subprocess.run(
-                ["sed", "-i",
-                 "s|^" + str(row.Id) + ",.*|" + str(row) + "|",
-                 f"{meta_dir}/{row.RepoName}.csv"])
+                    categories.remove("Secret")
+                    row.Category = ':'.join(categories)
+                    errors += subprocess.check_call(
+                        ["sed", "-i",
+                         "s|^" + str(row.Id) + ".*|" + str(row) + "|",
+                         f"{meta_dir}/{row.RepoName}.csv"])
+                    updated_rows += 1
 
     result = EXIT_SUCCESS if 0 == errors else EXIT_FAILURE
     print(f"Updated {updated_rows} of {len(meta)}, errors: {errors}, {result}", flush=True)
@@ -62,7 +63,7 @@ def main(meta_dir: str, data_dir: str) -> int:
 
 if __name__ == "__main__":
     parser = ArgumentParser(prog=f"python {os.path.basename(__file__)}",
-                            description="Temporally console script for update meta with absolute positions of values")
+                            description="Temporally console script for update meta with Secret category to Other")
 
     parser.add_argument("meta_dir", help="Markup location", nargs='?', default="meta")
     parser.add_argument("data_dir", help="Dataset location", nargs='?', default="data")
