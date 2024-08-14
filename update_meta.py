@@ -39,8 +39,8 @@ def main(meta_dir: str, data_dir: str) -> int:
             lines = read_cache(i.FilePath)
             line = lines[i.LineStart - 1].lower()
             if "secret" not in line:
-                row=copy.deepcopy(i)
                 # there is no the keyword in the line
+                row=copy.deepcopy(i)
                 if 1 == len(categories):
                     if "cred" in line:
                         row.Category = "Credential"
@@ -52,14 +52,14 @@ def main(meta_dir: str, data_dir: str) -> int:
                         row.Category = "Other"
                     errors += subprocess.call(
                         ["sed", "-i",
-                        "s|^" + str(row.Id) + ".*,Secret$|" + str(row) + "|",
+                        f"s|^{row.Id},{row.FileID},.*,Secret$|" + str(row) + "|",
                         f"{meta_dir}/{row.RepoName}.csv"])
                 else:
                     categories.remove("Secret")
                     row.Category = ':'.join(categories)
                     errors += subprocess.call(
                         ["sed", "-i",
-                         "s|^" + str(row.Id) + ".*$|" + str(row) + "|",
+                         f"s|^{row.Id},{row.FileID},.*$|" + str(row) + "|",
                          f"{meta_dir}/{row.RepoName}.csv"])
                 updated_rows += 1
 
