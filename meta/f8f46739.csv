@@ -20,11 +20,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 22377,43702042,GitHub,f8f46739,data/f8f46739/src/43702042.json,231,231,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
 29768,cae2e959,GitHub,f8f46739,data/f8f46739/other/cae2e959.md,415,415,T,T,49,57,F,F,Any,,,Secret,2.38,8,F,F,F,Password
 30037,7c6f2c4f,GitHub,f8f46739,data/f8f46739/src/7c6f2c4f.rb,102,102,F,F,32,36,F,F,,,,,0.0,0,F,F,F,Password
-34020,7ebc9e8b,GitHub,f8f46739,data/f8f46739/test/7ebc9e8b.pp,8,8,F,F,27,42,F,F,,,,,0.0,0,F,F,F,Secret
+34020,7ebc9e8b,GitHub,f8f46739,data/f8f46739/test/7ebc9e8b.pp,8,8,F,F,,,F,F,,,,,0.0,0,F,F,F,Key
 34857,7c6f2c4f,GitHub,f8f46739,data/f8f46739/src/7c6f2c4f.rb,112,112,F,T,,,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password:URL Credentials
 34862,7c6f2c4f,GitHub,f8f46739,data/f8f46739/src/7c6f2c4f.rb,111,111,F,T,,,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password:URL Credentials
-36216,0cde08bc,GitHub,f8f46739,data/f8f46739/other/0cde08bc.md,232,232,T,F,12,20,F,F,Any,,,Unknown,3.0,8,F,F,F,Secret:Key
-36217,0cde08bc,GitHub,f8f46739,data/f8f46739/other/0cde08bc.md,224,224,T,F,12,20,F,F,Any,,,Unknown,2.5,8,F,F,F,Secret:Key
+36216,0cde08bc,GitHub,f8f46739,data/f8f46739/other/0cde08bc.md,232,232,F,F,12,20,F,F,Any,,,Unknown,3.0,8,F,F,F,Key
+36217,0cde08bc,GitHub,f8f46739,data/f8f46739/other/0cde08bc.md,224,224,F,F,12,20,F,F,Any,,,Unknown,2.5,8,F,F,F,Key
 36450,e632c4cd,GitHub,f8f46739,data/f8f46739/test/e632c4cd.pp,5,5,F,T,,,T,F,CharsOnly,,,Secret,2.73,9,F,F,F,Password:URL Credentials
 40754,43702042,GitHub,f8f46739,data/f8f46739/src/43702042.json,2,2,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
 40755,43702042,GitHub,f8f46739,data/f8f46739/src/43702042.json,3,3,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
@@ -396,4 +396,3 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 134751,e632c4cd,GitHub,f8f46739,data/f8f46739/test/e632c4cd.pp,3,3,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 134752,e632c4cd,GitHub,f8f46739,data/f8f46739/test/e632c4cd.pp,4,4,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 138161,cae2e959,GitHub,f8f46739,data/f8f46739/other/cae2e959.md,415,415,F,F,37,45,F,F,,,,,0.0,0,F,F,F,Password
-138164,7ebc9e8b,GitHub,f8f46739,data/f8f46739/test/7ebc9e8b.pp,8,8,F,F,9,17,F,F,,,,,0.0,0,F,F,F,Key:Secret
