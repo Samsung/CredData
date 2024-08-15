@@ -12,7 +12,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 7958,705ab8f4,GitHub,850c2319,data/850c2319/src/705ab8f4.go,825,825,F,F,,,F,F,,,,,0,0,F,F,F,Token
 8554,8a4439b7,GitHub,850c2319,data/850c2319/test/8a4439b7.golden,31,31,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 12658,386c13b9,GitHub,850c2319,data/850c2319/test/386c13b9.go,91,91,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-12678,386c13b9,GitHub,850c2319,data/850c2319/test/386c13b9.go,102,102,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+12678,386c13b9,GitHub,850c2319,data/850c2319/test/386c13b9.go,102,102,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 14023,dacb5b47,GitHub,850c2319,data/850c2319/src/dacb5b47.sh,27,27,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 14024,dacb5b47,GitHub,850c2319,data/850c2319/src/dacb5b47.sh,20,20,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 14422,a746be65,GitHub,850c2319,data/850c2319/src/a746be65.go,346,346,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -25,7 +25,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 23147,a746be65,GitHub,850c2319,data/850c2319/src/a746be65.go,259,259,F,F,,,F,F,,,,,0,0,F,F,F,Password
 23855,b5ced950,GitHub,850c2319,data/850c2319/test/b5ced950.bats,127,127,F,T,32,38,F,F,Any,,,Secret,2.81,7,F,F,F,Password
 24820,1521eb46,GitHub,850c2319,data/850c2319/test/1521eb46.golden,27,27,F,F,,,F,F,,,,,0,0,F,F,F,Key
-24821,1521eb46,GitHub,850c2319,data/850c2319/test/1521eb46.golden,57,57,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+24821,1521eb46,GitHub,850c2319,data/850c2319/test/1521eb46.golden,57,57,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 24822,1521eb46,GitHub,850c2319,data/850c2319/test/1521eb46.golden,72,72,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 24824,1521eb46,GitHub,850c2319,data/850c2319/test/1521eb46.golden,12,12,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 24825,1521eb46,GitHub,850c2319,data/850c2319/test/1521eb46.golden,87,87,F,F,,,F,F,,,,,0,0,F,F,F,Key
@@ -102,7 +102,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 110612,3295df72,GitHub,850c2319,data/850c2319/src/3295df72.sum,572,572,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
 110613,3295df72,GitHub,850c2319,data/850c2319/src/3295df72.sum,498,498,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
 110614,3295df72,GitHub,850c2319,data/850c2319/src/3295df72.sum,499,499,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-110615,eca158e4,GitHub,850c2319,data/850c2319/src/eca158e4.go,281,281,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
+110615,eca158e4,GitHub,850c2319,data/850c2319/src/eca158e4.go,281,281,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
 110616,3ea664a1,GitHub,850c2319,data/850c2319/test/3ea664a1.golden,507,507,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 110617,3ea664a1,GitHub,850c2319,data/850c2319/test/3ea664a1.golden,529,529,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130482,999981ff,GitHub,850c2319,data/850c2319/test/999981ff.go,27,27,T,F,20,30,F,F,Any,,,Secret,1.0,2,F,F,F,Password

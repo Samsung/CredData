@@ -1,6 +1,6 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
 1,5616b895,GitHub,a5c3685e,data/a5c3685e/src/5616b895.rb,51,51,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-62,50a33e1a,GitHub,a5c3685e,data/a5c3685e/src/50a33e1a.rb,18,18,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+62,50a33e1a,GitHub,a5c3685e,data/a5c3685e/src/50a33e1a.rb,18,18,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 63,48b031e2,GitHub,a5c3685e,data/a5c3685e/src/48b031e2.rb,102,102,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 91,d102b551,GitHub,a5c3685e,data/a5c3685e/src/d102b551.rb,11,11,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 202,baf74499,GitHub,a5c3685e,data/a5c3685e/other/baf74499,5,5,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
@@ -8,7 +8,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 1173,3ca66b7a,GitHub,a5c3685e,data/a5c3685e/src/3ca66b7a.rb,24,24,F,F,,,F,F,,,,,0,0,F,F,F,Password
 1197,ccd36a6d,GitHub,a5c3685e,data/a5c3685e/src/ccd36a6d.rb,30,30,F,F,,,F,F,,,,,0,0,F,F,F,Password
 1199,1bccf618,GitHub,a5c3685e,data/a5c3685e/src/1bccf618.rb,27,27,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-1231,a97a4b74,GitHub,a5c3685e,data/a5c3685e/test/a97a4b74,11,11,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Credential
+1231,a97a4b74,GitHub,a5c3685e,data/a5c3685e/test/a97a4b74,11,11,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Credential
 1288,630610c0,GitHub,a5c3685e,data/a5c3685e/src/630610c0.rb,180,180,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 1792,cbcb7834,GitHub,a5c3685e,data/a5c3685e/src/cbcb7834.rb,196,196,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 1844,9f4436d1,GitHub,a5c3685e,data/a5c3685e/src/9f4436d1.rb,31,31,F,F,,,F,F,,,,,0,0,F,F,F,Key
@@ -38,7 +38,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 9196,a5e0fcd7,GitHub,a5c3685e,data/a5c3685e/src/a5e0fcd7.rb,42,42,F,F,,,F,F,,,,,0,0,F,F,F,Key
 9235,1bccf618,GitHub,a5c3685e,data/a5c3685e/src/1bccf618.rb,47,47,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 9236,ccd36a6d,GitHub,a5c3685e,data/a5c3685e/src/ccd36a6d.rb,71,71,F,F,,,F,F,,,,,0,0,F,F,F,Password
-9237,a5e0fcd7,GitHub,a5c3685e,data/a5c3685e/src/a5e0fcd7.rb,122,122,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+9237,a5e0fcd7,GitHub,a5c3685e,data/a5c3685e/src/a5e0fcd7.rb,122,122,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 9654,190f9d2e,GitHub,a5c3685e,data/a5c3685e/src/190f9d2e.rb,156,156,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 9705,954c5253,GitHub,a5c3685e,data/a5c3685e/src/954c5253.rb,94,94,F,F,,,F,F,,,,,0,0,F,F,F,Token
 11255,d102b551,GitHub,a5c3685e,data/a5c3685e/src/d102b551.rb,2,2,F,F,,,F,F,,,,,0,0,F,F,F,API
@@ -218,7 +218,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 74542,630610c0,GitHub,a5c3685e,data/a5c3685e/src/630610c0.rb,38,38,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 74543,aa634fd6,GitHub,a5c3685e,data/a5c3685e/src/aa634fd6.rb,40,40,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 75311,aa634fd6,GitHub,a5c3685e,data/a5c3685e/src/aa634fd6.rb,44,44,F,F,,,F,F,,,,,0,0,F,F,F,Key
-75316,aa634fd6,GitHub,a5c3685e,data/a5c3685e/src/aa634fd6.rb,128,128,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+75316,aa634fd6,GitHub,a5c3685e,data/a5c3685e/src/aa634fd6.rb,128,128,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 75582,a5e0fcd7,GitHub,a5c3685e,data/a5c3685e/src/a5e0fcd7.rb,80,80,F,F,,,F,F,,,,,0,0,F,F,F,Token
 80001,b6914468,GitHub,a5c3685e,data/a5c3685e/src/b6914468.rb,159,159,Template,F,43,46,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Key:Secret
 80002,cec98c3a,GitHub,a5c3685e,data/a5c3685e/src/cec98c3a.rb,96,96,Template,F,29,32,F,F,CharsOnly,,,Key,1.58,3,F,F,F,API:Key
@@ -255,5 +255,5 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 130302,bdbf9f0a,GitHub,a5c3685e,data/a5c3685e/src/bdbf9f0a.rb,205,205,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130303,a998cc6c,GitHub,a5c3685e,data/a5c3685e/src/a998cc6c.rb,115,115,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130306,4acc73dd,GitHub,a5c3685e,data/a5c3685e/src/4acc73dd.yml,5,5,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-134317,f42d8baa,GitHub,a5c3685e,data/a5c3685e/src/f42d8baa.rb,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+134317,f42d8baa,GitHub,a5c3685e,data/a5c3685e/src/f42d8baa.rb,21,21,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 1341493,cec98c3a,GitHub,a5c3685e,data/a5c3685e/src/cec98c3a.rb,15,15,T,F,11,47,F,F,,,,,0.0,0,F,F,F,UUID

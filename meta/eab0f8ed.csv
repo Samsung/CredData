@@ -70,7 +70,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 20933,4fa39a9b,GitHub,eab0f8ed,data/eab0f8ed/src/4fa39a9b.ps1,66,66,Template,F,154,165,T,F,Any,,,Secret,0.0,2,F,F,F,Password
 21383,791ba8fa,GitHub,eab0f8ed,data/eab0f8ed/src/791ba8fa.ps1,19,19,F,F,,,F,F,,,,,0,0,F,F,F,Password
 21384,791ba8fa,GitHub,eab0f8ed,data/eab0f8ed/src/791ba8fa.ps1,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Token
-21566,791ba8fa,GitHub,eab0f8ed,data/eab0f8ed/src/791ba8fa.ps1,129,129,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+21566,791ba8fa,GitHub,eab0f8ed,data/eab0f8ed/src/791ba8fa.ps1,129,129,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 21630,53b899f8,GitHub,eab0f8ed,data/eab0f8ed/src/53b899f8.yml,160,160,F,F,,,F,F,,,,,0,0,F,F,F,Token
 22364,fcfc4be2,GitHub,eab0f8ed,data/eab0f8ed/test/fcfc4be2.json,5,5,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 22946,cea53dc2,GitHub,eab0f8ed,data/eab0f8ed/src/cea53dc2.cs,26,26,F,F,,,F,F,,,,,0,0,F,F,F,Auth
@@ -90,8 +90,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 25678,9c595295,GitHub,eab0f8ed,data/eab0f8ed/src/9c595295.config,8,8,F,F,,,F,F,,,,,0,0,F,F,F,Key
 25680,a3fe4195,GitHub,eab0f8ed,data/eab0f8ed/src/a3fe4195.config,4,4,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 25708,50cd4bc7,GitHub,eab0f8ed,data/eab0f8ed/src/50cd4bc7.yml,29,29,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-25716,9c595295,GitHub,eab0f8ed,data/eab0f8ed/src/9c595295.config,7,7,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
-25751,9c595295,GitHub,eab0f8ed,data/eab0f8ed/src/9c595295.config,5,5,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+25716,9c595295,GitHub,eab0f8ed,data/eab0f8ed/src/9c595295.config,7,7,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+25751,9c595295,GitHub,eab0f8ed,data/eab0f8ed/src/9c595295.config,5,5,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 25752,9c595295,GitHub,eab0f8ed,data/eab0f8ed/src/9c595295.config,6,6,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 25753,a3fe4195,GitHub,eab0f8ed,data/eab0f8ed/src/a3fe4195.config,8,8,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 25849,4ecb77b8,GitHub,eab0f8ed,data/eab0f8ed/src/4ecb77b8.csproj,8,8,F,F,,,F,F,,,,,0,0,F,F,F,Auth
@@ -255,9 +255,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 101610,60c0eadc,GitHub,eab0f8ed,data/eab0f8ed/test/60c0eadc.json,59,59,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
 101611,05f3a09b,GitHub,eab0f8ed,data/eab0f8ed/test/05f3a09b.json,38,38,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
 110850,e52773bd,GitHub,eab0f8ed,data/eab0f8ed/src/e52773bd.sh,57,57,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-110851,e52773bd,GitHub,eab0f8ed,data/eab0f8ed/src/e52773bd.sh,50,50,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
+110851,e52773bd,GitHub,eab0f8ed,data/eab0f8ed/src/e52773bd.sh,50,50,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
 110852,53b899f8,GitHub,eab0f8ed,data/eab0f8ed/src/53b899f8.yml,14,14,F,F,20,31,F,F,,,,,0.0,-1,F,F,F,Secret
-110853,791ba8fa,GitHub,eab0f8ed,data/eab0f8ed/src/791ba8fa.ps1,135,135,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
+110853,791ba8fa,GitHub,eab0f8ed,data/eab0f8ed/src/791ba8fa.ps1,135,135,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
 110854,32238bab,GitHub,eab0f8ed,data/eab0f8ed/test/32238bab.json,30,30,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 110855,32238bab,GitHub,eab0f8ed,data/eab0f8ed/test/32238bab.json,61,61,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 131842,0cf137ab,GitHub,eab0f8ed,data/eab0f8ed/src/0cf137ab.json,3,3,T,F,17,-1,F,F,,,,,0.0,-1,F,F,F,Dropbox App secret

@@ -4,13 +4,13 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 6374,692b71dc,GitHub,e5a9c76d,data/e5a9c76d/src/692b71dc.rb,14,14,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 7639,420c500d,GitHub,e5a9c76d,data/e5a9c76d/src/420c500d.rb,107,107,F,F,,,F,F,,,,,0,0,F,F,F,API
 8999,82dcb156,GitHub,e5a9c76d,data/e5a9c76d/src/82dcb156.rb,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-12901,9841045f,GitHub,e5a9c76d,data/e5a9c76d/src/9841045f.rb,40,40,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
-12902,5e7f060f,GitHub,e5a9c76d,data/e5a9c76d/src/5e7f060f.rb,43,43,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+12901,9841045f,GitHub,e5a9c76d,data/e5a9c76d/src/9841045f.rb,40,40,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+12902,5e7f060f,GitHub,e5a9c76d,data/e5a9c76d/src/5e7f060f.rb,43,43,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 12903,8c00871c,GitHub,e5a9c76d,data/e5a9c76d/src/8c00871c.rb,286,286,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 12904,87cfd52c,GitHub,e5a9c76d,data/e5a9c76d/src/87cfd52c.rb,24,24,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 12909,888926aa,GitHub,e5a9c76d,data/e5a9c76d/src/888926aa.rb,89,89,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-12935,5e7f060f,GitHub,e5a9c76d,data/e5a9c76d/src/5e7f060f.rb,36,36,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
-13025,c4237f6d,GitHub,e5a9c76d,data/e5a9c76d/src/c4237f6d.rb,49,49,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+12935,5e7f060f,GitHub,e5a9c76d,data/e5a9c76d/src/5e7f060f.rb,36,36,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+13025,c4237f6d,GitHub,e5a9c76d,data/e5a9c76d/src/c4237f6d.rb,49,49,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 13057,924406b8,GitHub,e5a9c76d,data/e5a9c76d/src/924406b8.rb,27,27,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 13058,0ec78dc1,GitHub,e5a9c76d,data/e5a9c76d/src/0ec78dc1.rb,18,18,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 13103,1e883203,GitHub,e5a9c76d,data/e5a9c76d/src/1e883203.rb,51,51,F,F,,,F,F,,,,,0,0,F,F,F,Key
@@ -32,7 +32,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 42237,420c500d,GitHub,e5a9c76d,data/e5a9c76d/src/420c500d.rb,41,41,F,F,,,F,F,,,,,0,0,F,F,F,API
 42238,420c500d,GitHub,e5a9c76d,data/e5a9c76d/src/420c500d.rb,63,63,F,F,,,F,F,,,,,0,0,F,F,F,API
 48176,c1823fb9,GitHub,e5a9c76d,data/e5a9c76d/other/c1823fb9.md,3077,3077,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
-74041,5e7f060f,GitHub,e5a9c76d,data/e5a9c76d/src/5e7f060f.rb,61,61,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+74041,5e7f060f,GitHub,e5a9c76d,data/e5a9c76d/src/5e7f060f.rb,61,61,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 74042,87cfd52c,GitHub,e5a9c76d,data/e5a9c76d/src/87cfd52c.rb,38,38,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 74043,8c00871c,GitHub,e5a9c76d,data/e5a9c76d/src/8c00871c.rb,299,299,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 74044,1e883203,GitHub,e5a9c76d,data/e5a9c76d/src/1e883203.rb,47,47,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -46,7 +46,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 74052,888926aa,GitHub,e5a9c76d,data/e5a9c76d/src/888926aa.rb,253,253,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 74053,5e7f060f,GitHub,e5a9c76d,data/e5a9c76d/src/5e7f060f.rb,217,217,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 74054,5e7f060f,GitHub,e5a9c76d,data/e5a9c76d/src/5e7f060f.rb,233,233,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-74055,5e7f060f,GitHub,e5a9c76d,data/e5a9c76d/src/5e7f060f.rb,68,68,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+74055,5e7f060f,GitHub,e5a9c76d,data/e5a9c76d/src/5e7f060f.rb,68,68,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 74072,924406b8,GitHub,e5a9c76d,data/e5a9c76d/src/924406b8.rb,23,23,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 74073,0ec78dc1,GitHub,e5a9c76d,data/e5a9c76d/src/0ec78dc1.rb,22,22,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 74082,87cfd52c,GitHub,e5a9c76d,data/e5a9c76d/src/87cfd52c.rb,34,34,F,F,,,F,F,,,,,0,0,F,F,F,Secret

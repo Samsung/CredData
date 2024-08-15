@@ -176,7 +176,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 9378,e6d71b5a,GitHub,0f133e09,data/0f133e09/test/e6d71b5a.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 9379,e4739237,GitHub,0f133e09,data/0f133e09/test/e4739237.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 9380,e10f1e23,GitHub,0f133e09,data/0f133e09/test/e10f1e23.txt,87,87,F,F,,,F,F,,,,,0,0,F,F,F,Key
-9384,f5819a5c,GitHub,0f133e09,data/0f133e09/test/f5819a5c.txt,87,87,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+9384,f5819a5c,GitHub,0f133e09,data/0f133e09/test/f5819a5c.txt,87,87,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 9385,06c85d5e,GitHub,0f133e09,data/0f133e09/test/06c85d5e.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Key
 9386,94431913,GitHub,0f133e09,data/0f133e09/test/94431913.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Key
 9387,5dec8d2e,GitHub,0f133e09,data/0f133e09/test/5dec8d2e.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Key
@@ -197,16 +197,16 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 9403,d5bb13b1,GitHub,0f133e09,data/0f133e09/test/d5bb13b1.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
 9405,d9598d6f,GitHub,0f133e09,data/0f133e09/test/d9598d6f.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
 9408,7b7916b1,GitHub,0f133e09,data/0f133e09/test/7b7916b1.txt,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
-9413,1d7a0ba2,GitHub,0f133e09,data/0f133e09/test/1d7a0ba2.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+9413,1d7a0ba2,GitHub,0f133e09,data/0f133e09/test/1d7a0ba2.txt,10,10,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 9414,98eca58d,GitHub,0f133e09,data/0f133e09/test/98eca58d.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 9415,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,538,538,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
 9416,cf9acca2,GitHub,0f133e09,data/0f133e09/test/cf9acca2.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-9417,a09f373b,GitHub,0f133e09,data/0f133e09/test/a09f373b.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
-9418,e951add5,GitHub,0f133e09,data/0f133e09/test/e951add5.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+9417,a09f373b,GitHub,0f133e09,data/0f133e09/test/a09f373b.txt,10,10,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+9418,e951add5,GitHub,0f133e09,data/0f133e09/test/e951add5.txt,10,10,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 9419,ea6dfafd,GitHub,0f133e09,data/0f133e09/test/ea6dfafd.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 9420,62bb5e0d,GitHub,0f133e09,data/0f133e09/test/62bb5e0d.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 9421,1c3cf051,GitHub,0f133e09,data/0f133e09/test/1c3cf051.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-9422,fcfc5cb8,GitHub,0f133e09,data/0f133e09/test/fcfc5cb8.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+9422,fcfc5cb8,GitHub,0f133e09,data/0f133e09/test/fcfc5cb8.txt,21,21,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 9423,1ced0910,GitHub,0f133e09,data/0f133e09/test/1ced0910.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 9424,2defe86d,GitHub,0f133e09,data/0f133e09/test/2defe86d.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Key
 9425,8db67d7c,GitHub,0f133e09,data/0f133e09/test/8db67d7c.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
@@ -1543,9 +1543,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 76976,fdc9b828,GitHub,0f133e09,data/0f133e09/test/fdc9b828.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 76977,7c174031,GitHub,0f133e09,data/0f133e09/test/7c174031.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Key
 76978,21c6c562,GitHub,0f133e09,data/0f133e09/test/21c6c562.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-76979,7285a2c4,GitHub,0f133e09,data/0f133e09/test/7285a2c4.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
-76980,0a0609f6,GitHub,0f133e09,data/0f133e09/test/0a0609f6.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
-76981,21c6c562,GitHub,0f133e09,data/0f133e09/test/21c6c562.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+76979,7285a2c4,GitHub,0f133e09,data/0f133e09/test/7285a2c4.txt,21,21,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+76980,0a0609f6,GitHub,0f133e09,data/0f133e09/test/0a0609f6.txt,10,10,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+76981,21c6c562,GitHub,0f133e09,data/0f133e09/test/21c6c562.txt,10,10,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 76984,d9598d6f,GitHub,0f133e09,data/0f133e09/test/d9598d6f.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
 76985,62bb5e0d,GitHub,0f133e09,data/0f133e09/test/62bb5e0d.txt,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
 76986,8bfa1e8d,GitHub,0f133e09,data/0f133e09/test/8bfa1e8d.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Auth
@@ -1682,7 +1682,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 131071,d2a693bc,GitHub,0f133e09,data/0f133e09/src/d2a693bc.pyi,33,33,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 131072,eca12c0a,GitHub,0f133e09,data/0f133e09/other/eca12c0a.md,95,95,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 131073,77000b93,GitHub,0f133e09,data/0f133e09/test/77000b93.txt,76,76,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-135029,cd558fc3,GitHub,0f133e09,data/0f133e09/src/cd558fc3.py,819,819,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+135029,cd558fc3,GitHub,0f133e09,data/0f133e09/src/cd558fc3.py,819,819,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 135030,5e62348b,GitHub,0f133e09,data/0f133e09/test/5e62348b.py,65,65,F,F,,,F,F,,,,,0,0,F,F,F,Token
 135779,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,9,10,F,F,,,F,F,,,,,0,0,F,F,F,AWS Multi
 1119845,b41f73f0,GitHub,0f133e09,data/0f133e09/test/b41f73f0.txt,21,21,F,F,,,F,F,,,,,0.0,0,F,F,F,Bitbucket Client ID

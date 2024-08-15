@@ -1,11 +1,11 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-249,d308d0d0,GitHub,cba49987,data/cba49987/src/d308d0d0.py,87,87,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-250,d308d0d0,GitHub,cba49987,data/cba49987/src/d308d0d0.py,80,80,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+249,d308d0d0,GitHub,cba49987,data/cba49987/src/d308d0d0.py,87,87,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+250,d308d0d0,GitHub,cba49987,data/cba49987/src/d308d0d0.py,80,80,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 260,fe427d8b,GitHub,cba49987,data/cba49987/src/fe427d8b.py,405,405,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 262,fe427d8b,GitHub,cba49987,data/cba49987/src/fe427d8b.py,189,189,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 289,f1b32de4,GitHub,cba49987,data/cba49987/src/f1b32de4.py,61,61,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-345,d308d0d0,GitHub,cba49987,data/cba49987/src/d308d0d0.py,77,77,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-358,d308d0d0,GitHub,cba49987,data/cba49987/src/d308d0d0.py,119,119,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+345,d308d0d0,GitHub,cba49987,data/cba49987/src/d308d0d0.py,77,77,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+358,d308d0d0,GitHub,cba49987,data/cba49987/src/d308d0d0.py,119,119,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 373,117c4746,GitHub,cba49987,data/cba49987/src/117c4746.py,217,217,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 377,fe427d8b,GitHub,cba49987,data/cba49987/src/fe427d8b.py,417,417,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 1271,a1829567,GitHub,cba49987,data/cba49987/src/a1829567.py,134,134,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -16,7 +16,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 1576,fe427d8b,GitHub,cba49987,data/cba49987/src/fe427d8b.py,420,420,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 1980,fe427d8b,GitHub,cba49987,data/cba49987/src/fe427d8b.py,166,166,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 5795,a790a203,GitHub,cba49987,data/cba49987/test/a790a203.py,455,455,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-5829,096b9ee4,GitHub,cba49987,data/cba49987/test/096b9ee4.py,63,63,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+5829,096b9ee4,GitHub,cba49987,data/cba49987/test/096b9ee4.py,63,63,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 6089,b0131c03,GitHub,cba49987,data/cba49987/src/b0131c03.py,150,150,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 6564,211ccb0a,GitHub,cba49987,data/cba49987/src/211ccb0a.py,9,9,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 6565,211ccb0a,GitHub,cba49987,data/cba49987/src/211ccb0a.py,8,8,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -25,7 +25,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 8786,fe427d8b,GitHub,cba49987,data/cba49987/src/fe427d8b.py,298,298,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 8809,b2d1d35c,GitHub,cba49987,data/cba49987/src/b2d1d35c.py,97,97,F,F,,,F,F,,,,,0,0,F,F,F,Password
 8872,85d6da67,GitHub,cba49987,data/cba49987/test/85d6da67.py,136,136,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-9158,6dd61b41,GitHub,cba49987,data/cba49987/src/6dd61b41.py,35,35,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+9158,6dd61b41,GitHub,cba49987,data/cba49987/src/6dd61b41.py,35,35,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 9409,b415cc11,GitHub,cba49987,data/cba49987/test/b415cc11.py,275,275,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 10606,5f11b9ab,GitHub,cba49987,data/cba49987/src/5f11b9ab.yaml,143,143,F,F,,,F,F,,,,,0,0,F,F,F,Token
 11067,59d0b0b5,GitHub,cba49987,data/cba49987/test/59d0b0b5.py,110,110,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
@@ -39,7 +39,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 12374,9a66f565,GitHub,cba49987,data/cba49987/src/9a66f565.py,50,50,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 12449,ffbf7a14,GitHub,cba49987,data/cba49987/test/ffbf7a14.py,195,195,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 12759,69abcdfc,GitHub,cba49987,data/cba49987/src/69abcdfc.py,37,37,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-12805,d308d0d0,GitHub,cba49987,data/cba49987/src/d308d0d0.py,67,67,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+12805,d308d0d0,GitHub,cba49987,data/cba49987/src/d308d0d0.py,67,67,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 14025,4b8609f7,GitHub,cba49987,data/cba49987/src/4b8609f7.py,45,45,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 14027,15040209,GitHub,cba49987,data/cba49987/src/15040209.py,249,249,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 14029,aeb09b50,GitHub,cba49987,data/cba49987/test/aeb09b50.py,71,71,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
@@ -113,5 +113,5 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 113186,6e600ec7,GitHub,cba49987,data/cba49987/test/6e600ec7.sample,15,15,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 130822,17c1348a,GitHub,cba49987,data/cba49987/src/17c1348a.py,58,58,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130823,95557d53,GitHub,cba49987,data/cba49987/test/95557d53.yaml,102,102,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-134587,15040209,GitHub,cba49987,data/cba49987/src/15040209.py,518,518,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+134587,15040209,GitHub,cba49987,data/cba49987/src/15040209.py,518,518,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 134795,62a24010,GitHub,cba49987,data/cba49987/src/62a24010.py,100,101,F,F,32,60,F,F,,,,,0.0,0,F,F,F,Google Multi

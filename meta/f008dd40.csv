@@ -54,7 +54,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 11923,c0e7e3b6,GitHub,f008dd40,data/f008dd40/test/c0e7e3b6.rules,6,6,F,F,,,F,F,,,,,0,0,F,F,F,Password
 11924,c0e7e3b6,GitHub,f008dd40,data/f008dd40/test/c0e7e3b6.rules,7,7,F,F,,,F,F,,,,,0,0,F,F,F,Password
 11974,b7caaa3d,GitHub,f008dd40,data/f008dd40/test/b7caaa3d.go,55,55,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-12300,c8cd7002,GitHub,f008dd40,data/f008dd40/src/c8cd7002.sh,50,50,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+12300,c8cd7002,GitHub,f008dd40,data/f008dd40/src/c8cd7002.sh,50,50,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 12320,08b99f12,GitHub,f008dd40,data/f008dd40/src/08b99f12.sh,28,28,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 12955,c61d7610,GitHub,f008dd40,data/f008dd40/src/c61d7610.sh,42,42,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 13644,4645f756,GitHub,f008dd40,data/f008dd40/src/4645f756.ts,40,40,F,F,,,F,F,,,,,0,0,F,F,F,Token
@@ -430,8 +430,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 113118,3295df72,GitHub,f008dd40,data/f008dd40/src/3295df72.sum,1317,1317,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 113119,3295df72,GitHub,f008dd40,data/f008dd40/src/3295df72.sum,616,616,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
 113120,c1d1b2dd,GitHub,f008dd40,data/f008dd40/test/c1d1b2dd.yml,21,21,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-113121,c1d1b2dd,GitHub,f008dd40,data/f008dd40/test/c1d1b2dd.yml,56,56,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
-113122,716b6859,GitHub,f008dd40,data/f008dd40/test/716b6859.yml,43,43,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
+113121,c1d1b2dd,GitHub,f008dd40,data/f008dd40/test/c1d1b2dd.yml,56,56,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
+113122,716b6859,GitHub,f008dd40,data/f008dd40/test/716b6859.yml,43,43,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
 113123,6e415fc6,GitHub,f008dd40,data/f008dd40/test/6e415fc6.go,49,49,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 113124,6e415fc6,GitHub,f008dd40,data/f008dd40/test/6e415fc6.go,60,60,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 113125,6e415fc6,GitHub,f008dd40,data/f008dd40/test/6e415fc6.go,73,73,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
@@ -448,11 +448,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 130816,c592e77b,GitHub,f008dd40,data/f008dd40/test/c592e77b.go,267,267,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 133010,68f31c9a,GitHub,f008dd40,data/f008dd40/other/68f31c9a.md,91,91,F,F,,,F,F,,,,,0,0,F,F,F,Password:Auth
 133011,4e64d3e5,GitHub,f008dd40,data/f008dd40/src/4e64d3e5.tsx,34,34,F,F,,,F,F,,,,,0,0,F,F,F,Password
-134722,4e64d3e5,GitHub,f008dd40,data/f008dd40/src/4e64d3e5.tsx,99,99,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
-134723,4e64d3e5,GitHub,f008dd40,data/f008dd40/src/4e64d3e5.tsx,128,128,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
-134724,4e64d3e5,GitHub,f008dd40,data/f008dd40/src/4e64d3e5.tsx,159,159,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+134722,4e64d3e5,GitHub,f008dd40,data/f008dd40/src/4e64d3e5.tsx,99,99,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+134723,4e64d3e5,GitHub,f008dd40,data/f008dd40/src/4e64d3e5.tsx,128,128,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+134724,4e64d3e5,GitHub,f008dd40,data/f008dd40/src/4e64d3e5.tsx,159,159,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 134725,a2aad61a,GitHub,f008dd40,data/f008dd40/src/a2aad61a.go,51,51,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-134726,698aef8a,GitHub,f008dd40,data/f008dd40/test/698aef8a.conf,1044,1044,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
-134727,a40d8da9,GitHub,f008dd40,data/f008dd40/test/a40d8da9.go,274,274,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
-134728,c592e77b,GitHub,f008dd40,data/f008dd40/test/c592e77b.go,226,226,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+134726,698aef8a,GitHub,f008dd40,data/f008dd40/test/698aef8a.conf,1044,1044,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+134727,a40d8da9,GitHub,f008dd40,data/f008dd40/test/a40d8da9.go,274,274,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+134728,c592e77b,GitHub,f008dd40,data/f008dd40/test/c592e77b.go,226,226,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 1036094,86db8848,GitHub,f008dd40,data/f008dd40/src/86db8848.yml,12,12,T,F,130,138,F,F,Any,,,Secret,4.94,68,F,F,F,Password

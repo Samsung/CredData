@@ -195,20 +195,20 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 107524,40bae391,GitHub,a0cd6261,data/a0cd6261/src/40bae391.txt,61,61,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 107525,40bae391,GitHub,a0cd6261,data/a0cd6261/src/40bae391.txt,69,69,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 107526,35f06517,GitHub,a0cd6261,data/a0cd6261/test/35f06517.md,193,193,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-114008,6e382287,GitHub,a0cd6261,data/a0cd6261/src/6e382287.rb,67,67,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
+114008,6e382287,GitHub,a0cd6261,data/a0cd6261/src/6e382287.rb,67,67,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
 114009,3bd7670b,GitHub,a0cd6261,data/a0cd6261/other/3bd7670b.md,229,229,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 114010,3bd7670b,GitHub,a0cd6261,data/a0cd6261/other/3bd7670b.md,230,230,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-114011,3bd7670b,GitHub,a0cd6261,data/a0cd6261/other/3bd7670b.md,348,348,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
+114011,3bd7670b,GitHub,a0cd6261,data/a0cd6261/other/3bd7670b.md,348,348,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
 114012,e8c1707a,GitHub,a0cd6261,data/a0cd6261/other/e8c1707a.md,59,59,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 114013,d73e7ecc,GitHub,a0cd6261,data/a0cd6261/other/d73e7ecc.md,54,54,F,F,,,F,F,,,,,0.00,,F,F,F,AWS S3 Bucket
 114014,b0464027,GitHub,a0cd6261,data/a0cd6261/other/b0464027.md,660,660,F,F,,,F,F,,,,,0.00,,F,F,F,Token
-114015,c7caa3f3,GitHub,a0cd6261,data/a0cd6261/other/c7caa3f3.md,211,211,T,F,100,228,F,F,,,,,0.00,,F,F,F,Secret:Key
+114015,c7caa3f3,GitHub,a0cd6261,data/a0cd6261/other/c7caa3f3.md,211,211,T,F,100,228,F,F,,,,,0.0,-1,F,F,F,Key
 114016,3b98604a,GitHub,a0cd6261,data/a0cd6261/other/3b98604a.md,1688,1688,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 114017,3b98604a,GitHub,a0cd6261,data/a0cd6261/other/3b98604a.md,230,230,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 114018,b0b094af,GitHub,a0cd6261,data/a0cd6261/other/b0b094af.md,631,631,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 114019,b0b094af,GitHub,a0cd6261,data/a0cd6261/other/b0b094af.md,641,641,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 114020,92025475,GitHub,a0cd6261,data/a0cd6261/other/92025475.md,25,25,F,F,,,F,F,,,,,0.00,,F,F,F,Token
-114021,47f1abd8,GitHub,a0cd6261,data/a0cd6261/other/47f1abd8.md,181,181,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
+114021,47f1abd8,GitHub,a0cd6261,data/a0cd6261/other/47f1abd8.md,181,181,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
 114022,47f1abd8,GitHub,a0cd6261,data/a0cd6261/other/47f1abd8.md,195,195,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
 114023,7269210a,GitHub,a0cd6261,data/a0cd6261/test/7269210a.md,336,336,F,F,,,F,F,,,,,0.00,,F,F,F,Bitbucket Client Secret
 114024,35f06517,GitHub,a0cd6261,data/a0cd6261/test/35f06517.md,80,80,F,F,,,F,F,,,,,0.00,,F,F,F,API
@@ -247,7 +247,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 134308,0aec68ea,GitHub,a0cd6261,data/a0cd6261/other/0aec68ea.md,41,41,F,F,,,F,F,,,,,0,0,F,F,F,API
 134309,3b98604a,GitHub,a0cd6261,data/a0cd6261/other/3b98604a.md,2572,2572,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 134310,77e52909,GitHub,a0cd6261,data/a0cd6261/other/77e52909.md,186,186,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Auth:Key
-134311,b0464027,GitHub,a0cd6261,data/a0cd6261/other/b0464027.md,815,815,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Credential
+134311,b0464027,GitHub,a0cd6261,data/a0cd6261/other/b0464027.md,815,815,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Credential
 134312,b3e1b56b,GitHub,a0cd6261,data/a0cd6261/other/b3e1b56b.md,25,25,F,F,,,F,F,,,,,0,0,F,F,F,API
 134313,e955e6ae,GitHub,a0cd6261,data/a0cd6261/other/e955e6ae.md,890,890,F,F,,,F,F,,,,,0,0,F,F,F,Certificate
 134793,29bb2e65,GitHub,a0cd6261,data/a0cd6261/test/29bb2e65.md,253,255,F,F,,,F,F,,,,,0,0,F,F,F,AWS Multi

@@ -13,7 +13,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 14902,3b686b67,GitHub,2e6b3af5,data/2e6b3af5/test/3b686b67.java,17,17,F,F,,,F,F,,,,,0,0,F,F,F,API
 15888,b3356305,GitHub,2e6b3af5,data/2e6b3af5/other/b3356305.md,84,84,F,F,,,F,F,,,,,0,0,F,F,F,API
 26473,06044b90,GitHub,2e6b3af5,data/2e6b3af5/test/06044b90.java,27,27,F,F,,,F,F,,,,,0,0,F,F,F,API
-26474,535cbf93,GitHub,2e6b3af5,data/2e6b3af5/test/535cbf93.java,18,18,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+26474,535cbf93,GitHub,2e6b3af5,data/2e6b3af5/test/535cbf93.java,18,18,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 27242,da6cca9c,GitHub,2e6b3af5,data/2e6b3af5/src/da6cca9c.java,19,19,Template,T,27,45,F,F,Any,,,Token,3.07,18,F,F,F,Secret:Token
 27243,da6cca9c,GitHub,2e6b3af5,data/2e6b3af5/src/da6cca9c.java,38,38,F,F,28,41,F,F,,,,,0.0,0,F,F,F,Token
 27245,da6cca9c,GitHub,2e6b3af5,data/2e6b3af5/src/da6cca9c.java,35,35,Template,T,28,41,F,F,Any,,,Secret,2.74,13,F,F,F,Secret
@@ -99,7 +99,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 110954,d13e91d9,GitHub,2e6b3af5,data/2e6b3af5/test/d13e91d9.java,110,110,F,F,,,F,F,,,,,0.00,,F,F,F,Token
 110955,9e9ce731,GitHub,2e6b3af5,data/2e6b3af5/test/9e9ce731.java,28,28,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 110956,caf3e92f,GitHub,2e6b3af5,data/2e6b3af5/test/caf3e92f.java,42,42,F,F,,,F,F,,,,,0.00,,F,F,F,Token
-110957,20f14c80,GitHub,2e6b3af5,data/2e6b3af5/test/20f14c80.java,35,35,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
+110957,20f14c80,GitHub,2e6b3af5,data/2e6b3af5/test/20f14c80.java,35,35,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
 137896,93226890,GitHub,2e6b3af5,data/2e6b3af5/test/93226890.java,53,53,T,F,96,111,F,F,,,,,0.0,0,F,F,F,Dropbox App secret:Token
 137899,d71a6818,GitHub,2e6b3af5,data/2e6b3af5/test/d71a6818.java,27,27,T,F,85,101,F,F,,,,,0.0,0,F,F,F,Auth:Secret:Token
 138207,d71a6818,GitHub,2e6b3af5,data/2e6b3af5/test/d71a6818.java,27,27,F,T,49,101,F,F,Any,,,WrongPos,4.17,52,F,F,F,Auth:Token

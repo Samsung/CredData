@@ -25,9 +25,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 29648,b5c47a7b,GitHub,b6dbde6a,data/b6dbde6a/other/b5c47a7b.md,64,64,Template,F,12,20,F,F,CharsOnly,,,Secret,0.0,8,F,F,F,Password
 29741,3e103440,GitHub,b6dbde6a,data/b6dbde6a/src/3e103440.yml,33,33,Template,T,29,44,F,F,Any,,,Secret,3.38,15,F,F,F,Secret
 29742,3e103440,GitHub,b6dbde6a,data/b6dbde6a/src/3e103440.yml,38,38,F,T,29,46,F,F,Any,,,Secret,2.73,17,F,F,F,Secret
-29775,3e103440,GitHub,b6dbde6a,data/b6dbde6a/src/3e103440.yml,39,39,Template,T,29,50,F,F,Any,,,Secret,2.68,21,F,F,F,Password:Secret
+29775,3e103440,GitHub,b6dbde6a,data/b6dbde6a/src/3e103440.yml,39,39,Template,T,29,50,F,F,Any,,,Secret,2.68,21,F,F,F,Password
 29776,3e103440,GitHub,b6dbde6a,data/b6dbde6a/src/3e103440.yml,49,49,Template,F,29,41,F,F,Any,,,Secret,2.99,12,F,F,F,Password:Secret
-29778,3e103440,GitHub,b6dbde6a,data/b6dbde6a/src/3e103440.yml,34,34,Template,T,29,41,F,F,Any,,,Secret,3.12,12,F,F,F,Password:Secret
+29778,3e103440,GitHub,b6dbde6a,data/b6dbde6a/src/3e103440.yml,34,34,Template,T,29,41,F,F,Any,,,Secret,3.12,12,F,F,F,Password
 29781,3e103440,GitHub,b6dbde6a,data/b6dbde6a/src/3e103440.yml,54,54,Template,F,29,41,F,F,Any,,,Secret,2.99,12,F,F,F,Password:Secret
 30603,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/35112c3e.ts,464,464,Template,F,22,30,F,F,Any,,,Token,3.0,8,F,F,F,Token
 31110,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/35112c3e.ts,280,280,Template,F,36,45,F,F,Any,,,Token,3.17,9,F,F,F,Token
@@ -35,8 +35,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 32459,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/35112c3e.ts,7,112,T,T,,,F,F,Any,Private,,Unknown,2.77,37,F,F,F,PEM Private Key
 33766,cadf319e,GitHub,b6dbde6a,data/b6dbde6a/test/cadf319e.ts,124,124,T,F,13,41,F,F,Any,,,Unknown,4.45,28,F,F,F,Key
 34530,3e103440,GitHub,b6dbde6a,data/b6dbde6a/src/3e103440.yml,29,29,T,F,29,37,F,F,Any,,,Secret,2.62,8,F,F,F,Password:Secret
-34533,3e103440,GitHub,b6dbde6a,data/b6dbde6a/src/3e103440.yml,24,24,Template,T,29,44,F,F,Any,,,Secret,3.25,15,F,F,F,Password:Secret
-41977,3e103440,GitHub,b6dbde6a,data/b6dbde6a/src/3e103440.yml,44,44,Template,T,29,50,F,F,Any,,,Secret,2.68,21,F,F,F,Password:Secret
+34533,3e103440,GitHub,b6dbde6a,data/b6dbde6a/src/3e103440.yml,24,24,Template,T,29,44,F,F,Any,,,Secret,3.25,15,F,F,F,Password
+41977,3e103440,GitHub,b6dbde6a,data/b6dbde6a/src/3e103440.yml,44,44,Template,T,29,50,F,F,Any,,,Secret,2.68,21,F,F,F,Password
 41978,3e103440,GitHub,b6dbde6a,data/b6dbde6a/src/3e103440.yml,43,43,F,T,29,46,F,F,Any,,,Secret,2.73,17,F,F,F,Secret
 47715,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/35112c3e.ts,522,522,Template,F,16,24,F,F,CharsOnly,,,Secret,0.0,8,F,F,F,Password
 55971,35112c3e,GitHub,b6dbde6a,data/b6dbde6a/test/35112c3e.ts,497,497,Template,F,22,30,F,F,Any,,,Token,3.0,8,F,F,F,Token
@@ -73,5 +73,5 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 100391,3d2b5918,GitHub,b6dbde6a,data/b6dbde6a/src/3d2b5918.js,7628,7628,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 110099,3d2b5918,GitHub,b6dbde6a,data/b6dbde6a/src/3d2b5918.js,11461,11461,F,F,,,F,F,,,,,0.00,,F,F,F,API
 130075,3e103440,GitHub,b6dbde6a,data/b6dbde6a/src/3e103440.yml,78,78,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-134343,3d2b5918,GitHub,b6dbde6a,data/b6dbde6a/src/3d2b5918.js,4920,4920,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
-134344,3d2b5918,GitHub,b6dbde6a,data/b6dbde6a/src/3d2b5918.js,15181,15181,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+134343,3d2b5918,GitHub,b6dbde6a,data/b6dbde6a/src/3d2b5918.js,4920,4920,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+134344,3d2b5918,GitHub,b6dbde6a,data/b6dbde6a/src/3d2b5918.js,15181,15181,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key

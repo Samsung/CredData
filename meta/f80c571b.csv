@@ -1,6 +1,6 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
 14,94fb4ab5,GitHub,f80c571b,data/f80c571b/src/94fb4ab5.py,1103,1103,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-234,bcbcac75,GitHub,f80c571b,data/f80c571b/src/bcbcac75.py,715,715,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+234,bcbcac75,GitHub,f80c571b,data/f80c571b/src/bcbcac75.py,715,715,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 1495,7c569d2e,GitHub,f80c571b,data/f80c571b/src/7c569d2e.py,1328,1328,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 1583,3a802eb6,GitHub,f80c571b,data/f80c571b/src/3a802eb6.sh,93,93,Template,F,21,29,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Password
 1991,458d26cd,GitHub,f80c571b,data/f80c571b/src/458d26cd.py,312,312,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -46,13 +46,13 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 15208,ddca7170,GitHub,f80c571b,data/f80c571b/test/ddca7170.py,53,53,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 15891,e98e46fc,GitHub,f80c571b,data/f80c571b/src/e98e46fc.rst,323,323,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 15894,fb8d49b6,GitHub,f80c571b,data/f80c571b/src/fb8d49b6.rst,670,670,Template,T,95,103,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Auth:Password
-17656,7c569d2e,GitHub,f80c571b,data/f80c571b/src/7c569d2e.py,916,916,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
-17677,7c569d2e,GitHub,f80c571b,data/f80c571b/src/7c569d2e.py,919,919,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+17656,7c569d2e,GitHub,f80c571b,data/f80c571b/src/7c569d2e.py,916,916,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+17677,7c569d2e,GitHub,f80c571b,data/f80c571b/src/7c569d2e.py,919,919,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 17678,8a91ed11,GitHub,f80c571b,data/f80c571b/src/8a91ed11.py,134,134,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 20000,761877f0,GitHub,f80c571b,data/f80c571b/test/761877f0.py,3423,3423,F,F,,,F,F,,,,,0,0,F,F,F,Key
 20001,761877f0,GitHub,f80c571b,data/f80c571b/test/761877f0.py,3405,3405,F,F,,,F,F,,,,,0,0,F,F,F,Key
-20669,1290e493,GitHub,f80c571b,data/f80c571b/test/1290e493.py,870,870,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-21299,bcbcac75,GitHub,f80c571b,data/f80c571b/src/bcbcac75.py,157,157,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+20669,1290e493,GitHub,f80c571b,data/f80c571b/test/1290e493.py,870,870,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+21299,bcbcac75,GitHub,f80c571b,data/f80c571b/src/bcbcac75.py,157,157,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 21719,a8ee16db,GitHub,f80c571b,data/f80c571b/src/a8ee16db.py,1502,1502,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 22071,c0986e3e,GitHub,f80c571b,data/f80c571b/test/c0986e3e.py,171,171,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 22097,fb70e4c2,GitHub,f80c571b,data/f80c571b/test/fb70e4c2.py,210,210,F,F,,,F,F,,,,,0,0,F,F,F,Auth
@@ -129,9 +129,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 75333,c0986e3e,GitHub,f80c571b,data/f80c571b/test/c0986e3e.py,1424,1424,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 75334,c0986e3e,GitHub,f80c571b,data/f80c571b/test/c0986e3e.py,1443,1443,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 75335,94fb4ab5,GitHub,f80c571b,data/f80c571b/src/94fb4ab5.py,1721,1721,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-110153,bcbcac75,GitHub,f80c571b,data/f80c571b/src/bcbcac75.py,420,420,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
-110154,bcbcac75,GitHub,f80c571b,data/f80c571b/src/bcbcac75.py,421,421,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
-110155,bcbcac75,GitHub,f80c571b,data/f80c571b/src/bcbcac75.py,717,717,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
+110153,bcbcac75,GitHub,f80c571b,data/f80c571b/src/bcbcac75.py,420,420,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
+110154,bcbcac75,GitHub,f80c571b,data/f80c571b/src/bcbcac75.py,421,421,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
+110155,bcbcac75,GitHub,f80c571b,data/f80c571b/src/bcbcac75.py,717,717,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
 110156,a8eb52dc,GitHub,f80c571b,data/f80c571b/src/a8eb52dc.rst,676,676,F,F,,,F,F,,,,,0.00,,F,F,F,AWS S3 Bucket
 110157,e98e46fc,GitHub,f80c571b,data/f80c571b/src/e98e46fc.rst,360,360,F,F,,,F,F,,,,,0.00,,F,F,F,AWS S3 Bucket
 110158,e98e46fc,GitHub,f80c571b,data/f80c571b/src/e98e46fc.rst,379,379,F,F,,,F,F,,,,,0.00,,F,F,F,AWS S3 Bucket
@@ -153,7 +153,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 130183,c0986e3e,GitHub,f80c571b,data/f80c571b/test/c0986e3e.py,202,202,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 132723,d023632f,GitHub,f80c571b,data/f80c571b/src/d023632f.rst,265,265,F,F,271,291,F,F,,,,,0.0,-1,F,F,F,Auth:Gitlab Feed Token
 133015,68a31565,GitHub,f80c571b,data/f80c571b/src/68a31565.rst,70,70,F,F,,,F,F,,,,,0,0,F,F,F,Password
-134740,7c569d2e,GitHub,f80c571b,data/f80c571b/src/7c569d2e.py,917,917,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+134740,7c569d2e,GitHub,f80c571b,data/f80c571b/src/7c569d2e.py,917,917,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 138147,25a9b697,GitHub,f80c571b,data/f80c571b/src/25a9b697.rst,38,38,F,F,158,163,F,F,,,,,0.0,0,F,F,F,Auth
 138148,7b9033f1,GitHub,f80c571b,data/f80c571b/src/7b9033f1.rst,62,62,F,F,183,188,F,F,,,,,0.0,0,F,F,F,Auth
 138149,a8eb52dc,GitHub,f80c571b,data/f80c571b/src/a8eb52dc.rst,20,20,F,F,174,181,F,F,,,,,0.0,0,F,F,F,Auth

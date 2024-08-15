@@ -43,7 +43,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 32165,e1aba4fb,GitHub,b91cad30,data/b91cad30/src/e1aba4fb.yml,24,24,F,F,21,27,F,F,Any,,,Secret,2.58,6,F,F,F,Secret
 32586,4f46a670,GitHub,b91cad30,data/b91cad30/other/4f46a670.md,237,237,T,T,14,22,F,F,CharsOnly,,,Unknown,2.0,8,F,F,F,Key
 33039,690de892,GitHub,b91cad30,data/b91cad30/test/690de892.java,46,46,F,F,22,30,F,F,,,,,0.0,0,F,F,F,Secret
-34041,14c2728a,GitHub,b91cad30,data/b91cad30/src/14c2728a.java,20,20,T,T,26,34,F,F,CharsOnly,,,Unknown,3.0,8,F,F,F,Secret:Key
+34041,14c2728a,GitHub,b91cad30,data/b91cad30/src/14c2728a.java,20,20,T,T,26,34,F,F,CharsOnly,,,Unknown,3.0,8,F,F,F,Key
 34059,20ee45c4,GitHub,b91cad30,data/b91cad30/src/20ee45c4.yml,18,18,T,T,15,23,F,F,CharsOnly,,,Unknown,2.0,8,F,F,F,Key
 34071,20ee45c4,GitHub,b91cad30,data/b91cad30/src/20ee45c4.yml,19,19,Template,T,15,23,F,F,CharsOnly,,,Secret,2.00,8,F,F,F,Password:Key:Secret
 34416,c4ba1209,GitHub,b91cad30,data/b91cad30/src/c4ba1209.yml,5,5,Template,T,14,18,F,F,CharsOnly,,,Secret,1.5,4,F,F,F,Password
@@ -87,7 +87,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 110823,e1aba4fb,GitHub,b91cad30,data/b91cad30/src/e1aba4fb.yml,8,8,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
 110824,74775e6e,GitHub,b91cad30,data/b91cad30/src/74775e6e.sql,15,15,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 110825,d08b0337,GitHub,b91cad30,data/b91cad30/other/d08b0337.adoc,68,68,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-110826,1a64cdab,GitHub,b91cad30,data/b91cad30/other/1a64cdab.md,22,22,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
+110826,1a64cdab,GitHub,b91cad30,data/b91cad30/other/1a64cdab.md,22,22,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
 130526,35f3a7a0,GitHub,b91cad30,data/b91cad30/src/35f3a7a0.html,272,272,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130527,473da3d3,GitHub,b91cad30,data/b91cad30/other/473da3d3.md,44,44,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130529,7eb22716,GitHub,b91cad30,data/b91cad30/test/7eb22716.java,28,28,F,F,,,F,F,,,,,0.00,,F,F,F,Password

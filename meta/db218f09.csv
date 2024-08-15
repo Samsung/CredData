@@ -52,8 +52,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 14955,ff56562a,GitHub,db218f09,data/db218f09/src/ff56562a.py,67,67,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 15064,27194d40,GitHub,db218f09,data/db218f09/src/27194d40.py,203,203,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 15066,51508c3f,GitHub,db218f09,data/db218f09/test/51508c3f.py,346,346,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-15084,217a4391,GitHub,db218f09,data/db218f09/test/217a4391.py,335,335,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
-15085,217a4391,GitHub,db218f09,data/db218f09/test/217a4391.py,342,342,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+15084,217a4391,GitHub,db218f09,data/db218f09/test/217a4391.py,335,335,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+15085,217a4391,GitHub,db218f09,data/db218f09/test/217a4391.py,342,342,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 15092,64024aec,GitHub,db218f09,data/db218f09/src/64024aec.py,1022,1022,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 15093,51508c3f,GitHub,db218f09,data/db218f09/test/51508c3f.py,1103,1103,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 15094,51508c3f,GitHub,db218f09,data/db218f09/test/51508c3f.py,1087,1087,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -68,7 +68,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 15256,08e0a244,GitHub,db218f09,data/db218f09/src/08e0a244.json,4137,4137,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 15279,d40a360a,GitHub,db218f09,data/db218f09/src/d40a360a.py,473,473,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 15281,659838d1,GitHub,db218f09,data/db218f09/test/659838d1.py,252,252,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-15282,d40a360a,GitHub,db218f09,data/db218f09/src/d40a360a.py,461,461,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+15282,d40a360a,GitHub,db218f09,data/db218f09/src/d40a360a.py,461,461,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 15284,0e7dccac,GitHub,db218f09,data/db218f09/test/0e7dccac.py,1340,1340,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 15290,9b6d01e0,GitHub,db218f09,data/db218f09/test/9b6d01e0.py,254,254,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 15345,217a4391,GitHub,db218f09,data/db218f09/test/217a4391.py,348,348,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -115,7 +115,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 18927,08e0a244,GitHub,db218f09,data/db218f09/src/08e0a244.json,4144,4144,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 20135,217a4391,GitHub,db218f09,data/db218f09/test/217a4391.py,584,584,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 20311,32d2ce62,GitHub,db218f09,data/db218f09/test/32d2ce62.py,1043,1043,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-20727,4f17d5db,GitHub,db218f09,data/db218f09/src/4f17d5db.rst,60,60,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+20727,4f17d5db,GitHub,db218f09,data/db218f09/src/4f17d5db.rst,60,60,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 21178,32d2ce62,GitHub,db218f09,data/db218f09/test/32d2ce62.py,1032,1032,F,F,,,F,F,,,,,0,0,F,F,F,API
 21465,7bd2a56f,GitHub,db218f09,data/db218f09/src/7bd2a56f.rst,209,209,F,F,,,F,F,,,,,0,0,F,F,F,API
 21547,08e0a244,GitHub,db218f09,data/db218f09/src/08e0a244.json,4145,4145,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -196,7 +196,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 47594,0e7dccac,GitHub,db218f09,data/db218f09/test/0e7dccac.py,2995,2995,F,F,,,F,F,,,,,0,0,F,F,F,API
 47595,0e7dccac,GitHub,db218f09,data/db218f09/test/0e7dccac.py,3012,3012,F,F,,,F,F,,,,,0,0,F,F,F,API
 54246,217a4391,GitHub,db218f09,data/db218f09/test/217a4391.py,598,598,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-54498,4f17d5db,GitHub,db218f09,data/db218f09/src/4f17d5db.rst,92,92,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+54498,4f17d5db,GitHub,db218f09,data/db218f09/src/4f17d5db.rst,92,92,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 56056,217a4391,GitHub,db218f09,data/db218f09/test/217a4391.py,362,362,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 56058,0e7dccac,GitHub,db218f09,data/db218f09/test/0e7dccac.py,688,688,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 56059,51508c3f,GitHub,db218f09,data/db218f09/test/51508c3f.py,399,399,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -204,7 +204,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 56078,51508c3f,GitHub,db218f09,data/db218f09/test/51508c3f.py,3061,3061,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 56087,51508c3f,GitHub,db218f09,data/db218f09/test/51508c3f.py,1277,1277,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 56088,51508c3f,GitHub,db218f09,data/db218f09/test/51508c3f.py,1293,1293,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-56092,217a4391,GitHub,db218f09,data/db218f09/test/217a4391.py,363,363,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+56092,217a4391,GitHub,db218f09,data/db218f09/test/217a4391.py,363,363,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 63249,9b6d01e0,GitHub,db218f09,data/db218f09/test/9b6d01e0.py,251,251,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 74573,4327731d,GitHub,db218f09,data/db218f09/test/4327731d.py,243,243,F,F,,,F,F,,,,,0,0,F,F,F,Token
 74574,4327731d,GitHub,db218f09,data/db218f09/test/4327731d.py,270,270,F,F,,,F,F,,,,,0,0,F,F,F,Token
@@ -224,7 +224,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 108479,08e0a244,GitHub,db218f09,data/db218f09/src/08e0a244.json,4138,4138,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 108480,08e0a244,GitHub,db218f09,data/db218f09/src/08e0a244.json,4142,4142,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 108481,08e0a244,GitHub,db218f09,data/db218f09/src/08e0a244.json,4143,4143,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-108482,272b6876,GitHub,db218f09,data/db218f09/src/272b6876.py,1872,1872,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+108482,272b6876,GitHub,db218f09,data/db218f09/src/272b6876.py,1872,1872,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
 108483,08e0a244,GitHub,db218f09,data/db218f09/src/08e0a244.json,3406,3406,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 108484,08e0a244,GitHub,db218f09,data/db218f09/src/08e0a244.json,3790,3790,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 108485,70e03f5e,GitHub,db218f09,data/db218f09/src/70e03f5e.py,13,13,F,F,,,F,F,,,,,0.00,,F,F,F,Password
@@ -241,8 +241,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 114586,08e0a244,GitHub,db218f09,data/db218f09/src/08e0a244.json,938,938,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 114587,08e0a244,GitHub,db218f09,data/db218f09/src/08e0a244.json,1974,1974,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
 114588,64024aec,GitHub,db218f09,data/db218f09/src/64024aec.py,249,249,F,F,,,F,F,,,,,0.00,,F,F,F,API
-114589,4f17d5db,GitHub,db218f09,data/db218f09/src/4f17d5db.rst,61,61,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
-114590,4f17d5db,GitHub,db218f09,data/db218f09/src/4f17d5db.rst,93,93,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
+114589,4f17d5db,GitHub,db218f09,data/db218f09/src/4f17d5db.rst,61,61,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
+114590,4f17d5db,GitHub,db218f09,data/db218f09/src/4f17d5db.rst,93,93,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
 114591,272b6876,GitHub,db218f09,data/db218f09/src/272b6876.py,266,266,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 114592,272b6876,GitHub,db218f09,data/db218f09/src/272b6876.py,1239,1239,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 114593,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,263,263,F,F,,,F,F,,,,,0.00,,F,F,F,Password
@@ -260,7 +260,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 134669,0e7dccac,GitHub,db218f09,data/db218f09/test/0e7dccac.py,2899,2899,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 134670,0e7dccac,GitHub,db218f09,data/db218f09/test/0e7dccac.py,2948,2948,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 134671,0e7dccac,GitHub,db218f09,data/db218f09/test/0e7dccac.py,2949,2949,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-134672,29d59c57,GitHub,db218f09,data/db218f09/test/29d59c57.py,366,366,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+134672,29d59c57,GitHub,db218f09,data/db218f09/test/29d59c57.py,366,366,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 134673,51508c3f,GitHub,db218f09,data/db218f09/test/51508c3f.py,2275,2275,F,F,,,F,F,,,,,0,0,F,F,F,API
 134674,6aa5da84,GitHub,db218f09,data/db218f09/test/6aa5da84.py,837,837,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 134675,6aa5da84,GitHub,db218f09,data/db218f09/test/6aa5da84.py,849,849,F,F,,,F,F,,,,,0,0,F,F,F,Auth
@@ -277,7 +277,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 134686,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,492,492,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 134687,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,502,502,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 134688,ec0e1b9c,GitHub,db218f09,data/db218f09/test/ec0e1b9c.py,518,518,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-134690,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,542,542,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+134690,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,542,542,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 134691,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1199,1199,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 134692,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1255,1255,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 134693,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1256,1256,F,F,,,F,F,,,,,0,0,F,F,F,Auth
@@ -286,7 +286,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 134696,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1310,1310,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 134697,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1322,1322,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 134698,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1336,1336,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-134699,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1897,1897,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+134699,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1897,1897,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 134700,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,2435,2435,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 1340863,7bd2a56f,GitHub,db218f09,data/db218f09/src/7bd2a56f.rst,185,185,T,F,55,91,F,F,,,,,0.0,0,F,F,F,UUID
 1340864,89d50865,GitHub,db218f09,data/db218f09/src/89d50865.rst,202,202,T,F,4,40,F,F,,,,,0.0,0,F,F,F,UUID

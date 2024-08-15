@@ -6,7 +6,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 1888,c421e111,GitHub,81a41883,data/81a41883/src/c421e111.rb,20,20,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 1890,97d3ec05,GitHub,81a41883,data/81a41883/src/97d3ec05.rb,8,8,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 2917,df96d0ce,GitHub,81a41883,data/81a41883/src/df96d0ce.rb,11,11,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-4959,b7aff2c1,GitHub,81a41883,data/81a41883/src/b7aff2c1.rb,7,7,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+4959,b7aff2c1,GitHub,81a41883,data/81a41883/src/b7aff2c1.rb,7,7,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 5763,6053c683,GitHub,81a41883,data/81a41883/test/6053c683.rb,77,77,F,F,,,F,F,,,,,0,0,F,F,F,Password
 6454,982ac230,GitHub,81a41883,data/81a41883/src/982ac230.rb,18,18,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 6455,6c56ef6f,GitHub,81a41883,data/81a41883/src/6c56ef6f.rb,4,4,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -21,7 +21,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 19258,3f372c1b,GitHub,81a41883,data/81a41883/test/3f372c1b.json,34,34,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
 23084,797bf776,GitHub,81a41883,data/81a41883/src/797bf776.rb,4,4,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 23098,7829468e,GitHub,81a41883,data/81a41883/src/7829468e.yml,99,99,F,F,,,F,F,,,,,0,0,F,F,F,Password
-23103,b7aff2c1,GitHub,81a41883,data/81a41883/src/b7aff2c1.rb,8,8,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+23103,b7aff2c1,GitHub,81a41883,data/81a41883/src/b7aff2c1.rb,8,8,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 23498,97d3ec05,GitHub,81a41883,data/81a41883/src/97d3ec05.rb,70,70,F,F,,,F,F,,,,,0,0,F,F,F,API
 23871,96365e38,GitHub,81a41883,data/81a41883/test/96365e38.rb,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 23875,fe5f237c,GitHub,81a41883,data/81a41883/src/fe5f237c.rb,20,20,F,F,,,F,F,,,,,0,0,F,F,F,Token
@@ -56,7 +56,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 47319,3f372c1b,GitHub,81a41883,data/81a41883/test/3f372c1b.json,93,93,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 47320,3f372c1b,GitHub,81a41883,data/81a41883/test/3f372c1b.json,24,24,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 47431,78f83363,GitHub,81a41883,data/81a41883/test/78f83363.yml,49,75,T,T,,,F,F,Any,Private,,Unknown,2.16,39,F,F,F,PEM Private Key
-47492,f4ebb70f,GitHub,81a41883,data/81a41883/test/f4ebb70f.rb,8,8,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Credential
+47492,f4ebb70f,GitHub,81a41883,data/81a41883/test/f4ebb70f.rb,8,8,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Credential
 47585,3546d560,GitHub,81a41883,data/81a41883/test/3546d560.rb,82,82,Template,T,22,38,F,F,Any,,,Unknown,2.91,16,F,F,F,Key
 47600,78f83363,GitHub,81a41883,data/81a41883/test/78f83363.yml,39,39,T,F,16,56,F,F,Any,,,Secret,3.73,40,F,F,F,Secret
 47601,78f83363,GitHub,81a41883,data/81a41883/test/78f83363.yml,78,78,T,F,16,56,F,F,Any,,,Secret,3.73,40,F,F,F,Secret
@@ -125,11 +125,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 100913,f3732772,GitHub,81a41883,data/81a41883/test/f3732772.rb,193,193,F,F,,,F,F,,,,,0.00,,F,F,F,API
 100914,f3732772,GitHub,81a41883,data/81a41883/test/f3732772.rb,254,254,F,F,,,F,F,,,,,0.00,,F,F,F,API
 100915,10b41f5d,GitHub,81a41883,data/81a41883/test/10b41f5d.rb,121,121,F,F,,,F,F,,,,,0.00,,F,F,F,API
-110484,982ac230,GitHub,81a41883,data/81a41883/src/982ac230.rb,433,433,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
+110484,982ac230,GitHub,81a41883,data/81a41883/src/982ac230.rb,433,433,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
 110485,1a767061,GitHub,81a41883,data/81a41883/src/1a767061.rb,8,8,F,F,,,F,F,,,,,0.00,,F,F,F,API
 110486,df96d0ce,GitHub,81a41883,data/81a41883/src/df96d0ce.rb,30,30,F,F,,,F,F,,,,,0.00,,F,F,F,API
-110487,fe5f237c,GitHub,81a41883,data/81a41883/src/fe5f237c.rb,96,96,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
-110488,b7aff2c1,GitHub,81a41883,data/81a41883/src/b7aff2c1.rb,89,89,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
+110487,fe5f237c,GitHub,81a41883,data/81a41883/src/fe5f237c.rb,96,96,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
+110488,b7aff2c1,GitHub,81a41883,data/81a41883/src/b7aff2c1.rb,89,89,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
 110489,f4ebb70f,GitHub,81a41883,data/81a41883/test/f4ebb70f.rb,7,7,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-133491,60c69c75,GitHub,81a41883,data/81a41883/src/60c69c75.js,295,295,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
-133492,982ac230,GitHub,81a41883,data/81a41883/src/982ac230.rb,299,299,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+133491,60c69c75,GitHub,81a41883,data/81a41883/src/60c69c75.js,295,295,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+133492,982ac230,GitHub,81a41883,data/81a41883/src/982ac230.rb,299,299,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
