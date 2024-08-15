@@ -34,11 +34,11 @@ def read_cache(path) -> list[str]:
 def read_data(path, line_start, line_end, value_start, value_end, ground_truth, creds: List[MetaCred]):
     lines = read_cache(path)
     if line_start == line_end:
-        cred_line = lines[line_start - 1]
+        data_line = lines[line_start - 1]
         multiline_end_offset = 0
     elif line_start < line_end:
-        cred_line = '\n'.join(lines[line_start - 1:line_end])
-        multiline_end_offset = len(cred_line) - len(lines[line_end - 1])
+        data_line = '\n'.join(lines[line_start - 1:line_end])
+        multiline_end_offset = len(data_line) - len(lines[line_end - 1])
     else:
         raise RuntimeError(f"Line start must be less than end. {path},{line_start},{line_end}")
 
@@ -58,43 +58,57 @@ def read_data(path, line_start, line_end, value_start, value_end, ground_truth, 
     if creds:
         for cred in creds:
             if cred.path == path:
-                if line_start == cred.line_start:
+                if line_start == cred.line_start and line_end == cred.line_start:
                     line_found_in_cred = True
                     # print all creds we found
+                    colored_line = data_line[:cred.value_start] \
+                                   + Fore.LIGHTYELLOW_EX \
+                                   + data_line[cred.value_start:cred.value_end] \
+                                   + Style.RESET_ALL \
+                                   + data_line[cred.value_end:]
+                    if 0 <= cred.variable_start and 0 <= cred.variable_end:
+                        # variable is before value, so the line positions is untouched
+                        colored_line = colored_line[:cred.variable_start] \
+                                       + Fore.LIGHTBLUE_EX \
+                                       + colored_line[cred.variable_start:cred.variable_end] \
+                                       + Style.RESET_ALL \
+                                       + colored_line[cred.variable_end:]
                     print(
                         f"{cred.rule},{line_start}:{cred.value_start},{cred.value_end}:{Style.RESET_ALL}"
-                        f"{cred_line[:cred.value_start]}{Back.LIGHTRED_EX}{cred_line[cred.value_start:cred.value_end]}"
-                        f"{Style.RESET_ALL}{cred_line[cred.value_end:]}", flush=True)
+                        + colored_line, flush=True)
                     if 0 <= value_start == cred.value_start and 0 <= value_end == cred.value_end:
                         correct_value_position = True
                     elif 0 <= value_start == cred.value_start:
+                        correct_value_position = True
+                    elif 0 > value_start:
+                        # full line
                         correct_value_position = True
     else:
         line_found_in_cred = True
         correct_value_position = True
 
     if 0 <= value_start and 0 <= value_end:
-        line = cred_line[:value_start] \
+        line = data_line[:value_start] \
                + Back.LIGHTYELLOW_EX \
-               + cred_line[value_start:value_end + multiline_end_offset] \
+               + data_line[value_start:value_end + multiline_end_offset] \
                + Style.RESET_ALL \
                + fore_style \
-               + cred_line[value_end + multiline_end_offset:]
+               + data_line[value_end + multiline_end_offset:]
     else:
-        line = cred_line
+        line = data_line
     print(f"{line_start}:{Style.RESET_ALL}{fore_style}{line}{Style.RESET_ALL}", flush=True)
     if not correct_value_position:
         print("Possible wrong value markup", flush=True)
     if not line_found_in_cred:
         # todo: an activity to fine-tune markup
         print("Markup was not found in creds in line", flush=True)
-        test_line = cred_line.lower()
+        test_line = data_line.lower()
         if not any(
                 x in test_line for x in
                 ["api", "pass", "secret", "pw", "key", "credential", "token", "auth", "nonce", "salt", "cert"]
         ):
             repo_id = path.split('/')[1]
-            subprocess.run(
+            subprocess.check_call(
                 ["sed", "-i",
                  f"/.*{path.split('/')[-1]},{line_start},{line_end},.*/d",
                  f"meta/{repo_id}.csv"])
@@ -127,7 +141,7 @@ def main(meta_dir: str,
     for row in meta:
         if not data_filter[row.GroundTruth]:
             continue
-        if category and category not in row.Category:
+        if category and category not in row.Category.split(':'):
             continue
 
         displayed_rows += 1

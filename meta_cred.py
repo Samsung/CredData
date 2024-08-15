@@ -21,6 +21,8 @@ class MetaCred:
 
         self.line_start = line_data_list[0]["line_num"]
         self.line_end = line_data_list[-1]["line_num"]
+        self.variable_start = line_data_list[0]["variable_start"]
+        self.variable_end = line_data_list[-1]["variable_end"]
         self.value_start = line_data_list[0]["value_start"]
         self.value_end = line_data_list[-1]["value_end"]
         self.line = '\n'.join(x["line"] for x in line_data_list)
