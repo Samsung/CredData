@@ -90,6 +90,7 @@ def main(meta_dir: str, data_dir: str, report_file: str) -> int:
 
             if not categories:
                 categories.add("Other")
+                continue # later...
             row.Category = ':'.join(categories)
             errors += subprocess.call(
                 ["sed", "-i",
