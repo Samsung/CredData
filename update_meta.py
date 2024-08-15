@@ -79,12 +79,12 @@ def main(meta_dir: str, data_dir: str, report_file: str) -> int:
                         categories = set(x.rule for x in possible_creds if x.value_start == row.ValueStart and (
                                     x.value_end == row.ValueEnd or 0 > row.ValueEnd))
                         if not categories:
+                            continue # later...
                             # wrong end position
                             categories = set(x.rule for x in possible_creds if x.value_start == row.ValueStart)
                             row.ValueEnd = -1
                             assert row.GroundTruth == 'F' or row.GroundTruth == 'Template', row
                             row.GroundTruth = 'F'
-                            continue # later...
                     else:
                         categories.remove("Secret")
 
