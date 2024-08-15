@@ -15,7 +15,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 8892,19133b7a,GitHub,9128de73,data/9128de73/src/19133b7a.yaml,41,41,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 8893,eaf30260,GitHub,9128de73,data/9128de73/src/eaf30260.yaml,36,36,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 9769,c89fe1d7,GitHub,9128de73,data/9128de73/test/c89fe1d7.go,73,73,F,F,,,F,F,,,,,0,0,F,F,F,Atlassian Old PAT token
-12220,bbf46775,GitHub,9128de73,data/9128de73/test/bbf46775.go,144,144,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+12220,bbf46775,GitHub,9128de73,data/9128de73/test/bbf46775.go,144,144,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 13136,3b16f9fb,GitHub,9128de73,data/9128de73/src/3b16f9fb.sh,1470,1470,F,F,,,F,F,,,,,0,0,F,F,F,Token
 15814,3b16f9fb,GitHub,9128de73,data/9128de73/src/3b16f9fb.sh,106,106,F,F,,,F,F,,,,,0,0,F,F,F,Token
 18745,6683e061,GitHub,9128de73,data/9128de73/src/6683e061.yaml,102,102,F,F,,,F,F,,,,,0,0,F,F,F,Key
@@ -33,7 +33,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 55571,e97c17b9,GitHub,9128de73,data/9128de73/src/e97c17b9.yaml,288,288,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 56565,6683e061,GitHub,9128de73,data/9128de73/src/6683e061.yaml,171,171,F,F,,,F,F,,,,,0,0,F,F,F,Key
 56566,6683e061,GitHub,9128de73,data/9128de73/src/6683e061.yaml,188,188,F,F,,,F,F,,,,,0,0,F,F,F,Key
-80854,cc3efc56,GitHub,9128de73,data/9128de73/test/cc3efc56.yaml,17,17,F,F,8,1740,F,F,,,,,0.0,0,F,F,F,Secret
+80854,cc3efc56,GitHub,9128de73,data/9128de73/test/cc3efc56.yaml,17,17,F,F,8,1740,F,F,,,,,0.0,0,F,F,F,Other
 83094,6683e061,GitHub,9128de73,data/9128de73/src/6683e061.yaml,2,2,F,F,12,19,F,F,,,,,0,0,F,F,F,API
 83095,773edda0,GitHub,9128de73,data/9128de73/src/773edda0.yaml,2,2,F,F,12,19,F,F,,,,,0,0,F,F,F,API
 83096,19133b7a,GitHub,9128de73,data/9128de73/src/19133b7a.yaml,2,2,F,F,12,19,F,F,,,,,0,0,F,F,F,API
@@ -43,11 +43,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 101124,11563907,GitHub,9128de73,data/9128de73/other/11563907.md,100,100,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 101125,11563907,GitHub,9128de73,data/9128de73/other/11563907.md,103,103,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 101128,3295df72,GitHub,9128de73,data/9128de73/src/3295df72.sum,163,163,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-101129,3295df72,GitHub,9128de73,data/9128de73/src/3295df72.sum,229,229,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-101130,3295df72,GitHub,9128de73,data/9128de73/src/3295df72.sum,230,230,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+101129,3295df72,GitHub,9128de73,data/9128de73/src/3295df72.sum,229,229,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
+101130,3295df72,GitHub,9128de73,data/9128de73/src/3295df72.sum,230,230,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
 110560,3295df72,GitHub,9128de73,data/9128de73/src/3295df72.sum,383,383,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 110561,3295df72,GitHub,9128de73,data/9128de73/src/3295df72.sum,384,384,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-110562,3295df72,GitHub,9128de73,data/9128de73/src/3295df72.sum,148,148,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+110562,3295df72,GitHub,9128de73,data/9128de73/src/3295df72.sum,148,148,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
 110563,3b16f9fb,GitHub,9128de73,data/9128de73/src/3b16f9fb.sh,1483,1483,F,F,,,F,F,,,,,0.00,,F,F,F,AWS S3 Bucket
 110564,3b16f9fb,GitHub,9128de73,data/9128de73/src/3b16f9fb.sh,349,349,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
 110565,11563907,GitHub,9128de73,data/9128de73/other/11563907.md,85,85,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key

@@ -1,9 +1,9 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
 1903,2c65b57f,GitHub,5f75c372,data/5f75c372/test/2c65b57f.tf,22,22,F,F,,,F,F,,,,,0,0,F,F,F,Key
-2182,3295df72,GitHub,5f75c372,data/5f75c372/src/3295df72.sum,427,427,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-3513,3295df72,GitHub,5f75c372,data/5f75c372/src/3295df72.sum,136,136,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-3540,3295df72,GitHub,5f75c372,data/5f75c372/src/3295df72.sum,137,137,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-5794,41dd8e74,GitHub,5f75c372,data/5f75c372/test/41dd8e74.go,28,28,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+2182,3295df72,GitHub,5f75c372,data/5f75c372/src/3295df72.sum,427,427,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
+3513,3295df72,GitHub,5f75c372,data/5f75c372/src/3295df72.sum,136,136,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
+3540,3295df72,GitHub,5f75c372,data/5f75c372/src/3295df72.sum,137,137,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
+5794,41dd8e74,GitHub,5f75c372,data/5f75c372/test/41dd8e74.go,28,28,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 5903,cf795bb2,GitHub,5f75c372,data/5f75c372/test/cf795bb2.yml,2,2,F,F,,,F,F,,,,,0,0,F,F,F,API
 6525,6becc8ce,GitHub,5f75c372,data/5f75c372/test/6becc8ce.md,55,55,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 6863,a60634a0,GitHub,5f75c372,data/5f75c372/src/a60634a0.js,3,3,F,F,,,F,F,,,,,0,0,F,F,F,Token
@@ -31,7 +31,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 17195,f4c0c8ff,GitHub,5f75c372,data/5f75c372/src/f4c0c8ff.go,16,16,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 18479,f0e5ac91,GitHub,5f75c372,data/5f75c372/test/f0e5ac91.log,67,67,F,F,,,F,F,,,,,0,0,F,F,F,Password
 20288,ab0cecbf,GitHub,5f75c372,data/5f75c372/test/ab0cecbf.go,37,37,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-23223,58bdb77b,GitHub,5f75c372,data/5f75c372/src/58bdb77b.go,38,38,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+23223,58bdb77b,GitHub,5f75c372,data/5f75c372/src/58bdb77b.go,38,38,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 23731,b803fcb7,GitHub,5f75c372,data/5f75c372/src/b803fcb7.yml,89,89,F,F,,,F,F,,,,,0,0,F,F,F,Password
 24988,505d5299,GitHub,5f75c372,data/5f75c372/src/505d5299.go,271,271,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 25075,cc399de9,GitHub,5f75c372,data/5f75c372/test/cc399de9.go,162,162,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -98,8 +98,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 102634,b803fcb7,GitHub,5f75c372,data/5f75c372/src/b803fcb7.yml,116,116,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 102635,b803fcb7,GitHub,5f75c372,data/5f75c372/src/b803fcb7.yml,128,128,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 102636,6d2dd2e5,GitHub,5f75c372,data/5f75c372/test/6d2dd2e5.tf,59,59,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-102637,04a02b14,GitHub,5f75c372,data/5f75c372/test/04a02b14.tf,45,45,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-102638,04a02b14,GitHub,5f75c372,data/5f75c372/test/04a02b14.tf,49,49,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+102637,04a02b14,GitHub,5f75c372,data/5f75c372/test/04a02b14.tf,45,45,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
+102638,04a02b14,GitHub,5f75c372,data/5f75c372/test/04a02b14.tf,49,49,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
 113760,3295df72,GitHub,5f75c372,data/5f75c372/src/3295df72.sum,39,39,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 113761,3295df72,GitHub,5f75c372,data/5f75c372/src/3295df72.sum,511,511,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 113762,3295df72,GitHub,5f75c372,data/5f75c372/src/3295df72.sum,512,512,F,F,,,F,F,,,,,0.00,,F,F,F,Auth

@@ -33,11 +33,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 32277,e9d57348,GitHub,c41bb134,data/c41bb134/test/e9d57348.sql,13,13,T,T,64,96,F,F,CharsOnly,,,Secret,2.68,32,F,F,F,Auth:Bitbucket Client ID:Bitbucket Client Secret:Secret
 32278,e9d57348,GitHub,c41bb134,data/c41bb134/test/e9d57348.sql,25,25,T,T,84,124,F,F,CharsOnly,,,Secret,3.00,40,F,F,F,Secret
 32279,e9d57348,GitHub,c41bb134,data/c41bb134/test/e9d57348.sql,52,52,T,T,55,91,F,F,CharsOnly,,,Secret,2.88,36,F,F,F,Auth:Secret
-32568,ac7f3952,GitHub,c41bb134,data/c41bb134/test/ac7f3952.sql,339,339,F,F,55,219,F,F,,,,,0,0,F,F,F,Secret
-32579,ac7f3952,GitHub,c41bb134,data/c41bb134/test/ac7f3952.sql,338,338,F,F,55,239,F,F,,,,,0,0,F,F,F,Secret
+32568,ac7f3952,GitHub,c41bb134,data/c41bb134/test/ac7f3952.sql,339,339,F,F,55,219,F,F,,,,,0.0,0,F,F,F,Other
+32579,ac7f3952,GitHub,c41bb134,data/c41bb134/test/ac7f3952.sql,338,338,F,F,55,239,F,F,,,,,0.0,0,F,F,F,Other
 32600,68cbce99,GitHub,c41bb134,data/c41bb134/test/68cbce99.hs,74,74,T,T,43,75,F,F,Any,,,Secret,2.68,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Secret
-32611,bc5f4e29,GitHub,c41bb134,data/c41bb134/test/bc5f4e29.hs,817,817,F,F,9,26,F,F,,,,,0.0,0,F,F,F,Secret
-32612,bc5f4e29,GitHub,c41bb134,data/c41bb134/test/bc5f4e29.hs,851,851,F,F,9,26,F,F,,,,,0.0,0,F,F,F,Secret
+32611,bc5f4e29,GitHub,c41bb134,data/c41bb134/test/bc5f4e29.hs,817,817,F,F,9,26,F,F,,,,,0.0,0,F,F,F,Other
+32612,bc5f4e29,GitHub,c41bb134,data/c41bb134/test/bc5f4e29.hs,851,851,F,F,9,26,F,F,,,,,0.0,0,F,F,F,Other
 32613,21b750a7,GitHub,c41bb134,data/c41bb134/test/21b750a7.hs,80,80,T,F,43,339,F,F,Any,,JSON Web Token,Token,5.52,296,F,F,F,JSON Web Token:Token
 32614,21b750a7,GitHub,c41bb134,data/c41bb134/test/21b750a7.hs,73,73,T,F,43,187,F,F,Any,,JSON Web Token,Token,5.21,144,F,F,F,JSON Web Token:Token
 33749,30516eac,GitHub,c41bb134,data/c41bb134/test/30516eac.hs,343,343,T,T,30,37,F,F,CharsOnly,,,Secret,2.52,7,F,F,F,Password
@@ -47,21 +47,21 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 33794,476936d5,GitHub,c41bb134,data/c41bb134/test/476936d5.py,29,29,T,T,10,42,F,F,CharsOnly,,,Secret,2.68,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Secret
 33976,ad0de80c,GitHub,c41bb134,data/c41bb134/test/ad0de80c.yaml,19,19,T,F,18,50,F,F,Any,,,Secret,4.29,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Secret
 34003,978243c8,GitHub,c41bb134,data/c41bb134/test/978243c8.yaml,84,84,Template,T,25,36,F,F,Any,,,Secret,2.52,11,F,F,F,Secret
-34261,2b83012b,GitHub,c41bb134,data/c41bb134/src/2b83012b.nix,17,17,F,F,26,78,F,F,,,,,0.0,0,F,F,F,Secret
-34768,8a84ef5d,GitHub,c41bb134,data/c41bb134/src/8a84ef5d.nix,16,16,F,F,18,70,F,F,,,,,0.0,0,F,F,F,Secret
+34261,2b83012b,GitHub,c41bb134,data/c41bb134/src/2b83012b.nix,17,17,F,F,26,78,F,F,,,,,0.0,0,F,F,F,Other
+34768,8a84ef5d,GitHub,c41bb134,data/c41bb134/src/8a84ef5d.nix,16,16,F,F,18,70,F,F,,,,,0.0,0,F,F,F,Other
 35224,96677aa3,GitHub,c41bb134,data/c41bb134/src/96677aa3.json,16,16,Template,T,71,75,T,F,CharsOnly,,,Secret,1.5,4,F,F,F,Password:URL Credentials
 35776,bb7e3057,GitHub,c41bb134,data/c41bb134/src/bb7e3057.hs,135,135,Template,T,33,37,T,F,CharsOnly,,,Secret,1.5,4,F,F,F,Password:URL Credentials
 35808,37c1ec24,GitHub,c41bb134,data/c41bb134/test/37c1ec24.sh,14,14,T,T,25,57,F,F,CharsOnly,,,Secret,2.68,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Secret
 36263,573f06b5,GitHub,c41bb134,data/c41bb134/test/573f06b5.config,3,3,T,T,14,46,F,F,CharsOnly,,,Secret,2.68,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Secret
-36290,09a0e86d,GitHub,c41bb134,data/c41bb134/src/09a0e86d.patch,25,25,F,F,15,67,F,F,,,,,0,0,F,F,F,Secret
+36290,09a0e86d,GitHub,c41bb134,data/c41bb134/src/09a0e86d.patch,25,25,F,F,15,67,F,F,,,,,0.0,0,F,F,F,Other
 36313,505b2696,GitHub,c41bb134,data/c41bb134/test/505b2696.config,17,17,T,T,14,50,F,F,CharsOnly,,,Secret,2.88,36,F,F,F,Secret
 36314,daab1f97,GitHub,c41bb134,data/c41bb134/test/daab1f97.config,17,17,T,T,14,54,F,F,CharsOnly,,,Secret,3.00,40,F,F,F,Secret
 36315,acc69d57,GitHub,c41bb134,data/c41bb134/test/acc69d57.config,17,17,T,F,14,46,F,F,Any,,,Secret,4.29,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Secret
 36316,13a43822,GitHub,c41bb134,data/c41bb134/test/13a43822.config,17,17,T,F,14,46,F,F,Any,,,Secret,4.29,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Secret
 36317,9279daa5,GitHub,c41bb134,data/c41bb134/test/9279daa5.config,5,5,T,T,14,49,F,F,CharsOnly,,,Secret,2.52,35,F,F,F,Secret
 36364,21b750a7,GitHub,c41bb134,data/c41bb134/test/21b750a7.hs,175,175,T,F,17,157,F,F,Any,,JSON Web Token,Token,5.25,140,F,F,F,JSON Web Token:Token
-47082,b155aa73,GitHub,c41bb134,data/c41bb134/test/b155aa73.hs,826,826,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-47083,b155aa73,GitHub,c41bb134,data/c41bb134/test/b155aa73.hs,852,852,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+47082,b155aa73,GitHub,c41bb134,data/c41bb134/test/b155aa73.hs,826,826,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
+47083,b155aa73,GitHub,c41bb134,data/c41bb134/test/b155aa73.hs,852,852,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 48006,476936d5,GitHub,c41bb134,data/c41bb134/test/476936d5.py,519,519,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 49965,b032808b,GitHub,c41bb134,data/c41bb134/test/b032808b.hs,457,457,T,F,43,50,F,F,CharOnly,,,Secret,2.24,7,F,F,F,Secret
 49966,b032808b,GitHub,c41bb134,data/c41bb134/test/b032808b.hs,465,465,Template,F,43,49,F,F,CharOnly,,,Secret,2.25,6,F,F,F,Secret
@@ -72,21 +72,21 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 58085,e99d6a11,GitHub,c41bb134,data/c41bb134/src/e99d6a11.nix,145,145,F,F,,,F,F,,,,,0,0,F,F,F,Password
 64004,476936d5,GitHub,c41bb134,data/c41bb134/test/476936d5.py,392,392,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 82113,e9d57348,GitHub,c41bb134,data/c41bb134/test/e9d57348.sql,53,53,F,F,65,69,F,F,,,,,0,0,F,F,F,Auth
-108608,06572a96,GitHub,c41bb134,data/c41bb134/other/06572a96.md,239,239,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-108609,f3d5cea6,GitHub,c41bb134,data/c41bb134/src/f3d5cea6.hs,38,38,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-108610,bb7e3057,GitHub,c41bb134,data/c41bb134/src/bb7e3057.hs,198,198,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-108611,691fe380,GitHub,c41bb134,data/c41bb134/src/691fe380.hs,127,127,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+108608,06572a96,GitHub,c41bb134,data/c41bb134/other/06572a96.md,239,239,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
+108609,f3d5cea6,GitHub,c41bb134,data/c41bb134/src/f3d5cea6.hs,38,38,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
+108610,bb7e3057,GitHub,c41bb134,data/c41bb134/src/bb7e3057.hs,198,198,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
+108611,691fe380,GitHub,c41bb134,data/c41bb134/src/691fe380.hs,127,127,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
 108612,691fe380,GitHub,c41bb134,data/c41bb134/src/691fe380.hs,128,128,F,F,,,F,F,,,,,0.00,,F,F,F,Gitlab Feed Token
 108613,691fe380,GitHub,c41bb134,data/c41bb134/src/691fe380.hs,150,150,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 108614,691fe380,GitHub,c41bb134,data/c41bb134/src/691fe380.hs,153,153,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 108615,691fe380,GitHub,c41bb134,data/c41bb134/src/691fe380.hs,374,374,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-108616,691fe380,GitHub,c41bb134,data/c41bb134/src/691fe380.hs,379,379,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+108616,691fe380,GitHub,c41bb134,data/c41bb134/src/691fe380.hs,379,379,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
 108617,691fe380,GitHub,c41bb134,data/c41bb134/src/691fe380.hs,384,384,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 108618,691fe380,GitHub,c41bb134,data/c41bb134/src/691fe380.hs,390,390,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 108619,1abbf729,GitHub,c41bb134,data/c41bb134/test/1abbf729.sql,896,896,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 108620,0f0cb559,GitHub,c41bb134,data/c41bb134/test/0f0cb559.config,3,3,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-108621,476936d5,GitHub,c41bb134,data/c41bb134/test/476936d5.py,210,210,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-108622,476936d5,GitHub,c41bb134,data/c41bb134/test/476936d5.py,374,374,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+108621,476936d5,GitHub,c41bb134,data/c41bb134/test/476936d5.py,210,210,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
+108622,476936d5,GitHub,c41bb134,data/c41bb134/test/476936d5.py,374,374,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
 108623,68cbce99,GitHub,c41bb134,data/c41bb134/test/68cbce99.hs,94,94,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 108624,68cbce99,GitHub,c41bb134,data/c41bb134/test/68cbce99.hs,117,117,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 108625,68cbce99,GitHub,c41bb134,data/c41bb134/test/68cbce99.hs,130,130,F,F,,,F,F,,,,,0.00,,F,F,F,Secret

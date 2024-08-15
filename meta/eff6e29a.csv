@@ -1,7 +1,7 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
 1962,afb01e9d,GitHub,eff6e29a,data/eff6e29a/test/afb01e9d.go,180,180,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 2797,0cb36811,GitHub,eff6e29a,data/eff6e29a/src/0cb36811.go,146,146,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-3567,3295df72,GitHub,eff6e29a,data/eff6e29a/src/3295df72.sum,98,98,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+3567,3295df72,GitHub,eff6e29a,data/eff6e29a/src/3295df72.sum,98,98,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 5856,fcad14fe,GitHub,eff6e29a,data/eff6e29a/test/fcad14fe.yaml,1,1,F,F,,,F,F,,,,,0,0,F,F,F,API
 6115,0cb36811,GitHub,eff6e29a,data/eff6e29a/src/0cb36811.go,101,101,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 6144,0cb36811,GitHub,eff6e29a,data/eff6e29a/src/0cb36811.go,107,107,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -15,7 +15,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 12807,fb3c5331,GitHub,eff6e29a,data/eff6e29a/test/fb3c5331.yml,49,49,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 12808,fb3c5331,GitHub,eff6e29a,data/eff6e29a/test/fb3c5331.yml,44,44,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 12809,b8d2bb7a,GitHub,eff6e29a,data/eff6e29a/test/b8d2bb7a.yml,39,39,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-12838,afb01e9d,GitHub,eff6e29a,data/eff6e29a/test/afb01e9d.go,236,236,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+12838,afb01e9d,GitHub,eff6e29a,data/eff6e29a/test/afb01e9d.go,236,236,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 13725,ffdbf8b2,GitHub,eff6e29a,data/eff6e29a/test/ffdbf8b2.ini,8,8,F,F,,,F,F,,,,,0,0,F,F,F,API
 20205,afb01e9d,GitHub,eff6e29a,data/eff6e29a/test/afb01e9d.go,210,210,F,F,,,F,F,,,,,0,0,F,F,F,Token
 22970,ca610003,GitHub,eff6e29a,data/eff6e29a/src/ca610003.go,41,41,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -53,13 +53,13 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 83119,4cf598a6,GitHub,eff6e29a,data/eff6e29a/test/4cf598a6.yaml,4,4,F,F,12,19,F,F,,,,,0,0,F,F,F,API
 83120,f4261898,GitHub,eff6e29a,data/eff6e29a/test/f4261898.yaml,4,4,F,F,12,19,F,F,,,,,0,0,F,F,F,API
 83121,fb3c5331,GitHub,eff6e29a,data/eff6e29a/test/fb3c5331.yml,4,4,F,F,12,19,F,F,,,,,0,0,F,F,F,API
-108513,0cb36811,GitHub,eff6e29a,data/eff6e29a/src/0cb36811.go,100,100,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-108514,08a66e22,GitHub,eff6e29a,data/eff6e29a/test/08a66e22.go,150,150,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-108515,08a66e22,GitHub,eff6e29a,data/eff6e29a/test/08a66e22.go,271,271,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-108516,08a66e22,GitHub,eff6e29a,data/eff6e29a/test/08a66e22.go,303,303,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+108513,0cb36811,GitHub,eff6e29a,data/eff6e29a/src/0cb36811.go,100,100,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
+108514,08a66e22,GitHub,eff6e29a,data/eff6e29a/test/08a66e22.go,150,150,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
+108515,08a66e22,GitHub,eff6e29a,data/eff6e29a/test/08a66e22.go,271,271,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
+108516,08a66e22,GitHub,eff6e29a,data/eff6e29a/test/08a66e22.go,303,303,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
 108517,ca7b7219,GitHub,eff6e29a,data/eff6e29a/test/ca7b7219.go,80,80,Template,T,29,36,F,F,CharOnly,,,Secret,1.95,7,F,F,F,Password
 108518,3295df72,GitHub,eff6e29a,data/eff6e29a/src/3295df72.sum,142,142,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-108519,3295df72,GitHub,eff6e29a,data/eff6e29a/src/3295df72.sum,383,383,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+108519,3295df72,GitHub,eff6e29a,data/eff6e29a/src/3295df72.sum,383,383,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
 108520,0cb36811,GitHub,eff6e29a,data/eff6e29a/src/0cb36811.go,114,114,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 108521,08a66e22,GitHub,eff6e29a,data/eff6e29a/test/08a66e22.go,158,158,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 108522,08a66e22,GitHub,eff6e29a,data/eff6e29a/test/08a66e22.go,163,163,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
@@ -69,6 +69,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 114632,3295df72,GitHub,eff6e29a,data/eff6e29a/src/3295df72.sum,447,447,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 114633,3295df72,GitHub,eff6e29a,data/eff6e29a/src/3295df72.sum,448,448,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 114634,3295df72,GitHub,eff6e29a,data/eff6e29a/src/3295df72.sum,450,450,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-114635,3295df72,GitHub,eff6e29a,data/eff6e29a/src/3295df72.sum,198,198,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+114635,3295df72,GitHub,eff6e29a,data/eff6e29a/src/3295df72.sum,198,198,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
 114636,f4261898,GitHub,eff6e29a,data/eff6e29a/test/f4261898.yaml,40,40,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
 114637,fb3c5331,GitHub,eff6e29a,data/eff6e29a/test/fb3c5331.yml,80,80,F,F,,,F,F,,,,,0.00,,F,F,F,Auth

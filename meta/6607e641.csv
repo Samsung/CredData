@@ -4,7 +4,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 1382,075b418f,GitHub,6607e641,data/6607e641/src/075b418f.go,103,103,F,F,,,F,F,,,,,0,0,F,F,F,API
 1383,cc92d2b6,GitHub,6607e641,data/6607e641/src/cc92d2b6.go,29,29,F,F,,,F,F,,,,,0,0,F,F,F,API
 1384,075b418f,GitHub,6607e641,data/6607e641/src/075b418f.go,101,101,F,F,,,F,F,,,,,0,0,F,F,F,API
-4670,285cd3df,GitHub,6607e641,data/6607e641/src/285cd3df.sh,83,83,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+4670,285cd3df,GitHub,6607e641,data/6607e641/src/285cd3df.sh,83,83,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 5948,0190481c,GitHub,6607e641,data/6607e641/src/0190481c.go,112,112,F,F,,,F,F,,,,,0,0,F,F,F,API
 7491,a2fb7cf4,GitHub,6607e641,data/6607e641/other/a2fb7cf4.md,154,154,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 19565,5bd2a0c5,GitHub,6607e641,data/6607e641/src/5bd2a0c5.json,36959,36959,F,F,,,F,F,,,,,0,0,F,F,F,Token
@@ -27,7 +27,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 24837,b41d02f7,GitHub,6607e641,data/6607e641/src/b41d02f7.go,206,206,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 24839,e8a20a89,GitHub,6607e641,data/6607e641/src/e8a20a89.go,133,133,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 24881,9a8e410a,GitHub,6607e641,data/6607e641/src/9a8e410a.go,179,179,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-25554,285cd3df,GitHub,6607e641,data/6607e641/src/285cd3df.sh,64,64,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+25554,285cd3df,GitHub,6607e641,data/6607e641/src/285cd3df.sh,64,64,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 27747,a613df97,GitHub,6607e641,data/6607e641/test/a613df97.go,37,37,Template,T,11,23,F,F,Any,,,Key,2.65,12,F,F,F,API:Key
 27762,1105f98b,GitHub,6607e641,data/6607e641/test/1105f98b.go,11,11,Template,F,11,17,F,F,Any,,,Key,2.15,6,F,F,F,API:Key
 29414,edce2966,GitHub,6607e641,data/6607e641/test/edce2966.go,45,45,Template,T,23,34,F,F,Any,,,Key,2.47,11,F,F,F,API:Key
@@ -48,7 +48,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 80868,5e74371a,GitHub,6607e641,data/6607e641/src/5e74371a.go,302,302,F,F,11,24,F,F,,,,,0.0,0,F,F,F,API
 80869,edce2966,GitHub,6607e641,data/6607e641/test/edce2966.go,57,57,F,F,19,30,F,F,,,,,0.0,0,F,F,F,API
 80870,e64aecca,GitHub,6607e641,data/6607e641/test/e64aecca.go,62,62,F,F,30,41,F,F,,,,,0.0,0,F,F,F,API
-107386,e8a20a89,GitHub,6607e641,data/6607e641/src/e8a20a89.go,79,79,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+107386,e8a20a89,GitHub,6607e641,data/6607e641/src/e8a20a89.go,79,79,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
 107387,b4056430,GitHub,6607e641,data/6607e641/test/b4056430.go,75,75,Template,T,75,89,F,F,Any,,,Secret,3.11,14,F,F,F,Secret
 107388,5bd2a0c5,GitHub,6607e641,data/6607e641/src/5bd2a0c5.json,3672,3672,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 107389,5bd2a0c5,GitHub,6607e641,data/6607e641/src/5bd2a0c5.json,3696,3696,F,F,,,F,F,,,,,0.00,,F,F,F,Password
@@ -67,12 +67,12 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 107402,5bd2a0c5,GitHub,6607e641,data/6607e641/src/5bd2a0c5.json,82355,82355,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 107403,5bd2a0c5,GitHub,6607e641,data/6607e641/src/5bd2a0c5.json,82697,82697,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 107404,5bd2a0c5,GitHub,6607e641,data/6607e641/src/5bd2a0c5.json,83087,83087,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-107405,c6c7cb63,GitHub,6607e641,data/6607e641/src/c6c7cb63.go,113,113,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-107406,c6c7cb63,GitHub,6607e641,data/6607e641/src/c6c7cb63.go,120,120,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+107405,c6c7cb63,GitHub,6607e641,data/6607e641/src/c6c7cb63.go,113,113,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
+107406,c6c7cb63,GitHub,6607e641,data/6607e641/src/c6c7cb63.go,120,120,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
 113985,5bd2a0c5,GitHub,6607e641,data/6607e641/src/5bd2a0c5.json,74173,74173,F,F,,,F,F,,,,,0.00,,F,F,F,Token
 113986,3295df72,GitHub,6607e641,data/6607e641/src/3295df72.sum,395,395,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 113987,3295df72,GitHub,6607e641,data/6607e641/src/3295df72.sum,396,396,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 113988,3295df72,GitHub,6607e641,data/6607e641/src/3295df72.sum,397,397,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-113989,3295df72,GitHub,6607e641,data/6607e641/src/3295df72.sum,143,143,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+113989,3295df72,GitHub,6607e641,data/6607e641/src/3295df72.sum,143,143,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
 133402,5bd2a0c5,GitHub,6607e641,data/6607e641/src/5bd2a0c5.json,9426,9426,F,F,,,F,F,,,,,0,0,F,F,F,API
 133403,5bd2a0c5,GitHub,6607e641,data/6607e641/src/5bd2a0c5.json,19920,19920,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
