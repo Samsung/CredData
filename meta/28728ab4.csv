@@ -483,7 +483,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 35260,3742f206,GitHub,28728ab4,data/28728ab4/src/3742f206.pem,1,27,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,PEM Private Key
 35309,e74f4fe7,GitHub,28728ab4,data/28728ab4/src/e74f4fe7.pem,1,27,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,PEM Private Key
 35378,e4cff85e,GitHub,28728ab4,data/28728ab4/other/e4cff85e.md,66,66,F,F,61,104,F,F,,,,,0,0,F,F,F,Secret
-35421,85a8901e,GitHub,28728ab4,data/28728ab4/other/85a8901e.md,64,64,T,F,28,68,F,F,Any,,,Key,3.80,40,F,F,F,Secret:API:Key
+35421,85a8901e,GitHub,28728ab4,data/28728ab4/other/85a8901e.md,64,64,T,F,28,68,F,F,Any,,,Key,3.8,40,F,F,F,Key:API
 35801,24c9f089,GitHub,28728ab4,data/28728ab4/test/24c9f089.go,49,49,F,F,65,75,F,F,,,,,0.0,0,F,F,F,Auth
 35803,b640e8d1,GitHub,28728ab4,data/28728ab4/test/b640e8d1.go,125,125,F,F,82,125,F,F,,,,,0.0,0,F,F,F,Secret
 35840,2cd01e75,GitHub,28728ab4,data/28728ab4/test/2cd01e75.go,23,23,T,F,23,66,F,F,Any,,,Auth,4.77,43,F,F,F,Auth:Key
@@ -543,7 +543,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 40741,8fce7415,GitHub,28728ab4,data/28728ab4/src/8fce7415.go,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 41760,6b9f5b5d,GitHub,28728ab4,data/28728ab4/src/6b9f5b5d.go,23,23,F,F,,,F,F,,,,,0,0,F,F,F,Password
 41987,cb8642c7,GitHub,28728ab4,data/28728ab4/src/cb8642c7.go,56,56,F,F,,,F,F,,,,,0,0,F,F,F,Token
-41999,7655b49a,GitHub,28728ab4,data/28728ab4/src/7655b49a.toml,22,22,T,F,28,68,F,F,Any,,,Key,3.80,40,F,F,F,Secret:API:Key
+41999,7655b49a,GitHub,28728ab4,data/28728ab4/src/7655b49a.toml,22,22,T,F,28,68,F,F,Any,,,Key,3.8,40,F,F,F,Key:API
 42193,b0e29508,GitHub,28728ab4,data/28728ab4/src/b0e29508.json,54,54,F,F,,,F,F,,,,,0,0,F,F,F,Token
 42450,bf78cace,GitHub,28728ab4,data/28728ab4/src/bf78cace.go,31,31,F,F,,,F,F,,,,,0,0,F,F,F,Credential
 46032,b640e8d1,GitHub,28728ab4,data/28728ab4/test/b640e8d1.go,134,134,F,F,,,F,F,,,,,0,0,F,F,F,Secret
