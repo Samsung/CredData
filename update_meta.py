@@ -50,6 +50,7 @@ def main(meta_dir: str, data_dir: str, report_file: str) -> int:
             meta_key = (row.FilePath, row.LineStart, row.LineEnd)
             possible_creds = creds.get(meta_key)
             if not possible_creds:
+                continue # later ...
                 row.Category = "Other"
                 errors += subprocess.call(
                     ["sed", "-i",
