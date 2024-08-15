@@ -45,51 +45,42 @@ def main(meta_dir: str, data_dir: str, report_file: str) -> int:
     meta = read_meta(meta_dir)
     meta.sort(key=lambda x: (x.FilePath, x.LineStart, x.LineEnd, x.ValueStart, x.ValueEnd))
     for row in meta:
+        if "data/2ba83c6a" not in row.FilePath:
+            continue  # later
         categories = set(row.Category.split(':'))
         if "Secret" in categories:
             meta_key = (row.FilePath, row.LineStart, row.LineEnd)
             possible_creds = creds.get(meta_key)
             if not possible_creds:
                 print(f"NO CREDS {row}")
+                continue
+            if not 1 == len(possible_creds):
+                print(f"MANY {possible_creds}")
+                continue
 
             if 0 > row.ValueStart:
-                # has markup for whole line
-                if any("Secret" == x.rule for x in possible_creds):
-                    # ok
-                    continue
-                if 1 == len(categories):
-                    # should be changed
-                    categories = set(x.rule for x in possible_creds)
-                else:
-                    categories.remove("Secret")
-            else:
-                if any("Secret" == x.rule for x in possible_creds if x.value_start == row.ValueStart):
-                    # ok
-                    continue
-                else:
-                    # wrong position in markup - must be skipped
-                    if 1 == len(categories):
-                        # should be changed
-                        categories = set(x.rule for x in possible_creds if x.value_start == row.ValueStart and (
-                                    x.value_end == row.ValueEnd or 0 > row.ValueEnd))
-                        if not categories:
-                            # wrong end position
-                            categories = set(x.rule for x in possible_creds if x.value_start == row.ValueStart)
-                            row.ValueEnd = -1
-                            assert row.GroundTruth == 'F' or row.GroundTruth == 'Template', row
-                            row.GroundTruth = 'F'
-                    else:
-                        categories.remove("Secret")
+                cred = possible_creds[0]
+                if "Key" == cred.rule:
+                    if ((32 <= len(cred.value) or 'hexkey' in cred.variable)
+                            and not any(x in cred.line.lower() for x in
+                                        ['0011223344', '0001020304', '0b0b0b0b0b0b0b0', 'alice_', 'bob_', 'alice-',
+                                         'bob-', 'fffefdfcfbfaf9f', '7f7e7d7c7b7a797877', '010203040506070809',
+                                         'fefefefefefe','808182838485868788'
+                                         ])
+                            and 'OBJ_' not in cred.line
 
-            if not categories:
-                categories.add("Other")
-                continue # later...
-            row.Category = ':'.join(categories)
-            errors += subprocess.call(
-                ["sed", "-i",
-                 f"s|^{row.Id},{row.FileID},.*$|" + str(row) + "|",
-                 f"{meta_dir}/{row.RepoName}.csv"])
-            updated_rows += 1
+                    ):
+                        # may look like norm key
+                        row.ValueStart = cred.value_start
+                        row.ValueEnd = cred.value_end
+                        row.GroundTruth = 'T'
+
+                    row.Category = "Key"
+                    errors += subprocess.call(
+                        ["sed", "-i",
+                         f"s|^{row.Id},{row.FileID},.*$|" + str(row) + "|",
+                         f"{meta_dir}/{row.RepoName}.csv"])
+                    updated_rows += 1
 
     result = EXIT_SUCCESS if 0 == errors else EXIT_FAILURE
     print(f"Updated {updated_rows} of {len(meta)}, errors: {errors}, {result}", flush=True)
