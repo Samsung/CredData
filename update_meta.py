@@ -84,6 +84,7 @@ def main(meta_dir: str, data_dir: str, report_file: str) -> int:
                             row.ValueEnd = -1
                             assert row.GroundTruth == 'F' or row.GroundTruth == 'Template', row
                             row.GroundTruth = 'F'
+                            continue # later...
                     else:
                         categories.remove("Secret")
 
