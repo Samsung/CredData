@@ -33,7 +33,7 @@ def main(meta_dir: str, data_dir: str, report_file: str) -> int:
     if not os.path.exists(data_dir):
         raise FileExistsError(f"{data_dir} directory does not exist.")
     creds: Dict[Tuple[str, int, int], List[MetaCred]] = {}
-    with open(report_file, 'b') as f:
+    with open(report_file, 'r') as f:
         for i in json.load(f):
             cred = MetaCred(i)
             multi_cred_key = (cred.path, cred.line_start, cred.line_end)
@@ -48,7 +48,7 @@ def main(meta_dir: str, data_dir: str, report_file: str) -> int:
         categories = set(row.Category.split(':'))
         if "Secret" in categories:
             meta_key = (row.FilePath, row.LineStart, row.LineEnd)
-            possible_creds = creds[meta_key]
+            possible_creds = creds.get(meta_key)
             if not possible_creds:
                 row.Category = "Other"
                 errors += subprocess.call(
