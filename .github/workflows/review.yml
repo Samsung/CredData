@@ -232,4 +232,13 @@ jobs:
             grep 'eee97fd2,GitHub,00408ef6' report.json
           fi
 
+      - name: Upload artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reports
+          path: |
+            report.json
+            report.bak
+
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
