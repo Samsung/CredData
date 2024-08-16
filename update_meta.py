@@ -45,7 +45,7 @@ def main(meta_dir: str, data_dir: str, report_file: str) -> int:
     meta = read_meta(meta_dir)
     meta.sort(key=lambda x: (x.FilePath, x.LineStart, x.LineEnd, x.ValueStart, x.ValueEnd))
     for row in meta:
-        if "data/2ba83c6a" not in row.FilePath:
+        if "2ba83c6a" != row.RepoName:
             continue  # later
         categories = set(row.Category.split(':'))
         if "Secret" in categories :
