@@ -201,23 +201,29 @@ jobs:
         run: |
           echo '[
                     {
-                        "api_validation": "",
-                        "ml_validation": "",
+                        "api_validation": "NOT_AVAILABLE",
+                        "ml_validation": "VALIDATED_KEY",
                         "ml_probability": 0.5,
                         "rule": "URL Credentials",
                         "severity": "high",
                         "confidence": "moderate",
                         "line_data_list": [
                             {
-                                "line": "********************************",
+                                "line": "1b17231a97529365248357043f038afb58be4699fc955cee78d5c8a2b037e89d",
                                 "line_num": 4256,
-                                "path": "data/00408ef6/src/eee97fd2.c",
-                                "value": "*****",
-                                "value_start": 15,
-                                "value_end": 25,
-                                "variable_start": -1,
-                                "variable_end": -1,
-                                "variable": null
+                                "path": "eee97fd2.c",
+                                "info": "",
+                                "value": "5489cf96c232e0925f96692a65e3e7afe8e09430c280e71b808da17dee9791f8",
+                                "value_start": 16,
+                                "value_end": 24,
+                                "variable": "5b21d8adfc17cb2d231c2ec96498c8076c4a1d1e5373fa7d8b15a9e63d64d8f2",
+                                "variable_start": 5,
+                                "variable_end": 11,
+                                "entropy_validation": {
+                                    "iterator": "BASE64_CHARS",
+                                    "entropy": 3.0,
+                                    "valid": false
+                                }
                             }
                         ]
                     }
