@@ -5,8 +5,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 13401,8347f5d7,GitHub,32f5ea73,data/32f5ea73/src/8347f5d7.php,45,45,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token:Key:API
 15984,8347f5d7,GitHub,32f5ea73,data/32f5ea73/src/8347f5d7.php,90,90,F,F,,,F,F,,,,,0,0,F,F,F,Password
 16083,eb7a31b9,GitHub,32f5ea73,data/32f5ea73/test/eb7a31b9.php,54,54,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-16139,19d47bf2,GitHub,32f5ea73,data/32f5ea73/src/19d47bf2.php,42,42,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-16340,41fc6c7b,GitHub,32f5ea73,data/32f5ea73/src/41fc6c7b.php,34,34,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+16139,19d47bf2,GitHub,32f5ea73,data/32f5ea73/src/19d47bf2.php,42,42,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Credential
+16340,41fc6c7b,GitHub,32f5ea73,data/32f5ea73/src/41fc6c7b.php,34,34,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 16721,fa0f3df1,GitHub,32f5ea73,data/32f5ea73/test/fa0f3df1.php,189,189,F,F,,,F,F,,,,,0,0,F,F,F,Token
 16723,49e383af,GitHub,32f5ea73,data/32f5ea73/test/49e383af.php,54,54,F,F,,,F,F,,,,,0,0,F,F,F,Token
 16751,3d9c89ad,GitHub,32f5ea73,data/32f5ea73/test/3d9c89ad.php,214,214,F,F,,,F,F,,,,,0,0,F,F,F,Token
@@ -27,8 +27,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 16901,ce49429b,GitHub,32f5ea73,data/32f5ea73/src/ce49429b.php,125,125,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
 16903,369dfda7,GitHub,32f5ea73,data/32f5ea73/src/369dfda7.php,59,59,F,F,,,F,F,,,,,0,0,F,F,F,Token
 16919,e8e22854,GitHub,32f5ea73,data/32f5ea73/test/e8e22854.php,29,29,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
-27612,b1de1f05,GitHub,32f5ea73,data/32f5ea73/test/b1de1f05.php,101,101,Template,F,49,53,F,F,,,,,0.0,0,F,F,F,Secret
-27614,b1de1f05,GitHub,32f5ea73,data/32f5ea73/test/b1de1f05.php,120,120,F,F,50,54,F,F,,,,,0.0,0,F,F,F,Secret
+27612,b1de1f05,GitHub,32f5ea73,data/32f5ea73/test/b1de1f05.php,101,101,Template,F,49,53,F,F,,,,,0.0,0,F,F,F,Token
+27614,b1de1f05,GitHub,32f5ea73,data/32f5ea73/test/b1de1f05.php,120,120,F,F,50,-1,F,F,,,,,0.0,0,F,F,F,Other
 34031,53d83ece,GitHub,32f5ea73,data/32f5ea73/test/53d83ece.php,30,30,T,F,30,36,F,F,Any,,,Secret,2.25,6,F,F,F,Password
 34090,3d9c89ad,GitHub,32f5ea73,data/32f5ea73/test/3d9c89ad.php,302,302,Template,T,28,45,F,F,Any,,,Secret,3.33,17,F,F,F,Credential
 47405,165ecce2,GitHub,32f5ea73,data/32f5ea73/test/165ecce2.php,39,39,F,F,,,F,F,,,,,0,0,F,F,F,Password

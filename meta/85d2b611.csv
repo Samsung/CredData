@@ -1,11 +1,11 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
 8747,6608bd1a,GitHub,85d2b611,data/85d2b611/src/6608bd1a.py,37,37,F,F,,,F,F,,,,,0,0,F,F,F,Password
-10892,e48a4b28,GitHub,85d2b611,data/85d2b611/src/e48a4b28.py,44,44,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+10892,e48a4b28,GitHub,85d2b611,data/85d2b611/src/e48a4b28.py,44,44,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 14007,a67cb185,GitHub,85d2b611,data/85d2b611/test/a67cb185.py,14,14,F,F,,,F,F,,,,,0,0,F,F,F,Token
 24990,2f38e05e,GitHub,85d2b611,data/85d2b611/test/2f38e05e.py,13,13,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 25143,800b6d43,GitHub,85d2b611,data/85d2b611/src/800b6d43.py,2,2,Template,T,14,42,F,F,Any,,,Secret,3.28,28,F,F,F,Key:Secret
 25144,2f38e05e,GitHub,85d2b611,data/85d2b611/test/2f38e05e.py,4,4,Template,T,14,24,F,F,Any,,,Secret,2.51,10,F,F,F,Key:Secret
-26498,49eece0c,GitHub,85d2b611,data/85d2b611/src/49eece0c.jsx,109,109,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+26498,49eece0c,GitHub,85d2b611,data/85d2b611/src/49eece0c.jsx,109,109,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 29295,57f701b2,GitHub,85d2b611,data/85d2b611/src/57f701b2.py,103,103,Template,F,38,41,T,F,CharsOnly,,,Secret,1.58,3,F,F,F,URL Credentials
 29297,6660ebf8,GitHub,85d2b611,data/85d2b611/test/6660ebf8.py,11,11,Template,F,38,41,T,F,CharsOnly,,,Secret,1.58,3,F,F,F,URL Credentials
 32531,57f701b2,GitHub,85d2b611,data/85d2b611/src/57f701b2.py,111,111,T,F,24,64,F,F,Any,,,Secret,3.62,40,F,F,F,Secret

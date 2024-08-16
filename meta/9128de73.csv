@@ -5,8 +5,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 5132,7e5488c0,GitHub,9128de73,data/9128de73/src/7e5488c0.go,42,42,F,F,,,F,F,,,,,0,0,F,F,F,Token
 5898,eaf30260,GitHub,9128de73,data/9128de73/src/eaf30260.yaml,1,1,F,F,,,F,F,,,,,0,0,F,F,F,API
 6049,ab3d3da2,GitHub,9128de73,data/9128de73/src/ab3d3da2.yaml,2,2,F,F,,,F,F,,,,,0,0,F,F,F,API
-6094,c4b45dc5,GitHub,9128de73,data/9128de73/test/c4b45dc5.go,76,76,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-6107,88db6aa0,GitHub,9128de73,data/9128de73/test/88db6aa0.go,65,65,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+6094,c4b45dc5,GitHub,9128de73,data/9128de73/test/c4b45dc5.go,76,76,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Credential
+6107,88db6aa0,GitHub,9128de73,data/9128de73/test/88db6aa0.go,65,65,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Credential
 6873,3b16f9fb,GitHub,9128de73,data/9128de73/src/3b16f9fb.sh,354,354,F,F,,,F,F,,,,,0,0,F,F,F,Token
 6874,3b16f9fb,GitHub,9128de73,data/9128de73/src/3b16f9fb.sh,836,836,F,F,,,F,F,,,,,0,0,F,F,F,Token
 7603,3b16f9fb,GitHub,9128de73,data/9128de73/src/3b16f9fb.sh,356,356,F,F,,,F,F,,,,,0,0,F,F,F,Token
@@ -20,9 +20,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 15814,3b16f9fb,GitHub,9128de73,data/9128de73/src/3b16f9fb.sh,106,106,F,F,,,F,F,,,,,0,0,F,F,F,Token
 18745,6683e061,GitHub,9128de73,data/9128de73/src/6683e061.yaml,102,102,F,F,,,F,F,,,,,0,0,F,F,F,Key
 18746,773edda0,GitHub,9128de73,data/9128de73/src/773edda0.yaml,102,102,F,F,,,F,F,,,,,0,0,F,F,F,Key
-18831,6683e061,GitHub,9128de73,data/9128de73/src/6683e061.yaml,55,55,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-21388,e97c17b9,GitHub,9128de73,data/9128de73/src/e97c17b9.yaml,122,122,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-23340,f192be78,GitHub,9128de73,data/9128de73/src/f192be78.go,134,134,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+18831,6683e061,GitHub,9128de73,data/9128de73/src/6683e061.yaml,55,55,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+21388,e97c17b9,GitHub,9128de73,data/9128de73/src/e97c17b9.yaml,122,122,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+23340,f192be78,GitHub,9128de73,data/9128de73/src/f192be78.go,134,134,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Credential
 25923,7e5488c0,GitHub,9128de73,data/9128de73/src/7e5488c0.go,41,41,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 26100,524e5f37,GitHub,9128de73,data/9128de73/src/524e5f37.go,75,75,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 30522,cc3efc56,GitHub,9128de73,data/9128de73/test/cc3efc56.yaml,7,7,T,T,10,-1,F,F,Any,,,Unknown,5.49,1852,F,F,F,Certificate
@@ -30,7 +30,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 31123,cc3efc56,GitHub,9128de73,data/9128de73/test/cc3efc56.yaml,6,6,T,T,9,-1,F,F,Any,,,Unknown,5.64,2236,T,F,F,BASE64 encoded PEM Private Key:Key
 31124,cc3efc56,GitHub,9128de73,data/9128de73/test/cc3efc56.yaml,15,15,T,T,9,-1,F,F,Any,,,Unknown,5.62,2240,T,F,F,Key:BASE64 encoded PEM Private Key
 48073,5462ac3e,GitHub,9128de73,data/9128de73/other/5462ac3e.md,95,95,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-55571,e97c17b9,GitHub,9128de73,data/9128de73/src/e97c17b9.yaml,288,288,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+55571,e97c17b9,GitHub,9128de73,data/9128de73/src/e97c17b9.yaml,288,288,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 56565,6683e061,GitHub,9128de73,data/9128de73/src/6683e061.yaml,171,171,F,F,,,F,F,,,,,0,0,F,F,F,Key
 56566,6683e061,GitHub,9128de73,data/9128de73/src/6683e061.yaml,188,188,F,F,,,F,F,,,,,0,0,F,F,F,Key
 80854,cc3efc56,GitHub,9128de73,data/9128de73/test/cc3efc56.yaml,17,17,F,F,8,1740,F,F,,,,,0.0,0,F,F,F,Other

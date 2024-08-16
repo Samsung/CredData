@@ -1,5 +1,5 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-746,6743e0de,GitHub,a0abd87c,data/a0abd87c/other/6743e0de.md,26,26,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+746,6743e0de,GitHub,a0abd87c,data/a0abd87c/other/6743e0de.md,26,26,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 4383,5246398e,GitHub,a0abd87c,data/a0abd87c/src/5246398e.py,85,85,F,F,,,F,F,,,,,0,0,F,F,F,Token
 7257,6743e0de,GitHub,a0abd87c,data/a0abd87c/other/6743e0de.md,46,46,F,F,,,F,F,,,,,0,0,F,F,F,Token
 7416,6743e0de,GitHub,a0abd87c,data/a0abd87c/other/6743e0de.md,41,41,F,F,,,F,F,,,,,0,0,F,F,F,Token
@@ -26,7 +26,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 8828,5246398e,GitHub,a0abd87c,data/a0abd87c/src/5246398e.py,45,45,F,F,,,F,F,,,,,0,0,F,F,F,Token
 8829,73d08892,GitHub,a0abd87c,data/a0abd87c/src/73d08892.py,29,29,F,F,,,F,F,,,,,0,0,F,F,F,Token
 8830,5246398e,GitHub,a0abd87c,data/a0abd87c/src/5246398e.py,52,52,F,F,,,F,F,,,,,0,0,F,F,F,Token
-8832,da57da2a,GitHub,a0abd87c,data/a0abd87c/src/da57da2a.py,125,125,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+8832,da57da2a,GitHub,a0abd87c,data/a0abd87c/src/da57da2a.py,125,125,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 10890,15231524,GitHub,a0abd87c,data/a0abd87c/test/15231524.py,25,25,F,F,,,F,F,,,,,0,0,F,F,F,Token
 10915,e5626268,GitHub,a0abd87c,data/a0abd87c/src/e5626268.rst,167,167,F,F,,,F,F,,,,,0,0,F,F,F,Token
 15009,ccaf232a,GitHub,a0abd87c,data/a0abd87c/src/ccaf232a.rst,75,75,T,F,25,34,F,F,,,,,0.0,0,F,F,F,Token
@@ -40,14 +40,14 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 15107,5246398e,GitHub,a0abd87c,data/a0abd87c/src/5246398e.py,1205,1205,F,F,,,F,F,,,,,0,0,F,F,F,Token
 15108,5246398e,GitHub,a0abd87c,data/a0abd87c/src/5246398e.py,635,635,F,F,,,F,F,,,,,0,0,F,F,F,Token
 15248,29093b48,GitHub,a0abd87c,data/a0abd87c/test/29093b48.py,654,654,F,F,,,F,F,,,,,0,0,F,F,F,Key
-15319,da57da2a,GitHub,a0abd87c,data/a0abd87c/src/da57da2a.py,28,28,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+15319,da57da2a,GitHub,a0abd87c,data/a0abd87c/src/da57da2a.py,28,28,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 16631,ccaf232a,GitHub,a0abd87c,data/a0abd87c/src/ccaf232a.rst,74,74,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 16677,da57da2a,GitHub,a0abd87c,data/a0abd87c/src/da57da2a.py,33,33,F,F,,,F,F,,,,,0,0,F,F,F,Token
 17481,a555c539,GitHub,a0abd87c,data/a0abd87c/src/a555c539.py,37,37,F,F,,,F,F,,,,,0,0,F,F,F,Token
 17482,a44a7cf1,GitHub,a0abd87c,data/a0abd87c/src/a44a7cf1.py,27,27,F,F,,,F,F,,,,,0,0,F,F,F,Token
 17639,5246398e,GitHub,a0abd87c,data/a0abd87c/src/5246398e.py,30,30,F,F,,,F,F,,,,,0,0,F,F,F,Token
 17640,5246398e,GitHub,a0abd87c,data/a0abd87c/src/5246398e.py,26,26,F,F,,,F,F,,,,,0,0,F,F,F,Password
-17657,73d08892,GitHub,a0abd87c,data/a0abd87c/src/73d08892.py,23,23,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+17657,73d08892,GitHub,a0abd87c,data/a0abd87c/src/73d08892.py,23,23,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 17664,dcdf77ab,GitHub,a0abd87c,data/a0abd87c/src/dcdf77ab.rst,17,17,F,F,,,F,F,,,,,0,0,F,F,F,Token
 17665,ccaf232a,GitHub,a0abd87c,data/a0abd87c/src/ccaf232a.rst,13,13,F,F,,,F,F,,,,,0,0,F,F,F,Password
 17684,5246398e,GitHub,a0abd87c,data/a0abd87c/src/5246398e.py,27,27,F,F,,,F,F,,,,,0,0,F,F,F,Token
@@ -108,7 +108,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 62983,a555c539,GitHub,a0abd87c,data/a0abd87c/src/a555c539.py,54,54,F,F,,,F,F,,,,,0,0,F,F,F,Token
 62984,a44a7cf1,GitHub,a0abd87c,data/a0abd87c/src/a44a7cf1.py,73,73,F,F,,,F,F,,,,,0,0,F,F,F,Token
 62985,a44a7cf1,GitHub,a0abd87c,data/a0abd87c/src/a44a7cf1.py,88,88,F,F,,,F,F,,,,,0,0,F,F,F,Token
-63996,506440c8,GitHub,a0abd87c,data/a0abd87c/other/506440c8.md,24,24,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+63996,506440c8,GitHub,a0abd87c,data/a0abd87c/other/506440c8.md,24,24,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 75207,da57da2a,GitHub,a0abd87c,data/a0abd87c/src/da57da2a.py,98,98,F,F,,,F,F,,,,,0,0,F,F,F,Token
 75459,15231524,GitHub,a0abd87c,data/a0abd87c/test/15231524.py,7,7,F,F,,,F,F,,,,,0,0,F,F,F,Token
 75460,ee18e1cb,GitHub,a0abd87c,data/a0abd87c/test/ee18e1cb.py,23,23,Template,T,13,23,F,F,Any,,,Token,2.31,10,F,F,F,Token

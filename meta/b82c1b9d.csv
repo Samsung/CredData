@@ -8,8 +8,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 8220,0dfb6fbd,GitHub,b82c1b9d,data/b82c1b9d/src/0dfb6fbd.yml,13,13,T,T,51,59,T,F,CharOnly,,,Secret,2.75,8,F,F,F,URL Credentials
 14058,0dfb6fbd,GitHub,b82c1b9d,data/b82c1b9d/src/0dfb6fbd.yml,5,5,Template,T,12,20,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Password
 14078,2950491b,GitHub,b82c1b9d,data/b82c1b9d/src/2950491b.go,122,122,F,F,,,F,F,,,,,0,0,F,F,F,Password
-17775,44ae5cf5,GitHub,b82c1b9d,data/b82c1b9d/src/44ae5cf5.go,12,12,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-21047,7ad3c1ff,GitHub,b82c1b9d,data/b82c1b9d/src/7ad3c1ff.tmpl,3,3,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+17775,44ae5cf5,GitHub,b82c1b9d,data/b82c1b9d/src/44ae5cf5.go,12,12,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+21047,7ad3c1ff,GitHub,b82c1b9d,data/b82c1b9d/src/7ad3c1ff.tmpl,3,3,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 28827,7ad3c1ff,GitHub,b82c1b9d,data/b82c1b9d/src/7ad3c1ff.tmpl,7,7,Template,F,20,29,F,F,CharsOnly,,,Secret,0,9,F,F,F,Password
 29605,2fc06eaa,GitHub,b82c1b9d,data/b82c1b9d/test/2fc06eaa.go,20,20,F,T,82,89,F,F,CharsOnly,,,Secret,2.24,7,F,F,F,Secret
 29965,4eec45b6,GitHub,b82c1b9d,data/b82c1b9d/src/4eec45b6.go,161,161,Template,T,13,27,F,F,Any,,,Secret,3.25,14,F,F,F,Secret
@@ -17,7 +17,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 32395,c20c4520,GitHub,b82c1b9d,data/b82c1b9d/src/c20c4520.go,35,35,F,F,127,198,F,F,,,,,0.0,0,F,F,F,Other
 33714,2950491b,GitHub,b82c1b9d,data/b82c1b9d/src/2950491b.go,59,59,T,T,16,24,F,F,Any,,,Secret,2.6,9,F,F,F,Password
 33911,e994c878,GitHub,b82c1b9d,data/b82c1b9d/src/e994c878.tmpl,25,25,Template,T,26,30,F,F,CharsOnly,,,Secret,1.5,4,F,F,F,Password
-36260,d5d706cd,GitHub,b82c1b9d,data/b82c1b9d/src/d5d706cd.tmpl,36,36,F,F,15,27,F,F,,,,,0.0,0,F,F,F,Secret
+36260,d5d706cd,GitHub,b82c1b9d,data/b82c1b9d/src/d5d706cd.tmpl,36,36,F,F,15,27,F,F,,,,,0.0,0,F,F,F,Key
 80166,2fc06eaa,GitHub,b82c1b9d,data/b82c1b9d/test/2fc06eaa.go,22,22,F,F,68,75,F,F,,,,,0.0,0,F,F,F,Secret
 80167,2fc06eaa,GitHub,b82c1b9d,data/b82c1b9d/test/2fc06eaa.go,24,24,F,F,80,87,F,F,,,,,0.0,0,F,F,F,Secret
 102782,4eec45b6,GitHub,b82c1b9d,data/b82c1b9d/src/4eec45b6.go,166,166,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other

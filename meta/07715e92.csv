@@ -1,10 +1,10 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-241,3072a63a,GitHub,07715e92,data/07715e92/test/3072a63a.sbt,15,15,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+241,3072a63a,GitHub,07715e92,data/07715e92/test/3072a63a.sbt,15,15,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 362,73aa58e9,GitHub,07715e92,data/07715e92/src/73aa58e9.scala,202,202,F,F,,,F,F,,,,,0,0,F,F,F,Password
 375,fc0e6791,GitHub,07715e92,data/07715e92/test/fc0e6791.scala,4,4,F,F,,,F,F,,,,,0,0,F,F,F,Password
-388,b85c9532,GitHub,07715e92,data/07715e92/src/b85c9532.scala,630,630,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-1245,85da9973,GitHub,07715e92,data/07715e92/src/85da9973.scala,768,768,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-1557,b85c9532,GitHub,07715e92,data/07715e92/src/b85c9532.scala,753,753,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+388,b85c9532,GitHub,07715e92,data/07715e92/src/b85c9532.scala,630,630,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+1245,85da9973,GitHub,07715e92,data/07715e92/src/85da9973.scala,768,768,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+1557,b85c9532,GitHub,07715e92,data/07715e92/src/b85c9532.scala,753,753,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 1563,5e4ee357,GitHub,07715e92,data/07715e92/test/5e4ee357.scala,109,109,F,F,,,F,F,,,,,0,0,F,F,F,Password
 1567,73aa58e9,GitHub,07715e92,data/07715e92/src/73aa58e9.scala,91,91,F,F,,,F,F,,,,,0,0,F,F,F,Password
 6124,747feadc,GitHub,07715e92,data/07715e92/src/747feadc.scala,8,8,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -16,17 +16,17 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 11011,6318de25,GitHub,07715e92,data/07715e92/test/6318de25.scala,13,13,F,F,,,F,F,,,,,0,0,F,F,F,Password
 11014,e63eebe1,GitHub,07715e92,data/07715e92/test/e63eebe1.scala,27,27,F,F,,,F,F,,,,,0,0,F,F,F,Password
 11021,6ff51a4f,GitHub,07715e92,data/07715e92/src/6ff51a4f.scala,29,29,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-11023,3072a63a,GitHub,07715e92,data/07715e92/test/3072a63a.sbt,72,72,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-11031,c05cf5b9,GitHub,07715e92,data/07715e92/src/c05cf5b9.scala,22,22,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+11023,3072a63a,GitHub,07715e92,data/07715e92/test/3072a63a.sbt,72,72,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+11031,c05cf5b9,GitHub,07715e92,data/07715e92/src/c05cf5b9.scala,22,22,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Bitbucket Client Secret
 11668,5634c415,GitHub,07715e92,data/07715e92/src/5634c415.sbt,18,18,F,F,,,F,F,,,,,0,0,F,F,F,API
 14145,5e4ee357,GitHub,07715e92,data/07715e92/test/5e4ee357.scala,101,101,F,F,,,F,F,,,,,0,0,F,F,F,Password
-14305,7f6a09d3,GitHub,07715e92,data/07715e92/src/7f6a09d3.scala,90,90,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-14309,7f6a09d3,GitHub,07715e92,data/07715e92/src/7f6a09d3.scala,99,99,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+14305,7f6a09d3,GitHub,07715e92,data/07715e92/src/7f6a09d3.scala,90,90,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+14309,7f6a09d3,GitHub,07715e92,data/07715e92/src/7f6a09d3.scala,99,99,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 14312,ebc897b1,GitHub,07715e92,data/07715e92/test/ebc897b1.scala,11,11,F,F,,,F,F,,,,,0,0,F,F,F,Password
 14418,358289fa,GitHub,07715e92,data/07715e92/src/358289fa.scala,106,106,F,F,,,F,F,,,,,0,0,F,F,F,Password
 14558,358289fa,GitHub,07715e92,data/07715e92/src/358289fa.scala,66,66,F,F,,,F,F,,,,,0,0,F,F,F,Password
-14559,358289fa,GitHub,07715e92,data/07715e92/src/358289fa.scala,51,51,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-14560,358289fa,GitHub,07715e92,data/07715e92/src/358289fa.scala,59,59,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+14559,358289fa,GitHub,07715e92,data/07715e92/src/358289fa.scala,51,51,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+14560,358289fa,GitHub,07715e92,data/07715e92/src/358289fa.scala,59,59,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 21664,4412eeab,GitHub,07715e92,data/07715e92/src/4412eeab.markdown,53,53,F,F,,,F,F,,,,,0,0,F,F,F,API
 23328,58957a27,GitHub,07715e92,data/07715e92/test/58957a27.scala,26,26,F,F,,,F,F,,,,,0,0,F,F,F,Password
 23329,58957a27,GitHub,07715e92,data/07715e92/test/58957a27.scala,25,25,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -90,4 +90,4 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 108299,6318de25,GitHub,07715e92,data/07715e92/test/6318de25.scala,22,22,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 133020,73aa58e9,GitHub,07715e92,data/07715e92/src/73aa58e9.scala,161,161,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 133021,73aa58e9,GitHub,07715e92,data/07715e92/src/73aa58e9.scala,227,227,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-133022,b85c9532,GitHub,07715e92,data/07715e92/src/b85c9532.scala,632,632,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+133022,b85c9532,GitHub,07715e92,data/07715e92/src/b85c9532.scala,632,632,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key

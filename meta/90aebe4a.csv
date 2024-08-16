@@ -1,14 +1,14 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-976,08804ea4,GitHub,90aebe4a,data/90aebe4a/test/08804ea4.js,41,41,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-979,08804ea4,GitHub,90aebe4a,data/90aebe4a/test/08804ea4.js,12,12,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-1105,08804ea4,GitHub,90aebe4a,data/90aebe4a/test/08804ea4.js,11,11,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+976,08804ea4,GitHub,90aebe4a,data/90aebe4a/test/08804ea4.js,41,41,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+979,08804ea4,GitHub,90aebe4a,data/90aebe4a/test/08804ea4.js,12,12,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+1105,08804ea4,GitHub,90aebe4a,data/90aebe4a/test/08804ea4.js,11,11,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 2608,c6314109,GitHub,90aebe4a,data/90aebe4a/src/c6314109.js,205,205,F,F,,,F,F,,,,,0,0,F,F,F,Password
 2614,f5a78215,GitHub,90aebe4a,data/90aebe4a/src/f5a78215.js,23,23,F,F,,,F,F,,,,,0,0,F,F,F,Password
 3907,6ac3f79f,GitHub,90aebe4a,data/90aebe4a/src/6ac3f79f.yml,38,38,F,F,,,F,F,,,,,0,0,F,F,F,Password
 4269,fc63a614,GitHub,90aebe4a,data/90aebe4a/test/fc63a614.js,240,240,F,F,,,F,F,,,,,0,0,F,F,F,Password
 5755,fc63a614,GitHub,90aebe4a,data/90aebe4a/test/fc63a614.js,14,14,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
 11223,fc63a614,GitHub,90aebe4a,data/90aebe4a/test/fc63a614.js,306,306,F,F,,,F,F,,,,,0,0,F,F,F,Password
-13060,d1348301,GitHub,90aebe4a,data/90aebe4a/test/d1348301.js,12,12,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+13060,d1348301,GitHub,90aebe4a,data/90aebe4a/test/d1348301.js,12,12,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 13850,51e4f558,GitHub,90aebe4a,data/90aebe4a/src/51e4f558.lock,4707,4707,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 13861,51e4f558,GitHub,90aebe4a,data/90aebe4a/src/51e4f558.lock,369,369,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 14139,a48facfc,GitHub,90aebe4a,data/90aebe4a/test/a48facfc.js,61,61,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -56,12 +56,12 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 48198,a82baeb7,GitHub,90aebe4a,data/90aebe4a/test/a82baeb7.js,76,76,F,T,,,F,F,CharsOnly,,,Unknown,1.00,2,F,F,F,Password
 48199,a48facfc,GitHub,90aebe4a,data/90aebe4a/test/a48facfc.js,26,26,T,T,29,39,F,F,Any,,,Secret,2.92,10,F,F,F,Password
 48908,56eb8582,GitHub,90aebe4a,data/90aebe4a/test/56eb8582.key,1,5,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,PEM Private Key
-63464,08804ea4,GitHub,90aebe4a,data/90aebe4a/test/08804ea4.js,19,19,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-63465,08804ea4,GitHub,90aebe4a,data/90aebe4a/test/08804ea4.js,27,27,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-63466,08804ea4,GitHub,90aebe4a,data/90aebe4a/test/08804ea4.js,35,35,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-63482,08804ea4,GitHub,90aebe4a,data/90aebe4a/test/08804ea4.js,18,18,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-63483,08804ea4,GitHub,90aebe4a,data/90aebe4a/test/08804ea4.js,26,26,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-63484,08804ea4,GitHub,90aebe4a,data/90aebe4a/test/08804ea4.js,34,34,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+63464,08804ea4,GitHub,90aebe4a,data/90aebe4a/test/08804ea4.js,19,19,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+63465,08804ea4,GitHub,90aebe4a,data/90aebe4a/test/08804ea4.js,27,27,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+63466,08804ea4,GitHub,90aebe4a,data/90aebe4a/test/08804ea4.js,35,35,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+63482,08804ea4,GitHub,90aebe4a,data/90aebe4a/test/08804ea4.js,18,18,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+63483,08804ea4,GitHub,90aebe4a,data/90aebe4a/test/08804ea4.js,26,26,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+63484,08804ea4,GitHub,90aebe4a,data/90aebe4a/test/08804ea4.js,34,34,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 82353,fc63a614,GitHub,90aebe4a,data/90aebe4a/test/fc63a614.js,212,212,F,F,17,20,F,F,,,,,0.0,0,F,F,F,Password
 82354,a82baeb7,GitHub,90aebe4a,data/90aebe4a/test/a82baeb7.js,80,80,Template,F,29,31,T,F,CharsOnly,,,Secret,1.0,2,F,F,F,Password
 82355,a82baeb7,GitHub,90aebe4a,data/90aebe4a/test/a82baeb7.js,84,84,Template,F,29,31,T,F,CharsOnly,,,Secret,1.0,2,F,F,F,Password

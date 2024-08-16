@@ -46,10 +46,14 @@ def main(meta_dir: str, data_dir: str, report_file: str) -> int:
     meta.sort(key=lambda x: (x.FilePath, x.LineStart, x.LineEnd, x.ValueStart, x.ValueEnd))
     for row in meta:
         categories = set(row.Category.split(':'))
-        if "Secret" in categories:
+        if "Secret" in categories :
             meta_key = (row.FilePath, row.LineStart, row.LineEnd)
             possible_creds = creds.get(meta_key)
             if not possible_creds:
+                lines = read_cache(i.FilePath)
+                line = lines[i.LineStart - 1]
+                if 'secret' in line.lower:
+                    continue
                 row.Category = "Other"
                 errors += subprocess.call(
                     ["sed", "-i",
@@ -88,6 +92,10 @@ def main(meta_dir: str, data_dir: str, report_file: str) -> int:
                         categories.remove("Secret")
 
             if not categories:
+                lines = read_cache(row.FilePath)
+                line = lines[row.LineStart - 1]
+                if 'secret' in line.lower():
+                    continue
                 categories.add("Other")
             row.Category = ':'.join(categories)
             errors += subprocess.call(

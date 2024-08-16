@@ -1,13 +1,13 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
 616,9c72cd5b,GitHub,a09d9e50,data/a09d9e50/src/9c72cd5b.ts,13169,13169,F,F,,,F,F,,,,,0,0,F,F,F,API
 619,9c72cd5b,GitHub,a09d9e50,data/a09d9e50/src/9c72cd5b.ts,2102,2102,F,F,,,F,F,,,,,0,0,F,F,F,Password
-872,6937eb1b,GitHub,a09d9e50,data/a09d9e50/src/6937eb1b.yml,62,62,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-1875,9c72cd5b,GitHub,a09d9e50,data/a09d9e50/src/9c72cd5b.ts,13831,13831,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+872,6937eb1b,GitHub,a09d9e50,data/a09d9e50/src/6937eb1b.yml,62,62,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+1875,9c72cd5b,GitHub,a09d9e50,data/a09d9e50/src/9c72cd5b.ts,13831,13831,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 2615,a5bf2910,GitHub,a09d9e50,data/a09d9e50/src/a5bf2910.js,329,329,F,F,,,F,F,,,,,0,0,F,F,F,API
-2729,9c72cd5b,GitHub,a09d9e50,data/a09d9e50/src/9c72cd5b.ts,14462,14462,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+2729,9c72cd5b,GitHub,a09d9e50,data/a09d9e50/src/9c72cd5b.ts,14462,14462,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 3045,9c72cd5b,GitHub,a09d9e50,data/a09d9e50/src/9c72cd5b.ts,3502,3502,F,F,,,F,F,,,,,0,0,F,F,F,Token
-5198,208fcd93,GitHub,a09d9e50,data/a09d9e50/src/208fcd93.ts,54,54,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-5201,9c72cd5b,GitHub,a09d9e50,data/a09d9e50/src/9c72cd5b.ts,1832,1832,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+5198,208fcd93,GitHub,a09d9e50,data/a09d9e50/src/208fcd93.ts,54,54,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+5201,9c72cd5b,GitHub,a09d9e50,data/a09d9e50/src/9c72cd5b.ts,1832,1832,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 5950,f5b179ce,GitHub,a09d9e50,data/a09d9e50/src/f5b179ce.asciidoc,67,67,F,F,,,F,F,,,,,0,0,F,F,F,API
 6075,a65a4093,GitHub,a09d9e50,data/a09d9e50/src/a65a4093.ts,55,55,F,F,,,F,F,,,,,0,0,F,F,F,API
 6076,9c72cd5b,GitHub,a09d9e50,data/a09d9e50/src/9c72cd5b.ts,12879,12879,F,F,,,F,F,,,,,0,0,F,F,F,API
@@ -29,16 +29,16 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 1381001,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1498,1498,T,F,286,330,F,F,,,,,0.0,0,F,F,F,Key
 6808,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,3641,3641,T,F,512,548,F,F,,,,,0,0,F,F,F,Key:UUID
 1341380,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,3641,3641,T,F,453,489,F,F,,,,,0.0,0,F,F,F,UUID
-6810,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,4486,4486,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+6810,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,4486,4486,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 6811,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,948,948,F,F,,,F,F,,,,,0,0,F,F,F,Auth:Token
 6812,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,4598,4598,F,F,,,F,F,,,,,0,0,F,F,F,Key
 6813,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,3356,3356,F,F,,,F,F,,,,,0,0,F,F,F,Token
 6814,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1487,1487,F,F,,,F,F,,,,,0,0,F,F,F,Key
-6816,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,2218,2218,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+6816,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,2218,2218,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 6818,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,3109,3109,F,F,,,F,F,,,,,0,0,F,F,F,Password
 6820,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,4952,4952,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 6821,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,3269,3269,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
-6823,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,4576,4576,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+6823,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,4576,4576,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 6824,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,4916,4916,F,F,,,F,F,,,,,0,0,F,F,F,Password
 6825,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1314,1314,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
 6826,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,563,563,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
@@ -51,26 +51,26 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 6833,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,3842,3842,F,F,,,F,F,,,,,0,0,F,F,F,API
 6834,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,730,730,F,F,,,F,F,,,,,0,0,F,F,F,API
 6836,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1075,1075,F,F,,,F,F,,,,,0,0,F,F,F,Password
-6838,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1590,1590,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+6838,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1590,1590,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 6839,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,2099,2099,F,F,,,F,F,,,,,0,0,F,F,F,API:Key
 6840,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1199,1199,T,F,4314,4358,F,F,,,,,0,0,F,F,F,Key
 6841,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,3482,3482,F,F,,,F,F,,,,,0,0,F,F,F,Certificate:Auth:Key
 6842,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,4473,4473,F,F,,,F,F,,,,,0,0,F,F,F,Key
 6843,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,3788,3788,F,F,,,F,F,,,,,0,0,F,F,F,Password
-6845,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,814,814,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+6845,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,814,814,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 6846,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,3672,3672,F,F,,,F,F,,,,,0,0,F,F,F,Key
 6847,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1034,1034,F,F,,,F,F,,,,,0,0,F,F,F,Key
 6880,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,840,840,F,F,,,F,F,,,,,0,0,F,F,F,API
 6881,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,2859,2859,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
-6883,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,3355,3355,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+6883,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,3355,3355,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 6886,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1441,1441,T,F,257,296,F,F,,,,,0,0,F,F,F,Auth:API:Key:Google API Key
 6907,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1028,1028,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Auth
 6908,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,2376,2376,F,F,,,F,F,,,,,0,0,F,F,F,Password
-6967,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,4092,4092,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+6967,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,4092,4092,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Dropbox App secret
 6968,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,3583,3583,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 6969,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,3142,3142,T,F,863,902,F,F,,,,,0.0,0,F,F,F,Google API Key:Key
 6971,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,4068,4068,F,F,,,F,F,,,,,0,0,F,F,F,Password
-6972,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1721,1721,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+6972,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1721,1721,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 6973,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,3852,3852,F,F,,,F,F,,,,,0,0,F,F,F,Certificate:Key
 6976,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,4321,4321,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
 6977,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1948,1948,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -84,46 +84,46 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 6987,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,2060,2060,F,F,,,F,F,,,,,0,0,F,F,F,Token
 6990,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,4713,4713,T,F,1656,1671,F,F,,,,,0.0,0,F,F,F,Password
 6991,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,2470,2470,F,F,,,F,F,,,,,0,0,F,F,F,API:Key
-6992,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,4322,4322,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+6992,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,4322,4322,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 6993,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1879,1879,F,F,,,F,F,,,,,0,0,F,F,F,Password:API:Credential
 6994,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1867,1867,F,F,,,F,F,,,,,0,0,F,F,F,Password
-6995,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,199,199,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+6995,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,199,199,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 7008,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,3648,3648,F,F,,,F,F,,,,,0,0,F,F,F,Key
 7017,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1603,1603,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
 7019,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,3525,3525,F,F,,,F,F,,,,,0,0,F,F,F,Password:Token
-7020,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1937,1937,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+7020,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1937,1937,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Dropbox App secret
 7021,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,2487,2487,F,F,,,F,F,,,,,0,0,F,F,F,Token
-7217,9c72cd5b,GitHub,a09d9e50,data/a09d9e50/src/9c72cd5b.ts,2518,2518,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+7217,9c72cd5b,GitHub,a09d9e50,data/a09d9e50/src/9c72cd5b.ts,2518,2518,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 7406,9c72cd5b,GitHub,a09d9e50,data/a09d9e50/src/9c72cd5b.ts,13129,13129,F,F,,,F,F,,,,,0,0,F,F,F,Token
 7427,9d4fb0cf,GitHub,a09d9e50,data/a09d9e50/src/9d4fb0cf.js,92,92,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 7577,9c72cd5b,GitHub,a09d9e50,data/a09d9e50/src/9c72cd5b.ts,8339,8339,F,F,,,F,F,,,,,0,0,F,F,F,Token
 7891,9c72cd5b,GitHub,a09d9e50,data/a09d9e50/src/9c72cd5b.ts,12899,12899,F,F,,,F,F,,,,,0,0,F,F,F,Token
 7893,9c72cd5b,GitHub,a09d9e50,data/a09d9e50/src/9c72cd5b.ts,12305,12305,F,F,,,F,F,,,,,0,0,F,F,F,Token
-9602,c747d0a2,GitHub,a09d9e50,data/a09d9e50/src/c747d0a2.js,251,251,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-9603,c747d0a2,GitHub,a09d9e50,data/a09d9e50/src/c747d0a2.js,250,250,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-9604,c747d0a2,GitHub,a09d9e50,data/a09d9e50/src/c747d0a2.js,249,249,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-9606,c747d0a2,GitHub,a09d9e50,data/a09d9e50/src/c747d0a2.js,234,234,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-9607,c747d0a2,GitHub,a09d9e50,data/a09d9e50/src/c747d0a2.js,267,267,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-9608,c747d0a2,GitHub,a09d9e50,data/a09d9e50/src/c747d0a2.js,266,266,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-9609,c747d0a2,GitHub,a09d9e50,data/a09d9e50/src/c747d0a2.js,265,265,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-9610,c747d0a2,GitHub,a09d9e50,data/a09d9e50/src/c747d0a2.js,241,241,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-9611,c747d0a2,GitHub,a09d9e50,data/a09d9e50/src/c747d0a2.js,244,244,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-9612,c747d0a2,GitHub,a09d9e50,data/a09d9e50/src/c747d0a2.js,243,243,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-9613,c747d0a2,GitHub,a09d9e50,data/a09d9e50/src/c747d0a2.js,242,242,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-9614,c747d0a2,GitHub,a09d9e50,data/a09d9e50/src/c747d0a2.js,257,257,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-9615,c747d0a2,GitHub,a09d9e50,data/a09d9e50/src/c747d0a2.js,260,260,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-9616,c747d0a2,GitHub,a09d9e50,data/a09d9e50/src/c747d0a2.js,259,259,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-9617,c747d0a2,GitHub,a09d9e50,data/a09d9e50/src/c747d0a2.js,258,258,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-9629,c747d0a2,GitHub,a09d9e50,data/a09d9e50/src/c747d0a2.js,230,230,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-9660,ad5017dd,GitHub,a09d9e50,data/a09d9e50/test/ad5017dd.json,6,6,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-9685,ad5017dd,GitHub,a09d9e50,data/a09d9e50/test/ad5017dd.json,9,9,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-9686,ad5017dd,GitHub,a09d9e50,data/a09d9e50/test/ad5017dd.json,8,8,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-9687,ad5017dd,GitHub,a09d9e50,data/a09d9e50/test/ad5017dd.json,7,7,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-12700,9c72cd5b,GitHub,a09d9e50,data/a09d9e50/src/9c72cd5b.ts,2791,2791,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+9602,c747d0a2,GitHub,a09d9e50,data/a09d9e50/src/c747d0a2.js,251,251,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Atlassian Old PAT token
+9603,c747d0a2,GitHub,a09d9e50,data/a09d9e50/src/c747d0a2.js,250,250,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Atlassian Old PAT token
+9604,c747d0a2,GitHub,a09d9e50,data/a09d9e50/src/c747d0a2.js,249,249,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Atlassian Old PAT token
+9606,c747d0a2,GitHub,a09d9e50,data/a09d9e50/src/c747d0a2.js,234,234,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+9607,c747d0a2,GitHub,a09d9e50,data/a09d9e50/src/c747d0a2.js,267,267,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Atlassian Old PAT token
+9608,c747d0a2,GitHub,a09d9e50,data/a09d9e50/src/c747d0a2.js,266,266,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Atlassian Old PAT token
+9609,c747d0a2,GitHub,a09d9e50,data/a09d9e50/src/c747d0a2.js,265,265,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Atlassian Old PAT token
+9610,c747d0a2,GitHub,a09d9e50,data/a09d9e50/src/c747d0a2.js,241,241,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+9611,c747d0a2,GitHub,a09d9e50,data/a09d9e50/src/c747d0a2.js,244,244,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Atlassian Old PAT token
+9612,c747d0a2,GitHub,a09d9e50,data/a09d9e50/src/c747d0a2.js,243,243,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Atlassian Old PAT token
+9613,c747d0a2,GitHub,a09d9e50,data/a09d9e50/src/c747d0a2.js,242,242,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Atlassian Old PAT token
+9614,c747d0a2,GitHub,a09d9e50,data/a09d9e50/src/c747d0a2.js,257,257,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+9615,c747d0a2,GitHub,a09d9e50,data/a09d9e50/src/c747d0a2.js,260,260,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Atlassian Old PAT token
+9616,c747d0a2,GitHub,a09d9e50,data/a09d9e50/src/c747d0a2.js,259,259,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Atlassian Old PAT token
+9617,c747d0a2,GitHub,a09d9e50,data/a09d9e50/src/c747d0a2.js,258,258,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Atlassian Old PAT token
+9629,c747d0a2,GitHub,a09d9e50,data/a09d9e50/src/c747d0a2.js,230,230,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+9660,ad5017dd,GitHub,a09d9e50,data/a09d9e50/test/ad5017dd.json,6,6,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Bitbucket Client Secret
+9685,ad5017dd,GitHub,a09d9e50,data/a09d9e50/test/ad5017dd.json,9,9,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+9686,ad5017dd,GitHub,a09d9e50,data/a09d9e50/test/ad5017dd.json,8,8,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+9687,ad5017dd,GitHub,a09d9e50,data/a09d9e50/test/ad5017dd.json,7,7,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+12700,9c72cd5b,GitHub,a09d9e50,data/a09d9e50/src/9c72cd5b.ts,2791,2791,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 12748,9c72cd5b,GitHub,a09d9e50,data/a09d9e50/src/9c72cd5b.ts,2861,2861,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-12802,468be354,GitHub,a09d9e50,data/a09d9e50/test/468be354.js,115,115,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-12820,5bea9cdf,GitHub,a09d9e50,data/a09d9e50/test/5bea9cdf.js,34,34,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-12850,ca250cf8,GitHub,a09d9e50,data/a09d9e50/test/ca250cf8.js,14,14,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+12802,468be354,GitHub,a09d9e50,data/a09d9e50/test/468be354.js,115,115,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+12820,5bea9cdf,GitHub,a09d9e50,data/a09d9e50/test/5bea9cdf.js,34,34,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+12850,ca250cf8,GitHub,a09d9e50,data/a09d9e50/test/ca250cf8.js,14,14,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 13253,9c72cd5b,GitHub,a09d9e50,data/a09d9e50/src/9c72cd5b.ts,13133,13133,F,F,,,F,F,,,,,0,0,F,F,F,Token
 14092,a65a4093,GitHub,a09d9e50,data/a09d9e50/src/a65a4093.ts,61,61,F,F,,,F,F,,,,,0,0,F,F,F,Password
 16583,af0e2393,GitHub,a09d9e50,data/a09d9e50/test/af0e2393.asciidoc,10,10,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
@@ -183,19 +183,19 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 52049,2ffd440d,GitHub,a09d9e50,data/a09d9e50/test/2ffd440d.js,885,885,Template,T,36,44,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
 52050,2ffd440d,GitHub,a09d9e50,data/a09d9e50/test/2ffd440d.js,922,922,Template,T,36,44,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
 52051,2ffd440d,GitHub,a09d9e50,data/a09d9e50/test/2ffd440d.js,960,960,Template,T,36,44,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-62626,208fcd93,GitHub,a09d9e50,data/a09d9e50/src/208fcd93.ts,61,61,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-62627,208fcd93,GitHub,a09d9e50,data/a09d9e50/src/208fcd93.ts,68,68,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-62628,208fcd93,GitHub,a09d9e50,data/a09d9e50/src/208fcd93.ts,75,75,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-63001,9c72cd5b,GitHub,a09d9e50,data/a09d9e50/src/9c72cd5b.ts,2590,2590,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+62626,208fcd93,GitHub,a09d9e50,data/a09d9e50/src/208fcd93.ts,61,61,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+62627,208fcd93,GitHub,a09d9e50,data/a09d9e50/src/208fcd93.ts,68,68,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+62628,208fcd93,GitHub,a09d9e50,data/a09d9e50/src/208fcd93.ts,75,75,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+63001,9c72cd5b,GitHub,a09d9e50,data/a09d9e50/src/9c72cd5b.ts,2590,2590,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 63077,9c72cd5b,GitHub,a09d9e50,data/a09d9e50/src/9c72cd5b.ts,13182,13182,F,F,,,F,F,,,,,0,0,F,F,F,API
 75547,9c72cd5b,GitHub,a09d9e50,data/a09d9e50/src/9c72cd5b.ts,8361,8361,F,F,,,F,F,,,,,0,0,F,F,F,Token
-76913,c747d0a2,GitHub,a09d9e50,data/a09d9e50/src/c747d0a2.js,264,264,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-76914,c747d0a2,GitHub,a09d9e50,data/a09d9e50/src/c747d0a2.js,248,248,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+76913,c747d0a2,GitHub,a09d9e50,data/a09d9e50/src/c747d0a2.js,264,264,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+76914,c747d0a2,GitHub,a09d9e50,data/a09d9e50/src/c747d0a2.js,248,248,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 76957,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,4554,4554,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
 76958,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,257,257,F,F,,,F,F,,,,,0,0,F,F,F,Password
 76959,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1100,1100,F,F,,,F,F,,,,,0,0,F,F,F,Atlassian Old PAT token
 76960,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,441,441,F,F,,,F,F,,,,,0,0,F,F,F,API
-76963,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,3858,3858,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+76963,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,3858,3858,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 82413,c419ffed,GitHub,a09d9e50,data/a09d9e50/test/c419ffed.js,795,795,Template,F,42,45,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
 82414,2ffd440d,GitHub,a09d9e50,data/a09d9e50/test/2ffd440d.js,248,248,Template,F,30,33,T,F,CharsOnly,,,Secret,1.58,3,F,F,F,URL Credentials
 82415,2ffd440d,GitHub,a09d9e50,data/a09d9e50/test/2ffd440d.js,301,301,Template,F,28,31,T,F,CharsOnly,,,Secret,1.58,3,F,F,F,URL Credentials
@@ -207,9 +207,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 100464,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1163,1163,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 100465,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1203,1203,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 100466,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1246,1246,T,F,997,1030,F,F,,,,,0.00,,F,F,F,Auth
-100468,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1406,1406,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+100468,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1406,1406,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
 100470,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1566,1566,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
-100481,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,2740,2740,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+100481,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,2740,2740,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key:Dropbox App secret:Bitbucket Client ID
 100486,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,3473,3473,F,F,,,F,F,,,,,0.00,,F,F,F,Dropbox App secret
 100493,2ffd440d,GitHub,a09d9e50,data/a09d9e50/test/2ffd440d.js,599,599,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 100494,2ffd440d,GitHub,a09d9e50,data/a09d9e50/test/2ffd440d.js,618,618,F,F,,,F,F,,,,,0.00,,F,F,F,Password
@@ -269,8 +269,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 134233,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,115,115,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 134234,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,232,232,T,F,833,853,F,F,,,,,0,0,F,F,F,Password:URL Credentials
 134235,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,320,320,F,F,,,F,F,,,,,0,0,F,F,F,Certificate
-134236,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,412,412,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
-134237,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,493,493,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Credential
+134236,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,412,412,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+134237,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,493,493,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Credential
 134238,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,495,495,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 134239,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,701,701,F,F,,,F,F,,,,,0,0,F,F,F,Certificate
 134240,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,731,731,F,F,,,F,F,,,,,0,0,F,F,F,API
@@ -280,12 +280,12 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 134244,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1041,1041,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 134245,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1084,1084,F,F,,,F,F,,,,,0,0,F,F,F,Certificate
 134246,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1090,1090,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-134247,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1167,1167,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+134247,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1167,1167,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 134248,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1245,1245,F,F,,,F,F,,,,,0,0,F,F,F,Certificate
 134249,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1255,1255,F,F,,,F,F,,,,,0,0,F,F,F,Token:Auth:Key:Secret
 134250,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1262,1262,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-134251,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1280,1280,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
-134252,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1390,1390,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+134251,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1280,1280,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+134252,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1390,1390,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 134253,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1520,1520,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 134254,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1546,1546,F,F,,,F,F,,,,,0,0,F,F,F,Certificate
 134255,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1583,1583,F,F,,,F,F,,,,,0,0,F,F,F,Certificate
@@ -298,7 +298,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 134262,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1901,1901,F,F,,,F,F,,,,,0,0,F,F,F,Auth:Password
 134263,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1985,1985,F,F,,,F,F,,,,,0,0,F,F,F,Token
 134264,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,2119,2119,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-134266,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,2355,2355,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+134266,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,2355,2355,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 134267,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,2385,2385,F,F,,,F,F,,,,,0,0,F,F,F,Certificate
 134268,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,2488,2488,F,F,,,F,F,,,,,0,0,F,F,F,Auth:Token
 134269,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,2544,2544,F,F,,,F,F,,,,,0,0,F,F,F,API:Nonce
@@ -328,16 +328,16 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 134293,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,4458,4458,F,F,,,F,F,,,,,0,0,F,F,F,Auth:API
 134294,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,4472,4472,F,F,,,F,F,,,,,0,0,F,F,F,API
 134295,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,4507,4507,F,F,,,F,F,,,,,0,0,F,F,F,Password
-134296,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,4591,4591,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
-134297,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,4605,4605,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+134296,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,4591,4591,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+134297,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,4605,4605,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 134298,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,4620,4620,F,F,,,F,F,,,,,0,0,F,F,F,Auth:Token
-134299,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,4633,4633,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+134299,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,4633,4633,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 134300,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,4879,4879,F,F,,,F,F,,,,,0,0,F,F,F,API
 134301,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,4966,4966,F,F,,,F,F,,,,,0,0,F,F,F,Token
-134302,ec671af9,GitHub,a09d9e50,data/a09d9e50/test/ec671af9.js,466,466,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
-134303,ec671af9,GitHub,a09d9e50,data/a09d9e50/test/ec671af9.js,469,469,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
-134304,ec671af9,GitHub,a09d9e50,data/a09d9e50/test/ec671af9.js,516,516,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
-134305,ec671af9,GitHub,a09d9e50,data/a09d9e50/test/ec671af9.js,519,519,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
+134302,ec671af9,GitHub,a09d9e50,data/a09d9e50/test/ec671af9.js,466,466,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+134303,ec671af9,GitHub,a09d9e50,data/a09d9e50/test/ec671af9.js,469,469,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+134304,ec671af9,GitHub,a09d9e50,data/a09d9e50/test/ec671af9.js,516,516,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+134305,ec671af9,GitHub,a09d9e50,data/a09d9e50/test/ec671af9.js,519,519,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 137360,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1341,1341,F,F,1365,,F,F,,,,,0.0,0,F,F,F,Auth:Key
 138191,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1341,1341,F,F,2416,,F,F,,,,,0.0,0,F,F,F,Auth:Key
 137361,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1659,1659,F,F,2493,,F,F,,,,,0.0,0,F,F,F,API

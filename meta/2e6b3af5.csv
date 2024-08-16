@@ -4,7 +4,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 3096,9cf46855,GitHub,2e6b3af5,data/2e6b3af5/test/9cf46855.java,89,89,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 6438,55134d12,GitHub,2e6b3af5,data/2e6b3af5/test/55134d12.java,85,85,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 6439,55134d12,GitHub,2e6b3af5,data/2e6b3af5/test/55134d12.java,89,89,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-9029,fa1bb7e5,GitHub,2e6b3af5,data/2e6b3af5/src/fa1bb7e5.java,11,11,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+9029,fa1bb7e5,GitHub,2e6b3af5,data/2e6b3af5/src/fa1bb7e5.java,11,11,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 9050,f8c57433,GitHub,2e6b3af5,data/2e6b3af5/src/f8c57433.java,20,20,F,F,,,F,F,,,,,0,0,F,F,F,Token
 13958,d17d37d5,GitHub,2e6b3af5,data/2e6b3af5/src/d17d37d5.java,27,27,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 14634,d5a74491,GitHub,2e6b3af5,data/2e6b3af5/test/d5a74491.java,20,20,F,F,,,F,F,,,,,0,0,F,F,F,Secret
@@ -55,7 +55,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 28072,b49ef96a,GitHub,2e6b3af5,data/2e6b3af5/test/b49ef96a.java,26,26,Template,T,37,49,F,F,CharsOnly,,,Secret,2.86,12,F,F,F,Secret
 28073,ddeadce0,GitHub,2e6b3af5,data/2e6b3af5/test/ddeadce0.java,26,26,Template,T,37,52,F,F,Any,,,Secret,3.12,15,F,F,F,Secret
 28253,20f14c80,GitHub,2e6b3af5,data/2e6b3af5/test/20f14c80.java,28,28,F,F,19,106,F,F,,,,,0.0,0,F,F,F,Other
-28261,3ff907db,GitHub,2e6b3af5,data/2e6b3af5/test/3ff907db.java,18,18,Template,F,62,78,F,F,CharsOnly,,,Unknown,0.0,16,F,F,F,Secret
+28261,3ff907db,GitHub,2e6b3af5,data/2e6b3af5/test/3ff907db.java,18,18,Template,F,62,78,F,F,CharsOnly,,,Unknown,0.0,16,F,F,F,Jira 2FA:Key
 30572,d13e91d9,GitHub,2e6b3af5,data/2e6b3af5/test/d13e91d9.java,22,22,T,F,58,106,F,F,Any,,,Token,4.56,48,F,F,F,Token
 30573,d13e91d9,GitHub,2e6b3af5,data/2e6b3af5/test/d13e91d9.java,33,33,T,F,58,106,F,F,Any,,,Token,4.56,48,F,F,F,Token
 30574,d13e91d9,GitHub,2e6b3af5,data/2e6b3af5/test/d13e91d9.java,43,43,T,F,59,107,F,F,Any,,,Token,4.63,48,F,F,F,Token

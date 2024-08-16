@@ -6,7 +6,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 137350,f70c7062,GitHub,bd14e9cf,data/bd14e9cf/other/f70c7062.md,14,14,F,F,60,73,F,F,,,,,0.0,0,F,F,F,Auth
 27555,46f3404e,GitHub,bd14e9cf,data/bd14e9cf/src/46f3404e.bat,8,8,F,T,11,28,F,F,Any,,,BatVars,2.18,17,F,F,F,Password
 27558,cc99cf26,GitHub,bd14e9cf,data/bd14e9cf/src/cc99cf26.sh,1370,1370,F,F,35,45,F,F,,,,,0.0,0,F,F,F,Password
-27559,cc99cf26,GitHub,bd14e9cf,data/bd14e9cf/src/cc99cf26.sh,3337,3337,F,F,58,65,F,F,,,,,0.0,0,F,F,F,Secret
+27559,cc99cf26,GitHub,bd14e9cf,data/bd14e9cf/src/cc99cf26.sh,3337,3337,F,F,58,-1,F,F,,,,,0.0,0,F,F,F,Key
 27694,5678e29f,GitHub,bd14e9cf,data/bd14e9cf/src/5678e29f.sh,16,16,F,F,21,38,F,F,,,,,0,0,F,F,F,Password
 27887,3254fc9f,GitHub,bd14e9cf,data/bd14e9cf/src/3254fc9f.conf,54,54,F,F,62,106,F,F,,,,,0.0,0,F,F,F,Other
 28361,1f075985,GitHub,bd14e9cf,data/bd14e9cf/src/1f075985.sh,23,23,Template,T,23,29,T,F,CharsOnly,,,Secret,2.25,6,F,F,F,URL Credentials
@@ -41,7 +41,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 42200,fb685b23,GitHub,bd14e9cf,data/bd14e9cf/src/fb685b23.sh,134,134,T,F,108,148,F,F,Any,,,Token,3.80,40,F,F,F,Token:Auth
 42840,d1402f93,GitHub,bd14e9cf,data/bd14e9cf/src/d1402f93.sh,7,7,Template,T,29,39,F,F,Any,,,Secret,2.52,10,F,F,F,Password
 42841,d1402f93,GitHub,bd14e9cf,data/bd14e9cf/src/d1402f93.sh,25,25,T,F,25,31,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
-51004,cc99cf26,GitHub,bd14e9cf,data/bd14e9cf/src/cc99cf26.sh,3346,3346,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+51004,cc99cf26,GitHub,bd14e9cf,data/bd14e9cf/src/cc99cf26.sh,3346,3346,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 55945,ed9cb5c6,GitHub,bd14e9cf,data/bd14e9cf/src/ed9cb5c6.sh,48,48,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 57202,9653e9d6,GitHub,bd14e9cf,data/bd14e9cf/src/9653e9d6.sh,186,186,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 63763,cc99cf26,GitHub,bd14e9cf,data/bd14e9cf/src/cc99cf26.sh,1343,1343,F,F,,,F,F,,,,,0,0,F,F,F,Password

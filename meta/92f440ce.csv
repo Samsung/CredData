@@ -17,9 +17,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 15985,76d66270,GitHub,92f440ce,data/92f440ce/src/76d66270.php,79,79,F,F,,,F,F,,,,,0,0,F,F,F,Password
 16000,e58d1342,GitHub,92f440ce,data/92f440ce/src/e58d1342.php,118,118,F,F,,,F,F,,,,,0,0,F,F,F,Password
 16082,b99c4202,GitHub,92f440ce,data/92f440ce/test/b99c4202.php,50,50,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-16138,f6d0ee07,GitHub,92f440ce,data/92f440ce/src/f6d0ee07.php,42,42,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+16138,f6d0ee07,GitHub,92f440ce,data/92f440ce/src/f6d0ee07.php,42,42,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Credential
 16207,35a92545,GitHub,92f440ce,data/92f440ce/test/35a92545.php,25,25,F,F,,,F,F,,,,,0,0,F,F,F,Token
-16342,8c6232e4,GitHub,92f440ce,data/92f440ce/src/8c6232e4.php,148,148,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+16342,8c6232e4,GitHub,92f440ce,data/92f440ce/src/8c6232e4.php,148,148,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 16712,8cffcc30,GitHub,92f440ce,data/92f440ce/src/8cffcc30.php,146,146,F,F,,,F,F,,,,,0,0,F,F,F,Token
 16722,3037a277,GitHub,92f440ce,data/92f440ce/test/3037a277.php,82,82,F,F,,,F,F,,,,,0,0,F,F,F,Token
 16724,8cffcc30,GitHub,92f440ce,data/92f440ce/src/8cffcc30.php,136,136,F,F,,,F,F,,,,,0,0,F,F,F,Token
@@ -64,9 +64,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 16928,c733849e,GitHub,92f440ce,data/92f440ce/src/c733849e.php,96,96,F,F,,,F,F,,,,,0,0,F,F,F,Atlassian Old PAT token
 16929,c733849e,GitHub,92f440ce,data/92f440ce/src/c733849e.php,93,93,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
 17270,65a46767,GitHub,92f440ce,data/92f440ce/test/65a46767.php,73,73,F,F,,,F,F,,,,,0,0,F,F,F,Token
-21517,ced563c3,GitHub,92f440ce,data/92f440ce/src/ced563c3.php,143,143,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+21517,ced563c3,GitHub,92f440ce,data/92f440ce/src/ced563c3.php,143,143,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Credential
 27611,cfd4c67c,GitHub,92f440ce,data/92f440ce/test/cfd4c67c.php,98,98,Template,F,66,70,F,F,,,,,0.0,0,F,F,F,Secret
-27613,cfd4c67c,GitHub,92f440ce,data/92f440ce/test/cfd4c67c.php,117,117,F,F,50,54,F,F,,,,,0.0,0,F,F,F,Secret
+27613,cfd4c67c,GitHub,92f440ce,data/92f440ce/test/cfd4c67c.php,117,117,F,F,50,-1,F,F,,,,,0.0,0,F,F,F,Other
 29219,edd46b33,GitHub,92f440ce,data/92f440ce/test/edd46b33.php,83,83,Template,F,93,96,F,F,CharsOnly,,,Secret,0.92,3,F,F,F,Password
 29220,edd46b33,GitHub,92f440ce,data/92f440ce/test/edd46b33.php,161,161,Template,F,133,134,F,F,Any,,,Secret,0.0,1,F,F,F,Password
 29221,edd46b33,GitHub,92f440ce,data/92f440ce/test/edd46b33.php,73,73,Template,F,134,137,F,F,CharsOnly,,,Secret,0.92,3,F,F,F,Password

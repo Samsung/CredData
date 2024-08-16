@@ -1,7 +1,7 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
 3084,f3788238,GitHub,9bc5ca9e,data/9bc5ca9e/test/f3788238.java,86,86,F,F,,,F,F,,,,,0,0,F,F,F,Token
-9072,4175aed4,GitHub,9bc5ca9e,data/9bc5ca9e/src/4175aed4.java,135,135,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-13569,6126a578,GitHub,9bc5ca9e,data/9bc5ca9e/src/6126a578.java,70,70,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+9072,4175aed4,GitHub,9bc5ca9e,data/9bc5ca9e/src/4175aed4.java,135,135,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Credential
+13569,6126a578,GitHub,9bc5ca9e,data/9bc5ca9e/src/6126a578.java,70,70,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 14590,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,90,90,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 14603,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,80,80,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 14751,f490aa6c,GitHub,9bc5ca9e,data/9bc5ca9e/test/f490aa6c.java,307,307,F,F,,,F,F,,,,,0,0,F,F,F,Auth
@@ -29,7 +29,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 36221,3696b763,GitHub,9bc5ca9e,data/9bc5ca9e/src/3696b763.java,48,48,T,F,20,34,F,F,Any,,,Secret,3.52,14,F,F,F,Password
 46885,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,327,327,F,F,,,F,F,,,,,0,0,F,F,F,Password
 48186,f490aa6c,GitHub,9bc5ca9e,data/9bc5ca9e/test/f490aa6c.java,308,308,F,F,,,F,F,,,,,0,0,F,F,F,Password
-75409,4175aed4,GitHub,9bc5ca9e,data/9bc5ca9e/src/4175aed4.java,211,211,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+75409,4175aed4,GitHub,9bc5ca9e,data/9bc5ca9e/src/4175aed4.java,211,211,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Credential
 108221,f490aa6c,GitHub,9bc5ca9e,data/9bc5ca9e/test/f490aa6c.java,5168,5168,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
 108222,f490aa6c,GitHub,9bc5ca9e,data/9bc5ca9e/test/f490aa6c.java,5209,5209,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
 108223,f490aa6c,GitHub,9bc5ca9e,data/9bc5ca9e/test/f490aa6c.java,5210,5210,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other

@@ -1,6 +1,6 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
 964,7158c4ae,GitHub,1d8ec728,data/1d8ec728/src/7158c4ae.php,35,35,F,F,,,F,F,,,,,0,0,F,F,F,API
-2605,8d4dbd5d,GitHub,1d8ec728,data/1d8ec728/src/8d4dbd5d.php,85,85,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+2605,8d4dbd5d,GitHub,1d8ec728,data/1d8ec728/src/8d4dbd5d.php,85,85,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 5621,43cc6424,GitHub,1d8ec728,data/1d8ec728/test/43cc6424.php,143,143,F,F,,,F,F,,,,,0,0,F,F,F,URL Credentials
 5622,ed87cf4e,GitHub,1d8ec728,data/1d8ec728/test/ed87cf4e.php,83,83,F,F,,,F,F,,,,,0,0,F,F,F,URL Credentials
 5623,ed87cf4e,GitHub,1d8ec728,data/1d8ec728/test/ed87cf4e.php,85,85,F,F,,,F,F,,,,,0,0,F,F,F,URL Credentials
@@ -20,10 +20,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 15990,6694caa9,GitHub,1d8ec728,data/1d8ec728/src/6694caa9.php,179,179,F,F,,,F,F,,,,,0,0,F,F,F,Password
 15992,1fd52c2c,GitHub,1d8ec728,data/1d8ec728/src/1fd52c2c.php,266,266,F,F,,,F,F,,,,,0,0,F,F,F,Password
 16100,b633163f,GitHub,1d8ec728,data/1d8ec728/test/b633163f.php,61,61,F,F,,,F,F,,,,,0,0,F,F,F,Password
-16276,41bdecfc,GitHub,1d8ec728,data/1d8ec728/src/41bdecfc.php,782,782,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
-16389,5473790d,GitHub,1d8ec728,data/1d8ec728/src/5473790d.php,280,280,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-16399,c3be6f29,GitHub,1d8ec728,data/1d8ec728/src/c3be6f29.php,733,733,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-16453,7d07a267,GitHub,1d8ec728,data/1d8ec728/src/7d07a267.php,97,97,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+16276,41bdecfc,GitHub,1d8ec728,data/1d8ec728/src/41bdecfc.php,782,782,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+16389,5473790d,GitHub,1d8ec728,data/1d8ec728/src/5473790d.php,280,280,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+16399,c3be6f29,GitHub,1d8ec728,data/1d8ec728/src/c3be6f29.php,733,733,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+16453,7d07a267,GitHub,1d8ec728,data/1d8ec728/src/7d07a267.php,97,97,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 16754,dd5b1f87,GitHub,1d8ec728,data/1d8ec728/src/dd5b1f87.php,97,97,F,F,,,F,F,,,,,0,0,F,F,F,Token
 16778,4bb44830,GitHub,1d8ec728,data/1d8ec728/src/4bb44830.php,157,157,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 16787,be66b8c8,GitHub,1d8ec728,data/1d8ec728/src/be66b8c8.php,259,259,F,F,,,F,F,,,,,0,0,F,F,F,Token
@@ -104,7 +104,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 100567,6c7ebbb8,GitHub,1d8ec728,data/1d8ec728/test/6c7ebbb8.php,2540,2540,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
 100568,6c7ebbb8,GitHub,1d8ec728,data/1d8ec728/test/6c7ebbb8.php,2541,2541,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
 110146,dd5b1f87,GitHub,1d8ec728,data/1d8ec728/src/dd5b1f87.php,93,93,F,F,,,F,F,,,,,0.00,,F,F,F,Token
-110147,be66b8c8,GitHub,1d8ec728,data/1d8ec728/src/be66b8c8.php,154,154,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
+110147,be66b8c8,GitHub,1d8ec728,data/1d8ec728/src/be66b8c8.php,154,154,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
 110148,1fd52c2c,GitHub,1d8ec728,data/1d8ec728/src/1fd52c2c.php,392,392,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 136768,f8e3b441,GitHub,1d8ec728,data/1d8ec728/other/f8e3b441.md,272,272,T,F,9,35,F,F,,,,,0.0,0,F,F,F,AWS S3 Bucket
 110150,94779cbb,GitHub,1d8ec728,data/1d8ec728/test/94779cbb.php,140,140,F,F,,,F,F,,,,,0.00,,F,F,F,Auth

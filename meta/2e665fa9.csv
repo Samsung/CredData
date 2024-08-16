@@ -1,8 +1,8 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
 583,93d50683,GitHub,2e665fa9,data/2e665fa9/src/93d50683.ts,74,74,F,F,25,51,F,F,,,,,0.0,0,F,F,F,Password
 695,5acab419,GitHub,2e665fa9,data/2e665fa9/src/5acab419.ts,173,173,F,F,,,F,F,,,,,0,0,F,F,F,Password
-697,b0b9c07a,GitHub,2e665fa9,data/2e665fa9/src/b0b9c07a.ts,212,212,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-698,b0b9c07a,GitHub,2e665fa9,data/2e665fa9/src/b0b9c07a.ts,213,213,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+697,b0b9c07a,GitHub,2e665fa9,data/2e665fa9/src/b0b9c07a.ts,212,212,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+698,b0b9c07a,GitHub,2e665fa9,data/2e665fa9/src/b0b9c07a.ts,213,213,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 965,ddd1b4bf,GitHub,2e665fa9,data/2e665fa9/src/ddd1b4bf.ts,139,139,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 992,ddd1b4bf,GitHub,2e665fa9,data/2e665fa9/src/ddd1b4bf.ts,44,44,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 1070,6cc2e8d0,GitHub,2e665fa9,data/2e665fa9/src/6cc2e8d0.ts,117,117,F,F,,,F,F,,,,,0,0,F,F,F,Token
@@ -11,33 +11,33 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 1282,b68a53a6,GitHub,2e665fa9,data/2e665fa9/test/b68a53a6.ts,34,34,F,F,,,F,F,,,,,0,0,F,F,F,Password
 1283,c42b1bc5,GitHub,2e665fa9,data/2e665fa9/test/c42b1bc5.ts,24,24,F,F,,,F,F,,,,,0,0,F,F,F,Password
 1670,637998a1,GitHub,2e665fa9,data/2e665fa9/src/637998a1.ts,265,265,F,F,,,F,F,,,,,0,0,F,F,F,Password
-2880,9ea5e771,GitHub,2e665fa9,data/2e665fa9/src/9ea5e771.ts,96,96,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-5190,9ea5e771,GitHub,2e665fa9,data/2e665fa9/src/9ea5e771.ts,39,39,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+2880,9ea5e771,GitHub,2e665fa9,data/2e665fa9/src/9ea5e771.ts,96,96,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+5190,9ea5e771,GitHub,2e665fa9,data/2e665fa9/src/9ea5e771.ts,39,39,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 6325,ddd1b4bf,GitHub,2e665fa9,data/2e665fa9/src/ddd1b4bf.ts,49,49,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 6410,b68a53a6,GitHub,2e665fa9,data/2e665fa9/test/b68a53a6.ts,55,55,F,F,,,F,F,,,,,0,0,F,F,F,Password
 6432,820bc032,GitHub,2e665fa9,data/2e665fa9/src/820bc032.ts,19,19,F,F,,,F,F,,,,,0,0,F,F,F,Password
-9681,9ea5e771,GitHub,2e665fa9,data/2e665fa9/src/9ea5e771.ts,47,47,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+9681,9ea5e771,GitHub,2e665fa9,data/2e665fa9/src/9ea5e771.ts,47,47,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 11457,b68a53a6,GitHub,2e665fa9,data/2e665fa9/test/b68a53a6.ts,42,42,F,F,,,F,F,,,,,0,0,F,F,F,Password
-12769,d3808e9a,GitHub,2e665fa9,data/2e665fa9/src/d3808e9a.ts,23,23,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-13353,cbf9e9ac,GitHub,2e665fa9,data/2e665fa9/src/cbf9e9ac.ts,14,14,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+12769,d3808e9a,GitHub,2e665fa9,data/2e665fa9/src/d3808e9a.ts,23,23,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+13353,cbf9e9ac,GitHub,2e665fa9,data/2e665fa9/src/cbf9e9ac.ts,14,14,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Gitlab Feed Token
 13386,3bae6afc,GitHub,2e665fa9,data/2e665fa9/test/3bae6afc.ts,52,52,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
-13390,f72f8448,GitHub,2e665fa9,data/2e665fa9/test/f72f8448.ts,89,89,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-13391,4efbfdcd,GitHub,2e665fa9,data/2e665fa9/test/4efbfdcd.ts,23,23,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-13394,cbf9e9ac,GitHub,2e665fa9,data/2e665fa9/src/cbf9e9ac.ts,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-13543,f72f8448,GitHub,2e665fa9,data/2e665fa9/test/f72f8448.ts,123,123,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-13544,cbf9e9ac,GitHub,2e665fa9,data/2e665fa9/src/cbf9e9ac.ts,6,6,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-13545,481f0201,GitHub,2e665fa9,data/2e665fa9/src/481f0201.ts,100,100,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+13390,f72f8448,GitHub,2e665fa9,data/2e665fa9/test/f72f8448.ts,89,89,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+13391,4efbfdcd,GitHub,2e665fa9,data/2e665fa9/test/4efbfdcd.ts,23,23,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+13394,cbf9e9ac,GitHub,2e665fa9,data/2e665fa9/src/cbf9e9ac.ts,10,10,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+13543,f72f8448,GitHub,2e665fa9,data/2e665fa9/test/f72f8448.ts,123,123,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Gitlab Feed Token
+13544,cbf9e9ac,GitHub,2e665fa9,data/2e665fa9/src/cbf9e9ac.ts,6,6,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Gitlab Feed Token
+13545,481f0201,GitHub,2e665fa9,data/2e665fa9/src/481f0201.ts,100,100,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 14064,5bcf9d79,GitHub,2e665fa9,data/2e665fa9/src/5bcf9d79.ts,95,95,F,F,20,34,F,F,,,,,0.0,0,F,F,F,Password
 14103,5bcf9d79,GitHub,2e665fa9,data/2e665fa9/src/5bcf9d79.ts,24,24,F,F,,,F,F,,,,,0,0,F,F,F,Password
-14920,481f0201,GitHub,2e665fa9,data/2e665fa9/src/481f0201.ts,54,54,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-15091,3cd19b20,GitHub,2e665fa9,data/2e665fa9/test/3cd19b20.ts,43,43,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+14920,481f0201,GitHub,2e665fa9,data/2e665fa9/src/481f0201.ts,54,54,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+15091,3cd19b20,GitHub,2e665fa9,data/2e665fa9/test/3cd19b20.ts,43,43,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Gitlab Incoming Email Token:Atlassian Old PAT token
 17024,04e6e091,GitHub,2e665fa9,data/2e665fa9/src/04e6e091.ts,640,640,F,F,,,F,F,,,,,0,0,F,F,F,Token
 17030,04e6e091,GitHub,2e665fa9,data/2e665fa9/src/04e6e091.ts,486,486,F,F,,,F,F,,,,,0,0,F,F,F,Certificate
 17031,04e6e091,GitHub,2e665fa9,data/2e665fa9/src/04e6e091.ts,497,497,F,F,,,F,F,,,,,0,0,F,F,F,Certificate
 17032,04e6e091,GitHub,2e665fa9,data/2e665fa9/src/04e6e091.ts,636,636,F,F,,,F,F,,,,,0,0,F,F,F,Token
 17066,04e6e091,GitHub,2e665fa9,data/2e665fa9/src/04e6e091.ts,222,222,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 17067,04e6e091,GitHub,2e665fa9,data/2e665fa9/src/04e6e091.ts,244,244,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-18184,5acab419,GitHub,2e665fa9,data/2e665fa9/src/5acab419.ts,43,43,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+18184,5acab419,GitHub,2e665fa9,data/2e665fa9/src/5acab419.ts,43,43,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 28956,345b78a5,GitHub,2e665fa9,data/2e665fa9/test/345b78a5.ts,20,20,Template,F,17,25,F,F,CharsOnly,,,Secret,3.0,8,F,F,F,Password
 29894,f1f27e63,GitHub,2e665fa9,data/2e665fa9/src/f1f27e63.ts,234,234,Template,T,19,32,F,F,Any,,,Secret,2.9,13,F,F,F,Password
 31051,1c84ea0d,GitHub,2e665fa9,data/2e665fa9/src/1c84ea0d.js,10,10,Template,T,24,38,F,F,CharsOnly,,,Secret,3.18,14,F,F,F,Password
@@ -71,7 +71,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 57058,04e6e091,GitHub,2e665fa9,data/2e665fa9/src/04e6e091.ts,368,368,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 57059,04e6e091,GitHub,2e665fa9,data/2e665fa9/src/04e6e091.ts,390,390,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 57060,04e6e091,GitHub,2e665fa9,data/2e665fa9/src/04e6e091.ts,398,398,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-62658,9ea5e771,GitHub,2e665fa9,data/2e665fa9/src/9ea5e771.ts,80,80,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+62658,9ea5e771,GitHub,2e665fa9,data/2e665fa9/src/9ea5e771.ts,80,80,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 63163,c42b1bc5,GitHub,2e665fa9,data/2e665fa9/test/c42b1bc5.ts,45,45,F,F,,,F,F,,,,,0,0,F,F,F,Password
 63166,ddd1b4bf,GitHub,2e665fa9,data/2e665fa9/src/ddd1b4bf.ts,70,70,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 63167,ddd1b4bf,GitHub,2e665fa9,data/2e665fa9/src/ddd1b4bf.ts,91,91,F,F,,,F,F,,,,,0,0,F,F,F,Auth
@@ -82,8 +82,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 63460,ddd1b4bf,GitHub,2e665fa9,data/2e665fa9/src/ddd1b4bf.ts,125,125,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 63461,ddd1b4bf,GitHub,2e665fa9,data/2e665fa9/src/ddd1b4bf.ts,203,203,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 74467,c42b1bc5,GitHub,2e665fa9,data/2e665fa9/test/c42b1bc5.ts,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Password
-74958,f72f8448,GitHub,2e665fa9,data/2e665fa9/test/f72f8448.ts,71,71,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-74962,f72f8448,GitHub,2e665fa9,data/2e665fa9/test/f72f8448.ts,105,105,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+74958,f72f8448,GitHub,2e665fa9,data/2e665fa9/test/f72f8448.ts,71,71,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Gitlab Feed Token
+74962,f72f8448,GitHub,2e665fa9,data/2e665fa9/test/f72f8448.ts,105,105,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 82240,93d50683,GitHub,2e665fa9,data/2e665fa9/src/93d50683.ts,114,114,F,F,53,60,F,F,,,,,0.0,0,F,F,F,Password
 108300,06572a96,GitHub,2e665fa9,data/2e665fa9/other/06572a96.md,351,351,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 108301,04e6e091,GitHub,2e665fa9,data/2e665fa9/src/04e6e091.ts,661,661,F,F,,,F,F,,,,,0.00,,F,F,F,Auth

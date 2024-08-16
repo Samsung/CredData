@@ -2,10 +2,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 2682,2c4e1b47,GitHub,2e944350,data/2e944350/test/2c4e1b47.php,27,27,T,F,51,57,F,F,,,,,0.0,0,F,F,F,Password
 3879,49aaa281,GitHub,2e944350,data/2e944350/test/49aaa281.md,21,21,Template,F,33,39,F,F,Any,,,Secret,2.58,6,F,F,F,Secret
 15991,9a02bb49,GitHub,2e944350,data/2e944350/src/9a02bb49.php,93,93,F,F,20,47,F,F,,,,,0.0,0,F,F,F,Password
-16004,b9011659,GitHub,2e944350,data/2e944350/test/b9011659.php,38,38,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-16005,f9a88d72,GitHub,2e944350,data/2e944350/test/f9a88d72.php,122,122,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-16014,11fb7b50,GitHub,2e944350,data/2e944350/test/11fb7b50.php,33,33,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-16136,8a66b4d5,GitHub,2e944350,data/2e944350/test/8a66b4d5.php,27,27,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+16004,b9011659,GitHub,2e944350,data/2e944350/test/b9011659.php,38,38,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+16005,f9a88d72,GitHub,2e944350,data/2e944350/test/f9a88d72.php,122,122,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+16014,11fb7b50,GitHub,2e944350,data/2e944350/test/11fb7b50.php,33,33,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+16136,8a66b4d5,GitHub,2e944350,data/2e944350/test/8a66b4d5.php,27,27,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Bitbucket Client ID
 16716,f573d804,GitHub,2e944350,data/2e944350/src/f573d804.php,96,96,F,F,,,F,F,,,,,0,0,F,F,F,Token
 16765,ac66bdfe,GitHub,2e944350,data/2e944350/test/ac66bdfe.php,36,36,F,F,,,F,F,,,,,0,0,F,F,F,Token
 18598,49aaa281,GitHub,2e944350,data/2e944350/test/49aaa281.md,52,52,F,F,,,F,F,,,,,0,0,F,F,F,Token
@@ -21,11 +21,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 46245,49aaa281,GitHub,2e944350,data/2e944350/test/49aaa281.md,35,35,Template,F,33,39,F,F,Any,,,Secret,2.58,6,F,F,F,Secret
 46982,11fb7b50,GitHub,2e944350,data/2e944350/test/11fb7b50.php,42,42,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 55889,ac66bdfe,GitHub,2e944350,data/2e944350/test/ac66bdfe.php,71,71,F,F,,,F,F,,,,,0,0,F,F,F,Token
-82685,f9a88d72,GitHub,2e944350,data/2e944350/test/f9a88d72.php,154,154,F,F,23,27,F,F,,,,,0.0,0,F,F,F,Secret
-100958,f9a88d72,GitHub,2e944350,data/2e944350/test/f9a88d72.php,123,123,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-100959,f9a88d72,GitHub,2e944350,data/2e944350/test/f9a88d72.php,144,144,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+82685,f9a88d72,GitHub,2e944350,data/2e944350/test/f9a88d72.php,154,154,F,F,23,-1,F,F,,,,,0.0,0,F,F,F,Key
+100958,f9a88d72,GitHub,2e944350,data/2e944350/test/f9a88d72.php,123,123,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
+100959,f9a88d72,GitHub,2e944350,data/2e944350/test/f9a88d72.php,144,144,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
 100960,f9a88d72,GitHub,2e944350,data/2e944350/test/f9a88d72.php,149,149,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-100961,f9a88d72,GitHub,2e944350,data/2e944350/test/f9a88d72.php,155,155,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+100961,f9a88d72,GitHub,2e944350,data/2e944350/test/f9a88d72.php,155,155,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
 100962,f9a88d72,GitHub,2e944350,data/2e944350/test/f9a88d72.php,194,194,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
 100963,84e7c213,GitHub,2e944350,data/2e944350/test/84e7c213.php,474,474,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
 100964,84e7c213,GitHub,2e944350,data/2e944350/test/84e7c213.php,495,495,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
