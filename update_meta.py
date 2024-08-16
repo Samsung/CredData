@@ -69,10 +69,10 @@ def main(meta_dir: str, data_dir: str, report_file: str) -> int:
                 if any("Secret" == x.rule for x in possible_creds):
                     # ok
                     continue
+                categories.remove("Secret")
                 if 1 == len(categories):
                     # should be changed
                     categories = set(x.rule for x in possible_creds)
-
 
                     cred = possible_creds[0]
                     if "Key" == cred.rule:
@@ -89,17 +89,26 @@ def main(meta_dir: str, data_dir: str, report_file: str) -> int:
                             row.ValueStart = cred.value_start
                             row.ValueEnd = cred.value_end
                             row.GroundTruth = 'T'
-
-                        row.Category = "Key"
-                        errors += subprocess.call(
-                            ["sed", "-i",
-                             f"s|^{row.Id},{row.FileID},.*$|" + str(row) + "|",
-                             f"{meta_dir}/{row.RepoName}.csv"])
-                        updated_rows += 1
-                        continue
-
                 else:
-                    categories.remove("Secret")
+                    categories = set(x.rule for x in possible_creds)
+                    for cred in possible_creds:
+                        if "Key" == cred.rule:
+                            if ((16 <= len(cred.value) or 'hexkey' in cred.variable)
+                                    and not any(x in cred.line.lower() for x in
+                                                ['0011223344', '0001020304', '0b0b0b0b0b0b0b0', 'alice_', 'bob_', 'alice-',
+                                                 'bob-', 'fffefdfcfbfaf9f', '7f7e7d7c7b7a797877', '010203040506070809',
+                                                 'fefefefefefe', '808182838485868788', '000000000', '111111111',
+                                                 'eeeeeeeeee', 'fffffffffff', '0123456789'
+                                                 ])
+                                    and 'OBJ_' not in cred.line
+
+                            ):
+                                # may look like norm key
+                                row.ValueStart = cred.value_start
+                                row.ValueEnd = cred.value_end
+                                row.GroundTruth = 'T'
+                            break
+
             else:
                 if any("Secret" == x.rule for x in possible_creds if x.value_start == row.ValueStart):
                     # ok
