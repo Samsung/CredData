@@ -9,7 +9,7 @@ import shutil
 import string
 import subprocess
 import sys
-from argparse import ArgumentParser, Namespace
+from argparse import Namespace, ArgumentParser
 from multiprocessing import Pool
 from typing import List
 
@@ -347,7 +347,42 @@ def get_obfuscated_value(value, meta_row: MetaRow):
     return obfuscated_value
 
 
+def check_asc_or_desc(line_data_value: str) -> bool:
+    """ValuePatternCheck as example"""
+    count_asc = 1
+    count_desc = 1
+    for i in range(len(line_data_value) - 1):
+        if line_data_value[i] in string.ascii_letters + string.digits \
+                and ord(line_data_value[i + 1]) - ord(line_data_value[i]) == 1:
+            count_asc += 1
+            if 4 == count_asc:
+                return True
+        else:
+            count_asc = 1
+        if line_data_value[i] in string.ascii_letters + string.digits \
+                and ord(line_data_value[i]) - ord(line_data_value[i + 1]) == 1:
+            count_desc += 1
+            if 4 == count_desc:
+                return True
+        else:
+            count_desc = 1
+            continue
+    return False
+
 def generate_value(value):
+    """Wrapper to skip obfuscation with false positive or negatives"""
+    pattern_keyword = re.compile(r"(api|pass|pw[d\b])", flags=re.IGNORECASE)
+    pattern_similar = re.compile(r"(\w)\1{3,}")
+    new_value = None
+    while new_value is None \
+            or pattern_keyword.findall(new_value) \
+            or pattern_similar.findall(new_value) \
+            or check_asc_or_desc(new_value):
+        new_value = gen_random_value(value)
+    return new_value
+
+
+def gen_random_value(value):
     obfuscated_value = ""
 
     digits_set = string.digits

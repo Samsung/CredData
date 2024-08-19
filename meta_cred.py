@@ -16,7 +16,8 @@ class MetaCred:
         if not self.path.startswith('data/'):
             # license files ...
             self.path = '/'.join([str(x) for x in path.parts[-3:]])
-        assert self.path.startswith('data/'), cs_cred # path for benchmark must start from data/
+        # path for benchmark must start from "data/"
+        assert self.path.startswith('data/'), cs_cred
         self.valid_path = bool(self.valid_path_regex.match(self.path))  # to skip license files
 
         self.line_start = line_data_list[0]["line_num"]

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 set -e
 set -x
 
@@ -10,17 +10,12 @@ if [ -z "${VIRTUAL_ENV}" ]; then
     echo "Virtual environment has been not activated"
     if ! [ -d "${THISDIR}/${VENVDIR}" ]; then
         echo "Create new virtual environment"
-        python3.8 -m virtualenv -v --copies "${THISDIR}/${VENVDIR}"
+        python3.10 -m virtualenv -v --copies "${THISDIR}/${VENVDIR}"
     fi
 fi
-        
+
 if [ -z "${VIRTUAL_ENV}" ]; then
     . "${THISDIR}/${VENVDIR}/bin/activate"
 fi
 
-if ! pip list | grep PyYAML; then
-    pip install PyYAML
-fi    
-
-python download_data.py --data_dir data
-
+python download_data.py --clean_data --jobs $(nproc)
