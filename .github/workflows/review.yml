@@ -72,7 +72,7 @@ jobs:
         if: steps.cache-data.outputs.cache-hit != 'true'
         run: |
           python -m benchmark --scanner credsweeper --load .ci/empty_report.json >benchmark.txt
-          diff -U3 .ci/benchmark.txt benchmark.txt
+          diff --unified=3 --ignore-all-space --ignore-blank-lines .ci/benchmark.txt benchmark.txt
 
       - name: Upload artifact
         if: always()
