@@ -6,10 +6,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 25026,71ca9e54,GitHub,7529016f,data/7529016f/test/71ca9e54.go,300,300,F,F,,,F,F,,,,,0,0,F,F,F,Key
 25027,71ca9e54,GitHub,7529016f,data/7529016f/test/71ca9e54.go,200,200,F,F,,,F,F,,,,,0,0,F,F,F,Key
 25060,71ca9e54,GitHub,7529016f,data/7529016f/test/71ca9e54.go,205,205,F,F,,,F,F,,,,,0,0,F,F,F,Key
-25063,71ca9e54,GitHub,7529016f,data/7529016f/test/71ca9e54.go,17,17,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-25064,71ca9e54,GitHub,7529016f,data/7529016f/test/71ca9e54.go,12,12,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+25063,71ca9e54,GitHub,7529016f,data/7529016f/test/71ca9e54.go,17,17,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+25064,71ca9e54,GitHub,7529016f,data/7529016f/test/71ca9e54.go,12,12,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 25073,1e1be099,GitHub,7529016f,data/7529016f/src/1e1be099.yml,2,2,F,F,,,F,F,,,,,0,0,F,F,F,Token
-25443,db164cdb,GitHub,7529016f,data/7529016f/src/db164cdb.toml,154,154,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+25443,db164cdb,GitHub,7529016f,data/7529016f/src/db164cdb.toml,154,154,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 27371,b3356305,GitHub,7529016f,data/7529016f/other/b3356305.md,165,165,Template,T,24,36,F,F,Any,,,Secret,2.82,12,F,F,F,Password
 27383,b3356305,GitHub,7529016f,data/7529016f/other/b3356305.md,178,178,Template,T,18,30,F,F,Any,,,Secret,2.82,12,F,F,F,Password
 28111,db164cdb,GitHub,7529016f,data/7529016f/src/db164cdb.toml,57,57,Template,T,29,44,F,F,Any,,,Secret,2.17,15,F,F,F,Key:Secret
@@ -35,7 +35,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 113807,3295df72,GitHub,7529016f,data/7529016f/src/3295df72.sum,668,668,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 113808,3295df72,GitHub,7529016f,data/7529016f/src/3295df72.sum,669,669,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 113809,3295df72,GitHub,7529016f,data/7529016f/src/3295df72.sum,671,671,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-113810,3295df72,GitHub,7529016f,data/7529016f/src/3295df72.sum,300,300,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+113810,3295df72,GitHub,7529016f,data/7529016f/src/3295df72.sum,300,300,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
 131726,71ca9e54,GitHub,7529016f,data/7529016f/test/71ca9e54.go,49,49,F,F,17,49,F,F,,,,,0.0,0,F,F,F,Bitbucket Client ID:Bitbucket Client Secret
 131727,71ca9e54,GitHub,7529016f,data/7529016f/test/71ca9e54.go,59,59,F,F,17,49,F,F,,,,,0.0,0,F,F,F,Bitbucket Client ID:Bitbucket Client Secret
 131728,71ca9e54,GitHub,7529016f,data/7529016f/test/71ca9e54.go,223,223,F,F,18,50,F,F,,,,,0.0,0,F,F,F,Bitbucket Client ID:Bitbucket Client Secret

@@ -4,29 +4,29 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 6350,30b19e27,GitHub,177cf0f9,data/177cf0f9/src/30b19e27.go,28,28,F,F,,,F,F,,,,,0,0,F,F,F,Password
 7877,4aa0bf06,GitHub,177cf0f9,data/177cf0f9/src/4aa0bf06.go,11,11,F,F,,,F,F,,,,,0,0,F,F,F,Token
 10209,36d7df6f,GitHub,177cf0f9,data/177cf0f9/test/36d7df6f.go,64,64,Template,T,37,46,F,F,Any,,,Secret,2.07,9,F,F,F,Password
-12252,e3ff1a34,GitHub,177cf0f9,data/177cf0f9/src/e3ff1a34.go,320,320,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-12822,35b5dafa,GitHub,177cf0f9,data/177cf0f9/test/35b5dafa.go,35,35,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-12823,35b5dafa,GitHub,177cf0f9,data/177cf0f9/test/35b5dafa.go,27,27,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+12252,e3ff1a34,GitHub,177cf0f9,data/177cf0f9/src/e3ff1a34.go,320,320,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+12822,35b5dafa,GitHub,177cf0f9,data/177cf0f9/test/35b5dafa.go,35,35,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Bitbucket Client Secret
+12823,35b5dafa,GitHub,177cf0f9,data/177cf0f9/test/35b5dafa.go,27,27,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Bitbucket Client Secret
 13683,9e1dbe40,GitHub,177cf0f9,data/177cf0f9/src/9e1dbe40.go,33,33,F,F,,,F,F,,,,,0,0,F,F,F,Password
-13840,76e3bc43,GitHub,177cf0f9,data/177cf0f9/src/76e3bc43.go,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-17080,a70f47b7,GitHub,177cf0f9,data/177cf0f9/src/a70f47b7.go,42,42,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-20328,b01e9cc9,GitHub,177cf0f9,data/177cf0f9/test/b01e9cc9.go,207,207,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-23011,381b56e8,GitHub,177cf0f9,data/177cf0f9/src/381b56e8.go,46,46,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+13840,76e3bc43,GitHub,177cf0f9,data/177cf0f9/src/76e3bc43.go,10,10,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+17080,a70f47b7,GitHub,177cf0f9,data/177cf0f9/src/a70f47b7.go,42,42,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
+20328,b01e9cc9,GitHub,177cf0f9,data/177cf0f9/test/b01e9cc9.go,207,207,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+23011,381b56e8,GitHub,177cf0f9,data/177cf0f9/src/381b56e8.go,46,46,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 23410,ef2e6a69,GitHub,177cf0f9,data/177cf0f9/src/ef2e6a69.go,190,190,F,F,,,F,F,,,,,0,0,F,F,F,Key
-23802,25921fa4,GitHub,177cf0f9,data/177cf0f9/src/25921fa4.go,142,142,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-23803,3be26d2a,GitHub,177cf0f9,data/177cf0f9/src/3be26d2a.go,92,92,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-24852,be836bad,GitHub,177cf0f9,data/177cf0f9/src/be836bad.go,27,27,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-24857,c4589fcd,GitHub,177cf0f9,data/177cf0f9/src/c4589fcd.go,170,170,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-24974,f898f865,GitHub,177cf0f9,data/177cf0f9/src/f898f865.go,156,156,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-24975,c9373636,GitHub,177cf0f9,data/177cf0f9/test/c9373636.go,245,245,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
-25000,b01e9cc9,GitHub,177cf0f9,data/177cf0f9/test/b01e9cc9.go,278,278,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-25054,9e1dbe40,GitHub,177cf0f9,data/177cf0f9/src/9e1dbe40.go,25,25,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-25065,c13cba72,GitHub,177cf0f9,data/177cf0f9/test/c13cba72.go,59,59,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-25066,c13cba72,GitHub,177cf0f9,data/177cf0f9/test/c13cba72.go,63,63,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-25067,c13cba72,GitHub,177cf0f9,data/177cf0f9/test/c13cba72.go,55,55,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-25083,6062c177,GitHub,177cf0f9,data/177cf0f9/test/6062c177.go,162,162,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-25398,68076886,GitHub,177cf0f9,data/177cf0f9/src/68076886.go,38,38,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-25409,68076886,GitHub,177cf0f9,data/177cf0f9/src/68076886.go,176,176,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+23802,25921fa4,GitHub,177cf0f9,data/177cf0f9/src/25921fa4.go,142,142,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+23803,3be26d2a,GitHub,177cf0f9,data/177cf0f9/src/3be26d2a.go,92,92,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+24852,be836bad,GitHub,177cf0f9,data/177cf0f9/src/be836bad.go,27,27,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+24857,c4589fcd,GitHub,177cf0f9,data/177cf0f9/src/c4589fcd.go,170,170,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+24974,f898f865,GitHub,177cf0f9,data/177cf0f9/src/f898f865.go,156,156,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+24975,c9373636,GitHub,177cf0f9,data/177cf0f9/test/c9373636.go,245,245,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+25000,b01e9cc9,GitHub,177cf0f9,data/177cf0f9/test/b01e9cc9.go,278,278,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+25054,9e1dbe40,GitHub,177cf0f9,data/177cf0f9/src/9e1dbe40.go,25,25,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+25065,c13cba72,GitHub,177cf0f9,data/177cf0f9/test/c13cba72.go,59,59,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+25066,c13cba72,GitHub,177cf0f9,data/177cf0f9/test/c13cba72.go,63,63,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+25067,c13cba72,GitHub,177cf0f9,data/177cf0f9/test/c13cba72.go,55,55,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+25083,6062c177,GitHub,177cf0f9,data/177cf0f9/test/6062c177.go,162,162,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+25398,68076886,GitHub,177cf0f9,data/177cf0f9/src/68076886.go,38,38,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+25409,68076886,GitHub,177cf0f9,data/177cf0f9/src/68076886.go,176,176,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 26122,16032c56,GitHub,177cf0f9,data/177cf0f9/src/16032c56.go,28,28,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 26813,dc97d848,GitHub,177cf0f9,data/177cf0f9/src/dc97d848.go,118,118,F,F,,,F,F,,,,,0,0,F,F,F,Password
 26829,dc97d848,GitHub,177cf0f9,data/177cf0f9/src/dc97d848.go,52,52,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -57,13 +57,13 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 46033,35b5dafa,GitHub,177cf0f9,data/177cf0f9/test/35b5dafa.go,39,39,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
 46139,35b5dafa,GitHub,177cf0f9,data/177cf0f9/test/35b5dafa.go,29,29,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
 46140,35b5dafa,GitHub,177cf0f9,data/177cf0f9/test/35b5dafa.go,37,37,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
-61549,6062c177,GitHub,177cf0f9,data/177cf0f9/test/6062c177.go,194,194,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-61553,c9373636,GitHub,177cf0f9,data/177cf0f9/test/c9373636.go,301,301,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
-64496,e3ff1a34,GitHub,177cf0f9,data/177cf0f9/src/e3ff1a34.go,328,328,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-64542,35b5dafa,GitHub,177cf0f9,data/177cf0f9/test/35b5dafa.go,43,43,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+61549,6062c177,GitHub,177cf0f9,data/177cf0f9/test/6062c177.go,194,194,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+61553,c9373636,GitHub,177cf0f9,data/177cf0f9/test/c9373636.go,301,301,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+64496,e3ff1a34,GitHub,177cf0f9,data/177cf0f9/src/e3ff1a34.go,328,328,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+64542,35b5dafa,GitHub,177cf0f9,data/177cf0f9/test/35b5dafa.go,43,43,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Bitbucket Client Secret
 107978,16032c56,GitHub,177cf0f9,data/177cf0f9/src/16032c56.go,25,25,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 107979,3be26d2a,GitHub,177cf0f9,data/177cf0f9/src/3be26d2a.go,35,35,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-107980,3a6ffefc,GitHub,177cf0f9,data/177cf0f9/src/3a6ffefc.go,34,34,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+107980,3a6ffefc,GitHub,177cf0f9,data/177cf0f9/src/3a6ffefc.go,34,34,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
 107981,25921fa4,GitHub,177cf0f9,data/177cf0f9/src/25921fa4.go,86,86,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 107982,0b917872,GitHub,177cf0f9,data/177cf0f9/src/0b917872.go,139,139,F,F,,,F,F,,,,,0.00,,F,F,F,Gitlab Feed Token
 107983,36d7df6f,GitHub,177cf0f9,data/177cf0f9/test/36d7df6f.go,25,25,Template,T,15,26,F,F,Any,,,Secret,2.96,11,F,F,F,Password

@@ -16,11 +16,13 @@ class MetaCred:
         if not self.path.startswith('data/'):
             # license files ...
             self.path = '/'.join([str(x) for x in path.parts[-3:]])
-        assert self.path.startswith('data/'), cs_cred
+        assert self.path.startswith('data/'), cs_cred # path for benchmark must start from data/
         self.valid_path = bool(self.valid_path_regex.match(self.path))  # to skip license files
 
         self.line_start = line_data_list[0]["line_num"]
         self.line_end = line_data_list[-1]["line_num"]
+        self.variable_start = line_data_list[0]["variable_start"]
+        self.variable_end = line_data_list[-1]["variable_end"]
         self.value_start = line_data_list[0]["value_start"]
         self.value_end = line_data_list[-1]["value_end"]
         self.line = '\n'.join(x["line"] for x in line_data_list)

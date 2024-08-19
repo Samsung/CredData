@@ -2,7 +2,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 10,74b8c7f1,GitHub,ec869dbc,data/ec869dbc/src/74b8c7f1.py,286,286,F,F,,,F,F,,,,,0,0,F,F,F,Password
 1205,0c64d4fb,GitHub,ec869dbc,data/ec869dbc/src/0c64d4fb.py,38,38,F,F,,,F,F,,,,,0,0,F,F,F,Token
 1483,0c64d4fb,GitHub,ec869dbc,data/ec869dbc/src/0c64d4fb.py,79,79,F,F,,,F,F,,,,,0,0,F,F,F,Password
-4265,b8294fc0,GitHub,ec869dbc,data/ec869dbc/src/b8294fc0.py,15,15,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+4265,b8294fc0,GitHub,ec869dbc,data/ec869dbc/src/b8294fc0.py,15,15,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 4375,b8f355e6,GitHub,ec869dbc,data/ec869dbc/src/b8f355e6.py,737,737,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
 4377,4c4bc3b5,GitHub,ec869dbc,data/ec869dbc/src/4c4bc3b5.py,74,74,F,F,,,F,F,,,,,0,0,F,F,F,Password
 4378,b4738a3b,GitHub,ec869dbc,data/ec869dbc/src/b4738a3b.py,57,57,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -15,7 +15,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 27631,ebaee658,GitHub,ec869dbc,data/ec869dbc/src/ebaee658.ps1,4775,4775,F,F,13,34,F,F,,,,,0.0,0,F,F,F,Password
 27765,b0b6f63d,GitHub,ec869dbc,data/ec869dbc/src/b0b6f63d.py,99,99,F,F,35,51,F,F,,,,,0.0,0,F,F,F,Password
 27786,a8ed9fe1,GitHub,ec869dbc,data/ec869dbc/src/a8ed9fe1.py,39,39,F,F,35,52,F,F,,,,,0.0,0,F,F,F,Password
-28153,d2b0676d,GitHub,ec869dbc,data/ec869dbc/src/d2b0676d.py,83,83,T,F,25,89,F,F,,,,,0.0,0,F,F,F,Secret:Key
+28153,d2b0676d,GitHub,ec869dbc,data/ec869dbc/src/d2b0676d.py,83,83,T,F,25,89,F,F,,,,,0.0,0,F,F,F,Key
 28529,8c5f1168,GitHub,ec869dbc,data/ec869dbc/src/8c5f1168.py,184,184,Template,T,49,58,F,F,Any,,,Secret,2.6,9,F,F,F,Password
 29799,0a749636,GitHub,ec869dbc,data/ec869dbc/src/0a749636.conf,15,15,Template,F,9,15,F,F,Any,,,Secret,2.58,6,F,F,F,Password
 34746,02229152,GitHub,ec869dbc,data/ec869dbc/src/02229152.py,29,29,T,F,27,32,F,F,Any,,,Unknown,2.32,5,F,F,F,Password
@@ -37,18 +37,18 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 102101,ebaee658,GitHub,ec869dbc,data/ec869dbc/src/ebaee658.ps1,2432,2432,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 102102,ebaee658,GitHub,ec869dbc,data/ec869dbc/src/ebaee658.ps1,4709,4709,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 102103,ebaee658,GitHub,ec869dbc,data/ec869dbc/src/ebaee658.ps1,4713,4713,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-102104,b8f355e6,GitHub,ec869dbc,data/ec869dbc/src/b8f355e6.py,986,986,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+102104,b8f355e6,GitHub,ec869dbc,data/ec869dbc/src/b8f355e6.py,986,986,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
 102105,ebaee658,GitHub,ec869dbc,data/ec869dbc/src/ebaee658.ps1,4491,4491,F,F,,,F,F,,,,,0.00,,F,F,F,Atlassian Old PAT token
 102107,433a76e1,GitHub,ec869dbc,data/ec869dbc/src/433a76e1.py,447,447,F,F,,,F,F,,,,,0.00,,F,F,F,Bitbucket Client ID
 102108,433a76e1,GitHub,ec869dbc,data/ec869dbc/src/433a76e1.py,501,501,F,F,,,F,F,,,,,0.00,,F,F,F,Bitbucket Client ID
 102109,433a76e1,GitHub,ec869dbc,data/ec869dbc/src/433a76e1.py,579,579,F,F,,,F,F,,,,,0.00,,F,F,F,Bitbucket Client ID
 102110,433a76e1,GitHub,ec869dbc,data/ec869dbc/src/433a76e1.py,634,634,F,F,,,F,F,,,,,0.00,,F,F,F,Bitbucket Client ID
 102111,433a76e1,GitHub,ec869dbc,data/ec869dbc/src/433a76e1.py,696,696,F,F,,,F,F,,,,,0.00,,F,F,F,Bitbucket Client ID
-113187,74b8c7f1,GitHub,ec869dbc,data/ec869dbc/src/74b8c7f1.py,311,311,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+113187,74b8c7f1,GitHub,ec869dbc,data/ec869dbc/src/74b8c7f1.py,311,311,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Credential
 113188,8c5f1168,GitHub,ec869dbc,data/ec869dbc/src/8c5f1168.py,135,135,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 113189,8c5f1168,GitHub,ec869dbc,data/ec869dbc/src/8c5f1168.py,182,182,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 113190,0a749636,GitHub,ec869dbc,data/ec869dbc/src/0a749636.conf,8,8,F,F,,,F,F,,,,,0.00,,F,F,F,API
-113191,b0b6f63d,GitHub,ec869dbc,data/ec869dbc/src/b0b6f63d.py,62,62,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+113191,b0b6f63d,GitHub,ec869dbc,data/ec869dbc/src/b0b6f63d.py,62,62,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Credential
 130825,02229152,GitHub,ec869dbc,data/ec869dbc/src/02229152.py,38,38,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130826,d2b0676d,GitHub,ec869dbc,data/ec869dbc/src/d2b0676d.py,70,70,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130827,b8f355e6,GitHub,ec869dbc,data/ec869dbc/src/b8f355e6.py,520,520,F,F,,,F,F,,,,,0.00,,F,F,F,Password

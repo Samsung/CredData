@@ -1,18 +1,18 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
 1001,3e77537c,GitHub,288eaba8,data/288eaba8/test/3e77537c.js,11,11,F,F,,,F,F,,,,,0,0,F,F,F,URL Credentials
-1213,093ad82a,GitHub,288eaba8,data/288eaba8/src/093ad82a.ts,1113,1113,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-1216,093ad82a,GitHub,288eaba8,data/288eaba8/src/093ad82a.ts,1257,1257,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+1213,093ad82a,GitHub,288eaba8,data/288eaba8/src/093ad82a.ts,1113,1113,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+1216,093ad82a,GitHub,288eaba8,data/288eaba8/src/093ad82a.ts,1257,1257,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 3794,7cd171d2,GitHub,288eaba8,data/288eaba8/test/7cd171d2.js,798,798,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
-7256,093ad82a,GitHub,288eaba8,data/288eaba8/src/093ad82a.ts,1216,1216,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+7256,093ad82a,GitHub,288eaba8,data/288eaba8/src/093ad82a.ts,1216,1216,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 7565,093ad82a,GitHub,288eaba8,data/288eaba8/src/093ad82a.ts,2063,2063,F,F,,,F,F,,,,,0,0,F,F,F,Token
-9258,093ad82a,GitHub,288eaba8,data/288eaba8/src/093ad82a.ts,1754,1754,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-11282,48c793ea,GitHub,288eaba8,data/288eaba8/src/48c793ea.js,247,247,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-11862,093ad82a,GitHub,288eaba8,data/288eaba8/src/093ad82a.ts,1745,1745,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-11917,093ad82a,GitHub,288eaba8,data/288eaba8/src/093ad82a.ts,1210,1210,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-13114,093ad82a,GitHub,288eaba8,data/288eaba8/src/093ad82a.ts,1751,1751,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+9258,093ad82a,GitHub,288eaba8,data/288eaba8/src/093ad82a.ts,1754,1754,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+11282,48c793ea,GitHub,288eaba8,data/288eaba8/src/48c793ea.js,247,247,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+11862,093ad82a,GitHub,288eaba8,data/288eaba8/src/093ad82a.ts,1745,1745,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+11917,093ad82a,GitHub,288eaba8,data/288eaba8/src/093ad82a.ts,1210,1210,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+13114,093ad82a,GitHub,288eaba8,data/288eaba8/src/093ad82a.ts,1751,1751,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 14095,093ad82a,GitHub,288eaba8,data/288eaba8/src/093ad82a.ts,2000,2000,F,F,,,F,F,,,,,0,0,F,F,F,Password
-14353,093ad82a,GitHub,288eaba8,data/288eaba8/src/093ad82a.ts,1222,1222,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-14368,093ad82a,GitHub,288eaba8,data/288eaba8/src/093ad82a.ts,1757,1757,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+14353,093ad82a,GitHub,288eaba8,data/288eaba8/src/093ad82a.ts,1222,1222,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+14368,093ad82a,GitHub,288eaba8,data/288eaba8/src/093ad82a.ts,1757,1757,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 15472,87a9ee8c,GitHub,288eaba8,data/288eaba8/test/87a9ee8c.js,43,43,Template,T,20,24,T,F,Any,,,Secret,3.86,45,F,F,T,URL Credentials
 18749,0d52ab5c,GitHub,288eaba8,data/288eaba8/src/0d52ab5c.yml,85,85,Template,T,55,63,T,F,CharOnly,,,Secret,2.5,8,F,F,F,Password:URL Credentials
 29266,b3356305,GitHub,288eaba8,data/288eaba8/other/b3356305.md,143,143,Template,T,18,40,F,F,Any,,,Secret,3.2,22,F,F,F,Password
@@ -83,7 +83,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 101006,9a54bb8c,GitHub,288eaba8,data/288eaba8/test/9a54bb8c.js,8676,8676,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 101007,9a54bb8c,GitHub,288eaba8,data/288eaba8/test/9a54bb8c.js,8686,8686,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
 101008,9a54bb8c,GitHub,288eaba8,data/288eaba8/test/9a54bb8c.js,8691,8691,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-101009,b0cbd723,GitHub,288eaba8,data/288eaba8/test/b0cbd723.ts,2670,2670,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+101009,b0cbd723,GitHub,288eaba8,data/288eaba8/test/b0cbd723.ts,2670,2670,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
 130383,e370d734,GitHub,288eaba8,data/288eaba8/test/e370d734.js,156,156,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130384,910c73e8,GitHub,288eaba8,data/288eaba8/test/910c73e8.js,117,117,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 130385,48c793ea,GitHub,288eaba8,data/288eaba8/src/48c793ea.js,114,114,F,F,,,F,F,,,,,0.00,,F,F,F,Password

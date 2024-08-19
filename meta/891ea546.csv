@@ -7,8 +7,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 8732,14128680,GitHub,891ea546,data/891ea546/src/14128680.sql,12,12,F,F,,,F,F,,,,,0,0,F,F,F,Key
 10970,38ca79c5,GitHub,891ea546,data/891ea546/src/38ca79c5.go,91,91,F,F,,,F,F,,,,,0,0,F,F,F,URL Credentials
 11901,14128680,GitHub,891ea546,data/891ea546/src/14128680.sql,13,13,F,F,,,F,F,,,,,0,0,F,F,F,Key
-20284,23f3a9eb,GitHub,891ea546,data/891ea546/src/23f3a9eb.go,345,345,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-20291,42356610,GitHub,891ea546,data/891ea546/src/42356610.go,280,280,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+20284,23f3a9eb,GitHub,891ea546,data/891ea546/src/23f3a9eb.go,345,345,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+20291,42356610,GitHub,891ea546,data/891ea546/src/42356610.go,280,280,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 20935,e60d3d7a,GitHub,891ea546,data/891ea546/src/e60d3d7a.go,37,37,F,T,,,F,F,CharOnly,,,Secret,2.81,7,F,F,F,Password:URL Credentials
 21128,e60d3d7a,GitHub,891ea546,data/891ea546/src/e60d3d7a.go,35,35,F,T,,,F,F,CharOnly,,,Secret,2.81,7,F,F,F,Password:URL Credentials
 21129,570c8415,GitHub,891ea546,data/891ea546/src/570c8415.toml,13,13,Template,T,40,48,F,F,CharOnly,,,Secret,2.81,7,F,F,F,URL Credentials
@@ -22,7 +22,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 42973,e45e45ba,GitHub,891ea546,data/891ea546/src/e45e45ba.yml,22,22,T,T,46,59,T,F,Any,,,Secret,3.11,13,F,F,F,URL Credentials
 42974,e45e45ba,GitHub,891ea546,data/891ea546/src/e45e45ba.yml,23,23,T,T,51,64,T,F,Any,,,Secret,3.11,13,F,F,F,URL Credentials
 42975,e45e45ba,GitHub,891ea546,data/891ea546/src/e45e45ba.yml,26,26,T,T,39,44,T,F,CharsOnly,,,Secret,2.32,5,F,F,F,URL Credentials
-54012,42356610,GitHub,891ea546,data/891ea546/src/42356610.go,319,319,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+54012,42356610,GitHub,891ea546,data/891ea546/src/42356610.go,319,319,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 62048,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,100,100,F,F,,,F,F,,,,,0,0,F,F,F,Token
 62049,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,157,157,F,F,,,F,F,,,,,0,0,F,F,F,Token
 62050,2b8dca17,GitHub,891ea546,data/891ea546/test/2b8dca17.go,204,204,F,F,,,F,F,,,,,0,0,F,F,F,Token
@@ -93,6 +93,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 114663,3295df72,GitHub,891ea546,data/891ea546/src/3295df72.sum,647,647,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 114664,3295df72,GitHub,891ea546,data/891ea546/src/3295df72.sum,648,648,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 114665,3295df72,GitHub,891ea546,data/891ea546/src/3295df72.sum,649,649,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-114666,3295df72,GitHub,891ea546,data/891ea546/src/3295df72.sum,64,64,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+114666,3295df72,GitHub,891ea546,data/891ea546/src/3295df72.sum,64,64,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
 114667,e60d3d7a,GitHub,891ea546,data/891ea546/src/e60d3d7a.go,907,907,F,F,,,F,F,,,,,0.00,,F,F,F,API
 131659,e60d3d7a,GitHub,891ea546,data/891ea546/src/e60d3d7a.go,594,594,F,F,,,F,F,,,,,0.00,,F,F,F,Password

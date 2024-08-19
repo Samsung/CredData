@@ -1,7 +1,7 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
 3153,b8fefc4f,GitHub,cc268724,data/cc268724/src/b8fefc4f.yaml,101,101,F,F,,,F,F,,,,,0,0,F,F,F,API
 3154,b8fefc4f,GitHub,cc268724,data/cc268724/src/b8fefc4f.yaml,90,90,F,F,,,F,F,,,,,0,0,F,F,F,API
-3831,8022ad40,GitHub,cc268724,data/cc268724/src/8022ad40.yaml,138,138,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+3831,8022ad40,GitHub,cc268724,data/cc268724/src/8022ad40.yaml,138,138,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 4191,80b84898,GitHub,cc268724,data/cc268724/src/80b84898.yaml,901,901,F,F,,,F,F,,,,,0,0,F,F,F,API
 4192,80b84898,GitHub,cc268724,data/cc268724/src/80b84898.yaml,505,505,F,F,,,F,F,,,,,0,0,F,F,F,API
 4193,80b84898,GitHub,cc268724,data/cc268724/src/80b84898.yaml,807,807,F,F,,,F,F,,,,,0,0,F,F,F,API
@@ -22,15 +22,15 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 8974,17d39e87,GitHub,cc268724,data/cc268724/src/17d39e87.yaml,95,95,F,F,,,F,F,,,,,0,0,F,F,F,API
 8976,17d39e87,GitHub,cc268724,data/cc268724/src/17d39e87.yaml,78,78,F,F,,,F,F,,,,,0,0,F,F,F,API
 8978,17d39e87,GitHub,cc268724,data/cc268724/src/17d39e87.yaml,53,53,F,F,,,F,F,,,,,0,0,F,F,F,API
-12175,185833cb,GitHub,cc268724,data/cc268724/other/185833cb.md,56,56,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-12333,a2e73a1d,GitHub,cc268724,data/cc268724/src/a2e73a1d.yaml,35,35,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
-12668,cc7d75ad,GitHub,cc268724,data/cc268724/src/cc7d75ad.yaml,69,69,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-12669,cc7d75ad,GitHub,cc268724,data/cc268724/src/cc7d75ad.yaml,64,64,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-12702,5a1787fc,GitHub,cc268724,data/cc268724/src/5a1787fc.yaml,48,48,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-12733,cc7d75ad,GitHub,cc268724,data/cc268724/src/cc7d75ad.yaml,45,45,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-12782,cc7d75ad,GitHub,cc268724,data/cc268724/src/cc7d75ad.yaml,56,56,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-12785,cc7d75ad,GitHub,cc268724,data/cc268724/src/cc7d75ad.yaml,50,50,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-12799,5a1787fc,GitHub,cc268724,data/cc268724/src/5a1787fc.yaml,38,38,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+12175,185833cb,GitHub,cc268724,data/cc268724/other/185833cb.md,56,56,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
+12333,a2e73a1d,GitHub,cc268724,data/cc268724/src/a2e73a1d.yaml,35,35,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+12668,cc7d75ad,GitHub,cc268724,data/cc268724/src/cc7d75ad.yaml,69,69,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+12669,cc7d75ad,GitHub,cc268724,data/cc268724/src/cc7d75ad.yaml,64,64,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+12702,5a1787fc,GitHub,cc268724,data/cc268724/src/5a1787fc.yaml,48,48,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
+12733,cc7d75ad,GitHub,cc268724,data/cc268724/src/cc7d75ad.yaml,45,45,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+12782,cc7d75ad,GitHub,cc268724,data/cc268724/src/cc7d75ad.yaml,56,56,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+12785,cc7d75ad,GitHub,cc268724,data/cc268724/src/cc7d75ad.yaml,50,50,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+12799,5a1787fc,GitHub,cc268724,data/cc268724/src/5a1787fc.yaml,38,38,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 13330,17d39e87,GitHub,cc268724,data/cc268724/src/17d39e87.yaml,103,103,F,F,,,F,F,,,,,0,0,F,F,F,API
 13332,17d39e87,GitHub,cc268724,data/cc268724/src/17d39e87.yaml,105,105,F,F,,,F,F,,,,,0,0,F,F,F,API
 13333,17d39e87,GitHub,cc268724,data/cc268724/src/17d39e87.yaml,155,155,F,F,,,F,F,,,,,0,0,F,F,F,API
@@ -47,8 +47,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 13345,23901a2e,GitHub,cc268724,data/cc268724/src/23901a2e.yaml,331,331,F,F,,,F,F,,,,,0,0,F,F,F,API
 18440,a5376d24,GitHub,cc268724,data/cc268724/src/a5376d24.yaml,222,222,F,F,,,F,F,,,,,0,0,F,F,F,Key
 18441,153c1feb,GitHub,cc268724,data/cc268724/src/153c1feb.yaml,104,104,F,F,,,F,F,,,,,0,0,F,F,F,Key
-18442,153c1feb,GitHub,cc268724,data/cc268724/src/153c1feb.yaml,93,93,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-18443,153c1feb,GitHub,cc268724,data/cc268724/src/153c1feb.yaml,94,94,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+18442,153c1feb,GitHub,cc268724,data/cc268724/src/153c1feb.yaml,93,93,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+18443,153c1feb,GitHub,cc268724,data/cc268724/src/153c1feb.yaml,94,94,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 18593,9b735149,GitHub,cc268724,data/cc268724/src/9b735149.sh,33,33,F,F,,,F,F,,,,,0,0,F,F,F,Key
 18901,17d39e87,GitHub,cc268724,data/cc268724/src/17d39e87.yaml,156,156,F,F,,,F,F,,,,,0,0,F,F,F,API
 18902,17d39e87,GitHub,cc268724,data/cc268724/src/17d39e87.yaml,152,152,F,F,,,F,F,,,,,0,0,F,F,F,API
@@ -58,9 +58,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 21083,c8075fa8,GitHub,cc268724,data/cc268724/src/c8075fa8.yaml,108,108,F,T,,,F,F,Any,,,Secret,3.68,27,F,F,F,Password:URL Credentials
 21274,a89a3857,GitHub,cc268724,data/cc268724/src/a89a3857.yaml,91,91,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 21360,a89a3857,GitHub,cc268724,data/cc268724/src/a89a3857.yaml,102,102,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-21377,c0fdbc5c,GitHub,cc268724,data/cc268724/src/c0fdbc5c.yaml,2024,2024,F,F,,,F,F,,,,,0,0,F,F,F,Secret:Key
-21378,c0fdbc5c,GitHub,cc268724,data/cc268724/src/c0fdbc5c.yaml,447,447,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-21379,c0fdbc5c,GitHub,cc268724,data/cc268724/src/c0fdbc5c.yaml,429,429,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+21377,c0fdbc5c,GitHub,cc268724,data/cc268724/src/c0fdbc5c.yaml,2024,2024,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+21378,c0fdbc5c,GitHub,cc268724,data/cc268724/src/c0fdbc5c.yaml,447,447,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Bitbucket Client ID
+21379,c0fdbc5c,GitHub,cc268724,data/cc268724/src/c0fdbc5c.yaml,429,429,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 21381,c8075fa8,GitHub,cc268724,data/cc268724/src/c8075fa8.yaml,439,439,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 29849,9f5ecf21,GitHub,cc268724,data/cc268724/src/9f5ecf21.yaml,46,46,Template,T,12,25,F,F,CharsOnly,,,Secret,3.03,13,F,F,F,Password
 32485,c0fdbc5c,GitHub,cc268724,data/cc268724/src/c0fdbc5c.yaml,628,628,T,T,17,30,F,F,Any,,,Secret,2.53,13,F,F,F,Password
@@ -109,7 +109,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 42808,17d39e87,GitHub,cc268724,data/cc268724/src/17d39e87.yaml,159,159,F,F,,,F,F,,,,,0,0,F,F,F,API
 42905,a2c78436,GitHub,cc268724,data/cc268724/src/a2c78436.yaml,34,34,F,F,,,F,F,,,,,0,0,F,F,F,API
 42906,a2c78436,GitHub,cc268724,data/cc268724/src/a2c78436.yaml,38,38,F,F,,,F,F,,,,,0,0,F,F,F,API
-56798,153c1feb,GitHub,cc268724,data/cc268724/src/153c1feb.yaml,103,103,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+56798,153c1feb,GitHub,cc268724,data/cc268724/src/153c1feb.yaml,103,103,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 56799,a5376d24,GitHub,cc268724,data/cc268724/src/a5376d24.yaml,232,232,F,F,,,F,F,,,,,0,0,F,F,F,Key
 83030,0dfdd59f,GitHub,cc268724,data/cc268724/src/0dfdd59f.yaml,10,10,F,F,16,23,F,F,,,,,0.0,0,F,F,F,API
 83031,a5376d24,GitHub,cc268724,data/cc268724/src/a5376d24.yaml,2,2,F,F,12,36,F,F,,,,,0,0,F,F,F,API
@@ -120,14 +120,14 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 83036,17d39e87,GitHub,cc268724,data/cc268724/src/17d39e87.yaml,8,8,F,F,12,36,F,F,,,,,0,0,F,F,F,API
 83037,5b671a1f,GitHub,cc268724,data/cc268724/src/5b671a1f.yaml,27,27,F,F,16,40,F,F,,,,,0.0,0,F,F,F,API
 108591,c0fdbc5c,GitHub,cc268724,data/cc268724/src/c0fdbc5c.yaml,239,239,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-108592,c0fdbc5c,GitHub,cc268724,data/cc268724/src/c0fdbc5c.yaml,407,407,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-108593,c0fdbc5c,GitHub,cc268724,data/cc268724/src/c0fdbc5c.yaml,417,417,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+108592,c0fdbc5c,GitHub,cc268724,data/cc268724/src/c0fdbc5c.yaml,407,407,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
+108593,c0fdbc5c,GitHub,cc268724,data/cc268724/src/c0fdbc5c.yaml,417,417,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
 108594,c0fdbc5c,GitHub,cc268724,data/cc268724/src/c0fdbc5c.yaml,1754,1754,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-108595,c0fdbc5c,GitHub,cc268724,data/cc268724/src/c0fdbc5c.yaml,1987,1987,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-108596,c0fdbc5c,GitHub,cc268724,data/cc268724/src/c0fdbc5c.yaml,1989,1989,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+108595,c0fdbc5c,GitHub,cc268724,data/cc268724/src/c0fdbc5c.yaml,1987,1987,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
+108596,c0fdbc5c,GitHub,cc268724,data/cc268724/src/c0fdbc5c.yaml,1989,1989,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
 108597,a89a3857,GitHub,cc268724,data/cc268724/src/a89a3857.yaml,83,83,Template,T,15,24,F,F,Any,,,Secret,2.60,9,F,F,F,Password
-108598,a89a3857,GitHub,cc268724,data/cc268724/src/a89a3857.yaml,95,95,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-108599,a2e73a1d,GitHub,cc268724,data/cc268724/src/a2e73a1d.yaml,31,31,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
+108598,a89a3857,GitHub,cc268724,data/cc268724/src/a89a3857.yaml,95,95,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
+108599,a2e73a1d,GitHub,cc268724,data/cc268724/src/a2e73a1d.yaml,31,31,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
 108600,c0fdbc5c,GitHub,cc268724,data/cc268724/src/c0fdbc5c.yaml,706,706,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 108601,a2e73a1d,GitHub,cc268724,data/cc268724/src/a2e73a1d.yaml,27,27,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 108602,8022ad40,GitHub,cc268724,data/cc268724/src/8022ad40.yaml,113,113,F,F,,,F,F,,,,,0.00,,F,F,F,Password

@@ -1,11 +1,11 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
 13472,53c665cf,GitHub,9ef45116,data/9ef45116/src/53c665cf.java,26,26,F,F,,,F,F,,,,,0,0,F,F,F,Token
 13473,53c665cf,GitHub,9ef45116,data/9ef45116/src/53c665cf.java,30,30,F,F,,,F,F,,,,,0,0,F,F,F,Token
-13482,cae26f59,GitHub,9ef45116,data/9ef45116/src/cae26f59.java,23,23,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-13483,e54be3b4,GitHub,9ef45116,data/9ef45116/src/e54be3b4.java,23,23,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+13482,cae26f59,GitHub,9ef45116,data/9ef45116/src/cae26f59.java,23,23,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+13483,e54be3b4,GitHub,9ef45116,data/9ef45116/src/e54be3b4.java,23,23,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 14524,98b52122,GitHub,9ef45116,data/9ef45116/src/98b52122.java,29,29,F,F,,,F,F,,,,,0,0,F,F,F,Token
-14546,c1205614,GitHub,9ef45116,data/9ef45116/src/c1205614.java,24,24,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-14575,788daf69,GitHub,9ef45116,data/9ef45116/src/788daf69.java,24,24,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+14546,c1205614,GitHub,9ef45116,data/9ef45116/src/c1205614.java,24,24,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+14575,788daf69,GitHub,9ef45116,data/9ef45116/src/788daf69.java,24,24,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 23568,5d5199e7,GitHub,9ef45116,data/9ef45116/src/5d5199e7.java,42,42,F,F,,,F,F,,,,,0,0,F,F,F,API
 23570,38c9738b,GitHub,9ef45116,data/9ef45116/src/38c9738b.java,33,33,F,F,,,F,F,,,,,0,0,F,F,F,API
 23572,5d5199e7,GitHub,9ef45116,data/9ef45116/src/5d5199e7.java,35,35,F,F,,,F,F,,,,,0,0,F,F,F,API
@@ -27,7 +27,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 23630,43564027,GitHub,9ef45116,data/9ef45116/src/43564027.java,16,16,F,F,,,F,F,,,,,0,0,F,F,F,API
 23632,0a3a5e4a,GitHub,9ef45116,data/9ef45116/src/0a3a5e4a.java,26,26,F,F,,,F,F,,,,,0,0,F,F,F,API
 23648,d76cf2f2,GitHub,9ef45116,data/9ef45116/src/d76cf2f2.java,42,42,F,F,,,F,F,,,,,0,0,F,F,F,Key
-23649,afc4fc0a,GitHub,9ef45116,data/9ef45116/src/afc4fc0a.java,22,22,F,F,,,F,F,,,,,0,0,F,F,F,Secret
+23649,afc4fc0a,GitHub,9ef45116,data/9ef45116/src/afc4fc0a.java,22,22,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Auth
 23650,478dbfda,GitHub,9ef45116,data/9ef45116/src/478dbfda.java,75,75,F,F,,,F,F,,,,,0,0,F,F,F,Key
 23673,5d5199e7,GitHub,9ef45116,data/9ef45116/src/5d5199e7.java,26,26,F,F,,,F,F,,,,,0,0,F,F,F,API
 23678,2f131f65,GitHub,9ef45116,data/9ef45116/src/2f131f65.java,71,71,F,F,,,F,F,,,,,0,0,F,F,F,API
@@ -82,7 +82,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 83027,b43dbc67,GitHub,9ef45116,data/9ef45116/src/b43dbc67.java,29,29,F,F,31,37,F,F,,,,,0.0,0,F,F,F,API
 102639,c2d186bc,GitHub,9ef45116,data/9ef45116/other/c2d186bc.md,220,220,Template,T,74,85,F,F,Any,,,Secret,2.10,11,F,F,F,Password
 102640,c2d186bc,GitHub,9ef45116,data/9ef45116/other/c2d186bc.md,79,79,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-113769,6ef92f3e,GitHub,9ef45116,data/9ef45116/src/6ef92f3e.yml,49,49,F,F,,,F,F,,,,,0.00,,F,F,F,Secret:Key
+113769,6ef92f3e,GitHub,9ef45116,data/9ef45116/src/6ef92f3e.yml,49,49,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
 113770,c2d186bc,GitHub,9ef45116,data/9ef45116/other/c2d186bc.md,131,131,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 113771,683bef12,GitHub,9ef45116,data/9ef45116/test/683bef12.java,49,49,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 113772,683bef12,GitHub,9ef45116,data/9ef45116/test/683bef12.java,55,55,F,F,,,F,F,,,,,0.00,,F,F,F,JSON Web Token
