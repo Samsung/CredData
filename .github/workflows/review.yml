@@ -68,6 +68,12 @@ jobs:
           python review_data.py &>review_head.txt
           ansi2html --style 'pre {font-family: monospace; font-size: large}' <review_head.txt  >review_head.html
 
+      - name: Produce benchmark scores from empty report to check markup only
+        if: steps.cache-data.outputs.cache-hit != 'true'
+        run: |
+          python -m benchmark --scanner credsweeper --load .ci/empty_report.json >benchmark.txt
+          diff --unified=3 --ignore-all-space --ignore-blank-lines .ci/benchmark.txt benchmark.txt
+
       - name: Upload artifact
         if: always()
         uses: actions/upload-artifact@v4
@@ -76,6 +82,7 @@ jobs:
           path: |
             review_head.txt
             review_head.html
+            benchmark.txt
 
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
