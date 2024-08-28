@@ -1,6 +1,6 @@
-META MD5 09bc008bceab88c61cd21552d2b7fc86
-DATA MD5 23364cb89c8306bdc2e25f73a0104ec3
-DATA: 16345157 interested lines. MARKUP: 62647 items
+META MD5 a563fa1445f92b235930b2a4b82a379f
+DATA MD5 ffb6d9cefac6009b3f35b77e7edf63df
+DATA: 16345157 interested lines. MARKUP: 62651 items
 FileType           FileNumber    ValidLines    Positives    Negatives    Templates
 ---------------  ------------  ------------  -----------  -----------  -----------
                           194         28318           66          414           85
@@ -63,7 +63,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .gd                         1            37                         1
 .gml                        3          3075                        16
 .gni                        3          5017                        19
-.go                      1080        566476          692         4121          738
+.go                      1080        566476          692         4123          738
 .golden                     5          1168            1           13           29
 .gradle                    45          3265            4           90          100
 .graphql                    7           420                        13
@@ -124,7 +124,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .mqh                        1          1023                         2
 .msg                        1         26644            1            1
 .mysql                      1            36                                      2
-.ndjson                     2          5006           72          238            2
+.ndjson                     2          5006           72          239            2
 .nix                        4           211                        12
 .nolint                     1             2                         1
 .odd                        1          1281                        43
@@ -158,7 +158,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .pyx                        2          1094                        23
 .r                          4            62            6            3            1
 .rake                       2            51                         2
-.rb                       860        131838          258         3311          613
+.rb                       860        131838          259         3311          613
 .re                         1            31                         1
 .red                        1           159                         1
 .release                    1            13                         4
@@ -222,16 +222,16 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .yml                      418         36162          545          892          380
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  10259      16345157        12151        50330         5110
+TOTAL:                  10259      16345157        12152        50333         5110
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Templates    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
-API                                     128         3161          189                 0     0   3350    128  0.000000  1.000000  0.963197         0.000000
+API                                     128         3162          189                 0     0   3351    128  0.000000  1.000000  0.963208         0.000000
 AWS Client ID                           167           21            0                 0     0     21    167  0.000000  1.000000  0.111702         0.000000
 AWS Multi                                75           16            0                 0     0     16     75  0.000000  1.000000  0.175824         0.000000
 AWS S3 Bucket                            66           24            0                 0     0     24     66  0.000000  1.000000  0.266667         0.000000
 Atlassian Old PAT token                  27          308            3                 0     0    311     27  0.000000  1.000000  0.920118         0.000000
-Auth                                    419         2728           76                 0     0   2804    419  0.000000  1.000000  0.869997         0.000000
+Auth                                    420         2730           76                 0     0   2806    420  0.000000  1.000000  0.869808         0.000000
 Azure Access Token                       19            0            0                 0     0      0     19            1.000000  0.000000         0.000000
 BASE64 Private Key                        7            4            0                 0     0      4      7  0.000000  1.000000  0.363636         0.000000
 BASE64 encoded PEM Private Key            7            0            0                 0     0      0      7            1.000000  0.000000         0.000000
@@ -266,4 +266,4 @@ Token                                   648         4176          438           
 Twilio API Key                            0            5            2                 0     0      7      0  0.000000            1.000000
 URL Credentials                         208          146          224                 0     0    370    208  0.000000  1.000000  0.640138         0.000000
 UUID                                   1069          265            0                 0     0    265   1069  0.000000  1.000000  0.198651         0.000000
-                                      12151        50330         5110           0     0     0  50330  12151  0.000000  1.000000  0.805525         0.000000
+                                      12152        50333         5110           0     0     0  50333  12152  0.000000  1.000000  0.805521         0.000000
