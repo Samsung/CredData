@@ -398,6 +398,9 @@ def gen_random_value(value):
         if '-' == i and len(value) in (18, 36) and n in (8, 13, 18, 23):
             # UUID separator or something like this
             continue
+        if ':' == i and 2 == n % 3:
+            # wifi key like 7f:44:52:fe: ...
+            continue
         if hex_upper and i not in "0123456789ABCDEF":
             hex_upper = False
         if hex_lower and i not in "0123456789abcdef":

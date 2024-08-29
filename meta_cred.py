@@ -12,10 +12,11 @@ class MetaCred:
         line_data_list = cs_cred["line_data_list"]
         line_data_list.sort(key=lambda x: (x["line_num"], x["value_start"], x["value_end"]))
         path = Path(line_data_list[0]["path"])
-        self.path = '/'.join([str(x) for x in path.parts[-4:]])
-        if not self.path.startswith('data/'):
-            # license files ...
-            self.path = '/'.join([str(x) for x in path.parts[-3:]])
+        assert path.parts.count("data") == 1, f"Only one 'data' dir must be in path:{path}"
+        for n, i in enumerate(path.parts):
+            if "data" == i:
+                self.path = '/'.join([str(x) for x in path.parts[n:]])
+                break
         # path for benchmark must start from "data/"
         assert self.path.startswith('data/'), cs_cred
         self.valid_path = bool(self.valid_path_regex.match(self.path))  # to skip license files
