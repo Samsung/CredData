@@ -1,9 +1,9 @@
-META MD5 f4d6094dad6653bdee7cb0e716c6d073
+META MD5 987f796acd0fe8d24643a9034a783a00
 DATA MD5 1b12a69a3e563f402571a95399a86e3a
 DATA: 16345157 interested lines. MARKUP: 62778 items
 FileType           FileNumber    ValidLines    Positives    Negatives    Templates
 ---------------  ------------  ------------  -----------  -----------  -----------
-                          194         28318           70          423           85
+                          194         28318           70          417           91
 .1                          2           641            2            5
 .admx                       1            26                         1
 .adoc                       1           158           13            6            1
@@ -222,7 +222,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .yml                      418         36162          545          892          380
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  10259      16345157        12188        50465         5110
+TOTAL:                  10259      16345157        12188        50459         5116
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Templates    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -237,7 +237,7 @@ BASE64 Private Key                        7            4            0           
 BASE64 encoded PEM Private Key            7            0            0                 0     0      0      7            1.000000  0.000000         0.000000
 Bitbucket Client ID                     143         2097            9                 0     0   2106    143  0.000000  1.000000  0.936416         0.000000
 Bitbucket Client Secret                 301          809           10                 0     0    819    301  0.000000  1.000000  0.731250         0.000000
-CMD Password                             19          133            0                 0     0    133     19  0.000000  1.000000  0.875000         0.000000
+CMD Password                             19          127            6                 0     0    133     19  0.000000  1.000000  0.875000         0.000000
 Certificate                              23          471            1                 0     0    472     23  0.000000  1.000000  0.953535         0.000000
 ConvertTo-SecureString                   13            4            0                 0     0      4     13  0.000000  1.000000  0.235294         0.000000
 Credential                               95          420           74                 0     0    494     95  0.000000  1.000000  0.838710         0.000000
@@ -268,4 +268,4 @@ Token                                   648         4176          438           
 Twilio API Key                            0            5            2                 0     0      7      0  0.000000            1.000000
 URL Credentials                         208          146          224                 0     0    370    208  0.000000  1.000000  0.640138         0.000000
 UUID                                   1069          265            0                 0     0    265   1069  0.000000  1.000000  0.198651         0.000000
-                                      12188        50465         5110           0     0     0  50465  12188  0.000000  1.000000  0.805468         0.000000
+                                      12188        50459         5116           0     0     0  50459  12188  0.000000  1.000000  0.805450         0.000000
