@@ -1,6 +1,6 @@
-META MD5 5e76eb08412164f08a93204828f5daee
+META MD5 b6eb9955fd1da5461af0e246747c7cb0
 DATA MD5 732282f70585777b9f81e0faefe8832b
-DATA: 16345157 interested lines. MARKUP: 62779 items
+DATA: 16345157 interested lines. MARKUP: 62781 items
 FileType           FileNumber    ValidLines    Positives    Negatives    Templates
 ---------------  ------------  ------------  -----------  -----------  -----------
                           194         28318           70          417           91
@@ -152,7 +152,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .pug                        2           193                         2
 .purs                       1            69                         4
 .pxd                        1           150                         5            2
-.py                       890        291553          684         3296          724
+.py                       890        291553          684         3298          724
 .pyi                        4          1361                         9
 .pyp                        1           167                         1
 .pyx                        2          1094                        23
@@ -222,7 +222,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .yml                      418         36162          547          891          379
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  10259      16345157        12177        50485         5105
+TOTAL:                  10259      16345157        12177        50487         5105
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Templates    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -231,7 +231,7 @@ AWS Client ID                           167           21            0           
 AWS Multi                                75           16            0                 0     0     16     75  0.000000  1.000000  0.175824         0.000000
 AWS S3 Bucket                            66           24            0                 0     0     24     66  0.000000  1.000000  0.266667         0.000000
 Atlassian Old PAT token                  27          308            3                 0     0    311     27  0.000000  1.000000  0.920118         0.000000
-Auth                                    420         2730           76                 0     0   2806    420  0.000000  1.000000  0.869808         0.000000
+Auth                                    420         2732           76                 0     0   2808    420  0.000000  1.000000  0.869888         0.000000
 Azure Access Token                       19            0            0                 0     0      0     19            1.000000  0.000000         0.000000
 BASE64 Private Key                        7            4            0                 0     0      4      7  0.000000  1.000000  0.363636         0.000000
 BASE64 encoded PEM Private Key            7            0            0                 0     0      0      7            1.000000  0.000000         0.000000
@@ -268,4 +268,4 @@ Token                                   649         4175          438           
 Twilio API Key                            0            5            2                 0     0      7      0  0.000000            1.000000
 URL Credentials                         210          149          220                 0     0    369    210  0.000000  1.000000  0.637306         0.000000
 UUID                                   1069          265            0                 0     0    265   1069  0.000000  1.000000  0.198651         0.000000
-                                      12177        50485         5105           0     0     0  50485  12177  0.000000  1.000000  0.805672         0.000000
+                                      12177        50487         5105           0     0     0  50487  12177  0.000000  1.000000  0.805678         0.000000
