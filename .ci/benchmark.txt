@@ -1,6 +1,6 @@
-META MD5 b6eb9955fd1da5461af0e246747c7cb0
-DATA MD5 732282f70585777b9f81e0faefe8832b
-DATA: 16345157 interested lines. MARKUP: 62781 items
+META MD5 cebfc70bb1fc7ce0e97c33136a74eeba
+DATA MD5 f704d35540464f5515625114b664f79e
+DATA: 16345157 interested lines. MARKUP: 62784 items
 FileType           FileNumber    ValidLines    Positives    Negatives    Templates
 ---------------  ------------  ------------  -----------  -----------  -----------
                           194         28318           70          417           91
@@ -22,7 +22,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .cc                        29         30562                       617            1
 .cf                         3           126            2            1
 .cfg                        1           385                         1            1
-.cjs                        1           725            3            6
+.cjs                        1           725            3            7
 .clj                        2           133                         3
 .cljc                       5          2421                        11
 .cls                        1           657                         1
@@ -168,7 +168,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .rnh                        1          1354                         3            2
 .rno                        1          7229                         2
 .rrc                       39          1404                       281
-.rs                        31          9855            2          233           11
+.rs                        31          9855            2          234           11
 .rsc                        1           691                         1
 .rsp                       16          7101           20           10           27
 .rst                       86         33980           69          323           68
@@ -213,7 +213,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .vsixmanifest               1            36                         1
 .vsmdi                      1             6            2
 .vue                       50          8736            1          154            1
-.xaml                      21          8103                       162
+.xaml                      21          8103                       163
 .xcscheme                   1           109                         6
 .xib                       11           503                       169
 .xml                        9           689                         9
@@ -222,7 +222,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .yml                      418         36162          547          891          379
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  10259      16345157        12177        50487         5105
+TOTAL:                  10259      16345157        12177        50490         5105
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Templates    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
