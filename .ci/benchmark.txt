@@ -1,6 +1,6 @@
-META MD5 cebfc70bb1fc7ce0e97c33136a74eeba
-DATA MD5 f704d35540464f5515625114b664f79e
-DATA: 16345157 interested lines. MARKUP: 62784 items
+META MD5 ae891692a24ee1f3729f1a59fd9c6504
+DATA MD5 ccfb667ad134c71fc9f2b28693c8023a
+DATA: 16345157 interested lines. MARKUP: 62787 items
 FileType           FileNumber    ValidLines    Positives    Negatives    Templates
 ---------------  ------------  ------------  -----------  -----------  -----------
                           194         28318           70          417           91
@@ -85,7 +85,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .java                     621        134132          361         1367          170
 .jenkinsfile                1            58            2            6
 .jinja2                     1            64                         2
-.js                       659        536413          535         2490          330
+.js                       659        536413          535         2491          330
 .json                     850      13046270         1070        10897          140
 .jsp                       13          3202            1           40
 .jsx                        7           857                        19
@@ -112,7 +112,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .markdown                   3           139                         3            1
 .markerb                    3            12                         3
 .marko                      1            21                         2
-.md                       674        149399          733         2395          623
+.md                       674        149399          737         2395          623
 .mdx                        3           549                         7
 .mjml                       1            18                         1
 .mjs                       22          4424           76          340
@@ -222,7 +222,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .yml                      418         36162          547          891          379
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  10259      16345157        12177        50490         5105
+TOTAL:                  10259      16345157        12181        50491         5105
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Templates    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -237,9 +237,9 @@ BASE64 Private Key                        7            4            0           
 BASE64 encoded PEM Private Key            7            0            0                 0     0      0      7            1.000000  0.000000         0.000000
 Bitbucket Client ID                     143         2097            9                 0     0   2106    143  0.000000  1.000000  0.936416         0.000000
 Bitbucket Client Secret                 301          809           10                 0     0    819    301  0.000000  1.000000  0.731250         0.000000
-CMD Password                             19          127            6                 0     0    133     19  0.000000  1.000000  0.875000         0.000000
+CMD Credential                           25          128            6                 0     0    134     25  0.000000  1.000000  0.842767         0.000000
+CMD SecureString                         13            4            0                 0     0      4     13  0.000000  1.000000  0.235294         0.000000
 Certificate                              23          471            1                 0     0    472     23  0.000000  1.000000  0.953535         0.000000
-ConvertTo-SecureString                   13            4            0                 0     0      4     13  0.000000  1.000000  0.235294         0.000000
 Credential                               95          420           74                 0     0    494     95  0.000000  1.000000  0.838710         0.000000
 Docker Swarm Token                        2            0            0                 0     0      0      2            1.000000  0.000000         0.000000
 Dropbox App secret                       64          139            1                 0     0    140     64  0.000000  1.000000  0.686275         0.000000
@@ -264,8 +264,8 @@ Salt                                     45           76            2           
 Secret                                 1297         1574          799                 0     0   2373   1297  0.000000  1.000000  0.646594         0.000000
 Seed                                      1            6            0                 0     0      6      1  0.000000  1.000000  0.857143         0.000000
 Slack Token                               4            1            0                 0     0      1      4  0.000000  1.000000  0.200000         0.000000
-Token                                   649         4175          438                 0     0   4613    649  0.000000  1.000000  0.876663         0.000000
+Token                                   647         4175          438                 0     0   4613    647  0.000000  1.000000  0.876996         0.000000
 Twilio API Key                            0            5            2                 0     0      7      0  0.000000            1.000000
 URL Credentials                         210          149          220                 0     0    369    210  0.000000  1.000000  0.637306         0.000000
 UUID                                   1069          265            0                 0     0    265   1069  0.000000  1.000000  0.198651         0.000000
-                                      12177        50490         5105           0     0     0  50490  12177  0.000000  1.000000  0.805687         0.000000
+                                      12181        50491         5105           0     0     0  50491  12181  0.000000  1.000000  0.805639         0.000000
