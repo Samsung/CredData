@@ -19,7 +19,7 @@ from meta_row import read_meta, MetaRow
 
 logging.basicConfig(
     format="%(asctime)s | %(levelname)s | %(filename)s:%(lineno)s | %(message)s",
-    level="INFO")
+    level="DEBUG")
 logger = logging.getLogger(__file__)
 
 
