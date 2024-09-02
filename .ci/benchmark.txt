@@ -1,4 +1,4 @@
-META MD5 ae891692a24ee1f3729f1a59fd9c6504
+META MD5 19a4524c03edbbe339411f700d85030f
 DATA MD5 ccfb667ad134c71fc9f2b28693c8023a
 DATA: 16345157 interested lines. MARKUP: 62787 items
 FileType           FileNumber    ValidLines    Positives    Negatives    Templates
@@ -115,7 +115,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .md                       674        149399          737         2395          623
 .mdx                        3           549                         7
 .mjml                       1            18                         1
-.mjs                       22          4424           76          340
+.mjs                       22          4424           75          340
 .mk                         1          5878                        13
 .ml                         1          1856                        16
 .mlir                       2          1596                        19
@@ -222,7 +222,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .yml                      418         36162          547          891          379
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  10259      16345157        12181        50491         5105
+TOTAL:                  10259      16345157        12180        50491         5105
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Templates    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -264,8 +264,8 @@ Salt                                     45           76            2           
 Secret                                 1297         1574          799                 0     0   2373   1297  0.000000  1.000000  0.646594         0.000000
 Seed                                      1            6            0                 0     0      6      1  0.000000  1.000000  0.857143         0.000000
 Slack Token                               4            1            0                 0     0      1      4  0.000000  1.000000  0.200000         0.000000
-Token                                   647         4175          438                 0     0   4613    647  0.000000  1.000000  0.876996         0.000000
+Token                                   646         4175          438                 0     0   4613    646  0.000000  1.000000  0.877163         0.000000
 Twilio API Key                            0            5            2                 0     0      7      0  0.000000            1.000000
 URL Credentials                         210          149          220                 0     0    369    210  0.000000  1.000000  0.637306         0.000000
 UUID                                   1069          265            0                 0     0    265   1069  0.000000  1.000000  0.198651         0.000000
-                                      12181        50491         5105           0     0     0  50491  12181  0.000000  1.000000  0.805639         0.000000
+                                      12180        50491         5105           0     0     0  50491  12180  0.000000  1.000000  0.805652         0.000000
