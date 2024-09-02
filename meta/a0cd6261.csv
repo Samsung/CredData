@@ -92,19 +92,19 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 25314,d4acce9c,GitHub,a0cd6261,data/a0cd6261/other/d4acce9c.md,38,38,Template,T,56,67,F,F,Any,,,Secret,2.15,11,F,F,F,Password
 25452,b0b094af,GitHub,a0cd6261,data/a0cd6261/other/b0b094af.md,511,511,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 25921,e955e6ae,GitHub,a0cd6261,data/a0cd6261/other/e955e6ae.md,445,445,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Token
-26395,919b979a,GitHub,a0cd6261,data/a0cd6261/other/919b979a.md,185,185,T,F,36,55,F,F,,,,,0.0,0,F,F,F,Password:ConvertTo-SecureString
+26395,919b979a,GitHub,a0cd6261,data/a0cd6261/other/919b979a.md,185,185,T,F,36,55,F,F,,,,,0.0,0,F,F,F,Password:CMD SecureString
 26630,92025475,GitHub,a0cd6261,data/a0cd6261/other/92025475.md,262,262,F,F,,,F,F,,,,,0,0,F,F,F,Token
 28831,3b98604a,GitHub,a0cd6261,data/a0cd6261/other/3b98604a.md,762,762,T,F,57,68,F,F,Any,,,Secret,2.52,12,F,F,F,Password
-29115,3b98604a,GitHub,a0cd6261,data/a0cd6261/other/3b98604a.md,1686,1686,T,T,35,43,F,F,Any,,,Unknown,3.37,23,F,F,F,Password:ConvertTo-SecureString
+29115,3b98604a,GitHub,a0cd6261,data/a0cd6261/other/3b98604a.md,1686,1686,T,T,35,43,F,F,Any,,,Unknown,3.37,23,F,F,F,Password:CMD SecureString
 29132,7f6a3252,GitHub,a0cd6261,data/a0cd6261/other/7f6a3252.md,96,96,Template,T,30,45,F,F,CharsOnly,,,Token,3.37,15,F,F,F,Token
 29142,7f6a3252,GitHub,a0cd6261,data/a0cd6261/other/7f6a3252.md,95,95,Template,T,25,40,F,F,CharsOnly,,,Token,3.37,15,F,F,F,Token
 29143,7f6a3252,GitHub,a0cd6261,data/a0cd6261/other/7f6a3252.md,97,97,Template,T,22,37,F,F,CharsOnly,,,Token,3.37,15,F,F,F,Token
 29148,e955e6ae,GitHub,a0cd6261,data/a0cd6261/other/e955e6ae.md,846,846,T,T,49,60,F,F,Any,,,Unknown,3.12,11,F,F,F,Password
 29150,e955e6ae,GitHub,a0cd6261,data/a0cd6261/other/e955e6ae.md,847,847,T,T,49,60,F,F,Any,,,Unknown,3.12,11,F,F,F,Password
 29160,919b979a,GitHub,a0cd6261,data/a0cd6261/other/919b979a.md,80,80,Template,F,10,15,F,F,Any,,,Secret,2.32,5,F,F,F,Password
-29165,3b98604a,GitHub,a0cd6261,data/a0cd6261/other/3b98604a.md,1719,1719,T,T,41,49,F,F,Any,,,Secret,3.37,23,F,F,F,Password:ConvertTo-SecureString
-29166,3b98604a,GitHub,a0cd6261,data/a0cd6261/other/3b98604a.md,1769,1769,T,T,39,51,T,F,Any,,,Secret,3.37,23,F,F,F,Password:ConvertTo-SecureString
-29215,e955e6ae,GitHub,a0cd6261,data/a0cd6261/other/e955e6ae.md,921,921,F,T,-1,-1,F,F,Any,,,Secret,3.37,23,F,F,F,Password:ConvertTo-SecureString
+29165,3b98604a,GitHub,a0cd6261,data/a0cd6261/other/3b98604a.md,1719,1719,T,T,41,49,F,F,Any,,,Secret,3.37,23,F,F,F,Password:CMD SecureString
+29166,3b98604a,GitHub,a0cd6261,data/a0cd6261/other/3b98604a.md,1769,1769,T,T,39,51,T,F,Any,,,Secret,3.37,23,F,F,F,Password:CMD SecureString
+29215,e955e6ae,GitHub,a0cd6261,data/a0cd6261/other/e955e6ae.md,921,921,F,T,-1,-1,F,F,Any,,,Secret,3.37,23,F,F,F,Password:CMD SecureString
 29258,b3e1b56b,GitHub,a0cd6261,data/a0cd6261/other/b3e1b56b.md,237,237,T,T,43,57,F,F,Any,,,Secret,2.91,14,F,F,F,Password
 29351,b0464027,GitHub,a0cd6261,data/a0cd6261/other/b0464027.md,666,666,T,F,67,94,T,F,Any,,Google OAuth Access Token,Auth,2.99,27,F,F,F,Google OAuth Access Token:Token
 29684,a2d793d9,GitHub,a0cd6261,data/a0cd6261/other/a2d793d9.md,215,215,Template,T,48,52,T,F,Any,,,Auth,1.50,4,F,F,F,Auth
@@ -112,12 +112,12 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 29851,3b98604a,GitHub,a0cd6261,data/a0cd6261/other/3b98604a.md,2165,2165,T,T,31,42,F,F,Any,,,Secret,2.96,11,F,F,F,Password
 30031,29bb2e65,GitHub,a0cd6261,data/a0cd6261/test/29bb2e65.md,254,254,T,F,25,60,F,F,Any,,,Secret,3.93,35,F,F,F,Key:Secret
 30085,29bb2e65,GitHub,a0cd6261,data/a0cd6261/test/29bb2e65.md,88,88,T,F,87,123,F,F,Any,,,Secret,4.78,36,F,F,F,Key:Secret
-30509,7269210a,GitHub,a0cd6261,data/a0cd6261/test/7269210a.md,201,201,T,T,42,59,F,F,Any,,,Secret,3.37,23,F,F,F,Password:ConvertTo-SecureString
+30509,7269210a,GitHub,a0cd6261,data/a0cd6261/test/7269210a.md,201,201,T,T,42,59,F,F,Any,,,Secret,3.37,23,F,F,F,Password:CMD SecureString
 30658,c4cf4dfc,GitHub,a0cd6261,data/a0cd6261/other/c4cf4dfc.md,132,132,Template,T,73,97,T,F,Any,,,Token,3.48,24,F,F,F,Token
 30659,c4cf4dfc,GitHub,a0cd6261,data/a0cd6261/other/c4cf4dfc.md,91,91,Template,T,63,82,T,F,Any,,,Token,2.93,19,F,F,F,Token
 30660,c4cf4dfc,GitHub,a0cd6261,data/a0cd6261/other/c4cf4dfc.md,67,67,Template,F,73,77,T,F,CharsOnly,,,Secret,0,4,F,F,F,Password
 30667,c4cf4dfc,GitHub,a0cd6261,data/a0cd6261/other/c4cf4dfc.md,129,129,Template,T,52,76,T,F,Any,,,Token,3.48,24,F,F,F,Token
-30769,919b979a,GitHub,a0cd6261,data/a0cd6261/other/919b979a.md,127,127,T,T,47,61,F,F,Any,,,Secret,3.37,23,F,F,F,Password:ConvertTo-SecureString
+30769,919b979a,GitHub,a0cd6261,data/a0cd6261/other/919b979a.md,127,127,T,T,47,61,F,F,Any,,,Secret,3.37,23,F,F,F,Password:CMD SecureString
 30936,3b98604a,GitHub,a0cd6261,data/a0cd6261/other/3b98604a.md,2368,2368,T,T,29,38,F,F,Any,,,Secret,2.95,9,F,F,F,Password
 31038,a5bf5de5,GitHub,a0cd6261,data/a0cd6261/other/a5bf5de5.md,84,84,Template,T,53,62,F,F,CharsOnly,,,Secret,2.95,9,F,F,F,Password
 31108,3b98604a,GitHub,a0cd6261,data/a0cd6261/other/3b98604a.md,2166,2166,T,T,37,48,F,F,Any,,,Secret,2.96,11,F,F,F,Password
@@ -203,7 +203,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 114013,d73e7ecc,GitHub,a0cd6261,data/a0cd6261/other/d73e7ecc.md,54,54,F,F,,,F,F,,,,,0.00,,F,F,F,AWS S3 Bucket
 114014,b0464027,GitHub,a0cd6261,data/a0cd6261/other/b0464027.md,660,660,F,F,,,F,F,,,,,0.00,,F,F,F,Token
 114015,c7caa3f3,GitHub,a0cd6261,data/a0cd6261/other/c7caa3f3.md,211,211,T,F,100,228,F,F,,,,,0.0,-1,F,F,F,Key
-114016,3b98604a,GitHub,a0cd6261,data/a0cd6261/other/3b98604a.md,1688,1688,T,F,39,52,F,F,,,,,0.0,-1,F,F,F,Password:ConvertTo-SecureString
+114016,3b98604a,GitHub,a0cd6261,data/a0cd6261/other/3b98604a.md,1688,1688,T,F,39,52,F,F,,,,,0.0,-1,F,F,F,Password:CMD SecureString
 114017,3b98604a,GitHub,a0cd6261,data/a0cd6261/other/3b98604a.md,230,230,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
 114018,b0b094af,GitHub,a0cd6261,data/a0cd6261/other/b0b094af.md,631,631,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 114019,b0b094af,GitHub,a0cd6261,data/a0cd6261/other/b0b094af.md,641,641,F,F,,,F,F,,,,,0.00,,F,F,F,Password
@@ -286,18 +286,19 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 1340828,40bae391,GitHub,a0cd6261,data/a0cd6261/src/40bae391.txt,445,445,T,F,22,58,F,F,,,,,0.0,0,F,F,F,UUID
 1340829,29bb2e65,GitHub,a0cd6261,data/a0cd6261/test/29bb2e65.md,266,266,T,F,59,95,F,F,,,,,0.0,0,F,F,F,UUID
 1341492,29bb2e65,GitHub,a0cd6261,data/a0cd6261/test/29bb2e65.md,270,270,T,F,138,174,F,F,,,,,0.0,0,F,F,F,UUID
-1479410,3b98604a,GitHub,a0cd6261,data/a0cd6261/other/3b98604a.md,148,148,F,F,94,104,F,F,,,,,0.0,0,F,F,F,CMD Password
-1479411,3b98604a,GitHub,a0cd6261,data/a0cd6261/other/3b98604a.md,1001,1001,T,F,37,48,F,F,,,,,0.0,0,F,F,F,CMD Password
-1479412,3b98604a,GitHub,a0cd6261,data/a0cd6261/other/3b98604a.md,1069,1069,F,F,39,64,F,F,,,,,0.0,0,F,F,F,CMD Password
-1479415,3b98604a,GitHub,a0cd6261,data/a0cd6261/other/3b98604a.md,1713,1713,T,F,575,585,F,F,,,,,0.0,0,F,F,F,CMD Password
-1479418,3b98604a,GitHub,a0cd6261,data/a0cd6261/other/3b98604a.md,2137,2137,F,F,57,,F,F,,,,,0.0,0,F,F,F,CMD Password
-1479419,3b98604a,GitHub,a0cd6261,data/a0cd6261/other/3b98604a.md,2137,2137,T,F,83,94,F,F,,,,,0.0,0,F,F,F,ConvertTo-SecureString
-1479420,3b98604a,GitHub,a0cd6261,data/a0cd6261/other/3b98604a.md,2230,2230,F,F,61,,F,F,,,,,0.0,0,F,F,F,CMD Password
-1479421,3b98604a,GitHub,a0cd6261,data/a0cd6261/other/3b98604a.md,2230,2230,T,F,87,110,F,F,,,,,0.0,0,F,F,F,ConvertTo-SecureString
-1479422,6a1897e7,GitHub,a0cd6261,data/a0cd6261/other/6a1897e7.md,70,70,T,F,158,173,F,F,,,,,0.0,0,F,F,F,CMD Password
-1479423,6a1897e7,GitHub,a0cd6261,data/a0cd6261/other/6a1897e7.md,73,73,F,F,46,50,F,F,,,,,0.0,0,F,F,F,CMD Password
-1479426,99d7b7a6,GitHub,a0cd6261,data/a0cd6261/other/99d7b7a6.md,168,168,T,F,65,75,F,F,,,,,0.0,0,F,F,F,CMD Password
-1479427,a2d793d9,GitHub,a0cd6261,data/a0cd6261/other/a2d793d9.md,280,280,T,F,64,70,F,F,,,,,0.0,0,F,F,F,CMD Password
-1479429,35f06517,GitHub,a0cd6261,data/a0cd6261/test/35f06517.md,26,26,T,F,83,89,F,F,,,,,0.0,0,F,F,F,CMD Password
-1479431,7269210a,GitHub,a0cd6261,data/a0cd6261/test/7269210a.md,313,313,T,F,52,62,F,F,,,,,0.0,0,F,F,F,CMD Password
-1479432,7269210a,GitHub,a0cd6261,data/a0cd6261/test/7269210a.md,314,314,T,F,49,61,F,F,,,,,0.0,0,F,F,F,CMD Password
+1479410,3b98604a,GitHub,a0cd6261,data/a0cd6261/other/3b98604a.md,148,148,F,F,94,104,F,F,,,,,0.0,0,F,F,F,CMD Credential
+1479411,3b98604a,GitHub,a0cd6261,data/a0cd6261/other/3b98604a.md,1001,1001,T,F,37,48,F,F,,,,,0.0,0,F,F,F,CMD Credential
+1479412,3b98604a,GitHub,a0cd6261,data/a0cd6261/other/3b98604a.md,1069,1069,F,F,39,64,F,F,,,,,0.0,0,F,F,F,CMD Credential
+1479415,3b98604a,GitHub,a0cd6261,data/a0cd6261/other/3b98604a.md,1713,1713,T,F,575,585,F,F,,,,,0.0,0,F,F,F,CMD Credential
+1479418,3b98604a,GitHub,a0cd6261,data/a0cd6261/other/3b98604a.md,2137,2137,F,F,57,,F,F,,,,,0.0,0,F,F,F,CMD Credential
+1479419,3b98604a,GitHub,a0cd6261,data/a0cd6261/other/3b98604a.md,2137,2137,T,F,83,94,F,F,,,,,0.0,0,F,F,F,CMD SecureString
+1479420,3b98604a,GitHub,a0cd6261,data/a0cd6261/other/3b98604a.md,2230,2230,F,F,61,,F,F,,,,,0.0,0,F,F,F,CMD Credential
+1479421,3b98604a,GitHub,a0cd6261,data/a0cd6261/other/3b98604a.md,2230,2230,T,F,87,110,F,F,,,,,0.0,0,F,F,F,CMD SecureString
+1479422,6a1897e7,GitHub,a0cd6261,data/a0cd6261/other/6a1897e7.md,70,70,T,F,158,173,F,F,,,,,0.0,0,F,F,F,CMD Credential
+1479423,6a1897e7,GitHub,a0cd6261,data/a0cd6261/other/6a1897e7.md,73,73,F,F,46,50,F,F,,,,,0.0,0,F,F,F,CMD Credential
+1479426,99d7b7a6,GitHub,a0cd6261,data/a0cd6261/other/99d7b7a6.md,168,168,T,F,65,75,F,F,,,,,0.0,0,F,F,F,CMD Credential
+1479427,a2d793d9,GitHub,a0cd6261,data/a0cd6261/other/a2d793d9.md,280,280,T,F,64,70,F,F,,,,,0.0,0,F,F,F,CMD Credential
+1479429,35f06517,GitHub,a0cd6261,data/a0cd6261/test/35f06517.md,26,26,T,F,83,89,F,F,,,,,0.0,0,F,F,F,CMD Credential
+1479431,7269210a,GitHub,a0cd6261,data/a0cd6261/test/7269210a.md,313,313,T,F,52,62,F,F,,,,,0.0,0,F,F,F,CMD Credential
+1479432,7269210a,GitHub,a0cd6261,data/a0cd6261/test/7269210a.md,314,314,T,F,49,61,F,F,,,,,0.0,0,F,F,F,CMD Credential
+1479563,7269210a,GitHub,a0cd6261,data/a0cd6261/test/7269210a.md,108,108,T,F,138,154,F,F,,,,,0.0,0,F,F,F,CMD Credential

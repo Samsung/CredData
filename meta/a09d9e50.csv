@@ -263,7 +263,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 132929,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,3232,3232,T,F,962,972,F,F,,,,,0,0,F,F,F,Password
 132930,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,3511,3511,F,F,,,F,F,,,,,0,0,F,F,F,Password
 132931,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,3554,3554,F,F,,,F,F,,,,,0,0,F,F,F,Password:API
-132932,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,3580,3580,T,F,3017,3028,F,F,,,,,0.0,0,F,F,F,Password:ConvertTo-SecureString
+132932,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,3580,3580,T,F,3017,3028,F,F,,,,,0.0,0,F,F,F,Password:CMD SecureString
 132933,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,4342,4342,F,F,,,F,F,,,,,0,0,F,F,F,Password
 132934,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,4593,4593,F,F,,,F,F,,,,,0,0,F,F,F,Password
 132935,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,4749,4749,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -405,5 +405,5 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 1341539,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,4301,4301,T,F,542,578,F,F,,,,,0.0,0,F,F,F,UUID
 1479367,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,727,727,F,F,,,F,F,,,,,0.0,0,F,F,F,Password
 1479371,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1675,1675,F,F,,,F,F,,,,,0.0,0,F,F,F,API
-1479407,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1187,1187,F,F,1122,1126,F,F,,,,,0.0,0,F,F,F,CMD Password
-1479408,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1404,1404,T,F,431,441,F,F,,,,,0.0,0,F,F,F,ConvertTo-SecureString
+1479407,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1187,1187,F,F,1122,1126,F,F,,,,,0.0,0,F,F,F,CMD Credential
+1479408,054074fe,GitHub,a09d9e50,data/a09d9e50/test/054074fe.ndjson,1404,1404,T,F,431,441,F,F,,,,,0.0,0,F,F,F,CMD SecureString
