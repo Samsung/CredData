@@ -50,7 +50,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 86693,2b6ecf50,GitHub,48fd3902,data/48fd3902/src/2b6ecf50.yml,59,59,F,F,24,30,F,F,,,,,1.36,6,F,F,F,Secret
 86694,2c75a21c,GitHub,48fd3902,data/48fd3902/src/2c75a21c.sh,7,7,T,F,18,26,F,F,,,,,3.00,8,F,F,F,Password:Key
 86695,f2e247c8,GitHub,48fd3902,data/48fd3902/src/f2e247c8.sh,33,33,F,F,21,25,F,F,,,,,1.50,4,F,F,F,Key
-86696,f2e247c8,GitHub,48fd3902,data/48fd3902/src/f2e247c8.sh,50,50,T,F,50,58,F,F,,,,,3.0,8,F,F,F,Password:Certificate
+86696,f2e247c8,GitHub,48fd3902,data/48fd3902/src/f2e247c8.sh,50,50,T,F,50,58,F,F,,,,,3.0,8,F,F,F,Password:Certificate:CMD Password
 86697,f2e247c8,GitHub,48fd3902,data/48fd3902/src/f2e247c8.sh,9,9,F,F,18,22,F,F,,,,,2.0,4,F,F,F,Key
 86698,37cda432,GitHub,48fd3902,data/48fd3902/src/37cda432.kt,133,133,F,F,73,86,F,F,,,,,3.39,13,F,F,F,Certificate
 86699,4f357f9a,GitHub,48fd3902,data/48fd3902/src/4f357f9a.yml,44,44,F,F,15,19,F,F,,,,,2.0,4,F,F,F,Key
@@ -93,7 +93,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 86736,e45e45ba,GitHub,48fd3902,data/48fd3902/src/e45e45ba.yml,23,23,T,F,25,30,F,F,,,,,2.32,5,F,F,F,Password
 86737,e54d1d19,GitHub,48fd3902,data/48fd3902/src/e54d1d19.kt,17,17,F,F,107,111,F,F,,,,,1.50,4,F,F,F,Key
 86738,e54d1d19,GitHub,48fd3902,data/48fd3902/src/e54d1d19.kt,36,36,F,F,37,41,F,F,,,,,2.0,4,F,F,F,Credential
-86739,ed68be3f,GitHub,48fd3902,data/48fd3902/src/ed68be3f.sh,18,18,F,F,37,45,F,F,,,,,3.0,8,F,F,F,Password
+86739,ed68be3f,GitHub,48fd3902,data/48fd3902/src/ed68be3f.sh,18,18,T,F,37,45,F,F,,,,,3.0,8,F,F,F,Password
 86740,06b333d0,GitHub,48fd3902,data/48fd3902/test/06b333d0.java,36,36,F,F,79,102,F,F,,,,,3.31,23,F,F,F,Password
 86741,0a6a1ff8,GitHub,48fd3902,data/48fd3902/test/0a6a1ff8.kt,83,83,F,F,35,39,F,F,,,,,1.5,4,F,F,F,Certificate
 86742,0a6a1ff8,GitHub,48fd3902,data/48fd3902/test/0a6a1ff8.kt,133,133,F,F,52,61,F,F,,,,,2.6,9,F,F,F,Certificate
@@ -121,7 +121,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 86764,5443428d,GitHub,48fd3902,data/48fd3902/test/5443428d.java,95,95,F,F,48,61,F,F,,,,,2.9,13,F,F,F,Password
 86765,c8719261,GitHub,48fd3902,data/48fd3902/test/c8719261.java,32,32,F,F,26,36,F,F,,,,,2.59,10,F,F,F,Nonce
 86766,aaa8197f,GitHub,48fd3902,data/48fd3902/test/aaa8197f.kt,384,384,F,F,29,42,F,F,,,,,2.9,13,F,F,F,Password
-86767,aaa8197f,GitHub,48fd3902,data/48fd3902/test/aaa8197f.kt,385,385,T,F,34,47,F,F,,,,,3.13,13,F,F,F,Password
+86767,aaa8197f,GitHub,48fd3902,data/48fd3902/test/aaa8197f.kt,385,385,F,F,34,47,F,F,,,,HashOfPassword,3.13,13,F,F,F,Password
 86768,5ffb445b,GitHub,48fd3902,data/48fd3902/test/5ffb445b.kt,517,517,F,F,85,92,F,F,,,,,2.41,7,F,F,F,Credential
 86769,5ffb445b,GitHub,48fd3902,data/48fd3902/test/5ffb445b.kt,568,568,F,F,87,94,F,F,,,,,2.41,7,F,F,F,Credential
 86770,5ffb445b,GitHub,48fd3902,data/48fd3902/test/5ffb445b.kt,652,652,F,F,96,100,F,F,,,,,2.0,4,F,F,F,Credential
@@ -209,7 +209,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 1113120,f1536ec6,GitHub,48fd3902,data/48fd3902/test/f1536ec6.kt,129,129,F,F,35,40,F,F,,,,,0.0,0,F,F,F,Certificate
 1113121,f1536ec6,GitHub,48fd3902,data/48fd3902/test/f1536ec6.kt,131,131,F,F,47,58,F,F,,,,,0.0,0,F,F,F,Certificate
 1113122,ff2a9656,GitHub,48fd3902,data/48fd3902/test/ff2a9656.java,37,37,F,F,27,43,F,F,,,,,0.0,0,F,F,F,Password
-1113097,2c75a21c,GitHub,48fd3902,data/48fd3902/src/2c75a21c.sh,42,42,T,F,50,58,F,F,,,,,0.0,0,F,F,F,Certificate:Password
+1113097,2c75a21c,GitHub,48fd3902,data/48fd3902/src/2c75a21c.sh,42,42,T,F,50,58,F,F,,,,,0.0,0,F,F,F,Certificate:Password:CMD Password
 1113101,4f357f9a,GitHub,48fd3902,data/48fd3902/src/4f357f9a.yml,16,16,F,F,27,52,F,F,,,,,0.0,0,F,F,F,Password:Gitlab Incoming Email Token
 1113108,5ffb445b,GitHub,48fd3902,data/48fd3902/test/5ffb445b.kt,280,280,T,F,29,42,F,F,,,,,0.0,0,F,F,F,Password
 1113110,a73bbe0d,GitHub,48fd3902,data/48fd3902/test/a73bbe0d.java,476,476,T,F,70,80,F,F,,,,,0.0,0,F,F,F,Credential:Password

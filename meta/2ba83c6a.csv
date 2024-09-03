@@ -75,7 +75,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 4026,22af71dd,GitHub,2ba83c6a,data/2ba83c6a/src/22af71dd.c,307,307,F,F,,,F,F,,,,,0,0,F,F,F,Password
 4354,9caddd4c,GitHub,2ba83c6a,data/2ba83c6a/test/9caddd4c.pl,92,92,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 4408,ac041dcc,GitHub,2ba83c6a,data/2ba83c6a/test/ac041dcc.c,232,232,F,F,,,F,F,,,,,0,0,F,F,F,Token
-4422,0ca18ba6,GitHub,2ba83c6a,data/2ba83c6a/other/0ca18ba6.in,381,381,F,F,,,F,F,,,,,0,0,F,F,F,Password:Key
+4422,0ca18ba6,GitHub,2ba83c6a,data/2ba83c6a/other/0ca18ba6.in,381,381,F,F,,,F,F,,,,,0,0,F,F,F,Password:Key:CMD Password
 4471,b689ad42,GitHub,2ba83c6a,data/2ba83c6a/src/b689ad42.txt,32,32,F,F,,,F,F,,,,,0,0,F,F,F,API
 4472,b689ad42,GitHub,2ba83c6a,data/2ba83c6a/src/b689ad42.txt,28,28,F,F,,,F,F,,,,,0,0,F,F,F,API
 4474,8119ac7d,GitHub,2ba83c6a,data/2ba83c6a/src/8119ac7d.c,503,503,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
@@ -578,16 +578,16 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 24196,b9ce04bc,GitHub,2ba83c6a,data/2ba83c6a/test/b9ce04bc.txt,514,514,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 24197,b9ce04bc,GitHub,2ba83c6a,data/2ba83c6a/test/b9ce04bc.txt,252,252,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 24198,b9ce04bc,GitHub,2ba83c6a,data/2ba83c6a/test/b9ce04bc.txt,231,231,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-24199,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,244,244,T,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
-24200,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,238,238,T,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
-24201,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,232,232,T,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
-24202,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,226,226,T,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
-24203,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,220,220,T,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
-24204,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,214,214,T,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
-24205,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,208,208,T,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
-24206,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,202,202,T,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
-24207,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,196,196,T,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
-24208,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,190,190,T,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
+24199,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,244,244,F,F,6,38,F,F,,,,Low entropy,0.0,0,F,F,F,Key
+24200,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,238,238,F,F,6,38,F,F,,,,Low entropy,0.0,0,F,F,F,Key
+24201,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,232,232,F,F,6,38,F,F,,,,Low entropy,0.0,0,F,F,F,Key
+24202,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,226,226,F,F,6,38,F,F,,,,Low entropy,0.0,0,F,F,F,Key
+24203,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,220,220,F,F,6,38,F,F,,,,Low entropy,0.0,0,F,F,F,Key
+24204,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,214,214,F,F,6,38,F,F,,,,Low entropy,0.0,0,F,F,F,Key
+24205,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,208,208,F,F,6,38,F,F,,,,Low entropy,0.0,0,F,F,F,Key
+24206,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,202,202,F,F,6,38,F,F,,,,Low entropy,0.0,0,F,F,F,Key
+24207,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,196,196,F,F,6,38,F,F,,,,Low entropy,0.0,0,F,F,F,Key
+24208,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,190,190,F,F,6,38,F,F,,,,Low entropy,0.0,0,F,F,F,Key
 24209,4acf8d32,GitHub,2ba83c6a,data/2ba83c6a/test/4acf8d32.txt,283,283,T,F,6,70,F,F,,,,,0.0,0,F,F,F,Key
 24210,911dde03,GitHub,2ba83c6a,data/2ba83c6a/test/911dde03.txt,7033,7033,T,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
 24211,911dde03,GitHub,2ba83c6a,data/2ba83c6a/test/911dde03.txt,11668,11668,T,F,6,54,F,F,,,,,0.0,0,F,F,F,Key
@@ -599,14 +599,14 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 24217,4acf8d32,GitHub,2ba83c6a,data/2ba83c6a/test/4acf8d32.txt,37,37,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Bitbucket Client Secret:Bitbucket Client ID
 24218,556bad09,GitHub,2ba83c6a,data/2ba83c6a/test/556bad09.txt,525,525,T,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
 24219,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,160,160,F,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
-24220,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,166,166,T,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
-24221,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,172,172,T,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
-24222,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,178,178,T,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
-24223,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,184,184,T,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
+24220,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,166,166,F,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
+24221,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,172,172,F,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
+24222,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,178,178,F,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
+24223,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,184,184,F,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
 24224,4acf8d32,GitHub,2ba83c6a,data/2ba83c6a/test/4acf8d32.txt,276,276,T,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
 24225,28587231,GitHub,2ba83c6a,data/2ba83c6a/test/28587231.txt,190,190,T,F,6,70,F,F,,,,,0.0,0,F,F,F,Key
 24226,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,256,256,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Bitbucket Client Secret:Bitbucket Client ID
-24227,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,268,268,T,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
+24227,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,268,268,F,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
 24228,911dde03,GitHub,2ba83c6a,data/2ba83c6a/test/911dde03.txt,12703,12703,T,F,6,70,F,F,,,,,0.0,0,F,F,F,Key
 24229,911dde03,GitHub,2ba83c6a,data/2ba83c6a/test/911dde03.txt,4067,4067,T,F,6,54,F,F,,,,,0.0,0,F,F,F,Key
 24230,911dde03,GitHub,2ba83c6a,data/2ba83c6a/test/911dde03.txt,1834,1834,T,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
@@ -624,21 +624,21 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 24242,125ec83f,GitHub,2ba83c6a,data/2ba83c6a/test/125ec83f.txt,682,682,T,F,6,70,F,F,,,,,0.0,0,F,F,F,Key
 24243,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,352,352,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 24244,9a2be57e,GitHub,2ba83c6a,data/2ba83c6a/test/9a2be57e.txt,49,49,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-24245,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,274,274,T,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
-24246,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,280,280,T,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
-24247,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,286,286,T,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
-24248,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,292,292,T,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
-24249,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,298,298,T,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
+24245,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,274,274,F,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
+24246,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,280,280,F,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
+24247,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,286,286,F,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
+24248,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,292,292,F,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
+24249,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,298,298,F,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
 24250,125ec83f,GitHub,2ba83c6a,data/2ba83c6a/test/125ec83f.txt,675,675,T,F,6,70,F,F,,,,,0.0,0,F,F,F,Key
 24251,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,262,262,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-24252,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,304,304,T,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
-24253,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,316,316,T,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
-24254,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,322,322,T,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
-24255,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,328,328,T,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
-24256,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,334,334,T,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
-24257,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,340,340,T,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
-24258,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,346,346,T,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
-24259,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,310,310,T,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
+24252,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,304,304,F,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
+24253,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,316,316,F,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
+24254,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,322,322,F,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
+24255,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,328,328,F,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
+24256,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,334,334,F,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
+24257,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,340,340,F,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
+24258,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,346,346,F,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
+24259,92404dee,GitHub,2ba83c6a,data/2ba83c6a/test/92404dee.txt,310,310,F,F,6,38,F,F,,,,,0.0,0,F,F,F,Key
 24260,911dde03,GitHub,2ba83c6a,data/2ba83c6a/test/911dde03.txt,12223,12223,T,F,6,70,F,F,,,,,0.0,0,F,F,F,Key
 24261,911dde03,GitHub,2ba83c6a,data/2ba83c6a/test/911dde03.txt,20913,20913,T,F,6,70,F,F,,,,,0.0,0,F,F,F,Key
 24262,28587231,GitHub,2ba83c6a,data/2ba83c6a/test/28587231.txt,89,89,T,F,6,70,F,F,,,,,0.0,0,F,F,F,Key
@@ -10030,3 +10030,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 1024196,b9ce04bc,GitHub,2ba83c6a,data/2ba83c6a/test/b9ce04bc.txt,534,534,T,F,16,101,F,F,,,,,0,0,F,F,F,Key
 1024197,b9ce04bc,GitHub,2ba83c6a,data/2ba83c6a/test/b9ce04bc.txt,550,550,T,F,16,101,F,F,,,,,0,0,F,F,F,Key
 1341510,eba027be,GitHub,2ba83c6a,data/2ba83c6a/src/eba027be.c,161,161,F,F,35,64,F,F,,,,,0.0,0,F,F,F,Password
+1479378,d975bf65,GitHub,2ba83c6a,data/2ba83c6a/other/d975bf65.md,11116,11116,F,F,19,27,F,F,,,,,0.0,0,F,F,F,CMD Password
+1479379,32929be3,GitHub,2ba83c6a,data/2ba83c6a/src/32929be3.c,334,334,F,F,38,47,F,F,,,,,0.0,0,F,F,F,CMD Password
+1479380,9a497e27,GitHub,2ba83c6a,data/2ba83c6a/src/9a497e27.c,142,142,F,F,36,44,F,F,,,,,0.0,0,F,F,F,CMD Password
