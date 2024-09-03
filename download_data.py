@@ -19,7 +19,7 @@ from meta_row import read_meta, MetaRow
 
 logging.basicConfig(
     format="%(asctime)s | %(levelname)s | %(filename)s:%(lineno)s | %(message)s",
-    level="DEBUG")
+    level="INFO")
 logger = logging.getLogger(__file__)
 
 
@@ -159,12 +159,14 @@ def move_files(temp_dir, dataset_dir):
         for full_path in repo_files:
             short_path = os.path.relpath(full_path, f"{temp_dir}/{ownername}/{reponame}/").replace('\\', '/')
             file_id = hashlib.sha256(short_path.encode()).hexdigest()[:8]
+            _, file_extension = os.path.splitext(full_path)
+            file_type = get_file_type(short_path, file_extension)
             if file_id in interesting_files.keys():
                 files_found.add(full_path)
                 ids_found.add(file_id)
-                logger.debug(f"COPY {full_path} ; {short_path} -> {file_id} : {new_repo_id}")
+                logger.debug(f"COPY {full_path} ; {short_path} -> {file_id} : {new_repo_id} : {file_type}")
             else:
-                logger.debug(f"SKIP {full_path} ; {short_path} -> {file_id} : {new_repo_id}")
+                logger.debug(f"SKIP {full_path} ; {short_path} -> {file_id} : {new_repo_id} : {file_type}")
 
         # Check if there are files that present in meta but we could not find, or we somehow found files not from meta
         if len(ids_found.symmetric_difference(set(interesting_files.keys()))) != 0:
