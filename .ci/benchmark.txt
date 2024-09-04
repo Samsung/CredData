@@ -1,4 +1,4 @@
-META MD5 514244ee1914d923ac3b4db607edb764
+META MD5 a971a87bd84d1b66f06447bc3a84011c
 DATA MD5 2fe1d6cff9dd73fe75e961c10871840d
 DATA: 16345596 interested lines. MARKUP: 62804 items
 FileType           FileNumber    ValidLines    Positives    Negatives    Templates
@@ -82,7 +82,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .ipynb                      1           134                         5
 .j                          1           241            4
 .j2                        30          5530            6          186           10
-.java                     621        134132          364         1364          170
+.java                     621        134132          363         1364          170
 .jenkinsfile                1            58            2            6
 .jinja2                     1            64                         2
 .js                       659        536413          535         2496          328
@@ -113,7 +113,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .markdown                   3           139                         3            1
 .markerb                    3            12                         3
 .marko                      1            21                         2
-.md                       675        149568          738         2395          623
+.md                       675        149568          731         2393          623
 .mdx                        3           549                         7
 .mjml                       1            18                         1
 .mjs                       22          4424           75          340
@@ -125,7 +125,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .mqh                        1          1023                         2
 .msg                        1         26644            1            1
 .mysql                      1            36                                      2
-.ndjson                     2          5006           75          239            2
+.ndjson                     2          5006           74          239            2
 .nix                        4           211                        12
 .nolint                     1             2                         1
 .odd                        1          1281                        43
@@ -223,7 +223,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .yml                      419         36169          548          891          379
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  10264      16345596        12189        50508         5103
+TOTAL:                  10264      16345596        12180        50506         5103
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Templates    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -262,7 +262,7 @@ Key                                    3899        15718          482           
 Nonce                                    91           49            0                 0     0     49     91  0.000000  1.000000  0.350000         0.000000
 Other                                     0         8291            1                 0     0   8292      0  0.000000            1.000000
 PEM Private Key                        1019         1483            0                 0     0   1483   1019  0.000000  1.000000  0.592726         0.000000
-Password                               1856         7540         2702                 0     0  10242   1856  0.000000  1.000000  0.846586         0.000000
+Password                               1847         7538         2702                 0     0  10240   1847  0.000000  1.000000  0.847191         0.000000
 Salt                                     45           76            2                 0     0     78     45  0.000000  1.000000  0.634146         0.000000
 Secret                                 1297         1575          799                 0     0   2374   1297  0.000000  1.000000  0.646690         0.000000
 Seed                                      1            6            0                 0     0      6      1  0.000000  1.000000  0.857143         0.000000
@@ -271,4 +271,4 @@ Token                                   647         4175          438           
 Twilio API Key                            0            5            2                 0     0      7      0  0.000000            1.000000
 URL Credentials                         210          151          220                 0     0    371    210  0.000000  1.000000  0.638554         0.000000
 UUID                                   1069          265            0                 0     0    265   1069  0.000000  1.000000  0.198651         0.000000
-                                      12189        50508         5103           0     0     0  50508  12189  0.000000  1.000000  0.805589         0.000000
+                                      12180        50506         5103           0     0     0  50506  12180  0.000000  1.000000  0.805698         0.000000
