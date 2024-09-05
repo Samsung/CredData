@@ -38,7 +38,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 29384,a3046da0,GitHub,c2d95db7,data/c2d95db7/test/a3046da0.example,638,638,Template,T,14,27,F,F,Any,,,Unknown,2.61,13,F,F,F,Key
 29396,be5fd676,GitHub,c2d95db7,data/c2d95db7/src/be5fd676.conf,428,428,Template,T,33,39,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Auth:Password
 29769,be5fd676,GitHub,c2d95db7,data/c2d95db7/src/be5fd676.conf,55,55,T,T,18,47,F,F,Any,,,Secret,3.67,29,F,F,F,Password:Secret
-29785,8e165a9d,GitHub,c2d95db7,data/c2d95db7/src/8e165a9d.sh,371,371,F,F,18,38,F,F,,,,,0.0,0,F,F,F,Password
+29785,8e165a9d,GitHub,c2d95db7,data/c2d95db7/src/8e165a9d.sh,371,371,T,F,18,38,F,F,,,,,0.0,0,F,F,F,Password
 30241,a3046da0,GitHub,c2d95db7,data/c2d95db7/test/a3046da0.example,802,802,Template,T,29,57,F,F,Any,,,Unknown,3.15,28,F,F,F,Key
 30487,a3046da0,GitHub,c2d95db7,data/c2d95db7/test/a3046da0.example,414,414,Template,T,17,23,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
 30491,a3046da0,GitHub,c2d95db7,data/c2d95db7/test/a3046da0.example,814,814,T,T,17,33,F,F,CharsOnly,,,Secret,2.75,16,F,F,F,Key:Secret
@@ -56,7 +56,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 31173,e45e45ba,GitHub,c2d95db7,data/c2d95db7/src/e45e45ba.yml,472,472,Template,T,27,33,F,F,CharsOnly,,,Unknown,1.92,6,F,F,F,Key
 31275,7ccdfb29,GitHub,c2d95db7,data/c2d95db7/other/7ccdfb29.md,991,991,Template,T,37,54,F,F,Any,,,Token,2.77,17,F,F,F,Token
 31277,a3046da0,GitHub,c2d95db7,data/c2d95db7/test/a3046da0.example,740,740,Template,T,34,57,F,F,Any,,,Token,3.10,23,F,F,F,Token
-31286,a3046da0,GitHub,c2d95db7,data/c2d95db7/test/a3046da0.example,735,735,Template,T,25,40,F,F,Any,,,Secret,3.20,15,F,F,F,Password
+31286,a3046da0,GitHub,c2d95db7,data/c2d95db7/test/a3046da0.example,735,735,T,T,25,40,F,F,Any,,,Secret,3.20,15,F,F,F,Password
 31376,7ccdfb29,GitHub,c2d95db7,data/c2d95db7/other/7ccdfb29.md,1254,1254,Template,T,24,33,F,F,CharsOnly,,,Secret,2.64,9,F,F,F,Key:Secret
 31385,a3046da0,GitHub,c2d95db7,data/c2d95db7/test/a3046da0.example,579,579,Template,T,24,38,F,F,Any,,,Token,2.51,14,F,F,F,Token
 31388,a3046da0,GitHub,c2d95db7,data/c2d95db7/test/a3046da0.example,577,577,Template,T,24,38,F,F,Any,,,Token,2.56,14,F,F,F,Token
