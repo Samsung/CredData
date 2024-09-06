@@ -162,9 +162,22 @@ def main(meta_dir: str,
             if 0 > row.ValueStart:
                 print(f"Missed ValueStart for TRUE markup!\n{row}", flush=True)
                 errors += 1
-            elif 0 < row.ValueEnd and 4 > row.ValueEnd - row.ValueStart:
-                print(f"Too short value for TRUE markup!\n{row}", flush=True)
-                errors += 1
+            if 0 < row.ValueEnd:
+                categories = row.Category.split(':')
+                min_length = 6
+                if any(x in categories for x in ["Token", "Nonce"]):
+                    # Secrets are like passwords
+                    min_length = 8
+                if any(x in categories for x in ["Secret", "CMD ConvertTo-SecureString"]):
+                    # Secrets are like passwords
+                    min_length = 5
+                if any(x in categories for x in ["Password", "URL Credentials", "CMD Password"]):
+                    # lost password may be simple but sensitive
+                    min_length = 4
+                if min_length > row.ValueEnd - row.ValueStart:
+                    print(f"Too short {min_length} > {row.ValueEnd - row.ValueStart} value for TRUE markup!\n{row}",
+                          flush=True)
+                    errors += 1
             elif 0 < row.ValueEnd and "Password" in row.Category and 31 < row.ValueEnd - row.ValueStart:
                 print(f"Too long for Password TRUE markup!\n{row}", flush=True)
                 errors += 1
