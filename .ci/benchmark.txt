@@ -1,5 +1,5 @@
-META MD5 04ce5aa7ab32302044dbc1a84eb42534
-DATA MD5 86104e199a279fb42f569d20d373336a
+META MD5 1f49b1f70668715d9c772425fa0f5390
+DATA MD5 c4344dfa01a1019c870b329f2020eaec
 DATA: 16345596 interested lines. MARKUP: 62813 items
 FileType           FileNumber    ValidLines    Positives    Negatives    Templates
 ---------------  ------------  ------------  -----------  -----------  -----------
@@ -86,7 +86,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .jenkinsfile                1            58            2            6
 .jinja2                     1            64                         2
 .js                       659        536413          532         2496          331
-.json                     851      13046493         1075        10909          140
+.json                     851      13046493         1076        10908          140
 .jsp                       13          3202            1           40
 .jsx                        7           857                        19
 .jwt                        1             1            2
@@ -146,7 +146,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .ppk                        1            45                        36
 .private                    1            15            1
 .proj                       1            85                         5
-.properties                48          1621           54           29           32
+.properties                48          1621           55           29           31
 .proto                      5          5768            2           49
 .ps1                       16          8509           15           74            2
 .ps1xml                     1          5022                         1
@@ -209,7 +209,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .ts                       583        106730          157         1800          203
 .tsx                       54          7914            1          114            5
 .ttar                       1           452                         1
-.txt                      440         78102         5279         6367           49
+.txt                      440         78102         5278         6367           49
 .utf8                       1            77                         2
 .vsixmanifest               1            36                         1
 .vsmdi                      1             6            2
@@ -220,10 +220,10 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .xml                        9           689                         9
 .xsl                        1           311                         1
 .yaml                     137         19004          125          345           42
-.yml                      419         36169          555          888          378
+.yml                      419         36169          556          888          378
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  10264      16345596        12173        50513         5127
+TOTAL:                  10264      16345596        12175        50512         5126
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Templates    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -262,13 +262,13 @@ Key                                    3902        15722          486           
 Nonce                                    91           49            0                 0     0     49     91  0.000000  1.000000  0.350000         0.000000
 Other                                     8         8291            1                 0     0   8292      8  0.000000  1.000000  0.999036         0.000000
 PEM Private Key                        1019         1483            0                 0     0   1483   1019  0.000000  1.000000  0.592726         0.000000
-Password                               1845         7539         2696                 0     0  10235   1845  0.000000  1.000000  0.847268         0.000000
-Salt                                     47           76            2                 0     0     78     47  0.000000  1.000000  0.624000         0.000000
+Password                               1846         7539         2695                 0     0  10234   1846  0.000000  1.000000  0.847185         0.000000
+Salt                                     46           76            2                 0     0     78     46  0.000000  1.000000  0.629032         0.000000
 Secret                                 1296         1575          803                 0     0   2378   1296  0.000000  1.000000  0.647251         0.000000
 Seed                                      1            6            0                 0     0      6      1  0.000000  1.000000  0.857143         0.000000
 Slack Token                               4            1            0                 0     0      1      4  0.000000  1.000000  0.200000         0.000000
-Token                                   636         4171          454                 0     0   4625    636  0.000000  1.000000  0.879110         0.000000
+Token                                   637         4170          454                 0     0   4624    637  0.000000  1.000000  0.878920         0.000000
 Twilio API Key                            0            5            2                 0     0      7      0  0.000000            1.000000
-URL Credentials                         210          153          218                 0     0    371    210  0.000000  1.000000  0.638554         0.000000
+URL Credentials                         211          153          218                 0     0    371    211  0.000000  1.000000  0.637457         0.000000
 UUID                                   1069          265            0                 0     0    265   1069  0.000000  1.000000  0.198651         0.000000
-                                      12173        50513         5127           0     0     0  50513  12173  0.000000  1.000000  0.805810         0.000000
+                                      12175        50512         5126           0     0     0  50512  12175  0.000000  1.000000  0.805781         0.000000
