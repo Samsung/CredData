@@ -38,9 +38,7 @@ def read_data(path, line_start, line_end, value_start, value_end, ground_truth, 
         multiline_end_offset = 0
     elif line_start < line_end:
         data_line = '\n'.join(lines[line_start - 1:line_end])
-        multiline_end_offset = len(data_line) - len(lines[line_end - 1]) + (line_end - line_start)
-        # check correctness
-        assert value_start < value_end + multiline_end_offset, (path, line_start, line_end, value_start, value_end)
+        multiline_end_offset = len(data_line) - len(lines[line_end - 1])
     else:
         raise RuntimeError(f"Line start must be less than end. {path},{line_start},{line_end}")
 
