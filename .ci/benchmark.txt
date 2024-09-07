@@ -1,6 +1,6 @@
-META MD5 63be98f7cfaf83aa33052540ec6f1420
-DATA MD5 c10fc577d910543c506fa17a8a63bfe7
-DATA: 16345328 interested lines. MARKUP: 62821 items
+META MD5 14abeb28740ba716f72f0a884e989d42
+DATA MD5 e1c9c3ef5c31bd8123fba2a8df0e6729
+DATA: 16345328 interested lines. MARKUP: 62823 items
 FileType           FileNumber    ValidLines    Positives    Negatives    Templates
 ---------------  ------------  ------------  -----------  -----------  -----------
                           194         28318           71          418           90
@@ -108,7 +108,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .lock                      24        160912                       142
 .log                        2           199           38           52
 .lua                       10          1924                        37            3
-.m                         16         13358           12          159            3
+.m                         16         13358           14          159            3
 .manifest                   3           102            9            6
 .markdown                   3           139                         3            1
 .markerb                    3            12                         3
@@ -223,7 +223,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .yml                      419         36169          558          887          377
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  10263      16345328        12202        50513         5107
+TOTAL:                  10263      16345328        12204        50513         5107
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Templates    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -262,7 +262,7 @@ Key                                    3906        15720          485           
 Nonce                                    91           49            0                 0     0     49     91  0.000000  1.000000  0.350000         0.000000
 Other                                     8         8292            1                 0     0   8293      8  0.000000  1.000000  0.999036         0.000000
 PEM Private Key                        1019         1483            0                 0     0   1483   1019  0.000000  1.000000  0.592726         0.000000
-Password                               1860         7539         2683                 0     0  10222   1860  0.000000  1.000000  0.846052         0.000000
+Password                               1862         7539         2683                 0     0  10222   1862  0.000000  1.000000  0.845912         0.000000
 Salt                                     47           76            1                 0     0     77     47  0.000000  1.000000  0.620968         0.000000
 Secret                                 1297         1576          802                 0     0   2378   1297  0.000000  1.000000  0.647075         0.000000
 Seed                                      1            6            0                 0     0      6      1  0.000000  1.000000  0.857143         0.000000
@@ -271,4 +271,4 @@ Token                                   643         4168          454           
 Twilio API Key                            0            5            2                 0     0      7      0  0.000000            1.000000
 URL Credentials                         210          156          216                 0     0    372    210  0.000000  1.000000  0.639175         0.000000
 UUID                                   1069          265            0                 0     0    265   1069  0.000000  1.000000  0.198651         0.000000
-                                      12202        50513         5107           0     0     0  50513  12202  0.000000  1.000000  0.805437         0.000000
+                                      12204        50513         5107           0     0     0  50513  12204  0.000000  1.000000  0.805412         0.000000
