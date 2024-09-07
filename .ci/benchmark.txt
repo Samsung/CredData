@@ -1,5 +1,5 @@
-META MD5 e06a3a3844c9ff7b6cbed93eee4e3c78
-DATA MD5 840a47dcbfbcc42a088dca105200a4ad
+META MD5 088b8c22fe9cee19ff3ae4e184a78ca0
+DATA MD5 2cef557d176eccea34bc2093c2d4f893
 DATA: 16345328 interested lines. MARKUP: 62817 items
 FileType           FileNumber    ValidLines    Positives    Negatives    Templates
 ---------------  ------------  ------------  -----------  -----------  -----------
@@ -195,7 +195,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .t                          9          1767           25           44           13
 .td                         2         14002                         6
 .template                  19          1633            4           35           11
-.test                       2            24           25                         4
+.test                       2            24           24            1            4
 .testsettings               1            21            1           10
 .tf                        21          1377            2           30            2
 .tfstate                    4           307           22           11            4
@@ -223,7 +223,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .yml                      419         36169          557          888          377
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  10263      16345328        12197        50514         5107
+TOTAL:                  10263      16345328        12196        50515         5107
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Templates    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -264,11 +264,11 @@ Other                                     8         8292            1           
 PEM Private Key                        1019         1483            0                 0     0   1483   1019  0.000000  1.000000  0.592726         0.000000
 Password                               1859         7538         2683                 0     0  10221   1859  0.000000  1.000000  0.846109         0.000000
 Salt                                     47           76            1                 0     0     77     47  0.000000  1.000000  0.620968         0.000000
-Secret                                 1297         1575          802                 0     0   2377   1297  0.000000  1.000000  0.646979         0.000000
+Secret                                 1296         1576          802                 0     0   2378   1296  0.000000  1.000000  0.647251         0.000000
 Seed                                      1            6            0                 0     0      6      1  0.000000  1.000000  0.857143         0.000000
 Slack Token                               4            1            0                 0     0      1      4  0.000000  1.000000  0.200000         0.000000
 Token                                   640         4171          454                 0     0   4625    640  0.000000  1.000000  0.878443         0.000000
 Twilio API Key                            0            5            2                 0     0      7      0  0.000000            1.000000
 URL Credentials                         210          156          216                 0     0    372    210  0.000000  1.000000  0.639175         0.000000
 UUID                                   1069          265            0                 0     0    265   1069  0.000000  1.000000  0.198651         0.000000
-                                      12197        50514         5107           0     0     0  50514  12197  0.000000  1.000000  0.805505         0.000000
+                                      12196        50515         5107           0     0     0  50515  12196  0.000000  1.000000  0.805521         0.000000
