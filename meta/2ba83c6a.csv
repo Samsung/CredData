@@ -963,7 +963,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 27645,b40503ed,GitHub,2ba83c6a,data/2ba83c6a/test/b40503ed.txt,167,167,F,F,6,32,F,F,,,,,0,0,F,F,F,Key
 27646,b40503ed,GitHub,2ba83c6a,data/2ba83c6a/test/b40503ed.txt,96,96,F,F,6,18,F,F,,,,,0.0,0,F,F,F,Key
 27692,3fc35e88,GitHub,2ba83c6a,data/2ba83c6a/test/3fc35e88.t,19,19,F,F,12,28,F,F,Any,,,Unknown,0,16,F,F,F,Password
-27693,1e68713b,GitHub,2ba83c6a,data/2ba83c6a/test/1e68713b.t,65,65,Template,T,18,27,F,F,Any,,,Secret,2.07,9,F,F,F,Secret
+27693,1e68713b,GitHub,2ba83c6a,data/2ba83c6a/test/1e68713b.t,65,65,T,T,18,27,F,F,Any,,,Secret,2.07,9,F,F,F,Secret
 27798,d6f29cb7,GitHub,2ba83c6a,data/2ba83c6a/test/d6f29cb7.cnf,40,40,Template,F,15,20,F,F,NumbersOnly,,,Unknown,2.32,5,F,F,F,Password
 27888,1aa4b790,GitHub,2ba83c6a,data/2ba83c6a/other/1aa4b790.in,401,401,Template,T,69,74,F,F,CharsOnly,,,Unknown,1.92,5,F,F,F,Key:Password
 27889,a2ceeeea,GitHub,2ba83c6a,data/2ba83c6a/src/a2ceeeea.pl,82,82,F,F,6,10,F,F,,,,,0.0,0,F,F,F,Key
@@ -5847,8 +5847,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 61137,911dde03,GitHub,2ba83c6a,data/2ba83c6a/test/911dde03.txt,19134,19134,T,F,6,54,F,F,,,,,0.0,0,F,F,F,Key
 61138,911dde03,GitHub,2ba83c6a,data/2ba83c6a/test/911dde03.txt,19142,19142,T,F,6,54,F,F,,,,,0.0,0,F,F,F,Key
 61139,911dde03,GitHub,2ba83c6a,data/2ba83c6a/test/911dde03.txt,19150,19150,T,F,6,54,F,F,,,,,0.0,0,F,F,F,Key
-61140,5e763eae,GitHub,2ba83c6a,data/2ba83c6a/test/5e763eae.txt,237,237,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Bitbucket Client Secret:Bitbucket Client ID
-61141,08d3f9a3,GitHub,2ba83c6a,data/2ba83c6a/test/08d3f9a3.txt,185,185,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Bitbucket Client Secret:Bitbucket Client ID
+61140,5e763eae,GitHub,2ba83c6a,data/2ba83c6a/test/5e763eae.txt,237,237,T,F,6,-1,F,F,,,,,0.0,0,F,F,F,Key
+61141,08d3f9a3,GitHub,2ba83c6a,data/2ba83c6a/test/08d3f9a3.txt,185,185,T,F,6,-1,F,F,,,,,0.0,0,F,F,F,Key
 61142,911dde03,GitHub,2ba83c6a,data/2ba83c6a/test/911dde03.txt,9676,9676,T,F,6,54,F,F,,,,,0.0,0,F,F,F,Key
 61143,911dde03,GitHub,2ba83c6a,data/2ba83c6a/test/911dde03.txt,9684,9684,T,F,6,54,F,F,,,,,0.0,0,F,F,F,Key
 61144,911dde03,GitHub,2ba83c6a,data/2ba83c6a/test/911dde03.txt,9692,9692,T,F,6,54,F,F,,,,,0.0,0,F,F,F,Key
