@@ -145,6 +145,7 @@ def move_files(temp_dir, dataset_dir):
             if key in interesting_files:
                 # check correctness
                 assert interesting_files[key] == file_path, (key, file_path)
+                assert not file_path.endswith(".xml"), f"xml parsing breaks raw text numeration {file_path}"
             else:
                 interesting_files[key] = file_path
 
