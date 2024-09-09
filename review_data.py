@@ -94,6 +94,10 @@ def read_data(path, line_start, line_end, value_start, value_end, ground_truth, 
                + Style.RESET_ALL \
                + fore_style \
                + data_line[value_end + multiline_end_offset:]
+    elif 0 <= value_start and 0 > value_end:
+        line = data_line[:value_start] \
+               + Style.BRIGHT \
+               + data_line[value_start:]
     else:
         line = data_line
     print(f"{line_start}:{Style.RESET_ALL}{fore_style}{line}{Style.RESET_ALL}", flush=True)
