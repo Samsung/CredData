@@ -1,6 +1,6 @@
-META MD5 2e31b82ba7f477ef134e6f60df5bf417
+META MD5 ab5ac74eb958a4c281103e3e4973b8c2
 DATA MD5 4ecb4c9436742b6b281ce7977066099d
-DATA: 16344639 interested lines. MARKUP: 62814 items
+DATA: 16344639 interested lines. MARKUP: 62815 items
 FileType           FileNumber    ValidLines    Positives    Negatives    Templates
 ---------------  ------------  ------------  -----------  -----------  -----------
                           194         28318           71          418           90
@@ -113,7 +113,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .markdown                   3           139                         3            1
 .markerb                    3            12                         3
 .marko                      1            21                         2
-.md                       674        149300          740         2387          621
+.md                       674        149300          740         2388          621
 .mdx                        3           549                         7
 .mjml                       1            18                         1
 .mjs                       22          4424           75          340
@@ -222,13 +222,13 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .yml                      419         36169          558          887          377
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  10254      16344639        12211        50497         5107
+TOTAL:                  10254      16344639        12211        50498         5107
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Templates    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
 API                                     130         3166          188                 0     0   3354    130  0.000000  1.000000  0.962687         0.000000
 AWS Client ID                           168           21            0                 0     0     21    168  0.000000  1.000000  0.111111         0.000000
-AWS Multi                                82            9            0                 0     0      9     82  0.000000  1.000000  0.098901         0.000000
+AWS Multi                                82           10            0                 0     0     10     82  0.000000  1.000000  0.108696         0.000000
 AWS S3 Bucket                            67           23            0                 0     0     23     67  0.000000  1.000000  0.255556         0.000000
 Atlassian Old PAT token                  27          308            3                 0     0    311     27  0.000000  1.000000  0.920118         0.000000
 Auth                                    414         2739           82                 0     0   2821    414  0.000000  1.000000  0.872025         0.000000
@@ -270,4 +270,4 @@ Token                                   643         4168          454           
 Twilio API Key                            0            5            2                 0     0      7      0  0.000000            1.000000
 URL Credentials                         210          156          216                 0     0    372    210  0.000000  1.000000  0.639175         0.000000
 UUID                                   1069          265            0                 0     0    265   1069  0.000000  1.000000  0.198651         0.000000
-                                      12211        50497         5107           0     0     0  50497  12211  0.000000  1.000000  0.805272         0.000000
+                                      12211        50498         5107           0     0     0  50498  12211  0.000000  1.000000  0.805275         0.000000
