@@ -145,6 +145,7 @@ def move_files(temp_dir, dataset_dir):
             if key in interesting_files:
                 # check correctness
                 assert interesting_files[key] == file_path, (key, file_path)
+                assert not file_path.endswith(".xml"), f"xml parsing breaks raw text numeration {file_path}"
             else:
                 interesting_files[key] = file_path
 
@@ -325,6 +326,8 @@ def get_obfuscated_value(value, meta_row: MetaRow):
     elif value.startswith("phpass:"):
         obfuscated_value = value[:7] + generate_value(value[7:])
     elif value.startswith("hexpass:"):
+        obfuscated_value = value[:8] + generate_value(value[8:])
+    elif value.startswith("hexsalt:"):
         obfuscated_value = value[:8] + generate_value(value[8:])
     elif value.startswith("SWMTKN-1-"):
         obfuscated_value = value[:9] + generate_value(value[9:])

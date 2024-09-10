@@ -49,7 +49,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 5313,f2c0348c,GitHub,0f133e09,data/0f133e09/test/f2c0348c.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Token
 5316,75bffd28,GitHub,0f133e09,data/0f133e09/test/75bffd28.txt,43,43,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 5318,75bffd28,GitHub,0f133e09,data/0f133e09/test/75bffd28.txt,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-5319,5ff4b6b7,GitHub,0f133e09,data/0f133e09/test/5ff4b6b7.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Token
+5319,5ff4b6b7,GitHub,0f133e09,data/0f133e09/test/5ff4b6b7.txt,10,10,T,F,210,250,F,F,,,,,0,0,F,F,F,Token
 5323,c92f896c,GitHub,0f133e09,data/0f133e09/test/c92f896c.txt,32,32,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 5326,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,186,186,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
 5327,4573b88d,GitHub,0f133e09,data/0f133e09/test/4573b88d.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
@@ -266,7 +266,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 9494,f5819a5c,GitHub,0f133e09,data/0f133e09/test/f5819a5c.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
 9495,f8329470,GitHub,0f133e09,data/0f133e09/test/f8329470.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
 9497,28554f3b,GitHub,0f133e09,data/0f133e09/test/28554f3b.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
-9499,5a7f3ab7,GitHub,0f133e09,data/0f133e09/test/5a7f3ab7.txt,54,54,F,F,,,F,F,,,,,0,0,F,F,F,Token
+9499,5a7f3ab7,GitHub,0f133e09,data/0f133e09/test/5a7f3ab7.txt,54,54,T,F,256,296,F,F,,,,,0,0,F,F,F,Token
 9500,3ff7b45c,GitHub,0f133e09,data/0f133e09/test/3ff7b45c.txt,43,43,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
 9501,3c654d2d,GitHub,0f133e09,data/0f133e09/test/3c654d2d.txt,43,43,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
 9502,7b3e739d,GitHub,0f133e09,data/0f133e09/test/7b3e739d.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
@@ -423,14 +423,14 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 10131,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,120,120,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 10132,f89519ab,GitHub,0f133e09,data/0f133e09/test/f89519ab.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
 10135,c37b8d70,GitHub,0f133e09,data/0f133e09/test/c37b8d70.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
-10136,5a7f3ab7,GitHub,0f133e09,data/0f133e09/test/5a7f3ab7.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Token
-10137,983d2575,GitHub,0f133e09,data/0f133e09/test/983d2575.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Token
-10138,0d46126a,GitHub,0f133e09,data/0f133e09/test/0d46126a.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Token
-10139,5a7f3ab7,GitHub,0f133e09,data/0f133e09/test/5a7f3ab7.txt,43,43,F,F,,,F,F,,,,,0,0,F,F,F,Token
-10140,5a7f3ab7,GitHub,0f133e09,data/0f133e09/test/5a7f3ab7.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Token
-10141,5a7f3ab7,GitHub,0f133e09,data/0f133e09/test/5a7f3ab7.txt,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Token
-10142,4bc35222,GitHub,0f133e09,data/0f133e09/test/4bc35222.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Token
-10143,6ec6580c,GitHub,0f133e09,data/0f133e09/test/6ec6580c.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Token
+10136,5a7f3ab7,GitHub,0f133e09,data/0f133e09/test/5a7f3ab7.txt,10,10,T,F,226,266,F,F,,,,,0,0,F,F,F,Token
+10137,983d2575,GitHub,0f133e09,data/0f133e09/test/983d2575.txt,10,10,T,F,210,250,F,F,,,,,0,0,F,F,F,Token
+10138,0d46126a,GitHub,0f133e09,data/0f133e09/test/0d46126a.txt,10,10,T,F,226,266,F,F,,,,,0,0,F,F,F,Token
+10139,5a7f3ab7,GitHub,0f133e09,data/0f133e09/test/5a7f3ab7.txt,43,43,T,F,232,272,F,F,,,,,0,0,F,F,F,Token
+10140,5a7f3ab7,GitHub,0f133e09,data/0f133e09/test/5a7f3ab7.txt,21,21,T,F,232,272,F,F,,,,,0,0,F,F,F,Token
+10141,5a7f3ab7,GitHub,0f133e09,data/0f133e09/test/5a7f3ab7.txt,32,32,T,F,223,263,F,F,,,,,0,0,F,F,F,Token
+10142,4bc35222,GitHub,0f133e09,data/0f133e09/test/4bc35222.txt,10,10,T,F,209,249,F,F,,,,,0,0,F,F,F,Token
+10143,6ec6580c,GitHub,0f133e09,data/0f133e09/test/6ec6580c.txt,10,10,T,F,209,249,F,F,,,,,0,0,F,F,F,Token
 10149,59a5a023,GitHub,0f133e09,data/0f133e09/test/59a5a023.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
 10150,ad1d7326,GitHub,0f133e09,data/0f133e09/test/ad1d7326.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
 10151,2ddf0fb2,GitHub,0f133e09,data/0f133e09/test/2ddf0fb2.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
@@ -1769,3 +1769,4 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 1351520,c7b13616,GitHub,0f133e09,data/0f133e09/test/c7b13616.txt,9,9,T,F,1187,1249,F,F,,,,,0.0,0,F,F,F,AWS S3 Bucket
 1351521,c7b13616,GitHub,0f133e09,data/0f133e09/test/c7b13616.txt,9,9,T,F,1250,1302,F,F,,,,,0.0,0,F,F,F,AWS S3 Bucket
 1351522,c7b13616,GitHub,0f133e09,data/0f133e09/test/c7b13616.txt,9,9,T,F,1584,1613,F,F,,,,,0.0,0,F,F,F,AWS S3 Bucket
+1479613,03c77d4f,GitHub,0f133e09,data/0f133e09/src/03c77d4f.py,314,314,F,F,49,54,F,F,,,,,0.0,0,F,F,F,Auth

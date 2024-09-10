@@ -60,8 +60,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 23689,1c25f72b,GitHub,798d34aa,data/798d34aa/src/1c25f72b.ts,151,151,F,F,,,F,F,,,,,0,0,F,F,F,Token
 25102,ad886f81,GitHub,798d34aa,data/798d34aa/src/ad886f81.ts,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Password
 27129,3f5c652d,GitHub,798d34aa,data/798d34aa/src/3f5c652d.ts,2,2,F,F,,,F,F,,,,,0,0,F,F,F,Password
-27365,9542f82d,GitHub,798d34aa,data/798d34aa/src/9542f82d.yml,223,223,Template,T,34,42,F,F,CharsOnly,,,Secret,3.0,8,F,F,F,Password
-27465,74b200a7,GitHub,798d34aa,data/798d34aa/test/74b200a7.example,42,42,Template,T,18,26,F,F,CharsOnly,,,Secret,3.0,8,F,F,F,Password
+27365,9542f82d,GitHub,798d34aa,data/798d34aa/src/9542f82d.yml,223,223,T,T,34,42,F,F,CharsOnly,,,Secret,3.0,8,F,F,F,Password
+27465,74b200a7,GitHub,798d34aa,data/798d34aa/test/74b200a7.example,42,42,T,T,18,26,F,F,CharsOnly,,,Secret,3.0,8,F,F,F,Password
 27705,1a6bfd2b,GitHub,798d34aa,data/798d34aa/src/1a6bfd2b.ts,12,12,Template,T,19,35,F,F,Any,,,Key,3.12,16,F,F,F,API:Key
 27763,d4a31c5d,GitHub,798d34aa,data/798d34aa/src/d4a31c5d.ts,19,19,Template,F,13,20,F,F,Any,,,Key,2.41,7,F,F,F,API:Key
 27767,9542f82d,GitHub,798d34aa,data/798d34aa/src/9542f82d.yml,23,23,Template,F,34,50,F,F,CharsOnly,,,Secret,3.45,16,F,F,F,Secret
@@ -69,7 +69,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 28156,74b200a7,GitHub,798d34aa,data/798d34aa/test/74b200a7.example,20,20,T,F,23,38,F,F,CharsOnly,,,Secret,1.0,15,F,F,F,Secret:Dropbox App secret
 28157,74b200a7,GitHub,798d34aa,data/798d34aa/test/74b200a7.example,25,25,T,F,23,35,F,F,CharsOnly,,,Secret,1.0,12,F,F,F,Secret
 28158,74b200a7,GitHub,798d34aa,data/798d34aa/test/74b200a7.example,15,15,T,F,23,32,F,F,CharsOnly,,,Secret,0.99,9,F,F,F,Secret
-28893,b3356305,GitHub,798d34aa,data/798d34aa/other/b3356305.md,207,207,Template,T,19,38,F,F,CharsOnly,,,Secret,3.22,19,F,F,F,Password
+28893,b3356305,GitHub,798d34aa,data/798d34aa/other/b3356305.md,207,207,T,T,19,38,F,F,CharsOnly,,,Secret,3.22,19,F,F,F,Password
 32212,acf3dd27,GitHub,798d34aa,data/798d34aa/src/acf3dd27.ts,10,10,T,F,21,53,F,F,Any,,,Secret,3.57,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Secret
 32426,ddf77893,GitHub,798d34aa,data/798d34aa/src/ddf77893.ts,3,3,T,F,16,74,F,F,Any,,,Secret,3.46,58,F,F,F,Secret
 34232,b3356305,GitHub,798d34aa,data/798d34aa/other/b3356305.md,222,222,T,F,26,74,F,F,Any,,,Token,4.0,48,F,F,F,Token
