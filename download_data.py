@@ -333,6 +333,8 @@ def get_obfuscated_value(value, meta_row: MetaRow):
         obfuscated_value = value[:9] + generate_value(value[9:])
     elif value.startswith("hooks.slack.com/services/"):
         obfuscated_value = "hooks.slack.com/services/" + generate_value(value[25:])
+    elif value.startswith("wx") and 18 == len(value):
+        obfuscated_value = "wx" + generate_value(value[2:])
     elif ".apps.googleusercontent.com" in value:
         pos = value.index(".apps.googleusercontent.com")
         obfuscated_value = generate_value(value[:pos]) + ".apps.googleusercontent.com" + generate_value(
