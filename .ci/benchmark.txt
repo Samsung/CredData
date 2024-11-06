@@ -1,6 +1,6 @@
-META MD5 ef775241a6d575ff10f7220dcfadf5d7
-DATA MD5 51b6d4e4debbd374fc184f2b691e0bb8
-DATA: 16344639 interested lines. MARKUP: 62827 items
+META MD5 00571ed5c9d88364b79beaf84ba9a2dc
+DATA MD5 5b0b3152fb0937e4f97a8a95c5cc77cc
+DATA: 16343941 interested lines. MARKUP: 62608 items
 FileType           FileNumber    ValidLines    Positives    Negatives    Templates
 ---------------  ------------  ------------  -----------  -----------  -----------
                           194         28318           71          418           90
@@ -55,7 +55,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .erb                       13           323                        27
 .erl                        4            96                         7
 .ex                        25          4968            5           98            5
-.example                   17          1838           76           38           52
+.example                   17          1838           77           38           52
 .exs                       24          4842            8          187            4
 .ext                        5           211            1            4            2
 .fsproj                     1            75            1            2
@@ -159,7 +159,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .pyx                        2          1094                        23
 .r                          4            62            6            3            1
 .rake                       2            51                         2
-.rb                       860        131838          254         3340          615
+.rb                       851        131140          282         3156          613
 .re                         1            31                         1
 .red                        1           159                         1
 .release                    1            13                         4
@@ -222,7 +222,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .yml                      419         36169          559          889          376
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  10254      16344639        12227        50501         5104
+TOTAL:                  10245      16343941        12256        50317         5102
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Templates    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -242,7 +242,7 @@ CMD Password                             21          128            6           
 CMD Secret                                1            1            0                 0     0      1      1  0.000000  1.000000  0.500000         0.000000
 CMD Token                                 6            0            0                 0     0      0      6            1.000000  0.000000         0.000000
 Certificate                              24          471            0                 0     0    471     24  0.000000  1.000000  0.951515         0.000000
-Credential                               93          419           76                 0     0    495     93  0.000000  1.000000  0.841837         0.000000
+Credential                               91          421           76                 0     0    497     91  0.000000  1.000000  0.845238         0.000000
 Docker Swarm Token                        2            0            0                 0     0      0      2            1.000000  0.000000         0.000000
 Dropbox App secret                       64          139            1                 0     0    140     64  0.000000  1.000000  0.686275         0.000000
 Facebook Access Token                     0            1            0                 0     0      1      0  0.000000            1.000000
@@ -259,7 +259,7 @@ Jira / Confluence PAT token               0            4            0           
 Jira 2FA                                 15            6            1                 0     0      7     15  0.000000  1.000000  0.318182         0.000000
 Key                                    3909        15717          485                 0     0  16202   3909  0.000000  1.000000  0.805629         0.000000
 Nonce                                    91           49            0                 0     0     49     91  0.000000  1.000000  0.350000         0.000000
-Other                                     8         8292            1                 0     0   8293      8  0.000000  1.000000  0.999036         0.000000
+Other                                     8         7445            1                 0     0   7446      8  0.000000  1.000000  0.998927         0.000000
 PEM Private Key                        1019         1483            0                 0     0   1483   1019  0.000000  1.000000  0.592726         0.000000
 Password                               1869         7535         2680                 0     0  10215   1869  0.000000  1.000000  0.845333         0.000000
 Salt                                     47           76            1                 0     0     77     47  0.000000  1.000000  0.620968         0.000000
@@ -268,7 +268,7 @@ Seed                                      1            6            0           
 Slack Token                               4            1            0                 0     0      1      4  0.000000  1.000000  0.200000         0.000000
 Tencent WeChat API App ID                 6            0            0                 0     0      0      6            1.000000  0.000000         0.000000
 Token                                   643         4170          454                 0     0   4624    643  0.000000  1.000000  0.877919         0.000000
-Twilio API Key                            0            5            2                 0     0      7      0  0.000000            1.000000
+Twilio Credentials                       31          666            0                 0     0    666     31  0.000000  1.000000  0.955524         0.000000
 URL Credentials                         210          156          216                 0     0    372    210  0.000000  1.000000  0.639175         0.000000
 UUID                                   1069          265            0                 0     0    265   1069  0.000000  1.000000  0.198651         0.000000
-                                      12227        50501         5104           0     0     0  50501  12227  0.000000  1.000000  0.805079         0.000000
+                                      12256        50317         5102           0     0     0  50317  12256  0.000000  1.000000  0.804133         0.000000
