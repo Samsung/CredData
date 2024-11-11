@@ -254,7 +254,7 @@ def obfuscate_jwt(value: str) -> str:
                 b'"n":', b'"nbf":', b'"nonce":', b'"oth":', b'"p":', b'"p2c":', b'"p2s":', b'"password":', b'"ppt":',
                 b'"q":', b'"qi":', b'"role":', b'"secret":', b'"sub":', b'"svt":', b'"tag":', b'"token":', b'"typ":',
                 b'"url":', b'"use":', b'"x":', b'"x5c":', b'"x5t":', b'"x5t#S256":', b'"x5u":', b'"y":', b'"zip":'
-                        ]:
+            ]:
                 # safe words to keep JSON structure (false, true, null)
                 # and important JWT ("alg", "type", ...)
                 if decoded[n:n + len(wrd)] == wrd:
@@ -287,7 +287,7 @@ def obfuscate_jwt(value: str) -> str:
 
 
 def get_obfuscated_value(value, meta_row: MetaRow):
-    if "Info" == meta_row.PredefinedPattern or meta_row.Category in ["IPv4", "IPv6"]:
+    if "Info" == meta_row.PredefinedPattern:
         # not a credential - does not required obfuscation
         obfuscated_value = value
     elif value.startswith("Apikey "):
@@ -333,8 +333,11 @@ def get_obfuscated_value(value, meta_row: MetaRow):
         obfuscated_value = value[:9] + generate_value(value[9:])
     elif value.startswith("hooks.slack.com/services/"):
         obfuscated_value = "hooks.slack.com/services/" + generate_value(value[25:])
-    elif value.startswith("wx") and 18 == len(value):
-        obfuscated_value = "wx" + generate_value(value[2:])
+    elif (value.startswith("wx") and 18 == len(value)
+          or (any(value.startswith(x) for x in
+                  ["AC", "AD", "AL", "CA", "CF", "CL", "CN", "CR", "FW", "IP", "KS", "MM", "NO", "PK", "PN", "QU", "RE",
+                   "SC", "SD", "SK", "SM", "TR", "UT", "XE", "XR"]) and 34 == len(value))):
+        obfuscated_value = value[:2] + generate_value(value[2:])
     elif ".apps.googleusercontent.com" in value:
         pos = value.index(".apps.googleusercontent.com")
         obfuscated_value = generate_value(value[:pos]) + ".apps.googleusercontent.com" + generate_value(
@@ -375,6 +378,7 @@ def check_asc_or_desc(line_data_value: str) -> bool:
             count_desc = 1
             continue
     return False
+
 
 def generate_value(value):
     """Wrapper to skip obfuscation with false positive or negatives"""
