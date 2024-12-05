@@ -1,4 +1,4 @@
-META MD5 c2612390a2d4eec2857490025fc3e9d1
+META MD5 825045827e958406a8bfd2731c57f77c
 DATA MD5 6444eafe650282d2407960f82ef5d014
 DATA: 16342283 interested lines. MARKUP: 62022 items
 FileType           FileNumber    ValidLines    Positives    Negatives    Templates
@@ -86,7 +86,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .jenkinsfile                1            58            2            6
 .jinja2                     1            64                         2
 .js                       659        536413          531         2497          331
-.json                     851      13046493         1075        10907          140
+.json                     851      13046493         1077        10907          140
 .jsp                       13          3202            1           40
 .jsx                        7           857                        19
 .jwt                        1             1            2
@@ -222,7 +222,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .yml                      419         36169          559          889          376
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  10232      16342283        12260        49692         5101
+TOTAL:                  10232      16342283        12262        49692         5101
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Templates    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -242,7 +242,7 @@ CMD Password                             21          128            6           
 CMD Secret                                1            1            0                 0     0      1      1  0.000000  1.000000  0.500000         0.000000
 CMD Token                                 6            0            0                 0     0      0      6            1.000000  0.000000         0.000000
 Certificate                              24          471            0                 0     0    471     24  0.000000  1.000000  0.951515         0.000000
-Credential                               90          421           76                 0     0    497     90  0.000000  1.000000  0.846678         0.000000
+Credential                               92          421           76                 0     0    497     92  0.000000  1.000000  0.843803         0.000000
 Docker Swarm Token                        2            0            0                 0     0      0      2            1.000000  0.000000         0.000000
 Dropbox App secret                       64          139            1                 0     0    140     64  0.000000  1.000000  0.686275         0.000000
 Facebook Access Token                     0            1            0                 0     0      1      0  0.000000            1.000000
@@ -271,4 +271,4 @@ Token                                   644         4170          454           
 Twilio Credentials                       30           39            0                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         210          157          215                 0     0    372    210  0.000000  1.000000  0.639175         0.000000
 UUID                                   1069          265            0                 0     0    265   1069  0.000000  1.000000  0.198651         0.000000
-                                      12260        49692         5101           0     0     0  49692  12260  0.000000  1.000000  0.802105         0.000000
+                                      12262        49692         5101           0     0     0  49692  12262  0.000000  1.000000  0.802079         0.000000
