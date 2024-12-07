@@ -1,6 +1,6 @@
-META MD5 f147eea37e4a8729607528310b99c18a
-DATA MD5 6444eafe650282d2407960f82ef5d014
-DATA: 16342283 interested lines. MARKUP: 62022 items
+META MD5 5cab9df725792d8fe57fa02bcb0998b1
+DATA MD5 5eded1aa98605db85a7aec2809bafbfd
+DATA: 16342283 interested lines. MARKUP: 62023 items
 FileType           FileNumber    ValidLines    Positives    Negatives    Templates
 ---------------  ------------  ------------  -----------  -----------  -----------
                           194         28318           71          418           90
@@ -63,7 +63,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .gd                         1            37                         1
 .gml                        3          3075                        16
 .gni                        3          5017                        19
-.go                      1080        566476          688         4131          747
+.go                      1080        566476          688         4133          747
 .golden                     5          1168            1           13           29
 .gradle                    45          3265            4           90          100
 .graphql                    7           420                        13
@@ -82,11 +82,11 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .ipynb                      1           134                         5
 .j                          1           241            4
 .j2                        30          5530            6          186           10
-.java                     621        134132          368         1365          171
+.java                     621        134132          370         1365          171
 .jenkinsfile                1            58            2            6
 .jinja2                     1            64                         2
 .js                       659        536413          533         2497          331
-.json                     851      13046493         1078        10907          140
+.json                     851      13046493         1079        10911          140
 .jsp                       13          3202            1           40
 .jsx                        7           857                        19
 .jwt                        1             1            2
@@ -153,7 +153,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .pug                        2           193                         2
 .purs                       1            69                         4
 .pxd                        1           150                         5            2
-.py                       890        291553          681         3303          726
+.py                       890        291553          682         3303          726
 .pyi                        4          1361                         9
 .pyp                        1           167                         1
 .pyx                        2          1094                        23
@@ -209,7 +209,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .ts                       583        106730          158         1800          203
 .tsx                       54          7914            1          114            5
 .ttar                       1           452                         1
-.txt                      440         78102         5288         6354           49
+.txt                      440         78102         5290         6354           49
 .utf8                       1            77                         2
 .vsixmanifest               1            36                         1
 .vsmdi                      1             6            2
@@ -222,7 +222,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .yml                      419         36169          559          889          376
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  10232      16342283        12267        49692         5101
+TOTAL:                  10232      16342283        12273        49698         5101
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Templates    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -235,8 +235,8 @@ Auth                                    417         2739           82           
 Azure Access Token                       19            0            0                 0     0      0     19            1.000000  0.000000         0.000000
 BASE64 Private Key                       12            4            0                 0     0      4     12  0.000000  1.000000  0.250000         0.000000
 BASE64 encoded PEM Private Key            7            0            0                 0     0      0      7            1.000000  0.000000         0.000000
-Bitbucket Client ID                     143         2095            9                 0     0   2104    143  0.000000  1.000000  0.936360         0.000000
-Bitbucket Client Secret                 301          807           10                 0     0    817    301  0.000000  1.000000  0.730769         0.000000
+Bitbucket Client ID                     143         2107            9                 0     0   2116    143  0.000000  1.000000  0.936698         0.000000
+Bitbucket Client Secret                 301          811           10                 0     0    821    301  0.000000  1.000000  0.731729         0.000000
 CMD ConvertTo-SecureString               13            4            0                 0     0      4     13  0.000000  1.000000  0.235294         0.000000
 CMD Password                             21          128            6                 0     0    134     21  0.000000  1.000000  0.864516         0.000000
 CMD Secret                                1            1            0                 0     0      1      1  0.000000  1.000000  0.500000         0.000000
@@ -259,7 +259,7 @@ Jira / Confluence PAT token               0            4            0           
 Jira 2FA                                 15            6            1                 0     0      7     15  0.000000  1.000000  0.318182         0.000000
 Key                                    3909        15717          485                 0     0  16202   3909  0.000000  1.000000  0.805629         0.000000
 Nonce                                    93           49            0                 0     0     49     93  0.000000  1.000000  0.345070         0.000000
-Other                                     8         7445            1                 0     0   7446      8  0.000000  1.000000  0.998927         0.000000
+Other                                     8         7435            1                 0     0   7436      8  0.000000  1.000000  0.998925         0.000000
 PEM Private Key                        1019         1483            0                 0     0   1483   1019  0.000000  1.000000  0.592726         0.000000
 Password                               1869         7536         2680                 0     0  10216   1869  0.000000  1.000000  0.845345         0.000000
 Salt                                     47           76            1                 0     0     77     47  0.000000  1.000000  0.620968         0.000000
@@ -270,5 +270,5 @@ Tencent WeChat API App ID                 6            0            0           
 Token                                   644         4170          454                 0     0   4624    644  0.000000  1.000000  0.877752         0.000000
 Twilio Credentials                       30           39            0                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         210          157          215                 0     0    372    210  0.000000  1.000000  0.639175         0.000000
-UUID                                   1069          265            0                 0     0    265   1069  0.000000  1.000000  0.198651         0.000000
-                                      12267        49692         5101           0     0     0  49692  12267  0.000000  1.000000  0.802014         0.000000
+UUID                                   1075          265            0                 0     0    265   1075  0.000000  1.000000  0.197761         0.000000
+                                      12273        49698         5101           0     0     0  49698  12273  0.000000  1.000000  0.801956         0.000000
