@@ -1,4 +1,4 @@
-META MD5 5cab9df725792d8fe57fa02bcb0998b1
+META MD5 75516972764eb2627218e48d12c36719
 DATA MD5 5eded1aa98605db85a7aec2809bafbfd
 DATA: 16342283 interested lines. MARKUP: 62023 items
 FileType           FileNumber    ValidLines    Positives    Negatives    Templates
@@ -86,7 +86,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .jenkinsfile                1            58            2            6
 .jinja2                     1            64                         2
 .js                       659        536413          533         2497          331
-.json                     851      13046493         1079        10911          140
+.json                     851      13046493         1079        10921          140
 .jsp                       13          3202            1           40
 .jsx                        7           857                        19
 .jwt                        1             1            2
@@ -219,10 +219,10 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .xib                       11           503                       169
 .xsl                        1           311                         1
 .yaml                     137         19004          125          345           42
-.yml                      419         36169          559          889          376
+.yml                      419         36169          559          904          376
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  10232      16342283        12273        49698         5101
+TOTAL:                  10232      16342283        12273        49723         5101
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Templates    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -235,8 +235,9 @@ Auth                                    417         2739           82           
 Azure Access Token                       19            0            0                 0     0      0     19            1.000000  0.000000         0.000000
 BASE64 Private Key                       12            4            0                 0     0      4     12  0.000000  1.000000  0.250000         0.000000
 BASE64 encoded PEM Private Key            7            0            0                 0     0      0      7            1.000000  0.000000         0.000000
+Bitbucket Client Credentials              0            5            0                 0     0      5      0  0.000000            1.000000
 Bitbucket Client ID                     143         2107            9                 0     0   2116    143  0.000000  1.000000  0.936698         0.000000
-Bitbucket Client Secret                 301          811           10                 0     0    821    301  0.000000  1.000000  0.731729         0.000000
+Bitbucket Client Secret                 301          831           10                 0     0    841    301  0.000000  1.000000  0.736427         0.000000
 CMD ConvertTo-SecureString               13            4            0                 0     0      4     13  0.000000  1.000000  0.235294         0.000000
 CMD Password                             21          128            6                 0     0    134     21  0.000000  1.000000  0.864516         0.000000
 CMD Secret                                1            1            0                 0     0      1      1  0.000000  1.000000  0.500000         0.000000
@@ -271,4 +272,4 @@ Token                                   644         4170          454           
 Twilio Credentials                       30           39            0                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         210          157          215                 0     0    372    210  0.000000  1.000000  0.639175         0.000000
 UUID                                   1075          265            0                 0     0    265   1075  0.000000  1.000000  0.197761         0.000000
-                                      12273        49698         5101           0     0     0  49698  12273  0.000000  1.000000  0.801956         0.000000
+                                      12273        49723         5101           0     0     0  49723  12273  0.000000  1.000000  0.802036         0.000000
