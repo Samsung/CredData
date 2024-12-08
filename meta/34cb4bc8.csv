@@ -14,7 +14,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 7275,5f2db6d2,GitHub,34cb4bc8,data/34cb4bc8/src/5f2db6d2.cs,33,33,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 7359,71695fe8,GitHub,34cb4bc8,data/34cb4bc8/src/71695fe8.cs,40,40,F,F,,,F,F,,,,,0,0,F,F,F,Token
 11132,d0956426,GitHub,34cb4bc8,data/34cb4bc8/src/d0956426.cs,21,21,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-11508,ac423ded,GitHub,34cb4bc8,data/34cb4bc8/src/ac423ded.rst,31,31,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+
 11792,6d063641,GitHub,34cb4bc8,data/34cb4bc8/test/6d063641.cs,73,73,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Gitlab Feed Token
 11824,6d063641,GitHub,34cb4bc8,data/34cb4bc8/test/6d063641.cs,46,46,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Gitlab Feed Token
 11898,a6fcab95,GitHub,34cb4bc8,data/34cb4bc8/test/a6fcab95.cs,43,43,F,F,,,F,F,,,,,0,0,F,F,F,API
@@ -22,8 +22,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 13628,6c40c878,GitHub,34cb4bc8,data/34cb4bc8/src/6c40c878.cs,55,55,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Gitlab Feed Token
 13629,4c636203,GitHub,34cb4bc8,data/34cb4bc8/src/4c636203.cs,57,57,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 13630,4c636203,GitHub,34cb4bc8,data/34cb4bc8/src/4c636203.cs,48,48,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-13631,4c636203,GitHub,34cb4bc8,data/34cb4bc8/src/4c636203.cs,38,38,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Bitbucket Client ID
-13632,4c636203,GitHub,34cb4bc8,data/34cb4bc8/src/4c636203.cs,25,25,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Bitbucket Client ID
+13631,4c636203,GitHub,34cb4bc8,data/34cb4bc8/src/4c636203.cs,38,38,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+13632,4c636203,GitHub,34cb4bc8,data/34cb4bc8/src/4c636203.cs,25,25,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 13696,58950d10,GitHub,34cb4bc8,data/34cb4bc8/src/58950d10.cs,29,29,F,F,,,F,F,,,,,0,0,F,F,F,Token
 17253,bdac7f67,GitHub,34cb4bc8,data/34cb4bc8/test/bdac7f67.cs,347,347,T,F,121,185,F,F,,,,,0.0,0,F,F,F,Token
 17255,5b0a65f2,GitHub,34cb4bc8,data/34cb4bc8/test/5b0a65f2.cs,78,78,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
@@ -62,12 +62,12 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 29723,932c288e,GitHub,34cb4bc8,data/34cb4bc8/test/932c288e.cs,78,78,Template,T,25,35,F,F,Any,,,Token,2.31,10,F,F,F,Token
 29827,475d6673,GitHub,34cb4bc8,data/34cb4bc8/src/475d6673.rst,104,104,Template,T,18,26,F,F,CharsOnly,,,Token,2.41,8,F,F,F,Token
 32233,1a6fe6a9,GitHub,34cb4bc8,data/34cb4bc8/test/1a6fe6a9.cs,50,50,T,F,31,63,F,F,Any,,,Token,4.6,32,F,F,F,Token:Bitbucket Client ID:Bitbucket Client Secret
-34485,1a6fe6a9,GitHub,34cb4bc8,data/34cb4bc8/test/1a6fe6a9.cs,69,69,T,T,32,64,F,F,Any,,,Token,4.62,39,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Token
+34485,1a6fe6a9,GitHub,34cb4bc8,data/34cb4bc8/test/1a6fe6a9.cs,69,69,T,T,32,64,F,F,Any,,,Token,4.62,39,F,F,F,Token
 36037,9453018f,GitHub,34cb4bc8,data/34cb4bc8/src/9453018f.json,15,15,T,F,16,48,F,F,Any,,,Token,4.6,32,F,F,F,Token:Bitbucket Client ID:Bitbucket Client Secret
 36038,ac423ded,GitHub,34cb4bc8,data/34cb4bc8/src/ac423ded.rst,52,52,T,F,16,48,F,F,Any,,,Token,4.6,32,F,F,F,Token:Bitbucket Client ID:Bitbucket Client Secret
 37550,ac423ded,GitHub,34cb4bc8,data/34cb4bc8/src/ac423ded.rst,69,69,T,F,13,45,F,F,Any,,,Token,4.6,32,F,F,F,Token:Bitbucket Client ID:Bitbucket Client Secret
 46397,5b566b04,GitHub,34cb4bc8,data/34cb4bc8/test/5b566b04.cs,574,574,Template,T,40,44,F,F,CharsOnly,,,Unknown,1.5,4,F,F,F,Password
-46734,bdac7f67,GitHub,34cb4bc8,data/34cb4bc8/test/bdac7f67.cs,351,351,T,F,108,172,F,F,Any,,,Token,3.72,64,F,F,F,Bitbucket Client Secret:Token
+46734,bdac7f67,GitHub,34cb4bc8,data/34cb4bc8/test/bdac7f67.cs,351,351,T,F,108,172,F,F,Any,,,Token,3.72,64,F,F,F,Token
 1138196,bdac7f67,GitHub,34cb4bc8,data/34cb4bc8/test/bdac7f67.cs,352,352,T,F,62,126,F,F,,,,,0.0,0,F,F,F,Token
 46743,cf878187,GitHub,34cb4bc8,data/34cb4bc8/test/cf878187.cs,43,43,F,F,,,F,F,,,,,0,0,F,F,F,API
 52577,ec0f6cc0,GitHub,34cb4bc8,data/34cb4bc8/src/ec0f6cc0.rst,131,131,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key

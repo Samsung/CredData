@@ -1,7 +1,7 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
 165,52925fcf,GitHub,784d78e8,data/784d78e8/other/52925fcf,515,515,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 913,be24a8e8,GitHub,784d78e8,data/784d78e8/src/be24a8e8.j2,22,22,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-1204,288d8a27,GitHub,784d78e8,data/784d78e8/src/288d8a27.yml,128,128,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client ID
+
 1605,aedd861e,GitHub,784d78e8,data/784d78e8/other/aedd861e.md,158,158,T,F,26,32,F,F,Any,,,Secret,1.82,6,F,F,F,Password
 1904,f5ee60af,GitHub,784d78e8,data/784d78e8/src/f5ee60af.txt,42,42,F,F,,,F,F,,,,,0,0,F,F,F,Password
 2012,c7d90e53,GitHub,784d78e8,data/784d78e8/other/c7d90e53.md,72,72,F,F,,,F,F,,,,,0,0,F,F,F,Token
@@ -75,7 +75,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 18817,ef281d18,GitHub,784d78e8,data/784d78e8/src/ef281d18.yaml,282,282,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 18819,c71ad9b7,GitHub,784d78e8,data/784d78e8/src/c71ad9b7.j2,109,109,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 18821,5c04bd2c,GitHub,784d78e8,data/784d78e8/src/5c04bd2c.j2,483,483,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-18826,f88ae37f,GitHub,784d78e8,data/784d78e8/src/f88ae37f.j2,106,106,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Bitbucket Client ID
+18826,f88ae37f,GitHub,784d78e8,data/784d78e8/src/f88ae37f.j2,106,106,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 18827,52532fdc,GitHub,784d78e8,data/784d78e8/src/52532fdc.j2,188,188,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 18832,b6cdb279,GitHub,784d78e8,data/784d78e8/src/b6cdb279.j2,72,72,F,F,,,F,F,,,,,0,0,F,F,F,Key
 21326,cfeff289,GitHub,784d78e8,data/784d78e8/src/cfeff289.yaml,125,125,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
@@ -83,7 +83,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 21733,c7d90e53,GitHub,784d78e8,data/784d78e8/other/c7d90e53.md,78,78,F,F,,,F,F,,,,,0,0,F,F,F,Token
 21734,b54d19d1,GitHub,784d78e8,data/784d78e8/other/b54d19d1.md,49,49,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 21737,52925fcf,GitHub,784d78e8,data/784d78e8/other/52925fcf,506,506,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-21762,f0c93ad6,GitHub,784d78e8,data/784d78e8/src/f0c93ad6.j2,192,192,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Bitbucket Client Secret
+21762,f0c93ad6,GitHub,784d78e8,data/784d78e8/src/f0c93ad6.j2,192,192,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 21792,13210d77,GitHub,784d78e8,data/784d78e8/src/13210d77.cfg,521,521,F,F,,,F,F,,,,,0,0,F,F,F,Token
 23671,46c9c020,GitHub,784d78e8,data/784d78e8/other/46c9c020,5,5,T,F,6,24,F,F,,,,,0,0,F,F,F,Password
 25551,f5ee60af,GitHub,784d78e8,data/784d78e8/src/f5ee60af.txt,41,41,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -107,7 +107,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 34559,dca0818e,GitHub,784d78e8,data/784d78e8/other/dca0818e.md,40,40,T,F,12,27,F,F,Any,,,Secret,3.38,15,F,F,F,Password
 34598,dca0818e,GitHub,784d78e8,data/784d78e8/other/dca0818e.md,33,33,T,T,12,17,F,F,CharsOnly,,,Secret,1.92,5,F,F,F,Password
 34599,cfeff289,GitHub,784d78e8,data/784d78e8/src/cfeff289.yaml,79,79,T,T,12,17,F,F,CharsOnly,,,Secret,1.92,5,F,F,F,Password
-35438,59bb2be3,GitHub,784d78e8,data/784d78e8/other/59bb2be3.md,157,157,T,F,13,45,T,F,Any,,,Secret,3.61,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:URL Credentials
+35438,59bb2be3,GitHub,784d78e8,data/784d78e8/other/59bb2be3.md,157,157,T,F,13,45,T,F,Any,,,Secret,3.61,32,F,F,F,URL Credentials
 37088,d38b4b1e,GitHub,784d78e8,data/784d78e8/src/d38b4b1e.yaml,145,145,T,F,19,26,F,F,CharsOnly,,,Secret,2.52,7,F,F,F,Secret
 40593,f0c93ad6,GitHub,784d78e8,data/784d78e8/src/f0c93ad6.j2,183,183,Template,T,19,25,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Secret
 40594,bdc8707e,GitHub,784d78e8,data/784d78e8/src/bdc8707e.j2,154,154,Template,T,20,28,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
@@ -123,17 +123,17 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 42949,47124e11,GitHub,784d78e8,data/784d78e8/src/47124e11.j2,83,83,Template,T,19,27,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
 42977,78f586b0,GitHub,784d78e8,data/784d78e8/src/78f586b0.yaml,2,2,F,F,,,F,F,,,,,0,0,F,F,F,API
 55575,cfeff289,GitHub,784d78e8,data/784d78e8/src/cfeff289.yaml,253,253,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-55650,bdc8707e,GitHub,784d78e8,data/784d78e8/src/bdc8707e.j2,178,178,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Bitbucket Client Secret
-55651,47124e11,GitHub,784d78e8,data/784d78e8/src/47124e11.j2,193,193,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Bitbucket Client Secret
+55650,bdc8707e,GitHub,784d78e8,data/784d78e8/src/bdc8707e.j2,178,178,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+55651,47124e11,GitHub,784d78e8,data/784d78e8/src/47124e11.j2,193,193,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 56625,c71ad9b7,GitHub,784d78e8,data/784d78e8/src/c71ad9b7.j2,114,114,F,F,,,F,F,,,,,0,0,F,F,F,Key
 56626,52532fdc,GitHub,784d78e8,data/784d78e8/src/52532fdc.j2,133,133,F,F,,,F,F,,,,,0,0,F,F,F,Key
 56629,c71ad9b7,GitHub,784d78e8,data/784d78e8/src/c71ad9b7.j2,171,171,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-56630,be24a8e8,GitHub,784d78e8,data/784d78e8/src/be24a8e8.j2,100,100,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Bitbucket Client ID
-56631,be24a8e8,GitHub,784d78e8,data/784d78e8/src/be24a8e8.j2,344,344,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Bitbucket Client ID
-56632,0e888c04,GitHub,784d78e8,data/784d78e8/src/0e888c04.j2,199,199,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Bitbucket Client ID
-56633,0e888c04,GitHub,784d78e8,data/784d78e8/src/0e888c04.j2,477,477,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Bitbucket Client ID
-56634,572517bd,GitHub,784d78e8,data/784d78e8/src/572517bd.j2,188,188,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Bitbucket Client ID
-56635,572517bd,GitHub,784d78e8,data/784d78e8/src/572517bd.j2,457,457,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Bitbucket Client ID
+56630,be24a8e8,GitHub,784d78e8,data/784d78e8/src/be24a8e8.j2,100,100,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+56631,be24a8e8,GitHub,784d78e8,data/784d78e8/src/be24a8e8.j2,344,344,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+56632,0e888c04,GitHub,784d78e8,data/784d78e8/src/0e888c04.j2,199,199,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+56633,0e888c04,GitHub,784d78e8,data/784d78e8/src/0e888c04.j2,477,477,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+56634,572517bd,GitHub,784d78e8,data/784d78e8/src/572517bd.j2,188,188,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+56635,572517bd,GitHub,784d78e8,data/784d78e8/src/572517bd.j2,457,457,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 56636,5c04bd2c,GitHub,784d78e8,data/784d78e8/src/5c04bd2c.j2,609,609,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 64008,572517bd,GitHub,784d78e8,data/784d78e8/src/572517bd.j2,20,20,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 64009,0e888c04,GitHub,784d78e8,data/784d78e8/src/0e888c04.j2,19,19,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key

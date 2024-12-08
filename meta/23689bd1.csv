@@ -1,7 +1,7 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
 587,a9a30ade,GitHub,23689bd1,data/23689bd1/src/a9a30ade.ts,5,5,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 592,80369249,GitHub,23689bd1,data/23689bd1/src/80369249.ts,45,45,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-676,561d1a40,GitHub,23689bd1,data/23689bd1/src/561d1a40.ts,15,15,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Bitbucket Client ID
+676,561d1a40,GitHub,23689bd1,data/23689bd1/src/561d1a40.ts,15,15,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 677,dee5bf86,GitHub,23689bd1,data/23689bd1/src/dee5bf86.ts,5,5,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 678,0d4ae775,GitHub,23689bd1,data/23689bd1/src/0d4ae775.ts,4,4,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 679,57bb3a03,GitHub,23689bd1,data/23689bd1/src/57bb3a03.ts,3,3,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
@@ -18,11 +18,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 1085,2f419657,GitHub,23689bd1,data/23689bd1/src/2f419657.ts,16,16,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 1089,a57bbb8c,GitHub,23689bd1,data/23689bd1/test/a57bbb8c.mjs,220,220,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 1090,5caed4e2,GitHub,23689bd1,data/23689bd1/test/5caed4e2.mjs,162,162,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-1112,ff740237,GitHub,23689bd1,data/23689bd1/src/ff740237.ts,5,5,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Bitbucket Client ID
+1112,ff740237,GitHub,23689bd1,data/23689bd1/src/ff740237.ts,5,5,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 1114,3d9ad018,GitHub,23689bd1,data/23689bd1/src/3d9ad018.ts,50,50,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 1126,8b521755,GitHub,23689bd1,data/23689bd1/src/8b521755.ts,28,28,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 1127,bf085703,GitHub,23689bd1,data/23689bd1/src/bf085703.ts,46,46,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-1142,bc33f3b3,GitHub,23689bd1,data/23689bd1/src/bc33f3b3.ts,18,18,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Bitbucket Client ID
+1142,bc33f3b3,GitHub,23689bd1,data/23689bd1/src/bc33f3b3.ts,18,18,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 1143,05a177a1,GitHub,23689bd1,data/23689bd1/src/05a177a1.ts,107,107,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 1144,05a177a1,GitHub,23689bd1,data/23689bd1/src/05a177a1.ts,95,95,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 1155,5211fcfa,GitHub,23689bd1,data/23689bd1/test/5211fcfa.mjs,143,143,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
@@ -256,8 +256,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 28448,5caed4e2,GitHub,23689bd1,data/23689bd1/test/5caed4e2.mjs,72,72,F,F,12,55,F,F,,,,,0.0,0,F,F,F,Other
 28550,46fe33af,GitHub,23689bd1,data/23689bd1/other/46fe33af.md,24,24,F,F,12,87,F,F,,,,,0.0,0,F,F,F,Other
 28686,5caed4e2,GitHub,23689bd1,data/23689bd1/test/5caed4e2.mjs,71,71,F,F,12,55,F,F,,,,,0.0,0,F,F,F,Other
-31200,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,780,780,T,F,32,64,F,F,Any,,,Unknown,4.59,32,F,F,F,Bitbucket Client Secret:Key
-31210,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,416,416,T,F,32,64,F,F,Any,,,Unknown,4.33,32,F,F,F,Bitbucket Client Secret:Key
+31200,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,780,780,T,F,32,64,F,F,Any,,,Unknown,4.59,32,F,F,F,Key:Bitbucket Client Secret
+31210,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,416,416,T,F,32,64,F,F,Any,,,Unknown,4.33,32,F,F,F,Key
 34756,3220d10c,GitHub,23689bd1,data/23689bd1/test/3220d10c.mjs,47,47,F,F,22,65,F,F,,,,,0.0,0,F,F,F,Other
 34757,3220d10c,GitHub,23689bd1,data/23689bd1/test/3220d10c.mjs,25,25,F,F,22,65,F,F,,,,,0.0,0,F,F,F,Other
 34758,7c95184c,GitHub,23689bd1,data/23689bd1/test/7c95184c.mjs,16,16,F,F,20,63,F,F,,,,,0.0,0,F,F,F,Other
@@ -265,26 +265,26 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 34760,94864ff4,GitHub,23689bd1,data/23689bd1/test/94864ff4.mjs,345,345,F,F,28,71,F,F,,,,,0.0,0,F,F,F,Other
 34761,94864ff4,GitHub,23689bd1,data/23689bd1/test/94864ff4.mjs,441,441,F,F,28,71,F,F,,,,,0.0,0,F,F,F,Other
 35605,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,599,599,T,F,32,75,F,F,Any,,,Unknown,4.7,43,F,F,F,Key
-35620,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,841,841,T,F,32,64,F,F,Any,,,Unknown,4.38,32,F,F,F,Bitbucket Client Secret:Key
+35620,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,841,841,T,F,32,64,F,F,Any,,,Unknown,4.38,32,F,F,F,Key:Bitbucket Client Secret
 35621,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,342,342,T,F,32,86,F,F,Any,,,Unknown,4.96,54,F,F,F,Key
-35622,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,658,658,T,F,32,64,F,F,Any,,,Unknown,4.28,32,F,F,F,Bitbucket Client Secret:Key
-35623,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,720,720,T,F,32,64,F,F,Any,,,Unknown,4.53,32,F,F,F,Bitbucket Client Secret:Key
-35639,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,903,903,T,F,32,64,F,F,Any,,,Unknown,4.59,32,F,F,F,Bitbucket Client Secret:Key
+35622,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,658,658,T,F,32,64,F,F,Any,,,Unknown,4.28,32,F,F,F,Key:Bitbucket Client Secret
+35623,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,720,720,T,F,32,64,F,F,Any,,,Unknown,4.53,32,F,F,F,Key:Bitbucket Client Secret
+35639,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,903,903,T,F,32,64,F,F,Any,,,Unknown,4.59,32,F,F,F,Key
 37226,3220d10c,GitHub,23689bd1,data/23689bd1/test/3220d10c.mjs,35,35,F,F,22,65,F,F,,,,,0.0,0,F,F,F,Other
 37227,94864ff4,GitHub,23689bd1,data/23689bd1/test/94864ff4.mjs,404,404,F,F,24,67,F,F,,,,,0.0,0,F,F,F,Other
 37228,94864ff4,GitHub,23689bd1,data/23689bd1/test/94864ff4.mjs,354,354,F,F,24,67,F,F,,,,,0.0,0,F,F,F,Other
 37229,94864ff4,GitHub,23689bd1,data/23689bd1/test/94864ff4.mjs,452,452,F,F,24,67,F,F,,,,,0.0,0,F,F,F,Other
 37460,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,612,612,T,F,28,71,F,F,Any,,,Unknown,4.7,43,F,F,F,Key
-37462,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,860,860,T,F,28,60,F,F,Any,,,Unknown,4.38,32,F,F,F,Bitbucket Client Secret:Key
+37462,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,860,860,T,F,28,60,F,F,Any,,,Unknown,4.38,32,F,F,F,Key:Bitbucket Client Secret
 37463,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,355,355,T,F,28,82,F,F,Any,,,Unknown,4.96,54,F,F,F,Key
-37464,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,671,671,T,F,28,60,F,F,Any,,,Unknown,4.28,32,F,F,F,Bitbucket Client Secret:Key
-37465,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,733,733,T,F,28,60,F,F,Any,,,Unknown,4.53,32,F,F,F,Bitbucket Client Secret:Key
-37466,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,922,922,T,F,28,60,F,F,Any,,,Unknown,4.59,32,F,F,F,Bitbucket Client Secret:Key
+37464,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,671,671,T,F,28,60,F,F,Any,,,Unknown,4.28,32,F,F,F,Key
+37465,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,733,733,T,F,28,60,F,F,Any,,,Unknown,4.53,32,F,F,F,Key
+37466,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,922,922,T,F,28,60,F,F,Any,,,Unknown,4.59,32,F,F,F,Key:Bitbucket Client Secret
 40743,35fcd6a1,GitHub,23689bd1,data/23689bd1/src/35fcd6a1.ts,45,45,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 40744,23c7d6d0,GitHub,23689bd1,data/23689bd1/src/23c7d6d0.ts,140,140,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 40745,23c7d6d0,GitHub,23689bd1,data/23689bd1/src/23c7d6d0.ts,141,141,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 40746,23c7d6d0,GitHub,23689bd1,data/23689bd1/src/23c7d6d0.ts,147,147,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-43096,23c7d6d0,GitHub,23689bd1,data/23689bd1/src/23c7d6d0.ts,130,130,T,T,50,114,F,F,Any,,,Secret,3.67,64,F,F,F,Bitbucket Client Secret:Secret:Key
+43096,23c7d6d0,GitHub,23689bd1,data/23689bd1/src/23c7d6d0.ts,130,130,T,T,50,114,F,F,Any,,,Secret,3.67,64,F,F,F,Secret:Key
 46763,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,234,234,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 46764,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,358,358,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 46765,94864ff4,GitHub,23689bd1,data/23689bd1/test/94864ff4.mjs,308,308,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
@@ -305,9 +305,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 46790,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,298,298,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 46791,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,432,432,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 46800,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,478,478,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46801,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,404,404,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+
 46802,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,479,479,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46803,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,405,405,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+
 47084,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,786,786,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 47100,94864ff4,GitHub,23689bd1,data/23689bd1/test/94864ff4.mjs,225,225,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 47102,94864ff4,GitHub,23689bd1,data/23689bd1/test/94864ff4.mjs,228,228,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
@@ -323,10 +323,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 47173,b2db93fc,GitHub,23689bd1,data/23689bd1/test/b2db93fc.mjs,107,107,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 47174,b2db93fc,GitHub,23689bd1,data/23689bd1/test/b2db93fc.mjs,108,108,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 47216,3220d10c,GitHub,23689bd1,data/23689bd1/test/3220d10c.mjs,23,23,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-47435,49e2e9d5,GitHub,23689bd1,data/23689bd1/test/49e2e9d5.mjs,160,160,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
-47436,49e2e9d5,GitHub,23689bd1,data/23689bd1/test/49e2e9d5.mjs,133,133,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+
+
 47494,5caed4e2,GitHub,23689bd1,data/23689bd1/test/5caed4e2.mjs,65,65,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-47495,5caed4e2,GitHub,23689bd1,data/23689bd1/test/5caed4e2.mjs,57,57,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+
 47496,b2db93fc,GitHub,23689bd1,data/23689bd1/test/b2db93fc.mjs,175,175,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 47497,5caed4e2,GitHub,23689bd1,data/23689bd1/test/5caed4e2.mjs,49,49,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 47498,0b6fdfa1,GitHub,23689bd1,data/23689bd1/test/0b6fdfa1.mjs,41,41,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
@@ -340,15 +340,15 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 47587,5caed4e2,GitHub,23689bd1,data/23689bd1/test/5caed4e2.mjs,82,82,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 47588,5caed4e2,GitHub,23689bd1,data/23689bd1/test/5caed4e2.mjs,85,85,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 47684,5caed4e2,GitHub,23689bd1,data/23689bd1/test/5caed4e2.mjs,63,63,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-47685,5caed4e2,GitHub,23689bd1,data/23689bd1/test/5caed4e2.mjs,55,55,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+
 47686,5caed4e2,GitHub,23689bd1,data/23689bd1/test/5caed4e2.mjs,47,47,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 47687,0b6fdfa1,GitHub,23689bd1,data/23689bd1/test/0b6fdfa1.mjs,39,39,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-47688,5caed4e2,GitHub,23689bd1,data/23689bd1/test/5caed4e2.mjs,56,56,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+
 47689,5caed4e2,GitHub,23689bd1,data/23689bd1/test/5caed4e2.mjs,64,64,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 47690,5caed4e2,GitHub,23689bd1,data/23689bd1/test/5caed4e2.mjs,48,48,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 47691,0b6fdfa1,GitHub,23689bd1,data/23689bd1/test/0b6fdfa1.mjs,40,40,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 47747,5211fcfa,GitHub,23689bd1,data/23689bd1/test/5211fcfa.mjs,172,172,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-47748,5211fcfa,GitHub,23689bd1,data/23689bd1/test/5211fcfa.mjs,164,164,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+
 47749,5211fcfa,GitHub,23689bd1,data/23689bd1/test/5211fcfa.mjs,154,154,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 47750,5211fcfa,GitHub,23689bd1,data/23689bd1/test/5211fcfa.mjs,179,179,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 47751,5211fcfa,GitHub,23689bd1,data/23689bd1/test/5211fcfa.mjs,182,182,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
@@ -360,9 +360,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 47796,5211fcfa,GitHub,23689bd1,data/23689bd1/test/5211fcfa.mjs,181,181,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 47797,5211fcfa,GitHub,23689bd1,data/23689bd1/test/5211fcfa.mjs,184,184,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 47848,5211fcfa,GitHub,23689bd1,data/23689bd1/test/5211fcfa.mjs,170,170,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-47849,5211fcfa,GitHub,23689bd1,data/23689bd1/test/5211fcfa.mjs,162,162,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+
 47850,5211fcfa,GitHub,23689bd1,data/23689bd1/test/5211fcfa.mjs,152,152,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-47851,5211fcfa,GitHub,23689bd1,data/23689bd1/test/5211fcfa.mjs,163,163,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
+
 47852,5211fcfa,GitHub,23689bd1,data/23689bd1/test/5211fcfa.mjs,171,171,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 47853,5211fcfa,GitHub,23689bd1,data/23689bd1/test/5211fcfa.mjs,153,153,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 56240,4b52b21e,GitHub,23689bd1,data/23689bd1/src/4b52b21e.ts,20,20,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
@@ -371,8 +371,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 63475,b2db93fc,GitHub,23689bd1,data/23689bd1/test/b2db93fc.mjs,152,152,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 63491,94902605,GitHub,23689bd1,data/23689bd1/test/94902605.mjs,70,70,F,F,,,F,F,,,,,0,0,F,F,F,Token
 63492,b8560638,GitHub,23689bd1,data/23689bd1/test/b8560638.mjs,81,81,F,F,,,F,F,,,,,0,0,F,F,F,Token
-63997,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,429,429,T,F,28,60,F,F,Any,,,Unknown,4.33,32,F,F,F,Bitbucket Client Secret:Key
-63998,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,794,794,T,F,28,60,F,F,Any,,,Unknown,4.59,32,F,F,F,Bitbucket Client Secret:Key
+63997,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,429,429,T,F,28,60,F,F,Any,,,Unknown,4.33,32,F,F,F,Key:Bitbucket Client Secret
+63998,b5304871,GitHub,23689bd1,data/23689bd1/test/b5304871.mjs,794,794,T,F,28,60,F,F,Any,,,Unknown,4.59,32,F,F,F,Key:Bitbucket Client Secret
 64051,4bd1eeae,GitHub,23689bd1,data/23689bd1/src/4bd1eeae.ts,53,53,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 64052,7d31fc33,GitHub,23689bd1,data/23689bd1/src/7d31fc33.ts,22,22,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 64507,8b521755,GitHub,23689bd1,data/23689bd1/src/8b521755.ts,31,31,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
