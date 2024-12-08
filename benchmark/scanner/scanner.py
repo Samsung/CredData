@@ -327,10 +327,10 @@ class Scanner(ABC):
                         return LineStatus.TRUE, project_id, file_id
             else:
                 print(f"WARNING: '{rule}' is not mentioned in {row}")
-                # subprocess.check_call(
-                #     ["sed", "-i",
-                #      f"s/{row.Id},\\(.*\\)/{row.Id},\\1:{rule}/",
-                #      f"meta/{row.RepoName}.csv"])
+                subprocess.check_call(
+                    ["sed", "-i",
+                     f"s/{row.Id},\\(.*\\)/{row.Id},\\1:{rule}/",
+                     f"meta/{row.RepoName}.csv"])
         # meta has no markup for given credential
         self.lost_cnt += 1
         print(f"{suggestion} {approximate}", flush=True)
