@@ -13,8 +13,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 23330,0e4d33ed,GitHub,8b8452c2,data/8b8452c2/test/0e4d33ed.go,41,41,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 29413,5b30de49,GitHub,8b8452c2,data/8b8452c2/test/5b30de49.go,21,21,Template,T,33,44,F,F,Any,,,Token,2.53,11,F,F,F,Secret:Token
 29565,0b2fc2f3,GitHub,8b8452c2,data/8b8452c2/test/0b2fc2f3.go,20,20,Template,T,20,49,F,F,Any,,,Secret,3.45,29,F,F,F,Secret
-30632,8d88e3e7,GitHub,8b8452c2,data/8b8452c2/src/8d88e3e7.go,14,14,Template,T,27,45,F,F,CharsOnly,,,Token,3.17,18,F,F,F,Bitbucket Client ID:Secret:Token
-31452,b3356305,GitHub,8b8452c2,data/8b8452c2/other/b3356305.md,44,44,Template,T,19,37,F,F,CharsOnly,,,Secret,3.53,18,F,F,F,Bitbucket Client ID:Secret
+30632,8d88e3e7,GitHub,8b8452c2,data/8b8452c2/src/8d88e3e7.go,14,14,Template,T,27,45,F,F,CharsOnly,,,Token,3.17,18,F,F,F,Secret:Token
+31452,b3356305,GitHub,8b8452c2,data/8b8452c2/other/b3356305.md,44,44,Template,T,19,37,F,F,CharsOnly,,,Secret,3.53,18,F,F,F,Secret
 31459,45a933b8,GitHub,8b8452c2,data/8b8452c2/test/45a933b8.go,31,31,F,T,20,33,F,F,Any,,,Secret,2.32,13,F,F,F,Secret
 31463,45a933b8,GitHub,8b8452c2,data/8b8452c2/test/45a933b8.go,12,12,F,T,20,34,F,F,Any,,,Secret,2.54,14,F,F,F,Secret
 31484,b3356305,GitHub,8b8452c2,data/8b8452c2/other/b3356305.md,85,85,Template,T,21,42,F,F,CharsOnly,,,Secret,3.56,21,F,F,F,Secret
