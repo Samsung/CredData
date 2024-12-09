@@ -362,7 +362,7 @@ class Scanner(ABC):
                     subprocess.check_call(
                         ["sed", "-i",
                          f"s/{row.Id},\\(.*\\)/{row.Id},\\1:{rule}/",
-                         f"{self.cred_data_dir}/meta"])
+                         f"{self.cred_data_dir}/meta/{row.RepoName}"])
         # meta has no markup for given credential
         self.lost_cnt += 1
         print(f"{suggestion} {approximate}", flush=True)
