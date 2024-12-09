@@ -26,7 +26,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 5357,08232d99,GitHub,0f133e09,data/0f133e09/test/08232d99.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 5363,6ca54b76,GitHub,0f133e09,data/0f133e09/test/6ca54b76.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 5364,3f1b2dc0,GitHub,0f133e09,data/0f133e09/test/3f1b2dc0.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Key
-5527,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,9,9,T,F,394,414,T,F,Any,,AWS Client ID,Token,3.78,20,F,F,F,AWS Client ID:Gitlab Feed Token:Credential
+5527,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,9,9,T,F,394,414,T,F,Any,,AWS Client ID,Token,3.78,20,F,F,F,AWS Client ID:Gitlab Feed Token
 105527,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,9,9,T,F,394,457,T,F,Any,,AWS Client ID,Token,3.78,20,F,F,F,Credential
 136762,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,9,9,T,F,292,321,F,F,,,,,0.0,0,F,F,F,AWS S3 Bucket
 6626,7814ce17,GitHub,0f133e09,data/0f133e09/test/7814ce17.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Auth
@@ -286,7 +286,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 20169,412e86f3,GitHub,0f133e09,data/0f133e09/test/412e86f3.py,51,51,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 20170,9877ceb1,GitHub,0f133e09,data/0f133e09/test/9877ceb1.py,41,41,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 20171,d27bec8f,GitHub,0f133e09,data/0f133e09/test/d27bec8f.py,54,54,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-20172,03cdc0c5,GitHub,0f133e09,data/0f133e09/test/03cdc0c5.py,95,95,T,F,123,143,T,F,Any,,AWS Client ID,Token,3.78,20,F,F,F,AWS Client ID:Credential
+20172,03cdc0c5,GitHub,0f133e09,data/0f133e09/test/03cdc0c5.py,95,95,T,F,123,143,T,F,Any,,AWS Client ID,Token,3.78,20,F,F,F,AWS Client ID
+1020172,03cdc0c5,GitHub,0f133e09,data/0f133e09/test/03cdc0c5.py,95,95,T,F,123,186,T,F,Any,,AWS Client ID,Token,3.78,20,F,F,F,Credential
 136761,03cdc0c5,GitHub,0f133e09,data/0f133e09/test/03cdc0c5.py,95,95,T,F,123,313,F,F,,,,,0.0,0,F,F,F,AWS Multi
 136760,03cdc0c5,GitHub,0f133e09,data/0f133e09/test/03cdc0c5.py,95,95,T,F,21,50,F,F,,,,,0.0,0,F,F,F,AWS S3 Bucket
 20680,0ccc1045,GitHub,0f133e09,data/0f133e09/src/0ccc1045.py,1236,1236,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
@@ -304,7 +305,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 30876,d4a67d01,GitHub,0f133e09,data/0f133e09/test/d4a67d01.txt,10,10,F,F,57,437,T,F,Any,,,PublicKey,5.84,380,F,F,F,Key
 30877,d6019b5f,GitHub,0f133e09,data/0f133e09/test/d6019b5f.txt,10,10,F,T,74,454,T,F,Any,,,Unknown,5.83,380,F,F,F,Key
 30883,7400d4c5,GitHub,0f133e09,data/0f133e09/test/7400d4c5.txt,10,10,F,F,9,389,F,F,Any,,,Unknown,5.84,380,F,F,F,Key
-30951,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,10,10,T,T,110,130,T,F,Any,,AWS Client ID,Secret,3.78,20,F,F,F,AWS Client ID:Gitlab Feed Token:Credential
+30951,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,10,10,T,T,110,130,T,F,Any,,AWS Client ID,Secret,3.78,20,F,F,F,AWS Client ID:Gitlab Feed Token
+1030951,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,10,10,T,T,110,173,T,F,Any,,AWS Client ID,Secret,3.78,20,F,F,F,Credential
 136763,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,10,10,T,F,8,37,F,F,,,,,0.0,0,F,F,F,AWS S3 Bucket
 31365,b3356305,GitHub,0f133e09,data/0f133e09/other/b3356305.md,35,35,Template,T,65,77,F,F,Any,,,Token,2.79,12,F,F,F,Token
 34714,cd589265,GitHub,0f133e09,data/0f133e09/test/cd589265.py,281,281,Template,T,29,37,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
