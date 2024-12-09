@@ -35,9 +35,13 @@ class Benchmark:
             subprocess.call(["./venv/bin/python", "download_data.py", "--data_dir", "data"], cwd=cred_data_path)
         return cred_data_path
 
-    def run(self, scanner_type: str, output: Optional[str] = None) -> None:
+    def run(self, scanner_type: str, output: Optional[str] = None, fix: Optional[bool] = None) -> None:
         if _scanner_type := getattr(ScannerType, scanner_type.strip().upper(), None):
-            scanner = ScannerFactory.create_scanner(_scanner_type, self.working_dir, self.cred_data_path, bool(output))
+            scanner = ScannerFactory.create_scanner(_scanner_type,
+                                                    self.working_dir,
+                                                    self.cred_data_path,
+                                                    bool(output),
+                                                    bool(fix))
         else:
             raise RuntimeError(f"Wrong scanner_type='{scanner_type}'")
         if output:

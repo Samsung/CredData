@@ -18,6 +18,9 @@ def get_arguments() -> Namespace:
     parser.add_argument("--load",
                         help=f"skip scan and use prepared output",
                         dest="load")
+    parser.add_argument("--fix",
+                        help=f"add/update markup for unknown credetials",
+                        dest="fix")
     return parser.parse_args()
 
 
@@ -25,7 +28,7 @@ def main() -> None:
     args = get_arguments()
     benchmark = Benchmark()
     if args.scanner in SCANNER_LIST:
-        benchmark.run(args.scanner, args.load)
+        benchmark.run(args.scanner, args.load, args.fix)
     else:
         print(f"Please check scanner name (support: {SCANNER_LIST})")
 

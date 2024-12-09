@@ -8,8 +8,8 @@ from benchmark.scanner.scanner import Scanner
 
 
 class Wraith(Scanner):
-    def __init__(self, working_dir: str, cred_data_dir: str, preload: bool) -> None:
-        super().__init__(ScannerType.WRAITH, URL.WRAITH, working_dir, cred_data_dir, preload)
+    def __init__(self, working_dir: str, cred_data_dir: str, preload: bool, fix: bool) -> None:
+        super().__init__(ScannerType.WRAITH, URL.WRAITH, working_dir, cred_data_dir, preload, fix)
         self.output_dir = f"{self.scanner_dir}/output.json"
         self.working_dir = working_dir
 
@@ -40,8 +40,8 @@ class Wraith(Scanner):
             f"{self.cred_data_dir}/data/", "--scan-tests", "--json", "--num-threads",
             str(os.cpu_count() * 2)
         ],
-                                                    cwd=self.scanner_dir,
-                                                    universal_newlines=True)
+            cwd=self.scanner_dir,
+            universal_newlines=True)
         with open(self.output_dir, "w") as f:
             f.write(self.output_lines)
 
@@ -53,4 +53,5 @@ class Wraith(Scanner):
             if line_data["FilePath"].split("/")[-1] == "LICENSE":
                 continue
 
-            _, _, _ = self.check_line_from_meta(line_data["FilePath"], int(line_data["LineNumber"]), int(line_data["LineNumber"]))
+            _, _, _ = self.check_line_from_meta(line_data["FilePath"], int(line_data["LineNumber"]),
+                                                int(line_data["LineNumber"]))

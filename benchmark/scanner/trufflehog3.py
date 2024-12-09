@@ -8,8 +8,8 @@ from benchmark.scanner.scanner import Scanner
 
 
 class TruffleHog3(Scanner):
-    def __init__(self, working_dir: str, cred_data_dir: str, preload: bool) -> None:
-        super().__init__(ScannerType.TRUFFLEHOG3, URL.TRUFFLEHOG3, working_dir, cred_data_dir, preload)
+    def __init__(self, working_dir: str, cred_data_dir: str, preload: bool, fix: bool) -> None:
+        super().__init__(ScannerType.TRUFFLEHOG3, URL.TRUFFLEHOG3, working_dir, cred_data_dir, preload, fix)
         self.output_dir = f"{self.scanner_dir}/output.json"
         if os.path.exists(self.output_dir):
             os.remove(self.output_dir)
@@ -33,7 +33,7 @@ class TruffleHog3(Scanner):
             "./venv/bin/trufflehog3", f"{self.cred_data_dir}/data/", "-o", self.output_dir, "-f", "json",
             "--line-numbers"
         ],
-                        cwd=self.scanner_dir)
+            cwd=self.scanner_dir)
 
     def parse_result(self) -> None:
         with open(self.output_dir, "r") as f:
@@ -44,4 +44,5 @@ class TruffleHog3(Scanner):
                 line_data = {"path": data["path"], "line_number": int(line.split(" ")[0])}
                 if line_data["path"].split("/")[-1] == "LICENSE":
                     continue
-                _, _, _ = self.check_line_from_meta(line_data["path"], line_data["line_number"], line_data["line_number"])
+                _, _, _ = self.check_line_from_meta(line_data["path"], line_data["line_number"],
+                                                    line_data["line_number"])

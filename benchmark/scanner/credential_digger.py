@@ -8,8 +8,8 @@ from benchmark.scanner.scanner import Scanner
 
 class CredentialDigger(Scanner):
 
-    def __init__(self, working_dir: str, cred_data_dir: str, preload: bool) -> None:
-        super().__init__(ScannerType.CREDENTIAL_DIGGER, URL.CREDENTIAL_DIGGER, working_dir, cred_data_dir, preload)
+    def __init__(self, working_dir: str, cred_data_dir: str, preload: bool, fix: bool) -> None:
+        super().__init__(ScannerType.CREDENTIAL_DIGGER, URL.CREDENTIAL_DIGGER, working_dir, cred_data_dir, preload, fix)
         self.output_dir: str = f"{self.scanner_dir}/output.db"
         self.working_dir: str = working_dir
 
@@ -64,4 +64,5 @@ class CredentialDigger(Scanner):
             line_data = {"file_name": data[1], "line_number": data[2]}
             if line_data["file_name"].split("/")[-1] == "LICENSE" or "COPYING" in line_data["file_name"].split("/")[-1]:
                 continue
-            _, _, _ = self.check_line_from_meta(line_data["file_name"], line_data["line_number"], line_data["line_number"])
+            _, _, _ = self.check_line_from_meta(line_data["file_name"], line_data["line_number"],
+                                                line_data["line_number"])

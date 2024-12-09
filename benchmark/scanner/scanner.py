@@ -17,10 +17,11 @@ from meta_row import _get_source_gen, MetaRow
 
 class Scanner(ABC):
     def __init__(self, scanner_type: ScannerType, scanner_url: str, working_dir: str, cred_data_dir: str,
-                 preload: bool) -> None:
+                 preload: bool, fix: bool) -> None:
         self.scanner_type = scanner_type
         self.scanner_dir: str = GitService.set_scanner_up_to_date(working_dir, scanner_url, preload)
         self.cred_data_dir: str = cred_data_dir
+        self.fix = fix
         self.line_checker: set = set()
         self.result_cnt: int = 0
         self.lost_cnt: int = 0
@@ -264,6 +265,36 @@ class Scanner(ABC):
             self.lost_cnt += 1
             self.meta_next_id += 1
             print(f"NOT FOUND WITH KEY: {approximate}", flush=True)
+            if self.fix:
+                with open(f"{self.cred_data_dir}/meta", "a") as f:
+                    f.write(str(approximate))
+                lost_meta = MetaRow({
+                    "Id": self.meta_next_id,
+                    "FileID": file_id,
+                    "Domain": "GitHub",
+                    "RepoName": project_id,
+                    "FilePath": data_path,
+                    "LineStart": line_start,
+                    "LineEnd": line_end,
+                    "GroundTruth": 'F',
+                    "WithWords": 'F',
+                    "ValueStart": value_start,
+                    "ValueEnd": value_end,
+                    "InURL": 'F',
+                    "InRuntimeParameter": 'F',
+                    "CharacterSet": '',
+                    "CryptographyKey": '',
+                    "PredefinedPattern": '',
+                    "VariableNameType": '',
+                    "Entropy": 0.0,
+                    "Length": 0,
+                    "Base64Encode": 'F',
+                    "HexEncode": 'F',
+                    "URLEncode": 'F',
+                    "Category": rule
+                })
+                self.meta[MetaKey(data_path, line_start, line_end), [lost_meta]]
+
             return LineStatus.NOT_IN_DB, project_id, file_id
 
         suggestion = "LOST:"
@@ -327,10 +358,11 @@ class Scanner(ABC):
                         return LineStatus.TRUE, project_id, file_id
             else:
                 print(f"WARNING: '{rule}' is not mentioned in {row}")
-                subprocess.check_call(
-                    ["sed", "-i",
-                     f"s/{row.Id},\\(.*\\)/{row.Id},\\1:{rule}/",
-                     f"meta/{row.RepoName}.csv"])
+                if self.fix:
+                    subprocess.check_call(
+                        ["sed", "-i",
+                         f"s/{row.Id},\\(.*\\)/{row.Id},\\1:{rule}/",
+                         f"{self.cred_data_dir}/meta"])
         # meta has no markup for given credential
         self.lost_cnt += 1
         print(f"{suggestion} {approximate}", flush=True)
