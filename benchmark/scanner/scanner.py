@@ -266,7 +266,7 @@ class Scanner(ABC):
             self.meta_next_id += 1
             print(f"NOT FOUND WITH KEY: {approximate}", flush=True)
             if self.fix:
-                with open(f"{self.cred_data_dir}/meta", "a") as f:
+                with open(f"{self.cred_data_dir}/meta/{project_id}.csv", "a") as f:
                     f.write(str(approximate))
                 lost_meta = MetaRow({
                     "Id": self.meta_next_id,
@@ -293,7 +293,7 @@ class Scanner(ABC):
                     "URLEncode": 'F',
                     "Category": rule
                 })
-                self.meta[MetaKey(data_path, line_start, line_end), [lost_meta]]
+                self.meta[MetaKey(data_path, line_start, line_end)] = [lost_meta]
 
             return LineStatus.NOT_IN_DB, project_id, file_id
 
