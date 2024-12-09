@@ -9,8 +9,8 @@ from benchmark.scanner.scanner import Scanner
 
 
 class DetectSecrets(Scanner):
-    def __init__(self, working_dir, cred_data_dir, preload: bool):
-        super().__init__(ScannerType.DETECT_SECRETS, URL.DETECT_SECRETS, working_dir, cred_data_dir, preload)
+    def __init__(self, working_dir, cred_data_dir, preload: bool, fix: bool):
+        super().__init__(ScannerType.DETECT_SECRETS, URL.DETECT_SECRETS, working_dir, cred_data_dir, preload, fix)
         self.output_dir: str = f"{self.scanner_dir}/output.json"
 
     @property

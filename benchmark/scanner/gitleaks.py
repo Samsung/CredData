@@ -8,8 +8,8 @@ from benchmark.scanner.scanner import Scanner
 
 
 class Gitleaks(Scanner):
-    def __init__(self, working_dir, cred_data_dir, preload: bool):
-        super().__init__(ScannerType.GITLEAKS, URL.GITLEAKS, working_dir, cred_data_dir, preload)
+    def __init__(self, working_dir, cred_data_dir, preload: bool, fix: bool):
+        super().__init__(ScannerType.GITLEAKS, URL.GITLEAKS, working_dir, cred_data_dir, preload, fix)
         self.output_dir: str = f"{self.scanner_dir}/output.json"
 
     @property
@@ -26,7 +26,7 @@ class Gitleaks(Scanner):
     def run_scanner(self) -> None:
         self.init_scanner()
         subprocess.call([self.gitleaks_path, "--no-git", "-p"
-                         f"{self.cred_data_dir}/data", "-o", self.output_dir],
+                                                         f"{self.cred_data_dir}/data", "-o", self.output_dir],
                         cwd=self.scanner_dir)
 
     def parse_result(self) -> None:
