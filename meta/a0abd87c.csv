@@ -63,8 +63,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 22696,fcb28afe,GitHub,a0abd87c,data/a0abd87c/other/fcb28afe.md,103,103,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 22697,bcdc9806,GitHub,a0abd87c,data/a0abd87c/other/bcdc9806.md,44,44,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 30513,506440c8,GitHub,a0abd87c,data/a0abd87c/other/506440c8.md,22,22,Template,T,15,29,F,F,Any,,,Secret,3.11,14,F,F,F,Secret
-32704,ee18e1cb,GitHub,a0abd87c,data/a0abd87c/test/ee18e1cb.py,25,25,T,F,17,49,F,F,Any,,,Secret,3.61,32,F,F,F,Secret
-32705,29093b48,GitHub,a0abd87c,data/a0abd87c/test/29093b48.py,48,48,T,F,17,49,F,F,Any,,,Secret,4.56,32,F,F,F,Secret
+32704,ee18e1cb,GitHub,a0abd87c,data/a0abd87c/test/ee18e1cb.py,25,25,T,F,17,49,F,F,Any,,,Secret,3.61,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Secret
+32705,29093b48,GitHub,a0abd87c,data/a0abd87c/test/29093b48.py,48,48,T,F,17,49,F,F,Any,,,Secret,4.56,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Secret
 34345,fcb28afe,GitHub,a0abd87c,data/a0abd87c/other/fcb28afe.md,118,118,T,F,20,158,F,F,Any,,,Token,5.35,138,F,F,F,Token
 34390,6743e0de,GitHub,a0abd87c,data/a0abd87c/other/6743e0de.md,59,59,T,F,20,158,F,F,Any,,,Token,5.35,138,F,F,F,Token
 34460,fcb28afe,GitHub,a0abd87c,data/a0abd87c/other/fcb28afe.md,88,88,T,F,21,128,F,F,Any,,,Token,5.49,107,F,F,F,Token
@@ -72,7 +72,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 35635,ee18e1cb,GitHub,a0abd87c,data/a0abd87c/test/ee18e1cb.py,26,26,T,F,24,67,F,F,Any,,,Unknown,4.66,43,F,F,F,Key
 35786,ee18e1cb,GitHub,a0abd87c,data/a0abd87c/test/ee18e1cb.py,29,29,T,F,29,115,F,F,Any,,,Key,5.46,86,F,F,F,API
 35796,ee18e1cb,GitHub,a0abd87c,data/a0abd87c/test/ee18e1cb.py,28,28,T,F,29,136,F,F,Any,,,Token,5.49,107,F,F,F,Token
-35945,29093b48,GitHub,a0abd87c,data/a0abd87c/test/29093b48.py,65,65,T,F,17,49,F,F,Any,,,SeedSalt,4.69,32,F,F,F,Nonce
+35945,29093b48,GitHub,a0abd87c,data/a0abd87c/test/29093b48.py,65,65,T,F,17,49,F,F,Any,,,SeedSalt,4.69,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Nonce
 36255,5246398e,GitHub,a0abd87c,data/a0abd87c/src/5246398e.py,152,152,T,F,33,161,F,F,,,,,0.0,0,F,F,F,Token
 36256,ccaf232a,GitHub,a0abd87c,data/a0abd87c/src/ccaf232a.rst,87,87,T,F,33,161,F,F,,,,,0.0,0,F,F,F,Token
 36306,29093b48,GitHub,a0abd87c,data/a0abd87c/test/29093b48.py,133,133,T,F,24,110,F,F,Any,,,Key,5.15,86,F,F,F,API
@@ -136,3 +136,4 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 1479650,fcb28afe,GitHub,a0abd87c,data/a0abd87c/other/fcb28afe.md,145,145,T,F,33,51,F,F,,,,,0.0,0,F,F,F,Tencent WeChat API App ID
 1479651,ccaf232a,GitHub,a0abd87c,data/a0abd87c/src/ccaf232a.rst,88,88,T,F,26,44,F,F,,,,,0.0,0,F,F,F,Tencent WeChat API App ID
 1479652,5246398e,GitHub,a0abd87c,data/a0abd87c/src/5246398e.py,153,153,T,F,26,44,F,F,,,,,0.0,0,F,F,F,Tencent WeChat API App ID
+

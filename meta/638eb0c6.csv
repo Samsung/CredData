@@ -2,7 +2,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 863,8ca67559,GitHub,638eb0c6,data/638eb0c6/test/8ca67559.js,83,83,F,F,,,F,F,,,,,0,0,F,F,F,Secret
 1789,49ff8759,GitHub,638eb0c6,data/638eb0c6/src/49ff8759.ts,448,448,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Credential
 1799,cae0f37e,GitHub,638eb0c6,data/638eb0c6/src/cae0f37e.js,60,60,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Credential
-1913,91e8fa03,GitHub,638eb0c6,data/638eb0c6/src/91e8fa03.ts,15,15,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
+1913,91e8fa03,GitHub,638eb0c6,data/638eb0c6/src/91e8fa03.ts,15,15,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Bitbucket Client ID
 3140,d4451bab,GitHub,638eb0c6,data/638eb0c6/test/d4451bab.md,569,569,F,F,0,107,F,F,Any,,JSON Web Token,Token,4.97,107,F,F,F,JSON Web Token
 5182,91e8fa03,GitHub,638eb0c6,data/638eb0c6/src/91e8fa03.ts,34,34,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 5205,0eb767ca,GitHub,638eb0c6,data/638eb0c6/src/0eb767ca.ts,18,18,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
@@ -29,6 +29,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 19599,c2e4c1dd,GitHub,638eb0c6,data/638eb0c6/test/c2e4c1dd.snap,171,171,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 19600,c2e4c1dd,GitHub,638eb0c6,data/638eb0c6/test/c2e4c1dd.snap,109,109,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 22207,c2e4c1dd,GitHub,638eb0c6,data/638eb0c6/test/c2e4c1dd.snap,193,193,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
+22208,c2e4c1dd,GitHub,638eb0c6,data/638eb0c6/test/c2e4c1dd.snap,299,299,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
 22209,c2e4c1dd,GitHub,638eb0c6,data/638eb0c6/test/c2e4c1dd.snap,131,131,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 22210,c2e4c1dd,GitHub,638eb0c6,data/638eb0c6/test/c2e4c1dd.snap,306,306,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 22211,c2e4c1dd,GitHub,638eb0c6,data/638eb0c6/test/c2e4c1dd.snap,200,200,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
@@ -130,5 +131,3 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 1339641,c2e4c1dd,GitHub,638eb0c6,data/638eb0c6/test/c2e4c1dd.snap,60,60,T,F,18,54,F,F,,,,,0.0,0,F,F,F,UUID
 1339642,c2e4c1dd,GitHub,638eb0c6,data/638eb0c6/test/c2e4c1dd.snap,67,67,T,F,18,54,F,F,,,,,0.0,0,F,F,F,UUID
 1479564,d4451bab,GitHub,638eb0c6,data/638eb0c6/test/d4451bab.md,802,802,T,F,15,30,F,F,,,,,0.0,0,F,F,F,CMD Secret
-1480746,51e4f558,GitHub,638eb0c6,data/638eb0c6/src/51e4f558.lock,4860,4860,F,F,42,74,F,F,,,,,0.0,0,F,F,F,Bitbucket Client ID
-1480748,51e4f558,GitHub,638eb0c6,data/638eb0c6/src/51e4f558.lock,7816,7816,F,F,30,62,F,F,,,,,0.0,0,F,F,F,Bitbucket Client ID:Bitbucket Client Secret

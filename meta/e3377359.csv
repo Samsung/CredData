@@ -15,7 +15,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 27426,719d25bb,GitHub,e3377359,data/e3377359/src/719d25bb.php,298,298,F,F,337,505,F,F,,,,,0.0,0,F,F,F,Google Multi
 137372,719d25bb,GitHub,e3377359,data/e3377359/src/719d25bb.php,298,298,T,F,367,505,F,F,,,,,0.0,0,F,F,F,Google Multi
 137367,719d25bb,GitHub,e3377359,data/e3377359/src/719d25bb.php,298,298,F,F,481,505,F,F,,,,,0.0,0,F,F,F,Atlassian Old PAT token
-27442,87fccb9b,GitHub,e3377359,data/e3377359/src/87fccb9b.php,357,357,T,F,137,169,F,F,Any,,,Unknown,3.76,32,F,F,F,Bitbucket Client ID
+27442,87fccb9b,GitHub,e3377359,data/e3377359/src/87fccb9b.php,357,357,T,F,137,169,F,F,Any,,,Unknown,3.76,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret
 137226,87fccb9b,GitHub,e3377359,data/e3377359/src/87fccb9b.php,355,355,T,F,169,185,F,F,,,,,0.0,0,F,F,F,Jira 2FA:Password
 27633,9bb2e93a,GitHub,e3377359,data/e3377359/src/9bb2e93a.php,22,22,F,F,23,75,F,F,,,,,0.0,0,F,F,F,Other
 137227,bc555d60,GitHub,e3377359,data/e3377359/src/bc555d60.php,52,52,T,F,382,520,F,F,,,,,0.0,0,F,F,F,Google Multi
@@ -24,13 +24,13 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 27907,1fd373f0,GitHub,e3377359,data/e3377359/src/1fd373f0.php,90,90,F,T,,,F,F,Any,,,Secret,2.88,15,F,F,F,Password
 30032,1d62f0d2,GitHub,e3377359,data/e3377359/test/1d62f0d2.php,23,23,F,F,32,248,F,F,,,,,0.0,0,F,F,F,Key
 30034,1d62f0d2,GitHub,e3377359,data/e3377359/test/1d62f0d2.php,28,28,T,T,32,-1,F,F,,,,,0.0,0,F,F,F,Key:BASE64 Private Key
-30836,6e017f34,GitHub,e3377359,data/e3377359/src/6e017f34.php,115,115,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:BASE64 Private Key
+30836,6e017f34,GitHub,e3377359,data/e3377359/src/6e017f34.php,115,115,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:BASE64 Private Key:Bitbucket Client ID
 30844,6e017f34,GitHub,e3377359,data/e3377359/src/6e017f34.php,112,112,T,F,38,-1,F,F,,,,,0.0,0,F,F,F,Key:BASE64 Private Key
-32416,23c59fad,GitHub,e3377359,data/e3377359/src/23c59fad.php,28,28,T,F,20,52,F,F,Any,,,Secret,3.69,32,F,F,F,Secret
+32416,23c59fad,GitHub,e3377359,data/e3377359/src/23c59fad.php,28,28,T,F,20,52,F,F,Any,,,Secret,3.69,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Secret
 34311,1d62f0d2,GitHub,e3377359,data/e3377359/test/1d62f0d2.php,22,22,F,F,32,248,F,F,,,,,0.0,0,F,F,F,Key
 35264,9aeb1c4f,GitHub,e3377359,data/e3377359/test/9aeb1c4f.php,33,47,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,PEM Private Key
 35526,bc425508,GitHub,e3377359,data/e3377359/src/bc425508.pem,1,28,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,PEM Private Key
-41568,23c59fad,GitHub,e3377359,data/e3377359/src/23c59fad.php,27,27,T,F,14,46,F,F,Any,,,Unknown,3.53,32,F,F,F,Key
+41568,23c59fad,GitHub,e3377359,data/e3377359/src/23c59fad.php,27,27,T,F,14,46,F,F,Any,,,Unknown,3.53,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Key
 42104,9a66af99,GitHub,e3377359,data/e3377359/src/9a66af99.php,453,453,F,F,,,F,F,,,,,0,0,F,F,F,Token
 42105,9a66af99,GitHub,e3377359,data/e3377359/src/9a66af99.php,464,464,F,F,,,F,F,,,,,0,0,F,F,F,Token
 42968,23c59fad,GitHub,e3377359,data/e3377359/src/23c59fad.php,22,22,F,F,,,F,F,,,,,0,0,F,F,F,Token
@@ -116,8 +116,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 134704,eb6371ea,GitHub,e3377359,data/e3377359/src/eb6371ea.php,148,148,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 134807,87fccb9b,GitHub,e3377359,data/e3377359/src/87fccb9b.php,356,356,T,F,183,-1,F,F,,,,,0.0,0,F,F,F,BASE64 Private Key
 137369,bc555d60,GitHub,e3377359,data/e3377359/src/bc555d60.php,52,52,F,F,496,520,F,F,,,,,0.0,0,F,F,F,Atlassian Old PAT token
-138197,719d25bb,GitHub,e3377359,data/e3377359/src/719d25bb.php,298,298,F,F,297,329,F,F,,,,WrongPos,0.0,0,F,F,F,Bitbucket Client ID
+138197,719d25bb,GitHub,e3377359,data/e3377359/src/719d25bb.php,298,298,F,F,297,329,F,F,,,,WrongPos,0.0,0,F,F,F,Bitbucket Client ID:Bitbucket Client Secret
 138198,bc555d60,GitHub,e3377359,data/e3377359/src/bc555d60.php,52,52,T,T,540,555,F,F,Any,,,WrongPos,4.33,24,F,F,F,Key
-138199,bc555d60,GitHub,e3377359,data/e3377359/src/bc555d60.php,52,52,T,T,312,344,F,F,Any,,,WrongPos,4.33,24,F,F,F,Bitbucket Client ID
+138199,bc555d60,GitHub,e3377359,data/e3377359/src/bc555d60.php,52,52,T,T,312,344,F,F,Any,,,WrongPos,4.33,24,F,F,F,Bitbucket Client ID:Bitbucket Client Secret
 1479647,87fccb9b,GitHub,e3377359,data/e3377359/src/87fccb9b.php,357,357,T,F,78,96,F,F,,,,,0.0,0,F,F,F,Tencent WeChat API App ID
 1479648,87fccb9b,GitHub,e3377359,data/e3377359/src/87fccb9b.php,357,357,T,F,204,222,F,F,,,,,0.0,0,F,F,F,Tencent WeChat API App ID
+
