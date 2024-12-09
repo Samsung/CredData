@@ -267,7 +267,7 @@ class Scanner(ABC):
             print(f"NOT FOUND WITH KEY: {approximate}", flush=True)
             if self.fix:
                 with open(f"{self.cred_data_dir}/meta/{project_id}.csv", "a") as f:
-                    f.write(str(approximate))
+                    f.write(f"{str(approximate)}\n")
                 lost_meta = MetaRow({
                     "Id": self.meta_next_id,
                     "FileID": file_id,
