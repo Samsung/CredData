@@ -1,6 +1,7 @@
 import binascii
 import hashlib
 import os
+import subprocess
 from abc import ABC, abstractmethod
 from pathlib import Path
 from typing import Tuple, Dict, List, Any
