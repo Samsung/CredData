@@ -20,7 +20,7 @@ def get_arguments() -> Namespace:
                         dest="load")
     parser.add_argument("--fix",
                         help=f"add/update markup for unknown credetials",
-                        dest="fix")
+                        action="store_true")
     return parser.parse_args()
 
 
