@@ -260,41 +260,40 @@ class Scanner(ABC):
                       f",{line_start},{line_end}" \
                       f",F,F,{value_start},{value_end}" \
                       f",F,F,,,,,0.0,0,F,F,F,{rule}"
+        lost_meta = MetaRow({
+            "Id": self.meta_next_id,
+            "FileID": file_id,
+            "Domain": "GitHub",
+            "RepoName": project_id,
+            "FilePath": data_path,
+            "LineStart": line_start,
+            "LineEnd": line_end,
+            "GroundTruth": 'F',
+            "WithWords": 'F',
+            "ValueStart": value_start,
+            "ValueEnd": value_end,
+            "InURL": 'F',
+            "InRuntimeParameter": 'F',
+            "CharacterSet": '',
+            "CryptographyKey": '',
+            "PredefinedPattern": '',
+            "VariableNameType": '',
+            "Entropy": 0.0,
+            "Length": 0,
+            "Base64Encode": 'F',
+            "HexEncode": 'F',
+            "URLEncode": 'F',
+            "Category": rule
+        })
 
         if not (rows := self.meta.get(MetaKey(data_path, line_start, line_end))):
             self.lost_cnt += 1
-            self.meta_next_id += 1
             print(f"NOT FOUND WITH KEY: {approximate}", flush=True)
             if self.fix:
                 with open(f"{self.cred_data_dir}/meta/{project_id}.csv", "a") as f:
                     f.write(f"{str(approximate)}\n")
-                lost_meta = MetaRow({
-                    "Id": self.meta_next_id,
-                    "FileID": file_id,
-                    "Domain": "GitHub",
-                    "RepoName": project_id,
-                    "FilePath": data_path,
-                    "LineStart": line_start,
-                    "LineEnd": line_end,
-                    "GroundTruth": 'F',
-                    "WithWords": 'F',
-                    "ValueStart": value_start,
-                    "ValueEnd": value_end,
-                    "InURL": 'F',
-                    "InRuntimeParameter": 'F',
-                    "CharacterSet": '',
-                    "CryptographyKey": '',
-                    "PredefinedPattern": '',
-                    "VariableNameType": '',
-                    "Entropy": 0.0,
-                    "Length": 0,
-                    "Base64Encode": 'F',
-                    "HexEncode": 'F',
-                    "URLEncode": 'F',
-                    "Category": rule
-                })
                 self.meta[MetaKey(data_path, line_start, line_end)] = [lost_meta]
-
+            self.meta_next_id += 1
             return LineStatus.NOT_IN_DB, project_id, file_id
 
         suggestion = "LOST:"
@@ -363,10 +362,17 @@ class Scanner(ABC):
                         ["sed", "-i",
                          f"s/{row.Id},\\(.*\\)/{row.Id},\\1:{rule}/",
                          f"{self.cred_data_dir}/meta/{row.RepoName}.csv"])
+                    self.meta[MetaKey(data_path, line_start, line_end)].append(lost_meta)
+                    lost_meta = None
+
         # meta has no markup for given credential
         self.lost_cnt += 1
         print(f"{suggestion} {approximate}", flush=True)
         self.meta_next_id += 1
+        if lost_meta and self.fix:
+            with open(f"{self.cred_data_dir}/meta/{project_id}.csv", "a") as f:
+                f.write(f"{str(approximate)}\n")
+            self.meta[MetaKey(data_path, line_start, line_end)].append(lost_meta)
         return LineStatus.NOT_IN_DB, project_id, file_id
 
     def analyze_result(self) -> None:
