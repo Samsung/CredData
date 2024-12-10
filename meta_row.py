@@ -58,8 +58,11 @@ class MetaRow:
             raise RuntimeError(f"ERROR: Category must be set {row}")
         if ':' in self.Category:
             rules = self.Category.split(':')
-            if len(rules) != len(set(rules)):
-                raise RuntimeError(f"ERROR: Rule must be once in Category {row}")
+            rule_set=set(rules)
+            if len(rules) != len(rule_set):
+                raise RuntimeError(f"ERROR: Each rule must be once in Category {row}")
+            if "Other" in rule_set:
+                raise RuntimeError(f"ERROR: 'Other' Category must be single rule in markup {row}")
         allowed_GroundTruth = ['T', 'F', "Template"]
         if self.GroundTruth not in allowed_GroundTruth:
             raise RuntimeError(f"ERROR: GroundTruth must be in {allowed_GroundTruth} {row}")
