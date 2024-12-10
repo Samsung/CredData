@@ -31,11 +31,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 27770,7866f059,GitHub,6482c382,data/6482c382/src/7866f059.yml,21,21,Template,T,22,41,F,F,Any,,,Secret,2.97,19,F,F,F,Key:Secret
 27784,d7d52858,GitHub,6482c382,data/6482c382/other/d7d52858,2,2,Template,F,20,32,F,F,Any,,,Unknown,2.39,12,F,F,F,Key
 27785,d7d52858,GitHub,6482c382,data/6482c382/other/d7d52858,3,3,Template,T,24,36,F,F,Any,,,Secret,2.36,12,F,F,F,Key:Secret
-29024,71cac11f,GitHub,6482c382,data/6482c382/test/71cac11f.json,5,5,Template,T,17,35,F,F,CharsOnly,,,Secret,3.35,18,F,F,F,Bitbucket Client ID:Password
+29024,71cac11f,GitHub,6482c382,data/6482c382/test/71cac11f.json,5,5,Template,T,17,35,F,F,CharsOnly,,,Secret,3.35,18,F,F,F,Password
 29044,faf2471c,GitHub,6482c382,data/6482c382/test/faf2471c.json,5,5,Template,T,17,32,F,F,CharsOnly,,,Secret,3.46,15,F,F,F,Password
-33531,e2425764,GitHub,6482c382,data/6482c382/src/e2425764.yml,21,21,T,F,25,43,F,F,Any,,,Unknown,3.95,18,F,F,F,Bitbucket Client ID:Key
+33531,e2425764,GitHub,6482c382,data/6482c382/src/e2425764.yml,21,21,T,F,25,43,F,F,Any,,,Unknown,3.95,18,F,F,F,Key
 33537,e2425764,GitHub,6482c382,data/6482c382/src/e2425764.yml,22,22,T,F,25,62,F,F,Any,,,Secret,4.52,37,F,F,F,Key:Secret
-36999,e2425764,GitHub,6482c382,data/6482c382/src/e2425764.yml,64,64,T,F,25,43,F,F,Any,,,Unknown,3.95,18,F,F,F,Bitbucket Client ID:Key
+36999,e2425764,GitHub,6482c382,data/6482c382/src/e2425764.yml,64,64,T,F,25,43,F,F,Any,,,Unknown,3.95,18,F,F,F,Key
 37000,e2425764,GitHub,6482c382,data/6482c382/src/e2425764.yml,65,65,T,F,25,62,F,F,Any,,,Secret,4.52,37,F,F,F,Key:Secret
 42664,41f75e90,GitHub,6482c382,data/6482c382/src/41f75e90.yml,456,456,T,T,45,58,T,F,Any,,,Secret,2.53,13,F,F,F,URL Credentials
 47899,71cac11f,GitHub,6482c382,data/6482c382/test/71cac11f.json,13,13,T,F,12,44,F,F,,,,,0.0,0,F,F,F,Key
@@ -52,4 +52,5 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 102778,39ad5543,GitHub,6482c382,data/6482c382/src/39ad5543.tsx,29,29,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 136888,d9c3d0ef,GitHub,6482c382,data/6482c382/test/d9c3d0ef.json,46,46,T,F,25,55,F,F,,,,,0.0,0,F,F,F,AWS S3 Bucket
 131013,7e2fcafb,GitHub,6482c382,data/6482c382/src/7e2fcafb.ts,23,23,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-131725,e2425764,GitHub,6482c382,data/6482c382/src/e2425764.yml,79,79,T,F,62,80,F,F,,,,,0.0,-1,F,F,F,Bitbucket Client ID
+1480601,51e4f558,GitHub,6482c382,data/6482c382/src/51e4f558.lock,11205,11205,F,F,32,64,F,F,,,,,0.0,0,F,F,F,Bitbucket Client ID:Bitbucket Client Secret
+1480602,e2425764,GitHub,6482c382,data/6482c382/src/e2425764.yml,79,79,F,F,62,80,F,F,,,,,0.0,0,F,F,F,Bitbucket Client ID
