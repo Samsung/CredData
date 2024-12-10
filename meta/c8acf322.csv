@@ -68,7 +68,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 29157,4098508b,GitHub,c8acf322,data/c8acf322/test/4098508b.rb,332,332,T,F,22,31,F,F,CharsOnly,,,Secret,2.73,9,F,F,F,Password
 29313,06497acc,GitHub,c8acf322,data/c8acf322/src/06497acc.rb,217,217,Template,F,32,38,F,F,Any,,,Secret,2.58,6,F,F,F,Secret
 29315,06497acc,GitHub,c8acf322,data/c8acf322/src/06497acc.rb,204,204,Template,F,23,30,F,F,NumbersOnly,,,Unknown,2.81,7,F,F,F,Key
-29560,979952bd,GitHub,c8acf322,data/c8acf322/src/979952bd.rb,279,279,T,T,69,101,F,F,CharsOnly,,,Unknown,4.5,32,F,F,F,Bitbucket Client ID
+29560,979952bd,GitHub,c8acf322,data/c8acf322/src/979952bd.rb,279,279,Template,T,69,101,F,F,CharsOnly,,,Unknown,4.5,32,F,F,F,Other
 29561,979952bd,GitHub,c8acf322,data/c8acf322/src/979952bd.rb,269,269,T,T,65,107,F,F,CharsOnly,,,Auth,4.9,42,F,F,F,Auth
 29677,ab97ea8a,GitHub,c8acf322,data/c8acf322/test/ab97ea8a.rb,59,59,Template,F,34,40,F,F,Any,,,Token,2.58,6,F,F,F,Token
 29682,a455e16e,GitHub,c8acf322,data/c8acf322/test/a455e16e.rb,259,259,Template,T,23,33,F,F,Any,,,Secret,2.51,10,F,F,F,Password
@@ -81,7 +81,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 29867,a455e16e,GitHub,c8acf322,data/c8acf322/test/a455e16e.rb,280,280,Template,T,21,27,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
 31358,a4af4689,GitHub,c8acf322,data/c8acf322/src/a4af4689.rb,7,7,Template,F,64,70,F,F,CharsOnly,,,Secret,1.58,6,F,F,F,Password
 31359,a4af4689,GitHub,c8acf322,data/c8acf322/src/a4af4689.rb,38,38,Template,T,66,72,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
-31413,e71cba7e,GitHub,c8acf322,data/c8acf322/src/e71cba7e.rb,120,120,T,F,14,46,F,F,Any,,,Unknown,3.24,32,F,F,F,Bitbucket Client ID:Bitbucket Client Secret:Key
+31413,e71cba7e,GitHub,c8acf322,data/c8acf322/src/e71cba7e.rb,120,120,T,F,14,46,F,F,Any,,,Unknown,3.24,32,F,F,F,Key
 34766,bc7a053b,GitHub,c8acf322,data/c8acf322/src/bc7a053b.rb,54,54,F,F,64,96,F,F,,,,,0.0,0,F,F,F,Other
 34839,a455e16e,GitHub,c8acf322,data/c8acf322/test/a455e16e.rb,225,225,T,T,23,30,F,F,CharsOnly,,,Secret,2.52,7,F,F,F,Password
 34840,a455e16e,GitHub,c8acf322,data/c8acf322/test/a455e16e.rb,233,233,T,T,23,31,F,F,Any,,,Secret,2.75,8,F,F,F,Password
@@ -90,7 +90,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 40618,06497acc,GitHub,c8acf322,data/c8acf322/src/06497acc.rb,241,241,Template,F,31,37,F,F,CharsOnly,,,Secret,0.0,6,F,F,F,Password
 40619,1f60346f,GitHub,c8acf322,data/c8acf322/src/1f60346f.rb,56,56,Template,T,70,76,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Password
 40620,bc7a053b,GitHub,c8acf322,data/c8acf322/src/bc7a053b.rb,58,58,T,F,59,91,F,F,,,,,0.0,0,F,F,F,Token
-40621,979952bd,GitHub,c8acf322,data/c8acf322/src/979952bd.rb,278,278,F,F,66,98,F,F,,,,,0.0,0,F,F,F,Bitbucket Client ID
+40621,979952bd,GitHub,c8acf322,data/c8acf322/src/979952bd.rb,278,278,Template,F,66,98,F,F,,,,,0.0,0,F,F,F,Other
 40622,979952bd,GitHub,c8acf322,data/c8acf322/src/979952bd.rb,476,476,T,T,46,131,F,F,Any,,,Token,3.87,85,F,F,F,Token
 41761,b7765823,GitHub,c8acf322,data/c8acf322/src/b7765823.rb,81,81,F,F,,,F,F,,,,,0,0,F,F,F,Password
 42980,1aee6ba2,GitHub,c8acf322,data/c8acf322/src/1aee6ba2.rb,140,140,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -108,7 +108,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 51012,bc7a053b,GitHub,c8acf322,data/c8acf322/src/bc7a053b.rb,17,17,F,F,,,F,F,,,,,0,0,F,F,F,Auth
 51013,979952bd,GitHub,c8acf322,data/c8acf322/src/979952bd.rb,235,235,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 52053,979952bd,GitHub,c8acf322,data/c8acf322/src/979952bd.rb,537,537,T,T,63,105,F,F,CharsOnly,,,Auth,4.9,42,F,F,F,Auth
-52054,979952bd,GitHub,c8acf322,data/c8acf322/src/979952bd.rb,547,547,T,T,67,99,F,F,CharsOnly,,,Unknown,4.5,32,F,F,F,Bitbucket Client ID
 61815,a304ca4e,GitHub,c8acf322,data/c8acf322/src/a304ca4e.crt,1589,1589,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 61816,a304ca4e,GitHub,c8acf322,data/c8acf322/src/a304ca4e.crt,1746,1746,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
 61817,a304ca4e,GitHub,c8acf322,data/c8acf322/src/a304ca4e.crt,1911,1911,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key

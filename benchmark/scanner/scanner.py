@@ -459,7 +459,7 @@ class Scanner(ABC):
         total_line_cnt = 0
         for rows in self.meta.values():
             for row in rows:
-                if rule in row.Category.split(':'):
+                if row and rule in row.Category.split(':'):
                     total_line_cnt += 1
         return total_line_cnt
 
@@ -467,7 +467,7 @@ class Scanner(ABC):
         total_true_cnt = 0
         for rows in self.meta.values():
             for row in rows:
-                if 'T' == row.GroundTruth and rule in row.Category.split(':'):
+                if row and 'T' == row.GroundTruth and rule in row.Category.split(':'):
                     total_true_cnt += 1
         return total_true_cnt
 

@@ -498,10 +498,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 46151,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,413,413,F,F,,,F,F,,,,,0,0,F,F,F,Password
 46166,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,722,722,Template,T,32,36,F,F,CharsOnly,,,Unknown,1.5,4,F,F,F,Password
 46167,598e7639,GitHub,6c73b80a,data/6c73b80a/test/598e7639.go,111,111,Template,T,32,36,F,F,CharOnly,,,Secret,1.5,4,F,F,F,Password
-46082,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,903,903,F,F,,,F,F,Any,,,Unknown,3.80,64,F,F,F,Bitbucket Client Secret
 46198,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,343,343,F,F,,,F,F,,,,,0,0,F,F,F,Password
-46274,ada0599e,GitHub,6c73b80a,data/6c73b80a/test/ada0599e.go,1972,1972,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
-46275,ada0599e,GitHub,6c73b80a,data/6c73b80a/test/ada0599e.go,2027,2027,F,F,,,F,F,,,,,0,0,F,F,F,Bitbucket Client Secret
 46399,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1402,1402,F,F,,,F,F,,,,,0,0,F,F,F,Password
 47221,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,517,517,F,F,,,F,F,,,,,0,0,F,F,F,Password
 47679,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,2949,2949,Template,T,24,29,F,F,CharsOnly,,,Unknown,1.92,5,F,F,F,Password
@@ -618,16 +615,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 82075,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,933,933,Template,F,24,27,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
 82076,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,321,321,T,F,43,49,F,F,Any,,,Secret,2.25,6,F,F,F,Password
 82078,35b59241,GitHub,6c73b80a,data/6c73b80a/test/35b59241.go,2249,2249,F,F,,,F,F,,,,,0.0,0,F,F,F,Password
-82079,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,913,913,F,F,19,83,F,F,NumbersOnly,,,Unknown,3.8,64,F,F,F,Bitbucket Client Secret:Certificate
-136079,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,914,914,F,F,5,69,F,F,NumbersOnly,,,Unknown,3.8,64,F,F,F,Bitbucket Client Secret
-82080,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,924,924,F,F,19,83,F,F,NumbersOnly,,,Unknown,3.8,64,F,F,F,Bitbucket Client Secret:Certificate
-136080,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,925,925,F,F,5,69,F,F,NumbersOnly,,,Unknown,3.8,64,F,F,F,Bitbucket Client Secret
-82081,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,936,936,F,F,19,83,F,F,NumbersOnly,,,Unknown,3.8,64,F,F,F,Bitbucket Client Secret:Certificate
-136081,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,937,937,F,F,5,69,F,F,NumbersOnly,,,Unknown,3.8,64,F,F,F,Bitbucket Client Secret
-82082,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,947,947,F,F,19,83,F,F,NumbersOnly,,,Unknown,3.8,64,F,F,F,Bitbucket Client Secret:Certificate
-136082,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,948,948,F,F,5,69,F,F,NumbersOnly,,,Unknown,3.8,64,F,F,F,Bitbucket Client Secret
-82083,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,958,958,F,F,19,83,F,F,NumbersOnly,,,Unknown,3.8,64,F,F,F,Bitbucket Client Secret:Certificate
-136083,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,959,959,F,F,5,69,F,F,NumbersOnly,,,Unknown,3.8,64,F,F,F,Bitbucket Client Secret
+82079,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,913,913,F,F,19,83,F,F,NumbersOnly,,,Unknown,3.8,64,F,F,F,Certificate
+82080,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,924,924,F,F,19,83,F,F,NumbersOnly,,,Unknown,3.8,64,F,F,F,Certificate
+82081,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,936,936,F,F,19,83,F,F,NumbersOnly,,,Unknown,3.8,64,F,F,F,Certificate
+82082,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,947,947,F,F,19,83,F,F,NumbersOnly,,,Unknown,3.8,64,F,F,F,Certificate
+82083,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,958,958,F,F,19,83,F,F,NumbersOnly,,,Unknown,3.8,64,F,F,F,Certificate
 82084,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1568,1568,Template,F,65,68,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
 82085,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1628,1628,F,F,14,17,F,F,,,,,0.0,0,F,F,F,Password
 82086,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1768,1768,F,F,15,18,F,F,,,,,0.0,0,F,F,F,Password
@@ -664,7 +656,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 102679,d1df8c34,GitHub,6c73b80a,data/6c73b80a/src/d1df8c34.conf,18,18,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 102680,c8af9dd7,GitHub,6c73b80a,data/6c73b80a/src/c8af9dd7.go,66,66,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
 102682,a6c11edd,GitHub,6c73b80a,data/6c73b80a/src/a6c11edd.go,42,42,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-102683,a6c11edd,GitHub,6c73b80a,data/6c73b80a/src/a6c11edd.go,623,623,F,F,,,F,F,,,,,0.00,,F,F,F,Bitbucket Client ID
 102684,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,752,752,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
 102685,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,1709,1709,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 102686,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,1777,1777,F,F,,,F,F,,,,,0.00,,F,F,F,Password
@@ -717,7 +708,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 102735,44141ad0,GitHub,6c73b80a,data/6c73b80a/test/44141ad0.go,321,321,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 102738,47a228cb,GitHub,6c73b80a,data/6c73b80a/test/47a228cb.go,98,98,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
 102739,91de30fa,GitHub,6c73b80a,data/6c73b80a/test/91de30fa.go,137,137,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
-102740,91de30fa,GitHub,6c73b80a,data/6c73b80a/test/91de30fa.go,144,144,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key:Bitbucket Client Secret:Bitbucket Client ID
+102740,91de30fa,GitHub,6c73b80a,data/6c73b80a/test/91de30fa.go,144,144,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
 102741,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,501,501,T,F,14,70,F,F,,,,,0.0,-1,F,F,F,Key
 102742,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,568,568,T,F,14,70,F,F,,,,,0.0,-1,F,F,F,Key
 102743,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,651,651,T,F,12,68,F,F,,,,,0.0,-1,F,F,F,Key

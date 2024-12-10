@@ -39,7 +39,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 30768,8fcd9ddd,GitHub,b91cad30,data/b91cad30/src/8fcd9ddd.yml,52,52,Template,F,21,54,F,F,Any,,,Secret,1.32,33,F,F,F,Secret
 30906,d08b0337,GitHub,b91cad30,data/b91cad30/other/d08b0337.adoc,125,125,Template,F,27,33,F,F,NumbersOnly,,,Secret,2.58,6,F,F,F,Password
 31001,1a64cdab,GitHub,b91cad30,data/b91cad30/other/1a64cdab.md,26,26,Template,F,24,30,F,F,NumbersOnly,,,Secret,2.58,6,F,F,F,Key:Password
-31174,473da3d3,GitHub,b91cad30,data/b91cad30/other/473da3d3.md,40,40,T,T,32,50,F,F,CharsOnly,,,Secret,2.97,18,F,F,F,Bitbucket Client ID:Password:Secret
+31174,473da3d3,GitHub,b91cad30,data/b91cad30/other/473da3d3.md,40,40,T,T,32,50,F,F,CharsOnly,,,Secret,2.97,18,F,F,F,Password:Secret
 32165,e1aba4fb,GitHub,b91cad30,data/b91cad30/src/e1aba4fb.yml,24,24,F,F,21,27,F,F,Any,,,Secret,2.58,6,F,F,F,Secret
 32586,4f46a670,GitHub,b91cad30,data/b91cad30/other/4f46a670.md,237,237,T,T,14,22,F,F,CharsOnly,,,Unknown,2.0,8,F,F,F,Key
 33039,690de892,GitHub,b91cad30,data/b91cad30/test/690de892.java,46,46,F,F,22,-1,F,F,,,,,0.0,0,F,F,F,Key
@@ -80,7 +80,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 79478,d08b0337,GitHub,b91cad30,data/b91cad30/other/d08b0337.adoc,206,206,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 83001,6273e192,GitHub,b91cad30,data/b91cad30/other/6273e192.md,244,244,F,F,27,37,F,F,,,,,0.0,0,F,F,F,API
 83002,6273e192,GitHub,b91cad30,data/b91cad30/other/6273e192.md,252,252,F,F,27,37,F,F,,,,,0.0,0,F,F,F,API
-101542,473da3d3,GitHub,b91cad30,data/b91cad30/other/473da3d3.md,45,45,Template,F,35,99,F,F,Any,,,Secret,4.43,64,F,F,F,Bitbucket Client Secret:Password
+101542,473da3d3,GitHub,b91cad30,data/b91cad30/other/473da3d3.md,45,45,Template,F,35,99,F,F,Any,,,Secret,4.43,64,F,F,F,Password
 101543,d08b0337,GitHub,b91cad30,data/b91cad30/other/d08b0337.adoc,28,28,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 101544,d08b0337,GitHub,b91cad30,data/b91cad30/other/d08b0337.adoc,35,35,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 101545,d08b0337,GitHub,b91cad30,data/b91cad30/other/d08b0337.adoc,43,43,F,F,,,F,F,,,,,0.00,,F,F,F,Password
@@ -100,6 +100,5 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 135321,d08b0337,GitHub,b91cad30,data/b91cad30/other/d08b0337.adoc,139,139,T,F,31,51,F,F,,,,,0,0,F,F,F,Auth
 135322,d08b0337,GitHub,b91cad30,data/b91cad30/other/d08b0337.adoc,152,152,T,F,31,51,F,F,,,,,0,0,F,F,F,Auth
 135323,d08b0337,GitHub,b91cad30,data/b91cad30/other/d08b0337.adoc,197,197,T,F,31,51,F,F,,,,,0,0,F,F,F,Auth
-137149,d08b0337,GitHub,b91cad30,data/b91cad30/other/d08b0337.adoc,197,197,F,F,31,49,F,F,,,,,0.0,0,F,F,F,Bitbucket Client ID
 1340843,d08b0337,GitHub,b91cad30,data/b91cad30/other/d08b0337.adoc,110,110,T,F,12,48,F,F,,,,,0.0,0,F,F,F,UUID
 1340844,d08b0337,GitHub,b91cad30,data/b91cad30/other/d08b0337.adoc,174,174,T,F,12,48,F,F,,,,,0.0,0,F,F,F,UUID
