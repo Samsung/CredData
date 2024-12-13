@@ -319,6 +319,10 @@ def get_obfuscated_value(value, meta_row: MetaRow):
             obfuscated_value = '.'.join(obf_jwt)
         else:
             obfuscated_value = obfuscate_jwt(value)
+    elif any(value.startswith(x) for x in ["whsec_"]):
+        obfuscated_value = value[:6] + generate_value(value[6:])
+    elif any(value.startswith(x) for x in ["pk_live_", "rk_live_", "sk_live_", "pk_test_", "rk_test_", "sk_test_"]):
+        obfuscated_value = value[:8] + generate_value(value[8:])
     elif value.startswith("xox") and 15 <= len(value) and value[3] in "aboprst" and '-' == value[4]:
         obfuscated_value = value[:4] + generate_value(value[4:])
     elif value.startswith("base64:"):
