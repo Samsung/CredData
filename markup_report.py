@@ -2,7 +2,7 @@
 
 """
 The script performs updating CredSweeper report with according markup
-currently the row from meta is placed to "api_validation" to keep the value at the position
+currently the row from meta is placed to "ml_validation" to keep the value at the position
 """
 
 import json
@@ -50,10 +50,10 @@ def main(report_file: str, meta_dir: str):
         ]
         for key in key_variants:
             if rows := meta_dict.get(key):
-                cred["api_validation"] = ';'.join(str(x) for x in rows)
+                cred["ml_validation"] = ';'.join(str(x) for x in rows)
                 break
         else:
-            cred["api_validation"] = "not found in meta"
+            cred["ml_validation"] = "not found in meta"
             # something was wrong
             errors += 1
 
