@@ -342,6 +342,8 @@ def get_obfuscated_value(value, meta_row: MetaRow):
                   ["AC", "AD", "AL", "CA", "CF", "CL", "CN", "CR", "FW", "IP", "KS", "MM", "NO", "PK", "PN", "QU", "RE",
                    "SC", "SD", "SK", "SM", "TR", "UT", "XE", "XR"]) and 34 == len(value))):
         obfuscated_value = value[:2] + generate_value(value[2:])
+    elif value.startswith("00D") and (12 <= len(value) <= 18 or '!' in value):
+        obfuscated_value = value[:3] + generate_value(value[3:])
     elif ".apps.googleusercontent.com" in value:
         pos = value.index(".apps.googleusercontent.com")
         obfuscated_value = generate_value(value[:pos]) + ".apps.googleusercontent.com" + generate_value(
