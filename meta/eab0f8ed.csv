@@ -116,7 +116,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 29030,2bec3240,GitHub,eab0f8ed,data/eab0f8ed/test/2bec3240.json,12,12,Template,T,26,45,F,F,Any,,,Token,2.77,19,F,F,F,Token
 29398,0f179256,GitHub,eab0f8ed,data/eab0f8ed/test/0f179256.cs,32,32,T,T,40,-1,F,F,,,,,0.0,0,F,F,F,BASE64 Private Key:Secret
 29764,31fa3cd2,GitHub,eab0f8ed,data/eab0f8ed/test/31fa3cd2.json,10,10,Template,F,25,32,F,F,CharsOnly,,,Token,2.81,7,F,F,F,Token
-29846,52aac773,GitHub,eab0f8ed,data/eab0f8ed/test/52aac773.json,10,10,T,F,25,137,F,F,Any,,,Token,5.13,112,F,F,F,Token
+29846,52aac773,GitHub,eab0f8ed,data/eab0f8ed/test/52aac773.json,10,10,T,F,25,137,F,F,Any,,,Token,5.13,112,F,F,F,Token:Salesforce Credentials
 29866,9892e3b1,GitHub,eab0f8ed,data/eab0f8ed/test/9892e3b1.json,9,9,Template,T,25,44,F,F,Any,,,Token,2.77,19,F,F,F,Token
 31457,6d3b5a40,GitHub,eab0f8ed,data/eab0f8ed/test/6d3b5a40.cs,145,145,Template,T,32,48,F,F,Any,,,Secret,2.95,16,F,F,F,Secret
 31513,d35008d1,GitHub,eab0f8ed,data/eab0f8ed/test/d35008d1.cs,21,21,Template,T,32,44,F,F,CharsOnly,,,Secret,3.02,12,F,F,F,Secret
@@ -272,3 +272,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 1479532,791ba8fa,GitHub,eab0f8ed,data/eab0f8ed/src/791ba8fa.ps1,137,137,F,F,206,215,F,F,,,,,0.0,0,F,F,F,CMD Password
 1479533,791ba8fa,GitHub,eab0f8ed,data/eab0f8ed/src/791ba8fa.ps1,138,138,F,F,226,235,F,F,,,,,0.0,0,F,F,F,CMD Password
 1479569,15cd5bcf,GitHub,eab0f8ed,data/eab0f8ed/src/15cd5bcf.ks,9,9,T,F,51,56,F,F,,,,,0.0,0,F,F,F,CMD Password
+1480654,52aac773,GitHub,eab0f8ed,data/eab0f8ed/test/52aac773.json,26,26,T,F,28,43,F,F,,,,,0.0,0,F,F,F,Salesforce Credentials
+1480655,52aac773,GitHub,eab0f8ed,data/eab0f8ed/test/52aac773.json,10,10,F,F,73,-1,F,F,,,,,0.0,0,F,F,F,Bitbucket Client Secret
+
