@@ -11,6 +11,40 @@ permissions:
   contents: read
 
 jobs:
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+  todraft:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Set PR to draft
+      if: ${{ github.event.pull_request.draft == false }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        curl -X PATCH \
+          -H "Authorization: Bearer $GITHUB_TOKEN" \
+          -H "Accept: application/vnd.github+json" \
+          -d '{"draft": true}' \
+          $(jq -r '.pull_request.url' $GITHUB_EVENT_PATH)
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+  reqtest:
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: test draft
+      if: ${{ github.event.pull_request.draft == true }}
+      run: echo "The draft"
+
+    - name: test fair
+      if: ${{ github.event.pull_request.draft == false }}
+      run: echo "The fair"
+
+    - name: test
+      run: echo ${{ github.event.pull_request.draft }}
 
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
