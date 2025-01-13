@@ -3,7 +3,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 35,939bdae4,GitHub,b081551c,data/b081551c/test/939bdae4.py,721,721,F,F,,,F,F,,,,,0,0,F,F,F,Password
 1337,7b3ed02b,GitHub,b081551c,data/b081551c/other/7b3ed02b.rst,77,77,Template,T,60,68,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Password
 6499,939bdae4,GitHub,b081551c,data/b081551c/test/939bdae4.py,275,275,F,F,,,F,F,,,,,0,0,F,F,F,Password
-7251,939bdae4,GitHub,b081551c,data/b081551c/test/939bdae4.py,276,276,F,F,,,F,F,,,,,0,0,F,F,F,Password
+7251,939bdae4,GitHub,b081551c,data/b081551c/test/939bdae4.py,276,276,F,F,,,F,F,,,,,0,0,F,F,F,Password:SQL Password
 7932,c5b786f0,GitHub,b081551c,data/b081551c/src/c5b786f0.pyx,201,201,F,F,,,F,F,,,,,0,0,F,F,F,Token
 8621,34636874,GitHub,b081551c,data/b081551c/src/34636874.pyx,20,20,F,F,,,F,F,,,,,0,0,F,F,F,Password
 10607,87db21a9,GitHub,b081551c,data/b081551c/src/87db21a9.yml,305,305,F,F,,,F,F,,,,,0,0,F,F,F,Token
@@ -68,7 +68,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 42962,c5b786f0,GitHub,b081551c,data/b081551c/src/c5b786f0.pyx,171,171,F,F,,,F,F,,,,,0,0,F,F,F,Password
 46729,939bdae4,GitHub,b081551c,data/b081551c/test/939bdae4.py,442,442,Template,F,29,35,F,F,NumbersOnly,,,Secret,1.58,6,F,F,F,Password
 46730,939bdae4,GitHub,b081551c,data/b081551c/test/939bdae4.py,453,453,Template,F,29,35,F,F,NumbersOnly,,,Secret,1.58,6,F,F,F,Password
-46871,939bdae4,GitHub,b081551c,data/b081551c/test/939bdae4.py,300,300,F,F,,,F,F,,,,,0,0,F,F,F,Password
+46871,939bdae4,GitHub,b081551c,data/b081551c/test/939bdae4.py,300,300,T,F,53,68,F,F,,,,,0,0,F,F,F,SQL Password
 52030,939bdae4,GitHub,b081551c,data/b081551c/test/939bdae4.py,410,410,T,F,37,43,F,F,,,,,0.0,0,F,F,F,Password:URL Credentials
 52031,939bdae4,GitHub,b081551c,data/b081551c/test/939bdae4.py,438,438,T,F,37,43,F,F,,,,,0.0,0,F,F,F,Password:URL Credentials
 52032,939bdae4,GitHub,b081551c,data/b081551c/test/939bdae4.py,450,450,T,F,37,43,F,F,,,,,0.0,0,F,F,F,Password:URL Credentials
@@ -110,3 +110,4 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 138053,939bdae4,GitHub,b081551c,data/b081551c/test/939bdae4.py,894,894,F,F,66,70,F,F,,,,,0.0,0,F,F,F,Password
 1381069,939bdae4,GitHub,b081551c,data/b081551c/test/939bdae4.py,793,793,F,F,54,58,F,F,,,,,0.0,0,F,F,F,Password
 1381085,c5b786f0,GitHub,b081551c,data/b081551c/src/c5b786f0.pyx,159,159,F,F,,,F,F,,,,,0.0,0,F,F,F,Nonce
+1480664,53fca3db,GitHub,b081551c,data/b081551c/test/53fca3db.py,354,354,T,F,58,70,F,F,,,,,0.0,0,F,F,F,SQL Password
