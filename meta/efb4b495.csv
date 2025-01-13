@@ -42,10 +42,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 31741,26fce941,GitHub,efb4b495,data/efb4b495/test/26fce941.sql,1,1,T,F,29,37,T,F,Any,,,Secret,2.75,8,F,F,F,URL Credentials
 31742,6e3750f5,GitHub,efb4b495,data/efb4b495/test/6e3750f5.sql,4,4,T,F,18,24,T,F,Any,,,Secret,2.58,6,F,F,F,URL Credentials
 31842,6e3750f5,GitHub,efb4b495,data/efb4b495/test/6e3750f5.sql,1,1,T,F,24,32,T,F,Any,,,Secret,2.75,8,F,F,F,URL Credentials
-32272,21968930,GitHub,efb4b495,data/efb4b495/test/21968930.sql,550,550,T,T,38,52,F,F,Any,,,Secret,2.95,14,F,F,F,Password
+32272,21968930,GitHub,efb4b495,data/efb4b495/test/21968930.sql,550,550,T,T,38,52,F,F,Any,,,Secret,2.95,14,F,F,F,Password:SQL Password
 32630,c08cf4d6,GitHub,efb4b495,data/efb4b495/src/c08cf4d6.sql,13,13,Template,T,29,33,F,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password
-32632,21968930,GitHub,efb4b495,data/efb4b495/test/21968930.sql,549,549,T,F,39,50,F,F,Any,,,Secret,3.10,11,F,F,F,Password
-32634,21968930,GitHub,efb4b495,data/efb4b495/test/21968930.sql,548,548,T,T,56,66,F,F,Any,,,Secret,2.99,10,F,F,F,Password
+32632,21968930,GitHub,efb4b495,data/efb4b495/test/21968930.sql,549,549,T,F,39,50,F,F,Any,,,Secret,3.10,11,F,F,F,Password:SQL Password
+32634,21968930,GitHub,efb4b495,data/efb4b495/test/21968930.sql,548,548,T,T,56,66,F,F,Any,,,Secret,2.99,10,F,F,F,Password:SQL Password
 32639,2334ad55,GitHub,efb4b495,data/efb4b495/other/2334ad55,1,1,T,F,22,30,T,F,Any,,,Secret,2.75,8,F,F,F,URL Credentials
 32641,1fe8e22a,GitHub,efb4b495,data/efb4b495/other/1fe8e22a,1,1,T,F,19,25,T,F,Any,,,Secret,2.58,6,F,F,F,URL Credentials
 32643,36976b03,GitHub,efb4b495,data/efb4b495/other/36976b03,1,1,T,F,24,32,T,F,Any,,,Secret,2.75,8,F,F,F,URL Credentials
@@ -110,7 +110,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 131560,70c79b80,GitHub,efb4b495,data/efb4b495/test/70c79b80.go,99,99,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 131562,9a00b9b4,GitHub,efb4b495,data/efb4b495/src/9a00b9b4.go,96,96,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 131564,fc79203f,GitHub,efb4b495,data/efb4b495/test/fc79203f.go,105,105,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-131565,9a00b9b4,GitHub,efb4b495,data/efb4b495/src/9a00b9b4.go,97,97,F,F,,,F,F,,,,,0.00,,F,F,F,Password
+131565,9a00b9b4,GitHub,efb4b495,data/efb4b495/src/9a00b9b4.go,97,97,F,F,,,F,F,,,,,0.00,,F,F,F,Password:SQL Password
 131747,70c79b80,GitHub,efb4b495,data/efb4b495/test/70c79b80.go,40,40,T,F,7,29,F,F,,,,,0.0,-1,F,F,F,Password
 131748,fc79203f,GitHub,efb4b495,data/efb4b495/test/fc79203f.go,40,40,T,F,7,29,F,F,,,,,0.0,-1,F,F,F,Password
 134721,9a00b9b4,GitHub,efb4b495,data/efb4b495/src/9a00b9b4.go,65,65,F,F,,,F,F,,,,,0,0,F,F,F,Auth
@@ -205,3 +205,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 1479537,10a61d8f,GitHub,efb4b495,data/efb4b495/src/10a61d8f.sql,7,7,F,F,18,22,F,F,,,,,0.0,0,F,F,F,CMD Password
 1479538,bd8c0745,GitHub,efb4b495,data/efb4b495/src/bd8c0745.sql,7,7,F,F,18,22,F,F,,,,,0.0,0,F,F,F,CMD Password
 1479539,c08cf4d6,GitHub,efb4b495,data/efb4b495/src/c08cf4d6.sql,7,7,F,F,18,22,F,F,,,,,0.0,0,F,F,F,CMD Password
+1480671,8f26acab,GitHub,efb4b495,data/efb4b495/src/8f26acab.go,36,36,F,F,,,F,F,,,,,0.0,0,F,F,F,SQL Password
+1480672,d57f1e41,GitHub,efb4b495,data/efb4b495/src/d57f1e41.go,47,47,F,F,,,F,F,,,,,0.0,0,F,F,F,SQL Password
+1480673,e36a277b,GitHub,efb4b495,data/efb4b495/src/e36a277b.go,69,69,F,F,,,F,F,,,,,0.0,0,F,F,F,SQL Password
+1480674,21968930,GitHub,efb4b495,data/efb4b495/test/21968930.sql,543,543,T,F,47,56,F,F,,,,,0.0,0,F,F,F,SQL Password
+1480675,21968930,GitHub,efb4b495,data/efb4b495/test/21968930.sql,544,544,T,F,33,43,F,F,,,,,0.0,0,F,F,F,SQL Password
+1480710,08819735,GitHub,efb4b495,data/efb4b495/src/08819735.go,66,66,F,F,,,F,F,,,,,0.0,0,F,F,F,SQL Password
+1480711,18e746a5,GitHub,efb4b495,data/efb4b495/src/18e746a5.go,34,34,F,F,,,F,F,,,,,0.0,0,F,F,F,SQL Password
