@@ -1,9 +1,9 @@
-META MD5 edb33b4d05371a65cb8350944493c18f
+META MD5 069a4e30fb90dfd9add44977e2cc50b3
 DATA MD5 85919f029d6a52bc982b4c33b8946a9b
 DATA: 16334259 interested lines. MARKUP: 59594 items
 FileType           FileNumber    ValidLines    Positives    Negatives    Templates
 ---------------  ------------  ------------  -----------  -----------  -----------
-                          194         28342           72          415           90
+                          194         28342           71          415           90
 .1                          2           641            2            5
 .admx                       1            26                         1
 .adoc                       1           158           13            5            1
@@ -185,7 +185,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .snap                       3          1708            9           29            2
 .spec                       2           332                         2
 .spin                       1           565                         1
-.sql                       26          6468          130           57            3
+.sql                       26          6468          129           57            3
 .storyboard                20          1802                       339
 .strings                   20          1240                       137
 .stub                       3            84                                      6
@@ -222,7 +222,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .yml                      420         36296          529          910          375
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  10026      16334259        11918        46623         5067
+TOTAL:                  10026      16334259        11916        46623         5067
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Templates    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -261,7 +261,7 @@ Key                                    3912        15714          485           
 Nonce                                    93           49            0                 0     0     49     93  0.000000  1.000000  0.345070         0.000000
 Other                                     9         7447            5                 0     0   7452      9  0.000000  1.000000  0.998794         0.000000
 PEM Private Key                        1019         1483            0                 0     0   1483   1019  0.000000  1.000000  0.592726         0.000000
-Password                               1887         7532         2663                 0     0  10195   1887  0.000000  1.000000  0.843817         0.000000
+Password                               1885         7532         2663                 0     0  10195   1885  0.000000  1.000000  0.843957         0.000000
 SQL Password                             44           13            0                 0     0     13     44  0.000000  1.000000  0.228070         0.000000
 Salesforce Credentials                    2            0            0                 0     0      0      2            1.000000  0.000000         0.000000
 Salt                                     47           76            1                 0     0     77     47  0.000000  1.000000  0.620968         0.000000
@@ -274,4 +274,4 @@ Token                                   643         4171          454           
 Twilio Credentials                       30           39            0                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         210          157          215                 0     0    372    210  0.000000  1.000000  0.639175         0.000000
 UUID                                   1075          265            0                 0     0    265   1075  0.000000  1.000000  0.197761         0.000000
-                                      11918        46623         5067           0     0     0  46623  11918  0.000000  1.000000  0.796416         0.000000
+                                      11916        46623         5067           0     0     0  46623  11916  0.000000  1.000000  0.796443         0.000000
