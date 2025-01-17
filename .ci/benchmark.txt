@@ -1,6 +1,6 @@
-META MD5 069a4e30fb90dfd9add44977e2cc50b3
-DATA MD5 85919f029d6a52bc982b4c33b8946a9b
-DATA: 16334259 interested lines. MARKUP: 59594 items
+META MD5 ea6bfd4ab65bd77b9e769ffdfcb5dc2a
+DATA MD5 7249009ff1484bfef2e45b9fc62c8d6b
+DATA: 16334259 interested lines. MARKUP: 59607 items
 FileType           FileNumber    ValidLines    Positives    Negatives    Templates
 ---------------  ------------  ------------  -----------  -----------  -----------
                           194         28342           71          415           90
@@ -35,7 +35,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .creds                      1            10            1            1
 .crlf                       1            27            1
 .crt                        2          4979                       211
-.cs                       266         79474          153          872           95
+.cs                       266         79474          156          872           95
 .cshtml                     5           180                        12
 .csp                        3           379                         9
 .csproj                     1            14                         1
@@ -63,7 +63,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .gd                         1            37                         1
 .gml                        3          3075                        16
 .gni                        3          5017                        19
-.go                      1081        568661          653         4097          748
+.go                      1081        568661          654         4097          748
 .golden                     5          1168            1           13           29
 .gradle                    45          3265            2           90          100
 .graphql                    7           420                        13
@@ -179,7 +179,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .scala                     39          5028           22           99
 .scss                      16          8553                        32            1
 .secrets                    1            11                                      1
-.sh                       147         22139           63          464           23
+.sh                       147         22139           64          464           23
 .slim                       1           153                         1            2
 .smali                      1           775                        18
 .snap                       3          1708            9           29            2
@@ -219,10 +219,10 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .xib                       11           503                       164
 .xsl                        1           311                         1
 .yaml                     136         18591          123          341           42
-.yml                      420         36296          529          910          375
+.yml                      420         36296          545          910          375
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  10026      16334259        11916        46623         5067
+TOTAL:                  10026      16334259        11937        46623         5067
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Templates    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -261,7 +261,7 @@ Key                                    3912        15714          485           
 Nonce                                    93           49            0                 0     0     49     93  0.000000  1.000000  0.345070         0.000000
 Other                                     9         7447            5                 0     0   7452      9  0.000000  1.000000  0.998794         0.000000
 PEM Private Key                        1019         1483            0                 0     0   1483   1019  0.000000  1.000000  0.592726         0.000000
-Password                               1885         7532         2663                 0     0  10195   1885  0.000000  1.000000  0.843957         0.000000
+Password                               1906         7532         2663                 0     0  10195   1906  0.000000  1.000000  0.842492         0.000000
 SQL Password                             44           13            0                 0     0     13     44  0.000000  1.000000  0.228070         0.000000
 Salesforce Credentials                    2            0            0                 0     0      0      2            1.000000  0.000000         0.000000
 Salt                                     47           76            1                 0     0     77     47  0.000000  1.000000  0.620968         0.000000
@@ -274,4 +274,4 @@ Token                                   643         4171          454           
 Twilio Credentials                       30           39            0                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         210          157          215                 0     0    372    210  0.000000  1.000000  0.639175         0.000000
 UUID                                   1075          265            0                 0     0    265   1075  0.000000  1.000000  0.197761         0.000000
-                                      11916        46623         5067           0     0     0  46623  11916  0.000000  1.000000  0.796443         0.000000
+                                      11937        46623         5067           0     0     0  46623  11937  0.000000  1.000000  0.796158         0.000000
