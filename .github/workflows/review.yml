@@ -73,6 +73,8 @@ jobs:
           # skip extra hints from git
           git config --global init.defaultBranch work
           python download_data.py --data_dir data --jobs $(nproc)
+          # quick review with check only to detect errors in console
+          python review_data.py --check
           python review_data.py &>review_head.txt
           ansi2html --style 'pre {font-family: monospace; font-size: large}' <review_head.txt  >review_head.html
 
