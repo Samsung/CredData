@@ -59,12 +59,12 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 25311,a8d076a6,GitHub,f710ac3c,data/f710ac3c/src/a8d076a6.py,49,49,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Credential
 25490,446d3302,GitHub,f710ac3c,data/f710ac3c/test/446d3302.html,28,28,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
 26839,56e55b10,GitHub,f710ac3c,data/f710ac3c/src/56e55b10.txt,1527,1527,F,F,,,F,F,,,,,0,0,F,F,F,Password
-27218,16f1d758,GitHub,f710ac3c,data/f710ac3c/test/16f1d758.py,235,235,Template,F,86,92,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
-27395,16f1d758,GitHub,f710ac3c,data/f710ac3c/test/16f1d758.py,173,173,Template,F,62,68,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
+27218,16f1d758,GitHub,f710ac3c,data/f710ac3c/test/16f1d758.py,235,235,T,F,86,92,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
+27395,16f1d758,GitHub,f710ac3c,data/f710ac3c/test/16f1d758.py,173,173,T,F,62,68,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
 27598,8d982008,GitHub,f710ac3c,data/f710ac3c/test/8d982008.py,199,199,T,T,37,52,F,F,Any,,,Secret,2.93,15,F,F,F,Password
-27635,16f1d758,GitHub,f710ac3c,data/f710ac3c/test/16f1d758.py,223,223,Template,F,64,70,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
+27635,16f1d758,GitHub,f710ac3c,data/f710ac3c/test/16f1d758.py,223,223,T,F,64,70,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
 28170,142d4e03,GitHub,f710ac3c,data/f710ac3c/test/142d4e03.py,40,40,T,F,76,83,F,F,Any,,,Secret,2.12,7,F,F,F,Password
-28171,16f1d758,GitHub,f710ac3c,data/f710ac3c/test/16f1d758.py,149,149,Template,F,70,76,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
+28171,16f1d758,GitHub,f710ac3c,data/f710ac3c/test/16f1d758.py,149,149,T,F,70,76,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
 28379,d5edaf4c,GitHub,f710ac3c,data/f710ac3c/src/d5edaf4c.py,123,123,F,F,19,41,F,F,,,,,0.0,0,F,F,F,Password
 28380,d5edaf4c,GitHub,f710ac3c,data/f710ac3c/src/d5edaf4c.py,155,155,F,F,19,35,F,F,,,,,0.0,0,F,F,F,Password
 28411,30897b8f,GitHub,f710ac3c,data/f710ac3c/src/30897b8f.py,341,341,F,F,19,43,F,F,,,,,0.0,0,F,F,F,Password
@@ -174,7 +174,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 36225,ba663b6e,GitHub,f710ac3c,data/f710ac3c/test/ba663b6e.py,48,48,T,T,34,44,F,F,CharsOnly,,,Secret,2.65,10,F,F,F,Password
 36226,c0735e6c,GitHub,f710ac3c,data/f710ac3c/test/c0735e6c.py,1158,1158,Template,T,26,42,F,F,Any,,,Secret,3.5,16,F,F,F,Password
 36227,c0735e6c,GitHub,f710ac3c,data/f710ac3c/test/c0735e6c.py,1150,1150,Template,T,26,41,F,F,Any,,,Secret,3.38,15,F,F,F,Password
-36238,142d4e03,GitHub,f710ac3c,data/f710ac3c/test/142d4e03.py,319,319,Template,T,25,34,F,F,CharsOnly,,,Secret,2.73,9,F,F,F,Password
+36238,142d4e03,GitHub,f710ac3c,data/f710ac3c/test/142d4e03.py,319,319,T,T,25,34,F,F,CharsOnly,,,Secret,2.73,9,F,F,F,Password
 36240,c0735e6c,GitHub,f710ac3c,data/f710ac3c/test/c0735e6c.py,1151,1151,Template,T,26,41,F,F,Any,,,Secret,3.38,15,F,F,F,Password
 36241,c0735e6c,GitHub,f710ac3c,data/f710ac3c/test/c0735e6c.py,1159,1159,Template,T,26,42,F,F,Any,,,Secret,3.5,16,F,F,F,Password
 36242,ba663b6e,GitHub,f710ac3c,data/f710ac3c/test/ba663b6e.py,49,49,T,T,34,44,F,F,CharsOnly,,,Secret,2.65,10,F,F,F,Password
@@ -206,7 +206,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 37336,255cd676,GitHub,f710ac3c,data/f710ac3c/test/255cd676.py,335,335,T,T,61,73,F,F,CharsOnly,,,Secret,3.08,12,F,F,F,Password
 37337,255cd676,GitHub,f710ac3c,data/f710ac3c/test/255cd676.py,344,344,T,T,61,73,F,F,CharsOnly,,,Secret,3.08,12,F,F,F,Password
 37490,bb7a9c93,GitHub,f710ac3c,data/f710ac3c/test/bb7a9c93.py,82,82,F,T,38,52,F,F,CharsOnly,,,Secret,3.18,14,F,F,F,Password
-37646,142d4e03,GitHub,f710ac3c,data/f710ac3c/test/142d4e03.py,342,342,Template,T,29,38,F,F,CharsOnly,,,Secret,2.73,9,F,F,F,Password
+37646,142d4e03,GitHub,f710ac3c,data/f710ac3c/test/142d4e03.py,342,342,T,T,29,38,F,F,CharsOnly,,,Secret,2.73,9,F,F,F,Password
 37723,bb7a9c93,GitHub,f710ac3c,data/f710ac3c/test/bb7a9c93.py,87,87,T,T,29,44,F,F,CharsOnly,,,Secret,3.46,15,F,F,F,Dropbox App secret:Password
 37738,255cd676,GitHub,f710ac3c,data/f710ac3c/test/255cd676.py,254,254,T,T,30,42,F,F,Any,,,Secret,2.95,13,F,F,F,Password
 37739,255cd676,GitHub,f710ac3c,data/f710ac3c/test/255cd676.py,426,426,T,T,30,42,F,F,Any,,,Secret,2.95,13,F,F,F,Password
@@ -734,7 +734,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 114139,640602cc,GitHub,f710ac3c,data/f710ac3c/test/640602cc.py,518,518,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
 114140,b6ab4be7,GitHub,f710ac3c,data/f710ac3c/test/b6ab4be7.py,356,356,F,F,,,F,F,,,,,0.00,,F,F,F,Password
 114141,b6ab4be7,GitHub,f710ac3c,data/f710ac3c/test/b6ab4be7.py,367,367,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-114142,d67e41a7,GitHub,f710ac3c,data/f710ac3c/test/d67e41a7.py,107,107,F,F,,,F,F,,,,,0.00,,F,F,F,Salt
+114142,d67e41a7,GitHub,f710ac3c,data/f710ac3c/test/d67e41a7.py,107,107,T,F,25,61,F,F,,,,,0.00,,F,F,F,Salt
 114143,bb7a9c93,GitHub,f710ac3c,data/f710ac3c/test/bb7a9c93.py,149,149,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
 114144,bb7a9c93,GitHub,f710ac3c,data/f710ac3c/test/bb7a9c93.py,164,164,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
 131249,0bbf2cf1,GitHub,f710ac3c,data/f710ac3c/src/0bbf2cf1.py,452,452,F,F,,,F,F,,,,,0.00,,F,F,F,Password
