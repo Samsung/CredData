@@ -1606,7 +1606,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 33391,75550394,GitHub,2ba83c6a,data/2ba83c6a/test/75550394.txt,456,456,T,F,13,61,F,F,Any,,,Secret,3.61,48,F,F,F,Secret
 33392,903fb5c9,GitHub,2ba83c6a,data/2ba83c6a/test/903fb5c9.txt,2,2,T,F,14,33,F,F,Any,,,Secret,3.26,19,F,F,F,Secret
 33772,8a68cd28,GitHub,2ba83c6a,data/2ba83c6a/test/8a68cd28.txt,101,101,T,F,11,29,F,F,Any,,,Secret,2.67,18,F,F,F,Password
-33775,8d9cfa62,GitHub,2ba83c6a,data/2ba83c6a/test/8d9cfa62.txt,33,33,Template,T,12,25,F,F,CharsOnly,,,Secret,2.93,13,F,F,F,Password
+33775,8d9cfa62,GitHub,2ba83c6a,data/2ba83c6a/test/8d9cfa62.txt,33,33,T,T,12,25,F,F,CharsOnly,,,Secret,2.93,13,F,F,F,Password
 33776,8a68cd28,GitHub,2ba83c6a,data/2ba83c6a/test/8a68cd28.txt,80,80,Template,T,12,36,F,F,CharsOnly,,,Secret,3.67,24,F,F,F,Password
 33806,96666648,GitHub,2ba83c6a,data/2ba83c6a/test/96666648.cnf,75,75,T,T,14,22,F,F,Any,,,Secret,2.75,8,F,F,F,Password
 33927,39ac0572,GitHub,2ba83c6a,data/2ba83c6a/other/39ac0572.in,89,89,T,F,17,113,F,F,Any,,,Unknown,3.91,96,F,F,F,Key
@@ -1849,7 +1849,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 36990,ed9d180d,GitHub,2ba83c6a,data/2ba83c6a/test/ed9d180d.txt,1027,1027,T,F,13,93,F,F,Any,,,Secret,3.93,80,F,F,F,Secret
 37053,8a68cd28,GitHub,2ba83c6a,data/2ba83c6a/test/8a68cd28.txt,108,108,T,F,11,29,F,F,Any,,,Secret,2.67,18,F,F,F,Password
 37054,8a68cd28,GitHub,2ba83c6a,data/2ba83c6a/test/8a68cd28.txt,115,115,T,F,11,29,F,F,Any,,,Secret,2.67,18,F,F,F,Password
-37055,8d9cfa62,GitHub,2ba83c6a,data/2ba83c6a/test/8d9cfa62.txt,45,45,Template,T,12,25,F,F,CharsOnly,,,Secret,2.93,13,F,F,F,Password
+37055,8d9cfa62,GitHub,2ba83c6a,data/2ba83c6a/test/8d9cfa62.txt,45,45,T,T,12,25,F,F,CharsOnly,,,Secret,2.93,13,F,F,F,Password
 37056,8a68cd28,GitHub,2ba83c6a,data/2ba83c6a/test/8a68cd28.txt,87,87,Template,T,12,36,F,F,CharsOnly,,,Secret,3.67,24,F,F,F,Password
 37057,8a68cd28,GitHub,2ba83c6a,data/2ba83c6a/test/8a68cd28.txt,94,94,Template,T,12,36,F,F,CharsOnly,,,Secret,3.67,24,F,F,F,Password
 37068,96666648,GitHub,2ba83c6a,data/2ba83c6a/test/96666648.cnf,145,145,Template,T,14,22,F,F,Any,,,Secret,2.75,8,F,F,F,Password

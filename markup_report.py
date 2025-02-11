@@ -50,10 +50,13 @@ def main(report_file: str, meta_dir: str):
         ]
         for key in key_variants:
             if rows := meta_dict.get(key):
-                cred["ml_validation"] = ';'.join(str(x) for x in rows)
+                # to easy review true/false/template
+                cred["severity"] = ';'.join(x.GroundTruth for x in rows)
+                # full info will be placed above "line_data_list"
+                cred["confidence"] = ';'.join(str(x) for x in rows)
                 break
         else:
-            cred["ml_validation"] = "not found in meta"
+            cred["confidence"] = "not found in meta"
             # something was wrong
             errors += 1
 
