@@ -1,6 +1,6 @@
-META MD5 8167d6ce3f0c32b8b7a603315ff6b402
+META MD5 29b6e2067bff0039e47f459f19e6e588
 DATA MD5 30fa1091e2d3905cd24a13159a8a68cf
-DATA: 16334259 interested lines. MARKUP: 59609 items
+DATA: 16334259 interested lines. MARKUP: 59618 items
 FileType           FileNumber    ValidLines    Positives    Negatives    Templates
 ---------------  ------------  ------------  -----------  -----------  -----------
                           194         28342           71          415           90
@@ -55,7 +55,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .erb                       13           323                        26
 .erl                        4            96                         7
 .ex                        25          4968            5           98            5
-.example                   18          1863           74           37           51
+.example                   18          1863           75           37           51
 .exs                       24          4842            8          187            4
 .ext                        5           211            1            4            2
 .fsproj                     1            75            1            2
@@ -116,7 +116,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .md                       674        148660          756         2334          597
 .mdx                        3           549                         7
 .mjml                       1            18                         1
-.mjs                       22          4424           71          333
+.mjs                       22          4424           71          341
 .mk                         1          5878                        13
 .ml                         1          1856                        16
 .mlir                       2          1596                        19
@@ -209,7 +209,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .ts                       581        106648          138         1773          203
 .tsx                       54          7914            1          113            5
 .ttar                       1           452                         1
-.txt                      268         76325         5150         5094           44
+.txt                      268         76325         5150         5095           44
 .utf8                       1            77                         2
 .vsixmanifest               1            36                         1
 .vsmdi                      1             6            2
@@ -222,7 +222,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .yml                      420         36296          546          910          374
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  10026      16334259        11992        46604         5033
+TOTAL:                  10026      16334259        11993        46613         5033
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Templates    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -236,7 +236,7 @@ Azure Access Token                       19            0            0           
 BASE64 Private Key                       12            4            0                 0     0      4     12  0.000000  1.000000  0.250000         0.000000
 BASE64 encoded PEM Private Key            7            0            0                 0     0      0      7            1.000000  0.000000         0.000000
 Bitbucket Client ID                      19           53            0                 0     0     53     19  0.000000  1.000000  0.736111         0.000000
-Bitbucket Client Secret                  28           67            1                 0     0     68     28  0.000000  1.000000  0.708333         0.000000
+Bitbucket Client Secret                  29           76            1                 0     0     77     29  0.000000  1.000000  0.726415         0.000000
 CMD ConvertTo-SecureString               13            4            0                 0     0      4     13  0.000000  1.000000  0.235294         0.000000
 CMD Password                             21          128            6                 0     0    134     21  0.000000  1.000000  0.864516         0.000000
 CMD Secret                                1            1            0                 0     0      1      1  0.000000  1.000000  0.500000         0.000000
@@ -274,4 +274,4 @@ Token                                   644         4170          454           
 Twilio Credentials                       30           39            0                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         215          157          210                 0     0    367    215  0.000000  1.000000  0.630584         0.000000
 UUID                                   1075          265            0                 0     0    265   1075  0.000000  1.000000  0.197761         0.000000
-                                      11992        46604         5033           0     0     0  46604  11992  0.000000  1.000000  0.795344         0.000000
+                                      11993        46613         5033           0     0     0  46613  11993  0.000000  1.000000  0.795362         0.000000
