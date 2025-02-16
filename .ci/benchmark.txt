@@ -1,6 +1,6 @@
-META MD5 0631d3c69c1ece61c31ad976cc91e2f4
-DATA MD5 36faeaaa7c34d72fdb9d65b8854dd17a
-DATA: 16334259 interested lines. MARKUP: 59619 items
+META MD5 45613c85a524c080cb3f5495ae968267
+DATA MD5 e9fc1ebf64881ff17b33173c659d26f4
+DATA: 16334259 interested lines. MARKUP: 59620 items
 FileType           FileNumber    ValidLines    Positives    Negatives    Templates
 ---------------  ------------  ------------  -----------  -----------  -----------
                           194         28342           71          415           90
@@ -153,7 +153,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .pug                        2           193                         2
 .purs                       1            69                         4
 .pxd                        1           150                         4            2
-.py                       886        290215          675         3235          720
+.py                       886        290215          676         3235          720
 .pyi                        4          1361                         9
 .pyp                        1           167                         1
 .pyx                        2          1094                        23
@@ -222,7 +222,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .yml                      420         36296          546          910          374
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  10026      16334259        11993        46618         5024
+TOTAL:                  10026      16334259        11994        46618         5024
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Templates    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -231,7 +231,7 @@ AWS Client ID                           170           19            0           
 AWS Multi                                82           10            0                 0     0     10     82  0.000000  1.000000  0.108696         0.000000
 AWS S3 Bucket                            67           23            0                 0     0     23     67  0.000000  1.000000  0.255556         0.000000
 Atlassian Old PAT token                   3            7            0                 0     0      7      3  0.000000  1.000000  0.700000         0.000000
-Auth                                    416         2744           81                 0     0   2825    416  0.000000  1.000000  0.871645         0.000000
+Auth                                    417         2744           81                 0     0   2825    417  0.000000  1.000000  0.871376         0.000000
 Azure Access Token                       19            0            0                 0     0      0     19            1.000000  0.000000         0.000000
 BASE64 Private Key                       12            4            0                 0     0      4     12  0.000000  1.000000  0.250000         0.000000
 BASE64 encoded PEM Private Key            7            0            0                 0     0      0      7            1.000000  0.000000         0.000000
@@ -274,4 +274,4 @@ Token                                   645         4170          453           
 Twilio Credentials                       30           39            0                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         217          156          209                 0     0    365    217  0.000000  1.000000  0.627148         0.000000
 UUID                                   1075          265            0                 0     0    265   1075  0.000000  1.000000  0.197761         0.000000
-                                      11993        46618         5024           0     0     0  46618  11993  0.000000  1.000000  0.795380         0.000000
+                                      11994        46618         5024           0     0     0  46618  11994  0.000000  1.000000  0.795366         0.000000
