@@ -96,26 +96,25 @@ class Scanner(ABC):
         data_checksum = hashlib.md5(b'').digest()
         # getting count of all not-empty lines
         data_dir = f"{self.cred_data_dir}/data"
-        valid_dir_list = ["src", "test", "other"]
         for root, dirs, files in os.walk(data_dir):
-            if root.split("/")[-1] in valid_dir_list:
-                for file in files:
-                    _, file_ext = os.path.splitext(str(file))
-                    file_ext_lower = file_ext.lower()
-                    # the type must be in dictionary
-                    self.file_types[file_ext_lower].files_number += 1
-                    with open(os.path.join(root, file), "rb") as f:
-                        data = f.read()
-                        file_checksum = hashlib.md5(data).digest()
-                        data_checksum = bytes(a ^ b for a, b in zip(data_checksum, file_checksum))
-                        lines = data.decode("utf-8").split('\n')
-                        file_data_valid_lines = 0
-                        for line in lines:
-                            # minimal length of IPv4 detection is 7 e.g. 8.8.8.8
-                            if 7 <= len(line.strip()):
-                                file_data_valid_lines += 1
-                        self.total_data_valid_lines += file_data_valid_lines
-                        self.file_types[file_ext_lower].valid_lines += file_data_valid_lines
+            for file in files:
+                file_name, file_ext = os.path.splitext(str(file))
+                file_ext_lower = file_ext.lower()
+                file_type_stat = self.file_types.get(file_ext_lower, FileTypeStat(0, 0, 0, 0, 0))
+                file_type_stat.files_number += 1
+                self.file_types[file_ext_lower] = file_type_stat
+                with open(os.path.join(root, file), "rb") as f:
+                    data = f.read()
+                    file_checksum = hashlib.md5(data).digest()
+                    data_checksum = bytes(a ^ b for a, b in zip(data_checksum, file_checksum))
+                    lines = data.decode("utf-8").split('\n')
+                    file_data_valid_lines = 0
+                    for line in lines:
+                        # minimal length of detection is 7 e.g. pw:X3d!
+                        if 7 <= len(line.strip()):
+                            file_data_valid_lines += 1
+                    self.total_data_valid_lines += file_data_valid_lines
+                    self.file_types[file_ext_lower].valid_lines += file_data_valid_lines
 
         print(f"META MD5 {self._meta_checksum(meta_path)}", flush=True)
         print(f"DATA MD5 {binascii.hexlify(data_checksum).decode()}", flush=True)
