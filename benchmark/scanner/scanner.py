@@ -240,6 +240,14 @@ class Scanner(ABC):
         self.parse_result()
         self.analyze_result()
 
+    @staticmethod
+    def get_items_from_path(file_path: str) -> Tuple[str, str, str, str]:
+        data_path = "data" + file_path.split("data", maxsplit=1)[-1]
+        repo_name = file_path.split('/')[1]
+        file_name = data_path.split('/')[-1]
+        file_id = file_name.split('.')[0]
+        return data_path, repo_name, file_name, file_id
+
     def check_line_from_meta(self,
                              file_path: str,
                              line_start: int,
@@ -248,15 +256,10 @@ class Scanner(ABC):
                              value_end: int = -1,
                              rule: str = "") -> Tuple[LineStatus, str, str]:
         self.result_cnt += 1
-        repo_name = file_path.split('/')[-3]
-        data_path = "data/" + '/'.join(file_path.split('/')[-3:])
-        project_id = repo_name
-        file_name = data_path.split('/')[-1]
-        file_id = file_name.split('.')[0]
-
+        data_path, repo_name, file_name, file_id = self.get_items_from_path(file_path)
         # by default the cred is false positive
         approximate = f"{self.meta_next_id},{file_id}" \
-                      f",GitHub,{project_id},{data_path}" \
+                      f",GitHub,{repo_name},{data_path}" \
                       f",{line_start},{line_end}" \
                       f",F,F,{value_start},{value_end}" \
                       f",F,F,,,,,0.0,0,F,F,F,{rule}"
@@ -264,7 +267,7 @@ class Scanner(ABC):
             "Id": self.meta_next_id,
             "FileID": file_id,
             "Domain": "GitHub",
-            "RepoName": project_id,
+            "RepoName": repo_name,
             "FilePath": data_path,
             "LineStart": line_start,
             "LineEnd": line_end,
@@ -290,11 +293,11 @@ class Scanner(ABC):
             self.lost_cnt += 1
             print(f"NOT FOUND WITH KEY: {approximate}", flush=True)
             if self.fix:
-                with open(f"{self.cred_data_dir}/meta/{project_id}.csv", "a") as f:
+                with open(f"{self.cred_data_dir}/meta/{repo_name}.csv", "a") as f:
                     f.write(f"{str(approximate)}\n")
                 self.meta[MetaKey(data_path, line_start, line_end)] = [lost_meta]
             self.meta_next_id += 1
-            return LineStatus.NOT_IN_DB, project_id, file_id
+            return LineStatus.NOT_IN_DB, repo_name, file_id
 
         suggestion = "LOST:"
         for row in rows:
@@ -339,7 +342,7 @@ class Scanner(ABC):
                 self.result_cnt -= 1
                 if 'T' == row.GroundTruth:
                     print(f"WARNING: Already checked True! Duplicate? {code}", flush=True)
-                return LineStatus.CHECKED, project_id, file_name
+                return LineStatus.CHECKED, repo_name, file_name
             else:
                 self.line_checker.add(code)
 
@@ -349,12 +352,12 @@ class Scanner(ABC):
                     if 'T' == row.GroundTruth:
                         self._increase_result_dict_cnt(meta_rule, True)
                         self.true_cnt += 1
-                        return LineStatus.FALSE, project_id, file_id
+                        return LineStatus.FALSE, repo_name, file_id
                     else:
                         # MetaRow class checks the correctness of row.GroundTruth = ['T', 'F', "Template"]
                         self._increase_result_dict_cnt(meta_rule, False)
                         self.false_cnt += 1
-                        return LineStatus.TRUE, project_id, file_id
+                        return LineStatus.TRUE, repo_name, file_id
             else:
                 print(f"WARNING: '{rule}' is not mentioned in {row}")
                 if self.fix:
@@ -370,10 +373,10 @@ class Scanner(ABC):
         print(f"{suggestion} {approximate}", flush=True)
         self.meta_next_id += 1
         if lost_meta and self.fix:
-            with open(f"{self.cred_data_dir}/meta/{project_id}.csv", "a") as f:
+            with open(f"{self.cred_data_dir}/meta/{repo_name}.csv", "a") as f:
                 f.write(f"{str(approximate)}\n")
             self.meta[MetaKey(data_path, line_start, line_end)].append(lost_meta)
-        return LineStatus.NOT_IN_DB, project_id, file_id
+        return LineStatus.NOT_IN_DB, repo_name, file_id
 
     def analyze_result(self) -> None:
         print(
