@@ -1,9 +1,9 @@
 META MD5 ca7df6f221973c63ef270098b293ccbf
-DATA MD5 83bfc3d7c7da81ae313827f3bda09197
-DATA: 16334259 interested lines. MARKUP: 59620 items
+DATA MD5 760617cb48c8eeb7a7fb9645f1445e21
+DATA: 16358553 interested lines. MARKUP: 59620 items
 FileType           FileNumber    ValidLines    Positives    Negatives    Templates
 ---------------  ------------  ------------  -----------  -----------  -----------
-                          194         28342           72          415           89
+                          446         47536           72          415           89
 .1                          2           641            2            5
 .admx                       1            26                         1
 .adoc                       1           158           13            5            1
@@ -102,6 +102,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .ldml                       1          6656                        36
 .leex                       1             9                         2
 .less                       4          3023                        12
+.lesser                     1           128
 .libsonnet                  2           210            1           11
 .list                       2            15                                      2
 .lkml                       1            43                         1
@@ -113,7 +114,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .markdown                   3           139                         3            1
 .markerb                    3            12                         3
 .marko                      1            21                         2
-.md                       674        148660          759         2334          594
+.md                       700        149680          759         2334          594
 .mdx                        3           549                         7
 .mjml                       1            18                         1
 .mjs                       22          4424           71          341
@@ -156,6 +157,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .py                       886        290215          676         3235          720
 .pyi                        4          1361                         9
 .pyp                        1           167                         1
+.python                     1           213
 .pyx                        2          1094                        23
 .r                          4            62            5            2
 .rake                       2            51                         2
@@ -172,7 +174,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .rs                        31          9855            2          234           11
 .rsc                        1           691                         1
 .rsp                       16          7101           20           10           27
-.rst                       87         34002           72          305           68
+.rst                       88         34024           72          305           68
 .rules                      1             6                         2
 .sample                     2            25            3            4            4
 .sbt                        3           570                         5            2
@@ -209,7 +211,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .ts                       581        106648          138         1773          203
 .tsx                       54          7914            1          113            5
 .ttar                       1           452                         1
-.txt                      268         76325         5150         5095           44
+.txt                      306         80042         5150         5095           44
 .utf8                       1            77                         2
 .vsixmanifest               1            36                         1
 .vsmdi                      1             6            2
@@ -222,7 +224,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .yml                      420         36296          546          910          374
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  10026      16334259        11997        46620         5021
+TOTAL:                  10345      16358553        11997        46620         5021
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Templates    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
