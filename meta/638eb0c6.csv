@@ -43,7 +43,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 30853,f4b1be94,GitHub,638eb0c6,data/638eb0c6/test/f4b1be94.js,28,28,Template,T,20,26,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Secret
 31037,a8678ed0,GitHub,638eb0c6,data/638eb0c6/test/a8678ed0.sql,26,26,T,F,116,124,F,F,Any,,,Secret,3.0,8,F,F,F,Password
 31504,931e2c76,GitHub,638eb0c6,data/638eb0c6/test/931e2c76.ts,37,37,Template,T,43,63,F,F,Any,,,Secret,2.34,20,F,F,F,Secret
-32350,8e4a7d73,GitHub,638eb0c6,data/638eb0c6/other/8e4a7d73,3,3,Template,T,55,63,F,F,Any,,,Secret,2.75,8,F,F,F,Password
+32350,8e4a7d73,GitHub,638eb0c6,data/638eb0c6/other/8e4a7d73,3,3,T,T,55,63,F,F,Any,,,Secret,2.75,8,F,F,F,Password
 32364,b3356305,GitHub,638eb0c6,data/638eb0c6/other/b3356305.md,116,116,F,T,91,108,T,F,Any,,,Secret,3.02,17,F,F,F,URL Credentials
 32411,df79c119,GitHub,638eb0c6,data/638eb0c6/test/df79c119.js,3,3,Template,T,37,49,T,F,Any,,,Secret,2.79,12,F,F,F,URL Credentials
 33005,b803fcb7,GitHub,638eb0c6,data/638eb0c6/src/b803fcb7.yml,36,36,T,T,45,53,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
@@ -51,7 +51,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 34161,04b06f40,GitHub,638eb0c6,data/638eb0c6/other/04b06f40.md,59,59,T,T,36,44,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
 34632,30d68336,GitHub,638eb0c6,data/638eb0c6/src/30d68336.ts,390,390,Template,T,46,50,T,F,CharsOnly,,,Secret,1.5,4,F,F,F,URL Credentials
 35322,07044481,GitHub,638eb0c6,data/638eb0c6/test/07044481.pem,1,27,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,PEM Private Key
-35672,8e4a7d73,GitHub,638eb0c6,data/638eb0c6/other/8e4a7d73,2,2,Template,T,52,60,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
+35672,8e4a7d73,GitHub,638eb0c6,data/638eb0c6/other/8e4a7d73,2,2,T,T,52,60,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
 36187,a8678ed0,GitHub,638eb0c6,data/638eb0c6/test/a8678ed0.sql,24,24,T,F,106,117,F,F,CharsOnly,,,Secret,3.28,11,F,F,F,Password
 36188,a8678ed0,GitHub,638eb0c6,data/638eb0c6/test/a8678ed0.sql,23,23,T,F,111,121,F,F,Any,,,Secret,3.32,10,F,F,F,Password
 36189,a8678ed0,GitHub,638eb0c6,data/638eb0c6/test/a8678ed0.sql,22,22,T,F,110,116,F,F,Any,,,Secret,2.58,6,F,F,F,Password
