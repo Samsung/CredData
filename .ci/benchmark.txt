@@ -1,6 +1,6 @@
-META MD5 6f1e4554eebf7ff6ea54c339b5a6bac5
-DATA MD5 249cef59dfe797b20b91ab1040e548fc
-DATA: 16352935 interested lines. MARKUP: 59624 items
+META MD5 43dfc37767b29f08fdee435d9eb7de80
+DATA MD5 fa56e4a4a5a004986ad083052b9945ce
+DATA: 16352935 interested lines. MARKUP: 59628 items
 FileType           FileNumber    ValidLines    Positives    Negatives    Templates
 ---------------  ------------  ------------  -----------  -----------  -----------
                           446         47536           89          415           72
@@ -86,7 +86,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .jenkinsfile                1            58            2            6
 .jinja2                     1            64                         2
 .js                       652        532634          558         2470          284
-.json                     843      13045846         1087        10010          132
+.json                     843      13045846         1090        10010          132
 .jsp                       13          3202            1           37
 .jsx                        7           857                        19
 .jwt                        1             1            2
@@ -126,7 +126,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .mqh                        1          1023                         2
 .msg                        1         26644            1            1
 .mysql                      1            36                                      2
-.ndjson                     2          5006           75          235            2
+.ndjson                     2          5006           75          236            2
 .nix                        4           211                        12
 .nolint                     1             2                         1
 .odd                        1          1281                        43
@@ -224,7 +224,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .yml                      420         36296          561          906          364
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  10343      16352935        12129        46626         4907
+TOTAL:                  10343      16352935        12132        46627         4907
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Templates    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -265,7 +265,7 @@ Other                                     9         7450            5           
 PEM Private Key                        1019         1483            0                 0     0   1483   1019  0.000000  1.000000  0.592726         0.000000
 Password                               2032         7527         2539                 0     0  10066   2032  0.000000  1.000000  0.832038         0.000000
 SQL Password                             44           13            0                 0     0     13     44  0.000000  1.000000  0.228070         0.000000
-Salesforce Credentials                    2            0            0                 0     0      0      2            1.000000  0.000000         0.000000
+Salesforce Credentials                    5            1            0                 0     0      1      5  0.000000  1.000000  0.166667         0.000000
 Salt                                     49           74            1                 0     0     75     49  0.000000  1.000000  0.604839         0.000000
 Secret                                 1311         1567          799                 0     0   2366   1311  0.000000  1.000000  0.643459         0.000000
 Seed                                      1            6            0                 0     0      6      1  0.000000  1.000000  0.857143         0.000000
@@ -276,4 +276,4 @@ Token                                   650         4169          453           
 Twilio Credentials                       30           39            0                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         224          168          197                 0     0    365    224  0.000000  1.000000  0.619694         0.000000
 UUID                                   1075          265            0                 0     0    265   1075  0.000000  1.000000  0.197761         0.000000
-                                      12129        46626         4907           0     0     0  46626  12129  0.000000  1.000000  0.793567         0.000000
+                                      12132        46627         4907           0     0     0  46627  12132  0.000000  1.000000  0.793530         0.000000
