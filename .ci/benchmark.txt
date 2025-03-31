@@ -1,6 +1,6 @@
-META MD5 6f1e4554eebf7ff6ea54c339b5a6bac5
-DATA MD5 249cef59dfe797b20b91ab1040e548fc
-DATA: 16352935 interested lines. MARKUP: 59624 items
+META MD5 3b298ce3166124579d0ed3b69ee80fe3
+DATA MD5 3c72f09039825e6f3faaee12cdc7673b
+DATA: 16352935 interested lines. MARKUP: 59640 items
 FileType           FileNumber    ValidLines    Positives    Negatives    Templates
 ---------------  ------------  ------------  -----------  -----------  -----------
                           446         47536           89          415           72
@@ -63,7 +63,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .gd                         1            37                         1
 .gml                        3          3075                        16
 .gni                        3          5017                        19
-.go                      1081        568661          646         4110          739
+.go                      1081        568661          646         4118          739
 .golden                     5          1168            1           13           29
 .gradle                    45          3265            2           90          100
 .graphql                    7           420                        13
@@ -79,14 +79,14 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .in                         6          2130            6           44           10
 .inc                        2            56                         2            1
 .ini                       11          1437           26           12           17
-.ipynb                      1           134                         6
+.ipynb                      1           134                         7
 .j                          1           241            4
 .j2                        30          5530            6          174           10
 .java                     613        133184          351         1324          169
 .jenkinsfile                1            58            2            6
 .jinja2                     1            64                         2
 .js                       652        532634          558         2470          284
-.json                     843      13045846         1087        10010          132
+.json                     843      13045846         1090        10012          132
 .jsp                       13          3202            1           37
 .jsx                        7           857                        19
 .jwt                        1             1            2
@@ -106,7 +106,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .libsonnet                  2           210            1           11
 .list                       2            15                                      2
 .lkml                       1            43                         1
-.lock                      23        155312                       147
+.lock                      23        155312                       161
 .log                        2           199           38           52
 .lua                       10          1924                        37            3
 .m                         16         13358           19          158            3
@@ -126,7 +126,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .mqh                        1          1023                         2
 .msg                        1         26644            1            1
 .mysql                      1            36                                      2
-.ndjson                     2          5006           75          235            2
+.ndjson                     2          5006           76          235            2
 .nix                        4           211                        12
 .nolint                     1             2                         1
 .odd                        1          1281                        43
@@ -136,7 +136,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .patch                      4        109405            4           27
 .pbxproj                    1           941                         1
 .pem                       48          1169           47            8
-.php                      371         75676          116         1450           71
+.php                      371         75676          116         1452           71
 .pl                        16         14727            7           33
 .pm                         3           744                         7
 .po                         3          2994                        15
@@ -224,7 +224,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .yml                      420         36296          561          906          364
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  10343      16352935        12129        46626         4907
+TOTAL:                  10343      16352935        12133        46653         4907
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Templates    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -232,13 +232,13 @@ API                                     125         3172          187           
 AWS Client ID                           170           19            0                 0     0     19    170  0.000000  1.000000  0.100529         0.000000
 AWS Multi                                82           10            0                 0     0     10     82  0.000000  1.000000  0.108696         0.000000
 AWS S3 Bucket                            67           23            0                 0     0     23     67  0.000000  1.000000  0.255556         0.000000
-Atlassian Old PAT token                   3            7            0                 0     0      7      3  0.000000  1.000000  0.700000         0.000000
+Atlassian Old PAT token                   3            8            0                 0     0      8      3  0.000000  1.000000  0.727273         0.000000
 Auth                                    429         2744           81                 0     0   2825    429  0.000000  1.000000  0.868162         0.000000
 Azure Access Token                       19            0            0                 0     0      0     19            1.000000  0.000000         0.000000
 BASE64 Private Key                       12            4            0                 0     0      4     12  0.000000  1.000000  0.250000         0.000000
 BASE64 encoded PEM Private Key            7            0            0                 0     0      0      7            1.000000  0.000000         0.000000
-Bitbucket Client ID                      19           52            0                 0     0     52     19  0.000000  1.000000  0.732394         0.000000
-Bitbucket Client Secret                  29           75            1                 0     0     76     29  0.000000  1.000000  0.723810         0.000000
+Bitbucket Client ID                      19           63            0                 0     0     63     19  0.000000  1.000000  0.768293         0.000000
+Bitbucket Client Secret                  29           90            1                 0     0     91     29  0.000000  1.000000  0.758333         0.000000
 CMD ConvertTo-SecureString               13            4            0                 0     0      4     13  0.000000  1.000000  0.235294         0.000000
 CMD Password                             27          128            0                 0     0    128     27  0.000000  1.000000  0.825806         0.000000
 CMD Secret                                1            1            0                 0     0      1      1  0.000000  1.000000  0.500000         0.000000
@@ -265,7 +265,7 @@ Other                                     9         7450            5           
 PEM Private Key                        1019         1483            0                 0     0   1483   1019  0.000000  1.000000  0.592726         0.000000
 Password                               2032         7527         2539                 0     0  10066   2032  0.000000  1.000000  0.832038         0.000000
 SQL Password                             44           13            0                 0     0     13     44  0.000000  1.000000  0.228070         0.000000
-Salesforce Credentials                    2            0            0                 0     0      0      2            1.000000  0.000000         0.000000
+Salesforce Credentials                    6            0            0                 0     0      0      6            1.000000  0.000000         0.000000
 Salt                                     49           74            1                 0     0     75     49  0.000000  1.000000  0.604839         0.000000
 Secret                                 1311         1567          799                 0     0   2366   1311  0.000000  1.000000  0.643459         0.000000
 Seed                                      1            6            0                 0     0      6      1  0.000000  1.000000  0.857143         0.000000
@@ -276,4 +276,4 @@ Token                                   650         4169          453           
 Twilio Credentials                       30           39            0                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         224          168          197                 0     0    365    224  0.000000  1.000000  0.619694         0.000000
 UUID                                   1075          265            0                 0     0    265   1075  0.000000  1.000000  0.197761         0.000000
-                                      12129        46626         4907           0     0     0  46626  12129  0.000000  1.000000  0.793567         0.000000
+                                      12133        46653         4907           0     0     0  46653  12133  0.000000  1.000000  0.793607         0.000000
