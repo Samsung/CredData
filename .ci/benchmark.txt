@@ -1,5 +1,5 @@
-META MD5 8b342f9e4878cb91863cd2970120ee86
-DATA MD5 855806707f786362cf911d245265c4f8
+META MD5 36d9b44bfda914abe872be534928ca26
+DATA MD5 d660aeaf4939cd624f23bd26730a5bfd
 DATA: 16352935 interested lines. MARKUP: 59648 items
 FileType           FileNumber    ValidLines    Positives    Negatives    Templates
 ---------------  ------------  ------------  -----------  -----------  -----------
@@ -154,7 +154,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .pug                        2           193                         2
 .purs                       1            69                         4
 .pxd                        1           150                         4            2
-.py                       886        290215          688         3230          712
+.py                       886        290215          689         3229          712
 .pyi                        4          1361                         9
 .pyp                        1           167                         1
 .python                     1           213
@@ -224,7 +224,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .yml                      420         36296          561          906          364
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  10343      16352935        12140        46655         4907
+TOTAL:                  10343      16352935        12141        46654         4907
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Templates    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -272,8 +272,8 @@ Seed                                      1            6            0           
 Slack Token                               4            1            0                 0     0      1      4  0.000000  1.000000  0.200000         0.000000
 Stripe Credentials                        2            0            0                 0     0      0      2            1.000000  0.000000         0.000000
 Tencent WeChat API App ID                 6            0            0                 0     0      0      6            1.000000  0.000000         0.000000
-Token                                   650         4169          453                 0     0   4622    650  0.000000  1.000000  0.876707         0.000000
+Token                                   651         4168          453                 0     0   4621    651  0.000000  1.000000  0.876517         0.000000
 Twilio Credentials                       30           39            0                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         224          168          197                 0     0    365    224  0.000000  1.000000  0.619694         0.000000
 UUID                                   1075          265            0                 0     0    265   1075  0.000000  1.000000  0.197761         0.000000
-                                      12140        46655         4907           0     0     0  46655  12140  0.000000  1.000000  0.793520         0.000000
+                                      12141        46654         4907           0     0     0  46654  12141  0.000000  1.000000  0.793503         0.000000
