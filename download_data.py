@@ -288,7 +288,7 @@ def obfuscate_jwt(value: str) -> str:
 
 def get_obfuscated_value(value, meta_row: MetaRow):
     if "Info" == meta_row.PredefinedPattern:
-        # not a credential - does not required obfuscation
+        # not a credential - does not require obfuscation
         obfuscated_value = value
     elif value.startswith("Apikey "):
         obfuscated_value = "Apikey " + generate_value(value[7:])
@@ -430,30 +430,50 @@ def gen_random_value(value):
     elif hex_upper:
         upper_set = upper_set[:6]
 
-    backslash_case = 0
+    web_escape_case = 0
+    backslash_case = False
+    hex_data = 0
     for v in value:
         if '%' == v:
-            backslash_case = 2
+            web_escape_case = 2
+            backslash_case = False
             obfuscated_value += v
             continue
         if '\\' == v:
-            backslash_case = 1
+            web_escape_case = 0
+            backslash_case = True
             obfuscated_value += v
             continue
-        if 0 < backslash_case:
+        if 0 < web_escape_case:
             obfuscated_value += v
-            backslash_case -= 1
+            web_escape_case -= 1
             continue
-        else:
-            backslash_case = 0
-        if v in string.ascii_lowercase:
+        if backslash_case:
+            if 'x' == v:
+                # obfuscation with hex \xeb should be \0xad but not \xxl
+                hex_data = 2
+            if 'u' == v:
+                # unicode obfuscation
+                hex_data = 4
+            obfuscated_value += v
+            backslash_case = False
+            continue
+
+        if v in string.digits:
+            obfuscated_value += random.choice(digits_set)
+        elif v in string.ascii_lowercase[:6] and 0 < hex_data:
+            obfuscated_value += random.choice(lower_set[:6])
+        elif v in string.ascii_lowercase:
             obfuscated_value += random.choice(lower_set)
+        elif v in string.ascii_uppercase[:6] and 0 < hex_data:
+            obfuscated_value += random.choice(upper_set[:6])
         elif v in string.ascii_uppercase:
             obfuscated_value += random.choice(upper_set)
-        elif v in string.digits:
-            obfuscated_value += random.choice(digits_set)
         else:
             obfuscated_value += v
+
+        if 0 < hex_data:
+            hex_data -= 1
 
     return obfuscated_value
 
