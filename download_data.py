@@ -290,21 +290,23 @@ def get_obfuscated_value(value, meta_row: MetaRow):
     if "Info" == meta_row.PredefinedPattern:
         # not a credential - does not require obfuscation
         obfuscated_value = value
-    elif value.startswith("Apikey "):
-        obfuscated_value = "Apikey " + generate_value(value[7:])
-    elif value.startswith("Bearer "):
-        obfuscated_value = "Bearer " + generate_value(value[7:])
-    elif value.startswith("Basic "):
-        obfuscated_value = "Basic " + generate_value(value[6:])
-    elif value.startswith("OAuth "):
-        obfuscated_value = "OAuth " + generate_value(value[6:])
     elif any(value.startswith(x) for x in ["AKIA", "ABIA", "ACCA", "AGPA", "AIDA", "AIPA", "AKIA", "ANPA", "ANVA",
-                                           "AROA", "APKA", "ASCA", "ASIA"]):
+                                           "AROA", "APKA", "ASCA", "ASIA","AIza"])\
+            or value.startswith("xox") and 15 <= len(value) and value[3] in "aboprst" and '-' == value[4]:
         obfuscated_value = value[:4] + generate_value(value[4:])
-    elif value.startswith("AIza"):
-        obfuscated_value = "AIza" + generate_value(value[4:])
-    elif value.startswith("ya29."):
-        obfuscated_value = "ya29." + generate_value(value[5:])
+    elif any(value.startswith(x) for x in ["ya29."]):
+        obfuscated_value = value[:5] + generate_value(value[5:])
+    elif any(value.startswith(x) for x in ["whsec_","Basic ","OAuth "]):
+        obfuscated_value = value[:6] + generate_value(value[6:])
+    elif any(value.startswith(x) for x in ["hexkey:", "base64:", "phpass:", "Bearer ","Apikey "]):
+        obfuscated_value = value[:7] + generate_value(value[7:])
+    elif any(value.startswith(x) for x in
+             ["hexpass:", "hexsalt:", "pk_live_", "rk_live_", "sk_live_", "pk_test_", "rk_test_", "sk_test_"]):
+        obfuscated_value = value[:8] + generate_value(value[8:])
+    elif any(value.startswith(x) for x in ["SWMTKN-1-"]):
+        obfuscated_value = value[:9] + generate_value(value[9:])
+    elif any(value.startswith(x) for x in ["hexsecret:"]):
+        obfuscated_value = value[:10] + generate_value(value[10:])
     elif value.startswith("eyJ"):
         # Check if it's a proper "JSON Web Token" with header and payload
         if "." in value:
@@ -319,22 +321,6 @@ def get_obfuscated_value(value, meta_row: MetaRow):
             obfuscated_value = '.'.join(obf_jwt)
         else:
             obfuscated_value = obfuscate_jwt(value)
-    elif any(value.startswith(x) for x in ["whsec_"]):
-        obfuscated_value = value[:6] + generate_value(value[6:])
-    elif any(value.startswith(x) for x in ["pk_live_", "rk_live_", "sk_live_", "pk_test_", "rk_test_", "sk_test_"]):
-        obfuscated_value = value[:8] + generate_value(value[8:])
-    elif value.startswith("xox") and 15 <= len(value) and value[3] in "aboprst" and '-' == value[4]:
-        obfuscated_value = value[:4] + generate_value(value[4:])
-    elif value.startswith("base64:"):
-        obfuscated_value = value[:7] + generate_value(value[7:])
-    elif value.startswith("phpass:"):
-        obfuscated_value = value[:7] + generate_value(value[7:])
-    elif value.startswith("hexpass:"):
-        obfuscated_value = value[:8] + generate_value(value[8:])
-    elif value.startswith("hexsalt:"):
-        obfuscated_value = value[:8] + generate_value(value[8:])
-    elif value.startswith("SWMTKN-1-"):
-        obfuscated_value = value[:9] + generate_value(value[9:])
     elif value.startswith("hooks.slack.com/services/"):
         obfuscated_value = "hooks.slack.com/services/" + generate_value(value[25:])
     elif (value.startswith("wx") and 18 == len(value)
@@ -406,10 +392,14 @@ def gen_random_value(value):
     upper_set = string.ascii_uppercase
     lower_set = string.ascii_lowercase
 
+    byte_hex = "0x" in value and "," in value
     base_32 = True
     hex_upper = True
     hex_lower = True
     for n, i in enumerate(value):
+        if byte_hex and i not in "x0123456789ABCDEFabcdef, \t-{}[]()":
+            # there may be an array in string e.g. CEKPET="[0xCA, 0xFE, ...]" - quoted value
+            byte_hex = False
         if base_32 and i not in "ABCDEFGHIJKLMNOPQRSTUVWXYZ234567":
             base_32 = False
         if '-' == i and len(value) in (18, 36) and n in (8, 13, 18, 23):
@@ -458,14 +448,18 @@ def gen_random_value(value):
             obfuscated_value += v
             backslash_case = False
             continue
+        if byte_hex and ('0'==v or 'x'==v):
+            # keep byte hex definition prefix '0x' in 0xFF, 0xAA, ...
+            obfuscated_value += v
+            continue
 
         if v in string.digits:
             obfuscated_value += random.choice(digits_set)
-        elif v in string.ascii_lowercase[:6] and 0 < hex_data:
+        elif v in string.ascii_lowercase[:6] and (0 < hex_data or byte_hex):
             obfuscated_value += random.choice(lower_set[:6])
         elif v in string.ascii_lowercase:
             obfuscated_value += random.choice(lower_set)
-        elif v in string.ascii_uppercase[:6] and 0 < hex_data:
+        elif v in string.ascii_uppercase[:6] and (0 < hex_data or byte_hex):
             obfuscated_value += random.choice(upper_set[:6])
         elif v in string.ascii_uppercase:
             obfuscated_value += random.choice(upper_set)
@@ -500,7 +494,10 @@ def replace_rows(data: List[MetaRow]):
         file_location = row.FilePath
 
         with open(file_location, "r", encoding="utf8") as f:
-            lines = f.read().split('\n')
+            try:
+                lines = f.read().split('\n')
+            except Exception:
+                raise
 
         old_line = lines[row.LineStart - 1]
         value = old_line[row.ValueStart:row.ValueEnd]
