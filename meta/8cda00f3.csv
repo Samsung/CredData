@@ -816,7 +816,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 131891,eaf18c55,GitHub,8cda00f3,data/8cda00f3/other/eaf18c55.md,378,378,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth:JSON Web Token
 131892,eaf18c55,GitHub,8cda00f3,data/8cda00f3/other/eaf18c55.md,402,402,T,F,22,72,F,F,,,,,0.00,,F,F,F,Auth:JSON Web Token
 131893,1cb14005,GitHub,8cda00f3,data/8cda00f3/other/1cb14005.md,57,57,T,F,52,140,F,F,,,,,0.0,-1,F,F,F,Auth:Grafana Provisioned API Key
-131894,24e05f8d,GitHub,8cda00f3,data/8cda00f3/test/24e05f8d.go,139,139,T,F,53,-1,F,F,,,,,0.0,-1,F,F,F,Grafana Provisioned API Key
+131894,24e05f8d,GitHub,8cda00f3,data/8cda00f3/test/24e05f8d.go,139,139,T,F,53,-1,F,F,,,,,0.0,-1,F,F,F,Grafana Provisioned API Key:Auth
 132873,387aa4d0,GitHub,8cda00f3,data/8cda00f3/src/387aa4d0.c,108569,108569,F,F,,,F,F,,,,,0,0,F,F,F,Password
 132874,387aa4d0,GitHub,8cda00f3,data/8cda00f3/src/387aa4d0.c,108570,108570,F,F,,,F,F,,,,,0,0,F,F,F,Password
 132875,387aa4d0,GitHub,8cda00f3,data/8cda00f3/src/387aa4d0.c,108571,108571,F,F,,,F,F,,,,,0,0,F,F,F,Password
@@ -915,3 +915,46 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,Value
 1479363,0a7921b3,GitHub,8cda00f3,data/8cda00f3/test/0a7921b3.go,155,155,F,F,,,F,F,,,,,0.0,0,F,F,F,Auth
 1479364,8bb83972,GitHub,8cda00f3,data/8cda00f3/src/8bb83972.go,146,146,F,F,,,F,F,,,,,0.0,0,F,F,F,Auth
 1480661,07026345,GitHub,8cda00f3,data/8cda00f3/other/07026345.md,45,45,T,F,42,50,F,F,,,,,0.0,0,F,F,F,SQL Password
+1494544,23a42d8e,GitHub,8cda00f3,data/8cda00f3/other/23a42d8e.md,36,36,T,F,22,72,F,F,,,,,0.0,0,F,F,F,Auth
+1494545,23a42d8e,GitHub,8cda00f3,data/8cda00f3/other/23a42d8e.md,107,107,T,F,22,72,F,F,,,,,0.0,0,F,F,F,Auth
+1494546,576b8417,GitHub,8cda00f3,data/8cda00f3/other/576b8417.md,31,31,T,F,22,72,F,F,,,,,0.0,0,F,F,F,Auth
+1494547,576b8417,GitHub,8cda00f3,data/8cda00f3/other/576b8417.md,84,84,T,F,22,72,F,F,,,,,0.0,0,F,F,F,Auth
+1494548,576b8417,GitHub,8cda00f3,data/8cda00f3/other/576b8417.md,196,196,T,F,22,72,F,F,,,,,0.0,0,F,F,F,Auth
+1494549,576b8417,GitHub,8cda00f3,data/8cda00f3/other/576b8417.md,262,262,T,F,22,72,F,F,,,,,0.0,0,F,F,F,Auth
+1494550,61d57d06,GitHub,8cda00f3,data/8cda00f3/other/61d57d06.md,34,34,T,F,22,72,F,F,,,,,0.0,0,F,F,F,Auth
+1494551,61d57d06,GitHub,8cda00f3,data/8cda00f3/other/61d57d06.md,73,73,T,F,22,72,F,F,,,,,0.0,0,F,F,F,Auth
+1494552,70ef84d6,GitHub,8cda00f3,data/8cda00f3/other/70ef84d6.md,37,37,T,F,22,72,F,F,,,,,0.0,0,F,F,F,Auth
+1494553,70ef84d6,GitHub,8cda00f3,data/8cda00f3/other/70ef84d6.md,123,123,T,F,22,72,F,F,,,,,0.0,0,F,F,F,Auth
+1494554,70ef84d6,GitHub,8cda00f3,data/8cda00f3/other/70ef84d6.md,169,169,T,F,22,72,F,F,,,,,0.0,0,F,F,F,Auth
+1494555,70ef84d6,GitHub,8cda00f3,data/8cda00f3/other/70ef84d6.md,200,200,T,F,22,72,F,F,,,,,0.0,0,F,F,F,Auth
+1494556,70ef84d6,GitHub,8cda00f3,data/8cda00f3/other/70ef84d6.md,255,255,T,F,22,72,F,F,,,,,0.0,0,F,F,F,Auth
+1494557,70ef84d6,GitHub,8cda00f3,data/8cda00f3/other/70ef84d6.md,296,296,T,F,22,72,F,F,,,,,0.0,0,F,F,F,Auth
+1494558,70ef84d6,GitHub,8cda00f3,data/8cda00f3/other/70ef84d6.md,343,343,T,F,22,72,F,F,,,,,0.0,0,F,F,F,Auth
+1494559,89fc4964,GitHub,8cda00f3,data/8cda00f3/other/89fc4964.md,27,27,T,F,21,37,F,F,,,,,0.0,0,F,F,F,Auth
+1494560,89fc4964,GitHub,8cda00f3,data/8cda00f3/other/89fc4964.md,195,195,T,F,22,72,F,F,,,,,0.0,0,F,F,F,Auth
+1494561,89fc4964,GitHub,8cda00f3,data/8cda00f3/other/89fc4964.md,219,219,T,F,22,72,F,F,,,,,0.0,0,F,F,F,Auth
+1494562,8d8a1742,GitHub,8cda00f3,data/8cda00f3/other/8d8a1742.md,25,25,T,F,22,72,F,F,,,,,0.0,0,F,F,F,Auth
+1494563,8d8a1742,GitHub,8cda00f3,data/8cda00f3/other/8d8a1742.md,75,75,T,F,22,72,F,F,,,,,0.0,0,F,F,F,Auth
+1494564,9a5e11ff,GitHub,8cda00f3,data/8cda00f3/other/9a5e11ff.md,30,30,T,F,22,72,F,F,,,,,0.0,0,F,F,F,Auth
+1494565,9a5e11ff,GitHub,8cda00f3,data/8cda00f3/other/9a5e11ff.md,82,82,T,F,22,72,F,F,,,,,0.0,0,F,F,F,Auth
+1494566,9a5e11ff,GitHub,8cda00f3,data/8cda00f3/other/9a5e11ff.md,132,132,T,F,22,72,F,F,,,,,0.0,0,F,F,F,Auth
+1494567,9a5e11ff,GitHub,8cda00f3,data/8cda00f3/other/9a5e11ff.md,165,165,T,F,22,72,F,F,,,,,0.0,0,F,F,F,Auth
+1494568,9a5e11ff,GitHub,8cda00f3,data/8cda00f3/other/9a5e11ff.md,198,198,T,F,22,72,F,F,,,,,0.0,0,F,F,F,Auth
+1494569,9a5e11ff,GitHub,8cda00f3,data/8cda00f3/other/9a5e11ff.md,230,230,T,F,22,72,F,F,,,,,0.0,0,F,F,F,Auth
+1494570,9a5e11ff,GitHub,8cda00f3,data/8cda00f3/other/9a5e11ff.md,268,268,T,F,22,72,F,F,,,,,0.0,0,F,F,F,Auth
+1494571,9a5e11ff,GitHub,8cda00f3,data/8cda00f3/other/9a5e11ff.md,307,307,T,F,22,72,F,F,,,,,0.0,0,F,F,F,Auth
+1494572,9bc7f401,GitHub,8cda00f3,data/8cda00f3/other/9bc7f401.md,39,39,T,F,22,72,F,F,,,,,0.0,0,F,F,F,Auth
+1494573,9bc7f401,GitHub,8cda00f3,data/8cda00f3/other/9bc7f401.md,79,79,T,F,22,72,F,F,,,,,0.0,0,F,F,F,Auth
+1494574,9bc7f401,GitHub,8cda00f3,data/8cda00f3/other/9bc7f401.md,124,124,T,F,22,72,F,F,,,,,0.0,0,F,F,F,Auth
+1494575,9bc7f401,GitHub,8cda00f3,data/8cda00f3/other/9bc7f401.md,179,179,T,F,22,72,F,F,,,,,0.0,0,F,F,F,Auth
+1494576,9bc7f401,GitHub,8cda00f3,data/8cda00f3/other/9bc7f401.md,256,256,T,F,22,72,F,F,,,,,0.0,0,F,F,F,Auth
+1494577,9bc7f401,GitHub,8cda00f3,data/8cda00f3/other/9bc7f401.md,290,290,T,F,22,72,F,F,,,,,0.0,0,F,F,F,Auth
+1494578,a287e390,GitHub,8cda00f3,data/8cda00f3/other/a287e390.md,33,33,T,F,22,72,F,F,,,,,0.0,0,F,F,F,Auth
+1494579,a287e390,GitHub,8cda00f3,data/8cda00f3/other/a287e390.md,55,55,T,F,22,72,F,F,,,,,0.0,0,F,F,F,Auth
+1494580,a287e390,GitHub,8cda00f3,data/8cda00f3/other/a287e390.md,83,83,T,F,22,72,F,F,,,,,0.0,0,F,F,F,Auth
+1494581,a287e390,GitHub,8cda00f3,data/8cda00f3/other/a287e390.md,105,105,T,F,22,72,F,F,,,,,0.0,0,F,F,F,Auth
+1494582,38b22e66,GitHub,8cda00f3,data/8cda00f3/src/38b22e66.ts,12,12,T,F,15,19,F,F,,,,,0.0,0,F,F,F,Password
+1494583,930db884,GitHub,8cda00f3,data/8cda00f3/src/930db884.toml,23,23,T,F,17,24,F,F,,,,,0.0,0,F,F,F,Password
+1494584,38a767d8,GitHub,8cda00f3,data/8cda00f3/test/38a767d8.json,8,8,T,F,19,,F,F,,,,,0.0,0,F,F,F,Token:JSON Web Token:Azure Access Token
+1494585,db0cb532,GitHub,8cda00f3,data/8cda00f3/test/db0cb532.json,8,8,T,F,19,,F,F,,,,,0.0,0,F,F,F,Token:JSON Web Token:Azure Access Token
+1494586,f62f3ebc,GitHub,8cda00f3,data/8cda00f3/test/f62f3ebc.sh,3,3,T,F,45,109,F,F,,,,,0.0,0,F,F,F,Auth:Bitbucket Client Secret
