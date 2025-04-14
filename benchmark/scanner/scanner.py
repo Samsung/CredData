@@ -1,4 +1,5 @@
 import binascii
+import contextlib
 import hashlib
 import os
 import subprocess
@@ -107,14 +108,15 @@ class Scanner(ABC):
                     data = f.read()
                     file_checksum = hashlib.md5(data).digest()
                     data_checksum = bytes(a ^ b for a, b in zip(data_checksum, file_checksum))
-                    lines = data.decode("utf-8").split('\n')
-                    file_data_valid_lines = 0
-                    for line in lines:
-                        # minimal length of detection is 7 e.g. pw:X3d!
-                        if 7 <= len(line.strip()):
-                            file_data_valid_lines += 1
-                    self.total_data_valid_lines += file_data_valid_lines
-                    self.file_types[file_ext_lower].valid_lines += file_data_valid_lines
+                    with contextlib.suppress(UnicodeDecodeError):
+                        lines = data.decode().replace("\r\n", '\n').replace('\r', '\n').split('\n')
+                        file_data_valid_lines = 0
+                        for line in lines:
+                            # minimal length of detection is 7 e.g. pw:X3d!
+                            if 7 <= len(line.strip()):
+                                file_data_valid_lines += 1
+                        self.total_data_valid_lines += file_data_valid_lines
+                        self.file_types[file_ext_lower].valid_lines += file_data_valid_lines
 
         print(f"META MD5 {self._meta_checksum(meta_path)}", flush=True)
         print(f"DATA MD5 {binascii.hexlify(data_checksum).decode()}", flush=True)

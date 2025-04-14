@@ -128,13 +128,13 @@ def move_files(temp_dir, dataset_dir):
         meta_file_path = f"meta/{new_repo_id}.csv"
 
         if not os.path.exists(meta_file_path):
-            logger.error(f"Couldn't find all files mentioned in metadata for {new_repo_id} repo. "
+            logger.error(f"Couldn't find all files mentioned in metadata for {repo_data['id']} repo. "
                          f"Removing {meta_file_path}, so missing files would not count in the dataset statistics. "
                          f"You can use git to restore {meta_file_path} file back")
             missing_repos.append(meta_file_path)
             continue
 
-        logger.info(f"Processing: {i + 1}/{len(snapshot_data)} {reponame}")
+        logger.info(f"Processing: {i + 1}/{len(snapshot_data)} {repo_data['id']}")
 
         # Select file names from meta that we will use in dataset
         interesting_files = dict()
@@ -162,7 +162,8 @@ def move_files(temp_dir, dataset_dir):
             file_id = hashlib.sha256(short_path.encode()).hexdigest()[:8]
             _, file_extension = os.path.splitext(full_path)
             file_type = get_file_type(short_path, file_extension)
-            if file_id in interesting_files.keys():
+            # copy all files if empty meta file
+            if file_id in interesting_files.keys() or not meta_rows:
                 files_found.add(full_path)
                 ids_found.add(file_id)
                 logger.debug(f"COPY {full_path} ; {short_path} -> {file_id} : {new_repo_id} : {file_type}")
@@ -170,7 +171,7 @@ def move_files(temp_dir, dataset_dir):
                 logger.debug(f"SKIP {full_path} ; {short_path} -> {file_id} : {new_repo_id} : {file_type}")
 
         # Check if there are files that present in meta but we could not find, or we somehow found files not from meta
-        if len(ids_found.symmetric_difference(set(interesting_files.keys()))) != 0:
+        if meta_rows and 0 != len(ids_found.symmetric_difference(set(interesting_files.keys()))):
             logger.error(f"Couldn't find all files mentioned in metadata for {new_repo_id} repo. "
                          f"Removing {meta_file_path}, so missing files would not count in the dataset statistics. "
                          f"You can use git to restore {meta_file_path} file back")
@@ -195,7 +196,13 @@ def move_files(temp_dir, dataset_dir):
                     logger.debug(row)
                     break
             else:
-                raise RuntimeError(f"Cannot find {code_file_location}")
+                if meta_rows:
+                    # raise the error only for well-known repos
+                    raise RuntimeError(f"Cannot find {code_file_location}")
+
+            if not meta_rows and (os.path.isdir(full_path) or ".git" in full_path):
+                # workaround for new repos
+                continue
 
             os.makedirs(code_file_basedir, exist_ok=True)
             shutil.copy(full_path, code_file_location)
@@ -493,11 +500,13 @@ def replace_rows(data: List[MetaRow]):
 
         file_location = row.FilePath
 
-        with open(file_location, "r", encoding="utf8") as f:
-            try:
-                lines = f.read().split('\n')
-            except Exception:
-                raise
+        try:
+            with open(file_location, "rb") as f:
+                lines = f.read().decode().replace("\r\n", '\n').replace('\r', '\n').split('\n')
+        except Exception as exc:
+            logger.error(row)
+            logger.critical(exc)
+            raise
 
         old_line = lines[row.LineStart - 1]
         value = old_line[row.ValueStart:row.ValueEnd]
