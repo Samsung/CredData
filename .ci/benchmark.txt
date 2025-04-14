@@ -1,5 +1,5 @@
-META MD5 f32496860110954da96b6645888b70b6
-DATA MD5 886ebbe6542279b7dc7fe8f9ec7a4f09
+META MD5 7b322f7e988d13437108406bf7796f01
+DATA MD5 a1d607f2222155019713285daed76013
 DATA: 16664944 interested lines. MARKUP: 62059 items
 FileType           FileNumber    ValidLines    Positives    Negatives    Templates
 ---------------  ------------  ------------  -----------  -----------  -----------
@@ -228,10 +228,10 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .xib                       11           503                       164
 .xsl                        1           311                         1
 .yaml                     168         24422          201          341           42
-.yml                      556         54557         1187          908          364
+.yml                      556         54557         1239          908          364
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  11414      16664944        14769        46712         4910
+TOTAL:                  11414      16664944        14821        46712         4910
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Templates    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -279,8 +279,8 @@ Seed                                      1            6            0           
 Slack Token                               4            1            0                 0     0      1      4  0.000000  1.000000  0.200000         0.000000
 Stripe Credentials                        2            0            0                 0     0      0      2            1.000000  0.000000         0.000000
 Tencent WeChat API App ID                 8            0            0                 0     0      0      8            1.000000  0.000000         0.000000
-Token                                   859         4171          455                 0     0   4626    859  0.000000  1.000000  0.843391         0.000000
+Token                                   911         4171          455                 0     0   4626    911  0.000000  1.000000  0.835470         0.000000
 Twilio Credentials                       30           39            0                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         225          168          197                 0     0    365    225  0.000000  1.000000  0.618644         0.000000
 UUID                                   1841          265            0                 0     0    265   1841  0.000000  1.000000  0.125831         0.000000
-                                      14769        46712         4910           0     0     0  46712  14769  0.000000  1.000000  0.759779         0.000000
+                                      14821        46712         4910           0     0     0  46712  14821  0.000000  1.000000  0.759137         0.000000
