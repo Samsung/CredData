@@ -1,5 +1,5 @@
-META MD5 66e2007214cd01aa819c81f0ecc0c0a1
-DATA MD5 79601dd71f2ef0941c390270543a5240
+META MD5 39966c3cbfe713b3d9c2e0ad68ac5416
+DATA MD5 bfd00203840d99eefc189ae75713eb0c
 DATA: 16664944 interested lines. MARKUP: 62071 items
 FileType           FileNumber    ValidLines    Positives    Negatives    Templates
 ---------------  ------------  ------------  -----------  -----------  -----------
@@ -66,7 +66,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .gd                         1            37                         1
 .gml                        3          3075                        16
 .gni                        3          5017                        19
-.go                      1240        682004         1227         4129          741
+.go                      1240        682004         1228         4128          741
 .golden                     5          1168            1           13           29
 .gradle                    50          4295            7           90          100
 .graphql                    8           454            2           13
@@ -231,7 +231,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .yml                      556         54557         1239          908          364
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  11414      16664944        14835        46718         4910
+TOTAL:                  11414      16664944        14836        46717         4910
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Templates    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -240,7 +240,7 @@ AWS Client ID                           182           19            0           
 AWS Multi                                82           10            0                 0     0     10     82  0.000000  1.000000  0.108696         0.000000
 AWS S3 Bucket                            67           23            0                 0     0     23     67  0.000000  1.000000  0.255556         0.000000
 Atlassian Old PAT token                   5            8            0                 0     0      8      5  0.000000  1.000000  0.615385         0.000000
-Auth                                   1073         2755           81                 0     0   2836   1073  0.000000  1.000000  0.725505         0.000000
+Auth                                   1074         2754           81                 0     0   2835   1074  0.000000  1.000000  0.725249         0.000000
 Azure Access Token                       21            0            0                 0     0      0     21            1.000000  0.000000         0.000000
 BASE64 Private Key                       19            4            0                 0     0      4     19  0.000000  1.000000  0.173913         0.000000
 BASE64 encoded PEM Private Key           12            0            0                 0     0      0     12            1.000000  0.000000         0.000000
@@ -283,4 +283,4 @@ Token                                   917         4172          455           
 Twilio Credentials                       30           39            0                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         225          168          197                 0     0    365    225  0.000000  1.000000  0.618644         0.000000
 UUID                                   1841          265            0                 0     0    265   1841  0.000000  1.000000  0.125831         0.000000
-                                      14835        46718         4910           0     0     0  46718  14835  0.000000  1.000000  0.758988         0.000000
+                                      14836        46717         4910           0     0     0  46717  14836  0.000000  1.000000  0.758972         0.000000
