@@ -60,7 +60,7 @@ def download_and_check(repo_data: dict):
     try:
         if os.path.exists(f"{temp_dir}/{ownername}/{reponame}"):
             subprocess.check_call(f"cd {temp_dir}/{ownername}/{reponame} && git checkout {commit_sha}", shell=True)
-            logger.info(f"Downloaded and checkouted already {repo_url} {commit_sha}")
+            logger.info(f"Downloaded and checkout already {repo_url} {commit_sha}")
             return
     except subprocess.CalledProcessError:
         logger.debug(f"Downloading {repo_url} {commit_sha} in {temp_dir}/{ownername}/{reponame}")
@@ -131,11 +131,11 @@ def move_files(temp_dir, dataset_dir):
         meta_file_path = f"meta/{new_repo_id}.csv"
 
         if not os.path.exists(meta_file_path):
-            logger.error(f"Couldn't find all files mentioned in metadata for {repo_data['id']} repo. "
-                         f"Removing {meta_file_path}, so missing files would not count in the dataset statistics. "
-                         f"You can use git to restore {meta_file_path} file back")
-            missing_repos.append(meta_file_path)
-            continue
+            with open(meta_file_path, "w") as f:
+                f.write("Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart")
+                f.write(",ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern")
+                f.write(",VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category\n")
+            assert False, f"New meta file {meta_file_path}! Restart again for new repo."
 
         logger.info(f"Processing: {i + 1}/{len(snapshot_data)} {repo_data['id']}")
 
@@ -145,17 +145,17 @@ def move_files(temp_dir, dataset_dir):
         for row in meta_rows:
             key = row.FileID
             file_path = row.FilePath
+            assert not file_path.endswith(".xml"), f"xml parsing breaks raw text numeration {file_path}"
             if key in interesting_files:
                 # check correctness
                 assert interesting_files[key] == file_path, (key, file_path)
-                assert not file_path.endswith(".xml"), f"xml parsing breaks raw text numeration {file_path}"
             else:
                 interesting_files[key] = file_path
 
         # Select all files in the repo
         # pathlib.Path.glob used instead of glob.glob, as glob.glob could not search for a hidden files
         repo_files = pathlib.Path(f"{temp_dir}/{ownername}/{reponame}").glob("**/*")
-        repo_files = [str(p) for p in repo_files]
+        repo_files = [str(p) for p in repo_files if p.is_file() and not p.is_symlink()]
         files_found = set()
         ids_found = set()
 
@@ -165,8 +165,9 @@ def move_files(temp_dir, dataset_dir):
             file_id = hashlib.sha256(short_path.encode()).hexdigest()[:8]
             _, file_extension = os.path.splitext(full_path)
             file_type = get_file_type(short_path, file_extension)
-            # copy all files if empty meta file
-            if file_id in interesting_files.keys() or not meta_rows:
+            # copy all files if empty meta file except .git/* and .xml files
+            if file_id in interesting_files.keys() \
+                    or not meta_rows and "/.git/" not in full_path and not full_path.endswith(".xml"):
                 files_found.add(full_path)
                 ids_found.add(file_id)
                 logger.debug(f"COPY {full_path} ; {short_path} -> {file_id} : {new_repo_id} : {file_type}")
@@ -203,7 +204,7 @@ def move_files(temp_dir, dataset_dir):
                     # raise the error only for well-known repos
                     raise RuntimeError(f"Cannot find {code_file_location}")
 
-            if not meta_rows and (os.path.isdir(full_path) or ".git" in full_path):
+            if not meta_rows and (os.path.isdir(full_path) or "/.git/" in full_path):
                 # workaround for new repos
                 continue
 
@@ -301,14 +302,14 @@ def get_obfuscated_value(value, meta_row: MetaRow):
         # not a credential - does not require obfuscation
         obfuscated_value = value
     elif any(value.startswith(x) for x in ["AKIA", "ABIA", "ACCA", "AGPA", "AIDA", "AIPA", "AKIA", "ANPA", "ANVA",
-                                           "AROA", "APKA", "ASCA", "ASIA","AIza"])\
+                                           "AROA", "APKA", "ASCA", "ASIA", "AIza"]) \
             or value.startswith("xox") and 15 <= len(value) and value[3] in "aboprst" and '-' == value[4]:
         obfuscated_value = value[:4] + generate_value(value[4:])
     elif any(value.startswith(x) for x in ["ya29."]):
         obfuscated_value = value[:5] + generate_value(value[5:])
-    elif any(value.startswith(x) for x in ["whsec_","Basic ","OAuth "]):
+    elif any(value.startswith(x) for x in ["whsec_", "Basic ", "OAuth "]):
         obfuscated_value = value[:6] + generate_value(value[6:])
-    elif any(value.startswith(x) for x in ["hexkey:", "base64:", "phpass:", "Bearer ","Apikey "]):
+    elif any(value.startswith(x) for x in ["hexkey:", "base64:", "phpass:", "Bearer ", "Apikey "]):
         obfuscated_value = value[:7] + generate_value(value[7:])
     elif any(value.startswith(x) for x in
              ["hexpass:", "hexsalt:", "pk_live_", "rk_live_", "sk_live_", "pk_test_", "rk_test_", "sk_test_"]):
@@ -458,7 +459,7 @@ def gen_random_value(value):
             obfuscated_value += v
             backslash_case = False
             continue
-        if byte_hex and ('0'==v or 'x'==v):
+        if byte_hex and ('0' == v or 'x' == v):
             # keep byte hex definition prefix '0x' in 0xFF, 0xAA, ...
             obfuscated_value += v
             continue
@@ -509,7 +510,7 @@ def replace_rows(data: List[MetaRow]):
         except Exception as exc:
             logger.error(row)
             logger.critical(exc)
-            raise
+            return
 
         old_line = lines[row.LineStart - 1]
         value = old_line[row.ValueStart:row.ValueEnd]
