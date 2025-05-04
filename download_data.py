@@ -90,7 +90,10 @@ def download(temp_dir, jobs):
     os.makedirs(temp_dir, exist_ok=True)
     len_snapshot_data = len(snapshot_data)
 
+    unique_urls = set()
     for repo_data in snapshot_data:
+        assert repo_data["url"] not in unique_urls, f"Duplicate url is not supported {repo_data}"
+        unique_urls.add(repo_data["url"])
         repo_data["temp_dir"] = temp_dir
 
     if 1 < jobs:

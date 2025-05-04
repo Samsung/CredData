@@ -1,9 +1,9 @@
-META MD5 39966c3cbfe713b3d9c2e0ad68ac5416
-DATA MD5 bfd00203840d99eefc189ae75713eb0c
-DATA: 16664944 interested lines. MARKUP: 62071 items
+META MD5 1057fdfb6b3fef013327e2fd32401986
+DATA MD5 0fe2c787d1ce8ae102692fef2efeb1ff
+DATA: 16664314 interested lines. MARKUP: 62065 items
 FileType           FileNumber    ValidLines    Positives    Negatives    Templates
 ---------------  ------------  ------------  -----------  -----------  -----------
-                          676         69134          134          420           72
+                          675         69117          134          420           72
 .04                         2           149            4
 .1                          2           641            2            5
 .admx                       1            26                         1
@@ -76,7 +76,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .haml                       9           191                        17
 .hbs                        2            54                         3
 .hs                        14          4140           29           61            4
-.html                      61         19419           84          108           18
+.html                      60         19400           84          107           18
 .idl                        3          1625           37            5
 .iml                        6           699                        30
 .in                         7          2242            8           44           10
@@ -88,7 +88,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .java                     670        144140          477         1325          170
 .jenkinsfile                1            58            2            6
 .jinja2                     1            64                         2
-.js                       658        533148          569         2470          284
+.js                       656        532595          569         2467          284
 .json                     886      13114472         1304        10018          132
 .jsp                       13          3202            1           37
 .jsx                        7           857                        19
@@ -228,10 +228,10 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .xib                       11           503                       164
 .xsl                        1           311                         1
 .yaml                     168         24422          201          341           42
-.yml                      556         54557         1239          908          364
+.yml                      555         54516         1236          908          364
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  11414      16664944        14836        46717         4910
+TOTAL:                  11409      16664314        14833        46713         4910
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Templates    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -257,7 +257,7 @@ Dropbox App secret                       73          144            0           
 Facebook Access Token                     0            1            0                 0     0      1      0  0.000000            1.000000
 Firebase Domain                           7            1            0                 0     0      1      7  0.000000  1.000000  0.125000         0.000000
 Github Old Token                          1            0            0                 0     0      0      1            1.000000  0.000000         0.000000
-Gitlab Feed Token                       206          757           85                 0     0    842    206  0.000000  1.000000  0.803435         0.000000
+Gitlab Feed Token                       205          757           85                 0     0    842    205  0.000000  1.000000  0.804202         0.000000
 Gitlab Incoming Email Token              38           11            0                 0     0     11     38  0.000000  1.000000  0.224490         0.000000
 Google API Key                           12            0            0                 0     0      0     12            1.000000  0.000000         0.000000
 Google Multi                             10            2            0                 0     0      2     10  0.000000  1.000000  0.166667         0.000000
@@ -266,11 +266,11 @@ Grafana Provisioned API Key              22            1            0           
 JSON Web Token                          180           61            0                 0     0     61    180  0.000000  1.000000  0.253112         0.000000
 Jira / Confluence PAT token               0            4            0                 0     0      4      0  0.000000            1.000000
 Jira 2FA                                 36            1            1                 0     0      2     36  0.000000  1.000000  0.052632         0.000000
-Key                                    4188        15722          483                 0     0  16205   4188  0.000000  1.000000  0.794635         0.000000
+Key                                    4186        15721          483                 0     0  16204   4186  0.000000  1.000000  0.794703         0.000000
 Nonce                                   113           49            0                 0     0     49    113  0.000000  1.000000  0.302469         0.000000
 Other                                     9         7446            5                 0     0   7451      9  0.000000  1.000000  0.998794         0.000000
 PEM Private Key                        1135         1483            0                 0     0   1483   1135  0.000000  1.000000  0.566463         0.000000
-Password                               2202         7548         2539                 0     0  10087   2202  0.000000  1.000000  0.820815         0.000000
+Password                               2202         7545         2539                 0     0  10084   2202  0.000000  1.000000  0.820772         0.000000
 SQL Password                             44           13            0                 0     0     13     44  0.000000  1.000000  0.228070         0.000000
 Salesforce Credentials                    6            0            0                 0     0      0      6            1.000000  0.000000         0.000000
 Salt                                     83           74            1                 0     0     75     83  0.000000  1.000000  0.474684         0.000000
@@ -283,4 +283,4 @@ Token                                   917         4172          455           
 Twilio Credentials                       30           39            0                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         225          168          197                 0     0    365    225  0.000000  1.000000  0.618644         0.000000
 UUID                                   1841          265            0                 0     0    265   1841  0.000000  1.000000  0.125831         0.000000
-                                      14836        46717         4910           0     0     0  46717  14836  0.000000  1.000000  0.758972         0.000000
+                                      14833        46713         4910           0     0     0  46713  14833  0.000000  1.000000  0.758993         0.000000
