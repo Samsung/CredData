@@ -1,6 +1,6 @@
-META MD5 74e9f2425bc6be9c7a3ea1825cf5c42a
-DATA MD5 ba85027529bbc4dfb86577685fe86994
-DATA: 16707548 interested lines. MARKUP: 62250 items
+META MD5 9f42361b819a06e1a411b290214ef526
+DATA MD5 d0c51cce420271d1e947e82fb0aa21f7
+DATA: 16707548 interested lines. MARKUP: 62260 items
 FileType           FileNumber    ValidLines    Positives    Negatives    Templates
 ---------------  ------------  ------------  -----------  -----------  -----------
                           677         69435          135          420           72
@@ -66,7 +66,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .gd                         1            37                         1
 .gml                        3          3075                        16
 .gni                        3          5017                        19
-.go                      1280        718915         1358         4133          741
+.go                      1280        718915         1362         4133          741
 .golden                     5          1168            1           13           29
 .gradle                    50          4295            7           90          100
 .graphql                    8           454            2           13
@@ -115,7 +115,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .lua                       10          1924                        37            3
 .m                         16         13358           19          158            3
 .manifest                   3           102            9            6
-.markdown                  38          5862           42            3            1
+.markdown                  38          5862           54            3            1
 .markerb                    3            12                         3
 .marko                      1            21                         2
 .md                       761        180542          892         2347          584
@@ -232,7 +232,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .yml                      555         54516         1236          908          364
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  11493      16707548        15019        46718         4910
+TOTAL:                  11493      16707548        15035        46718         4910
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Templates    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -283,5 +283,5 @@ Tencent WeChat API App ID                 8            0            0           
 Token                                   929         4172          455                 0     0   4627    929  0.000000  1.000000  0.832793         0.000000
 Twilio Credentials                       30           39            0                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         225          168          197                 0     0    365    225  0.000000  1.000000  0.618644         0.000000
-UUID                                   1841          265            0                 0     0    265   1841  0.000000  1.000000  0.125831         0.000000
-                                      15019        46718         4910           0     0     0  46718  15019  0.000000  1.000000  0.756726         0.000000
+UUID                                   1857          265            0                 0     0    265   1857  0.000000  1.000000  0.124882         0.000000
+                                      15035        46718         4910           0     0     0  46718  15035  0.000000  1.000000  0.756530         0.000000
