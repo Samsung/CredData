@@ -1,259 +1,259 @@
-Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-86191,28858c37,GitHub,48fd3902,data/48fd3902/other/28858c37.md,69,69,T,F,16,46,F,F,,,,,4.24,30,F,F,F,Password
-86195,8601ed21,GitHub,48fd3902,data/48fd3902/src/8601ed21.yml,7,7,T,F,15,1491,F,F,,,,,5.55,1476,F,F,F,Certificate
-86196,8601ed21,GitHub,48fd3902,data/48fd3902/src/8601ed21.yml,15,15,T,F,15,2287,F,F,,,,,5.62,2272,F,F,F,BASE64 encoded PEM Private Key:Key
-86200,e33c22c3,GitHub,48fd3902,data/48fd3902/src/e33c22c3.yml,35,61,T,F,6,35,F,F,,,,,2.53,31,F,F,F,PEM Private Key
-86226,328e2512,GitHub,48fd3902,data/48fd3902/test/328e2512.groovy,8,8,T,F,44,958,F,F,,,,,5.71,914,F,F,F,Auth:Azure Access Token:JSON Web Token
-86227,4de5dba6,GitHub,48fd3902,data/48fd3902/test/4de5dba6.java,205,205,T,F,47,77,F,F,,,,,4.15,30,F,F,F,Password
-86229,73bf4bdd,GitHub,48fd3902,data/48fd3902/test/73bf4bdd.java,463,513,T,F,42,36,F,F,,,,,2.53,31,F,F,F,PEM Private Key
-86279,73bf4bdd,GitHub,48fd3902,data/48fd3902/test/73bf4bdd.java,518,544,T,F,19,38,F,F,,,,,2.53,31,F,F,F,PEM Private Key
-86305,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,18,18,T,F,51,1013,F,F,,,,,5.72,962,F,F,F,Azure Access Token:Token:JSON Web Token
-86306,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,22,22,T,F,50,1007,F,F,,,,,5.73,957,F,F,F,Azure Access Token:Token:JSON Web Token
-86307,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,26,26,T,F,42,956,F,F,,,,,5.71,914,F,F,F,Azure Access Token:Token:JSON Web Token
-86308,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,30,30,T,F,43,957,F,F,,,,,5.7,914,F,F,F,Azure Access Token:JSON Web Token
-1086308,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,30,30,T,F,42,-1,F,F,,,,,5.7,914,F,F,F,Token
-86309,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,40,40,T,F,51,1113,F,F,,,,,5.71,1062,F,F,F,Azure Access Token:Key:JSON Web Token
-86310,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,46,46,T,F,37,1114,F,F,,,,,5.7,1077,F,F,F,Azure Access Token:Key:JSON Web Token
-86311,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,52,52,F,F,38,1213,F,F,,,,,5.63,1175,F,F,F,JSON Web Token
-86313,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,60,60,T,F,48,1090,F,F,,,,,5.7,1042,F,F,F,Azure Access Token:JSON Web Token
-86314,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,62,62,T,F,45,1062,F,F,,,,,5.68,1017,F,F,F,Azure Access Token:JSON Web Token
-86315,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,64,64,T,F,46,1075,F,F,,,,,5.63,1029,F,F,F,Azure Access Token:JSON Web Token
-86316,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,66,66,T,F,46,1126,F,F,,,,,5.67,1080,F,F,F,Azure Access Token:JSON Web Token
-86317,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,68,68,T,F,45,1105,F,F,,,,,5.66,1060,F,F,F,Azure Access Token:Token:JSON Web Token
-86318,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,70,70,T,F,43,1123,F,F,,,,,5.7,1080,F,F,F,Azure Access Token:Token:JSON Web Token
-86319,87e253cc,GitHub,48fd3902,data/48fd3902/test/87e253cc.java,81,131,T,F,11,38,F,F,,,,,2.53,31,F,F,F,PEM Private Key
-86369,e9b76075,GitHub,48fd3902,data/48fd3902/test/e9b76075.kt,87,137,F,F,13,46,F,F,,,,,2.53,31,F,F,F,PEM Private Key
-86370,c709b566,GitHub,48fd3902,data/48fd3902/test/c709b566.kt,442,492,F,F,13,46,F,F,,,,,5.12,64,F,F,F,PEM Private Key
-86419,c709b566,GitHub,48fd3902,data/48fd3902/test/c709b566.kt,496,522,T,F,13,46,F,F,,,,,5.05,64,F,F,F,PEM Private Key
-86493,e9b76075,GitHub,48fd3902,data/48fd3902/test/e9b76075.kt,403,429,T,F,13,46,F,F,,,,,2.53,31,F,F,F,PEM Private Key
-86494,e9b76075,GitHub,48fd3902,data/48fd3902/test/e9b76075.kt,206,232,T,F,13,46,F,F,,,,,5.08,64,F,F,F,PEM Private Key
-86519,e9b76075,GitHub,48fd3902,data/48fd3902/test/e9b76075.kt,236,263,T,F,13,42,F,F,,,,,2.39,27,F,F,F,PEM Private Key
-86546,e9b76075,GitHub,48fd3902,data/48fd3902/test/e9b76075.kt,266,270,T,F,49,41,F,F,,,,,2.45,30,F,F,F,PEM Private Key
-86550,e9b76075,GitHub,48fd3902,data/48fd3902/test/e9b76075.kt,323,349,F,F,52,42,F,F,,,,,2.53,31,F,F,F,PEM Private Key
-86576,e9b76075,GitHub,48fd3902,data/48fd3902/test/e9b76075.kt,351,378,F,F,58,38,F,F,,,,,2.39,27,F,F,F,PEM Private Key
-86628,e9b76075,GitHub,48fd3902,data/48fd3902/test/e9b76075.kt,458,508,T,F,58,42,F,F,,,,,2.53,31,F,F,F,PEM Private Key
-86678,238cc5a0,GitHub,48fd3902,data/48fd3902/other/238cc5a0.md,53,53,F,F,,,F,F,,,,,3.22,21,F,F,F,Password
-86679,238cc5a0,GitHub,48fd3902,data/48fd3902/other/238cc5a0.md,62,62,F,F,,,F,F,,,,,3.22,21,F,F,F,Password
-86680,28858c37,GitHub,48fd3902,data/48fd3902/other/28858c37.md,97,97,F,F,,,F,F,,,,,2.30,13,F,F,F,Password
-86681,85c18102,GitHub,48fd3902,data/48fd3902/other/85c18102.md,42,42,F,F,,,F,F,,,,,2.33,11,F,F,F,Password
-86682,85c18102,GitHub,48fd3902,data/48fd3902/other/85c18102.md,43,43,F,F,,,F,F,,,,,2.45,16,F,F,F,Password
-86683,85c18102,GitHub,48fd3902,data/48fd3902/other/85c18102.md,116,116,F,F,,,F,F,,,,,2.33,11,F,F,F,Password
-86684,95ce83e8,GitHub,48fd3902,data/48fd3902/other/95ce83e8.md,204,204,F,F,,,F,F,,,,,2.33,11,F,F,F,Password
-86685,dd2c0eb6,GitHub,48fd3902,data/48fd3902/other/dd2c0eb6,37,37,T,F,25,33,F,F,,,,,2.75,8,F,F,F,Password
-86686,dd2c0eb6,GitHub,48fd3902,data/48fd3902/other/dd2c0eb6,38,38,T,F,23,31,F,F,,,,,2.75,8,F,F,F,Password:Key
-86687,dd2c0eb6,GitHub,48fd3902,data/48fd3902/other/dd2c0eb6,39,39,T,F,24,32,F,F,,,,,2.75,8,F,F,F,Password
-86688,01dfdeef,GitHub,48fd3902,data/48fd3902/src/01dfdeef.kt,52,52,F,F,43,,F,F,,,,,3.46,26,F,F,F,Password
-86689,0286216b,GitHub,48fd3902,data/48fd3902/src/0286216b.sh,15,15,F,F,20,24,F,F,,,,,2.0,4,F,F,F,Key
-86690,0b7e8b8a,GitHub,48fd3902,data/48fd3902/src/0b7e8b8a.kt,638,638,F,F,42,50,F,F,,,,,2.75,8,F,F,F,Credential
-86691,1b5ef9cf,GitHub,48fd3902,data/48fd3902/src/1b5ef9cf.kt,16,16,F,F,18,40,F,F,,,,,3.5,22,F,F,F,Password
-86692,1b5ef9cf,GitHub,48fd3902,data/48fd3902/src/1b5ef9cf.kt,33,33,F,F,27,42,F,F,,,,,2.73,15,F,F,F,Password
-86693,2b6ecf50,GitHub,48fd3902,data/48fd3902/src/2b6ecf50.yml,59,59,F,F,24,30,F,F,,,,,1.36,6,F,F,F,Secret
-86694,2c75a21c,GitHub,48fd3902,data/48fd3902/src/2c75a21c.sh,7,7,T,F,18,26,F,F,,,,,3.00,8,F,F,F,Password:Key
-86695,f2e247c8,GitHub,48fd3902,data/48fd3902/src/f2e247c8.sh,33,33,F,F,21,25,F,F,,,,,1.50,4,F,F,F,Key
-86696,f2e247c8,GitHub,48fd3902,data/48fd3902/src/f2e247c8.sh,50,50,T,F,50,58,F,F,,,,,3.0,8,F,F,F,Password:Certificate:CMD Password
-86697,f2e247c8,GitHub,48fd3902,data/48fd3902/src/f2e247c8.sh,9,9,F,F,18,22,F,F,,,,,2.0,4,F,F,F,Key
-86698,37cda432,GitHub,48fd3902,data/48fd3902/src/37cda432.kt,133,133,F,F,73,86,F,F,,,,,3.39,13,F,F,F,Certificate
-86699,4f357f9a,GitHub,48fd3902,data/48fd3902/src/4f357f9a.yml,44,44,F,F,15,19,F,F,,,,,2.0,4,F,F,F,Key
-86700,4f357f9a,GitHub,48fd3902,data/48fd3902/src/4f357f9a.yml,46,46,F,F,17,21,F,F,,,,,2.0,4,F,F,F,Auth
-86701,49a96e7e,GitHub,48fd3902,data/48fd3902/src/49a96e7e.gradle,18,18,F,F,25,30,F,F,,,,,1.39,5,F,F,F,Password
-86702,49a96e7e,GitHub,48fd3902,data/48fd3902/src/49a96e7e.gradle,23,23,F,F,52,57,F,F,,,,,1.39,5,F,F,F,Auth
-86703,4f357f9a,GitHub,48fd3902,data/48fd3902/src/4f357f9a.yml,5,5,T,F,24,32,F,F,,,,,3.0,8,F,F,F,Password
-86704,4f357f9a,GitHub,48fd3902,data/48fd3902/src/4f357f9a.yml,13,13,T,F,27,58,F,F,,,,,3.72,31,F,F,F,Password
-86705,6862fc39,GitHub,48fd3902,data/48fd3902/test/6862fc39.yml,11,11,T,F,27,52,F,F,,,,,3.36,25,F,F,F,Password
-86706,4f357f9a,GitHub,48fd3902,data/48fd3902/src/4f357f9a.yml,42,42,T,F,24,32,F,F,,,,,3.0,8,F,F,F,Password:Key
-86707,4f357f9a,GitHub,48fd3902,data/48fd3902/src/4f357f9a.yml,43,43,T,F,18,26,F,F,,,,,3.0,8,F,F,F,Password:Key
-86708,4f357f9a,GitHub,48fd3902,data/48fd3902/src/4f357f9a.yml,48,48,T,F,26,34,F,F,,,,,3.0,8,F,F,F,Password
-86709,50885cf2,GitHub,48fd3902,data/48fd3902/src/50885cf2.kt,11,11,F,F,106,110,F,F,,,,,1.50,4,F,F,F,Key
-86710,96259d9d,GitHub,48fd3902,data/48fd3902/src/96259d9d.kt,27,27,F,F,20,24,F,F,,,,,2.0,4,F,F,F,Key
-86711,ed68be3f,GitHub,48fd3902,data/48fd3902/src/ed68be3f.sh,15,15,F,F,31,35,F,F,,,,,2.0,4,F,F,F,Key
-86712,daee2bb4,GitHub,48fd3902,data/48fd3902/src/daee2bb4.sh,45,45,T,F,37,45,F,F,,,,,3.0,8,F,F,F,Password
-86713,703d4651,GitHub,48fd3902,data/48fd3902/src/703d4651.kt,18,18,F,F,37,41,F,F,,,,,2.0,4,F,F,F,Credential
-86714,718bea96,GitHub,48fd3902,data/48fd3902/src/718bea96.kt,75,75,F,F,40,44,F,F,,,,,2.0,4,F,F,F,Credential
-86715,7bf31025,GitHub,48fd3902,data/48fd3902/src/7bf31025.kt,8,8,F,F,36,62,F,F,,,,,3.04,26,F,F,F,Password
-86716,8601ed21,GitHub,48fd3902,data/48fd3902/src/8601ed21.yml,14,14,T,F,15,1531,F,F,,,,,5.56,1516,F,F,F,Certificate
-86717,9467ce33,GitHub,48fd3902,data/48fd3902/src/9467ce33.sql,17,17,F,F,31,46,F,F,,,,,2.94,15,F,F,F,Password
-86718,aca15f22,GitHub,48fd3902,data/48fd3902/src/aca15f22.kt,16,16,F,F,111,115,F,F,,,,,1.50,4,F,F,F,Key
-86719,b685c00d,GitHub,48fd3902,data/48fd3902/src/b685c00d.sql,13,13,F,F,50,65,F,F,,,,,2.94,15,F,F,F,Password
-86720,ba7747c1,GitHub,48fd3902,data/48fd3902/src/ba7747c1.kt,76,76,F,F,27,32,F,F,,,,,1.46,5,F,F,F,Key
-86721,c72596df,GitHub,48fd3902,data/48fd3902/src/c72596df.sh,9,9,F,F,32,36,F,F,,,,,2.0,4,F,F,F,Key
-86722,c89c2df2,GitHub,48fd3902,data/48fd3902/src/c89c2df2.kt,8,8,F,F,46,73,F,F,,,,,3.38,27,F,F,F,Password
-86723,ca34f69c,GitHub,48fd3902,data/48fd3902/src/ca34f69c.kt,15,15,F,F,114,118,F,F,,,,,1.50,4,F,F,F,Key
-86724,ca34f69c,GitHub,48fd3902,data/48fd3902/src/ca34f69c.kt,113,113,F,F,46,50,F,F,,,,,2.0,4,F,F,F,Credential
-86725,cd0a11fd,GitHub,48fd3902,data/48fd3902/src/cd0a11fd.yml,46,46,F,F,17,21,F,F,,,,,2.0,4,F,F,F,Key
-86726,cd0a11fd,GitHub,48fd3902,data/48fd3902/src/cd0a11fd.yml,48,48,Template,F,19,23,F,F,,,,,2.0,4,F,F,F,Auth
-86727,cf36af35,GitHub,48fd3902,data/48fd3902/src/cf36af35.kt,12,12,F,F,106,110,F,F,,,,,1.50,4,F,F,F,Key
-86728,d10a5de0,GitHub,48fd3902,data/48fd3902/src/d10a5de0.yaml,3,3,T,F,20,28,F,F,,,,,3.00,8,F,F,F,Password:Key
-86729,d10a5de0,GitHub,48fd3902,data/48fd3902/src/d10a5de0.yaml,4,4,T,F,22,30,F,F,,,,,3.00,8,F,F,F,Password
-86730,d10a5de0,GitHub,48fd3902,data/48fd3902/src/d10a5de0.yaml,5,5,T,F,21,29,F,F,,,,,3.00,8,F,F,F,Password
-86731,d10a5de0,GitHub,48fd3902,data/48fd3902/src/d10a5de0.yaml,21,21,T,F,14,19,F,F,,,,,2.32,5,F,F,F,Password
-86732,e33c22c3,GitHub,48fd3902,data/48fd3902/src/e33c22c3.yml,21,21,F,F,29,34,F,F,,,,,1.92,5,F,F,F,Token
-86733,e33c22c3,GitHub,48fd3902,data/48fd3902/src/e33c22c3.yml,13,13,F,F,30,36,F,F,,,,,2.25,6,F,F,F,Token
-86734,e3a7a2e5,GitHub,48fd3902,data/48fd3902/src/e3a7a2e5.kt,109,109,F,F,44,54,F,F,,,,,2.39,10,F,F,F,Auth
-86735,e45e45ba,GitHub,48fd3902,data/48fd3902/src/e45e45ba.yml,11,11,T,F,25,30,F,F,,,,,2.32,5,F,F,F,Password
-86736,e45e45ba,GitHub,48fd3902,data/48fd3902/src/e45e45ba.yml,23,23,T,F,25,30,F,F,,,,,2.32,5,F,F,F,Password
-86737,e54d1d19,GitHub,48fd3902,data/48fd3902/src/e54d1d19.kt,17,17,F,F,107,111,F,F,,,,,1.50,4,F,F,F,Key
-86738,e54d1d19,GitHub,48fd3902,data/48fd3902/src/e54d1d19.kt,36,36,F,F,37,41,F,F,,,,,2.0,4,F,F,F,Credential
-86739,ed68be3f,GitHub,48fd3902,data/48fd3902/src/ed68be3f.sh,18,18,T,F,37,45,F,F,,,,,3.0,8,F,F,F,Password
-86740,06b333d0,GitHub,48fd3902,data/48fd3902/test/06b333d0.java,36,36,F,F,79,102,F,F,,,,,3.31,23,F,F,F,Password
-86741,0a6a1ff8,GitHub,48fd3902,data/48fd3902/test/0a6a1ff8.kt,83,83,F,F,35,39,F,F,,,,,1.5,4,F,F,F,Certificate
-86742,0a6a1ff8,GitHub,48fd3902,data/48fd3902/test/0a6a1ff8.kt,133,133,F,F,52,61,F,F,,,,,2.6,9,F,F,F,Certificate
-86743,0a6a1ff8,GitHub,48fd3902,data/48fd3902/test/0a6a1ff8.kt,346,346,F,F,40,66,F,F,,,,,3.04,26,F,F,F,Password
-86744,1be4753a,GitHub,48fd3902,data/48fd3902/test/1be4753a.java,50,50,T,F,38,102,F,F,,,,,3.76,64,F,F,F,Key
-86745,29ea1535,GitHub,48fd3902,data/48fd3902/test/29ea1535.java,29,29,F,F,40,58,F,F,,,,,2.93,18,F,F,F,Password
-86746,29ea1535,GitHub,48fd3902,data/48fd3902/test/29ea1535.java,31,31,F,F,45,68,F,F,,,,,3.34,23,F,F,F,Password
-86747,29ea1535,GitHub,48fd3902,data/48fd3902/test/29ea1535.java,33,33,T,F,32,42,F,F,,,,,2.79,10,F,F,F,Nonce
-86748,29ea1535,GitHub,48fd3902,data/48fd3902/test/29ea1535.java,34,34,T,F,43,53,F,F,,,,,2.79,10,F,F,F,Nonce
-86749,29ea1535,GitHub,48fd3902,data/48fd3902/test/29ea1535.java,124,124,F,F,41,63,F,F,,,,,3.38,22,F,F,F,Password
-86750,29ea1535,GitHub,48fd3902,data/48fd3902/test/29ea1535.java,127,127,F,F,29,38,F,F,,,,,2.37,9,F,F,F,Nonce
-86751,2ed59573,GitHub,48fd3902,data/48fd3902/test/2ed59573.java,99,99,F,F,42,48,F,F,,,,,2.15,6,F,F,F,Certificate
-86752,2ed59573,GitHub,48fd3902,data/48fd3902/test/2ed59573.java,100,100,F,F,42,48,F,F,,,,,2.15,6,F,F,F,Certificate
-86753,2ed59573,GitHub,48fd3902,data/48fd3902/test/2ed59573.java,145,145,F,F,71,78,F,F,,,,,2.12,7,F,F,F,Certificate
-86754,2ed59573,GitHub,48fd3902,data/48fd3902/test/2ed59573.java,149,149,F,F,70,77,F,F,,,,,2.12,7,F,F,F,Certificate
-86755,2ed59573,GitHub,48fd3902,data/48fd3902/test/2ed59573.java,263,263,F,F,54,63,F,F,,,,,2.6,9,F,F,F,Certificate
-86756,38b2badb,GitHub,48fd3902,data/48fd3902/test/38b2badb.kt,534,534,F,F,49,57,F,F,,,,,2.75,8,F,F,F,Credential
-86757,3e0a1789,GitHub,48fd3902,data/48fd3902/test/3e0a1789.yml,4,4,T,F,14,18,F,F,,,,,1.5,4,F,F,F,Password
-86758,41abbdc5,GitHub,48fd3902,data/48fd3902/test/41abbdc5.java,134,134,T,F,29,38,F,F,,,,,2.95,9,F,F,F,Password
-86759,41abbdc5,GitHub,48fd3902,data/48fd3902/test/41abbdc5.java,289,289,F,F,28,48,F,F,,,,,2.85,20,F,F,F,Password
-86760,4799bb8c,GitHub,48fd3902,data/48fd3902/test/4799bb8c.kt,258,258,F,F,33,46,F,F,,,,,2.9,13,F,F,F,Password
-86761,4799bb8c,GitHub,48fd3902,data/48fd3902/test/4799bb8c.kt,259,259,T,F,38,51,F,F,,,,,3.13,13,F,F,F,Password
-86762,496c7fc6,GitHub,48fd3902,data/48fd3902/test/496c7fc6.kt,60,60,F,F,40,44,F,F,,,,,1.5,4,F,F,F,Certificate
-86763,4ac80b93,GitHub,48fd3902,data/48fd3902/test/4ac80b93.kt,36,36,F,F,34,59,F,F,,,,,2.81,25,F,F,F,Password
-86764,5443428d,GitHub,48fd3902,data/48fd3902/test/5443428d.java,95,95,F,F,48,61,F,F,,,,,2.9,13,F,F,F,Password
-86765,c8719261,GitHub,48fd3902,data/48fd3902/test/c8719261.java,32,32,F,F,26,36,F,F,,,,,2.59,10,F,F,F,Nonce
-86766,aaa8197f,GitHub,48fd3902,data/48fd3902/test/aaa8197f.kt,384,384,F,F,29,42,F,F,,,,,2.9,13,F,F,F,Password
-86767,aaa8197f,GitHub,48fd3902,data/48fd3902/test/aaa8197f.kt,385,385,F,F,34,47,F,F,,,,HashOfPassword,3.13,13,F,F,F,Password
-86768,5ffb445b,GitHub,48fd3902,data/48fd3902/test/5ffb445b.kt,517,517,F,F,85,92,F,F,,,,,2.41,7,F,F,F,Credential
-86769,5ffb445b,GitHub,48fd3902,data/48fd3902/test/5ffb445b.kt,568,568,F,F,87,94,F,F,,,,,2.41,7,F,F,F,Credential
-86770,5ffb445b,GitHub,48fd3902,data/48fd3902/test/5ffb445b.kt,652,652,F,F,96,100,F,F,,,,,2.0,4,F,F,F,Credential
-86771,6862fc39,GitHub,48fd3902,data/48fd3902/test/6862fc39.yml,9,9,T,F,27,37,F,F,,,,,2.65,10,F,F,F,Password
-86772,6ae2e7e4,GitHub,48fd3902,data/48fd3902/test/6ae2e7e4.java,30,30,F,F,42,53,F,F,,,,,2.96,11,F,F,F,Password
-86773,f23339e5,GitHub,48fd3902,data/48fd3902/test/f23339e5.java,41,41,F,F,13,23,F,F,,,,,2.59,10,F,F,F,Nonce
-86774,73bf4bdd,GitHub,48fd3902,data/48fd3902/test/73bf4bdd.java,15,15,F,F,17,21,F,F,,,,,2.0,4,F,F,F,Key
-86775,73bf4bdd,GitHub,48fd3902,data/48fd3902/test/73bf4bdd.java,336,336,F,F,11,70,F,F,,,,,2.99,59,F,F,F,Key
-86776,73bf4bdd,GitHub,48fd3902,data/48fd3902/test/73bf4bdd.java,383,383,F,F,11,70,F,F,,,,,2.83,59,F,F,F,Key
-86777,73bf4bdd,GitHub,48fd3902,data/48fd3902/test/73bf4bdd.java,420,420,F,F,23,31,F,F,,,,,2.5,8,F,F,F,Key
-86778,7cd2d29d,GitHub,48fd3902,data/48fd3902/test/7cd2d29d.java,812,812,F,F,81,90,F,F,,,,,2.6,9,F,F,F,Credential:Certificate
-86779,839267fb,GitHub,48fd3902,data/48fd3902/test/839267fb.kt,11,11,F,F,57,66,F,F,,,,,2.6,9,F,F,F,Credential
-86780,f1536ec6,GitHub,48fd3902,data/48fd3902/test/f1536ec6.kt,161,161,F,F,47,58,F,F,,,,,2.96,11,F,F,F,Certificate
-86781,f1536ec6,GitHub,48fd3902,data/48fd3902/test/f1536ec6.kt,174,174,F,F,35,40,F,F,,,,,1.92,5,F,F,F,Certificate
-86782,f1536ec6,GitHub,48fd3902,data/48fd3902/test/f1536ec6.kt,176,176,F,F,47,58,F,F,,,,,2.96,11,F,F,F,Certificate
-86783,a73bbe0d,GitHub,48fd3902,data/48fd3902/test/a73bbe0d.java,156,156,T,F,44,54,F,F,,,,,3.12,10,F,F,F,Credential
-86784,a73bbe0d,GitHub,48fd3902,data/48fd3902/test/a73bbe0d.java,760,760,T,F,70,80,F,F,,,,,3.12,10,F,F,F,Password:Credential
-86785,aaa8197f,GitHub,48fd3902,data/48fd3902/test/aaa8197f.kt,290,290,F,F,66,79,F,F,,,,,2.9,13,F,F,F,Password
-86786,aaa8197f,GitHub,48fd3902,data/48fd3902/test/aaa8197f.kt,336,336,F,F,29,42,F,F,,,,,2.9,13,F,F,F,Password
-86787,b169997c,GitHub,48fd3902,data/48fd3902/test/b169997c.java,62,62,F,F,54,74,F,F,,,,,3.03,20,F,F,F,Password
-86788,c370d8f8,GitHub,48fd3902,data/48fd3902/test/c370d8f8.kt,759,759,F,F,24,37,F,F,,,,,2.9,13,F,F,F,Password
-86789,c370d8f8,GitHub,48fd3902,data/48fd3902/test/c370d8f8.kt,1308,1308,F,F,39,54,F,F,,,,,3.06,15,F,F,F,Password
-86790,c370d8f8,GitHub,48fd3902,data/48fd3902/test/c370d8f8.kt,1086,1086,F,F,41,45,F,F,,,,,2.0,4,F,F,F,Key
-86791,c370d8f8,GitHub,48fd3902,data/48fd3902/test/c370d8f8.kt,1170,1170,T,F,46,59,F,F,,,,,2.74,13,F,F,F,Password
-86792,c370d8f8,GitHub,48fd3902,data/48fd3902/test/c370d8f8.kt,1270,1270,F,F,49,62,F,F,,,,,3.26,13,F,F,F,Password
-86793,c370d8f8,GitHub,48fd3902,data/48fd3902/test/c370d8f8.kt,1271,1271,T,F,54,67,F,F,,,,,2.74,13,F,F,F,Password
-86794,c370d8f8,GitHub,48fd3902,data/48fd3902/test/c370d8f8.kt,1256,1256,F,F,39,48,F,F,,,,,2.73,9,F,F,F,Password
-86795,c370d8f8,GitHub,48fd3902,data/48fd3902/test/c370d8f8.kt,1310,1310,F,F,39,51,F,F,,,,,2.79,12,F,F,F,Password
-86796,c3d109ca,GitHub,48fd3902,data/48fd3902/test/c3d109ca.java,359,359,F,F,70,82,F,F,,,,,2.79,12,F,F,F,Password
-86797,c6175528,GitHub,48fd3902,data/48fd3902/test/c6175528.kt,296,296,F,F,31,50,F,F,,,,,3.17,19,F,F,F,Password
-86798,c709b566,GitHub,48fd3902,data/48fd3902/test/c709b566.kt,15,15,F,F,23,27,F,F,,,,,2.0,4,F,F,F,Key
-86799,c709b566,GitHub,48fd3902,data/48fd3902/test/c709b566.kt,321,321,F,F,17,76,F,F,,,,,2.99,59,F,F,F,Key
-86800,c709b566,GitHub,48fd3902,data/48fd3902/test/c709b566.kt,367,367,F,F,17,76,F,F,,,,,2.83,59,F,F,F,Key
-86801,c709b566,GitHub,48fd3902,data/48fd3902/test/c709b566.kt,402,402,F,F,29,37,F,F,,,,,2.5,8,F,F,F,Key
-86802,cc3a23ed,GitHub,48fd3902,data/48fd3902/test/cc3a23ed.kt,68,68,F,F,33,46,F,F,,,,,2.9,13,F,F,F,Password
-86803,d4ef4fe5,GitHub,48fd3902,data/48fd3902/test/d4ef4fe5.java,119,119,F,F,35,44,F,F,,,,,2.24,9,F,F,F,Credential
-86804,d7af460d,GitHub,48fd3902,data/48fd3902/test/d7af460d.java,28,28,F,F,,,F,F,,,,,2.32,12,F,F,F,Password
-86805,d7af460d,GitHub,48fd3902,data/48fd3902/test/d7af460d.java,56,56,F,F,24,37,F,F,,,,,2.9,13,F,F,F,Password
-86806,d899777e,GitHub,48fd3902,data/48fd3902/test/d899777e.java,92,92,F,F,100,109,F,F,,,,,2.37,9,F,F,F,Password
-86807,de90cc15,GitHub,48fd3902,data/48fd3902/test/de90cc15.java,217,217,Template,F,32,37,F,F,,,,,1.92,5,F,F,F,Credential
-86808,eaeb2b79,GitHub,48fd3902,data/48fd3902/test/eaeb2b79.java,296,296,F,F,93,106,F,F,,,,,2.9,13,F,F,F,Password
-86809,eaeb2b79,GitHub,48fd3902,data/48fd3902/test/eaeb2b79.java,333,333,F,F,82,95,F,F,,,,,2.9,13,F,F,F,Password
-86810,eaeb2b79,GitHub,48fd3902,data/48fd3902/test/eaeb2b79.java,761,761,F,F,94,107,F,F,,,,,2.9,13,F,F,F,Password
-86811,eaeb2b79,GitHub,48fd3902,data/48fd3902/test/eaeb2b79.java,817,817,F,F,66,79,F,F,,,,,2.9,13,F,F,F,Password
-86812,eaeb2b79,GitHub,48fd3902,data/48fd3902/test/eaeb2b79.java,826,826,F,F,61,74,F,F,,,,,2.9,13,F,F,F,Password
-86813,f1536ec6,GitHub,48fd3902,data/48fd3902/test/f1536ec6.kt,83,83,F,F,39,50,F,F,,,,,2.96,11,F,F,F,Certificate
-86814,f7570570,GitHub,48fd3902,data/48fd3902/test/f7570570.java,46,46,F,F,24,37,F,F,,,,,2.9,13,F,F,F,Password
-86815,f7570570,GitHub,48fd3902,data/48fd3902/test/f7570570.java,70,70,F,F,37,58,F,F,,,,,3.37,21,F,F,F,Password
-86816,f7570570,GitHub,48fd3902,data/48fd3902/test/f7570570.java,88,88,F,F,36,57,F,F,,,,,3.37,21,F,F,F,Password
-86817,ff2a9656,GitHub,48fd3902,data/48fd3902/test/ff2a9656.java,75,75,F,F,27,43,F,F,,,,,3.25,16,F,F,F,Password
-109447,28858c37,GitHub,48fd3902,data/48fd3902/other/28858c37.md,80,86,F,F,8,89,F,F,,,,,5.5361776,-1,F,F,F,PEM Private Key
-109449,95ce83e8,GitHub,48fd3902,data/48fd3902/other/95ce83e8.md,54,54,Template,F,19,59,F,F,,,,,4.603056,-1,F,F,F,Password
-109450,95ce83e8,GitHub,48fd3902,data/48fd3902/other/95ce83e8.md,70,79,F,F,22,18,F,F,,,,,5.0281944,-1,F,F,F,Other
-109452,1be4753a,GitHub,48fd3902,data/48fd3902/test/1be4753a.java,42,42,T,F,16,36,F,F,,,,,4.3685226,-1,F,F,F,Password
-109456,379ffa27,GitHub,48fd3902,data/48fd3902/test/379ffa27.key,1,54,T,F,0,0,F,F,,,,,6.047873,,F,F,F,Certificate
-109458,41abbdc5,GitHub,48fd3902,data/48fd3902/test/41abbdc5.java,100,100,T,F,29,38,F,F,,,,,3.0957952,-1,F,F,F,Password
-109461,6e09cb2b,GitHub,48fd3902,data/48fd3902/test/6e09cb2b.java,24,24,F,F,33,47,F,F,,,,,3.5,-1,F,F,F,Password
-109477,9417bc40,GitHub,48fd3902,data/48fd3902/test/9417bc40.java,94,94,F,F,34,47,F,F,,,,,3.5068905,-1,F,F,F,Password
-109480,c6175528,GitHub,48fd3902,data/48fd3902/test/c6175528.kt,215,241,T,F,12,83,F,F,,,,,5.6877875,-1,F,F,F,Certificate
-109481,c6175528,GitHub,48fd3902,data/48fd3902/test/c6175528.kt,105,105,F,F,31,50,F,F,,,,,3.6304126,-1,F,F,F,Password
-109482,c9c69cbb,GitHub,48fd3902,data/48fd3902/test/c9c69cbb.kt,39,39,F,F,40,86,F,F,,,,,4.214022,-1,F,F,F,Token
-109484,e9b76075,GitHub,48fd3902,data/48fd3902/test/e9b76075.kt,9,35,T,F,62,90,F,F,,,,,5.5997286,-1,F,F,F,Certificate
-109486,e9b76075,GitHub,48fd3902,data/48fd3902/test/e9b76075.kt,273,378,T,F,13,90,F,F,,,,,5.6675677,-1,F,F,F,Certificate
-1005276,5ffb445b,GitHub,48fd3902,data/48fd3902/test/5ffb445b.kt,281,281,F,F,34,47,F,F,,,,,0.0,0,F,F,F,Password
-1113093,238cc5a0,GitHub,48fd3902,data/48fd3902/other/238cc5a0.md,21,21,F,F,,,F,F,,,,,0.0,0,F,F,F,Password
-1113094,238cc5a0,GitHub,48fd3902,data/48fd3902/other/238cc5a0.md,30,30,F,F,,,F,F,,,,,0.0,0,F,F,F,Password
-1113095,85c18102,GitHub,48fd3902,data/48fd3902/other/85c18102.md,84,84,F,F,,,F,F,,,,,0.0,0,F,F,F,Password
-1113096,2c75a21c,GitHub,48fd3902,data/48fd3902/src/2c75a21c.sh,22,22,F,F,21,25,F,F,,,,,0.0,0,F,F,F,Key
-1113098,2c75a21c,GitHub,48fd3902,data/48fd3902/src/2c75a21c.sh,57,57,F,F,18,22,F,F,,,,,0.0,0,F,F,F,Key
-1113099,2c75a21c,GitHub,48fd3902,data/48fd3902/src/2c75a21c.sh,70,70,F,F,18,22,F,F,,,,,0.0,0,F,F,F,Key
-1113100,2c75a21c,GitHub,48fd3902,data/48fd3902/src/2c75a21c.sh,100,100,F,F,21,25,F,F,,,,,0.0,0,F,F,F,Key
-1113102,daee2bb4,GitHub,48fd3902,data/48fd3902/src/daee2bb4.sh,42,42,F,F,31,35,F,F,,,,,0.0,0,F,F,F,Key
-1113103,e33c22c3,GitHub,48fd3902,data/48fd3902/src/e33c22c3.yml,12,12,F,F,29,34,F,F,,,,,0.0,0,F,F,F,Token
-1113104,0a6a1ff8,GitHub,48fd3902,data/48fd3902/test/0a6a1ff8.kt,201,201,F,F,40,66,F,F,,,,,0.0,0,F,F,F,Password
-1113105,0a6a1ff8,GitHub,48fd3902,data/48fd3902/test/0a6a1ff8.kt,281,281,F,F,40,66,F,F,,,,,0.0,0,F,F,F,Password
-1113106,2ed59573,GitHub,48fd3902,data/48fd3902/test/2ed59573.java,233,233,F,F,54,63,F,F,,,,,0.0,0,F,F,F,Certificate
-1113107,41abbdc5,GitHub,48fd3902,data/48fd3902/test/41abbdc5.java,253,253,F,F,28,48,F,F,,,,,0.0,0,F,F,F,Password
-1113109,6ae2e7e4,GitHub,48fd3902,data/48fd3902/test/6ae2e7e4.java,49,49,F,F,13,23,F,F,,,,,0.0,0,F,F,F,Nonce
-1113114,c370d8f8,GitHub,48fd3902,data/48fd3902/test/c370d8f8.kt,381,381,F,F,24,37,F,F,,,,,0.0,0,F,F,F,Password
-1113115,c370d8f8,GitHub,48fd3902,data/48fd3902/test/c370d8f8.kt,549,549,F,F,24,37,F,F,,,,,0.0,0,F,F,F,Password
-1113116,c370d8f8,GitHub,48fd3902,data/48fd3902/test/c370d8f8.kt,1043,1043,F,F,41,45,F,F,,,,,0.0,0,F,F,F,Key
-1113117,c370d8f8,GitHub,48fd3902,data/48fd3902/test/c370d8f8.kt,1223,1223,F,F,49,62,F,F,,,,,0.0,0,F,F,F,Password
-1113118,c370d8f8,GitHub,48fd3902,data/48fd3902/test/c370d8f8.kt,1224,1224,F,F,54,67,F,F,,,,,0.0,0,F,F,F,Password
-1113119,f1536ec6,GitHub,48fd3902,data/48fd3902/test/f1536ec6.kt,116,116,F,F,47,58,F,F,,,,,0.0,0,F,F,F,Certificate
-1113120,f1536ec6,GitHub,48fd3902,data/48fd3902/test/f1536ec6.kt,129,129,F,F,35,40,F,F,,,,,0.0,0,F,F,F,Certificate
-1113121,f1536ec6,GitHub,48fd3902,data/48fd3902/test/f1536ec6.kt,131,131,F,F,47,58,F,F,,,,,0.0,0,F,F,F,Certificate
-1113122,ff2a9656,GitHub,48fd3902,data/48fd3902/test/ff2a9656.java,37,37,F,F,27,43,F,F,,,,,0.0,0,F,F,F,Password
-1113097,2c75a21c,GitHub,48fd3902,data/48fd3902/src/2c75a21c.sh,42,42,T,F,50,58,F,F,,,,,0.0,0,F,F,F,Certificate:Password:CMD Password
-1113101,4f357f9a,GitHub,48fd3902,data/48fd3902/src/4f357f9a.yml,16,16,T,F,27,52,F,F,,,,,0.0,0,F,F,F,Password:Gitlab Incoming Email Token
-1113108,5ffb445b,GitHub,48fd3902,data/48fd3902/test/5ffb445b.kt,280,280,T,F,29,42,F,F,,,,,0.0,0,F,F,F,Password
-1113110,a73bbe0d,GitHub,48fd3902,data/48fd3902/test/a73bbe0d.java,476,476,T,F,70,80,F,F,,,,,0.0,0,F,F,F,Credential:Password
-1113111,a73bbe0d,GitHub,48fd3902,data/48fd3902/test/a73bbe0d.java,499,499,T,F,70,80,F,F,,,,,0.0,0,F,F,F,Credential:Password
-1113112,a73bbe0d,GitHub,48fd3902,data/48fd3902/test/a73bbe0d.java,707,707,T,F,70,80,F,F,,,,,0.0,0,F,F,F,Credential:Password
-1113113,a73bbe0d,GitHub,48fd3902,data/48fd3902/test/a73bbe0d.java,732,732,T,F,70,80,F,F,,,,,0.0,0,F,F,F,Credential:Password
-1123093,238cc5a0,GitHub,48fd3902,data/48fd3902/other/238cc5a0.md,23,23,F,F,,,F,F,,,,,0.0,0,F,F,F,Password
-1123091,238cc5a0,GitHub,48fd3902,data/48fd3902/other/238cc5a0.md,19,19,F,F,,,F,F,,,,,0.0,0,F,F,F,Password
-1123092,238cc5a0,GitHub,48fd3902,data/48fd3902/other/238cc5a0.md,28,28,F,F,,,F,F,,,,,0.0,0,F,F,F,Password
-1123094,238cc5a0,GitHub,48fd3902,data/48fd3902/other/238cc5a0.md,32,32,F,F,,,F,F,,,,,0.0,0,F,F,F,Password
-1123095,238cc5a0,GitHub,48fd3902,data/48fd3902/other/238cc5a0.md,55,55,F,F,,,F,F,,,,,0.0,0,F,F,F,Password
-1123096,238cc5a0,GitHub,48fd3902,data/48fd3902/other/238cc5a0.md,64,64,F,F,,,F,F,,,,,0.0,0,F,F,F,Password
-1086791,c370d8f8,GitHub,48fd3902,data/48fd3902/test/c370d8f8.kt,1171,1171,Template,F,49,82,F,F,,,,,2.74,13,F,F,F,Password
-1338373,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,58,58,T,F,51,1059,F,F,,,,,0.0,0,F,F,F,JSON Web Token
-1339580,2c75a21c,GitHub,48fd3902,data/48fd3902/src/2c75a21c.sh,113,113,T,F,32,68,F,F,,,,,0.0,0,F,F,F,UUID
-1339581,4f357f9a,GitHub,48fd3902,data/48fd3902/src/4f357f9a.yml,30,30,T,F,18,54,F,F,,,,,0.0,0,F,F,F,UUID
-1339582,4f357f9a,GitHub,48fd3902,data/48fd3902/src/4f357f9a.yml,31,31,T,F,18,54,F,F,,,,,0.0,0,F,F,F,UUID
-1339583,cd0a11fd,GitHub,48fd3902,data/48fd3902/src/cd0a11fd.yml,26,26,T,F,24,60,F,F,,,,,0.0,0,F,F,F,UUID
-1339584,73bf4bdd,GitHub,48fd3902,data/48fd3902/test/73bf4bdd.java,55,55,T,F,41,77,F,F,,,,,0.0,0,F,F,F,UUID
-1339585,73bf4bdd,GitHub,48fd3902,data/48fd3902/test/73bf4bdd.java,59,59,T,F,42,78,F,F,,,,,0.0,0,F,F,F,UUID
-1339586,73bf4bdd,GitHub,48fd3902,data/48fd3902/test/73bf4bdd.java,96,96,T,F,41,77,F,F,,,,,0.0,0,F,F,F,UUID
-1339587,73bf4bdd,GitHub,48fd3902,data/48fd3902/test/73bf4bdd.java,100,100,T,F,42,78,F,F,,,,,0.0,0,F,F,F,UUID
-1339588,73bf4bdd,GitHub,48fd3902,data/48fd3902/test/73bf4bdd.java,137,137,T,F,37,73,F,F,,,,,0.0,0,F,F,F,UUID
-1339589,73bf4bdd,GitHub,48fd3902,data/48fd3902/test/73bf4bdd.java,141,141,T,F,38,74,F,F,,,,,0.0,0,F,F,F,UUID
-1339590,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,8,8,T,F,30,66,F,F,,,,,0.0,0,F,F,F,UUID
-1339591,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,11,11,T,F,20,56,F,F,,,,,0.0,0,F,F,F,UUID
-1339592,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,36,36,T,F,30,66,F,F,,,,,0.0,0,F,F,F,UUID
-1339593,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,39,39,T,F,20,56,F,F,,,,,0.0,0,F,F,F,UUID
-1339594,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,42,42,T,F,30,66,F,F,,,,,0.0,0,F,F,F,UUID
-1339595,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,45,45,T,F,20,56,F,F,,,,,0.0,0,F,F,F,UUID
-1339596,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,48,48,T,F,30,66,F,F,,,,,0.0,0,F,F,F,UUID
-1339597,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,51,51,T,F,20,56,F,F,,,,,0.0,0,F,F,F,UUID
-1339598,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,54,54,T,F,30,66,F,F,,,,,0.0,0,F,F,F,UUID
-1339599,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,57,57,T,F,20,56,F,F,,,,,0.0,0,F,F,F,UUID
-1339600,9417bc40,GitHub,48fd3902,data/48fd3902/test/9417bc40.java,213,213,T,F,29,65,F,F,,,,,0.0,0,F,F,F,UUID
-1339601,c709b566,GitHub,48fd3902,data/48fd3902/test/c709b566.kt,53,53,T,F,47,83,F,F,,,,,0.0,0,F,F,F,UUID
-1339602,c709b566,GitHub,48fd3902,data/48fd3902/test/c709b566.kt,57,57,T,F,48,84,F,F,,,,,0.0,0,F,F,F,UUID
-1339603,c709b566,GitHub,48fd3902,data/48fd3902/test/c709b566.kt,92,92,T,F,47,83,F,F,,,,,0.0,0,F,F,F,UUID
-1339604,c709b566,GitHub,48fd3902,data/48fd3902/test/c709b566.kt,96,96,T,F,48,84,F,F,,,,,0.0,0,F,F,F,UUID
-1339605,c709b566,GitHub,48fd3902,data/48fd3902/test/c709b566.kt,131,131,T,F,43,79,F,F,,,,,0.0,0,F,F,F,UUID
-1339606,c709b566,GitHub,48fd3902,data/48fd3902/test/c709b566.kt,135,135,T,F,44,80,F,F,,,,,0.0,0,F,F,F,UUID
-1479593,4799bb8c,GitHub,48fd3902,data/48fd3902/test/4799bb8c.kt,565,565,F,F,46,89,F,F,,,,,0.0,0,F,F,F,Key
-1480592,e9b76075,GitHub,48fd3902,data/48fd3902/test/e9b76075.kt,46,46,F,F,17,35,F,F,,,,,0.0,0,F,F,F,Bitbucket Client ID
-1480593,e9b76075,GitHub,48fd3902,data/48fd3902/test/e9b76075.kt,61,61,F,F,17,35,F,F,,,,,0.0,0,F,F,F,Bitbucket Client ID
-1480755,eaeb2b79,GitHub,48fd3902,data/48fd3902/test/eaeb2b79.java,853,853,F,F,94,104,F,F,,,,,0.0,0,F,F,F,Credential:Password
-1509733,c6175528,GitHub,48fd3902,data/48fd3902/test/c6175528.kt,215,241,T,F,12,41,F,F,,,,,0.0,0,F,F,F,PEM Private Key
-1509734,e9b76075,GitHub,48fd3902,data/48fd3902/test/e9b76075.kt,9,35,T,F,62,42,F,F,,,,,0.0,0,F,F,F,PEM Private Key
+Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd,CryptographyKey,PredefinedPattern,Category
+86191,28858c37,GitHub,48fd3902,data/48fd3902/other/28858c37.md,69,69,T,16,46,,,Password
+86195,8601ed21,GitHub,48fd3902,data/48fd3902/src/8601ed21.yml,7,7,T,15,1491,,,Certificate
+86196,8601ed21,GitHub,48fd3902,data/48fd3902/src/8601ed21.yml,15,15,T,15,2287,,,BASE64 encoded PEM Private Key:Key
+86200,e33c22c3,GitHub,48fd3902,data/48fd3902/src/e33c22c3.yml,35,61,T,6,35,,,PEM Private Key
+86226,328e2512,GitHub,48fd3902,data/48fd3902/test/328e2512.groovy,8,8,T,44,958,,,Auth:Azure Access Token:JSON Web Token
+86227,4de5dba6,GitHub,48fd3902,data/48fd3902/test/4de5dba6.java,205,205,T,47,77,,,Password
+86229,73bf4bdd,GitHub,48fd3902,data/48fd3902/test/73bf4bdd.java,463,513,T,42,36,,,PEM Private Key
+86279,73bf4bdd,GitHub,48fd3902,data/48fd3902/test/73bf4bdd.java,518,544,T,19,38,,,PEM Private Key
+86305,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,18,18,T,51,1013,,,Azure Access Token:Token:JSON Web Token
+86306,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,22,22,T,50,1007,,,Azure Access Token:Token:JSON Web Token
+86307,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,26,26,T,42,956,,,Azure Access Token:Token:JSON Web Token
+86308,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,30,30,T,43,957,,,Azure Access Token:JSON Web Token
+1086308,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,30,30,T,42,-1,,,Token
+86309,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,40,40,T,51,1113,,,Azure Access Token:Key:JSON Web Token
+86310,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,46,46,T,37,1114,,,Azure Access Token:Key:JSON Web Token
+86311,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,52,52,F,38,1213,,,JSON Web Token
+86313,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,60,60,T,48,1090,,,Azure Access Token:JSON Web Token
+86314,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,62,62,T,45,1062,,,Azure Access Token:JSON Web Token
+86315,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,64,64,T,46,1075,,,Azure Access Token:JSON Web Token
+86316,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,66,66,T,46,1126,,,Azure Access Token:JSON Web Token
+86317,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,68,68,T,45,1105,,,Azure Access Token:Token:JSON Web Token
+86318,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,70,70,T,43,1123,,,Azure Access Token:Token:JSON Web Token
+86319,87e253cc,GitHub,48fd3902,data/48fd3902/test/87e253cc.java,81,131,T,11,38,,,PEM Private Key
+86369,e9b76075,GitHub,48fd3902,data/48fd3902/test/e9b76075.kt,87,137,F,13,46,,,PEM Private Key
+86370,c709b566,GitHub,48fd3902,data/48fd3902/test/c709b566.kt,442,492,F,13,46,,,PEM Private Key
+86419,c709b566,GitHub,48fd3902,data/48fd3902/test/c709b566.kt,496,522,T,13,46,,,PEM Private Key
+86493,e9b76075,GitHub,48fd3902,data/48fd3902/test/e9b76075.kt,403,429,T,13,46,,,PEM Private Key
+86494,e9b76075,GitHub,48fd3902,data/48fd3902/test/e9b76075.kt,206,232,T,13,46,,,PEM Private Key
+86519,e9b76075,GitHub,48fd3902,data/48fd3902/test/e9b76075.kt,236,263,T,13,42,,,PEM Private Key
+86546,e9b76075,GitHub,48fd3902,data/48fd3902/test/e9b76075.kt,266,270,T,49,41,,,PEM Private Key
+86550,e9b76075,GitHub,48fd3902,data/48fd3902/test/e9b76075.kt,323,349,F,52,42,,,PEM Private Key
+86576,e9b76075,GitHub,48fd3902,data/48fd3902/test/e9b76075.kt,351,378,F,58,38,,,PEM Private Key
+86628,e9b76075,GitHub,48fd3902,data/48fd3902/test/e9b76075.kt,458,508,T,58,42,,,PEM Private Key
+86678,238cc5a0,GitHub,48fd3902,data/48fd3902/other/238cc5a0.md,53,53,F,,,,,Password
+86679,238cc5a0,GitHub,48fd3902,data/48fd3902/other/238cc5a0.md,62,62,F,,,,,Password
+86680,28858c37,GitHub,48fd3902,data/48fd3902/other/28858c37.md,97,97,F,,,,,Password
+86681,85c18102,GitHub,48fd3902,data/48fd3902/other/85c18102.md,42,42,F,,,,,Password
+86682,85c18102,GitHub,48fd3902,data/48fd3902/other/85c18102.md,43,43,F,,,,,Password
+86683,85c18102,GitHub,48fd3902,data/48fd3902/other/85c18102.md,116,116,F,,,,,Password
+86684,95ce83e8,GitHub,48fd3902,data/48fd3902/other/95ce83e8.md,204,204,F,,,,,Password
+86685,dd2c0eb6,GitHub,48fd3902,data/48fd3902/other/dd2c0eb6,37,37,T,25,33,,,Password
+86686,dd2c0eb6,GitHub,48fd3902,data/48fd3902/other/dd2c0eb6,38,38,T,23,31,,,Password:Key
+86687,dd2c0eb6,GitHub,48fd3902,data/48fd3902/other/dd2c0eb6,39,39,T,24,32,,,Password
+86688,01dfdeef,GitHub,48fd3902,data/48fd3902/src/01dfdeef.kt,52,52,F,43,,,,Password
+86689,0286216b,GitHub,48fd3902,data/48fd3902/src/0286216b.sh,15,15,F,20,24,,,Key
+86690,0b7e8b8a,GitHub,48fd3902,data/48fd3902/src/0b7e8b8a.kt,638,638,F,42,50,,,Credential
+86691,1b5ef9cf,GitHub,48fd3902,data/48fd3902/src/1b5ef9cf.kt,16,16,F,18,40,,,Password
+86692,1b5ef9cf,GitHub,48fd3902,data/48fd3902/src/1b5ef9cf.kt,33,33,F,27,42,,,Password
+86693,2b6ecf50,GitHub,48fd3902,data/48fd3902/src/2b6ecf50.yml,59,59,F,24,30,,,Secret
+86694,2c75a21c,GitHub,48fd3902,data/48fd3902/src/2c75a21c.sh,7,7,T,18,26,,,Password:Key
+86695,f2e247c8,GitHub,48fd3902,data/48fd3902/src/f2e247c8.sh,33,33,F,21,25,,,Key
+86696,f2e247c8,GitHub,48fd3902,data/48fd3902/src/f2e247c8.sh,50,50,T,50,58,,,Password:Certificate:CMD Password
+86697,f2e247c8,GitHub,48fd3902,data/48fd3902/src/f2e247c8.sh,9,9,F,18,22,,,Key
+86698,37cda432,GitHub,48fd3902,data/48fd3902/src/37cda432.kt,133,133,F,73,86,,,Certificate
+86699,4f357f9a,GitHub,48fd3902,data/48fd3902/src/4f357f9a.yml,44,44,F,15,19,,,Key
+86700,4f357f9a,GitHub,48fd3902,data/48fd3902/src/4f357f9a.yml,46,46,F,17,21,,,Auth
+86701,49a96e7e,GitHub,48fd3902,data/48fd3902/src/49a96e7e.gradle,18,18,F,25,30,,,Password
+86702,49a96e7e,GitHub,48fd3902,data/48fd3902/src/49a96e7e.gradle,23,23,F,52,57,,,Auth
+86703,4f357f9a,GitHub,48fd3902,data/48fd3902/src/4f357f9a.yml,5,5,T,24,32,,,Password
+86704,4f357f9a,GitHub,48fd3902,data/48fd3902/src/4f357f9a.yml,13,13,T,27,58,,,Password
+86705,6862fc39,GitHub,48fd3902,data/48fd3902/test/6862fc39.yml,11,11,T,27,52,,,Password
+86706,4f357f9a,GitHub,48fd3902,data/48fd3902/src/4f357f9a.yml,42,42,T,24,32,,,Password:Key
+86707,4f357f9a,GitHub,48fd3902,data/48fd3902/src/4f357f9a.yml,43,43,T,18,26,,,Password:Key
+86708,4f357f9a,GitHub,48fd3902,data/48fd3902/src/4f357f9a.yml,48,48,T,26,34,,,Password
+86709,50885cf2,GitHub,48fd3902,data/48fd3902/src/50885cf2.kt,11,11,F,106,110,,,Key
+86710,96259d9d,GitHub,48fd3902,data/48fd3902/src/96259d9d.kt,27,27,F,20,24,,,Key
+86711,ed68be3f,GitHub,48fd3902,data/48fd3902/src/ed68be3f.sh,15,15,F,31,35,,,Key
+86712,daee2bb4,GitHub,48fd3902,data/48fd3902/src/daee2bb4.sh,45,45,T,37,45,,,Password
+86713,703d4651,GitHub,48fd3902,data/48fd3902/src/703d4651.kt,18,18,F,37,41,,,Credential
+86714,718bea96,GitHub,48fd3902,data/48fd3902/src/718bea96.kt,75,75,F,40,44,,,Credential
+86715,7bf31025,GitHub,48fd3902,data/48fd3902/src/7bf31025.kt,8,8,F,36,62,,,Password
+86716,8601ed21,GitHub,48fd3902,data/48fd3902/src/8601ed21.yml,14,14,T,15,1531,,,Certificate
+86717,9467ce33,GitHub,48fd3902,data/48fd3902/src/9467ce33.sql,17,17,F,31,46,,,Password
+86718,aca15f22,GitHub,48fd3902,data/48fd3902/src/aca15f22.kt,16,16,F,111,115,,,Key
+86719,b685c00d,GitHub,48fd3902,data/48fd3902/src/b685c00d.sql,13,13,F,50,65,,,Password
+86720,ba7747c1,GitHub,48fd3902,data/48fd3902/src/ba7747c1.kt,76,76,F,27,32,,,Key
+86721,c72596df,GitHub,48fd3902,data/48fd3902/src/c72596df.sh,9,9,F,32,36,,,Key
+86722,c89c2df2,GitHub,48fd3902,data/48fd3902/src/c89c2df2.kt,8,8,F,46,73,,,Password
+86723,ca34f69c,GitHub,48fd3902,data/48fd3902/src/ca34f69c.kt,15,15,F,114,118,,,Key
+86724,ca34f69c,GitHub,48fd3902,data/48fd3902/src/ca34f69c.kt,113,113,F,46,50,,,Credential
+86725,cd0a11fd,GitHub,48fd3902,data/48fd3902/src/cd0a11fd.yml,46,46,F,17,21,,,Key
+86726,cd0a11fd,GitHub,48fd3902,data/48fd3902/src/cd0a11fd.yml,48,48,Template,19,23,,,Auth
+86727,cf36af35,GitHub,48fd3902,data/48fd3902/src/cf36af35.kt,12,12,F,106,110,,,Key
+86728,d10a5de0,GitHub,48fd3902,data/48fd3902/src/d10a5de0.yaml,3,3,T,20,28,,,Password:Key
+86729,d10a5de0,GitHub,48fd3902,data/48fd3902/src/d10a5de0.yaml,4,4,T,22,30,,,Password
+86730,d10a5de0,GitHub,48fd3902,data/48fd3902/src/d10a5de0.yaml,5,5,T,21,29,,,Password
+86731,d10a5de0,GitHub,48fd3902,data/48fd3902/src/d10a5de0.yaml,21,21,T,14,19,,,Password
+86732,e33c22c3,GitHub,48fd3902,data/48fd3902/src/e33c22c3.yml,21,21,F,29,34,,,Token
+86733,e33c22c3,GitHub,48fd3902,data/48fd3902/src/e33c22c3.yml,13,13,F,30,36,,,Token
+86734,e3a7a2e5,GitHub,48fd3902,data/48fd3902/src/e3a7a2e5.kt,109,109,F,44,54,,,Auth
+86735,e45e45ba,GitHub,48fd3902,data/48fd3902/src/e45e45ba.yml,11,11,T,25,30,,,Password
+86736,e45e45ba,GitHub,48fd3902,data/48fd3902/src/e45e45ba.yml,23,23,T,25,30,,,Password
+86737,e54d1d19,GitHub,48fd3902,data/48fd3902/src/e54d1d19.kt,17,17,F,107,111,,,Key
+86738,e54d1d19,GitHub,48fd3902,data/48fd3902/src/e54d1d19.kt,36,36,F,37,41,,,Credential
+86739,ed68be3f,GitHub,48fd3902,data/48fd3902/src/ed68be3f.sh,18,18,T,37,45,,,Password
+86740,06b333d0,GitHub,48fd3902,data/48fd3902/test/06b333d0.java,36,36,F,79,102,,,Password
+86741,0a6a1ff8,GitHub,48fd3902,data/48fd3902/test/0a6a1ff8.kt,83,83,F,35,39,,,Certificate
+86742,0a6a1ff8,GitHub,48fd3902,data/48fd3902/test/0a6a1ff8.kt,133,133,F,52,61,,,Certificate
+86743,0a6a1ff8,GitHub,48fd3902,data/48fd3902/test/0a6a1ff8.kt,346,346,F,40,66,,,Password
+86744,1be4753a,GitHub,48fd3902,data/48fd3902/test/1be4753a.java,50,50,T,38,102,,,Key
+86745,29ea1535,GitHub,48fd3902,data/48fd3902/test/29ea1535.java,29,29,F,40,58,,,Password
+86746,29ea1535,GitHub,48fd3902,data/48fd3902/test/29ea1535.java,31,31,F,45,68,,,Password
+86747,29ea1535,GitHub,48fd3902,data/48fd3902/test/29ea1535.java,33,33,T,32,42,,,Nonce
+86748,29ea1535,GitHub,48fd3902,data/48fd3902/test/29ea1535.java,34,34,T,43,53,,,Nonce
+86749,29ea1535,GitHub,48fd3902,data/48fd3902/test/29ea1535.java,124,124,F,41,63,,,Password
+86750,29ea1535,GitHub,48fd3902,data/48fd3902/test/29ea1535.java,127,127,F,29,38,,,Nonce
+86751,2ed59573,GitHub,48fd3902,data/48fd3902/test/2ed59573.java,99,99,F,42,48,,,Certificate
+86752,2ed59573,GitHub,48fd3902,data/48fd3902/test/2ed59573.java,100,100,F,42,48,,,Certificate
+86753,2ed59573,GitHub,48fd3902,data/48fd3902/test/2ed59573.java,145,145,F,71,78,,,Certificate
+86754,2ed59573,GitHub,48fd3902,data/48fd3902/test/2ed59573.java,149,149,F,70,77,,,Certificate
+86755,2ed59573,GitHub,48fd3902,data/48fd3902/test/2ed59573.java,263,263,F,54,63,,,Certificate
+86756,38b2badb,GitHub,48fd3902,data/48fd3902/test/38b2badb.kt,534,534,F,49,57,,,Credential
+86757,3e0a1789,GitHub,48fd3902,data/48fd3902/test/3e0a1789.yml,4,4,T,14,18,,,Password
+86758,41abbdc5,GitHub,48fd3902,data/48fd3902/test/41abbdc5.java,134,134,T,29,38,,,Password
+86759,41abbdc5,GitHub,48fd3902,data/48fd3902/test/41abbdc5.java,289,289,F,28,48,,,Password
+86760,4799bb8c,GitHub,48fd3902,data/48fd3902/test/4799bb8c.kt,258,258,F,33,46,,,Password
+86761,4799bb8c,GitHub,48fd3902,data/48fd3902/test/4799bb8c.kt,259,259,T,38,51,,,Password
+86762,496c7fc6,GitHub,48fd3902,data/48fd3902/test/496c7fc6.kt,60,60,F,40,44,,,Certificate
+86763,4ac80b93,GitHub,48fd3902,data/48fd3902/test/4ac80b93.kt,36,36,F,34,59,,,Password
+86764,5443428d,GitHub,48fd3902,data/48fd3902/test/5443428d.java,95,95,F,48,61,,,Password
+86765,c8719261,GitHub,48fd3902,data/48fd3902/test/c8719261.java,32,32,F,26,36,,,Nonce
+86766,aaa8197f,GitHub,48fd3902,data/48fd3902/test/aaa8197f.kt,384,384,F,29,42,,,Password
+86767,aaa8197f,GitHub,48fd3902,data/48fd3902/test/aaa8197f.kt,385,385,F,34,47,,,Password
+86768,5ffb445b,GitHub,48fd3902,data/48fd3902/test/5ffb445b.kt,517,517,F,85,92,,,Credential
+86769,5ffb445b,GitHub,48fd3902,data/48fd3902/test/5ffb445b.kt,568,568,F,87,94,,,Credential
+86770,5ffb445b,GitHub,48fd3902,data/48fd3902/test/5ffb445b.kt,652,652,F,96,100,,,Credential
+86771,6862fc39,GitHub,48fd3902,data/48fd3902/test/6862fc39.yml,9,9,T,27,37,,,Password
+86772,6ae2e7e4,GitHub,48fd3902,data/48fd3902/test/6ae2e7e4.java,30,30,F,42,53,,,Password
+86773,f23339e5,GitHub,48fd3902,data/48fd3902/test/f23339e5.java,41,41,F,13,23,,,Nonce
+86774,73bf4bdd,GitHub,48fd3902,data/48fd3902/test/73bf4bdd.java,15,15,F,17,21,,,Key
+86775,73bf4bdd,GitHub,48fd3902,data/48fd3902/test/73bf4bdd.java,336,336,F,11,70,,,Key
+86776,73bf4bdd,GitHub,48fd3902,data/48fd3902/test/73bf4bdd.java,383,383,F,11,70,,,Key
+86777,73bf4bdd,GitHub,48fd3902,data/48fd3902/test/73bf4bdd.java,420,420,F,23,31,,,Key
+86778,7cd2d29d,GitHub,48fd3902,data/48fd3902/test/7cd2d29d.java,812,812,F,81,90,,,Credential:Certificate
+86779,839267fb,GitHub,48fd3902,data/48fd3902/test/839267fb.kt,11,11,F,57,66,,,Credential
+86780,f1536ec6,GitHub,48fd3902,data/48fd3902/test/f1536ec6.kt,161,161,F,47,58,,,Certificate
+86781,f1536ec6,GitHub,48fd3902,data/48fd3902/test/f1536ec6.kt,174,174,F,35,40,,,Certificate
+86782,f1536ec6,GitHub,48fd3902,data/48fd3902/test/f1536ec6.kt,176,176,F,47,58,,,Certificate
+86783,a73bbe0d,GitHub,48fd3902,data/48fd3902/test/a73bbe0d.java,156,156,T,44,54,,,Credential
+86784,a73bbe0d,GitHub,48fd3902,data/48fd3902/test/a73bbe0d.java,760,760,T,70,80,,,Password:Credential
+86785,aaa8197f,GitHub,48fd3902,data/48fd3902/test/aaa8197f.kt,290,290,F,66,79,,,Password
+86786,aaa8197f,GitHub,48fd3902,data/48fd3902/test/aaa8197f.kt,336,336,F,29,42,,,Password
+86787,b169997c,GitHub,48fd3902,data/48fd3902/test/b169997c.java,62,62,F,54,74,,,Password
+86788,c370d8f8,GitHub,48fd3902,data/48fd3902/test/c370d8f8.kt,759,759,F,24,37,,,Password
+86789,c370d8f8,GitHub,48fd3902,data/48fd3902/test/c370d8f8.kt,1308,1308,F,39,54,,,Password
+86790,c370d8f8,GitHub,48fd3902,data/48fd3902/test/c370d8f8.kt,1086,1086,F,41,45,,,Key
+86791,c370d8f8,GitHub,48fd3902,data/48fd3902/test/c370d8f8.kt,1170,1170,T,46,59,,,Password
+86792,c370d8f8,GitHub,48fd3902,data/48fd3902/test/c370d8f8.kt,1270,1270,F,49,62,,,Password
+86793,c370d8f8,GitHub,48fd3902,data/48fd3902/test/c370d8f8.kt,1271,1271,T,54,67,,,Password
+86794,c370d8f8,GitHub,48fd3902,data/48fd3902/test/c370d8f8.kt,1256,1256,F,39,48,,,Password
+86795,c370d8f8,GitHub,48fd3902,data/48fd3902/test/c370d8f8.kt,1310,1310,F,39,51,,,Password
+86796,c3d109ca,GitHub,48fd3902,data/48fd3902/test/c3d109ca.java,359,359,F,70,82,,,Password
+86797,c6175528,GitHub,48fd3902,data/48fd3902/test/c6175528.kt,296,296,F,31,50,,,Password
+86798,c709b566,GitHub,48fd3902,data/48fd3902/test/c709b566.kt,15,15,F,23,27,,,Key
+86799,c709b566,GitHub,48fd3902,data/48fd3902/test/c709b566.kt,321,321,F,17,76,,,Key
+86800,c709b566,GitHub,48fd3902,data/48fd3902/test/c709b566.kt,367,367,F,17,76,,,Key
+86801,c709b566,GitHub,48fd3902,data/48fd3902/test/c709b566.kt,402,402,F,29,37,,,Key
+86802,cc3a23ed,GitHub,48fd3902,data/48fd3902/test/cc3a23ed.kt,68,68,F,33,46,,,Password
+86803,d4ef4fe5,GitHub,48fd3902,data/48fd3902/test/d4ef4fe5.java,119,119,F,35,44,,,Credential
+86804,d7af460d,GitHub,48fd3902,data/48fd3902/test/d7af460d.java,28,28,F,,,,,Password
+86805,d7af460d,GitHub,48fd3902,data/48fd3902/test/d7af460d.java,56,56,F,24,37,,,Password
+86806,d899777e,GitHub,48fd3902,data/48fd3902/test/d899777e.java,92,92,F,100,109,,,Password
+86807,de90cc15,GitHub,48fd3902,data/48fd3902/test/de90cc15.java,217,217,Template,32,37,,,Credential
+86808,eaeb2b79,GitHub,48fd3902,data/48fd3902/test/eaeb2b79.java,296,296,F,93,106,,,Password
+86809,eaeb2b79,GitHub,48fd3902,data/48fd3902/test/eaeb2b79.java,333,333,F,82,95,,,Password
+86810,eaeb2b79,GitHub,48fd3902,data/48fd3902/test/eaeb2b79.java,761,761,F,94,107,,,Password
+86811,eaeb2b79,GitHub,48fd3902,data/48fd3902/test/eaeb2b79.java,817,817,F,66,79,,,Password
+86812,eaeb2b79,GitHub,48fd3902,data/48fd3902/test/eaeb2b79.java,826,826,F,61,74,,,Password
+86813,f1536ec6,GitHub,48fd3902,data/48fd3902/test/f1536ec6.kt,83,83,F,39,50,,,Certificate
+86814,f7570570,GitHub,48fd3902,data/48fd3902/test/f7570570.java,46,46,F,24,37,,,Password
+86815,f7570570,GitHub,48fd3902,data/48fd3902/test/f7570570.java,70,70,F,37,58,,,Password
+86816,f7570570,GitHub,48fd3902,data/48fd3902/test/f7570570.java,88,88,F,36,57,,,Password
+86817,ff2a9656,GitHub,48fd3902,data/48fd3902/test/ff2a9656.java,75,75,F,27,43,,,Password
+109447,28858c37,GitHub,48fd3902,data/48fd3902/other/28858c37.md,80,86,F,8,89,,,PEM Private Key
+109449,95ce83e8,GitHub,48fd3902,data/48fd3902/other/95ce83e8.md,54,54,Template,19,59,,,Password
+109450,95ce83e8,GitHub,48fd3902,data/48fd3902/other/95ce83e8.md,70,79,F,22,18,,,Other
+109452,1be4753a,GitHub,48fd3902,data/48fd3902/test/1be4753a.java,42,42,T,16,36,,,Password
+109456,379ffa27,GitHub,48fd3902,data/48fd3902/test/379ffa27.key,1,54,T,0,0,,,Certificate
+109458,41abbdc5,GitHub,48fd3902,data/48fd3902/test/41abbdc5.java,100,100,T,29,38,,,Password
+109461,6e09cb2b,GitHub,48fd3902,data/48fd3902/test/6e09cb2b.java,24,24,F,33,47,,,Password
+109477,9417bc40,GitHub,48fd3902,data/48fd3902/test/9417bc40.java,94,94,F,34,47,,,Password
+109480,c6175528,GitHub,48fd3902,data/48fd3902/test/c6175528.kt,215,241,T,12,83,,,Certificate
+109481,c6175528,GitHub,48fd3902,data/48fd3902/test/c6175528.kt,105,105,F,31,50,,,Password
+109482,c9c69cbb,GitHub,48fd3902,data/48fd3902/test/c9c69cbb.kt,39,39,F,40,86,,,Token
+109484,e9b76075,GitHub,48fd3902,data/48fd3902/test/e9b76075.kt,9,35,T,62,90,,,Certificate
+109486,e9b76075,GitHub,48fd3902,data/48fd3902/test/e9b76075.kt,273,378,T,13,90,,,Certificate
+1005276,5ffb445b,GitHub,48fd3902,data/48fd3902/test/5ffb445b.kt,281,281,F,34,47,,,Password
+1113093,238cc5a0,GitHub,48fd3902,data/48fd3902/other/238cc5a0.md,21,21,F,,,,,Password
+1113094,238cc5a0,GitHub,48fd3902,data/48fd3902/other/238cc5a0.md,30,30,F,,,,,Password
+1113095,85c18102,GitHub,48fd3902,data/48fd3902/other/85c18102.md,84,84,F,,,,,Password
+1113096,2c75a21c,GitHub,48fd3902,data/48fd3902/src/2c75a21c.sh,22,22,F,21,25,,,Key
+1113098,2c75a21c,GitHub,48fd3902,data/48fd3902/src/2c75a21c.sh,57,57,F,18,22,,,Key
+1113099,2c75a21c,GitHub,48fd3902,data/48fd3902/src/2c75a21c.sh,70,70,F,18,22,,,Key
+1113100,2c75a21c,GitHub,48fd3902,data/48fd3902/src/2c75a21c.sh,100,100,F,21,25,,,Key
+1113102,daee2bb4,GitHub,48fd3902,data/48fd3902/src/daee2bb4.sh,42,42,F,31,35,,,Key
+1113103,e33c22c3,GitHub,48fd3902,data/48fd3902/src/e33c22c3.yml,12,12,F,29,34,,,Token
+1113104,0a6a1ff8,GitHub,48fd3902,data/48fd3902/test/0a6a1ff8.kt,201,201,F,40,66,,,Password
+1113105,0a6a1ff8,GitHub,48fd3902,data/48fd3902/test/0a6a1ff8.kt,281,281,F,40,66,,,Password
+1113106,2ed59573,GitHub,48fd3902,data/48fd3902/test/2ed59573.java,233,233,F,54,63,,,Certificate
+1113107,41abbdc5,GitHub,48fd3902,data/48fd3902/test/41abbdc5.java,253,253,F,28,48,,,Password
+1113109,6ae2e7e4,GitHub,48fd3902,data/48fd3902/test/6ae2e7e4.java,49,49,F,13,23,,,Nonce
+1113114,c370d8f8,GitHub,48fd3902,data/48fd3902/test/c370d8f8.kt,381,381,F,24,37,,,Password
+1113115,c370d8f8,GitHub,48fd3902,data/48fd3902/test/c370d8f8.kt,549,549,F,24,37,,,Password
+1113116,c370d8f8,GitHub,48fd3902,data/48fd3902/test/c370d8f8.kt,1043,1043,F,41,45,,,Key
+1113117,c370d8f8,GitHub,48fd3902,data/48fd3902/test/c370d8f8.kt,1223,1223,F,49,62,,,Password
+1113118,c370d8f8,GitHub,48fd3902,data/48fd3902/test/c370d8f8.kt,1224,1224,F,54,67,,,Password
+1113119,f1536ec6,GitHub,48fd3902,data/48fd3902/test/f1536ec6.kt,116,116,F,47,58,,,Certificate
+1113120,f1536ec6,GitHub,48fd3902,data/48fd3902/test/f1536ec6.kt,129,129,F,35,40,,,Certificate
+1113121,f1536ec6,GitHub,48fd3902,data/48fd3902/test/f1536ec6.kt,131,131,F,47,58,,,Certificate
+1113122,ff2a9656,GitHub,48fd3902,data/48fd3902/test/ff2a9656.java,37,37,F,27,43,,,Password
+1113097,2c75a21c,GitHub,48fd3902,data/48fd3902/src/2c75a21c.sh,42,42,T,50,58,,,Certificate:Password:CMD Password
+1113101,4f357f9a,GitHub,48fd3902,data/48fd3902/src/4f357f9a.yml,16,16,T,27,52,,,Password:Gitlab Incoming Email Token
+1113108,5ffb445b,GitHub,48fd3902,data/48fd3902/test/5ffb445b.kt,280,280,T,29,42,,,Password
+1113110,a73bbe0d,GitHub,48fd3902,data/48fd3902/test/a73bbe0d.java,476,476,T,70,80,,,Credential:Password
+1113111,a73bbe0d,GitHub,48fd3902,data/48fd3902/test/a73bbe0d.java,499,499,T,70,80,,,Credential:Password
+1113112,a73bbe0d,GitHub,48fd3902,data/48fd3902/test/a73bbe0d.java,707,707,T,70,80,,,Credential:Password
+1113113,a73bbe0d,GitHub,48fd3902,data/48fd3902/test/a73bbe0d.java,732,732,T,70,80,,,Credential:Password
+1123093,238cc5a0,GitHub,48fd3902,data/48fd3902/other/238cc5a0.md,23,23,F,,,,,Password
+1123091,238cc5a0,GitHub,48fd3902,data/48fd3902/other/238cc5a0.md,19,19,F,,,,,Password
+1123092,238cc5a0,GitHub,48fd3902,data/48fd3902/other/238cc5a0.md,28,28,F,,,,,Password
+1123094,238cc5a0,GitHub,48fd3902,data/48fd3902/other/238cc5a0.md,32,32,F,,,,,Password
+1123095,238cc5a0,GitHub,48fd3902,data/48fd3902/other/238cc5a0.md,55,55,F,,,,,Password
+1123096,238cc5a0,GitHub,48fd3902,data/48fd3902/other/238cc5a0.md,64,64,F,,,,,Password
+1086791,c370d8f8,GitHub,48fd3902,data/48fd3902/test/c370d8f8.kt,1171,1171,Template,49,82,,,Password
+1338373,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,58,58,T,51,1059,,,JSON Web Token
+1339580,2c75a21c,GitHub,48fd3902,data/48fd3902/src/2c75a21c.sh,113,113,T,32,68,,,UUID
+1339581,4f357f9a,GitHub,48fd3902,data/48fd3902/src/4f357f9a.yml,30,30,T,18,54,,,UUID
+1339582,4f357f9a,GitHub,48fd3902,data/48fd3902/src/4f357f9a.yml,31,31,T,18,54,,,UUID
+1339583,cd0a11fd,GitHub,48fd3902,data/48fd3902/src/cd0a11fd.yml,26,26,T,24,60,,,UUID
+1339584,73bf4bdd,GitHub,48fd3902,data/48fd3902/test/73bf4bdd.java,55,55,T,41,77,,,UUID
+1339585,73bf4bdd,GitHub,48fd3902,data/48fd3902/test/73bf4bdd.java,59,59,T,42,78,,,UUID
+1339586,73bf4bdd,GitHub,48fd3902,data/48fd3902/test/73bf4bdd.java,96,96,T,41,77,,,UUID
+1339587,73bf4bdd,GitHub,48fd3902,data/48fd3902/test/73bf4bdd.java,100,100,T,42,78,,,UUID
+1339588,73bf4bdd,GitHub,48fd3902,data/48fd3902/test/73bf4bdd.java,137,137,T,37,73,,,UUID
+1339589,73bf4bdd,GitHub,48fd3902,data/48fd3902/test/73bf4bdd.java,141,141,T,38,74,,,UUID
+1339590,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,8,8,T,30,66,,,UUID
+1339591,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,11,11,T,20,56,,,UUID
+1339592,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,36,36,T,30,66,,,UUID
+1339593,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,39,39,T,20,56,,,UUID
+1339594,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,42,42,T,30,66,,,UUID
+1339595,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,45,45,T,20,56,,,UUID
+1339596,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,48,48,T,30,66,,,UUID
+1339597,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,51,51,T,20,56,,,UUID
+1339598,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,54,54,T,30,66,,,UUID
+1339599,8605db08,GitHub,48fd3902,data/48fd3902/test/8605db08.kt,57,57,T,20,56,,,UUID
+1339600,9417bc40,GitHub,48fd3902,data/48fd3902/test/9417bc40.java,213,213,T,29,65,,,UUID
+1339601,c709b566,GitHub,48fd3902,data/48fd3902/test/c709b566.kt,53,53,T,47,83,,,UUID
+1339602,c709b566,GitHub,48fd3902,data/48fd3902/test/c709b566.kt,57,57,T,48,84,,,UUID
+1339603,c709b566,GitHub,48fd3902,data/48fd3902/test/c709b566.kt,92,92,T,47,83,,,UUID
+1339604,c709b566,GitHub,48fd3902,data/48fd3902/test/c709b566.kt,96,96,T,48,84,,,UUID
+1339605,c709b566,GitHub,48fd3902,data/48fd3902/test/c709b566.kt,131,131,T,43,79,,,UUID
+1339606,c709b566,GitHub,48fd3902,data/48fd3902/test/c709b566.kt,135,135,T,44,80,,,UUID
+1479593,4799bb8c,GitHub,48fd3902,data/48fd3902/test/4799bb8c.kt,565,565,F,46,89,,,Key
+1480592,e9b76075,GitHub,48fd3902,data/48fd3902/test/e9b76075.kt,46,46,F,17,35,,,Bitbucket Client ID
+1480593,e9b76075,GitHub,48fd3902,data/48fd3902/test/e9b76075.kt,61,61,F,17,35,,,Bitbucket Client ID
+1480755,eaeb2b79,GitHub,48fd3902,data/48fd3902/test/eaeb2b79.java,853,853,F,94,104,,,Credential:Password
+1509733,c6175528,GitHub,48fd3902,data/48fd3902/test/c6175528.kt,215,241,T,12,41,,,PEM Private Key
+1509734,e9b76075,GitHub,48fd3902,data/48fd3902/test/e9b76075.kt,9,35,T,62,42,,,PEM Private Key

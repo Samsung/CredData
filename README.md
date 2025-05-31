@@ -142,20 +142,10 @@ Metadata includes Ground Truth values and additional information for credential 
 | LineStart          | Integer   | Line start in file from 1, like in most editors. In common cases it equals LineEnd.                                                                      |
 | LineEnd            | Integer   | End line of credential MUST be great or equal like LineStart. Sort line_data_list with line_num for this.                                                |
 | GroundTruth        | String    | Ground Truth of this credential. True (T) / False (F) or Template                                                                                        |
-| WithWords          | Boolean   | Flag to indicate word(https://github.com/first20hours/google-10000-english) is included on the credential                                                |
 | ValueStart         | Integer   | Index of value on the line like in CredSweeper report. This is start position on LineStart. Empty or -1 means the markup for whole line (for False only) |
 | ValueEnd           | Integer   | Index of character right after value ends in the line. This is end position on LineEnd. May be -1 or empty.                               |
-| InURL              | Boolean   | Flag to indicate if credential is a part of a URL, such as "http://user:pwd@site.com"                                                                    |
-| InRuntimeParameter | Boolean   | Flag to indicate if credential is in runtime parameter                                                                                                   |
-| CharacterSet       | String    | Characters used in the credential (NumberOnly, CharOnly, Any)                                                                                            |
 | CryptographyKey    | String    | Type of a key: Private or Public                                                                                                                         |
 | PredefinedPattern  | String    | Credential with defined regex patterns (AWS token with `AKIA...` pattern)                                                                                |
-| VariableNameType   | String    | Categorize credentials by variable name into Secret, Key, Token, SeedSalt and Auth                                                                       |
-| Entropy            | Float     | Shanon entropy of a credential                                                                                                                           |
-| Length             | Integer   | Value length, similar to ValueEnd - ValueStart                                                                                                           |
-| Base64Encode       | Boolean   | Is credential a base64 string?                                                                                                                           |
-| HexEncode          | Boolean   | Is credential a hex encoded string? (like `\xFF` or `FF 02 33`)                                                                                          |
-| URLEncode          | Boolean   | Is credential a url encoded string? (like `one%20two`)                                                                                                   |
 | Category           | String    | Labeled data according CredSweeper rules. see [Category](#category).                                                                                     |
 
 ### Category
@@ -171,8 +161,8 @@ A single metadata file contains rows including line location, value index and GT
 Let's look at the  [meta/02dfa7ec.csv](meta/02dfa7ec.csv).  file as an example.
 
 ```
-Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,...
-34024,61ed9af5,GitHub,02dfa7ec,data/02dfa7ec/test/61ed9af5.example,83,83,T,F,31,73,...
+Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd,...
+34024,61ed9af5,GitHub,02dfa7ec,data/02dfa7ec/test/61ed9af5.example,83,83,T,31,73,...
 ```
 
 Convert the above line with only essential columns into a table format:
@@ -202,7 +192,7 @@ hfbpozfhvuwgtfosmo2imqskc73w04jf3313309829
 With them, you can use ``review_data.py`` script to review the markup in console with colorization.
 
 <pre>
-34024,61ed9af5,GitHub,02dfa7ec,data/02dfa7ec/test/61ed9af5.example,83,83,T,F,31,73,F,F,Any,,,Secret,3.74,42,F,F,F,Secret:Token
+34024,61ed9af5,GitHub,02dfa7ec,data/02dfa7ec/test/61ed9af5.example,83,83,T,31,73,,,Secret:Token
 83:<font color="#00AA00"># GITHUB_ENTERPRISE_ORG_SECRET_TOKEN=</font><span style="background-color:#FFFF55"><font color="#00AA00">hfbpozfhvuwgtfosmo2imqskc73w04jf3313309829</font></span>
 </pre>
 

@@ -1,16 +1,16 @@
-Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-87107,7b3ed02b,GitHub,653a7746,data/653a7746/other/7b3ed02b.rst,468,468,T,F,13,28,F,F,,,,,3.25,15,F,F,F,Password
-87108,7b3ed02b,GitHub,653a7746,data/653a7746/other/7b3ed02b.rst,476,476,F,F,35,40,F,F,,,,,0.93,5,F,F,F,Password
-87109,7b3ed02b,GitHub,653a7746,data/653a7746/other/7b3ed02b.rst,492,492,F,F,66,71,F,F,,,,,0.93,5,F,F,F,Password
-87110,7b3ed02b,GitHub,653a7746,data/653a7746/other/7b3ed02b.rst,495,495,T,F,28,43,F,F,,,,,3.25,15,F,F,F,Password
-87111,d79cda41,GitHub,653a7746,data/653a7746/src/d79cda41.1,728,728,T,F,9,24,F,F,,,,,3.25,15,F,F,F,Password
-87112,d79cda41,GitHub,653a7746,data/653a7746/src/d79cda41.1,742,742,F,F,37,47,F,F,,,,,1.66,10,F,F,F,Password:Secret
-87113,d79cda41,GitHub,653a7746,data/653a7746/src/d79cda41.1,770,770,F,F,68,77,F,F,,,,,1.76,9,F,F,F,Password
-87114,d79cda41,GitHub,653a7746,data/653a7746/src/d79cda41.1,777,777,T,F,24,39,F,F,,,,,3.25,15,F,F,F,Password
-87115,d79cda41,GitHub,653a7746,data/653a7746/src/d79cda41.1,813,813,F,F,49,57,F,F,,,,,1.12,8,F,F,F,Secret
-87116,814ea24d,GitHub,653a7746,data/653a7746/test/814ea24d.bats,173,173,F,F,28,34,F,F,,,,,2.58,6,F,F,F,Key
-87117,814ea24d,GitHub,653a7746,data/653a7746/test/814ea24d.bats,174,174,F,F,30,36,F,F,,,,,2.25,6,F,F,F,Secret:Key
-87118,814ea24d,GitHub,653a7746,data/653a7746/test/814ea24d.bats,175,175,F,F,29,36,F,F,,,,,2.52,7,F,F,F,Key
-87119,814ea24d,GitHub,653a7746,data/653a7746/test/814ea24d.bats,176,176,F,F,32,39,F,F,,,,,2.52,7,F,F,F,Secret:Key
-87120,814ea24d,GitHub,653a7746,data/653a7746/test/814ea24d.bats,177,177,F,F,27,37,F,F,,,,,3.12,10,F,F,F,Key
-109493,7b3ed02b,GitHub,653a7746,data/653a7746/other/7b3ed02b.rst,168,168,F,F,47,67,F,F,,,,,3.6841838,-1,F,F,F,AWS Multi
+Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd,CryptographyKey,PredefinedPattern,Category
+87107,7b3ed02b,GitHub,653a7746,data/653a7746/other/7b3ed02b.rst,468,468,T,13,28,,,Password
+87108,7b3ed02b,GitHub,653a7746,data/653a7746/other/7b3ed02b.rst,476,476,F,35,40,,,Password
+87109,7b3ed02b,GitHub,653a7746,data/653a7746/other/7b3ed02b.rst,492,492,F,66,71,,,Password
+87110,7b3ed02b,GitHub,653a7746,data/653a7746/other/7b3ed02b.rst,495,495,T,28,43,,,Password
+87111,d79cda41,GitHub,653a7746,data/653a7746/src/d79cda41.1,728,728,T,9,24,,,Password
+87112,d79cda41,GitHub,653a7746,data/653a7746/src/d79cda41.1,742,742,F,37,47,,,Password:Secret
+87113,d79cda41,GitHub,653a7746,data/653a7746/src/d79cda41.1,770,770,F,68,77,,,Password
+87114,d79cda41,GitHub,653a7746,data/653a7746/src/d79cda41.1,777,777,T,24,39,,,Password
+87115,d79cda41,GitHub,653a7746,data/653a7746/src/d79cda41.1,813,813,F,49,57,,,Secret
+87116,814ea24d,GitHub,653a7746,data/653a7746/test/814ea24d.bats,173,173,F,28,34,,,Key
+87117,814ea24d,GitHub,653a7746,data/653a7746/test/814ea24d.bats,174,174,F,30,36,,,Secret:Key
+87118,814ea24d,GitHub,653a7746,data/653a7746/test/814ea24d.bats,175,175,F,29,36,,,Key
+87119,814ea24d,GitHub,653a7746,data/653a7746/test/814ea24d.bats,176,176,F,32,39,,,Secret:Key
+87120,814ea24d,GitHub,653a7746,data/653a7746/test/814ea24d.bats,177,177,F,27,37,,,Key
+109493,7b3ed02b,GitHub,653a7746,data/653a7746/other/7b3ed02b.rst,168,168,F,47,67,,,AWS Multi

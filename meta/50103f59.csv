@@ -1,6 +1,6 @@
-Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-30620,cdbaec5f,GitHub,50103f59,data/50103f59/src/cdbaec5f.py,30,30,Template,T,18,40,F,F,Any,,,Secret,2.93,22,F,F,F,Key:Secret
-35812,cc1c22c7,GitHub,50103f59,data/50103f59/src/cc1c22c7.sh,17,17,T,F,19,51,F,F,Any,,,Token,3.80,32,F,F,F,Token
-130740,38186761,GitHub,50103f59,data/50103f59/src/38186761.py,28,28,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-130742,38186761,GitHub,50103f59,data/50103f59/src/38186761.py,32,32,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-1381053,cdbaec5f,GitHub,50103f59,data/50103f59/src/cdbaec5f.py,37,37,F,F,27,32,F,F,,,,,0.0,0,F,F,F,URL Credentials
+Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd,CryptographyKey,PredefinedPattern,Category
+30620,cdbaec5f,GitHub,50103f59,data/50103f59/src/cdbaec5f.py,30,30,Template,18,40,,,Key:Secret
+35812,cc1c22c7,GitHub,50103f59,data/50103f59/src/cc1c22c7.sh,17,17,T,19,51,,,Token
+130740,38186761,GitHub,50103f59,data/50103f59/src/38186761.py,28,28,F,,,,,Password
+130742,38186761,GitHub,50103f59,data/50103f59/src/38186761.py,32,32,F,,,,,Password
+1381053,cdbaec5f,GitHub,50103f59,data/50103f59/src/cdbaec5f.py,37,37,F,27,32,,,URL Credentials

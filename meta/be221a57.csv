@@ -1,72 +1,72 @@
-Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-990,fe9bbe2f,GitHub,be221a57,data/be221a57/test/fe9bbe2f.ts,161,161,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-1714,b044ddea,GitHub,be221a57,data/be221a57/test/b044ddea.ts,161,161,F,F,,,F,F,,,,,0,0,F,F,F,Token
-1839,9b99e511,GitHub,be221a57,data/be221a57/test/9b99e511.ts,335,335,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-6501,9cb1bd0e,GitHub,be221a57,data/be221a57/test/9cb1bd0e.ts,471,471,F,F,,,F,F,,,,,0,0,F,F,F,URL Credentials
-7882,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,863,863,F,F,,,F,F,,,,,0,0,F,F,F,Token
-8270,2f3e8826,GitHub,be221a57,data/be221a57/src/2f3e8826.ts,1582,1582,F,F,,,F,F,,,,,0,0,F,F,F,Password
-9112,2f3e8826,GitHub,be221a57,data/be221a57/src/2f3e8826.ts,1584,1584,F,F,,,F,F,,,,,0,0,F,F,F,Password
-12662,9b99e511,GitHub,be221a57,data/be221a57/test/9b99e511.ts,221,221,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-12781,90523c7a,GitHub,be221a57,data/be221a57/test/90523c7a.ts,53,53,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-12803,2f3e8826,GitHub,be221a57,data/be221a57/src/2f3e8826.ts,649,649,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-13113,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,1708,1708,F,F,,,F,F,,,,,0,0,F,F,F,Token
-13777,86368c44,GitHub,be221a57,data/be221a57/test/86368c44.ts,994,994,F,F,,,F,F,,,,,0,0,F,F,F,Token
-17749,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,491,491,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-28935,788cbb0e,GitHub,be221a57,data/be221a57/test/788cbb0e.ts,159,159,Template,F,14,17,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-29478,2f3e8826,GitHub,be221a57,data/be221a57/src/2f3e8826.ts,1402,1402,Template,T,10,16,F,F,CharsOnly,,,Token,2.25,6,F,F,F,Token
-30863,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,2450,2450,F,F,48,196,F,F,,,,,0.0,0,F,F,F,Other
-30865,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,2445,2445,F,F,48,204,F,F,,,,,0.0,0,F,F,F,Other
-32400,d2b5e649,GitHub,be221a57,data/be221a57/test/d2b5e649.ts,6,6,F,T,,,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials:Password
-32443,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,1846,1846,F,T,,,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password:URL Credentials
-34364,b241041a,GitHub,be221a57,data/be221a57/test/b241041a.ts,70,70,Template,T,14,28,F,F,Any,,,Secret,2.98,14,F,F,F,Password
-34375,9b99e511,GitHub,be221a57,data/be221a57/test/9b99e511.ts,337,337,Template,T,13,27,F,F,CharsOnly,,,Secret,3.09,14,F,F,F,Password
-34379,b241041a,GitHub,be221a57,data/be221a57/test/b241041a.ts,56,56,Template,T,13,21,F,F,Any,,,Secret,2.38,8,F,F,F,Password
-34589,9cb1bd0e,GitHub,be221a57,data/be221a57/test/9cb1bd0e.ts,437,437,T,T,13,18,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
-34806,b241041a,GitHub,be221a57,data/be221a57/test/b241041a.ts,45,45,F,T,20,24,T,F,CharsOnly,,,Secret,1.5,4,F,F,F,Password:URL Credentials
-138237,b241041a,GitHub,be221a57,data/be221a57/test/b241041a.ts,45,45,F,F,35,40,F,F,,,,,0.0,0,F,F,F,Password
-34907,86368c44,GitHub,be221a57,data/be221a57/test/86368c44.ts,553,553,F,T,16,23,F,F,CharsOnly,,,Token,2.52,7,F,F,F,Token
-34908,e73af842,GitHub,be221a57,data/be221a57/test/e73af842.ts,211,211,F,T,16,23,F,F,CharsOnly,,,Token,2.52,7,F,F,F,Token
-34924,86368c44,GitHub,be221a57,data/be221a57/test/86368c44.ts,685,685,F,T,15,22,F,F,CharsOnly,,,Token,2.52,7,F,F,F,Token
-35436,d2b5e649,GitHub,be221a57,data/be221a57/test/d2b5e649.ts,33,33,T,T,22,30,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-36692,d2b5e649,GitHub,be221a57,data/be221a57/test/d2b5e649.ts,25,25,F,F,,,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials:Password
-37137,9b99e511,GitHub,be221a57,data/be221a57/test/9b99e511.ts,392,392,Template,T,13,27,F,F,CharsOnly,,,Secret,3.09,14,F,F,F,Password
-37239,b241041a,GitHub,be221a57,data/be221a57/test/b241041a.ts,54,54,F,T,,,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password:URL Credentials
-37240,b241041a,GitHub,be221a57,data/be221a57/test/b241041a.ts,66,66,F,T,,,T,F,CharsOnly,,,Secret,1.50,4,F,F,F,Password:URL Credentials
-37266,86368c44,GitHub,be221a57,data/be221a57/test/86368c44.ts,583,583,F,T,16,23,F,F,CharsOnly,,,Token,2.52,7,F,F,F,Token
-37267,86368c44,GitHub,be221a57,data/be221a57/test/86368c44.ts,609,609,F,T,15,22,F,F,CharsOnly,,,Token,2.52,7,F,F,F,Token
-37268,86368c44,GitHub,be221a57,data/be221a57/test/86368c44.ts,647,647,F,T,16,23,F,F,CharsOnly,,,Token,2.52,7,F,F,F,Token
-37269,86368c44,GitHub,be221a57,data/be221a57/test/86368c44.ts,717,717,F,T,16,23,F,F,CharsOnly,,,Token,2.52,7,F,F,F,Token
-37270,86368c44,GitHub,be221a57,data/be221a57/test/86368c44.ts,753,753,F,T,16,23,F,F,CharsOnly,,,Token,2.52,7,F,F,F,Token
-46192,9b99e511,GitHub,be221a57,data/be221a57/test/9b99e511.ts,342,342,F,F,,,F,F,,,,,0,0,F,F,F,Password
-46194,d2b5e649,GitHub,be221a57,data/be221a57/test/d2b5e649.ts,138,138,Template,F,13,16,F,F,CharsOnly,,,Unknown,1.58,3,F,F,F,Password
-57195,2f3e8826,GitHub,be221a57,data/be221a57/src/2f3e8826.ts,1274,1274,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-63530,9b99e511,GitHub,be221a57,data/be221a57/test/9b99e511.ts,390,390,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-74174,9b99e511,GitHub,be221a57,data/be221a57/test/9b99e511.ts,260,260,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-74175,9b99e511,GitHub,be221a57,data/be221a57/test/9b99e511.ts,302,302,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-74176,9b99e511,GitHub,be221a57,data/be221a57/test/9b99e511.ts,356,356,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-74177,9b99e511,GitHub,be221a57,data/be221a57/test/9b99e511.ts,411,411,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-75530,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,300,300,F,F,,,F,F,,,,,0,0,F,F,F,Token
-75545,2f3e8826,GitHub,be221a57,data/be221a57/src/2f3e8826.ts,207,207,F,F,,,F,F,,,,,0,0,F,F,F,Token
-82362,9b99e511,GitHub,be221a57,data/be221a57/test/9b99e511.ts,348,348,Template,T,22,36,F,F,CharsOnly,,,Secret,3.09,14,F,F,F,Key:Password
-82363,9b99e511,GitHub,be221a57,data/be221a57/test/9b99e511.ts,397,397,Template,T,22,36,F,F,CharsOnly,,,Secret,3.09,14,F,F,F,Key:Password
-82364,9b99e511,GitHub,be221a57,data/be221a57/test/9b99e511.ts,403,403,Template,T,22,36,F,F,CharsOnly,,,Secret,3.09,14,F,F,F,Key:Password
-82365,788cbb0e,GitHub,be221a57,data/be221a57/test/788cbb0e.ts,181,181,Template,F,14,17,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-102378,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,1966,1966,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-102379,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,1974,1974,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-102381,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,1129,1129,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-102382,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,1130,1130,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-102383,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,1143,1143,T,T,15,25,F,F,CharOnly,,,Secret,2.45,10,F,F,F,Password
-102384,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,1153,1153,T,F,17,28,F,F,,,,,0.00,,F,F,F,Password
-102385,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,1157,1157,T,F,17,28,F,F,,,,,0.00,,F,F,F,Password
-102386,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,1166,1166,T,T,15,25,F,F,CharOnly,,,Secret,2.45,10,F,F,F,Password
-102387,2f3e8826,GitHub,be221a57,data/be221a57/src/2f3e8826.ts,13,13,F,F,,,F,F,,,,,0.00,,F,F,F,Gitlab Feed Token
-102388,9b99e511,GitHub,be221a57,data/be221a57/test/9b99e511.ts,357,357,Template,T,16,30,F,F,CharOnly,,,Secret,3.09,14,F,F,F,Password
-102389,9b99e511,GitHub,be221a57,data/be221a57/test/9b99e511.ts,412,412,Template,T,16,29,F,F,CharOnly,,,Secret,3.09,13,F,F,F,Password
-102390,9b99e511,GitHub,be221a57,data/be221a57/test/9b99e511.ts,449,449,Template,T,16,30,F,F,CharOnly,,,Secret,3.09,14,F,F,F,Password
-102391,b241041a,GitHub,be221a57,data/be221a57/test/b241041a.ts,49,49,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-113347,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,1121,1121,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-130930,2f3e8826,GitHub,be221a57,data/be221a57/src/2f3e8826.ts,1177,1177,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-134358,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,1055,1055,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-134359,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,1063,1063,F,F,,,F,F,,,,,0,0,F,F,F,Certificate
-134360,e73af842,GitHub,be221a57,data/be221a57/test/e73af842.ts,196,196,F,F,,,F,F,,,,,0,0,F,F,F,Token
-1138243,9cb1bd0e,GitHub,be221a57,data/be221a57/test/9cb1bd0e.ts,452,452,T,F,25,41,F,F,,,,,0.0,0,F,F,F,Auth
+Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd,CryptographyKey,PredefinedPattern,Category
+990,fe9bbe2f,GitHub,be221a57,data/be221a57/test/fe9bbe2f.ts,161,161,F,-1,-1,,,Key
+1714,b044ddea,GitHub,be221a57,data/be221a57/test/b044ddea.ts,161,161,F,,,,,Token
+1839,9b99e511,GitHub,be221a57,data/be221a57/test/9b99e511.ts,335,335,F,-1,-1,,,Key
+6501,9cb1bd0e,GitHub,be221a57,data/be221a57/test/9cb1bd0e.ts,471,471,F,,,,,URL Credentials
+7882,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,863,863,F,,,,,Token
+8270,2f3e8826,GitHub,be221a57,data/be221a57/src/2f3e8826.ts,1582,1582,F,,,,,Password
+9112,2f3e8826,GitHub,be221a57,data/be221a57/src/2f3e8826.ts,1584,1584,F,,,,,Password
+12662,9b99e511,GitHub,be221a57,data/be221a57/test/9b99e511.ts,221,221,F,-1,-1,,,Key
+12781,90523c7a,GitHub,be221a57,data/be221a57/test/90523c7a.ts,53,53,F,-1,-1,,,Key
+12803,2f3e8826,GitHub,be221a57,data/be221a57/src/2f3e8826.ts,649,649,F,-1,-1,,,Key
+13113,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,1708,1708,F,,,,,Token
+13777,86368c44,GitHub,be221a57,data/be221a57/test/86368c44.ts,994,994,F,,,,,Token
+17749,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,491,491,F,-1,-1,,,Key
+28935,788cbb0e,GitHub,be221a57,data/be221a57/test/788cbb0e.ts,159,159,Template,14,17,,,Password
+29478,2f3e8826,GitHub,be221a57,data/be221a57/src/2f3e8826.ts,1402,1402,Template,10,16,,,Token
+30863,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,2450,2450,F,48,196,,,Other
+30865,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,2445,2445,F,48,204,,,Other
+32400,d2b5e649,GitHub,be221a57,data/be221a57/test/d2b5e649.ts,6,6,F,,,,,URL Credentials:Password
+32443,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,1846,1846,F,,,,,Password:URL Credentials
+34364,b241041a,GitHub,be221a57,data/be221a57/test/b241041a.ts,70,70,Template,14,28,,,Password
+34375,9b99e511,GitHub,be221a57,data/be221a57/test/9b99e511.ts,337,337,Template,13,27,,,Password
+34379,b241041a,GitHub,be221a57,data/be221a57/test/b241041a.ts,56,56,Template,13,21,,,Password
+34589,9cb1bd0e,GitHub,be221a57,data/be221a57/test/9cb1bd0e.ts,437,437,T,13,18,,,Password
+34806,b241041a,GitHub,be221a57,data/be221a57/test/b241041a.ts,45,45,F,20,24,,,Password:URL Credentials
+138237,b241041a,GitHub,be221a57,data/be221a57/test/b241041a.ts,45,45,F,35,40,,,Password
+34907,86368c44,GitHub,be221a57,data/be221a57/test/86368c44.ts,553,553,F,16,23,,,Token
+34908,e73af842,GitHub,be221a57,data/be221a57/test/e73af842.ts,211,211,F,16,23,,,Token
+34924,86368c44,GitHub,be221a57,data/be221a57/test/86368c44.ts,685,685,F,15,22,,,Token
+35436,d2b5e649,GitHub,be221a57,data/be221a57/test/d2b5e649.ts,33,33,T,22,30,,,URL Credentials
+36692,d2b5e649,GitHub,be221a57,data/be221a57/test/d2b5e649.ts,25,25,F,,,,,URL Credentials:Password
+37137,9b99e511,GitHub,be221a57,data/be221a57/test/9b99e511.ts,392,392,Template,13,27,,,Password
+37239,b241041a,GitHub,be221a57,data/be221a57/test/b241041a.ts,54,54,F,,,,,Password:URL Credentials
+37240,b241041a,GitHub,be221a57,data/be221a57/test/b241041a.ts,66,66,F,,,,,Password:URL Credentials
+37266,86368c44,GitHub,be221a57,data/be221a57/test/86368c44.ts,583,583,F,16,23,,,Token
+37267,86368c44,GitHub,be221a57,data/be221a57/test/86368c44.ts,609,609,F,15,22,,,Token
+37268,86368c44,GitHub,be221a57,data/be221a57/test/86368c44.ts,647,647,F,16,23,,,Token
+37269,86368c44,GitHub,be221a57,data/be221a57/test/86368c44.ts,717,717,F,16,23,,,Token
+37270,86368c44,GitHub,be221a57,data/be221a57/test/86368c44.ts,753,753,F,16,23,,,Token
+46192,9b99e511,GitHub,be221a57,data/be221a57/test/9b99e511.ts,342,342,F,,,,,Password
+46194,d2b5e649,GitHub,be221a57,data/be221a57/test/d2b5e649.ts,138,138,Template,13,16,,,Password
+57195,2f3e8826,GitHub,be221a57,data/be221a57/src/2f3e8826.ts,1274,1274,F,-1,-1,,,Key
+63530,9b99e511,GitHub,be221a57,data/be221a57/test/9b99e511.ts,390,390,F,-1,-1,,,Key
+74174,9b99e511,GitHub,be221a57,data/be221a57/test/9b99e511.ts,260,260,F,-1,-1,,,Key
+74175,9b99e511,GitHub,be221a57,data/be221a57/test/9b99e511.ts,302,302,F,-1,-1,,,Key
+74176,9b99e511,GitHub,be221a57,data/be221a57/test/9b99e511.ts,356,356,F,-1,-1,,,Key
+74177,9b99e511,GitHub,be221a57,data/be221a57/test/9b99e511.ts,411,411,F,-1,-1,,,Key
+75530,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,300,300,F,,,,,Token
+75545,2f3e8826,GitHub,be221a57,data/be221a57/src/2f3e8826.ts,207,207,F,,,,,Token
+82362,9b99e511,GitHub,be221a57,data/be221a57/test/9b99e511.ts,348,348,Template,22,36,,,Key:Password
+82363,9b99e511,GitHub,be221a57,data/be221a57/test/9b99e511.ts,397,397,Template,22,36,,,Key:Password
+82364,9b99e511,GitHub,be221a57,data/be221a57/test/9b99e511.ts,403,403,Template,22,36,,,Key:Password
+82365,788cbb0e,GitHub,be221a57,data/be221a57/test/788cbb0e.ts,181,181,Template,14,17,,,Password
+102378,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,1966,1966,F,,,,,Secret
+102379,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,1974,1974,F,,,,,Secret
+102381,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,1129,1129,F,,,,,Password
+102382,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,1130,1130,F,,,,,Password
+102383,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,1143,1143,T,15,25,,,Password
+102384,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,1153,1153,T,17,28,,,Password
+102385,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,1157,1157,T,17,28,,,Password
+102386,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,1166,1166,T,15,25,,,Password
+102387,2f3e8826,GitHub,be221a57,data/be221a57/src/2f3e8826.ts,13,13,F,,,,,Gitlab Feed Token
+102388,9b99e511,GitHub,be221a57,data/be221a57/test/9b99e511.ts,357,357,Template,16,30,,,Password
+102389,9b99e511,GitHub,be221a57,data/be221a57/test/9b99e511.ts,412,412,Template,16,29,,,Password
+102390,9b99e511,GitHub,be221a57,data/be221a57/test/9b99e511.ts,449,449,Template,16,30,,,Password
+102391,b241041a,GitHub,be221a57,data/be221a57/test/b241041a.ts,49,49,F,,,,,Password
+113347,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,1121,1121,F,,,,,Password
+130930,2f3e8826,GitHub,be221a57,data/be221a57/src/2f3e8826.ts,1177,1177,F,,,,,Password
+134358,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,1055,1055,F,-1,-1,,,Key
+134359,5a831ea6,GitHub,be221a57,data/be221a57/other/5a831ea6.md,1063,1063,F,,,,,Certificate
+134360,e73af842,GitHub,be221a57,data/be221a57/test/e73af842.ts,196,196,F,,,,,Token
+1138243,9cb1bd0e,GitHub,be221a57,data/be221a57/test/9cb1bd0e.ts,452,452,T,25,41,,,Auth

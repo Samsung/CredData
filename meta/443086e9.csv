@@ -1,5 +1,5 @@
-Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-96730,b3356305,GitHub,443086e9,data/443086e9/other/b3356305.md,110,110,F,F,,,F,F,,,,,2.37,9,F,F,F,Credential
-96731,1e2b010b,GitHub,443086e9,data/443086e9/src/1e2b010b.cpp,257,257,T,F,38,46,F,F,,,,,2.75,8,F,F,F,Password
-96732,1e2b010b,GitHub,443086e9,data/443086e9/src/1e2b010b.cpp,751,751,F,F,29,49,F,F,,,,,2.71,20,F,F,F,Key
-1339571,b3356305,GitHub,443086e9,data/443086e9/other/b3356305.md,63,63,T,F,47,83,F,F,,,,,0.0,0,F,F,F,UUID
+Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd,CryptographyKey,PredefinedPattern,Category
+96730,b3356305,GitHub,443086e9,data/443086e9/other/b3356305.md,110,110,F,,,,,Credential
+96731,1e2b010b,GitHub,443086e9,data/443086e9/src/1e2b010b.cpp,257,257,T,38,46,,,Password
+96732,1e2b010b,GitHub,443086e9,data/443086e9/src/1e2b010b.cpp,751,751,F,29,49,,,Key
+1339571,b3356305,GitHub,443086e9,data/443086e9/other/b3356305.md,63,63,T,47,83,,,UUID

@@ -1,42 +1,42 @@
-Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-1602,cc8dd8e7,GitHub,b82c1b9d,data/b82c1b9d/src/cc8dd8e7.go,53,53,F,F,,,F,F,,,,,0,0,F,F,F,URL Credentials
-3378,3295df72,GitHub,b82c1b9d,data/b82c1b9d/src/3295df72.sum,408,408,F,F,,,F,F,,,,,0,0,F,F,F,Token
-3495,3295df72,GitHub,b82c1b9d,data/b82c1b9d/src/3295df72.sum,409,409,F,F,,,F,F,,,,,0,0,F,F,F,Token
-4365,14fa99bf,GitHub,b82c1b9d,data/b82c1b9d/src/14fa99bf.build,25,25,T,F,57,65,F,F,,,,,0,0,F,F,F,SQL Password
-4970,e994c878,GitHub,b82c1b9d,data/b82c1b9d/src/e994c878.tmpl,22,22,F,F,,,F,F,,,,,0,0,F,F,F,Password
-8219,0dfb6fbd,GitHub,b82c1b9d,data/b82c1b9d/src/0dfb6fbd.yml,10,10,T,T,56,64,T,F,CharOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-8220,0dfb6fbd,GitHub,b82c1b9d,data/b82c1b9d/src/0dfb6fbd.yml,13,13,T,T,51,59,T,F,CharOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-14058,0dfb6fbd,GitHub,b82c1b9d,data/b82c1b9d/src/0dfb6fbd.yml,5,5,Template,T,12,20,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Password
-14078,2950491b,GitHub,b82c1b9d,data/b82c1b9d/src/2950491b.go,122,122,F,F,,,F,F,,,,,0,0,F,F,F,Password
-17775,44ae5cf5,GitHub,b82c1b9d,data/b82c1b9d/src/44ae5cf5.go,12,12,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-21047,7ad3c1ff,GitHub,b82c1b9d,data/b82c1b9d/src/7ad3c1ff.tmpl,3,3,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-28827,7ad3c1ff,GitHub,b82c1b9d,data/b82c1b9d/src/7ad3c1ff.tmpl,7,7,Template,F,20,29,F,F,CharsOnly,,,Secret,0,9,F,F,F,Password
-29605,2fc06eaa,GitHub,b82c1b9d,data/b82c1b9d/test/2fc06eaa.go,20,20,F,T,82,89,F,F,CharsOnly,,,Secret,2.24,7,F,F,F,Secret
-29965,4eec45b6,GitHub,b82c1b9d,data/b82c1b9d/src/4eec45b6.go,161,161,Template,T,13,27,F,F,Any,,,Secret,3.25,14,F,F,F,Secret
-32382,2eec2e84,GitHub,b82c1b9d,data/b82c1b9d/src/2eec2e84.go,102,102,F,F,20,28,F,F,,,,,0.0,0,F,F,F,Password
-32395,c20c4520,GitHub,b82c1b9d,data/b82c1b9d/src/c20c4520.go,35,35,F,F,127,198,F,F,,,,,0.0,0,F,F,F,Other
-33714,2950491b,GitHub,b82c1b9d,data/b82c1b9d/src/2950491b.go,59,59,T,T,16,24,F,F,Any,,,Secret,2.6,9,F,F,F,Password
-33911,e994c878,GitHub,b82c1b9d,data/b82c1b9d/src/e994c878.tmpl,25,25,Template,T,26,30,F,F,CharsOnly,,,Secret,1.5,4,F,F,F,Password
-36260,d5d706cd,GitHub,b82c1b9d,data/b82c1b9d/src/d5d706cd.tmpl,36,36,F,F,15,27,F,F,,,,,0.0,0,F,F,F,Key
-80166,2fc06eaa,GitHub,b82c1b9d,data/b82c1b9d/test/2fc06eaa.go,22,22,F,F,68,75,F,F,,,,,0.0,0,F,F,F,Secret
-80167,2fc06eaa,GitHub,b82c1b9d,data/b82c1b9d/test/2fc06eaa.go,24,24,F,F,80,87,F,F,,,,,0.0,0,F,F,F,Secret
-102782,4eec45b6,GitHub,b82c1b9d,data/b82c1b9d/src/4eec45b6.go,166,166,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-102783,2fc06eaa,GitHub,b82c1b9d,data/b82c1b9d/test/2fc06eaa.go,19,19,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-102784,2fc06eaa,GitHub,b82c1b9d,data/b82c1b9d/test/2fc06eaa.go,21,21,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-102785,2fc06eaa,GitHub,b82c1b9d,data/b82c1b9d/test/2fc06eaa.go,23,23,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-102786,3295df72,GitHub,b82c1b9d,data/b82c1b9d/src/3295df72.sum,634,634,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-102787,3295df72,GitHub,b82c1b9d,data/b82c1b9d/src/3295df72.sum,635,635,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-102788,3295df72,GitHub,b82c1b9d,data/b82c1b9d/src/3295df72.sum,694,694,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-102789,3295df72,GitHub,b82c1b9d,data/b82c1b9d/src/3295df72.sum,1024,1024,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-102790,3295df72,GitHub,b82c1b9d,data/b82c1b9d/src/3295df72.sum,1025,1025,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-102791,3295df72,GitHub,b82c1b9d,data/b82c1b9d/src/3295df72.sum,1026,1026,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-102792,3295df72,GitHub,b82c1b9d,data/b82c1b9d/src/3295df72.sum,1027,1027,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-102793,4eec45b6,GitHub,b82c1b9d,data/b82c1b9d/src/4eec45b6.go,171,171,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-113821,3295df72,GitHub,b82c1b9d,data/b82c1b9d/src/3295df72.sum,395,395,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-113822,3295df72,GitHub,b82c1b9d,data/b82c1b9d/src/3295df72.sum,397,397,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-113823,3295df72,GitHub,b82c1b9d,data/b82c1b9d/src/3295df72.sum,1142,1142,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-113824,3295df72,GitHub,b82c1b9d,data/b82c1b9d/src/3295df72.sum,1143,1143,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-113825,3295df72,GitHub,b82c1b9d,data/b82c1b9d/src/3295df72.sum,1144,1144,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-113826,3295df72,GitHub,b82c1b9d,data/b82c1b9d/src/3295df72.sum,1145,1145,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-113827,3295df72,GitHub,b82c1b9d,data/b82c1b9d/src/3295df72.sum,1146,1146,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-113828,3295df72,GitHub,b82c1b9d,data/b82c1b9d/src/3295df72.sum,654,654,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
+Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd,CryptographyKey,PredefinedPattern,Category
+1602,cc8dd8e7,GitHub,b82c1b9d,data/b82c1b9d/src/cc8dd8e7.go,53,53,F,,,,,URL Credentials
+3378,3295df72,GitHub,b82c1b9d,data/b82c1b9d/src/3295df72.sum,408,408,F,,,,,Token
+3495,3295df72,GitHub,b82c1b9d,data/b82c1b9d/src/3295df72.sum,409,409,F,,,,,Token
+4365,14fa99bf,GitHub,b82c1b9d,data/b82c1b9d/src/14fa99bf.build,25,25,T,57,65,,,SQL Password
+4970,e994c878,GitHub,b82c1b9d,data/b82c1b9d/src/e994c878.tmpl,22,22,F,,,,,Password
+8219,0dfb6fbd,GitHub,b82c1b9d,data/b82c1b9d/src/0dfb6fbd.yml,10,10,T,56,64,,,URL Credentials
+8220,0dfb6fbd,GitHub,b82c1b9d,data/b82c1b9d/src/0dfb6fbd.yml,13,13,T,51,59,,,URL Credentials
+14058,0dfb6fbd,GitHub,b82c1b9d,data/b82c1b9d/src/0dfb6fbd.yml,5,5,Template,12,20,,,Password
+14078,2950491b,GitHub,b82c1b9d,data/b82c1b9d/src/2950491b.go,122,122,F,,,,,Password
+17775,44ae5cf5,GitHub,b82c1b9d,data/b82c1b9d/src/44ae5cf5.go,12,12,F,-1,-1,,,Key
+21047,7ad3c1ff,GitHub,b82c1b9d,data/b82c1b9d/src/7ad3c1ff.tmpl,3,3,F,-1,-1,,,Key
+28827,7ad3c1ff,GitHub,b82c1b9d,data/b82c1b9d/src/7ad3c1ff.tmpl,7,7,Template,20,29,,,Password
+29605,2fc06eaa,GitHub,b82c1b9d,data/b82c1b9d/test/2fc06eaa.go,20,20,F,82,89,,,Secret
+29965,4eec45b6,GitHub,b82c1b9d,data/b82c1b9d/src/4eec45b6.go,161,161,Template,13,27,,,Secret
+32382,2eec2e84,GitHub,b82c1b9d,data/b82c1b9d/src/2eec2e84.go,102,102,F,20,28,,,Password
+32395,c20c4520,GitHub,b82c1b9d,data/b82c1b9d/src/c20c4520.go,35,35,F,127,198,,,Other
+33714,2950491b,GitHub,b82c1b9d,data/b82c1b9d/src/2950491b.go,59,59,T,16,24,,,Password
+33911,e994c878,GitHub,b82c1b9d,data/b82c1b9d/src/e994c878.tmpl,25,25,Template,26,30,,,Password
+36260,d5d706cd,GitHub,b82c1b9d,data/b82c1b9d/src/d5d706cd.tmpl,36,36,F,15,27,,,Key
+80166,2fc06eaa,GitHub,b82c1b9d,data/b82c1b9d/test/2fc06eaa.go,22,22,F,68,75,,,Secret
+80167,2fc06eaa,GitHub,b82c1b9d,data/b82c1b9d/test/2fc06eaa.go,24,24,F,80,87,,,Secret
+102782,4eec45b6,GitHub,b82c1b9d,data/b82c1b9d/src/4eec45b6.go,166,166,F,-1,-1,,,Other
+102783,2fc06eaa,GitHub,b82c1b9d,data/b82c1b9d/test/2fc06eaa.go,19,19,F,,,,,Secret
+102784,2fc06eaa,GitHub,b82c1b9d,data/b82c1b9d/test/2fc06eaa.go,21,21,F,,,,,Secret
+102785,2fc06eaa,GitHub,b82c1b9d,data/b82c1b9d/test/2fc06eaa.go,23,23,F,,,,,Secret
+102786,3295df72,GitHub,b82c1b9d,data/b82c1b9d/src/3295df72.sum,634,634,F,,,,,Auth
+102787,3295df72,GitHub,b82c1b9d,data/b82c1b9d/src/3295df72.sum,635,635,F,,,,,Auth
+102788,3295df72,GitHub,b82c1b9d,data/b82c1b9d/src/3295df72.sum,694,694,F,,,,,Password
+102789,3295df72,GitHub,b82c1b9d,data/b82c1b9d/src/3295df72.sum,1024,1024,F,-1,-1,,,Other
+102790,3295df72,GitHub,b82c1b9d,data/b82c1b9d/src/3295df72.sum,1025,1025,F,-1,-1,,,Other
+102791,3295df72,GitHub,b82c1b9d,data/b82c1b9d/src/3295df72.sum,1026,1026,F,-1,-1,,,Other
+102792,3295df72,GitHub,b82c1b9d,data/b82c1b9d/src/3295df72.sum,1027,1027,F,-1,-1,,,Other
+102793,4eec45b6,GitHub,b82c1b9d,data/b82c1b9d/src/4eec45b6.go,171,171,F,,,,,Auth
+113821,3295df72,GitHub,b82c1b9d,data/b82c1b9d/src/3295df72.sum,395,395,F,,,,,Auth
+113822,3295df72,GitHub,b82c1b9d,data/b82c1b9d/src/3295df72.sum,397,397,F,,,,,Auth
+113823,3295df72,GitHub,b82c1b9d,data/b82c1b9d/src/3295df72.sum,1142,1142,F,,,,,Auth
+113824,3295df72,GitHub,b82c1b9d,data/b82c1b9d/src/3295df72.sum,1143,1143,F,,,,,Auth
+113825,3295df72,GitHub,b82c1b9d,data/b82c1b9d/src/3295df72.sum,1144,1144,F,,,,,Auth
+113826,3295df72,GitHub,b82c1b9d,data/b82c1b9d/src/3295df72.sum,1145,1145,F,,,,,Auth
+113827,3295df72,GitHub,b82c1b9d,data/b82c1b9d/src/3295df72.sum,1146,1146,F,,,,,Auth
+113828,3295df72,GitHub,b82c1b9d,data/b82c1b9d/src/3295df72.sum,654,654,F,-1,-1,,,Other

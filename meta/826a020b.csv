@@ -1,10 +1,10 @@
-Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-2838,e052c4ef,GitHub,826a020b,data/826a020b/src/e052c4ef.js,17,17,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-7853,6ac3f79f,GitHub,826a020b,data/826a020b/src/6ac3f79f.yml,67,67,F,F,,,F,F,,,,,0,0,F,F,F,Token
-8850,c6d1f984,GitHub,826a020b,data/826a020b/src/c6d1f984.js,154,154,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-30675,fe2a39c1,GitHub,826a020b,data/826a020b/test/fe2a39c1.js,12,12,T,T,55,67,F,F,CharsOnly,,,Secret,3.02,12,F,F,F,Password
-30689,21a473fe,GitHub,826a020b,data/826a020b/test/21a473fe.js,2,2,T,T,52,64,F,F,CharsOnly,,,Secret,3.02,12,F,F,F,Password
-36471,ca122b97,GitHub,826a020b,data/826a020b/src/ca122b97.js,8,8,T,F,44,76,T,F,Any,,,Secret,3.36,32,F,F,F,URL Credentials
-100191,c6d1f984,GitHub,826a020b,data/826a020b/src/c6d1f984.js,8,8,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-100192,c6d1f984,GitHub,826a020b,data/826a020b/src/c6d1f984.js,163,163,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-130011,c6d1f984,GitHub,826a020b,data/826a020b/src/c6d1f984.js,57,57,F,F,,,F,F,,,,,0.00,,F,F,F,Password
+Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd,CryptographyKey,PredefinedPattern,Category
+2838,e052c4ef,GitHub,826a020b,data/826a020b/src/e052c4ef.js,17,17,F,,,,,Auth
+7853,6ac3f79f,GitHub,826a020b,data/826a020b/src/6ac3f79f.yml,67,67,F,,,,,Token
+8850,c6d1f984,GitHub,826a020b,data/826a020b/src/c6d1f984.js,154,154,F,,,,,Secret
+30675,fe2a39c1,GitHub,826a020b,data/826a020b/test/fe2a39c1.js,12,12,T,55,67,,,Password
+30689,21a473fe,GitHub,826a020b,data/826a020b/test/21a473fe.js,2,2,T,52,64,,,Password
+36471,ca122b97,GitHub,826a020b,data/826a020b/src/ca122b97.js,8,8,T,44,76,,,URL Credentials
+100191,c6d1f984,GitHub,826a020b,data/826a020b/src/c6d1f984.js,8,8,F,,,,,Password
+100192,c6d1f984,GitHub,826a020b,data/826a020b/src/c6d1f984.js,163,163,F,,,,,Auth
+130011,c6d1f984,GitHub,826a020b,data/826a020b/src/c6d1f984.js,57,57,F,,,,,Password

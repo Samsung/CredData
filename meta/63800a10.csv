@@ -1,17 +1,17 @@
-Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-374,e002928e,GitHub,63800a10,data/63800a10/src/e002928e.py,68,68,F,F,,,F,F,,,,,0,0,F,F,F,Token
-2474,60691956,GitHub,63800a10,data/63800a10/src/60691956.py,160,160,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-7211,60691956,GitHub,63800a10,data/63800a10/src/60691956.py,135,135,F,F,,,F,F,,,,,0,0,F,F,F,Token
-7597,e002928e,GitHub,63800a10,data/63800a10/src/e002928e.py,81,81,F,F,,,F,F,,,,,0,0,F,F,F,Token
-7955,e002928e,GitHub,63800a10,data/63800a10/src/e002928e.py,63,63,F,F,,,F,F,,,,,0,0,F,F,F,Token
-14321,f9839c9a,GitHub,63800a10,data/63800a10/src/f9839c9a.py,214,214,F,F,,,F,F,,,,,0,0,F,F,F,Token
-27388,d8056f87,GitHub,63800a10,data/63800a10/src/d8056f87.sql,375,375,F,F,52,150,F,F,,,,,0.0,0,F,F,F,Other
-35011,160d3634,GitHub,63800a10,data/63800a10/test/160d3634.json,3,3,F,F,22,94,F,F,,,,,0.0,0,F,F,F,Other
-35017,160d3634,GitHub,63800a10,data/63800a10/test/160d3634.json,8,8,T,F,26,50,F,F,Any,,,Secret,3.95,24,F,F,F,Secret
-35424,6ac3f79f,GitHub,63800a10,data/63800a10/src/6ac3f79f.yml,32,32,T,F,26,62,F,F,Any,,,Token,3.38,36,F,F,F,Token:UUID
-35880,66fb79c0,GitHub,63800a10,data/63800a10/test/66fb79c0.token,1,1,T,F,18,199,T,F,Any,,Google OAuth Access Token,Auth,5.51,181,F,F,F,Google OAuth Access Token:Token
-138190,66fb79c0,GitHub,63800a10,data/63800a10/test/66fb79c0.token,1,1,T,F,424,527,F,F,,,,,0.0,0,F,F,F,Token
-108509,e002928e,GitHub,63800a10,data/63800a10/src/e002928e.py,46,46,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-108510,e002928e,GitHub,63800a10,data/63800a10/src/e002928e.py,48,48,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-114611,160d3634,GitHub,63800a10,data/63800a10/test/160d3634.json,10,10,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-134784,160d3634,GitHub,63800a10,data/63800a10/test/160d3634.json,3,8,T,F,22,50,F,F,,,,,0.0,0,F,F,F,Google Multi
+Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd,CryptographyKey,PredefinedPattern,Category
+374,e002928e,GitHub,63800a10,data/63800a10/src/e002928e.py,68,68,F,,,,,Token
+2474,60691956,GitHub,63800a10,data/63800a10/src/60691956.py,160,160,F,-1,-1,,,Key
+7211,60691956,GitHub,63800a10,data/63800a10/src/60691956.py,135,135,F,,,,,Token
+7597,e002928e,GitHub,63800a10,data/63800a10/src/e002928e.py,81,81,F,,,,,Token
+7955,e002928e,GitHub,63800a10,data/63800a10/src/e002928e.py,63,63,F,,,,,Token
+14321,f9839c9a,GitHub,63800a10,data/63800a10/src/f9839c9a.py,214,214,F,,,,,Token
+27388,d8056f87,GitHub,63800a10,data/63800a10/src/d8056f87.sql,375,375,F,52,150,,,Other
+35011,160d3634,GitHub,63800a10,data/63800a10/test/160d3634.json,3,3,F,22,94,,,Other
+35017,160d3634,GitHub,63800a10,data/63800a10/test/160d3634.json,8,8,T,26,50,,,Secret
+35424,6ac3f79f,GitHub,63800a10,data/63800a10/src/6ac3f79f.yml,32,32,T,26,62,,,Token:UUID
+35880,66fb79c0,GitHub,63800a10,data/63800a10/test/66fb79c0.token,1,1,T,18,199,,Google OAuth Access Token,Google OAuth Access Token:Token
+138190,66fb79c0,GitHub,63800a10,data/63800a10/test/66fb79c0.token,1,1,T,424,527,,,Token
+108509,e002928e,GitHub,63800a10,data/63800a10/src/e002928e.py,46,46,F,,,,,Secret
+108510,e002928e,GitHub,63800a10,data/63800a10/src/e002928e.py,48,48,F,,,,,Secret
+114611,160d3634,GitHub,63800a10,data/63800a10/test/160d3634.json,10,10,F,,,,,Auth
+134784,160d3634,GitHub,63800a10,data/63800a10/test/160d3634.json,3,8,T,22,50,,,Google Multi

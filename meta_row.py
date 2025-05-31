@@ -15,20 +15,10 @@ class MetaRow:
     LineStart: int
     LineEnd: int
     GroundTruth: str
-    WithWords: str
     ValueStart: int
     ValueEnd: int
-    InURL: str
-    InRuntimeParameter: str
-    CharacterSet: str
     CryptographyKey: str
     PredefinedPattern: str
-    VariableNameType: str
-    Entropy: float
-    Length: int
-    Base64Encode: str
-    HexEncode: str
-    URLEncode: str
     Category: str
 
     def __init__(self, row: dict):

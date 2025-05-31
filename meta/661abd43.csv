@@ -1,72 +1,72 @@
-Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-1959,2873f79a,GitHub,661abd43,data/661abd43/src/2873f79a.go,138,138,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-1960,2873f79a,GitHub,661abd43,data/661abd43/src/2873f79a.go,130,130,F,F,,,F,F,,,,,0,0,F,F,F,Password
-2779,946e2d07,GitHub,661abd43,data/661abd43/src/946e2d07.go,51,51,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-2819,b54b39f1,GitHub,661abd43,data/661abd43/src/b54b39f1.yml,151,151,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-2821,b54b39f1,GitHub,661abd43,data/661abd43/src/b54b39f1.yml,148,148,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-5090,ad1ef777,GitHub,661abd43,data/661abd43/src/ad1ef777.go,177,177,F,F,,,F,F,,,,,0,0,F,F,F,Token
-5857,fb48ee34,GitHub,661abd43,data/661abd43/src/fb48ee34.yaml,1,1,F,F,,,F,F,,,,,0,0,F,F,F,API
-5991,b3356305,GitHub,661abd43,data/661abd43/other/b3356305.md,144,144,F,F,,,F,F,,,,,0,0,F,F,F,API
-6074,c7406914,GitHub,661abd43,data/661abd43/src/c7406914.libsonnet,260,260,F,F,,,F,F,,,,,0,0,F,F,F,API
-7956,ad1ef777,GitHub,661abd43,data/661abd43/src/ad1ef777.go,170,170,F,F,,,F,F,,,,,0,0,F,F,F,Token
-17045,f9f5d358,GitHub,661abd43,data/661abd43/test/f9f5d358.go,372,372,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-18186,b3356305,GitHub,661abd43,data/661abd43/other/b3356305.md,689,689,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-21584,b3356305,GitHub,661abd43,data/661abd43/other/b3356305.md,723,723,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-23016,c6567851,GitHub,661abd43,data/661abd43/src/c6567851.go,108,108,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-23062,946e2d07,GitHub,661abd43,data/661abd43/src/946e2d07.go,46,46,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-23756,c3e4025e,GitHub,661abd43,data/661abd43/src/c3e4025e.go,59,59,F,F,,,F,F,,,,,0,0,F,F,F,API
-26856,04191b66,GitHub,661abd43,data/661abd43/src/04191b66.go,34,34,F,F,,,F,F,,,,,0,0,F,F,F,Password
-28823,b3356305,GitHub,661abd43,data/661abd43/other/b3356305.md,978,978,Template,F,16,23,F,F,Any,,,Token,0.0,7,F,F,F,Token
-29483,c7406914,GitHub,661abd43,data/661abd43/src/c7406914.libsonnet,106,106,F,F,17,19,F,F,,,,,0.0,0,F,F,F,Secret
-30557,b3356305,GitHub,661abd43,data/661abd43/other/b3356305.md,149,149,Template,T,14,29,F,F,Any,,,Secret,2.99,15,F,F,F,Secret
-31238,b3356305,GitHub,661abd43,data/661abd43/other/b3356305.md,1281,1281,Template,T,24,52,F,F,Any,,,Secret,2.82,28,F,F,F,Password
-31378,b54b39f1,GitHub,661abd43,data/661abd43/src/b54b39f1.yml,67,67,F,T,19,37,F,F,Any,,,Secret,3.0,18,F,F,F,Password
-31387,b54b39f1,GitHub,661abd43,data/661abd43/src/b54b39f1.yml,347,347,F,T,19,41,F,F,Any,,,Secret,3.31,22,F,F,F,Secret
-31396,b54b39f1,GitHub,661abd43,data/661abd43/src/b54b39f1.yml,65,65,F,F,19,34,F,F,Any,,,Secret,2.99,15,F,F,F,Secret
-32393,f9f5d358,GitHub,661abd43,data/661abd43/test/f9f5d358.go,23,23,T,F,26,278,F,F,CharsOnly,,,Auth,5.48,252,F,F,F,Auth:Key
-32394,f9f5d358,GitHub,661abd43,data/661abd43/test/f9f5d358.go,25,25,T,F,24,348,F,F,CharsOnly,,,Auth,5.43,324,F,F,F,Auth:Key
-135394,f9f5d358,GitHub,661abd43,data/661abd43/test/f9f5d358.go,25,25,T,F,24,346,F,F,CharsOnly,,,base64,5.43,324,F,F,F,BASE64 encoded PEM Private Key
-34221,c7406914,GitHub,661abd43,data/661abd43/src/c7406914.libsonnet,213,213,F,T,38,53,F,F,Any,,,Secret,3.2,15,F,F,F,Password
-34514,c7406914,GitHub,661abd43,data/661abd43/src/c7406914.libsonnet,214,214,F,T,38,53,F,F,Any,,,Secret,3.11,15,F,F,F,Secret
-35266,e8473738,GitHub,661abd43,data/661abd43/src/e8473738.pem,33,59,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,PEM Private Key
-35275,f16bdccb,GitHub,661abd43,data/661abd43/src/f16bdccb.key,1,27,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,PEM Private Key
-35527,c985d8f4,GitHub,661abd43,data/661abd43/src/c985d8f4.p8,1,5,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,PEM Private Key
-35728,b54b39f1,GitHub,661abd43,data/661abd43/src/b54b39f1.yml,77,77,F,T,19,32,F,F,Any,,,Secret,2.74,13,F,F,F,Secret
-37108,c7406914,GitHub,661abd43,data/661abd43/src/c7406914.libsonnet,290,290,F,T,38,53,F,F,Any,,,Secret,3.2,15,F,F,F,Password
-37193,c7406914,GitHub,661abd43,data/661abd43/src/c7406914.libsonnet,291,291,F,T,38,53,F,F,Any,,,Secret,3.11,15,F,F,F,Password
-42687,b54b39f1,GitHub,661abd43,data/661abd43/src/b54b39f1.yml,227,227,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-42688,b54b39f1,GitHub,661abd43,data/661abd43/src/b54b39f1.yml,230,230,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-42689,b54b39f1,GitHub,661abd43,data/661abd43/src/b54b39f1.yml,306,306,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-42690,b54b39f1,GitHub,661abd43,data/661abd43/src/b54b39f1.yml,309,309,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-42691,b54b39f1,GitHub,661abd43,data/661abd43/src/b54b39f1.yml,376,376,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-42692,b54b39f1,GitHub,661abd43,data/661abd43/src/b54b39f1.yml,379,379,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-46063,f9f5d358,GitHub,661abd43,data/661abd43/test/f9f5d358.go,585,585,F,F,,,F,F,,,,,0,0,F,F,F,Token
-46190,f9f5d358,GitHub,661abd43,data/661abd43/test/f9f5d358.go,767,767,F,F,,,F,F,,,,,0,0,F,F,F,Token
-46251,f9f5d358,GitHub,661abd43,data/661abd43/test/f9f5d358.go,577,577,F,F,,,F,F,,,,,0,0,F,F,F,API:Key
-46254,f9f5d358,GitHub,661abd43,data/661abd43/test/f9f5d358.go,579,579,F,F,,,F,F,,,,,0,0,F,F,F,Token
-55028,b3356305,GitHub,661abd43,data/661abd43/other/b3356305.md,985,985,F,F,,,F,F,,,,,0,0,F,F,F,Token
-55029,b3356305,GitHub,661abd43,data/661abd43/other/b3356305.md,992,992,Template,F,16,23,F,F,Any,,,Token,0.0,7,F,F,F,Token
-78085,e8473738,GitHub,661abd43,data/661abd43/src/e8473738.pem,6,28,F,F,,,F,F,,,,,0,0,F,F,F,PEM Private Key
-101781,c7406914,GitHub,661abd43,data/661abd43/src/c7406914.libsonnet,88,88,F,F,,,F,F,,,,,0.00,,F,F,F,API
-101782,c7406914,GitHub,661abd43,data/661abd43/src/c7406914.libsonnet,89,89,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-101783,3295df72,GitHub,661abd43,data/661abd43/src/3295df72.sum,308,308,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-101784,3295df72,GitHub,661abd43,data/661abd43/src/3295df72.sum,309,309,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-101785,2873f79a,GitHub,661abd43,data/661abd43/src/2873f79a.go,66,66,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-101786,2873f79a,GitHub,661abd43,data/661abd43/src/2873f79a.go,70,70,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-110919,3295df72,GitHub,661abd43,data/661abd43/src/3295df72.sum,550,550,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-110920,3295df72,GitHub,661abd43,data/661abd43/src/3295df72.sum,551,551,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-110921,3295df72,GitHub,661abd43,data/661abd43/src/3295df72.sum,552,552,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-110922,3295df72,GitHub,661abd43,data/661abd43/src/3295df72.sum,220,220,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-110923,fb48ee34,GitHub,661abd43,data/661abd43/src/fb48ee34.yaml,40,40,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
-110924,b3356305,GitHub,661abd43,data/661abd43/other/b3356305.md,760,760,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
-110925,b3356305,GitHub,661abd43,data/661abd43/other/b3356305.md,115,115,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
-110926,f9f5d358,GitHub,661abd43,data/661abd43/test/f9f5d358.go,385,385,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
-132698,f9f5d358,GitHub,661abd43,data/661abd43/test/f9f5d358.go,21,21,T,F,29,,F,F,,,,,0.00,,F,F,F,Certificate:BASE64 encoded PEM Private Key
-1132698,f9f5d358,GitHub,661abd43,data/661abd43/test/f9f5d358.go,19,19,T,F,29,,F,F,,,,,0.00,,F,F,F,Certificate:BASE64 Private Key
-1338238,b3356305,GitHub,661abd43,data/661abd43/other/b3356305.md,11,11,F,F,101,163,F,F,,,,,0.0,0,F,F,F,API
-1339663,b3356305,GitHub,661abd43,data/661abd43/other/b3356305.md,10,10,T,F,46,82,F,F,,,,,0.0,0,F,F,F,UUID
-1339664,b3356305,GitHub,661abd43,data/661abd43/other/b3356305.md,15,15,T,F,57,93,F,F,,,,,0.0,0,F,F,F,UUID
-1479387,b3356305,GitHub,661abd43,data/661abd43/other/b3356305.md,284,284,F,F,19,29,F,F,,,,,0.0,0,F,F,F,CMD Password
-1479388,2873f79a,GitHub,661abd43,data/661abd43/src/2873f79a.go,390,390,F,F,19,29,F,F,,,,,0.0,0,F,F,F,CMD Password
-1494329,f80db689,GitHub,661abd43,data/661abd43/test/f80db689.go,95,95,T,F,10,,F,F,,,,,0.0,0,F,F,F,Certificate
-1494330,f80db689,GitHub,661abd43,data/661abd43/test/f80db689.go,96,96,T,F,9,,F,F,,,,,0.0,0,F,F,F,Key:BASE64 encoded PEM Private Key
+Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd,CryptographyKey,PredefinedPattern,Category
+1959,2873f79a,GitHub,661abd43,data/661abd43/src/2873f79a.go,138,138,F,,,,,Secret
+1960,2873f79a,GitHub,661abd43,data/661abd43/src/2873f79a.go,130,130,F,,,,,Password
+2779,946e2d07,GitHub,661abd43,data/661abd43/src/946e2d07.go,51,51,F,,,,,Secret
+2819,b54b39f1,GitHub,661abd43,data/661abd43/src/b54b39f1.yml,151,151,F,,,,,Secret
+2821,b54b39f1,GitHub,661abd43,data/661abd43/src/b54b39f1.yml,148,148,F,,,,,Secret
+5090,ad1ef777,GitHub,661abd43,data/661abd43/src/ad1ef777.go,177,177,F,,,,,Token
+5857,fb48ee34,GitHub,661abd43,data/661abd43/src/fb48ee34.yaml,1,1,F,,,,,API
+5991,b3356305,GitHub,661abd43,data/661abd43/other/b3356305.md,144,144,F,,,,,API
+6074,c7406914,GitHub,661abd43,data/661abd43/src/c7406914.libsonnet,260,260,F,,,,,API
+7956,ad1ef777,GitHub,661abd43,data/661abd43/src/ad1ef777.go,170,170,F,,,,,Token
+17045,f9f5d358,GitHub,661abd43,data/661abd43/test/f9f5d358.go,372,372,F,-1,-1,,,Key
+18186,b3356305,GitHub,661abd43,data/661abd43/other/b3356305.md,689,689,F,-1,-1,,,Key
+21584,b3356305,GitHub,661abd43,data/661abd43/other/b3356305.md,723,723,F,-1,-1,,,Key
+23016,c6567851,GitHub,661abd43,data/661abd43/src/c6567851.go,108,108,F,,,,,Auth
+23062,946e2d07,GitHub,661abd43,data/661abd43/src/946e2d07.go,46,46,F,,,,,Secret
+23756,c3e4025e,GitHub,661abd43,data/661abd43/src/c3e4025e.go,59,59,F,,,,,API
+26856,04191b66,GitHub,661abd43,data/661abd43/src/04191b66.go,34,34,F,,,,,Password
+28823,b3356305,GitHub,661abd43,data/661abd43/other/b3356305.md,978,978,Template,16,23,,,Token
+29483,c7406914,GitHub,661abd43,data/661abd43/src/c7406914.libsonnet,106,106,F,17,19,,,Secret
+30557,b3356305,GitHub,661abd43,data/661abd43/other/b3356305.md,149,149,Template,14,29,,,Secret
+31238,b3356305,GitHub,661abd43,data/661abd43/other/b3356305.md,1281,1281,Template,24,52,,,Password
+31378,b54b39f1,GitHub,661abd43,data/661abd43/src/b54b39f1.yml,67,67,F,19,37,,,Password
+31387,b54b39f1,GitHub,661abd43,data/661abd43/src/b54b39f1.yml,347,347,F,19,41,,,Secret
+31396,b54b39f1,GitHub,661abd43,data/661abd43/src/b54b39f1.yml,65,65,F,19,34,,,Secret
+32393,f9f5d358,GitHub,661abd43,data/661abd43/test/f9f5d358.go,23,23,T,26,278,,,Auth:Key
+32394,f9f5d358,GitHub,661abd43,data/661abd43/test/f9f5d358.go,25,25,T,24,348,,,Auth:Key
+135394,f9f5d358,GitHub,661abd43,data/661abd43/test/f9f5d358.go,25,25,T,24,346,,,BASE64 encoded PEM Private Key
+34221,c7406914,GitHub,661abd43,data/661abd43/src/c7406914.libsonnet,213,213,F,38,53,,,Password
+34514,c7406914,GitHub,661abd43,data/661abd43/src/c7406914.libsonnet,214,214,F,38,53,,,Secret
+35266,e8473738,GitHub,661abd43,data/661abd43/src/e8473738.pem,33,59,T,,,Private,,PEM Private Key
+35275,f16bdccb,GitHub,661abd43,data/661abd43/src/f16bdccb.key,1,27,T,,,Private,,PEM Private Key
+35527,c985d8f4,GitHub,661abd43,data/661abd43/src/c985d8f4.p8,1,5,T,,,Private,,PEM Private Key
+35728,b54b39f1,GitHub,661abd43,data/661abd43/src/b54b39f1.yml,77,77,F,19,32,,,Secret
+37108,c7406914,GitHub,661abd43,data/661abd43/src/c7406914.libsonnet,290,290,F,38,53,,,Password
+37193,c7406914,GitHub,661abd43,data/661abd43/src/c7406914.libsonnet,291,291,F,38,53,,,Password
+42687,b54b39f1,GitHub,661abd43,data/661abd43/src/b54b39f1.yml,227,227,F,,,,,Secret
+42688,b54b39f1,GitHub,661abd43,data/661abd43/src/b54b39f1.yml,230,230,F,,,,,Secret
+42689,b54b39f1,GitHub,661abd43,data/661abd43/src/b54b39f1.yml,306,306,F,,,,,Secret
+42690,b54b39f1,GitHub,661abd43,data/661abd43/src/b54b39f1.yml,309,309,F,,,,,Secret
+42691,b54b39f1,GitHub,661abd43,data/661abd43/src/b54b39f1.yml,376,376,F,,,,,Secret
+42692,b54b39f1,GitHub,661abd43,data/661abd43/src/b54b39f1.yml,379,379,F,,,,,Secret
+46063,f9f5d358,GitHub,661abd43,data/661abd43/test/f9f5d358.go,585,585,F,,,,,Token
+46190,f9f5d358,GitHub,661abd43,data/661abd43/test/f9f5d358.go,767,767,F,,,,,Token
+46251,f9f5d358,GitHub,661abd43,data/661abd43/test/f9f5d358.go,577,577,F,,,,,API:Key
+46254,f9f5d358,GitHub,661abd43,data/661abd43/test/f9f5d358.go,579,579,F,,,,,Token
+55028,b3356305,GitHub,661abd43,data/661abd43/other/b3356305.md,985,985,F,,,,,Token
+55029,b3356305,GitHub,661abd43,data/661abd43/other/b3356305.md,992,992,Template,16,23,,,Token
+78085,e8473738,GitHub,661abd43,data/661abd43/src/e8473738.pem,6,28,F,,,,,PEM Private Key
+101781,c7406914,GitHub,661abd43,data/661abd43/src/c7406914.libsonnet,88,88,F,,,,,API
+101782,c7406914,GitHub,661abd43,data/661abd43/src/c7406914.libsonnet,89,89,F,,,,,Secret
+101783,3295df72,GitHub,661abd43,data/661abd43/src/3295df72.sum,308,308,F,-1,-1,,,Other
+101784,3295df72,GitHub,661abd43,data/661abd43/src/3295df72.sum,309,309,F,-1,-1,,,Other
+101785,2873f79a,GitHub,661abd43,data/661abd43/src/2873f79a.go,66,66,F,,,,,Password
+101786,2873f79a,GitHub,661abd43,data/661abd43/src/2873f79a.go,70,70,F,-1,-1,,,Other
+110919,3295df72,GitHub,661abd43,data/661abd43/src/3295df72.sum,550,550,F,,,,,Auth
+110920,3295df72,GitHub,661abd43,data/661abd43/src/3295df72.sum,551,551,F,,,,,Auth
+110921,3295df72,GitHub,661abd43,data/661abd43/src/3295df72.sum,552,552,F,,,,,Auth
+110922,3295df72,GitHub,661abd43,data/661abd43/src/3295df72.sum,220,220,F,-1,-1,,,Other
+110923,fb48ee34,GitHub,661abd43,data/661abd43/src/fb48ee34.yaml,40,40,F,-1,-1,,,Key
+110924,b3356305,GitHub,661abd43,data/661abd43/other/b3356305.md,760,760,F,-1,-1,,,Key
+110925,b3356305,GitHub,661abd43,data/661abd43/other/b3356305.md,115,115,F,,,,,Certificate
+110926,f9f5d358,GitHub,661abd43,data/661abd43/test/f9f5d358.go,385,385,F,-1,-1,,,Key
+132698,f9f5d358,GitHub,661abd43,data/661abd43/test/f9f5d358.go,21,21,T,29,,,,Certificate:BASE64 encoded PEM Private Key
+1132698,f9f5d358,GitHub,661abd43,data/661abd43/test/f9f5d358.go,19,19,T,29,,,,Certificate:BASE64 Private Key
+1338238,b3356305,GitHub,661abd43,data/661abd43/other/b3356305.md,11,11,F,101,163,,,API
+1339663,b3356305,GitHub,661abd43,data/661abd43/other/b3356305.md,10,10,T,46,82,,,UUID
+1339664,b3356305,GitHub,661abd43,data/661abd43/other/b3356305.md,15,15,T,57,93,,,UUID
+1479387,b3356305,GitHub,661abd43,data/661abd43/other/b3356305.md,284,284,F,19,29,,,CMD Password
+1479388,2873f79a,GitHub,661abd43,data/661abd43/src/2873f79a.go,390,390,F,19,29,,,CMD Password
+1494329,f80db689,GitHub,661abd43,data/661abd43/test/f80db689.go,95,95,T,10,,,,Certificate
+1494330,f80db689,GitHub,661abd43,data/661abd43/test/f80db689.go,96,96,T,9,,,,Key:BASE64 encoded PEM Private Key

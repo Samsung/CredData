@@ -1,59 +1,59 @@
-Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-3084,f3788238,GitHub,9bc5ca9e,data/9bc5ca9e/test/f3788238.java,86,86,F,F,,,F,F,,,,,0,0,F,F,F,Token
-9072,4175aed4,GitHub,9bc5ca9e,data/9bc5ca9e/src/4175aed4.java,135,135,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Credential
-13569,6126a578,GitHub,9bc5ca9e,data/9bc5ca9e/src/6126a578.java,70,70,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-14590,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,90,90,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-14603,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,80,80,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-14751,f490aa6c,GitHub,9bc5ca9e,data/9bc5ca9e/test/f490aa6c.java,307,307,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-16007,2e6fe8cd,GitHub,9bc5ca9e,data/9bc5ca9e/test/2e6fe8cd.json,44,44,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-18724,aed679d2,GitHub,9bc5ca9e,data/9bc5ca9e/test/aed679d2.json,21,21,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-18726,074089db,GitHub,9bc5ca9e,data/9bc5ca9e/test/074089db.json,23,23,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-18727,aed679d2,GitHub,9bc5ca9e,data/9bc5ca9e/test/aed679d2.json,22,22,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-28995,a0a562f6,GitHub,9bc5ca9e,data/9bc5ca9e/test/a0a562f6.json,6,6,Template,F,20,26,F,F,CharsOnly,,,Token,2.25,6,F,F,F,Token
-29042,a0a562f6,GitHub,9bc5ca9e,data/9bc5ca9e/test/a0a562f6.json,3,3,Template,F,15,19,F,F,CharsOnly,,,Secret,0.0,4,F,F,F,Password
-29811,f3788238,GitHub,9bc5ca9e,data/9bc5ca9e/test/f3788238.java,59,59,T,F,37,50,F,F,Any,,,Token,2.95,13,F,F,F,Token
-29819,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,81,81,T,T,53,65,F,F,CharsOnly,,,Secret,3.02,12,F,F,F,Auth:Password
-29820,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,85,85,T,T,55,70,F,F,CharsOnly,,,Secret,3.01,15,F,F,F,Auth:Dropbox App secret:Password
-31445,daf53873,GitHub,9bc5ca9e,data/9bc5ca9e/test/daf53873.java,62,62,Template,F,29,36,F,F,Any,,,Secret,2.12,7,F,F,F,Password
-31531,daf53873,GitHub,9bc5ca9e,data/9bc5ca9e/test/daf53873.java,51,51,Template,T,29,36,F,F,Any,,,Secret,2.52,7,F,F,F,Password
-34061,6126a578,GitHub,9bc5ca9e,data/9bc5ca9e/src/6126a578.java,72,72,T,T,52,68,F,F,Any,,,Secret,2.38,16,F,F,F,Key:Password
-34079,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,91,91,T,F,51,67,F,F,Any,,,Secret,3.62,16,F,F,F,Auth:Password
-34081,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,98,98,T,F,52,62,F,F,Any,,,Secret,2.99,10,F,F,F,Auth:Password
-34827,464980d5,GitHub,9bc5ca9e,data/9bc5ca9e/test/464980d5.json,5,5,T,F,24,60,F,F,Any,,,Token,3.36,36,F,F,F,Token:UUID
-35271,75f53ce4,GitHub,9bc5ca9e,data/9bc5ca9e/test/75f53ce4.pem,1,27,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,PEM Private Key
-35370,0696bef1,GitHub,9bc5ca9e,data/9bc5ca9e/test/0696bef1.key,1,51,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,PEM Private Key
-35503,67753d59,GitHub,9bc5ca9e,data/9bc5ca9e/test/67753d59.pem,1,28,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,PEM Private Key
-35531,6369c1f4,GitHub,9bc5ca9e,data/9bc5ca9e/test/6369c1f4.pem,1,5,T,T,,,F,F,Any,Private,,Unknown,2.45,30,F,F,F,PEM Private Key
-36144,2e6fe8cd,GitHub,9bc5ca9e,data/9bc5ca9e/test/2e6fe8cd.json,43,43,T,F,23,48,F,F,Any,,,Secret,4.16,25,F,F,F,Gitlab Incoming Email Token:Secret
-36205,3696b763,GitHub,9bc5ca9e,data/9bc5ca9e/src/3696b763.java,41,41,T,T,20,27,F,F,Any,,,Secret,2.81,7,F,F,F,Password
-36221,3696b763,GitHub,9bc5ca9e,data/9bc5ca9e/src/3696b763.java,48,48,T,F,20,34,F,F,Any,,,Secret,3.52,14,F,F,F,Password
-46885,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,327,327,F,F,,,F,F,,,,,0,0,F,F,F,Password
-48186,f490aa6c,GitHub,9bc5ca9e,data/9bc5ca9e/test/f490aa6c.java,308,308,F,F,,,F,F,,,,,0,0,F,F,F,Password
-75409,4175aed4,GitHub,9bc5ca9e,data/9bc5ca9e/src/4175aed4.java,211,211,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Credential
-108221,f490aa6c,GitHub,9bc5ca9e,data/9bc5ca9e/test/f490aa6c.java,5168,5168,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-108222,f490aa6c,GitHub,9bc5ca9e,data/9bc5ca9e/test/f490aa6c.java,5209,5209,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-108223,f490aa6c,GitHub,9bc5ca9e,data/9bc5ca9e/test/f490aa6c.java,5210,5210,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-108224,f490aa6c,GitHub,9bc5ca9e,data/9bc5ca9e/test/f490aa6c.java,5211,5211,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-108225,f490aa6c,GitHub,9bc5ca9e,data/9bc5ca9e/test/f490aa6c.java,5212,5212,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-108226,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,331,331,Template,T,34,46,F,F,Any,,,Secret,2.56,12,F,F,F,Secret
-108228,f3788238,GitHub,9bc5ca9e,data/9bc5ca9e/test/f3788238.java,98,98,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-114453,6126a578,GitHub,9bc5ca9e,data/9bc5ca9e/src/6126a578.java,68,68,F,F,,,F,F,,,,,0.00,,F,F,F,Gitlab Feed Token
-114454,6126a578,GitHub,9bc5ca9e,data/9bc5ca9e/src/6126a578.java,69,69,F,F,,,F,F,,,,,0.00,,F,F,F,Certificate
-114455,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,97,97,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-114456,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,326,326,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-131855,27e855cf,GitHub,9bc5ca9e,data/9bc5ca9e/test/27e855cf.json,2,2,T,F,8,-1,F,F,,,,,0.0,-1,F,F,F,Gitlab Incoming Email Token
-131856,27e855cf,GitHub,9bc5ca9e,data/9bc5ca9e/test/27e855cf.json,60,60,T,F,18,-1,F,F,,,,,0.0,-1,F,F,F,Gitlab Incoming Email Token
-131857,27e855cf,GitHub,9bc5ca9e,data/9bc5ca9e/test/27e855cf.json,75,75,T,F,15,-1,F,F,,,,,0.0,-1,F,F,F,Gitlab Incoming Email Token
-131858,27e855cf,GitHub,9bc5ca9e,data/9bc5ca9e/test/27e855cf.json,76,76,T,F,12,-1,F,F,,,,,0.0,-1,F,F,F,Gitlab Incoming Email Token
-131859,27e855cf,GitHub,9bc5ca9e,data/9bc5ca9e/test/27e855cf.json,93,93,T,F,14,-1,F,F,,,,,0.0,-1,F,F,F,Gitlab Incoming Email Token
-1494594,2992f639,GitHub,9bc5ca9e,data/9bc5ca9e/test/2992f639.json,4,4,T,F,15,43,F,F,,,,,0.0,0,F,F,F,Auth
-1494595,5e0d42b8,GitHub,9bc5ca9e,data/9bc5ca9e/test/5e0d42b8,3,3,T,F,15,43,F,F,,,,,0.0,0,F,F,F,Auth
-1494596,8072d732,GitHub,9bc5ca9e,data/9bc5ca9e/test/8072d732.json,4,4,T,F,15,43,F,F,,,,,0.0,0,F,F,F,Auth
-1494597,843d7a91,GitHub,9bc5ca9e,data/9bc5ca9e/test/843d7a91.json,4,4,T,F,15,43,F,F,,,,,0.0,0,F,F,F,Auth
-1494598,843d7a91,GitHub,9bc5ca9e,data/9bc5ca9e/test/843d7a91.json,8,8,T,F,15,39,F,F,,,,,0.0,0,F,F,F,Auth
-1494599,844defb9,GitHub,9bc5ca9e,data/9bc5ca9e/test/844defb9.json,4,4,T,F,15,43,F,F,,,,,0.0,0,F,F,F,Auth
-1494600,953a0981,GitHub,9bc5ca9e,data/9bc5ca9e/test/953a0981.json,4,4,T,F,15,43,F,F,,,,,0.0,0,F,F,F,Auth
-1494601,953a0981,GitHub,9bc5ca9e,data/9bc5ca9e/test/953a0981.json,7,7,T,F,15,43,F,F,,,,,0.0,0,F,F,F,Auth
-1494602,953a0981,GitHub,9bc5ca9e,data/9bc5ca9e/test/953a0981.json,10,10,T,F,15,43,F,F,,,,,0.0,0,F,F,F,Auth
-1494603,a12b5e97,GitHub,9bc5ca9e,data/9bc5ca9e/test/a12b5e97.json,4,4,T,F,15,47,F,F,,,,,0.0,0,F,F,F,Auth
-1494604,e74468e4,GitHub,9bc5ca9e,data/9bc5ca9e/test/e74468e4.json,4,4,T,F,15,43,F,F,,,,,0.0,0,F,F,F,Auth
+Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd,CryptographyKey,PredefinedPattern,Category
+3084,f3788238,GitHub,9bc5ca9e,data/9bc5ca9e/test/f3788238.java,86,86,F,,,,,Token
+9072,4175aed4,GitHub,9bc5ca9e,data/9bc5ca9e/src/4175aed4.java,135,135,F,-1,-1,,,Credential
+13569,6126a578,GitHub,9bc5ca9e,data/9bc5ca9e/src/6126a578.java,70,70,F,-1,-1,,,Key
+14590,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,90,90,F,,,,,Auth
+14603,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,80,80,F,,,,,Auth
+14751,f490aa6c,GitHub,9bc5ca9e,data/9bc5ca9e/test/f490aa6c.java,307,307,F,,,,,Auth
+16007,2e6fe8cd,GitHub,9bc5ca9e,data/9bc5ca9e/test/2e6fe8cd.json,44,44,F,,,,,Secret
+18724,aed679d2,GitHub,9bc5ca9e,data/9bc5ca9e/test/aed679d2.json,21,21,F,-1,-1,,,Other
+18726,074089db,GitHub,9bc5ca9e,data/9bc5ca9e/test/074089db.json,23,23,F,-1,-1,,,Other
+18727,aed679d2,GitHub,9bc5ca9e,data/9bc5ca9e/test/aed679d2.json,22,22,F,-1,-1,,,Other
+28995,a0a562f6,GitHub,9bc5ca9e,data/9bc5ca9e/test/a0a562f6.json,6,6,Template,20,26,,,Token
+29042,a0a562f6,GitHub,9bc5ca9e,data/9bc5ca9e/test/a0a562f6.json,3,3,Template,15,19,,,Password
+29811,f3788238,GitHub,9bc5ca9e,data/9bc5ca9e/test/f3788238.java,59,59,T,37,50,,,Token
+29819,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,81,81,T,53,65,,,Auth:Password
+29820,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,85,85,T,55,70,,,Auth:Dropbox App secret:Password
+31445,daf53873,GitHub,9bc5ca9e,data/9bc5ca9e/test/daf53873.java,62,62,Template,29,36,,,Password
+31531,daf53873,GitHub,9bc5ca9e,data/9bc5ca9e/test/daf53873.java,51,51,Template,29,36,,,Password
+34061,6126a578,GitHub,9bc5ca9e,data/9bc5ca9e/src/6126a578.java,72,72,T,52,68,,,Key:Password
+34079,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,91,91,T,51,67,,,Auth:Password
+34081,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,98,98,T,52,62,,,Auth:Password
+34827,464980d5,GitHub,9bc5ca9e,data/9bc5ca9e/test/464980d5.json,5,5,T,24,60,,,Token:UUID
+35271,75f53ce4,GitHub,9bc5ca9e,data/9bc5ca9e/test/75f53ce4.pem,1,27,T,,,Private,,PEM Private Key
+35370,0696bef1,GitHub,9bc5ca9e,data/9bc5ca9e/test/0696bef1.key,1,51,T,,,Private,,PEM Private Key
+35503,67753d59,GitHub,9bc5ca9e,data/9bc5ca9e/test/67753d59.pem,1,28,T,,,Private,,PEM Private Key
+35531,6369c1f4,GitHub,9bc5ca9e,data/9bc5ca9e/test/6369c1f4.pem,1,5,T,,,Private,,PEM Private Key
+36144,2e6fe8cd,GitHub,9bc5ca9e,data/9bc5ca9e/test/2e6fe8cd.json,43,43,T,23,48,,,Gitlab Incoming Email Token:Secret
+36205,3696b763,GitHub,9bc5ca9e,data/9bc5ca9e/src/3696b763.java,41,41,T,20,27,,,Password
+36221,3696b763,GitHub,9bc5ca9e,data/9bc5ca9e/src/3696b763.java,48,48,T,20,34,,,Password
+46885,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,327,327,F,,,,,Password
+48186,f490aa6c,GitHub,9bc5ca9e,data/9bc5ca9e/test/f490aa6c.java,308,308,F,,,,,Password
+75409,4175aed4,GitHub,9bc5ca9e,data/9bc5ca9e/src/4175aed4.java,211,211,F,-1,-1,,,Credential
+108221,f490aa6c,GitHub,9bc5ca9e,data/9bc5ca9e/test/f490aa6c.java,5168,5168,F,-1,-1,,,Other
+108222,f490aa6c,GitHub,9bc5ca9e,data/9bc5ca9e/test/f490aa6c.java,5209,5209,F,-1,-1,,,Other
+108223,f490aa6c,GitHub,9bc5ca9e,data/9bc5ca9e/test/f490aa6c.java,5210,5210,F,-1,-1,,,Other
+108224,f490aa6c,GitHub,9bc5ca9e,data/9bc5ca9e/test/f490aa6c.java,5211,5211,F,-1,-1,,,Other
+108225,f490aa6c,GitHub,9bc5ca9e,data/9bc5ca9e/test/f490aa6c.java,5212,5212,F,-1,-1,,,Other
+108226,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,331,331,Template,34,46,,,Secret
+108228,f3788238,GitHub,9bc5ca9e,data/9bc5ca9e/test/f3788238.java,98,98,F,,,,,Password
+114453,6126a578,GitHub,9bc5ca9e,data/9bc5ca9e/src/6126a578.java,68,68,F,,,,,Gitlab Feed Token
+114454,6126a578,GitHub,9bc5ca9e,data/9bc5ca9e/src/6126a578.java,69,69,F,,,,,Certificate
+114455,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,97,97,F,,,,,Auth
+114456,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,326,326,F,,,,,Auth
+131855,27e855cf,GitHub,9bc5ca9e,data/9bc5ca9e/test/27e855cf.json,2,2,T,8,-1,,,Gitlab Incoming Email Token
+131856,27e855cf,GitHub,9bc5ca9e,data/9bc5ca9e/test/27e855cf.json,60,60,T,18,-1,,,Gitlab Incoming Email Token
+131857,27e855cf,GitHub,9bc5ca9e,data/9bc5ca9e/test/27e855cf.json,75,75,T,15,-1,,,Gitlab Incoming Email Token
+131858,27e855cf,GitHub,9bc5ca9e,data/9bc5ca9e/test/27e855cf.json,76,76,T,12,-1,,,Gitlab Incoming Email Token
+131859,27e855cf,GitHub,9bc5ca9e,data/9bc5ca9e/test/27e855cf.json,93,93,T,14,-1,,,Gitlab Incoming Email Token
+1494594,2992f639,GitHub,9bc5ca9e,data/9bc5ca9e/test/2992f639.json,4,4,T,15,43,,,Auth
+1494595,5e0d42b8,GitHub,9bc5ca9e,data/9bc5ca9e/test/5e0d42b8,3,3,T,15,43,,,Auth
+1494596,8072d732,GitHub,9bc5ca9e,data/9bc5ca9e/test/8072d732.json,4,4,T,15,43,,,Auth
+1494597,843d7a91,GitHub,9bc5ca9e,data/9bc5ca9e/test/843d7a91.json,4,4,T,15,43,,,Auth
+1494598,843d7a91,GitHub,9bc5ca9e,data/9bc5ca9e/test/843d7a91.json,8,8,T,15,39,,,Auth
+1494599,844defb9,GitHub,9bc5ca9e,data/9bc5ca9e/test/844defb9.json,4,4,T,15,43,,,Auth
+1494600,953a0981,GitHub,9bc5ca9e,data/9bc5ca9e/test/953a0981.json,4,4,T,15,43,,,Auth
+1494601,953a0981,GitHub,9bc5ca9e,data/9bc5ca9e/test/953a0981.json,7,7,T,15,43,,,Auth
+1494602,953a0981,GitHub,9bc5ca9e,data/9bc5ca9e/test/953a0981.json,10,10,T,15,43,,,Auth
+1494603,a12b5e97,GitHub,9bc5ca9e,data/9bc5ca9e/test/a12b5e97.json,4,4,T,15,47,,,Auth
+1494604,e74468e4,GitHub,9bc5ca9e,data/9bc5ca9e/test/e74468e4.json,4,4,T,15,43,,,Auth

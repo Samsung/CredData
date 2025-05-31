@@ -1,16 +1,16 @@
-Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-6518,298592ab,GitHub,489fc16c,data/489fc16c/src/298592ab.yml,4,4,F,F,,,F,F,,,,,0,0,F,F,F,Auth:Key
-10629,92dcc00c,GitHub,489fc16c,data/489fc16c/src/92dcc00c.yml,4,4,F,F,,,F,F,,,,,0,0,F,F,F,Password
-11248,66ee661f,GitHub,489fc16c,data/489fc16c/src/66ee661f.yml,11,11,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-32324,a311b10a,GitHub,489fc16c,data/489fc16c/src/a311b10a.yml,11,11,T,T,13,21,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-32366,a311b10a,GitHub,489fc16c,data/489fc16c/src/a311b10a.yml,41,41,T,F,20,70,F,F,Any,,,Secret,3.69,50,F,F,F,Key:Secret
-34185,c80b8b27,GitHub,489fc16c,data/489fc16c/src/c80b8b27.yml,6,6,T,T,25,33,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-35552,a311b10a,GitHub,489fc16c,data/489fc16c/src/a311b10a.yml,76,103,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,PEM Private Key
-41606,c80b8b27,GitHub,489fc16c,data/489fc16c/src/c80b8b27.yml,10,10,T,T,31,39,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-41607,a311b10a,GitHub,489fc16c,data/489fc16c/src/a311b10a.yml,28,28,T,T,25,33,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-41608,a311b10a,GitHub,489fc16c,data/489fc16c/src/a311b10a.yml,75,75,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-78004,a311b10a,GitHub,489fc16c,data/489fc16c/src/a311b10a.yml,51,70,F,F,,,F,F,,,,,0,0,F,F,F,PEM Private Key
-82753,a311b10a,GitHub,489fc16c,data/489fc16c/src/a311b10a.yml,32,32,T,F,31,39,F,F,,,,,0,0,F,F,F,Password
-131602,65ce5700,GitHub,489fc16c,data/489fc16c/src/65ce5700.yml,12,12,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-1494113,09b87240,GitHub,489fc16c,data/489fc16c/src/09b87240.yml,43,43,T,F,20,70,F,F,,,,,0.0,0,F,F,F,Key:Secret
-1494794,09b87240,GitHub,489fc16c,data/489fc16c/src/09b87240.yml,82,109,T,F,2,27,F,F,,,,,0.0,0,F,F,F,PEM Private Key
+Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd,CryptographyKey,PredefinedPattern,Category
+6518,298592ab,GitHub,489fc16c,data/489fc16c/src/298592ab.yml,4,4,F,,,,,Auth:Key
+10629,92dcc00c,GitHub,489fc16c,data/489fc16c/src/92dcc00c.yml,4,4,F,,,,,Password
+11248,66ee661f,GitHub,489fc16c,data/489fc16c/src/66ee661f.yml,11,11,F,-1,-1,,,Key
+32324,a311b10a,GitHub,489fc16c,data/489fc16c/src/a311b10a.yml,11,11,T,13,21,,,Password
+32366,a311b10a,GitHub,489fc16c,data/489fc16c/src/a311b10a.yml,41,41,T,20,70,,,Key:Secret
+34185,c80b8b27,GitHub,489fc16c,data/489fc16c/src/c80b8b27.yml,6,6,T,25,33,,,Password
+35552,a311b10a,GitHub,489fc16c,data/489fc16c/src/a311b10a.yml,76,103,T,,,Private,,PEM Private Key
+41606,c80b8b27,GitHub,489fc16c,data/489fc16c/src/c80b8b27.yml,10,10,T,31,39,,,Password
+41607,a311b10a,GitHub,489fc16c,data/489fc16c/src/a311b10a.yml,28,28,T,25,33,,,Password
+41608,a311b10a,GitHub,489fc16c,data/489fc16c/src/a311b10a.yml,75,75,F,-1,-1,,,Other
+78004,a311b10a,GitHub,489fc16c,data/489fc16c/src/a311b10a.yml,51,70,F,,,,,PEM Private Key
+82753,a311b10a,GitHub,489fc16c,data/489fc16c/src/a311b10a.yml,32,32,T,31,39,,,Password
+131602,65ce5700,GitHub,489fc16c,data/489fc16c/src/65ce5700.yml,12,12,F,,,,,Password
+1494113,09b87240,GitHub,489fc16c,data/489fc16c/src/09b87240.yml,43,43,T,20,70,,,Key:Secret
+1494794,09b87240,GitHub,489fc16c,data/489fc16c/src/09b87240.yml,82,109,T,2,27,,,PEM Private Key

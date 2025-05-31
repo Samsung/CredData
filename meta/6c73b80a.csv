@@ -1,820 +1,820 @@
-Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-350,fe3d3d63,GitHub,6c73b80a,data/6c73b80a/src/fe3d3d63.go,36,36,F,F,,,F,F,,,,,0,0,F,F,F,API
-933,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,1067,1067,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-1049,8bf97fa3,GitHub,6c73b80a,data/6c73b80a/test/8bf97fa3.go,117,117,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-1807,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2469,2469,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Credential
-1809,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2429,2429,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Credential
-1893,ef6be3a4,GitHub,6c73b80a,data/6c73b80a/src/ef6be3a4.go,2239,2239,F,F,,,F,F,,,,,0,0,F,F,F,Password
-2487,9c075c47,GitHub,6c73b80a,data/6c73b80a/src/9c075c47.go,37,37,F,F,,,F,F,,,,,0,0,F,F,F,API
-2514,9c075c47,GitHub,6c73b80a,data/6c73b80a/src/9c075c47.go,40,40,F,F,,,F,F,,,,,0,0,F,F,F,API
-2780,ef6be3a4,GitHub,6c73b80a,data/6c73b80a/src/ef6be3a4.go,2345,2345,F,F,,,F,F,,,,,0,0,F,F,F,Password
-4919,6460c9a4,GitHub,6c73b80a,data/6c73b80a/src/6460c9a4.go,2288,2288,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-5057,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,4974,4974,F,F,,,F,F,,,,,0,0,F,F,F,Token
-5491,a6b9351b,GitHub,6c73b80a,data/6c73b80a/src/a6b9351b.go,609,609,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-5568,6460c9a4,GitHub,6c73b80a,data/6c73b80a/src/6460c9a4.go,2522,2522,F,F,,,F,F,,,,,0,0,F,F,F,Password
-6103,7ef2fc1d,GitHub,6c73b80a,data/6c73b80a/src/7ef2fc1d.go,540,540,F,F,,,F,F,,,,,0,0,F,F,F,Password
-7111,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,7153,7153,T,F,53,60,F,F,Any,,,Secret,2.12,7,F,F,F,Password
-7428,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,2381,2381,F,F,,,F,F,,,,,0,0,F,F,F,Token
-7429,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,2382,2382,F,F,,,F,F,,,,,0,0,F,F,F,Token
-7506,ef6be3a4,GitHub,6c73b80a,data/6c73b80a/src/ef6be3a4.go,2346,2346,F,F,,,F,F,,,,,0,0,F,F,F,Password
-7509,69abb428,GitHub,6c73b80a,data/6c73b80a/test/69abb428.go,810,810,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-7680,ed44e472,GitHub,6c73b80a,data/6c73b80a/src/ed44e472.go,48,48,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-7747,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,110,110,F,F,,,F,F,,,,,0,0,F,F,F,Token
-7855,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,1463,1463,F,F,,,F,F,,,,,0,0,F,F,F,Token
-7959,7f0ec905,GitHub,6c73b80a,data/6c73b80a/src/7f0ec905.conf,5,5,F,F,,,F,F,,,,,0,0,F,F,F,Token
-8142,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1216,1216,F,F,,,F,F,,,,,0,0,F,F,F,Token
-8227,ada0599e,GitHub,6c73b80a,data/6c73b80a/test/ada0599e.go,1880,1880,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-8228,ada0599e,GitHub,6c73b80a,data/6c73b80a/test/ada0599e.go,1843,1843,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-8229,ada0599e,GitHub,6c73b80a,data/6c73b80a/test/ada0599e.go,1822,1822,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-8573,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,734,734,F,F,,,F,F,,,,,0,0,F,F,F,Token
-8745,78f42ba4,GitHub,6c73b80a,data/6c73b80a/src/78f42ba4.go,761,761,F,F,,,F,F,,,,,0,0,F,F,F,Password
-8793,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2767,2767,F,F,,,F,F,,,,,0,0,F,F,F,Seed
-9154,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,2762,2762,F,F,,,F,F,,,,,0,0,F,F,F,Token
-9227,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,5249,5249,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-9257,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,781,781,F,F,,,F,F,,,,,0,0,F,F,F,Token
-9823,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,756,756,T,T,46,51,F,F,CharOnly,,,Secret,2.32,5,F,F,F,Password
-9935,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,3014,3014,T,T,26,31,F,F,CharOnly,,,Secret,2.32,5,F,F,F,Password
-9951,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,3013,3013,T,T,26,31,F,F,CharOnly,,,Secret,2.32,5,F,F,F,Password
-9952,6e07527d,GitHub,6c73b80a,data/6c73b80a/src/6e07527d.conf,6,6,F,F,,,F,F,,,,,0,0,F,F,F,Password
-10003,7ef2fc1d,GitHub,6c73b80a,data/6c73b80a/src/7ef2fc1d.go,1068,1068,F,F,,,F,F,,,,,0,0,F,F,F,Password
-10014,69abb428,GitHub,6c73b80a,data/6c73b80a/test/69abb428.go,10727,10727,F,F,,,F,F,,,,,0,0,F,F,F,Password
-10015,08d7456f,GitHub,6c73b80a,data/6c73b80a/test/08d7456f.conf,20,20,F,F,,,F,F,,,,,0,0,F,F,F,Password
-10016,08d7456f,GitHub,6c73b80a,data/6c73b80a/test/08d7456f.conf,19,19,F,F,,,F,F,,,,,0,0,F,F,F,Password
-10017,0fd3e5cb,GitHub,6c73b80a,data/6c73b80a/test/0fd3e5cb.conf,23,23,F,F,,,F,F,,,,,0,0,F,F,F,Password
-10018,0fd3e5cb,GitHub,6c73b80a,data/6c73b80a/test/0fd3e5cb.conf,24,24,F,F,,,F,F,,,,,0,0,F,F,F,Password
-10019,08d7456f,GitHub,6c73b80a,data/6c73b80a/test/08d7456f.conf,17,17,F,F,,,F,F,,,,,0,0,F,F,F,Password
-10020,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,3538,3538,F,F,,,F,F,,,,,0,0,F,F,F,Password
-10021,0fd3e5cb,GitHub,6c73b80a,data/6c73b80a/test/0fd3e5cb.conf,17,17,F,F,,,F,F,,,,,0,0,F,F,F,Password
-10022,08d7456f,GitHub,6c73b80a,data/6c73b80a/test/08d7456f.conf,15,15,F,F,,,F,F,,,,,0,0,F,F,F,Password
-10023,d59cf806,GitHub,6c73b80a,data/6c73b80a/test/d59cf806.go,343,343,F,F,,,F,F,,,,,0,0,F,F,F,Password
-10024,bb6ee9bd,GitHub,6c73b80a,data/6c73b80a/src/bb6ee9bd.conf,35,35,Template,T,28,31,F,F,Any,,,Secret,2.85,32,F,F,F,Password
-10025,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,426,426,F,F,,,F,F,,,,,0,0,F,F,F,Password
-10026,0fd3e5cb,GitHub,6c73b80a,data/6c73b80a/test/0fd3e5cb.conf,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Password
-10027,08d7456f,GitHub,6c73b80a,data/6c73b80a/test/08d7456f.conf,13,13,F,F,,,F,F,,,,,0,0,F,F,F,Password
-10028,d59cf806,GitHub,6c73b80a,data/6c73b80a/test/d59cf806.go,342,342,F,F,,,F,F,,,,,0,0,F,F,F,Password
-10029,6e07527d,GitHub,6c73b80a,data/6c73b80a/src/6e07527d.conf,7,7,F,F,,,F,F,,,,,0,0,F,F,F,Password
-10030,08d7456f,GitHub,6c73b80a,data/6c73b80a/test/08d7456f.conf,18,18,F,F,,,F,F,,,,,0,0,F,F,F,Password
-10031,08d7456f,GitHub,6c73b80a,data/6c73b80a/test/08d7456f.conf,14,14,F,F,,,F,F,,,,,0,0,F,F,F,Password
-10033,0fd3e5cb,GitHub,6c73b80a,data/6c73b80a/test/0fd3e5cb.conf,9,9,F,F,,,F,F,,,,,0,0,F,F,F,Password
-10034,08d7456f,GitHub,6c73b80a,data/6c73b80a/test/08d7456f.conf,12,12,F,F,,,F,F,,,,,0,0,F,F,F,Password
-10035,d59cf806,GitHub,6c73b80a,data/6c73b80a/test/d59cf806.go,341,341,F,F,,,F,F,,,,,0,0,F,F,F,Password
-10848,47a228cb,GitHub,6c73b80a,data/6c73b80a/test/47a228cb.go,37,37,F,F,,,F,F,,,,,0,0,F,F,F,Seed
-10873,47a228cb,GitHub,6c73b80a,data/6c73b80a/test/47a228cb.go,40,40,F,F,,,F,F,,,,,0,0,F,F,F,Seed
-10886,1eb6d192,GitHub,6c73b80a,data/6c73b80a/test/1eb6d192.go,38,38,F,F,,,F,F,,,,,0,0,F,F,F,Seed
-11066,f1bada03,GitHub,6c73b80a,data/6c73b80a/test/f1bada03.go,3964,3964,F,F,,,F,F,,,,,0,0,F,F,F,Password
-11068,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,977,977,F,F,,,F,F,,,,,0,0,F,F,F,Password
-11070,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1803,1803,F,F,,,F,F,,,,,0,0,F,F,F,Password
-11091,81d92a1a,GitHub,6c73b80a,data/6c73b80a/test/81d92a1a.go,33,33,F,F,,,F,F,,,,,0,0,F,F,F,Password
-11760,69abb428,GitHub,6c73b80a,data/6c73b80a/test/69abb428.go,10730,10730,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-11761,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2869,2869,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-11762,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,429,429,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-11886,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,41,41,F,F,,,F,F,,,,,0,0,F,F,F,Seed
-11893,94ae447a,GitHub,6c73b80a,data/6c73b80a/src/94ae447a.go,961,961,F,F,,,F,F,,,,,0,0,F,F,F,Token
-11894,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,726,726,F,F,,,F,F,,,,,0,0,F,F,F,Password
-12250,c8af9dd7,GitHub,6c73b80a,data/6c73b80a/src/c8af9dd7.go,2274,2274,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-12253,a6c11edd,GitHub,6c73b80a,data/6c73b80a/src/a6c11edd.go,1679,1679,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-12254,c8af9dd7,GitHub,6c73b80a,data/6c73b80a/src/c8af9dd7.go,2271,2271,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-13625,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,2763,2763,F,F,,,F,F,,,,,0,0,F,F,F,Token
-14355,1eb6d192,GitHub,6c73b80a,data/6c73b80a/test/1eb6d192.go,53,53,F,F,,,F,F,,,,,0,0,F,F,F,Password
-14356,8bf97fa3,GitHub,6c73b80a,data/6c73b80a/test/8bf97fa3.go,123,123,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-14361,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,3851,3851,F,F,,,F,F,,,,,0,0,F,F,F,Password
-14363,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,562,562,F,F,,,F,F,,,,,0,0,F,F,F,Password
-14410,7ef2fc1d,GitHub,6c73b80a,data/6c73b80a/src/7ef2fc1d.go,438,438,F,F,,,F,F,,,,,0,0,F,F,F,Password
-14414,7ef2fc1d,GitHub,6c73b80a,data/6c73b80a/src/7ef2fc1d.go,413,413,F,F,,,F,F,,,,,0,0,F,F,F,Password
-14443,7ef2fc1d,GitHub,6c73b80a,data/6c73b80a/src/7ef2fc1d.go,426,426,F,F,,,F,F,,,,,0,0,F,F,F,Password
-14512,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,3554,3554,F,F,,,F,F,,,,,0,0,F,F,F,Password
-14513,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1117,1117,T,T,16,22,F,F,CharOnly,,,Secret,2.58,6,F,F,F,Password
-17758,083a78c6,GitHub,6c73b80a,data/6c73b80a/other/083a78c6.md,45,45,F,F,,,F,F,,,,,0,0,F,F,F,Seed
-21408,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,3275,3275,T,F,44,51,F,F,Any,,,Secret,2.12,7,F,F,F,Password
-22910,8705fea4,GitHub,6c73b80a,data/6c73b80a/src/8705fea4.go,327,327,F,F,,,F,F,,,,,0,0,F,F,F,Certificate
-23004,929e895f,GitHub,6c73b80a,data/6c73b80a/src/929e895f.go,37,37,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-23048,f177105c,GitHub,6c73b80a,data/6c73b80a/other/f177105c.md,134,134,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-23058,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,4957,4957,F,F,,,F,F,,,,,0,0,F,F,F,API
-23060,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,4794,4794,F,F,,,F,F,,,,,0,0,F,F,F,API
-23201,8705fea4,GitHub,6c73b80a,data/6c73b80a/src/8705fea4.go,846,846,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-23343,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2445,2445,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Credential
-23708,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,4851,4851,F,F,,,F,F,,,,,0,0,F,F,F,API
-23709,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,6915,6915,F,F,,,F,F,,,,,0,0,F,F,F,API
-23943,e3589b0d,GitHub,6c73b80a,data/6c73b80a/src/e3589b0d.go,33,33,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-24284,6460c9a4,GitHub,6c73b80a,data/6c73b80a/src/6460c9a4.go,1172,1172,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-24317,9c075c47,GitHub,6c73b80a,data/6c73b80a/src/9c075c47.go,42,42,F,F,,,F,F,,,,,0,0,F,F,F,API
-24621,6460c9a4,GitHub,6c73b80a,data/6c73b80a/src/6460c9a4.go,737,737,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-24665,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,6210,6210,F,F,,,F,F,,,,,0,0,F,F,F,API
-24666,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,6384,6384,F,F,,,F,F,,,,,0,0,F,F,F,API
-24667,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,6380,6380,F,F,,,F,F,,,,,0,0,F,F,F,API
-24669,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,6065,6065,F,F,,,F,F,,,,,0,0,F,F,F,API
-24670,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,6180,6180,F,F,,,F,F,,,,,0,0,F,F,F,API
-24676,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,6026,6026,F,F,,,F,F,,,,,0,0,F,F,F,API
-24860,9418d4fb,GitHub,6c73b80a,data/6c73b80a/src/9418d4fb.go,1606,1606,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-25158,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,737,737,T,T,48,53,F,F,Any,,,Secret,2.32,5,F,F,F,Password
-25348,6460c9a4,GitHub,6c73b80a,data/6c73b80a/src/6460c9a4.go,2121,2121,F,F,,,F,F,,,,,0,0,F,F,F,Password
-26181,6c46bf4a,GitHub,6c73b80a,data/6c73b80a/src/6c46bf4a.go,247,247,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-26187,932778a5,GitHub,6c73b80a,data/6c73b80a/src/932778a5.go,288,288,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-26353,6460c9a4,GitHub,6c73b80a,data/6c73b80a/src/6460c9a4.go,1676,1676,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-26373,c8af9dd7,GitHub,6c73b80a,data/6c73b80a/src/c8af9dd7.go,882,882,F,F,,,F,F,,,,,0,0,F,F,F,Password
-27330,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,2837,2837,Template,F,36,39,F,F,Any,,,Secret,0.92,3,F,F,F,Password
-27331,69abb428,GitHub,6c73b80a,data/6c73b80a/test/69abb428.go,10436,10436,Template,F,35,38,F,F,Any,,,Secret,0.92,3,F,F,F,Password
-27332,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,273,273,T,F,39,45,F,F,Any,,,Secret,2.0,8,F,F,F,Password
-27334,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,277,277,T,F,39,45,F,F,Any,,,Secret,2.0,8,F,F,F,Password
-27344,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1799,1799,Template,T,38,46,F,F,Any,,,Secret,2.75,8,F,F,F,Password
-27384,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,920,920,Template,F,26,32,F,F,Any,,,Token,2.25,6,F,F,F,Token
-27752,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,592,592,T,T,47,52,F,F,Any,,,Secret,2.32,5,F,F,F,Password
-27926,f1bada03,GitHub,6c73b80a,data/6c73b80a/test/f1bada03.go,3826,3826,Template,F,52,55,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-27947,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,4479,4479,Template,T,26,30,F,F,CharsOnly,,,Secret,1.5,4,F,F,F,Password
-27957,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,570,570,Template,T,26,33,F,F,Any,,,Secret,2.01,7,F,F,F,Password
-27963,e4efd21e,GitHub,6c73b80a,data/6c73b80a/src/e4efd21e.conf,47,47,Template,T,28,30,F,F,Any,,,Secret,1.0,2,F,F,F,Password
-27967,95b298e5,GitHub,6c73b80a,data/6c73b80a/src/95b298e5.conf,31,31,T,T,26,33,F,F,Any,,,Secret,2.81,7,F,F,F,Password
-28034,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,425,425,Template,T,30,33,F,F,Any,,,Secret,0.92,3,F,F,F,Password
-28865,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,1462,1462,Template,F,16,19,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-29095,cb4307f8,GitHub,6c73b80a,data/6c73b80a/test/cb4307f8.go,78,78,Template,T,20,30,F,F,Any,,,Secret,2.59,10,F,F,F,Password
-29101,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,139,139,Template,F,16,19,F,F,CharsOnly,,,Secret,0.92,3,F,F,F,Password
-29104,e1e39b80,GitHub,6c73b80a,data/6c73b80a/test/e1e39b80.go,1861,1861,Template,F,18,21,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-29105,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,357,357,Template,T,17,27,F,F,Any,,,Secret,2.59,10,F,F,F,Password
-29110,91de30fa,GitHub,6c73b80a,data/6c73b80a/test/91de30fa.go,113,113,Template,F,27,30,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-29123,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1283,1283,Template,F,54,57,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-29128,f1bada03,GitHub,6c73b80a,data/6c73b80a/test/f1bada03.go,3658,3658,Template,F,50,53,T,F,CharsOnly,,,Secret,1.58,3,F,F,F,URL Credentials
-29135,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,520,520,T,F,14,70,F,F,Any,,,Unknown,4.55,56,F,F,F,Key
-29137,7f0ec905,GitHub,6c73b80a,data/6c73b80a/src/7f0ec905.conf,36,36,T,F,12,68,F,F,Any,,,Unknown,4.54,56,F,F,F,Key
-29138,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,545,545,T,F,18,74,F,F,Any,,,Unknown,4.67,56,F,F,F,Key
-29153,91de30fa,GitHub,6c73b80a,data/6c73b80a/test/91de30fa.go,28,28,Template,F,13,16,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-29172,6a77588c,GitHub,6c73b80a,data/6c73b80a/test/6a77588c.conf,21,21,Template,F,21,24,T,F,CharsOnly,,,Secret,1.58,3,F,F,F,URL Credentials
-29173,d59cf806,GitHub,6c73b80a,data/6c73b80a/test/d59cf806.go,227,227,Template,F,21,24,T,F,CharsOnly,,,Secret,1.58,3,F,F,F,URL Credentials
-29175,d59cf806,GitHub,6c73b80a,data/6c73b80a/test/d59cf806.go,228,228,Template,F,21,24,T,F,CharsOnly,,,Secret,1.58,3,F,F,F,URL Credentials
-29181,d1df8c34,GitHub,6c73b80a,data/6c73b80a/src/d1df8c34.conf,27,27,Template,F,23,26,T,F,CharsOnly,,,Secret,1.58,3,F,F,F,URL Credentials
-29182,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2032,2032,Template,F,23,26,T,F,CharsOnly,,,Secret,1.58,3,F,F,F,URL Credentials
-29183,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2016,2016,Template,F,23,26,T,F,CharsOnly,,,Secret,1.58,3,F,F,F,URL Credentials
-29184,b78f1942,GitHub,6c73b80a,data/6c73b80a/test/b78f1942.conf,21,21,T,T,23,33,T,F,Any,,,Secret,2.59,10,F,F,F,URL Credentials
-29185,a0ebfc5c,GitHub,6c73b80a,data/6c73b80a/test/a0ebfc5c.conf,20,20,T,T,23,33,T,F,Any,,,Secret,2.59,10,F,F,F,URL Credentials
-29186,6a77588c,GitHub,6c73b80a,data/6c73b80a/test/6a77588c.conf,20,20,Template,F,21,24,T,F,CharsOnly,,,Secret,1.58,3,F,F,F,URL Credentials
-29187,c28815c0,GitHub,6c73b80a,data/6c73b80a/src/c28815c0.conf,31,31,Template,F,21,24,T,F,CharsOnly,,,Secret,1.58,3,F,F,F,URL Credentials
-29188,c28815c0,GitHub,6c73b80a,data/6c73b80a/src/c28815c0.conf,30,30,Template,F,21,24,T,F,CharsOnly,,,Secret,1.58,3,F,F,F,URL Credentials
-29197,893086b1,GitHub,6c73b80a,data/6c73b80a/src/893086b1.conf,20,20,T,T,23,33,T,F,Any,,,Secret,2.59,10,F,F,F,URL Credentials
-29207,c2c3c972,GitHub,6c73b80a,data/6c73b80a/src/c2c3c972.conf,20,20,T,T,23,33,T,F,Any,,,Secret,2.59,10,F,F,F,URL Credentials
-29208,296de483,GitHub,6c73b80a,data/6c73b80a/src/296de483.conf,10,10,Template,F,23,26,T,F,CharsOnly,,,Secret,0.92,3,F,F,F,URL Credentials
-29209,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,4161,4161,F,F,,,F,F,,,,,0,0,F,F,F,Password
-29230,f1bada03,GitHub,6c73b80a,data/6c73b80a/test/f1bada03.go,3988,3988,F,F,,,T,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-29241,f1bada03,GitHub,6c73b80a,data/6c73b80a/test/f1bada03.go,3651,3651,Template,F,50,53,T,F,CharsOnly,,,Secret,1.58,3,F,F,F,URL Credentials
-29329,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,903,903,Template,F,24,27,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-29330,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,1671,1671,Template,F,68,71,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-29332,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,5116,5116,Template,F,51,54,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-29336,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,5131,5131,Template,F,51,54,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-29345,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,1536,1536,Template,T,24,31,F,F,CharsOnly,,,Token,2.81,7,F,F,F,Token
-29346,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3307,3307,Template,F,49,52,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-29347,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,336,336,Template,F,50,53,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-29363,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,344,344,Template,T,19,26,F,F,CharsOnly,,,Token,2.81,7,F,F,F,Token
-29367,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,5110,5110,Template,F,50,53,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-29386,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,571,571,Template,F,86,89,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-29399,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1567,1567,F,F,,,T,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-29456,f1bada03,GitHub,6c73b80a,data/6c73b80a/test/f1bada03.go,2823,2823,Template,F,32,35,T,F,CharsOnly,,,Secret,1.58,3,F,F,F,URL Credentials
-29458,f1bada03,GitHub,6c73b80a,data/6c73b80a/test/f1bada03.go,2650,2650,Template,F,33,36,T,F,CharsOnly,,,Secret,1.58,3,F,F,F,URL Credentials
-29459,e1e39b80,GitHub,6c73b80a,data/6c73b80a/test/e1e39b80.go,1864,1864,Template,F,44,47,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-29467,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,4248,4248,Template,F,20,23,T,F,CharsOnly,,,Secret,1.58,3,F,F,F,URL Credentials
-29468,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,442,442,Template,F,21,24,T,F,CharsOnly,,,Secret,1.58,3,F,F,F,URL Credentials
-29539,c7271062,GitHub,6c73b80a,data/6c73b80a/test/c7271062.go,189,189,Template,T,27,36,F,F,Any,,,Secret,2.6,9,F,F,F,Password
-29585,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,693,693,Template,F,31,34,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-29586,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,694,694,Template,F,31,34,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-29587,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,4179,4179,Template,T,25,28,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-29588,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,574,574,Template,F,34,37,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-29589,b9fae90a,GitHub,6c73b80a,data/6c73b80a/src/b9fae90a.conf,5,5,Template,F,30,33,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-29590,95b298e5,GitHub,6c73b80a,data/6c73b80a/src/95b298e5.conf,30,30,Template,T,28,31,F,F,Any,,,Secret,0.92,3,F,F,F,Password
-29591,1eb6d192,GitHub,6c73b80a,data/6c73b80a/test/1eb6d192.go,212,212,Template,F,32,35,F,F,Any,,,Secret,0.92,3,F,F,F,Password
-29592,59a54067,GitHub,6c73b80a,data/6c73b80a/test/59a54067.go,1327,1327,Template,F,30,33,F,F,Any,,,Secret,0.92,3,F,F,F,Password
-29593,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,692,692,Template,F,31,34,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-29594,35b59241,GitHub,6c73b80a,data/6c73b80a/test/35b59241.go,2224,2224,F,F,,,F,F,Any,,,Secret,0.0,1,F,F,F,Password
-29603,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2563,2563,Template,F,26,29,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-29606,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3343,3343,Template,F,38,41,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-29615,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3344,3344,Template,F,36,39,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-29621,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1418,1418,Template,F,40,43,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-29622,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1419,1419,Template,F,38,41,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-29623,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3341,3341,Template,F,36,39,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-29624,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3342,3342,Template,F,34,37,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-29632,36165432,GitHub,6c73b80a,data/6c73b80a/src/36165432.conf,6,6,Template,F,30,33,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-29633,59a54067,GitHub,6c73b80a,data/6c73b80a/test/59a54067.go,1328,1328,Template,F,30,33,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-29634,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,518,518,Template,F,32,35,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-29635,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2052,2052,Template,F,28,31,F,F,Any,,,Secret,0.92,3,F,F,F,Password
-29638,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,523,523,Template,F,34,37,F,F,Any,,,Secret,0.92,3,F,F,F,Password
-29641,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2890,2890,Template,T,27,30,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-29643,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2045,2045,Template,F,26,29,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-29644,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,524,524,Template,F,33,36,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-29645,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,427,427,Template,F,30,33,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-29646,e4efd21e,GitHub,6c73b80a,data/6c73b80a/src/e4efd21e.conf,48,48,Template,T,28,31,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-29647,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2557,2557,Template,F,26,29,F,F,Any,,,Secret,0.92,3,F,F,F,Password
-29650,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2569,2569,Template,F,26,29,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-29652,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,331,331,Template,F,39,49,F,F,Any,,,Secret,2.26,10,F,F,F,Password
-29672,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,989,989,Template,F,30,33,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-29673,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1009,1009,Template,F,34,37,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-29680,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,3118,3118,Template,T,23,26,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-29698,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,4185,4185,Template,F,37,40,T,F,CharsOnly,,,SeedSalt,1.58,3,F,F,F,Password
-29732,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,6446,6446,T,T,34,42,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-29735,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1010,1010,Template,F,35,38,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-29743,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3222,3222,Template,F,48,51,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-29744,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1207,1207,F,F,,,F,F,,,,,0,0,F,F,F,Password
-29745,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,2953,2953,Template,F,40,43,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-29746,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2882,2882,Template,F,34,37,F,F,Any,,,Secret,0.92,3,F,F,F,Password
-29747,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,3084,3084,Template,F,33,36,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-29748,81d92a1a,GitHub,6c73b80a,data/6c73b80a/test/81d92a1a.go,582,582,Template,T,39,42,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-29749,69abb428,GitHub,6c73b80a,data/6c73b80a/test/69abb428.go,10449,10449,Template,F,35,38,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-29750,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,4163,4163,Template,T,33,36,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-29751,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,4167,4167,Template,T,33,36,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-29752,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,4241,4241,Template,T,33,36,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-29759,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,990,990,Template,F,31,34,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-29850,c28815c0,GitHub,6c73b80a,data/6c73b80a/src/c28815c0.conf,21,21,Template,T,14,24,F,F,Any,,,Secret,2.59,10,F,F,F,Password
-29899,dfcea5cc,GitHub,6c73b80a,data/6c73b80a/test/dfcea5cc.conf,21,21,Template,F,12,15,F,F,CharsOnly,,,Secret,0.92,3,F,F,F,Password
-29900,347013b4,GitHub,6c73b80a,data/6c73b80a/src/347013b4.conf,12,12,Template,F,14,17,F,F,CharsOnly,,,Secret,0.92,3,F,F,F,Password
-29901,28b5b2e9,GitHub,6c73b80a,data/6c73b80a/src/28b5b2e9.conf,28,28,T,T,12,18,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
-29902,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1301,1301,Template,F,31,34,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-29910,d59cf806,GitHub,6c73b80a,data/6c73b80a/test/d59cf806.go,216,216,Template,T,14,24,F,F,Any,,,Secret,2.59,10,F,F,F,Password
-29911,a0ebfc5c,GitHub,6c73b80a,data/6c73b80a/test/a0ebfc5c.conf,11,11,Template,T,14,24,F,F,Any,,,Secret,2.59,10,F,F,F,Password
-30072,cb4307f8,GitHub,6c73b80a,data/6c73b80a/test/cb4307f8.go,87,87,Template,F,38,41,T,F,CharsOnly,,,Secret,1.58,3,F,F,F,URL Credentials
-30082,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,379,379,T,T,34,44,T,F,Any,,,Secret,2.59,10,F,F,F,URL Credentials
-30083,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,421,421,T,T,80,90,T,F,Any,,,Secret,2.59,10,F,F,F,URL Credentials
-30091,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,345,345,T,T,34,44,T,F,Any,,,Secret,2.59,10,F,F,F,URL Credentials
-30095,cb4307f8,GitHub,6c73b80a,data/6c73b80a/test/cb4307f8.go,88,88,Template,F,38,41,T,F,CharsOnly,,,Secret,1.58,3,F,F,F,URL Credentials
-30483,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,6432,6432,T,T,44,52,F,F,Any,,,Secret,2.46,10,F,F,F,Password
-30533,5c10b961,GitHub,6c73b80a,data/6c73b80a/test/5c10b961.go,111,111,F,F,,,T,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-30537,f1bada03,GitHub,6c73b80a,data/6c73b80a/test/f1bada03.go,3850,3850,Template,F,46,49,T,F,CharsOnly,,,Secret,1.58,3,F,F,F,URL Credentials
-30741,91de30fa,GitHub,6c73b80a,data/6c73b80a/test/91de30fa.go,38,38,Template,F,19,22,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-30742,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1293,1293,Template,F,28,31,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-30786,8bf97fa3,GitHub,6c73b80a,data/6c73b80a/test/8bf97fa3.go,118,118,Template,F,19,25,F,F,CharsOnly,,,Auth,2.25,6,F,F,F,Auth:Password
-30787,8bf97fa3,GitHub,6c73b80a,data/6c73b80a/test/8bf97fa3.go,53,53,Template,F,20,27,F,F,Any,,,Token,1.43,7,F,F,F,Auth:Token
-30918,e1e39b80,GitHub,6c73b80a,data/6c73b80a/test/e1e39b80.go,536,536,F,F,93,99,F,F,Any,,,Token,1.46,6,F,F,F,Token
-30919,e1e39b80,GitHub,6c73b80a,data/6c73b80a/test/e1e39b80.go,521,521,F,F,115,118,F,F,CharsOnly,,,Secret,0.92,3,F,F,F,Password
-30920,e1e39b80,GitHub,6c73b80a,data/6c73b80a/test/e1e39b80.go,506,506,F,F,115,118,F,F,CharsOnly,,,Secret,0.92,3,F,F,F,Password
-31465,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1566,1566,T,T,48,58,T,F,Any,,,Secret,2.59,10,F,F,F,URL Credentials
-31534,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1189,1189,Template,T,26,30,F,F,Any,,,Secret,1.5,4,F,F,F,Password
-32179,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,591,591,T,T,47,52,F,F,Any,,,Secret,2.32,5,F,F,F,Password
-32183,69abb428,GitHub,6c73b80a,data/6c73b80a/test/69abb428.go,10648,10648,Template,F,38,41,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-32417,8bf97fa3,GitHub,6c73b80a,data/6c73b80a/test/8bf97fa3.go,173,173,T,F,26,48,F,F,CharsOnly,,,Auth,2.66,22,F,F,F,Auth:Password
-32418,8bf97fa3,GitHub,6c73b80a,data/6c73b80a/test/8bf97fa3.go,208,208,T,F,27,49,F,F,Any,,,Token,4.17,22,F,F,F,Auth:Token
-32419,8bf97fa3,GitHub,6c73b80a,data/6c73b80a/test/8bf97fa3.go,209,209,T,F,32,92,F,F,Any,,,Token,4.93,60,F,F,F,Auth:Token
-32432,adb4a090,GitHub,6c73b80a,data/6c73b80a/test/adb4a090.go,65,65,T,F,19,79,F,F,Any,,,Token,4.84,60,F,F,F,Token
-32464,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,3801,3801,T,T,39,47,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-32584,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,3622,3622,T,T,37,45,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-32585,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,6053,6053,T,T,39,47,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-32596,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,4377,4377,T,T,38,46,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-32597,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,2150,2150,F,F,34,39,F,F,,,,,0.0,0,F,F,F,Password
-32609,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,325,325,T,F,21,28,F,F,Any,,,Secret,2.52,7,F,F,F,Password
-32664,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,4386,4386,T,T,38,46,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-32665,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,4508,4508,T,T,41,49,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-32668,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,3631,3631,T,T,37,45,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-32669,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,5381,5381,T,T,40,48,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-32670,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,6063,6063,T,T,39,47,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-32671,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,3830,3830,T,T,36,44,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-32672,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,5389,5389,T,T,39,47,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-32673,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,2151,2151,F,F,34,39,F,F,,,,,0.0,0,F,F,F,Password
-33712,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2407,2407,T,F,16,23,F,F,Any,,,Secret,2.12,7,F,F,F,Password
-33713,cb4307f8,GitHub,6c73b80a,data/6c73b80a/test/cb4307f8.go,71,71,T,T,16,24,F,F,CharsOnly,,,Secret,2.5,8,F,F,F,Password
-33730,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,3685,3685,Template,T,14,18,F,F,CharsOnly,,,Secret,1.5,4,F,F,F,Password
-33770,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,101,101,T,T,26,34,F,F,CharsOnly,,,Secret,2.5,8,F,F,F,Password
-33801,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1177,1177,F,T,45,49,F,F,Any,,,Secret,1.25,8,F,F,F,Password
-33820,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,736,736,T,T,48,53,F,F,Any,,,Secret,2.32,5,F,F,F,Password
-33841,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,686,686,T,T,49,54,F,F,Any,,,Secret,2.32,5,F,F,F,Password
-33842,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,685,685,T,T,49,54,F,F,Any,,,Secret,2.32,5,F,F,F,Password
-33888,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,310,310,T,F,24,30,F,F,Any,,,Unknown,2.25,6,F,F,F,Password
-34140,10d446a0,GitHub,6c73b80a,data/6c73b80a/src/10d446a0.conf,15,15,T,F,37,46,T,F,Any,,,Secret,2.95,9,F,F,F,URL Credentials
-34154,e1e39b80,GitHub,6c73b80a,data/6c73b80a/test/e1e39b80.go,1685,1685,T,F,11,67,F,F,CharsOnly,,,Unknown,4.59,56,F,F,F,Key
-34174,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1283,1283,F,F,28,33,F,F,,,,,0.0,0,F,F,F,Password
-34175,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1276,1276,F,F,28,33,F,F,,,,,0.0,0,F,F,F,Password
-34177,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1233,1233,F,F,25,31,F,F,,,,,0.0,0,F,F,F,Password
-34188,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1302,1302,Template,F,54,57,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-34191,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1174,1174,T,T,43,47,F,F,Any,,,Secret,1.32,7,F,F,F,Password
-34194,69abb428,GitHub,6c73b80a,data/6c73b80a/test/69abb428.go,8884,8884,Template,F,34,37,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-34195,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1163,1163,T,T,41,45,F,F,Any,,,Secret,1.32,7,F,F,F,Password
-34201,f1bada03,GitHub,6c73b80a,data/6c73b80a/test/f1bada03.go,3960,3960,Template,F,33,36,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-34202,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,5083,5083,T,T,33,41,F,F,Any,,,Secret,2.46,10,F,F,F,Password
-34203,f1bada03,GitHub,6c73b80a,data/6c73b80a/test/f1bada03.go,3957,3957,Template,F,33,36,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-34204,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,5079,5079,T,T,33,41,F,F,Any,,,Secret,2.46,10,F,F,F,Password
-34205,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,4486,4486,Template,F,34,37,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-34230,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,707,707,T,T,38,42,T,F,CharsOnly,,,Secret,2.0,4,F,F,F,URL Credentials
-34429,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,1136,1136,T,F,14,21,F,F,Any,,,Secret,2.12,7,F,F,F,Password
-34440,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2386,2386,T,F,14,21,F,F,Any,,,Secret,2.12,7,F,F,F,Password
-34563,924a0284,GitHub,6c73b80a,data/6c73b80a/test/924a0284.conf,13,13,T,F,14,24,F,F,Any,,,Secret,2.59,10,F,F,F,Password
-34564,10d446a0,GitHub,6c73b80a,data/6c73b80a/src/10d446a0.conf,18,18,T,F,14,23,F,F,Any,,,Secret,2.95,9,F,F,F,Password
-34565,87cecf4f,GitHub,6c73b80a,data/6c73b80a/src/87cecf4f.conf,29,29,T,F,14,23,F,F,Any,,,Secret,2.95,9,F,F,F,Password
-34604,2d6ce576,GitHub,6c73b80a,data/6c73b80a/src/2d6ce576.conf,5,5,T,T,14,22,F,F,Any,,,Secret,2.75,8,F,F,F,Password
-34606,c28815c0,GitHub,6c73b80a,data/6c73b80a/src/c28815c0.conf,8,8,T,T,12,20,F,F,CharsOnly,,,Secret,2.5,8,F,F,F,Password
-34685,d59cf806,GitHub,6c73b80a,data/6c73b80a/test/d59cf806.go,139,139,T,F,20,30,F,F,Any,,,Secret,1.65,10,F,F,F,Password
-34705,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1204,1204,F,F,,,F,F,,,,,0,0,F,F,F,Password
-34764,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,2685,2685,T,T,70,74,T,F,CharsOnly,,,Secret,1.5,4,F,F,F,URL Credentials
-34799,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2100,2100,F,F,,,T,F,Any,,,Secret,2.00,4,F,F,F,Password:URL Credentials
-34809,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,312,312,T,T,41,49,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-34810,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2131,2131,F,F,,,T,F,Any,,,Secret,2.00,4,F,F,F,Password:URL Credentials
-34811,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2132,2132,F,F,,,T,F,Any,,,Secret,2.00,4,F,F,F,Password:URL Credentials
-34816,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,2836,2836,T,T,33,37,T,F,CharsOnly,,,Secret,1.5,4,F,F,F,URL Credentials
-34817,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,2633,2633,T,T,32,36,T,F,CharsOnly,,,Secret,1.5,4,F,F,F,URL Credentials
-34818,44141ad0,GitHub,6c73b80a,data/6c73b80a/test/44141ad0.go,565,565,T,T,32,36,T,F,CharsOnly,,,Secret,1.5,4,F,F,F,URL Credentials
-34819,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,2654,2654,T,T,31,35,T,F,CharsOnly,,,Secret,1.5,4,F,F,F,URL Credentials
-34822,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,310,310,T,T,41,49,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-34823,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,331,331,T,T,41,49,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-34824,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,311,311,T,T,41,49,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-34825,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,3569,3569,T,T,23,27,T,F,CharsOnly,,,Secret,1.5,4,F,F,F,Password:URL Credentials
-34901,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1168,1168,T,T,9,24,F,F,Any,,,Token,2.73,15,F,F,F,Token
-34911,c40385df,GitHub,6c73b80a,data/6c73b80a/src/c40385df.conf,4,4,T,F,11,20,F,F,Any,,,Token,2.95,9,F,F,F,Token
-34913,aa0abde9,GitHub,6c73b80a,data/6c73b80a/src/aa0abde9.conf,4,4,T,T,11,19,F,F,Any,,,Token,2.75,8,F,F,F,Token
-34959,d59cf806,GitHub,6c73b80a,data/6c73b80a/test/d59cf806.go,137,137,T,F,15,25,F,F,Any,,,Secret,1.65,10,F,F,F,Password
-34996,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,1691,1691,T,T,35,43,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-34998,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,1728,1728,Template,T,74,82,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-35059,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,1730,1730,T,T,35,43,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-35143,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,2128,2128,T,F,11,69,F,F,,,,,0.0,0,F,F,F,Seed
-35276,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1389,1389,Template,T,47,50,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-35293,4c790ff2,GitHub,6c73b80a,data/6c73b80a/test/4c790ff2.key,1,27,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,PEM Private Key
-1035306,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,315,315,T,F,18,24,F,F,Any,,,Secret,2.25,6,F,F,F,Password
-35306,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,315,315,T,F,41,47,F,F,Any,,,Secret,2.25,6,F,F,F,Password
-35307,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,330,330,T,F,39,45,F,F,Any,,,Secret,2.25,6,F,F,F,Password
-35318,8d5e747a,GitHub,6c73b80a,data/6c73b80a/test/8d5e747a.go,275,275,Template,T,31,35,F,F,CharsOnly,,,Secret,1.5,4,F,F,F,Password
-35319,598e7639,GitHub,6c73b80a,data/6c73b80a/test/598e7639.go,110,110,Template,T,32,36,F,F,CharsOnly,,,Secret,1.5,4,F,F,F,Password
-35321,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1418,1418,Template,T,47,50,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-35331,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3178,3178,Template,T,25,28,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-35346,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,3525,3525,T,T,32,36,F,F,Any,,,Secret,1.46,5,F,F,F,Password
-35347,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,3524,3524,T,T,32,36,F,F,Any,,,Secret,1.46,5,F,F,F,Password
-35360,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,4286,4286,Template,F,26,29,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-35371,f1bada03,GitHub,6c73b80a,data/6c73b80a/test/f1bada03.go,3600,3600,Template,F,29,32,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-35381,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2570,2570,F,F,26,29,F,F,Any,,,Short,1.5,4,F,F,F,Password
-35382,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,3515,3515,Template,F,36,39,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-35383,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3183,3183,Template,F,25,28,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-35390,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2556,2556,T,T,28,33,F,F,Any,,,Secret,1.82,6,F,F,F,Password
-35391,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,3599,3599,Template,F,28,31,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-35392,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1316,1316,Template,F,51,54,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-35393,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,4281,4281,Template,F,26,29,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-35399,f1bada03,GitHub,6c73b80a,data/6c73b80a/test/f1bada03.go,3595,3595,Template,F,29,32,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-35403,0fd3e5cb,GitHub,6c73b80a,data/6c73b80a/test/0fd3e5cb.conf,16,16,F,F,32,42,F,F,,,,,0.0,0,F,F,F,Password
-35405,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2562,2562,T,F,27,31,F,F,Any,,,Secret,1.86,5,F,F,F,Password
-35406,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,3505,3505,Template,F,37,40,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-35407,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2568,2568,T,T,27,31,F,F,Any,,,Secret,1.46,5,F,F,F,Password
-35408,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,4291,4291,T,T,30,34,F,F,Any,,,Secret,1.46,5,F,F,F,Password
-35494,b406db25,GitHub,6c73b80a,data/6c73b80a/src/b406db25.pem,1,28,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,PEM Private Key
-35556,81102334,GitHub,6c73b80a,data/6c73b80a/src/81102334.pem,1,28,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,PEM Private Key
-35746,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2598,2598,T,T,27,31,T,F,CharsOnly,,,Secret,1.5,4,F,F,F,URL Credentials
-35747,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2590,2590,T,F,27,31,T,F,CharsOnly,,,Secret,2.0,4,F,F,F,URL Credentials
-35748,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,3595,3595,T,T,27,31,T,F,CharsOnly,,,Secret,1.5,4,F,F,F,URL Credentials
-35752,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2913,2913,F,F,17,25,F,F,,,,,0.0,0,F,F,F,Other
-35770,94ae447a,GitHub,6c73b80a,data/6c73b80a/src/94ae447a.go,696,696,F,F,,,F,F,,,,,0,0,F,F,F,Password:URL Credentials
-35884,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,540,540,T,F,14,70,F,F,Any,,,Unknown,4.63,56,F,F,F,Key
-35885,7f0ec905,GitHub,6c73b80a,data/6c73b80a/src/7f0ec905.conf,26,26,T,F,16,72,F,F,Any,,,Unknown,4.6,56,F,F,F,Key
-35886,7f0ec905,GitHub,6c73b80a,data/6c73b80a/src/7f0ec905.conf,41,41,T,F,16,72,F,F,Any,,,Unknown,4.57,56,F,F,F,Key
-35891,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,573,573,T,F,18,74,F,F,Any,,,Unknown,4.6,56,F,F,F,Key
-35896,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,3587,3587,T,T,51,55,T,F,CharsOnly,,,Secret,1.5,4,F,F,F,Password:URL Credentials
-35897,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,5119,5119,T,T,47,55,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-35900,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1198,1198,T,T,53,57,T,F,CharsOnly,,,Secret,1.5,4,F,F,F,URL Credentials
-35905,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,1999,1999,T,T,52,60,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-35906,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1550,1550,T,T,50,54,T,F,CharsOnly,,,Secret,1.5,4,F,F,F,URL Credentials
-35907,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1544,1544,T,T,50,54,T,F,CharsOnly,,,Secret,1.5,4,F,F,F,URL Credentials
-35926,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1030,1030,T,T,23,29,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
-35927,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1174,1174,Template,T,20,29,F,F,CharsOnly,,,Token,2.64,9,F,F,F,Token
-35928,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1193,1193,Template,T,20,29,F,F,CharsOnly,,,Token,2.64,9,F,F,F,Token
-35929,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1010,1010,T,T,18,24,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
-35941,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,3041,3041,T,T,48,53,T,F,CharsOnly,,,Secret,2.32,5,F,F,F,URL Credentials
-35942,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,506,506,T,F,18,74,F,F,Any,,,Unknown,4.59,56,F,F,F,Key
-35950,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,525,525,T,F,18,74,F,F,Any,,,Unknown,4.59,56,F,F,F,Key
-35952,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,5114,5114,T,T,47,55,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-35953,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1188,1188,T,T,49,53,T,F,CharsOnly,,,Secret,1.5,4,F,F,F,URL Credentials
-35990,94ae447a,GitHub,6c73b80a,data/6c73b80a/src/94ae447a.go,948,948,F,F,15,23,F,F,,,,,0.0,0,F,F,F,Password
-36004,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,2705,2705,T,T,49,53,T,F,CharsOnly,,,Secret,1.5,4,F,F,F,URL Credentials
-36007,e1e39b80,GitHub,6c73b80a,data/6c73b80a/test/e1e39b80.go,2139,2139,T,T,50,54,T,F,CharsOnly,,,Secret,1.5,4,F,F,F,URL Credentials
-36030,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,2969,2969,T,T,28,34,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
-36031,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3131,3131,Template,T,25,39,F,F,CharsOnly,,,Token,3.04,14,F,F,F,Token
-36065,0fd3e5cb,GitHub,6c73b80a,data/6c73b80a/test/0fd3e5cb.conf,4,4,T,F,12,19,F,F,Any,,,Secret,2.12,7,F,F,F,Password
-36066,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,94,94,T,T,16,21,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
-36109,44141ad0,GitHub,6c73b80a,data/6c73b80a/test/44141ad0.go,166,166,Template,T,57,65,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-36119,e1e39b80,GitHub,6c73b80a,data/6c73b80a/test/e1e39b80.go,2131,2131,Template,T,18,22,F,F,CharsOnly,,,Secret,1.5,4,F,F,F,Password
-36120,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,246,246,T,F,18,24,F,F,Any,,,Secret,2.25,6,F,F,F,Password
-36121,8bf97fa3,GitHub,6c73b80a,data/6c73b80a/test/8bf97fa3.go,124,124,F,F,17,26,F,F,,,,,0.0,0,F,F,F,Password
-36122,8bf97fa3,GitHub,6c73b80a,data/6c73b80a/test/8bf97fa3.go,180,180,F,F,17,33,F,F,,,,,0.0,0,F,F,F,Password
-36128,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,920,920,Template,T,24,29,F,F,CharsOnly,,,Secret,2.32,5,F,F,F,Password
-36145,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3112,3112,Template,T,25,34,F,F,CharsOnly,,,Token,2.64,9,F,F,F,Token
-36150,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1293,1293,F,F,,,F,F,,,,,0,0,F,F,F,Password
-36153,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,1287,1287,T,T,9,15,F,F,CharsOnly,,,Unknown,2.58,6,F,F,F,Password
-36157,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1016,1016,T,F,13,69,F,F,Any,,,Unknown,4.59,56,F,F,F,Key
-36163,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,270,270,T,T,14,19,F,F,CharsOnly,,,Unknown,2.32,5,F,F,F,Password
-36284,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,611,611,T,F,21,77,F,F,Any,,,Unknown,4.52,56,F,F,F,Key
-36285,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,616,616,T,F,17,73,F,F,CharsOnly,,,Unknown,4.6,56,F,F,F,Key
-36289,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2946,2946,F,F,27,83,F,F,,,,,0.0,0,F,F,F,Other
-36296,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,342,342,T,F,25,34,F,F,Any,,,Secret,2.95,9,F,F,F,Password
-36705,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,4116,4116,T,T,39,47,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-36727,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,3933,3933,T,T,37,45,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-36731,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,4749,4749,T,T,40,48,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-36738,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,4758,4758,T,T,40,48,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-36739,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,4880,4880,T,T,43,51,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-36740,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,3942,3942,T,T,37,45,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-36741,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,4145,4145,T,T,36,44,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-37021,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,3723,3723,Template,T,14,18,F,F,CharsOnly,,,Secret,1.5,4,F,F,F,Password
-37050,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,259,259,T,T,19,27,F,F,CharsOnly,,,Secret,2.5,8,F,F,F,Password
-37051,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,294,294,T,T,17,25,F,F,CharsOnly,,,Secret,2.5,8,F,F,F,Password
-37052,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1254,1254,T,T,19,27,F,F,CharsOnly,,,Secret,2.5,8,F,F,F,Password
-37064,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1422,1422,F,T,45,49,F,F,Any,,,Secret,1.25,8,F,F,F,Password
-37065,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1491,1491,F,T,45,49,F,F,Any,,,Secret,1.25,8,F,F,F,Password
-37066,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1535,1535,F,T,45,49,F,F,Any,,,Secret,1.25,8,F,F,F,Password
-37067,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1721,1721,F,T,44,48,F,F,Any,,,Secret,1.25,8,F,F,F,Password
-37071,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,340,340,T,F,18,24,F,F,Any,,,Unknown,2.25,6,F,F,F,Password
-37096,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1419,1419,T,T,43,47,F,F,Any,,,Secret,1.32,7,F,F,F,Password
-37097,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1488,1488,T,T,43,47,F,F,Any,,,Secret,1.32,7,F,F,F,Password
-37098,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1532,1532,T,T,43,47,F,F,Any,,,Secret,1.32,7,F,F,F,Password
-37099,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1718,1718,T,T,39,43,F,F,Any,,,Secret,1.32,7,F,F,F,Password
-37100,69abb428,GitHub,6c73b80a,data/6c73b80a/test/69abb428.go,8967,8967,Template,F,34,37,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-37101,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1408,1408,T,T,41,45,F,F,Any,,,Secret,1.32,7,F,F,F,Password
-37102,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1477,1477,T,T,41,45,F,F,Any,,,Secret,1.32,7,F,F,F,Password
-37103,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1520,1520,T,T,41,45,F,F,Any,,,Secret,1.32,7,F,F,F,Password
-37104,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1707,1707,T,T,37,41,F,F,Any,,,Secret,1.32,7,F,F,F,Password
-37105,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,4499,4499,Template,F,34,37,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-37106,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,4531,4531,Template,F,34,37,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-37241,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,2795,2795,T,T,33,37,T,F,CharsOnly,,,Secret,1.5,4,F,F,F,URL Credentials
-37242,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,2880,2880,T,T,33,37,T,F,CharsOnly,,,Secret,1.5,4,F,F,F,URL Credentials
-37265,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1187,1187,T,T,9,24,F,F,Any,,,Token,2.73,15,F,F,F,Token
-37316,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,1865,1865,T,T,35,43,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-37338,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,1859,1859,T,T,35,43,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-37419,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,320,320,T,F,40,46,F,F,Any,,,Secret,2.25,6,F,F,F,Password
-1037419,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,320,320,T,F,18,24,F,F,Any,,,Secret,2.25,6,F,F,F,Password
-37425,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,3562,3562,T,T,32,36,F,F,Any,,,Secret,1.46,5,F,F,F,Password
-37426,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,3561,3561,T,T,32,36,F,F,Any,,,Secret,1.46,5,F,F,F,Password
-37429,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,4412,4412,Template,F,26,29,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-37430,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,4434,4434,Template,F,26,29,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-37439,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2666,2666,F,F,26,29,F,F,Any,,,Short,1.5,4,F,F,F,Password
-37440,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2660,2660,T,T,28,33,F,F,Any,,,Secret,1.82,6,F,F,F,Password
-37441,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,3673,3673,Template,F,37,40,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-37442,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,3708,3708,Template,F,37,40,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-37443,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1317,1317,Template,F,51,54,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-37444,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,4407,4407,Template,F,26,29,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-37447,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,3586,3586,Template,F,28,31,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-37448,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,3659,3659,Template,F,37,40,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-37449,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,3722,3722,Template,F,37,40,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-37499,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,607,607,T,F,14,70,F,F,Any,,,Unknown,4.63,56,F,F,F,Key
-37502,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1443,1443,T,T,53,57,T,F,CharsOnly,,,Secret,1.5,4,F,F,F,URL Credentials
-37503,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1751,1751,T,T,55,59,T,F,CharsOnly,,,Secret,1.5,4,F,F,F,URL Credentials
-37510,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1040,1040,T,T,23,29,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
-37511,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1052,1052,T,T,23,29,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
-37512,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1064,1064,T,T,23,29,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
-37513,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1101,1101,T,T,22,28,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
-37514,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1183,1183,Template,T,20,29,F,F,CharsOnly,,,Token,2.64,9,F,F,F,Token
-37515,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1203,1203,Template,T,20,29,F,F,CharsOnly,,,Token,2.64,9,F,F,F,Token
-37516,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1020,1020,T,T,18,24,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
-37517,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1050,1050,T,T,18,24,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
-37518,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1062,1062,T,T,18,24,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
-37521,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,655,655,T,F,16,72,F,F,Any,,,Unknown,4.59,56,F,F,F,Key
-37522,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,682,682,T,F,16,72,F,F,Any,,,Unknown,4.59,56,F,F,F,Key
-37524,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,592,592,T,F,18,74,F,F,Any,,,Unknown,4.59,56,F,F,F,Key
-37525,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1433,1433,T,T,49,53,T,F,CharsOnly,,,Secret,1.5,4,F,F,F,URL Credentials
-37526,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1731,1731,T,T,51,55,T,F,CharsOnly,,,Secret,1.5,4,F,F,F,URL Credentials
-37544,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,2979,2979,T,T,28,34,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
-37545,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,2991,2991,T,T,28,34,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
-37546,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3003,3003,T,T,28,34,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
-37547,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3048,3048,T,T,27,33,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
-37548,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3141,3141,Template,T,25,39,F,F,CharsOnly,,,Token,3.04,14,F,F,F,Token
-37573,44141ad0,GitHub,6c73b80a,data/6c73b80a/test/44141ad0.go,308,308,Template,T,57,65,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-37619,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3121,3121,Template,T,25,34,F,F,CharsOnly,,,Token,2.64,9,F,F,F,Token
-40650,7f0ec905,GitHub,6c73b80a,data/6c73b80a/src/7f0ec905.conf,52,52,T,F,12,68,F,F,Any,,,Unknown,4.63,56,F,F,F,Key
-40651,7f0ec905,GitHub,6c73b80a,data/6c73b80a/src/7f0ec905.conf,56,56,T,F,16,72,F,F,Any,,,Unknown,4.67,56,F,F,F,Key
-40652,bb6ee9bd,GitHub,6c73b80a,data/6c73b80a/src/bb6ee9bd.conf,34,34,Template,T,28,31,F,F,Any,,,Secret,0.92,3,F,F,F,Password
-40653,bb6ee9bd,GitHub,6c73b80a,data/6c73b80a/src/bb6ee9bd.conf,36,36,Template,F,28,31,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-40654,65345c05,GitHub,6c73b80a,data/6c73b80a/src/65345c05.conf,7,7,Template,F,12,15,F,F,CharsOnly,,,Secret,0.92,3,F,F,F,Password
-40655,e4efd21e,GitHub,6c73b80a,data/6c73b80a/src/e4efd21e.conf,44,44,Template,T,28,31,F,F,Any,,,Secret,0.92,3,F,F,F,Password
-40656,e4efd21e,GitHub,6c73b80a,data/6c73b80a/src/e4efd21e.conf,45,45,Template,T,28,31,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-40657,e4efd21e,GitHub,6c73b80a,data/6c73b80a/src/e4efd21e.conf,46,46,Template,F,28,31,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-40658,d1df8c34,GitHub,6c73b80a,data/6c73b80a/src/d1df8c34.conf,7,7,Template,F,12,15,F,F,CharsOnly,,,Secret,0.92,3,F,F,F,Password
-40659,893086b1,GitHub,6c73b80a,data/6c73b80a/src/893086b1.conf,11,11,Template,T,14,24,F,F,Any,,,Secret,2.59,10,F,F,F,Password
-40660,c2c3c972,GitHub,6c73b80a,data/6c73b80a/src/c2c3c972.conf,11,11,Template,T,14,24,F,F,Any,,,Secret,2.59,10,F,F,F,Password
-40661,b9fae90a,GitHub,6c73b80a,data/6c73b80a/src/b9fae90a.conf,6,6,Template,F,30,33,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-40662,36165432,GitHub,6c73b80a,data/6c73b80a/src/36165432.conf,5,5,Template,F,30,33,F,F,Any,,,Secret,0.92,3,F,F,F,Password
-43071,ef6be3a4,GitHub,6c73b80a,data/6c73b80a/src/ef6be3a4.go,186,186,F,F,,,F,F,,,,,0,0,F,F,F,Password
-43072,ef6be3a4,GitHub,6c73b80a,data/6c73b80a/src/ef6be3a4.go,2323,2323,F,F,,,F,F,,,,,0,0,F,F,F,Password
-46015,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,4878,4878,F,F,,,F,F,,,,,0,0,F,F,F,API
-46035,d59cf806,GitHub,6c73b80a,data/6c73b80a/test/d59cf806.go,239,239,T,T,17,27,F,F,Any,,,Secret,2.59,10,F,F,F,Password
-46044,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,4980,4980,F,F,,,F,F,,,,,0,0,F,F,F,API
-46045,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,4968,4968,F,F,,,F,F,,,,,0,0,F,F,F,API
-46046,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,4945,4945,F,F,,,F,F,,,,,0,0,F,F,F,API
-46069,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,2949,2949,T,T,18,24,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
-46070,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,2959,2959,T,T,18,24,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
-46071,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,2989,2989,T,T,18,24,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
-46072,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3001,3001,T,T,18,24,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
-46073,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2012,2012,F,F,,,F,F,,,,,0,0,F,F,F,Password
-46077,69abb428,GitHub,6c73b80a,data/6c73b80a/test/69abb428.go,10579,10579,Template,F,35,38,F,F,CharsOnly,,,Unknown,0.92,3,F,F,F,Password
-46078,69abb428,GitHub,6c73b80a,data/6c73b80a/test/69abb428.go,8888,8888,Template,F,35,38,F,F,CharsOnly,,,Unknown,1.58,3,F,F,F,Password
-46080,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,316,316,T,F,44,50,F,F,Any,,,Unknown,2.25,6,F,F,F,Password
-46088,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,6442,6442,F,F,,,F,F,,,,,0,0,F,F,F,API
-46089,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,7014,7014,F,F,,,F,F,,,,,0,0,F,F,F,API
-46091,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,433,433,T,T,17,27,F,F,Any,,,Secret,2.59,10,F,F,F,Password
-46092,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,398,398,T,T,17,27,F,F,Any,,,Secret,2.59,10,F,F,F,Password
-46093,69abb428,GitHub,6c73b80a,data/6c73b80a/test/69abb428.go,10653,10653,F,F,,,F,F,,,,,0,0,F,F,F,Password
-46100,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,326,326,T,F,47,54,F,F,Any,,,Secret,2.52,7,F,F,F,Password
-46151,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,413,413,F,F,,,F,F,,,,,0,0,F,F,F,Password
-46166,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,722,722,Template,T,32,36,F,F,CharsOnly,,,Unknown,1.5,4,F,F,F,Password
-46167,598e7639,GitHub,6c73b80a,data/6c73b80a/test/598e7639.go,111,111,Template,T,32,36,F,F,CharOnly,,,Secret,1.5,4,F,F,F,Password
-46198,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,343,343,T,F,46,55,F,F,,,,,0,0,F,F,F,Password
-46399,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1402,1402,F,F,,,F,F,,,,,0,0,F,F,F,Password
-47221,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,517,517,F,F,,,F,F,,,,,0,0,F,F,F,Password
-47679,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,2949,2949,Template,T,24,29,F,F,CharsOnly,,,Unknown,1.92,5,F,F,F,Password
-48043,6a77588c,GitHub,6c73b80a,data/6c73b80a/test/6a77588c.conf,11,11,T,T,14,24,F,F,Any,,,Secret,2.59,10,F,F,F,Password
-48044,b78f1942,GitHub,6c73b80a,data/6c73b80a/test/b78f1942.conf,12,12,T,T,14,24,F,F,Any,,,Secret,2.59,10,F,F,F,Password
-48183,33d9fd63,GitHub,6c73b80a,data/6c73b80a/test/33d9fd63.conf,18,18,T,T,12,18,F,F,CharsOnly,,,Secret,2.58,6,F,F,F,Password
-48860,b06c1c4b,GitHub,6c73b80a,data/6c73b80a/test/b06c1c4b.key,1,28,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,PEM Private Key
-48861,6b9d8dff,GitHub,6c73b80a,data/6c73b80a/test/6b9d8dff.key,1,28,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,PEM Private Key
-48862,49ab3fd1,GitHub,6c73b80a,data/6c73b80a/test/49ab3fd1.key,1,28,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,PEM Private Key
-48863,17e59380,GitHub,6c73b80a,data/6c73b80a/test/17e59380.key,1,28,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,PEM Private Key
-48864,5f7e2196,GitHub,6c73b80a,data/6c73b80a/test/5f7e2196.key,1,28,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,PEM Private Key
-48865,0151100f,GitHub,6c73b80a,data/6c73b80a/test/0151100f.key,1,28,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,PEM Private Key
-48866,c389958d,GitHub,6c73b80a,data/6c73b80a/test/c389958d.key,1,28,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,PEM Private Key
-48867,a53ee4cf,GitHub,6c73b80a,data/6c73b80a/test/a53ee4cf.key,1,28,T,T,,,F,F,Any,Private,,Unknown,2.39,27,F,F,F,PEM Private Key
-49156,bae09b47,GitHub,6c73b80a,data/6c73b80a/test/bae09b47.key,1,27,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,PEM Private Key
-51001,d59cf806,GitHub,6c73b80a,data/6c73b80a/test/d59cf806.go,243,243,Template,F,22,25,T,F,Any,,,Unknown,1.58,3,F,F,F,URL Credentials
-51002,d59cf806,GitHub,6c73b80a,data/6c73b80a/test/d59cf806.go,244,244,Template,F,22,25,T,F,Any,,,Unknown,1.58,3,F,F,F,URL Credentials
-51005,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,907,907,Template,T,85,88,F,F,Any,,,Unknown,1.58,3,F,F,F,URL Credentials
-55669,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,6871,6871,T,F,43,50,F,F,Any,,,Secret,2.12,7,F,F,F,Password
-55670,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,7133,7133,T,F,43,50,F,F,Any,,,Secret,2.12,7,F,F,F,Password
-55671,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,7186,7186,T,F,43,50,F,F,Any,,,Secret,2.12,7,F,F,F,Password
-55672,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,7384,7384,T,F,43,50,F,F,Any,,,Secret,2.12,7,F,F,F,Password
-55673,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,7419,7419,T,F,43,50,F,F,Any,,,Secret,2.12,7,F,F,F,Password
-55674,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,7576,7576,T,F,43,50,F,F,Any,,,Secret,2.12,7,F,F,F,Password
-58181,6460c9a4,GitHub,6c73b80a,data/6c73b80a/src/6460c9a4.go,733,733,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-58248,6460c9a4,GitHub,6c73b80a,data/6c73b80a/src/6460c9a4.go,1126,1126,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Gitlab Feed Token
-58264,6460c9a4,GitHub,6c73b80a,data/6c73b80a/src/6460c9a4.go,1184,1184,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-61676,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,7132,7132,F,F,,,F,F,,,,,0,0,F,F,F,Password
-61933,6460c9a4,GitHub,6c73b80a,data/6c73b80a/src/6460c9a4.go,2123,2123,F,F,,,F,F,,,,,0,0,F,F,F,Password
-61955,932778a5,GitHub,6c73b80a,data/6c73b80a/src/932778a5.go,289,289,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-61958,6c46bf4a,GitHub,6c73b80a,data/6c73b80a/src/6c46bf4a.go,248,248,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-62035,8705fea4,GitHub,6c73b80a,data/6c73b80a/src/8705fea4.go,179,179,F,F,,,F,F,,,,,0,0,F,F,F,Token
-62972,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,2514,2514,F,F,,,F,F,,,,,0,0,F,F,F,Token
-62973,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,2606,2606,F,F,,,F,F,,,,,0,0,F,F,F,Token
-62974,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,2513,2513,F,F,,,F,F,,,,,0,0,F,F,F,Token
-62975,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,2605,2605,F,F,,,F,F,,,,,0,0,F,F,F,Token
-62976,f1bada03,GitHub,6c73b80a,data/6c73b80a/test/f1bada03.go,3106,3106,F,F,,,F,F,,,,,0,0,F,F,F,Password
-62986,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,7594,7594,T,F,53,60,F,F,Any,,,Secret,2.12,7,F,F,F,Password
-62987,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,7605,7605,T,F,53,60,F,F,Any,,,Secret,2.12,7,F,F,F,Password
-62988,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,59,59,T,F,53,60,F,F,Any,,,Secret,2.12,7,F,F,F,Password
-63174,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,6444,6444,T,T,44,52,F,F,Any,,,Secret,2.46,10,F,F,F,Password
-64495,c8af9dd7,GitHub,6c73b80a,data/6c73b80a/src/c8af9dd7.go,2273,2273,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-64498,a6c11edd,GitHub,6c73b80a,data/6c73b80a/src/a6c11edd.go,1680,1680,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-64499,a6c11edd,GitHub,6c73b80a,data/6c73b80a/src/a6c11edd.go,1678,1678,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-74577,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,1449,1449,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-74599,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1381,1381,F,F,,,F,F,,,,,0,0,F,F,F,Password
-74604,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,5258,5258,Template,F,51,54,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-74605,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,5273,5273,Template,F,51,54,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-74629,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,5252,5252,Template,F,50,53,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-74641,8bf97fa3,GitHub,6c73b80a,data/6c73b80a/test/8bf97fa3.go,179,179,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-74673,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,3698,3698,F,F,,,F,F,,,,,0,0,F,F,F,Password
-74674,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,3735,3735,Template,T,9,13,F,F,CharsOnly,,,Unknown,1.5,4,F,F,F,Password
-75130,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,2811,2811,F,F,,,F,F,,,,,0,0,F,F,F,Token
-75288,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,1503,1503,F,F,,,F,F,,,,,0,0,F,F,F,Token
-75326,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,2828,2828,F,F,,,F,F,,,,,0,0,F,F,F,Token
-75353,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,1047,1047,F,F,,,F,F,,,,,0,0,F,F,F,Token
-75383,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,4160,4160,F,F,,,F,F,,,,,0,0,F,F,F,Password
-75384,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1231,1231,F,F,,,F,F,,,,,0,0,F,F,F,Password
-75385,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1254,1254,F,F,,,F,F,,,,,0,0,F,F,F,Password
-75521,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,443,443,F,F,,,F,F,,,,,0,0,F,F,F,Token
-75694,ada0599e,GitHub,6c73b80a,data/6c73b80a/test/ada0599e.go,1840,1840,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-76065,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1292,1292,F,F,,,F,F,,,,,0,0,F,F,F,Token
-76725,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1304,1304,Template,F,48,51,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-76726,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1234,1234,F,F,,,F,F,,,,,0,0,F,F,F,Password
-76727,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1257,1257,F,F,,,F,F,,,,,0,0,F,F,F,Password
-76728,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,2992,2992,Template,F,41,44,F,F,Any,,,Secret,0.92,3,F,F,F,Password
-76729,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,3087,3087,Template,F,41,44,F,F,Any,,,Secret,0.92,3,F,F,F,Password
-76730,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,3000,3000,Template,F,40,43,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-76731,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,3094,3094,Template,F,40,43,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-76732,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,3077,3077,Template,F,34,37,F,F,Any,,,Secret,0.92,3,F,F,F,Password
-76733,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,3190,3190,Template,F,34,37,F,F,Any,,,Secret,0.92,3,F,F,F,Password
-76734,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,3198,3198,Template,F,33,36,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-76736,69abb428,GitHub,6c73b80a,data/6c73b80a/test/69abb428.go,10583,10583,Template,F,35,38,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-77091,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1416,1416,F,F,,,F,F,,,,,0,0,F,F,F,Password
-77092,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1417,1417,F,F,,,F,F,,,,,0,0,F,F,F,Password
-77102,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2208,2208,F,F,,,F,F,,,,,0,0,F,F,F,Password
-77103,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,568,568,F,F,,,F,F,,,,,0,0,F,F,F,Password
-77104,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2661,2661,Template,F,11,14,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-77105,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2654,2654,Template,F,10,13,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-77106,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2209,2209,F,F,,,F,F,,,,,0,0,F,F,F,Password
-77107,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,569,569,Template,F,32,35,F,F,Any,,,Secret,1.58,3,F,F,F,Password
-77108,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,2135,2135,F,F,,,F,F,,,,,0,0,F,F,F,Password
-77109,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2653,2653,Template,F,10,13,F,F,Any,,,Secret,0.92,3,F,F,F,Password
-77110,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,2141,2141,F,F,,,F,F,,,,,0,0,F,F,F,Password
-78189,32a8e48e,GitHub,6c73b80a,data/6c73b80a/src/32a8e48e.creds,9,11,F,F,,,F,F,,,,,0,0,F,F,F,PEM Private Key
-78243,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,1354,1356,F,F,,,F,F,,,,,0,0,F,F,F,PEM Private Key
-78244,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,1362,1364,F,F,,,F,F,,,,,0,0,F,F,F,PEM Private Key
-78248,35b59241,GitHub,6c73b80a,data/6c73b80a/test/35b59241.go,383,385,F,F,,,F,F,,,,,0,0,F,F,F,PEM Private Key
-78249,35b59241,GitHub,6c73b80a,data/6c73b80a/test/35b59241.go,391,393,F,F,,,F,F,,,,,0,0,F,F,F,PEM Private Key
-82050,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,1288,1288,F,F,27,36,F,F,,,,,0.0,0,F,F,F,Password
-82051,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,1429,1429,F,F,24,33,F,F,,,,,0.0,0,F,F,F,Password
-82052,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,1637,1637,F,F,28,37,F,F,,,,,0.0,0,F,F,F,Password
-82053,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,3677,3677,F,F,26,35,F,F,,,,,0.0,0,F,F,F,Password
-82054,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,3743,3743,F,F,21,30,F,F,,,,,0.0,0,F,F,F,Password
-82055,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,723,723,Template,T,32,36,F,F,CharsOnly,,,Secret,1.5,4,F,F,F,Password
-82056,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,724,724,Template,T,32,36,F,F,CharsOnly,,,Secret,1.5,4,F,F,F,Password
-82057,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,725,725,Template,T,32,36,F,F,CharsOnly,,,Secret,1.5,4,F,F,F,Password
-82058,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,726,726,Template,T,32,36,F,F,CharsOnly,,,Secret,1.5,4,F,F,F,Password
-82060,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,4194,4194,F,F,33,72,F,F,,,,,0.0,0,F,F,F,Password
-82061,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,4198,4198,F,F,33,75,F,F,,,,,0.0,0,F,F,F,Password
-82062,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2028,2028,F,F,14,17,F,F,,,,,0.0,0,F,F,F,Password
-82063,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,561,561,Template,F,27,30,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-82064,81d92a1a,GitHub,6c73b80a,data/6c73b80a/test/81d92a1a.go,37,37,F,F,37,43,F,F,,,,,0.0,0,F,F,F,Password
-82065,81d92a1a,GitHub,6c73b80a,data/6c73b80a/test/81d92a1a.go,218,218,F,F,39,45,F,F,,,,,0.0,0,F,F,F,Password
-82066,81d92a1a,GitHub,6c73b80a,data/6c73b80a/test/81d92a1a.go,222,222,F,F,38,44,F,F,,,,,0.0,0,F,F,F,Password
-82067,81d92a1a,GitHub,6c73b80a,data/6c73b80a/test/81d92a1a.go,286,286,F,F,39,45,F,F,,,,,0.0,0,F,F,F,Password
-82068,81d92a1a,GitHub,6c73b80a,data/6c73b80a/test/81d92a1a.go,290,290,F,F,38,44,F,F,,,,,0.0,0,F,F,F,Password
-82069,81d92a1a,GitHub,6c73b80a,data/6c73b80a/test/81d92a1a.go,384,384,F,F,39,45,F,F,,,,,0.0,0,F,F,F,Password
-82070,81d92a1a,GitHub,6c73b80a,data/6c73b80a/test/81d92a1a.go,388,388,F,F,38,44,F,F,,,,,0.0,0,F,F,F,Password
-82071,81d92a1a,GitHub,6c73b80a,data/6c73b80a/test/81d92a1a.go,477,477,F,F,39,45,F,F,,,,,0.0,0,F,F,F,Password
-82072,81d92a1a,GitHub,6c73b80a,data/6c73b80a/test/81d92a1a.go,519,519,F,F,39,45,F,F,,,,,0.0,0,F,F,F,Password
-82073,81d92a1a,GitHub,6c73b80a,data/6c73b80a/test/81d92a1a.go,523,523,F,F,38,44,F,F,,,,,0.0,0,F,F,F,Password
-82074,81d92a1a,GitHub,6c73b80a,data/6c73b80a/test/81d92a1a.go,586,586,F,F,38,44,F,F,,,,,0.0,0,F,F,F,Password
-82075,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,933,933,Template,F,24,27,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-82076,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,321,321,T,F,43,49,F,F,Any,,,Secret,2.25,6,F,F,F,Password
-82078,35b59241,GitHub,6c73b80a,data/6c73b80a/test/35b59241.go,2249,2249,F,F,,,F,F,,,,,0.0,0,F,F,F,Password
-82079,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,913,913,F,F,19,83,F,F,NumbersOnly,,,Unknown,3.8,64,F,F,F,Certificate
-82080,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,924,924,F,F,19,83,F,F,NumbersOnly,,,Unknown,3.8,64,F,F,F,Certificate
-82081,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,936,936,F,F,19,83,F,F,NumbersOnly,,,Unknown,3.8,64,F,F,F,Certificate
-82082,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,947,947,F,F,19,83,F,F,NumbersOnly,,,Unknown,3.8,64,F,F,F,Certificate
-82083,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,958,958,F,F,19,83,F,F,NumbersOnly,,,Unknown,3.8,64,F,F,F,Certificate
-82084,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1568,1568,Template,F,65,68,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-82085,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1628,1628,F,F,14,17,F,F,,,,,0.0,0,F,F,F,Password
-82086,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1768,1768,F,F,15,18,F,F,,,,,0.0,0,F,F,F,Password
-82087,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2087,2087,Template,F,14,17,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-82088,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2124,2124,Template,F,19,22,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-82089,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2680,2680,F,F,15,18,F,F,,,,,0.0,0,F,F,F,Password
-82090,598e7639,GitHub,6c73b80a,data/6c73b80a/test/598e7639.go,112,112,Template,T,32,36,F,F,CharsOnly,,,Secret,1.5,4,F,F,F,Password
-82091,598e7639,GitHub,6c73b80a,data/6c73b80a/test/598e7639.go,113,113,Template,T,32,36,F,F,CharsOnly,,,Secret,1.5,4,F,F,F,Password
-82092,598e7639,GitHub,6c73b80a,data/6c73b80a/test/598e7639.go,114,114,Template,T,32,36,F,F,CharsOnly,,,Secret,1.5,4,F,F,F,Password
-82093,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,338,338,Template,F,22,25,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-82094,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,442,442,Template,F,16,19,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-82095,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,448,448,F,F,70,75,F,F,,,,,0.0,0,F,F,F,Password
-82096,91de30fa,GitHub,6c73b80a,data/6c73b80a/test/91de30fa.go,47,47,Template,F,13,16,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-82097,91de30fa,GitHub,6c73b80a,data/6c73b80a/test/91de30fa.go,74,74,Template,F,16,19,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-82098,91de30fa,GitHub,6c73b80a,data/6c73b80a/test/91de30fa.go,91,91,Template,F,13,16,F,F,CharsOnly,,,Secret,1.58,3,F,F,F,Password
-82099,69abb428,GitHub,6c73b80a,data/6c73b80a/test/69abb428.go,8891,8891,F,F,34,40,F,F,,,,,0.0,0,F,F,F,Password
-82100,69abb428,GitHub,6c73b80a,data/6c73b80a/test/69abb428.go,8971,8971,F,F,34,40,F,F,,,,,0.0,0,F,F,F,Password
-82101,69abb428,GitHub,6c73b80a,data/6c73b80a/test/69abb428.go,8975,8975,F,F,34,40,F,F,,,,,0.0,0,F,F,F,Password
-82102,69abb428,GitHub,6c73b80a,data/6c73b80a/test/69abb428.go,10651,10651,F,F,34,40,F,F,,,,,0.0,0,F,F,F,Password
-82103,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,587,587,T,F,14,70,F,F,Any,,,Unknown,4.55,56,F,F,F,Key
-82104,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,612,612,T,F,18,74,F,F,Any,,,Unknown,4.67,56,F,F,F,Key
-82105,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,1468,1468,F,F,72,77,F,F,,,,,0.0,0,F,F,F,Password
-82106,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,1530,1530,F,F,27,30,F,F,,,,,0.0,0,F,F,F,Password
-84010,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,345,345,T,F,28,34,F,F,Any,,,Secret,2.25,6,F,F,F,Password
-84011,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,370,370,T,F,92,98,F,F,Any,,,Secret,2.25,6,F,F,F,Password
-84012,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,375,375,T,F,44,50,F,F,Any,,,Secret,2.25,6,F,F,F,Password
-84013,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,380,380,T,F,95,101,F,F,Any,,,Secret,2.25,6,F,F,F,Password
-84014,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,385,385,T,F,95,101,F,F,Any,,,Secret,2.25,6,F,F,F,Password
-84015,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,390,390,T,F,97,103,F,F,Any,,,Secret,2.25,6,F,F,F,Password
-102673,083a78c6,GitHub,6c73b80a,data/6c73b80a/other/083a78c6.md,5,5,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-102674,083a78c6,GitHub,6c73b80a,data/6c73b80a/other/083a78c6.md,7,7,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-102676,083a78c6,GitHub,6c73b80a,data/6c73b80a/other/083a78c6.md,56,56,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-102678,65345c05,GitHub,6c73b80a,data/6c73b80a/src/65345c05.conf,18,18,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-102679,d1df8c34,GitHub,6c73b80a,data/6c73b80a/src/d1df8c34.conf,18,18,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-102680,c8af9dd7,GitHub,6c73b80a,data/6c73b80a/src/c8af9dd7.go,66,66,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-102682,a6c11edd,GitHub,6c73b80a,data/6c73b80a/src/a6c11edd.go,42,42,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-102684,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,752,752,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-102685,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,1709,1709,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-102686,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,1777,1777,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-102687,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,2982,2982,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-102688,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,3070,3070,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-102689,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,3554,3554,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-102690,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,4183,4183,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-102691,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,4484,4484,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-102692,94ae447a,GitHub,6c73b80a,data/6c73b80a/src/94ae447a.go,676,676,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-102693,929e895f,GitHub,6c73b80a,data/6c73b80a/src/929e895f.go,11,11,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-102694,7ef2fc1d,GitHub,6c73b80a,data/6c73b80a/src/7ef2fc1d.go,86,86,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-102695,9d8f319f,GitHub,6c73b80a,data/6c73b80a/src/9d8f319f.go,516,516,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-102696,7f0ec905,GitHub,6c73b80a,data/6c73b80a/src/7f0ec905.conf,21,21,T,F,12,68,F,F,,,,,0.0,-1,F,F,F,Key
-102698,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,6855,6855,Template,T,35,39,F,F,CharOnly,,,Secret,1.5,4,F,F,F,Password
-102699,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,6864,6864,Template,T,35,39,F,F,CharOnly,,,Secret,1.5,4,F,F,F,Password
-102700,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,7183,7183,T,F,33,40,F,F,Any,,,Secret,2.41,7,F,F,F,Password
-102701,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,7370,7370,Template,T,35,39,F,F,CharOnly,,,Secret,1.5,4,F,F,F,Password
-102702,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,7378,7378,Template,T,35,39,F,F,CharOnly,,,Secret,1.5,4,F,F,F,Password
-102703,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,7404,7404,Template,T,35,39,F,F,CharOnly,,,Secret,1.5,4,F,F,F,Password
-102704,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,7412,7412,Template,T,35,39,F,F,CharOnly,,,Secret,1.5,4,F,F,F,Password
-102705,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,262,262,T,F,61,67,F,F,Any,,,Secret,2.58,6,F,F,F,Password
-102706,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,285,285,T,F,43,49,F,F,Any,,,Secret,2.58,6,F,F,F,Password
-102707,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,290,290,T,F,45,51,F,F,Any,,,Secret,2.58,6,F,F,F,Password
-102708,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,305,305,T,F,47,53,F,F,Any,,,Secret,2.58,6,F,F,F,Password
-102709,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,335,335,T,F,92,98,F,F,Any,,,Secret,2.58,6,F,F,F,Password
-102710,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,343,343,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
-102711,1eb6d192,GitHub,6c73b80a,data/6c73b80a/test/1eb6d192.go,110,110,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-102712,1eb6d192,GitHub,6c73b80a,data/6c73b80a/test/1eb6d192.go,124,124,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
-102713,1eb6d192,GitHub,6c73b80a,data/6c73b80a/test/1eb6d192.go,211,211,T,F,16,72,F,F,,,,,0.0,-1,F,F,F,Key
-102714,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,879,879,T,F,16,72,F,F,,,,,0.0,-1,F,F,F,Key
-102715,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,880,880,T,F,16,72,F,F,,,,,0.0,-1,F,F,F,Key
-102716,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,995,995,T,F,12,68,F,F,,,,,0.0,-1,F,F,F,Key
-102717,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,996,996,T,F,12,68,F,F,,,,,0.0,-1,F,F,F,Key
-102718,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1015,1015,T,F,13,69,F,F,,,,,0.0,-1,F,F,F,Key
-102719,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1089,1089,T,F,16,72,F,F,,,,,0.0,-1,F,F,F,Key
-102720,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1134,1134,F,F,,,F,F,,,,,0.00,,F,F,F,Key
-102721,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1150,1150,T,F,16,72,F,F,,,,,0.0,-1,F,F,F,Key
-102722,d59cf806,GitHub,6c73b80a,data/6c73b80a/test/d59cf806.go,306,306,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-102723,d59cf806,GitHub,6c73b80a,data/6c73b80a/test/d59cf806.go,307,307,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-102724,d59cf806,GitHub,6c73b80a,data/6c73b80a/test/d59cf806.go,311,311,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-102725,d59cf806,GitHub,6c73b80a,data/6c73b80a/test/d59cf806.go,314,314,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-102726,d59cf806,GitHub,6c73b80a,data/6c73b80a/test/d59cf806.go,382,382,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-102727,d59cf806,GitHub,6c73b80a,data/6c73b80a/test/d59cf806.go,383,383,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-102728,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,566,566,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-102729,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,1528,1528,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
-102730,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,1535,1535,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
-102731,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3065,3065,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-102732,08d7456f,GitHub,6c73b80a,data/6c73b80a/test/08d7456f.conf,8,8,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-102734,44141ad0,GitHub,6c73b80a,data/6c73b80a/test/44141ad0.go,173,173,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-102735,44141ad0,GitHub,6c73b80a,data/6c73b80a/test/44141ad0.go,321,321,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-102738,47a228cb,GitHub,6c73b80a,data/6c73b80a/test/47a228cb.go,98,98,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
-102739,91de30fa,GitHub,6c73b80a,data/6c73b80a/test/91de30fa.go,137,137,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
-102740,91de30fa,GitHub,6c73b80a,data/6c73b80a/test/91de30fa.go,144,144,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
-102741,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,501,501,T,F,14,70,F,F,,,,,0.0,-1,F,F,F,Key
-102742,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,568,568,T,F,14,70,F,F,,,,,0.0,-1,F,F,F,Key
-102743,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,651,651,T,F,12,68,F,F,,,,,0.0,-1,F,F,F,Key
-102744,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,678,678,T,F,12,68,F,F,,,,,0.0,-1,F,F,F,Key
-102745,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,713,713,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
-102746,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,717,717,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
-102747,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1586,1586,T,F,81,137,F,F,,,,,0.0,-1,F,F,F,Key
-102748,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1588,1588,T,F,81,137,F,F,,,,,0.0,-1,F,F,F,Key
-113782,083a78c6,GitHub,6c73b80a,data/6c73b80a/other/083a78c6.md,49,49,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
-113783,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1390,1390,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-113784,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1421,1421,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-113785,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1423,1423,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-113786,e1e39b80,GitHub,6c73b80a,data/6c73b80a/test/e1e39b80.go,526,526,F,F,,,F,F,,,,,0.00,,F,F,F,Auth:Token
-113788,8bf97fa3,GitHub,6c73b80a,data/6c73b80a/test/8bf97fa3.go,174,174,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-113789,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3315,3315,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-113790,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3346,3346,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-113791,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3348,3348,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-113792,ada0599e,GitHub,6c73b80a,data/6c73b80a/test/ada0599e.go,1362,1362,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
-130988,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,4246,4246,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-130989,9d8f319f,GitHub,6c73b80a,data/6c73b80a/src/9d8f319f.go,1622,1622,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-130990,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,4247,4247,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-130991,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2874,2874,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-130992,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,611,611,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-130994,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2880,2880,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-130995,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2887,2887,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-130996,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,4157,4157,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-130999,a6c11edd,GitHub,6c73b80a,data/6c73b80a/src/a6c11edd.go,697,697,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-131002,08d7456f,GitHub,6c73b80a,data/6c73b80a/test/08d7456f.conf,16,16,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-131003,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,341,341,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-131006,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,366,366,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-132796,9d8f319f,GitHub,6c73b80a,data/6c73b80a/src/9d8f319f.go,1605,1605,F,F,,,F,F,,,,,0,0,F,F,F,Password
-133421,083a78c6,GitHub,6c73b80a,data/6c73b80a/other/083a78c6.md,19,19,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-133422,3342c78c,GitHub,6c73b80a,data/6c73b80a/src/3342c78c.conf,27,27,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-133423,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,432,432,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-133424,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,6458,6458,F,F,,,F,F,,,,,0,0,F,F,F,API
-133425,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,1452,1452,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-133426,9f7a2e57,GitHub,6c73b80a,data/6c73b80a/test/9f7a2e57.conf,20,20,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-133427,e1e39b80,GitHub,6c73b80a,data/6c73b80a/test/e1e39b80.go,1286,1286,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-134818,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,325,325,T,F,44,51,F,F,Any,,,Secret,2.52,7,F,F,F,Password
-138242,893086b1,GitHub,6c73b80a,data/6c73b80a/src/893086b1.conf,20,20,F,F,44,-1,F,F,,,,,0.0,0,F,F,F,Other
-138243,c2c3c972,GitHub,6c73b80a,data/6c73b80a/src/c2c3c972.conf,20,20,F,F,44,-1,F,F,,,,,0.0,0,F,F,F,Other
-138244,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,310,310,F,F,59,63,F,F,,,,,0.0,0,F,F,F,Password
-138245,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,311,311,F,F,60,64,F,F,,,,,0.0,0,F,F,F,Password
-138246,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,312,312,F,F,60,64,F,F,,,,,0.0,0,F,F,F,Password
-138247,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,331,331,F,F,60,64,F,F,,,,,0.0,0,F,F,F,Password
-138248,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,345,345,F,F,55,-1,F,F,,,,,0.0,0,F,F,F,Other
-138249,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,379,379,F,F,55,-1,F,F,,,,,0.0,0,F,F,F,Other
-138251,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,421,421,T,F,34,44,F,F,,,,,0.0,0,F,F,F,URL Credentials
-138252,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1566,1566,F,F,69,-1,F,F,,,,,0.0,0,F,F,F,Other
-138253,a0ebfc5c,GitHub,6c73b80a,data/6c73b80a/test/a0ebfc5c.conf,20,20,F,F,44,-1,F,F,,,,,0.0,0,F,F,F,Other
-138254,b78f1942,GitHub,6c73b80a,data/6c73b80a/test/b78f1942.conf,21,21,F,F,44,-1,F,F,,,,,0.0,0,F,F,F,Other
-1338242,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,286,286,F,F,43,53,F,F,,,,,0.0,0,F,F,F,Password
-1338243,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,291,291,F,F,45,55,F,F,,,,,0.0,0,F,F,F,Password
-1338244,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,296,296,F,F,43,53,F,F,,,,,0.0,0,F,F,F,Password
-1338245,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,301,301,F,F,43,53,F,F,,,,,0.0,0,F,F,F,Password
-1338246,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,306,306,F,F,47,57,F,F,,,,,0.0,0,F,F,F,Password
-1338247,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,311,311,F,F,24,34,F,F,,,,,0.0,0,F,F,F,Password
-1338248,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,326,326,F,F,21,31,F,F,,,,,0.0,0,F,F,F,Password
-1338249,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,346,346,F,F,28,38,F,F,,,,,0.0,0,F,F,F,Password
-1338250,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,351,351,F,F,24,34,F,F,,,,,0.0,0,F,F,F,Password
-1338251,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,356,356,F,F,24,34,F,F,,,,,0.0,0,F,F,F,Password
-1338253,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,376,376,F,F,44,54,F,F,,,,,0.0,0,F,F,F,Password
-1338361,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,361,361,F,F,24,34,F,F,,,,,0.0,0,F,F,F,Password
-1337361,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,361,361,F,F,48,68,F,F,,,,,0.0,0,F,F,F,Password
-1336361,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,361,361,F,F,86,102,F,F,,,,,0.0,0,F,F,F,Password
-1338362,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,7648,7648,T,F,48,55,F,F,,,,,0.0,0,F,F,F,URL Credentials
-1338363,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,622,622,T,F,54,59,F,F,,,,,0.0,0,F,F,F,URL Credentials
-1338364,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,629,629,T,F,54,59,F,F,,,,,0.0,0,F,F,F,URL Credentials
-1338365,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,721,721,T,F,52,57,F,F,,,,,0.0,0,F,F,F,URL Credentials
-1338366,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,726,726,T,F,52,57,F,F,,,,,0.0,0,F,F,F,URL Credentials
-1338389,32a8e48e,GitHub,6c73b80a,data/6c73b80a/src/32a8e48e.creds,2,2,T,F,0,545,F,F,,,,,0.0,0,F,F,F,JSON Web Token
-1338390,3342c78c,GitHub,6c73b80a,data/6c73b80a/src/3342c78c.conf,14,14,T,F,12,500,F,F,,,,,0.0,0,F,F,F,JSON Web Token
-1338391,3342c78c,GitHub,6c73b80a,data/6c73b80a/src/3342c78c.conf,30,30,T,F,61,741,F,F,,,,,0.0,0,F,F,F,JSON Web Token
-1338392,3342c78c,GitHub,6c73b80a,data/6c73b80a/src/3342c78c.conf,33,33,T,F,61,829,F,F,,,,,0.0,0,F,F,F,JSON Web Token
-1338393,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,2356,2356,T,F,68,525,F,F,,,,,0.0,0,F,F,F,JSON Web Token
-1338394,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,2378,2378,T,F,68,525,F,F,,,,,0.0,0,F,F,F,JSON Web Token
-1338395,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2936,2936,T,F,11,706,F,F,,,,,0.0,0,F,F,F,JSON Web Token
-1338396,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2960,2960,T,F,11,576,F,F,,,,,0.0,0,F,F,F,JSON Web Token
-1338397,9f7a2e57,GitHub,6c73b80a,data/6c73b80a/test/9f7a2e57.conf,22,22,T,F,64,521,F,F,,,,,0.0,0,F,F,F,JSON Web Token
-1338398,9f7a2e57,GitHub,6c73b80a,data/6c73b80a/test/9f7a2e57.conf,24,24,T,F,63,520,F,F,,,,,0.0,0,F,F,F,JSON Web Token
-1338475,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2964,2964,T,F,62,668,F,F,,,,,0.0,0,F,F,F,JSON Web Token
-1338476,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,43,43,T,F,9,823,F,F,,,,,0.0,0,F,F,F,JSON Web Token
-1338569,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2580,2580,T,F,51,56,F,F,,,,,0.0,0,F,F,F,URL Credentials
-1341514,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,764,764,T,F,49,54,F,F,,,,,0.0,0,F,F,F,URL Credentials
-1041514,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,768,768,T,F,49,54,F,F,,,,,0.0,0,F,F,F,URL Credentials
-1341541,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,295,295,F,F,,,F,F,,,,,0.0,0,F,F,F,Password
-1337696,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,7023,7023,T,F,31,67,F,F,,,,,0.0,0,F,F,F,UUID
-1381006,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,902,902,F,F,18,82,F,F,,,,,0.0,0,F,F,F,Certificate
-1381058,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,2136,2136,T,F,17,73,F,F,,,,,0.0,0,F,F,F,Key
-1381059,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,2142,2142,T,F,17,73,F,F,,,,,0.0,0,F,F,F,Key
-1381060,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2749,2749,T,F,12,68,F,F,,,,,0.0,0,F,F,F,Key
-1381061,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2755,2755,T,F,12,68,F,F,,,,,0.0,0,F,F,F,Key
-1381062,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2837,2837,T,F,11,67,F,F,,,,,0.0,0,F,F,F,Key
-1381063,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2844,2844,T,F,12,68,F,F,,,,,0.0,0,F,F,F,Key
-1381064,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2046,2046,T,F,11,67,F,F,,,,,0.0,0,F,F,F,Key
-1381065,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2053,2053,T,F,12,68,F,F,,,,,0.0,0,F,F,F,Key
-1381066,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2642,2642,T,F,19,75,F,F,,,,,0.0,0,F,F,F,Key
-1381067,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2645,2645,T,F,19,75,F,F,,,,,0.0,0,F,F,F,Key
-1381068,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2875,2875,T,F,13,69,F,F,,,,,0.0,0,F,F,F,Key
-1381098,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,381,381,F,F,95,105,F,F,,,,,0.0,0,F,F,F,Password
-1494344,5f039f34,GitHub,6c73b80a,data/6c73b80a/src/5f039f34.conf,5,5,T,F,14,23,F,F,,,,,0.0,0,F,F,F,Password
-1494345,89847e4c,GitHub,6c73b80a,data/6c73b80a/src/89847e4c.conf,4,4,T,F,10,66,F,F,,,,,0.0,0,F,F,F,Key
-1494346,89847e4c,GitHub,6c73b80a,data/6c73b80a/src/89847e4c.conf,8,8,T,F,14,70,F,F,,,,,0.0,0,F,F,F,Key
-1494347,89847e4c,GitHub,6c73b80a,data/6c73b80a/src/89847e4c.conf,10,10,T,F,14,70,F,F,,,,,0.0,0,F,F,F,Key
-1494348,89847e4c,GitHub,6c73b80a,data/6c73b80a/src/89847e4c.conf,26,26,T,F,10,66,F,F,,,,,0.0,0,F,F,F,Key
-1494349,89847e4c,GitHub,6c73b80a,data/6c73b80a/src/89847e4c.conf,30,30,T,F,14,70,F,F,,,,,0.0,0,F,F,F,Key
-1494350,89847e4c,GitHub,6c73b80a,data/6c73b80a/src/89847e4c.conf,32,32,T,F,14,70,F,F,,,,,0.0,0,F,F,F,Key
-1494351,89847e4c,GitHub,6c73b80a,data/6c73b80a/src/89847e4c.conf,49,49,T,F,16,72,F,F,,,,,0.0,0,F,F,F,Key
-1494352,0b4f7b7b,GitHub,6c73b80a,data/6c73b80a/test/0b4f7b7b.conf,13,13,T,F,12,20,F,F,,,,,0.0,0,F,F,F,Password
+Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd,CryptographyKey,PredefinedPattern,Category
+350,fe3d3d63,GitHub,6c73b80a,data/6c73b80a/src/fe3d3d63.go,36,36,F,,,,,API
+933,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,1067,1067,F,-1,-1,,,Key
+1049,8bf97fa3,GitHub,6c73b80a,data/6c73b80a/test/8bf97fa3.go,117,117,F,,,,,Auth
+1807,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2469,2469,F,-1,-1,,,Credential
+1809,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2429,2429,F,-1,-1,,,Credential
+1893,ef6be3a4,GitHub,6c73b80a,data/6c73b80a/src/ef6be3a4.go,2239,2239,F,,,,,Password
+2487,9c075c47,GitHub,6c73b80a,data/6c73b80a/src/9c075c47.go,37,37,F,,,,,API
+2514,9c075c47,GitHub,6c73b80a,data/6c73b80a/src/9c075c47.go,40,40,F,,,,,API
+2780,ef6be3a4,GitHub,6c73b80a,data/6c73b80a/src/ef6be3a4.go,2345,2345,F,,,,,Password
+4919,6460c9a4,GitHub,6c73b80a,data/6c73b80a/src/6460c9a4.go,2288,2288,F,-1,-1,,,Key
+5057,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,4974,4974,F,,,,,Token
+5491,a6b9351b,GitHub,6c73b80a,data/6c73b80a/src/a6b9351b.go,609,609,F,,,,,Auth
+5568,6460c9a4,GitHub,6c73b80a,data/6c73b80a/src/6460c9a4.go,2522,2522,F,,,,,Password
+6103,7ef2fc1d,GitHub,6c73b80a,data/6c73b80a/src/7ef2fc1d.go,540,540,F,,,,,Password
+7111,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,7153,7153,T,53,60,,,Password
+7428,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,2381,2381,F,,,,,Token
+7429,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,2382,2382,F,,,,,Token
+7506,ef6be3a4,GitHub,6c73b80a,data/6c73b80a/src/ef6be3a4.go,2346,2346,F,,,,,Password
+7509,69abb428,GitHub,6c73b80a,data/6c73b80a/test/69abb428.go,810,810,F,-1,-1,,,Other
+7680,ed44e472,GitHub,6c73b80a,data/6c73b80a/src/ed44e472.go,48,48,F,-1,-1,,,Key
+7747,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,110,110,F,,,,,Token
+7855,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,1463,1463,F,,,,,Token
+7959,7f0ec905,GitHub,6c73b80a,data/6c73b80a/src/7f0ec905.conf,5,5,F,,,,,Token
+8142,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1216,1216,F,,,,,Token
+8227,ada0599e,GitHub,6c73b80a,data/6c73b80a/test/ada0599e.go,1880,1880,F,-1,-1,,,Other
+8228,ada0599e,GitHub,6c73b80a,data/6c73b80a/test/ada0599e.go,1843,1843,F,-1,-1,,,Other
+8229,ada0599e,GitHub,6c73b80a,data/6c73b80a/test/ada0599e.go,1822,1822,F,-1,-1,,,Other
+8573,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,734,734,F,,,,,Token
+8745,78f42ba4,GitHub,6c73b80a,data/6c73b80a/src/78f42ba4.go,761,761,F,,,,,Password
+8793,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2767,2767,F,,,,,Seed
+9154,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,2762,2762,F,,,,,Token
+9227,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,5249,5249,F,-1,-1,,,Key
+9257,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,781,781,F,,,,,Token
+9823,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,756,756,T,46,51,,,Password
+9935,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,3014,3014,T,26,31,,,Password
+9951,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,3013,3013,T,26,31,,,Password
+9952,6e07527d,GitHub,6c73b80a,data/6c73b80a/src/6e07527d.conf,6,6,F,,,,,Password
+10003,7ef2fc1d,GitHub,6c73b80a,data/6c73b80a/src/7ef2fc1d.go,1068,1068,F,,,,,Password
+10014,69abb428,GitHub,6c73b80a,data/6c73b80a/test/69abb428.go,10727,10727,F,,,,,Password
+10015,08d7456f,GitHub,6c73b80a,data/6c73b80a/test/08d7456f.conf,20,20,F,,,,,Password
+10016,08d7456f,GitHub,6c73b80a,data/6c73b80a/test/08d7456f.conf,19,19,F,,,,,Password
+10017,0fd3e5cb,GitHub,6c73b80a,data/6c73b80a/test/0fd3e5cb.conf,23,23,F,,,,,Password
+10018,0fd3e5cb,GitHub,6c73b80a,data/6c73b80a/test/0fd3e5cb.conf,24,24,F,,,,,Password
+10019,08d7456f,GitHub,6c73b80a,data/6c73b80a/test/08d7456f.conf,17,17,F,,,,,Password
+10020,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,3538,3538,F,,,,,Password
+10021,0fd3e5cb,GitHub,6c73b80a,data/6c73b80a/test/0fd3e5cb.conf,17,17,F,,,,,Password
+10022,08d7456f,GitHub,6c73b80a,data/6c73b80a/test/08d7456f.conf,15,15,F,,,,,Password
+10023,d59cf806,GitHub,6c73b80a,data/6c73b80a/test/d59cf806.go,343,343,F,,,,,Password
+10024,bb6ee9bd,GitHub,6c73b80a,data/6c73b80a/src/bb6ee9bd.conf,35,35,Template,28,31,,,Password
+10025,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,426,426,F,,,,,Password
+10026,0fd3e5cb,GitHub,6c73b80a,data/6c73b80a/test/0fd3e5cb.conf,10,10,F,,,,,Password
+10027,08d7456f,GitHub,6c73b80a,data/6c73b80a/test/08d7456f.conf,13,13,F,,,,,Password
+10028,d59cf806,GitHub,6c73b80a,data/6c73b80a/test/d59cf806.go,342,342,F,,,,,Password
+10029,6e07527d,GitHub,6c73b80a,data/6c73b80a/src/6e07527d.conf,7,7,F,,,,,Password
+10030,08d7456f,GitHub,6c73b80a,data/6c73b80a/test/08d7456f.conf,18,18,F,,,,,Password
+10031,08d7456f,GitHub,6c73b80a,data/6c73b80a/test/08d7456f.conf,14,14,F,,,,,Password
+10033,0fd3e5cb,GitHub,6c73b80a,data/6c73b80a/test/0fd3e5cb.conf,9,9,F,,,,,Password
+10034,08d7456f,GitHub,6c73b80a,data/6c73b80a/test/08d7456f.conf,12,12,F,,,,,Password
+10035,d59cf806,GitHub,6c73b80a,data/6c73b80a/test/d59cf806.go,341,341,F,,,,,Password
+10848,47a228cb,GitHub,6c73b80a,data/6c73b80a/test/47a228cb.go,37,37,F,,,,,Seed
+10873,47a228cb,GitHub,6c73b80a,data/6c73b80a/test/47a228cb.go,40,40,F,,,,,Seed
+10886,1eb6d192,GitHub,6c73b80a,data/6c73b80a/test/1eb6d192.go,38,38,F,,,,,Seed
+11066,f1bada03,GitHub,6c73b80a,data/6c73b80a/test/f1bada03.go,3964,3964,F,,,,,Password
+11068,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,977,977,F,,,,,Password
+11070,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1803,1803,F,,,,,Password
+11091,81d92a1a,GitHub,6c73b80a,data/6c73b80a/test/81d92a1a.go,33,33,F,,,,,Password
+11760,69abb428,GitHub,6c73b80a,data/6c73b80a/test/69abb428.go,10730,10730,F,,,,,Auth
+11761,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2869,2869,F,,,,,Auth
+11762,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,429,429,F,,,,,Auth
+11886,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,41,41,F,,,,,Seed
+11893,94ae447a,GitHub,6c73b80a,data/6c73b80a/src/94ae447a.go,961,961,F,,,,,Token
+11894,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,726,726,F,,,,,Password
+12250,c8af9dd7,GitHub,6c73b80a,data/6c73b80a/src/c8af9dd7.go,2274,2274,F,-1,-1,,,Key
+12253,a6c11edd,GitHub,6c73b80a,data/6c73b80a/src/a6c11edd.go,1679,1679,F,-1,-1,,,Key
+12254,c8af9dd7,GitHub,6c73b80a,data/6c73b80a/src/c8af9dd7.go,2271,2271,F,-1,-1,,,Key
+13625,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,2763,2763,F,,,,,Token
+14355,1eb6d192,GitHub,6c73b80a,data/6c73b80a/test/1eb6d192.go,53,53,F,,,,,Password
+14356,8bf97fa3,GitHub,6c73b80a,data/6c73b80a/test/8bf97fa3.go,123,123,F,,,,,Auth
+14361,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,3851,3851,F,,,,,Password
+14363,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,562,562,F,,,,,Password
+14410,7ef2fc1d,GitHub,6c73b80a,data/6c73b80a/src/7ef2fc1d.go,438,438,F,,,,,Password
+14414,7ef2fc1d,GitHub,6c73b80a,data/6c73b80a/src/7ef2fc1d.go,413,413,F,,,,,Password
+14443,7ef2fc1d,GitHub,6c73b80a,data/6c73b80a/src/7ef2fc1d.go,426,426,F,,,,,Password
+14512,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,3554,3554,F,,,,,Password
+14513,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1117,1117,T,16,22,,,Password
+17758,083a78c6,GitHub,6c73b80a,data/6c73b80a/other/083a78c6.md,45,45,F,,,,,Seed
+21408,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,3275,3275,T,44,51,,,Password
+22910,8705fea4,GitHub,6c73b80a,data/6c73b80a/src/8705fea4.go,327,327,F,,,,,Certificate
+23004,929e895f,GitHub,6c73b80a,data/6c73b80a/src/929e895f.go,37,37,F,-1,-1,,,Key
+23048,f177105c,GitHub,6c73b80a,data/6c73b80a/other/f177105c.md,134,134,F,-1,-1,,,Key
+23058,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,4957,4957,F,,,,,API
+23060,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,4794,4794,F,,,,,API
+23201,8705fea4,GitHub,6c73b80a,data/6c73b80a/src/8705fea4.go,846,846,F,-1,-1,,,Key
+23343,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2445,2445,F,-1,-1,,,Credential
+23708,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,4851,4851,F,,,,,API
+23709,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,6915,6915,F,,,,,API
+23943,e3589b0d,GitHub,6c73b80a,data/6c73b80a/src/e3589b0d.go,33,33,F,-1,-1,,,Key
+24284,6460c9a4,GitHub,6c73b80a,data/6c73b80a/src/6460c9a4.go,1172,1172,F,-1,-1,,,Key
+24317,9c075c47,GitHub,6c73b80a,data/6c73b80a/src/9c075c47.go,42,42,F,,,,,API
+24621,6460c9a4,GitHub,6c73b80a,data/6c73b80a/src/6460c9a4.go,737,737,F,-1,-1,,,Key
+24665,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,6210,6210,F,,,,,API
+24666,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,6384,6384,F,,,,,API
+24667,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,6380,6380,F,,,,,API
+24669,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,6065,6065,F,,,,,API
+24670,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,6180,6180,F,,,,,API
+24676,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,6026,6026,F,,,,,API
+24860,9418d4fb,GitHub,6c73b80a,data/6c73b80a/src/9418d4fb.go,1606,1606,F,-1,-1,,,Key
+25158,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,737,737,T,48,53,,,Password
+25348,6460c9a4,GitHub,6c73b80a,data/6c73b80a/src/6460c9a4.go,2121,2121,F,,,,,Password
+26181,6c46bf4a,GitHub,6c73b80a,data/6c73b80a/src/6c46bf4a.go,247,247,F,-1,-1,,,Key
+26187,932778a5,GitHub,6c73b80a,data/6c73b80a/src/932778a5.go,288,288,F,-1,-1,,,Key
+26353,6460c9a4,GitHub,6c73b80a,data/6c73b80a/src/6460c9a4.go,1676,1676,F,-1,-1,,,Key
+26373,c8af9dd7,GitHub,6c73b80a,data/6c73b80a/src/c8af9dd7.go,882,882,F,,,,,Password
+27330,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,2837,2837,Template,36,39,,,Password
+27331,69abb428,GitHub,6c73b80a,data/6c73b80a/test/69abb428.go,10436,10436,Template,35,38,,,Password
+27332,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,273,273,T,39,45,,,Password
+27334,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,277,277,T,39,45,,,Password
+27344,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1799,1799,Template,38,46,,,Password
+27384,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,920,920,Template,26,32,,,Token
+27752,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,592,592,T,47,52,,,Password
+27926,f1bada03,GitHub,6c73b80a,data/6c73b80a/test/f1bada03.go,3826,3826,Template,52,55,,,Password
+27947,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,4479,4479,Template,26,30,,,Password
+27957,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,570,570,Template,26,33,,,Password
+27963,e4efd21e,GitHub,6c73b80a,data/6c73b80a/src/e4efd21e.conf,47,47,Template,28,30,,,Password
+27967,95b298e5,GitHub,6c73b80a,data/6c73b80a/src/95b298e5.conf,31,31,T,26,33,,,Password
+28034,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,425,425,Template,30,33,,,Password
+28865,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,1462,1462,Template,16,19,,,Password
+29095,cb4307f8,GitHub,6c73b80a,data/6c73b80a/test/cb4307f8.go,78,78,Template,20,30,,,Password
+29101,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,139,139,Template,16,19,,,Password
+29104,e1e39b80,GitHub,6c73b80a,data/6c73b80a/test/e1e39b80.go,1861,1861,Template,18,21,,,Password
+29105,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,357,357,Template,17,27,,,Password
+29110,91de30fa,GitHub,6c73b80a,data/6c73b80a/test/91de30fa.go,113,113,Template,27,30,,,Password
+29123,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1283,1283,Template,54,57,,,Password
+29128,f1bada03,GitHub,6c73b80a,data/6c73b80a/test/f1bada03.go,3658,3658,Template,50,53,,,URL Credentials
+29135,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,520,520,T,14,70,,,Key
+29137,7f0ec905,GitHub,6c73b80a,data/6c73b80a/src/7f0ec905.conf,36,36,T,12,68,,,Key
+29138,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,545,545,T,18,74,,,Key
+29153,91de30fa,GitHub,6c73b80a,data/6c73b80a/test/91de30fa.go,28,28,Template,13,16,,,Password
+29172,6a77588c,GitHub,6c73b80a,data/6c73b80a/test/6a77588c.conf,21,21,Template,21,24,,,URL Credentials
+29173,d59cf806,GitHub,6c73b80a,data/6c73b80a/test/d59cf806.go,227,227,Template,21,24,,,URL Credentials
+29175,d59cf806,GitHub,6c73b80a,data/6c73b80a/test/d59cf806.go,228,228,Template,21,24,,,URL Credentials
+29181,d1df8c34,GitHub,6c73b80a,data/6c73b80a/src/d1df8c34.conf,27,27,Template,23,26,,,URL Credentials
+29182,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2032,2032,Template,23,26,,,URL Credentials
+29183,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2016,2016,Template,23,26,,,URL Credentials
+29184,b78f1942,GitHub,6c73b80a,data/6c73b80a/test/b78f1942.conf,21,21,T,23,33,,,URL Credentials
+29185,a0ebfc5c,GitHub,6c73b80a,data/6c73b80a/test/a0ebfc5c.conf,20,20,T,23,33,,,URL Credentials
+29186,6a77588c,GitHub,6c73b80a,data/6c73b80a/test/6a77588c.conf,20,20,Template,21,24,,,URL Credentials
+29187,c28815c0,GitHub,6c73b80a,data/6c73b80a/src/c28815c0.conf,31,31,Template,21,24,,,URL Credentials
+29188,c28815c0,GitHub,6c73b80a,data/6c73b80a/src/c28815c0.conf,30,30,Template,21,24,,,URL Credentials
+29197,893086b1,GitHub,6c73b80a,data/6c73b80a/src/893086b1.conf,20,20,T,23,33,,,URL Credentials
+29207,c2c3c972,GitHub,6c73b80a,data/6c73b80a/src/c2c3c972.conf,20,20,T,23,33,,,URL Credentials
+29208,296de483,GitHub,6c73b80a,data/6c73b80a/src/296de483.conf,10,10,Template,23,26,,,URL Credentials
+29209,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,4161,4161,F,,,,,Password
+29230,f1bada03,GitHub,6c73b80a,data/6c73b80a/test/f1bada03.go,3988,3988,F,,,,,Password
+29241,f1bada03,GitHub,6c73b80a,data/6c73b80a/test/f1bada03.go,3651,3651,Template,50,53,,,URL Credentials
+29329,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,903,903,Template,24,27,,,Password
+29330,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,1671,1671,Template,68,71,,,Password
+29332,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,5116,5116,Template,51,54,,,Password
+29336,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,5131,5131,Template,51,54,,,Password
+29345,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,1536,1536,Template,24,31,,,Token
+29346,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3307,3307,Template,49,52,,,Password
+29347,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,336,336,Template,50,53,,,Password
+29363,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,344,344,Template,19,26,,,Token
+29367,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,5110,5110,Template,50,53,,,Password
+29386,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,571,571,Template,86,89,,,Password
+29399,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1567,1567,F,,,,,Password
+29456,f1bada03,GitHub,6c73b80a,data/6c73b80a/test/f1bada03.go,2823,2823,Template,32,35,,,URL Credentials
+29458,f1bada03,GitHub,6c73b80a,data/6c73b80a/test/f1bada03.go,2650,2650,Template,33,36,,,URL Credentials
+29459,e1e39b80,GitHub,6c73b80a,data/6c73b80a/test/e1e39b80.go,1864,1864,Template,44,47,,,Password
+29467,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,4248,4248,Template,20,23,,,URL Credentials
+29468,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,442,442,Template,21,24,,,URL Credentials
+29539,c7271062,GitHub,6c73b80a,data/6c73b80a/test/c7271062.go,189,189,Template,27,36,,,Password
+29585,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,693,693,Template,31,34,,,Password
+29586,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,694,694,Template,31,34,,,Password
+29587,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,4179,4179,Template,25,28,,,Password
+29588,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,574,574,Template,34,37,,,Password
+29589,b9fae90a,GitHub,6c73b80a,data/6c73b80a/src/b9fae90a.conf,5,5,Template,30,33,,,Password
+29590,95b298e5,GitHub,6c73b80a,data/6c73b80a/src/95b298e5.conf,30,30,Template,28,31,,,Password
+29591,1eb6d192,GitHub,6c73b80a,data/6c73b80a/test/1eb6d192.go,212,212,Template,32,35,,,Password
+29592,59a54067,GitHub,6c73b80a,data/6c73b80a/test/59a54067.go,1327,1327,Template,30,33,,,Password
+29593,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,692,692,Template,31,34,,,Password
+29594,35b59241,GitHub,6c73b80a,data/6c73b80a/test/35b59241.go,2224,2224,F,,,,,Password
+29603,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2563,2563,Template,26,29,,,Password
+29606,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3343,3343,Template,38,41,,,Password
+29615,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3344,3344,Template,36,39,,,Password
+29621,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1418,1418,Template,40,43,,,Password
+29622,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1419,1419,Template,38,41,,,Password
+29623,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3341,3341,Template,36,39,,,Password
+29624,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3342,3342,Template,34,37,,,Password
+29632,36165432,GitHub,6c73b80a,data/6c73b80a/src/36165432.conf,6,6,Template,30,33,,,Password
+29633,59a54067,GitHub,6c73b80a,data/6c73b80a/test/59a54067.go,1328,1328,Template,30,33,,,Password
+29634,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,518,518,Template,32,35,,,Password
+29635,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2052,2052,Template,28,31,,,Password
+29638,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,523,523,Template,34,37,,,Password
+29641,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2890,2890,Template,27,30,,,Password
+29643,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2045,2045,Template,26,29,,,Password
+29644,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,524,524,Template,33,36,,,Password
+29645,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,427,427,Template,30,33,,,Password
+29646,e4efd21e,GitHub,6c73b80a,data/6c73b80a/src/e4efd21e.conf,48,48,Template,28,31,,,Password
+29647,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2557,2557,Template,26,29,,,Password
+29650,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2569,2569,Template,26,29,,,Password
+29652,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,331,331,Template,39,49,,,Password
+29672,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,989,989,Template,30,33,,,Password
+29673,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1009,1009,Template,34,37,,,Password
+29680,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,3118,3118,Template,23,26,,,Password
+29698,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,4185,4185,Template,37,40,,,Password
+29732,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,6446,6446,T,34,42,,,URL Credentials
+29735,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1010,1010,Template,35,38,,,Password
+29743,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3222,3222,Template,48,51,,,Password
+29744,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1207,1207,F,,,,,Password
+29745,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,2953,2953,Template,40,43,,,Password
+29746,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2882,2882,Template,34,37,,,Password
+29747,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,3084,3084,Template,33,36,,,Password
+29748,81d92a1a,GitHub,6c73b80a,data/6c73b80a/test/81d92a1a.go,582,582,Template,39,42,,,Password
+29749,69abb428,GitHub,6c73b80a,data/6c73b80a/test/69abb428.go,10449,10449,Template,35,38,,,Password
+29750,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,4163,4163,Template,33,36,,,Password
+29751,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,4167,4167,Template,33,36,,,Password
+29752,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,4241,4241,Template,33,36,,,Password
+29759,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,990,990,Template,31,34,,,Password
+29850,c28815c0,GitHub,6c73b80a,data/6c73b80a/src/c28815c0.conf,21,21,Template,14,24,,,Password
+29899,dfcea5cc,GitHub,6c73b80a,data/6c73b80a/test/dfcea5cc.conf,21,21,Template,12,15,,,Password
+29900,347013b4,GitHub,6c73b80a,data/6c73b80a/src/347013b4.conf,12,12,Template,14,17,,,Password
+29901,28b5b2e9,GitHub,6c73b80a,data/6c73b80a/src/28b5b2e9.conf,28,28,T,12,18,,,Password
+29902,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1301,1301,Template,31,34,,,Password
+29910,d59cf806,GitHub,6c73b80a,data/6c73b80a/test/d59cf806.go,216,216,Template,14,24,,,Password
+29911,a0ebfc5c,GitHub,6c73b80a,data/6c73b80a/test/a0ebfc5c.conf,11,11,Template,14,24,,,Password
+30072,cb4307f8,GitHub,6c73b80a,data/6c73b80a/test/cb4307f8.go,87,87,Template,38,41,,,URL Credentials
+30082,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,379,379,T,34,44,,,URL Credentials
+30083,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,421,421,T,80,90,,,URL Credentials
+30091,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,345,345,T,34,44,,,URL Credentials
+30095,cb4307f8,GitHub,6c73b80a,data/6c73b80a/test/cb4307f8.go,88,88,Template,38,41,,,URL Credentials
+30483,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,6432,6432,T,44,52,,,Password
+30533,5c10b961,GitHub,6c73b80a,data/6c73b80a/test/5c10b961.go,111,111,F,,,,,Password
+30537,f1bada03,GitHub,6c73b80a,data/6c73b80a/test/f1bada03.go,3850,3850,Template,46,49,,,URL Credentials
+30741,91de30fa,GitHub,6c73b80a,data/6c73b80a/test/91de30fa.go,38,38,Template,19,22,,,Password
+30742,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1293,1293,Template,28,31,,,Password
+30786,8bf97fa3,GitHub,6c73b80a,data/6c73b80a/test/8bf97fa3.go,118,118,Template,19,25,,,Auth:Password
+30787,8bf97fa3,GitHub,6c73b80a,data/6c73b80a/test/8bf97fa3.go,53,53,Template,20,27,,,Auth:Token
+30918,e1e39b80,GitHub,6c73b80a,data/6c73b80a/test/e1e39b80.go,536,536,F,93,99,,,Token
+30919,e1e39b80,GitHub,6c73b80a,data/6c73b80a/test/e1e39b80.go,521,521,F,115,118,,,Password
+30920,e1e39b80,GitHub,6c73b80a,data/6c73b80a/test/e1e39b80.go,506,506,F,115,118,,,Password
+31465,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1566,1566,T,48,58,,,URL Credentials
+31534,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1189,1189,Template,26,30,,,Password
+32179,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,591,591,T,47,52,,,Password
+32183,69abb428,GitHub,6c73b80a,data/6c73b80a/test/69abb428.go,10648,10648,Template,38,41,,,Password
+32417,8bf97fa3,GitHub,6c73b80a,data/6c73b80a/test/8bf97fa3.go,173,173,T,26,48,,,Auth:Password
+32418,8bf97fa3,GitHub,6c73b80a,data/6c73b80a/test/8bf97fa3.go,208,208,T,27,49,,,Auth:Token
+32419,8bf97fa3,GitHub,6c73b80a,data/6c73b80a/test/8bf97fa3.go,209,209,T,32,92,,,Auth:Token
+32432,adb4a090,GitHub,6c73b80a,data/6c73b80a/test/adb4a090.go,65,65,T,19,79,,,Token
+32464,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,3801,3801,T,39,47,,,URL Credentials
+32584,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,3622,3622,T,37,45,,,URL Credentials
+32585,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,6053,6053,T,39,47,,,URL Credentials
+32596,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,4377,4377,T,38,46,,,URL Credentials
+32597,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,2150,2150,F,34,39,,,Password
+32609,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,325,325,T,21,28,,,Password
+32664,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,4386,4386,T,38,46,,,URL Credentials
+32665,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,4508,4508,T,41,49,,,URL Credentials
+32668,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,3631,3631,T,37,45,,,URL Credentials
+32669,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,5381,5381,T,40,48,,,URL Credentials
+32670,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,6063,6063,T,39,47,,,URL Credentials
+32671,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,3830,3830,T,36,44,,,URL Credentials
+32672,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,5389,5389,T,39,47,,,URL Credentials
+32673,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,2151,2151,F,34,39,,,Password
+33712,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2407,2407,T,16,23,,,Password
+33713,cb4307f8,GitHub,6c73b80a,data/6c73b80a/test/cb4307f8.go,71,71,T,16,24,,,Password
+33730,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,3685,3685,Template,14,18,,,Password
+33770,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,101,101,T,26,34,,,Password
+33801,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1177,1177,F,45,49,,,Password
+33820,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,736,736,T,48,53,,,Password
+33841,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,686,686,T,49,54,,,Password
+33842,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,685,685,T,49,54,,,Password
+33888,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,310,310,T,24,30,,,Password
+34140,10d446a0,GitHub,6c73b80a,data/6c73b80a/src/10d446a0.conf,15,15,T,37,46,,,URL Credentials
+34154,e1e39b80,GitHub,6c73b80a,data/6c73b80a/test/e1e39b80.go,1685,1685,T,11,67,,,Key
+34174,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1283,1283,F,28,33,,,Password
+34175,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1276,1276,F,28,33,,,Password
+34177,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1233,1233,F,25,31,,,Password
+34188,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1302,1302,Template,54,57,,,Password
+34191,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1174,1174,T,43,47,,,Password
+34194,69abb428,GitHub,6c73b80a,data/6c73b80a/test/69abb428.go,8884,8884,Template,34,37,,,Password
+34195,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1163,1163,T,41,45,,,Password
+34201,f1bada03,GitHub,6c73b80a,data/6c73b80a/test/f1bada03.go,3960,3960,Template,33,36,,,Password
+34202,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,5083,5083,T,33,41,,,Password
+34203,f1bada03,GitHub,6c73b80a,data/6c73b80a/test/f1bada03.go,3957,3957,Template,33,36,,,Password
+34204,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,5079,5079,T,33,41,,,Password
+34205,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,4486,4486,Template,34,37,,,Password
+34230,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,707,707,T,38,42,,,URL Credentials
+34429,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,1136,1136,T,14,21,,,Password
+34440,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2386,2386,T,14,21,,,Password
+34563,924a0284,GitHub,6c73b80a,data/6c73b80a/test/924a0284.conf,13,13,T,14,24,,,Password
+34564,10d446a0,GitHub,6c73b80a,data/6c73b80a/src/10d446a0.conf,18,18,T,14,23,,,Password
+34565,87cecf4f,GitHub,6c73b80a,data/6c73b80a/src/87cecf4f.conf,29,29,T,14,23,,,Password
+34604,2d6ce576,GitHub,6c73b80a,data/6c73b80a/src/2d6ce576.conf,5,5,T,14,22,,,Password
+34606,c28815c0,GitHub,6c73b80a,data/6c73b80a/src/c28815c0.conf,8,8,T,12,20,,,Password
+34685,d59cf806,GitHub,6c73b80a,data/6c73b80a/test/d59cf806.go,139,139,T,20,30,,,Password
+34705,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1204,1204,F,,,,,Password
+34764,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,2685,2685,T,70,74,,,URL Credentials
+34799,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2100,2100,F,,,,,Password:URL Credentials
+34809,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,312,312,T,41,49,,,URL Credentials
+34810,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2131,2131,F,,,,,Password:URL Credentials
+34811,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2132,2132,F,,,,,Password:URL Credentials
+34816,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,2836,2836,T,33,37,,,URL Credentials
+34817,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,2633,2633,T,32,36,,,URL Credentials
+34818,44141ad0,GitHub,6c73b80a,data/6c73b80a/test/44141ad0.go,565,565,T,32,36,,,URL Credentials
+34819,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,2654,2654,T,31,35,,,URL Credentials
+34822,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,310,310,T,41,49,,,URL Credentials
+34823,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,331,331,T,41,49,,,URL Credentials
+34824,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,311,311,T,41,49,,,URL Credentials
+34825,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,3569,3569,T,23,27,,,Password:URL Credentials
+34901,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1168,1168,T,9,24,,,Token
+34911,c40385df,GitHub,6c73b80a,data/6c73b80a/src/c40385df.conf,4,4,T,11,20,,,Token
+34913,aa0abde9,GitHub,6c73b80a,data/6c73b80a/src/aa0abde9.conf,4,4,T,11,19,,,Token
+34959,d59cf806,GitHub,6c73b80a,data/6c73b80a/test/d59cf806.go,137,137,T,15,25,,,Password
+34996,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,1691,1691,T,35,43,,,URL Credentials
+34998,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,1728,1728,Template,74,82,,,Password
+35059,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,1730,1730,T,35,43,,,URL Credentials
+35143,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,2128,2128,T,11,69,,,Seed
+35276,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1389,1389,Template,47,50,,,Password
+35293,4c790ff2,GitHub,6c73b80a,data/6c73b80a/test/4c790ff2.key,1,27,T,,,Private,,PEM Private Key
+1035306,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,315,315,T,18,24,,,Password
+35306,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,315,315,T,41,47,,,Password
+35307,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,330,330,T,39,45,,,Password
+35318,8d5e747a,GitHub,6c73b80a,data/6c73b80a/test/8d5e747a.go,275,275,Template,31,35,,,Password
+35319,598e7639,GitHub,6c73b80a,data/6c73b80a/test/598e7639.go,110,110,Template,32,36,,,Password
+35321,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1418,1418,Template,47,50,,,Password
+35331,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3178,3178,Template,25,28,,,Password
+35346,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,3525,3525,T,32,36,,,Password
+35347,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,3524,3524,T,32,36,,,Password
+35360,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,4286,4286,Template,26,29,,,Password
+35371,f1bada03,GitHub,6c73b80a,data/6c73b80a/test/f1bada03.go,3600,3600,Template,29,32,,,Password
+35381,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2570,2570,F,26,29,,,Password
+35382,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,3515,3515,Template,36,39,,,Password
+35383,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3183,3183,Template,25,28,,,Password
+35390,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2556,2556,T,28,33,,,Password
+35391,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,3599,3599,Template,28,31,,,Password
+35392,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1316,1316,Template,51,54,,,Password
+35393,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,4281,4281,Template,26,29,,,Password
+35399,f1bada03,GitHub,6c73b80a,data/6c73b80a/test/f1bada03.go,3595,3595,Template,29,32,,,Password
+35403,0fd3e5cb,GitHub,6c73b80a,data/6c73b80a/test/0fd3e5cb.conf,16,16,F,32,42,,,Password
+35405,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2562,2562,T,27,31,,,Password
+35406,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,3505,3505,Template,37,40,,,Password
+35407,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2568,2568,T,27,31,,,Password
+35408,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,4291,4291,T,30,34,,,Password
+35494,b406db25,GitHub,6c73b80a,data/6c73b80a/src/b406db25.pem,1,28,T,,,Private,,PEM Private Key
+35556,81102334,GitHub,6c73b80a,data/6c73b80a/src/81102334.pem,1,28,T,,,Private,,PEM Private Key
+35746,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2598,2598,T,27,31,,,URL Credentials
+35747,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2590,2590,T,27,31,,,URL Credentials
+35748,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,3595,3595,T,27,31,,,URL Credentials
+35752,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2913,2913,F,17,25,,,Other
+35770,94ae447a,GitHub,6c73b80a,data/6c73b80a/src/94ae447a.go,696,696,F,,,,,Password:URL Credentials
+35884,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,540,540,T,14,70,,,Key
+35885,7f0ec905,GitHub,6c73b80a,data/6c73b80a/src/7f0ec905.conf,26,26,T,16,72,,,Key
+35886,7f0ec905,GitHub,6c73b80a,data/6c73b80a/src/7f0ec905.conf,41,41,T,16,72,,,Key
+35891,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,573,573,T,18,74,,,Key
+35896,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,3587,3587,T,51,55,,,Password:URL Credentials
+35897,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,5119,5119,T,47,55,,,URL Credentials
+35900,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1198,1198,T,53,57,,,URL Credentials
+35905,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,1999,1999,T,52,60,,,URL Credentials
+35906,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1550,1550,T,50,54,,,URL Credentials
+35907,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1544,1544,T,50,54,,,URL Credentials
+35926,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1030,1030,T,23,29,,,Password
+35927,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1174,1174,Template,20,29,,,Token
+35928,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1193,1193,Template,20,29,,,Token
+35929,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1010,1010,T,18,24,,,Password
+35941,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,3041,3041,T,48,53,,,URL Credentials
+35942,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,506,506,T,18,74,,,Key
+35950,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,525,525,T,18,74,,,Key
+35952,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,5114,5114,T,47,55,,,URL Credentials
+35953,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1188,1188,T,49,53,,,URL Credentials
+35990,94ae447a,GitHub,6c73b80a,data/6c73b80a/src/94ae447a.go,948,948,F,15,23,,,Password
+36004,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,2705,2705,T,49,53,,,URL Credentials
+36007,e1e39b80,GitHub,6c73b80a,data/6c73b80a/test/e1e39b80.go,2139,2139,T,50,54,,,URL Credentials
+36030,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,2969,2969,T,28,34,,,Password
+36031,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3131,3131,Template,25,39,,,Token
+36065,0fd3e5cb,GitHub,6c73b80a,data/6c73b80a/test/0fd3e5cb.conf,4,4,T,12,19,,,Password
+36066,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,94,94,T,16,21,,,Password
+36109,44141ad0,GitHub,6c73b80a,data/6c73b80a/test/44141ad0.go,166,166,Template,57,65,,,Password
+36119,e1e39b80,GitHub,6c73b80a,data/6c73b80a/test/e1e39b80.go,2131,2131,Template,18,22,,,Password
+36120,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,246,246,T,18,24,,,Password
+36121,8bf97fa3,GitHub,6c73b80a,data/6c73b80a/test/8bf97fa3.go,124,124,F,17,26,,,Password
+36122,8bf97fa3,GitHub,6c73b80a,data/6c73b80a/test/8bf97fa3.go,180,180,F,17,33,,,Password
+36128,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,920,920,Template,24,29,,,Password
+36145,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3112,3112,Template,25,34,,,Token
+36150,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1293,1293,F,,,,,Password
+36153,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,1287,1287,T,9,15,,,Password
+36157,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1016,1016,T,13,69,,,Key
+36163,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,270,270,T,14,19,,,Password
+36284,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,611,611,T,21,77,,,Key
+36285,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,616,616,T,17,73,,,Key
+36289,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2946,2946,F,27,83,,,Other
+36296,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,342,342,T,25,34,,,Password
+36705,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,4116,4116,T,39,47,,,URL Credentials
+36727,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,3933,3933,T,37,45,,,URL Credentials
+36731,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,4749,4749,T,40,48,,,URL Credentials
+36738,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,4758,4758,T,40,48,,,URL Credentials
+36739,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,4880,4880,T,43,51,,,URL Credentials
+36740,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,3942,3942,T,37,45,,,URL Credentials
+36741,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,4145,4145,T,36,44,,,URL Credentials
+37021,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,3723,3723,Template,14,18,,,Password
+37050,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,259,259,T,19,27,,,Password
+37051,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,294,294,T,17,25,,,Password
+37052,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1254,1254,T,19,27,,,Password
+37064,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1422,1422,F,45,49,,,Password
+37065,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1491,1491,F,45,49,,,Password
+37066,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1535,1535,F,45,49,,,Password
+37067,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1721,1721,F,44,48,,,Password
+37071,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,340,340,T,18,24,,,Password
+37096,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1419,1419,T,43,47,,,Password
+37097,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1488,1488,T,43,47,,,Password
+37098,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1532,1532,T,43,47,,,Password
+37099,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1718,1718,T,39,43,,,Password
+37100,69abb428,GitHub,6c73b80a,data/6c73b80a/test/69abb428.go,8967,8967,Template,34,37,,,Password
+37101,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1408,1408,T,41,45,,,Password
+37102,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1477,1477,T,41,45,,,Password
+37103,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1520,1520,T,41,45,,,Password
+37104,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1707,1707,T,37,41,,,Password
+37105,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,4499,4499,Template,34,37,,,Password
+37106,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,4531,4531,Template,34,37,,,Password
+37241,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,2795,2795,T,33,37,,,URL Credentials
+37242,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,2880,2880,T,33,37,,,URL Credentials
+37265,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1187,1187,T,9,24,,,Token
+37316,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,1865,1865,T,35,43,,,URL Credentials
+37338,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,1859,1859,T,35,43,,,URL Credentials
+37419,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,320,320,T,40,46,,,Password
+1037419,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,320,320,T,18,24,,,Password
+37425,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,3562,3562,T,32,36,,,Password
+37426,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,3561,3561,T,32,36,,,Password
+37429,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,4412,4412,Template,26,29,,,Password
+37430,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,4434,4434,Template,26,29,,,Password
+37439,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2666,2666,F,26,29,,,Password
+37440,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2660,2660,T,28,33,,,Password
+37441,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,3673,3673,Template,37,40,,,Password
+37442,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,3708,3708,Template,37,40,,,Password
+37443,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1317,1317,Template,51,54,,,Password
+37444,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,4407,4407,Template,26,29,,,Password
+37447,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,3586,3586,Template,28,31,,,Password
+37448,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,3659,3659,Template,37,40,,,Password
+37449,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,3722,3722,Template,37,40,,,Password
+37499,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,607,607,T,14,70,,,Key
+37502,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1443,1443,T,53,57,,,URL Credentials
+37503,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1751,1751,T,55,59,,,URL Credentials
+37510,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1040,1040,T,23,29,,,Password
+37511,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1052,1052,T,23,29,,,Password
+37512,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1064,1064,T,23,29,,,Password
+37513,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1101,1101,T,22,28,,,Password
+37514,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1183,1183,Template,20,29,,,Token
+37515,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1203,1203,Template,20,29,,,Token
+37516,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1020,1020,T,18,24,,,Password
+37517,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1050,1050,T,18,24,,,Password
+37518,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1062,1062,T,18,24,,,Password
+37521,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,655,655,T,16,72,,,Key
+37522,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,682,682,T,16,72,,,Key
+37524,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,592,592,T,18,74,,,Key
+37525,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1433,1433,T,49,53,,,URL Credentials
+37526,1258dc58,GitHub,6c73b80a,data/6c73b80a/test/1258dc58.go,1731,1731,T,51,55,,,URL Credentials
+37544,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,2979,2979,T,28,34,,,Password
+37545,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,2991,2991,T,28,34,,,Password
+37546,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3003,3003,T,28,34,,,Password
+37547,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3048,3048,T,27,33,,,Password
+37548,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3141,3141,Template,25,39,,,Token
+37573,44141ad0,GitHub,6c73b80a,data/6c73b80a/test/44141ad0.go,308,308,Template,57,65,,,Password
+37619,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3121,3121,Template,25,34,,,Token
+40650,7f0ec905,GitHub,6c73b80a,data/6c73b80a/src/7f0ec905.conf,52,52,T,12,68,,,Key
+40651,7f0ec905,GitHub,6c73b80a,data/6c73b80a/src/7f0ec905.conf,56,56,T,16,72,,,Key
+40652,bb6ee9bd,GitHub,6c73b80a,data/6c73b80a/src/bb6ee9bd.conf,34,34,Template,28,31,,,Password
+40653,bb6ee9bd,GitHub,6c73b80a,data/6c73b80a/src/bb6ee9bd.conf,36,36,Template,28,31,,,Password
+40654,65345c05,GitHub,6c73b80a,data/6c73b80a/src/65345c05.conf,7,7,Template,12,15,,,Password
+40655,e4efd21e,GitHub,6c73b80a,data/6c73b80a/src/e4efd21e.conf,44,44,Template,28,31,,,Password
+40656,e4efd21e,GitHub,6c73b80a,data/6c73b80a/src/e4efd21e.conf,45,45,Template,28,31,,,Password
+40657,e4efd21e,GitHub,6c73b80a,data/6c73b80a/src/e4efd21e.conf,46,46,Template,28,31,,,Password
+40658,d1df8c34,GitHub,6c73b80a,data/6c73b80a/src/d1df8c34.conf,7,7,Template,12,15,,,Password
+40659,893086b1,GitHub,6c73b80a,data/6c73b80a/src/893086b1.conf,11,11,Template,14,24,,,Password
+40660,c2c3c972,GitHub,6c73b80a,data/6c73b80a/src/c2c3c972.conf,11,11,Template,14,24,,,Password
+40661,b9fae90a,GitHub,6c73b80a,data/6c73b80a/src/b9fae90a.conf,6,6,Template,30,33,,,Password
+40662,36165432,GitHub,6c73b80a,data/6c73b80a/src/36165432.conf,5,5,Template,30,33,,,Password
+43071,ef6be3a4,GitHub,6c73b80a,data/6c73b80a/src/ef6be3a4.go,186,186,F,,,,,Password
+43072,ef6be3a4,GitHub,6c73b80a,data/6c73b80a/src/ef6be3a4.go,2323,2323,F,,,,,Password
+46015,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,4878,4878,F,,,,,API
+46035,d59cf806,GitHub,6c73b80a,data/6c73b80a/test/d59cf806.go,239,239,T,17,27,,,Password
+46044,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,4980,4980,F,,,,,API
+46045,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,4968,4968,F,,,,,API
+46046,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,4945,4945,F,,,,,API
+46069,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,2949,2949,T,18,24,,,Password
+46070,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,2959,2959,T,18,24,,,Password
+46071,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,2989,2989,T,18,24,,,Password
+46072,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3001,3001,T,18,24,,,Password
+46073,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2012,2012,F,,,,,Password
+46077,69abb428,GitHub,6c73b80a,data/6c73b80a/test/69abb428.go,10579,10579,Template,35,38,,,Password
+46078,69abb428,GitHub,6c73b80a,data/6c73b80a/test/69abb428.go,8888,8888,Template,35,38,,,Password
+46080,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,316,316,T,44,50,,,Password
+46088,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,6442,6442,F,,,,,API
+46089,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,7014,7014,F,,,,,API
+46091,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,433,433,T,17,27,,,Password
+46092,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,398,398,T,17,27,,,Password
+46093,69abb428,GitHub,6c73b80a,data/6c73b80a/test/69abb428.go,10653,10653,F,,,,,Password
+46100,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,326,326,T,47,54,,,Password
+46151,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,413,413,F,,,,,Password
+46166,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,722,722,Template,32,36,,,Password
+46167,598e7639,GitHub,6c73b80a,data/6c73b80a/test/598e7639.go,111,111,Template,32,36,,,Password
+46198,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,343,343,T,46,55,,,Password
+46399,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1402,1402,F,,,,,Password
+47221,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,517,517,F,,,,,Password
+47679,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,2949,2949,Template,24,29,,,Password
+48043,6a77588c,GitHub,6c73b80a,data/6c73b80a/test/6a77588c.conf,11,11,T,14,24,,,Password
+48044,b78f1942,GitHub,6c73b80a,data/6c73b80a/test/b78f1942.conf,12,12,T,14,24,,,Password
+48183,33d9fd63,GitHub,6c73b80a,data/6c73b80a/test/33d9fd63.conf,18,18,T,12,18,,,Password
+48860,b06c1c4b,GitHub,6c73b80a,data/6c73b80a/test/b06c1c4b.key,1,28,T,,,Private,,PEM Private Key
+48861,6b9d8dff,GitHub,6c73b80a,data/6c73b80a/test/6b9d8dff.key,1,28,T,,,Private,,PEM Private Key
+48862,49ab3fd1,GitHub,6c73b80a,data/6c73b80a/test/49ab3fd1.key,1,28,T,,,Private,,PEM Private Key
+48863,17e59380,GitHub,6c73b80a,data/6c73b80a/test/17e59380.key,1,28,T,,,Private,,PEM Private Key
+48864,5f7e2196,GitHub,6c73b80a,data/6c73b80a/test/5f7e2196.key,1,28,T,,,Private,,PEM Private Key
+48865,0151100f,GitHub,6c73b80a,data/6c73b80a/test/0151100f.key,1,28,T,,,Private,,PEM Private Key
+48866,c389958d,GitHub,6c73b80a,data/6c73b80a/test/c389958d.key,1,28,T,,,Private,,PEM Private Key
+48867,a53ee4cf,GitHub,6c73b80a,data/6c73b80a/test/a53ee4cf.key,1,28,T,,,Private,,PEM Private Key
+49156,bae09b47,GitHub,6c73b80a,data/6c73b80a/test/bae09b47.key,1,27,T,,,Private,,PEM Private Key
+51001,d59cf806,GitHub,6c73b80a,data/6c73b80a/test/d59cf806.go,243,243,Template,22,25,,,URL Credentials
+51002,d59cf806,GitHub,6c73b80a,data/6c73b80a/test/d59cf806.go,244,244,Template,22,25,,,URL Credentials
+51005,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,907,907,Template,85,88,,,URL Credentials
+55669,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,6871,6871,T,43,50,,,Password
+55670,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,7133,7133,T,43,50,,,Password
+55671,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,7186,7186,T,43,50,,,Password
+55672,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,7384,7384,T,43,50,,,Password
+55673,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,7419,7419,T,43,50,,,Password
+55674,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,7576,7576,T,43,50,,,Password
+58181,6460c9a4,GitHub,6c73b80a,data/6c73b80a/src/6460c9a4.go,733,733,F,-1,-1,,,Key
+58248,6460c9a4,GitHub,6c73b80a,data/6c73b80a/src/6460c9a4.go,1126,1126,F,-1,-1,,,Key:Gitlab Feed Token
+58264,6460c9a4,GitHub,6c73b80a,data/6c73b80a/src/6460c9a4.go,1184,1184,F,,,,,Auth
+61676,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,7132,7132,F,,,,,Password
+61933,6460c9a4,GitHub,6c73b80a,data/6c73b80a/src/6460c9a4.go,2123,2123,F,,,,,Password
+61955,932778a5,GitHub,6c73b80a,data/6c73b80a/src/932778a5.go,289,289,F,-1,-1,,,Key
+61958,6c46bf4a,GitHub,6c73b80a,data/6c73b80a/src/6c46bf4a.go,248,248,F,-1,-1,,,Key
+62035,8705fea4,GitHub,6c73b80a,data/6c73b80a/src/8705fea4.go,179,179,F,,,,,Token
+62972,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,2514,2514,F,,,,,Token
+62973,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,2606,2606,F,,,,,Token
+62974,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,2513,2513,F,,,,,Token
+62975,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,2605,2605,F,,,,,Token
+62976,f1bada03,GitHub,6c73b80a,data/6c73b80a/test/f1bada03.go,3106,3106,F,,,,,Password
+62986,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,7594,7594,T,53,60,,,Password
+62987,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,7605,7605,T,53,60,,,Password
+62988,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,59,59,T,53,60,,,Password
+63174,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,6444,6444,T,44,52,,,Password
+64495,c8af9dd7,GitHub,6c73b80a,data/6c73b80a/src/c8af9dd7.go,2273,2273,F,-1,-1,,,Key
+64498,a6c11edd,GitHub,6c73b80a,data/6c73b80a/src/a6c11edd.go,1680,1680,F,-1,-1,,,Key
+64499,a6c11edd,GitHub,6c73b80a,data/6c73b80a/src/a6c11edd.go,1678,1678,F,-1,-1,,,Key
+74577,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,1449,1449,F,,,,,Auth
+74599,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1381,1381,F,,,,,Password
+74604,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,5258,5258,Template,51,54,,,Password
+74605,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,5273,5273,Template,51,54,,,Password
+74629,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,5252,5252,Template,50,53,,,Password
+74641,8bf97fa3,GitHub,6c73b80a,data/6c73b80a/test/8bf97fa3.go,179,179,F,,,,,Auth
+74673,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,3698,3698,F,,,,,Password
+74674,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,3735,3735,Template,9,13,,,Password
+75130,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,2811,2811,F,,,,,Token
+75288,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,1503,1503,F,,,,,Token
+75326,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,2828,2828,F,,,,,Token
+75353,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,1047,1047,F,,,,,Token
+75383,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,4160,4160,F,,,,,Password
+75384,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1231,1231,F,,,,,Password
+75385,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1254,1254,F,,,,,Password
+75521,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,443,443,F,,,,,Token
+75694,ada0599e,GitHub,6c73b80a,data/6c73b80a/test/ada0599e.go,1840,1840,F,-1,-1,,,Other
+76065,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1292,1292,F,,,,,Token
+76725,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1304,1304,Template,48,51,,,Password
+76726,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1234,1234,F,,,,,Password
+76727,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1257,1257,F,,,,,Password
+76728,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,2992,2992,Template,41,44,,,Password
+76729,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,3087,3087,Template,41,44,,,Password
+76730,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,3000,3000,Template,40,43,,,Password
+76731,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,3094,3094,Template,40,43,,,Password
+76732,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,3077,3077,Template,34,37,,,Password
+76733,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,3190,3190,Template,34,37,,,Password
+76734,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,3198,3198,Template,33,36,,,Password
+76736,69abb428,GitHub,6c73b80a,data/6c73b80a/test/69abb428.go,10583,10583,Template,35,38,,,Password
+77091,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1416,1416,F,,,,,Password
+77092,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1417,1417,F,,,,,Password
+77102,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2208,2208,F,,,,,Password
+77103,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,568,568,F,,,,,Password
+77104,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2661,2661,Template,11,14,,,Password
+77105,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2654,2654,Template,10,13,,,Password
+77106,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2209,2209,F,,,,,Password
+77107,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,569,569,Template,32,35,,,Password
+77108,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,2135,2135,F,,,,,Password
+77109,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2653,2653,Template,10,13,,,Password
+77110,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,2141,2141,F,,,,,Password
+78189,32a8e48e,GitHub,6c73b80a,data/6c73b80a/src/32a8e48e.creds,9,11,F,,,,,PEM Private Key
+78243,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,1354,1356,F,,,,,PEM Private Key
+78244,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,1362,1364,F,,,,,PEM Private Key
+78248,35b59241,GitHub,6c73b80a,data/6c73b80a/test/35b59241.go,383,385,F,,,,,PEM Private Key
+78249,35b59241,GitHub,6c73b80a,data/6c73b80a/test/35b59241.go,391,393,F,,,,,PEM Private Key
+82050,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,1288,1288,F,27,36,,,Password
+82051,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,1429,1429,F,24,33,,,Password
+82052,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,1637,1637,F,28,37,,,Password
+82053,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,3677,3677,F,26,35,,,Password
+82054,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,3743,3743,F,21,30,,,Password
+82055,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,723,723,Template,32,36,,,Password
+82056,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,724,724,Template,32,36,,,Password
+82057,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,725,725,Template,32,36,,,Password
+82058,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,726,726,Template,32,36,,,Password
+82060,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,4194,4194,F,33,72,,,Password
+82061,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,4198,4198,F,33,75,,,Password
+82062,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2028,2028,F,14,17,,,Password
+82063,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,561,561,Template,27,30,,,Password
+82064,81d92a1a,GitHub,6c73b80a,data/6c73b80a/test/81d92a1a.go,37,37,F,37,43,,,Password
+82065,81d92a1a,GitHub,6c73b80a,data/6c73b80a/test/81d92a1a.go,218,218,F,39,45,,,Password
+82066,81d92a1a,GitHub,6c73b80a,data/6c73b80a/test/81d92a1a.go,222,222,F,38,44,,,Password
+82067,81d92a1a,GitHub,6c73b80a,data/6c73b80a/test/81d92a1a.go,286,286,F,39,45,,,Password
+82068,81d92a1a,GitHub,6c73b80a,data/6c73b80a/test/81d92a1a.go,290,290,F,38,44,,,Password
+82069,81d92a1a,GitHub,6c73b80a,data/6c73b80a/test/81d92a1a.go,384,384,F,39,45,,,Password
+82070,81d92a1a,GitHub,6c73b80a,data/6c73b80a/test/81d92a1a.go,388,388,F,38,44,,,Password
+82071,81d92a1a,GitHub,6c73b80a,data/6c73b80a/test/81d92a1a.go,477,477,F,39,45,,,Password
+82072,81d92a1a,GitHub,6c73b80a,data/6c73b80a/test/81d92a1a.go,519,519,F,39,45,,,Password
+82073,81d92a1a,GitHub,6c73b80a,data/6c73b80a/test/81d92a1a.go,523,523,F,38,44,,,Password
+82074,81d92a1a,GitHub,6c73b80a,data/6c73b80a/test/81d92a1a.go,586,586,F,38,44,,,Password
+82075,dc47d09f,GitHub,6c73b80a,data/6c73b80a/test/dc47d09f.go,933,933,Template,24,27,,,Password
+82076,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,321,321,T,43,49,,,Password
+82078,35b59241,GitHub,6c73b80a,data/6c73b80a/test/35b59241.go,2249,2249,F,,,,,Password
+82079,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,913,913,F,19,83,,,Certificate
+82080,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,924,924,F,19,83,,,Certificate
+82081,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,936,936,F,19,83,,,Certificate
+82082,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,947,947,F,19,83,,,Certificate
+82083,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,958,958,F,19,83,,,Certificate
+82084,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1568,1568,Template,65,68,,,Password
+82085,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1628,1628,F,14,17,,,Password
+82086,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1768,1768,F,15,18,,,Password
+82087,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2087,2087,Template,14,17,,,Password
+82088,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2124,2124,Template,19,22,,,Password
+82089,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2680,2680,F,15,18,,,Password
+82090,598e7639,GitHub,6c73b80a,data/6c73b80a/test/598e7639.go,112,112,Template,32,36,,,Password
+82091,598e7639,GitHub,6c73b80a,data/6c73b80a/test/598e7639.go,113,113,Template,32,36,,,Password
+82092,598e7639,GitHub,6c73b80a,data/6c73b80a/test/598e7639.go,114,114,Template,32,36,,,Password
+82093,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,338,338,Template,22,25,,,Password
+82094,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,442,442,Template,16,19,,,Password
+82095,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,448,448,F,70,75,,,Password
+82096,91de30fa,GitHub,6c73b80a,data/6c73b80a/test/91de30fa.go,47,47,Template,13,16,,,Password
+82097,91de30fa,GitHub,6c73b80a,data/6c73b80a/test/91de30fa.go,74,74,Template,16,19,,,Password
+82098,91de30fa,GitHub,6c73b80a,data/6c73b80a/test/91de30fa.go,91,91,Template,13,16,,,Password
+82099,69abb428,GitHub,6c73b80a,data/6c73b80a/test/69abb428.go,8891,8891,F,34,40,,,Password
+82100,69abb428,GitHub,6c73b80a,data/6c73b80a/test/69abb428.go,8971,8971,F,34,40,,,Password
+82101,69abb428,GitHub,6c73b80a,data/6c73b80a/test/69abb428.go,8975,8975,F,34,40,,,Password
+82102,69abb428,GitHub,6c73b80a,data/6c73b80a/test/69abb428.go,10651,10651,F,34,40,,,Password
+82103,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,587,587,T,14,70,,,Key
+82104,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,612,612,T,18,74,,,Key
+82105,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,1468,1468,F,72,77,,,Password
+82106,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,1530,1530,F,27,30,,,Password
+84010,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,345,345,T,28,34,,,Password
+84011,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,370,370,T,92,98,,,Password
+84012,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,375,375,T,44,50,,,Password
+84013,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,380,380,T,95,101,,,Password
+84014,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,385,385,T,95,101,,,Password
+84015,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,390,390,T,97,103,,,Password
+102673,083a78c6,GitHub,6c73b80a,data/6c73b80a/other/083a78c6.md,5,5,F,-1,-1,,,Other
+102674,083a78c6,GitHub,6c73b80a,data/6c73b80a/other/083a78c6.md,7,7,F,-1,-1,,,Other
+102676,083a78c6,GitHub,6c73b80a,data/6c73b80a/other/083a78c6.md,56,56,F,-1,-1,,,Other
+102678,65345c05,GitHub,6c73b80a,data/6c73b80a/src/65345c05.conf,18,18,F,,,,,Password
+102679,d1df8c34,GitHub,6c73b80a,data/6c73b80a/src/d1df8c34.conf,18,18,F,,,,,Password
+102680,c8af9dd7,GitHub,6c73b80a,data/6c73b80a/src/c8af9dd7.go,66,66,F,-1,-1,,,Other
+102682,a6c11edd,GitHub,6c73b80a,data/6c73b80a/src/a6c11edd.go,42,42,F,-1,-1,,,Other
+102684,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,752,752,F,-1,-1,,,Other
+102685,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,1709,1709,F,,,,,Password
+102686,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,1777,1777,F,,,,,Password
+102687,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,2982,2982,F,,,,,Password
+102688,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,3070,3070,F,,,,,Password
+102689,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,3554,3554,F,,,,,Password
+102690,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,4183,4183,F,,,,,Password
+102691,11f3fc93,GitHub,6c73b80a,data/6c73b80a/src/11f3fc93.go,4484,4484,F,,,,,Password
+102692,94ae447a,GitHub,6c73b80a,data/6c73b80a/src/94ae447a.go,676,676,F,-1,-1,,,Other
+102693,929e895f,GitHub,6c73b80a,data/6c73b80a/src/929e895f.go,11,11,F,-1,-1,,,Other
+102694,7ef2fc1d,GitHub,6c73b80a,data/6c73b80a/src/7ef2fc1d.go,86,86,F,-1,-1,,,Other
+102695,9d8f319f,GitHub,6c73b80a,data/6c73b80a/src/9d8f319f.go,516,516,F,-1,-1,,,Other
+102696,7f0ec905,GitHub,6c73b80a,data/6c73b80a/src/7f0ec905.conf,21,21,T,12,68,,,Key
+102698,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,6855,6855,Template,35,39,,,Password
+102699,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,6864,6864,Template,35,39,,,Password
+102700,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,7183,7183,T,33,40,,,Password
+102701,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,7370,7370,Template,35,39,,,Password
+102702,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,7378,7378,Template,35,39,,,Password
+102703,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,7404,7404,Template,35,39,,,Password
+102704,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,7412,7412,Template,35,39,,,Password
+102705,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,262,262,T,61,67,,,Password
+102706,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,285,285,T,43,49,,,Password
+102707,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,290,290,T,45,51,,,Password
+102708,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,305,305,T,47,53,,,Password
+102709,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,335,335,T,92,98,,,Password
+102710,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,343,343,F,-1,-1,,,Key
+102711,1eb6d192,GitHub,6c73b80a,data/6c73b80a/test/1eb6d192.go,110,110,F,-1,-1,,,Other
+102712,1eb6d192,GitHub,6c73b80a,data/6c73b80a/test/1eb6d192.go,124,124,F,-1,-1,,,Key
+102713,1eb6d192,GitHub,6c73b80a,data/6c73b80a/test/1eb6d192.go,211,211,T,16,72,,,Key
+102714,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,879,879,T,16,72,,,Key
+102715,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,880,880,T,16,72,,,Key
+102716,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,995,995,T,12,68,,,Key
+102717,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,996,996,T,12,68,,,Key
+102718,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1015,1015,T,13,69,,,Key
+102719,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1089,1089,T,16,72,,,Key
+102720,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1134,1134,F,,,,,Key
+102721,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1150,1150,T,16,72,,,Key
+102722,d59cf806,GitHub,6c73b80a,data/6c73b80a/test/d59cf806.go,306,306,F,,,,,Password
+102723,d59cf806,GitHub,6c73b80a,data/6c73b80a/test/d59cf806.go,307,307,F,,,,,Password
+102724,d59cf806,GitHub,6c73b80a,data/6c73b80a/test/d59cf806.go,311,311,F,,,,,Password
+102725,d59cf806,GitHub,6c73b80a,data/6c73b80a/test/d59cf806.go,314,314,F,,,,,Password
+102726,d59cf806,GitHub,6c73b80a,data/6c73b80a/test/d59cf806.go,382,382,F,-1,-1,,,Other
+102727,d59cf806,GitHub,6c73b80a,data/6c73b80a/test/d59cf806.go,383,383,F,-1,-1,,,Other
+102728,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,566,566,F,,,,,Password
+102729,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,1528,1528,F,-1,-1,,,Key
+102730,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,1535,1535,F,-1,-1,,,Key
+102731,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3065,3065,F,,,,,Password
+102732,08d7456f,GitHub,6c73b80a,data/6c73b80a/test/08d7456f.conf,8,8,F,,,,,Password
+102734,44141ad0,GitHub,6c73b80a,data/6c73b80a/test/44141ad0.go,173,173,F,,,,,Password
+102735,44141ad0,GitHub,6c73b80a,data/6c73b80a/test/44141ad0.go,321,321,F,,,,,Password
+102738,47a228cb,GitHub,6c73b80a,data/6c73b80a/test/47a228cb.go,98,98,F,-1,-1,,,Key
+102739,91de30fa,GitHub,6c73b80a,data/6c73b80a/test/91de30fa.go,137,137,F,-1,-1,,,Key
+102740,91de30fa,GitHub,6c73b80a,data/6c73b80a/test/91de30fa.go,144,144,F,-1,-1,,,Key
+102741,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,501,501,T,14,70,,,Key
+102742,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,568,568,T,14,70,,,Key
+102743,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,651,651,T,12,68,,,Key
+102744,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,678,678,T,12,68,,,Key
+102745,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,713,713,F,-1,-1,,,Key
+102746,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,717,717,F,-1,-1,,,Key
+102747,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1586,1586,T,81,137,,,Key
+102748,edc1c568,GitHub,6c73b80a,data/6c73b80a/test/edc1c568.go,1588,1588,T,81,137,,,Key
+113782,083a78c6,GitHub,6c73b80a,data/6c73b80a/other/083a78c6.md,49,49,F,-1,-1,,,Key
+113783,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1390,1390,F,,,,,Auth
+113784,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1421,1421,F,,,,,Auth
+113785,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,1423,1423,F,,,,,Auth
+113786,e1e39b80,GitHub,6c73b80a,data/6c73b80a/test/e1e39b80.go,526,526,F,,,,,Auth:Token
+113788,8bf97fa3,GitHub,6c73b80a,data/6c73b80a/test/8bf97fa3.go,174,174,F,,,,,Auth
+113789,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3315,3315,F,,,,,Auth
+113790,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3346,3346,F,,,,,Auth
+113791,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,3348,3348,F,,,,,Auth
+113792,ada0599e,GitHub,6c73b80a,data/6c73b80a/test/ada0599e.go,1362,1362,F,-1,-1,,,Key
+130988,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,4246,4246,F,,,,,Password
+130989,9d8f319f,GitHub,6c73b80a,data/6c73b80a/src/9d8f319f.go,1622,1622,F,,,,,Password
+130990,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,4247,4247,F,,,,,Password
+130991,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2874,2874,F,,,,,Password
+130992,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,611,611,F,,,,,Password
+130994,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2880,2880,F,,,,,Password
+130995,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2887,2887,F,,,,,Password
+130996,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,4157,4157,F,,,,,Password
+130999,a6c11edd,GitHub,6c73b80a,data/6c73b80a/src/a6c11edd.go,697,697,F,,,,,Password
+131002,08d7456f,GitHub,6c73b80a,data/6c73b80a/test/08d7456f.conf,16,16,F,,,,,Password
+131003,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,341,341,F,,,,,Password
+131006,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,366,366,F,,,,,Password
+132796,9d8f319f,GitHub,6c73b80a,data/6c73b80a/src/9d8f319f.go,1605,1605,F,,,,,Password
+133421,083a78c6,GitHub,6c73b80a,data/6c73b80a/other/083a78c6.md,19,19,F,-1,-1,,,Key
+133422,3342c78c,GitHub,6c73b80a,data/6c73b80a/src/3342c78c.conf,27,27,F,-1,-1,,,Key
+133423,3906e586,GitHub,6c73b80a,data/6c73b80a/test/3906e586.go,432,432,F,,,,,Auth
+133424,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,6458,6458,F,,,,,API
+133425,88341713,GitHub,6c73b80a,data/6c73b80a/test/88341713.go,1452,1452,F,,,,,Auth
+133426,9f7a2e57,GitHub,6c73b80a,data/6c73b80a/test/9f7a2e57.conf,20,20,F,-1,-1,,,Key
+133427,e1e39b80,GitHub,6c73b80a,data/6c73b80a/test/e1e39b80.go,1286,1286,F,,,,,Auth
+134818,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,325,325,T,44,51,,,Password
+138242,893086b1,GitHub,6c73b80a,data/6c73b80a/src/893086b1.conf,20,20,F,44,-1,,,Other
+138243,c2c3c972,GitHub,6c73b80a,data/6c73b80a/src/c2c3c972.conf,20,20,F,44,-1,,,Other
+138244,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,310,310,F,59,63,,,Password
+138245,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,311,311,F,60,64,,,Password
+138246,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,312,312,F,60,64,,,Password
+138247,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,331,331,F,60,64,,,Password
+138248,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,345,345,F,55,-1,,,Other
+138249,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,379,379,F,55,-1,,,Other
+138251,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,421,421,T,34,44,,,URL Credentials
+138252,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,1566,1566,F,69,-1,,,Other
+138253,a0ebfc5c,GitHub,6c73b80a,data/6c73b80a/test/a0ebfc5c.conf,20,20,F,44,-1,,,Other
+138254,b78f1942,GitHub,6c73b80a,data/6c73b80a/test/b78f1942.conf,21,21,F,44,-1,,,Other
+1338242,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,286,286,F,43,53,,,Password
+1338243,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,291,291,F,45,55,,,Password
+1338244,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,296,296,F,43,53,,,Password
+1338245,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,301,301,F,43,53,,,Password
+1338246,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,306,306,F,47,57,,,Password
+1338247,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,311,311,F,24,34,,,Password
+1338248,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,326,326,F,21,31,,,Password
+1338249,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,346,346,F,28,38,,,Password
+1338250,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,351,351,F,24,34,,,Password
+1338251,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,356,356,F,24,34,,,Password
+1338253,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,376,376,F,44,54,,,Password
+1338361,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,361,361,F,24,34,,,Password
+1337361,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,361,361,F,48,68,,,Password
+1336361,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,361,361,F,86,102,,,Password
+1338362,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,7648,7648,T,48,55,,,URL Credentials
+1338363,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,622,622,T,54,59,,,URL Credentials
+1338364,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,629,629,T,54,59,,,URL Credentials
+1338365,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,721,721,T,52,57,,,URL Credentials
+1338366,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,726,726,T,52,57,,,URL Credentials
+1338389,32a8e48e,GitHub,6c73b80a,data/6c73b80a/src/32a8e48e.creds,2,2,T,0,545,,,JSON Web Token
+1338390,3342c78c,GitHub,6c73b80a,data/6c73b80a/src/3342c78c.conf,14,14,T,12,500,,,JSON Web Token
+1338391,3342c78c,GitHub,6c73b80a,data/6c73b80a/src/3342c78c.conf,30,30,T,61,741,,,JSON Web Token
+1338392,3342c78c,GitHub,6c73b80a,data/6c73b80a/src/3342c78c.conf,33,33,T,61,829,,,JSON Web Token
+1338393,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,2356,2356,T,68,525,,,JSON Web Token
+1338394,633f9ac2,GitHub,6c73b80a,data/6c73b80a/test/633f9ac2.go,2378,2378,T,68,525,,,JSON Web Token
+1338395,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2936,2936,T,11,706,,,JSON Web Token
+1338396,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2960,2960,T,11,576,,,JSON Web Token
+1338397,9f7a2e57,GitHub,6c73b80a,data/6c73b80a/test/9f7a2e57.conf,22,22,T,64,521,,,JSON Web Token
+1338398,9f7a2e57,GitHub,6c73b80a,data/6c73b80a/test/9f7a2e57.conf,24,24,T,63,520,,,JSON Web Token
+1338475,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2964,2964,T,62,668,,,JSON Web Token
+1338476,8e39a8bd,GitHub,6c73b80a,data/6c73b80a/test/8e39a8bd.go,43,43,T,9,823,,,JSON Web Token
+1338569,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2580,2580,T,51,56,,,URL Credentials
+1341514,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,764,764,T,49,54,,,URL Credentials
+1041514,88763956,GitHub,6c73b80a,data/6c73b80a/test/88763956.go,768,768,T,49,54,,,URL Credentials
+1341541,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,295,295,F,,,,,Password
+1337696,7708ebf0,GitHub,6c73b80a,data/6c73b80a/test/7708ebf0.go,7023,7023,T,31,67,,,UUID
+1381006,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,902,902,F,18,82,,,Certificate
+1381058,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,2136,2136,T,17,73,,,Key
+1381059,1a13a17c,GitHub,6c73b80a,data/6c73b80a/test/1a13a17c.go,2142,2142,T,17,73,,,Key
+1381060,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2749,2749,T,12,68,,,Key
+1381061,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2755,2755,T,12,68,,,Key
+1381062,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2837,2837,T,11,67,,,Key
+1381063,515f4ca6,GitHub,6c73b80a,data/6c73b80a/test/515f4ca6.go,2844,2844,T,12,68,,,Key
+1381064,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2046,2046,T,11,67,,,Key
+1381065,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2053,2053,T,12,68,,,Key
+1381066,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2642,2642,T,19,75,,,Key
+1381067,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2645,2645,T,19,75,,,Key
+1381068,728925ac,GitHub,6c73b80a,data/6c73b80a/test/728925ac.go,2875,2875,T,13,69,,,Key
+1381098,3f79ca86,GitHub,6c73b80a,data/6c73b80a/test/3f79ca86.go,381,381,F,95,105,,,Password
+1494344,5f039f34,GitHub,6c73b80a,data/6c73b80a/src/5f039f34.conf,5,5,T,14,23,,,Password
+1494345,89847e4c,GitHub,6c73b80a,data/6c73b80a/src/89847e4c.conf,4,4,T,10,66,,,Key
+1494346,89847e4c,GitHub,6c73b80a,data/6c73b80a/src/89847e4c.conf,8,8,T,14,70,,,Key
+1494347,89847e4c,GitHub,6c73b80a,data/6c73b80a/src/89847e4c.conf,10,10,T,14,70,,,Key
+1494348,89847e4c,GitHub,6c73b80a,data/6c73b80a/src/89847e4c.conf,26,26,T,10,66,,,Key
+1494349,89847e4c,GitHub,6c73b80a,data/6c73b80a/src/89847e4c.conf,30,30,T,14,70,,,Key
+1494350,89847e4c,GitHub,6c73b80a,data/6c73b80a/src/89847e4c.conf,32,32,T,14,70,,,Key
+1494351,89847e4c,GitHub,6c73b80a,data/6c73b80a/src/89847e4c.conf,49,49,T,16,72,,,Key
+1494352,0b4f7b7b,GitHub,6c73b80a,data/6c73b80a/test/0b4f7b7b.conf,13,13,T,12,20,,,Password

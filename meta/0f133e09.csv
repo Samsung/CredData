@@ -1,808 +1,808 @@
-Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-301,565d4103,GitHub,0f133e09,data/0f133e09/src/565d4103.pyi,65,65,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-322,fd19dc90,GitHub,0f133e09,data/0f133e09/src/fd19dc90.py,39,39,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-324,d2a693bc,GitHub,0f133e09,data/0f133e09/src/d2a693bc.pyi,87,87,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-2893,544d9560,GitHub,0f133e09,data/0f133e09/src/544d9560.py,263,263,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-3603,0584cae2,GitHub,0f133e09,data/0f133e09/src/0584cae2.py,250,250,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-4012,1f5c1fc4,GitHub,0f133e09,data/0f133e09/test/1f5c1fc4.py,50,50,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-4025,1f5c1fc4,GitHub,0f133e09,data/0f133e09/test/1f5c1fc4.py,45,45,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-4054,94431913,GitHub,0f133e09,data/0f133e09/test/94431913.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Key
-4213,9a533a38,GitHub,0f133e09,data/0f133e09/test/9a533a38.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
-4285,06c85d5e,GitHub,0f133e09,data/0f133e09/test/06c85d5e.txt,43,43,F,F,,,F,F,,,,,0,0,F,F,F,Key
-4297,77000b93,GitHub,0f133e09,data/0f133e09/test/77000b93.txt,153,153,F,F,,,F,F,,,,,0,0,F,F,F,Password
-4604,493d2105,GitHub,0f133e09,data/0f133e09/test/493d2105.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
-4681,2bdb56df,GitHub,0f133e09,data/0f133e09/test/2bdb56df.txt,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-5034,cd1f17b2,GitHub,0f133e09,data/0f133e09/src/cd1f17b2.yml,20,20,F,F,,,F,F,,,,,0,0,F,F,F,Token
-5276,fbd15301,GitHub,0f133e09,data/0f133e09/test/fbd15301.txt,10,10,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Gitlab Feed Token
-5296,c92f896c,GitHub,0f133e09,data/0f133e09/test/c92f896c.txt,21,21,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-5302,2bdb56df,GitHub,0f133e09,data/0f133e09/test/2bdb56df.txt,43,43,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
-5313,f2c0348c,GitHub,0f133e09,data/0f133e09/test/f2c0348c.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Token
-5316,75bffd28,GitHub,0f133e09,data/0f133e09/test/75bffd28.txt,43,43,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-5318,75bffd28,GitHub,0f133e09,data/0f133e09/test/75bffd28.txt,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-5319,5ff4b6b7,GitHub,0f133e09,data/0f133e09/test/5ff4b6b7.txt,10,10,T,F,210,250,F,F,,,,,0,0,F,F,F,Token
-5323,c92f896c,GitHub,0f133e09,data/0f133e09/test/c92f896c.txt,32,32,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-5334,5b03fdb2,GitHub,0f133e09,data/0f133e09/test/5b03fdb2.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-5356,5a2e8859,GitHub,0f133e09,data/0f133e09/test/5a2e8859.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
-5357,08232d99,GitHub,0f133e09,data/0f133e09/test/08232d99.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-5363,6ca54b76,GitHub,0f133e09,data/0f133e09/test/6ca54b76.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-5364,3f1b2dc0,GitHub,0f133e09,data/0f133e09/test/3f1b2dc0.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Key
-5527,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,9,9,T,F,394,414,T,F,Any,,AWS Client ID,Token,3.78,20,F,F,F,AWS Client ID:Gitlab Feed Token
-105527,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,9,9,T,F,394,457,T,F,Any,,AWS Client ID,Token,3.78,20,F,F,F,Credential
-136762,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,9,9,T,F,292,321,F,F,,,,,0.0,0,F,F,F,AWS S3 Bucket
-6626,7814ce17,GitHub,0f133e09,data/0f133e09/test/7814ce17.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-6633,1abc5465,GitHub,0f133e09,data/0f133e09/test/1abc5465.txt,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
-6635,e925013a,GitHub,0f133e09,data/0f133e09/test/e925013a.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Key
-6636,51a7405e,GitHub,0f133e09,data/0f133e09/test/51a7405e.txt,10,10,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-6912,a14e4d10,GitHub,0f133e09,data/0f133e09/test/a14e4d10.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-6917,4760f7fa,GitHub,0f133e09,data/0f133e09/test/4760f7fa.txt,43,43,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
-6918,cf9acca2,GitHub,0f133e09,data/0f133e09/test/cf9acca2.txt,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-6919,7285a2c4,GitHub,0f133e09,data/0f133e09/test/7285a2c4.txt,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Password
-6921,b1d2421b,GitHub,0f133e09,data/0f133e09/test/b1d2421b.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
-6928,a6ff6da2,GitHub,0f133e09,data/0f133e09/test/a6ff6da2.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,API
-6932,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,285,285,F,F,,,F,F,,,,,0,0,F,F,F,API
-6933,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,274,274,F,F,,,F,F,,,,,0,0,F,F,F,API
-6935,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,263,263,F,F,,,F,F,,,,,0,0,F,F,F,API
-6938,4473349d,GitHub,0f133e09,data/0f133e09/test/4473349d.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Password
-6939,3ae56e47,GitHub,0f133e09,data/0f133e09/test/3ae56e47.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Password
-6955,b1d2421b,GitHub,0f133e09,data/0f133e09/test/b1d2421b.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Key
-6956,a8688a26,GitHub,0f133e09,data/0f133e09/test/a8688a26.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-6961,fa7495b8,GitHub,0f133e09,data/0f133e09/test/fa7495b8.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Password
-6962,b65925df,GitHub,0f133e09,data/0f133e09/test/b65925df.txt,54,54,F,T,,,T,F,Any,Private,,Unknown,4.17,121,F,F,F,PEM Private Key
-6964,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,252,252,F,F,,,F,F,,,,,0,0,F,F,F,API
-6965,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,230,230,F,F,,,F,F,,,,,0,0,F,F,F,API
-6966,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,241,241,F,F,,,F,F,,,,,0,0,F,F,F,API
-6996,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,219,219,F,F,,,F,F,,,,,0,0,F,F,F,API
-6997,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,208,208,F,F,,,F,F,,,,,0,0,F,F,F,API
-6998,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,197,197,F,F,,,F,F,,,,,0,0,F,F,F,API
-6999,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,186,186,F,F,,,F,F,,,,,0,0,F,F,F,API
-7000,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,175,175,F,F,,,F,F,,,,,0,0,F,F,F,API
-7001,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,164,164,F,F,,,F,F,,,,,0,0,F,F,F,API
-7002,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,153,153,F,F,,,F,F,,,,,0,0,F,F,F,API
-7003,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,142,142,F,F,,,F,F,,,,,0,0,F,F,F,API
-7004,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,131,131,F,F,,,F,F,,,,,0,0,F,F,F,API
-7005,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,120,120,F,F,,,F,F,,,,,0,0,F,F,F,API
-7006,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,109,109,F,F,,,F,F,,,,,0,0,F,F,F,API
-7007,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,98,98,F,F,,,F,F,,,,,0,0,F,F,F,API
-7012,451118b9,GitHub,0f133e09,data/0f133e09/test/451118b9.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-7013,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,76,76,F,F,,,F,F,,,,,0,0,F,F,F,API
-7014,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,87,87,F,F,,,F,F,,,,,0,0,F,F,F,API
-7015,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,65,65,F,F,,,F,F,,,,,0,0,F,F,F,API
-7016,d439d2ed,GitHub,0f133e09,data/0f133e09/test/d439d2ed.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-7953,03c77d4f,GitHub,0f133e09,data/0f133e09/src/03c77d4f.py,316,316,F,F,,,F,F,,,,,0,0,F,F,F,Token
-8232,d1362af0,GitHub,0f133e09,data/0f133e09/test/d1362af0.py,63,63,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
-8525,d90d9e92,GitHub,0f133e09,data/0f133e09/test/d90d9e92.py,78,78,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-8546,ec27d4ca,GitHub,0f133e09,data/0f133e09/test/ec27d4ca.py,92,92,F,F,,,F,F,,,,,0,0,F,F,F,Password
-8547,ec27d4ca,GitHub,0f133e09,data/0f133e09/test/ec27d4ca.py,129,129,F,F,,,F,F,,,,,0,0,F,F,F,Password
-8613,cd558fc3,GitHub,0f133e09,data/0f133e09/src/cd558fc3.py,806,806,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-8630,ec27d4ca,GitHub,0f133e09,data/0f133e09/test/ec27d4ca.py,37,37,F,F,,,F,F,,,,,0,0,F,F,F,Password
-8647,ec27d4ca,GitHub,0f133e09,data/0f133e09/test/ec27d4ca.py,64,64,F,F,,,F,F,,,,,0,0,F,F,F,Password
-8785,d2a693bc,GitHub,0f133e09,data/0f133e09/src/d2a693bc.pyi,148,148,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-8836,3d887f8b,GitHub,0f133e09,data/0f133e09/src/3d887f8b.pyi,204,204,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-9368,2bdb56df,GitHub,0f133e09,data/0f133e09/test/2bdb56df.txt,21,21,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-9369,3c2e2b70,GitHub,0f133e09,data/0f133e09/test/3c2e2b70.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Key
-9370,3c6e310e,GitHub,0f133e09,data/0f133e09/test/3c6e310e.txt,10,10,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-9371,5e030391,GitHub,0f133e09,data/0f133e09/test/5e030391.txt,21,21,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-9372,b65925df,GitHub,0f133e09,data/0f133e09/test/b65925df.txt,10,10,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Gitlab Feed Token:Token
-9373,1abc5465,GitHub,0f133e09,data/0f133e09/test/1abc5465.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Key
-9374,fdc9b828,GitHub,0f133e09,data/0f133e09/test/fdc9b828.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-9375,a14e4d10,GitHub,0f133e09,data/0f133e09/test/a14e4d10.txt,43,43,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-9376,b65925df,GitHub,0f133e09,data/0f133e09/test/b65925df.txt,32,32,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Token
-9377,f809e743,GitHub,0f133e09,data/0f133e09/test/f809e743.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Key
-9378,e6d71b5a,GitHub,0f133e09,data/0f133e09/test/e6d71b5a.txt,21,21,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Dropbox App secret:Gitlab Feed Token:Token
-9379,e4739237,GitHub,0f133e09,data/0f133e09/test/e4739237.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-9380,e10f1e23,GitHub,0f133e09,data/0f133e09/test/e10f1e23.txt,87,87,F,F,,,F,F,,,,,0,0,F,F,F,Key
-9384,f5819a5c,GitHub,0f133e09,data/0f133e09/test/f5819a5c.txt,87,87,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-9385,06c85d5e,GitHub,0f133e09,data/0f133e09/test/06c85d5e.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Key
-9386,94431913,GitHub,0f133e09,data/0f133e09/test/94431913.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Key
-9387,5dec8d2e,GitHub,0f133e09,data/0f133e09/test/5dec8d2e.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Key
-9388,541cad72,GitHub,0f133e09,data/0f133e09/test/541cad72.txt,21,21,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-9389,e1089ef2,GitHub,0f133e09,data/0f133e09/test/e1089ef2.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Key
-9390,24d64af9,GitHub,0f133e09,data/0f133e09/test/24d64af9.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Key
-9391,acbd3693,GitHub,0f133e09,data/0f133e09/test/acbd3693.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Key
-9392,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,296,296,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-9393,84f85725,GitHub,0f133e09,data/0f133e09/test/84f85725.txt,21,21,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-9394,5c1efa0b,GitHub,0f133e09,data/0f133e09/test/5c1efa0b.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Key
-9395,7da7eb12,GitHub,0f133e09,data/0f133e09/test/7da7eb12.txt,21,21,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-9396,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,32,32,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-9397,4c239cf2,GitHub,0f133e09,data/0f133e09/test/4c239cf2.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-9399,08c43efd,GitHub,0f133e09,data/0f133e09/test/08c43efd.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-9413,1d7a0ba2,GitHub,0f133e09,data/0f133e09/test/1d7a0ba2.txt,10,10,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-9414,98eca58d,GitHub,0f133e09,data/0f133e09/test/98eca58d.txt,21,21,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-9416,cf9acca2,GitHub,0f133e09,data/0f133e09/test/cf9acca2.txt,21,21,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-9417,a09f373b,GitHub,0f133e09,data/0f133e09/test/a09f373b.txt,10,10,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-9418,e951add5,GitHub,0f133e09,data/0f133e09/test/e951add5.txt,10,10,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-9419,ea6dfafd,GitHub,0f133e09,data/0f133e09/test/ea6dfafd.txt,21,21,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-9420,62bb5e0d,GitHub,0f133e09,data/0f133e09/test/62bb5e0d.txt,21,21,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-9421,1c3cf051,GitHub,0f133e09,data/0f133e09/test/1c3cf051.txt,21,21,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-9422,fcfc5cb8,GitHub,0f133e09,data/0f133e09/test/fcfc5cb8.txt,21,21,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-9423,1ced0910,GitHub,0f133e09,data/0f133e09/test/1ced0910.txt,10,10,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Gitlab Feed Token
-9424,2defe86d,GitHub,0f133e09,data/0f133e09/test/2defe86d.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Key
-9425,8db67d7c,GitHub,0f133e09,data/0f133e09/test/8db67d7c.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
-9442,a1d1e1ed,GitHub,0f133e09,data/0f133e09/test/a1d1e1ed.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-9443,0ab976b7,GitHub,0f133e09,data/0f133e09/test/0ab976b7.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-9444,5badb894,GitHub,0f133e09,data/0f133e09/test/5badb894.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-9455,3036e7bd,GitHub,0f133e09,data/0f133e09/test/3036e7bd.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Key
-9456,b95c8f2d,GitHub,0f133e09,data/0f133e09/test/b95c8f2d.txt,21,21,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-9457,0a0609f6,GitHub,0f133e09,data/0f133e09/test/0a0609f6.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-9458,bd93aa07,GitHub,0f133e09,data/0f133e09/test/bd93aa07.txt,10,10,T,F,5299,5328,F,F,,,,,0,0,F,F,F,Auth:Token
-9459,4c239cf2,GitHub,0f133e09,data/0f133e09/test/4c239cf2.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Key
-9460,b65925df,GitHub,0f133e09,data/0f133e09/test/b65925df.txt,21,21,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Gitlab Feed Token
-9461,ba4151e1,GitHub,0f133e09,data/0f133e09/test/ba4151e1.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
-9462,ba4151e1,GitHub,0f133e09,data/0f133e09/test/ba4151e1.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
-9463,7c8577d8,GitHub,0f133e09,data/0f133e09/test/7c8577d8.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
-9464,7c8577d8,GitHub,0f133e09,data/0f133e09/test/7c8577d8.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
-9465,da48910b,GitHub,0f133e09,data/0f133e09/test/da48910b.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
-9466,da48910b,GitHub,0f133e09,data/0f133e09/test/da48910b.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
-9468,89a2179e,GitHub,0f133e09,data/0f133e09/test/89a2179e.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
-9469,8ef19577,GitHub,0f133e09,data/0f133e09/test/8ef19577.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
-9470,9ef218e0,GitHub,0f133e09,data/0f133e09/test/9ef218e0.txt,10,10,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-9471,777c628f,GitHub,0f133e09,data/0f133e09/test/777c628f.txt,10,10,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-9472,9c0f3a30,GitHub,0f133e09,data/0f133e09/test/9c0f3a30.txt,21,21,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-9473,25bf4114,GitHub,0f133e09,data/0f133e09/test/25bf4114.txt,21,21,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-9474,4be63cc0,GitHub,0f133e09,data/0f133e09/test/4be63cc0.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Key
-9475,a14e4d10,GitHub,0f133e09,data/0f133e09/test/a14e4d10.txt,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-9478,b65925df,GitHub,0f133e09,data/0f133e09/test/b65925df.txt,43,43,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Gitlab Feed Token
-9479,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,582,582,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-9480,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,340,340,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-9481,c92f896c,GitHub,0f133e09,data/0f133e09/test/c92f896c.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
-9499,5a7f3ab7,GitHub,0f133e09,data/0f133e09/test/5a7f3ab7.txt,54,54,T,F,256,296,F,F,,,,,0,0,F,F,F,Token
-9500,3ff7b45c,GitHub,0f133e09,data/0f133e09/test/3ff7b45c.txt,43,43,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
-9501,3c654d2d,GitHub,0f133e09,data/0f133e09/test/3c654d2d.txt,43,43,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
-9502,7b3e739d,GitHub,0f133e09,data/0f133e09/test/7b3e739d.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
-9503,ea2fe815,GitHub,0f133e09,data/0f133e09/test/ea2fe815.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
-9504,0b0d292f,GitHub,0f133e09,data/0f133e09/test/0b0d292f.txt,43,43,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
-9505,d32d184d,GitHub,0f133e09,data/0f133e09/test/d32d184d.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
-9506,2c6edd7f,GitHub,0f133e09,data/0f133e09/test/2c6edd7f.txt,43,43,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
-9507,af042fe3,GitHub,0f133e09,data/0f133e09/test/af042fe3.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
-9508,f46f26a2,GitHub,0f133e09,data/0f133e09/test/f46f26a2.txt,43,43,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
-9509,4e64d947,GitHub,0f133e09,data/0f133e09/test/4e64d947.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
-9511,fcf480cb,GitHub,0f133e09,data/0f133e09/test/fcf480cb.txt,43,43,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
-9513,f1a66a58,GitHub,0f133e09,data/0f133e09/test/f1a66a58.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
-9528,fec9b223,GitHub,0f133e09,data/0f133e09/test/fec9b223.txt,21,21,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Gitlab Feed Token
-9529,fec9b223,GitHub,0f133e09,data/0f133e09/test/fec9b223.txt,10,10,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Gitlab Feed Token
-9531,775b554f,GitHub,0f133e09,data/0f133e09/test/775b554f.txt,18,18,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-9532,b1dd7266,GitHub,0f133e09,data/0f133e09/test/b1dd7266.txt,18,18,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-9533,d29d3e50,GitHub,0f133e09,data/0f133e09/test/d29d3e50.txt,40,40,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-9540,493d2105,GitHub,0f133e09,data/0f133e09/test/493d2105.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
-9541,f3ebc70a,GitHub,0f133e09,data/0f133e09/test/f3ebc70a.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
-9542,8bfa1e8d,GitHub,0f133e09,data/0f133e09/test/8bfa1e8d.txt,43,43,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
-9558,5c1efa0b,GitHub,0f133e09,data/0f133e09/test/5c1efa0b.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-9561,80832e2e,GitHub,0f133e09,data/0f133e09/test/80832e2e.txt,10,10,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-9567,2defe86d,GitHub,0f133e09,data/0f133e09/test/2defe86d.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-9569,e6d71b5a,GitHub,0f133e09,data/0f133e09/test/e6d71b5a.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-9571,b1d2421b,GitHub,0f133e09,data/0f133e09/test/b1d2421b.txt,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
-9585,259863d0,GitHub,0f133e09,data/0f133e09/test/259863d0.txt,7,7,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-9596,3036e7bd,GitHub,0f133e09,data/0f133e09/test/3036e7bd.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-9597,98eca58d,GitHub,0f133e09,data/0f133e09/test/98eca58d.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-9758,c7b13616,GitHub,0f133e09,data/0f133e09/test/c7b13616.txt,7,7,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-9760,725bb28a,GitHub,0f133e09,data/0f133e09/test/725bb28a.txt,7,7,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-9761,f47f6d4b,GitHub,0f133e09,data/0f133e09/test/f47f6d4b.txt,18,18,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-9762,b1dd7266,GitHub,0f133e09,data/0f133e09/test/b1dd7266.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-9763,775b554f,GitHub,0f133e09,data/0f133e09/test/775b554f.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-9767,c7b13616,GitHub,0f133e09,data/0f133e09/test/c7b13616.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Token
-10100,f1a66a58,GitHub,0f133e09,data/0f133e09/test/f1a66a58.txt,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
-10101,c6ae4f3c,GitHub,0f133e09,data/0f133e09/test/c6ae4f3c.txt,43,43,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
-10102,c6ae4f3c,GitHub,0f133e09,data/0f133e09/test/c6ae4f3c.txt,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
-10103,6ce66373,GitHub,0f133e09,data/0f133e09/test/6ce66373.txt,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
-10104,6ce66373,GitHub,0f133e09,data/0f133e09/test/6ce66373.txt,43,43,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
-10111,d5b935e4,GitHub,0f133e09,data/0f133e09/test/d5b935e4.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
-10129,e4c9ef89,GitHub,0f133e09,data/0f133e09/test/e4c9ef89.txt,21,21,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-10131,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,120,120,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-10136,5a7f3ab7,GitHub,0f133e09,data/0f133e09/test/5a7f3ab7.txt,10,10,T,F,226,266,F,F,,,,,0,0,F,F,F,Token
-10137,983d2575,GitHub,0f133e09,data/0f133e09/test/983d2575.txt,10,10,T,F,210,250,F,F,,,,,0,0,F,F,F,Token
-10138,0d46126a,GitHub,0f133e09,data/0f133e09/test/0d46126a.txt,10,10,T,F,226,266,F,F,,,,,0,0,F,F,F,Token
-10139,5a7f3ab7,GitHub,0f133e09,data/0f133e09/test/5a7f3ab7.txt,43,43,T,F,232,272,F,F,,,,,0,0,F,F,F,Token
-10140,5a7f3ab7,GitHub,0f133e09,data/0f133e09/test/5a7f3ab7.txt,21,21,T,F,232,272,F,F,,,,,0,0,F,F,F,Token
-10141,5a7f3ab7,GitHub,0f133e09,data/0f133e09/test/5a7f3ab7.txt,32,32,T,F,223,263,F,F,,,,,0,0,F,F,F,Token
-10142,4bc35222,GitHub,0f133e09,data/0f133e09/test/4bc35222.txt,10,10,T,F,209,249,F,F,,,,,0,0,F,F,F,Token
-10143,6ec6580c,GitHub,0f133e09,data/0f133e09/test/6ec6580c.txt,10,10,T,F,209,249,F,F,,,,,0,0,F,F,F,Token
-10156,4f50c3e2,GitHub,0f133e09,data/0f133e09/test/4f50c3e2.txt,7,7,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-10157,9cafe13b,GitHub,0f133e09,data/0f133e09/test/9cafe13b.txt,18,18,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-10162,f340c429,GitHub,0f133e09,data/0f133e09/test/f340c429.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
-10163,a557f195,GitHub,0f133e09,data/0f133e09/test/a557f195.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
-10167,2a5752fb,GitHub,0f133e09,data/0f133e09/test/2a5752fb.txt,10,10,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-10178,ebde7a35,GitHub,0f133e09,data/0f133e09/test/ebde7a35.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Token
-10179,d0ec023c,GitHub,0f133e09,data/0f133e09/test/d0ec023c.txt,10,10,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-10180,5ad49953,GitHub,0f133e09,data/0f133e09/test/5ad49953.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
-10185,e10f1e23,GitHub,0f133e09,data/0f133e09/test/e10f1e23.txt,43,43,F,F,,,F,F,,,,,0,0,F,F,F,Key
-10186,e10f1e23,GitHub,0f133e09,data/0f133e09/test/e10f1e23.txt,54,54,F,F,,,F,F,,,,,0,0,F,F,F,Key
-10258,ab3fe96e,GitHub,0f133e09,data/0f133e09/test/ab3fe96e.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
-10259,7c174031,GitHub,0f133e09,data/0f133e09/test/7c174031.txt,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
-10263,b559bfe6,GitHub,0f133e09,data/0f133e09/test/b559bfe6.txt,43,43,F,F,,,F,F,,,,,0,0,F,F,F,Key
-10265,6ca54b76,GitHub,0f133e09,data/0f133e09/test/6ca54b76.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Key
-10266,64a36abe,GitHub,0f133e09,data/0f133e09/test/64a36abe.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Key
-10269,e10f1e23,GitHub,0f133e09,data/0f133e09/test/e10f1e23.txt,76,76,F,F,,,F,F,,,,,0,0,F,F,F,Key
-10270,e10f1e23,GitHub,0f133e09,data/0f133e09/test/e10f1e23.txt,65,65,F,F,,,F,F,,,,,0,0,F,F,F,Key
-10273,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,285,285,T,F,288,308,F,F,,,,,0,0,F,F,F,Token:Gitlab Feed Token
-10296,725bb28a,GitHub,0f133e09,data/0f133e09/test/725bb28a.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-10297,53c72711,GitHub,0f133e09,data/0f133e09/test/53c72711.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-10298,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,230,230,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-11450,03c77d4f,GitHub,0f133e09,data/0f133e09/src/03c77d4f.py,308,308,F,F,,,F,F,,,,,0,0,F,F,F,Token
-11563,22f5eaf1,GitHub,0f133e09,data/0f133e09/test/22f5eaf1.py,139,139,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-14988,d29d3e50,GitHub,0f133e09,data/0f133e09/test/d29d3e50.txt,16,16,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-16480,2bfcef46,GitHub,0f133e09,data/0f133e09/test/2bfcef46.py,62,62,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-16481,8d612764,GitHub,0f133e09,data/0f133e09/test/8d612764.py,565,565,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-16482,8d612764,GitHub,0f133e09,data/0f133e09/test/8d612764.py,792,792,F,F,,,F,F,,,,,0,0,F,F,F,Jira / Confluence PAT token
-16483,8d612764,GitHub,0f133e09,data/0f133e09/test/8d612764.py,445,445,F,F,,,F,F,,,,,0,0,F,F,F,Jira / Confluence PAT token
-16484,8d612764,GitHub,0f133e09,data/0f133e09/test/8d612764.py,475,475,F,F,,,F,F,,,,,0,0,F,F,F,Jira / Confluence PAT token
-16485,8d612764,GitHub,0f133e09,data/0f133e09/test/8d612764.py,760,760,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-16486,8d612764,GitHub,0f133e09,data/0f133e09/test/8d612764.py,890,890,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-16487,8d612764,GitHub,0f133e09,data/0f133e09/test/8d612764.py,690,690,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-16488,8d612764,GitHub,0f133e09,data/0f133e09/test/8d612764.py,824,824,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-16489,8d612764,GitHub,0f133e09,data/0f133e09/test/8d612764.py,505,505,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-16490,8d612764,GitHub,0f133e09,data/0f133e09/test/8d612764.py,651,651,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-16491,8d612764,GitHub,0f133e09,data/0f133e09/test/8d612764.py,726,726,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-16523,8d612764,GitHub,0f133e09,data/0f133e09/test/8d612764.py,856,856,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-17637,cd558fc3,GitHub,0f133e09,data/0f133e09/src/cd558fc3.py,802,802,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-17643,cd558fc3,GitHub,0f133e09,data/0f133e09/src/cd558fc3.py,110,110,F,F,,,F,F,,,,,0,0,F,F,F,Password
-17644,a9cdf635,GitHub,0f133e09,data/0f133e09/src/a9cdf635.py,444,444,F,F,,,F,F,,,,,0,0,F,F,F,Password
-17645,cd558fc3,GitHub,0f133e09,data/0f133e09/src/cd558fc3.py,109,109,F,F,,,F,F,,,,,0,0,F,F,F,Token
-17652,a9cdf635,GitHub,0f133e09,data/0f133e09/src/a9cdf635.py,534,534,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-17680,0ccc1045,GitHub,0f133e09,data/0f133e09/src/0ccc1045.py,1464,1464,F,F,,,F,F,,,,,0,0,F,F,F,Password
-17729,21c6c562,GitHub,0f133e09,data/0f133e09/test/21c6c562.txt,38,38,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-17730,a14e4d10,GitHub,0f133e09,data/0f133e09/test/a14e4d10.txt,16,16,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-17786,c19900d5,GitHub,0f133e09,data/0f133e09/test/c19900d5.txt,5,5,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-17882,d29d3e50,GitHub,0f133e09,data/0f133e09/test/d29d3e50.txt,27,27,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-17883,b2ef609d,GitHub,0f133e09,data/0f133e09/test/b2ef609d.txt,5,5,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-17884,0a9962e7,GitHub,0f133e09,data/0f133e09/test/0a9962e7.txt,27,27,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-17885,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,126,126,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-17886,9cafe13b,GitHub,0f133e09,data/0f133e09/test/9cafe13b.txt,5,5,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-17887,775b554f,GitHub,0f133e09,data/0f133e09/test/775b554f.txt,5,5,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-17888,d2cefd30,GitHub,0f133e09,data/0f133e09/test/d2cefd30.txt,27,27,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-17889,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,115,115,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-17890,d29d3e50,GitHub,0f133e09,data/0f133e09/test/d29d3e50.txt,5,5,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-17891,5bb45189,GitHub,0f133e09,data/0f133e09/test/5bb45189.txt,27,27,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-17893,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,137,137,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-17894,ca9e75b5,GitHub,0f133e09,data/0f133e09/test/ca9e75b5.txt,27,27,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-17895,1f06b1ec,GitHub,0f133e09,data/0f133e09/test/1f06b1ec.txt,16,16,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-17896,1f06b1ec,GitHub,0f133e09,data/0f133e09/test/1f06b1ec.txt,27,27,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-17897,f47f6d4b,GitHub,0f133e09,data/0f133e09/test/f47f6d4b.txt,5,5,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-17898,355abf3e,GitHub,0f133e09,data/0f133e09/test/355abf3e.txt,16,16,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-17899,355abf3e,GitHub,0f133e09,data/0f133e09/test/355abf3e.txt,5,5,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-17900,e4ca7443,GitHub,0f133e09,data/0f133e09/test/e4ca7443.txt,5,5,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-17901,574be091,GitHub,0f133e09,data/0f133e09/test/574be091.txt,27,27,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-17909,356023eb,GitHub,0f133e09,data/0f133e09/test/356023eb.txt,5,5,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-17911,06c85d5e,GitHub,0f133e09,data/0f133e09/test/06c85d5e.txt,27,27,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-17940,06c85d5e,GitHub,0f133e09,data/0f133e09/test/06c85d5e.txt,38,38,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-20167,9877ceb1,GitHub,0f133e09,data/0f133e09/test/9877ceb1.py,52,52,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-20168,d27bec8f,GitHub,0f133e09,data/0f133e09/test/d27bec8f.py,64,64,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-20169,412e86f3,GitHub,0f133e09,data/0f133e09/test/412e86f3.py,51,51,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-20170,9877ceb1,GitHub,0f133e09,data/0f133e09/test/9877ceb1.py,41,41,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-20171,d27bec8f,GitHub,0f133e09,data/0f133e09/test/d27bec8f.py,54,54,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-20172,03cdc0c5,GitHub,0f133e09,data/0f133e09/test/03cdc0c5.py,95,95,T,F,123,143,T,F,Any,,AWS Client ID,Token,3.78,20,F,F,F,AWS Client ID
-1020172,03cdc0c5,GitHub,0f133e09,data/0f133e09/test/03cdc0c5.py,95,95,T,F,123,186,T,F,Any,,AWS Client ID,Token,3.78,20,F,F,F,Credential
-136761,03cdc0c5,GitHub,0f133e09,data/0f133e09/test/03cdc0c5.py,95,95,T,F,123,313,F,F,,,,,0.0,0,F,F,F,AWS Multi
-136760,03cdc0c5,GitHub,0f133e09,data/0f133e09/test/03cdc0c5.py,95,95,T,F,21,50,F,F,,,,,0.0,0,F,F,F,AWS S3 Bucket
-20680,0ccc1045,GitHub,0f133e09,data/0f133e09/src/0ccc1045.py,1236,1236,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-23378,03c77d4f,GitHub,0f133e09,data/0f133e09/src/03c77d4f.py,241,241,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-29321,eca12c0a,GitHub,0f133e09,data/0f133e09/other/eca12c0a.md,89,89,Template,T,12,23,F,F,Any,,,Secret,2.96,11,F,F,F,Password
-29342,eca12c0a,GitHub,0f133e09,data/0f133e09/other/eca12c0a.md,90,90,Template,T,15,23,F,F,Any,,,Token,2.62,8,F,F,F,Auth:Token
-29536,5e62348b,GitHub,0f133e09,data/0f133e09/test/5e62348b.py,30,30,Template,T,30,51,F,F,Any,,,Secret,3.14,21,F,F,F,Secret
-29607,6ec6580c,GitHub,0f133e09,data/0f133e09/test/6ec6580c.txt,7,7,T,F,19,59,F,F,NumbersOnly,,,Secret,3.32,40,F,F,F,Secret
-29610,3e8093f9,GitHub,0f133e09,data/0f133e09/test/3e8093f9.txt,32,32,F,F,22,402,T,F,Any,,,Unknown,5.83,380,F,F,F,Key
-29611,a0a75a16,GitHub,0f133e09,data/0f133e09/test/a0a75a16.txt,7,7,F,T,9,-1,F,F,Any,,,Unknown,5.83,388,F,F,F,Key
-29612,6d89ddbd,GitHub,0f133e09,data/0f133e09/test/6d89ddbd.txt,7,7,F,T,9,-1,F,F,Any,,,Unknown,5.83,388,F,F,F,Key
-29614,6d89ddbd,GitHub,0f133e09,data/0f133e09/test/6d89ddbd.txt,10,10,F,T,57,437,T,F,Any,,,Unknown,5.83,380,F,F,F,Key
-29616,a0a75a16,GitHub,0f133e09,data/0f133e09/test/a0a75a16.txt,10,10,F,T,57,437,T,F,Any,,,Unknown,5.83,380,F,F,F,Key
-30738,d90d9e92,GitHub,0f133e09,data/0f133e09/test/d90d9e92.py,375,375,T,F,27,67,F,F,NumbersOnly,,,Secret,3.32,40,F,F,F,Secret
-30876,d4a67d01,GitHub,0f133e09,data/0f133e09/test/d4a67d01.txt,10,10,F,F,57,437,T,F,Any,,,PublicKey,5.84,380,F,F,F,Key
-30877,d6019b5f,GitHub,0f133e09,data/0f133e09/test/d6019b5f.txt,10,10,F,T,74,454,T,F,Any,,,Unknown,5.83,380,F,F,F,Key
-30883,7400d4c5,GitHub,0f133e09,data/0f133e09/test/7400d4c5.txt,10,10,F,F,9,389,F,F,Any,,,Unknown,5.84,380,F,F,F,Key
-30951,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,10,10,T,T,110,130,T,F,Any,,AWS Client ID,Secret,3.78,20,F,F,F,AWS Client ID:Gitlab Feed Token
-1030951,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,10,10,T,T,110,173,T,F,Any,,AWS Client ID,Secret,3.78,20,F,F,F,Credential
-136763,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,10,10,T,F,8,37,F,F,,,,,0.0,0,F,F,F,AWS S3 Bucket
-31365,b3356305,GitHub,0f133e09,data/0f133e09/other/b3356305.md,35,35,Template,T,65,77,F,F,Any,,,Token,2.79,12,F,F,F,Token
-34714,cd589265,GitHub,0f133e09,data/0f133e09/test/cd589265.py,281,281,Template,T,29,37,F,F,CharsOnly,,,Secret,2.75,8,F,F,F,Password
-34715,9d2d157d,GitHub,0f133e09,data/0f133e09/test/9d2d157d.py,37,37,F,F,34,78,F,F,,,,,0.0,0,F,F,F,Other
-34731,cd589265,GitHub,0f133e09,data/0f133e09/test/cd589265.py,282,282,Template,T,32,43,F,F,Any,,,Token,2.78,11,F,F,F,Auth:Token
-35294,22f5eaf1,GitHub,0f133e09,data/0f133e09/test/22f5eaf1.py,13,27,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,PEM Private Key
-36195,22f5eaf1,GitHub,0f133e09,data/0f133e09/test/22f5eaf1.py,69,69,T,F,32,75,F,F,Any,,,Token,3.57,43,F,F,F,Token
-36398,9d2d157d,GitHub,0f133e09,data/0f133e09/test/9d2d157d.py,42,42,T,F,57,101,F,F,,,,,0.0,0,F,F,F,Key
-36410,b8b105af,GitHub,0f133e09,data/0f133e09/test/b8b105af.txt,32,32,T,F,9,53,F,F,Any,,,Unknown,4.86,44,F,F,F,Key
-36411,fed51bf1,GitHub,0f133e09,data/0f133e09/test/fed51bf1.txt,10,10,T,F,9,53,F,F,Any,,,Unknown,4.86,44,F,F,F,Key
-36412,a34fd3f0,GitHub,0f133e09,data/0f133e09/test/a34fd3f0.txt,32,32,T,F,9,53,F,F,Any,,,Unknown,4.86,44,F,F,F,Key
-37217,9d2d157d,GitHub,0f133e09,data/0f133e09/test/9d2d157d.py,48,48,F,F,34,78,F,F,,,,,0.0,0,F,F,F,Other
-37724,9d2d157d,GitHub,0f133e09,data/0f133e09/test/9d2d157d.py,53,53,T,F,55,99,F,F,,,,,0.0,0,F,F,F,Key
-46431,942bcb37,GitHub,0f133e09,data/0f133e09/test/942bcb37.py,72,72,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46432,942bcb37,GitHub,0f133e09,data/0f133e09/test/942bcb37.py,132,132,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46433,942bcb37,GitHub,0f133e09,data/0f133e09/test/942bcb37.py,142,142,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46434,942bcb37,GitHub,0f133e09,data/0f133e09/test/942bcb37.py,112,112,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46435,942bcb37,GitHub,0f133e09,data/0f133e09/test/942bcb37.py,92,92,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46436,942bcb37,GitHub,0f133e09,data/0f133e09/test/942bcb37.py,122,122,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46437,942bcb37,GitHub,0f133e09,data/0f133e09/test/942bcb37.py,52,52,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46438,942bcb37,GitHub,0f133e09,data/0f133e09/test/942bcb37.py,102,102,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46439,942bcb37,GitHub,0f133e09,data/0f133e09/test/942bcb37.py,152,152,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46440,942bcb37,GitHub,0f133e09,data/0f133e09/test/942bcb37.py,62,62,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46441,942bcb37,GitHub,0f133e09,data/0f133e09/test/942bcb37.py,82,82,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46530,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,704,704,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46531,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,645,645,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46532,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,690,690,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46533,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,596,596,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46534,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,565,565,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46535,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,664,664,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46536,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,537,537,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46537,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,630,630,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46538,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,616,616,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46539,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,676,676,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46540,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,706,706,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46541,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,698,698,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46542,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,686,686,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46543,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,589,589,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46544,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,575,575,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46545,d90d9e92,GitHub,0f133e09,data/0f133e09/test/d90d9e92.py,427,427,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
-46546,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,631,631,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46547,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,679,679,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46548,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,668,668,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46549,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,670,670,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46550,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,583,583,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46551,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,608,608,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46552,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,671,671,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46553,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,591,591,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46554,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,678,678,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46555,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,684,684,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46557,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,610,610,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46558,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,693,693,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46559,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,580,580,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46560,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,586,586,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46561,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,647,647,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46562,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,701,701,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46563,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,564,564,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46564,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,628,628,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46565,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,567,567,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46566,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,598,598,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46567,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,688,688,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46568,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,629,629,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46569,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,619,619,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46571,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,622,622,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46572,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,618,618,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46574,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,614,614,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46575,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,666,666,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46576,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,700,700,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46577,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,605,605,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46578,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,694,694,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46579,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,602,602,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46580,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,620,620,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46581,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,623,623,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46582,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,568,568,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46583,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,643,643,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46584,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,535,535,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46585,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,615,615,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46586,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,571,571,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46587,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,572,572,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46588,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,600,600,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46589,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,695,695,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46590,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,697,697,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46591,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,592,592,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46592,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,597,597,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46593,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,604,604,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46594,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,603,603,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46595,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,682,682,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46596,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,665,665,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46597,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,624,624,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46598,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,599,599,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46599,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,683,683,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46600,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,696,696,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46601,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,601,601,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46602,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,703,703,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46603,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,607,607,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46604,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,646,646,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46605,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,669,669,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46606,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,574,574,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46607,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,576,576,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46608,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,606,606,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46609,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,625,625,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46610,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,609,609,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46611,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,573,573,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46612,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,705,705,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46615,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,587,587,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46616,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,685,685,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46617,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,702,702,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46618,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,621,621,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46619,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,593,593,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46620,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,581,581,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46621,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,594,594,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46622,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,579,579,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46623,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,570,570,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46625,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,585,585,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46626,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,617,617,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46627,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,677,677,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46628,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,672,672,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46630,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,584,584,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46631,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,590,590,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46632,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,588,588,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46633,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,663,663,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46634,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,675,675,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46635,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,612,612,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46636,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,536,536,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46637,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,627,627,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46638,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,582,582,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46641,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,595,595,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46642,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,648,648,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46643,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,644,644,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46644,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,680,680,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46645,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,687,687,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46646,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,660,660,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46647,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,674,674,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46648,d90d9e92,GitHub,0f133e09,data/0f133e09/test/d90d9e92.py,429,429,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
-46649,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,642,642,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46650,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,662,662,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46651,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,667,667,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46652,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,577,577,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46653,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,699,699,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46654,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,578,578,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46655,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,566,566,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46656,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,613,613,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46657,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,569,569,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46658,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,538,538,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46659,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,691,691,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46660,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,689,689,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46661,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,692,692,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46662,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,661,661,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46663,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,673,673,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46665,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,681,681,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46666,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,611,611,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46667,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,626,626,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46837,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,779,779,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46846,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,253,253,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46900,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,367,367,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46986,d27bec8f,GitHub,0f133e09,data/0f133e09/test/d27bec8f.py,39,39,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46987,d27bec8f,GitHub,0f133e09,data/0f133e09/test/d27bec8f.py,154,154,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46988,1f5c1fc4,GitHub,0f133e09,data/0f133e09/test/1f5c1fc4.py,39,39,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46989,f104e3dc,GitHub,0f133e09,data/0f133e09/test/f104e3dc.py,41,41,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46990,1107b381,GitHub,0f133e09,data/0f133e09/test/1107b381.py,41,41,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-46991,cc0a8c37,GitHub,0f133e09,data/0f133e09/test/cc0a8c37.py,39,39,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-47024,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,721,721,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-47025,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,716,716,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-47026,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,726,726,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-47106,24dcecf9,GitHub,0f133e09,data/0f133e09/test/24dcecf9.py,68,68,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-47138,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,1244,1244,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-47144,d27bec8f,GitHub,0f133e09,data/0f133e09/test/d27bec8f.py,83,83,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-47145,f104e3dc,GitHub,0f133e09,data/0f133e09/test/f104e3dc.py,58,58,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-47146,d27bec8f,GitHub,0f133e09,data/0f133e09/test/d27bec8f.py,72,72,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-47147,f104e3dc,GitHub,0f133e09,data/0f133e09/test/f104e3dc.py,61,61,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-47148,f104e3dc,GitHub,0f133e09,data/0f133e09/test/f104e3dc.py,65,65,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-47149,a233f1a0,GitHub,0f133e09,data/0f133e09/test/a233f1a0.py,43,43,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-47150,54c53739,GitHub,0f133e09,data/0f133e09/test/54c53739.py,40,40,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-47151,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,325,325,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-47152,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,324,324,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-47153,1107b381,GitHub,0f133e09,data/0f133e09/test/1107b381.py,47,47,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-47154,cc0a8c37,GitHub,0f133e09,data/0f133e09/test/cc0a8c37.py,48,48,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-47155,cc0a8c37,GitHub,0f133e09,data/0f133e09/test/cc0a8c37.py,59,59,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-47616,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,262,262,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-47617,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,1324,1324,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-47618,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,320,320,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-47619,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,346,346,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-47620,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,331,331,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-47625,9877ceb1,GitHub,0f133e09,data/0f133e09/test/9877ceb1.py,54,54,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-47626,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,388,388,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-47627,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,400,400,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-47628,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,289,289,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-47629,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,272,272,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-47630,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,315,315,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-47631,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,302,302,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-47649,a233f1a0,GitHub,0f133e09,data/0f133e09/test/a233f1a0.py,65,65,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-47650,a233f1a0,GitHub,0f133e09,data/0f133e09/test/a233f1a0.py,68,68,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-49285,0a0609f6,GitHub,0f133e09,data/0f133e09/test/0a0609f6.txt,20,20,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49286,0a0609f6,GitHub,0f133e09,data/0f133e09/test/0a0609f6.txt,9,9,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49287,451118b9,GitHub,0f133e09,data/0f133e09/test/451118b9.txt,9,9,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49344,a09f373b,GitHub,0f133e09,data/0f133e09/test/a09f373b.txt,9,9,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49345,a09f373b,GitHub,0f133e09,data/0f133e09/test/a09f373b.txt,20,20,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49346,acbd3693,GitHub,0f133e09,data/0f133e09/test/acbd3693.txt,9,9,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49347,cf71695e,GitHub,0f133e09,data/0f133e09/test/cf71695e.txt,9,9,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49348,ad473367,GitHub,0f133e09,data/0f133e09/test/ad473367.txt,20,20,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49349,ad473367,GitHub,0f133e09,data/0f133e09/test/ad473367.txt,9,9,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49350,fb2977d7,GitHub,0f133e09,data/0f133e09/test/fb2977d7.txt,9,9,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49355,7285a2c4,GitHub,0f133e09,data/0f133e09/test/7285a2c4.txt,20,20,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49356,7285a2c4,GitHub,0f133e09,data/0f133e09/test/7285a2c4.txt,9,9,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49357,7285a2c4,GitHub,0f133e09,data/0f133e09/test/7285a2c4.txt,42,42,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49358,7285a2c4,GitHub,0f133e09,data/0f133e09/test/7285a2c4.txt,31,31,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49400,2defe86d,GitHub,0f133e09,data/0f133e09/test/2defe86d.txt,20,20,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49401,2defe86d,GitHub,0f133e09,data/0f133e09/test/2defe86d.txt,9,9,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49402,d5839cf2,GitHub,0f133e09,data/0f133e09/test/d5839cf2.txt,9,9,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49411,3036e7bd,GitHub,0f133e09,data/0f133e09/test/3036e7bd.txt,20,20,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49412,3036e7bd,GitHub,0f133e09,data/0f133e09/test/3036e7bd.txt,9,9,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49413,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,251,251,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49414,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,262,262,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49415,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,273,273,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49416,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,284,284,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49417,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,295,295,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49418,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,9,9,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49419,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,20,20,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49420,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,31,31,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49421,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,42,42,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49422,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,53,53,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49423,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,64,64,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49424,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,75,75,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49425,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,86,86,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49426,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,97,97,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49427,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,108,108,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49428,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,119,119,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49429,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,130,130,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49430,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,141,141,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49431,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,152,152,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49432,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,163,163,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49433,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,174,174,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49434,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,185,185,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49435,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,196,196,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49436,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,207,207,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49437,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,218,218,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49438,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,229,229,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49439,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,240,240,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49520,a557f195,GitHub,0f133e09,data/0f133e09/test/a557f195.txt,9,9,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49521,a557f195,GitHub,0f133e09,data/0f133e09/test/a557f195.txt,20,20,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49551,3e8093f9,GitHub,0f133e09,data/0f133e09/test/3e8093f9.txt,9,9,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49555,a14e4d10,GitHub,0f133e09,data/0f133e09/test/a14e4d10.txt,31,31,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49558,fdc9b828,GitHub,0f133e09,data/0f133e09/test/fdc9b828.txt,20,20,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49559,a14e4d10,GitHub,0f133e09,data/0f133e09/test/a14e4d10.txt,42,42,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49560,fdc9b828,GitHub,0f133e09,data/0f133e09/test/fdc9b828.txt,9,9,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49566,a14e4d10,GitHub,0f133e09,data/0f133e09/test/a14e4d10.txt,20,20,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49569,a14e4d10,GitHub,0f133e09,data/0f133e09/test/a14e4d10.txt,9,9,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49571,e4c9ef89,GitHub,0f133e09,data/0f133e09/test/e4c9ef89.txt,9,9,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49577,3e8093f9,GitHub,0f133e09,data/0f133e09/test/3e8093f9.txt,20,20,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49584,3e8093f9,GitHub,0f133e09,data/0f133e09/test/3e8093f9.txt,31,31,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49587,e4c9ef89,GitHub,0f133e09,data/0f133e09/test/e4c9ef89.txt,20,20,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49588,08232d99,GitHub,0f133e09,data/0f133e09/test/08232d99.txt,9,9,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49953,8f6d9fd5,GitHub,0f133e09,data/0f133e09/test/8f6d9fd5.txt,20,20,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-49971,fcf480cb,GitHub,0f133e09,data/0f133e09/test/fcf480cb.txt,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
-49972,ea2fe815,GitHub,0f133e09,data/0f133e09/test/ea2fe815.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
-49973,d32d184d,GitHub,0f133e09,data/0f133e09/test/d32d184d.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
-49974,7b3e739d,GitHub,0f133e09,data/0f133e09/test/7b3e739d.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
-49975,0b0d292f,GitHub,0f133e09,data/0f133e09/test/0b0d292f.txt,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
-49976,2c6edd7f,GitHub,0f133e09,data/0f133e09/test/2c6edd7f.txt,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
-49977,3ff7b45c,GitHub,0f133e09,data/0f133e09/test/3ff7b45c.txt,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
-49978,f46f26a2,GitHub,0f133e09,data/0f133e09/test/f46f26a2.txt,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
-49979,3c654d2d,GitHub,0f133e09,data/0f133e09/test/3c654d2d.txt,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
-49980,8bfa1e8d,GitHub,0f133e09,data/0f133e09/test/8bfa1e8d.txt,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
-49981,f3ebc70a,GitHub,0f133e09,data/0f133e09/test/f3ebc70a.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
-49982,4e64d947,GitHub,0f133e09,data/0f133e09/test/4e64d947.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
-49983,af042fe3,GitHub,0f133e09,data/0f133e09/test/af042fe3.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
-50406,1ced0910,GitHub,0f133e09,data/0f133e09/test/1ced0910.txt,7,7,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-50413,e4b6e363,GitHub,0f133e09,data/0f133e09/test/e4b6e363.txt,43,43,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-50414,da48910b,GitHub,0f133e09,data/0f133e09/test/da48910b.txt,7,7,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-50415,89a2179e,GitHub,0f133e09,data/0f133e09/test/89a2179e.txt,7,7,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-50416,ba4151e1,GitHub,0f133e09,data/0f133e09/test/ba4151e1.txt,7,7,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-50417,7c8577d8,GitHub,0f133e09,data/0f133e09/test/7c8577d8.txt,7,7,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-50418,8ef19577,GitHub,0f133e09,data/0f133e09/test/8ef19577.txt,18,18,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-50424,ab3fe96e,GitHub,0f133e09,data/0f133e09/test/ab3fe96e.txt,7,7,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-50425,d431055d,GitHub,0f133e09,data/0f133e09/test/d431055d.txt,7,7,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-50426,385e4621,GitHub,0f133e09,data/0f133e09/test/385e4621.txt,7,7,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-50427,2bd773b5,GitHub,0f133e09,data/0f133e09/test/2bd773b5.txt,7,7,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-50429,e3e10fba,GitHub,0f133e09,data/0f133e09/test/e3e10fba.txt,7,7,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-50436,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,494,494,T,F,287,307,F,F,,,,,0,0,F,F,F,Token:Gitlab Feed Token
-50437,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,435,435,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-50438,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,402,402,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-50439,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,347,347,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-50440,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,578,578,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-50441,777c628f,GitHub,0f133e09,data/0f133e09/test/777c628f.txt,6,6,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-50442,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,358,358,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-50443,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,413,413,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-50444,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,589,589,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-50445,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,545,545,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-50446,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,446,446,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-50447,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,391,391,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-50448,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,567,567,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-50449,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,479,479,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-50450,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,457,457,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-50451,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,380,380,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-54576,a9cdf635,GitHub,0f133e09,data/0f133e09/src/a9cdf635.py,541,541,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-57320,0ccc1045,GitHub,0f133e09,data/0f133e09/src/0ccc1045.py,1227,1227,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-57321,cd558fc3,GitHub,0f133e09,data/0f133e09/src/cd558fc3.py,214,214,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-62668,64a36abe,GitHub,0f133e09,data/0f133e09/test/64a36abe.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-76964,8ef19577,GitHub,0f133e09,data/0f133e09/test/8ef19577.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
-76965,8dd92670,GitHub,0f133e09,data/0f133e09/test/8dd92670.txt,21,21,T,F,5299,5328,F,F,,,,,0,0,F,F,F,Auth:Token
-76966,2c6edd7f,GitHub,0f133e09,data/0f133e09/test/2c6edd7f.txt,21,21,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Dropbox App secret:Gitlab Feed Token:Token
-76967,0b0d292f,GitHub,0f133e09,data/0f133e09/test/0b0d292f.txt,21,21,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Dropbox App secret:Gitlab Feed Token:Token
-76968,8bfa1e8d,GitHub,0f133e09,data/0f133e09/test/8bfa1e8d.txt,21,21,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Dropbox App secret:Gitlab Feed Token:Token
-76969,fcf480cb,GitHub,0f133e09,data/0f133e09/test/fcf480cb.txt,21,21,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Dropbox App secret:Gitlab Feed Token:Token
-76970,f46f26a2,GitHub,0f133e09,data/0f133e09/test/f46f26a2.txt,21,21,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Dropbox App secret:Gitlab Feed Token:Token
-76971,3ff7b45c,GitHub,0f133e09,data/0f133e09/test/3ff7b45c.txt,21,21,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Dropbox App secret:Gitlab Feed Token:Token
-76972,3c654d2d,GitHub,0f133e09,data/0f133e09/test/3c654d2d.txt,21,21,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Dropbox App secret:Gitlab Feed Token:Token
-76973,4760f7fa,GitHub,0f133e09,data/0f133e09/test/4760f7fa.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Key
-76974,4760f7fa,GitHub,0f133e09,data/0f133e09/test/4760f7fa.txt,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Key
-76975,f809e743,GitHub,0f133e09,data/0f133e09/test/f809e743.txt,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Key
-76976,fdc9b828,GitHub,0f133e09,data/0f133e09/test/fdc9b828.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-76977,7c174031,GitHub,0f133e09,data/0f133e09/test/7c174031.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Key
-76978,21c6c562,GitHub,0f133e09,data/0f133e09/test/21c6c562.txt,21,21,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Gitlab Feed Token:Token
-76979,7285a2c4,GitHub,0f133e09,data/0f133e09/test/7285a2c4.txt,21,21,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-76980,0a0609f6,GitHub,0f133e09,data/0f133e09/test/0a0609f6.txt,10,10,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-76981,21c6c562,GitHub,0f133e09,data/0f133e09/test/21c6c562.txt,10,10,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-76986,8bfa1e8d,GitHub,0f133e09,data/0f133e09/test/8bfa1e8d.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-76987,2c6edd7f,GitHub,0f133e09,data/0f133e09/test/2c6edd7f.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-76988,3c654d2d,GitHub,0f133e09,data/0f133e09/test/3c654d2d.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-76989,f46f26a2,GitHub,0f133e09,data/0f133e09/test/f46f26a2.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-76990,fcf480cb,GitHub,0f133e09,data/0f133e09/test/fcf480cb.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-76991,0b0d292f,GitHub,0f133e09,data/0f133e09/test/0b0d292f.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-76992,3ff7b45c,GitHub,0f133e09,data/0f133e09/test/3ff7b45c.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-76996,6ce66373,GitHub,0f133e09,data/0f133e09/test/6ce66373.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
-76997,c6ae4f3c,GitHub,0f133e09,data/0f133e09/test/c6ae4f3c.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
-77008,5ad49953,GitHub,0f133e09,data/0f133e09/test/5ad49953.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
-77009,d0ec023c,GitHub,0f133e09,data/0f133e09/test/d0ec023c.txt,21,21,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-77010,a8688a26,GitHub,0f133e09,data/0f133e09/test/a8688a26.txt,21,21,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-77029,bb605f97,GitHub,0f133e09,data/0f133e09/test/bb605f97.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Password
-77030,63d06d24,GitHub,0f133e09,data/0f133e09/test/63d06d24.txt,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Password
-77036,f1a66a58,GitHub,0f133e09,data/0f133e09/test/f1a66a58.txt,43,43,F,F,,,F,F,,,,,0,0,F,F,F,Gitlab Feed Token
-79003,22f5eaf1,GitHub,0f133e09,data/0f133e09/test/22f5eaf1.py,31,36,F,F,,,F,F,,,,,0,0,F,F,F,PEM Private Key
-79481,06c85d5e,GitHub,0f133e09,data/0f133e09/test/06c85d5e.txt,32,32,F,T,,,T,F,Any,Private,,Unknown,4.26,130,F,F,F,PEM Private Key
-81809,493d2105,GitHub,0f133e09,data/0f133e09/test/493d2105.txt,18,18,F,F,56,96,F,F,,,,,0.0,0,F,F,F,Other
-81810,493d2105,GitHub,0f133e09,data/0f133e09/test/493d2105.txt,29,29,F,F,134,174,F,F,,,,,0.0,0,F,F,F,Other
-81814,cf71695e,GitHub,0f133e09,data/0f133e09/test/cf71695e.txt,20,20,F,F,513,-1,F,F,,,,,0.0,0,F,F,F,Other
-81822,75bffd28,GitHub,0f133e09,data/0f133e09/test/75bffd28.txt,21,21,F,F,820,918,F,F,,,,,0,0,F,F,F,Auth
-81839,b8edb7ba,GitHub,0f133e09,data/0f133e09/test/b8edb7ba.txt,10,10,F,F,23234,-1,F,F,,,,,0.0,0,F,F,F,Other
-81847,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,276,276,F,F,66,71,F,F,,,,,0.0,0,F,F,F,Other
-81848,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,298,298,F,F,25,65,F,F,,,,,0.0,0,F,F,F,Other
-81849,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,379,379,F,F,8,84,F,F,,,,,0.0,0,F,F,F,Other
-81850,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,385,385,F,F,12,55,F,F,,,,,0.0,0,F,F,F,Other
-81851,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,394,394,F,F,12,55,F,F,,,,,0.0,0,F,F,F,Other
-81852,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,529,529,F,F,12,82,F,F,,,,,0.0,0,F,F,F,Other
-81853,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,559,559,F,F,16,59,F,F,,,,,0.0,0,F,F,F,Other
-81854,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,560,560,F,F,16,59,F,F,,,,,0.0,0,F,F,F,Other
-81855,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,561,561,F,F,16,59,F,F,,,,,0.0,0,F,F,F,Other
-81856,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,562,562,F,F,16,59,F,F,,,,,0.0,0,F,F,F,Other
-81857,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,563,563,F,F,16,59,F,F,,,,,0.0,0,F,F,F,Other
-81858,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,787,787,F,F,12,55,F,F,,,,,0.0,0,F,F,F,Other
-81861,1f5c1fc4,GitHub,0f133e09,data/0f133e09/test/1f5c1fc4.py,56,56,F,F,8,83,F,F,,,,,0.0,0,F,F,F,Other
-81862,1f5c1fc4,GitHub,0f133e09,data/0f133e09/test/1f5c1fc4.py,63,63,F,F,26,66,F,F,,,,,0.0,0,F,F,F,Other
-81866,a1d1e1ed,GitHub,0f133e09,data/0f133e09/test/a1d1e1ed.txt,18,18,F,F,300,340,F,F,,,,,0,0,F,F,F,Auth
-81868,5badb894,GitHub,0f133e09,data/0f133e09/test/5badb894.txt,18,18,F,F,74,114,F,F,,,,,0.0,0,F,F,F,Other
-81871,3ff7b45c,GitHub,0f133e09,data/0f133e09/test/3ff7b45c.txt,40,40,F,F,56,96,F,F,,,,,0.0,0,F,F,F,Other
-81872,3ff7b45c,GitHub,0f133e09,data/0f133e09/test/3ff7b45c.txt,51,51,F,F,134,174,F,F,,,,,0.0,0,F,F,F,Other
-81873,7b3e739d,GitHub,0f133e09,data/0f133e09/test/7b3e739d.txt,18,18,F,F,56,96,F,F,,,,,0.0,0,F,F,F,Other
-81874,7b3e739d,GitHub,0f133e09,data/0f133e09/test/7b3e739d.txt,29,29,F,F,134,174,F,F,,,,,0.0,0,F,F,F,Other
-81875,0b0d292f,GitHub,0f133e09,data/0f133e09/test/0b0d292f.txt,40,40,F,F,56,96,F,F,,,,,0.0,0,F,F,F,Other
-81876,0b0d292f,GitHub,0f133e09,data/0f133e09/test/0b0d292f.txt,51,51,F,F,134,174,F,F,,,,,0.0,0,F,F,F,Other
-81878,d32d184d,GitHub,0f133e09,data/0f133e09/test/d32d184d.txt,18,18,F,F,56,96,F,F,,,,,0.0,0,F,F,F,Other
-81879,d32d184d,GitHub,0f133e09,data/0f133e09/test/d32d184d.txt,29,29,F,F,134,174,F,F,,,,,0.0,0,F,F,F,Other
-81880,2c6edd7f,GitHub,0f133e09,data/0f133e09/test/2c6edd7f.txt,40,40,F,F,56,96,F,F,,,,,0.0,0,F,F,F,Other
-81881,2c6edd7f,GitHub,0f133e09,data/0f133e09/test/2c6edd7f.txt,51,51,F,F,134,174,F,F,,,,,0.0,0,F,F,F,Other
-81884,4e64d947,GitHub,0f133e09,data/0f133e09/test/4e64d947.txt,18,18,F,F,56,96,F,F,,,,,0.0,0,F,F,F,Other
-81885,4e64d947,GitHub,0f133e09,data/0f133e09/test/4e64d947.txt,29,29,F,F,134,174,F,F,,,,,0.0,0,F,F,F,Other
-81886,fcf480cb,GitHub,0f133e09,data/0f133e09/test/fcf480cb.txt,40,40,F,F,56,96,F,F,,,,,0.0,0,F,F,F,Other
-81887,fcf480cb,GitHub,0f133e09,data/0f133e09/test/fcf480cb.txt,51,51,F,F,134,174,F,F,,,,,0.0,0,F,F,F,Other
-81894,f3ebc70a,GitHub,0f133e09,data/0f133e09/test/f3ebc70a.txt,18,18,F,F,56,96,F,F,,,,,0.0,0,F,F,F,Other
-81895,f3ebc70a,GitHub,0f133e09,data/0f133e09/test/f3ebc70a.txt,29,29,F,F,134,174,F,F,,,,,0.0,0,F,F,F,Other
-81897,8bfa1e8d,GitHub,0f133e09,data/0f133e09/test/8bfa1e8d.txt,40,40,F,F,56,96,F,F,,,,,0.0,0,F,F,F,Other
-81898,8bfa1e8d,GitHub,0f133e09,data/0f133e09/test/8bfa1e8d.txt,51,51,F,F,134,174,F,F,,,,,0.0,0,F,F,F,Other
-82015,9877ceb1,GitHub,0f133e09,data/0f133e09/test/9877ceb1.py,58,58,F,F,23,63,F,F,,,,,0.0,0,F,F,F,Other
-82016,d27bec8f,GitHub,0f133e09,data/0f133e09/test/d27bec8f.py,67,67,F,F,39,79,F,F,,,,,0.0,0,F,F,F,Other
-82017,d27bec8f,GitHub,0f133e09,data/0f133e09/test/d27bec8f.py,74,74,F,F,43,83,F,F,,,,,0.0,0,F,F,F,Other
-82018,d27bec8f,GitHub,0f133e09,data/0f133e09/test/d27bec8f.py,87,87,F,F,25,65,F,F,,,,,0.0,0,F,F,F,Other
-82019,cc0a8c37,GitHub,0f133e09,data/0f133e09/test/cc0a8c37.py,43,43,F,F,41,81,F,F,,,,,0.0,0,F,F,F,Other
-82020,cc0a8c37,GitHub,0f133e09,data/0f133e09/test/cc0a8c37.py,74,74,F,F,26,66,F,F,,,,,0.0,0,F,F,F,Other
-82021,cc0a8c37,GitHub,0f133e09,data/0f133e09/test/cc0a8c37.py,78,78,F,F,33,73,F,F,,,,,0.0,0,F,F,F,Other
-82022,1107b381,GitHub,0f133e09,data/0f133e09/test/1107b381.py,54,54,F,F,40,80,F,F,,,,,0.0,0,F,F,F,Other
-82023,1107b381,GitHub,0f133e09,data/0f133e09/test/1107b381.py,67,67,F,F,37,77,F,F,,,,,0.0,0,F,F,F,Other
-82024,f104e3dc,GitHub,0f133e09,data/0f133e09/test/f104e3dc.py,63,63,F,F,43,83,F,F,,,,,0.0,0,F,F,F,Other
-82025,f104e3dc,GitHub,0f133e09,data/0f133e09/test/f104e3dc.py,73,73,F,F,28,68,F,F,,,,,0.0,0,F,F,F,Other
-82029,a233f1a0,GitHub,0f133e09,data/0f133e09/test/a233f1a0.py,61,61,F,F,28,68,F,F,,,,,0.0,0,F,F,F,Other
-82030,942bcb37,GitHub,0f133e09,data/0f133e09/test/942bcb37.py,161,161,F,F,25,65,F,F,,,,,0.0,0,F,F,F,Other
-82031,ea2fe815,GitHub,0f133e09,data/0f133e09/test/ea2fe815.txt,18,18,F,F,56,96,F,F,,,,,0.0,0,F,F,F,Other
-82032,ea2fe815,GitHub,0f133e09,data/0f133e09/test/ea2fe815.txt,29,29,F,F,134,174,F,F,,,,,0.0,0,F,F,F,Other
-82033,af042fe3,GitHub,0f133e09,data/0f133e09/test/af042fe3.txt,18,18,F,F,56,96,F,F,,,,,0.0,0,F,F,F,Other
-82034,af042fe3,GitHub,0f133e09,data/0f133e09/test/af042fe3.txt,29,29,F,F,134,174,F,F,,,,,0.0,0,F,F,F,Other
-82035,3c654d2d,GitHub,0f133e09,data/0f133e09/test/3c654d2d.txt,40,40,F,F,56,96,F,F,,,,,0.0,0,F,F,F,Other
-82036,3c654d2d,GitHub,0f133e09,data/0f133e09/test/3c654d2d.txt,51,51,F,F,134,174,F,F,,,,,0.0,0,F,F,F,Other
-82037,f46f26a2,GitHub,0f133e09,data/0f133e09/test/f46f26a2.txt,40,40,F,F,56,96,F,F,,,,,0.0,0,F,F,F,Other
-82038,f46f26a2,GitHub,0f133e09,data/0f133e09/test/f46f26a2.txt,51,51,F,F,134,174,F,F,,,,,0.0,0,F,F,F,Other
-82039,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,369,369,F,F,107,139,F,F,,,,,0,0,F,F,F,Auth
-82040,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,424,424,F,F,107,139,F,F,,,,,0,0,F,F,F,Auth
-82041,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,468,468,F,F,107,139,F,F,,,,,0,0,F,F,F,Auth
-82042,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,501,501,F,F,107,139,F,F,,,,,0,0,F,F,F,Auth
-82043,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,512,512,F,F,107,139,F,F,,,,,0,0,F,F,F,Auth
-82044,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,523,523,F,F,107,139,F,F,,,,,0,0,F,F,F,Auth
-82045,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,556,556,F,F,107,139,F,F,,,,,0,0,F,F,F,Auth
-82046,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,600,600,F,F,107,139,F,F,,,,,0,0,F,F,F,Auth
-82047,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,611,611,F,F,107,139,F,F,,,,,0,0,F,F,F,Auth
-82048,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,622,622,F,F,107,139,F,F,,,,,0,0,F,F,F,Auth
-82049,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,633,633,F,F,107,139,F,F,,,,,0,0,F,F,F,Auth
-107289,fd19dc90,GitHub,0f133e09,data/0f133e09/src/fd19dc90.py,43,43,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-107290,3d887f8b,GitHub,0f133e09,data/0f133e09/src/3d887f8b.pyi,241,241,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-107291,9a280cf4,GitHub,0f133e09,data/0f133e09/test/9a280cf4.txt,18,18,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-107292,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,448,448,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-107293,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,451,451,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-107294,0c13b160,GitHub,0f133e09,data/0f133e09/test/0c13b160.py,46,46,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-107295,0c13b160,GitHub,0f133e09,data/0f133e09/test/0c13b160.py,82,82,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-107296,d2a1ed30,GitHub,0f133e09,data/0f133e09/test/d2a1ed30.py,69,69,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-107299,9c0f3a30,GitHub,0f133e09,data/0f133e09/test/9c0f3a30.txt,28,28,Template,T,55,87,F,F,Any,,,Secret,3.53,32,F,F,F,Auth
-107300,541cad72,GitHub,0f133e09,data/0f133e09/test/541cad72.txt,28,28,Template,T,19,51,F,F,Any,,,Secret,3.53,32,F,F,F,Auth
-107301,25bf4114,GitHub,0f133e09,data/0f133e09/test/25bf4114.txt,28,28,F,T,19,51,F,F,Any,,,Secret,3.53,32,F,F,F,Auth
-107302,d90d9e92,GitHub,0f133e09,data/0f133e09/test/d90d9e92.py,48,48,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-113958,d266e2f8,GitHub,0f133e09,data/0f133e09/test/d266e2f8.py,142,142,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-131070,3d887f8b,GitHub,0f133e09,data/0f133e09/src/3d887f8b.pyi,248,248,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-131071,d2a693bc,GitHub,0f133e09,data/0f133e09/src/d2a693bc.pyi,33,33,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-131072,eca12c0a,GitHub,0f133e09,data/0f133e09/other/eca12c0a.md,95,95,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-131073,77000b93,GitHub,0f133e09,data/0f133e09/test/77000b93.txt,76,76,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-135029,cd558fc3,GitHub,0f133e09,data/0f133e09/src/cd558fc3.py,819,819,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-135030,5e62348b,GitHub,0f133e09,data/0f133e09/test/5e62348b.py,65,65,F,F,,,F,F,,,,,0,0,F,F,F,Token
-135779,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,9,10,F,F,,,F,F,,,,,0,0,F,F,F,AWS Multi
-1359693,03cdc0c5,GitHub,0f133e09,data/0f133e09/test/03cdc0c5.py,64,64,T,F,47,83,F,F,,,,,0.0,0,F,F,F,UUID
-1359698,3c2e2b70,GitHub,0f133e09,data/0f133e09/test/3c2e2b70.txt,9,9,T,F,326,362,F,F,,,,,0.0,0,F,F,F,UUID
-1359699,3e082ff8,GitHub,0f133e09,data/0f133e09/test/3e082ff8.txt,9,9,T,F,326,362,F,F,,,,,0.0,0,F,F,F,UUID
-1359700,400397c5,GitHub,0f133e09,data/0f133e09/test/400397c5.txt,9,9,T,F,326,362,F,F,,,,,0.0,0,F,F,F,UUID
-1359709,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,9,9,T,F,326,362,F,F,,,,,0.0,0,F,F,F,UUID
-1359710,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,20,20,T,F,326,362,F,F,,,,,0.0,0,F,F,F,UUID
-1359711,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,31,31,T,F,326,362,F,F,,,,,0.0,0,F,F,F,UUID
-1359712,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,42,42,T,F,326,362,F,F,,,,,0.0,0,F,F,F,UUID
-1359713,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,53,53,T,F,326,362,F,F,,,,,0.0,0,F,F,F,UUID
-1359714,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,64,64,T,F,326,362,F,F,,,,,0.0,0,F,F,F,UUID
-1359715,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,75,75,T,F,326,362,F,F,,,,,0.0,0,F,F,F,UUID
-1359716,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,86,86,T,F,326,362,F,F,,,,,0.0,0,F,F,F,UUID
-1359717,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,97,97,T,F,326,362,F,F,,,,,0.0,0,F,F,F,UUID
-1359718,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,108,108,T,F,326,362,F,F,,,,,0.0,0,F,F,F,UUID
-1359719,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,119,119,T,F,326,362,F,F,,,,,0.0,0,F,F,F,UUID
-1359720,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,130,130,T,F,326,362,F,F,,,,,0.0,0,F,F,F,UUID
-1359721,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,141,141,T,F,326,362,F,F,,,,,0.0,0,F,F,F,UUID
-1359722,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,152,152,T,F,326,362,F,F,,,,,0.0,0,F,F,F,UUID
-1359723,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,163,163,T,F,326,362,F,F,,,,,0.0,0,F,F,F,UUID
-1359724,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,174,174,T,F,326,362,F,F,,,,,0.0,0,F,F,F,UUID
-1359725,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,185,185,T,F,326,362,F,F,,,,,0.0,0,F,F,F,UUID
-1359726,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,196,196,T,F,326,362,F,F,,,,,0.0,0,F,F,F,UUID
-1359727,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,207,207,T,F,326,362,F,F,,,,,0.0,0,F,F,F,UUID
-1359728,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,218,218,T,F,326,362,F,F,,,,,0.0,0,F,F,F,UUID
-1359729,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,229,229,T,F,326,362,F,F,,,,,0.0,0,F,F,F,UUID
-1359730,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,240,240,T,F,326,362,F,F,,,,,0.0,0,F,F,F,UUID
-1359731,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,251,251,T,F,326,362,F,F,,,,,0.0,0,F,F,F,UUID
-1359732,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,262,262,T,F,326,362,F,F,,,,,0.0,0,F,F,F,UUID
-1359733,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,284,284,T,F,326,362,F,F,,,,,0.0,0,F,F,F,UUID
-1359734,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,295,295,T,F,326,362,F,F,,,,,0.0,0,F,F,F,UUID
-1359735,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,306,306,T,F,326,362,F,F,,,,,0.0,0,F,F,F,UUID
-1359736,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,317,317,T,F,326,362,F,F,,,,,0.0,0,F,F,F,UUID
-1359737,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,328,328,T,F,326,362,F,F,,,,,0.0,0,F,F,F,UUID
-1359738,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,329,329,T,F,116945,116981,F,F,,,,,0.0,0,F,F,F,UUID
-1359739,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,329,329,T,F,120302,120338,F,F,,,,,0.0,0,F,F,F,UUID
-1359740,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,329,329,T,F,137524,137560,F,F,,,,,0.0,0,F,F,F,UUID
-1359741,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,329,329,T,F,144538,144574,F,F,,,,,0.0,0,F,F,F,UUID
-1359742,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,339,339,T,F,326,362,F,F,,,,,0.0,0,F,F,F,UUID
-1359743,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,350,350,T,F,283,319,F,F,,,,,0.0,0,F,F,F,UUID
-1359744,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,361,361,T,F,283,319,F,F,,,,,0.0,0,F,F,F,UUID
-1359745,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,372,372,T,F,283,319,F,F,,,,,0.0,0,F,F,F,UUID
-1359746,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,383,383,T,F,283,319,F,F,,,,,0.0,0,F,F,F,UUID
-1359747,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,394,394,T,F,283,319,F,F,,,,,0.0,0,F,F,F,UUID
-1359748,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,405,405,T,F,283,319,F,F,,,,,0.0,0,F,F,F,UUID
-1359749,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,416,416,T,F,283,319,F,F,,,,,0.0,0,F,F,F,UUID
-1359750,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,427,427,T,F,326,362,F,F,,,,,0.0,0,F,F,F,UUID
-1359751,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,438,438,T,F,336,372,F,F,,,,,0.0,0,F,F,F,UUID
-1359752,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,449,449,T,F,283,319,F,F,,,,,0.0,0,F,F,F,UUID
-1359753,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,460,460,T,F,283,319,F,F,,,,,0.0,0,F,F,F,UUID
-1359754,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,471,471,T,F,283,319,F,F,,,,,0.0,0,F,F,F,UUID
-1359755,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,482,482,T,F,283,319,F,F,,,,,0.0,0,F,F,F,UUID
-1359756,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,493,493,T,F,326,362,F,F,,,,,0.0,0,F,F,F,UUID
-1359757,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,504,504,T,F,283,319,F,F,,,,,0.0,0,F,F,F,UUID
-1359758,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,515,515,T,F,283,319,F,F,,,,,0.0,0,F,F,F,UUID
-1359759,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,526,526,T,F,283,319,F,F,,,,,0.0,0,F,F,F,UUID
-1359760,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,537,537,T,F,326,362,F,F,,,,,0.0,0,F,F,F,UUID
-1359761,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,548,548,T,F,283,319,F,F,,,,,0.0,0,F,F,F,UUID
-1359762,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,559,559,T,F,283,319,F,F,,,,,0.0,0,F,F,F,UUID
-1359763,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,570,570,T,F,283,319,F,F,,,,,0.0,0,F,F,F,UUID
-1359764,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,581,581,T,F,326,362,F,F,,,,,0.0,0,F,F,F,UUID
-1359765,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,592,592,T,F,283,319,F,F,,,,,0.0,0,F,F,F,UUID
-1359766,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,603,603,T,F,283,319,F,F,,,,,0.0,0,F,F,F,UUID
-1359767,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,614,614,T,F,283,319,F,F,,,,,0.0,0,F,F,F,UUID
-1359768,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,625,625,T,F,283,319,F,F,,,,,0.0,0,F,F,F,UUID
-1359769,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,636,636,T,F,283,319,F,F,,,,,0.0,0,F,F,F,UUID
-1359770,eed6f5d9,GitHub,0f133e09,data/0f133e09/test/eed6f5d9.txt,9,9,T,F,326,362,F,F,,,,,0.0,0,F,F,F,UUID
-1359771,f7bcd90d,GitHub,0f133e09,data/0f133e09/test/f7bcd90d.txt,9,9,T,F,326,362,F,F,,,,,0.0,0,F,F,F,UUID
-1351438,106f01a0,GitHub,0f133e09,data/0f133e09/test/106f01a0.txt,10,10,T,F,974,1010,F,F,,,,,0.0,0,F,F,F,UUID
-1351439,21c6c562,GitHub,0f133e09,data/0f133e09/test/21c6c562.txt,32,32,T,F,127,163,F,F,,,,,0.0,0,F,F,F,UUID
-1351440,232ac678,GitHub,0f133e09,data/0f133e09/test/232ac678.txt,10,10,T,F,974,1010,F,F,,,,,0.0,0,F,F,F,UUID
-1351442,35b074d5,GitHub,0f133e09,data/0f133e09/test/35b074d5.txt,10,10,T,F,127,163,F,F,,,,,0.0,0,F,F,F,UUID
-1351443,7dcd9e2a,GitHub,0f133e09,data/0f133e09/test/7dcd9e2a.txt,21,21,T,F,1187,1223,F,F,,,,,0.0,0,F,F,F,UUID
-1351446,c19900d5,GitHub,0f133e09,data/0f133e09/test/c19900d5.txt,10,10,T,F,158,194,F,F,,,,,0.0,0,F,F,F,UUID
-1351447,c19900d5,GitHub,0f133e09,data/0f133e09/test/c19900d5.txt,21,21,T,F,158,194,F,F,,,,,0.0,0,F,F,F,UUID
-1351448,c5beb59c,GitHub,0f133e09,data/0f133e09/test/c5beb59c.txt,10,10,T,F,975,1011,F,F,,,,,0.0,0,F,F,F,UUID
-1351449,c7b13616,GitHub,0f133e09,data/0f133e09/test/c7b13616.txt,9,9,T,F,482,518,F,F,,,,,0.0,0,F,F,F,UUID
-1351450,dfd7c065,GitHub,0f133e09,data/0f133e09/test/dfd7c065.txt,10,10,T,F,975,1011,F,F,,,,,0.0,0,F,F,F,UUID
-1351451,f3c45c7c,GitHub,0f133e09,data/0f133e09/test/f3c45c7c.txt,21,21,T,F,1186,1222,F,F,,,,,0.0,0,F,F,F,UUID
-1351518,c7b13616,GitHub,0f133e09,data/0f133e09/test/c7b13616.txt,9,9,T,F,1099,1128,F,F,,,,,0.0,0,F,F,F,AWS S3 Bucket
-1351519,c7b13616,GitHub,0f133e09,data/0f133e09/test/c7b13616.txt,9,9,T,F,1129,1186,F,F,,,,,0.0,0,F,F,F,AWS S3 Bucket
-1351520,c7b13616,GitHub,0f133e09,data/0f133e09/test/c7b13616.txt,9,9,T,F,1187,1249,F,F,,,,,0.0,0,F,F,F,AWS S3 Bucket
-1351521,c7b13616,GitHub,0f133e09,data/0f133e09/test/c7b13616.txt,9,9,T,F,1250,1302,F,F,,,,,0.0,0,F,F,F,AWS S3 Bucket
-1351522,c7b13616,GitHub,0f133e09,data/0f133e09/test/c7b13616.txt,9,9,T,F,1584,1613,F,F,,,,,0.0,0,F,F,F,AWS S3 Bucket
-1479613,03c77d4f,GitHub,0f133e09,data/0f133e09/src/03c77d4f.py,314,314,F,F,49,54,F,F,,,,,0.0,0,F,F,F,Auth
-1480549,03cdc0c5,GitHub,0f133e09,data/0f133e09/test/03cdc0c5.py,95,95,T,F,397,433,F,F,,,,,0.0,0,F,F,F,UUID
-1480550,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,9,9,T,F,668,704,F,F,,,,,0.0,0,F,F,F,UUID
-1480551,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,10,10,T,F,384,420,F,F,,,,,0.0,0,F,F,F,UUID
-1481079,09d5fb97,GitHub,0f133e09,data/0f133e09/test/09d5fb97.py,76,76,T,F,39,47,F,F,,,,,0.0,0,F,F,F,Auth
-1481080,6c3e61b3,GitHub,0f133e09,data/0f133e09/test/6c3e61b3.txt,21,21,T,F,5299,5328,F,F,,,,,0.0,0,F,F,F,Token
-1481082,96e405e3,GitHub,0f133e09,data/0f133e09/test/96e405e3.txt,10,10,T,F,18163,18203,F,F,,,,,0.0,0,F,F,F,Auth:Token
-1481083,eca6d1b1,GitHub,0f133e09,data/0f133e09/test/eca6d1b1.txt,10,10,T,F,18163,18203,F,F,,,,,0.0,0,F,F,F,Auth:Token
-1481084,fc6f2f6d,GitHub,0f133e09,data/0f133e09/test/fc6f2f6d.txt,6,6,T,F,25,57,F,F,,,,,0.0,0,F,F,F,Auth:Bitbucket Client ID:Bitbucket Client Secret
+Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd,CryptographyKey,PredefinedPattern,Category
+301,565d4103,GitHub,0f133e09,data/0f133e09/src/565d4103.pyi,65,65,F,-1,-1,,,Key
+322,fd19dc90,GitHub,0f133e09,data/0f133e09/src/fd19dc90.py,39,39,F,,,,,Secret
+324,d2a693bc,GitHub,0f133e09,data/0f133e09/src/d2a693bc.pyi,87,87,F,,,,,Auth
+2893,544d9560,GitHub,0f133e09,data/0f133e09/src/544d9560.py,263,263,F,-1,-1,,,Key
+3603,0584cae2,GitHub,0f133e09,data/0f133e09/src/0584cae2.py,250,250,F,-1,-1,,,Other
+4012,1f5c1fc4,GitHub,0f133e09,data/0f133e09/test/1f5c1fc4.py,50,50,F,-1,-1,,,Other
+4025,1f5c1fc4,GitHub,0f133e09,data/0f133e09/test/1f5c1fc4.py,45,45,F,-1,-1,,,Other
+4054,94431913,GitHub,0f133e09,data/0f133e09/test/94431913.txt,21,21,F,,,,,Key
+4213,9a533a38,GitHub,0f133e09,data/0f133e09/test/9a533a38.txt,10,10,F,,,,,Gitlab Feed Token
+4285,06c85d5e,GitHub,0f133e09,data/0f133e09/test/06c85d5e.txt,43,43,F,,,,,Key
+4297,77000b93,GitHub,0f133e09,data/0f133e09/test/77000b93.txt,153,153,F,,,,,Password
+4604,493d2105,GitHub,0f133e09,data/0f133e09/test/493d2105.txt,10,10,F,,,,,Dropbox App secret
+4681,2bdb56df,GitHub,0f133e09,data/0f133e09/test/2bdb56df.txt,32,32,F,,,,,Auth
+5034,cd1f17b2,GitHub,0f133e09,data/0f133e09/src/cd1f17b2.yml,20,20,F,,,,,Token
+5276,fbd15301,GitHub,0f133e09,data/0f133e09/test/fbd15301.txt,10,10,F,-1,-1,,,Key:Gitlab Feed Token
+5296,c92f896c,GitHub,0f133e09,data/0f133e09/test/c92f896c.txt,21,21,F,-1,-1,,,Other
+5302,2bdb56df,GitHub,0f133e09,data/0f133e09/test/2bdb56df.txt,43,43,F,,,,,Gitlab Feed Token
+5313,f2c0348c,GitHub,0f133e09,data/0f133e09/test/f2c0348c.txt,10,10,F,,,,,Token
+5316,75bffd28,GitHub,0f133e09,data/0f133e09/test/75bffd28.txt,43,43,F,,,,,Auth
+5318,75bffd28,GitHub,0f133e09,data/0f133e09/test/75bffd28.txt,32,32,F,,,,,Auth
+5319,5ff4b6b7,GitHub,0f133e09,data/0f133e09/test/5ff4b6b7.txt,10,10,T,210,250,,,Token
+5323,c92f896c,GitHub,0f133e09,data/0f133e09/test/c92f896c.txt,32,32,F,-1,-1,,,Other
+5334,5b03fdb2,GitHub,0f133e09,data/0f133e09/test/5b03fdb2.txt,10,10,F,,,,,Auth
+5356,5a2e8859,GitHub,0f133e09,data/0f133e09/test/5a2e8859.txt,10,10,F,,,,,Gitlab Feed Token
+5357,08232d99,GitHub,0f133e09,data/0f133e09/test/08232d99.txt,10,10,F,,,,,Auth
+5363,6ca54b76,GitHub,0f133e09,data/0f133e09/test/6ca54b76.txt,10,10,F,,,,,Auth
+5364,3f1b2dc0,GitHub,0f133e09,data/0f133e09/test/3f1b2dc0.txt,10,10,F,,,,,Key
+5527,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,9,9,T,394,414,,AWS Client ID,AWS Client ID:Gitlab Feed Token
+105527,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,9,9,T,394,457,,AWS Client ID,Credential
+136762,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,9,9,T,292,321,,,AWS S3 Bucket
+6626,7814ce17,GitHub,0f133e09,data/0f133e09/test/7814ce17.txt,21,21,F,,,,,Auth
+6633,1abc5465,GitHub,0f133e09,data/0f133e09/test/1abc5465.txt,32,32,F,,,,,Gitlab Feed Token
+6635,e925013a,GitHub,0f133e09,data/0f133e09/test/e925013a.txt,10,10,F,,,,,Key
+6636,51a7405e,GitHub,0f133e09,data/0f133e09/test/51a7405e.txt,10,10,F,-1,-1,,,Key
+6912,a14e4d10,GitHub,0f133e09,data/0f133e09/test/a14e4d10.txt,21,21,F,,,,,Auth
+6917,4760f7fa,GitHub,0f133e09,data/0f133e09/test/4760f7fa.txt,43,43,F,,,,,Gitlab Feed Token
+6918,cf9acca2,GitHub,0f133e09,data/0f133e09/test/cf9acca2.txt,32,32,F,,,,,Auth
+6919,7285a2c4,GitHub,0f133e09,data/0f133e09/test/7285a2c4.txt,32,32,F,,,,,Password
+6921,b1d2421b,GitHub,0f133e09,data/0f133e09/test/b1d2421b.txt,10,10,F,,,,,Dropbox App secret
+6928,a6ff6da2,GitHub,0f133e09,data/0f133e09/test/a6ff6da2.txt,10,10,F,,,,,API
+6932,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,285,285,F,,,,,API
+6933,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,274,274,F,,,,,API
+6935,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,263,263,F,,,,,API
+6938,4473349d,GitHub,0f133e09,data/0f133e09/test/4473349d.txt,10,10,F,,,,,Password
+6939,3ae56e47,GitHub,0f133e09,data/0f133e09/test/3ae56e47.txt,10,10,F,,,,,Password
+6955,b1d2421b,GitHub,0f133e09,data/0f133e09/test/b1d2421b.txt,21,21,F,,,,,Key
+6956,a8688a26,GitHub,0f133e09,data/0f133e09/test/a8688a26.txt,10,10,F,,,,,Auth
+6961,fa7495b8,GitHub,0f133e09,data/0f133e09/test/fa7495b8.txt,10,10,F,,,,,Password
+6962,b65925df,GitHub,0f133e09,data/0f133e09/test/b65925df.txt,54,54,F,,,Private,,PEM Private Key
+6964,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,252,252,F,,,,,API
+6965,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,230,230,F,,,,,API
+6966,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,241,241,F,,,,,API
+6996,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,219,219,F,,,,,API
+6997,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,208,208,F,,,,,API
+6998,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,197,197,F,,,,,API
+6999,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,186,186,F,,,,,API
+7000,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,175,175,F,,,,,API
+7001,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,164,164,F,,,,,API
+7002,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,153,153,F,,,,,API
+7003,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,142,142,F,,,,,API
+7004,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,131,131,F,,,,,API
+7005,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,120,120,F,,,,,API
+7006,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,109,109,F,,,,,API
+7007,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,98,98,F,,,,,API
+7012,451118b9,GitHub,0f133e09,data/0f133e09/test/451118b9.txt,10,10,F,,,,,Auth
+7013,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,76,76,F,,,,,API
+7014,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,87,87,F,,,,,API
+7015,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,65,65,F,,,,,API
+7016,d439d2ed,GitHub,0f133e09,data/0f133e09/test/d439d2ed.txt,10,10,F,,,,,Auth
+7953,03c77d4f,GitHub,0f133e09,data/0f133e09/src/03c77d4f.py,316,316,F,,,,,Token
+8232,d1362af0,GitHub,0f133e09,data/0f133e09/test/d1362af0.py,63,63,F,,,,,Dropbox App secret
+8525,d90d9e92,GitHub,0f133e09,data/0f133e09/test/d90d9e92.py,78,78,F,,,,,Auth
+8546,ec27d4ca,GitHub,0f133e09,data/0f133e09/test/ec27d4ca.py,92,92,F,,,,,Password
+8547,ec27d4ca,GitHub,0f133e09,data/0f133e09/test/ec27d4ca.py,129,129,F,,,,,Password
+8613,cd558fc3,GitHub,0f133e09,data/0f133e09/src/cd558fc3.py,806,806,F,-1,-1,,,Key
+8630,ec27d4ca,GitHub,0f133e09,data/0f133e09/test/ec27d4ca.py,37,37,F,,,,,Password
+8647,ec27d4ca,GitHub,0f133e09,data/0f133e09/test/ec27d4ca.py,64,64,F,,,,,Password
+8785,d2a693bc,GitHub,0f133e09,data/0f133e09/src/d2a693bc.pyi,148,148,F,-1,-1,,,Key
+8836,3d887f8b,GitHub,0f133e09,data/0f133e09/src/3d887f8b.pyi,204,204,F,-1,-1,,,Key
+9368,2bdb56df,GitHub,0f133e09,data/0f133e09/test/2bdb56df.txt,21,21,F,-1,-1,,,Key
+9369,3c2e2b70,GitHub,0f133e09,data/0f133e09/test/3c2e2b70.txt,10,10,F,,,,,Key
+9370,3c6e310e,GitHub,0f133e09,data/0f133e09/test/3c6e310e.txt,10,10,F,-1,-1,,,Key
+9371,5e030391,GitHub,0f133e09,data/0f133e09/test/5e030391.txt,21,21,F,-1,-1,,,Key
+9372,b65925df,GitHub,0f133e09,data/0f133e09/test/b65925df.txt,10,10,F,-1,-1,,,Key:Gitlab Feed Token:Token
+9373,1abc5465,GitHub,0f133e09,data/0f133e09/test/1abc5465.txt,21,21,F,,,,,Key
+9374,fdc9b828,GitHub,0f133e09,data/0f133e09/test/fdc9b828.txt,10,10,F,,,,,Auth
+9375,a14e4d10,GitHub,0f133e09,data/0f133e09/test/a14e4d10.txt,43,43,F,,,,,Auth
+9376,b65925df,GitHub,0f133e09,data/0f133e09/test/b65925df.txt,32,32,F,-1,-1,,,Key:Token
+9377,f809e743,GitHub,0f133e09,data/0f133e09/test/f809e743.txt,10,10,F,,,,,Key
+9378,e6d71b5a,GitHub,0f133e09,data/0f133e09/test/e6d71b5a.txt,21,21,F,-1,-1,,,Key:Dropbox App secret:Gitlab Feed Token:Token
+9379,e4739237,GitHub,0f133e09,data/0f133e09/test/e4739237.txt,10,10,F,,,,,Auth
+9380,e10f1e23,GitHub,0f133e09,data/0f133e09/test/e10f1e23.txt,87,87,F,,,,,Key
+9384,f5819a5c,GitHub,0f133e09,data/0f133e09/test/f5819a5c.txt,87,87,F,-1,-1,,,Key
+9385,06c85d5e,GitHub,0f133e09,data/0f133e09/test/06c85d5e.txt,21,21,F,,,,,Key
+9386,94431913,GitHub,0f133e09,data/0f133e09/test/94431913.txt,10,10,F,,,,,Key
+9387,5dec8d2e,GitHub,0f133e09,data/0f133e09/test/5dec8d2e.txt,10,10,F,,,,,Key
+9388,541cad72,GitHub,0f133e09,data/0f133e09/test/541cad72.txt,21,21,F,-1,-1,,,Key
+9389,e1089ef2,GitHub,0f133e09,data/0f133e09/test/e1089ef2.txt,10,10,F,,,,,Key
+9390,24d64af9,GitHub,0f133e09,data/0f133e09/test/24d64af9.txt,10,10,F,,,,,Key
+9391,acbd3693,GitHub,0f133e09,data/0f133e09/test/acbd3693.txt,10,10,F,,,,,Key
+9392,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,296,296,F,,,,,Auth
+9393,84f85725,GitHub,0f133e09,data/0f133e09/test/84f85725.txt,21,21,F,-1,-1,,,Key
+9394,5c1efa0b,GitHub,0f133e09,data/0f133e09/test/5c1efa0b.txt,21,21,F,,,,,Key
+9395,7da7eb12,GitHub,0f133e09,data/0f133e09/test/7da7eb12.txt,21,21,F,-1,-1,,,Key
+9396,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,32,32,F,-1,-1,,,Key
+9397,4c239cf2,GitHub,0f133e09,data/0f133e09/test/4c239cf2.txt,10,10,F,,,,,Auth
+9399,08c43efd,GitHub,0f133e09,data/0f133e09/test/08c43efd.txt,10,10,F,,,,,Auth
+9413,1d7a0ba2,GitHub,0f133e09,data/0f133e09/test/1d7a0ba2.txt,10,10,F,-1,-1,,,Key
+9414,98eca58d,GitHub,0f133e09,data/0f133e09/test/98eca58d.txt,21,21,F,-1,-1,,,Key
+9416,cf9acca2,GitHub,0f133e09,data/0f133e09/test/cf9acca2.txt,21,21,F,-1,-1,,,Key
+9417,a09f373b,GitHub,0f133e09,data/0f133e09/test/a09f373b.txt,10,10,F,-1,-1,,,Key
+9418,e951add5,GitHub,0f133e09,data/0f133e09/test/e951add5.txt,10,10,F,-1,-1,,,Key
+9419,ea6dfafd,GitHub,0f133e09,data/0f133e09/test/ea6dfafd.txt,21,21,F,-1,-1,,,Key
+9420,62bb5e0d,GitHub,0f133e09,data/0f133e09/test/62bb5e0d.txt,21,21,F,-1,-1,,,Key
+9421,1c3cf051,GitHub,0f133e09,data/0f133e09/test/1c3cf051.txt,21,21,F,-1,-1,,,Key
+9422,fcfc5cb8,GitHub,0f133e09,data/0f133e09/test/fcfc5cb8.txt,21,21,F,-1,-1,,,Key
+9423,1ced0910,GitHub,0f133e09,data/0f133e09/test/1ced0910.txt,10,10,F,-1,-1,,,Key:Gitlab Feed Token
+9424,2defe86d,GitHub,0f133e09,data/0f133e09/test/2defe86d.txt,21,21,F,,,,,Key
+9425,8db67d7c,GitHub,0f133e09,data/0f133e09/test/8db67d7c.txt,10,10,F,,,,,Gitlab Feed Token
+9442,a1d1e1ed,GitHub,0f133e09,data/0f133e09/test/a1d1e1ed.txt,21,21,F,,,,,Auth
+9443,0ab976b7,GitHub,0f133e09,data/0f133e09/test/0ab976b7.txt,10,10,F,,,,,Auth
+9444,5badb894,GitHub,0f133e09,data/0f133e09/test/5badb894.txt,21,21,F,,,,,Auth
+9455,3036e7bd,GitHub,0f133e09,data/0f133e09/test/3036e7bd.txt,21,21,F,,,,,Key
+9456,b95c8f2d,GitHub,0f133e09,data/0f133e09/test/b95c8f2d.txt,21,21,F,-1,-1,,,Key
+9457,0a0609f6,GitHub,0f133e09,data/0f133e09/test/0a0609f6.txt,21,21,F,,,,,Auth
+9458,bd93aa07,GitHub,0f133e09,data/0f133e09/test/bd93aa07.txt,10,10,T,5299,5328,,,Auth:Token
+9459,4c239cf2,GitHub,0f133e09,data/0f133e09/test/4c239cf2.txt,21,21,F,,,,,Key
+9460,b65925df,GitHub,0f133e09,data/0f133e09/test/b65925df.txt,21,21,F,-1,-1,,,Key:Gitlab Feed Token
+9461,ba4151e1,GitHub,0f133e09,data/0f133e09/test/ba4151e1.txt,10,10,F,,,,,Gitlab Feed Token
+9462,ba4151e1,GitHub,0f133e09,data/0f133e09/test/ba4151e1.txt,21,21,F,,,,,Gitlab Feed Token
+9463,7c8577d8,GitHub,0f133e09,data/0f133e09/test/7c8577d8.txt,10,10,F,,,,,Gitlab Feed Token
+9464,7c8577d8,GitHub,0f133e09,data/0f133e09/test/7c8577d8.txt,21,21,F,,,,,Gitlab Feed Token
+9465,da48910b,GitHub,0f133e09,data/0f133e09/test/da48910b.txt,10,10,F,,,,,Gitlab Feed Token
+9466,da48910b,GitHub,0f133e09,data/0f133e09/test/da48910b.txt,21,21,F,,,,,Gitlab Feed Token
+9468,89a2179e,GitHub,0f133e09,data/0f133e09/test/89a2179e.txt,10,10,F,,,,,Gitlab Feed Token
+9469,8ef19577,GitHub,0f133e09,data/0f133e09/test/8ef19577.txt,10,10,F,,,,,Gitlab Feed Token
+9470,9ef218e0,GitHub,0f133e09,data/0f133e09/test/9ef218e0.txt,10,10,F,-1,-1,,,Key
+9471,777c628f,GitHub,0f133e09,data/0f133e09/test/777c628f.txt,10,10,F,-1,-1,,,Key
+9472,9c0f3a30,GitHub,0f133e09,data/0f133e09/test/9c0f3a30.txt,21,21,F,-1,-1,,,Key
+9473,25bf4114,GitHub,0f133e09,data/0f133e09/test/25bf4114.txt,21,21,F,-1,-1,,,Key
+9474,4be63cc0,GitHub,0f133e09,data/0f133e09/test/4be63cc0.txt,21,21,F,,,,,Key
+9475,a14e4d10,GitHub,0f133e09,data/0f133e09/test/a14e4d10.txt,32,32,F,,,,,Auth
+9478,b65925df,GitHub,0f133e09,data/0f133e09/test/b65925df.txt,43,43,F,-1,-1,,,Key:Gitlab Feed Token
+9479,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,582,582,F,-1,-1,,,Key
+9480,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,340,340,F,-1,-1,,,Key
+9481,c92f896c,GitHub,0f133e09,data/0f133e09/test/c92f896c.txt,10,10,F,,,,,Gitlab Feed Token
+9499,5a7f3ab7,GitHub,0f133e09,data/0f133e09/test/5a7f3ab7.txt,54,54,T,256,296,,,Token
+9500,3ff7b45c,GitHub,0f133e09,data/0f133e09/test/3ff7b45c.txt,43,43,F,,,,,Dropbox App secret
+9501,3c654d2d,GitHub,0f133e09,data/0f133e09/test/3c654d2d.txt,43,43,F,,,,,Dropbox App secret
+9502,7b3e739d,GitHub,0f133e09,data/0f133e09/test/7b3e739d.txt,21,21,F,,,,,Dropbox App secret
+9503,ea2fe815,GitHub,0f133e09,data/0f133e09/test/ea2fe815.txt,21,21,F,,,,,Dropbox App secret
+9504,0b0d292f,GitHub,0f133e09,data/0f133e09/test/0b0d292f.txt,43,43,F,,,,,Dropbox App secret
+9505,d32d184d,GitHub,0f133e09,data/0f133e09/test/d32d184d.txt,21,21,F,,,,,Dropbox App secret
+9506,2c6edd7f,GitHub,0f133e09,data/0f133e09/test/2c6edd7f.txt,43,43,F,,,,,Dropbox App secret
+9507,af042fe3,GitHub,0f133e09,data/0f133e09/test/af042fe3.txt,21,21,F,,,,,Dropbox App secret
+9508,f46f26a2,GitHub,0f133e09,data/0f133e09/test/f46f26a2.txt,43,43,F,,,,,Dropbox App secret
+9509,4e64d947,GitHub,0f133e09,data/0f133e09/test/4e64d947.txt,21,21,F,,,,,Dropbox App secret
+9511,fcf480cb,GitHub,0f133e09,data/0f133e09/test/fcf480cb.txt,43,43,F,,,,,Dropbox App secret
+9513,f1a66a58,GitHub,0f133e09,data/0f133e09/test/f1a66a58.txt,10,10,F,,,,,Gitlab Feed Token
+9528,fec9b223,GitHub,0f133e09,data/0f133e09/test/fec9b223.txt,21,21,F,-1,-1,,,Key:Gitlab Feed Token
+9529,fec9b223,GitHub,0f133e09,data/0f133e09/test/fec9b223.txt,10,10,F,-1,-1,,,Key:Gitlab Feed Token
+9531,775b554f,GitHub,0f133e09,data/0f133e09/test/775b554f.txt,18,18,F,-1,-1,,,Other
+9532,b1dd7266,GitHub,0f133e09,data/0f133e09/test/b1dd7266.txt,18,18,F,,,,,Auth
+9533,d29d3e50,GitHub,0f133e09,data/0f133e09/test/d29d3e50.txt,40,40,F,-1,-1,,,Other
+9540,493d2105,GitHub,0f133e09,data/0f133e09/test/493d2105.txt,21,21,F,,,,,Dropbox App secret
+9541,f3ebc70a,GitHub,0f133e09,data/0f133e09/test/f3ebc70a.txt,21,21,F,,,,,Dropbox App secret
+9542,8bfa1e8d,GitHub,0f133e09,data/0f133e09/test/8bfa1e8d.txt,43,43,F,,,,,Dropbox App secret
+9558,5c1efa0b,GitHub,0f133e09,data/0f133e09/test/5c1efa0b.txt,10,10,F,,,,,Auth
+9561,80832e2e,GitHub,0f133e09,data/0f133e09/test/80832e2e.txt,10,10,F,-1,-1,,,Other
+9567,2defe86d,GitHub,0f133e09,data/0f133e09/test/2defe86d.txt,10,10,F,,,,,Auth
+9569,e6d71b5a,GitHub,0f133e09,data/0f133e09/test/e6d71b5a.txt,10,10,F,,,,,Auth
+9571,b1d2421b,GitHub,0f133e09,data/0f133e09/test/b1d2421b.txt,32,32,F,,,,,Gitlab Feed Token
+9585,259863d0,GitHub,0f133e09,data/0f133e09/test/259863d0.txt,7,7,F,-1,-1,,,Other
+9596,3036e7bd,GitHub,0f133e09,data/0f133e09/test/3036e7bd.txt,10,10,F,,,,,Auth
+9597,98eca58d,GitHub,0f133e09,data/0f133e09/test/98eca58d.txt,10,10,F,,,,,Auth
+9758,c7b13616,GitHub,0f133e09,data/0f133e09/test/c7b13616.txt,7,7,F,,,,,Secret
+9760,725bb28a,GitHub,0f133e09,data/0f133e09/test/725bb28a.txt,7,7,F,-1,-1,,,Other
+9761,f47f6d4b,GitHub,0f133e09,data/0f133e09/test/f47f6d4b.txt,18,18,F,-1,-1,,,Other
+9762,b1dd7266,GitHub,0f133e09,data/0f133e09/test/b1dd7266.txt,21,21,F,,,,,Auth
+9763,775b554f,GitHub,0f133e09,data/0f133e09/test/775b554f.txt,21,21,F,,,,,Auth
+9767,c7b13616,GitHub,0f133e09,data/0f133e09/test/c7b13616.txt,10,10,F,,,,,Token
+10100,f1a66a58,GitHub,0f133e09,data/0f133e09/test/f1a66a58.txt,32,32,F,,,,,Gitlab Feed Token
+10101,c6ae4f3c,GitHub,0f133e09,data/0f133e09/test/c6ae4f3c.txt,43,43,F,,,,,Gitlab Feed Token
+10102,c6ae4f3c,GitHub,0f133e09,data/0f133e09/test/c6ae4f3c.txt,32,32,F,,,,,Gitlab Feed Token
+10103,6ce66373,GitHub,0f133e09,data/0f133e09/test/6ce66373.txt,32,32,F,,,,,Gitlab Feed Token
+10104,6ce66373,GitHub,0f133e09,data/0f133e09/test/6ce66373.txt,43,43,F,,,,,Gitlab Feed Token
+10111,d5b935e4,GitHub,0f133e09,data/0f133e09/test/d5b935e4.txt,10,10,F,,,,,Gitlab Feed Token
+10129,e4c9ef89,GitHub,0f133e09,data/0f133e09/test/e4c9ef89.txt,21,21,F,-1,-1,,,Key
+10131,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,120,120,F,,,,,Auth
+10136,5a7f3ab7,GitHub,0f133e09,data/0f133e09/test/5a7f3ab7.txt,10,10,T,226,266,,,Token
+10137,983d2575,GitHub,0f133e09,data/0f133e09/test/983d2575.txt,10,10,T,210,250,,,Token
+10138,0d46126a,GitHub,0f133e09,data/0f133e09/test/0d46126a.txt,10,10,T,226,266,,,Token
+10139,5a7f3ab7,GitHub,0f133e09,data/0f133e09/test/5a7f3ab7.txt,43,43,T,232,272,,,Token
+10140,5a7f3ab7,GitHub,0f133e09,data/0f133e09/test/5a7f3ab7.txt,21,21,T,232,272,,,Token
+10141,5a7f3ab7,GitHub,0f133e09,data/0f133e09/test/5a7f3ab7.txt,32,32,T,223,263,,,Token
+10142,4bc35222,GitHub,0f133e09,data/0f133e09/test/4bc35222.txt,10,10,T,209,249,,,Token
+10143,6ec6580c,GitHub,0f133e09,data/0f133e09/test/6ec6580c.txt,10,10,T,209,249,,,Token
+10156,4f50c3e2,GitHub,0f133e09,data/0f133e09/test/4f50c3e2.txt,7,7,F,-1,-1,,,Other
+10157,9cafe13b,GitHub,0f133e09,data/0f133e09/test/9cafe13b.txt,18,18,F,-1,-1,,,Other
+10162,f340c429,GitHub,0f133e09,data/0f133e09/test/f340c429.txt,10,10,F,,,,,Gitlab Feed Token
+10163,a557f195,GitHub,0f133e09,data/0f133e09/test/a557f195.txt,10,10,F,,,,,Gitlab Feed Token
+10167,2a5752fb,GitHub,0f133e09,data/0f133e09/test/2a5752fb.txt,10,10,F,-1,-1,,,Key
+10178,ebde7a35,GitHub,0f133e09,data/0f133e09/test/ebde7a35.txt,10,10,F,,,,,Token
+10179,d0ec023c,GitHub,0f133e09,data/0f133e09/test/d0ec023c.txt,10,10,F,-1,-1,,,Key
+10180,5ad49953,GitHub,0f133e09,data/0f133e09/test/5ad49953.txt,10,10,F,,,,,Gitlab Feed Token
+10185,e10f1e23,GitHub,0f133e09,data/0f133e09/test/e10f1e23.txt,43,43,F,,,,,Key
+10186,e10f1e23,GitHub,0f133e09,data/0f133e09/test/e10f1e23.txt,54,54,F,,,,,Key
+10258,ab3fe96e,GitHub,0f133e09,data/0f133e09/test/ab3fe96e.txt,10,10,F,,,,,Gitlab Feed Token
+10259,7c174031,GitHub,0f133e09,data/0f133e09/test/7c174031.txt,32,32,F,,,,,Gitlab Feed Token
+10263,b559bfe6,GitHub,0f133e09,data/0f133e09/test/b559bfe6.txt,43,43,F,,,,,Key
+10265,6ca54b76,GitHub,0f133e09,data/0f133e09/test/6ca54b76.txt,21,21,F,,,,,Key
+10266,64a36abe,GitHub,0f133e09,data/0f133e09/test/64a36abe.txt,21,21,F,,,,,Key
+10269,e10f1e23,GitHub,0f133e09,data/0f133e09/test/e10f1e23.txt,76,76,F,,,,,Key
+10270,e10f1e23,GitHub,0f133e09,data/0f133e09/test/e10f1e23.txt,65,65,F,,,,,Key
+10273,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,285,285,T,288,308,,,Token:Gitlab Feed Token
+10296,725bb28a,GitHub,0f133e09,data/0f133e09/test/725bb28a.txt,10,10,F,,,,,Auth
+10297,53c72711,GitHub,0f133e09,data/0f133e09/test/53c72711.txt,10,10,F,,,,,Auth
+10298,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,230,230,F,-1,-1,,,Key
+11450,03c77d4f,GitHub,0f133e09,data/0f133e09/src/03c77d4f.py,308,308,F,,,,,Token
+11563,22f5eaf1,GitHub,0f133e09,data/0f133e09/test/22f5eaf1.py,139,139,F,-1,-1,,,Key
+14988,d29d3e50,GitHub,0f133e09,data/0f133e09/test/d29d3e50.txt,16,16,F,-1,-1,,,Other
+16480,2bfcef46,GitHub,0f133e09,data/0f133e09/test/2bfcef46.py,62,62,F,-1,-1,,,Other
+16481,8d612764,GitHub,0f133e09,data/0f133e09/test/8d612764.py,565,565,F,-1,-1,,,Other
+16482,8d612764,GitHub,0f133e09,data/0f133e09/test/8d612764.py,792,792,F,,,,,Jira / Confluence PAT token
+16483,8d612764,GitHub,0f133e09,data/0f133e09/test/8d612764.py,445,445,F,,,,,Jira / Confluence PAT token
+16484,8d612764,GitHub,0f133e09,data/0f133e09/test/8d612764.py,475,475,F,,,,,Jira / Confluence PAT token
+16485,8d612764,GitHub,0f133e09,data/0f133e09/test/8d612764.py,760,760,F,-1,-1,,,Other
+16486,8d612764,GitHub,0f133e09,data/0f133e09/test/8d612764.py,890,890,F,-1,-1,,,Other
+16487,8d612764,GitHub,0f133e09,data/0f133e09/test/8d612764.py,690,690,F,-1,-1,,,Other
+16488,8d612764,GitHub,0f133e09,data/0f133e09/test/8d612764.py,824,824,F,-1,-1,,,Other
+16489,8d612764,GitHub,0f133e09,data/0f133e09/test/8d612764.py,505,505,F,-1,-1,,,Other
+16490,8d612764,GitHub,0f133e09,data/0f133e09/test/8d612764.py,651,651,F,-1,-1,,,Other
+16491,8d612764,GitHub,0f133e09,data/0f133e09/test/8d612764.py,726,726,F,-1,-1,,,Other
+16523,8d612764,GitHub,0f133e09,data/0f133e09/test/8d612764.py,856,856,F,-1,-1,,,Other
+17637,cd558fc3,GitHub,0f133e09,data/0f133e09/src/cd558fc3.py,802,802,F,-1,-1,,,Key
+17643,cd558fc3,GitHub,0f133e09,data/0f133e09/src/cd558fc3.py,110,110,F,,,,,Password
+17644,a9cdf635,GitHub,0f133e09,data/0f133e09/src/a9cdf635.py,444,444,F,,,,,Password
+17645,cd558fc3,GitHub,0f133e09,data/0f133e09/src/cd558fc3.py,109,109,F,,,,,Token
+17652,a9cdf635,GitHub,0f133e09,data/0f133e09/src/a9cdf635.py,534,534,F,-1,-1,,,Key
+17680,0ccc1045,GitHub,0f133e09,data/0f133e09/src/0ccc1045.py,1464,1464,F,,,,,Password
+17729,21c6c562,GitHub,0f133e09,data/0f133e09/test/21c6c562.txt,38,38,F,-1,-1,,,Other
+17730,a14e4d10,GitHub,0f133e09,data/0f133e09/test/a14e4d10.txt,16,16,F,-1,-1,,,Other
+17786,c19900d5,GitHub,0f133e09,data/0f133e09/test/c19900d5.txt,5,5,F,-1,-1,,,Other
+17882,d29d3e50,GitHub,0f133e09,data/0f133e09/test/d29d3e50.txt,27,27,F,-1,-1,,,Other
+17883,b2ef609d,GitHub,0f133e09,data/0f133e09/test/b2ef609d.txt,5,5,F,-1,-1,,,Other
+17884,0a9962e7,GitHub,0f133e09,data/0f133e09/test/0a9962e7.txt,27,27,F,-1,-1,,,Other
+17885,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,126,126,F,-1,-1,,,Other
+17886,9cafe13b,GitHub,0f133e09,data/0f133e09/test/9cafe13b.txt,5,5,F,-1,-1,,,Other
+17887,775b554f,GitHub,0f133e09,data/0f133e09/test/775b554f.txt,5,5,F,-1,-1,,,Other
+17888,d2cefd30,GitHub,0f133e09,data/0f133e09/test/d2cefd30.txt,27,27,F,-1,-1,,,Other
+17889,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,115,115,F,-1,-1,,,Other
+17890,d29d3e50,GitHub,0f133e09,data/0f133e09/test/d29d3e50.txt,5,5,F,-1,-1,,,Other
+17891,5bb45189,GitHub,0f133e09,data/0f133e09/test/5bb45189.txt,27,27,F,-1,-1,,,Other
+17893,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,137,137,F,-1,-1,,,Other
+17894,ca9e75b5,GitHub,0f133e09,data/0f133e09/test/ca9e75b5.txt,27,27,F,-1,-1,,,Other
+17895,1f06b1ec,GitHub,0f133e09,data/0f133e09/test/1f06b1ec.txt,16,16,F,-1,-1,,,Other
+17896,1f06b1ec,GitHub,0f133e09,data/0f133e09/test/1f06b1ec.txt,27,27,F,-1,-1,,,Other
+17897,f47f6d4b,GitHub,0f133e09,data/0f133e09/test/f47f6d4b.txt,5,5,F,-1,-1,,,Other
+17898,355abf3e,GitHub,0f133e09,data/0f133e09/test/355abf3e.txt,16,16,F,-1,-1,,,Other
+17899,355abf3e,GitHub,0f133e09,data/0f133e09/test/355abf3e.txt,5,5,F,-1,-1,,,Other
+17900,e4ca7443,GitHub,0f133e09,data/0f133e09/test/e4ca7443.txt,5,5,F,-1,-1,,,Other
+17901,574be091,GitHub,0f133e09,data/0f133e09/test/574be091.txt,27,27,F,-1,-1,,,Other
+17909,356023eb,GitHub,0f133e09,data/0f133e09/test/356023eb.txt,5,5,F,-1,-1,,,Other
+17911,06c85d5e,GitHub,0f133e09,data/0f133e09/test/06c85d5e.txt,27,27,F,-1,-1,,,Other
+17940,06c85d5e,GitHub,0f133e09,data/0f133e09/test/06c85d5e.txt,38,38,F,-1,-1,,,Other
+20167,9877ceb1,GitHub,0f133e09,data/0f133e09/test/9877ceb1.py,52,52,F,-1,-1,,,Other
+20168,d27bec8f,GitHub,0f133e09,data/0f133e09/test/d27bec8f.py,64,64,F,,,,,Auth
+20169,412e86f3,GitHub,0f133e09,data/0f133e09/test/412e86f3.py,51,51,F,-1,-1,,,Other
+20170,9877ceb1,GitHub,0f133e09,data/0f133e09/test/9877ceb1.py,41,41,F,-1,-1,,,Other
+20171,d27bec8f,GitHub,0f133e09,data/0f133e09/test/d27bec8f.py,54,54,F,,,,,Auth
+20172,03cdc0c5,GitHub,0f133e09,data/0f133e09/test/03cdc0c5.py,95,95,T,123,143,,AWS Client ID,AWS Client ID
+1020172,03cdc0c5,GitHub,0f133e09,data/0f133e09/test/03cdc0c5.py,95,95,T,123,186,,AWS Client ID,Credential
+136761,03cdc0c5,GitHub,0f133e09,data/0f133e09/test/03cdc0c5.py,95,95,T,123,313,,,AWS Multi
+136760,03cdc0c5,GitHub,0f133e09,data/0f133e09/test/03cdc0c5.py,95,95,T,21,50,,,AWS S3 Bucket
+20680,0ccc1045,GitHub,0f133e09,data/0f133e09/src/0ccc1045.py,1236,1236,F,-1,-1,,,Key
+23378,03c77d4f,GitHub,0f133e09,data/0f133e09/src/03c77d4f.py,241,241,F,-1,-1,,,Key
+29321,eca12c0a,GitHub,0f133e09,data/0f133e09/other/eca12c0a.md,89,89,Template,12,23,,,Password
+29342,eca12c0a,GitHub,0f133e09,data/0f133e09/other/eca12c0a.md,90,90,Template,15,23,,,Auth:Token
+29536,5e62348b,GitHub,0f133e09,data/0f133e09/test/5e62348b.py,30,30,Template,30,51,,,Secret
+29607,6ec6580c,GitHub,0f133e09,data/0f133e09/test/6ec6580c.txt,7,7,T,19,59,,,Secret
+29610,3e8093f9,GitHub,0f133e09,data/0f133e09/test/3e8093f9.txt,32,32,F,22,402,,,Key
+29611,a0a75a16,GitHub,0f133e09,data/0f133e09/test/a0a75a16.txt,7,7,F,9,-1,,,Key
+29612,6d89ddbd,GitHub,0f133e09,data/0f133e09/test/6d89ddbd.txt,7,7,F,9,-1,,,Key
+29614,6d89ddbd,GitHub,0f133e09,data/0f133e09/test/6d89ddbd.txt,10,10,F,57,437,,,Key
+29616,a0a75a16,GitHub,0f133e09,data/0f133e09/test/a0a75a16.txt,10,10,F,57,437,,,Key
+30738,d90d9e92,GitHub,0f133e09,data/0f133e09/test/d90d9e92.py,375,375,T,27,67,,,Secret
+30876,d4a67d01,GitHub,0f133e09,data/0f133e09/test/d4a67d01.txt,10,10,F,57,437,,,Key
+30877,d6019b5f,GitHub,0f133e09,data/0f133e09/test/d6019b5f.txt,10,10,F,74,454,,,Key
+30883,7400d4c5,GitHub,0f133e09,data/0f133e09/test/7400d4c5.txt,10,10,F,9,389,,,Key
+30951,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,10,10,T,110,130,,AWS Client ID,AWS Client ID:Gitlab Feed Token
+1030951,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,10,10,T,110,173,,AWS Client ID,Credential
+136763,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,10,10,T,8,37,,,AWS S3 Bucket
+31365,b3356305,GitHub,0f133e09,data/0f133e09/other/b3356305.md,35,35,Template,65,77,,,Token
+34714,cd589265,GitHub,0f133e09,data/0f133e09/test/cd589265.py,281,281,Template,29,37,,,Password
+34715,9d2d157d,GitHub,0f133e09,data/0f133e09/test/9d2d157d.py,37,37,F,34,78,,,Other
+34731,cd589265,GitHub,0f133e09,data/0f133e09/test/cd589265.py,282,282,Template,32,43,,,Auth:Token
+35294,22f5eaf1,GitHub,0f133e09,data/0f133e09/test/22f5eaf1.py,13,27,T,,,Private,,PEM Private Key
+36195,22f5eaf1,GitHub,0f133e09,data/0f133e09/test/22f5eaf1.py,69,69,T,32,75,,,Token
+36398,9d2d157d,GitHub,0f133e09,data/0f133e09/test/9d2d157d.py,42,42,T,57,101,,,Key
+36410,b8b105af,GitHub,0f133e09,data/0f133e09/test/b8b105af.txt,32,32,T,9,53,,,Key
+36411,fed51bf1,GitHub,0f133e09,data/0f133e09/test/fed51bf1.txt,10,10,T,9,53,,,Key
+36412,a34fd3f0,GitHub,0f133e09,data/0f133e09/test/a34fd3f0.txt,32,32,T,9,53,,,Key
+37217,9d2d157d,GitHub,0f133e09,data/0f133e09/test/9d2d157d.py,48,48,F,34,78,,,Other
+37724,9d2d157d,GitHub,0f133e09,data/0f133e09/test/9d2d157d.py,53,53,T,55,99,,,Key
+46431,942bcb37,GitHub,0f133e09,data/0f133e09/test/942bcb37.py,72,72,F,-1,-1,,,Other
+46432,942bcb37,GitHub,0f133e09,data/0f133e09/test/942bcb37.py,132,132,F,-1,-1,,,Other
+46433,942bcb37,GitHub,0f133e09,data/0f133e09/test/942bcb37.py,142,142,F,-1,-1,,,Other
+46434,942bcb37,GitHub,0f133e09,data/0f133e09/test/942bcb37.py,112,112,F,-1,-1,,,Other
+46435,942bcb37,GitHub,0f133e09,data/0f133e09/test/942bcb37.py,92,92,F,-1,-1,,,Other
+46436,942bcb37,GitHub,0f133e09,data/0f133e09/test/942bcb37.py,122,122,F,-1,-1,,,Other
+46437,942bcb37,GitHub,0f133e09,data/0f133e09/test/942bcb37.py,52,52,F,-1,-1,,,Other
+46438,942bcb37,GitHub,0f133e09,data/0f133e09/test/942bcb37.py,102,102,F,-1,-1,,,Other
+46439,942bcb37,GitHub,0f133e09,data/0f133e09/test/942bcb37.py,152,152,F,-1,-1,,,Other
+46440,942bcb37,GitHub,0f133e09,data/0f133e09/test/942bcb37.py,62,62,F,-1,-1,,,Other
+46441,942bcb37,GitHub,0f133e09,data/0f133e09/test/942bcb37.py,82,82,F,-1,-1,,,Other
+46530,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,704,704,F,-1,-1,,,Other
+46531,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,645,645,F,-1,-1,,,Other
+46532,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,690,690,F,-1,-1,,,Other
+46533,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,596,596,F,-1,-1,,,Other
+46534,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,565,565,F,-1,-1,,,Other
+46535,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,664,664,F,-1,-1,,,Other
+46536,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,537,537,F,-1,-1,,,Other
+46537,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,630,630,F,-1,-1,,,Other
+46538,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,616,616,F,-1,-1,,,Other
+46539,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,676,676,F,-1,-1,,,Other
+46540,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,706,706,F,-1,-1,,,Other
+46541,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,698,698,F,-1,-1,,,Other
+46542,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,686,686,F,-1,-1,,,Other
+46543,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,589,589,F,-1,-1,,,Other
+46544,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,575,575,F,-1,-1,,,Other
+46545,d90d9e92,GitHub,0f133e09,data/0f133e09/test/d90d9e92.py,427,427,F,,,,,Gitlab Feed Token
+46546,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,631,631,F,-1,-1,,,Other
+46547,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,679,679,F,-1,-1,,,Other
+46548,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,668,668,F,-1,-1,,,Other
+46549,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,670,670,F,-1,-1,,,Other
+46550,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,583,583,F,-1,-1,,,Other
+46551,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,608,608,F,-1,-1,,,Other
+46552,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,671,671,F,-1,-1,,,Other
+46553,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,591,591,F,-1,-1,,,Other
+46554,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,678,678,F,-1,-1,,,Other
+46555,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,684,684,F,-1,-1,,,Other
+46557,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,610,610,F,-1,-1,,,Other
+46558,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,693,693,F,-1,-1,,,Other
+46559,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,580,580,F,-1,-1,,,Other
+46560,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,586,586,F,-1,-1,,,Other
+46561,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,647,647,F,-1,-1,,,Other
+46562,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,701,701,F,-1,-1,,,Other
+46563,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,564,564,F,-1,-1,,,Other
+46564,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,628,628,F,-1,-1,,,Other
+46565,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,567,567,F,-1,-1,,,Other
+46566,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,598,598,F,-1,-1,,,Other
+46567,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,688,688,F,-1,-1,,,Other
+46568,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,629,629,F,-1,-1,,,Other
+46569,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,619,619,F,-1,-1,,,Other
+46571,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,622,622,F,-1,-1,,,Other
+46572,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,618,618,F,-1,-1,,,Other
+46574,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,614,614,F,-1,-1,,,Other
+46575,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,666,666,F,-1,-1,,,Other
+46576,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,700,700,F,-1,-1,,,Other
+46577,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,605,605,F,-1,-1,,,Other
+46578,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,694,694,F,-1,-1,,,Other
+46579,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,602,602,F,-1,-1,,,Other
+46580,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,620,620,F,-1,-1,,,Other
+46581,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,623,623,F,-1,-1,,,Other
+46582,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,568,568,F,-1,-1,,,Other
+46583,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,643,643,F,-1,-1,,,Other
+46584,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,535,535,F,-1,-1,,,Other
+46585,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,615,615,F,-1,-1,,,Other
+46586,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,571,571,F,-1,-1,,,Other
+46587,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,572,572,F,-1,-1,,,Other
+46588,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,600,600,F,-1,-1,,,Other
+46589,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,695,695,F,-1,-1,,,Other
+46590,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,697,697,F,-1,-1,,,Other
+46591,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,592,592,F,-1,-1,,,Other
+46592,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,597,597,F,-1,-1,,,Other
+46593,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,604,604,F,-1,-1,,,Other
+46594,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,603,603,F,-1,-1,,,Other
+46595,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,682,682,F,-1,-1,,,Other
+46596,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,665,665,F,-1,-1,,,Other
+46597,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,624,624,F,-1,-1,,,Other
+46598,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,599,599,F,-1,-1,,,Other
+46599,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,683,683,F,-1,-1,,,Other
+46600,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,696,696,F,-1,-1,,,Other
+46601,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,601,601,F,-1,-1,,,Other
+46602,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,703,703,F,-1,-1,,,Other
+46603,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,607,607,F,-1,-1,,,Other
+46604,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,646,646,F,-1,-1,,,Other
+46605,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,669,669,F,-1,-1,,,Other
+46606,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,574,574,F,-1,-1,,,Other
+46607,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,576,576,F,-1,-1,,,Other
+46608,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,606,606,F,-1,-1,,,Other
+46609,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,625,625,F,-1,-1,,,Other
+46610,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,609,609,F,-1,-1,,,Other
+46611,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,573,573,F,-1,-1,,,Other
+46612,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,705,705,F,-1,-1,,,Other
+46615,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,587,587,F,-1,-1,,,Other
+46616,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,685,685,F,-1,-1,,,Other
+46617,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,702,702,F,-1,-1,,,Other
+46618,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,621,621,F,-1,-1,,,Other
+46619,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,593,593,F,-1,-1,,,Other
+46620,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,581,581,F,-1,-1,,,Other
+46621,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,594,594,F,-1,-1,,,Other
+46622,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,579,579,F,-1,-1,,,Other
+46623,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,570,570,F,-1,-1,,,Other
+46625,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,585,585,F,-1,-1,,,Other
+46626,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,617,617,F,-1,-1,,,Other
+46627,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,677,677,F,-1,-1,,,Other
+46628,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,672,672,F,-1,-1,,,Other
+46630,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,584,584,F,-1,-1,,,Other
+46631,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,590,590,F,-1,-1,,,Other
+46632,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,588,588,F,-1,-1,,,Other
+46633,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,663,663,F,-1,-1,,,Other
+46634,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,675,675,F,-1,-1,,,Other
+46635,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,612,612,F,-1,-1,,,Other
+46636,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,536,536,F,-1,-1,,,Other
+46637,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,627,627,F,-1,-1,,,Other
+46638,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,582,582,F,-1,-1,,,Other
+46641,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,595,595,F,-1,-1,,,Other
+46642,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,648,648,F,-1,-1,,,Other
+46643,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,644,644,F,-1,-1,,,Other
+46644,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,680,680,F,-1,-1,,,Other
+46645,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,687,687,F,-1,-1,,,Other
+46646,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,660,660,F,-1,-1,,,Other
+46647,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,674,674,F,-1,-1,,,Other
+46648,d90d9e92,GitHub,0f133e09,data/0f133e09/test/d90d9e92.py,429,429,F,,,,,Gitlab Feed Token
+46649,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,642,642,F,-1,-1,,,Other
+46650,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,662,662,F,-1,-1,,,Other
+46651,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,667,667,F,-1,-1,,,Other
+46652,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,577,577,F,-1,-1,,,Other
+46653,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,699,699,F,-1,-1,,,Other
+46654,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,578,578,F,-1,-1,,,Other
+46655,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,566,566,F,-1,-1,,,Other
+46656,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,613,613,F,-1,-1,,,Other
+46657,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,569,569,F,-1,-1,,,Other
+46658,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,538,538,F,-1,-1,,,Other
+46659,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,691,691,F,-1,-1,,,Other
+46660,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,689,689,F,-1,-1,,,Other
+46661,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,692,692,F,-1,-1,,,Other
+46662,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,661,661,F,-1,-1,,,Other
+46663,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,673,673,F,-1,-1,,,Other
+46665,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,681,681,F,-1,-1,,,Other
+46666,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,611,611,F,-1,-1,,,Other
+46667,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,626,626,F,-1,-1,,,Other
+46837,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,779,779,F,-1,-1,,,Other
+46846,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,253,253,F,-1,-1,,,Other
+46900,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,367,367,F,-1,-1,,,Other
+46986,d27bec8f,GitHub,0f133e09,data/0f133e09/test/d27bec8f.py,39,39,F,-1,-1,,,Other
+46987,d27bec8f,GitHub,0f133e09,data/0f133e09/test/d27bec8f.py,154,154,F,-1,-1,,,Other
+46988,1f5c1fc4,GitHub,0f133e09,data/0f133e09/test/1f5c1fc4.py,39,39,F,-1,-1,,,Other
+46989,f104e3dc,GitHub,0f133e09,data/0f133e09/test/f104e3dc.py,41,41,F,-1,-1,,,Other
+46990,1107b381,GitHub,0f133e09,data/0f133e09/test/1107b381.py,41,41,F,-1,-1,,,Other
+46991,cc0a8c37,GitHub,0f133e09,data/0f133e09/test/cc0a8c37.py,39,39,F,-1,-1,,,Other
+47024,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,721,721,F,-1,-1,,,Other
+47025,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,716,716,F,-1,-1,,,Other
+47026,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,726,726,F,-1,-1,,,Other
+47106,24dcecf9,GitHub,0f133e09,data/0f133e09/test/24dcecf9.py,68,68,F,-1,-1,,,Other
+47138,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,1244,1244,F,-1,-1,,,Other
+47144,d27bec8f,GitHub,0f133e09,data/0f133e09/test/d27bec8f.py,83,83,F,-1,-1,,,Other
+47145,f104e3dc,GitHub,0f133e09,data/0f133e09/test/f104e3dc.py,58,58,F,-1,-1,,,Other
+47146,d27bec8f,GitHub,0f133e09,data/0f133e09/test/d27bec8f.py,72,72,F,-1,-1,,,Other
+47147,f104e3dc,GitHub,0f133e09,data/0f133e09/test/f104e3dc.py,61,61,F,-1,-1,,,Other
+47148,f104e3dc,GitHub,0f133e09,data/0f133e09/test/f104e3dc.py,65,65,F,-1,-1,,,Other
+47149,a233f1a0,GitHub,0f133e09,data/0f133e09/test/a233f1a0.py,43,43,F,-1,-1,,,Other
+47150,54c53739,GitHub,0f133e09,data/0f133e09/test/54c53739.py,40,40,F,-1,-1,,,Other
+47151,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,325,325,F,-1,-1,,,Other
+47152,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,324,324,F,-1,-1,,,Other
+47153,1107b381,GitHub,0f133e09,data/0f133e09/test/1107b381.py,47,47,F,-1,-1,,,Other
+47154,cc0a8c37,GitHub,0f133e09,data/0f133e09/test/cc0a8c37.py,48,48,F,-1,-1,,,Other
+47155,cc0a8c37,GitHub,0f133e09,data/0f133e09/test/cc0a8c37.py,59,59,F,-1,-1,,,Other
+47616,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,262,262,F,-1,-1,,,Other
+47617,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,1324,1324,F,-1,-1,,,Other
+47618,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,320,320,F,-1,-1,,,Other
+47619,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,346,346,F,-1,-1,,,Other
+47620,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,331,331,F,-1,-1,,,Other
+47625,9877ceb1,GitHub,0f133e09,data/0f133e09/test/9877ceb1.py,54,54,F,-1,-1,,,Other
+47626,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,388,388,F,-1,-1,,,Other
+47627,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,400,400,F,-1,-1,,,Other
+47628,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,289,289,F,-1,-1,,,Other
+47629,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,272,272,F,-1,-1,,,Other
+47630,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,315,315,F,-1,-1,,,Other
+47631,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,302,302,F,-1,-1,,,Other
+47649,a233f1a0,GitHub,0f133e09,data/0f133e09/test/a233f1a0.py,65,65,F,-1,-1,,,Other
+47650,a233f1a0,GitHub,0f133e09,data/0f133e09/test/a233f1a0.py,68,68,F,-1,-1,,,Other
+49285,0a0609f6,GitHub,0f133e09,data/0f133e09/test/0a0609f6.txt,20,20,F,-1,-1,,,Key
+49286,0a0609f6,GitHub,0f133e09,data/0f133e09/test/0a0609f6.txt,9,9,F,-1,-1,,,Key
+49287,451118b9,GitHub,0f133e09,data/0f133e09/test/451118b9.txt,9,9,F,-1,-1,,,Key
+49344,a09f373b,GitHub,0f133e09,data/0f133e09/test/a09f373b.txt,9,9,F,-1,-1,,,Key
+49345,a09f373b,GitHub,0f133e09,data/0f133e09/test/a09f373b.txt,20,20,F,-1,-1,,,Key
+49346,acbd3693,GitHub,0f133e09,data/0f133e09/test/acbd3693.txt,9,9,F,-1,-1,,,Key
+49347,cf71695e,GitHub,0f133e09,data/0f133e09/test/cf71695e.txt,9,9,F,-1,-1,,,Key
+49348,ad473367,GitHub,0f133e09,data/0f133e09/test/ad473367.txt,20,20,F,-1,-1,,,Key
+49349,ad473367,GitHub,0f133e09,data/0f133e09/test/ad473367.txt,9,9,F,-1,-1,,,Key
+49350,fb2977d7,GitHub,0f133e09,data/0f133e09/test/fb2977d7.txt,9,9,F,-1,-1,,,Key
+49355,7285a2c4,GitHub,0f133e09,data/0f133e09/test/7285a2c4.txt,20,20,F,-1,-1,,,Key
+49356,7285a2c4,GitHub,0f133e09,data/0f133e09/test/7285a2c4.txt,9,9,F,-1,-1,,,Key
+49357,7285a2c4,GitHub,0f133e09,data/0f133e09/test/7285a2c4.txt,42,42,F,-1,-1,,,Key
+49358,7285a2c4,GitHub,0f133e09,data/0f133e09/test/7285a2c4.txt,31,31,F,-1,-1,,,Key
+49400,2defe86d,GitHub,0f133e09,data/0f133e09/test/2defe86d.txt,20,20,F,-1,-1,,,Key
+49401,2defe86d,GitHub,0f133e09,data/0f133e09/test/2defe86d.txt,9,9,F,-1,-1,,,Key
+49402,d5839cf2,GitHub,0f133e09,data/0f133e09/test/d5839cf2.txt,9,9,F,-1,-1,,,Key
+49411,3036e7bd,GitHub,0f133e09,data/0f133e09/test/3036e7bd.txt,20,20,F,-1,-1,,,Key
+49412,3036e7bd,GitHub,0f133e09,data/0f133e09/test/3036e7bd.txt,9,9,F,-1,-1,,,Key
+49413,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,251,251,F,-1,-1,,,Key
+49414,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,262,262,F,-1,-1,,,Key
+49415,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,273,273,F,-1,-1,,,Key
+49416,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,284,284,F,-1,-1,,,Key
+49417,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,295,295,F,-1,-1,,,Key
+49418,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,9,9,F,-1,-1,,,Key
+49419,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,20,20,F,-1,-1,,,Key
+49420,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,31,31,F,-1,-1,,,Key
+49421,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,42,42,F,-1,-1,,,Key
+49422,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,53,53,F,-1,-1,,,Key
+49423,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,64,64,F,-1,-1,,,Key
+49424,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,75,75,F,-1,-1,,,Key
+49425,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,86,86,F,-1,-1,,,Key
+49426,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,97,97,F,-1,-1,,,Key
+49427,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,108,108,F,-1,-1,,,Key
+49428,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,119,119,F,-1,-1,,,Key
+49429,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,130,130,F,-1,-1,,,Key
+49430,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,141,141,F,-1,-1,,,Key
+49431,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,152,152,F,-1,-1,,,Key
+49432,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,163,163,F,-1,-1,,,Key
+49433,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,174,174,F,-1,-1,,,Key
+49434,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,185,185,F,-1,-1,,,Key
+49435,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,196,196,F,-1,-1,,,Key
+49436,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,207,207,F,-1,-1,,,Key
+49437,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,218,218,F,-1,-1,,,Key
+49438,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,229,229,F,-1,-1,,,Key
+49439,51f606a5,GitHub,0f133e09,data/0f133e09/test/51f606a5.txt,240,240,F,-1,-1,,,Key
+49520,a557f195,GitHub,0f133e09,data/0f133e09/test/a557f195.txt,9,9,F,-1,-1,,,Key
+49521,a557f195,GitHub,0f133e09,data/0f133e09/test/a557f195.txt,20,20,F,-1,-1,,,Key
+49551,3e8093f9,GitHub,0f133e09,data/0f133e09/test/3e8093f9.txt,9,9,F,-1,-1,,,Key
+49555,a14e4d10,GitHub,0f133e09,data/0f133e09/test/a14e4d10.txt,31,31,F,-1,-1,,,Key
+49558,fdc9b828,GitHub,0f133e09,data/0f133e09/test/fdc9b828.txt,20,20,F,-1,-1,,,Key
+49559,a14e4d10,GitHub,0f133e09,data/0f133e09/test/a14e4d10.txt,42,42,F,-1,-1,,,Key
+49560,fdc9b828,GitHub,0f133e09,data/0f133e09/test/fdc9b828.txt,9,9,F,-1,-1,,,Key
+49566,a14e4d10,GitHub,0f133e09,data/0f133e09/test/a14e4d10.txt,20,20,F,-1,-1,,,Key
+49569,a14e4d10,GitHub,0f133e09,data/0f133e09/test/a14e4d10.txt,9,9,F,-1,-1,,,Key
+49571,e4c9ef89,GitHub,0f133e09,data/0f133e09/test/e4c9ef89.txt,9,9,F,-1,-1,,,Key
+49577,3e8093f9,GitHub,0f133e09,data/0f133e09/test/3e8093f9.txt,20,20,F,-1,-1,,,Key
+49584,3e8093f9,GitHub,0f133e09,data/0f133e09/test/3e8093f9.txt,31,31,F,-1,-1,,,Key
+49587,e4c9ef89,GitHub,0f133e09,data/0f133e09/test/e4c9ef89.txt,20,20,F,-1,-1,,,Key
+49588,08232d99,GitHub,0f133e09,data/0f133e09/test/08232d99.txt,9,9,F,-1,-1,,,Key
+49953,8f6d9fd5,GitHub,0f133e09,data/0f133e09/test/8f6d9fd5.txt,20,20,F,-1,-1,,,Key
+49971,fcf480cb,GitHub,0f133e09,data/0f133e09/test/fcf480cb.txt,32,32,F,,,,,Dropbox App secret
+49972,ea2fe815,GitHub,0f133e09,data/0f133e09/test/ea2fe815.txt,10,10,F,,,,,Dropbox App secret
+49973,d32d184d,GitHub,0f133e09,data/0f133e09/test/d32d184d.txt,10,10,F,,,,,Dropbox App secret
+49974,7b3e739d,GitHub,0f133e09,data/0f133e09/test/7b3e739d.txt,10,10,F,,,,,Dropbox App secret
+49975,0b0d292f,GitHub,0f133e09,data/0f133e09/test/0b0d292f.txt,32,32,F,,,,,Dropbox App secret
+49976,2c6edd7f,GitHub,0f133e09,data/0f133e09/test/2c6edd7f.txt,32,32,F,,,,,Dropbox App secret
+49977,3ff7b45c,GitHub,0f133e09,data/0f133e09/test/3ff7b45c.txt,32,32,F,,,,,Dropbox App secret
+49978,f46f26a2,GitHub,0f133e09,data/0f133e09/test/f46f26a2.txt,32,32,F,,,,,Dropbox App secret
+49979,3c654d2d,GitHub,0f133e09,data/0f133e09/test/3c654d2d.txt,32,32,F,,,,,Dropbox App secret
+49980,8bfa1e8d,GitHub,0f133e09,data/0f133e09/test/8bfa1e8d.txt,32,32,F,,,,,Dropbox App secret
+49981,f3ebc70a,GitHub,0f133e09,data/0f133e09/test/f3ebc70a.txt,10,10,F,,,,,Dropbox App secret
+49982,4e64d947,GitHub,0f133e09,data/0f133e09/test/4e64d947.txt,10,10,F,,,,,Dropbox App secret
+49983,af042fe3,GitHub,0f133e09,data/0f133e09/test/af042fe3.txt,10,10,F,,,,,Dropbox App secret
+50406,1ced0910,GitHub,0f133e09,data/0f133e09/test/1ced0910.txt,7,7,F,-1,-1,,,Other
+50413,e4b6e363,GitHub,0f133e09,data/0f133e09/test/e4b6e363.txt,43,43,F,-1,-1,,,Other
+50414,da48910b,GitHub,0f133e09,data/0f133e09/test/da48910b.txt,7,7,F,-1,-1,,,Other
+50415,89a2179e,GitHub,0f133e09,data/0f133e09/test/89a2179e.txt,7,7,F,-1,-1,,,Other
+50416,ba4151e1,GitHub,0f133e09,data/0f133e09/test/ba4151e1.txt,7,7,F,-1,-1,,,Other
+50417,7c8577d8,GitHub,0f133e09,data/0f133e09/test/7c8577d8.txt,7,7,F,-1,-1,,,Other
+50418,8ef19577,GitHub,0f133e09,data/0f133e09/test/8ef19577.txt,18,18,F,-1,-1,,,Other
+50424,ab3fe96e,GitHub,0f133e09,data/0f133e09/test/ab3fe96e.txt,7,7,F,-1,-1,,,Other
+50425,d431055d,GitHub,0f133e09,data/0f133e09/test/d431055d.txt,7,7,F,-1,-1,,,Other
+50426,385e4621,GitHub,0f133e09,data/0f133e09/test/385e4621.txt,7,7,F,-1,-1,,,Other
+50427,2bd773b5,GitHub,0f133e09,data/0f133e09/test/2bd773b5.txt,7,7,F,-1,-1,,,Other
+50429,e3e10fba,GitHub,0f133e09,data/0f133e09/test/e3e10fba.txt,7,7,F,-1,-1,,,Other
+50436,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,494,494,T,287,307,,,Token:Gitlab Feed Token
+50437,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,435,435,F,,,,,Auth
+50438,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,402,402,F,,,,,Auth
+50439,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,347,347,F,,,,,Auth
+50440,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,578,578,F,,,,,Auth
+50441,777c628f,GitHub,0f133e09,data/0f133e09/test/777c628f.txt,6,6,F,,,,,Auth
+50442,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,358,358,F,,,,,Auth
+50443,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,413,413,F,,,,,Auth
+50444,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,589,589,F,,,,,Auth
+50445,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,545,545,F,,,,,Auth
+50446,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,446,446,F,,,,,Auth
+50447,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,391,391,F,,,,,Auth
+50448,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,567,567,F,,,,,Auth
+50449,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,479,479,F,,,,,Auth
+50450,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,457,457,F,,,,,Auth
+50451,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,380,380,F,,,,,Auth
+54576,a9cdf635,GitHub,0f133e09,data/0f133e09/src/a9cdf635.py,541,541,F,-1,-1,,,Key
+57320,0ccc1045,GitHub,0f133e09,data/0f133e09/src/0ccc1045.py,1227,1227,F,-1,-1,,,Key
+57321,cd558fc3,GitHub,0f133e09,data/0f133e09/src/cd558fc3.py,214,214,F,-1,-1,,,Key
+62668,64a36abe,GitHub,0f133e09,data/0f133e09/test/64a36abe.txt,10,10,F,,,,,Auth
+76964,8ef19577,GitHub,0f133e09,data/0f133e09/test/8ef19577.txt,21,21,F,,,,,Gitlab Feed Token
+76965,8dd92670,GitHub,0f133e09,data/0f133e09/test/8dd92670.txt,21,21,T,5299,5328,,,Auth:Token
+76966,2c6edd7f,GitHub,0f133e09,data/0f133e09/test/2c6edd7f.txt,21,21,F,-1,-1,,,Key:Dropbox App secret:Gitlab Feed Token:Token
+76967,0b0d292f,GitHub,0f133e09,data/0f133e09/test/0b0d292f.txt,21,21,F,-1,-1,,,Key:Dropbox App secret:Gitlab Feed Token:Token
+76968,8bfa1e8d,GitHub,0f133e09,data/0f133e09/test/8bfa1e8d.txt,21,21,F,-1,-1,,,Key:Dropbox App secret:Gitlab Feed Token:Token
+76969,fcf480cb,GitHub,0f133e09,data/0f133e09/test/fcf480cb.txt,21,21,F,-1,-1,,,Key:Dropbox App secret:Gitlab Feed Token:Token
+76970,f46f26a2,GitHub,0f133e09,data/0f133e09/test/f46f26a2.txt,21,21,F,-1,-1,,,Key:Dropbox App secret:Gitlab Feed Token:Token
+76971,3ff7b45c,GitHub,0f133e09,data/0f133e09/test/3ff7b45c.txt,21,21,F,-1,-1,,,Key:Dropbox App secret:Gitlab Feed Token:Token
+76972,3c654d2d,GitHub,0f133e09,data/0f133e09/test/3c654d2d.txt,21,21,F,-1,-1,,,Key:Dropbox App secret:Gitlab Feed Token:Token
+76973,4760f7fa,GitHub,0f133e09,data/0f133e09/test/4760f7fa.txt,10,10,F,,,,,Key
+76974,4760f7fa,GitHub,0f133e09,data/0f133e09/test/4760f7fa.txt,32,32,F,,,,,Key
+76975,f809e743,GitHub,0f133e09,data/0f133e09/test/f809e743.txt,32,32,F,,,,,Key
+76976,fdc9b828,GitHub,0f133e09,data/0f133e09/test/fdc9b828.txt,21,21,F,,,,,Auth
+76977,7c174031,GitHub,0f133e09,data/0f133e09/test/7c174031.txt,21,21,F,,,,,Key
+76978,21c6c562,GitHub,0f133e09,data/0f133e09/test/21c6c562.txt,21,21,F,-1,-1,,,Key:Gitlab Feed Token:Token
+76979,7285a2c4,GitHub,0f133e09,data/0f133e09/test/7285a2c4.txt,21,21,F,-1,-1,,,Key
+76980,0a0609f6,GitHub,0f133e09,data/0f133e09/test/0a0609f6.txt,10,10,F,-1,-1,,,Key
+76981,21c6c562,GitHub,0f133e09,data/0f133e09/test/21c6c562.txt,10,10,F,-1,-1,,,Key
+76986,8bfa1e8d,GitHub,0f133e09,data/0f133e09/test/8bfa1e8d.txt,10,10,F,,,,,Auth
+76987,2c6edd7f,GitHub,0f133e09,data/0f133e09/test/2c6edd7f.txt,10,10,F,,,,,Auth
+76988,3c654d2d,GitHub,0f133e09,data/0f133e09/test/3c654d2d.txt,10,10,F,,,,,Auth
+76989,f46f26a2,GitHub,0f133e09,data/0f133e09/test/f46f26a2.txt,10,10,F,,,,,Auth
+76990,fcf480cb,GitHub,0f133e09,data/0f133e09/test/fcf480cb.txt,10,10,F,,,,,Auth
+76991,0b0d292f,GitHub,0f133e09,data/0f133e09/test/0b0d292f.txt,10,10,F,,,,,Auth
+76992,3ff7b45c,GitHub,0f133e09,data/0f133e09/test/3ff7b45c.txt,10,10,F,,,,,Auth
+76996,6ce66373,GitHub,0f133e09,data/0f133e09/test/6ce66373.txt,10,10,F,,,,,Gitlab Feed Token
+76997,c6ae4f3c,GitHub,0f133e09,data/0f133e09/test/c6ae4f3c.txt,10,10,F,,,,,Gitlab Feed Token
+77008,5ad49953,GitHub,0f133e09,data/0f133e09/test/5ad49953.txt,21,21,F,,,,,Gitlab Feed Token
+77009,d0ec023c,GitHub,0f133e09,data/0f133e09/test/d0ec023c.txt,21,21,F,-1,-1,,,Key
+77010,a8688a26,GitHub,0f133e09,data/0f133e09/test/a8688a26.txt,21,21,F,,,,,Auth
+77029,bb605f97,GitHub,0f133e09,data/0f133e09/test/bb605f97.txt,10,10,F,,,,,Password
+77030,63d06d24,GitHub,0f133e09,data/0f133e09/test/63d06d24.txt,10,10,F,,,,,Password
+77036,f1a66a58,GitHub,0f133e09,data/0f133e09/test/f1a66a58.txt,43,43,F,,,,,Gitlab Feed Token
+79003,22f5eaf1,GitHub,0f133e09,data/0f133e09/test/22f5eaf1.py,31,36,F,,,,,PEM Private Key
+79481,06c85d5e,GitHub,0f133e09,data/0f133e09/test/06c85d5e.txt,32,32,F,,,Private,,PEM Private Key
+81809,493d2105,GitHub,0f133e09,data/0f133e09/test/493d2105.txt,18,18,F,56,96,,,Other
+81810,493d2105,GitHub,0f133e09,data/0f133e09/test/493d2105.txt,29,29,F,134,174,,,Other
+81814,cf71695e,GitHub,0f133e09,data/0f133e09/test/cf71695e.txt,20,20,F,513,-1,,,Other
+81822,75bffd28,GitHub,0f133e09,data/0f133e09/test/75bffd28.txt,21,21,F,820,918,,,Auth
+81839,b8edb7ba,GitHub,0f133e09,data/0f133e09/test/b8edb7ba.txt,10,10,F,23234,-1,,,Other
+81847,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,276,276,F,66,71,,,Other
+81848,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,298,298,F,25,65,,,Other
+81849,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,379,379,F,8,84,,,Other
+81850,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,385,385,F,12,55,,,Other
+81851,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,394,394,F,12,55,,,Other
+81852,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,529,529,F,12,82,,,Other
+81853,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,559,559,F,16,59,,,Other
+81854,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,560,560,F,16,59,,,Other
+81855,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,561,561,F,16,59,,,Other
+81856,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,562,562,F,16,59,,,Other
+81857,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,563,563,F,16,59,,,Other
+81858,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,787,787,F,12,55,,,Other
+81861,1f5c1fc4,GitHub,0f133e09,data/0f133e09/test/1f5c1fc4.py,56,56,F,8,83,,,Other
+81862,1f5c1fc4,GitHub,0f133e09,data/0f133e09/test/1f5c1fc4.py,63,63,F,26,66,,,Other
+81866,a1d1e1ed,GitHub,0f133e09,data/0f133e09/test/a1d1e1ed.txt,18,18,F,300,340,,,Auth
+81868,5badb894,GitHub,0f133e09,data/0f133e09/test/5badb894.txt,18,18,F,74,114,,,Other
+81871,3ff7b45c,GitHub,0f133e09,data/0f133e09/test/3ff7b45c.txt,40,40,F,56,96,,,Other
+81872,3ff7b45c,GitHub,0f133e09,data/0f133e09/test/3ff7b45c.txt,51,51,F,134,174,,,Other
+81873,7b3e739d,GitHub,0f133e09,data/0f133e09/test/7b3e739d.txt,18,18,F,56,96,,,Other
+81874,7b3e739d,GitHub,0f133e09,data/0f133e09/test/7b3e739d.txt,29,29,F,134,174,,,Other
+81875,0b0d292f,GitHub,0f133e09,data/0f133e09/test/0b0d292f.txt,40,40,F,56,96,,,Other
+81876,0b0d292f,GitHub,0f133e09,data/0f133e09/test/0b0d292f.txt,51,51,F,134,174,,,Other
+81878,d32d184d,GitHub,0f133e09,data/0f133e09/test/d32d184d.txt,18,18,F,56,96,,,Other
+81879,d32d184d,GitHub,0f133e09,data/0f133e09/test/d32d184d.txt,29,29,F,134,174,,,Other
+81880,2c6edd7f,GitHub,0f133e09,data/0f133e09/test/2c6edd7f.txt,40,40,F,56,96,,,Other
+81881,2c6edd7f,GitHub,0f133e09,data/0f133e09/test/2c6edd7f.txt,51,51,F,134,174,,,Other
+81884,4e64d947,GitHub,0f133e09,data/0f133e09/test/4e64d947.txt,18,18,F,56,96,,,Other
+81885,4e64d947,GitHub,0f133e09,data/0f133e09/test/4e64d947.txt,29,29,F,134,174,,,Other
+81886,fcf480cb,GitHub,0f133e09,data/0f133e09/test/fcf480cb.txt,40,40,F,56,96,,,Other
+81887,fcf480cb,GitHub,0f133e09,data/0f133e09/test/fcf480cb.txt,51,51,F,134,174,,,Other
+81894,f3ebc70a,GitHub,0f133e09,data/0f133e09/test/f3ebc70a.txt,18,18,F,56,96,,,Other
+81895,f3ebc70a,GitHub,0f133e09,data/0f133e09/test/f3ebc70a.txt,29,29,F,134,174,,,Other
+81897,8bfa1e8d,GitHub,0f133e09,data/0f133e09/test/8bfa1e8d.txt,40,40,F,56,96,,,Other
+81898,8bfa1e8d,GitHub,0f133e09,data/0f133e09/test/8bfa1e8d.txt,51,51,F,134,174,,,Other
+82015,9877ceb1,GitHub,0f133e09,data/0f133e09/test/9877ceb1.py,58,58,F,23,63,,,Other
+82016,d27bec8f,GitHub,0f133e09,data/0f133e09/test/d27bec8f.py,67,67,F,39,79,,,Other
+82017,d27bec8f,GitHub,0f133e09,data/0f133e09/test/d27bec8f.py,74,74,F,43,83,,,Other
+82018,d27bec8f,GitHub,0f133e09,data/0f133e09/test/d27bec8f.py,87,87,F,25,65,,,Other
+82019,cc0a8c37,GitHub,0f133e09,data/0f133e09/test/cc0a8c37.py,43,43,F,41,81,,,Other
+82020,cc0a8c37,GitHub,0f133e09,data/0f133e09/test/cc0a8c37.py,74,74,F,26,66,,,Other
+82021,cc0a8c37,GitHub,0f133e09,data/0f133e09/test/cc0a8c37.py,78,78,F,33,73,,,Other
+82022,1107b381,GitHub,0f133e09,data/0f133e09/test/1107b381.py,54,54,F,40,80,,,Other
+82023,1107b381,GitHub,0f133e09,data/0f133e09/test/1107b381.py,67,67,F,37,77,,,Other
+82024,f104e3dc,GitHub,0f133e09,data/0f133e09/test/f104e3dc.py,63,63,F,43,83,,,Other
+82025,f104e3dc,GitHub,0f133e09,data/0f133e09/test/f104e3dc.py,73,73,F,28,68,,,Other
+82029,a233f1a0,GitHub,0f133e09,data/0f133e09/test/a233f1a0.py,61,61,F,28,68,,,Other
+82030,942bcb37,GitHub,0f133e09,data/0f133e09/test/942bcb37.py,161,161,F,25,65,,,Other
+82031,ea2fe815,GitHub,0f133e09,data/0f133e09/test/ea2fe815.txt,18,18,F,56,96,,,Other
+82032,ea2fe815,GitHub,0f133e09,data/0f133e09/test/ea2fe815.txt,29,29,F,134,174,,,Other
+82033,af042fe3,GitHub,0f133e09,data/0f133e09/test/af042fe3.txt,18,18,F,56,96,,,Other
+82034,af042fe3,GitHub,0f133e09,data/0f133e09/test/af042fe3.txt,29,29,F,134,174,,,Other
+82035,3c654d2d,GitHub,0f133e09,data/0f133e09/test/3c654d2d.txt,40,40,F,56,96,,,Other
+82036,3c654d2d,GitHub,0f133e09,data/0f133e09/test/3c654d2d.txt,51,51,F,134,174,,,Other
+82037,f46f26a2,GitHub,0f133e09,data/0f133e09/test/f46f26a2.txt,40,40,F,56,96,,,Other
+82038,f46f26a2,GitHub,0f133e09,data/0f133e09/test/f46f26a2.txt,51,51,F,134,174,,,Other
+82039,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,369,369,F,107,139,,,Auth
+82040,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,424,424,F,107,139,,,Auth
+82041,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,468,468,F,107,139,,,Auth
+82042,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,501,501,F,107,139,,,Auth
+82043,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,512,512,F,107,139,,,Auth
+82044,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,523,523,F,107,139,,,Auth
+82045,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,556,556,F,107,139,,,Auth
+82046,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,600,600,F,107,139,,,Auth
+82047,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,611,611,F,107,139,,,Auth
+82048,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,622,622,F,107,139,,,Auth
+82049,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,633,633,F,107,139,,,Auth
+107289,fd19dc90,GitHub,0f133e09,data/0f133e09/src/fd19dc90.py,43,43,F,-1,-1,,,Other
+107290,3d887f8b,GitHub,0f133e09,data/0f133e09/src/3d887f8b.pyi,241,241,F,,,,,Secret
+107291,9a280cf4,GitHub,0f133e09,data/0f133e09/test/9a280cf4.txt,18,18,F,-1,-1,,,Other
+107292,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,448,448,F,-1,-1,,,Other
+107293,5ef9ba65,GitHub,0f133e09,data/0f133e09/test/5ef9ba65.py,451,451,F,-1,-1,,,Other
+107294,0c13b160,GitHub,0f133e09,data/0f133e09/test/0c13b160.py,46,46,F,-1,-1,,,Other
+107295,0c13b160,GitHub,0f133e09,data/0f133e09/test/0c13b160.py,82,82,F,-1,-1,,,Other
+107296,d2a1ed30,GitHub,0f133e09,data/0f133e09/test/d2a1ed30.py,69,69,F,-1,-1,,,Other
+107299,9c0f3a30,GitHub,0f133e09,data/0f133e09/test/9c0f3a30.txt,28,28,Template,55,87,,,Auth
+107300,541cad72,GitHub,0f133e09,data/0f133e09/test/541cad72.txt,28,28,Template,19,51,,,Auth
+107301,25bf4114,GitHub,0f133e09,data/0f133e09/test/25bf4114.txt,28,28,F,19,51,,,Auth
+107302,d90d9e92,GitHub,0f133e09,data/0f133e09/test/d90d9e92.py,48,48,F,-1,-1,,,Other
+113958,d266e2f8,GitHub,0f133e09,data/0f133e09/test/d266e2f8.py,142,142,F,,,,,Auth
+131070,3d887f8b,GitHub,0f133e09,data/0f133e09/src/3d887f8b.pyi,248,248,F,,,,,Password
+131071,d2a693bc,GitHub,0f133e09,data/0f133e09/src/d2a693bc.pyi,33,33,F,,,,,Password
+131072,eca12c0a,GitHub,0f133e09,data/0f133e09/other/eca12c0a.md,95,95,F,,,,,Password
+131073,77000b93,GitHub,0f133e09,data/0f133e09/test/77000b93.txt,76,76,F,,,,,Password
+135029,cd558fc3,GitHub,0f133e09,data/0f133e09/src/cd558fc3.py,819,819,F,-1,-1,,,Key
+135030,5e62348b,GitHub,0f133e09,data/0f133e09/test/5e62348b.py,65,65,F,,,,,Token
+135779,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,9,10,F,,,,,AWS Multi
+1359693,03cdc0c5,GitHub,0f133e09,data/0f133e09/test/03cdc0c5.py,64,64,T,47,83,,,UUID
+1359698,3c2e2b70,GitHub,0f133e09,data/0f133e09/test/3c2e2b70.txt,9,9,T,326,362,,,UUID
+1359699,3e082ff8,GitHub,0f133e09,data/0f133e09/test/3e082ff8.txt,9,9,T,326,362,,,UUID
+1359700,400397c5,GitHub,0f133e09,data/0f133e09/test/400397c5.txt,9,9,T,326,362,,,UUID
+1359709,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,9,9,T,326,362,,,UUID
+1359710,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,20,20,T,326,362,,,UUID
+1359711,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,31,31,T,326,362,,,UUID
+1359712,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,42,42,T,326,362,,,UUID
+1359713,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,53,53,T,326,362,,,UUID
+1359714,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,64,64,T,326,362,,,UUID
+1359715,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,75,75,T,326,362,,,UUID
+1359716,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,86,86,T,326,362,,,UUID
+1359717,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,97,97,T,326,362,,,UUID
+1359718,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,108,108,T,326,362,,,UUID
+1359719,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,119,119,T,326,362,,,UUID
+1359720,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,130,130,T,326,362,,,UUID
+1359721,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,141,141,T,326,362,,,UUID
+1359722,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,152,152,T,326,362,,,UUID
+1359723,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,163,163,T,326,362,,,UUID
+1359724,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,174,174,T,326,362,,,UUID
+1359725,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,185,185,T,326,362,,,UUID
+1359726,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,196,196,T,326,362,,,UUID
+1359727,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,207,207,T,326,362,,,UUID
+1359728,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,218,218,T,326,362,,,UUID
+1359729,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,229,229,T,326,362,,,UUID
+1359730,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,240,240,T,326,362,,,UUID
+1359731,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,251,251,T,326,362,,,UUID
+1359732,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,262,262,T,326,362,,,UUID
+1359733,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,284,284,T,326,362,,,UUID
+1359734,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,295,295,T,326,362,,,UUID
+1359735,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,306,306,T,326,362,,,UUID
+1359736,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,317,317,T,326,362,,,UUID
+1359737,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,328,328,T,326,362,,,UUID
+1359738,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,329,329,T,116945,116981,,,UUID
+1359739,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,329,329,T,120302,120338,,,UUID
+1359740,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,329,329,T,137524,137560,,,UUID
+1359741,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,329,329,T,144538,144574,,,UUID
+1359742,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,339,339,T,326,362,,,UUID
+1359743,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,350,350,T,283,319,,,UUID
+1359744,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,361,361,T,283,319,,,UUID
+1359745,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,372,372,T,283,319,,,UUID
+1359746,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,383,383,T,283,319,,,UUID
+1359747,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,394,394,T,283,319,,,UUID
+1359748,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,405,405,T,283,319,,,UUID
+1359749,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,416,416,T,283,319,,,UUID
+1359750,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,427,427,T,326,362,,,UUID
+1359751,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,438,438,T,336,372,,,UUID
+1359752,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,449,449,T,283,319,,,UUID
+1359753,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,460,460,T,283,319,,,UUID
+1359754,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,471,471,T,283,319,,,UUID
+1359755,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,482,482,T,283,319,,,UUID
+1359756,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,493,493,T,326,362,,,UUID
+1359757,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,504,504,T,283,319,,,UUID
+1359758,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,515,515,T,283,319,,,UUID
+1359759,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,526,526,T,283,319,,,UUID
+1359760,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,537,537,T,326,362,,,UUID
+1359761,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,548,548,T,283,319,,,UUID
+1359762,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,559,559,T,283,319,,,UUID
+1359763,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,570,570,T,283,319,,,UUID
+1359764,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,581,581,T,326,362,,,UUID
+1359765,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,592,592,T,283,319,,,UUID
+1359766,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,603,603,T,283,319,,,UUID
+1359767,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,614,614,T,283,319,,,UUID
+1359768,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,625,625,T,283,319,,,UUID
+1359769,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,636,636,T,283,319,,,UUID
+1359770,eed6f5d9,GitHub,0f133e09,data/0f133e09/test/eed6f5d9.txt,9,9,T,326,362,,,UUID
+1359771,f7bcd90d,GitHub,0f133e09,data/0f133e09/test/f7bcd90d.txt,9,9,T,326,362,,,UUID
+1351438,106f01a0,GitHub,0f133e09,data/0f133e09/test/106f01a0.txt,10,10,T,974,1010,,,UUID
+1351439,21c6c562,GitHub,0f133e09,data/0f133e09/test/21c6c562.txt,32,32,T,127,163,,,UUID
+1351440,232ac678,GitHub,0f133e09,data/0f133e09/test/232ac678.txt,10,10,T,974,1010,,,UUID
+1351442,35b074d5,GitHub,0f133e09,data/0f133e09/test/35b074d5.txt,10,10,T,127,163,,,UUID
+1351443,7dcd9e2a,GitHub,0f133e09,data/0f133e09/test/7dcd9e2a.txt,21,21,T,1187,1223,,,UUID
+1351446,c19900d5,GitHub,0f133e09,data/0f133e09/test/c19900d5.txt,10,10,T,158,194,,,UUID
+1351447,c19900d5,GitHub,0f133e09,data/0f133e09/test/c19900d5.txt,21,21,T,158,194,,,UUID
+1351448,c5beb59c,GitHub,0f133e09,data/0f133e09/test/c5beb59c.txt,10,10,T,975,1011,,,UUID
+1351449,c7b13616,GitHub,0f133e09,data/0f133e09/test/c7b13616.txt,9,9,T,482,518,,,UUID
+1351450,dfd7c065,GitHub,0f133e09,data/0f133e09/test/dfd7c065.txt,10,10,T,975,1011,,,UUID
+1351451,f3c45c7c,GitHub,0f133e09,data/0f133e09/test/f3c45c7c.txt,21,21,T,1186,1222,,,UUID
+1351518,c7b13616,GitHub,0f133e09,data/0f133e09/test/c7b13616.txt,9,9,T,1099,1128,,,AWS S3 Bucket
+1351519,c7b13616,GitHub,0f133e09,data/0f133e09/test/c7b13616.txt,9,9,T,1129,1186,,,AWS S3 Bucket
+1351520,c7b13616,GitHub,0f133e09,data/0f133e09/test/c7b13616.txt,9,9,T,1187,1249,,,AWS S3 Bucket
+1351521,c7b13616,GitHub,0f133e09,data/0f133e09/test/c7b13616.txt,9,9,T,1250,1302,,,AWS S3 Bucket
+1351522,c7b13616,GitHub,0f133e09,data/0f133e09/test/c7b13616.txt,9,9,T,1584,1613,,,AWS S3 Bucket
+1479613,03c77d4f,GitHub,0f133e09,data/0f133e09/src/03c77d4f.py,314,314,F,49,54,,,Auth
+1480549,03cdc0c5,GitHub,0f133e09,data/0f133e09/test/03cdc0c5.py,95,95,T,397,433,,,UUID
+1480550,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,9,9,T,668,704,,,UUID
+1480551,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,10,10,T,384,420,,,UUID
+1481079,09d5fb97,GitHub,0f133e09,data/0f133e09/test/09d5fb97.py,76,76,T,39,47,,,Auth
+1481080,6c3e61b3,GitHub,0f133e09,data/0f133e09/test/6c3e61b3.txt,21,21,T,5299,5328,,,Token
+1481082,96e405e3,GitHub,0f133e09,data/0f133e09/test/96e405e3.txt,10,10,T,18163,18203,,,Auth:Token
+1481083,eca6d1b1,GitHub,0f133e09,data/0f133e09/test/eca6d1b1.txt,10,10,T,18163,18203,,,Auth:Token
+1481084,fc6f2f6d,GitHub,0f133e09,data/0f133e09/test/fc6f2f6d.txt,6,6,T,25,57,,,Auth:Bitbucket Client ID:Bitbucket Client Secret

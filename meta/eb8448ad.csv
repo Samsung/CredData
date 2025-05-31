@@ -1,40 +1,40 @@
-Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-5888,ae39a300,GitHub,eb8448ad,data/eb8448ad/src/ae39a300.yaml,2,2,F,F,,,F,F,,,,,0,0,F,F,F,API
-5901,12fc8db2,GitHub,eb8448ad,data/eb8448ad/src/12fc8db2.yaml,1,1,F,F,,,F,F,,,,,0,0,F,F,F,API
-11746,bdd2cc92,GitHub,eb8448ad,data/eb8448ad/test/bdd2cc92.yaml,3,3,F,F,,,F,F,,,,,0,0,F,F,F,Password
-12653,12fc8db2,GitHub,eb8448ad,data/eb8448ad/src/12fc8db2.yaml,111,111,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-12825,12fc8db2,GitHub,eb8448ad,data/eb8448ad/src/12fc8db2.yaml,50,50,F,F,,,F,F,,,,,0,0,F,F,F,Key
-12826,12fc8db2,GitHub,eb8448ad,data/eb8448ad/src/12fc8db2.yaml,121,121,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-12827,12fc8db2,GitHub,eb8448ad,data/eb8448ad/src/12fc8db2.yaml,45,45,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-12828,12fc8db2,GitHub,eb8448ad,data/eb8448ad/src/12fc8db2.yaml,116,116,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-12829,12fc8db2,GitHub,eb8448ad,data/eb8448ad/src/12fc8db2.yaml,126,126,F,F,,,F,F,,,,,0,0,F,F,F,Key
-12861,12fc8db2,GitHub,eb8448ad,data/eb8448ad/src/12fc8db2.yaml,86,86,F,F,,,F,F,,,,,0,0,F,F,F,Key
-12863,12fc8db2,GitHub,eb8448ad,data/eb8448ad/src/12fc8db2.yaml,81,81,F,F,,,F,F,,,,,0,0,F,F,F,Key
-12864,12fc8db2,GitHub,eb8448ad,data/eb8448ad/src/12fc8db2.yaml,101,101,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-12865,12fc8db2,GitHub,eb8448ad,data/eb8448ad/src/12fc8db2.yaml,91,91,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-12866,12fc8db2,GitHub,eb8448ad,data/eb8448ad/src/12fc8db2.yaml,96,96,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-12876,12fc8db2,GitHub,eb8448ad,data/eb8448ad/src/12fc8db2.yaml,106,106,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-21936,1b2cd3a7,GitHub,eb8448ad,data/eb8448ad/src/1b2cd3a7.lock,8440,8440,F,F,,,F,F,,,,,0,0,F,F,F,API
-22332,1b2cd3a7,GitHub,eb8448ad,data/eb8448ad/src/1b2cd3a7.lock,182,182,F,F,,,F,F,,,,,0,0,F,F,F,API
-22876,4563fbe9,GitHub,eb8448ad,data/eb8448ad/src/4563fbe9.yml,13,13,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-22879,e45e45ba,GitHub,eb8448ad,data/eb8448ad/src/e45e45ba.yml,37,37,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-22880,4563fbe9,GitHub,eb8448ad,data/eb8448ad/src/4563fbe9.yml,12,12,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-22885,e45e45ba,GitHub,eb8448ad,data/eb8448ad/src/e45e45ba.yml,36,36,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-29308,09c8c391,GitHub,eb8448ad,data/eb8448ad/other/09c8c391,42,42,F,T,51,61,F,F,Any,,,Token,2.46,10,F,F,F,Key:Secret:Token
-29841,91b3c8bc,GitHub,eb8448ad,data/eb8448ad/src/91b3c8bc.yaml,56,56,T,T,23,33,F,F,Any,,,Secret,2.46,10,F,F,F,Password
-31163,e45e45ba,GitHub,eb8448ad,data/eb8448ad/src/e45e45ba.yml,61,61,T,T,26,36,F,F,Any,,,Secret,2.46,10,F,F,F,Password
-31481,09c8c391,GitHub,eb8448ad,data/eb8448ad/other/09c8c391,32,32,Template,T,40,50,T,F,Any,,,Secret,2.46,10,F,F,F,URL Credentials
-32303,560e5d9e,GitHub,eb8448ad,data/eb8448ad/test/560e5d9e.test,3,3,F,F,12,25,F,F,Any,,,Secret,2.74,13,F,F,F,Secret
-32570,6eb51d25,GitHub,eb8448ad,data/eb8448ad/src/6eb51d25.sh,18,18,F,T,50,61,T,F,Any,,,Secret,2.78,11,F,F,F,Password:URL Credentials
-137862,6eb51d25,GitHub,eb8448ad,data/eb8448ad/src/6eb51d25.sh,18,18,T,F,158,168,F,F,,,,,0.0,0,F,F,F,Password:URL Credentials
-33535,09c8c391,GitHub,eb8448ad,data/eb8448ad/other/09c8c391,43,43,T,F,18,134,F,F,Any,,JSON Web Token,Token,5.23,116,F,F,F,JSON Web Token:Token
-34029,09c8c391,GitHub,eb8448ad,data/eb8448ad/other/09c8c391,31,31,Template,T,32,43,T,F,Any,,,Secret,2.78,11,F,F,F,URL Credentials
-36262,91b3c8bc,GitHub,eb8448ad,data/eb8448ad/src/91b3c8bc.yaml,44,44,T,F,13,129,F,F,Any,,JSON Web Token,Token,5.23,116,F,F,F,JSON Web Token:Token
-42429,1b2cd3a7,GitHub,eb8448ad,data/eb8448ad/src/1b2cd3a7.lock,4065,4065,F,F,,,F,F,,,,,0,0,F,F,F,API
-42903,91b3c8bc,GitHub,eb8448ad,data/eb8448ad/src/91b3c8bc.yaml,54,54,T,T,33,43,T,F,Any,,,Secret,2.46,10,F,F,F,URL Credentials
-83197,ae39a300,GitHub,eb8448ad,data/eb8448ad/src/ae39a300.yaml,10,10,F,F,16,23,F,F,,,,,0.0,0,F,F,F,API
-107671,09c8c391,GitHub,eb8448ad,data/eb8448ad/other/09c8c391,23,23,Template,T,11,21,F,F,Any,,,Secret,2.46,10,F,F,F,Secret
-107672,91b3c8bc,GitHub,eb8448ad,data/eb8448ad/src/91b3c8bc.yaml,106,106,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-107673,6eb51d25,GitHub,eb8448ad,data/eb8448ad/src/6eb51d25.sh,16,16,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-114111,1b2cd3a7,GitHub,eb8448ad,data/eb8448ad/src/1b2cd3a7.lock,7125,7125,F,F,,,F,F,,,,,0.00,,F,F,F,API
-114112,1b2cd3a7,GitHub,eb8448ad,data/eb8448ad/src/1b2cd3a7.lock,7426,7426,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
+Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd,CryptographyKey,PredefinedPattern,Category
+5888,ae39a300,GitHub,eb8448ad,data/eb8448ad/src/ae39a300.yaml,2,2,F,,,,,API
+5901,12fc8db2,GitHub,eb8448ad,data/eb8448ad/src/12fc8db2.yaml,1,1,F,,,,,API
+11746,bdd2cc92,GitHub,eb8448ad,data/eb8448ad/test/bdd2cc92.yaml,3,3,F,,,,,Password
+12653,12fc8db2,GitHub,eb8448ad,data/eb8448ad/src/12fc8db2.yaml,111,111,F,-1,-1,,,Key
+12825,12fc8db2,GitHub,eb8448ad,data/eb8448ad/src/12fc8db2.yaml,50,50,F,,,,,Key
+12826,12fc8db2,GitHub,eb8448ad,data/eb8448ad/src/12fc8db2.yaml,121,121,F,-1,-1,,,Key
+12827,12fc8db2,GitHub,eb8448ad,data/eb8448ad/src/12fc8db2.yaml,45,45,F,-1,-1,,,Key
+12828,12fc8db2,GitHub,eb8448ad,data/eb8448ad/src/12fc8db2.yaml,116,116,F,-1,-1,,,Key
+12829,12fc8db2,GitHub,eb8448ad,data/eb8448ad/src/12fc8db2.yaml,126,126,F,,,,,Key
+12861,12fc8db2,GitHub,eb8448ad,data/eb8448ad/src/12fc8db2.yaml,86,86,F,,,,,Key
+12863,12fc8db2,GitHub,eb8448ad,data/eb8448ad/src/12fc8db2.yaml,81,81,F,,,,,Key
+12864,12fc8db2,GitHub,eb8448ad,data/eb8448ad/src/12fc8db2.yaml,101,101,F,-1,-1,,,Key
+12865,12fc8db2,GitHub,eb8448ad,data/eb8448ad/src/12fc8db2.yaml,91,91,F,-1,-1,,,Key
+12866,12fc8db2,GitHub,eb8448ad,data/eb8448ad/src/12fc8db2.yaml,96,96,F,-1,-1,,,Key
+12876,12fc8db2,GitHub,eb8448ad,data/eb8448ad/src/12fc8db2.yaml,106,106,F,-1,-1,,,Key
+21936,1b2cd3a7,GitHub,eb8448ad,data/eb8448ad/src/1b2cd3a7.lock,8440,8440,F,,,,,API
+22332,1b2cd3a7,GitHub,eb8448ad,data/eb8448ad/src/1b2cd3a7.lock,182,182,F,,,,,API
+22876,4563fbe9,GitHub,eb8448ad,data/eb8448ad/src/4563fbe9.yml,13,13,F,-1,-1,,,Key
+22879,e45e45ba,GitHub,eb8448ad,data/eb8448ad/src/e45e45ba.yml,37,37,F,-1,-1,,,Key
+22880,4563fbe9,GitHub,eb8448ad,data/eb8448ad/src/4563fbe9.yml,12,12,F,-1,-1,,,Key
+22885,e45e45ba,GitHub,eb8448ad,data/eb8448ad/src/e45e45ba.yml,36,36,F,-1,-1,,,Key
+29308,09c8c391,GitHub,eb8448ad,data/eb8448ad/other/09c8c391,42,42,F,51,61,,,Key:Secret:Token
+29841,91b3c8bc,GitHub,eb8448ad,data/eb8448ad/src/91b3c8bc.yaml,56,56,T,23,33,,,Password
+31163,e45e45ba,GitHub,eb8448ad,data/eb8448ad/src/e45e45ba.yml,61,61,T,26,36,,,Password
+31481,09c8c391,GitHub,eb8448ad,data/eb8448ad/other/09c8c391,32,32,Template,40,50,,,URL Credentials
+32303,560e5d9e,GitHub,eb8448ad,data/eb8448ad/test/560e5d9e.test,3,3,F,12,25,,,Secret
+32570,6eb51d25,GitHub,eb8448ad,data/eb8448ad/src/6eb51d25.sh,18,18,F,50,61,,,Password:URL Credentials
+137862,6eb51d25,GitHub,eb8448ad,data/eb8448ad/src/6eb51d25.sh,18,18,T,158,168,,,Password:URL Credentials
+33535,09c8c391,GitHub,eb8448ad,data/eb8448ad/other/09c8c391,43,43,T,18,134,,JSON Web Token,JSON Web Token:Token
+34029,09c8c391,GitHub,eb8448ad,data/eb8448ad/other/09c8c391,31,31,Template,32,43,,,URL Credentials
+36262,91b3c8bc,GitHub,eb8448ad,data/eb8448ad/src/91b3c8bc.yaml,44,44,T,13,129,,JSON Web Token,JSON Web Token:Token
+42429,1b2cd3a7,GitHub,eb8448ad,data/eb8448ad/src/1b2cd3a7.lock,4065,4065,F,,,,,API
+42903,91b3c8bc,GitHub,eb8448ad,data/eb8448ad/src/91b3c8bc.yaml,54,54,T,33,43,,,URL Credentials
+83197,ae39a300,GitHub,eb8448ad,data/eb8448ad/src/ae39a300.yaml,10,10,F,16,23,,,API
+107671,09c8c391,GitHub,eb8448ad,data/eb8448ad/other/09c8c391,23,23,Template,11,21,,,Secret
+107672,91b3c8bc,GitHub,eb8448ad,data/eb8448ad/src/91b3c8bc.yaml,106,106,F,,,,,Secret
+107673,6eb51d25,GitHub,eb8448ad,data/eb8448ad/src/6eb51d25.sh,16,16,F,,,,,Secret
+114111,1b2cd3a7,GitHub,eb8448ad,data/eb8448ad/src/1b2cd3a7.lock,7125,7125,F,,,,,API
+114112,1b2cd3a7,GitHub,eb8448ad,data/eb8448ad/src/1b2cd3a7.lock,7426,7426,F,-1,-1,,,Key
