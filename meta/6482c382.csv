@@ -1,58 +1,57 @@
-Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-621,d2f74f29,GitHub,6482c382,data/6482c382/src/d2f74f29.ts,4,4,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-654,b852fcd1,GitHub,6482c382,data/6482c382/src/b852fcd1.ts,2,2,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-946,e9af4159,GitHub,6482c382,data/6482c382/src/e9af4159.ts,12,12,F,F,,,F,F,,,,,0,0,F,F,F,Key
-1043,743edb08,GitHub,6482c382,data/6482c382/src/743edb08.ts,3,3,F,F,,,F,F,,,,,0,0,F,F,F,API
-1068,ca2bb728,GitHub,6482c382,data/6482c382/src/ca2bb728.ts,10,10,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-1093,7d152c3f,GitHub,6482c382,data/6482c382/src/7d152c3f.ts,40,40,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-1102,7d152c3f,GitHub,6482c382,data/6482c382/src/7d152c3f.ts,39,39,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-2069,745c50a6,GitHub,6482c382,data/6482c382/src/745c50a6.tsx,73,73,F,F,,,F,F,,,,,0,0,F,F,F,Password
-5177,7d152c3f,GitHub,6482c382,data/6482c382/src/7d152c3f.ts,42,42,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-5187,37cc71c1,GitHub,6482c382,data/6482c382/src/37cc71c1.ts,18,18,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-5347,d2f74f29,GitHub,6482c382,data/6482c382/src/d2f74f29.ts,1551,1551,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-5575,41f75e90,GitHub,6482c382,data/6482c382/src/41f75e90.yml,433,433,T,T,45,58,T,F,Any,,,Secret,2.53,13,F,F,F,URL Credentials
-9298,68a734ce,GitHub,6482c382,data/6482c382/src/68a734ce.template,11,11,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Credential
-11493,ce3a851e,GitHub,6482c382,data/6482c382/test/ce3a851e.tsx,89,89,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-12751,324a0f04,GitHub,6482c382,data/6482c382/src/324a0f04.graphql,380,380,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-12767,e9af4159,GitHub,6482c382,data/6482c382/src/e9af4159.ts,9,9,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-12774,7e2fcafb,GitHub,6482c382,data/6482c382/src/7e2fcafb.ts,27,27,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-12798,1db27d93,GitHub,6482c382,data/6482c382/test/1db27d93.yml,22,22,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-12816,07f1263e,GitHub,6482c382,data/6482c382/src/07f1263e.ts,2,2,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-13097,2576f245,GitHub,6482c382,data/6482c382/src/2576f245.tsx,17,17,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-13862,51e4f558,GitHub,6482c382,data/6482c382/src/51e4f558.lock,2413,2413,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-14835,08d0d2c5,GitHub,6482c382,data/6482c382/src/08d0d2c5.tsx,126,126,F,F,,,F,F,,,,,0,0,F,F,F,Password
-20580,cb220955,GitHub,6482c382,data/6482c382/other/cb220955,246,246,F,F,,,F,F,,,,,0,0,F,F,F,Dropbox App secret
-23226,e84da162,GitHub,6482c382,data/6482c382/src/e84da162.ts,36,36,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-23754,bef12762,GitHub,6482c382,data/6482c382/src/bef12762.sh,6,6,F,F,,,F,F,,,,,0,0,F,F,F,API
-25080,860b435c,GitHub,6482c382,data/6482c382/src/860b435c.ts,2,2,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Credential
-25647,39ad5543,GitHub,6482c382,data/6482c382/src/39ad5543.tsx,32,32,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-26532,b3356305,GitHub,6482c382,data/6482c382/other/b3356305.md,131,131,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-27731,4afc1175,GitHub,6482c382,data/6482c382/src/4afc1175.yml,23,23,Template,T,30,36,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Key:Secret
-27770,7866f059,GitHub,6482c382,data/6482c382/src/7866f059.yml,21,21,Template,T,22,41,F,F,Any,,,Secret,2.97,19,F,F,F,Key:Secret
-27784,d7d52858,GitHub,6482c382,data/6482c382/other/d7d52858,2,2,Template,F,20,32,F,F,Any,,,Unknown,2.39,12,F,F,F,Key
-27785,d7d52858,GitHub,6482c382,data/6482c382/other/d7d52858,3,3,Template,T,24,36,F,F,Any,,,Secret,2.36,12,F,F,F,Key:Secret
-29024,71cac11f,GitHub,6482c382,data/6482c382/test/71cac11f.json,5,5,Template,T,17,35,F,F,CharsOnly,,,Secret,3.35,18,F,F,F,Password
-29044,faf2471c,GitHub,6482c382,data/6482c382/test/faf2471c.json,5,5,Template,T,17,32,F,F,CharsOnly,,,Secret,3.46,15,F,F,F,Password
-33531,e2425764,GitHub,6482c382,data/6482c382/src/e2425764.yml,21,21,T,F,25,43,F,F,Any,,,Unknown,3.95,18,F,F,F,Key
-33537,e2425764,GitHub,6482c382,data/6482c382/src/e2425764.yml,22,22,T,F,25,62,F,F,Any,,,Secret,4.52,37,F,F,F,Key:Secret
-36999,e2425764,GitHub,6482c382,data/6482c382/src/e2425764.yml,64,64,T,F,25,43,F,F,Any,,,Unknown,3.95,18,F,F,F,Key
-37000,e2425764,GitHub,6482c382,data/6482c382/src/e2425764.yml,65,65,T,F,25,62,F,F,Any,,,Secret,4.52,37,F,F,F,Key:Secret
-42664,41f75e90,GitHub,6482c382,data/6482c382/src/41f75e90.yml,456,456,T,T,45,58,T,F,Any,,,Secret,2.53,13,F,F,F,URL Credentials
-47899,71cac11f,GitHub,6482c382,data/6482c382/test/71cac11f.json,13,13,T,F,12,44,F,F,,,,,0.0,0,F,F,F,Key
-74251,e84da162,GitHub,6482c382,data/6482c382/src/e84da162.ts,60,60,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-74252,e84da162,GitHub,6482c382,data/6482c382/src/e84da162.ts,67,67,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-74253,7e2fcafb,GitHub,6482c382,data/6482c382/src/7e2fcafb.ts,51,51,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-74254,7e2fcafb,GitHub,6482c382,data/6482c382/src/7e2fcafb.ts,55,55,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-74310,e84da162,GitHub,6482c382,data/6482c382/src/e84da162.ts,24,24,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-102773,324a0f04,GitHub,6482c382,data/6482c382/src/324a0f04.graphql,290,290,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-102774,324a0f04,GitHub,6482c382,data/6482c382/src/324a0f04.graphql,301,301,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-102775,d2f74f29,GitHub,6482c382,data/6482c382/src/d2f74f29.ts,428,428,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-102776,d2f74f29,GitHub,6482c382,data/6482c382/src/d2f74f29.ts,440,440,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-102777,d2f74f29,GitHub,6482c382,data/6482c382/src/d2f74f29.ts,470,470,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-102778,39ad5543,GitHub,6482c382,data/6482c382/src/39ad5543.tsx,29,29,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-136888,d9c3d0ef,GitHub,6482c382,data/6482c382/test/d9c3d0ef.json,46,46,T,F,25,55,F,F,,,,,0.0,0,F,F,F,AWS S3 Bucket
-131013,7e2fcafb,GitHub,6482c382,data/6482c382/src/7e2fcafb.ts,23,23,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-1480601,51e4f558,GitHub,6482c382,data/6482c382/src/51e4f558.lock,11205,11205,F,F,32,64,F,F,,,,,0.0,0,F,F,F,Bitbucket Client ID:Bitbucket Client Secret
-1480602,e2425764,GitHub,6482c382,data/6482c382/src/e2425764.yml,79,79,F,F,62,80,F,F,,,,,0.0,0,F,F,F,Bitbucket Client ID
-1480790,51e4f558,GitHub,6482c382,data/6482c382/src/51e4f558.lock,12536,12536,F,F,,,F,F,,,,,0.0,0,F,F,F,Bitbucket Client Secret
-
+Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd,CryptographyKey,PredefinedPattern,Category
+621,d2f74f29,GitHub,6482c382,data/6482c382/src/d2f74f29.ts,4,4,F,-1,-1,,,Key
+654,b852fcd1,GitHub,6482c382,data/6482c382/src/b852fcd1.ts,2,2,F,,,,,Secret
+946,e9af4159,GitHub,6482c382,data/6482c382/src/e9af4159.ts,12,12,F,,,,,Key
+1043,743edb08,GitHub,6482c382,data/6482c382/src/743edb08.ts,3,3,F,,,,,API
+1068,ca2bb728,GitHub,6482c382,data/6482c382/src/ca2bb728.ts,10,10,F,-1,-1,,,Key
+1093,7d152c3f,GitHub,6482c382,data/6482c382/src/7d152c3f.ts,40,40,F,-1,-1,,,Key
+1102,7d152c3f,GitHub,6482c382,data/6482c382/src/7d152c3f.ts,39,39,F,-1,-1,,,Key
+2069,745c50a6,GitHub,6482c382,data/6482c382/src/745c50a6.tsx,73,73,F,,,,,Password
+5177,7d152c3f,GitHub,6482c382,data/6482c382/src/7d152c3f.ts,42,42,F,-1,-1,,,Key
+5187,37cc71c1,GitHub,6482c382,data/6482c382/src/37cc71c1.ts,18,18,F,-1,-1,,,Key
+5347,d2f74f29,GitHub,6482c382,data/6482c382/src/d2f74f29.ts,1551,1551,F,-1,-1,,,Key
+5575,41f75e90,GitHub,6482c382,data/6482c382/src/41f75e90.yml,433,433,T,45,58,,,URL Credentials
+9298,68a734ce,GitHub,6482c382,data/6482c382/src/68a734ce.template,11,11,F,-1,-1,,,Credential
+11493,ce3a851e,GitHub,6482c382,data/6482c382/test/ce3a851e.tsx,89,89,F,-1,-1,,,Key
+12751,324a0f04,GitHub,6482c382,data/6482c382/src/324a0f04.graphql,380,380,F,-1,-1,,,Key
+12767,e9af4159,GitHub,6482c382,data/6482c382/src/e9af4159.ts,9,9,F,-1,-1,,,Key
+12774,7e2fcafb,GitHub,6482c382,data/6482c382/src/7e2fcafb.ts,27,27,F,-1,-1,,,Key
+12798,1db27d93,GitHub,6482c382,data/6482c382/test/1db27d93.yml,22,22,F,-1,-1,,,Key
+12816,07f1263e,GitHub,6482c382,data/6482c382/src/07f1263e.ts,2,2,F,-1,-1,,,Key
+13097,2576f245,GitHub,6482c382,data/6482c382/src/2576f245.tsx,17,17,F,-1,-1,,,Key
+13862,51e4f558,GitHub,6482c382,data/6482c382/src/51e4f558.lock,2413,2413,F,-1,-1,,,Other
+14835,08d0d2c5,GitHub,6482c382,data/6482c382/src/08d0d2c5.tsx,126,126,F,,,,,Password
+20580,cb220955,GitHub,6482c382,data/6482c382/other/cb220955,246,246,F,,,,,Dropbox App secret
+23226,e84da162,GitHub,6482c382,data/6482c382/src/e84da162.ts,36,36,F,-1,-1,,,Other
+23754,bef12762,GitHub,6482c382,data/6482c382/src/bef12762.sh,6,6,F,,,,,API
+25080,860b435c,GitHub,6482c382,data/6482c382/src/860b435c.ts,2,2,F,-1,-1,,,Credential
+25647,39ad5543,GitHub,6482c382,data/6482c382/src/39ad5543.tsx,32,32,F,-1,-1,,,Key
+26532,b3356305,GitHub,6482c382,data/6482c382/other/b3356305.md,131,131,F,,,,,Auth
+27731,4afc1175,GitHub,6482c382,data/6482c382/src/4afc1175.yml,23,23,Template,30,36,,,Key:Secret
+27770,7866f059,GitHub,6482c382,data/6482c382/src/7866f059.yml,21,21,Template,22,41,,,Key:Secret
+27784,d7d52858,GitHub,6482c382,data/6482c382/other/d7d52858,2,2,Template,20,32,,,Key
+27785,d7d52858,GitHub,6482c382,data/6482c382/other/d7d52858,3,3,Template,24,36,,,Key:Secret
+29024,71cac11f,GitHub,6482c382,data/6482c382/test/71cac11f.json,5,5,Template,17,35,,,Password
+29044,faf2471c,GitHub,6482c382,data/6482c382/test/faf2471c.json,5,5,Template,17,32,,,Password
+33531,e2425764,GitHub,6482c382,data/6482c382/src/e2425764.yml,21,21,T,25,43,,,Key
+33537,e2425764,GitHub,6482c382,data/6482c382/src/e2425764.yml,22,22,T,25,62,,,Key:Secret
+36999,e2425764,GitHub,6482c382,data/6482c382/src/e2425764.yml,64,64,T,25,43,,,Key
+37000,e2425764,GitHub,6482c382,data/6482c382/src/e2425764.yml,65,65,T,25,62,,,Key:Secret
+42664,41f75e90,GitHub,6482c382,data/6482c382/src/41f75e90.yml,456,456,T,45,58,,,URL Credentials
+47899,71cac11f,GitHub,6482c382,data/6482c382/test/71cac11f.json,13,13,T,12,44,,,Key
+74251,e84da162,GitHub,6482c382,data/6482c382/src/e84da162.ts,60,60,F,-1,-1,,,Key
+74252,e84da162,GitHub,6482c382,data/6482c382/src/e84da162.ts,67,67,F,-1,-1,,,Key
+74253,7e2fcafb,GitHub,6482c382,data/6482c382/src/7e2fcafb.ts,51,51,F,-1,-1,,,Key
+74254,7e2fcafb,GitHub,6482c382,data/6482c382/src/7e2fcafb.ts,55,55,F,-1,-1,,,Key
+74310,e84da162,GitHub,6482c382,data/6482c382/src/e84da162.ts,24,24,F,-1,-1,,,Key
+102773,324a0f04,GitHub,6482c382,data/6482c382/src/324a0f04.graphql,290,290,F,,,,,Password
+102774,324a0f04,GitHub,6482c382,data/6482c382/src/324a0f04.graphql,301,301,F,,,,,Password
+102775,d2f74f29,GitHub,6482c382,data/6482c382/src/d2f74f29.ts,428,428,F,,,,,Password
+102776,d2f74f29,GitHub,6482c382,data/6482c382/src/d2f74f29.ts,440,440,F,,,,,Password
+102777,d2f74f29,GitHub,6482c382,data/6482c382/src/d2f74f29.ts,470,470,F,,,,,Password
+102778,39ad5543,GitHub,6482c382,data/6482c382/src/39ad5543.tsx,29,29,F,,,,,Password
+136888,d9c3d0ef,GitHub,6482c382,data/6482c382/test/d9c3d0ef.json,46,46,T,25,55,,,AWS S3 Bucket
+131013,7e2fcafb,GitHub,6482c382,data/6482c382/src/7e2fcafb.ts,23,23,F,,,,,Secret
+1480601,51e4f558,GitHub,6482c382,data/6482c382/src/51e4f558.lock,11205,11205,F,32,64,,,Bitbucket Client ID:Bitbucket Client Secret
+1480602,e2425764,GitHub,6482c382,data/6482c382/src/e2425764.yml,79,79,F,62,80,,,Bitbucket Client ID
+1480790,51e4f558,GitHub,6482c382,data/6482c382/src/51e4f558.lock,12536,12536,F,,,,,Bitbucket Client Secret
