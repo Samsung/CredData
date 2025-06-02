@@ -1,29 +1,29 @@
-Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-1367,b3356305,GitHub,55aa4858,data/55aa4858/other/b3356305.md,22,22,F,F,,,F,F,,,,,0,0,F,F,F,API
-22289,caf97ccc,GitHub,55aa4858,data/55aa4858/other/caf97ccc.md,830,830,Template,T,13,24,F,F,Any,,,Secret,2.33,11,F,F,F,Password
-22290,373062bc,GitHub,55aa4858,data/55aa4858/src/373062bc.html,179,179,Template,T,13,24,F,F,Any,,,Secret,2.33,11,F,F,F,Password
-27221,8214a561,GitHub,55aa4858,data/55aa4858/src/8214a561.conf,171,171,T,F,23,27,F,F,CharsOnly,,,Secret,1.00,4,F,F,F,Password
-27299,7506d301,GitHub,55aa4858,data/55aa4858/src/7506d301.conf,91,91,Template,F,21,24,T,F,CharsOnly,,,Secret,1.58,3,F,F,F,URL Credentials
-27300,7506d301,GitHub,55aa4858,data/55aa4858/src/7506d301.conf,88,88,Template,F,26,29,T,F,CharsOnly,,,Secret,1.58,3,F,F,F,URL Credentials
-27301,8214a561,GitHub,55aa4858,data/55aa4858/src/8214a561.conf,88,88,Template,F,26,29,T,F,CharsOnly,,,Secret,1.58,3,F,F,F,URL Credentials
-29312,7506d301,GitHub,55aa4858,data/55aa4858/src/7506d301.conf,97,97,Template,T,18,24,F,F,CharsOnly,,,Unknown,2.25,6,F,F,F,Password
-32703,8214a561,GitHub,55aa4858,data/55aa4858/src/8214a561.conf,16,16,T,F,19,83,F,F,Any,,,Secret,5.23,64,F,F,F,Bitbucket Client Secret:Secret
-41503,7506d301,GitHub,55aa4858,data/55aa4858/src/7506d301.conf,16,16,T,F,19,83,F,F,Any,,,Secret,5.23,64,F,F,F,Bitbucket Client Secret:Secret
-41504,7506d301,GitHub,55aa4858,data/55aa4858/src/7506d301.conf,171,171,T,F,23,27,F,F,CharsOnly,,,Secret,1.00,4,F,F,F,Password
-41505,8214a561,GitHub,55aa4858,data/55aa4858/src/8214a561.conf,91,91,Template,F,21,24,T,F,CharsOnly,,,Secret,1.58,3,F,F,F,URL Credentials
-42849,373062bc,GitHub,55aa4858,data/55aa4858/src/373062bc.html,225,225,Template,T,13,24,F,F,Any,,,Secret,2.33,11,F,F,F,Password
-42850,373062bc,GitHub,55aa4858,data/55aa4858/src/373062bc.html,247,247,Template,T,13,24,F,F,Any,,,Secret,2.33,11,F,F,F,Password
-42851,373062bc,GitHub,55aa4858,data/55aa4858/src/373062bc.html,254,254,Template,T,13,24,F,F,Any,,,Secret,2.33,11,F,F,F,Password
-42852,373062bc,GitHub,55aa4858,data/55aa4858/src/373062bc.html,276,276,Template,T,13,24,F,F,Any,,,Secret,2.33,11,F,F,F,Password
-42853,373062bc,GitHub,55aa4858,data/55aa4858/src/373062bc.html,283,283,Template,T,13,24,F,F,Any,,,Secret,2.33,11,F,F,F,Password
-48240,caf97ccc,GitHub,55aa4858,data/55aa4858/other/caf97ccc.md,898,898,Template,T,13,24,F,F,Any,,,Secret,2.33,11,F,F,F,Password
-48241,caf97ccc,GitHub,55aa4858,data/55aa4858/other/caf97ccc.md,909,909,Template,T,13,24,F,F,Any,,,Secret,2.33,11,F,F,F,Password
-48242,caf97ccc,GitHub,55aa4858,data/55aa4858/other/caf97ccc.md,882,882,Template,T,13,24,F,F,Any,,,Secret,2.33,11,F,F,F,Password
-48243,caf97ccc,GitHub,55aa4858,data/55aa4858/other/caf97ccc.md,871,871,Template,T,13,24,F,F,Any,,,Secret,2.33,11,F,F,F,Password
-48244,caf97ccc,GitHub,55aa4858,data/55aa4858/other/caf97ccc.md,855,855,Template,T,13,24,F,F,Any,,,Secret,2.33,11,F,F,F,Password
-50060,285557ea,GitHub,55aa4858,data/55aa4858/other/285557ea.md,22,22,F,F,,,F,F,,,,,0,0,F,F,F,API
-50061,0b5ca119,GitHub,55aa4858,data/55aa4858/other/0b5ca119.md,22,22,F,F,,,F,F,,,,,0,0,F,F,F,API
-55622,8214a561,GitHub,55aa4858,data/55aa4858/src/8214a561.conf,97,97,Template,T,18,24,F,F,CharsOnly,,,Unknown,2.25,6,F,F,F,Password
-100587,8214a561,GitHub,55aa4858,data/55aa4858/src/8214a561.conf,46,46,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-100588,7506d301,GitHub,55aa4858,data/55aa4858/src/7506d301.conf,46,46,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-133369,caf97ccc,GitHub,55aa4858,data/55aa4858/other/caf97ccc.md,1,1,F,F,,,F,F,,,,,0,0,F,F,F,API
+Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd,CryptographyKey,PredefinedPattern,Category
+1367,b3356305,GitHub,55aa4858,data/55aa4858/other/b3356305.md,22,22,F,,,,,API
+22289,caf97ccc,GitHub,55aa4858,data/55aa4858/other/caf97ccc.md,830,830,Template,13,24,,,Password
+22290,373062bc,GitHub,55aa4858,data/55aa4858/src/373062bc.html,179,179,Template,13,24,,,Password
+27221,8214a561,GitHub,55aa4858,data/55aa4858/src/8214a561.conf,171,171,T,23,27,,,Password
+27299,7506d301,GitHub,55aa4858,data/55aa4858/src/7506d301.conf,91,91,Template,21,24,,,URL Credentials
+27300,7506d301,GitHub,55aa4858,data/55aa4858/src/7506d301.conf,88,88,Template,26,29,,,URL Credentials
+27301,8214a561,GitHub,55aa4858,data/55aa4858/src/8214a561.conf,88,88,Template,26,29,,,URL Credentials
+29312,7506d301,GitHub,55aa4858,data/55aa4858/src/7506d301.conf,97,97,Template,18,24,,,Password
+32703,8214a561,GitHub,55aa4858,data/55aa4858/src/8214a561.conf,16,16,T,19,83,,,Bitbucket Client Secret:Secret
+41503,7506d301,GitHub,55aa4858,data/55aa4858/src/7506d301.conf,16,16,T,19,83,,,Bitbucket Client Secret:Secret
+41504,7506d301,GitHub,55aa4858,data/55aa4858/src/7506d301.conf,171,171,T,23,27,,,Password
+41505,8214a561,GitHub,55aa4858,data/55aa4858/src/8214a561.conf,91,91,Template,21,24,,,URL Credentials
+42849,373062bc,GitHub,55aa4858,data/55aa4858/src/373062bc.html,225,225,Template,13,24,,,Password
+42850,373062bc,GitHub,55aa4858,data/55aa4858/src/373062bc.html,247,247,Template,13,24,,,Password
+42851,373062bc,GitHub,55aa4858,data/55aa4858/src/373062bc.html,254,254,Template,13,24,,,Password
+42852,373062bc,GitHub,55aa4858,data/55aa4858/src/373062bc.html,276,276,Template,13,24,,,Password
+42853,373062bc,GitHub,55aa4858,data/55aa4858/src/373062bc.html,283,283,Template,13,24,,,Password
+48240,caf97ccc,GitHub,55aa4858,data/55aa4858/other/caf97ccc.md,898,898,Template,13,24,,,Password
+48241,caf97ccc,GitHub,55aa4858,data/55aa4858/other/caf97ccc.md,909,909,Template,13,24,,,Password
+48242,caf97ccc,GitHub,55aa4858,data/55aa4858/other/caf97ccc.md,882,882,Template,13,24,,,Password
+48243,caf97ccc,GitHub,55aa4858,data/55aa4858/other/caf97ccc.md,871,871,Template,13,24,,,Password
+48244,caf97ccc,GitHub,55aa4858,data/55aa4858/other/caf97ccc.md,855,855,Template,13,24,,,Password
+50060,285557ea,GitHub,55aa4858,data/55aa4858/other/285557ea.md,22,22,F,,,,,API
+50061,0b5ca119,GitHub,55aa4858,data/55aa4858/other/0b5ca119.md,22,22,F,,,,,API
+55622,8214a561,GitHub,55aa4858,data/55aa4858/src/8214a561.conf,97,97,Template,18,24,,,Password
+100587,8214a561,GitHub,55aa4858,data/55aa4858/src/8214a561.conf,46,46,F,,,,,Auth
+100588,7506d301,GitHub,55aa4858,data/55aa4858/src/7506d301.conf,46,46,F,,,,,Auth
+133369,caf97ccc,GitHub,55aa4858,data/55aa4858/other/caf97ccc.md,1,1,F,,,,,API

@@ -1,19 +1,19 @@
-Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-9253,43226212,GitHub,ef35cd4d,data/ef35cd4d/src/43226212.cs,322,322,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-10858,c4872d44,GitHub,ef35cd4d,data/ef35cd4d/src/c4872d44.cs,117,117,F,F,,,F,F,,,,,0,0,F,F,F,Password
-11544,d92c1b89,GitHub,ef35cd4d,data/ef35cd4d/test/d92c1b89.ps1,239,239,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-13389,7059fc2a,GitHub,ef35cd4d,data/ef35cd4d/src/7059fc2a.cs,12,12,F,F,,,F,F,,,,,0,0,F,F,F,Token
-13434,c4872d44,GitHub,ef35cd4d,data/ef35cd4d/src/c4872d44.cs,24,24,F,F,,,F,F,,,,,0,0,F,F,F,Password
-13435,c315ade3,GitHub,ef35cd4d,data/ef35cd4d/src/c315ade3.cs,22,22,F,F,,,F,F,,,,,0,0,F,F,F,Password
-14235,c4872d44,GitHub,ef35cd4d,data/ef35cd4d/src/c4872d44.cs,69,69,F,F,,,F,F,,,,,0,0,F,F,F,Password
-17146,3d83abb0,GitHub,ef35cd4d,data/ef35cd4d/src/3d83abb0.cs,27,27,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-17701,c315ade3,GitHub,ef35cd4d,data/ef35cd4d/src/c315ade3.cs,16,16,F,F,,,F,F,,,,,0,0,F,F,F,Password
-17702,c315ade3,GitHub,ef35cd4d,data/ef35cd4d/src/c315ade3.cs,25,25,F,F,,,F,F,,,,,0,0,F,F,F,Password
-18804,03d75974,GitHub,ef35cd4d,data/ef35cd4d/other/03d75974.md,105,105,F,F,,,F,F,,,,,0,0,F,F,F,Password
-21569,d92c1b89,GitHub,ef35cd4d,data/ef35cd4d/test/d92c1b89.ps1,115,115,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-23978,296b0e62,GitHub,ef35cd4d,data/ef35cd4d/test/296b0e62.ps1,374,374,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-23979,296b0e62,GitHub,ef35cd4d,data/ef35cd4d/test/296b0e62.ps1,344,344,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-107382,c315ade3,GitHub,ef35cd4d,data/ef35cd4d/src/c315ade3.cs,78,78,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-1120000,6ba98a3f,GitHub,ef35cd4d,data/ef35cd4d/src/6ba98a3f.json,1,1,F,F,,,F,F,,,,,0.00,,F,F,F,API:Certificate:Password:Auth:Key:Nonce:Token
-1479534,03d75974,GitHub,ef35cd4d,data/ef35cd4d/other/03d75974.md,99,99,F,F,228,238,F,F,,,,,0.0,0,F,F,F,CMD Password
-1479535,03d75974,GitHub,ef35cd4d,data/ef35cd4d/other/03d75974.md,101,101,F,F,25,29,F,F,,,,,0.0,0,F,F,F,CMD ConvertTo-SecureString
+Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd,CryptographyKey,PredefinedPattern,Category
+9253,43226212,GitHub,ef35cd4d,data/ef35cd4d/src/43226212.cs,322,322,F,-1,-1,,,Key
+10858,c4872d44,GitHub,ef35cd4d,data/ef35cd4d/src/c4872d44.cs,117,117,F,,,,,Password
+11544,d92c1b89,GitHub,ef35cd4d,data/ef35cd4d/test/d92c1b89.ps1,239,239,F,-1,-1,,,Key
+13389,7059fc2a,GitHub,ef35cd4d,data/ef35cd4d/src/7059fc2a.cs,12,12,F,,,,,Token
+13434,c4872d44,GitHub,ef35cd4d,data/ef35cd4d/src/c4872d44.cs,24,24,F,,,,,Password
+13435,c315ade3,GitHub,ef35cd4d,data/ef35cd4d/src/c315ade3.cs,22,22,F,,,,,Password
+14235,c4872d44,GitHub,ef35cd4d,data/ef35cd4d/src/c4872d44.cs,69,69,F,,,,,Password
+17146,3d83abb0,GitHub,ef35cd4d,data/ef35cd4d/src/3d83abb0.cs,27,27,F,-1,-1,,,Key
+17701,c315ade3,GitHub,ef35cd4d,data/ef35cd4d/src/c315ade3.cs,16,16,F,,,,,Password
+17702,c315ade3,GitHub,ef35cd4d,data/ef35cd4d/src/c315ade3.cs,25,25,F,,,,,Password
+18804,03d75974,GitHub,ef35cd4d,data/ef35cd4d/other/03d75974.md,105,105,F,,,,,Password
+21569,d92c1b89,GitHub,ef35cd4d,data/ef35cd4d/test/d92c1b89.ps1,115,115,F,-1,-1,,,Key
+23978,296b0e62,GitHub,ef35cd4d,data/ef35cd4d/test/296b0e62.ps1,374,374,F,-1,-1,,,Key
+23979,296b0e62,GitHub,ef35cd4d,data/ef35cd4d/test/296b0e62.ps1,344,344,F,-1,-1,,,Key
+107382,c315ade3,GitHub,ef35cd4d,data/ef35cd4d/src/c315ade3.cs,78,78,F,-1,-1,,,Other
+1120000,6ba98a3f,GitHub,ef35cd4d,data/ef35cd4d/src/6ba98a3f.json,1,1,F,,,,,API:Certificate:Password:Auth:Key:Nonce:Token
+1479534,03d75974,GitHub,ef35cd4d,data/ef35cd4d/other/03d75974.md,99,99,F,228,238,,,CMD Password
+1479535,03d75974,GitHub,ef35cd4d,data/ef35cd4d/other/03d75974.md,101,101,F,25,29,,,CMD ConvertTo-SecureString

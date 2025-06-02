@@ -262,8 +262,8 @@ class Scanner(ABC):
         approximate = f"{self.meta_next_id},{file_id}" \
                       f",GitHub,{repo_name},{data_path}" \
                       f",{line_start},{line_end}" \
-                      f",F,F,{value_start},{value_end}" \
-                      f",F,F,,,,,0.0,0,F,F,F,{rule}"
+                      f",F,{value_start},{value_end}" \
+                      f",,,{rule}"
         lost_meta = MetaRow({
             "Id": self.meta_next_id,
             "FileID": file_id,
@@ -273,20 +273,10 @@ class Scanner(ABC):
             "LineStart": line_start,
             "LineEnd": line_end,
             "GroundTruth": 'F',
-            "WithWords": 'F',
             "ValueStart": value_start,
             "ValueEnd": value_end,
-            "InURL": 'F',
-            "InRuntimeParameter": 'F',
-            "CharacterSet": '',
             "CryptographyKey": '',
             "PredefinedPattern": '',
-            "VariableNameType": '',
-            "Entropy": 0.0,
-            "Length": 0,
-            "Base64Encode": 'F',
-            "HexEncode": 'F',
-            "URLEncode": 'F',
             "Category": rule
         })
 

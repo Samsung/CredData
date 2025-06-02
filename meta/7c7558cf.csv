@@ -1,66 +1,66 @@
-Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-5,1ea02434,Github,7c7558cf,data/7c7558cf/other/1ea02434,40,40,T,F,46,50,T,F,,,,,,4,F,F,F,Auth:URL Credentials
-15,024426f1,Github,7c7558cf,data/7c7558cf/src/024426f1.yml,20,20,T,F,31,39,F,F,,,,,0.0,8,F,F,F,Password
-16,024426f1,Github,7c7558cf,data/7c7558cf/src/024426f1.yml,52,52,T,F,31,51,F,F,,,T,,0.0,20,F,F,F,AWS Client ID:Key
-21,024426f1,Github,7c7558cf,data/7c7558cf/src/024426f1.yml,53,53,T,F,35,75,F,F,,,,,0.0,40,F,F,F,Secret:Key
-22,024426f1,Github,7c7558cf,data/7c7558cf/src/024426f1.yml,54,54,T,F,55,63,T,F,,,,,0.0,8,F,F,F,Auth:URL Credentials
-126,c1f51cea,Github,7c7558cf,data/7c7558cf/src/c1f51cea.yml,41,41,T,F,31,51,F,F,,,T,,0.0,20,F,F,F,AWS Client ID:Key
-129,c1f51cea,Github,7c7558cf,data/7c7558cf/src/c1f51cea.yml,42,42,T,F,35,75,F,F,,,,,0.0,40,F,F,F,Key:Secret
-130,c65b9371,Github,7c7558cf,data/7c7558cf/src/c65b9371.py,259,259,T,F,18,38,F,F,,,,,0.0,20,F,F,F,Password:Key:Secret
-131,c7e23c27,Github,7c7558cf,data/7c7558cf/src/c7e23c27.yml,24,24,T,F,29,37,F,F,,,,,0.0,8,F,F,F,Password
-132,c7e23c27,Github,7c7558cf,data/7c7558cf/src/c7e23c27.yml,59,59,T,F,31,51,F,F,,,T,,0.0,20,F,F,F,AWS Client ID:Key
-145,c7e23c27,Github,7c7558cf,data/7c7558cf/src/c7e23c27.yml,60,60,T,F,35,75,F,F,,,,,0.0,40,F,F,F,Secret:Key
-146,c7e23c27,Github,7c7558cf,data/7c7558cf/src/c7e23c27.yml,61,61,T,F,54,62,F,F,,,,,0.0,8,F,F,F,Auth:URL Credentials
-152,d6cd0538,Github,7c7558cf,data/7c7558cf/src/d6cd0538.py,30,30,F,F,34,72,F,F,,,,,,38,F,F,F,Password
-153,d6cd0538,Github,7c7558cf,data/7c7558cf/src/d6cd0538.py,37,37,F,F,41,84,F,F,,,,,,43,F,F,F,Password
-158,0e855734,Github,7c7558cf,data/7c7558cf/test/0e855734.py,14,14,T,F,36,62,F,F,,,,,0.0,26,F,F,F,Password:Auth:Secret
-159,1f0f9c6b,Github,7c7558cf,data/7c7558cf/test/1f0f9c6b.py,77,77,T,F,37,45,F,F,,,,,0.0,8,F,F,F,Password
-160,361d05f5,Github,7c7558cf,data/7c7558cf/test/361d05f5.py,94,94,T,F,77,85,F,F,,,,,0.0,8,F,F,F,Password
-162,3c5fdab2,Github,7c7558cf,data/7c7558cf/test/3c5fdab2.py,30,30,T,F,56,64,F,F,,,,,0.0,8,F,F,F,Password
-169,4ce50048,Github,7c7558cf,data/7c7558cf/test/4ce50048.py,14,14,T,F,36,62,F,F,,,,,0.0,26,F,F,F,Password:Auth:Secret
-187,61d93137,Github,7c7558cf,data/7c7558cf/test/61d93137.py,163,163,T,F,71,79,F,F,,,,,0.0,8,F,F,F,Password
-199,65d407e4,Github,7c7558cf,data/7c7558cf/test/65d407e4.py,132,132,T,F,33,47,F,F,,,,,0.0,14,F,F,F,Password
-207,7ce0a07c,Github,7c7558cf,data/7c7558cf/test/7ce0a07c.py,70,70,T,F,25,37,F,F,,,,,0.0,12,F,F,F,Password
-212,a1605950,Github,7c7558cf,data/7c7558cf/test/a1605950.py,117,117,T,F,40,54,F,F,,,,,0.0,14,F,F,F,Password
-216,a9285a07,Github,7c7558cf,data/7c7558cf/test/a9285a07.py,656,656,T,F,58,70,F,F,,,,,0.0,12,F,F,F,Password
-218,a9285a07,Github,7c7558cf,data/7c7558cf/test/a9285a07.py,695,695,T,F,57,73,F,F,,,,,0.0,16,F,F,F,Password
-230,b5a9a68e,Github,7c7558cf,data/7c7558cf/test/b5a9a68e.py,136,136,T,F,60,68,F,F,,,,,0.0,8,F,F,F,Password
-233,d19577f2,Github,7c7558cf,data/7c7558cf/test/d19577f2.py,58,58,T,F,52,60,F,F,,,,,0.0,8,F,F,F,Password
-236,d9540f8f,Github,7c7558cf,data/7c7558cf/test/d9540f8f.py,26,26,T,F,39,47,F,F,,,,,0.0,8,F,F,F,Password
-237,d9540f8f,Github,7c7558cf,data/7c7558cf/test/d9540f8f.py,92,92,T,F,41,67,F,F,,,,,0.0,26,F,F,F,Password:API:Key
-242,e09719bd,Github,7c7558cf,data/7c7558cf/test/e09719bd.py,22,22,T,F,47,87,F,F,,,,,0.0,40,F,F,F,Key:Secret
-245,eec6ccc1,Github,7c7558cf,data/7c7558cf/test/eec6ccc1.py,56,56,T,F,56,68,F,F,,,,,0.0,12,F,F,F,Password
-251,eed31b8d,Github,7c7558cf,data/7c7558cf/test/eed31b8d.py,37,37,T,F,44,64,F,F,,,,,0.0,20,F,F,F,Password:Key:Secret
-291,efb3e8b9,Github,7c7558cf,data/7c7558cf/test/efb3e8b9.py,31,31,T,F,25,42,F,F,,,,,0.0,17,F,F,F,Password
-292,f3216c6f,Github,7c7558cf,data/7c7558cf/test/f3216c6f.py,34,34,T,F,36,62,F,F,,,,,0.0,26,F,F,F,Password:Auth:Secret
-295,f477b7e6,Github,7c7558cf,data/7c7558cf/test/f477b7e6.py,45,45,T,F,32,40,F,F,,,,,0.0,8,F,F,F,Password
-299,fc7c0052,Github,7c7558cf,data/7c7558cf/test/fc7c0052.py,23,23,T,F,41,49,F,F,,,,,0.0,8,F,F,F,Password
-310,a9285a07,Github,7c7558cf,data/7c7558cf/test/a9285a07.py,643,643,T,F,74,81,F,F,,,,,2.52,7,F,F,F,Password
-312,a9285a07,Github,7c7558cf,data/7c7558cf/test/a9285a07.py,671,671,T,F,56,63,F,F,,,,,2.52,7,F,F,F,Password
-135284,a9285a07,GitHub,7c7558cf,data/7c7558cf/test/a9285a07.py,675,675,T,F,68,80,F,F,,,,,0.0,0,F,F,F,Password
-135285,a9285a07,GitHub,7c7558cf,data/7c7558cf/test/a9285a07.py,686,686,T,F,58,70,F,F,,,,,0.0,0,F,F,F,Password
-135287,a1605950,GitHub,7c7558cf,data/7c7558cf/test/a1605950.py,395,395,F,F,,,F,F,,,,,0,0,F,F,F,Password
-135288,a9285a07,GitHub,7c7558cf,data/7c7558cf/test/a9285a07.py,667,667,F,F,,,F,F,,,,,0,0,F,F,F,Password
-135289,a9285a07,GitHub,7c7558cf,data/7c7558cf/test/a9285a07.py,679,679,F,F,,,F,F,,,,,0,0,F,F,F,Password
-135290,a9285a07,GitHub,7c7558cf,data/7c7558cf/test/a9285a07.py,690,690,F,F,,,F,F,,,,,0,0,F,F,F,Password
-135291,d19577f2,GitHub,7c7558cf,data/7c7558cf/test/d19577f2.py,32,32,F,F,,,F,F,,,,,0,0,F,F,F,Key
-135292,eec6ccc1,GitHub,7c7558cf,data/7c7558cf/test/eec6ccc1.py,36,36,F,F,,,F,F,,,,,0,0,F,F,F,Password
-136755,024426f1,GitHub,7c7558cf,data/7c7558cf/src/024426f1.yml,52,53,T,F,31,75,F,F,,,,,0.0,0,F,F,F,AWS Multi
-136756,c1f51cea,GitHub,7c7558cf,data/7c7558cf/src/c1f51cea.yml,41,42,T,F,31,75,F,F,,,,,0.0,0,F,F,F,AWS Multi
-136757,c7e23c27,GitHub,7c7558cf,data/7c7558cf/src/c7e23c27.yml,59,60,T,F,31,75,F,F,,,,,0.0,0,F,F,F,AWS Multi
-1137985,e09719bd,GitHub,7c7558cf,data/7c7558cf/test/e09719bd.py,49,49,T,F,47,87,F,F,,,,,0.0,0,F,F,F,Key:Secret
-1137986,e09719bd,GitHub,7c7558cf,data/7c7558cf/test/e09719bd.py,80,80,T,F,47,87,F,F,,,,,0.0,0,F,F,F,Key:Secret
-1339742,eec6ccc1,GitHub,7c7558cf,data/7c7558cf/test/eec6ccc1.py,78,78,T,F,18,54,F,F,,,,,0.0,0,F,F,F,UUID
-1339743,eec6ccc1,GitHub,7c7558cf,data/7c7558cf/test/eec6ccc1.py,79,79,T,F,18,54,F,F,,,,,0.0,0,F,F,F,UUID
-1339744,eec6ccc1,GitHub,7c7558cf,data/7c7558cf/test/eec6ccc1.py,81,81,T,F,18,54,F,F,,,,,0.0,0,F,F,F,UUID
-1339745,eec6ccc1,GitHub,7c7558cf,data/7c7558cf/test/eec6ccc1.py,82,82,T,F,18,54,F,F,,,,,0.0,0,F,F,F,UUID
-1339746,eec6ccc1,GitHub,7c7558cf,data/7c7558cf/test/eec6ccc1.py,83,83,T,F,18,54,F,F,,,,,0.0,0,F,F,F,UUID
-1339747,eec6ccc1,GitHub,7c7558cf,data/7c7558cf/test/eec6ccc1.py,84,84,T,F,18,54,F,F,,,,,0.0,0,F,F,F,UUID
-1339748,eec6ccc1,GitHub,7c7558cf,data/7c7558cf/test/eec6ccc1.py,85,85,T,F,18,54,F,F,,,,,0.0,0,F,F,F,UUID
-1339749,eec6ccc1,GitHub,7c7558cf,data/7c7558cf/test/eec6ccc1.py,86,86,T,F,18,54,F,F,,,,,0.0,0,F,F,F,UUID
-1339750,eec6ccc1,GitHub,7c7558cf,data/7c7558cf/test/eec6ccc1.py,88,88,T,F,18,54,F,F,,,,,0.0,0,F,F,F,UUID
-1339751,eec6ccc1,GitHub,7c7558cf,data/7c7558cf/test/eec6ccc1.py,89,89,T,F,18,54,F,F,,,,,0.0,0,F,F,F,UUID
-1480682,1ea02434,GitHub,7c7558cf,data/7c7558cf/other/1ea02434,29,29,T,F,50,54,F,F,,,,,0.0,0,F,F,F,SQL Password
-1494447,e45e45ba,GitHub,7c7558cf,data/7c7558cf/src/e45e45ba.yml,43,43,T,F,28,32,F,F,,,,,0.0,0,F,F,F,Password
-1494448,e45e45ba,GitHub,7c7558cf,data/7c7558cf/src/e45e45ba.yml,45,45,T,F,23,27,F,F,,,,,0.0,0,F,F,F,Password
-1494889,e45e45ba,GitHub,7c7558cf,data/7c7558cf/src/e45e45ba.yml,12,12,T,F,42,46,F,F,,,,,0.0,0,F,F,F,URL Credentials
+Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd,CryptographyKey,PredefinedPattern,Category
+5,1ea02434,Github,7c7558cf,data/7c7558cf/other/1ea02434,40,40,T,46,50,,,Auth:URL Credentials
+15,024426f1,Github,7c7558cf,data/7c7558cf/src/024426f1.yml,20,20,T,31,39,,,Password
+16,024426f1,Github,7c7558cf,data/7c7558cf/src/024426f1.yml,52,52,T,31,51,,T,AWS Client ID:Key
+21,024426f1,Github,7c7558cf,data/7c7558cf/src/024426f1.yml,53,53,T,35,75,,,Secret:Key
+22,024426f1,Github,7c7558cf,data/7c7558cf/src/024426f1.yml,54,54,T,55,63,,,Auth:URL Credentials
+126,c1f51cea,Github,7c7558cf,data/7c7558cf/src/c1f51cea.yml,41,41,T,31,51,,T,AWS Client ID:Key
+129,c1f51cea,Github,7c7558cf,data/7c7558cf/src/c1f51cea.yml,42,42,T,35,75,,,Key:Secret
+130,c65b9371,Github,7c7558cf,data/7c7558cf/src/c65b9371.py,259,259,T,18,38,,,Password:Key:Secret
+131,c7e23c27,Github,7c7558cf,data/7c7558cf/src/c7e23c27.yml,24,24,T,29,37,,,Password
+132,c7e23c27,Github,7c7558cf,data/7c7558cf/src/c7e23c27.yml,59,59,T,31,51,,T,AWS Client ID:Key
+145,c7e23c27,Github,7c7558cf,data/7c7558cf/src/c7e23c27.yml,60,60,T,35,75,,,Secret:Key
+146,c7e23c27,Github,7c7558cf,data/7c7558cf/src/c7e23c27.yml,61,61,T,54,62,,,Auth:URL Credentials
+152,d6cd0538,Github,7c7558cf,data/7c7558cf/src/d6cd0538.py,30,30,F,34,72,,,Password
+153,d6cd0538,Github,7c7558cf,data/7c7558cf/src/d6cd0538.py,37,37,F,41,84,,,Password
+158,0e855734,Github,7c7558cf,data/7c7558cf/test/0e855734.py,14,14,T,36,62,,,Password:Auth:Secret
+159,1f0f9c6b,Github,7c7558cf,data/7c7558cf/test/1f0f9c6b.py,77,77,T,37,45,,,Password
+160,361d05f5,Github,7c7558cf,data/7c7558cf/test/361d05f5.py,94,94,T,77,85,,,Password
+162,3c5fdab2,Github,7c7558cf,data/7c7558cf/test/3c5fdab2.py,30,30,T,56,64,,,Password
+169,4ce50048,Github,7c7558cf,data/7c7558cf/test/4ce50048.py,14,14,T,36,62,,,Password:Auth:Secret
+187,61d93137,Github,7c7558cf,data/7c7558cf/test/61d93137.py,163,163,T,71,79,,,Password
+199,65d407e4,Github,7c7558cf,data/7c7558cf/test/65d407e4.py,132,132,T,33,47,,,Password
+207,7ce0a07c,Github,7c7558cf,data/7c7558cf/test/7ce0a07c.py,70,70,T,25,37,,,Password
+212,a1605950,Github,7c7558cf,data/7c7558cf/test/a1605950.py,117,117,T,40,54,,,Password
+216,a9285a07,Github,7c7558cf,data/7c7558cf/test/a9285a07.py,656,656,T,58,70,,,Password
+218,a9285a07,Github,7c7558cf,data/7c7558cf/test/a9285a07.py,695,695,T,57,73,,,Password
+230,b5a9a68e,Github,7c7558cf,data/7c7558cf/test/b5a9a68e.py,136,136,T,60,68,,,Password
+233,d19577f2,Github,7c7558cf,data/7c7558cf/test/d19577f2.py,58,58,T,52,60,,,Password
+236,d9540f8f,Github,7c7558cf,data/7c7558cf/test/d9540f8f.py,26,26,T,39,47,,,Password
+237,d9540f8f,Github,7c7558cf,data/7c7558cf/test/d9540f8f.py,92,92,T,41,67,,,Password:API:Key
+242,e09719bd,Github,7c7558cf,data/7c7558cf/test/e09719bd.py,22,22,T,47,87,,,Key:Secret
+245,eec6ccc1,Github,7c7558cf,data/7c7558cf/test/eec6ccc1.py,56,56,T,56,68,,,Password
+251,eed31b8d,Github,7c7558cf,data/7c7558cf/test/eed31b8d.py,37,37,T,44,64,,,Password:Key:Secret
+291,efb3e8b9,Github,7c7558cf,data/7c7558cf/test/efb3e8b9.py,31,31,T,25,42,,,Password
+292,f3216c6f,Github,7c7558cf,data/7c7558cf/test/f3216c6f.py,34,34,T,36,62,,,Password:Auth:Secret
+295,f477b7e6,Github,7c7558cf,data/7c7558cf/test/f477b7e6.py,45,45,T,32,40,,,Password
+299,fc7c0052,Github,7c7558cf,data/7c7558cf/test/fc7c0052.py,23,23,T,41,49,,,Password
+310,a9285a07,Github,7c7558cf,data/7c7558cf/test/a9285a07.py,643,643,T,74,81,,,Password
+312,a9285a07,Github,7c7558cf,data/7c7558cf/test/a9285a07.py,671,671,T,56,63,,,Password
+135284,a9285a07,GitHub,7c7558cf,data/7c7558cf/test/a9285a07.py,675,675,T,68,80,,,Password
+135285,a9285a07,GitHub,7c7558cf,data/7c7558cf/test/a9285a07.py,686,686,T,58,70,,,Password
+135287,a1605950,GitHub,7c7558cf,data/7c7558cf/test/a1605950.py,395,395,F,,,,,Password
+135288,a9285a07,GitHub,7c7558cf,data/7c7558cf/test/a9285a07.py,667,667,F,,,,,Password
+135289,a9285a07,GitHub,7c7558cf,data/7c7558cf/test/a9285a07.py,679,679,F,,,,,Password
+135290,a9285a07,GitHub,7c7558cf,data/7c7558cf/test/a9285a07.py,690,690,F,,,,,Password
+135291,d19577f2,GitHub,7c7558cf,data/7c7558cf/test/d19577f2.py,32,32,F,,,,,Key
+135292,eec6ccc1,GitHub,7c7558cf,data/7c7558cf/test/eec6ccc1.py,36,36,F,,,,,Password
+136755,024426f1,GitHub,7c7558cf,data/7c7558cf/src/024426f1.yml,52,53,T,31,75,,,AWS Multi
+136756,c1f51cea,GitHub,7c7558cf,data/7c7558cf/src/c1f51cea.yml,41,42,T,31,75,,,AWS Multi
+136757,c7e23c27,GitHub,7c7558cf,data/7c7558cf/src/c7e23c27.yml,59,60,T,31,75,,,AWS Multi
+1137985,e09719bd,GitHub,7c7558cf,data/7c7558cf/test/e09719bd.py,49,49,T,47,87,,,Key:Secret
+1137986,e09719bd,GitHub,7c7558cf,data/7c7558cf/test/e09719bd.py,80,80,T,47,87,,,Key:Secret
+1339742,eec6ccc1,GitHub,7c7558cf,data/7c7558cf/test/eec6ccc1.py,78,78,T,18,54,,,UUID
+1339743,eec6ccc1,GitHub,7c7558cf,data/7c7558cf/test/eec6ccc1.py,79,79,T,18,54,,,UUID
+1339744,eec6ccc1,GitHub,7c7558cf,data/7c7558cf/test/eec6ccc1.py,81,81,T,18,54,,,UUID
+1339745,eec6ccc1,GitHub,7c7558cf,data/7c7558cf/test/eec6ccc1.py,82,82,T,18,54,,,UUID
+1339746,eec6ccc1,GitHub,7c7558cf,data/7c7558cf/test/eec6ccc1.py,83,83,T,18,54,,,UUID
+1339747,eec6ccc1,GitHub,7c7558cf,data/7c7558cf/test/eec6ccc1.py,84,84,T,18,54,,,UUID
+1339748,eec6ccc1,GitHub,7c7558cf,data/7c7558cf/test/eec6ccc1.py,85,85,T,18,54,,,UUID
+1339749,eec6ccc1,GitHub,7c7558cf,data/7c7558cf/test/eec6ccc1.py,86,86,T,18,54,,,UUID
+1339750,eec6ccc1,GitHub,7c7558cf,data/7c7558cf/test/eec6ccc1.py,88,88,T,18,54,,,UUID
+1339751,eec6ccc1,GitHub,7c7558cf,data/7c7558cf/test/eec6ccc1.py,89,89,T,18,54,,,UUID
+1480682,1ea02434,GitHub,7c7558cf,data/7c7558cf/other/1ea02434,29,29,T,50,54,,,SQL Password
+1494447,e45e45ba,GitHub,7c7558cf,data/7c7558cf/src/e45e45ba.yml,43,43,T,28,32,,,Password
+1494448,e45e45ba,GitHub,7c7558cf,data/7c7558cf/src/e45e45ba.yml,45,45,T,23,27,,,Password
+1494889,e45e45ba,GitHub,7c7558cf,data/7c7558cf/src/e45e45ba.yml,12,12,T,42,46,,,URL Credentials
