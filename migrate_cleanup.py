@@ -30,3 +30,4 @@ def migrate_dir(dir_path: Path):
 if __name__ == "__main__":
     meta_dir = Path("meta")  # Replace with your actual path
     migrate_dir(meta_dir)
+

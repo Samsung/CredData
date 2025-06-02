@@ -16,7 +16,10 @@ class MetaRow:
     LineEnd: int
     GroundTruth: str
     ValueStart: int
-    ValueEnd: int 
+
+    
+    ValueEnd: int
+
     CryptographyKey: str
     PredefinedPattern: str
     Category: str
