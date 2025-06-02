@@ -10,12 +10,12 @@ FIELDS_TO_REMOVE = {
 def clean_csv_file(path: Path):
     if not path.suffix == ".csv":
         return
-    with path.open("r", newline='') as f:
+    with path.open("r", newline='',  encoding="utf_8") as f:
         reader = csv.DictReader(f)
         fieldnames = [f for f in reader.fieldnames if f not in FIELDS_TO_REMOVE]
         rows = [{k: row[k] for k in fieldnames} for row in reader]
 
-    with path.open("w", newline='') as f:
+    with path.open("w", newline='',  encoding="utf_8") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(rows)
