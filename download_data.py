@@ -27,10 +27,16 @@ def get_file_type(file_path: str, file_extension: str):
     file_path = file_path.lower()
 
     example_indicators = ["test", "examp"]
+    conf_indicators = ["config", ".ini", ".yaml", ".yml", ".toml"]
+    script_indicators = [".sh", ".py", ".bat", "script"]
     other_indicators = ["doc/", "documen", ".md", "readme"]
 
     if any(ind in file_path for ind in example_indicators):
-        return "test"
+        return "test" 
+    if any(ind in file_path for ind in conf_indicators):
+        return "conf"
+    if any(ind in file_path for ind in script_indicators):
+        return "script"
     if any(ind in file_path for ind in other_indicators) or file_extension == "":
         return "other"
 
