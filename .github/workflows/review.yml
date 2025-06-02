@@ -70,13 +70,9 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           python -m pip install --requirement requirements.txt
-          # skip extra hints from git
-          git config --global init.defaultBranch work
           python download_data.py --data_dir data --jobs $(nproc)
-          # quick review with check only to detect errors in console
-          python review_data.py --check
-          python review_data.py &>review_head.txt
-          ansi2html --style 'pre {font-family: monospace; font-size: large}' <review_head.txt  >review_head.html
+          python review_data.py &>review_base.txt
+          ansi2html --style 'pre {font-family: monospace; font-size: large}' <review_base.txt  >review_base.html
 
       - name: Produce benchmark scores from empty report to check markup only
         if: steps.cache-data.outputs.cache-hit != 'true'
