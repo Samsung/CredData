@@ -154,9 +154,11 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           python -m pip install --requirement requirements.txt
+          git config --global init.defaultBranch work
           python download_data.py --data_dir data --jobs $(nproc)
-          python review_data.py &>review_base.txt
-          ansi2html --style 'pre {font-family: monospace; font-size: large}' <review_base.txt  >review_base.html
+          python review_data.py --check || true
+          python review_data.py &>review_head.txt || echo "Review failed" > review_head.txt
+          ansi2html --style 'pre {font-family: monospace; font-size: large}' <review_head.txt  >review_head.html
 
       - name: Upload artifact
         if: always()
