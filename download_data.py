@@ -23,19 +23,66 @@ logging.basicConfig(
 logger = logging.getLogger(__file__)
 
 
-def get_file_type(file_path: str, file_extension: str):
-    file_path = file_path.lower()
+from pathlib import Path
 
-    example_indicators = ["test", "examp"]
-    other_indicators = ["doc/", "documen", ".md", "readme"]
+SCOPES = [
+    "/conf",
+    "/dist-packages/",
+    "/example",
+    "/record",
+    "/script",
+    "/site-packages/",
+    "/src/",
+    "/test",
+    "/tool",
+    
+    "/assets/"
+]
 
-    if any(ind in file_path for ind in example_indicators):
+example_indicators = ["test", "examp"]
+other_indicators = ["doc/", "documen", ".md", "readme"]
+
+def get_file_type(file_path: str, file_extension: str) -> str:
+    """Determine the file type (scope) based on path and known indicators."""
+    posix_path = Path(file_path).as_posix().lower()
+
+    
+    for scope in SCOPES:
+        if scope in posix_path:
+            return scope.strip("/")
+
+    
+    if any(ind in posix_path for ind in example_indicators):
         return "test"
-    if any(ind in file_path for ind in other_indicators) or file_extension == "":
+    if any(ind in posix_path for ind in other_indicators) or file_extension == "":
         return "other"
 
-    return "src"
+    return "src"  
 
+def restructure_dataset(input_dir: Path, output_dir: Path):
+    """Reorganize files into scope-based folders."""
+    for file_path in input_dir.glob("**/*"):
+        if not file_path.is_file():
+            continue
+
+        
+        project_name = file_path.relative_to(input_dir).parts[0]
+        
+        
+        scope = get_file_type(str(file_path))
+        target_path = output_dir / project_name / scope / file_path.name
+
+        
+        target_path.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(file_path, target_path)  
+
+if __name__ == "__main__":
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--input", type=Path, required=True, help="Raw dataset directory (e.g., ./raw_data)")
+    parser.add_argument("--output", type=Path, required=True, help="Processed output directory (e.g., ./scoped_data)")
+    args = parser.parse_args()
+    restructure_dataset(args.input, args.output)
 
 def collect_licenses(temp_dir, ownername, reponame):
     license_files = list(pathlib.Path(f"{temp_dir}/{ownername}/{reponame}").glob("*LICEN*"))
