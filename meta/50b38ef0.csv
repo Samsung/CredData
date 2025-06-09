@@ -1,69 +1,69 @@
-Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-5981,12b333e1,GitHub,50b38ef0,data/50b38ef0/src/12b333e1.js,62,62,F,F,,,F,F,,,,,0,0,F,F,F,Secret
-7666,170d3073,GitHub,50b38ef0,data/50b38ef0/other/170d3073.md,17,17,F,F,,,F,F,,,,,0,0,F,F,F,Password
-8252,72f5050b,GitHub,50b38ef0,data/50b38ef0/other/72f5050b.md,60,60,Template,T,21,25,F,F,Any,,,Secret,3.18,13,F,F,F,URL Credentials
-8730,cc148162,GitHub,50b38ef0,data/50b38ef0/other/cc148162.md,54,54,F,F,,,F,F,,,,,0,0,F,F,F,Password
-10057,78287d98,GitHub,50b38ef0,data/50b38ef0/other/78287d98.md,19,19,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-10062,bb7f2b59,GitHub,50b38ef0,data/50b38ef0/other/bb7f2b59.md,18,18,Template,T,123,131,T,F,Any,,,Secret,3.18,13,F,F,F,URL Credentials
-10063,bb7f2b59,GitHub,50b38ef0,data/50b38ef0/other/bb7f2b59.md,17,17,Template,T,118,126,T,F,Any,,,Secret,3.18,13,F,F,F,URL Credentials
-10064,bb7f2b59,GitHub,50b38ef0,data/50b38ef0/other/bb7f2b59.md,19,19,Template,T,120,128,T,F,Any,,,Secret,3.18,13,F,F,F,URL Credentials
-13682,8bccf0a9,GitHub,50b38ef0,data/50b38ef0/other/8bccf0a9.md,113,113,T,F,54,61,F,F,Any,,,Secret,0.0,0,F,F,F,Password
-15209,12b333e1,GitHub,50b38ef0,data/50b38ef0/src/12b333e1.js,53,53,Template,T,54,74,F,F,CharOnly,,,Secret,3.58,20,F,F,F,Gitlab Feed Token:Secret
-15652,06572a96,GitHub,50b38ef0,data/50b38ef0/other/06572a96.md,734,734,F,F,,,F,F,,,,,0,0,F,F,F,API
-17337,14b2f2d8,GitHub,50b38ef0,data/50b38ef0/test/14b2f2d8.md,162,162,Template,T,21,25,F,F,CharOnly,,,Secret,1.5,4,F,F,F,Password
-18098,25f34636,GitHub,50b38ef0,data/50b38ef0/other/25f34636.md,71,71,Template,T,19,27,T,F,CharOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-18193,06572a96,GitHub,50b38ef0,data/50b38ef0/other/06572a96.md,736,736,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-18194,06572a96,GitHub,50b38ef0,data/50b38ef0/other/06572a96.md,729,729,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-18195,06572a96,GitHub,50b38ef0,data/50b38ef0/other/06572a96.md,735,735,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-24485,25f34636,GitHub,50b38ef0,data/50b38ef0/other/25f34636.md,62,62,T,F,122,127,T,F,Any,,,Secret,2.32,5,F,F,F,URL Credentials
-27217,bb7f2b59,GitHub,50b38ef0,data/50b38ef0/other/bb7f2b59.md,69,69,Template,T,24,32,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-27240,bb7f2b59,GitHub,50b38ef0,data/50b38ef0/other/bb7f2b59.md,37,37,Template,T,19,27,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-27261,bb7f2b59,GitHub,50b38ef0,data/50b38ef0/other/bb7f2b59.md,87,87,Template,T,21,29,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-28842,dbb1de2c,GitHub,50b38ef0,data/50b38ef0/other/dbb1de2c.md,34,34,Template,F,23,28,F,F,NumbersOnly,,,Secret,2.32,5,F,F,F,Password
-29582,25f34636,GitHub,50b38ef0,data/50b38ef0/other/25f34636.md,33,33,T,F,23,30,T,F,Any,,,Secret,2.52,7,F,F,F,URL Credentials
-29940,09276c69,GitHub,50b38ef0,data/50b38ef0/test/09276c69.js,44,44,Template,F,23,29,F,F,Any,,,Secret,2.58,6,F,F,F,Secret
-29948,8b39bea1,GitHub,50b38ef0,data/50b38ef0/test/8b39bea1.js,33,33,Template,F,23,29,F,F,Any,,,Secret,2.58,6,F,F,F,Secret
-29970,307bc773,GitHub,50b38ef0,data/50b38ef0/other/307bc773.md,21,21,Template,T,15,24,F,F,Any,,,Secret,2.37,9,F,F,F,Secret
-34060,67f8e17a,GitHub,50b38ef0,data/50b38ef0/other/67f8e17a.md,61,61,F,T,29,44,F,F,Any,,,Secret,2.93,15,F,F,F,Password
-34266,25f34636,GitHub,50b38ef0,data/50b38ef0/other/25f34636.md,50,50,Template,T,16,24,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-34391,f6ca42e0,GitHub,50b38ef0,data/50b38ef0/other/f6ca42e0.md,72,72,T,T,13,30,F,F,Any,,,Secret,3.61,17,F,F,F,Password
-34792,25f34636,GitHub,50b38ef0,data/50b38ef0/other/25f34636.md,129,129,T,F,32,41,T,F,Any,,,Secret,2.42,9,F,F,F,URL Credentials
-34793,25f34636,GitHub,50b38ef0,data/50b38ef0/other/25f34636.md,125,125,T,F,30,39,T,F,Any,,,Secret,2.42,9,F,F,F,URL Credentials
-34794,25f34636,GitHub,50b38ef0,data/50b38ef0/other/25f34636.md,89,89,T,F,36,51,T,F,Any,,,Secret,3.37,15,F,F,F,Dropbox App secret:URL Credentials
-34795,6ab9d73d,GitHub,50b38ef0,data/50b38ef0/other/6ab9d73d.md,180,180,T,F,22,29,T,F,Any,,,Secret,2.01,7,F,F,F,URL Credentials
-35099,d58223b2,GitHub,50b38ef0,data/50b38ef0/other/d58223b2.md,46,46,Template,T,57,72,T,F,Any,,,Secret,2.98,15,F,F,F,URL Credentials
-35219,87692f11,GitHub,50b38ef0,data/50b38ef0/test/87692f11.js,28,28,T,F,17,49,F,F,Any,,,Secret,3.62,32,F,F,F,Secret
-35410,251bdda8,GitHub,50b38ef0,data/50b38ef0/test/251bdda8.pem,1,27,T,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,PEM Private Key
-36201,d3019f49,GitHub,50b38ef0,data/50b38ef0/other/d3019f49.md,52,52,T,F,21,33,F,F,Any,,,Token,2.79,12,F,F,F,Token
-36295,25f34636,GitHub,50b38ef0,data/50b38ef0/other/25f34636.md,70,70,Template,T,19,27,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-46750,09276c69,GitHub,50b38ef0,data/50b38ef0/test/09276c69.js,84,84,Template,F,25,31,F,F,Any,,,Secret,2.58,6,F,F,F,Secret
-46751,09276c69,GitHub,50b38ef0,data/50b38ef0/test/09276c69.js,167,167,Template,F,25,31,F,F,Any,,,Secret,2.58,6,F,F,F,Secret
-46799,8b39bea1,GitHub,50b38ef0,data/50b38ef0/test/8b39bea1.js,189,189,Template,F,23,29,F,F,Any,,,Secret,2.58,6,F,F,F,Secret
-48127,30b47f0b,GitHub,50b38ef0,data/50b38ef0/other/30b47f0b.md,251,251,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-50398,bb7f2b59,GitHub,50b38ef0,data/50b38ef0/other/bb7f2b59.md,52,52,Template,T,19,27,T,F,CharsOnly,,,Secret,2.75,8,F,F,F,URL Credentials
-57866,cc148162,GitHub,50b38ef0,data/50b38ef0/other/cc148162.md,69,69,T,F,15,25,F,F,,,,,0,0,F,F,F,Password
-74675,09276c69,GitHub,50b38ef0,data/50b38ef0/test/09276c69.js,85,85,Template,T,23,29,F,F,CharsOnly,,,Unknown,2.25,6,F,F,F,Password
-74676,09276c69,GitHub,50b38ef0,data/50b38ef0/test/09276c69.js,169,169,Template,T,23,29,F,F,CharsOnly,,,Unknown,2.25,6,F,F,F,Password
-74746,cc148162,GitHub,50b38ef0,data/50b38ef0/other/cc148162.md,57,57,T,T,13,23,F,F,CharsOnly,,,Secret,2.65,10,F,F,F,Password
-82752,12b333e1,GitHub,50b38ef0,data/50b38ef0/src/12b333e1.js,55,55,F,F,96,116,F,F,,,,,0.0,0,F,F,F,Secret
-107580,72f5050b,GitHub,50b38ef0,data/50b38ef0/other/72f5050b.md,142,142,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-107581,12b333e1,GitHub,50b38ef0,data/50b38ef0/src/12b333e1.js,65,65,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-107582,12b333e1,GitHub,50b38ef0,data/50b38ef0/src/12b333e1.js,66,66,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-107583,12b333e1,GitHub,50b38ef0,data/50b38ef0/src/12b333e1.js,144,144,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-107584,12b333e1,GitHub,50b38ef0,data/50b38ef0/src/12b333e1.js,152,152,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-107585,12b333e1,GitHub,50b38ef0,data/50b38ef0/src/12b333e1.js,153,153,F,F,,,F,F,,,,,0.00,,F,F,F,Secret
-107586,12b333e1,GitHub,50b38ef0,data/50b38ef0/src/12b333e1.js,165,165,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-107587,06572a96,GitHub,50b38ef0,data/50b38ef0/other/06572a96.md,215,215,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-107588,8bccf0a9,GitHub,50b38ef0,data/50b38ef0/other/8bccf0a9.md,69,69,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-107589,8bccf0a9,GitHub,50b38ef0,data/50b38ef0/other/8bccf0a9.md,75,75,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-107590,8bccf0a9,GitHub,50b38ef0,data/50b38ef0/other/8bccf0a9.md,112,112,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-107591,bb7f2b59,GitHub,50b38ef0,data/50b38ef0/other/bb7f2b59.md,5,5,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-107593,25f34636,GitHub,50b38ef0,data/50b38ef0/other/25f34636.md,75,75,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-107594,72f5050b,GitHub,50b38ef0,data/50b38ef0/other/72f5050b.md,117,117,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-107595,72f5050b,GitHub,50b38ef0,data/50b38ef0/other/72f5050b.md,126,126,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-107596,12b333e1,GitHub,50b38ef0,data/50b38ef0/src/12b333e1.js,110,110,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-133340,72f5050b,GitHub,50b38ef0,data/50b38ef0/other/72f5050b.md,27,27,F,F,,,F,F,,,,,0,0,F,F,F,URL Credentials
-133341,f6ca42e0,GitHub,50b38ef0,data/50b38ef0/other/f6ca42e0.md,8,8,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-1480598,30b47f0b,GitHub,50b38ef0,data/50b38ef0/other/30b47f0b.md,229,229,F,F,12,44,F,F,,,,,0.0,0,F,F,F,Bitbucket Client ID:Bitbucket Client Secret
-1480599,30b47f0b,GitHub,50b38ef0,data/50b38ef0/other/30b47f0b.md,250,250,F,F,12,44,F,F,,,,,0.0,0,F,F,F,Bitbucket Client ID:Bitbucket Client Secret
-1481005,25f34636,GitHub,50b38ef0,data/50b38ef0/other/25f34636.md,89,89,F,F,20,35,F,F,,,,,0.0,0,F,F,F,Dropbox App secret
+Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd,CryptographyKey,PredefinedPattern,Category
+5981,12b333e1,GitHub,50b38ef0,data/50b38ef0/src/12b333e1.js,62,62,F,,,,,Secret
+7666,170d3073,GitHub,50b38ef0,data/50b38ef0/other/170d3073.md,17,17,F,,,,,Password
+8252,72f5050b,GitHub,50b38ef0,data/50b38ef0/other/72f5050b.md,60,60,Template,21,25,,,URL Credentials
+8730,cc148162,GitHub,50b38ef0,data/50b38ef0/other/cc148162.md,54,54,F,,,,,Password
+10057,78287d98,GitHub,50b38ef0,data/50b38ef0/other/78287d98.md,19,19,F,-1,-1,,,Other
+10062,bb7f2b59,GitHub,50b38ef0,data/50b38ef0/other/bb7f2b59.md,18,18,Template,123,131,,,URL Credentials
+10063,bb7f2b59,GitHub,50b38ef0,data/50b38ef0/other/bb7f2b59.md,17,17,Template,118,126,,,URL Credentials
+10064,bb7f2b59,GitHub,50b38ef0,data/50b38ef0/other/bb7f2b59.md,19,19,Template,120,128,,,URL Credentials
+13682,8bccf0a9,GitHub,50b38ef0,data/50b38ef0/other/8bccf0a9.md,113,113,T,54,61,,,Password
+15209,12b333e1,GitHub,50b38ef0,data/50b38ef0/src/12b333e1.js,53,53,Template,54,74,,,Gitlab Feed Token:Secret
+15652,06572a96,GitHub,50b38ef0,data/50b38ef0/other/06572a96.md,734,734,F,,,,,API
+17337,14b2f2d8,GitHub,50b38ef0,data/50b38ef0/test/14b2f2d8.md,162,162,Template,21,25,,,Password
+18098,25f34636,GitHub,50b38ef0,data/50b38ef0/other/25f34636.md,71,71,Template,19,27,,,URL Credentials
+18193,06572a96,GitHub,50b38ef0,data/50b38ef0/other/06572a96.md,736,736,F,-1,-1,,,Other
+18194,06572a96,GitHub,50b38ef0,data/50b38ef0/other/06572a96.md,729,729,F,-1,-1,,,Other
+18195,06572a96,GitHub,50b38ef0,data/50b38ef0/other/06572a96.md,735,735,F,-1,-1,,,Other
+24485,25f34636,GitHub,50b38ef0,data/50b38ef0/other/25f34636.md,62,62,T,122,127,,,URL Credentials
+27217,bb7f2b59,GitHub,50b38ef0,data/50b38ef0/other/bb7f2b59.md,69,69,Template,24,32,,,URL Credentials
+27240,bb7f2b59,GitHub,50b38ef0,data/50b38ef0/other/bb7f2b59.md,37,37,Template,19,27,,,URL Credentials
+27261,bb7f2b59,GitHub,50b38ef0,data/50b38ef0/other/bb7f2b59.md,87,87,Template,21,29,,,URL Credentials
+28842,dbb1de2c,GitHub,50b38ef0,data/50b38ef0/other/dbb1de2c.md,34,34,Template,23,28,,,Password
+29582,25f34636,GitHub,50b38ef0,data/50b38ef0/other/25f34636.md,33,33,T,23,30,,,URL Credentials
+29940,09276c69,GitHub,50b38ef0,data/50b38ef0/test/09276c69.js,44,44,Template,23,29,,,Secret
+29948,8b39bea1,GitHub,50b38ef0,data/50b38ef0/test/8b39bea1.js,33,33,Template,23,29,,,Secret
+29970,307bc773,GitHub,50b38ef0,data/50b38ef0/other/307bc773.md,21,21,Template,15,24,,,Secret
+34060,67f8e17a,GitHub,50b38ef0,data/50b38ef0/other/67f8e17a.md,61,61,F,29,44,,,Password
+34266,25f34636,GitHub,50b38ef0,data/50b38ef0/other/25f34636.md,50,50,Template,16,24,,,URL Credentials
+34391,f6ca42e0,GitHub,50b38ef0,data/50b38ef0/other/f6ca42e0.md,72,72,T,13,30,,,Password
+34792,25f34636,GitHub,50b38ef0,data/50b38ef0/other/25f34636.md,129,129,T,32,41,,,URL Credentials
+34793,25f34636,GitHub,50b38ef0,data/50b38ef0/other/25f34636.md,125,125,T,30,39,,,URL Credentials
+34794,25f34636,GitHub,50b38ef0,data/50b38ef0/other/25f34636.md,89,89,T,36,51,,,Dropbox App secret:URL Credentials
+34795,6ab9d73d,GitHub,50b38ef0,data/50b38ef0/other/6ab9d73d.md,180,180,T,22,29,,,URL Credentials
+35099,d58223b2,GitHub,50b38ef0,data/50b38ef0/other/d58223b2.md,46,46,Template,57,72,,,URL Credentials
+35219,87692f11,GitHub,50b38ef0,data/50b38ef0/test/87692f11.js,28,28,T,17,49,,,Secret
+35410,251bdda8,GitHub,50b38ef0,data/50b38ef0/test/251bdda8.pem,1,27,T,,,Private,,PEM Private Key
+36201,d3019f49,GitHub,50b38ef0,data/50b38ef0/other/d3019f49.md,52,52,T,21,33,,,Token
+36295,25f34636,GitHub,50b38ef0,data/50b38ef0/other/25f34636.md,70,70,Template,19,27,,,URL Credentials
+46750,09276c69,GitHub,50b38ef0,data/50b38ef0/test/09276c69.js,84,84,Template,25,31,,,Secret
+46751,09276c69,GitHub,50b38ef0,data/50b38ef0/test/09276c69.js,167,167,Template,25,31,,,Secret
+46799,8b39bea1,GitHub,50b38ef0,data/50b38ef0/test/8b39bea1.js,189,189,Template,23,29,,,Secret
+48127,30b47f0b,GitHub,50b38ef0,data/50b38ef0/other/30b47f0b.md,251,251,F,-1,-1,,,Other
+50398,bb7f2b59,GitHub,50b38ef0,data/50b38ef0/other/bb7f2b59.md,52,52,Template,19,27,,,URL Credentials
+57866,cc148162,GitHub,50b38ef0,data/50b38ef0/other/cc148162.md,69,69,T,15,25,,,Password
+74675,09276c69,GitHub,50b38ef0,data/50b38ef0/test/09276c69.js,85,85,Template,23,29,,,Password
+74676,09276c69,GitHub,50b38ef0,data/50b38ef0/test/09276c69.js,169,169,Template,23,29,,,Password
+74746,cc148162,GitHub,50b38ef0,data/50b38ef0/other/cc148162.md,57,57,T,13,23,,,Password
+82752,12b333e1,GitHub,50b38ef0,data/50b38ef0/src/12b333e1.js,55,55,F,96,116,,,Secret
+107580,72f5050b,GitHub,50b38ef0,data/50b38ef0/other/72f5050b.md,142,142,F,-1,-1,,,Other
+107581,12b333e1,GitHub,50b38ef0,data/50b38ef0/src/12b333e1.js,65,65,F,-1,-1,,,Other
+107582,12b333e1,GitHub,50b38ef0,data/50b38ef0/src/12b333e1.js,66,66,F,,,,,Secret
+107583,12b333e1,GitHub,50b38ef0,data/50b38ef0/src/12b333e1.js,144,144,F,-1,-1,,,Other
+107584,12b333e1,GitHub,50b38ef0,data/50b38ef0/src/12b333e1.js,152,152,F,-1,-1,,,Other
+107585,12b333e1,GitHub,50b38ef0,data/50b38ef0/src/12b333e1.js,153,153,F,,,,,Secret
+107586,12b333e1,GitHub,50b38ef0,data/50b38ef0/src/12b333e1.js,165,165,F,-1,-1,,,Other
+107587,06572a96,GitHub,50b38ef0,data/50b38ef0/other/06572a96.md,215,215,F,,,,,Auth
+107588,8bccf0a9,GitHub,50b38ef0,data/50b38ef0/other/8bccf0a9.md,69,69,F,,,,,Password
+107589,8bccf0a9,GitHub,50b38ef0,data/50b38ef0/other/8bccf0a9.md,75,75,F,,,,,Password
+107590,8bccf0a9,GitHub,50b38ef0,data/50b38ef0/other/8bccf0a9.md,112,112,F,,,,,Password
+107591,bb7f2b59,GitHub,50b38ef0,data/50b38ef0/other/bb7f2b59.md,5,5,F,,,,,Password
+107593,25f34636,GitHub,50b38ef0,data/50b38ef0/other/25f34636.md,75,75,F,,,,,Password
+107594,72f5050b,GitHub,50b38ef0,data/50b38ef0/other/72f5050b.md,117,117,F,,,,,Auth
+107595,72f5050b,GitHub,50b38ef0,data/50b38ef0/other/72f5050b.md,126,126,F,,,,,Auth
+107596,12b333e1,GitHub,50b38ef0,data/50b38ef0/src/12b333e1.js,110,110,F,,,,,Auth
+133340,72f5050b,GitHub,50b38ef0,data/50b38ef0/other/72f5050b.md,27,27,F,,,,,URL Credentials
+133341,f6ca42e0,GitHub,50b38ef0,data/50b38ef0/other/f6ca42e0.md,8,8,F,-1,-1,,,Key
+1480598,30b47f0b,GitHub,50b38ef0,data/50b38ef0/other/30b47f0b.md,229,229,F,12,44,,,Bitbucket Client ID:Bitbucket Client Secret
+1480599,30b47f0b,GitHub,50b38ef0,data/50b38ef0/other/30b47f0b.md,250,250,F,12,44,,,Bitbucket Client ID:Bitbucket Client Secret
+1481005,25f34636,GitHub,50b38ef0,data/50b38ef0/other/25f34636.md,89,89,F,20,35,,,Dropbox App secret
