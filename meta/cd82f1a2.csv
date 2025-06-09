@@ -1,24 +1,24 @@
-Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-3520,3295df72,GitHub,cd82f1a2,data/cd82f1a2/src/3295df72.sum,32,32,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-3521,3295df72,GitHub,cd82f1a2,data/cd82f1a2/src/3295df72.sum,31,31,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-3538,3295df72,GitHub,cd82f1a2,data/cd82f1a2/src/3295df72.sum,73,73,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-3541,3295df72,GitHub,cd82f1a2,data/cd82f1a2/src/3295df72.sum,74,74,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-5860,b95af763,GitHub,cd82f1a2,data/cd82f1a2/src/b95af763.yaml,1,1,F,F,,,F,F,,,,,0,0,F,F,F,API
-21709,bbaebbdc,GitHub,cd82f1a2,data/cd82f1a2/test/bbaebbdc.json,2,2,F,F,,,F,F,,,,,0,0,F,F,F,API
-22710,fdd46201,GitHub,cd82f1a2,data/cd82f1a2/src/fdd46201.go,139,139,F,F,,,F,F,,,,,0,0,F,F,F,Password
-25238,1062d67e,GitHub,cd82f1a2,data/cd82f1a2/src/1062d67e.html,5,5,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-28862,81801117,GitHub,cd82f1a2,data/cd82f1a2/src/81801117.yaml,42,42,Template,F,26,31,F,F,NumbersOnly,,,Secret,2.32,5,F,F,F,Password
-28891,22cc89ae,GitHub,cd82f1a2,data/cd82f1a2/other/22cc89ae.md,52,52,Template,F,27,32,F,F,CharsOnly,,,Secret,0.0,5,F,F,F,Password
-30475,b3f11bd9,GitHub,cd82f1a2,data/cd82f1a2/test/b3f11bd9.go,45,45,Template,T,28,34,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Auth:Key:Secret
-33738,4770a7ca,GitHub,cd82f1a2,data/cd82f1a2/test/4770a7ca.go,78,78,T,T,17,38,F,F,Any,,,Secret,2.95,21,F,F,F,Password
-34910,3e878d9b,GitHub,cd82f1a2,data/cd82f1a2/src/3e878d9b.yml,2,2,T,F,9,45,F,F,Any,,,Token,3.35,36,F,F,F,Token:UUID
-35265,1a82d36b,GitHub,cd82f1a2,data/cd82f1a2/test/1a82d36b.key,1,54,F,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,PEM Private Key
-35288,ae11f761,GitHub,cd82f1a2,data/cd82f1a2/test/ae11f761.key,1,54,F,T,,,F,F,Any,Private,,Unknown,2.53,31,F,F,F,PEM Private Key
-42127,81801117,GitHub,cd82f1a2,data/cd82f1a2/src/81801117.yaml,59,59,Template,F,26,31,F,F,NumbersOnly,,,Secret,2.32,5,F,F,F,Password
-46746,22cc89ae,GitHub,cd82f1a2,data/cd82f1a2/other/22cc89ae.md,66,66,Template,F,27,32,F,F,CharsOnly,,,Secret,0.0,5,F,F,F,Password
-76356,b3f11bd9,GitHub,cd82f1a2,data/cd82f1a2/test/b3f11bd9.go,81,81,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-76357,b3f11bd9,GitHub,cd82f1a2,data/cd82f1a2/test/b3f11bd9.go,55,55,F,F,,,F,F,,,,,0,0,F,F,F,Auth
-82640,b3f11bd9,GitHub,cd82f1a2,data/cd82f1a2/test/b3f11bd9.go,80,80,Template,T,28,34,F,F,CharsOnly,,,Secret,2.25,6,F,F,F,Auth:Key:Secret
-110847,3295df72,GitHub,cd82f1a2,data/cd82f1a2/src/3295df72.sum,329,329,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-110848,3295df72,GitHub,cd82f1a2,data/cd82f1a2/src/3295df72.sum,330,330,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-110849,3295df72,GitHub,cd82f1a2,data/cd82f1a2/src/3295df72.sum,332,332,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
+Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd,CryptographyKey,PredefinedPattern,Category
+3520,3295df72,GitHub,cd82f1a2,data/cd82f1a2/src/3295df72.sum,32,32,F,-1,-1,,,Other
+3521,3295df72,GitHub,cd82f1a2,data/cd82f1a2/src/3295df72.sum,31,31,F,-1,-1,,,Other
+3538,3295df72,GitHub,cd82f1a2,data/cd82f1a2/src/3295df72.sum,73,73,F,-1,-1,,,Other
+3541,3295df72,GitHub,cd82f1a2,data/cd82f1a2/src/3295df72.sum,74,74,F,-1,-1,,,Other
+5860,b95af763,GitHub,cd82f1a2,data/cd82f1a2/src/b95af763.yaml,1,1,F,,,,,API
+21709,bbaebbdc,GitHub,cd82f1a2,data/cd82f1a2/test/bbaebbdc.json,2,2,F,,,,,API
+22710,fdd46201,GitHub,cd82f1a2,data/cd82f1a2/src/fdd46201.go,139,139,F,,,,,Password
+25238,1062d67e,GitHub,cd82f1a2,data/cd82f1a2/src/1062d67e.html,5,5,F,-1,-1,,,Other
+28862,81801117,GitHub,cd82f1a2,data/cd82f1a2/src/81801117.yaml,42,42,Template,26,31,,,Password
+28891,22cc89ae,GitHub,cd82f1a2,data/cd82f1a2/other/22cc89ae.md,52,52,Template,27,32,,,Password
+30475,b3f11bd9,GitHub,cd82f1a2,data/cd82f1a2/test/b3f11bd9.go,45,45,Template,28,34,,,Auth:Key:Secret
+33738,4770a7ca,GitHub,cd82f1a2,data/cd82f1a2/test/4770a7ca.go,78,78,T,17,38,,,Password
+34910,3e878d9b,GitHub,cd82f1a2,data/cd82f1a2/src/3e878d9b.yml,2,2,T,9,45,,,Token:UUID
+35265,1a82d36b,GitHub,cd82f1a2,data/cd82f1a2/test/1a82d36b.key,1,54,F,,,Private,,PEM Private Key
+35288,ae11f761,GitHub,cd82f1a2,data/cd82f1a2/test/ae11f761.key,1,54,F,,,Private,,PEM Private Key
+42127,81801117,GitHub,cd82f1a2,data/cd82f1a2/src/81801117.yaml,59,59,Template,26,31,,,Password
+46746,22cc89ae,GitHub,cd82f1a2,data/cd82f1a2/other/22cc89ae.md,66,66,Template,27,32,,,Password
+76356,b3f11bd9,GitHub,cd82f1a2,data/cd82f1a2/test/b3f11bd9.go,81,81,F,,,,,Auth
+76357,b3f11bd9,GitHub,cd82f1a2,data/cd82f1a2/test/b3f11bd9.go,55,55,F,,,,,Auth
+82640,b3f11bd9,GitHub,cd82f1a2,data/cd82f1a2/test/b3f11bd9.go,80,80,Template,28,34,,,Auth:Key:Secret
+110847,3295df72,GitHub,cd82f1a2,data/cd82f1a2/src/3295df72.sum,329,329,F,,,,,Auth
+110848,3295df72,GitHub,cd82f1a2,data/cd82f1a2/src/3295df72.sum,330,330,F,,,,,Auth
+110849,3295df72,GitHub,cd82f1a2,data/cd82f1a2/src/3295df72.sum,332,332,F,,,,,Auth

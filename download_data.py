@@ -90,15 +90,14 @@ def download(temp_dir, jobs):
     os.makedirs(temp_dir, exist_ok=True)
     len_snapshot_data = len(snapshot_data)
 
-    unique_urls = set()
+    
     for repo_data in snapshot_data:
-        assert repo_data["url"] not in unique_urls, f"Duplicate url is not supported {repo_data}"
-        unique_urls.add(repo_data["url"])
+        
         repo_data["temp_dir"] = temp_dir
 
-    if 1 < jobs:
+    if  jobs > 1:
         with Pool(processes=jobs) as p:
-            for i, x in enumerate(p.map(download_and_check, snapshot_data)):
+            for i, _ in enumerate(p.map(download_and_check, snapshot_data)):
                 logger.info(f"Downloaded: {i + 1}/{len_snapshot_data}")
     else:
         for i, repo_data in enumerate(snapshot_data):

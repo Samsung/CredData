@@ -1,9 +1,8 @@
-Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-1060,0a7abe6b,GitHub,f85f83c9,data/f85f83c9/src/0a7abe6b.js,6,6,F,F,,,F,F,,,,,0,0,F,F,F,Password
-13758,0a7abe6b,GitHub,f85f83c9,data/f85f83c9/src/0a7abe6b.js,39,39,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Token
-13759,9295e42f,GitHub,f85f83c9,data/f85f83c9/src/9295e42f.js,48,48,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key:Token
-14137,b3356305,GitHub,f85f83c9,data/f85f83c9/other/b3356305.md,35,35,F,F,,,F,F,,,,,0,0,F,F,F,Password
-30678,a50bb429,GitHub,f85f83c9,data/f85f83c9/src/a50bb429.js,2,2,T,F,16,37,F,F,Any,,,Secret,2.89,21,F,F,F,Secret
-34479,4fbfc2dc,GitHub,f85f83c9,data/f85f83c9/src/4fbfc2dc.js,11,11,Template,T,13,17,F,F,CharsOnly,,,Secret,1.5,4,F,F,F,Password
-1030678,1f4265a4,GitHub,f85f83c9,data/f85f83c9/src/1f4265a4.js,2,2,T,F,16,37,F,F,Any,,,Secret,2.89,21,F,F,F,Secret
-
+Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd,CryptographyKey,PredefinedPattern,Category
+1060,0a7abe6b,GitHub,f85f83c9,data/f85f83c9/src/0a7abe6b.js,6,6,F,,,,,Password
+13758,0a7abe6b,GitHub,f85f83c9,data/f85f83c9/src/0a7abe6b.js,39,39,F,-1,-1,,,Key:Token
+13759,9295e42f,GitHub,f85f83c9,data/f85f83c9/src/9295e42f.js,48,48,F,-1,-1,,,Key:Token
+14137,b3356305,GitHub,f85f83c9,data/f85f83c9/other/b3356305.md,35,35,F,,,,,Password
+30678,a50bb429,GitHub,f85f83c9,data/f85f83c9/src/a50bb429.js,2,2,T,16,37,,,Secret
+34479,4fbfc2dc,GitHub,f85f83c9,data/f85f83c9/src/4fbfc2dc.js,11,11,Template,13,17,,,Password
+1030678,1f4265a4,GitHub,f85f83c9,data/f85f83c9/src/1f4265a4.js,2,2,T,16,37,,,Secret

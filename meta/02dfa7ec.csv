@@ -1,65 +1,65 @@
-Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart,ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern,VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category
-830,a5c0c9aa,GitHub,02dfa7ec,data/02dfa7ec/test/a5c0c9aa.py,524,524,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-1979,58f9092a,GitHub,02dfa7ec,data/02dfa7ec/src/58f9092a.py,439,439,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-9061,f01fea0a,GitHub,02dfa7ec,data/02dfa7ec/src/f01fea0a.js,1096,1096,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-10802,5037a089,GitHub,02dfa7ec,data/02dfa7ec/src/5037a089.py,71,71,F,F,,,F,F,,,,,0,0,F,F,F,Password
-10872,5037a089,GitHub,02dfa7ec,data/02dfa7ec/src/5037a089.py,75,75,F,F,,,F,F,,,,,0,0,F,F,F,Password
-10888,5037a089,GitHub,02dfa7ec,data/02dfa7ec/src/5037a089.py,73,73,F,F,,,F,F,,,,,0,0,F,F,F,Password
-11041,0f25fb09,GitHub,02dfa7ec,data/02dfa7ec/src/0f25fb09.js,7934,7934,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-11164,83cb6a7b,GitHub,02dfa7ec,data/02dfa7ec/src/83cb6a7b.js,3958,3958,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-11730,58f9092a,GitHub,02dfa7ec,data/02dfa7ec/src/58f9092a.py,278,278,F,F,,,F,F,,,,,0,0,F,F,F,Password
-12090,0f25fb09,GitHub,02dfa7ec,data/02dfa7ec/src/0f25fb09.js,343,343,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-12281,0f25fb09,GitHub,02dfa7ec,data/02dfa7ec/src/0f25fb09.js,279,279,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-12837,0f25fb09,GitHub,02dfa7ec,data/02dfa7ec/src/0f25fb09.js,183,183,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-14419,58f9092a,GitHub,02dfa7ec,data/02dfa7ec/src/58f9092a.py,1022,1022,F,F,,,F,F,,,,,0,0,F,F,F,Password
-23839,bf62c906,GitHub,02dfa7ec,data/02dfa7ec/src/bf62c906.py,10,10,F,F,,,F,F,,,,,0,0,F,F,F,Password
-28832,61ed9af5,GitHub,02dfa7ec,data/02dfa7ec/test/61ed9af5.example,74,74,T,F,32,73,F,F,Any,,,Secret,3.03,41,F,F,F,Auth:Secret
-29294,61ed9af5,GitHub,02dfa7ec,data/02dfa7ec/test/61ed9af5.example,82,82,T,F,28,50,F,F,Any,,,Unknown,3.36,22,F,F,F,Key
-29502,e43ec22b,GitHub,02dfa7ec,data/02dfa7ec/test/e43ec22b.py,15,15,T,T,25,41,F,F,CharsOnly,,,Secret,3.12,16,F,F,F,Password
-29657,a758153b,GitHub,02dfa7ec,data/02dfa7ec/test/a758153b.example,70,70,Template,T,18,33,F,F,Any,,,Token,2.99,15,F,F,F,Auth:Token
-30366,5fb5a784,GitHub,02dfa7ec,data/02dfa7ec/src/5fb5a784.env,50,50,Template,T,16,36,F,F,Any,,,Key,3.17,20,F,F,F,API:Gitlab Feed Token:Key
-31246,a758153b,GitHub,02dfa7ec,data/02dfa7ec/test/a758153b.example,25,25,Template,T,18,30,F,F,Any,,,Secret,2.42,12,F,F,F,Key:Secret
-32637,a758153b,GitHub,02dfa7ec,data/02dfa7ec/test/a758153b.example,94,94,T,F,30,35,T,F,CharsOnly,,,Secret,2.32,5,F,F,F,URL Credentials
-32675,a758153b,GitHub,02dfa7ec,data/02dfa7ec/test/a758153b.example,22,22,T,F,27,44,F,F,Any,,,Secret,3.29,17,F,F,F,URL Credentials
-32701,a758153b,GitHub,02dfa7ec,data/02dfa7ec/test/a758153b.example,47,47,Template,T,15,28,F,F,Any,,,Secret,2.90,13,F,F,F,Password
-32757,61ed9af5,GitHub,02dfa7ec,data/02dfa7ec/test/61ed9af5.example,28,28,T,F,18,82,F,F,Any,,,Secret,5.33,64,F,F,F,Key:Secret:Bitbucket Client Secret
-34024,61ed9af5,GitHub,02dfa7ec,data/02dfa7ec/test/61ed9af5.example,83,83,T,F,31,73,F,F,Any,,,Secret,3.74,42,F,F,F,Secret
-35963,3279f9a1,GitHub,02dfa7ec,data/02dfa7ec/src/3279f9a1.py,100,100,T,F,26,90,F,F,Any,,,Unknown,5.33,64,F,F,F,Bitbucket Client Secret
-36233,3f04cb2a,GitHub,02dfa7ec,data/02dfa7ec/test/3f04cb2a.py,32,32,Template,T,29,33,F,F,CharsOnly,,,Secret,1.5,4,F,F,F,Password
-37642,3f04cb2a,GitHub,02dfa7ec,data/02dfa7ec/test/3f04cb2a.py,49,49,Template,T,29,33,F,F,CharsOnly,,,Secret,1.5,4,F,F,F,Password
-37643,3f04cb2a,GitHub,02dfa7ec,data/02dfa7ec/test/3f04cb2a.py,60,60,Template,T,29,33,F,F,CharsOnly,,,Secret,1.5,4,F,F,F,Password
-37644,3f04cb2a,GitHub,02dfa7ec,data/02dfa7ec/test/3f04cb2a.py,70,70,Template,T,29,33,F,F,CharsOnly,,,Secret,1.5,4,F,F,F,Password
-37645,3f04cb2a,GitHub,02dfa7ec,data/02dfa7ec/test/3f04cb2a.py,83,83,Template,T,29,33,F,F,CharsOnly,,,Secret,1.5,4,F,F,F,Password
-50371,a5c0c9aa,GitHub,02dfa7ec,data/02dfa7ec/test/a5c0c9aa.py,60,60,T,T,25,41,F,F,CharsOnly,,,Secret,3.12,16,F,F,F,Password
-58202,a758153b,GitHub,02dfa7ec,data/02dfa7ec/test/a758153b.example,61,61,Template,T,16,36,F,F,Any,,,Key,3.17,20,F,F,F,API:Gitlab Feed Token:Key
-58203,61ed9af5,GitHub,02dfa7ec,data/02dfa7ec/test/61ed9af5.example,43,43,Template,T,16,36,F,F,Any,,,Key,3.17,20,F,F,F,API:Gitlab Feed Token:Key
-62037,61ed9af5,GitHub,02dfa7ec,data/02dfa7ec/test/61ed9af5.example,55,55,Template,T,18,33,F,F,Any,,,Token,2.99,15,F,F,F,Auth:Token
-62038,5fb5a784,GitHub,02dfa7ec,data/02dfa7ec/src/5fb5a784.env,65,65,Template,T,18,33,F,F,Any,,,Token,2.99,15,F,F,F,Auth:Token
-64018,a5c0c9aa,GitHub,02dfa7ec,data/02dfa7ec/test/a5c0c9aa.py,537,537,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-64019,a5c0c9aa,GitHub,02dfa7ec,data/02dfa7ec/test/a5c0c9aa.py,551,551,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Key
-74230,0f25fb09,GitHub,02dfa7ec,data/02dfa7ec/src/0f25fb09.js,262,262,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-74231,0f25fb09,GitHub,02dfa7ec,data/02dfa7ec/src/0f25fb09.js,329,329,F,F,-1,-1,F,F,,,,,0.0,0,F,F,F,Other
-107468,5cee1512,GitHub,02dfa7ec,data/02dfa7ec/src/5cee1512.py,99,99,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-107469,5cee1512,GitHub,02dfa7ec,data/02dfa7ec/src/5cee1512.py,104,104,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-107470,5cee1512,GitHub,02dfa7ec,data/02dfa7ec/src/5cee1512.py,391,391,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
-107471,5cee1512,GitHub,02dfa7ec,data/02dfa7ec/src/5cee1512.py,398,398,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
-107472,58f9092a,GitHub,02dfa7ec,data/02dfa7ec/src/58f9092a.py,722,722,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-107473,3279f9a1,GitHub,02dfa7ec,data/02dfa7ec/src/3279f9a1.py,96,96,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-107474,5fb5a784,GitHub,02dfa7ec,data/02dfa7ec/src/5fb5a784.env,46,46,T,T,14,22,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Password
-107475,5fb5a784,GitHub,02dfa7ec,data/02dfa7ec/src/5fb5a784.env,55,55,T,T,13,21,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Password
-107476,5fb5a784,GitHub,02dfa7ec,data/02dfa7ec/src/5fb5a784.env,60,60,T,T,9,17,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Password
-107477,61ed9af5,GitHub,02dfa7ec,data/02dfa7ec/test/61ed9af5.example,33,33,T,T,14,22,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Password
-107478,61ed9af5,GitHub,02dfa7ec,data/02dfa7ec/test/61ed9af5.example,48,48,T,T,13,21,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Password
-107479,a758153b,GitHub,02dfa7ec,data/02dfa7ec/test/a758153b.example,31,31,T,T,14,22,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Password
-107480,a758153b,GitHub,02dfa7ec,data/02dfa7ec/test/a758153b.example,76,76,T,T,13,21,F,F,CharOnly,,,Secret,2.75,8,F,F,F,Password
-114004,83cb6a7b,GitHub,02dfa7ec,data/02dfa7ec/src/83cb6a7b.js,2493,2493,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Key
-114005,3279f9a1,GitHub,02dfa7ec,data/02dfa7ec/src/3279f9a1.py,153,153,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-114006,61ed9af5,GitHub,02dfa7ec,data/02dfa7ec/test/61ed9af5.example,73,73,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-114007,61ed9af5,GitHub,02dfa7ec,data/02dfa7ec/test/61ed9af5.example,75,75,F,F,,,F,F,,,,,0.00,,F,F,F,Auth
-131134,83cb6a7b,GitHub,02dfa7ec,data/02dfa7ec/src/83cb6a7b.js,2386,2386,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-131135,83cb6a7b,GitHub,02dfa7ec,data/02dfa7ec/src/83cb6a7b.js,7803,7803,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-131136,58f9092a,GitHub,02dfa7ec,data/02dfa7ec/src/58f9092a.py,1047,1047,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-131138,3279f9a1,GitHub,02dfa7ec,data/02dfa7ec/src/3279f9a1.py,175,175,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-131140,a758153b,GitHub,02dfa7ec,data/02dfa7ec/test/a758153b.example,65,65,F,F,-1,-1,F,F,,,,,0.0,-1,F,F,F,Other
-131141,5cee1512,GitHub,02dfa7ec,data/02dfa7ec/src/5cee1512.py,483,483,F,F,,,F,F,,,,,0.00,,F,F,F,Password
-1481034,b3356305,GitHub,02dfa7ec,data/02dfa7ec/other/b3356305.md,70,70,F,F,113,159,F,F,,,,Hash,0.0,0,F,F,F,Token
+Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd,CryptographyKey,PredefinedPattern,Category
+830,a5c0c9aa,GitHub,02dfa7ec,data/02dfa7ec/test/a5c0c9aa.py,524,524,F,-1,-1,,,Key
+1979,58f9092a,GitHub,02dfa7ec,data/02dfa7ec/src/58f9092a.py,439,439,F,-1,-1,,,Key
+9061,f01fea0a,GitHub,02dfa7ec,data/02dfa7ec/src/f01fea0a.js,1096,1096,F,-1,-1,,,Key
+10802,5037a089,GitHub,02dfa7ec,data/02dfa7ec/src/5037a089.py,71,71,F,,,,,Password
+10872,5037a089,GitHub,02dfa7ec,data/02dfa7ec/src/5037a089.py,75,75,F,,,,,Password
+10888,5037a089,GitHub,02dfa7ec,data/02dfa7ec/src/5037a089.py,73,73,F,,,,,Password
+11041,0f25fb09,GitHub,02dfa7ec,data/02dfa7ec/src/0f25fb09.js,7934,7934,F,-1,-1,,,Key
+11164,83cb6a7b,GitHub,02dfa7ec,data/02dfa7ec/src/83cb6a7b.js,3958,3958,F,-1,-1,,,Key
+11730,58f9092a,GitHub,02dfa7ec,data/02dfa7ec/src/58f9092a.py,278,278,F,,,,,Password
+12090,0f25fb09,GitHub,02dfa7ec,data/02dfa7ec/src/0f25fb09.js,343,343,F,-1,-1,,,Key
+12281,0f25fb09,GitHub,02dfa7ec,data/02dfa7ec/src/0f25fb09.js,279,279,F,-1,-1,,,Key
+12837,0f25fb09,GitHub,02dfa7ec,data/02dfa7ec/src/0f25fb09.js,183,183,F,-1,-1,,,Other
+14419,58f9092a,GitHub,02dfa7ec,data/02dfa7ec/src/58f9092a.py,1022,1022,F,,,,,Password
+23839,bf62c906,GitHub,02dfa7ec,data/02dfa7ec/src/bf62c906.py,10,10,F,,,,,Password
+28832,61ed9af5,GitHub,02dfa7ec,data/02dfa7ec/test/61ed9af5.example,74,74,T,32,73,,,Auth:Secret
+29294,61ed9af5,GitHub,02dfa7ec,data/02dfa7ec/test/61ed9af5.example,82,82,T,28,50,,,Key
+29502,e43ec22b,GitHub,02dfa7ec,data/02dfa7ec/test/e43ec22b.py,15,15,T,25,41,,,Password
+29657,a758153b,GitHub,02dfa7ec,data/02dfa7ec/test/a758153b.example,70,70,Template,18,33,,,Auth:Token
+30366,5fb5a784,GitHub,02dfa7ec,data/02dfa7ec/src/5fb5a784.env,50,50,Template,16,36,,,API:Gitlab Feed Token:Key
+31246,a758153b,GitHub,02dfa7ec,data/02dfa7ec/test/a758153b.example,25,25,Template,18,30,,,Key:Secret
+32637,a758153b,GitHub,02dfa7ec,data/02dfa7ec/test/a758153b.example,94,94,T,30,35,,,URL Credentials
+32675,a758153b,GitHub,02dfa7ec,data/02dfa7ec/test/a758153b.example,22,22,T,27,44,,,URL Credentials
+32701,a758153b,GitHub,02dfa7ec,data/02dfa7ec/test/a758153b.example,47,47,Template,15,28,,,Password
+32757,61ed9af5,GitHub,02dfa7ec,data/02dfa7ec/test/61ed9af5.example,28,28,T,18,82,,,Key:Secret:Bitbucket Client Secret
+34024,61ed9af5,GitHub,02dfa7ec,data/02dfa7ec/test/61ed9af5.example,83,83,T,31,73,,,Secret
+35963,3279f9a1,GitHub,02dfa7ec,data/02dfa7ec/src/3279f9a1.py,100,100,T,26,90,,,Bitbucket Client Secret
+36233,3f04cb2a,GitHub,02dfa7ec,data/02dfa7ec/test/3f04cb2a.py,32,32,Template,29,33,,,Password
+37642,3f04cb2a,GitHub,02dfa7ec,data/02dfa7ec/test/3f04cb2a.py,49,49,Template,29,33,,,Password
+37643,3f04cb2a,GitHub,02dfa7ec,data/02dfa7ec/test/3f04cb2a.py,60,60,Template,29,33,,,Password
+37644,3f04cb2a,GitHub,02dfa7ec,data/02dfa7ec/test/3f04cb2a.py,70,70,Template,29,33,,,Password
+37645,3f04cb2a,GitHub,02dfa7ec,data/02dfa7ec/test/3f04cb2a.py,83,83,Template,29,33,,,Password
+50371,a5c0c9aa,GitHub,02dfa7ec,data/02dfa7ec/test/a5c0c9aa.py,60,60,T,25,41,,,Password
+58202,a758153b,GitHub,02dfa7ec,data/02dfa7ec/test/a758153b.example,61,61,Template,16,36,,,API:Gitlab Feed Token:Key
+58203,61ed9af5,GitHub,02dfa7ec,data/02dfa7ec/test/61ed9af5.example,43,43,Template,16,36,,,API:Gitlab Feed Token:Key
+62037,61ed9af5,GitHub,02dfa7ec,data/02dfa7ec/test/61ed9af5.example,55,55,Template,18,33,,,Auth:Token
+62038,5fb5a784,GitHub,02dfa7ec,data/02dfa7ec/src/5fb5a784.env,65,65,Template,18,33,,,Auth:Token
+64018,a5c0c9aa,GitHub,02dfa7ec,data/02dfa7ec/test/a5c0c9aa.py,537,537,F,-1,-1,,,Key
+64019,a5c0c9aa,GitHub,02dfa7ec,data/02dfa7ec/test/a5c0c9aa.py,551,551,F,-1,-1,,,Key
+74230,0f25fb09,GitHub,02dfa7ec,data/02dfa7ec/src/0f25fb09.js,262,262,F,-1,-1,,,Other
+74231,0f25fb09,GitHub,02dfa7ec,data/02dfa7ec/src/0f25fb09.js,329,329,F,-1,-1,,,Other
+107468,5cee1512,GitHub,02dfa7ec,data/02dfa7ec/src/5cee1512.py,99,99,F,,,,,Password
+107469,5cee1512,GitHub,02dfa7ec,data/02dfa7ec/src/5cee1512.py,104,104,F,,,,,Password
+107470,5cee1512,GitHub,02dfa7ec,data/02dfa7ec/src/5cee1512.py,391,391,F,-1,-1,,,Key
+107471,5cee1512,GitHub,02dfa7ec,data/02dfa7ec/src/5cee1512.py,398,398,F,-1,-1,,,Key
+107472,58f9092a,GitHub,02dfa7ec,data/02dfa7ec/src/58f9092a.py,722,722,F,,,,,Password
+107473,3279f9a1,GitHub,02dfa7ec,data/02dfa7ec/src/3279f9a1.py,96,96,F,-1,-1,,,Other
+107474,5fb5a784,GitHub,02dfa7ec,data/02dfa7ec/src/5fb5a784.env,46,46,T,14,22,,,Password
+107475,5fb5a784,GitHub,02dfa7ec,data/02dfa7ec/src/5fb5a784.env,55,55,T,13,21,,,Password
+107476,5fb5a784,GitHub,02dfa7ec,data/02dfa7ec/src/5fb5a784.env,60,60,T,9,17,,,Password
+107477,61ed9af5,GitHub,02dfa7ec,data/02dfa7ec/test/61ed9af5.example,33,33,T,14,22,,,Password
+107478,61ed9af5,GitHub,02dfa7ec,data/02dfa7ec/test/61ed9af5.example,48,48,T,13,21,,,Password
+107479,a758153b,GitHub,02dfa7ec,data/02dfa7ec/test/a758153b.example,31,31,T,14,22,,,Password
+107480,a758153b,GitHub,02dfa7ec,data/02dfa7ec/test/a758153b.example,76,76,T,13,21,,,Password
+114004,83cb6a7b,GitHub,02dfa7ec,data/02dfa7ec/src/83cb6a7b.js,2493,2493,F,-1,-1,,,Key
+114005,3279f9a1,GitHub,02dfa7ec,data/02dfa7ec/src/3279f9a1.py,153,153,F,,,,,Auth
+114006,61ed9af5,GitHub,02dfa7ec,data/02dfa7ec/test/61ed9af5.example,73,73,F,,,,,Auth
+114007,61ed9af5,GitHub,02dfa7ec,data/02dfa7ec/test/61ed9af5.example,75,75,F,,,,,Auth
+131134,83cb6a7b,GitHub,02dfa7ec,data/02dfa7ec/src/83cb6a7b.js,2386,2386,F,,,,,Password
+131135,83cb6a7b,GitHub,02dfa7ec,data/02dfa7ec/src/83cb6a7b.js,7803,7803,F,,,,,Password
+131136,58f9092a,GitHub,02dfa7ec,data/02dfa7ec/src/58f9092a.py,1047,1047,F,,,,,Password
+131138,3279f9a1,GitHub,02dfa7ec,data/02dfa7ec/src/3279f9a1.py,175,175,F,,,,,Password
+131140,a758153b,GitHub,02dfa7ec,data/02dfa7ec/test/a758153b.example,65,65,F,-1,-1,,,Other
+131141,5cee1512,GitHub,02dfa7ec,data/02dfa7ec/src/5cee1512.py,483,483,F,,,,,Password
+1481034,b3356305,GitHub,02dfa7ec,data/02dfa7ec/other/b3356305.md,70,70,F,113,159,,,Token
