@@ -4,7 +4,8 @@
 name: Diff review for markup
 
 on:
-  pull_request:
+  pull_request: 
+    branches: [ main , newcode ]
     
 
 permissions:
