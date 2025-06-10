@@ -132,9 +132,8 @@ def move_files(temp_dir, dataset_dir):
 
         if not os.path.exists(meta_file_path):
             with open(meta_file_path, "w") as f:
-                f.write("Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,WithWords,ValueStart")
-                f.write(",ValueEnd,InURL,InRuntimeParameter,CharacterSet,CryptographyKey,PredefinedPattern")
-                f.write(",VariableNameType,Entropy,Length,Base64Encode,HexEncode,URLEncode,Category\n")
+                f.write("Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd"
+                        ",CryptographyKey,PredefinedPattern,Category\n")
             assert False, f"New meta file {meta_file_path}! Restart again for new repo."
 
         logger.info(f"Processing: {i + 1}/{len(snapshot_data)} {repo_data['id']}")
@@ -305,7 +304,7 @@ def get_obfuscated_value(value, meta_row: MetaRow):
                                            "AROA", "APKA", "ASCA", "ASIA", "AIza"]) \
             or value.startswith("xox") and 15 <= len(value) and value[3] in "aboprst" and '-' == value[4]:
         obfuscated_value = value[:4] + generate_value(value[4:])
-    elif any(value.startswith(x) for x in ["ya29."]):
+    elif any(value.startswith(x) for x in ["ya29.", "pass:", "salt:"]):
         obfuscated_value = value[:5] + generate_value(value[5:])
     elif any(value.startswith(x) for x in ["whsec_", "Basic ", "OAuth "]):
         obfuscated_value = value[:6] + generate_value(value[6:])
@@ -318,6 +317,8 @@ def get_obfuscated_value(value, meta_row: MetaRow):
         obfuscated_value = value[:9] + generate_value(value[9:])
     elif any(value.startswith(x) for x in ["hexsecret:"]):
         obfuscated_value = value[:10] + generate_value(value[10:])
+    elif any(value.startswith(x) for x in ["ED25519-1-Raw:ED25519:"]):
+        obfuscated_value = value[:22] + generate_value(value[22:])
     elif value.startswith("eyJ"):
         # Check if it's a proper "JSON Web Token" with header and payload
         if "." in value:
@@ -356,7 +357,8 @@ def get_obfuscated_value(value, meta_row: MetaRow):
         obfuscated_value = generate_value(value[:pos]) + ".firebaseapp.com" + generate_value(value[pos + 16:])
     else:
         obfuscated_value = generate_value(value)
-
+    if value == obfuscated_value:
+        print(f"The same value: {value}, {str(meta_row)}")
     return obfuscated_value
 
 
