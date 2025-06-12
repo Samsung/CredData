@@ -358,7 +358,7 @@ def get_obfuscated_value(value, meta_row: MetaRow):
     else:
         obfuscated_value = generate_value(value)
     if value == obfuscated_value:
-        print(f"The same value: {value}, {str(meta_row)}")
+        logger.warning(f"The same value: {value}, {str(meta_row)}")
     return obfuscated_value
 
 
