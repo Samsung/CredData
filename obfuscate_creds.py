@@ -44,12 +44,13 @@ def obfuscate_jwt(value: str) -> str:
                 # reserved words in JSON
                 b"null", b"false", b"true",
                 # trigger words from CredSweeper filter ValueJsonWebTokenCheck
-                b'"alg":', b'"apu":', b'"apv":', b'"aud":', b'"b64":', b'"crit":', b'"crv":', b'"cty":', b'"d":',
-                b'"dp":', b'"dq":', b'"e":', b'"enc":', b'"epk":', b'"exp":', b'"ext":', b'"iat":', b'"id":', b'"iss":',
-                b'"iv":', b'"jku":', b'"jti":', b'"jwk":', b'"k":', b'"key_ops":', b'"keys":', b'"kid":', b'"kty":',
-                b'"n":', b'"nbf":', b'"nonce":', b'"oth":', b'"p":', b'"p2c":', b'"p2s":', b'"password":', b'"ppt":',
-                b'"q":', b'"qi":', b'"role":', b'"secret":', b'"sub":', b'"svt":', b'"tag":', b'"token":', b'"typ":',
-                b'"url":', b'"use":', b'"x":', b'"x5c":', b'"x5t":', b'"x5t#S256":', b'"x5u":', b'"y":', b'"zip":'
+                b'"alg":', b'"apu":', b'"apv":', b'"aud":', b'"b64":', b'"crit":', b'"crv":', b'"cty":',
+                b'"d":', b'"dp":', b'"dq":', b'"e":', b'"enc":', b'"epk":', b'"exp":', b'"ext":', b'"iat":',
+                b'"id":', b'"iss":', b'"iv":', b'"jku":', b'"jti":', b'"jwk":', b'"k":', b'"key_ops":',
+                b'"keys":', b'"kid":', b'"kty":', b'"n":', b'"nbf":', b'"nonce":', b'"oth":', b'"p":',
+                b'"p2c":', b'"p2s":', b'"password":', b'"ppt":', b'"q":', b'"qi":', b'"role":', b'"secret":',
+                b'"sub":', b'"svt":', b'"tag":', b'"token":', b'"typ":', b'"url":', b'"use":', b'"x":',
+                b'"x5c":', b'"x5t":', b'"x5t#S256":', b'"x5u":', b'"y":', b'"zip":'
             ]:
                 # safe words to keep JSON structure (false, true, null)
                 # and important JWT ("alg", "type", ...)
@@ -86,8 +87,8 @@ def get_obfuscated_value(value, meta_row: MetaRow):
     if "Info" == meta_row.PredefinedPattern:
         # not a credential - does not require obfuscation
         obfuscated_value = value
-    elif any(value.startswith(x) for x in ["AKIA", "ABIA", "ACCA", "AGPA", "AIDA", "AIPA", "AKIA", "ANPA", "ANVA",
-                                           "AROA", "APKA", "ASCA", "ASIA", "AIza"]) \
+    elif any(value.startswith(x) for x in ["AKIA", "ABIA", "ACCA", "AGPA", "AIDA", "AIPA", "AKIA", "ANPA",
+                                           "ANVA", "AROA", "APKA", "ASCA", "ASIA", "AIza"]) \
             or value.startswith("xox") and 15 <= len(value) and value[3] in "aboprst" and '-' == value[4]:
         obfuscated_value = value[:4] + generate_value(value[4:])
     elif any(value.startswith(x) for x in ["ya29.", "pass:", "salt:"]):
@@ -123,8 +124,8 @@ def get_obfuscated_value(value, meta_row: MetaRow):
         obfuscated_value = "hooks.slack.com/services/" + generate_value(value[25:])
     elif (value.startswith("wx") and 18 == len(value)
           or (any(value.startswith(x) for x in
-                  ["AC", "AD", "AL", "CA", "CF", "CL", "CN", "CR", "FW", "IP", "KS", "MM", "NO", "PK", "PN", "QU", "RE",
-                   "SC", "SD", "SK", "SM", "TR", "UT", "XE", "XR"]) and 34 == len(value))):
+                  ["AC", "AD", "AL", "CA", "CF", "CL", "CN", "CR", "FW", "IP", "KS", "MM", "NO", "PK", "PN",
+                   "QU", "RE", "SC", "SD", "SK", "SM", "TR", "UT", "XE", "XR"]) and 34 == len(value))):
         obfuscated_value = value[:2] + generate_value(value[2:])
     elif value.startswith("00D") and (12 <= len(value) <= 18 or '!' in value):
         obfuscated_value = value[:3] + generate_value(value[3:])
