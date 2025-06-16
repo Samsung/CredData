@@ -1,21 +1,17 @@
-import base64
 import hashlib
 import logging
 import os
 import pathlib
-import random
-import re
 import shutil
-import string
 import subprocess
 import sys
 from argparse import Namespace, ArgumentParser
 from multiprocessing import Pool
-from typing import List
 
 import yaml
 
-from meta_row import read_meta, MetaRow
+from meta_row import read_meta
+from obfuscate_creds import obfuscate_creds
 
 logging.basicConfig(
     format="%(asctime)s | %(levelname)s | %(filename)s:%(lineno)s | %(message)s",
