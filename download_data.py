@@ -94,17 +94,20 @@ def move_files(snapshot_data, dataset_dir):
     """Select files with credential candidates. Files without candidates is omitted"""
     os.makedirs(dataset_dir, exist_ok=True)
     missing_repos = []
-
+    id_dub_check = {}
     for i, (repo_id, repo_url) in enumerate(snapshot_data.items()):
         repo_id_bytes = binascii.unhexlify(repo_id)
         new_repo_id = f"{binascii.crc32(repo_id_bytes):08x}"
+        if dub_id := id_dub_check.get(new_repo_id):
+            raise ValueError(f"{repo_id} has collision {new_repo_id} with {dub_id}")
+        id_dub_check[new_repo_id] = repo_id
         meta_file_path = f"meta/{new_repo_id}.csv"
 
         if not os.path.exists(meta_file_path):
             with open(meta_file_path, "w") as f:
                 f.write("Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd"
                         ",CryptographyKey,PredefinedPattern,Category\n")
-            assert False, f"New meta file {meta_file_path}! Restart again for new repo."
+            raise RuntimeError( f"New meta file {meta_file_path}! Restart again for new repo.")
 
         logger.info(f"Processing: {i + 1}/{len(snapshot_data)} {repo_id} : {repo_url}")
 
