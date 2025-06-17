@@ -32,7 +32,7 @@ jobs:
 
       - name: Markup hashing
         run: |
-          md5sum snapshot.yaml >head_checksums.md5
+          md5sum snapshot.json >head_checksums.md5
           for f in $(find meta -type f|sort); do md5sum $f; done >>head_checksums.md5
           for f in $(find . -maxdepth 1 -type f -name "*.py"|sort); do md5sum $f; done >>head_checksums.md5
           cat head_checksums.md5
@@ -53,7 +53,7 @@ jobs:
         uses: actions/cache@1bd1e32a3bdc45362d1e726936510720a7c30a57 # v4.2.0 - 2024.12.05
         with:
           path: tmp
-          key: cred-data-${{ hashFiles('snapshot.yaml') }}
+          key: cred-data-${{ hashFiles('snapshot.json') }}
 
       - name: install ansi2html
         if: steps.cache-data.outputs.cache-hit != 'true'
@@ -116,6 +116,7 @@ jobs:
 
       - name: Markup hashing
         run: |
+          # TODO: update the line after https://github.com/Samsung/CredData/pull/220
           md5sum snapshot.yaml >base_checksums.md5
           for f in $(find meta -type f|sort); do md5sum $f; done >>base_checksums.md5
           for f in $(find . -maxdepth 1 -type f -name "*.py"|sort); do md5sum $f; done >>base_checksums.md5
@@ -137,7 +138,7 @@ jobs:
         uses: actions/cache@1bd1e32a3bdc45362d1e726936510720a7c30a57 # v4.2.0 - 2024.12.05
         with:
           path: tmp
-          key: cred-data-${{ hashFiles('snapshot.yaml') }}
+          key: cred-data-${{ hashFiles('snapshot.json') }}
 
       - name: install ansi2html
         if: steps.cache-data.outputs.cache-hit != 'true'

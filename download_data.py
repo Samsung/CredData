@@ -1,4 +1,6 @@
+import binascii
 import hashlib
+import json
 import logging
 import os
 import pathlib
@@ -7,8 +9,7 @@ import subprocess
 import sys
 from argparse import Namespace, ArgumentParser
 from multiprocessing import Pool
-
-import yaml
+from typing import Tuple, Any
 
 from meta_row import read_meta
 from obfuscate_creds import obfuscate_creds
@@ -18,6 +19,7 @@ logging.basicConfig(
     level="INFO")
 logger = logging.getLogger(__file__)
 
+TMP_DIR = "tmp"
 
 def get_file_type(file_path: str, file_extension: str):
     file_path = file_path.lower()
@@ -33,97 +35,69 @@ def get_file_type(file_path: str, file_extension: str):
     return "src"
 
 
-def collect_licenses(temp_dir, ownername, reponame):
-    license_files = list(pathlib.Path(f"{temp_dir}/{ownername}/{reponame}").glob("*LICEN*"))
-    license_files += list(pathlib.Path(f"{temp_dir}/{ownername}/{reponame}").glob("*Licen*"))
-    license_files += list(pathlib.Path(f"{temp_dir}/{ownername}/{reponame}").glob("*licen*"))
-    license_files += list(pathlib.Path(f"{temp_dir}/{ownername}/{reponame}").glob("*COPYING*"))
-    license_files += list(pathlib.Path(f"{temp_dir}/{ownername}/{reponame}/docs/mixes/").glob("LICENSE"))
+def collect_licenses(repo_id):
+    license_files = list(pathlib.Path(f"{TMP_DIR}/{repo_id}").glob("*LICEN*"))
+    license_files += list(pathlib.Path(f"{TMP_DIR}/{repo_id}").glob("*Licen*"))
+    license_files += list(pathlib.Path(f"{TMP_DIR}/{repo_id}").glob("*licen*"))
+    license_files += list(pathlib.Path(f"{TMP_DIR}/{repo_id}").glob("*COPYING*"))
+    license_files += list(pathlib.Path(f"{TMP_DIR}/{repo_id}/docs/mixes/").glob("LICENSE"))
     license_files = [str(lf) for lf in license_files]
     license_files = [lf for lf in license_files if "licensemanager" not in lf]
     logger.debug(license_files)
     return license_files
 
 
-def download_and_check(repo_data: dict):
+def download_and_check(repo_data: Tuple[Any, Any]):
     """download one git repo or fetch from remote if exists"""
     logger.info(f"Download {repo_data}")
-    repo_url = repo_data["url"]
-    commit_sha = repo_data["sha"]
-    ownername, reponame = repo_url.split("/")[-2:]
+    repo_id = repo_data[0]
+    commit_sha = repo_id[:40]
+    repo_url = repo_data[1]
 
-    temp_dir = repo_data["temp_dir"]
     try:
-        if os.path.exists(f"{temp_dir}/{ownername}/{reponame}"):
-            subprocess.check_call(f"cd {temp_dir}/{ownername}/{reponame} && git checkout {commit_sha}", shell=True)
+        if os.path.exists(f"{TMP_DIR}/{repo_id}"):
+            subprocess.check_call(f"cd {TMP_DIR}/{repo_id} && git checkout {commit_sha}", shell=True)
             logger.info(f"Downloaded and checkout already {repo_url} {commit_sha}")
             return
     except subprocess.CalledProcessError:
-        logger.debug(f"Downloading {repo_url} {commit_sha} in {temp_dir}/{ownername}/{reponame}")
+        logger.debug(f"Downloading {repo_url} {commit_sha} in {TMP_DIR}/{commit_sha}")
 
     try:
         checkout_command = (
-            f"rm -rf {temp_dir}/{ownername}/{reponame}"
-            f" && mkdir -p {temp_dir}/{ownername}/{reponame}"
-            f" && cd {temp_dir}/{ownername}/{reponame}"
+            f"rm -rf {TMP_DIR}/{repo_id}"
+            f" && mkdir -p {TMP_DIR}/{repo_id}"
+            f" && cd {TMP_DIR}/{repo_id}"
             f" && git init && git config advice.detachedHead false && git remote add origin {repo_url}"
             f" && git fetch --depth 1 origin {commit_sha} && git checkout {commit_sha} && git log --oneline -1")
         subprocess.check_call(checkout_command, shell=True)
         logger.info(f"Downloaded {repo_url} {commit_sha}")
     except subprocess.CalledProcessError:
-        logger.error(f"Couldn't checkout repo {temp_dir}/{ownername}/{reponame}. {repo_data}")
-        assert False, f"Couldn't checkout repo {temp_dir}/{ownername}/{reponame}. {repo_data}"
-        # Remove repo
-        if not is_empty(f"{temp_dir}/{ownername}/{reponame}"):
-            shutil.rmtree(f"{temp_dir}/{ownername}/{reponame}")
+        logger.exception(f"Couldn't checkout repo {repo_data}", stack_info=True)
+        raise
 
 
-def download(temp_dir, jobs):
+def download(snapshot_data: dict, jobs: int):
     """Download github repos and checkout proper commits"""
-    snapshot_file = "snapshot.yaml"
-    with open(snapshot_file) as f:
-        snapshot_data = yaml.load(f, Loader=yaml.FullLoader)
-    os.makedirs(temp_dir, exist_ok=True)
     len_snapshot_data = len(snapshot_data)
-
-    unique_urls = set()
-    for repo_data in snapshot_data:
-        assert repo_data["url"] not in unique_urls, f"Duplicate url is not supported {repo_data}"
-        unique_urls.add(repo_data["url"])
-        repo_data["temp_dir"] = temp_dir
 
     if 1 < jobs:
         with Pool(processes=jobs) as p:
-            for i, x in enumerate(p.map(download_and_check, snapshot_data)):
+            for i, x in enumerate(p.map(download_and_check, list(snapshot_data.items()))):
                 logger.info(f"Downloaded: {i + 1}/{len_snapshot_data}")
     else:
-        for i, repo_data in enumerate(snapshot_data):
+        for i, repo_data in enumerate(snapshot_data.items()):
             download_and_check(repo_data)
             logger.info(f"Downloaded: {i + 1}/{len_snapshot_data}")
 
 
-def is_empty(directory):
-    exists = os.path.exists(directory)
-    if exists:
-        return len(os.listdir(directory)) == 0
-    return True
-
-
-def move_files(temp_dir, dataset_dir):
+def move_files(snapshot_data, dataset_dir):
     """Select files with credential candidates. Files without candidates is omitted"""
-    snapshot_file = "snapshot.yaml"
-    with open(snapshot_file) as f:
-        snapshot_data = yaml.load(f, Loader=yaml.FullLoader)
-    os.makedirs(temp_dir, exist_ok=True)
-
     os.makedirs(dataset_dir, exist_ok=True)
     missing_repos = []
 
-    for i, repo_data in enumerate(snapshot_data):
-        new_repo_id = hashlib.sha256(repo_data["id"].encode()).hexdigest()[:8]
-        logger.debug(f'Hash of repo {repo_data["id"]} = {new_repo_id}')
-        repo_url = repo_data["url"]
-        ownername, reponame = repo_url.split("/")[-2:]
+    for i, (repo_id, repo_url) in enumerate(snapshot_data.items()):
+        repo_id_bytes = binascii.unhexlify(repo_id)
+        new_repo_id = f"{binascii.crc32(repo_id_bytes):08x}"
         meta_file_path = f"meta/{new_repo_id}.csv"
 
         if not os.path.exists(meta_file_path):
@@ -132,7 +106,7 @@ def move_files(temp_dir, dataset_dir):
                         ",CryptographyKey,PredefinedPattern,Category\n")
             assert False, f"New meta file {meta_file_path}! Restart again for new repo."
 
-        logger.info(f"Processing: {i + 1}/{len(snapshot_data)} {repo_data['id']}")
+        logger.info(f"Processing: {i + 1}/{len(snapshot_data)} {repo_id} : {repo_url}")
 
         # Select file names from meta that we will use in dataset
         interesting_files = dict()
@@ -149,14 +123,14 @@ def move_files(temp_dir, dataset_dir):
 
         # Select all files in the repo
         # pathlib.Path.glob used instead of glob.glob, as glob.glob could not search for a hidden files
-        repo_files = pathlib.Path(f"{temp_dir}/{ownername}/{reponame}").glob("**/*")
+        repo_files = pathlib.Path(f"{TMP_DIR}/{repo_id}").glob("**/*")
         repo_files = [str(p) for p in repo_files if p.is_file() and not p.is_symlink()]
         files_found = set()
         ids_found = set()
 
         # For each file find its mapping to the metadata or skip
         for full_path in repo_files:
-            short_path = os.path.relpath(full_path, f"{temp_dir}/{ownername}/{reponame}/").replace('\\', '/')
+            short_path = os.path.relpath(full_path, f"{TMP_DIR}/{repo_id}/").replace('\\', '/')
             file_id = hashlib.sha256(short_path.encode()).hexdigest()[:8]
             _, file_extension = os.path.splitext(full_path)
             file_type = get_file_type(short_path, file_extension)
@@ -181,7 +155,7 @@ def move_files(temp_dir, dataset_dir):
 
         # Copy files to new dataset location
         for j, full_path in enumerate(sorted(list(files_found))):
-            short_path = os.path.relpath(full_path, f"{temp_dir}/{ownername}/{reponame}/").replace('\\', '/')
+            short_path = os.path.relpath(full_path, f"{TMP_DIR}/{repo_id}/").replace('\\', '/')
             _, file_extension = os.path.splitext(full_path)
             file_type = get_file_type(short_path, file_extension)
             file_id = hashlib.sha256(short_path.encode()).hexdigest()[:8]
@@ -207,7 +181,7 @@ def move_files(temp_dir, dataset_dir):
             shutil.copy(full_path, code_file_location)
             logger.debug("COPIED FILE: %s -> %s", full_path, code_file_location)
 
-        license_files = collect_licenses(temp_dir, ownername, reponame)
+        license_files = collect_licenses(repo_id)
 
         # create dir for license files
         code_file_basedir = f'{dataset_dir}/{new_repo_id}'
@@ -225,21 +199,25 @@ def move_files(temp_dir, dataset_dir):
 
 
 def main(args: Namespace):
-    temp_directory = "tmp"
-
     if os.path.exists(args.data_dir):
         if not args.clean_data:
             raise FileExistsError(f"{args.data_dir} directory already exists. "
                                   f"Please remove it or select other directory.")
         shutil.rmtree(args.data_dir)
 
+    with open("snapshot.json", encoding="utf_8") as f:
+        snapshot = json.load(f)
+
+    jobs = 1 if not args.jobs else max(1, int(args.jobs))
     if not args.skip_download:
         logger.info("Start download")
-        download(temp_directory, 1 if not args.jobs else int(args.jobs))
+        os.makedirs(TMP_DIR, exist_ok=True)
+        download(snapshot, jobs)
         logger.info("Download finished. Now processing the files...")
     else:
         logger.info("Download skipped. Now processing the files...")
-    removed_meta = move_files(temp_directory, args.data_dir)
+
+    removed_meta = move_files(snapshot, args.data_dir)
     # check whether there were issues with downloading
     assert 0 == len(removed_meta), removed_meta
     logger.info("Finalizing dataset. Please wait a moment...")
