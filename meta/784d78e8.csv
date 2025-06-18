@@ -208,8 +208,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 101791,52925fcf,GitHub,784d78e8,data/784d78e8/other/52925fcf,329,329,F,,,,,Secret
 101792,52925fcf,GitHub,784d78e8,data/784d78e8/other/52925fcf,332,332,F,,,,,Secret
 101793,b54d19d1,GitHub,784d78e8,data/784d78e8/other/b54d19d1.md,13,13,F,,,,,Secret
-101794,b54d19d1,GitHub,784d78e8,data/784d78e8/other/b54d19d1.md,16,16,F,,,,,Certificate:Key
-101795,b54d19d1,GitHub,784d78e8,data/784d78e8/other/b54d19d1.md,50,50,F,,,,,Certificate:Key
+101794,b54d19d1,GitHub,784d78e8,data/784d78e8/other/b54d19d1.md,16,16,F,,,,,Key
+101795,b54d19d1,GitHub,784d78e8,data/784d78e8/other/b54d19d1.md,50,50,F,,,,,Key
 101796,0e888c04,GitHub,784d78e8,data/784d78e8/src/0e888c04.j2,3,3,F,-1,-1,,,Other
 101797,0e888c04,GitHub,784d78e8,data/784d78e8/src/0e888c04.j2,428,428,F,,,,,Secret
 101798,0e888c04,GitHub,784d78e8,data/784d78e8/src/0e888c04.j2,531,531,F,,,,,Secret
@@ -235,12 +235,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 110935,f0c93ad6,GitHub,784d78e8,data/784d78e8/src/f0c93ad6.j2,72,72,F,,,,,Auth
 110936,d38b4b1e,GitHub,784d78e8,data/784d78e8/src/d38b4b1e.yaml,100,100,F,-1,-1,,,Credential
 110937,b54d19d1,GitHub,784d78e8,data/784d78e8/other/b54d19d1.md,10,10,F,-1,-1,,,Key
-110938,70cfd67d,GitHub,784d78e8,data/784d78e8/other/70cfd67d.md,98,98,F,,,,,Certificate
-110939,70cfd67d,GitHub,784d78e8,data/784d78e8/other/70cfd67d.md,99,99,F,,,,,Certificate
-110940,8762af8b,GitHub,784d78e8,data/784d78e8/other/8762af8b.md,96,96,F,,,,,Certificate
-110941,d2360eed,GitHub,784d78e8,data/784d78e8/other/d2360eed.md,147,147,F,,,,,Auth:Certificate
-110942,d2360eed,GitHub,784d78e8,data/784d78e8/other/d2360eed.md,148,148,F,,,,,Certificate:Credential:Key
-110943,d2360eed,GitHub,784d78e8,data/784d78e8/other/d2360eed.md,204,204,F,,,,,Auth:Certificate
+110941,d2360eed,GitHub,784d78e8,data/784d78e8/other/d2360eed.md,147,147,F,,,,,Auth
+110942,d2360eed,GitHub,784d78e8,data/784d78e8/other/d2360eed.md,148,148,F,,,,,Credential:Key
+110943,d2360eed,GitHub,784d78e8,data/784d78e8/other/d2360eed.md,204,204,F,,,,,Auth
 130761,dca0818e,GitHub,784d78e8,data/784d78e8/other/dca0818e.md,29,29,F,,,,,Password
 130762,c85ef60f,GitHub,784d78e8,data/784d78e8/src/c85ef60f.yaml,31,31,F,,,,,Password
 130764,c85ef60f,GitHub,784d78e8,data/784d78e8/src/c85ef60f.yaml,14,14,F,,,,,Password
@@ -248,5 +245,5 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 130766,c85ef60f,GitHub,784d78e8,data/784d78e8/src/c85ef60f.yaml,22,22,F,,,,,Password
 133472,69b28b6a,GitHub,784d78e8,data/784d78e8/other/69b28b6a.md,79,79,F,,,,,Auth
 133473,69b28b6a,GitHub,784d78e8,data/784d78e8/other/69b28b6a.md,115,115,F,,,,,Auth
-133474,d2360eed,GitHub,784d78e8,data/784d78e8/other/d2360eed.md,139,139,F,,,,,Certificate:Key
-133475,d2360eed,GitHub,784d78e8,data/784d78e8/other/d2360eed.md,196,196,F,,,,,Certificate:Key
+133474,d2360eed,GitHub,784d78e8,data/784d78e8/other/d2360eed.md,139,139,F,,,,,Key
+133475,d2360eed,GitHub,784d78e8,data/784d78e8/other/d2360eed.md,196,196,F,,,,,Key
