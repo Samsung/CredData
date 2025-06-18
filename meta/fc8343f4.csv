@@ -29,7 +29,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 1495201,36e47938,GitHub,fc8343f4,data/fc8343f4/src/36e47938.go,42,42,T,75,91,,,Secret
 1495202,3a831bdb,GitHub,fc8343f4,data/fc8343f4/src/3a831bdb.go,602,602,T,15,51,,,UUID
 1495203,3a831bdb,GitHub,fc8343f4,data/fc8343f4/src/3a831bdb.go,823,823,T,15,51,,,UUID
-1495217,4a8949ee,GitHub,fc8343f4,data/fc8343f4/src/4a8949ee.go,604,604,T,32,,,,Auth:Certificate
+1495217,4a8949ee,GitHub,fc8343f4,data/fc8343f4/src/4a8949ee.go,604,604,T,32,,,,Auth
 1495218,4cf2897e,GitHub,fc8343f4,data/fc8343f4/src/4cf2897e.go,17,17,T,22,58,,,UUID
 1495224,50bae975,GitHub,fc8343f4,data/fc8343f4/src/50bae975.go,54,54,T,17,41,,,Secret
 1495225,50bae975,GitHub,fc8343f4,data/fc8343f4/src/50bae975.go,61,61,T,17,57,,,Secret
@@ -196,8 +196,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 1495960,1384c204,GitHub,fc8343f4,data/fc8343f4/test/1384c204.key,1,27,T,0,29,,,PEM Private Key
 1495961,14c09ced,GitHub,fc8343f4,data/fc8343f4/test/14c09ced.go,65,69,T,20,28,,,PEM Private Key
 1495962,18699e4f,GitHub,fc8343f4,data/fc8343f4/test/18699e4f.key,1,27,T,0,29,,,PEM Private Key
-1495963,1966268c,GitHub,fc8343f4,data/fc8343f4/test/1966268c.go,51,51,T,18,82,,,Certificate:Key
-1495964,1966268c,GitHub,fc8343f4,data/fc8343f4/test/1966268c.go,240,240,T,24,88,,,Certificate:Key
+1495963,1966268c,GitHub,fc8343f4,data/fc8343f4/test/1966268c.go,51,51,T,18,82,,,Key
+1495964,1966268c,GitHub,fc8343f4,data/fc8343f4/test/1966268c.go,240,240,T,24,88,,,Key
 1495965,1c5123ed,GitHub,fc8343f4,data/fc8343f4/test/1c5123ed.key,1,27,T,0,29,,,PEM Private Key
 1495966,1d20714c,GitHub,fc8343f4,data/fc8343f4/test/1d20714c,1,27,T,0,29,,,PEM Private Key
 1495967,1e15a995,GitHub,fc8343f4,data/fc8343f4/test/1e15a995.go,50,50,F,15,19,,,Secret
@@ -326,7 +326,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 1496091,4bb370c1,GitHub,fc8343f4,data/fc8343f4/test/4bb370c1.sh,826,826,T,55,63,,,Key
 1496092,4c14683a,GitHub,fc8343f4,data/fc8343f4/test/4c14683a.go,51,65,T,29,29,,,PEM Private Key
 1496093,4c14683a,GitHub,fc8343f4,data/fc8343f4/test/4c14683a.go,78,92,T,29,29,,,PEM Private Key
-1496094,4c25351e,GitHub,fc8343f4,data/fc8343f4/test/4c25351e.go,115,115,T,31,,,,Certificate
+
 1496095,4cfaf549,GitHub,fc8343f4,data/fc8343f4/test/4cfaf549.go,224,224,T,8,44,,,UUID
 1496096,4cfaf549,GitHub,fc8343f4,data/fc8343f4/test/4cfaf549.go,234,234,T,19,55,,,UUID
 1496097,4cfaf549,GitHub,fc8343f4,data/fc8343f4/test/4cfaf549.go,265,265,T,8,44,,,UUID
@@ -495,9 +495,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 1496260,8fd94ef5,GitHub,fc8343f4,data/fc8343f4/test/8fd94ef5.go,157,157,T,15,19,,,Password
 1496261,8fd94ef5,GitHub,fc8343f4,data/fc8343f4/test/8fd94ef5.go,291,291,T,88,100,,,Auth
 1496262,8fe1ef09,GitHub,fc8343f4,data/fc8343f4/test/8fe1ef09.key,1,27,T,0,29,,,PEM Private Key
-1496265,9376ca88,GitHub,fc8343f4,data/fc8343f4/test/9376ca88.go,172,172,T,29,41,,,Certificate
+
 1496266,9376ca88,GitHub,fc8343f4,data/fc8343f4/test/9376ca88.go,173,173,T,21,37,,,Key
-1496267,9376ca88,GitHub,fc8343f4,data/fc8343f4/test/9376ca88.go,179,179,T,29,41,,,Certificate
+
 1496268,9376ca88,GitHub,fc8343f4,data/fc8343f4/test/9376ca88.go,180,180,T,21,37,,,Key
 1496269,946c4f1d,GitHub,fc8343f4,data/fc8343f4/test/946c4f1d.original,18,18,T,7,43,,,UUID
 1496270,951ced58,GitHub,fc8343f4,data/fc8343f4/test/951ced58.go,79,79,T,20,29,,,Auth
@@ -674,7 +674,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 1496441,c3f4a451,GitHub,fc8343f4,data/fc8343f4/test/c3f4a451.go,80,84,T,25,28,,,PEM Private Key
 1496442,c5936d13,GitHub,fc8343f4,data/fc8343f4/test/c5936d13.go,115,115,T,10,46,,,UUID
 1496443,c5b18bcf,GitHub,fc8343f4,data/fc8343f4/test/c5b18bcf.response,8,8,T,16,52,,,UUID
-1496444,c5c5b69d,GitHub,fc8343f4,data/fc8343f4/test/c5c5b69d.go,69,69,T,29,,,,Auth:Certificate
+1496444,c5c5b69d,GitHub,fc8343f4,data/fc8343f4/test/c5c5b69d.go,69,69,T,29,,,,Auth
 1496445,c8584261,GitHub,fc8343f4,data/fc8343f4/test/c8584261.go,83,83,T,21,57,,,UUID
 1496446,c8584261,GitHub,fc8343f4,data/fc8343f4/test/c8584261.go,123,123,T,19,55,,,UUID
 1496447,c925113f,GitHub,fc8343f4,data/fc8343f4/test/c925113f.key,1,27,T,0,29,,,PEM Private Key
@@ -777,7 +777,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 1496545,f4421653,GitHub,fc8343f4,data/fc8343f4/test/f4421653,1,1,T,167,203,,,UUID
 1496546,f4868fe1,GitHub,fc8343f4,data/fc8343f4/test/f4868fe1.response,8,8,T,10,46,,,UUID
 1496547,f5e9c1e8,GitHub,fc8343f4,data/fc8343f4/test/f5e9c1e8.response,14,14,T,12,48,,,UUID
-1496548,f706fd7c,GitHub,fc8343f4,data/fc8343f4/test/f706fd7c.go,62,62,T,32,,,,Auth:Certificate
+1496548,f706fd7c,GitHub,fc8343f4,data/fc8343f4/test/f706fd7c.go,62,62,T,32,,,,Auth
 1496549,f735396a,GitHub,fc8343f4,data/fc8343f4/test/f735396a.key,1,27,T,0,29,,,PEM Private Key
 1496550,f7443c35,GitHub,fc8343f4,data/fc8343f4/test/f7443c35.pem,1,5,T,0,28,,,PEM Private Key
 1496551,f84783aa,GitHub,fc8343f4,data/fc8343f4/test/f84783aa.original,16,16,T,7,43,,,UUID

@@ -40,8 +40,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 28991,881d34ce,GitHub,cc51a2f0,data/cc51a2f0/test/881d34ce.json,24,24,T,16,-1,,,Key:BASE64 encoded PEM Private Key
 28993,c973b298,GitHub,cc51a2f0,data/cc51a2f0/test/c973b298.json,30,30,T,16,-1,,,Key:BASE64 encoded PEM Private Key
 29303,3288b20b,GitHub,cc51a2f0,data/cc51a2f0/other/3288b20b.md,86,86,Template,20,32,,,Password
-29405,c973b298,GitHub,cc51a2f0,data/cc51a2f0/test/c973b298.json,29,29,T,24,-1,,,Certificate
-29760,881d34ce,GitHub,cc51a2f0,data/cc51a2f0/test/881d34ce.json,23,23,T,24,-1,,,Certificate
+
+
 30056,3ac92298,GitHub,cc51a2f0,data/cc51a2f0/test/3ac92298.md,45,45,Template,24,32,,,Auth:Password
 30195,3ac92298,GitHub,cc51a2f0,data/cc51a2f0/test/3ac92298.md,38,38,Template,13,21,,,Password
 31155,23a4ef27,GitHub,cc51a2f0,data/cc51a2f0/other/23a4ef27.md,15,15,T,21,41,,,AWS Client ID:Gitlab Feed Token
@@ -103,8 +103,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 114536,3ac92298,GitHub,cc51a2f0,data/cc51a2f0/test/3ac92298.md,41,41,F,,,,,Auth
 114537,881d34ce,GitHub,cc51a2f0,data/cc51a2f0/test/881d34ce.json,15,15,F,-1,-1,,,Key
 114538,c973b298,GitHub,cc51a2f0,data/cc51a2f0/test/c973b298.json,19,19,F,-1,-1,,,Key
-114539,82e7fd26,GitHub,cc51a2f0,data/cc51a2f0/test/82e7fd26.conf,44,44,F,,,,,Auth:Certificate
-114541,c457c85a,GitHub,cc51a2f0,data/cc51a2f0/test/c457c85a.bats,108,108,F,,,,,Certificate
+114539,82e7fd26,GitHub,cc51a2f0,data/cc51a2f0/test/82e7fd26.conf,44,44,F,,,,,Auth
 114542,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/c65d41b8.bats,19,19,F,,,,,Password
 114543,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/c65d41b8.bats,42,42,F,,,,,Password
 114544,c8a43705,GitHub,cc51a2f0,data/cc51a2f0/test/c8a43705.md,63,63,F,-1,-1,,,Key
@@ -129,7 +128,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 134591,141cf316,GitHub,cc51a2f0,data/cc51a2f0/src/141cf316.sh,1066,1066,F,,,,,Auth
 134592,29a4c140,GitHub,cc51a2f0,data/cc51a2f0/test/29a4c140.bats,42,42,F,,,,,Auth
 134593,29a4c140,GitHub,cc51a2f0,data/cc51a2f0/test/29a4c140.bats,207,207,F,,,,,Auth
-134594,82e7fd26,GitHub,cc51a2f0,data/cc51a2f0/test/82e7fd26.conf,24,24,F,,,,,Certificate
 134595,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/c65d41b8.bats,173,173,F,,,,,Auth
 134596,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/c65d41b8.bats,178,178,F,,,,,Auth
 134597,c65d41b8,GitHub,cc51a2f0,data/cc51a2f0/test/c65d41b8.bats,934,934,F,,,,,Auth
