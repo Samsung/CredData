@@ -36,13 +36,12 @@ We offer the dataset for download as metadata files and script that would collec
 
 To download data please use:
 - Linux based OS
-- Python 3.8.10 or higher version
+- Python 3.10 is recommended
 
 Then run:
 
 ```bash
-pip install PyYAML
-python download_data.py --data_dir data 
+python download_data.py
 ```
 
 > That Linux based OS is required due to NTFS filenames issue.
@@ -167,9 +166,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 
 Convert the above line with only essential columns into a table format:
 
-| ... | RepoName | FilePath                            | LineStart | LineEnd | GroundTruth | ... | ValueStart | ValueEnd | ... |
-|-----|----------|-------------------------------------|-----------|---------|-------------|-----|------------|----------|-----|
-| ... | 02dfa7ec | data/02dfa7ec/test/61ed9af5.example | 83        | 83      | T           | ... | 31         | 73       | ... |
+| ... | RepoName | FilePath                            | LineStart | LineEnd | GroundTruth | ValueStart | ValueEnd | ... | Category  |
+|-----|----------|-------------------------------------|-----------|---------|-------------|------------|----------|-----|-----------|
+| ... | 02dfa7ec | data/02dfa7ec/test/61ed9af5.example | 83        | 83      | T           | 31         | 73       | ... | Cat1:Cat2 |
 
 
 This line means that the credential line exists in the 83th line of the `data/02dfa7ec/test/61ed9af5.example` file that downloaded and obfuscated output after running the `download_data.py` script.
@@ -246,7 +245,7 @@ It may be difficult to check the license of an existing project due to obfuscati
  ┣ 📂meta
  ┃    ┗ 📜abcdef42.csv
  ┃
- ┣ 📜snapshot.yaml ---- URL and commit info for used repositories
+ ┣ 📜snapshot.json ---- commit+random : URL data for repositories to be downloaded
  ┃
  ┣ 📜README.md
  ┃
@@ -257,7 +256,7 @@ It may be difficult to check the license of an existing project due to obfuscati
 
 ## Benchmark
 ### Main Requirements
-- Python3.8 or higher
+- Python3.9 or higher
 
 ### Installation
 ``` bash
