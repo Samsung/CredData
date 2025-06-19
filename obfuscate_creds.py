@@ -91,7 +91,7 @@ def get_obfuscated_value(value, meta_row: MetaRow):
                                            "ANVA", "AROA", "APKA", "ASCA", "ASIA", "AIza"]) \
             or value.startswith("xox") and 15 <= len(value) and value[3] in "aboprst" and '-' == value[4]:
         obfuscated_value = value[:4] + generate_value(value[4:])
-    elif any(value.startswith(x) for x in ["ya29.", "pass:", "salt:"]):
+    elif any(value.startswith(x) for x in ["ya29.", "pass:", "salt:", "akab-"]):
         obfuscated_value = value[:5] + generate_value(value[5:])
     elif any(value.startswith(x) for x in ["whsec_", "Basic ", "OAuth "]):
         obfuscated_value = value[:6] + generate_value(value[6:])
@@ -100,7 +100,7 @@ def get_obfuscated_value(value, meta_row: MetaRow):
     elif any(value.startswith(x) for x in
              ["hexpass:", "hexsalt:", "pk_live_", "rk_live_", "sk_live_", "pk_test_", "rk_test_", "sk_test_"]):
         obfuscated_value = value[:8] + generate_value(value[8:])
-    elif any(value.startswith(x) for x in ["SWMTKN-1-"]):
+    elif any(value.startswith(x) for x in ["SWMTKN-1-", "dckr_pat_", "dckr_oat_"]):
         obfuscated_value = value[:9] + generate_value(value[9:])
     elif any(value.startswith(x) for x in ["hexsecret:"]):
         obfuscated_value = value[:10] + generate_value(value[10:])

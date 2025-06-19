@@ -94,14 +94,21 @@ def move_files(snapshot_data, dataset_dir):
     """Select files with credential candidates. Files without candidates is omitted"""
     os.makedirs(dataset_dir, exist_ok=True)
     missing_repos = []
+    sha1_dub_check = {}
     id_dub_check = {}
     for i, (repo_id, repo_url) in enumerate(snapshot_data.items()):
         repo_id_bytes = binascii.unhexlify(repo_id)
         new_repo_id = f"{binascii.crc32(repo_id_bytes):08x}"
+        # repo_id collision check
         if dub_id := id_dub_check.get(new_repo_id):
             raise ValueError(f"{repo_id} has collision {new_repo_id} with {dub_id}")
-        id_dub_check[new_repo_id] = repo_id
+        id_dub_check[new_repo_id] = (repo_id, repo_url)
         meta_file_path = f"meta/{new_repo_id}.csv"
+
+        # duplicate commit check
+        if dub_sha1 := sha1_dub_check.get(repo_id[:40]):
+            logger.warning(f"{repo_id}:{repo_url} may be from the same commit with {dub_sha1}")
+        sha1_dub_check[repo_id[:40]] = (repo_id, repo_url)
 
         if not os.path.exists(meta_file_path):
             with open(meta_file_path, "w") as f:
@@ -120,7 +127,7 @@ def move_files(snapshot_data, dataset_dir):
             assert not file_path.endswith(".xml"), f"xml parsing breaks raw text numeration {file_path}"
             if key in interesting_files:
                 # check correctness
-                assert interesting_files[key] == file_path, (key, file_path)
+                assert interesting_files[key] == file_path, f"Wrong markup: {row}"
             else:
                 interesting_files[key] = file_path
 
