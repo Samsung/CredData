@@ -186,6 +186,10 @@ def main(meta_dir: str,
                 print(f"Too long for Password TRUE markup!\n{row}", flush=True)
                 errors += 1
 
+        if row.LineStart != row.LineEnd and not any(x in row.Category for x in ["Multi", "PEM", "JWK", "Other"]):
+            print(f"Check multiline markup - may be not suitable for the category!\n{row}", flush=True)
+            errors += 1
+
         if row.FileID not in row.FilePath:
             print(f"FileID error!\n{row}", flush=True)
             errors += 1
