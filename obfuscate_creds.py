@@ -197,7 +197,8 @@ def gen_random_value(value):
     hex_upper = True
     hex_lower = True
     for n, i in enumerate(value):
-        if byte_hex and i not in "x0123456789ABCDEFabcdef, \t-{}[]()":
+        if byte_hex and i not in "x0123456789ABCDEFabcdef,mrst \t-{}[]()/*":
+            # 0x12, /* master */ 0xfe - the case
             # there may be an array in string e.g. CEKPET="[0xCA, 0xFE, ...]" - quoted value
             byte_hex = False
         if base_32 and i not in "ABCDEFGHIJKLMNOPQRSTUVWXYZ234567":
