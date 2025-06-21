@@ -1,6 +1,6 @@
-META MD5 bed20371427a314eddaa5d2c3138e5b4
-DATA MD5 931ea60fb8ef807f4cb6c19692599fca
-DATA: 16703803 interested lines. MARKUP: 62038 items
+META MD5 15a87b79f29b063a779835621ea632e4
+DATA MD5 f2b0c917b5442afed57a1545bf377fd4
+DATA: 16703803 interested lines. MARKUP: 62040 items
 FileType           FileNumber    ValidLines    Positives    Negatives    Templates
 ---------------  ------------  ------------  -----------  -----------  -----------
                           676         69398          134          416           72
@@ -118,7 +118,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .markdown                  38          5862           68            4            1
 .markerb                    3            12                         3
 .marko                      1            21                         2
-.md                       760        180503          917         2309          583
+.md                       760        180503          922         2309          578
 .mdx                        3           549                         7
 .mjml                       1            18                         1
 .mjs                       22          4424          124          341
@@ -166,7 +166,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .pyx                        2          1094                        23
 .r                          4            62            5            2
 .rake                       2            51                         2
-.rb                       852        130684          395         2405          591
+.rb                       852        130684          397         2405          591
 .re                         1            31                         1
 .red                        1           159                         1
 .release                    1            13                         4
@@ -181,7 +181,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .rsa                        3             3            3
 .rsc                        1           691                         1
 .rsp                       18          7739           24           10           27
-.rst                       92         35083           85          305           68
+.rst                       92         35083           86          305           68
 .rules                      1             6                         2
 .sample                     2            25            3            4            4
 .sbt                        3           570                         5            2
@@ -213,7 +213,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .tl                         2          2161                       161            1
 .tmpl                       5           336                         3            9
 .token                      1             1            3
-.toml                      86          2471           54          104          156
+.toml                      86          2471           60          106          148
 .tpl                        1            43                         1
 .travis                     1            34            2            3            1
 .ts                       609        109982          220         1772          197
@@ -232,11 +232,11 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .yml                      555         54516         1242          902          352
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  11479      16703803        15211        46363         4878
+TOTAL:                  11479      16703803        15225        46365         4865
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Templates    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
-API                                     241         3174          187                 0     0   3361    241  0.000000  1.000000  0.933093         0.000000
+API                                     242         3174          187                 0     0   3361    242  0.000000  1.000000  0.932834         0.000000
 AWS Client ID                           191           19            0                 0     0     19    191  0.000000  1.000000  0.090476         0.000000
 AWS Multi                                82           10            0                 0     0     10     82  0.000000  1.000000  0.108696         0.000000
 AWS S3 Bucket                            67           23            0                 0     0     23     67  0.000000  1.000000  0.255556         0.000000
@@ -272,17 +272,17 @@ Key                                    4209        15796          481           
 Nonce                                   115           50            0                 0     0     50    115  0.000000  1.000000  0.303030         0.000000
 Other                                     9         7439            5                 0     0   7444      9  0.000000  1.000000  0.998792         0.000000
 PEM Private Key                        1142         1484            0                 0     0   1484   1142  0.000000  1.000000  0.565118         0.000000
-Password                               2404         7543         2517                 0     0  10060   2404  0.000000  1.000000  0.807125         0.000000
+Password                               2415         7544         2505                 0     0  10049   2415  0.000000  1.000000  0.806242         0.000000
 SQL Password                             44           13            1                 0     0     14     44  0.000000  1.000000  0.241379         0.000000
 Salesforce Credentials                    6            0            0                 0     0      0      6            1.000000  0.000000         0.000000
 Salt                                     83           74            1                 0     0     75     83  0.000000  1.000000  0.474684         0.000000
-Secret                                 1503         1582          790                 0     0   2372   1503  0.000000  1.000000  0.612129         0.000000
+Secret                                 1504         1582          790                 0     0   2372   1504  0.000000  1.000000  0.611971         0.000000
 Seed                                      1            6            0                 0     0      6      1  0.000000  1.000000  0.857143         0.000000
 Slack Token                               4            1            0                 0     0      1      4  0.000000  1.000000  0.200000         0.000000
 Stripe Credentials                        2            0            0                 0     0      0      2            1.000000  0.000000         0.000000
 Tencent WeChat API App ID                 9            0            0                 0     0      0      9            1.000000  0.000000         0.000000
-Token                                   946         4185          455                 0     0   4640    946  0.000000  1.000000  0.830648         0.000000
+Token                                   947         4185          455                 0     0   4640    947  0.000000  1.000000  0.830499         0.000000
 Twilio Credentials                       30           39            0                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
-URL Credentials                         226          167          197                 0     0    364    226  0.000000  1.000000  0.616949         0.000000
+URL Credentials                         226          168          196                 0     0    364    226  0.000000  1.000000  0.616949         0.000000
 UUID                                   1866          265            0                 0     0    265   1866  0.000000  1.000000  0.124355         0.000000
-                                      15211        46363         4878           0     0     0  46363  15211  0.000000  1.000000  0.752964         0.000000
+                                      15225        46365         4865           0     0     0  46365  15225  0.000000  1.000000  0.752801         0.000000
