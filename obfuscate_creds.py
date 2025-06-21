@@ -193,6 +193,7 @@ def gen_random_value(value):
     lower_set = string.ascii_lowercase
     hex_upper_lower_set = set(string.digits + string.ascii_uppercase[:6] + string.ascii_lowercase[:6])
     hex_char_in_values_set = hex_upper_lower_set | set(" xULul,mrst\t-{}[]()/*")
+    hex_upper_lower_x_set = hex_upper_lower_set | set('x')
 
     byte_hex = "0x" in value and "," in value
     base_32 = True
@@ -251,8 +252,8 @@ def gen_random_value(value):
             obfuscated_value += v
             backslash_case = False
             continue
-        if byte_hex and (v in "xLUlu" or '0' == v and (0 == n or value[n - 1] not in hex_upper_lower_set)):
-            # keep byte hex definition prefix '0x' in 0xFF, 0xAA, ...
+        if byte_hex and (v in "xLUlu" or '0' == v and (0 == n or value[n - 1] not in hex_upper_lower_x_set)):
+            # keep byte hex definition prefix '000' or '0x'. e.g. 0x00 -> 0x42, 007 -> 033
             obfuscated_value += v
             continue
 
