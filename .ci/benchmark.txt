@@ -1,5 +1,5 @@
-META MD5 9e7eb1c6903ac435601ce1b362c3f5d2
-DATA MD5 1fe03b0687de861eb60558cc80ea9f04
+META MD5 66aea4e4fe6a99cb81ac59003921c6cb
+DATA MD5 dd083c6ffcce23cc08c3cddf0ae7635e
 DATA: 16703803 interested lines. MARKUP: 62037 items
 FileType           FileNumber    ValidLines    Positives    Negatives    Templates
 ---------------  ------------  ------------  -----------  -----------  -----------
@@ -121,7 +121,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .md                       760        180503          888         2313          578
 .mdx                        3           549                         7
 .mjml                       1            18                         1
-.mjs                       22          4424          101          365
+.mjs                       22          4424          101          369
 .mk                         1          5878                        13
 .ml                         1          1856                        16
 .mlir                       2          1596                        19
@@ -141,7 +141,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .patch                      4        109405            4           27
 .pbxproj                    1           941                         1
 .pem                       59          1297           58            8
-.php                      390         80502          147         1441           70
+.php                      390         80502          147         1443           70
 .pl                        16         14727            7           33
 .pm                         4          1817                         8
 .po                         3          2994                        15
@@ -152,7 +152,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .ppk                        1            45                        28
 .private                    1            15            1
 .proj                       1            85                         5
-.properties                55          1637           64           29           27
+.properties                55          1637           67           29           26
 .proto                      5          5768            2           49
 .ps1                       16          8509           15           73            2
 .ps1xml                     1          5022                         1
@@ -232,7 +232,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .yml                      555         54516         1264          907          326
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  11479      16703803        15269        46423         4741
+TOTAL:                  11479      16703803        15272        46429         4740
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Templates    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -247,7 +247,7 @@ Azure Access Token                       21            0            0           
 BASE64 Private Key                       22            4            0                 0     0      4     22  0.000000  1.000000  0.153846         0.000000
 BASE64 encoded PEM Private Key           12            0            0                 0     0      0     12            1.000000  0.000000         0.000000
 Bitbucket Client ID                      36           66            0                 0     0     66     36  0.000000  1.000000  0.647059         0.000000
-Bitbucket Client Secret                  38           98            1                 0     0     99     38  0.000000  1.000000  0.722628         0.000000
+Bitbucket Client Secret                  38          104            1                 0     0    105     38  0.000000  1.000000  0.734266         0.000000
 CMD ConvertTo-SecureString               13            4            0                 0     0      4     13  0.000000  1.000000  0.235294         0.000000
 CMD Password                             29          136            1                 0     0    137     29  0.000000  1.000000  0.825301         0.000000
 CMD Secret                                1           17            0                 0     0     17      1  0.000000  1.000000  0.944444         0.000000
@@ -268,11 +268,11 @@ JSON Web Token                          148           61            0           
 JWK                                      55            0            0                 0     0      0     55            1.000000  0.000000         0.000000
 Jira / Confluence PAT token               0            4            0                 0     0      4      0  0.000000            1.000000
 Jira 2FA                                 36            1            1                 0     0      2     36  0.000000  1.000000  0.052632         0.000000
-Key                                    4193        15817          477                 0     0  16294   4193  0.000000  1.000000  0.795334         0.000000
+Key                                    4194        15817          477                 0     0  16294   4194  0.000000  1.000000  0.795295         0.000000
 Nonce                                   115           50            0                 0     0     50    115  0.000000  1.000000  0.303030         0.000000
 Other                                     9         7439            5                 0     0   7444      9  0.000000  1.000000  0.998792         0.000000
 PEM Private Key                        1142         1482            0                 0     0   1482   1142  0.000000  1.000000  0.564787         0.000000
-Password                               2508         7560         2399                 0     0   9959   2508  0.000000  1.000000  0.798829         0.000000
+Password                               2509         7560         2398                 0     0   9958   2509  0.000000  1.000000  0.798749         0.000000
 SQL Password                             44           13            1                 0     0     14     44  0.000000  1.000000  0.241379         0.000000
 Salesforce Credentials                    6            0            0                 0     0      0      6            1.000000  0.000000         0.000000
 Salt                                     83           74            1                 0     0     75     83  0.000000  1.000000  0.474684         0.000000
@@ -285,4 +285,5 @@ Token                                   947         4186          454           
 Twilio Credentials                       30           39            0                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         229          177          184                 0     0    361    229  0.000000  1.000000  0.611864         0.000000
 UUID                                   1866          265            0                 0     0    265   1866  0.000000  1.000000  0.124355         0.000000
-                                      15269        46423         4741           0     0     0  46423  15269  0.000000  1.000000  0.752496         0.000000
+key                                       1            0            0                 0     0      0      1            1.000000  0.000000         0.000000
+                                      15272        46429         4740           0     0     0  46429  15272  0.000000  1.000000  0.752484         0.000000
