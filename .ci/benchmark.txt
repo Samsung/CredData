@@ -1,4 +1,4 @@
-META MD5 9149ce0583641c7cefe75d60e4de8b27
+META MD5 ad1f888d0e9ed10659ca6e7e8c0ab29b
 DATA MD5 b68d42639b9aa20e1588dfb33f42f47b
 DATA: 16705154 interested lines. MARKUP: 62668 items
 FileType           FileNumber    ValidLines    Positives    Negatives    Templates
@@ -219,7 +219,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .ts                       609        109982          226         1777          193
 .tsx                       54          7914            1          114            5
 .ttar                       1           452                         1
-.txt                      322         81679         5242         5585           41
+.txt                      322         81679         5242         5534           41
 .utf8                       1            77                         2
 .vsixmanifest               1            36                         1
 .vsmdi                      1             6            2
@@ -232,7 +232,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .yml                      555         54516         1865          907          326
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  11484      16705154        16060        47036         4740
+TOTAL:                  11484      16705154        16060        46985         4740
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Templates    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -246,7 +246,7 @@ Auth                                   1094         2760           77           
 Azure Access Token                       21            0            0                 0     0      0     21            1.000000  0.000000         0.000000
 BASE64 Private Key                       22            4            0                 0     0      4     22  0.000000  1.000000  0.153846         0.000000
 BASE64 encoded PEM Private Key           12            0            0                 0     0      0     12            1.000000  0.000000         0.000000
-Basic Authorization                     625          607            0                 0     0    607    625  0.000000  1.000000  0.492695         0.000000
+Basic Authorization                     625          556            0                 0     0    556    625  0.000000  1.000000  0.470787         0.000000
 Bearer Authorization                    163            0            0                 0     0      0    163            1.000000  0.000000         0.000000
 Bitbucket Client ID                      36           66            0                 0     0     66     36  0.000000  1.000000  0.647059         0.000000
 Bitbucket Client Secret                  38          104            1                 0     0    105     38  0.000000  1.000000  0.734266         0.000000
@@ -287,4 +287,4 @@ Token                                   947         4186          454           
 Twilio Credentials                       30           39            0                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         229          177          184                 0     0    361    229  0.000000  1.000000  0.611864         0.000000
 UUID                                   1866          265            0                 0     0    265   1866  0.000000  1.000000  0.124355         0.000000
-                                      16060        47036         4740           0     0     0  47036  16060  0.000000  1.000000  0.745467         0.000000
+                                      16060        46985         4740           0     0     0  46985  16060  0.000000  1.000000  0.745261         0.000000
