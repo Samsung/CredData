@@ -1,5 +1,5 @@
-META MD5 9b09b25df41f89eba9610ab4b402e481
-DATA MD5 43d7fd3bce9fc0f0936f1b8b4dd9ba0c
+META MD5 cfb367f1e7d63dc7d8091c045c8a8cd2
+DATA MD5 c81e65f234c83fe01144151faea1ddde
 DATA: 16703803 interested lines. MARKUP: 62037 items
 FileType           FileNumber    ValidLines    Positives    Negatives    Templates
 ---------------  ------------  ------------  -----------  -----------  -----------
@@ -66,7 +66,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .gd                         1            37                         1
 .gml                        3          3075                        16
 .gni                        3          5017                        19
-.go                      1275        717403         1420         4132          731
+.go                      1275        717403         1419         4133          731
 .golden                     5          1168            1           13           29
 .gradle                    50          4295            7           90          100
 .graphql                    8           454            2           13
@@ -118,10 +118,10 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .markdown                  38          5862           68            4            1
 .markerb                    3            12                         3
 .marko                      1            21                         2
-.md                       760        180503          890         2311          578
+.md                       760        180503          888         2313          578
 .mdx                        3           549                         7
 .mjml                       1            18                         1
-.mjs                       22          4424          125          341
+.mjs                       22          4424          101          365
 .mk                         1          5878                        13
 .ml                         1          1856                        16
 .mlir                       2          1596                        19
@@ -216,7 +216,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .toml                      86          2471           62          106          148
 .tpl                        1            43                         1
 .travis                     1            34            2            3            1
-.ts                       609        109982          220         1772          197
+.ts                       609        109982          218         1774          197
 .tsx                       54          7914            1          114            5
 .ttar                       1           452                         1
 .txt                      322         81679         5241         4984           41
@@ -232,7 +232,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .yml                      555         54516         1243          903          349
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  11479      16703803        15203        46373         4851
+TOTAL:                  11479      16703803        15174        46402         4851
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Templates    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -247,7 +247,7 @@ Azure Access Token                       21            0            0           
 BASE64 Private Key                       22            4            0                 0     0      4     22  0.000000  1.000000  0.153846         0.000000
 BASE64 encoded PEM Private Key           12            0            0                 0     0      0     12            1.000000  0.000000         0.000000
 Bitbucket Client ID                      36           66            0                 0     0     66     36  0.000000  1.000000  0.647059         0.000000
-Bitbucket Client Secret                  46           90            1                 0     0     91     46  0.000000  1.000000  0.664234         0.000000
+Bitbucket Client Secret                  38           98            1                 0     0     99     38  0.000000  1.000000  0.722628         0.000000
 CMD ConvertTo-SecureString               13            4            0                 0     0      4     13  0.000000  1.000000  0.235294         0.000000
 CMD Password                             29          136            1                 0     0    137     29  0.000000  1.000000  0.825301         0.000000
 CMD Secret                                1           17            0                 0     0     17      1  0.000000  1.000000  0.944444         0.000000
@@ -268,7 +268,7 @@ JSON Web Token                          148           61            0           
 JWK                                      55            0            0                 0     0      0     55            1.000000  0.000000         0.000000
 Jira / Confluence PAT token               0            4            0                 0     0      4      0  0.000000            1.000000
 Jira 2FA                                 36            1            1                 0     0      2     36  0.000000  1.000000  0.052632         0.000000
-Key                                    4211        15797          479                 0     0  16276   4211  0.000000  1.000000  0.794455         0.000000
+Key                                    4191        15817          479                 0     0  16296   4191  0.000000  1.000000  0.795431         0.000000
 Nonce                                   115           50            0                 0     0     50    115  0.000000  1.000000  0.303030         0.000000
 Other                                     9         7439            5                 0     0   7444      9  0.000000  1.000000  0.998792         0.000000
 PEM Private Key                        1142         1482            0                 0     0   1482   1142  0.000000  1.000000  0.564787         0.000000
@@ -276,7 +276,7 @@ Password                               2421         7548         2495           
 SQL Password                             44           13            1                 0     0     14     44  0.000000  1.000000  0.241379         0.000000
 Salesforce Credentials                    6            0            0                 0     0      0      6            1.000000  0.000000         0.000000
 Salt                                     83           74            1                 0     0     75     83  0.000000  1.000000  0.474684         0.000000
-Secret                                 1500         1585          791                 0     0   2376   1500  0.000000  1.000000  0.613003         0.000000
+Secret                                 1499         1586          791                 0     0   2377   1499  0.000000  1.000000  0.613261         0.000000
 Seed                                      1            6            0                 0     0      6      1  0.000000  1.000000  0.857143         0.000000
 Slack Token                               4            1            0                 0     0      1      4  0.000000  1.000000  0.200000         0.000000
 Stripe Credentials                        2            0            0                 0     0      0      2            1.000000  0.000000         0.000000
@@ -285,4 +285,4 @@ Token                                   947         4186          454           
 Twilio Credentials                       30           39            0                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         226          168          196                 0     0    364    226  0.000000  1.000000  0.616949         0.000000
 UUID                                   1866          265            0                 0     0    265   1866  0.000000  1.000000  0.124355         0.000000
-                                      15203        46373         4851           0     0     0  46373  15203  0.000000  1.000000  0.753102         0.000000
+                                      15174        46402         4851           0     0     0  46402  15174  0.000000  1.000000  0.753573         0.000000
