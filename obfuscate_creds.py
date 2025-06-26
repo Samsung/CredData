@@ -85,14 +85,15 @@ def obfuscate_jwt(value: str) -> str:
 
 
 def obfuscate_basic_auth(value):
+    # rfc7617 uses standard base64 encoding from rfc4648#section-4
     len_value = len(value)
     pad_num = 0x3 & len(value)
     if pad_num:
         value += '=' * (4 - pad_num)
-    decoded = base64.b64decode(value, altchars=b"-_", validate=True)
+    decoded = base64.b64decode(value,validate=True)
     basic = decoded.decode("utf_8")
     new_basic = generate_value(basic)
-    encoded = base64.b64encode(new_basic.encode("utf_8"), altchars=b"-_").decode("ascii")
+    encoded = base64.b64encode(new_basic.encode("utf_8")).decode("ascii")
     while len(encoded) > len_value:
         # only padding sign may be truncated
         assert '=' == encoded[-1], encoded
