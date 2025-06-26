@@ -273,7 +273,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 22835,b31db0c1,GitHub,387016a6,data/387016a6/src/b31db0c1.asciidoc,93,93,F,,,,,Token
 22836,499a20a4,GitHub,387016a6,data/387016a6/src/499a20a4.asciidoc,66,66,F,,,,,Token
 23141,edd8a2e5,GitHub,387016a6,data/387016a6/other/edd8a2e5.md,7,7,F,,,,,API
-23248,e1bfafc6,GitHub,387016a6,data/387016a6/src/e1bfafc6.asciidoc,48,48,Template,17,35,,,Password
+23248,e1bfafc6,GitHub,387016a6,data/387016a6/src/e1bfafc6.asciidoc,48,48,T,17,31,,,Password
 24968,27e24e2f,GitHub,387016a6,data/387016a6/src/27e24e2f.asciidoc,124,124,F,-1,-1,,,Other
 25304,9ca7dd81,GitHub,387016a6,data/387016a6/src/9ca7dd81.bat,96,96,F,,,,,Password
 25305,9ca7dd81,GitHub,387016a6,data/387016a6/src/9ca7dd81.bat,94,94,F,,,,,Password:Key
@@ -372,11 +372,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 28223,4efc52cf,GitHub,387016a6,data/387016a6/test/4efc52cf.yml,146,146,Template,48,54,,,Key:Password
 28294,aa27cc4b,GitHub,387016a6,data/387016a6/test/aa27cc4b.yml,15,15,Template,26,46,,,Gitlab Feed Token:Password
 28304,6013e271,GitHub,387016a6,data/387016a6/src/6013e271.asciidoc,134,134,T,41,57,,,Password
-28305,6013e271,GitHub,387016a6,data/387016a6/src/6013e271.asciidoc,161,161,Template,41,54,,,Password
-28306,6013e271,GitHub,387016a6,data/387016a6/src/6013e271.asciidoc,188,188,Template,41,58,,,Password
+28305,6013e271,GitHub,387016a6,data/387016a6/src/6013e271.asciidoc,161,161,T,41,54,,,Password
+28306,6013e271,GitHub,387016a6,data/387016a6/src/6013e271.asciidoc,188,188,T,41,58,,,Password
 28446,eedec1c5,GitHub,387016a6,data/387016a6/test/eedec1c5.java,150,150,T,33,49,,,Password
-28486,2864c178,GitHub,387016a6,data/387016a6/src/2864c178.asciidoc,86,86,Template,16,22,,,Password
-28487,2864c178,GitHub,387016a6,data/387016a6/src/2864c178.asciidoc,156,156,Template,14,22,,,Password
+28486,2864c178,GitHub,387016a6,data/387016a6/src/2864c178.asciidoc,86,86,T,16,22,,,Password
+28487,2864c178,GitHub,387016a6,data/387016a6/src/2864c178.asciidoc,156,156,T,14,22,,,Password
 28488,978c0e20,GitHub,387016a6,data/387016a6/src/978c0e20.asciidoc,110,110,Template,14,27,,,Password
 28491,b6a4aa2a,GitHub,387016a6,data/387016a6/test/b6a4aa2a.yml,30,30,Template,24,44,,,Gitlab Feed Token:Password
 28492,9322604b,GitHub,387016a6,data/387016a6/src/9322604b.asciidoc,402,402,Template,29,55,,,Password
@@ -1011,15 +1011,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 113728,20581464,GitHub,387016a6,data/387016a6/src/20581464.java,126,126,F,,,,,Password
 113729,01b42f5f,GitHub,387016a6,data/387016a6/src/01b42f5f.gradle,62,62,F,,,,,Auth
 113730,e1bfafc6,GitHub,387016a6,data/387016a6/src/e1bfafc6.asciidoc,119,119,F,,,,,Auth
-
 113732,e1bfafc6,GitHub,387016a6,data/387016a6/src/e1bfafc6.asciidoc,123,123,F,,,,,Auth
-
-
 113735,e1bfafc6,GitHub,387016a6,data/387016a6/src/e1bfafc6.asciidoc,148,148,F,,,,,Auth
-
 113737,e1bfafc6,GitHub,387016a6,data/387016a6/src/e1bfafc6.asciidoc,152,152,F,,,,,Auth
-
-
 113740,0ad68ef3,GitHub,387016a6,data/387016a6/src/0ad68ef3.asciidoc,366,366,F,,,,,Key
 113741,27e24e2f,GitHub,387016a6,data/387016a6/src/27e24e2f.asciidoc,108,108,F,-1,-1,,,Other
 113743,b9fb4aa4,GitHub,387016a6,data/387016a6/src/b9fb4aa4.asciidoc,1809,1809,F,,,,,Token
@@ -1115,7 +1109,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 1493497,399ed397,GitHub,387016a6,data/387016a6/src/399ed397.asciidoc,116,116,T,13,53,,,Nonce
 1493498,399ed397,GitHub,387016a6,data/387016a6/src/399ed397.asciidoc,140,140,T,225,268,,,Nonce
 1493499,399ed397,GitHub,387016a6,data/387016a6/src/399ed397.asciidoc,142,142,T,13,56,,,Nonce
-
 1493501,89d4a42e,GitHub,387016a6,data/387016a6/src/89d4a42e.asciidoc,90,90,T,20,124,,,Token
 1493502,a1e4d7af,GitHub,387016a6,data/387016a6/src/a1e4d7af.gradle,31,31,T,14,50,,,Key
 1493503,b25f8b87,GitHub,387016a6,data/387016a6/src/b25f8b87.gradle,38,38,T,14,50,,,Key
@@ -1675,3 +1668,4 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 1494792,df705651,GitHub,387016a6,data/387016a6/src/df705651.asciidoc,71,71,T,88,108,,,Gitlab Feed Token
 1494793,3edd20d7,GitHub,387016a6,data/387016a6/test/3edd20d7.java,35,35,T,55,91,,,UUID
 1509788,b475c48b,GitHub,387016a6,data/387016a6/test/b475c48b.java,109,110,T,24,133,,,JWK
+

@@ -118,9 +118,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 114617,3295df72,GitHub,71455799,data/71455799/src/3295df72.sum,789,789,F,,,,,Auth
 114618,3295df72,GitHub,71455799,data/71455799/src/3295df72.sum,790,790,F,,,,,Auth
 114619,3295df72,GitHub,71455799,data/71455799/src/3295df72.sum,323,323,F,-1,-1,,,Other
-
-
-
 134785,e378fef4,GitHub,71455799,data/71455799/test/e378fef4.tfstate,20,23,T,19,63,,,AWS Multi
 134786,e378fef4,GitHub,71455799,data/71455799/test/e378fef4.tfstate,38,41,T,19,63,,,AWS Multi
 134787,e378fef4,GitHub,71455799,data/71455799/test/e378fef4.tfstate,65,68,T,19,63,,,AWS Multi
@@ -131,8 +128,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 1339005,4847bee0,GitHub,71455799,data/71455799/test/4847bee0.tfstate,5,5,T,14,50,,,UUID
 1339006,87378121,GitHub,71455799,data/71455799/test/87378121.tfstate,5,5,T,14,50,,,UUID
 1339007,e378fef4,GitHub,71455799,data/71455799/test/e378fef4.tfstate,5,5,T,14,50,,,UUID
-1480777,23621a2f,GitHub,71455799,data/71455799/test/23621a2f.json,32,32,T,19,,,,Key
-1480780,23621a2f,GitHub,71455799,data/71455799/test/23621a2f.json,44,44,T,40,,,,Key
+1480777,23621a2f,GitHub,71455799,data/71455799/test/23621a2f.json,32,32,F,19,,,,Key
+1480780,23621a2f,GitHub,71455799,data/71455799/test/23621a2f.json,44,44,F,40,,,,Key
 1494353,2f5ec5c9,GitHub,71455799,data/71455799/test/2f5ec5c9.json,23,23,T,13,49,,,Key:UUID
 1494354,2f5ec5c9,GitHub,71455799,data/71455799/test/2f5ec5c9.json,38,38,T,13,49,,,Key:UUID
 1494355,44c4dfed,GitHub,71455799,data/71455799/test/44c4dfed.go,48,48,T,25,61,,,Key:UUID
@@ -156,7 +153,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 1494373,6dace32a,GitHub,71455799,data/71455799/test/6dace32a.tfstate,46,46,T,30,66,,,Key:UUID
 1494374,6dace32a,GitHub,71455799,data/71455799/test/6dace32a.tfstate,69,69,F,31,106,,,Key
 1494375,6dace32a,GitHub,71455799,data/71455799/test/6dace32a.tfstate,70,70,T,30,66,,,Key:UUID
-1494376,8c391762,GitHub,71455799,data/71455799/test/8c391762.json,1,1,T,191,212,,,Key
+1494376,8c391762,GitHub,71455799,data/71455799/test/8c391762.json,1,1,F,,,,,Key
 1494377,bfb503da,GitHub,71455799,data/71455799/test/bfb503da.go,44,44,T,33,53,,,Key:AWS Client ID
 1494378,bfb503da,GitHub,71455799,data/71455799/test/bfb503da.go,50,50,T,33,53,,,Key:AWS Client ID
 1494379,bfb503da,GitHub,71455799,data/71455799/test/bfb503da.go,63,63,T,33,53,,,Key:AWS Client ID
@@ -197,7 +194,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 1494855,ecba24d2,GitHub,71455799,data/71455799/test/ecba24d2.tfstate,48,48,T,19,55,,,UUID
 1494856,ecba24d2,GitHub,71455799,data/71455799/test/ecba24d2.tfstate,71,71,T,59,95,,,UUID
 1494857,ecba24d2,GitHub,71455799,data/71455799/test/ecba24d2.tfstate,76,76,T,19,55,,,UUID
-1509011,8c391762,GitHub,71455799,data/71455799/test/8c391762.json,1,1,F,442,463,,,Key
 1509895,641033fd,GitHub,71455799,data/71455799/test/641033fd.json,8,8,T,61,97,,,UUID
 1509896,641033fd,GitHub,71455799,data/71455799/test/641033fd.json,18,18,T,61,97,,,UUID
 1509897,641033fd,GitHub,71455799,data/71455799/test/641033fd.json,28,28,T,61,97,,,UUID

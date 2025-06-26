@@ -94,6 +94,10 @@ jobs:
             review_head.html
             benchmark.txt
 
+      - name: Let's run the tests at last
+        run: |
+           python -m unittest --verbose --buffer test_*.py
+
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
   review_base:

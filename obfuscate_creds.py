@@ -191,26 +191,30 @@ def gen_random_value(value):
     digits_set = string.digits
     upper_set = string.ascii_uppercase
     lower_set = string.ascii_lowercase
+    hex_upper_lower_set = set(string.digits + string.ascii_uppercase[:6] + string.ascii_lowercase[:6])
+    hex_char_in_values_set = hex_upper_lower_set | set(" xULul,mrst\t-{}[]()/*")
+    hex_upper_lower_x_set = hex_upper_lower_set | set('x')
 
     byte_hex = "0x" in value and "," in value
     base_32 = True
     hex_upper = True
     hex_lower = True
-    for n, i in enumerate(value):
-        if byte_hex and i not in "x0123456789ABCDEFabcdef, \t-{}[]()":
+    for n, v in enumerate(value):
+        if byte_hex and v not in hex_char_in_values_set:
+            # 0x12, /* master */ 0xfe - the case
             # there may be an array in string e.g. CEKPET="[0xCA, 0xFE, ...]" - quoted value
             byte_hex = False
-        if base_32 and i not in "ABCDEFGHIJKLMNOPQRSTUVWXYZ234567":
+        if base_32 and v not in "ABCDEFGHIJKLMNOPQRSTUVWXYZ234567":
             base_32 = False
-        if '-' == i and len(value) in (18, 36) and n in (8, 13, 18, 23):
+        if '-' == v and len(value) in (18, 36) and n in (8, 13, 18, 23):
             # UUID separator or something like this
             continue
-        if ':' == i and 2 == n % 3:
+        if ':' == v and 2 == n % 3:
             # wifi key like 7f:44:52:fe: ...
             continue
-        if hex_upper and i not in "0123456789ABCDEF":
+        if hex_upper and v not in "0123456789ABCDEF":
             hex_upper = False
-        if hex_lower and i not in "0123456789abcdef":
+        if hex_lower and v not in "0123456789abcdef":
             hex_lower = False
 
     if hex_lower:
@@ -223,7 +227,7 @@ def gen_random_value(value):
     web_escape_case = 0
     backslash_case = False
     hex_data = 0
-    for v in value:
+    for n, v in enumerate(value):
         if '%' == v:
             web_escape_case = 2
             backslash_case = False
@@ -248,8 +252,8 @@ def gen_random_value(value):
             obfuscated_value += v
             backslash_case = False
             continue
-        if byte_hex and ('0' == v or 'x' == v):
-            # keep byte hex definition prefix '0x' in 0xFF, 0xAA, ...
+        if byte_hex and (v in "xLUlu" or '0' == v and (0 == n or value[n - 1] not in hex_upper_lower_x_set)):
+            # keep byte hex definition prefix '000' or '0x'. e.g. 0x00 -> 0x42, 007 -> 033
             obfuscated_value += v
             continue
 
@@ -287,8 +291,8 @@ def replace_rows(data: List[MetaRow]):
         if not (0 <= row.ValueStart and 0 <= row.ValueEnd):
             continue
 
-        if row.Category in ["IPv4", "IPv6", "AWS Multi", "Google Multi"]:
-            # skip obfuscation for the categories which are multi pattern or info
+        if row.Category in ["AWS Multi", "Google Multi"]:
+            # skip obfuscation for the categories which are multi pattern
             continue
 
         file_location = row.FilePath

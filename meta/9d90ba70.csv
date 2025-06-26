@@ -40,7 +40,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 8398,969c0712,GitHub,9d90ba70,data/9d90ba70/test/969c0712.py,3345,3345,F,-1,-1,,,Key
 8399,896ef337,GitHub,9d90ba70,data/9d90ba70/test/896ef337.py,301,301,F,-1,-1,,,Key
 8400,896ef337,GitHub,9d90ba70,data/9d90ba70/test/896ef337.py,46,46,F,-1,-1,,,Key
-8412,2fb979b4,GitHub,9d90ba70,data/9d90ba70/src/2fb979b4.rst,4171,4171,Template,59,63,,,Password
+8412,2fb979b4,GitHub,9d90ba70,data/9d90ba70/src/2fb979b4.rst,4171,4171,T,59,63,,,Password
 8420,5dc95b25,GitHub,9d90ba70,data/9d90ba70/test/5dc95b25.py,100,100,F,-1,-1,,,Key
 8421,1cc3b783,GitHub,9d90ba70,data/9d90ba70/src/1cc3b783.rst,2845,2845,F,-1,-1,,,Key
 8422,7920acde,GitHub,9d90ba70,data/9d90ba70/test/7920acde.py,506,506,F,-1,-1,,,Key
@@ -136,19 +136,19 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 25858,969c0712,GitHub,9d90ba70,data/9d90ba70/test/969c0712.py,4167,4167,F,-1,-1,,,Key
 26145,0ec0d9e0,GitHub,9d90ba70,data/9d90ba70/test/0ec0d9e0.html,8,8,F,,,,,Password
 26469,34de9075,GitHub,9d90ba70,data/9d90ba70/src/34de9075.rst,71,71,F,-1,-1,,,Other
-27307,5bb9200b,GitHub,9d90ba70,data/9d90ba70/src/5bb9200b.rst,32,32,Template,68,74,,,Password
+27307,5bb9200b,GitHub,9d90ba70,data/9d90ba70/src/5bb9200b.rst,32,32,T,68,74,,,Password
 28817,8a3b9997,GitHub,9d90ba70,data/9d90ba70/test/8a3b9997.py,47,47,Template,14,32,,,Key:Secret
 29259,2b4070a3,GitHub,9d90ba70,data/9d90ba70/test/2b4070a3.py,33,33,Template,14,27,,,Key:Secret
 29302,896ef337,GitHub,9d90ba70,data/9d90ba70/test/896ef337.py,250,250,Template,44,49,,,Password
-29796,5bb9200b,GitHub,9d90ba70,data/9d90ba70/src/5bb9200b.rst,86,86,Template,18,24,,,Password
-29803,2fb979b4,GitHub,9d90ba70,data/9d90ba70/src/2fb979b4.rst,52,52,Template,42,48,,,Password
+29796,5bb9200b,GitHub,9d90ba70,data/9d90ba70/src/5bb9200b.rst,86,86,T,18,24,,,Password
+29803,2fb979b4,GitHub,9d90ba70,data/9d90ba70/src/2fb979b4.rst,52,52,T,42,48,,,Password
 30530,0d119105,GitHub,9d90ba70,data/9d90ba70/test/0d119105.py,18,18,F,,,,,URL Credentials:Password
 30531,0d119105,GitHub,9d90ba70,data/9d90ba70/test/0d119105.py,10,10,F,,,,,URL Credentials:Password
 30532,0d119105,GitHub,9d90ba70,data/9d90ba70/test/0d119105.py,16,16,Template,38,41,,,URL Credentials
 31404,2b4070a3,GitHub,9d90ba70,data/9d90ba70/test/2b4070a3.py,24,24,Template,18,24,,,Password
 32271,0d119105,GitHub,9d90ba70,data/9d90ba70/test/0d119105.py,41,41,F,33,42,,,URL Credentials
 32286,0d119105,GitHub,9d90ba70,data/9d90ba70/test/0d119105.py,34,34,Template,33,42,,,URL Credentials
-32623,1cc3b783,GitHub,9d90ba70,data/9d90ba70/src/1cc3b783.rst,3604,3604,Template,38,46,,,URL Credentials
+32623,1cc3b783,GitHub,9d90ba70,data/9d90ba70/src/1cc3b783.rst,3604,3604,T,38,46,,,URL Credentials
 33783,896ef337,GitHub,9d90ba70,data/9d90ba70/test/896ef337.py,251,251,T,41,45,,,Password
 33786,4a8e9115,GitHub,9d90ba70,data/9d90ba70/test/4a8e9115.py,16,16,T,14,68,,,Key:Secret
 33913,95557d53,GitHub,9d90ba70,data/9d90ba70/test/95557d53.yaml,11,11,T,31,37,,,Password
@@ -370,3 +370,4 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 134229,969c0712,GitHub,9d90ba70,data/9d90ba70/test/969c0712.py,672,672,F,-1,-1,,,Key
 134230,969c0712,GitHub,9d90ba70,data/9d90ba70/test/969c0712.py,702,702,F,-1,-1,,,Key
 134231,969c0712,GitHub,9d90ba70,data/9d90ba70/test/969c0712.py,1413,1413,F,-1,-1,,,Key
+1520907,f4db0904,GitHub,9d90ba70,data/9d90ba70/src/f4db0904.py,169,169,F,,,,,CMD Password
