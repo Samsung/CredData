@@ -226,7 +226,7 @@ def move_files(snapshot_data, dataset_dir):
             code_file_location = f'{code_file_basedir}{file_id}{file_extension}'
 
             for row in meta_rows:
-                if row.Scope == code_file_location:
+                if row.File == file_id and row.Scope==file_scope:
                     logger.debug(row)
                     break
             else:
