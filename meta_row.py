@@ -8,9 +8,10 @@ from typing import Union, List, Generator
 class MetaRow:
     """Class represented meta markup row structure"""
 
-    FileID: str
-    RepoID: str
+    Repo: str
+    File: str
     Scope: str
+    Extension: str
     LineStart: int
     LineEnd: int
     Label: str

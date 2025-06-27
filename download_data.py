@@ -169,7 +169,7 @@ def move_files(snapshot_data, dataset_dir):
 
         if not os.path.exists(meta_file_path):
             with open(meta_file_path, "w") as f:
-                f.write("Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd"
+                f.write("Id,File,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd"
                         ",CryptographyKey,PredefinedPattern,Category\n")
             raise RuntimeError( f"New meta file {meta_file_path}! Restart again for new repo.")
 
@@ -180,11 +180,11 @@ def move_files(snapshot_data, dataset_dir):
         meta_rows = read_meta(meta_file_path)
         for row in meta_rows:
             assert not row.Scope.endswith(".xml"), f"xml parsing breaks raw text numeration {row.Scope}"
-            if row.FileID in interesting_files:
+            if row.File in interesting_files:
                 # check correctness
-                assert interesting_files[row.FileID] == row.Scope, f"Wrong markup: {row}"
+                assert interesting_files[row.File] == row.Scope, f"Wrong markup: {row}"
             else:
-                interesting_files[row.FileID] = row.Scope
+                interesting_files[row.File] = row.Scope
 
         # Select all files in the repo
         # pathlib.Path.glob used instead of glob.glob, as glob.glob could not search for a hidden files
