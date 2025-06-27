@@ -179,12 +179,12 @@ def move_files(snapshot_data, dataset_dir):
         interesting_files:Dict[str,str] = {}
         meta_rows = read_meta(meta_file_path)
         for row in meta_rows:
-            assert not row.FilePath.endswith(".xml"), f"xml parsing breaks raw text numeration {row.FilePath}"
+            assert not row.Scope.endswith(".xml"), f"xml parsing breaks raw text numeration {row.Scope}"
             if row.FileID in interesting_files:
                 # check correctness
-                assert interesting_files[row.FileID] == row.FilePath, f"Wrong markup: {row}"
+                assert interesting_files[row.FileID] == row.Scope, f"Wrong markup: {row}"
             else:
-                interesting_files[row.FileID] = row.FilePath
+                interesting_files[row.FileID] = row.Scope
 
         # Select all files in the repo
         # pathlib.Path.glob used instead of glob.glob, as glob.glob could not search for a hidden files
@@ -226,7 +226,7 @@ def move_files(snapshot_data, dataset_dir):
             code_file_location = f'{code_file_basedir}{file_id}{file_extension}'
 
             for row in meta_rows:
-                if row.FilePath == code_file_location:
+                if row.Scope == code_file_location:
                     logger.debug(row)
                     break
             else:

@@ -33,7 +33,6 @@ class Scanner(ABC):
         self.total_false_cnt = 0
         self.total_template_cnt = 0
         self.rules_markup_counters: Dict[str, Tuple[int, int, int]] = {}  # category: true_cnt, false_cnt, template_cnt
-        self.meta_next_id = 0  # used in suggestion
         self.file_types: Dict[str, FileTypeStat] = {}
         self.total_data_valid_lines = 0
         self.meta: Dict[MetaKey, List[MetaRow]] = {}
@@ -70,17 +69,17 @@ class Scanner(ABC):
             else:
                 self.meta[meta_key] = [meta_row]
             # get file extension like in CredSweeper
-            _, file_type = os.path.splitext(meta_row.FilePath)
+            _, file_type = os.path.splitext(meta_row.Scope)
             file_type_lower = file_type.lower()
             type_stat = self.file_types.get(file_type_lower, FileTypeStat(0, 0, 0, 0, 0))
             rules = meta_row.Category.split(':')
             for rule in rules:
                 true_cnt, false_cnt, template_cnt = self.rules_markup_counters.get(rule, (0, 0, 0))
-                if 'T' == meta_row.GroundTruth:
+                if 'T' == meta_row.Label:
                     true_cnt += 1
                     self.total_true_cnt += 1
                     type_stat.true_markup += 1
-                elif 'F' == meta_row.GroundTruth:
+                elif 'F' == meta_row.Label:
                     self.total_false_cnt += 1
                     false_cnt += 1
                     type_stat.false_markup += 1
@@ -91,8 +90,6 @@ class Scanner(ABC):
                     type_stat.template_markup += 1
                 self.rules_markup_counters[rule] = (true_cnt, false_cnt, template_cnt)
             self.file_types[file_type_lower] = type_stat
-            if self.meta_next_id <= meta_row.Id:
-                self.meta_next_id = meta_row.Id + 1
 
         data_checksum = hashlib.md5(b'').digest()
         # getting count of all not-empty lines
@@ -259,24 +256,21 @@ class Scanner(ABC):
         self.result_cnt += 1
         data_path, repo_name, file_name, file_id = self.get_items_from_path(file_path)
         # by default the cred is false positive
-        approximate = f"{self.meta_next_id},{file_id}" \
+        approximate = f"{file_id}" \
                       f",GitHub,{repo_name},{data_path}" \
                       f",{line_start},{line_end}" \
                       f",F,{value_start},{value_end}" \
                       f",,,{rule}"
         lost_meta = MetaRow({
-            "Id": self.meta_next_id,
-            "FileID": file_id,
-            "Domain": "GitHub",
-            "RepoName": repo_name,
-            "FilePath": data_path,
+            "File": file_id,
+            "Repo": repo_name,
+            "Scope": data_path,
             "LineStart": line_start,
             "LineEnd": line_end,
-            "GroundTruth": 'F',
+            "Label": 'F',
             "ValueStart": value_start,
             "ValueEnd": value_end,
-            "CryptographyKey": '',
-            "PredefinedPattern": '',
+            "Info": '',
             "Category": rule
         })
 
@@ -287,7 +281,6 @@ class Scanner(ABC):
                 with open(f"{self.cred_data_dir}/meta/{repo_name}.csv", "a") as f:
                     f.write(f"{str(approximate)}\n")
                 self.meta[MetaKey(data_path, line_start, line_end)] = [lost_meta]
-            self.meta_next_id += 1
             return LineStatus.NOT_IN_DB, repo_name, file_id
 
         suggestion = "LOST:"
@@ -295,7 +288,7 @@ class Scanner(ABC):
             # it means, all markups are the same file with line start-end
             if 0 > row.ValueStart and 0 > row.ValueEnd:
                 # the markup is for whole line - any value_start, value_end match
-                if 'T' == row.GroundTruth and row.LineStart == row.LineEnd:
+                if 'T' == row.Label and row.LineStart == row.LineEnd:
                     # True markup has to be marked at least start value in single line
                     print(f"WARNING True markup for whole line: {row}", flush=True)
                 pass
@@ -331,7 +324,7 @@ class Scanner(ABC):
             code = (data_path, row.LineStart, row.LineEnd, row.ValueStart, row.ValueEnd, rule)
             if code in self.line_checker:
                 self.result_cnt -= 1
-                if 'T' == row.GroundTruth:
+                if 'T' == row.Label:
                     print(f"WARNING: Already checked True! Duplicate? {code}", flush=True)
                 return LineStatus.CHECKED, repo_name, file_name
             else:
@@ -340,7 +333,7 @@ class Scanner(ABC):
             for meta_rule in row.Category.split(':'):
                 # increase the counter only for corresponded rule mentioned in markup
                 if meta_rule == rule:
-                    if 'T' == row.GroundTruth:
+                    if 'T' == row.Label:
                         self._increase_result_dict_cnt(meta_rule, True)
                         self.true_cnt += 1
                         return LineStatus.FALSE, repo_name, file_id
@@ -352,17 +345,16 @@ class Scanner(ABC):
             else:
                 print(f"WARNING: '{rule}' is not mentioned in {row}")
                 if self.fix:
-                    subprocess.check_call(
-                        ["sed", "-i",
-                         f"s/{row.Id},\\(.*\\)/{row.Id},\\1:{rule}/",
-                         f"{self.cred_data_dir}/meta/{row.RepoName}.csv"])
+                    # subprocess.check_call(
+                    #     ["sed", "-i",
+                    #      f"s/{row.Id},\\(.*\\)/{row.Id},\\1:{rule}/",
+                    #      f"{self.cred_data_dir}/meta/{row.RepoName}.csv"])
                     self.meta[MetaKey(data_path, line_start, line_end)].append(lost_meta)
                     lost_meta = None
 
         # meta has no markup for given credential
         self.lost_cnt += 1
         print(f"{suggestion} {approximate}", flush=True)
-        self.meta_next_id += 1
         if lost_meta and self.fix:
             with open(f"{self.cred_data_dir}/meta/{repo_name}.csv", "a") as f:
                 f.write(f"{str(approximate)}\n")
@@ -461,7 +453,7 @@ class Scanner(ABC):
         total_true_cnt = 0
         for rows in self.meta.values():
             for row in rows:
-                if row and 'T' == row.GroundTruth and rule in row.Category.split(':'):
+                if row and 'T' == row.Label and rule in row.Category.split(':'):
                     total_true_cnt += 1
         return total_true_cnt
 

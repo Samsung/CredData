@@ -20,7 +20,7 @@ def prepare_meta(meta_dir) -> Dict[Tuple[str, int, int, int, int], List[MetaRow]
 
     for row in _get_source_gen(Path(meta_dir)):
         meta_row = MetaRow(row)
-        markup_key = (meta_row.FilePath, meta_row.LineStart, meta_row.LineEnd, meta_row.ValueStart, meta_row.ValueEnd)
+        markup_key = (meta_row.Scope, meta_row.LineStart, meta_row.LineEnd, meta_row.ValueStart, meta_row.ValueEnd)
         if meta_list := meta_dict.get(markup_key):
             meta_list.append(meta_row)
             meta_dict[markup_key] = meta_list
@@ -51,7 +51,7 @@ def main(report_file: str, meta_dir: str):
         for key in key_variants:
             if rows := meta_dict.get(key):
                 # to easy review true/false/template
-                cred["severity"] = ';'.join(x.GroundTruth for x in rows)
+                cred["severity"] = ';'.join(x.Label for x in rows)
                 # full info will be placed above "line_data_list"
                 cred["confidence"] = ';'.join(str(x) for x in rows)
                 break
