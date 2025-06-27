@@ -63,8 +63,8 @@ def get_file_type_old(file_path: str, file_extension: str):
 @dataclasses.dataclass
 class NewMetaRow:
     Repo: str
-    File: str
     Scope: str
+    File: str
     Extension: str
     LineStart: int
     LineEnd: int
@@ -89,8 +89,8 @@ def migrate_repo(repo_id, new_repo_id):
     for old_meta_row in _get_source_gen(meta_file):
         new_meta_row = NewMetaRow(
             Repo=old_meta_row["RepoName"],
-            File=old_meta_row["FileID"],
             Scope="TBD:Scope",
+            File=old_meta_row["FileID"],
             Extension="TBD:Extension",
             LineStart=old_meta_row["LineStart"],
             LineEnd=old_meta_row["LineEnd"],
