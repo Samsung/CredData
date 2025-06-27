@@ -1,26 +1,26 @@
-Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd,CryptographyKey,PredefinedPattern,Category
-1079,01340e49,GitHub,9c7e3662,data/9c7e3662/src/01340e49.js,5,5,F,,,,,Password
-1650,cef9f57f,GitHub,9c7e3662,data/9c7e3662/src/cef9f57f.js,41,41,F,,,,,Token
-1701,1f38ba0e,GitHub,9c7e3662,data/9c7e3662/src/1f38ba0e.js,33,33,F,,,,,Token
-7462,6be0e5d3,GitHub,9c7e3662,data/9c7e3662/test/6be0e5d3.md,14,14,Template,54,61,,,URL Credentials
-9871,1414ee63,GitHub,9c7e3662,data/9c7e3662/test/1414ee63.js,92,92,F,-1,-1,,,Key
-10906,1daa19b0,GitHub,9c7e3662,data/9c7e3662/src/1daa19b0.hs,94,94,F,-1,-1,,,Key
-10907,1daa19b0,GitHub,9c7e3662,data/9c7e3662/src/1daa19b0.hs,129,129,F,-1,-1,,,Key
-10908,1daa19b0,GitHub,9c7e3662,data/9c7e3662/src/1daa19b0.hs,134,134,F,-1,-1,,,Key
-10909,1daa19b0,GitHub,9c7e3662,data/9c7e3662/src/1daa19b0.hs,98,98,F,-1,-1,,,Key
-11482,08ee0ef7,GitHub,9c7e3662,data/9c7e3662/test/08ee0ef7.js,129,129,F,-1,-1,,,Key
-11553,ea51f8c6,GitHub,9c7e3662,data/9c7e3662/test/ea51f8c6.js,20,20,F,,,,,Key
-12682,944291df,GitHub,9c7e3662,data/9c7e3662/src/944291df.yaml,68,68,F,,,,,Key
-13699,bfa3cf8e,GitHub,9c7e3662,data/9c7e3662/test/bfa3cf8e.js,57,57,F,-1,-1,,,Key
-18480,1daa19b0,GitHub,9c7e3662,data/9c7e3662/src/1daa19b0.hs,87,87,F,-1,-1,,,Key
-23315,4922f6be,GitHub,9c7e3662,data/9c7e3662/test/4922f6be,1,1,Template,35,42,,,URL Credentials
-27682,965313be,GitHub,9c7e3662,data/9c7e3662/src/965313be.sh,224,224,T,24,67,,,API:Key
-27691,6be0e5d3,GitHub,9c7e3662,data/9c7e3662/test/6be0e5d3.md,13,13,T,165,172,,,Password
-28128,c6fb1d31,GitHub,9c7e3662,data/9c7e3662/src/c6fb1d31.js,8,8,Template,24,32,,,Password
-30850,3e87530e,GitHub,9c7e3662,data/9c7e3662/src/3e87530e.js,24,24,Template,18,30,,,Secret
-74220,944291df,GitHub,9c7e3662,data/9c7e3662/src/944291df.yaml,83,83,F,,,,,Key
-130210,cef9f57f,GitHub,9c7e3662,data/9c7e3662/src/cef9f57f.js,63,63,F,,,,,Password
-130211,cef9f57f,GitHub,9c7e3662,data/9c7e3662/src/cef9f57f.js,58,58,F,,,,,Password
-132913,5e5beff6,GitHub,9c7e3662,data/9c7e3662/test/5e5beff6.js,51,51,F,,,,,Password
-134219,08ee0ef7,GitHub,9c7e3662,data/9c7e3662/test/08ee0ef7.js,91,91,F,-1,-1,,,Key
-134220,08ee0ef7,GitHub,9c7e3662,data/9c7e3662/test/08ee0ef7.js,111,111,F,-1,-1,,,Key
+Repo,File,Scope,Extension,LineStart,LineEnd,Label,ValueStart,ValueEnd,Info,Category
+9c7e3662,01340e49,/src/,.js,5,5,F,,,,Password
+9c7e3662,08ee0ef7,/example/,.js,129,129,F,-1,-1,,Key
+9c7e3662,08ee0ef7,/example/,.js,91,91,F,-1,-1,,Key
+9c7e3662,08ee0ef7,/example/,.js,111,111,F,-1,-1,,Key
+9c7e3662,1414ee63,/example/,.js,92,92,F,-1,-1,,Key
+9c7e3662,1daa19b0,/src/,.hs,94,94,F,-1,-1,,Key
+9c7e3662,1daa19b0,/src/,.hs,129,129,F,-1,-1,,Key
+9c7e3662,1daa19b0,/src/,.hs,134,134,F,-1,-1,,Key
+9c7e3662,1daa19b0,/src/,.hs,98,98,F,-1,-1,,Key
+9c7e3662,1daa19b0,/src/,.hs,87,87,F,-1,-1,,Key
+9c7e3662,1f38ba0e,/src/server/,.js,33,33,F,,,,Token
+9c7e3662,3e87530e,/src/conf/server/,.js,24,24,Template,18,30,,Secret
+9c7e3662,4922f6be,/example/,,1,1,Template,35,42,,URL Credentials
+9c7e3662,5e5beff6,/example/setting/,.js,51,51,F,,,,Password
+9c7e3662,6be0e5d3,/example/readme/,.md,14,14,Template,54,61,,URL Credentials
+9c7e3662,6be0e5d3,/example/readme/,.md,13,13,T,165,172,,Password
+9c7e3662,944291df,/_/,.yaml,68,68,F,,,,Key
+9c7e3662,944291df,/_/,.yaml,83,83,F,,,,Key
+9c7e3662,965313be,/_/,.sh,224,224,T,24,67,,API:Key
+9c7e3662,bfa3cf8e,/example/,.js,57,57,F,-1,-1,,Key
+9c7e3662,c6fb1d31,/src/client/server/,.js,8,8,Template,24,32,,Password
+9c7e3662,cef9f57f,/src/server/,.js,41,41,F,,,,Token
+9c7e3662,cef9f57f,/src/server/,.js,63,63,F,,,,Password
+9c7e3662,cef9f57f,/src/server/,.js,58,58,F,,,,Password
+9c7e3662,ea51f8c6,/example/,.js,20,20,F,,,,Key
