@@ -89,7 +89,7 @@ def migrate_repo(repo_id, new_repo_id):
         new_meta.append(meta_row)
 
     with open(meta_file, 'w', newline='\n') as csvfile:
-        writer = csv.DictWriter(csvfile, fieldnames=dataclasses.asdict(new_meta[0]).keys())
+        writer = csv.DictWriter(csvfile, fieldnames=dataclasses.asdict(new_meta[0]).keys(), lineterminator='\n')
         writer.writeheader()
         for row in new_meta:
             writer.writerow(dataclasses.asdict(row))
