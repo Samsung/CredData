@@ -63,6 +63,7 @@ WORDS_IN_PATH = [
     "client",
     "server",
     "/model",
+    "/modul",
     "browser",
     "/env",
     "/app",
