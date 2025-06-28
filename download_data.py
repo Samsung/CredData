@@ -89,6 +89,7 @@ def get_file_scope(path_without_extension: str):
             if not result.endswith('/'):
                 result += '/'
     if '/' == result:
+        logger.warning(path_without_extension)
         result = "/_/"
     return result
 
@@ -208,7 +209,7 @@ def move_files(snapshot_data, dataset_dir):
             if file_id in interesting_files.keys() \
                     or not meta_rows and "/.git/" not in full_path and not full_path.endswith(".xml"):
                 files_found[full_path] = (file_id, new_file_scope, file_extension)
-                logger.info(f"COPY {full_path} -> {new_repo_id}{new_file_scope}{file_id}")
+                logger.debug(f"COPY {full_path} -> {new_repo_id}{new_file_scope}{file_id}")
             else:
                 logger.debug(f"SKIP {full_path} ; {new_repo_id}{new_file_scope}{file_id}")
         # Check if there are files that present in meta but we could not find, or we somehow found files not from meta
