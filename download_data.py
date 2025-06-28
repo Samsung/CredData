@@ -223,18 +223,14 @@ def move_files(snapshot_data, dataset_dir):
             continue
 
         # Copy files to new dataset location
-        for j, full_path in enumerate(sorted(list(files_found))):
-            short_path = os.path.relpath(full_path, f"{TMP_DIR}/{repo_id}/").replace('\\', '/')
-            _, file_extension = os.path.splitext(full_path)
-            file_type = get_file_type(short_path, file_extension)
-            file_id = hashlib.sha256(short_path.encode()).hexdigest()[:8]
+        for full_path, (file_id, file_scope, file_extension) in files_found.items():
             logger.debug(f"{full_path} -> {file_id}")
 
-            code_file_basedir = f'{dataset_dir}/{new_repo_id}/{file_type}'
-            code_file_location = f'{code_file_basedir}/{file_id}{file_extension}'
+            code_file_basedir = f'{dataset_dir}/{new_repo_id}{file_scope}'
+            code_file_location = f'{code_file_basedir}{file_id}{file_extension}'
 
             for row in meta_rows:
-                if row.FilePath == code_file_location:
+                if row.FileID == file_id and row.FilePath==code_file_location:
                     logger.debug(row)
                     break
             else:
