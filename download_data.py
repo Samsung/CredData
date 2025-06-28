@@ -1,4 +1,5 @@
 import binascii
+import functools
 import hashlib
 import json
 import logging
@@ -22,68 +23,19 @@ logger = logging.getLogger(__file__)
 TMP_DIR = "tmp"
 
 
-# todo: add, upd in credsweeper
-WORDS_IN_PATH = [
-    "test",
-    "mock",
-    "/src",
-    "code",
-    "/include",
-    "internal"
-    "tool",
-    "util",
-    "example",
-    "sample",
-    "conf",
-    "secret",
-    "setting",
-    "security",
-    "secure",
-    "resource", 
-    "fixture",
-    "docker",
-    "/docs",
-    "/doc/",
-    "document",
-    "/lang", 
-    "/local", 
-    "/lib", 
-    "/spec", 
-    "/pkg", 
-    "/api",
-    "/rest",
-    "/opt",
-    "/sys",
-    "kube",
-    "kafka",
-    "cluster",
-    "other",
-    "public",
-    "init",
-    "client",
-    "server",
-    "/model",
-    "/modul",
-    "browser",
-    "/env",
-    "/app",
-    "/assets/",
-    "vendor",
-    "readme",
-    "build",
-    "/dist-packages",
-    "/record",
-    "/script",
-    "/site-packages",
-    "python",
-    "/usr",
-]
+@functools.cache
+def get_words_in_path():
+    # json format is used to prevent strings concatenation in python without comma in multiline
+    with open("word_in_path.json") as f:
+        # the file should be the same list in CredSweeper ml_config
+        result = json.load(f)
+    return result
 
 
 def get_file_scope(path_without_extension: str):
     result = '/'
     local_file_path_lower = f"./{path_without_extension.lower()}"
-    for word in WORDS_IN_PATH:
+    for word in get_words_in_path():
         if word in local_file_path_lower:
             result += word[1:] if word.startswith('/') else word
             if not result.endswith('/'):
