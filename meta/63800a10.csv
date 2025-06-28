@@ -1,17 +1,17 @@
-Repo,File,Scope,Extension,LineStart,LineEnd,Label,ValueStart,ValueEnd,Info,Category
-63800a10,160d3634,/test/secret/client/,.json,3,3,F,22,94,,Other
-63800a10,160d3634,/test/secret/client/,.json,8,8,T,26,50,,Secret
-63800a10,160d3634,/test/secret/client/,.json,10,10,F,,,,Auth
-63800a10,160d3634,/test/secret/client/,.json,3,8,T,22,50,,Google Multi
-63800a10,60691956,/_/,.py,160,160,F,-1,-1,,Key
-63800a10,60691956,/_/,.py,135,135,F,,,,Token
-63800a10,66fb79c0,/test/,.token,1,1,T,18,199,Google OAuth Access Token,Google OAuth Access Token:Token
-63800a10,66fb79c0,/test/,.token,1,1,T,424,527,,Token
-63800a10,6ac3f79f,/_/,.yml,32,32,T,26,62,,Token:UUID
-63800a10,d8056f87,/_/,.sql,375,375,F,52,150,,Other
-63800a10,e002928e,/_/,.py,68,68,F,,,,Token
-63800a10,e002928e,/_/,.py,81,81,F,,,,Token
-63800a10,e002928e,/_/,.py,63,63,F,,,,Token
-63800a10,e002928e,/_/,.py,46,46,F,,,,Secret
-63800a10,e002928e,/_/,.py,48,48,F,,,,Secret
-63800a10,f9839c9a,/_/,.py,214,214,F,,,,Token
+Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd,CryptographyKey,PredefinedPattern,Category
+374,e002928e,GitHub,63800a10,data/63800a10/src/e002928e.py,68,68,F,,,,,Token
+2474,60691956,GitHub,63800a10,data/63800a10/src/60691956.py,160,160,F,-1,-1,,,Key
+7211,60691956,GitHub,63800a10,data/63800a10/src/60691956.py,135,135,F,,,,,Token
+7597,e002928e,GitHub,63800a10,data/63800a10/src/e002928e.py,81,81,F,,,,,Token
+7955,e002928e,GitHub,63800a10,data/63800a10/src/e002928e.py,63,63,F,,,,,Token
+14321,f9839c9a,GitHub,63800a10,data/63800a10/src/f9839c9a.py,214,214,F,,,,,Token
+27388,d8056f87,GitHub,63800a10,data/63800a10/src/d8056f87.sql,375,375,F,52,150,,,Other
+35011,160d3634,GitHub,63800a10,data/63800a10/test/160d3634.json,3,3,F,22,94,,,Other
+35017,160d3634,GitHub,63800a10,data/63800a10/test/160d3634.json,8,8,T,26,50,,,Secret
+35424,6ac3f79f,GitHub,63800a10,data/63800a10/src/6ac3f79f.yml,32,32,T,26,62,,,Token:UUID
+35880,66fb79c0,GitHub,63800a10,data/63800a10/test/66fb79c0.token,1,1,T,18,199,,Google OAuth Access Token,Google OAuth Access Token:Token
+138190,66fb79c0,GitHub,63800a10,data/63800a10/test/66fb79c0.token,1,1,T,424,527,,,Token
+108509,e002928e,GitHub,63800a10,data/63800a10/src/e002928e.py,46,46,F,,,,,Secret
+108510,e002928e,GitHub,63800a10,data/63800a10/src/e002928e.py,48,48,F,,,,,Secret
+114611,160d3634,GitHub,63800a10,data/63800a10/test/160d3634.json,10,10,F,,,,,Auth
+134784,160d3634,GitHub,63800a10,data/63800a10/test/160d3634.json,3,8,T,22,50,,,Google Multi

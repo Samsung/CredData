@@ -1,28 +1,28 @@
-Repo,File,Scope,Extension,LineStart,LineEnd,Label,ValueStart,ValueEnd,Info,Category
-2c47a91c,0f2a9acd,/_/,.js,19,19,F,-1,-1,,Key
-2c47a91c,0f2a9acd,/_/,.js,20,20,Template,19,30,,Password
-2c47a91c,194590ed,/test/conf/,.json,70,70,T,19,28,,Password
-2c47a91c,194590ed,/test/conf/,.json,112,112,Template,43,47,,Password:URL Credentials
-2c47a91c,30889f66,/conf/,.toml,1,1,Template,36,40,,Password:URL Credentials
-2c47a91c,4bb69574,/_/,.js,34,34,F,,,,Password
-2c47a91c,4bb69574,/_/,.js,22,22,F,,,,Password
-2c47a91c,5b5614c4,/conf/docs/server/,.md,148,148,F,,,,Password
-2c47a91c,5b5614c4,/conf/docs/server/,.md,124,124,F,-1,-1,,Key
-2c47a91c,642bb635,/src/,.js,8,8,F,-1,-1,,Key
-2c47a91c,8a4fd915,/src/conf/api/build/,.vue,60,60,F,-1,-1,,Credential
-2c47a91c,98c2f295,/util/,.js,59,59,F,-1,-1,,Key
-2c47a91c,b3ef96e9,/_/,.js,86,86,F,,,,Secret
-2c47a91c,b8a7c402,/docs/,.md,36,36,F,-1,-1,,Key
-2c47a91c,b8a7c402,/docs/,.md,139,139,F,34,39,,Password
-2c47a91c,b8a7c402,/docs/,.md,37,37,Template,15,30,,Secret
-2c47a91c,b8a7c402,/docs/,.md,180,180,T,15,42,,API:Key
-2c47a91c,b8a7c402,/docs/,.md,132,132,F,,,,Password
-2c47a91c,e7c9e707,/conf/,.js,60,60,T,37,41,,Password:URL Credentials
-2c47a91c,f4cd0e61,/_/,.js,6,6,F,,,,API
-2c47a91c,fc5f13dd,/sample/conf/,.js,218,218,T,15,24,,Password
-2c47a91c,fc5f13dd,/sample/conf/,.js,193,193,Template,10,33,,Token
-2c47a91c,fc5f13dd,/sample/conf/,.js,313,313,T,37,41,,Password:URL Credentials
-2c47a91c,fc5f13dd,/sample/conf/,.js,174,174,Template,17,21,,Password:URL Credentials
-2c47a91c,fc5f13dd,/sample/conf/,.js,205,205,F,-1,-1,,Key
-2c47a91c,fc5f13dd,/sample/conf/,.js,135,135,F,,,,Password
-2c47a91c,fc5f13dd,/sample/conf/,.js,207,207,F,,,,Secret
+Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd,CryptographyKey,PredefinedPattern,Category
+1000,30889f66,GitHub,2c47a91c,data/2c47a91c/src/30889f66.toml,1,1,F,,,,,Password:URL Credentials
+1790,8a4fd915,GitHub,2c47a91c,data/2c47a91c/src/8a4fd915.vue,60,60,F,-1,-1,,,Credential
+2719,b3ef96e9,GitHub,2c47a91c,data/2c47a91c/src/b3ef96e9.js,86,86,F,,,,,Secret
+4353,5b5614c4,GitHub,2c47a91c,data/2c47a91c/other/5b5614c4.md,148,148,F,,,,,Password
+9034,0f2a9acd,GitHub,2c47a91c,data/2c47a91c/src/0f2a9acd.js,19,19,F,-1,-1,,,Key
+9063,0f2a9acd,GitHub,2c47a91c,data/2c47a91c/src/0f2a9acd.js,20,20,Template,19,30,,,Password
+12723,b8a7c402,GitHub,2c47a91c,data/2c47a91c/other/b8a7c402.md,36,36,F,-1,-1,,,Key
+13761,642bb635,GitHub,2c47a91c,data/2c47a91c/src/642bb635.js,8,8,F,-1,-1,,,Key
+13810,98c2f295,GitHub,2c47a91c,data/2c47a91c/src/98c2f295.js,59,59,F,-1,-1,,,Key
+18458,b8a7c402,GitHub,2c47a91c,data/2c47a91c/other/b8a7c402.md,139,139,F,34,39,,,Password
+27437,194590ed,GitHub,2c47a91c,data/2c47a91c/test/194590ed.json,70,70,T,19,28,,,Password
+28169,fc5f13dd,GitHub,2c47a91c,data/2c47a91c/src/fc5f13dd.js,218,218,T,15,24,,,Password
+29476,fc5f13dd,GitHub,2c47a91c,data/2c47a91c/src/fc5f13dd.js,193,193,Template,10,33,,,Token
+29949,b8a7c402,GitHub,2c47a91c,data/2c47a91c/other/b8a7c402.md,37,37,Template,15,30,,,Secret
+32412,fc5f13dd,GitHub,2c47a91c,data/2c47a91c/src/fc5f13dd.js,313,313,T,37,41,,,Password:URL Credentials
+32414,e7c9e707,GitHub,2c47a91c,data/2c47a91c/src/e7c9e707.js,60,60,T,37,41,,,Password:URL Credentials
+32722,b8a7c402,GitHub,2c47a91c,data/2c47a91c/other/b8a7c402.md,180,180,T,15,42,,,API:Key
+34993,194590ed,GitHub,2c47a91c,data/2c47a91c/test/194590ed.json,112,112,Template,43,47,,,Password:URL Credentials
+35765,fc5f13dd,GitHub,2c47a91c,data/2c47a91c/src/fc5f13dd.js,174,174,Template,17,21,,,Password:URL Credentials
+41717,f4cd0e61,GitHub,2c47a91c,data/2c47a91c/src/f4cd0e61.js,6,6,F,,,,,API
+113724,5b5614c4,GitHub,2c47a91c,data/2c47a91c/other/5b5614c4.md,124,124,F,-1,-1,,,Key
+130961,4bb69574,GitHub,2c47a91c,data/2c47a91c/src/4bb69574.js,34,34,F,,,,,Password
+130962,b8a7c402,GitHub,2c47a91c,data/2c47a91c/other/b8a7c402.md,132,132,F,,,,,Password
+130964,fc5f13dd,GitHub,2c47a91c,data/2c47a91c/src/fc5f13dd.js,205,205,F,-1,-1,,,Key
+130965,4bb69574,GitHub,2c47a91c,data/2c47a91c/src/4bb69574.js,22,22,F,,,,,Password
+130966,fc5f13dd,GitHub,2c47a91c,data/2c47a91c/src/fc5f13dd.js,135,135,F,,,,,Password
+130969,fc5f13dd,GitHub,2c47a91c,data/2c47a91c/src/fc5f13dd.js,207,207,F,,,,,Secret
