@@ -9,7 +9,7 @@ import subprocess
 import sys
 from argparse import Namespace, ArgumentParser
 from multiprocessing import Pool
-from typing import Tuple, Any, Dict
+from typing import Tuple, Any
 
 from meta_row import read_meta
 from obfuscate_creds import obfuscate_creds
@@ -21,75 +21,18 @@ logger = logging.getLogger(__file__)
 
 TMP_DIR = "tmp"
 
+def get_file_type(file_path: str, file_extension: str):
+    file_path = file_path.lower()
 
-# todo: add, upd in credsweeper
-WORDS_IN_PATH = [
-    "test",
-    "mock",
-    "/src",
-    "code",
-    "/include",
-    "internal"
-    "tool",
-    "util",
-    "example",
-    "sample",
-    "conf",
-    "secret",
-    "setting",
-    "security",
-    "secure",
-    "resource", 
-    "fixture",
-    "docker",
-    "/docs",
-    "/doc/",
-    "document",
-    "/lang", 
-    "/local", 
-    "/lib", 
-    "/spec", 
-    "/pkg", 
-    "/api",
-    "/rest",
-    "/opt",
-    "/sys",
-    "kube",
-    "kafka",
-    "cluster",
-    "other",
-    "public",
-    "init",
-    "client",
-    "server",
-    "/model",
-    "browser",
-    "/env",
-    "/app",
-    "/assets/",
-    "vendor",
-    "readme",
-    "build",
-    "/dist-packages",
-    "/record",
-    "/script",
-    "/site-packages",
-    "python",
-    "/usr",
-]
+    example_indicators = ["test", "examp"]
+    other_indicators = ["doc/", "documen", ".md", "readme"]
 
+    if any(ind in file_path for ind in example_indicators):
+        return "test"
+    if any(ind in file_path for ind in other_indicators) or file_extension == "":
+        return "other"
 
-def get_file_scope(path_without_extension: str):
-    result = '/'
-    local_file_path_lower = f"./{path_without_extension.lower()}"
-    for word in WORDS_IN_PATH:
-        if word in local_file_path_lower:
-            result += word[1:] if word.startswith('/') else word
-            if not result.endswith('/'):
-                result += '/'
-    if '/' == result:
-        result = "/_/"
-    return result
+    return "src"
 
 
 def collect_licenses(repo_id):
@@ -169,48 +112,49 @@ def move_files(snapshot_data, dataset_dir):
 
         if not os.path.exists(meta_file_path):
             with open(meta_file_path, "w") as f:
-                f.write("Id,File,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd"
+                f.write("Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd"
                         ",CryptographyKey,PredefinedPattern,Category\n")
             raise RuntimeError( f"New meta file {meta_file_path}! Restart again for new repo.")
 
         logger.info(f"Processing: {i + 1}/{len(snapshot_data)} {repo_id} : {repo_url}")
 
-        # Select file names from meta that we will use in dataset file_id : file_path
-        interesting_files:Dict[str,str] = {}
+        # Select file names from meta that we will use in dataset
+        interesting_files = dict()
         meta_rows = read_meta(meta_file_path)
         for row in meta_rows:
-            assert not row.Scope.endswith(".xml"), f"xml parsing breaks raw text numeration {row.Scope}"
-            if row.File in interesting_files:
+            key = row.FileID
+            file_path = row.FilePath
+            assert not file_path.endswith(".xml"), f"xml parsing breaks raw text numeration {file_path}"
+            if key in interesting_files:
                 # check correctness
-                assert interesting_files[row.File] == row.Scope, f"Wrong markup: {row}"
+                assert interesting_files[key] == file_path, f"Wrong markup: {row}"
             else:
-                interesting_files[row.File] = row.Scope
+                interesting_files[key] = file_path
 
         # Select all files in the repo
         # pathlib.Path.glob used instead of glob.glob, as glob.glob could not search for a hidden files
-        all_repo_items = pathlib.Path(f"{TMP_DIR}/{repo_id}").glob("**/*")
-        all_repo_files = [str(p) for p in all_repo_items if p.is_file() and not p.is_symlink()]
-        # full_path : file_id, file_scope, file_extension
-        files_found: Dict[str, Tuple[str, str, str]] = {}
+        repo_files = pathlib.Path(f"{TMP_DIR}/{repo_id}").glob("**/*")
+        repo_files = [str(p) for p in repo_files if p.is_file() and not p.is_symlink()]
+        files_found = set()
+        ids_found = set()
 
         # For each file find its mapping to the metadata or skip
-        for full_path in all_repo_files:
+        for full_path in repo_files:
             short_path = os.path.relpath(full_path, f"{TMP_DIR}/{repo_id}/").replace('\\', '/')
             file_id = hashlib.sha256(short_path.encode()).hexdigest()[:8]
-            file_path_name, file_extension = os.path.splitext(short_path)
-            # use lowercase of extension to match ml_config data
-            file_extension = file_extension.lower()
-            new_file_scope = get_file_scope(file_path_name)
+            _, file_extension = os.path.splitext(full_path)
+            file_type = get_file_type(short_path, file_extension)
             # copy all files if empty meta file except .git/* and .xml files
             if file_id in interesting_files.keys() \
                     or not meta_rows and "/.git/" not in full_path and not full_path.endswith(".xml"):
-                files_found[full_path] = (file_id, new_file_scope, file_extension)
-                logger.info(f"COPY {full_path} -> {new_repo_id}{new_file_scope}{file_id}")
+                files_found.add(full_path)
+                ids_found.add(file_id)
+                logger.debug(f"COPY {full_path} ; {short_path} -> {file_id} : {new_repo_id} : {file_type}")
             else:
-                logger.debug(f"SKIP {full_path} ; {new_repo_id}{new_file_scope}{file_id}")
+                logger.debug(f"SKIP {full_path} ; {short_path} -> {file_id} : {new_repo_id} : {file_type}")
+
         # Check if there are files that present in meta but we could not find, or we somehow found files not from meta
-        if meta_rows and \
-                0 != len(set(x[0] for x in files_found.values()).symmetric_difference(set(interesting_files.keys()))):
+        if meta_rows and 0 != len(ids_found.symmetric_difference(set(interesting_files.keys()))):
             logger.error(f"Couldn't find all files mentioned in metadata for {new_repo_id} repo. "
                          f"Removing {meta_file_path}, so missing files would not count in the dataset statistics. "
                          f"You can use git to restore {meta_file_path} file back")
@@ -218,15 +162,20 @@ def move_files(snapshot_data, dataset_dir):
             if os.path.exists(meta_file_path):
                 os.rename(meta_file_path, f"{meta_file_path}.bak")
             continue
+
         # Copy files to new dataset location
-        for full_path, (file_id, file_scope, file_extension) in files_found.items():
+        for j, full_path in enumerate(sorted(list(files_found))):
+            short_path = os.path.relpath(full_path, f"{TMP_DIR}/{repo_id}/").replace('\\', '/')
+            _, file_extension = os.path.splitext(full_path)
+            file_type = get_file_type(short_path, file_extension)
+            file_id = hashlib.sha256(short_path.encode()).hexdigest()[:8]
             logger.debug(f"{full_path} -> {file_id}")
 
-            code_file_basedir = f'{dataset_dir}/{new_repo_id}{file_scope}'
-            code_file_location = f'{code_file_basedir}{file_id}{file_extension}'
+            code_file_basedir = f'{dataset_dir}/{new_repo_id}/{file_type}'
+            code_file_location = f'{code_file_basedir}/{file_id}{file_extension}'
 
             for row in meta_rows:
-                if row.File == file_id and row.Scope==file_scope:
+                if row.FilePath == code_file_location:
                     logger.debug(row)
                     break
             else:

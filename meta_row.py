@@ -1,6 +1,5 @@
 import csv
 import os
-import string
 from pathlib import Path
 from typing import Union, List, Generator
 
@@ -8,23 +7,25 @@ from typing import Union, List, Generator
 class MetaRow:
     """Class represented meta markup row structure"""
 
-    Repo: str
-    File: str
-    Scope: str
-    Extension: str
+    Id: int
+    FileID: str
+    Domain: str
+    RepoName: str
+    FilePath: str
     LineStart: int
     LineEnd: int
-    Label: str
+    GroundTruth: str
     ValueStart: int
     ValueEnd: int
-    Info: str
+    CryptographyKey: str
+    PredefinedPattern: str
     Category: str
 
     def __init__(self, row: dict):
         if not isinstance(row, dict) or self.__annotations__.keys() != row.keys():
             raise RuntimeError(f"ERROR: wrong row {row}")
         for key, typ in self.__annotations__.items():
-            if key.startswith("__") or key[0] not in string.ascii_uppercase:
+            if key.startswith("__"):
                 continue
             row_val = row.get(key)
             if row_val is not None:
@@ -52,9 +53,9 @@ class MetaRow:
                 raise RuntimeError(f"ERROR: Each rule must be once in Category {row}")
             if "Other" in rule_set:
                 raise RuntimeError(f"ERROR: 'Other' Category must be single rule in markup {row}")
-        allowed_label = ['T', 'F', "Template"]
-        if self.Label not in allowed_label:
-            raise RuntimeError(f"ERROR: GroundTruth must be in {allowed_label} {row}")
+        allowed_GroundTruth = ['T', 'F', "Template"]
+        if self.GroundTruth not in allowed_GroundTruth:
+            raise RuntimeError(f"ERROR: GroundTruth must be in {allowed_GroundTruth} {row}")
         if 0 > self.LineStart or 0 > self.LineEnd:
             raise RuntimeError(f"ERROR: LineStart and LineEnd must be positive {row}")
         elif self.LineStart > self.LineEnd:
@@ -113,7 +114,14 @@ def _get_source_gen(meta_path: Union[Path]) -> Generator[dict, None, None]:
 def read_meta(meta_dir: Union[str, Path]) -> List[MetaRow]:
     """Returns list of MetaRow read from file or directory. The same approach may be used to obtain a dict."""
     meta = []
+    meta_ids = set()
+
     for row in _get_source_gen(Path(meta_dir)):
         meta_row = MetaRow(row)
+        if meta_row.Id in meta_ids:
+            raise RuntimeError(f"ERROR: duplicate Id row {row}")
+        meta_ids.add(meta_row.Id)
+
         meta.append(meta_row)
+
     return meta

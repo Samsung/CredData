@@ -84,7 +84,7 @@ def obfuscate_jwt(value: str) -> str:
 
 
 def get_obfuscated_value(value, meta_row: MetaRow):
-    if "Info" == meta_row.Info:
+    if "Info" == meta_row.PredefinedPattern:
         # not a credential - does not require obfuscation
         obfuscated_value = value
     elif any(value.startswith(x) for x in ["AKIA", "ABIA", "ACCA", "AGPA", "AIDA", "AIPA", "AKIA", "ANPA",
@@ -281,10 +281,10 @@ def replace_rows(data: List[MetaRow]):
     logger.info("Single line obfuscation")
     for row in data:
         # PEM keys and other multiple-line credentials is processed in other function
-        if row.LineEnd != row.LineStart:
+        if "" != row.CryptographyKey or row.LineEnd != row.LineStart:
             continue
 
-        if 'T' != row.Label:
+        if 'T' != row.GroundTruth:
             # false cases do not require an obfuscation
             continue
 
@@ -295,7 +295,7 @@ def replace_rows(data: List[MetaRow]):
             # skip obfuscation for the categories which are multi pattern
             continue
 
-        file_location = row.Scope
+        file_location = row.FilePath
 
         try:
             with open(file_location, "rb") as f:
@@ -429,24 +429,27 @@ def process_pem_key(row: MetaRow):
     # Change data in already copied files (only keys)
     try:
         # Skip credentials that are not PEM or multiline
-        if row.LineStart == row.LineEnd:
+        if row.CryptographyKey == "" and row.LineStart == row.LineEnd:
             return
 
         if row.Category in ["AWS Multi", "Google Multi"]:
             # skip double obfuscation for the categories
             return
 
-        with open(row.Scope, "r", encoding="utf8") as f:
+        with open(row.FilePath, "r", encoding="utf8") as f:
             text = f.read()
         lines = text.split("\n")
 
         random.seed(row.LineStart ^ int(row.FileID, 16))
 
-        new_lines = create_new_multiline(lines[row.LineStart - 1:row.LineEnd], row.ValueStart)
+        if '' != row.CryptographyKey:
+            new_lines = create_new_key(lines[row.LineStart - 1:row.LineEnd])
+        else:
+            new_lines = create_new_multiline(lines[row.LineStart - 1:row.LineEnd], row.ValueStart)
 
         lines[row.LineStart - 1:row.LineEnd] = new_lines
 
-        with open(row.Scope, "w", encoding="utf8") as f:
+        with open(row.FilePath, "w", encoding="utf8") as f:
             f.write('\n'.join(lines))
 
     except Exception as exc:
@@ -456,16 +459,16 @@ def process_pem_key(row: MetaRow):
 def process_pem_keys(data: List[MetaRow]):
     logger.info("Private key obfuscation")
     for row in data:
-        if 'T' == row.Label and "Private Key" == row.Category:
+        if 'T' == row.GroundTruth and "Private Key" == row.Category:
             process_pem_key(row)
 
 
 def obfuscate_creds(meta_dir: str, dataset_dir: str):
     all_credentials = []
     for meta_row in read_meta(meta_dir):
-        meta_row.Scope = meta_row.Scope.replace("data", dataset_dir, 1)
+        meta_row.FilePath = meta_row.FilePath.replace("data", dataset_dir, 1)
         all_credentials.append(meta_row)
-    all_credentials.sort(key=lambda x: (x.Scope, x.LineStart, x.LineEnd, x.ValueStart, x.ValueEnd))
+    all_credentials.sort(key=lambda x: (x.FilePath, x.LineStart, x.LineEnd, x.ValueStart, x.ValueEnd))
     replace_rows(all_credentials)
     process_pem_keys(all_credentials)
 

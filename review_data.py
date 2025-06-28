@@ -138,12 +138,12 @@ def main(meta_dir: str,
             creds.extend([MetaCred(x) for x in json.load(f)])
 
     meta = read_meta(meta_dir)
-    meta.sort(key=lambda x: (x.Scope, x.LineStart, x.LineEnd, x.ValueStart, x.ValueEnd))
+    meta.sort(key=lambda x: (x.FilePath, x.LineStart, x.LineEnd, x.ValueStart, x.ValueEnd))
     displayed_rows = 0
     shown_whole_line: Dict[Tuple[str, int], MetaRow] = {}
     shown_markup: Dict[Tuple[str, int, int, int, int], MetaRow] = {}
     for row in meta:
-        if not data_filter[row.Label]:
+        if not data_filter[row.GroundTruth]:
             continue
         if category and category not in row.Category.split(':'):
             continue
@@ -152,17 +152,17 @@ def main(meta_dir: str,
         if not check_only:
             print(str(row), flush=True)
             try:
-                read_data(row.Scope,
+                read_data(row.FilePath,
                           row.LineStart,
                           row.LineEnd,
                           row.ValueStart,
                           row.ValueEnd,
-                          row.Label,
+                          row.GroundTruth,
                           creds)
             except Exception as exc:
                 print(f"Failure {row}", exc, flush=True)
                 errors += 1
-        if 'T' == row.Label and row.LineStart == row.LineEnd:
+        if 'T' == row.GroundTruth and row.LineStart == row.LineEnd:
             if 0 > row.ValueStart:
                 print(f"Missed ValueStart for TRUE markup!\n{row}", flush=True)
                 errors += 1
@@ -190,30 +190,30 @@ def main(meta_dir: str,
             print(f"Check multiline markup - may be not suitable for the category!\n{row}", flush=True)
             errors += 1
 
-        if row.FileID not in row.Scope:
+        if row.FileID not in row.FilePath:
             print(f"FileID error!\n{row}", flush=True)
             errors += 1
-        if row.RepoID not in row.Scope:
+        if row.RepoName not in row.FilePath:
             print(f"RepoName error!\n{row}", flush=True)
             errors += 1
 
         # collects all lines without start value positions - whole line
         if row.LineStart == row.LineEnd and -1 == row.ValueStart:
-            whole_line_key = (row.Scope, row.LineStart)
+            whole_line_key = (row.FilePath, row.LineStart)
             if whole_line_key in shown_whole_line:
                 print(f"Duplicate line markup!\nSHOWN:{shown_whole_line[whole_line_key]}\nTHIS:{row}", flush=True)
                 duplicates += 1
             else:
                 shown_whole_line[whole_line_key] = row
 
-        markup_key = (row.Scope, row.LineStart, row.LineEnd, row.ValueStart, row.ValueEnd)
+        markup_key = (row.FilePath, row.LineStart, row.LineEnd, row.ValueStart, row.ValueEnd)
         if markup_key in shown_markup:
             print(f"Duplicate markup!\nSHOWN:{shown_markup[markup_key]}\nTHIS:{row}", flush=True)
             duplicates += 1
         else:
             shown_markup[markup_key] = row
     for row in shown_markup.values():
-        if row.LineStart == row.LineEnd and 0 <= row.ValueStart and (row.Scope, row.LineStart) in shown_whole_line:
+        if row.LineStart == row.LineEnd and 0 <= row.ValueStart and (row.FilePath, row.LineStart) in shown_whole_line:
             print(f"Duplicate whole line!\n{row}", flush=True)
             duplicates += 1
 
