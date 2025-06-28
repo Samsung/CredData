@@ -81,6 +81,11 @@ def migrate_repo(repo_id, new_repo_id):
         file_scope = get_file_scope(file_path_name)
         file_extension = file_extension.lower()
         meta_row.FilePath=f"data/{new_repo_id}{file_scope}{meta_row.FileID}{file_extension}"
+        # workaround to keep empty cells instead '-1'
+        if 0 > meta_row.ValueStart:
+            meta_row.ValueStart = None
+        if 0 > meta_row.ValueEnd:
+            meta_row.ValueEnd = None
         new_meta.append(meta_row)
 
     with open(meta_file, 'w', newline='\n') as csvfile:
