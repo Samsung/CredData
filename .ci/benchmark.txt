@@ -1,15 +1,15 @@
-META MD5 57812ea47254ea45536ed6cb1e1d666a
-DATA MD5 ba31dd1d0389d14325975aedf69077ac
-DATA: 16701789 interested lines. MARKUP: 60630 items
+META MD5 42f77d135b8784c2cf3e5878cabfe088
+DATA MD5 d1b4a31164dd508138dc4881c335e089
+DATA: 16703140 interested lines. MARKUP: 61262 items
 FileType           FileNumber    ValidLines    Positives    Negatives    Templates
 ---------------  ------------  ------------  -----------  -----------  -----------
                           676         69398          134          416           72
 .04                         2           149            4
 .1                          2           641            2            8
 .admx                       1            26                         1
-.adoc                       1           158           13            5            1
+.adoc                       1           158           18            5            1
 .api                        2           118                         4
-.asciidoc                 102         15403           80          336           17
+.asciidoc                 102         15403           81          336           17
 .axaml                      5           286                         5
 .backup                     1            62            2            1
 .bash                       2          2158                         2            1
@@ -37,7 +37,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .creds                      1            10            1            1
 .crlf                       1            27            1
 .crt                        2          4979                       126
-.cs                       268         82752          278          863           95
+.cs                       268         82752          279          863           95
 .cshtml                     5           180                        12
 .csp                        3           379                         9
 .csproj                     1            14                         1
@@ -66,17 +66,17 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .gd                         1            37                         1
 .gml                        3          3075                        16
 .gni                        3          5017                        19
-.go                      1275        717403         1421         4124          729
+.go                      1277        718576         1450         4124          729
 .golden                     5          1168            1           13           29
 .gradle                    50          4295            8           90           99
 .graphql                    8           454            2           13
 .graphqls                   1            30                         1
-.groovy                    22          5113           24          214            1
+.groovy                    22          5113           25          214            1
 .gtpl                       1            15            2
 .h                         10          2269                        38
 .haml                       9           191                        17
 .hbs                        2            54                         3
-.hs                        14          4140           29           61            4
+.hs                        14          4140           30           61            4
 .html                      60         19400           85          107           17
 .idl                        3          1625           37            5
 .iml                        6           699                        30
@@ -86,11 +86,11 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .ipynb                      1           134                         7
 .j                          1           241            4
 .j2                        32          6043            8          169           10
-.java                     669        143891          484         1338          161
+.java                     672        144069          489         1338          161
 .jenkinsfile                1            58            2            6
 .jinja2                     1            64                         2
-.js                       655        531277          572         2419          283
-.json                     886      13114472         1305         9998          125
+.js                       655        531277          582         2419          283
+.json                     886      13114472         1323         9998          125
 .jsp                       13          3202            1           37
 .jsx                        7           857                        19
 .jwt                        1             1            2
@@ -118,7 +118,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .markdown                  38          5862           69            4
 .markerb                    3            12                         3
 .marko                      1            21                         2
-.md                       760        180503          888         2311          578
+.md                       760        180503          982         2311          578
 .mdx                        3           549                         7
 .mjml                       1            18                         1
 .mjs                       22          4424          101          369
@@ -141,7 +141,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .patch                      4        109405            4           27
 .pbxproj                    1           941                         1
 .pem                       59          1297           58            3
-.php                      390         80502          147         1392           70
+.php                      390         80502          149         1392           70
 .pl                        16         14727            7           33
 .pm                         4          1817                         8
 .po                         3          2994                        15
@@ -159,14 +159,14 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .pug                        2           193                         2
 .purs                       1            69                         4
 .pxd                        1           150            2            4
-.py                       901        294351          739         3223          699
+.py                       901        294351          746         3229          699
 .pyi                        4          1361                         9
 .pyp                        1           167                         1
 .python                     1           213
 .pyx                        2          1094                        23
 .r                          4            62            5            2
 .rake                       2            51                         2
-.rb                       852        130684          415         2397          570
+.rb                       852        130684          420         2397          570
 .re                         1            31                         1
 .red                        1           159                         1
 .release                    1            13                         4
@@ -188,7 +188,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .scala                     53          5626           38           99
 .scss                      16          8553                        32            1
 .secrets                    1            11                                      1
-.sh                       152         24184           70          462           21
+.sh                       152         24184           71          462           21
 .slim                       1           153                         1            2
 .smali                      1           775                        18
 .snap                       3          1708            9           29            2
@@ -216,10 +216,10 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .toml                      86          2471           65          106          145
 .tpl                        1            43                         1
 .travis                     1            34            2            3            1
-.ts                       609        109982          220         1777          193
+.ts                       609        109982          226         1777          193
 .tsx                       54          7914            1          114            5
 .ttar                       1           452                         1
-.txt                      322         81679         5241         3791           41
+.txt                      322         81679         5242         4340           41
 .utf8                       1            77                         1
 .vsixmanifest               1            36                         1
 .vsmdi                      1             6            2
@@ -229,10 +229,10 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .xib                       11           503                       164
 .xsl                        1           311                         1
 .yaml                     168         24422          195          337           40
-.yml                      555         54516         1264          900          326
+.yml                      555         54516         1865          900          326
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  11473      16701789        15272        45022         4740
+TOTAL:                  11478      16703140        16060        45577         4740
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Templates    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -246,6 +246,8 @@ Auth                                   1094         2760           77           
 Azure Access Token                       21            0            0                 0     0      0     21            1.000000  0.000000         0.000000
 BASE64 Private Key                       22            4            0                 0     0      4     22  0.000000  1.000000  0.153846         0.000000
 BASE64 encoded PEM Private Key           12            0            0                 0     0      0     12            1.000000  0.000000         0.000000
+Basic Authorization                     625          554            0                 0     0    554    625  0.000000  1.000000  0.469890         0.000000
+Bearer Authorization                    163            0            0                 0     0      0    163            1.000000  0.000000         0.000000
 Bitbucket Client ID                      36           66            0                 0     0     66     36  0.000000  1.000000  0.647059         0.000000
 Bitbucket Client Secret                  38          104            1                 0     0    105     38  0.000000  1.000000  0.734266         0.000000
 CMD ConvertTo-SecureString               13            4            0                 0     0      4     13  0.000000  1.000000  0.235294         0.000000
@@ -271,7 +273,7 @@ Jira 2FA                                 36            1            1           
 Key                                    4195        15817          477                 0     0  16294   4195  0.000000  1.000000  0.795256         0.000000
 Nonce                                   115           50            0                 0     0     50    115  0.000000  1.000000  0.303030         0.000000
 Other                                     9         7439            5                 0     0   7444      9  0.000000  1.000000  0.998792         0.000000
-PEM Private Key                        1142           75            0                 0     0     75   1142  0.000000  1.000000  0.061627         0.000000
+PEM Private Key                        1142           76            0                 0     0     76   1142  0.000000  1.000000  0.062397         0.000000
 Password                               2509         7560         2398                 0     0   9958   2509  0.000000  1.000000  0.798749         0.000000
 SQL Password                             44           13            1                 0     0     14     44  0.000000  1.000000  0.241379         0.000000
 Salesforce Credentials                    6            0            0                 0     0      0      6            1.000000  0.000000         0.000000
@@ -285,4 +287,4 @@ Token                                   947         4186          454           
 Twilio Credentials                       30           39            0                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         229          177          184                 0     0    361    229  0.000000  1.000000  0.611864         0.000000
 UUID                                   1866          265            0                 0     0    265   1866  0.000000  1.000000  0.124355         0.000000
-                                      15272        45022         4740           0     0     0  45022  15272  0.000000  1.000000  0.746708         0.000000
+                                      16060        45577         4740           0     0     0  45577  16060  0.000000  1.000000  0.739442         0.000000
