@@ -77,9 +77,28 @@ def obfuscate_jwt(value: str) -> str:
 
     encoded = base64.b64encode(new_json, altchars=b"-_").decode("ascii")
     while len(encoded) > len_value:
+        assert '=' == encoded[-1], encoded
         encoded = encoded[:-1]
     assert len(encoded) == len_value
 
+    return encoded
+
+
+def obfuscate_basic_auth(value):
+    # rfc7617 uses standard base64 encoding from rfc4648#section-4
+    len_value = len(value)
+    pad_num = 0x3 & len(value)
+    if pad_num:
+        value += '=' * (4 - pad_num)
+    decoded = base64.b64decode(value,validate=True)
+    basic = decoded.decode("utf_8")
+    new_basic = generate_value(basic)
+    encoded = base64.b64encode(new_basic.encode("utf_8")).decode("ascii")
+    while len(encoded) > len_value:
+        # only padding sign may be truncated
+        assert '=' == encoded[-1], encoded
+        encoded = encoded[:-1]
+    assert len(encoded) == len_value
     return encoded
 
 
@@ -87,6 +106,8 @@ def get_obfuscated_value(value, meta_row: MetaRow):
     if "Info" == meta_row.PredefinedPattern:
         # not a credential - does not require obfuscation
         obfuscated_value = value
+    elif "Basic Authorization" in meta_row.Category:
+        obfuscated_value = obfuscate_basic_auth(value)
     elif any(value.startswith(x) for x in ["AKIA", "ABIA", "ACCA", "AGPA", "AIDA", "AIPA", "AKIA", "ANPA",
                                            "ANVA", "AROA", "APKA", "ASCA", "ASIA", "AIza"]) \
             or value.startswith("xox") and 15 <= len(value) and value[3] in "aboprst" and '-' == value[4]:

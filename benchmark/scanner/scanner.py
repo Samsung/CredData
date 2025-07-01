@@ -55,6 +55,8 @@ class Scanner(ABC):
         checksum = hashlib.md5(b'').digest()
         for root, dirs, files in os.walk(meta_location):
             for file in files:
+                if not file.endswith(".csv"):
+                    continue
                 with open(os.path.join(root, file), "rb") as f:
                     cvs_checksum = hashlib.md5(f.read()).digest()
                 checksum = bytes(a ^ b for a, b in zip(checksum, cvs_checksum))

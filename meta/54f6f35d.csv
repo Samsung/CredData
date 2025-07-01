@@ -213,19 +213,19 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 132646,89319f8b,GitHub,54f6f35d,data/54f6f35d/test/89319f8b.go,278,278,F,,,,,Auth
 1338236,ee3ab00f,GitHub,54f6f35d,data/54f6f35d/test/ee3ab00f.go,48,48,F,,,,,Password
 1338237,ee3ab00f,GitHub,54f6f35d,data/54f6f35d/test/ee3ab00f.go,77,77,F,,,,,Password
-1338374,cc219aa1,GitHub,54f6f35d,data/54f6f35d/test/cc219aa1.json,54,54,T,25,253,,,JSON Web Token
-1338375,cc219aa1,GitHub,54f6f35d,data/54f6f35d/test/cc219aa1.json,85,85,T,25,253,,,JSON Web Token
-1338376,cc219aa1,GitHub,54f6f35d,data/54f6f35d/test/cc219aa1.json,130,130,T,25,130,,,JSON Web Token
-1338377,cc219aa1,GitHub,54f6f35d,data/54f6f35d/test/cc219aa1.json,168,168,T,25,130,,,JSON Web Token
-1338378,cc219aa1,GitHub,54f6f35d,data/54f6f35d/test/cc219aa1.json,196,196,T,25,130,,,JSON Web Token
-1338379,cc219aa1,GitHub,54f6f35d,data/54f6f35d/test/cc219aa1.json,228,228,T,25,253,,,JSON Web Token
-1338380,cc219aa1,GitHub,54f6f35d,data/54f6f35d/test/cc219aa1.json,275,275,T,25,130,,,JSON Web Token
-1338381,cc219aa1,GitHub,54f6f35d,data/54f6f35d/test/cc219aa1.json,314,314,T,25,253,,,JSON Web Token
-1338382,cc219aa1,GitHub,54f6f35d,data/54f6f35d/test/cc219aa1.json,359,359,T,25,253,,,JSON Web Token
-1338383,cc219aa1,GitHub,54f6f35d,data/54f6f35d/test/cc219aa1.json,387,387,T,25,130,,,JSON Web Token
-1338384,cc219aa1,GitHub,54f6f35d,data/54f6f35d/test/cc219aa1.json,415,415,T,25,130,,,JSON Web Token
-1338385,cc219aa1,GitHub,54f6f35d,data/54f6f35d/test/cc219aa1.json,446,446,T,25,130,,,JSON Web Token
-1338386,cc219aa1,GitHub,54f6f35d,data/54f6f35d/test/cc219aa1.json,477,477,T,25,130,,,JSON Web Token
+1338374,cc219aa1,GitHub,54f6f35d,data/54f6f35d/test/cc219aa1.json,54,54,T,25,253,,,JSON Web Token:Bearer Authorization
+1338375,cc219aa1,GitHub,54f6f35d,data/54f6f35d/test/cc219aa1.json,85,85,T,25,253,,,JSON Web Token:Bearer Authorization
+1338376,cc219aa1,GitHub,54f6f35d,data/54f6f35d/test/cc219aa1.json,130,130,T,25,130,,,JSON Web Token:Bearer Authorization
+1338377,cc219aa1,GitHub,54f6f35d,data/54f6f35d/test/cc219aa1.json,168,168,T,25,130,,,JSON Web Token:Bearer Authorization
+1338378,cc219aa1,GitHub,54f6f35d,data/54f6f35d/test/cc219aa1.json,196,196,T,25,130,,,JSON Web Token:Bearer Authorization
+1338379,cc219aa1,GitHub,54f6f35d,data/54f6f35d/test/cc219aa1.json,228,228,T,25,253,,,JSON Web Token:Bearer Authorization
+1338380,cc219aa1,GitHub,54f6f35d,data/54f6f35d/test/cc219aa1.json,275,275,T,25,130,,,JSON Web Token:Bearer Authorization
+1338381,cc219aa1,GitHub,54f6f35d,data/54f6f35d/test/cc219aa1.json,314,314,T,25,253,,,JSON Web Token:Bearer Authorization
+1338382,cc219aa1,GitHub,54f6f35d,data/54f6f35d/test/cc219aa1.json,359,359,T,25,253,,,JSON Web Token:Bearer Authorization
+1338383,cc219aa1,GitHub,54f6f35d,data/54f6f35d/test/cc219aa1.json,387,387,T,25,130,,,JSON Web Token:Bearer Authorization
+1338384,cc219aa1,GitHub,54f6f35d,data/54f6f35d/test/cc219aa1.json,415,415,T,25,130,,,JSON Web Token:Bearer Authorization
+1338385,cc219aa1,GitHub,54f6f35d,data/54f6f35d/test/cc219aa1.json,446,446,T,25,130,,,JSON Web Token:Bearer Authorization
+1338386,cc219aa1,GitHub,54f6f35d,data/54f6f35d/test/cc219aa1.json,477,477,T,25,130,,,JSON Web Token:Bearer Authorization
 1338387,cc219aa1,GitHub,54f6f35d,data/54f6f35d/test/cc219aa1.json,532,532,T,14,242,,,JSON Web Token
 1339618,65730f03,GitHub,54f6f35d,data/54f6f35d/src/65730f03.go,4794,4794,T,48,84,,,UUID
 1339619,65730f03,GitHub,54f6f35d,data/54f6f35d/src/65730f03.go,4796,4796,T,44,80,,,UUID
@@ -241,6 +241,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 1341454,3edd36a0,GitHub,54f6f35d,data/54f6f35d/test/3edd36a0.sample,9,9,T,55,91,,,UUID
 1494215,830b2c54,GitHub,54f6f35d,data/54f6f35d/test/830b2c54.go,27,27,T,33,43,,,Secret
 1494214,3a3473d4,GitHub,54f6f35d,data/54f6f35d/test/3a3473d4.js,15,15,T,17,166,,,Token:JSON Web Token
-
-
-
+1525326,f394589c,GitHub,54f6f35d,data/54f6f35d/test/f394589c.go,15,15,T,20,32,,,Basic Authorization
+1525327,f394589c,GitHub,54f6f35d,data/54f6f35d/test/f394589c.go,27,27,T,20,44,,,Basic Authorization
+1525328,f394589c,GitHub,54f6f35d,data/54f6f35d/test/f394589c.go,51,51,T,20,32,,,Basic Authorization
