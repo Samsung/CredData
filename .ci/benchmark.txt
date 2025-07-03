@@ -1,5 +1,5 @@
-META MD5 05a22183d38d8288f8c538f3b3a6866c
-DATA MD5 fcda3cf29d6070233d05b0d93e89eb08
+META MD5 a0999175c64b3743aad3cd450f434d1a
+DATA MD5 920fe3bdbee9b836a9a1e41a47737379
 DATA: 16703140 interested lines. MARKUP: 61262 items
 FileType           FileNumber    ValidLines    Positives    Negatives    Templates
 ---------------  ------------  ------------  -----------  -----------  -----------
@@ -152,7 +152,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .ppk                        1            45                        28
 .private                    1            15            1
 .proj                       1            85                         5
-.properties                55          1637           73           29           20
+.properties                55          1637           67           29           26
 .proto                      5          5768            2           49
 .ps1                       16          8509           15           73            2
 .ps1xml                     1          5022                         1
@@ -229,10 +229,10 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .xib                       11           503                       164
 .xsl                        1           311                         1
 .yaml                     168         24422          195          337           40
-.yml                      555         54516         1869          900          322
+.yml                      555         54516         1868          900          323
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  11478      16703140        16071        45577         4729
+TOTAL:                  11478      16703140        16064        45577         4736
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Templates    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -274,7 +274,7 @@ Key                                    4195        15817          477           
 Nonce                                   115           50            0                 0     0     50    115  0.000000  1.000000  0.303030         0.000000
 Other                                     9         7439            5                 0     0   7444      9  0.000000  1.000000  0.998792         0.000000
 PEM Private Key                        1142           76            0                 0     0     76   1142  0.000000  1.000000  0.062397         0.000000
-Password                               2520         7560         2387                 0     0   9947   2520  0.000000  1.000000  0.797866         0.000000
+Password                               2513         7560         2394                 0     0   9954   2513  0.000000  1.000000  0.798428         0.000000
 SQL Password                             44           13            1                 0     0     14     44  0.000000  1.000000  0.241379         0.000000
 Salesforce Credentials                    6            0            0                 0     0      0      6            1.000000  0.000000         0.000000
 Salt                                     83           74            1                 0     0     75     83  0.000000  1.000000  0.474684         0.000000
@@ -287,4 +287,4 @@ Token                                   947         4186          454           
 Twilio Credentials                       30           39            0                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         229          177          184                 0     0    361    229  0.000000  1.000000  0.611864         0.000000
 UUID                                   1866          265            0                 0     0    265   1866  0.000000  1.000000  0.124355         0.000000
-                                      16071        45577         4729           0     0     0  45577  16071  0.000000  1.000000  0.739310         0.000000
+                                      16064        45577         4736           0     0     0  45577  16064  0.000000  1.000000  0.739394         0.000000
