@@ -89,11 +89,11 @@ please, find wide info in https://raw.githubusercontent.com/Samsung/CredSweeper/
 
 ## Data
 ### Selecting Target Repositories
-In order to collect various cases in which credentials exist, we selected publicly accessible repositories on Github through the following process:
-1. We wanted to collect credentials from repositories for various languages, frameworks, and topics, so we primarily collected 181 topics on Github.
+In order to collect various cases in which credentials exist, we selected publicly accessible repositories on GitHub through the following process:
+1. We wanted to collect credentials from repositories for various languages, frameworks, and topics, so we primarily collected 181 topics on GitHub.
 
    In this process, to select widely known repositories for each topic, we limited repositories with more than a certain number of stars. 19,486 repositories were selected in this process.
-2. We filtered repositories which have the license that can not be used for dataset according to the license information provided by Github. 
+2. We filtered repositories which have the license that can not be used for dataset according to the license information provided by GitHub. 
    
    In some cases, the provided license was inaccurate. So we conducted with manual review.
 3. Filtering was carried out by checking whether strings related to the most common credentials such as 'password' and 'secret' among the result repositories are included and how many are included. After that, we executed several [open source credential scanning tools.](#used-tools-for-benchmarking)
@@ -106,9 +106,10 @@ It is difficult to know whether a line included in the source code is a real cre
 However, based on human cognitive abilities, we can expect the possibility that the detected result contains actual credential information.
 We classify the detection results to the three credential type.
 
-- True : It looks like a real credential value.
-- False : It looks like a false positive case, not the actual credential value.
-		
+- T (True) : It looks like a real credential value.
+- F (False) : It looks like a false positive case, not the actual credential value.
+- X (Unknown/Other) : It seems that it is not a possible credential, but it is a placeholder or test value.
+
 In order to compose an accurate Ground Truth set, we proceed data review based on the following 'Ground Rules':
 1. All credentials in test (example) directories should be labeled as True.
 2. Credentials with obvious placeholders (`password = <YOUR_PASSWORD>;`) should be labeled as False.
@@ -116,10 +117,10 @@ In order to compose an accurate Ground Truth set, we proceed data review based o
 4. Base64 and other encoded data: the decision must be after research. Use True if original data contain are credentials. 
 5. Package and resource version hash is not a credential, so common hash string (`integrity sha512-W7s+uC5bikET2twEFg==`) is False.
 6. Be careful about filetype when checking variable assignment:
-   
    In .yaml file row (`password=my_password`) can be a credential 
    but in .js or .py it cannot. This languages require quotations (' or ") for string declaration (`password="my_password"`).
 7. Check if the file you are labeling is not a localization file. For example `config/locales/pt-BR.yml` is not a credentials, just a translation. So those should be labeled as False.
+8. Any possible markers like "example.com" mean the credential is False for ML rules. And may be True for not-ML rules.
 
 > We could see that many credentials exist in directories/files that have the same test purpose as test/tests.
 > In the case of these values, people often judge that they contain a real credential, but we do not know whether this value is an actual usable credential or a value used only for testing purposes.
