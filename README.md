@@ -106,9 +106,9 @@ It is difficult to know whether a line included in the source code is a real cre
 However, based on human cognitive abilities, we can expect the possibility that the detected result contains actual credential information.
 We classify the detection results to the three credential type.
 
-- T (True) : It looks like a real credential value.
-- F (False) : It looks like a false positive case, not the actual credential value.
-- X (Unknown/Other) : It seems that it is not a possible credential, but it is a placeholder or test value.
+- **T** (True) : It looks like a real credential value.
+- **F** (False) : It looks like a false positive case, not the actual hardcoded credential value.
+- **X** (Unknown/Other) : It seems that it is not a real credential but a test value, an example, or it is a placeholder.
 
 In order to compose an accurate Ground Truth set, we proceed data review based on the following 'Ground Rules':
 1. All credentials in test (example) directories should be labeled as True.
