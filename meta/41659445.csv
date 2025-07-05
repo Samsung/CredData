@@ -1,6 +1,6 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd,CryptographyKey,PredefinedPattern,Category
 961,e1e2fdf9,GitHub,41659445,data/41659445/src/e1e2fdf9.jsx,7,7,F,,,,,Password
-977,eb85e4f0,GitHub,41659445,data/41659445/test/eb85e4f0.ts,14,14,F,56,66,,TEMPLATE,Secret
+977,eb85e4f0,GitHub,41659445,data/41659445/test/eb85e4f0.ts,14,14,Template,56,66,,,Secret
 1042,ea8c6e4c,GitHub,41659445,data/41659445/src/ea8c6e4c.jsx,3,3,F,,,,,Secret
 1160,9620730d,GitHub,41659445,data/41659445/src/9620730d.ts,62,62,F,-1,-1,,,Key
 1700,9b8a5f24,GitHub,41659445,data/41659445/src/9b8a5f24.ts,166,166,F,,,,,Token
@@ -12,7 +12,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 6231,1b313185,GitHub,41659445,data/41659445/src/1b313185.ts,102,102,F,,,,,Secret
 6233,1b313185,GitHub,41659445,data/41659445/src/1b313185.ts,90,90,F,,,,,Secret
 6260,1b313185,GitHub,41659445,data/41659445/src/1b313185.ts,103,103,F,,,,,Secret
-7439,eb85e4f0,GitHub,41659445,data/41659445/test/eb85e4f0.ts,124,124,F,39,49,,TEMPLATE,Secret
+7439,eb85e4f0,GitHub,41659445,data/41659445/test/eb85e4f0.ts,124,124,Template,39,49,,,Secret
 7512,18dda803,GitHub,41659445,data/41659445/test/18dda803.ts,15,15,F,,,,,Token
 7572,0f0b2402,GitHub,41659445,data/41659445/src/0f0b2402.ts,282,282,F,,,,,Token
 7676,1b313185,GitHub,41659445,data/41659445/src/1b313185.ts,79,79,F,,,,,Secret
@@ -57,7 +57,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 26663,0f0b2402,GitHub,41659445,data/41659445/src/0f0b2402.ts,207,207,F,,,,,Secret
 26664,d4a2a492,GitHub,41659445,data/41659445/src/d4a2a492.ts,39,39,F,,,,,Secret
 26665,d4a2a492,GitHub,41659445,data/41659445/src/d4a2a492.ts,29,29,F,,,,,Secret
-27411,eb85e4f0,GitHub,41659445,data/41659445/test/eb85e4f0.ts,8,8,F,13,23,,TEMPLATE,Secret
+27411,eb85e4f0,GitHub,41659445,data/41659445/test/eb85e4f0.ts,8,8,Template,13,23,,,Secret
 28187,91fd135b,GitHub,41659445,data/41659445/src/91fd135b.ts,169,169,T,65,81,,,Jira 2FA:Secret
 31476,5398b006,GitHub,41659445,data/41659445/test/5398b006.js,131,131,F,,,,,Token:Secret
 32427,b2f74201,GitHub,41659445,data/41659445/test/b2f74201.ts,16,16,T,16,32,,,Password:Secret
@@ -74,7 +74,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 34874,faf09b36,GitHub,41659445,data/41659445/test/faf09b36.ts,78,78,F,12,20,,,Token
 34875,faf09b36,GitHub,41659445,data/41659445/test/faf09b36.ts,174,174,F,12,20,,,Token
 34876,5398b006,GitHub,41659445,data/41659445/test/5398b006.js,207,207,F,14,20,,,Token
-34877,5398b006,GitHub,41659445,data/41659445/test/5398b006.js,212,212,F,14,20,,TEMPLATE,Token
+34877,5398b006,GitHub,41659445,data/41659445/test/5398b006.js,212,212,Template,14,20,,,Token
 34879,5398b006,GitHub,41659445,data/41659445/test/5398b006.js,202,202,F,14,20,,,Token
 34881,18278ad7,GitHub,41659445,data/41659445/test/18278ad7.ts,39,39,F,12,18,,,Token
 34882,faf09b36,GitHub,41659445,data/41659445/test/faf09b36.ts,162,162,F,12,20,,,Token
@@ -118,12 +118,12 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 35350,074dc7a7,GitHub,41659445,data/41659445/test/074dc7a7.ts,29,29,F,15,21,,,Token
 37409,5398b006,GitHub,41659445,data/41659445/test/5398b006.js,205,205,T,15,47,,,Secret
 37410,bf2cd4b4,GitHub,41659445,data/41659445/test/bf2cd4b4.ts,15,15,T,13,29,,,Password:Secret
-37420,074dc7a7,GitHub,41659445,data/41659445/test/074dc7a7.ts,68,68,F,12,18,,TEMPLATE,Token
-37421,074dc7a7,GitHub,41659445,data/41659445/test/074dc7a7.ts,82,82,F,12,18,,TEMPLATE,Token
+37420,074dc7a7,GitHub,41659445,data/41659445/test/074dc7a7.ts,68,68,Template,12,18,,,Token
+37421,074dc7a7,GitHub,41659445,data/41659445/test/074dc7a7.ts,82,82,Template,12,18,,,Token
 37422,074dc7a7,GitHub,41659445,data/41659445/test/074dc7a7.ts,67,67,T,13,45,,,Secret
 37423,074dc7a7,GitHub,41659445,data/41659445/test/074dc7a7.ts,73,73,T,13,45,,,Secret
 37424,074dc7a7,GitHub,41659445,data/41659445/test/074dc7a7.ts,80,80,T,13,45,,,Secret
-47806,eb85e4f0,GitHub,41659445,data/41659445/test/eb85e4f0.ts,119,119,F,15,25,,TEMPLATE,Secret
+47806,eb85e4f0,GitHub,41659445,data/41659445/test/eb85e4f0.ts,119,119,Template,15,25,,,Secret
 47991,074dc7a7,GitHub,41659445,data/41659445/test/074dc7a7.ts,78,78,F,-1,-1,,,Other
 47992,074dc7a7,GitHub,41659445,data/41659445/test/074dc7a7.ts,64,64,F,-1,-1,,,Other
 47993,18278ad7,GitHub,41659445,data/41659445/test/18278ad7.ts,20,20,F,-1,-1,,,Other
@@ -142,7 +142,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 48068,18278ad7,GitHub,41659445,data/41659445/test/18278ad7.ts,34,34,T,13,29,,,Password:Secret
 48069,18278ad7,GitHub,41659445,data/41659445/test/18278ad7.ts,26,26,T,13,29,,,Password:Secret
 48070,18278ad7,GitHub,41659445,data/41659445/test/18278ad7.ts,18,18,T,13,29,,,Password:Secret
-48082,074dc7a7,GitHub,41659445,data/41659445/test/074dc7a7.ts,75,75,F,12,18,,TEMPLATE,Token
+48082,074dc7a7,GitHub,41659445,data/41659445/test/074dc7a7.ts,75,75,Template,12,18,,,Token
 50063,a0f82dc2,GitHub,41659445,data/41659445/test/a0f82dc2.ts,5,5,F,-1,-1,,,Other
 63346,1b313185,GitHub,41659445,data/41659445/src/1b313185.ts,113,113,F,,,,,Secret
 63347,1b313185,GitHub,41659445,data/41659445/src/1b313185.ts,114,114,F,,,,,Secret

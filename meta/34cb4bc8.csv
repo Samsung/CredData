@@ -54,18 +54,18 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 24714,f001f45d,GitHub,34cb4bc8,data/34cb4bc8/src/f001f45d.release,11,11,F,,,,,API
 24925,91f77268,GitHub,34cb4bc8,data/34cb4bc8/src/91f77268.cs,49,49,F,-1,-1,,,Other
 25025,f001f45d,GitHub,34cb4bc8,data/34cb4bc8/src/f001f45d.release,10,10,F,,,,,Token
-29224,cf878187,GitHub,34cb4bc8,data/34cb4bc8/test/cf878187.cs,53,53,F,28,32,,TEMPLATE,Password
-29225,a6fcab95,GitHub,34cb4bc8,data/34cb4bc8/test/a6fcab95.cs,355,355,F,44,48,,TEMPLATE,Password
-29720,f505c2b6,GitHub,34cb4bc8,data/34cb4bc8/test/f505c2b6.cs,13,13,F,28,34,,TEMPLATE,Password
-29722,84a09031,GitHub,34cb4bc8,data/34cb4bc8/test/84a09031.cs,273,273,F,25,33,,TEMPLATE,Token
-29723,932c288e,GitHub,34cb4bc8,data/34cb4bc8/test/932c288e.cs,78,78,F,25,35,,TEMPLATE,Token
-29827,475d6673,GitHub,34cb4bc8,data/34cb4bc8/src/475d6673.rst,104,104,F,18,26,,TEMPLATE,Token
+29224,cf878187,GitHub,34cb4bc8,data/34cb4bc8/test/cf878187.cs,53,53,Template,28,32,,,Password
+29225,a6fcab95,GitHub,34cb4bc8,data/34cb4bc8/test/a6fcab95.cs,355,355,Template,44,48,,,Password
+29720,f505c2b6,GitHub,34cb4bc8,data/34cb4bc8/test/f505c2b6.cs,13,13,Template,28,34,,,Password
+29722,84a09031,GitHub,34cb4bc8,data/34cb4bc8/test/84a09031.cs,273,273,Template,25,33,,,Token
+29723,932c288e,GitHub,34cb4bc8,data/34cb4bc8/test/932c288e.cs,78,78,Template,25,35,,,Token
+29827,475d6673,GitHub,34cb4bc8,data/34cb4bc8/src/475d6673.rst,104,104,Template,18,26,,,Token
 32233,1a6fe6a9,GitHub,34cb4bc8,data/34cb4bc8/test/1a6fe6a9.cs,50,50,T,31,63,,,Token:Bitbucket Client ID:Bitbucket Client Secret
 34485,1a6fe6a9,GitHub,34cb4bc8,data/34cb4bc8/test/1a6fe6a9.cs,69,69,T,32,64,,,Token:Bearer Authorization
 36037,9453018f,GitHub,34cb4bc8,data/34cb4bc8/src/9453018f.json,15,15,T,16,48,,,Token:Bitbucket Client ID:Bitbucket Client Secret
 36038,ac423ded,GitHub,34cb4bc8,data/34cb4bc8/src/ac423ded.rst,52,52,T,16,48,,,Token:Bitbucket Client ID:Bitbucket Client Secret
 37550,ac423ded,GitHub,34cb4bc8,data/34cb4bc8/src/ac423ded.rst,69,69,T,13,45,,,Token:Bitbucket Client ID:Bitbucket Client Secret
-46397,5b566b04,GitHub,34cb4bc8,data/34cb4bc8/test/5b566b04.cs,574,574,F,40,44,,TEMPLATE,Password
+46397,5b566b04,GitHub,34cb4bc8,data/34cb4bc8/test/5b566b04.cs,574,574,Template,40,44,,,Password
 46734,bdac7f67,GitHub,34cb4bc8,data/34cb4bc8/test/bdac7f67.cs,351,351,T,108,172,,,Token
 1138196,bdac7f67,GitHub,34cb4bc8,data/34cb4bc8/test/bdac7f67.cs,352,352,T,62,126,,,Token
 46743,cf878187,GitHub,34cb4bc8,data/34cb4bc8/test/cf878187.cs,43,43,F,,,,,API
@@ -114,9 +114,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 63490,4db45461,GitHub,34cb4bc8,data/34cb4bc8/test/4db45461.cs,73,73,F,-1,-1,,,Key
 74568,6d063641,GitHub,34cb4bc8,data/34cb4bc8/test/6d063641.cs,88,88,F,-1,-1,,,Key:Gitlab Feed Token
 76781,d0956426,GitHub,34cb4bc8,data/34cb4bc8/src/d0956426.cs,28,28,F,-1,-1,,,Key
-108256,a6fcab95,GitHub,34cb4bc8,data/34cb4bc8/test/a6fcab95.cs,343,343,F,78,84,,TEMPLATE,Password
-108257,cf878187,GitHub,34cb4bc8,data/34cb4bc8/test/cf878187.cs,181,181,F,78,84,,TEMPLATE,Password
-108259,5b566b04,GitHub,34cb4bc8,data/34cb4bc8/test/5b566b04.cs,563,563,F,75,81,,TEMPLATE,Password
+108256,a6fcab95,GitHub,34cb4bc8,data/34cb4bc8/test/a6fcab95.cs,343,343,Template,78,84,,,Password
+108257,cf878187,GitHub,34cb4bc8,data/34cb4bc8/test/cf878187.cs,181,181,Template,78,84,,,Password
+108259,5b566b04,GitHub,34cb4bc8,data/34cb4bc8/test/5b566b04.cs,563,563,Template,75,81,,,Password
 108261,71695fe8,GitHub,34cb4bc8,data/34cb4bc8/src/71695fe8.cs,44,44,F,,,,,Gitlab Feed Token
 108262,71695fe8,GitHub,34cb4bc8,data/34cb4bc8/src/71695fe8.cs,46,46,F,-1,-1,,,Key
 108263,8365fd7b,GitHub,34cb4bc8,data/34cb4bc8/src/8365fd7b.cs,7,7,F,-1,-1,,,Key

@@ -275,9 +275,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 136760,03cdc0c5,GitHub,0f133e09,data/0f133e09/test/03cdc0c5.py,95,95,T,21,50,,,AWS S3 Bucket
 20680,0ccc1045,GitHub,0f133e09,data/0f133e09/src/0ccc1045.py,1236,1236,F,-1,-1,,,Key
 23378,03c77d4f,GitHub,0f133e09,data/0f133e09/src/03c77d4f.py,241,241,F,-1,-1,,,Key
-29321,eca12c0a,GitHub,0f133e09,data/0f133e09/other/eca12c0a.md,89,89,F,12,23,,TEMPLATE,Password
-29342,eca12c0a,GitHub,0f133e09,data/0f133e09/other/eca12c0a.md,90,90,F,15,23,,TEMPLATE,Auth:Token
-29536,5e62348b,GitHub,0f133e09,data/0f133e09/test/5e62348b.py,30,30,F,30,51,,TEMPLATE,Secret
+29321,eca12c0a,GitHub,0f133e09,data/0f133e09/other/eca12c0a.md,89,89,Template,12,23,,,Password
+29342,eca12c0a,GitHub,0f133e09,data/0f133e09/other/eca12c0a.md,90,90,Template,15,23,,,Auth:Token
+29536,5e62348b,GitHub,0f133e09,data/0f133e09/test/5e62348b.py,30,30,Template,30,51,,,Secret
 29607,6ec6580c,GitHub,0f133e09,data/0f133e09/test/6ec6580c.txt,7,7,T,19,59,,,Secret
 29610,3e8093f9,GitHub,0f133e09,data/0f133e09/test/3e8093f9.txt,32,32,F,22,402,,,Key
 29611,a0a75a16,GitHub,0f133e09,data/0f133e09/test/a0a75a16.txt,7,7,F,9,-1,,,Key
@@ -291,10 +291,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 30951,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,10,10,T,110,130,,AWS Client ID,AWS Client ID:Gitlab Feed Token
 1030951,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,10,10,T,110,173,,AWS Client ID,Credential
 136763,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,10,10,T,8,37,,,AWS S3 Bucket
-31365,b3356305,GitHub,0f133e09,data/0f133e09/other/b3356305.md,35,35,F,65,77,,TEMPLATE,Token
-34714,cd589265,GitHub,0f133e09,data/0f133e09/test/cd589265.py,281,281,F,29,37,,TEMPLATE,Password
+31365,b3356305,GitHub,0f133e09,data/0f133e09/other/b3356305.md,35,35,Template,65,77,,,Token
+34714,cd589265,GitHub,0f133e09,data/0f133e09/test/cd589265.py,281,281,Template,29,37,,,Password
 34715,9d2d157d,GitHub,0f133e09,data/0f133e09/test/9d2d157d.py,37,37,F,34,78,,,Other
-34731,cd589265,GitHub,0f133e09,data/0f133e09/test/cd589265.py,282,282,F,32,43,,TEMPLATE,Auth:Token
+34731,cd589265,GitHub,0f133e09,data/0f133e09/test/cd589265.py,282,282,Template,32,43,,,Auth:Token
 35294,22f5eaf1,GitHub,0f133e09,data/0f133e09/test/22f5eaf1.py,13,27,T,,,Private,,PEM Private Key
 36195,22f5eaf1,GitHub,0f133e09,data/0f133e09/test/22f5eaf1.py,69,69,T,32,75,,,Token
 36398,9d2d157d,GitHub,0f133e09,data/0f133e09/test/9d2d157d.py,42,42,T,57,101,,,Key
@@ -702,8 +702,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 107294,0c13b160,GitHub,0f133e09,data/0f133e09/test/0c13b160.py,46,46,F,-1,-1,,,Other
 107295,0c13b160,GitHub,0f133e09,data/0f133e09/test/0c13b160.py,82,82,F,-1,-1,,,Other
 107296,d2a1ed30,GitHub,0f133e09,data/0f133e09/test/d2a1ed30.py,69,69,F,-1,-1,,,Other
-107299,9c0f3a30,GitHub,0f133e09,data/0f133e09/test/9c0f3a30.txt,28,28,F,55,87,,TEMPLATE,Auth
-107300,541cad72,GitHub,0f133e09,data/0f133e09/test/541cad72.txt,28,28,F,19,51,,TEMPLATE,Auth
+107299,9c0f3a30,GitHub,0f133e09,data/0f133e09/test/9c0f3a30.txt,28,28,Template,55,87,,,Auth
+107300,541cad72,GitHub,0f133e09,data/0f133e09/test/541cad72.txt,28,28,Template,19,51,,,Auth
 107301,25bf4114,GitHub,0f133e09,data/0f133e09/test/25bf4114.txt,28,28,F,19,51,,,Auth
 107302,d90d9e92,GitHub,0f133e09,data/0f133e09/test/d90d9e92.py,48,48,F,-1,-1,,,Other
 113958,d266e2f8,GitHub,0f133e09,data/0f133e09/test/d266e2f8.py,142,142,F,,,,,Auth

@@ -39,9 +39,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 21714,6157be67,GitHub,0fc802c8,data/0fc802c8/src/6157be67.yml,3,3,F,,,,,API
 22023,2a94e969,GitHub,0fc802c8,data/0fc802c8/src/2a94e969.j2,149,149,F,33,49,,,Secret
 24810,32319766,GitHub,0fc802c8,data/0fc802c8/src/32319766.j2,14,14,F,,,,,Token
-28095,8d23392d,GitHub,0fc802c8,data/0fc802c8/other/8d23392d.md,60,60,F,30,35,,TEMPLATE,Password
+28095,8d23392d,GitHub,0fc802c8,data/0fc802c8/other/8d23392d.md,60,60,Template,30,35,,,Password
 28099,2cb279b2,GitHub,0fc802c8,data/0fc802c8/other/2cb279b2.md,51,51,T,28,37,,,Password
-28520,d2ddd43d,GitHub,0fc802c8,data/0fc802c8/other/d2ddd43d.md,15,15,F,26,32,,TEMPLATE,API:Token
+28520,d2ddd43d,GitHub,0fc802c8,data/0fc802c8/other/d2ddd43d.md,15,15,Template,26,32,,,API:Token
 28626,2cb279b2,GitHub,0fc802c8,data/0fc802c8/other/2cb279b2.md,117,117,T,19,28,,,Password
 30640,ce4a4371,GitHub,0fc802c8,data/0fc802c8/other/ce4a4371,24,24,T,16,24,,,Password
 34138,60eff9d3,GitHub,0fc802c8,data/0fc802c8/src/60eff9d3.yml,6,6,T,30,39,,,Password
@@ -79,7 +79,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 102321,7d1e4143,GitHub,0fc802c8,data/0fc802c8/src/7d1e4143.j2,300,300,F,,,,,Secret
 102322,3adc6d08,GitHub,0fc802c8,data/0fc802c8/src/3adc6d08.j2,34,34,F,,,,,Secret
 102325,32f55cba,GitHub,0fc802c8,data/0fc802c8/src/32f55cba.j2,30,30,F,,,,,Secret
-102328,a65d54f1,GitHub,0fc802c8,data/0fc802c8/src/a65d54f1.yml,61,61,F,29,35,,TEMPLATE,Secret
+102328,a65d54f1,GitHub,0fc802c8,data/0fc802c8/src/a65d54f1.yml,61,61,Template,29,35,,,Secret
 102329,a65d54f1,GitHub,0fc802c8,data/0fc802c8/src/a65d54f1.yml,74,74,F,,,,,Secret
 102330,a65d54f1,GitHub,0fc802c8,data/0fc802c8/src/a65d54f1.yml,77,77,F,,,,,Secret
 113321,6f4c4e07,GitHub,0fc802c8,data/0fc802c8/src/6f4c4e07.tfvars,30,30,F,,,,,API
@@ -93,8 +93,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 113338,dbde9c5a,GitHub,0fc802c8,data/0fc802c8/test/dbde9c5a.yml,7,7,F,-1,-1,,,Key
 113339,297f683e,GitHub,0fc802c8,data/0fc802c8/test/297f683e.example,30,30,F,,,,,API
 113340,297f683e,GitHub,0fc802c8,data/0fc802c8/test/297f683e.example,31,31,F,,,,,API
-135001,6f4c4e07,GitHub,0fc802c8,data/0fc802c8/src/6f4c4e07.tfvars,44,44,F,21,21,,TEMPLATE,Key
-135002,6f4c4e07,GitHub,0fc802c8,data/0fc802c8/src/6f4c4e07.tfvars,47,47,F,25,25,,TEMPLATE,Other
+135001,6f4c4e07,GitHub,0fc802c8,data/0fc802c8/src/6f4c4e07.tfvars,44,44,Template,21,21,,,Key
+135002,6f4c4e07,GitHub,0fc802c8,data/0fc802c8/src/6f4c4e07.tfvars,47,47,Template,25,25,,,Other
 1481085,4f17a4c8,GitHub,0fc802c8,data/0fc802c8/src/4f17a4c8.yml,27,27,T,29,69,,,Key
 1481086,4f17a4c8,GitHub,0fc802c8,data/0fc802c8/src/4f17a4c8.yml,31,31,T,29,69,,,Key
 1481087,5d54a4b2,GitHub,0fc802c8,data/0fc802c8/src/5d54a4b2.yml,56,56,T,33,73,,,Key

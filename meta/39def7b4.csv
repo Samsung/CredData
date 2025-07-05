@@ -123,7 +123,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 6371,68810433,GitHub,39def7b4,data/39def7b4/test/68810433.rb,10,10,F,,,,,Auth
 6372,b3356305,GitHub,39def7b4,data/39def7b4/other/b3356305.md,64,64,F,,,,,Auth
 6373,5a6ed05f,GitHub,39def7b4,data/39def7b4/src/5a6ed05f.rb,31,31,F,,,,,Auth:Token
-8214,fdb22c4a,GitHub,39def7b4,data/39def7b4/src/fdb22c4a.rb,108,108,F,37,41,,TEMPLATE,Password:URL Credentials
+8214,fdb22c4a,GitHub,39def7b4,data/39def7b4/src/fdb22c4a.rb,108,108,Template,37,41,,,Password:URL Credentials
 8970,b3741a53,GitHub,39def7b4,data/39def7b4/src/b3741a53.rb,37,37,F,,,,,Secret
 8971,fe313ddd,GitHub,39def7b4,data/39def7b4/src/fe313ddd.rb,18,18,F,,,,,Auth
 8972,b5f11327,GitHub,39def7b4,data/39def7b4/src/b5f11327.rb,8,8,F,,,,,Secret
@@ -292,7 +292,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 20956,eaf6157d,GitHub,39def7b4,data/39def7b4/src/eaf6157d.rb,26,26,F,,,,,API
 20957,90d44edc,GitHub,39def7b4,data/39def7b4/src/90d44edc.rb,40,40,F,,,,,API
 21310,076b849a,GitHub,39def7b4,data/39def7b4/src/076b849a.rb,111,111,F,,,,,Gitlab Feed Token:AWS Client ID:AWS Multi
-22029,2d217115,GitHub,39def7b4,data/39def7b4/src/2d217115.rb,36,36,F,21,27,,TEMPLATE,Secret
+22029,2d217115,GitHub,39def7b4,data/39def7b4/src/2d217115.rb,36,36,Template,21,27,,,Secret
 22036,f118eccf,GitHub,39def7b4,data/39def7b4/src/f118eccf.rb,47,47,F,-1,-1,,,Credential
 22037,ad318ac0,GitHub,39def7b4,data/39def7b4/src/ad318ac0.rb,58,58,F,,,,,API
 22040,c5ca7a06,GitHub,39def7b4,data/39def7b4/src/c5ca7a06.rb,32,32,F,,,,,Twilio Credentials
@@ -395,8 +395,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 42659,f149a41a,GitHub,39def7b4,data/39def7b4/src/f149a41a.rb,127,127,F,29,63,,,Credential:Twilio Credentials
 42661,1f4966ff,GitHub,39def7b4,data/39def7b4/src/1f4966ff.rb,33,33,F,,,,,API
 42662,1f4966ff,GitHub,39def7b4,data/39def7b4/src/1f4966ff.rb,86,86,F,,,,,API
-42678,db116dd4,GitHub,39def7b4,data/39def7b4/src/db116dd4.rb,186,186,F,45,55,,TEMPLATE,Token
-42679,db116dd4,GitHub,39def7b4,data/39def7b4/src/db116dd4.rb,292,292,F,37,47,,TEMPLATE,Token
+42678,db116dd4,GitHub,39def7b4,data/39def7b4/src/db116dd4.rb,186,186,Template,45,55,,,Token
+42679,db116dd4,GitHub,39def7b4,data/39def7b4/src/db116dd4.rb,292,292,Template,37,47,,,Token
 42723,9cffb093,GitHub,39def7b4,data/39def7b4/src/9cffb093.rb,34,34,F,,,,,API
 42724,9cffb093,GitHub,39def7b4,data/39def7b4/src/9cffb093.rb,120,120,F,,,,,API
 42750,9ab2fb7d,GitHub,39def7b4,data/39def7b4/src/9ab2fb7d.rb,33,33,F,,,,,API
@@ -448,14 +448,14 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 43146,27be9d47,GitHub,39def7b4,data/39def7b4/src/27be9d47.rb,366,368,F,,,,,PEM Private Key
 43155,e44c9925,GitHub,39def7b4,data/39def7b4/src/e44c9925.rb,216,218,F,,,Private,,PEM Private Key
 43156,e44c9925,GitHub,39def7b4,data/39def7b4/src/e44c9925.rb,368,370,F,,,Private,,PEM Private Key
-50006,b3356305,GitHub,39def7b4,data/39def7b4/other/b3356305.md,182,182,F,14,45,,TEMPLATE,Token
+50006,b3356305,GitHub,39def7b4,data/39def7b4/other/b3356305.md,182,182,Template,14,45,,,Token
 51008,5d2c8cbb,GitHub,39def7b4,data/39def7b4/src/5d2c8cbb.rb,32,32,F,18,52,,,Twilio Credentials
 51009,2d217115,GitHub,39def7b4,data/39def7b4/src/2d217115.rb,32,32,F,18,52,,,Twilio Credentials
 52022,5d2c8cbb,GitHub,39def7b4,data/39def7b4/src/5d2c8cbb.rb,66,66,F,18,52,,Twilio API Key,Twilio Credentials
 52023,5d2c8cbb,GitHub,39def7b4,data/39def7b4/src/5d2c8cbb.rb,129,129,F,26,60,,Twilio API Key,Twilio Credentials
 52024,c5ca7a06,GitHub,39def7b4,data/39def7b4/src/c5ca7a06.rb,66,66,F,,,,,Twilio Credentials
 52025,c5ca7a06,GitHub,39def7b4,data/39def7b4/src/c5ca7a06.rb,129,129,F,,,,,Twilio Credentials
-52052,fdb22c4a,GitHub,39def7b4,data/39def7b4/src/fdb22c4a.rb,120,120,F,37,41,,TEMPLATE,Password:URL Credentials
+52052,fdb22c4a,GitHub,39def7b4,data/39def7b4/src/fdb22c4a.rb,120,120,Template,37,41,,,Password:URL Credentials
 52928,26c0bcb1,GitHub,39def7b4,data/39def7b4/src/26c0bcb1.rb,82,82,F,,,,,Auth
 52929,26c0bcb1,GitHub,39def7b4,data/39def7b4/src/26c0bcb1.rb,125,125,F,,,,,Auth
 52930,26c0bcb1,GitHub,39def7b4,data/39def7b4/src/26c0bcb1.rb,173,173,F,,,,,Auth
@@ -588,8 +588,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 63074,2010d338,GitHub,39def7b4,data/39def7b4/src/2010d338.rb,382,382,F,,,,,API
 63075,7d9f5b9d,GitHub,39def7b4,data/39def7b4/src/7d9f5b9d.rb,389,389,F,,,,,API
 63076,e44c9925,GitHub,39def7b4,data/39def7b4/src/e44c9925.rb,384,384,F,,,,,API
-63422,fdb22c4a,GitHub,39def7b4,data/39def7b4/src/fdb22c4a.rb,11,11,F,29,38,,TEMPLATE,Auth:Token
-63423,fdb22c4a,GitHub,39def7b4,data/39def7b4/src/fdb22c4a.rb,20,20,F,29,38,,TEMPLATE,Auth:Token
+63422,fdb22c4a,GitHub,39def7b4,data/39def7b4/src/fdb22c4a.rb,11,11,Template,29,38,,,Auth:Token
+63423,fdb22c4a,GitHub,39def7b4,data/39def7b4/src/fdb22c4a.rb,20,20,Template,29,38,,,Auth:Token
 63815,27be9d47,GitHub,39def7b4,data/39def7b4/src/27be9d47.rb,49,49,F,,,,,API
 63816,2010d338,GitHub,39def7b4,data/39def7b4/src/2010d338.rb,129,129,F,,,,,API
 63817,e44c9925,GitHub,39def7b4,data/39def7b4/src/e44c9925.rb,129,129,F,,,,,API
@@ -677,7 +677,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 81593,ebbe0d13,GitHub,39def7b4,data/39def7b4/src/ebbe0d13.rb,118,118,F,29,111,,,Auth
 81594,ebbe0d13,GitHub,39def7b4,data/39def7b4/src/ebbe0d13.rb,119,119,F,28,110,,,Auth
 81595,ebbe0d13,GitHub,39def7b4,data/39def7b4/src/ebbe0d13.rb,127,127,F,18,100,,,Auth
-81716,651c73dd,GitHub,39def7b4,data/39def7b4/src/651c73dd.rb,645,645,F,62,65,,TEMPLATE,Password
+81716,651c73dd,GitHub,39def7b4,data/39def7b4/src/651c73dd.rb,645,645,Template,62,65,,,Password
 101447,e44c9925,GitHub,39def7b4,data/39def7b4/src/e44c9925.rb,385,385,F,,,,,Secret
 101448,2010d338,GitHub,39def7b4,data/39def7b4/src/2010d338.rb,383,383,F,,,,,Secret
 101449,27be9d47,GitHub,39def7b4,data/39def7b4/src/27be9d47.rb,384,384,F,,,,,Secret

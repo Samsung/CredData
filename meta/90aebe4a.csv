@@ -14,13 +14,13 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 27190,24f3c372,GitHub,90aebe4a,data/90aebe4a/test/24f3c372.js,167,167,T,40,44,,,URL Credentials
 27196,5429312b,GitHub,90aebe4a,data/90aebe4a/other/5429312b.md,20,20,T,40,52,,,URL Credentials
 27264,896f7464,GitHub,90aebe4a,data/90aebe4a/test/896f7464.js,117,117,T,43,51,,,URL Credentials
-27319,d0b5f846,GitHub,90aebe4a,data/90aebe4a/test/d0b5f846.js,42,42,F,26,29,,TEMPLATE,Password
+27319,d0b5f846,GitHub,90aebe4a,data/90aebe4a/test/d0b5f846.js,42,42,Template,26,29,,,Password
 27486,38c3f879,GitHub,90aebe4a,data/90aebe4a/test/38c3f879.js,73,73,F,,,,,Password:URL Credentials
 27512,38c3f879,GitHub,90aebe4a,data/90aebe4a/test/38c3f879.js,113,113,T,33,40,,,Password
 27513,a82baeb7,GitHub,90aebe4a,data/90aebe4a/test/a82baeb7.js,31,31,T,31,35,,,Password
 27581,ff236f15,GitHub,90aebe4a,data/90aebe4a/other/ff236f15.md,72,72,F,,,,,Secret:URL Credentials
 28129,38c3f879,GitHub,90aebe4a,data/90aebe4a/test/38c3f879.js,63,63,F,,,,,Password:URL Credentials
-28147,08804ea4,GitHub,90aebe4a,data/90aebe4a/test/08804ea4.js,8,8,F,22,36,,TEMPLATE,Secret
+28147,08804ea4,GitHub,90aebe4a,data/90aebe4a/test/08804ea4.js,8,8,Template,22,36,,,Secret
 28269,fc63a614,GitHub,90aebe4a,data/90aebe4a/test/fc63a614.js,59,59,T,36,46,,,URL Credentials
 28494,896f7464,GitHub,90aebe4a,data/90aebe4a/test/896f7464.js,151,151,F,,,,,Password:URL Credentials
 28495,896f7464,GitHub,90aebe4a,data/90aebe4a/test/896f7464.js,164,164,F,,,,,Password:URL Credentials
@@ -28,15 +28,15 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 28497,896f7464,GitHub,90aebe4a,data/90aebe4a/test/896f7464.js,172,172,F,,,,,Password:URL Credentials
 28498,896f7464,GitHub,90aebe4a,data/90aebe4a/test/896f7464.js,156,156,F,,,,,Password:URL Credentials
 28499,a82baeb7,GitHub,90aebe4a,data/90aebe4a/test/a82baeb7.js,63,63,F,,,,,Password:URL Credentials
-28933,fc63a614,GitHub,90aebe4a,data/90aebe4a/test/fc63a614.js,196,196,F,17,20,,TEMPLATE,Password
+28933,fc63a614,GitHub,90aebe4a,data/90aebe4a/test/fc63a614.js,196,196,Template,17,20,,,Password
 29853,fc63a614,GitHub,90aebe4a,data/90aebe4a/test/fc63a614.js,262,262,T,17,29,,,Password
 29860,fc63a614,GitHub,90aebe4a,data/90aebe4a/test/fc63a614.js,70,70,T,15,20,,,Password
 29862,ff236f15,GitHub,90aebe4a,data/90aebe4a/other/ff236f15.md,31,31,T,13,20,,,Password
 29889,896f7464,GitHub,90aebe4a,data/90aebe4a/test/896f7464.js,65,65,T,17,29,,,Password
-30672,8b79add1,GitHub,90aebe4a,data/90aebe4a/test/8b79add1.js,8,8,F,18,32,,TEMPLATE,Password
-31052,ff236f15,GitHub,90aebe4a,data/90aebe4a/other/ff236f15.md,306,306,F,12,31,,TEMPLATE,Password
-33966,67a4805f,GitHub,90aebe4a,data/90aebe4a/src/67a4805f.yml,44,44,F,25,29,,TEMPLATE,Password
-33996,67a4805f,GitHub,90aebe4a,data/90aebe4a/src/67a4805f.yml,24,24,F,18,22,,TEMPLATE,Password
+30672,8b79add1,GitHub,90aebe4a,data/90aebe4a/test/8b79add1.js,8,8,Template,18,32,,,Password
+31052,ff236f15,GitHub,90aebe4a,data/90aebe4a/other/ff236f15.md,306,306,Template,12,31,,,Password
+33966,67a4805f,GitHub,90aebe4a,data/90aebe4a/src/67a4805f.yml,44,44,Template,25,29,,,Password
+33996,67a4805f,GitHub,90aebe4a,data/90aebe4a/src/67a4805f.yml,24,24,Template,18,22,,,Password
 34244,3e8e36b2,GitHub,90aebe4a,data/90aebe4a/src/3e8e36b2.yml,2,2,T,12,45,,,Token
 34342,fc63a614,GitHub,90aebe4a,data/90aebe4a/test/fc63a614.js,178,178,T,17,21,,,Password
 34394,fc63a614,GitHub,90aebe4a,data/90aebe4a/test/fc63a614.js,47,47,T,15,25,,,Password
@@ -47,7 +47,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 35493,f82b46d0,GitHub,90aebe4a,data/90aebe4a/test/f82b46d0.key,1,5,T,,,Private,,PEM Private Key
 47786,fc63a614,GitHub,90aebe4a,data/90aebe4a/test/fc63a614.js,318,318,T,17,29,,,Password
 48032,ff236f15,GitHub,90aebe4a,data/90aebe4a/other/ff236f15.md,75,75,T,15,21,,,Password
-48033,d0b5f846,GitHub,90aebe4a,data/90aebe4a/test/d0b5f846.js,50,50,F,15,18,,TEMPLATE,Password
+48033,d0b5f846,GitHub,90aebe4a,data/90aebe4a/test/d0b5f846.js,50,50,Template,15,18,,,Password
 48092,fc63a614,GitHub,90aebe4a,data/90aebe4a/test/fc63a614.js,294,294,T,43,51,,,URL Credentials
 48187,a82baeb7,GitHub,90aebe4a,data/90aebe4a/test/a82baeb7.js,47,47,T,31,35,,,Password
 48198,a82baeb7,GitHub,90aebe4a,data/90aebe4a/test/a82baeb7.js,76,76,F,,,,,Password:URL Credentials
@@ -59,7 +59,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 63482,08804ea4,GitHub,90aebe4a,data/90aebe4a/test/08804ea4.js,18,18,F,-1,-1,,,Key
 63483,08804ea4,GitHub,90aebe4a,data/90aebe4a/test/08804ea4.js,26,26,F,-1,-1,,,Key
 63484,08804ea4,GitHub,90aebe4a,data/90aebe4a/test/08804ea4.js,34,34,F,-1,-1,,,Key
-82353,fc63a614,GitHub,90aebe4a,data/90aebe4a/test/fc63a614.js,212,212,F,17,20,,TEMPLATE,Password
+82353,fc63a614,GitHub,90aebe4a,data/90aebe4a/test/fc63a614.js,212,212,Template,17,20,,,Password
 82354,a82baeb7,GitHub,90aebe4a,data/90aebe4a/test/a82baeb7.js,80,80,F,,,,,Password:URL Credentials
 82355,a82baeb7,GitHub,90aebe4a,data/90aebe4a/test/a82baeb7.js,84,84,F,,,,,Password:URL Credentials
 82356,a82baeb7,GitHub,90aebe4a,data/90aebe4a/test/a82baeb7.js,88,88,F,,,,,Password:URL Credentials

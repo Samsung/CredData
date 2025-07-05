@@ -25,13 +25,13 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 20985,9802ca3c,GitHub,83a072aa,data/83a072aa/src/9802ca3c.rb,26,26,F,,,,,Token
 23535,766c34fd,GitHub,83a072aa,data/83a072aa/src/766c34fd.rb,140,140,F,,,,,Gitlab Feed Token
 24957,bb2a4b5f,GitHub,83a072aa,data/83a072aa/src/bb2a4b5f.rb,1,1,T,65,123,,,Key
-27883,3fd2c995,GitHub,83a072aa,data/83a072aa/src/3fd2c995.rb,8,8,F,46,66,,TEMPLATE,Gitlab Feed Token:Key:Secret
+27883,3fd2c995,GitHub,83a072aa,data/83a072aa/src/3fd2c995.rb,8,8,Template,46,66,,,Gitlab Feed Token:Key:Secret
 29326,924ed9ac,GitHub,83a072aa,data/83a072aa/test/924ed9ac.yml,21,21,T,14,26,,,Password
 30039,bf6ef743,GitHub,83a072aa,data/83a072aa/src/bf6ef743.rb,42,42,T,74,84,,,Password:Token
 135439,bf6ef743,GitHub,83a072aa,data/83a072aa/src/bf6ef743.rb,42,42,T,111,121,,,Password
-31180,ff10c105,GitHub,83a072aa,data/83a072aa/src/ff10c105.yml,7,7,F,16,35,,TEMPLATE,Key
+31180,ff10c105,GitHub,83a072aa,data/83a072aa/src/ff10c105.yml,7,7,Template,16,35,,,Key
 31373,924ed9ac,GitHub,83a072aa,data/83a072aa/test/924ed9ac.yml,36,36,T,15,71,,,Secret
-31406,bb8bcb6e,GitHub,83a072aa,data/83a072aa/src/bb8bcb6e.rb,261,261,F,32,36,,TEMPLATE,Password
+31406,bb8bcb6e,GitHub,83a072aa,data/83a072aa/src/bb8bcb6e.rb,261,261,Template,32,36,,,Password
 31410,b3356305,GitHub,83a072aa,data/83a072aa/other/b3356305.md,101,101,T,40,55,,,Password:Dropbox App secret
 31423,b3356305,GitHub,83a072aa,data/83a072aa/other/b3356305.md,94,94,T,39,54,,,Password:Auth
 31439,b3356305,GitHub,83a072aa,data/83a072aa/other/b3356305.md,92,92,T,44,74,,,Secret:Key
@@ -41,19 +41,19 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 34556,e769bbb8,GitHub,83a072aa,data/83a072aa/src/e769bbb8.yml,6,6,T,12,27,,,Dropbox App secret:Password
 34557,924ed9ac,GitHub,83a072aa,data/83a072aa/test/924ed9ac.yml,17,17,T,12,27,,,Dropbox App secret:Password
 40645,ff10c105,GitHub,83a072aa,data/83a072aa/src/ff10c105.yml,11,11,T,12,27,,,Dropbox App secret:Password
-40646,ff10c105,GitHub,83a072aa,data/83a072aa/src/ff10c105.yml,15,15,F,14,26,,TEMPLATE,Password
+40646,ff10c105,GitHub,83a072aa,data/83a072aa/src/ff10c105.yml,15,15,Template,14,26,,,Password
 40647,ff10c105,GitHub,83a072aa,data/83a072aa/src/ff10c105.yml,37,37,T,15,71,,,Secret
-40648,e769bbb8,GitHub,83a072aa,data/83a072aa/src/e769bbb8.yml,10,10,F,14,26,,TEMPLATE,Password
+40648,e769bbb8,GitHub,83a072aa,data/83a072aa/src/e769bbb8.yml,10,10,Template,14,26,,,Password
 40649,e769bbb8,GitHub,83a072aa,data/83a072aa/src/e769bbb8.yml,30,30,T,15,71,,,Secret
 41719,bf6ef743,GitHub,83a072aa,data/83a072aa/src/bf6ef743.rb,49,49,T,74,84,,,Password:Token
 42035,766c34fd,GitHub,83a072aa,data/83a072aa/src/766c34fd.rb,116,116,F,,,,,Token
 42814,69d99582,GitHub,83a072aa,data/83a072aa/src/69d99582.js,308,308,F,,,,,Password
 48175,35b4e12c,GitHub,83a072aa,data/83a072aa/test/35b4e12c.yml,30,30,T,15,71,,,Secret
-48180,35b4e12c,GitHub,83a072aa,data/83a072aa/test/35b4e12c.yml,10,10,F,14,26,,TEMPLATE,Password
+48180,35b4e12c,GitHub,83a072aa,data/83a072aa/test/35b4e12c.yml,10,10,Template,14,26,,,Password
 48184,35b4e12c,GitHub,83a072aa,data/83a072aa/test/35b4e12c.yml,6,6,T,12,27,,,Dropbox App secret:Password
-63999,35b4e12c,GitHub,83a072aa,data/83a072aa/test/35b4e12c.yml,2,2,F,16,35,,TEMPLATE,Key
-64000,924ed9ac,GitHub,83a072aa,data/83a072aa/test/924ed9ac.yml,13,13,F,16,35,,TEMPLATE,Key
-64001,e769bbb8,GitHub,83a072aa,data/83a072aa/src/e769bbb8.yml,2,2,F,16,35,,TEMPLATE,Key
+63999,35b4e12c,GitHub,83a072aa,data/83a072aa/test/35b4e12c.yml,2,2,Template,16,35,,,Key
+64000,924ed9ac,GitHub,83a072aa,data/83a072aa/test/924ed9ac.yml,13,13,Template,16,35,,,Key
+64001,e769bbb8,GitHub,83a072aa,data/83a072aa/src/e769bbb8.yml,2,2,Template,16,35,,,Key
 83273,e8e457c1,GitHub,83a072aa,data/83a072aa/src/e8e457c1.erb,85,85,F,,,,,Password
 108503,ff10c105,GitHub,83a072aa,data/83a072aa/src/ff10c105.yml,3,3,F,-1,-1,,,Other
 108504,924ed9ac,GitHub,83a072aa,data/83a072aa/test/924ed9ac.yml,3,3,F,-1,-1,,,Other

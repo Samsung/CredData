@@ -5,7 +5,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 5622,ed87cf4e,GitHub,1d8ec728,data/1d8ec728/test/ed87cf4e.php,83,83,F,,,,,URL Credentials
 5623,ed87cf4e,GitHub,1d8ec728,data/1d8ec728/test/ed87cf4e.php,85,85,F,,,,,URL Credentials
 5646,83fd9a06,GitHub,1d8ec728,data/1d8ec728/test/83fd9a06.php,77,77,F,,,,,URL Credentials
-5648,dda1f668,GitHub,1d8ec728,data/1d8ec728/test/dda1f668.php,161,161,F,31,37,,TEMPLATE,URL Credentials
+5648,dda1f668,GitHub,1d8ec728,data/1d8ec728/test/dda1f668.php,161,161,Template,31,37,,,URL Credentials
 5649,83fd9a06,GitHub,1d8ec728,data/1d8ec728/test/83fd9a06.php,78,78,F,,,,,URL Credentials
 5674,43cc6424,GitHub,1d8ec728,data/1d8ec728/test/43cc6424.php,144,144,F,,,,,URL Credentials
 5675,83fd9a06,GitHub,1d8ec728,data/1d8ec728/test/83fd9a06.php,74,74,F,,,,,URL Credentials
@@ -37,47 +37,47 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 22333,ba47e392,GitHub,1d8ec728,data/1d8ec728/test/ba47e392.json,12,12,F,,,,,API
 22714,89992649,GitHub,1d8ec728,data/1d8ec728/other/89992649.md,109,109,F,,,,,Token
 23753,ed2ca8ce,GitHub,1d8ec728,data/1d8ec728/test/ed2ca8ce.php,844,844,F,,,,,API
-29116,2420b207,GitHub,1d8ec728,data/1d8ec728/test/2420b207.php,239,239,F,32,56,,TEMPLATE,Password
-29595,f8e3b441,GitHub,1d8ec728,data/1d8ec728/other/f8e3b441.md,206,206,F,22,36,,TEMPLATE,API:Token
-29608,89992649,GitHub,1d8ec728,data/1d8ec728/other/89992649.md,145,145,F,46,54,,TEMPLATE,Secret
-29844,94779cbb,GitHub,1d8ec728,data/1d8ec728/test/94779cbb.php,29,29,F,22,33,,TEMPLATE,Token
-30495,632248a1,GitHub,1d8ec728,data/1d8ec728/test/632248a1.php,48,48,F,31,35,,TEMPLATE,Password:URL Credentials
+29116,2420b207,GitHub,1d8ec728,data/1d8ec728/test/2420b207.php,239,239,Template,32,56,,,Password
+29595,f8e3b441,GitHub,1d8ec728,data/1d8ec728/other/f8e3b441.md,206,206,Template,22,36,,,API:Token
+29608,89992649,GitHub,1d8ec728,data/1d8ec728/other/89992649.md,145,145,Template,46,54,,,Secret
+29844,94779cbb,GitHub,1d8ec728,data/1d8ec728/test/94779cbb.php,29,29,Template,22,33,,,Token
+30495,632248a1,GitHub,1d8ec728,data/1d8ec728/test/632248a1.php,48,48,Template,31,35,,,Password:URL Credentials
 1479541,632248a1,GitHub,1d8ec728,data/1d8ec728/test/632248a1.php,48,48,F,101,105,,,CMD Password
-31024,b73c7e93,GitHub,1d8ec728,data/1d8ec728/test/b73c7e93.php,65,65,F,35,41,,TEMPLATE,URL Credentials
-31067,9a6d8adf,GitHub,1d8ec728,data/1d8ec728/test/9a6d8adf.php,113,113,F,29,32,,TEMPLATE,Password
-31077,9a6d8adf,GitHub,1d8ec728,data/1d8ec728/test/9a6d8adf.php,156,156,F,34,37,,TEMPLATE,Password
-31479,89992649,GitHub,1d8ec728,data/1d8ec728/other/89992649.md,163,163,F,66,69,,TEMPLATE,Password
+31024,b73c7e93,GitHub,1d8ec728,data/1d8ec728/test/b73c7e93.php,65,65,Template,35,41,,,URL Credentials
+31067,9a6d8adf,GitHub,1d8ec728,data/1d8ec728/test/9a6d8adf.php,113,113,Template,29,32,,,Password
+31077,9a6d8adf,GitHub,1d8ec728,data/1d8ec728/test/9a6d8adf.php,156,156,Template,34,37,,,Password
+31479,89992649,GitHub,1d8ec728,data/1d8ec728/other/89992649.md,163,163,Template,66,69,,,Password
 32706,9a6d8adf,GitHub,1d8ec728,data/1d8ec728/test/9a6d8adf.php,106,106,T,59,65,,,URL Credentials
-32707,9a6d8adf,GitHub,1d8ec728,data/1d8ec728/test/9a6d8adf.php,154,154,F,51,57,,TEMPLATE,URL Credentials
-34035,bda46dd0,GitHub,1d8ec728,data/1d8ec728/test/bda46dd0.php,30,30,F,22,36,,TEMPLATE,Token
+32707,9a6d8adf,GitHub,1d8ec728,data/1d8ec728/test/9a6d8adf.php,154,154,Template,51,57,,,URL Credentials
+34035,bda46dd0,GitHub,1d8ec728,data/1d8ec728/test/bda46dd0.php,30,30,Template,22,36,,,Token
 34091,bda46dd0,GitHub,1d8ec728,data/1d8ec728/test/bda46dd0.php,26,26,T,29,41,,,Key
-34294,2efd6594,GitHub,1d8ec728,data/1d8ec728/other/2efd6594.md,164,164,F,37,45,,TEMPLATE,URL Credentials
-34576,62153845,GitHub,1d8ec728,data/1d8ec728/test/62153845.php,63,63,F,50,60,,TEMPLATE,URL Credentials
-34580,62153845,GitHub,1d8ec728,data/1d8ec728/test/62153845.php,81,81,F,50,58,,TEMPLATE,URL Credentials
-34592,62153845,GitHub,1d8ec728,data/1d8ec728/test/62153845.php,130,130,F,50,58,,TEMPLATE,URL Credentials
-36048,a871cf33,GitHub,1d8ec728,data/1d8ec728/test/a871cf33.php,46,46,F,35,39,,TEMPLATE,Password:URL Credentials
-36472,9a6d8adf,GitHub,1d8ec728,data/1d8ec728/test/9a6d8adf.php,98,98,F,41,47,,TEMPLATE,URL Credentials
-36473,7fc01820,GitHub,1d8ec728,data/1d8ec728/test/7fc01820.php,275,275,F,23,27,,TEMPLATE,Password:URL Credentials
-37207,62153845,GitHub,1d8ec728,data/1d8ec728/test/62153845.php,97,97,F,50,58,,TEMPLATE,URL Credentials
-37208,62153845,GitHub,1d8ec728,data/1d8ec728/test/62153845.php,113,113,F,50,58,,TEMPLATE,URL Credentials
-37209,62153845,GitHub,1d8ec728,data/1d8ec728/test/62153845.php,218,218,F,50,58,,TEMPLATE,URL Credentials
-37210,62153845,GitHub,1d8ec728,data/1d8ec728/test/62153845.php,233,233,F,50,58,,TEMPLATE,URL Credentials
-37213,62153845,GitHub,1d8ec728,data/1d8ec728/test/62153845.php,150,150,F,50,58,,TEMPLATE,URL Credentials
+34294,2efd6594,GitHub,1d8ec728,data/1d8ec728/other/2efd6594.md,164,164,Template,37,45,,,URL Credentials
+34576,62153845,GitHub,1d8ec728,data/1d8ec728/test/62153845.php,63,63,Template,50,60,,,URL Credentials
+34580,62153845,GitHub,1d8ec728,data/1d8ec728/test/62153845.php,81,81,Template,50,58,,,URL Credentials
+34592,62153845,GitHub,1d8ec728,data/1d8ec728/test/62153845.php,130,130,Template,50,58,,,URL Credentials
+36048,a871cf33,GitHub,1d8ec728,data/1d8ec728/test/a871cf33.php,46,46,Template,35,39,,,Password:URL Credentials
+36472,9a6d8adf,GitHub,1d8ec728,data/1d8ec728/test/9a6d8adf.php,98,98,Template,41,47,,,URL Credentials
+36473,7fc01820,GitHub,1d8ec728,data/1d8ec728/test/7fc01820.php,275,275,Template,23,27,,,Password:URL Credentials
+37207,62153845,GitHub,1d8ec728,data/1d8ec728/test/62153845.php,97,97,Template,50,58,,,URL Credentials
+37208,62153845,GitHub,1d8ec728,data/1d8ec728/test/62153845.php,113,113,Template,50,58,,,URL Credentials
+37209,62153845,GitHub,1d8ec728,data/1d8ec728/test/62153845.php,218,218,Template,50,58,,,URL Credentials
+37210,62153845,GitHub,1d8ec728,data/1d8ec728/test/62153845.php,233,233,Template,50,58,,,URL Credentials
+37213,62153845,GitHub,1d8ec728,data/1d8ec728/test/62153845.php,150,150,Template,50,58,,,URL Credentials
 41110,ebc17e86,GitHub,1d8ec728,data/1d8ec728/src/ebc17e86.php,187,187,F,,,,,Password
 41111,6694caa9,GitHub,1d8ec728,data/1d8ec728/src/6694caa9.php,198,198,F,,,,,Password
 41112,6694caa9,GitHub,1d8ec728,data/1d8ec728/src/6694caa9.php,210,210,T,43,49,,,Password
 42481,0ad46c42,GitHub,1d8ec728,data/1d8ec728/src/0ad46c42.php,141,141,F,,,,,Password
 42684,be66b8c8,GitHub,1d8ec728,data/1d8ec728/src/be66b8c8.php,163,163,F,,,,,Secret
-46806,2efd6594,GitHub,1d8ec728,data/1d8ec728/other/2efd6594.md,297,297,F,33,39,,TEMPLATE,Secret
+46806,2efd6594,GitHub,1d8ec728,data/1d8ec728/other/2efd6594.md,297,297,Template,33,39,,,Secret
 46875,6c7ebbb8,GitHub,1d8ec728,data/1d8ec728/test/6c7ebbb8.php,2613,2613,F,,,,,API
 46876,6c7ebbb8,GitHub,1d8ec728,data/1d8ec728/test/6c7ebbb8.php,2778,2778,F,,,,,API
-46925,2efd6594,GitHub,1d8ec728,data/1d8ec728/other/2efd6594.md,132,132,F,25,33,,TEMPLATE,Password
+46925,2efd6594,GitHub,1d8ec728,data/1d8ec728/other/2efd6594.md,132,132,Template,25,33,,,Password
 47316,6c7ebbb8,GitHub,1d8ec728,data/1d8ec728/test/6c7ebbb8.php,1272,1272,F,,,,,API
-48048,bda46dd0,GitHub,1d8ec728,data/1d8ec728/test/bda46dd0.php,27,27,F,32,47,,TEMPLATE,Secret
-48049,94779cbb,GitHub,1d8ec728,data/1d8ec728/test/94779cbb.php,26,26,F,25,33,,TEMPLATE,Password
-48050,bda46dd0,GitHub,1d8ec728,data/1d8ec728/test/bda46dd0.php,25,25,F,25,33,,TEMPLATE,Password
+48048,bda46dd0,GitHub,1d8ec728,data/1d8ec728/test/bda46dd0.php,27,27,Template,32,47,,,Secret
+48049,94779cbb,GitHub,1d8ec728,data/1d8ec728/test/94779cbb.php,26,26,Template,25,33,,,Password
+48050,bda46dd0,GitHub,1d8ec728,data/1d8ec728/test/bda46dd0.php,25,25,Template,25,33,,,Password
 50062,2efd6594,GitHub,1d8ec728,data/1d8ec728/other/2efd6594.md,150,150,T,78,86,,,URL Credentials
-52121,2efd6594,GitHub,1d8ec728,data/1d8ec728/other/2efd6594.md,187,187,F,30,44,,TEMPLATE,API:Token
+52121,2efd6594,GitHub,1d8ec728,data/1d8ec728/other/2efd6594.md,187,187,Template,30,44,,,API:Token
 55847,be66b8c8,GitHub,1d8ec728,data/1d8ec728/src/be66b8c8.php,111,111,F,,,,,Token
 55861,be66b8c8,GitHub,1d8ec728,data/1d8ec728/src/be66b8c8.php,106,106,F,,,,,Token
 55943,c0323a68,GitHub,1d8ec728,data/1d8ec728/src/c0323a68.php,92,92,F,,,,,Token
