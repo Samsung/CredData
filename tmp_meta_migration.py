@@ -1,6 +1,5 @@
 import binascii
 import csv
-import dataclasses
 import json
 import pathlib
 
@@ -22,12 +21,7 @@ def main():
                 if not isinstance(row, dict):
                     raise RuntimeError(f"ERROR: wrong row '{row}' in {meta_path}")
                 if "Template" == row["GroundTruth"]:
-                    row["GroundTruth"] = 'F'
-                    if row["PredefinedPattern"]:
-                        print( ValueError(str(row)))
-                        row["PredefinedPattern"] += ":TEMPLATE"
-                    else:
-                        row["PredefinedPattern"] = "TEMPLATE"
+                    row["GroundTruth"] = 'X'
                 repo_meta.append(row)
 
         with open(meta_path, 'w', newline='\n') as csvfile:
