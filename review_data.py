@@ -46,10 +46,8 @@ def read_data(path, line_start, line_end, value_start, value_end, ground_truth, 
         fore_style = Fore.GREEN
     elif 'F' == ground_truth:
         fore_style = Fore.RED
-    elif 'Template' == ground_truth:
-        fore_style = Fore.MAGENTA
     elif 'X' == ground_truth:
-        fore_style = Fore.LIGHTRED_EX
+        fore_style = Fore.MAGENTA
     else:
         raise RuntimeError(f"Unknown type {ground_truth}")
 
@@ -231,7 +229,6 @@ if __name__ == "__main__":
     parser.add_argument("--check_only", help="Check meta markup only", action='store_true')
     parser.add_argument("-T", help="Show TRUE markup", action="store_true")
     parser.add_argument("-F", help="Show FALSE markup", action="store_true")
-    parser.add_argument("-t", help="Show Template markup", action="store_true")
     parser.add_argument("-X", help="Show X markup", action="store_true")
     parser.add_argument("--load", help="Load json report from CredSweeper", nargs='?')
     parser.add_argument("--category", help="Filter only with the category", nargs='?')
@@ -241,12 +238,10 @@ if __name__ == "__main__":
     if not _args.T and not _args.F and not _args.t and not _args.X:
         _data_filter["T"] = True
         _data_filter["F"] = True
-        _data_filter["Template"] = True
         _data_filter["X"] = True
     else:
         _data_filter["T"] = _args.T
         _data_filter["F"] = _args.F
-        _data_filter["Template"] = _args.t
         _data_filter["X"] = _args.X
     exit_code = main(_args.meta_dir, _args.data_dir, bool(_args.check_only), _data_filter, _args.load, _args.category)
     sys.exit(exit_code)

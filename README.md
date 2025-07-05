@@ -108,7 +108,6 @@ We classify the detection results to the three credential type.
 
 - True : It looks like a real credential value.
 - False : It looks like a false positive case, not the actual credential value.
-- Template : It seems that it is not an actual credential, but it is a placeholder. It might be helpful in cases such as ML.
 		
 In order to compose an accurate Ground Truth set, we proceed data review based on the following 'Ground Rules':
 1. All credentials in test (example) directories should be labeled as True.
@@ -140,9 +139,9 @@ Metadata includes Ground Truth values and additional information for credential 
 | FilePath           | String    | File path where credential information was included                                                                                                      |
 | LineStart          | Integer   | Line start in file from 1, like in most editors. In common cases it equals LineEnd.                                                                      |
 | LineEnd            | Integer   | End line of credential MUST be great or equal like LineStart. Sort line_data_list with line_num for this.                                                |
-| GroundTruth        | String    | Ground Truth of this credential. True (T) / False (F) or Template                                                                                        |
+| GroundTruth        | String    | Ground Truth of this credential. True (T) / False (F,X)                                                                                                  |
 | ValueStart         | Integer   | Index of value on the line like in CredSweeper report. This is start position on LineStart. Empty or -1 means the markup for whole line (for False only) |
-| ValueEnd           | Integer   | Index of character right after value ends in the line. This is end position on LineEnd. May be -1 or empty.                               |
+| ValueEnd           | Integer   | Index of character right after value ends in the line. This is end position on LineEnd. May be -1 or empty.                                              |
 | CryptographyKey    | String    | Type of a key: Private or Public                                                                                                                         |
 | PredefinedPattern  | String    | Credential with defined regex patterns (AWS token with `AKIA...` pattern)                                                                                |
 | Category           | String    | Labeled data according CredSweeper rules. see [Category](#category).                                                                                     |

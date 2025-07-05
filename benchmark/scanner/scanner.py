@@ -31,7 +31,6 @@ class Scanner(ABC):
         self.result_dict: dict = {}
         self.total_true_cnt = 0
         self.total_false_cnt = 0
-        self.total_template_cnt = 0
         self.rules_markup_counters: Dict[str, Tuple[int, int, int]] = {}  # category: true_cnt, false_cnt, template_cnt
         self.meta_next_id = 0  # used in suggestion
         self.file_types: Dict[str, FileTypeStat] = {}
@@ -82,15 +81,11 @@ class Scanner(ABC):
                     true_cnt += 1
                     self.total_true_cnt += 1
                     type_stat.true_markup += 1
-                elif 'F' == meta_row.GroundTruth:
+                else:
+                    # all not TRUE marked up cases are FALSE
                     self.total_false_cnt += 1
                     false_cnt += 1
                     type_stat.false_markup += 1
-                else:
-                    # "Template" - correctness will be checked in MetaRow
-                    self.total_template_cnt += 1
-                    template_cnt += 1
-                    type_stat.template_markup += 1
                 self.rules_markup_counters[rule] = (true_cnt, false_cnt, template_cnt)
             self.file_types[file_type_lower] = type_stat
             if self.meta_next_id <= meta_row.Id:
@@ -129,26 +124,22 @@ class Scanner(ABC):
         check_data_valid_lines = 0
         check_true_cnt = 0
         check_false_cnt = 0
-        check_template_cnt = 0
         for key, val in self.file_types.items():
             types_rows.append([key,
                                val.files_number or None,
                                val.valid_lines or None,
                                val.true_markup or None,
-                               val.false_markup or None,
-                               val.template_markup or None])
+                               val.false_markup or None])
             check_files_number += val.files_number
             check_data_valid_lines += val.valid_lines
             check_true_cnt += val.true_markup
             check_false_cnt += val.false_markup
-            check_template_cnt += val.template_markup
         types_rows.sort()
         types_rows.append(["TOTAL:",
                            check_files_number,
                            check_data_valid_lines,
                            check_true_cnt,
-                           check_false_cnt,
-                           check_template_cnt])
+                           check_false_cnt])
         print(tabulate.tabulate(types_rows, types_headers), flush=True)
 
     @property
@@ -274,7 +265,7 @@ class Scanner(ABC):
             "FilePath": data_path,
             "LineStart": line_start,
             "LineEnd": line_end,
-            "GroundTruth": 'F',
+            "GroundTruth": 'X',
             "ValueStart": value_start,
             "ValueEnd": value_end,
             "CryptographyKey": '',
@@ -347,7 +338,7 @@ class Scanner(ABC):
                         self.true_cnt += 1
                         return LineStatus.FALSE, repo_name, file_id
                     else:
-                        # MetaRow class checks the correctness of row.GroundTruth = ['T', 'F', "Template"]
+                        # MetaRow class checks the correctness of row.GroundTruth = ['T', 'F']
                         self._increase_result_dict_cnt(meta_rule, False)
                         self.false_cnt += 1
                         return LineStatus.TRUE, repo_name, file_id
