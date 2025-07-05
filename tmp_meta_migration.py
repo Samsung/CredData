@@ -24,8 +24,10 @@ def main():
                 if "Template" == row["GroundTruth"]:
                     row["GroundTruth"] = 'F'
                     if row["PredefinedPattern"]:
-                        raise ValueError(str(row))
-                    row["PredefinedPattern"] = "TEMPLATE"
+                        print( ValueError(str(row)))
+                        row["PredefinedPattern"] += ":TEMPLATE"
+                    else:
+                        row["PredefinedPattern"] = "TEMPLATE"
                 repo_meta.append(row)
 
         with open(meta_path, 'w', newline='\n') as csvfile:
