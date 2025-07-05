@@ -1,6 +1,6 @@
-META MD5 a0999175c64b3743aad3cd450f434d1a
-DATA MD5 920fe3bdbee9b836a9a1e41a47737379
-DATA: 16703140 interested lines. MARKUP: 61262 items
+META MD5 425766edc87adb697218b24014514d74
+DATA MD5 a4708c2c86e361f1bdefc1c7313fa837
+DATA: 16703140 interested lines. MARKUP: 61264 items
 FileType           FileNumber    ValidLines    Positives    Negatives    Templates
 ---------------  ------------  ------------  -----------  -----------  -----------
                           676         69398          134          416           72
@@ -229,10 +229,10 @@ FileType           FileNumber    ValidLines    Positives    Negatives    Templat
 .xib                       11           503                       164
 .xsl                        1           311                         1
 .yaml                     168         24422          195          337           40
-.yml                      555         54516         1868          900          323
+.yml                      555         54516         1870          900          323
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  11478      16703140        16064        45577         4736
+TOTAL:                  11478      16703140        16066        45577         4736
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Templates    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -247,7 +247,7 @@ Azure Access Token                       21            0            0           
 BASE64 Private Key                       22            4            0                 0     0      4     22  0.000000  1.000000  0.153846         0.000000
 BASE64 encoded PEM Private Key           12            0            0                 0     0      0     12            1.000000  0.000000         0.000000
 Basic Authorization                     625          554            0                 0     0    554    625  0.000000  1.000000  0.469890         0.000000
-Bearer Authorization                    163            0            0                 0     0      0    163            1.000000  0.000000         0.000000
+Bearer Authorization                    165            0            0                 0     0      0    165            1.000000  0.000000         0.000000
 Bitbucket Client ID                      36           66            0                 0     0     66     36  0.000000  1.000000  0.647059         0.000000
 Bitbucket Client Secret                  38          104            1                 0     0    105     38  0.000000  1.000000  0.734266         0.000000
 CMD ConvertTo-SecureString               13            4            0                 0     0      4     13  0.000000  1.000000  0.235294         0.000000
@@ -287,4 +287,4 @@ Token                                   947         4186          454           
 Twilio Credentials                       30           39            0                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         229          177          184                 0     0    361    229  0.000000  1.000000  0.611864         0.000000
 UUID                                   1866          265            0                 0     0    265   1866  0.000000  1.000000  0.124355         0.000000
-                                      16064        45577         4736           0     0     0  45577  16064  0.000000  1.000000  0.739394         0.000000
+                                      16066        45577         4736           0     0     0  45577  16066  0.000000  1.000000  0.739370         0.000000
