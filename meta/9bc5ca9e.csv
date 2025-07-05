@@ -9,13 +9,13 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 18724,aed679d2,GitHub,9bc5ca9e,data/9bc5ca9e/test/aed679d2.json,21,21,F,-1,-1,,,Other
 18726,074089db,GitHub,9bc5ca9e,data/9bc5ca9e/test/074089db.json,23,23,F,-1,-1,,,Other
 18727,aed679d2,GitHub,9bc5ca9e,data/9bc5ca9e/test/aed679d2.json,22,22,F,-1,-1,,,Other
-28995,a0a562f6,GitHub,9bc5ca9e,data/9bc5ca9e/test/a0a562f6.json,6,6,Template,20,26,,,Token
-29042,a0a562f6,GitHub,9bc5ca9e,data/9bc5ca9e/test/a0a562f6.json,3,3,Template,15,19,,,Password
+28995,a0a562f6,GitHub,9bc5ca9e,data/9bc5ca9e/test/a0a562f6.json,6,6,F,20,26,,TEMPLATE,Token
+29042,a0a562f6,GitHub,9bc5ca9e,data/9bc5ca9e/test/a0a562f6.json,3,3,F,15,19,,TEMPLATE,Password
 29811,f3788238,GitHub,9bc5ca9e,data/9bc5ca9e/test/f3788238.java,59,59,T,37,50,,,Token
 29819,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,81,81,T,53,65,,,Auth:Password
 29820,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,85,85,T,55,70,,,Auth:Dropbox App secret:Password
-31445,daf53873,GitHub,9bc5ca9e,data/9bc5ca9e/test/daf53873.java,62,62,Template,29,36,,,Password
-31531,daf53873,GitHub,9bc5ca9e,data/9bc5ca9e/test/daf53873.java,51,51,Template,29,36,,,Password
+31445,daf53873,GitHub,9bc5ca9e,data/9bc5ca9e/test/daf53873.java,62,62,F,29,36,,TEMPLATE,Password
+31531,daf53873,GitHub,9bc5ca9e,data/9bc5ca9e/test/daf53873.java,51,51,F,29,36,,TEMPLATE,Password
 34061,6126a578,GitHub,9bc5ca9e,data/9bc5ca9e/src/6126a578.java,72,72,T,52,68,,,Key:Password
 34079,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,91,91,T,51,67,,,Auth:Password
 34081,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,98,98,T,52,62,,,Auth:Password
@@ -35,7 +35,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 108223,f490aa6c,GitHub,9bc5ca9e,data/9bc5ca9e/test/f490aa6c.java,5210,5210,F,-1,-1,,,Other
 108224,f490aa6c,GitHub,9bc5ca9e,data/9bc5ca9e/test/f490aa6c.java,5211,5211,F,-1,-1,,,Other
 108225,f490aa6c,GitHub,9bc5ca9e,data/9bc5ca9e/test/f490aa6c.java,5212,5212,F,-1,-1,,,Other
-108226,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,331,331,Template,34,46,,,Secret
+108226,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,331,331,F,34,46,,TEMPLATE,Secret
 108228,f3788238,GitHub,9bc5ca9e,data/9bc5ca9e/test/f3788238.java,98,98,F,,,,,Password
 114453,6126a578,GitHub,9bc5ca9e,data/9bc5ca9e/src/6126a578.java,68,68,F,,,,,Gitlab Feed Token
 114455,9bc3beb2,GitHub,9bc5ca9e,data/9bc5ca9e/test/9bc3beb2.java,97,97,F,,,,,Auth

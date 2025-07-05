@@ -62,10 +62,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 27129,3f5c652d,GitHub,798d34aa,data/798d34aa/src/3f5c652d.ts,2,2,F,,,,,Password
 27365,9542f82d,GitHub,798d34aa,data/798d34aa/src/9542f82d.yml,223,223,T,34,42,,,Password
 27465,74b200a7,GitHub,798d34aa,data/798d34aa/test/74b200a7.example,42,42,T,18,26,,,Password
-27705,1a6bfd2b,GitHub,798d34aa,data/798d34aa/src/1a6bfd2b.ts,12,12,Template,19,35,,,API:Key
-27763,d4a31c5d,GitHub,798d34aa,data/798d34aa/src/d4a31c5d.ts,19,19,Template,13,20,,,API:Key
+27705,1a6bfd2b,GitHub,798d34aa,data/798d34aa/src/1a6bfd2b.ts,12,12,F,19,35,,TEMPLATE,API:Key
+27763,d4a31c5d,GitHub,798d34aa,data/798d34aa/src/d4a31c5d.ts,19,19,F,13,20,,TEMPLATE,API:Key
 27767,9542f82d,GitHub,798d34aa,data/798d34aa/src/9542f82d.yml,23,23,T,34,50,,,Secret
-27904,25ca8871,GitHub,798d34aa,data/798d34aa/test/25ca8871.example,7,7,Template,11,67,,,API:Key
+27904,25ca8871,GitHub,798d34aa,data/798d34aa/test/25ca8871.example,7,7,F,11,67,,TEMPLATE,API:Key
 28156,74b200a7,GitHub,798d34aa,data/798d34aa/test/74b200a7.example,20,20,T,23,38,,,Secret:Dropbox App secret
 28157,74b200a7,GitHub,798d34aa,data/798d34aa/test/74b200a7.example,25,25,T,23,35,,,Secret
 28158,74b200a7,GitHub,798d34aa,data/798d34aa/test/74b200a7.example,15,15,T,23,32,,,Secret
@@ -86,7 +86,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 41930,9542f82d,GitHub,798d34aa,data/798d34aa/src/9542f82d.yml,155,155,T,34,50,,,Secret
 41931,9542f82d,GitHub,798d34aa,data/798d34aa/src/9542f82d.yml,179,179,T,34,50,,,Secret
 42133,1c25f72b,GitHub,798d34aa,data/798d34aa/src/1c25f72b.ts,47,47,F,,,,,Password
-47558,c679447c,GitHub,798d34aa,data/798d34aa/other/c679447c.md,15,15,Template,19,38,,,Password
+47558,c679447c,GitHub,798d34aa,data/798d34aa/other/c679447c.md,15,15,F,19,38,,TEMPLATE,Password
 48081,25ca8871,GitHub,798d34aa,data/798d34aa/test/25ca8871.example,23,23,T,18,26,,,Password
 56644,037ea159,GitHub,798d34aa,data/798d34aa/src/037ea159.yml,105,105,F,-1,-1,,,Token:Credential
 56645,037ea159,GitHub,798d34aa,data/798d34aa/src/037ea159.yml,126,126,F,-1,-1,,,Token:Credential

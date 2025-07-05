@@ -17,7 +17,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 7999,2b8eecd7,GitHub,5f62aae4,data/5f62aae4/test/2b8eecd7.py,205,205,F,,,,,Password
 8052,77be8595,GitHub,5f62aae4,data/5f62aae4/test/77be8595.py,48,48,F,-1,-1,,,Other
 8655,77be8595,GitHub,5f62aae4,data/5f62aae4/test/77be8595.py,58,58,F,-1,-1,,,Key
-9126,2b8eecd7,GitHub,5f62aae4,data/5f62aae4/test/2b8eecd7.py,185,185,Template,4,8,,,Password
+9126,2b8eecd7,GitHub,5f62aae4,data/5f62aae4/test/2b8eecd7.py,185,185,F,4,8,,TEMPLATE,Password
 10936,17db4cc9,GitHub,5f62aae4,data/5f62aae4/src/17db4cc9.sh,6,6,F,,,,,Key
 11571,d39f8311,GitHub,5f62aae4,data/5f62aae4/src/d39f8311.py,227,227,F,-1,-1,,,Key
 12305,b10cd7f7,GitHub,5f62aae4,data/5f62aae4/src/b10cd7f7.js,360,360,F,-1,-1,,,Key
@@ -36,7 +36,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 13685,81459308,GitHub,5f62aae4,data/5f62aae4/src/81459308.py,1739,1739,F,-1,-1,,,Key
 13769,ac6d3106,GitHub,5f62aae4,data/5f62aae4/src/ac6d3106.py,301,301,F,-1,-1,,,Key
 13774,660288c0,GitHub,5f62aae4,data/5f62aae4/src/660288c0.py,449,449,F,-1,-1,,,Key
-14236,6aafcdf1,GitHub,5f62aae4,data/5f62aae4/test/6aafcdf1.py,125,125,Template,39,44,,,Password
+14236,6aafcdf1,GitHub,5f62aae4,data/5f62aae4/test/6aafcdf1.py,125,125,F,39,44,,TEMPLATE,Password
 14421,315a064e,GitHub,5f62aae4,data/5f62aae4/test/315a064e.py,33,33,F,,,,,Password
 15043,81459308,GitHub,5f62aae4,data/5f62aae4/src/81459308.py,690,690,F,,,,,Gitlab Feed Token
 15336,9b595423,GitHub,5f62aae4,data/5f62aae4/test/9b595423.py,28,28,F,-1,-1,,,Key
@@ -67,8 +67,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 25300,3706378d,GitHub,5f62aae4,data/5f62aae4/test/3706378d.html,18,18,F,,,,,Password
 27400,37683e0f,GitHub,5f62aae4,data/5f62aae4/test/37683e0f.py,11,11,F,26,39,,,Password
 27599,de9ce27d,GitHub,5f62aae4,data/5f62aae4/test/de9ce27d.py,5,5,F,65,80,,,URL Credentials
-29250,2b8eecd7,GitHub,5f62aae4,data/5f62aae4/test/2b8eecd7.py,184,184,Template,30,34,,,Password
-30067,612c455e,GitHub,5f62aae4,data/5f62aae4/test/612c455e.py,6,6,Template,14,23,,,Key:Secret
+29250,2b8eecd7,GitHub,5f62aae4,data/5f62aae4/test/2b8eecd7.py,184,184,F,30,34,,TEMPLATE,Password
+30067,612c455e,GitHub,5f62aae4,data/5f62aae4/test/612c455e.py,6,6,F,14,23,,TEMPLATE,Key:Secret
 33816,37683e0f,GitHub,5f62aae4,data/5f62aae4/test/37683e0f.py,12,12,T,26,55,,,Password:Salt
 58006,b10cd7f7,GitHub,5f62aae4,data/5f62aae4/src/b10cd7f7.js,243,243,F,,,,,API
 58007,02960178,GitHub,5f62aae4,data/5f62aae4/src/02960178.js,244,244,F,,,,,API
@@ -85,8 +85,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 58260,b10cd7f7,GitHub,5f62aae4,data/5f62aae4/src/b10cd7f7.js,4116,4116,F,,,,,API
 61601,b10cd7f7,GitHub,5f62aae4,data/5f62aae4/src/b10cd7f7.js,597,597,F,,,,,API
 61602,b10cd7f7,GitHub,5f62aae4,data/5f62aae4/src/b10cd7f7.js,6241,6241,F,,,,,API
-61896,de9ce27d,GitHub,5f62aae4,data/5f62aae4/test/de9ce27d.py,2,2,Template,14,23,,,Key:Secret
-61897,37683e0f,GitHub,5f62aae4,data/5f62aae4/test/37683e0f.py,2,2,Template,14,23,,,Key:Secret
+61896,de9ce27d,GitHub,5f62aae4,data/5f62aae4/test/de9ce27d.py,2,2,F,14,23,,TEMPLATE,Key:Secret
+61897,37683e0f,GitHub,5f62aae4,data/5f62aae4/test/37683e0f.py,2,2,F,14,23,,TEMPLATE,Key:Secret
 64563,02960178,GitHub,5f62aae4,data/5f62aae4/src/02960178.js,3413,3413,F,-1,-1,,,Key
 64564,02960178,GitHub,5f62aae4,data/5f62aae4/src/02960178.js,3600,3600,F,-1,-1,,,Key
 64565,b10cd7f7,GitHub,5f62aae4,data/5f62aae4/src/b10cd7f7.js,5991,5991,F,-1,-1,,,Key

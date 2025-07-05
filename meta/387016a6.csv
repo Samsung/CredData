@@ -180,8 +180,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 18863,00da0713,GitHub,387016a6,data/387016a6/test/00da0713.yml,225,225,F,,,,,Token
 19017,aae5c0ae,GitHub,387016a6,data/387016a6/test/aae5c0ae.json,18,18,F,,,,,Token
 20352,d5ad735c,GitHub,387016a6,data/387016a6/src/d5ad735c.asciidoc,365,365,F,,,,,Token
-21463,54e8977e,GitHub,387016a6,data/387016a6/test/54e8977e.txt,4,4,Template,136,162,,,Key:Password
-21464,54e8977e,GitHub,387016a6,data/387016a6/test/54e8977e.txt,5,5,Template,136,162,,,Key:Password
+21463,54e8977e,GitHub,387016a6,data/387016a6/test/54e8977e.txt,4,4,F,136,162,,TEMPLATE,Key:Password
+21464,54e8977e,GitHub,387016a6,data/387016a6/test/54e8977e.txt,5,5,F,136,162,,TEMPLATE,Key:Password
 22019,e6ab953e,GitHub,387016a6,data/387016a6/src/e6ab953e.asciidoc,66,66,F,,,,,Password
 22020,c24cd19b,GitHub,387016a6,data/387016a6/src/c24cd19b.asciidoc,38,38,F,,,,,Password
 22624,b5343dcf,GitHub,387016a6,data/387016a6/src/b5343dcf.asciidoc,87,87,F,,,,,Token
@@ -281,116 +281,116 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 25335,9ca7dd81,GitHub,387016a6,data/387016a6/src/9ca7dd81.bat,93,93,F,,,,,Password
 25336,9ca7dd81,GitHub,387016a6,data/387016a6/src/9ca7dd81.bat,95,95,F,,,,,Password:Key
 26728,0ad68ef3,GitHub,387016a6,data/387016a6/src/0ad68ef3.asciidoc,599,599,F,,,,,API
-27192,ca81e156,GitHub,387016a6,data/387016a6/src/ca81e156.gradle,25,25,Template,49,69,,,Gitlab Feed Token:Password
-27197,55466edf,GitHub,387016a6,data/387016a6/src/55466edf.gradle,32,32,Template,40,58,,,Password
-27206,ca81e156,GitHub,387016a6,data/387016a6/src/ca81e156.gradle,23,23,Template,42,62,,,Gitlab Feed Token:Password
-27212,fba7385f,GitHub,387016a6,data/387016a6/test/fba7385f.java,837,837,Template,31,49,,,Password
-27214,ca81e156,GitHub,387016a6,data/387016a6/src/ca81e156.gradle,24,24,Template,46,66,,,Gitlab Feed Token:Password
-27215,3750bf37,GitHub,387016a6,data/387016a6/src/3750bf37.gradle,18,18,Template,42,63,,,Password
-27219,1ab23d09,GitHub,387016a6,data/387016a6/src/1ab23d09.gradle,22,22,Template,42,56,,,Password
-27222,75a6a4c2,GitHub,387016a6,data/387016a6/test/75a6a4c2.gradle,51,51,Template,60,80,,,Gitlab Feed Token:Password
-27224,75a6a4c2,GitHub,387016a6,data/387016a6/test/75a6a4c2.gradle,52,52,Template,62,82,,,Gitlab Feed Token:Password
-27225,75a6a4c2,GitHub,387016a6,data/387016a6/test/75a6a4c2.gradle,50,50,Template,46,66,,,Gitlab Feed Token:Password
-27226,d20c3c74,GitHub,387016a6,data/387016a6/test/d20c3c74.gradle,45,45,Template,41,53,,,Password
-27233,d20c3c74,GitHub,387016a6,data/387016a6/test/d20c3c74.gradle,46,46,Template,40,52,,,Password
-27236,75a6a4c2,GitHub,387016a6,data/387016a6/test/75a6a4c2.gradle,47,47,Template,44,64,,,Gitlab Feed Token:Password
-27238,75a6a4c2,GitHub,387016a6,data/387016a6/test/75a6a4c2.gradle,48,48,Template,54,74,,,Gitlab Feed Token:Password
-27241,3b1aa1b2,GitHub,387016a6,data/387016a6/src/3b1aa1b2.gradle,227,227,Template,40,60,,,Gitlab Feed Token:Password
-27268,3b1aa1b2,GitHub,387016a6,data/387016a6/src/3b1aa1b2.gradle,228,228,Template,39,59,,,Gitlab Feed Token:Password
-27269,f5c8b0d1,GitHub,387016a6,data/387016a6/test/f5c8b0d1.gradle,80,80,Template,48,68,,,Gitlab Feed Token:Password
-27270,3b1aa1b2,GitHub,387016a6,data/387016a6/src/3b1aa1b2.gradle,229,229,Template,37,57,,,Gitlab Feed Token:Password
+27192,ca81e156,GitHub,387016a6,data/387016a6/src/ca81e156.gradle,25,25,F,49,69,,TEMPLATE,Gitlab Feed Token:Password
+27197,55466edf,GitHub,387016a6,data/387016a6/src/55466edf.gradle,32,32,F,40,58,,TEMPLATE,Password
+27206,ca81e156,GitHub,387016a6,data/387016a6/src/ca81e156.gradle,23,23,F,42,62,,TEMPLATE,Gitlab Feed Token:Password
+27212,fba7385f,GitHub,387016a6,data/387016a6/test/fba7385f.java,837,837,F,31,49,,TEMPLATE,Password
+27214,ca81e156,GitHub,387016a6,data/387016a6/src/ca81e156.gradle,24,24,F,46,66,,TEMPLATE,Gitlab Feed Token:Password
+27215,3750bf37,GitHub,387016a6,data/387016a6/src/3750bf37.gradle,18,18,F,42,63,,TEMPLATE,Password
+27219,1ab23d09,GitHub,387016a6,data/387016a6/src/1ab23d09.gradle,22,22,F,42,56,,TEMPLATE,Password
+27222,75a6a4c2,GitHub,387016a6,data/387016a6/test/75a6a4c2.gradle,51,51,F,60,80,,TEMPLATE,Gitlab Feed Token:Password
+27224,75a6a4c2,GitHub,387016a6,data/387016a6/test/75a6a4c2.gradle,52,52,F,62,82,,TEMPLATE,Gitlab Feed Token:Password
+27225,75a6a4c2,GitHub,387016a6,data/387016a6/test/75a6a4c2.gradle,50,50,F,46,66,,TEMPLATE,Gitlab Feed Token:Password
+27226,d20c3c74,GitHub,387016a6,data/387016a6/test/d20c3c74.gradle,45,45,F,41,53,,TEMPLATE,Password
+27233,d20c3c74,GitHub,387016a6,data/387016a6/test/d20c3c74.gradle,46,46,F,40,52,,TEMPLATE,Password
+27236,75a6a4c2,GitHub,387016a6,data/387016a6/test/75a6a4c2.gradle,47,47,F,44,64,,TEMPLATE,Gitlab Feed Token:Password
+27238,75a6a4c2,GitHub,387016a6,data/387016a6/test/75a6a4c2.gradle,48,48,F,54,74,,TEMPLATE,Gitlab Feed Token:Password
+27241,3b1aa1b2,GitHub,387016a6,data/387016a6/src/3b1aa1b2.gradle,227,227,F,40,60,,TEMPLATE,Gitlab Feed Token:Password
+27268,3b1aa1b2,GitHub,387016a6,data/387016a6/src/3b1aa1b2.gradle,228,228,F,39,59,,TEMPLATE,Gitlab Feed Token:Password
+27269,f5c8b0d1,GitHub,387016a6,data/387016a6/test/f5c8b0d1.gradle,80,80,F,48,68,,TEMPLATE,Gitlab Feed Token:Password
+27270,3b1aa1b2,GitHub,387016a6,data/387016a6/src/3b1aa1b2.gradle,229,229,F,37,57,,TEMPLATE,Gitlab Feed Token:Password
 27271,73cd6bff,GitHub,387016a6,data/387016a6/test/73cd6bff.java,169,169,T,27,39,,,Password
 27272,7e3c662c,GitHub,387016a6,data/387016a6/test/7e3c662c.java,35,35,T,27,43,,,Password
-27274,1e370f54,GitHub,387016a6,data/387016a6/src/1e370f54.gradle,19,19,Template,52,72,,,Gitlab Feed Token:Password
-27275,c836fc91,GitHub,387016a6,data/387016a6/src/c836fc91.gradle,23,23,Template,40,60,,,Gitlab Feed Token:Password
-27276,ede5e659,GitHub,387016a6,data/387016a6/test/ede5e659.gradle,41,41,Template,48,68,,,Gitlab Feed Token:Password
-27277,758a0267,GitHub,387016a6,data/387016a6/test/758a0267.gradle,40,40,Template,45,65,,,Gitlab Feed Token:Password
-27278,f5c8b0d1,GitHub,387016a6,data/387016a6/test/f5c8b0d1.gradle,79,79,Template,41,61,,,Gitlab Feed Token:Password
-27279,1cefb1f6,GitHub,387016a6,data/387016a6/src/1cefb1f6.gradle,26,26,Template,51,71,,,Gitlab Feed Token:Password
-27281,1fd2e71d,GitHub,387016a6,data/387016a6/src/1fd2e71d.gradle,17,17,Template,37,57,,,Gitlab Feed Token:Password
-27283,1fd2e71d,GitHub,387016a6,data/387016a6/src/1fd2e71d.gradle,18,18,Template,37,57,,,Gitlab Feed Token:Password
-27284,1fd2e71d,GitHub,387016a6,data/387016a6/src/1fd2e71d.gradle,19,19,Template,40,60,,,Gitlab Feed Token:Password
-27285,f7aed313,GitHub,387016a6,data/387016a6/src/f7aed313.gradle,37,37,Template,47,67,,,Gitlab Feed Token:Password
-27287,1cefb1f6,GitHub,387016a6,data/387016a6/src/1cefb1f6.gradle,25,25,Template,48,68,,,Gitlab Feed Token:Password
-27289,f7aed313,GitHub,387016a6,data/387016a6/src/f7aed313.gradle,36,36,Template,48,68,,,Gitlab Feed Token:Password
-27290,6cb80b88,GitHub,387016a6,data/387016a6/src/6cb80b88.gradle,21,21,Template,49,75,,,Password
-27293,6cb80b88,GitHub,387016a6,data/387016a6/src/6cb80b88.gradle,22,22,Template,48,73,,,Password
-27296,1e370f54,GitHub,387016a6,data/387016a6/src/1e370f54.gradle,18,18,Template,43,63,,,Gitlab Feed Token:Password
-27297,75a6a4c2,GitHub,387016a6,data/387016a6/test/75a6a4c2.gradle,45,45,Template,42,62,,,Gitlab Feed Token:Password
-27298,1cefb1f6,GitHub,387016a6,data/387016a6/src/1cefb1f6.gradle,27,27,Template,49,69,,,Gitlab Feed Token:Password
-27302,75a6a4c2,GitHub,387016a6,data/387016a6/test/75a6a4c2.gradle,46,46,Template,45,65,,,Gitlab Feed Token:Password
-27304,f7aed313,GitHub,387016a6,data/387016a6/src/f7aed313.gradle,38,38,Template,46,66,,,Gitlab Feed Token:Password
+27274,1e370f54,GitHub,387016a6,data/387016a6/src/1e370f54.gradle,19,19,F,52,72,,TEMPLATE,Gitlab Feed Token:Password
+27275,c836fc91,GitHub,387016a6,data/387016a6/src/c836fc91.gradle,23,23,F,40,60,,TEMPLATE,Gitlab Feed Token:Password
+27276,ede5e659,GitHub,387016a6,data/387016a6/test/ede5e659.gradle,41,41,F,48,68,,TEMPLATE,Gitlab Feed Token:Password
+27277,758a0267,GitHub,387016a6,data/387016a6/test/758a0267.gradle,40,40,F,45,65,,TEMPLATE,Gitlab Feed Token:Password
+27278,f5c8b0d1,GitHub,387016a6,data/387016a6/test/f5c8b0d1.gradle,79,79,F,41,61,,TEMPLATE,Gitlab Feed Token:Password
+27279,1cefb1f6,GitHub,387016a6,data/387016a6/src/1cefb1f6.gradle,26,26,F,51,71,,TEMPLATE,Gitlab Feed Token:Password
+27281,1fd2e71d,GitHub,387016a6,data/387016a6/src/1fd2e71d.gradle,17,17,F,37,57,,TEMPLATE,Gitlab Feed Token:Password
+27283,1fd2e71d,GitHub,387016a6,data/387016a6/src/1fd2e71d.gradle,18,18,F,37,57,,TEMPLATE,Gitlab Feed Token:Password
+27284,1fd2e71d,GitHub,387016a6,data/387016a6/src/1fd2e71d.gradle,19,19,F,40,60,,TEMPLATE,Gitlab Feed Token:Password
+27285,f7aed313,GitHub,387016a6,data/387016a6/src/f7aed313.gradle,37,37,F,47,67,,TEMPLATE,Gitlab Feed Token:Password
+27287,1cefb1f6,GitHub,387016a6,data/387016a6/src/1cefb1f6.gradle,25,25,F,48,68,,TEMPLATE,Gitlab Feed Token:Password
+27289,f7aed313,GitHub,387016a6,data/387016a6/src/f7aed313.gradle,36,36,F,48,68,,TEMPLATE,Gitlab Feed Token:Password
+27290,6cb80b88,GitHub,387016a6,data/387016a6/src/6cb80b88.gradle,21,21,F,49,75,,TEMPLATE,Password
+27293,6cb80b88,GitHub,387016a6,data/387016a6/src/6cb80b88.gradle,22,22,F,48,73,,TEMPLATE,Password
+27296,1e370f54,GitHub,387016a6,data/387016a6/src/1e370f54.gradle,18,18,F,43,63,,TEMPLATE,Gitlab Feed Token:Password
+27297,75a6a4c2,GitHub,387016a6,data/387016a6/test/75a6a4c2.gradle,45,45,F,42,62,,TEMPLATE,Gitlab Feed Token:Password
+27298,1cefb1f6,GitHub,387016a6,data/387016a6/src/1cefb1f6.gradle,27,27,F,49,69,,TEMPLATE,Gitlab Feed Token:Password
+27302,75a6a4c2,GitHub,387016a6,data/387016a6/test/75a6a4c2.gradle,46,46,F,45,65,,TEMPLATE,Gitlab Feed Token:Password
+27304,f7aed313,GitHub,387016a6,data/387016a6/src/f7aed313.gradle,38,38,F,46,66,,TEMPLATE,Gitlab Feed Token:Password
 27308,73cd6bff,GitHub,387016a6,data/387016a6/test/73cd6bff.java,265,265,T,27,44,,,Password
 27309,55f02a45,GitHub,387016a6,data/387016a6/src/55f02a45.gradle,24,24,T,40,57,,,Password
-27310,75a6a4c2,GitHub,387016a6,data/387016a6/test/75a6a4c2.gradle,49,49,Template,45,65,,,Gitlab Feed Token:Password
-27313,1ab23d09,GitHub,387016a6,data/387016a6/src/1ab23d09.gradle,23,23,Template,50,72,,,Password
-27315,1fd2e71d,GitHub,387016a6,data/387016a6/src/1fd2e71d.gradle,16,16,Template,42,62,,,Gitlab Feed Token:Password
-27317,3750bf37,GitHub,387016a6,data/387016a6/src/3750bf37.gradle,17,17,Template,41,61,,,Gitlab Feed Token:Password
-27318,15cd8f39,GitHub,387016a6,data/387016a6/test/15cd8f39.gradle,20,20,Template,42,62,,,Gitlab Feed Token:Password
-27320,1e370f54,GitHub,387016a6,data/387016a6/src/1e370f54.gradle,17,17,Template,42,62,,,Gitlab Feed Token:Password
-27321,0047d95d,GitHub,387016a6,data/387016a6/test/0047d95d.gradle,100,100,Template,42,62,,,Gitlab Feed Token:Password
-27372,20581464,GitHub,387016a6,data/387016a6/src/20581464.java,57,57,Template,61,87,,,Password
-27374,41f49d06,GitHub,387016a6,data/387016a6/test/41f49d06.java,115,115,Template,54,73,,,Password
-27375,20581464,GitHub,387016a6,data/387016a6/src/20581464.java,62,62,Template,61,80,,,Password
-27408,4b6228ca,GitHub,387016a6,data/387016a6/src/4b6228ca.asciidoc,132,132,Template,16,36,,,Gitlab Feed Token:Password
-27414,e0837d3f,GitHub,387016a6,data/387016a6/src/e0837d3f.asciidoc,105,105,Template,16,22,,,Password
-27417,f9a597e9,GitHub,387016a6,data/387016a6/test/f9a597e9.ldiff,23,23,Template,14,20,,,Password
-27438,185213d9,GitHub,387016a6,data/387016a6/src/185213d9.asciidoc,926,926,Template,16,34,,,Password
-27440,9c092043,GitHub,387016a6,data/387016a6/test/9c092043.yml,67,67,Template,28,44,,,Password
-27441,7c80b3ce,GitHub,387016a6,data/387016a6/src/7c80b3ce.asciidoc,93,93,Template,16,24,,,Password
-27447,9c092043,GitHub,387016a6,data/387016a6/test/9c092043.yml,11,11,Template,27,47,,,Gitlab Feed Token:Password
+27310,75a6a4c2,GitHub,387016a6,data/387016a6/test/75a6a4c2.gradle,49,49,F,45,65,,TEMPLATE,Gitlab Feed Token:Password
+27313,1ab23d09,GitHub,387016a6,data/387016a6/src/1ab23d09.gradle,23,23,F,50,72,,TEMPLATE,Password
+27315,1fd2e71d,GitHub,387016a6,data/387016a6/src/1fd2e71d.gradle,16,16,F,42,62,,TEMPLATE,Gitlab Feed Token:Password
+27317,3750bf37,GitHub,387016a6,data/387016a6/src/3750bf37.gradle,17,17,F,41,61,,TEMPLATE,Gitlab Feed Token:Password
+27318,15cd8f39,GitHub,387016a6,data/387016a6/test/15cd8f39.gradle,20,20,F,42,62,,TEMPLATE,Gitlab Feed Token:Password
+27320,1e370f54,GitHub,387016a6,data/387016a6/src/1e370f54.gradle,17,17,F,42,62,,TEMPLATE,Gitlab Feed Token:Password
+27321,0047d95d,GitHub,387016a6,data/387016a6/test/0047d95d.gradle,100,100,F,42,62,,TEMPLATE,Gitlab Feed Token:Password
+27372,20581464,GitHub,387016a6,data/387016a6/src/20581464.java,57,57,F,61,87,,TEMPLATE,Password
+27374,41f49d06,GitHub,387016a6,data/387016a6/test/41f49d06.java,115,115,F,54,73,,TEMPLATE,Password
+27375,20581464,GitHub,387016a6,data/387016a6/src/20581464.java,62,62,F,61,80,,TEMPLATE,Password
+27408,4b6228ca,GitHub,387016a6,data/387016a6/src/4b6228ca.asciidoc,132,132,F,16,36,,TEMPLATE,Gitlab Feed Token:Password
+27414,e0837d3f,GitHub,387016a6,data/387016a6/src/e0837d3f.asciidoc,105,105,F,16,22,,TEMPLATE,Password
+27417,f9a597e9,GitHub,387016a6,data/387016a6/test/f9a597e9.ldiff,23,23,F,14,20,,TEMPLATE,Password
+27438,185213d9,GitHub,387016a6,data/387016a6/src/185213d9.asciidoc,926,926,F,16,34,,TEMPLATE,Password
+27440,9c092043,GitHub,387016a6,data/387016a6/test/9c092043.yml,67,67,F,28,44,,TEMPLATE,Password
+27441,7c80b3ce,GitHub,387016a6,data/387016a6/src/7c80b3ce.asciidoc,93,93,F,16,24,,TEMPLATE,Password
+27447,9c092043,GitHub,387016a6,data/387016a6/test/9c092043.yml,11,11,F,27,47,,TEMPLATE,Gitlab Feed Token:Password
 27478,89ce63c9,GitHub,387016a6,data/387016a6/test/89ce63c9.yml,14,14,T,27,42,,,Password
-27482,0c09a021,GitHub,387016a6,data/387016a6/test/0c09a021.asciidoc,91,91,Template,25,45,,,Gitlab Feed Token:Password
-27483,62c9c42b,GitHub,387016a6,data/387016a6/test/62c9c42b.yml,15,15,Template,27,47,,,Gitlab Feed Token:Password
-27487,b8b50c40,GitHub,387016a6,data/387016a6/test/b8b50c40.java,18,18,Template,48,68,,,Gitlab Feed Token:Password
-27488,98dd0ea6,GitHub,387016a6,data/387016a6/test/98dd0ea6.java,74,74,Template,55,71,,,Password
-27495,3957dde5,GitHub,387016a6,data/387016a6/test/3957dde5.java,61,61,Template,65,86,,,Key:Password
-27497,3957dde5,GitHub,387016a6,data/387016a6/test/3957dde5.java,60,60,Template,58,70,,,Key:Password
-27498,bf398449,GitHub,387016a6,data/387016a6/test/bf398449.java,24,24,Template,55,75,,,Gitlab Feed Token:Password
+27482,0c09a021,GitHub,387016a6,data/387016a6/test/0c09a021.asciidoc,91,91,F,25,45,,TEMPLATE,Gitlab Feed Token:Password
+27483,62c9c42b,GitHub,387016a6,data/387016a6/test/62c9c42b.yml,15,15,F,27,47,,TEMPLATE,Gitlab Feed Token:Password
+27487,b8b50c40,GitHub,387016a6,data/387016a6/test/b8b50c40.java,18,18,F,48,68,,TEMPLATE,Gitlab Feed Token:Password
+27488,98dd0ea6,GitHub,387016a6,data/387016a6/test/98dd0ea6.java,74,74,F,55,71,,TEMPLATE,Password
+27495,3957dde5,GitHub,387016a6,data/387016a6/test/3957dde5.java,61,61,F,65,86,,TEMPLATE,Key:Password
+27497,3957dde5,GitHub,387016a6,data/387016a6/test/3957dde5.java,60,60,F,58,70,,TEMPLATE,Key:Password
+27498,bf398449,GitHub,387016a6,data/387016a6/test/bf398449.java,24,24,F,55,75,,TEMPLATE,Gitlab Feed Token:Password
 27504,751faaae,GitHub,387016a6,data/387016a6/test/751faaae.java,60,60,T,44,51,,,Password
-27505,d65413a8,GitHub,387016a6,data/387016a6/test/d65413a8.java,39,39,Template,44,62,,,Password
+27505,d65413a8,GitHub,387016a6,data/387016a6/test/d65413a8.java,39,39,F,44,62,,TEMPLATE,Password
 27543,2125c66c,GitHub,387016a6,data/387016a6/test/2125c66c.java,28,28,T,46,63,,,Key:Password
 27554,45680f24,GitHub,387016a6,data/387016a6/test/45680f24.java,77,77,T,56,75,,,Password
-27590,98dd0ea6,GitHub,387016a6,data/387016a6/test/98dd0ea6.java,80,80,Template,58,75,,,Password
-27592,e819bbc9,GitHub,387016a6,data/387016a6/test/e819bbc9.java,29,29,Template,43,58,,,Password
+27590,98dd0ea6,GitHub,387016a6,data/387016a6/test/98dd0ea6.java,80,80,F,58,75,,TEMPLATE,Password
+27592,e819bbc9,GitHub,387016a6,data/387016a6/test/e819bbc9.java,29,29,F,43,58,,TEMPLATE,Password
 27594,7f56107e,GitHub,387016a6,data/387016a6/test/7f56107e.java,42,42,T,43,50,,,Password
 27600,20581464,GitHub,387016a6,data/387016a6/src/20581464.java,82,82,F,59,83,,,Password
 27601,20581464,GitHub,387016a6,data/387016a6/src/20581464.java,92,92,F,63,91,,,Password
 27602,20581464,GitHub,387016a6,data/387016a6/src/20581464.java,87,87,F,59,76,,,Password
 27603,20581464,GitHub,387016a6,data/387016a6/src/20581464.java,98,98,F,63,84,,,Password
-27606,98dd0ea6,GitHub,387016a6,data/387016a6/test/98dd0ea6.java,86,86,Template,56,77,,,Password
-27608,4e97a7a5,GitHub,387016a6,data/387016a6/test/4e97a7a5.java,14,14,Template,56,77,,,Password
-27799,d3c55133,GitHub,387016a6,data/387016a6/test/d3c55133.java,43,43,Template,32,39,,,Key:Password
+27606,98dd0ea6,GitHub,387016a6,data/387016a6/test/98dd0ea6.java,86,86,F,56,77,,TEMPLATE,Password
+27608,4e97a7a5,GitHub,387016a6,data/387016a6/test/4e97a7a5.java,14,14,F,56,77,,TEMPLATE,Password
+27799,d3c55133,GitHub,387016a6,data/387016a6/test/d3c55133.java,43,43,F,32,39,,TEMPLATE,Key:Password
 27961,6013e271,GitHub,387016a6,data/387016a6/src/6013e271.asciidoc,116,116,T,24,38,,,Password
-28007,381e402d,GitHub,387016a6,data/387016a6/test/381e402d.properties,48,48,Template,23,29,,,Key:Password
-28008,381e402d,GitHub,387016a6,data/387016a6/test/381e402d.properties,47,47,Template,25,31,,,Password
+28007,381e402d,GitHub,387016a6,data/387016a6/test/381e402d.properties,48,48,F,23,29,,TEMPLATE,Key:Password
+28008,381e402d,GitHub,387016a6,data/387016a6/test/381e402d.properties,47,47,F,25,31,,TEMPLATE,Password
 28066,8a0f0701,GitHub,387016a6,data/387016a6/test/8a0f0701.java,86,86,T,45,58,,,Password
 28067,d495d126,GitHub,387016a6,data/387016a6/test/d495d126.java,30,30,T,33,40,,,Password
 28068,a873451a,GitHub,387016a6,data/387016a6/test/a873451a.java,96,96,T,33,46,,,Password
-28069,e03d5beb,GitHub,387016a6,data/387016a6/test/e03d5beb.java,1479,1479,Template,37,55,,,Password
-28222,4efc52cf,GitHub,387016a6,data/387016a6/test/4efc52cf.yml,145,145,Template,44,50,,,Key:Password
-28223,4efc52cf,GitHub,387016a6,data/387016a6/test/4efc52cf.yml,146,146,Template,48,54,,,Key:Password
-28294,aa27cc4b,GitHub,387016a6,data/387016a6/test/aa27cc4b.yml,15,15,Template,26,46,,,Gitlab Feed Token:Password
+28069,e03d5beb,GitHub,387016a6,data/387016a6/test/e03d5beb.java,1479,1479,F,37,55,,TEMPLATE,Password
+28222,4efc52cf,GitHub,387016a6,data/387016a6/test/4efc52cf.yml,145,145,F,44,50,,TEMPLATE,Key:Password
+28223,4efc52cf,GitHub,387016a6,data/387016a6/test/4efc52cf.yml,146,146,F,48,54,,TEMPLATE,Key:Password
+28294,aa27cc4b,GitHub,387016a6,data/387016a6/test/aa27cc4b.yml,15,15,F,26,46,,TEMPLATE,Gitlab Feed Token:Password
 28304,6013e271,GitHub,387016a6,data/387016a6/src/6013e271.asciidoc,134,134,T,41,57,,,Password
 28305,6013e271,GitHub,387016a6,data/387016a6/src/6013e271.asciidoc,161,161,T,41,54,,,Password
 28306,6013e271,GitHub,387016a6,data/387016a6/src/6013e271.asciidoc,188,188,T,41,58,,,Password
 28446,eedec1c5,GitHub,387016a6,data/387016a6/test/eedec1c5.java,150,150,T,33,49,,,Password
 28486,2864c178,GitHub,387016a6,data/387016a6/src/2864c178.asciidoc,86,86,T,16,22,,,Password
 28487,2864c178,GitHub,387016a6,data/387016a6/src/2864c178.asciidoc,156,156,T,14,22,,,Password
-28488,978c0e20,GitHub,387016a6,data/387016a6/src/978c0e20.asciidoc,110,110,Template,14,27,,,Password
-28491,b6a4aa2a,GitHub,387016a6,data/387016a6/test/b6a4aa2a.yml,30,30,Template,24,44,,,Gitlab Feed Token:Password
-28492,9322604b,GitHub,387016a6,data/387016a6/src/9322604b.asciidoc,402,402,Template,29,55,,,Password
-28637,b6a4aa2a,GitHub,387016a6,data/387016a6/test/b6a4aa2a.yml,381,381,Template,24,48,,,Password
-28670,7f086ade,GitHub,387016a6,data/387016a6/src/7f086ade.gradle,114,114,Template,65,83,,,Password
-28677,9322604b,GitHub,387016a6,data/387016a6/src/9322604b.asciidoc,28,28,Template,29,37,,,Password
-28727,a6d561a8,GitHub,387016a6,data/387016a6/test/a6d561a8.java,393,393,Template,24,32,,,Password
+28488,978c0e20,GitHub,387016a6,data/387016a6/src/978c0e20.asciidoc,110,110,F,14,27,,TEMPLATE,Password
+28491,b6a4aa2a,GitHub,387016a6,data/387016a6/test/b6a4aa2a.yml,30,30,F,24,44,,TEMPLATE,Gitlab Feed Token:Password
+28492,9322604b,GitHub,387016a6,data/387016a6/src/9322604b.asciidoc,402,402,F,29,55,,TEMPLATE,Password
+28637,b6a4aa2a,GitHub,387016a6,data/387016a6/test/b6a4aa2a.yml,381,381,F,24,48,,TEMPLATE,Password
+28670,7f086ade,GitHub,387016a6,data/387016a6/src/7f086ade.gradle,114,114,F,65,83,,TEMPLATE,Password
+28677,9322604b,GitHub,387016a6,data/387016a6/src/9322604b.asciidoc,28,28,F,29,37,,TEMPLATE,Password
+28727,a6d561a8,GitHub,387016a6,data/387016a6/test/a6d561a8.java,393,393,F,24,32,,TEMPLATE,Password
 29022,f078303b,GitHub,387016a6,data/387016a6/src/f078303b.asciidoc,135,135,T,16,32,,,Password
-29035,17a05aa5,GitHub,387016a6,data/387016a6/src/17a05aa5.asciidoc,58,58,Template,16,33,,,Password
-30051,ec2934b5,GitHub,387016a6,data/387016a6/test/ec2934b5.java,33,33,Template,63,71,,,Password
-30068,7a9acb92,GitHub,387016a6,data/387016a6/test/7a9acb92.java,44,44,Template,51,71,,,Gitlab Feed Token:Password
-31383,d59ac85f,GitHub,387016a6,data/387016a6/test/d59ac85f.java,58,58,Template,41,50,,,Key:Password
-31384,169b2067,GitHub,387016a6,data/387016a6/test/169b2067.java,104,104,Template,36,52,,,Password
-31535,7f086ade,GitHub,387016a6,data/387016a6/src/7f086ade.gradle,116,116,Template,42,56,,,Password
+29035,17a05aa5,GitHub,387016a6,data/387016a6/src/17a05aa5.asciidoc,58,58,F,16,33,,TEMPLATE,Password
+30051,ec2934b5,GitHub,387016a6,data/387016a6/test/ec2934b5.java,33,33,F,63,71,,TEMPLATE,Password
+30068,7a9acb92,GitHub,387016a6,data/387016a6/test/7a9acb92.java,44,44,F,51,71,,TEMPLATE,Gitlab Feed Token:Password
+31383,d59ac85f,GitHub,387016a6,data/387016a6/test/d59ac85f.java,58,58,F,41,50,,TEMPLATE,Key:Password
+31384,169b2067,GitHub,387016a6,data/387016a6/test/169b2067.java,104,104,F,36,52,,TEMPLATE,Password
+31535,7f086ade,GitHub,387016a6,data/387016a6/src/7f086ade.gradle,116,116,F,42,56,,TEMPLATE,Password
 32503,27e24e2f,GitHub,387016a6,data/387016a6/src/27e24e2f.asciidoc,91,91,T,26,46,,,Gitlab Feed Token
 33028,fe72bf0a,GitHub,387016a6,data/387016a6/test/fe72bf0a.java,485,485,T,31,51,,,API:Gitlab Feed Token:Key
 33029,fe72bf0a,GitHub,387016a6,data/387016a6/test/fe72bf0a.java,486,486,T,35,56,,,API:Key:Secret
@@ -452,14 +452,14 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 37488,b8da60f9,GitHub,387016a6,data/387016a6/test/b8da60f9.java,335,335,T,38,45,,,Password
 37489,b8da60f9,GitHub,387016a6,data/387016a6/test/b8da60f9.java,427,427,T,38,45,,,Password
 41532,27e24e2f,GitHub,387016a6,data/387016a6/src/27e24e2f.asciidoc,81,81,T,13,35,,,Key:API
-41533,55466edf,GitHub,387016a6,data/387016a6/src/55466edf.gradle,31,31,Template,42,56,,,Password
-41534,1ab23d09,GitHub,387016a6,data/387016a6/src/1ab23d09.gradle,24,24,Template,48,68,,,Gitlab Feed Token:Password
-41535,1ab23d09,GitHub,387016a6,data/387016a6/src/1ab23d09.gradle,25,25,Template,45,62,,,Password
-41536,3b1aa1b2,GitHub,387016a6,data/387016a6/src/3b1aa1b2.gradle,226,226,Template,48,68,,,Gitlab Feed Token:Password
-41537,1fd2e71d,GitHub,387016a6,data/387016a6/src/1fd2e71d.gradle,15,15,Template,48,68,,,Gitlab Feed Token:Password
-41538,f7aed313,GitHub,387016a6,data/387016a6/src/f7aed313.gradle,35,35,Template,42,62,,,Gitlab Feed Token:Password
+41533,55466edf,GitHub,387016a6,data/387016a6/src/55466edf.gradle,31,31,F,42,56,,TEMPLATE,Password
+41534,1ab23d09,GitHub,387016a6,data/387016a6/src/1ab23d09.gradle,24,24,F,48,68,,TEMPLATE,Gitlab Feed Token:Password
+41535,1ab23d09,GitHub,387016a6,data/387016a6/src/1ab23d09.gradle,25,25,F,45,62,,TEMPLATE,Password
+41536,3b1aa1b2,GitHub,387016a6,data/387016a6/src/3b1aa1b2.gradle,226,226,F,48,68,,TEMPLATE,Gitlab Feed Token:Password
+41537,1fd2e71d,GitHub,387016a6,data/387016a6/src/1fd2e71d.gradle,15,15,F,48,68,,TEMPLATE,Gitlab Feed Token:Password
+41538,f7aed313,GitHub,387016a6,data/387016a6/src/f7aed313.gradle,35,35,F,42,62,,TEMPLATE,Gitlab Feed Token:Password
 41539,185213d9,GitHub,387016a6,data/387016a6/src/185213d9.asciidoc,970,970,F,-1,-1,,,Other
-41540,978c0e20,GitHub,387016a6,data/387016a6/src/978c0e20.asciidoc,74,74,Template,14,22,,,Password
+41540,978c0e20,GitHub,387016a6,data/387016a6/src/978c0e20.asciidoc,74,74,F,14,22,,TEMPLATE,Password
 41541,a24a43f9,GitHub,387016a6,data/387016a6/src/a24a43f9.asciidoc,87,87,F,-1,-1,,,Other
 41542,020efc06,GitHub,387016a6,data/387016a6/src/020efc06.asciidoc,124,124,T,20,124,,,Token
 41779,147f3bbc,GitHub,387016a6,data/387016a6/src/147f3bbc.asciidoc,31,31,F,,,,,Token
@@ -524,14 +524,14 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 42015,0683b774,GitHub,387016a6,data/387016a6/src/0683b774.asciidoc,305,305,F,,,,,Token
 42016,0683b774,GitHub,387016a6,data/387016a6/src/0683b774.asciidoc,420,420,F,,,,,Token
 42017,0683b774,GitHub,387016a6,data/387016a6/src/0683b774.asciidoc,495,495,F,,,,,Token
-42048,c836fc91,GitHub,387016a6,data/387016a6/src/c836fc91.gradle,8,8,Template,87,107,,,Gitlab Feed Token:Password
+42048,c836fc91,GitHub,387016a6,data/387016a6/src/c836fc91.gradle,8,8,F,87,107,,TEMPLATE,Gitlab Feed Token:Password
 42116,66c4c36a,GitHub,387016a6,data/387016a6/src/66c4c36a.asciidoc,19,19,F,,,,,Token
 42119,66c4c36a,GitHub,387016a6,data/387016a6/src/66c4c36a.asciidoc,59,59,F,,,,,Token
 42120,66c4c36a,GitHub,387016a6,data/387016a6/src/66c4c36a.asciidoc,187,187,F,,,,,Token
 42121,66c4c36a,GitHub,387016a6,data/387016a6/src/66c4c36a.asciidoc,194,194,F,,,,,Token
 42122,66c4c36a,GitHub,387016a6,data/387016a6/src/66c4c36a.asciidoc,201,201,F,,,,,Token
 42123,66c4c36a,GitHub,387016a6,data/387016a6/src/66c4c36a.asciidoc,208,208,F,,,,,Token
-42209,020efc06,GitHub,387016a6,data/387016a6/src/020efc06.asciidoc,170,170,Template,16,36,,,Gitlab Feed Token:Password
+42209,020efc06,GitHub,387016a6,data/387016a6/src/020efc06.asciidoc,170,170,F,16,36,,TEMPLATE,Gitlab Feed Token:Password
 42210,020efc06,GitHub,387016a6,data/387016a6/src/020efc06.asciidoc,180,180,T,20,124,,,Token
 42211,020efc06,GitHub,387016a6,data/387016a6/src/020efc06.asciidoc,230,230,T,20,124,,,Token
 42212,020efc06,GitHub,387016a6,data/387016a6/src/020efc06.asciidoc,279,279,T,20,124,,,Token
@@ -544,7 +544,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 42414,8a94930a,GitHub,387016a6,data/387016a6/src/8a94930a.asciidoc,25,25,F,,,,,Token
 42415,8a94930a,GitHub,387016a6,data/387016a6/src/8a94930a.asciidoc,58,58,F,,,,,Token
 42416,8a94930a,GitHub,387016a6,data/387016a6/src/8a94930a.asciidoc,84,84,F,,,,,Token
-42461,1fd2e71d,GitHub,387016a6,data/387016a6/src/1fd2e71d.gradle,20,20,Template,43,63,,,Gitlab Feed Token:Password
+42461,1fd2e71d,GitHub,387016a6,data/387016a6/src/1fd2e71d.gradle,20,20,F,43,63,,TEMPLATE,Gitlab Feed Token:Password
 42477,e1bfafc6,GitHub,387016a6,data/387016a6/src/e1bfafc6.asciidoc,142,142,F,,,,,Password
 42517,db1c0971,GitHub,387016a6,data/387016a6/src/db1c0971.asciidoc,63,63,T,61,216,,JSON Web Token,JSON Web Token:Token
 42518,db1c0971,GitHub,387016a6,data/387016a6/src/db1c0971.asciidoc,51,51,T,20,40,,,Gitlab Feed Token:Token
@@ -595,12 +595,12 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 46479,b724a0bc,GitHub,387016a6,data/387016a6/test/b724a0bc.yml,50,50,F,,,,,Token
 46525,478a6429,GitHub,387016a6,data/387016a6/test/478a6429.yml,14,14,F,,,,,Token
 46762,89ce63c9,GitHub,387016a6,data/387016a6/test/89ce63c9.yml,36,36,T,27,42,,,Password
-46793,b6a4aa2a,GitHub,387016a6,data/387016a6/test/b6a4aa2a.yml,66,66,Template,24,44,,,Gitlab Feed Token:Password
-46794,b6a4aa2a,GitHub,387016a6,data/387016a6/test/b6a4aa2a.yml,197,197,Template,24,44,,,Gitlab Feed Token:Password
-46795,b6a4aa2a,GitHub,387016a6,data/387016a6/test/b6a4aa2a.yml,256,256,Template,24,44,,,Gitlab Feed Token:Password
-46796,b6a4aa2a,GitHub,387016a6,data/387016a6/test/b6a4aa2a.yml,157,157,Template,24,44,,,Gitlab Feed Token:Password
-46797,b6a4aa2a,GitHub,387016a6,data/387016a6/test/b6a4aa2a.yml,112,112,Template,24,44,,,Gitlab Feed Token:Password
-46798,b6a4aa2a,GitHub,387016a6,data/387016a6/test/b6a4aa2a.yml,314,314,Template,24,44,,,Gitlab Feed Token:Password
+46793,b6a4aa2a,GitHub,387016a6,data/387016a6/test/b6a4aa2a.yml,66,66,F,24,44,,TEMPLATE,Gitlab Feed Token:Password
+46794,b6a4aa2a,GitHub,387016a6,data/387016a6/test/b6a4aa2a.yml,197,197,F,24,44,,TEMPLATE,Gitlab Feed Token:Password
+46795,b6a4aa2a,GitHub,387016a6,data/387016a6/test/b6a4aa2a.yml,256,256,F,24,44,,TEMPLATE,Gitlab Feed Token:Password
+46796,b6a4aa2a,GitHub,387016a6,data/387016a6/test/b6a4aa2a.yml,157,157,F,24,44,,TEMPLATE,Gitlab Feed Token:Password
+46797,b6a4aa2a,GitHub,387016a6,data/387016a6/test/b6a4aa2a.yml,112,112,F,24,44,,TEMPLATE,Gitlab Feed Token:Password
+46798,b6a4aa2a,GitHub,387016a6,data/387016a6/test/b6a4aa2a.yml,314,314,F,24,44,,TEMPLATE,Gitlab Feed Token:Password
 47015,e03d5beb,GitHub,387016a6,data/387016a6/test/e03d5beb.java,1190,1190,F,,,,,Password
 47016,e03d5beb,GitHub,387016a6,data/387016a6/test/e03d5beb.java,1198,1198,F,,,,,Password
 47023,73cd6bff,GitHub,387016a6,data/387016a6/test/73cd6bff.java,289,289,T,31,48,,,Password
@@ -612,7 +612,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 47163,23db64b3,GitHub,387016a6,data/387016a6/test/23db64b3.yml,73,73,F,,,,,Token
 47164,ce086542,GitHub,387016a6,data/387016a6/test/ce086542.yml,203,203,F,,,,,Token
 47165,ce086542,GitHub,387016a6,data/387016a6/test/ce086542.yml,133,133,F,,,,,Token
-47202,aa27cc4b,GitHub,387016a6,data/387016a6/test/aa27cc4b.yml,25,25,Template,21,41,,,Gitlab Feed Token:Password
+47202,aa27cc4b,GitHub,387016a6,data/387016a6/test/aa27cc4b.yml,25,25,F,21,41,,TEMPLATE,Gitlab Feed Token:Password
 47438,73cd6bff,GitHub,387016a6,data/387016a6/test/73cd6bff.java,324,324,T,27,44,,,Password
 47439,73cd6bff,GitHub,387016a6,data/387016a6/test/73cd6bff.java,201,201,T,27,39,,,Password
 47440,eedec1c5,GitHub,387016a6,data/387016a6/test/eedec1c5.java,104,104,T,27,43,,,Password
@@ -651,16 +651,16 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 47928,ea86b6b8,GitHub,387016a6,data/387016a6/test/ea86b6b8.yml,51,51,F,,,,,Token
 47929,ea86b6b8,GitHub,387016a6,data/387016a6/test/ea86b6b8.yml,36,36,F,,,,,Token
 47931,0047d95d,GitHub,387016a6,data/387016a6/test/0047d95d.gradle,111,111,F,,,,,API
-48054,4e97a7a5,GitHub,387016a6,data/387016a6/test/4e97a7a5.java,12,12,Template,85,105,,,Gitlab Feed Token:Password
-48055,b8b50c40,GitHub,387016a6,data/387016a6/test/b8b50c40.java,17,17,Template,85,105,,,Gitlab Feed Token:Password
+48054,4e97a7a5,GitHub,387016a6,data/387016a6/test/4e97a7a5.java,12,12,F,85,105,,TEMPLATE,Gitlab Feed Token:Password
+48055,b8b50c40,GitHub,387016a6,data/387016a6/test/b8b50c40.java,17,17,F,85,105,,TEMPLATE,Gitlab Feed Token:Password
 48056,41f49d06,GitHub,387016a6,data/387016a6/test/41f49d06.java,121,121,F,,,,,Password
 48057,41f49d06,GitHub,387016a6,data/387016a6/test/41f49d06.java,120,120,F,-1,-1,,,Key
 48058,73cd6bff,GitHub,387016a6,data/387016a6/test/73cd6bff.java,55,55,F,,,,,Password
 48059,73cd6bff,GitHub,387016a6,data/387016a6/test/73cd6bff.java,57,57,F,,,,,Password
-48060,4e97a7a5,GitHub,387016a6,data/387016a6/test/4e97a7a5.java,13,13,Template,48,68,,,Gitlab Feed Token:Password
-48192,d20c3c74,GitHub,387016a6,data/387016a6/test/d20c3c74.gradle,44,44,Template,42,56,,,Password
-48193,ede5e659,GitHub,387016a6,data/387016a6/test/ede5e659.gradle,40,40,Template,42,62,,,Gitlab Feed Token:Password
-48194,758a0267,GitHub,387016a6,data/387016a6/test/758a0267.gradle,39,39,Template,42,62,,,Gitlab Feed Token:Password
+48060,4e97a7a5,GitHub,387016a6,data/387016a6/test/4e97a7a5.java,13,13,F,48,68,,TEMPLATE,Gitlab Feed Token:Password
+48192,d20c3c74,GitHub,387016a6,data/387016a6/test/d20c3c74.gradle,44,44,F,42,56,,TEMPLATE,Password
+48193,ede5e659,GitHub,387016a6,data/387016a6/test/ede5e659.gradle,40,40,F,42,62,,TEMPLATE,Gitlab Feed Token:Password
+48194,758a0267,GitHub,387016a6,data/387016a6/test/758a0267.gradle,39,39,F,42,62,,TEMPLATE,Gitlab Feed Token:Password
 48342,00da0713,GitHub,387016a6,data/387016a6/test/00da0713.yml,22,22,F,,,,,Token
 50383,00da0713,GitHub,387016a6,data/387016a6/test/00da0713.yml,1678,1678,F,,,,,Token
 50384,00da0713,GitHub,387016a6,data/387016a6/test/00da0713.yml,106,106,F,,,,,Token
@@ -990,21 +990,21 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 102604,b8da60f9,GitHub,387016a6,data/387016a6/test/b8da60f9.java,375,375,F,,,,,Password
 102605,b8da60f9,GitHub,387016a6,data/387016a6/test/b8da60f9.java,399,399,F,,,,,Password
 102606,b8da60f9,GitHub,387016a6,data/387016a6/test/b8da60f9.java,473,473,F,,,,,Password
-102607,73cd6bff,GitHub,387016a6,data/387016a6/test/73cd6bff.java,249,249,Template,59,72,,,Password
+102607,73cd6bff,GitHub,387016a6,data/387016a6/test/73cd6bff.java,249,249,F,59,72,,TEMPLATE,Password
 102609,e03d5beb,GitHub,387016a6,data/387016a6/test/e03d5beb.java,1506,1506,F,,,,,Token
 102610,2617a7bc,GitHub,387016a6,data/387016a6/test/2617a7bc.java,139,139,F,,,,,Password
 102612,d59ac85f,GitHub,387016a6,data/387016a6/test/d59ac85f.java,177,177,F,,,,,Password
 102613,d495d126,GitHub,387016a6,data/387016a6/test/d495d126.java,51,51,F,,,,,Password
 102614,d495d126,GitHub,387016a6,data/387016a6/test/d495d126.java,72,72,F,,,,,Password
 102615,ede5e659,GitHub,387016a6,data/387016a6/test/ede5e659.gradle,56,56,F,,,,,Password
-102616,45680f24,GitHub,387016a6,data/387016a6/test/45680f24.java,212,212,Template,32,38,,,Password
-102617,91d8124a,GitHub,387016a6,data/387016a6/test/91d8124a.java,96,96,Template,109,117,,,Password
-102618,91d8124a,GitHub,387016a6,data/387016a6/test/91d8124a.java,99,99,Template,124,132,,,Password
-102619,91d8124a,GitHub,387016a6,data/387016a6/test/91d8124a.java,103,103,Template,116,124,,,Password
+102616,45680f24,GitHub,387016a6,data/387016a6/test/45680f24.java,212,212,F,32,38,,TEMPLATE,Password
+102617,91d8124a,GitHub,387016a6,data/387016a6/test/91d8124a.java,96,96,F,109,117,,TEMPLATE,Password
+102618,91d8124a,GitHub,387016a6,data/387016a6/test/91d8124a.java,99,99,F,124,132,,TEMPLATE,Password
+102619,91d8124a,GitHub,387016a6,data/387016a6/test/91d8124a.java,103,103,F,116,124,,TEMPLATE,Password
 102620,efcc3a68,GitHub,387016a6,data/387016a6/test/efcc3a68.java,313,313,T,57,73,,,Password
 102621,381e402d,GitHub,387016a6,data/387016a6/test/381e402d.properties,21,21,F,,,,,Auth
-102622,eedec1c5,GitHub,387016a6,data/387016a6/test/eedec1c5.java,47,47,Template,33,49,,,Password
-102631,7e3c662c,GitHub,387016a6,data/387016a6/test/7e3c662c.java,83,83,Template,33,49,,,Password
+102622,eedec1c5,GitHub,387016a6,data/387016a6/test/eedec1c5.java,47,47,F,33,49,,TEMPLATE,Password
+102631,7e3c662c,GitHub,387016a6,data/387016a6/test/7e3c662c.java,83,83,F,33,49,,TEMPLATE,Password
 113725,f9cd61c1,GitHub,387016a6,data/387016a6/src/f9cd61c1.gradle,46,46,F,-1,-1,,,Credential
 113726,f9cd61c1,GitHub,387016a6,data/387016a6/src/f9cd61c1.gradle,94,94,F,-1,-1,,,Credential
 113727,20581464,GitHub,387016a6,data/387016a6/src/20581464.java,121,121,F,,,,,Password

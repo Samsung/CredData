@@ -36,14 +36,14 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 29045,803c3fdf,GitHub,d518da13,data/d518da13/test/803c3fdf.py,30,30,T,30,48,,,Password
 29350,d23e8f99,GitHub,d518da13,data/d518da13/src/d23e8f99.rst,56,56,F,,,,,URL Credentials:Password
 31248,21ec96a1,GitHub,d518da13,data/d518da13/other/21ec96a1,5,5,F,18,,,,Password:Key:Secret
-31494,b882a690,GitHub,d518da13,data/d518da13/src/b882a690.rst,68,68,Template,30,52,,,Key:Secret
-31497,b882a690,GitHub,d518da13,data/d518da13/src/b882a690.rst,71,71,Template,28,41,,,API:Key
+31494,b882a690,GitHub,d518da13,data/d518da13/src/b882a690.rst,68,68,F,30,52,,TEMPLATE,Key:Secret
+31497,b882a690,GitHub,d518da13,data/d518da13/src/b882a690.rst,71,71,F,28,41,,TEMPLATE,API:Key
 32372,d672e1ee,GitHub,d518da13,data/d518da13/src/d672e1ee.html,47,47,F,108,179,,,Other
 32373,d672e1ee,GitHub,d518da13,data/d518da13/src/d672e1ee.html,45,45,F,86,157,,,Other
 32375,d672e1ee,GitHub,d518da13,data/d518da13/src/d672e1ee.html,46,46,F,111,182,,,Other
 32635,b803fcb7,GitHub,d518da13,data/d518da13/src/b803fcb7.yml,77,77,T,41,49,,,URL Credentials
 32676,98f4b04d,GitHub,d518da13,data/d518da13/other/98f4b04d,16,16,F,23,-1,,,Password
-33857,e6d7a93f,GitHub,d518da13,data/d518da13/src/e6d7a93f.rst,115,115,Template,22,86,,,Bitbucket Client Secret:Password
+33857,e6d7a93f,GitHub,d518da13,data/d518da13/src/e6d7a93f.rst,115,115,F,22,86,,TEMPLATE,Bitbucket Client Secret:Password
 33858,b20d0977,GitHub,d518da13,data/d518da13/other/b20d0977,7,7,F,18,,,,Password
 33859,69010f9c,GitHub,d518da13,data/d518da13/other/69010f9c,7,7,F,18,,,,Password
 33938,b803fcb7,GitHub,d518da13,data/d518da13/src/b803fcb7.yml,72,72,T,29,37,,,Password

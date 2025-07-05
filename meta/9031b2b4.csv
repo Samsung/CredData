@@ -1,7 +1,7 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd,CryptographyKey,PredefinedPattern,Category
 51,c38ac0ea,GitHub,9031b2b4,data/9031b2b4/test/c38ac0ea.sh,28,28,F,,,,,Password
 1760,c38ac0ea,GitHub,9031b2b4,data/9031b2b4/test/c38ac0ea.sh,30,30,F,,,,,Password
-3795,4395db0a,GitHub,9031b2b4,data/9031b2b4/src/4395db0a.php,42,42,Template,111,117,,,Password
+3795,4395db0a,GitHub,9031b2b4,data/9031b2b4/src/4395db0a.php,42,42,F,111,117,,TEMPLATE,Password
 3910,952b795c,GitHub,9031b2b4,data/9031b2b4/src/952b795c.php,32,32,F,,,,,Password
 3911,45bbe2ab,GitHub,9031b2b4,data/9031b2b4/src/45bbe2ab.php,30,30,F,,,,,Password
 4274,5cd3bd49,GitHub,9031b2b4,data/9031b2b4/src/5cd3bd49.php,893,893,F,-1,-1,,,Key
@@ -36,7 +36,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 26007,9f44a55d,GitHub,9031b2b4,data/9031b2b4/test/9f44a55d.php,36,36,F,-1,-1,,,Key:Gitlab Feed Token
 26024,9f44a55d,GitHub,9031b2b4,data/9031b2b4/test/9f44a55d.php,61,61,F,-1,-1,,,Key
 27466,8b82f16a,GitHub,9031b2b4,data/9031b2b4/test/8b82f16a.php,38,38,T,21,37,,,Password
-28807,e19854ad,GitHub,9031b2b4,data/9031b2b4/test/e19854ad.dist,13,13,Template,18,39,,,Password
+28807,e19854ad,GitHub,9031b2b4,data/9031b2b4/test/e19854ad.dist,13,13,F,18,39,,TEMPLATE,Password
 32746,b803fcb7,GitHub,9031b2b4,data/9031b2b4/src/b803fcb7.yml,83,83,T,26,34,,,Password
 34164,b803fcb7,GitHub,9031b2b4,data/9031b2b4/src/b803fcb7.yml,28,28,T,40,48,,,Password
 36757,b803fcb7,GitHub,9031b2b4,data/9031b2b4/src/b803fcb7.yml,101,101,T,26,34,,,Password
@@ -54,9 +54,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 62693,d378921e,GitHub,9031b2b4,data/9031b2b4/src/d378921e.php,1188,1188,F,-1,-1,,,Key
 62694,d378921e,GitHub,9031b2b4,data/9031b2b4/src/d378921e.php,1269,1269,F,-1,-1,,,Key
 62695,bf6fa023,GitHub,9031b2b4,data/9031b2b4/src/bf6fa023.php,277,277,F,-1,-1,,,Key
-83186,e19854ad,GitHub,9031b2b4,data/9031b2b4/test/e19854ad.dist,26,26,Template,18,39,,,Password
-83187,e19854ad,GitHub,9031b2b4,data/9031b2b4/test/e19854ad.dist,39,39,Template,18,39,,,Password
-83188,13522904,GitHub,9031b2b4,data/9031b2b4/test/13522904.dist,13,13,Template,18,39,,,Password
+83186,e19854ad,GitHub,9031b2b4,data/9031b2b4/test/e19854ad.dist,26,26,F,18,39,,TEMPLATE,Password
+83187,e19854ad,GitHub,9031b2b4,data/9031b2b4/test/e19854ad.dist,39,39,F,18,39,,TEMPLATE,Password
+83188,13522904,GitHub,9031b2b4,data/9031b2b4/test/13522904.dist,13,13,F,18,39,,TEMPLATE,Password
 100347,c4a9030a,GitHub,9031b2b4,data/9031b2b4/src/c4a9030a.php,587,587,F,-1,-1,,,Other
 100348,7c571394,GitHub,9031b2b4,data/9031b2b4/src/7c571394.php,156,156,F,-1,-1,,,Key
 100349,7c571394,GitHub,9031b2b4,data/9031b2b4/src/7c571394.php,162,162,F,-1,-1,,,Key

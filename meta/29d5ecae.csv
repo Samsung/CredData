@@ -7,7 +7,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 17541,b3356305,GitHub,29d5ecae,data/29d5ecae/other/b3356305.md,125,125,F,,,,,URL Credentials
 22105,3f4764ac,GitHub,29d5ecae,data/29d5ecae/test/3f4764ac.json,43,43,T,20,40,,,Token:Gitlab Feed Token
 26379,b6063633,GitHub,29d5ecae,data/29d5ecae/test/b6063633.java,40,40,F,-1,-1,,,Key
-29822,4abf7251,GitHub,29d5ecae,data/29d5ecae/test/4abf7251.java,41,41,Template,44,60,,,Password
+29822,4abf7251,GitHub,29d5ecae,data/29d5ecae/test/4abf7251.java,41,41,F,44,60,,TEMPLATE,Password
 29959,b3356305,GitHub,29d5ecae,data/29d5ecae/other/b3356305.md,450,450,T,20,62,,,Secret:Token
 48103,7d77c22a,GitHub,29d5ecae,data/29d5ecae/test/7d77c22a.json,5,5,F,-1,-1,,,Other
 61784,b6063633,GitHub,29d5ecae,data/29d5ecae/test/b6063633.java,60,60,F,-1,-1,,,Key
@@ -17,9 +17,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 102050,b3356305,GitHub,29d5ecae,data/29d5ecae/other/b3356305.md,261,261,F,,,,,Token
 102051,b3356305,GitHub,29d5ecae,data/29d5ecae/other/b3356305.md,280,280,F,,,,,Secret
 102052,b3356305,GitHub,29d5ecae,data/29d5ecae/other/b3356305.md,311,311,F,,,,,Token
-102053,d48273aa,GitHub,29d5ecae,data/29d5ecae/src/d48273aa.yml,49,49,Template,35,71,,,Key:Secret
-102054,d48273aa,GitHub,29d5ecae,data/29d5ecae/src/d48273aa.yml,50,50,Template,39,74,,,Secret
-102055,d48273aa,GitHub,29d5ecae,data/29d5ecae/src/d48273aa.yml,51,51,Template,36,72,,,Key:Secret
+102053,d48273aa,GitHub,29d5ecae,data/29d5ecae/src/d48273aa.yml,49,49,F,35,71,,TEMPLATE,Key:Secret
+102054,d48273aa,GitHub,29d5ecae,data/29d5ecae/src/d48273aa.yml,50,50,F,39,74,,TEMPLATE,Secret
+102055,d48273aa,GitHub,29d5ecae,data/29d5ecae/src/d48273aa.yml,51,51,F,36,72,,TEMPLATE,Key:Secret
 102056,d48273aa,GitHub,29d5ecae,data/29d5ecae/src/d48273aa.yml,11,11,T,16,24,,,Password
 102057,d48273aa,GitHub,29d5ecae,data/29d5ecae/src/d48273aa.yml,33,33,T,16,24,,,Password
 102058,d48273aa,GitHub,29d5ecae,data/29d5ecae/src/d48273aa.yml,71,71,T,18,26,,,Password

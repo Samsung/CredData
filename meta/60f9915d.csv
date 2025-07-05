@@ -26,7 +26,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 8957,c668edfa,GitHub,60f9915d,data/60f9915d/test/c668edfa.go,85,85,F,,,,,Key
 8958,c668edfa,GitHub,60f9915d,data/60f9915d/test/c668edfa.go,69,69,F,,,,,Key
 8959,c668edfa,GitHub,60f9915d,data/60f9915d/test/c668edfa.go,50,50,F,,,,,Key
-10983,af349d95,GitHub,60f9915d,data/60f9915d/test/af349d95.go,104,104,Template,147,153,,,Password
+10983,af349d95,GitHub,60f9915d,data/60f9915d/test/af349d95.go,104,104,F,147,153,,TEMPLATE,Password
 13788,b1ef8d48,GitHub,60f9915d,data/60f9915d/src/b1ef8d48.go,589,589,F,,,,,Password
 13823,b1ef8d48,GitHub,60f9915d,data/60f9915d/src/b1ef8d48.go,615,615,F,,,,,Password
 19949,492ba9f5,GitHub,60f9915d,data/60f9915d/test/492ba9f5.go,2543,2543,F,-1,-1,,,Key
@@ -46,15 +46,15 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 20746,492ba9f5,GitHub,60f9915d,data/60f9915d/test/492ba9f5.go,2128,2128,F,-1,-1,,,Key
 22296,7c6837d6,GitHub,60f9915d,data/60f9915d/src/7c6837d6.go,172,172,F,,,,,Password
 23342,107f8dd9,GitHub,60f9915d,data/60f9915d/src/107f8dd9.go,23,23,F,-1,-1,,,Credential
-28937,91a50733,GitHub,60f9915d,data/60f9915d/test/91a50733.go,53,53,Template,20,26,,,Key:Secret
-29011,a414e92e,GitHub,60f9915d,data/60f9915d/test/a414e92e.go,62,62,Template,15,21,,,Password
-29100,35a99f76,GitHub,60f9915d,data/60f9915d/test/35a99f76.go,69,69,Template,20,26,,,Password
-29703,373f5578,GitHub,60f9915d,data/60f9915d/test/373f5578.go,65,65,Template,22,25,,,URL Credentials
-29705,373f5578,GitHub,60f9915d,data/60f9915d/test/373f5578.go,10,10,Template,22,25,,,URL Credentials
+28937,91a50733,GitHub,60f9915d,data/60f9915d/test/91a50733.go,53,53,F,20,26,,TEMPLATE,Key:Secret
+29011,a414e92e,GitHub,60f9915d,data/60f9915d/test/a414e92e.go,62,62,F,15,21,,TEMPLATE,Password
+29100,35a99f76,GitHub,60f9915d,data/60f9915d/test/35a99f76.go,69,69,F,20,26,,TEMPLATE,Password
+29703,373f5578,GitHub,60f9915d,data/60f9915d/test/373f5578.go,65,65,F,22,25,,TEMPLATE,URL Credentials
+29705,373f5578,GitHub,60f9915d,data/60f9915d/test/373f5578.go,10,10,F,22,25,,TEMPLATE,URL Credentials
 30332,4d62b5c5,GitHub,60f9915d,data/60f9915d/test/4d62b5c5.go,26,26,T,33,39,,,URL Credentials
 30648,4dc56e64,GitHub,60f9915d,data/60f9915d/test/4dc56e64.go,161,161,T,47,54,,,URL Credentials
 31069,4d62b5c5,GitHub,60f9915d,data/60f9915d/test/4d62b5c5.go,27,27,T,33,39,,,URL Credentials
-31493,35a99f76,GitHub,60f9915d,data/60f9915d/test/35a99f76.go,61,61,Template,33,39,,,Password
+31493,35a99f76,GitHub,60f9915d,data/60f9915d/test/35a99f76.go,61,61,F,33,39,,TEMPLATE,Password
 32155,40ca1749,GitHub,60f9915d,data/60f9915d/test/40ca1749.go,12,12,T,58,65,,,URL Credentials
 32156,19ed8fbf,GitHub,60f9915d,data/60f9915d/test/19ed8fbf.go,120,120,T,53,60,,,URL Credentials
 32157,d743dfa3,GitHub,60f9915d,data/60f9915d/test/d743dfa3.go,13,13,T,53,60,,,URL Credentials
@@ -63,7 +63,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 32162,4dc56e64,GitHub,60f9915d,data/60f9915d/test/4dc56e64.go,206,206,T,49,56,,,URL Credentials
 32163,4dc56e64,GitHub,60f9915d,data/60f9915d/test/4dc56e64.go,219,219,F,,,,,URL Credentials:Password
 35875,e45e45ba,GitHub,60f9915d,data/60f9915d/src/e45e45ba.yml,48,48,T,25,32,,,Password
-46090,35a99f76,GitHub,60f9915d,data/60f9915d/test/35a99f76.go,79,79,Template,18,24,,,Password
+46090,35a99f76,GitHub,60f9915d,data/60f9915d/test/35a99f76.go,79,79,F,18,24,,TEMPLATE,Password
 52007,3d9a9f38,GitHub,60f9915d,data/60f9915d/test/3d9a9f38.go,639,639,T,53,60,,,URL Credentials
 52008,3d9a9f38,GitHub,60f9915d,data/60f9915d/test/3d9a9f38.go,736,736,T,53,60,,,URL Credentials
 52009,7e47b56e,GitHub,60f9915d,data/60f9915d/test/7e47b56e.go,15,15,T,77,84,,,URL Credentials
@@ -84,7 +84,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 62969,eca23a79,GitHub,60f9915d,data/60f9915d/src/eca23a79.go,104,104,F,-1,-1,,,Key
 82149,4b667fea,GitHub,60f9915d,data/60f9915d/src/4b667fea.go,1176,1176,F,22,41,,,Password
 82150,4b667fea,GitHub,60f9915d,data/60f9915d/src/4b667fea.go,1316,1316,F,22,41,,,Password
-82151,4dc56e64,GitHub,60f9915d,data/60f9915d/test/4dc56e64.go,186,186,Template,40,46,,,Password
+82151,4dc56e64,GitHub,60f9915d,data/60f9915d/test/4dc56e64.go,186,186,F,40,46,,TEMPLATE,Password
 82152,373f5578,GitHub,60f9915d,data/60f9915d/test/373f5578.go,51,51,F,,,,,URL Credentials:Password
 100788,9870bda5,GitHub,60f9915d,data/60f9915d/src/9870bda5.sum,174,174,F,-1,-1,,,Other
 100789,9870bda5,GitHub,60f9915d,data/60f9915d/src/9870bda5.sum,175,175,F,-1,-1,,,Other

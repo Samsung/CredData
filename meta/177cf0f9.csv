@@ -1,9 +1,9 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd,CryptographyKey,PredefinedPattern,Category
 2708,690e077f,GitHub,177cf0f9,data/177cf0f9/test/690e077f.go,71,71,F,,,,,Password
-6324,58875981,GitHub,177cf0f9,data/177cf0f9/test/58875981.go,339,339,Template,145,158,,,Password
+6324,58875981,GitHub,177cf0f9,data/177cf0f9/test/58875981.go,339,339,F,145,158,,TEMPLATE,Password
 6350,30b19e27,GitHub,177cf0f9,data/177cf0f9/src/30b19e27.go,28,28,F,,,,,Password
 7877,4aa0bf06,GitHub,177cf0f9,data/177cf0f9/src/4aa0bf06.go,11,11,F,,,,,Token
-10209,36d7df6f,GitHub,177cf0f9,data/177cf0f9/test/36d7df6f.go,64,64,Template,37,46,,,Password
+10209,36d7df6f,GitHub,177cf0f9,data/177cf0f9/test/36d7df6f.go,64,64,F,37,46,,TEMPLATE,Password
 12252,e3ff1a34,GitHub,177cf0f9,data/177cf0f9/src/e3ff1a34.go,320,320,F,-1,-1,,,Key
 12822,35b5dafa,GitHub,177cf0f9,data/177cf0f9/test/35b5dafa.go,35,35,F,-1,-1,,,Key
 12823,35b5dafa,GitHub,177cf0f9,data/177cf0f9/test/35b5dafa.go,27,27,F,-1,-1,,,Key
@@ -35,20 +35,20 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 26985,0e6d299c,GitHub,177cf0f9,data/177cf0f9/src/0e6d299c.go,76,76,F,,,,,Password
 26988,0e6d299c,GitHub,177cf0f9,data/177cf0f9/src/0e6d299c.go,59,59,F,,,,,Password
 27160,9e1dbe40,GitHub,177cf0f9,data/177cf0f9/src/9e1dbe40.go,24,24,F,,,,,Password
-27335,58875981,GitHub,177cf0f9,data/177cf0f9/test/58875981.go,86,86,Template,21,34,,,Password
-29106,203b38e4,GitHub,177cf0f9,data/177cf0f9/test/203b38e4.go,17,17,Template,15,19,,,Password
-29107,2e23cf31,GitHub,177cf0f9,data/177cf0f9/test/2e23cf31.go,145,145,Template,16,29,,,Password
-29154,36d7df6f,GitHub,177cf0f9,data/177cf0f9/test/36d7df6f.go,83,83,Template,20,29,,,Password
+27335,58875981,GitHub,177cf0f9,data/177cf0f9/test/58875981.go,86,86,F,21,34,,TEMPLATE,Password
+29106,203b38e4,GitHub,177cf0f9,data/177cf0f9/test/203b38e4.go,17,17,F,15,19,,TEMPLATE,Password
+29107,2e23cf31,GitHub,177cf0f9,data/177cf0f9/test/2e23cf31.go,145,145,F,16,29,,TEMPLATE,Password
+29154,36d7df6f,GitHub,177cf0f9,data/177cf0f9/test/36d7df6f.go,83,83,F,20,29,,TEMPLATE,Password
 33708,2e23cf31,GitHub,177cf0f9,data/177cf0f9/test/2e23cf31.go,69,69,T,19,31,,,Password
 33709,2e23cf31,GitHub,177cf0f9,data/177cf0f9/test/2e23cf31.go,30,30,T,17,37,,,Gitlab Feed Token:Password
-33710,2e23cf31,GitHub,177cf0f9,data/177cf0f9/test/2e23cf31.go,85,85,Template,19,27,,,Password
+33710,2e23cf31,GitHub,177cf0f9,data/177cf0f9/test/2e23cf31.go,85,85,F,19,27,,TEMPLATE,Password
 33722,c2e971e4,GitHub,177cf0f9,data/177cf0f9/test/c2e971e4.go,29,29,T,19,32,,,Password
-33726,09dadfab,GitHub,177cf0f9,data/177cf0f9/test/09dadfab.go,24,24,Template,14,22,,,Password
+33726,09dadfab,GitHub,177cf0f9,data/177cf0f9/test/09dadfab.go,24,24,F,14,22,,TEMPLATE,Password
 35038,cb994933,GitHub,177cf0f9,data/177cf0f9/test/cb994933.go,23,23,T,16,48,,,Secret
 35069,c2e971e4,GitHub,177cf0f9,data/177cf0f9/test/c2e971e4.go,22,22,T,17,30,,,Password
-37016,2e23cf31,GitHub,177cf0f9,data/177cf0f9/test/2e23cf31.go,101,101,Template,19,27,,,Password
-37017,09dadfab,GitHub,177cf0f9,data/177cf0f9/test/09dadfab.go,56,56,Template,14,22,,,Password
-46001,58875981,GitHub,177cf0f9,data/177cf0f9/test/58875981.go,167,167,Template,21,34,,,Password
+37016,2e23cf31,GitHub,177cf0f9,data/177cf0f9/test/2e23cf31.go,101,101,F,19,27,,TEMPLATE,Password
+37017,09dadfab,GitHub,177cf0f9,data/177cf0f9/test/09dadfab.go,56,56,F,14,22,,TEMPLATE,Password
+46001,58875981,GitHub,177cf0f9,data/177cf0f9/test/58875981.go,167,167,F,21,34,,TEMPLATE,Password
 61549,6062c177,GitHub,177cf0f9,data/177cf0f9/test/6062c177.go,194,194,F,-1,-1,,,Key
 61553,c9373636,GitHub,177cf0f9,data/177cf0f9/test/c9373636.go,301,301,F,-1,-1,,,Key
 64496,e3ff1a34,GitHub,177cf0f9,data/177cf0f9/src/e3ff1a34.go,328,328,F,-1,-1,,,Key
@@ -58,7 +58,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 107980,3a6ffefc,GitHub,177cf0f9,data/177cf0f9/src/3a6ffefc.go,34,34,F,-1,-1,,,Other
 107981,25921fa4,GitHub,177cf0f9,data/177cf0f9/src/25921fa4.go,86,86,F,,,,,Password
 107982,0b917872,GitHub,177cf0f9,data/177cf0f9/src/0b917872.go,139,139,F,,,,,Gitlab Feed Token
-107983,36d7df6f,GitHub,177cf0f9,data/177cf0f9/test/36d7df6f.go,25,25,Template,15,26,,,Password
+107983,36d7df6f,GitHub,177cf0f9,data/177cf0f9/test/36d7df6f.go,25,25,F,15,26,,TEMPLATE,Password
 114306,3295df72,GitHub,177cf0f9,data/177cf0f9/src/3295df72.sum,216,216,F,,,,,Auth
 114307,3295df72,GitHub,177cf0f9,data/177cf0f9/src/3295df72.sum,217,217,F,,,,,Auth
 114308,3295df72,GitHub,177cf0f9,data/177cf0f9/src/3295df72.sum,218,218,F,,,,,Auth

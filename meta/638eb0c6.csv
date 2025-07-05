@@ -12,7 +12,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 7673,0eb767ca,GitHub,638eb0c6,data/638eb0c6/src/0eb767ca.ts,328,328,F,,,,,Secret
 7884,30d68336,GitHub,638eb0c6,data/638eb0c6/src/30d68336.ts,469,469,F,,,,,Token
 10820,d30cf858,GitHub,638eb0c6,data/638eb0c6/src/d30cf858.ts,46,46,F,-1,-1,,,Key
-10920,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,94,94,Template,67,73,,,Secret
+10920,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,94,94,F,67,73,,TEMPLATE,Secret
 13291,91e8fa03,GitHub,638eb0c6,data/638eb0c6/src/91e8fa03.ts,21,21,F,-1,-1,,,Key
 13848,51e4f558,GitHub,638eb0c6,data/638eb0c6/src/51e4f558.lock,7379,7379,F,-1,-1,,,Other
 14085,30d68336,GitHub,638eb0c6,data/638eb0c6/src/30d68336.ts,571,571,F,,,,,Password
@@ -38,18 +38,18 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 22698,30d68336,GitHub,638eb0c6,data/638eb0c6/src/30d68336.ts,110,110,F,,,,EXAMPLE,URL Credentials:Password
 24486,4af37325,GitHub,638eb0c6,data/638eb0c6/test/4af37325.md,29,29,F,,,,,URL Credentials
 26047,b3356305,GitHub,638eb0c6,data/638eb0c6/other/b3356305.md,1,1,F,-1,-1,,,Other
-30735,a3b98aa9,GitHub,638eb0c6,data/638eb0c6/test/a3b98aa9.js,618,618,Template,25,31,,,Secret
-30851,df79c119,GitHub,638eb0c6,data/638eb0c6/test/df79c119.js,5,5,Template,16,27,,,Password
-30853,f4b1be94,GitHub,638eb0c6,data/638eb0c6/test/f4b1be94.js,28,28,Template,20,26,,,Secret
+30735,a3b98aa9,GitHub,638eb0c6,data/638eb0c6/test/a3b98aa9.js,618,618,F,25,31,,TEMPLATE,Secret
+30851,df79c119,GitHub,638eb0c6,data/638eb0c6/test/df79c119.js,5,5,F,16,27,,TEMPLATE,Password
+30853,f4b1be94,GitHub,638eb0c6,data/638eb0c6/test/f4b1be94.js,28,28,F,20,26,,TEMPLATE,Secret
 31037,a8678ed0,GitHub,638eb0c6,data/638eb0c6/test/a8678ed0.sql,26,26,T,116,124,,,Password
-31504,931e2c76,GitHub,638eb0c6,data/638eb0c6/test/931e2c76.ts,37,37,Template,43,63,,,Secret
+31504,931e2c76,GitHub,638eb0c6,data/638eb0c6/test/931e2c76.ts,37,37,F,43,63,,TEMPLATE,Secret
 32350,8e4a7d73,GitHub,638eb0c6,data/638eb0c6/other/8e4a7d73,3,3,T,55,63,,,Password
 32364,b3356305,GitHub,638eb0c6,data/638eb0c6/other/b3356305.md,116,116,F,91,108,,,URL Credentials
-32411,df79c119,GitHub,638eb0c6,data/638eb0c6/test/df79c119.js,3,3,Template,37,49,,,URL Credentials
+32411,df79c119,GitHub,638eb0c6,data/638eb0c6/test/df79c119.js,3,3,F,37,49,,TEMPLATE,URL Credentials
 33005,b803fcb7,GitHub,638eb0c6,data/638eb0c6/src/b803fcb7.yml,36,36,T,45,53,,,URL Credentials
 33961,b803fcb7,GitHub,638eb0c6,data/638eb0c6/src/b803fcb7.yml,61,61,T,29,37,,,Password
 34161,04b06f40,GitHub,638eb0c6,data/638eb0c6/other/04b06f40.md,59,59,T,36,44,,,URL Credentials
-34632,30d68336,GitHub,638eb0c6,data/638eb0c6/src/30d68336.ts,390,390,Template,46,50,,,URL Credentials
+34632,30d68336,GitHub,638eb0c6,data/638eb0c6/src/30d68336.ts,390,390,F,46,50,,TEMPLATE,URL Credentials
 35322,07044481,GitHub,638eb0c6,data/638eb0c6/test/07044481.pem,1,27,T,,,Private,,PEM Private Key
 35672,8e4a7d73,GitHub,638eb0c6,data/638eb0c6/other/8e4a7d73,2,2,T,52,60,,,URL Credentials
 36187,a8678ed0,GitHub,638eb0c6,data/638eb0c6/test/a8678ed0.sql,24,24,T,106,117,,,Password
@@ -67,42 +67,42 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 50332,04b06f40,GitHub,638eb0c6,data/638eb0c6/other/04b06f40.md,65,65,T,25,33,,,URL Credentials
 74842,2ee8da4e,GitHub,638eb0c6,data/638eb0c6/src/2ee8da4e.ts,398,398,F,-1,-1,,,Key
 76811,d30cf858,GitHub,638eb0c6,data/638eb0c6/src/d30cf858.ts,81,81,F,-1,-1,,,Key
-82298,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,112,112,Template,20,26,,,Secret
-82299,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,133,133,Template,20,26,,,Secret
-82300,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,154,154,Template,20,26,,,Secret
-82301,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,174,174,Template,18,24,,,Secret
-82302,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,225,225,Template,18,24,,,Secret
-82303,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,260,260,Template,18,24,,,Secret
-82304,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,288,288,Template,18,24,,,Secret
-82305,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,324,324,Template,18,24,,,Secret
-82306,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,378,378,Template,20,26,,,Secret
-82307,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,404,404,Template,20,26,,,Secret
-82308,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,425,425,Template,18,24,,,Secret
-82309,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,451,451,Template,18,24,,,Secret
-82310,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,493,493,Template,18,24,,,Secret
-82311,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,536,536,Template,18,24,,,Secret
-82312,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,584,584,Template,18,24,,,Secret
-82313,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,628,628,Template,18,24,,,Secret
-82314,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,685,685,Template,18,24,,,Secret
-82315,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,732,732,Template,22,28,,,Secret
-82316,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,751,751,Template,22,28,,,Secret
-82317,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,772,772,Template,20,26,,,Secret
-82318,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,797,797,Template,20,26,,,Secret
-82319,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,822,822,Template,20,26,,,Secret
-82320,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,847,847,Template,20,26,,,Secret
-82321,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,874,874,Template,22,28,,,Secret
-82322,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,892,892,Template,22,28,,,Secret
-82323,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,910,910,Template,22,28,,,Secret
-82324,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,928,928,Template,22,28,,,Secret
-82325,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,946,946,Template,22,28,,,Secret
-82326,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,1012,1012,Template,20,26,,,Secret
+82298,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,112,112,F,20,26,,TEMPLATE,Secret
+82299,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,133,133,F,20,26,,TEMPLATE,Secret
+82300,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,154,154,F,20,26,,TEMPLATE,Secret
+82301,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,174,174,F,18,24,,TEMPLATE,Secret
+82302,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,225,225,F,18,24,,TEMPLATE,Secret
+82303,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,260,260,F,18,24,,TEMPLATE,Secret
+82304,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,288,288,F,18,24,,TEMPLATE,Secret
+82305,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,324,324,F,18,24,,TEMPLATE,Secret
+82306,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,378,378,F,20,26,,TEMPLATE,Secret
+82307,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,404,404,F,20,26,,TEMPLATE,Secret
+82308,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,425,425,F,18,24,,TEMPLATE,Secret
+82309,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,451,451,F,18,24,,TEMPLATE,Secret
+82310,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,493,493,F,18,24,,TEMPLATE,Secret
+82311,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,536,536,F,18,24,,TEMPLATE,Secret
+82312,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,584,584,F,18,24,,TEMPLATE,Secret
+82313,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,628,628,F,18,24,,TEMPLATE,Secret
+82314,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,685,685,F,18,24,,TEMPLATE,Secret
+82315,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,732,732,F,22,28,,TEMPLATE,Secret
+82316,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,751,751,F,22,28,,TEMPLATE,Secret
+82317,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,772,772,F,20,26,,TEMPLATE,Secret
+82318,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,797,797,F,20,26,,TEMPLATE,Secret
+82319,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,822,822,F,20,26,,TEMPLATE,Secret
+82320,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,847,847,F,20,26,,TEMPLATE,Secret
+82321,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,874,874,F,22,28,,TEMPLATE,Secret
+82322,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,892,892,F,22,28,,TEMPLATE,Secret
+82323,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,910,910,F,22,28,,TEMPLATE,Secret
+82324,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,928,928,F,22,28,,TEMPLATE,Secret
+82325,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,946,946,F,22,28,,TEMPLATE,Secret
+82326,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,1012,1012,F,20,26,,TEMPLATE,Secret
 82327,4b9a6d8b,GitHub,638eb0c6,data/638eb0c6/test/4b9a6d8b.snap,229,229,F,22,62,,,Other
 82328,4b9a6d8b,GitHub,638eb0c6,data/638eb0c6/test/4b9a6d8b.snap,232,232,F,24,64,,,Other
 82329,4b9a6d8b,GitHub,638eb0c6,data/638eb0c6/test/4b9a6d8b.snap,446,446,F,22,94,,,Other
 82330,4b9a6d8b,GitHub,638eb0c6,data/638eb0c6/test/4b9a6d8b.snap,449,449,F,24,96,,,Other
 82331,c2e4c1dd,GitHub,638eb0c6,data/638eb0c6/test/c2e4c1dd.snap,145,145,F,19,55,,,Other
 82332,c2e4c1dd,GitHub,638eb0c6,data/638eb0c6/test/c2e4c1dd.snap,313,313,F,19,55,,,Other
-82333,a3b98aa9,GitHub,638eb0c6,data/638eb0c6/test/a3b98aa9.js,646,646,Template,25,31,,,Secret
+82333,a3b98aa9,GitHub,638eb0c6,data/638eb0c6/test/a3b98aa9.js,646,646,F,25,31,,TEMPLATE,Secret
 100330,0eb767ca,GitHub,638eb0c6,data/638eb0c6/src/0eb767ca.ts,324,324,F,-1,-1,,,Other
 100331,d4451bab,GitHub,638eb0c6,data/638eb0c6/test/d4451bab.md,572,572,F,-1,-1,,,Other
 100332,1bf6f0c4,GitHub,638eb0c6,data/638eb0c6/test/1bf6f0c4.js,1001,1001,F,,,,,Secret
@@ -136,4 +136,4 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 1481029,51e4f558,GitHub,638eb0c6,data/638eb0c6/src/51e4f558.lock,7174,7174,F,26,44,,,Bitbucket Client ID
 1494325,960e4682,GitHub,638eb0c6,data/638eb0c6/test/960e4682.graphql,7,7,T,50,82,,,Key
 1494326,960e4682,GitHub,638eb0c6,data/638eb0c6/test/960e4682.graphql,8,8,T,49,81,,,Key
-1500588,d4451bab,GitHub,638eb0c6,data/638eb0c6/test/d4451bab.md,519,519,Template,55,58,,,SQL Password
+1500588,d4451bab,GitHub,638eb0c6,data/638eb0c6/test/d4451bab.md,519,519,F,55,58,,TEMPLATE,SQL Password
