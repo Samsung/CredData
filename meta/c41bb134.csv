@@ -25,8 +25,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 25077,e99d6a11,GitHub,c41bb134,data/c41bb134/src/e99d6a11.nix,30,30,F,,,,,Token
 27088,978243c8,GitHub,c41bb134,data/c41bb134/test/978243c8.yaml,83,83,F,,,,,Secret
 30884,30516eac,GitHub,c41bb134,data/c41bb134/test/30516eac.hs,348,348,T,30,37,,,Password
-30886,21b750a7,GitHub,c41bb134,data/c41bb134/test/21b750a7.hs,72,72,Template,38,42,,,Password
-31136,21b750a7,GitHub,c41bb134,data/c41bb134/test/21b750a7.hs,139,139,Template,67,79,,,Secret
+30886,21b750a7,GitHub,c41bb134,data/c41bb134/test/21b750a7.hs,72,72,X,38,42,,,Password
+31136,21b750a7,GitHub,c41bb134,data/c41bb134/test/21b750a7.hs,139,139,X,67,79,,,Secret
 31160,68cbce99,GitHub,c41bb134,data/c41bb134/test/68cbce99.hs,147,147,F,15,-1,,,Secret
 31161,68cbce99,GitHub,c41bb134,data/c41bb134/test/68cbce99.hs,155,155,F,15,-1,,,Secret
 31533,bb7e3057,GitHub,c41bb134,data/c41bb134/src/bb7e3057.hs,200,200,F,23,57,,,Secret
@@ -45,11 +45,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 33752,b032808b,GitHub,c41bb134,data/c41bb134/test/b032808b.hs,455,455,T,30,37,,,Secret
 33794,476936d5,GitHub,c41bb134,data/c41bb134/test/476936d5.py,29,29,T,10,42,,,Secret
 33976,ad0de80c,GitHub,c41bb134,data/c41bb134/test/ad0de80c.yaml,19,19,T,18,50,,,Secret
-34003,978243c8,GitHub,c41bb134,data/c41bb134/test/978243c8.yaml,84,84,Template,25,36,,,Secret
+34003,978243c8,GitHub,c41bb134,data/c41bb134/test/978243c8.yaml,84,84,X,25,36,,,Secret
 34261,2b83012b,GitHub,c41bb134,data/c41bb134/src/2b83012b.nix,17,17,F,26,78,,,Other
 34768,8a84ef5d,GitHub,c41bb134,data/c41bb134/src/8a84ef5d.nix,16,16,F,18,70,,,Other
 35224,96677aa3,GitHub,c41bb134,data/c41bb134/src/96677aa3.json,16,16,F,,,,,Password:URL Credentials
-35776,bb7e3057,GitHub,c41bb134,data/c41bb134/src/bb7e3057.hs,135,135,Template,33,37,,,Password:URL Credentials
+35776,bb7e3057,GitHub,c41bb134,data/c41bb134/src/bb7e3057.hs,135,135,X,33,37,,,Password:URL Credentials
 35808,37c1ec24,GitHub,c41bb134,data/c41bb134/test/37c1ec24.sh,14,14,T,25,57,,,Secret
 36263,573f06b5,GitHub,c41bb134,data/c41bb134/test/573f06b5.config,3,3,T,14,46,,,Secret
 36290,09a0e86d,GitHub,c41bb134,data/c41bb134/src/09a0e86d.patch,25,25,F,15,67,,,Other

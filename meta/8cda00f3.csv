@@ -140,7 +140,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 12247,2576d424,GitHub,8cda00f3,data/8cda00f3/src/2576d424.go,304,304,F,-1,-1,,,Key
 12248,2576d424,GitHub,8cda00f3,data/8cda00f3/src/2576d424.go,306,306,F,-1,-1,,,Key
 12251,0465af60,GitHub,8cda00f3,data/8cda00f3/src/0465af60.go,109,109,F,-1,-1,,,Key
-12278,a929b366,GitHub,8cda00f3,data/8cda00f3/test/a929b366.go,16,16,Template,30,80,,,Key
+12278,a929b366,GitHub,8cda00f3,data/8cda00f3/test/a929b366.go,16,16,X,30,80,,,Key
 12287,4d1ba02e,GitHub,8cda00f3,data/8cda00f3/src/4d1ba02e.js,249,249,F,-1,-1,,,Key
 12288,4d1ba02e,GitHub,8cda00f3,data/8cda00f3/src/4d1ba02e.js,251,251,F,-1,-1,,,Key
 12359,a8b98ffb,GitHub,8cda00f3,data/8cda00f3/src/a8b98ffb.go,221,221,F,-1,-1,,,Key
@@ -205,7 +205,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 17369,387aa4d0,GitHub,8cda00f3,data/8cda00f3/src/387aa4d0.c,151688,151688,F,-1,-1,,,Key
 17632,3586e439,GitHub,8cda00f3,data/8cda00f3/src/3586e439.ini,161,161,F,,,,,Auth
 17746,9b59053d,GitHub,8cda00f3,data/8cda00f3/src/9b59053d.go,32,32,F,,,,,Token
-17747,9b59053d,GitHub,8cda00f3,data/8cda00f3/src/9b59053d.go,29,29,Template,19,81,,,Secret
+17747,9b59053d,GitHub,8cda00f3,data/8cda00f3/src/9b59053d.go,29,29,X,19,81,,,Secret
 17748,9b59053d,GitHub,8cda00f3,data/8cda00f3/src/9b59053d.go,25,25,F,-1,-1,,,Key
 17762,0e4830ca,GitHub,8cda00f3,data/8cda00f3/src/0e4830ca.js,1245,1245,F,,,,,Password
 17764,4c3fd076,GitHub,8cda00f3,data/8cda00f3/src/4c3fd076.go,102,102,F,-1,-1,,,Key
@@ -290,68 +290,68 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 27188,1cb14005,GitHub,8cda00f3,data/8cda00f3/other/1cb14005.md,46,46,T,64,152,,JSON Web Token,Key:Grafana Provisioned API Key
 27220,f41b6cf3,GitHub,8cda00f3,data/8cda00f3/test/f41b6cf3.go,150,150,F,28,35,,,Key
 27253,543847ae,GitHub,8cda00f3,data/8cda00f3/test/543847ae.go,79,79,F,42,75,,,Slack Token
-27254,ad5c0931,GitHub,8cda00f3,data/8cda00f3/test/ad5c0931.go,42,42,Template,70,79,,,Password
+27254,ad5c0931,GitHub,8cda00f3,data/8cda00f3/test/ad5c0931.go,42,42,X,70,79,,,Password
 27351,543847ae,GitHub,8cda00f3,data/8cda00f3/test/543847ae.go,60,60,T,20,53,,,Slack Token:Token
-27401,040bcd48,GitHub,8cda00f3,data/8cda00f3/other/040bcd48.md,97,97,Template,39,54,,,Password
+27401,040bcd48,GitHub,8cda00f3,data/8cda00f3/other/040bcd48.md,97,97,X,39,54,,,Password
 27405,51e4f558,GitHub,8cda00f3,data/8cda00f3/src/51e4f558.lock,4861,4861,F,18,125,,,Other
 27429,24e05f8d,GitHub,8cda00f3,data/8cda00f3/test/24e05f8d.go,434,434,T,14,90,,JSON Web Token,API:Key:Grafana Provisioned API Key
-27432,eaf18c55,GitHub,8cda00f3,data/8cda00f3/other/eaf18c55.md,276,276,Template,18,30,,,Password
-27433,1da35876,GitHub,8cda00f3,data/8cda00f3/other/1da35876.md,47,47,Template,18,25,,,Password
-27434,1da35876,GitHub,8cda00f3,data/8cda00f3/other/1da35876.md,46,46,Template,18,23,,,Password
-27435,eaf18c55,GitHub,8cda00f3,data/8cda00f3/other/eaf18c55.md,275,275,Template,18,30,,,Password
-27455,4a104eb3,GitHub,8cda00f3,data/8cda00f3/other/4a104eb3.md,94,94,Template,16,28,,,Password
+27432,eaf18c55,GitHub,8cda00f3,data/8cda00f3/other/eaf18c55.md,276,276,X,18,30,,,Password
+27433,1da35876,GitHub,8cda00f3,data/8cda00f3/other/1da35876.md,47,47,X,18,25,,,Password
+27434,1da35876,GitHub,8cda00f3,data/8cda00f3/other/1da35876.md,46,46,X,18,23,,,Password
+27435,eaf18c55,GitHub,8cda00f3,data/8cda00f3/other/eaf18c55.md,275,275,X,18,30,,,Password
+27455,4a104eb3,GitHub,8cda00f3,data/8cda00f3/other/4a104eb3.md,94,94,X,16,28,,,Password
 27458,5e6dbad9,GitHub,8cda00f3,data/8cda00f3/other/5e6dbad9.md,230,230,T,23,32,,,Auth:Password
-27462,4a104eb3,GitHub,8cda00f3,data/8cda00f3/other/4a104eb3.md,132,132,Template,18,30,,,Password
+27462,4a104eb3,GitHub,8cda00f3,data/8cda00f3/other/4a104eb3.md,132,132,X,18,30,,,Password
 27544,57a69756,GitHub,8cda00f3,data/8cda00f3/src/57a69756.conf,294,294,F,23,-1,,,Key
-27577,de0660f7,GitHub,8cda00f3,data/8cda00f3/src/de0660f7.go,76,76,Template,29,40,,,Password
+27577,de0660f7,GitHub,8cda00f3,data/8cda00f3/src/de0660f7.go,76,76,X,29,40,,,Password
 27595,d465aa46,GitHub,8cda00f3,data/8cda00f3/test/d465aa46.go,84,84,F,17,43,,,Key
-27627,6e890684,GitHub,8cda00f3,data/8cda00f3/test/6e890684.yaml,17,17,Template,24,43,,,Password
-27733,b3ca6fc0,GitHub,8cda00f3,data/8cda00f3/src/b3ca6fc0.go,207,207,Template,16,29,,,Secret
-27745,f927c47d,GitHub,8cda00f3,data/8cda00f3/test/f927c47d.yaml,14,14,Template,23,42,,,Password
+27627,6e890684,GitHub,8cda00f3,data/8cda00f3/test/6e890684.yaml,17,17,X,24,43,,,Password
+27733,b3ca6fc0,GitHub,8cda00f3,data/8cda00f3/src/b3ca6fc0.go,207,207,X,16,29,,,Secret
+27745,f927c47d,GitHub,8cda00f3,data/8cda00f3/test/f927c47d.yaml,14,14,X,23,42,,,Password
 27753,2a58b3e7,GitHub,8cda00f3,data/8cda00f3/src/2a58b3e7.ts,317,317,F,30,35,,,Key
 27774,218dc847,GitHub,8cda00f3,data/8cda00f3/other/218dc847.md,119,119,T,23,103,,JSON Web Token,Grafana Provisioned API Key:Key
-27801,b3ca6fc0,GitHub,8cda00f3,data/8cda00f3/src/b3ca6fc0.go,138,138,Template,25,31,,,Key:Secret
-27824,ad5c0931,GitHub,8cda00f3,data/8cda00f3/test/ad5c0931.go,55,55,Template,46,52,,,URL Credentials
-27962,ee758638,GitHub,8cda00f3,data/8cda00f3/src/ee758638.go,20,20,Template,21,31,,,Token
+27801,b3ca6fc0,GitHub,8cda00f3,data/8cda00f3/src/b3ca6fc0.go,138,138,X,25,31,,,Key:Secret
+27824,ad5c0931,GitHub,8cda00f3,data/8cda00f3/test/ad5c0931.go,55,55,X,46,52,,,URL Credentials
+27962,ee758638,GitHub,8cda00f3,data/8cda00f3/src/ee758638.go,20,20,X,21,31,,,Token
 27989,03f18519,GitHub,8cda00f3,data/8cda00f3/src/03f18519.go,109,109,T,44,51,,,Password
-27990,4f662164,GitHub,8cda00f3,data/8cda00f3/src/4f662164.go,21,21,Template,169,178,,,Token
-28079,9b59053d,GitHub,8cda00f3,data/8cda00f3/src/9b59053d.go,28,28,Template,26,32,,,Key:Secret
+27990,4f662164,GitHub,8cda00f3,data/8cda00f3/src/4f662164.go,21,21,X,169,178,,,Token
+28079,9b59053d,GitHub,8cda00f3,data/8cda00f3/src/9b59053d.go,28,28,X,26,32,,,Key:Secret
 28107,d22c35d6,GitHub,8cda00f3,data/8cda00f3/other/d22c35d6.md,64,64,T,42,64,,,Key:Secret
 28108,94fb53ec,GitHub,8cda00f3,data/8cda00f3/other/94fb53ec.md,63,63,T,36,48,,,Auth:Secret
 28125,079a56a8,GitHub,8cda00f3,data/8cda00f3/test/079a56a8.go,216,242,T,,,Private,,PEM Private Key
-28142,15b2f952,GitHub,8cda00f3,data/8cda00f3/src/15b2f952.tsx,14,14,Template,56,62,,,Password
+28142,15b2f952,GitHub,8cda00f3,data/8cda00f3/src/15b2f952.tsx,14,14,X,56,62,,,Password
 28143,15b2f952,GitHub,8cda00f3,data/8cda00f3/src/15b2f952.tsx,19,19,T,56,65,,,Password
-28333,4a104eb3,GitHub,8cda00f3,data/8cda00f3/other/4a104eb3.md,126,126,Template,22,34,,,Password
+28333,4a104eb3,GitHub,8cda00f3,data/8cda00f3/other/4a104eb3.md,126,126,X,22,34,,,Password
 28336,a7d7ee3e,GitHub,8cda00f3,data/8cda00f3/src/a7d7ee3e.ts,19,19,T,15,19,,,Password
-28397,e4e58ee0,GitHub,8cda00f3,data/8cda00f3/src/e4e58ee0.go,53,53,Template,14,19,,,Password
+28397,e4e58ee0,GitHub,8cda00f3,data/8cda00f3/src/e4e58ee0.go,53,53,X,14,19,,,Password
 28818,2d3a5a5a,GitHub,8cda00f3,data/8cda00f3/test/2d3a5a5a.go,30,30,T,12,30,,,Token
-29174,875d0561,GitHub,8cda00f3,data/8cda00f3/test/875d0561.yaml,6,6,Template,25,36,,,Password
-29177,78a8a197,GitHub,8cda00f3,data/8cda00f3/src/78a8a197.yml,44,44,Template,29,40,,,Password
+29174,875d0561,GitHub,8cda00f3,data/8cda00f3/test/875d0561.yaml,6,6,X,25,36,,,Password
+29177,78a8a197,GitHub,8cda00f3,data/8cda00f3/src/78a8a197.yml,44,44,X,29,40,,,Password
 29279,63c26c9a,GitHub,8cda00f3,data/8cda00f3/src/63c26c9a.py,40,40,T,22,41,,,Password
 29753,393c3f70,GitHub,8cda00f3,data/8cda00f3/src/393c3f70.go,10,10,T,89,100,,,Password
 30775,59a4899a,GitHub,8cda00f3,data/8cda00f3/other/59a4899a.md,51,51,T,16,28,,,Secret
-30895,040bcd48,GitHub,8cda00f3,data/8cda00f3/other/040bcd48.md,33,33,Template,33,39,,,Password
+30895,040bcd48,GitHub,8cda00f3,data/8cda00f3/other/040bcd48.md,33,33,X,33,39,,,Password
 31496,d22c35d6,GitHub,8cda00f3,data/8cda00f3/other/d22c35d6.md,61,61,T,29,51,,,API:Key
-31756,0e2a72e1,GitHub,8cda00f3,data/8cda00f3/other/0e2a72e1,6,6,Template,25,33,,,Password
+31756,0e2a72e1,GitHub,8cda00f3,data/8cda00f3/other/0e2a72e1,6,6,X,25,33,,,Password
 32267,70159169,GitHub,8cda00f3,data/8cda00f3/other/70159169.md,47,47,T,17,24,,,Password
 32403,218dc847,GitHub,8cda00f3,data/8cda00f3/other/218dc847.md,51,51,T,21,,,JSON Web Token,URL Credentials:API:Key
 32486,4f7c27e2,GitHub,8cda00f3,data/8cda00f3/src/4f7c27e2.sh,8,8,T,15,22,,,Password
-32488,3f8a56cf,GitHub,8cda00f3,data/8cda00f3/src/3f8a56cf.ini,170,170,Template,17,22,,,Password
+32488,3f8a56cf,GitHub,8cda00f3,data/8cda00f3/src/3f8a56cf.ini,170,170,X,17,22,,,Password
 32688,e71ac2c5,GitHub,8cda00f3,data/8cda00f3/other/e71ac2c5.md,90,90,T,24,45,,,Key:Secret
 33811,b48df57e,GitHub,8cda00f3,data/8cda00f3/src/b48df57e.yaml,4,4,T,22,29,,,Password
-33903,78a8a197,GitHub,8cda00f3,data/8cda00f3/src/78a8a197.yml,23,23,Template,31,39,,,Password
+33903,78a8a197,GitHub,8cda00f3,data/8cda00f3/src/78a8a197.yml,23,23,X,31,39,,,Password
 34051,67d402d5,GitHub,8cda00f3,data/8cda00f3/src/67d402d5.conf,52,52,T,18,23,,,Password
-34340,fd22ae53,GitHub,8cda00f3,data/8cda00f3/test/fd22ae53.ts,17,17,Template,15,20,,,Password
+34340,fd22ae53,GitHub,8cda00f3,data/8cda00f3/test/fd22ae53.ts,17,17,X,15,20,,,Password
 34392,98877bab,GitHub,8cda00f3,data/8cda00f3/test/98877bab.go,32,32,T,18,48,,,API:Token
 34625,841217fc,GitHub,8cda00f3,data/8cda00f3/other/841217fc.md,213,213,T,14,21,,,Password
 34626,cbba0351,GitHub,8cda00f3,data/8cda00f3/src/cbba0351.yaml,22,22,T,14,21,,,Password
 35057,5e6dbad9,GitHub,8cda00f3,data/8cda00f3/other/5e6dbad9.md,192,192,T,18,54,,,Key:Secret
-35076,1c2c1395,GitHub,8cda00f3,data/8cda00f3/src/1c2c1395.json,15,15,Template,19,70,,,Password
+35076,1c2c1395,GitHub,8cda00f3,data/8cda00f3/src/1c2c1395.json,15,15,X,19,70,,,Password
 35128,3f8a56cf,GitHub,8cda00f3,data/8cda00f3/src/3f8a56cf.ini,173,173,T,13,33,,,Gitlab Feed Token:Key:Secret
 35177,cb460194,GitHub,8cda00f3,data/8cda00f3/src/cb460194.ldif,4,4,T,14,21,,,Password
 35750,3586e439,GitHub,8cda00f3,data/8cda00f3/src/3586e439.ini,157,157,T,14,34,,,Gitlab Feed Token:Key:Secret
-35751,3586e439,GitHub,8cda00f3,data/8cda00f3/src/3586e439.ini,154,154,Template,18,23,,,Password
-35930,b96e218b,GitHub,8cda00f3,data/8cda00f3/src/b96e218b.ts,68,68,Template,36,41,,,Password
+35751,3586e439,GitHub,8cda00f3,data/8cda00f3/src/3586e439.ini,154,154,X,18,23,,,Password
+35930,b96e218b,GitHub,8cda00f3,data/8cda00f3/src/b96e218b.ts,68,68,X,36,41,,,Password
 36449,4a104eb3,GitHub,8cda00f3,data/8cda00f3/other/4a104eb3.md,227,227,T,14,26,,,Password
 36666,70159169,GitHub,8cda00f3,data/8cda00f3/other/70159169.md,97,97,T,17,24,,,Password
 37369,cb460194,GitHub,8cda00f3,data/8cda00f3/src/cb460194.ldif,14,14,T,14,21,,,Password
@@ -369,8 +369,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 40682,2beb3f4f,GitHub,8cda00f3,data/8cda00f3/src/2beb3f4f.go,159,159,F,,,,,Secret
 40683,2beb3f4f,GitHub,8cda00f3,data/8cda00f3/src/2beb3f4f.go,169,169,F,,,,,Secret
 40684,3f8a56cf,GitHub,8cda00f3,data/8cda00f3/src/3f8a56cf.ini,115,115,F,,,,,Password
-40685,3f8a56cf,GitHub,8cda00f3,data/8cda00f3/src/3f8a56cf.ini,262,262,Template,16,27,,,Secret
-40686,3f8a56cf,GitHub,8cda00f3,data/8cda00f3/src/3f8a56cf.ini,275,275,Template,16,34,,,Secret
+40685,3f8a56cf,GitHub,8cda00f3,data/8cda00f3/src/3f8a56cf.ini,262,262,X,16,27,,,Secret
+40686,3f8a56cf,GitHub,8cda00f3,data/8cda00f3/src/3f8a56cf.ini,275,275,X,16,34,,,Secret
 40688,387aa4d0,GitHub,8cda00f3,data/8cda00f3/src/387aa4d0.c,139251,139251,F,-1,-1,,,Other
 40690,9bb0271e,GitHub,8cda00f3,data/8cda00f3/src/9bb0271e.go,70,70,F,,,,,Password
 40691,b6ab5a17,GitHub,8cda00f3,data/8cda00f3/src/b6ab5a17.ts,11,11,T,15,19,,,Password
@@ -384,25 +384,25 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 40699,6d22a411,GitHub,8cda00f3,data/8cda00f3/src/6d22a411.go,79,79,F,,,,,Password
 40704,1f344736,GitHub,8cda00f3,data/8cda00f3/src/1f344736.go,69,69,F,,,,,Secret
 40705,ffd247a3,GitHub,8cda00f3,data/8cda00f3/src/ffd247a3.go,17254,17254,F,,,,,Password
-40706,3586e439,GitHub,8cda00f3,data/8cda00f3/src/3586e439.ini,81,81,Template,24,30,,,URL Credentials
+40706,3586e439,GitHub,8cda00f3,data/8cda00f3/src/3586e439.ini,81,81,X,24,30,,,URL Credentials
 40707,3586e439,GitHub,8cda00f3,data/8cda00f3/src/3586e439.ini,112,112,F,,,,,Password
-40708,3586e439,GitHub,8cda00f3,data/8cda00f3/src/3586e439.ini,242,242,Template,17,28,,,Secret
-40709,3586e439,GitHub,8cda00f3,data/8cda00f3/src/3586e439.ini,255,255,Template,17,35,,,Secret
+40708,3586e439,GitHub,8cda00f3,data/8cda00f3/src/3586e439.ini,242,242,X,17,28,,,Secret
+40709,3586e439,GitHub,8cda00f3,data/8cda00f3/src/3586e439.ini,255,255,X,17,35,,,Secret
 40710,df343c91,GitHub,8cda00f3,data/8cda00f3/src/df343c91.go,1900,1900,F,,,,,Secret
-40711,de5329a4,GitHub,8cda00f3,data/8cda00f3/src/de5329a4.go,80,80,Template,15,23,,,Password
+40711,de5329a4,GitHub,8cda00f3,data/8cda00f3/src/de5329a4.go,80,80,X,15,23,,,Password
 40712,80efdb62,GitHub,8cda00f3,data/8cda00f3/src/80efdb62.go,662,662,F,,,,,Secret
-40713,619e6100,GitHub,8cda00f3,data/8cda00f3/src/619e6100.go,88,88,Template,26,34,,,Password
-40714,619e6100,GitHub,8cda00f3,data/8cda00f3/src/619e6100.go,92,92,Template,26,45,,,Password
+40713,619e6100,GitHub,8cda00f3,data/8cda00f3/src/619e6100.go,88,88,X,26,34,,,Password
+40714,619e6100,GitHub,8cda00f3,data/8cda00f3/src/619e6100.go,92,92,X,26,45,,,Password
 40715,e41364c6,GitHub,8cda00f3,data/8cda00f3/src/e41364c6.go,81,81,F,,,,,Password
 40716,e41364c6,GitHub,8cda00f3,data/8cda00f3/src/e41364c6.go,82,82,F,,,,,Password
 40717,e41364c6,GitHub,8cda00f3,data/8cda00f3/src/e41364c6.go,84,84,F,,,,,Password
 40718,e41364c6,GitHub,8cda00f3,data/8cda00f3/src/e41364c6.go,85,85,F,,,,,Password
 40719,e41364c6,GitHub,8cda00f3,data/8cda00f3/src/e41364c6.go,86,86,F,,,,,Password
-40720,b0e56910,GitHub,8cda00f3,data/8cda00f3/src/b0e56910.py,13,13,Template,15,29,,,Key:Secret
-40721,48e67305,GitHub,8cda00f3,data/8cda00f3/src/48e67305.yaml,5,5,Template,25,33,,,Password
+40720,b0e56910,GitHub,8cda00f3,data/8cda00f3/src/b0e56910.py,13,13,X,15,29,,,Key:Secret
+40721,48e67305,GitHub,8cda00f3,data/8cda00f3/src/48e67305.yaml,5,5,X,25,33,,,Password
 40722,ee758638,GitHub,8cda00f3,data/8cda00f3/src/ee758638.go,128,128,F,,,,,Secret
 40723,a7d7ee3e,GitHub,8cda00f3,data/8cda00f3/src/a7d7ee3e.ts,624,624,T,15,19,,,Password
-40724,cbba0351,GitHub,8cda00f3,data/8cda00f3/src/cbba0351.yaml,49,49,Template,14,22,,,Password
+40724,cbba0351,GitHub,8cda00f3,data/8cda00f3/src/cbba0351.yaml,49,49,X,14,22,,,Password
 40725,cbba0351,GitHub,8cda00f3,data/8cda00f3/src/cbba0351.yaml,56,56,T,15,24,,,Password
 42215,6edfffd3,GitHub,8cda00f3,data/8cda00f3/src/6edfffd3.js,44,44,F,,,,,Token
 42216,6edfffd3,GitHub,8cda00f3,data/8cda00f3/src/6edfffd3.js,51,51,F,,,,,Token
@@ -428,30 +428,30 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 46018,24e05f8d,GitHub,8cda00f3,data/8cda00f3/test/24e05f8d.go,68,68,F,,,,,Password
 46037,079a56a8,GitHub,8cda00f3,data/8cda00f3/test/079a56a8.go,104,104,F,-1,-1,,,Key
 46138,ad5c0931,GitHub,8cda00f3,data/8cda00f3/test/ad5c0931.go,46,46,T,56,62,,,URL Credentials
-46152,24e05f8d,GitHub,8cda00f3,data/8cda00f3/test/24e05f8d.go,51,51,Template,16,32,,,API:Key
-46153,c831f07a,GitHub,8cda00f3,data/8cda00f3/test/c831f07a.go,55,55,Template,24,32,,,Key:Secret
-46197,079a56a8,GitHub,8cda00f3,data/8cda00f3/test/079a56a8.go,45,45,Template,23,31,,,Key:Secret
-46317,24e05f8d,GitHub,8cda00f3,data/8cda00f3/test/24e05f8d.go,439,439,Template,14,26,,,API:Key
+46152,24e05f8d,GitHub,8cda00f3,data/8cda00f3/test/24e05f8d.go,51,51,X,16,32,,,API:Key
+46153,c831f07a,GitHub,8cda00f3,data/8cda00f3/test/c831f07a.go,55,55,X,24,32,,,Key:Secret
+46197,079a56a8,GitHub,8cda00f3,data/8cda00f3/test/079a56a8.go,45,45,X,23,31,,,Key:Secret
+46317,24e05f8d,GitHub,8cda00f3,data/8cda00f3/test/24e05f8d.go,439,439,X,14,26,,,API:Key
 47726,ff6d88ed,GitHub,8cda00f3,data/8cda00f3/test/ff6d88ed.yaml,6,6,T,25,34,,,Password
 47778,07026345,GitHub,8cda00f3,data/8cda00f3/other/07026345.md,285,285,T,17,26,,,Password
 47840,2215cf5f,GitHub,8cda00f3,data/8cda00f3/test/2215cf5f.yaml,22,22,T,21,61,,,Key
 47841,f927c47d,GitHub,8cda00f3,data/8cda00f3/test/f927c47d.yaml,24,24,T,21,61,,,Key
-47939,0e2a72e1,GitHub,8cda00f3,data/8cda00f3/other/0e2a72e1,8,8,Template,20,28,,,Password
-47962,2215cf5f,GitHub,8cda00f3,data/8cda00f3/test/2215cf5f.yaml,12,12,Template,25,44,,,Password
-47986,1cb14005,GitHub,8cda00f3,data/8cda00f3/other/1cb14005.md,33,33,Template,113,118,,,URL Credentials
-47987,1cb14005,GitHub,8cda00f3,data/8cda00f3/other/1cb14005.md,43,43,Template,110,115,,,URL Credentials
-47988,1cb14005,GitHub,8cda00f3,data/8cda00f3/other/1cb14005.md,26,26,Template,89,94,,,URL Credentials
-47989,1cb14005,GitHub,8cda00f3,data/8cda00f3/other/1cb14005.md,38,38,Template,30,35,,,URL Credentials
-48030,fd22ae53,GitHub,8cda00f3,data/8cda00f3/test/fd22ae53.ts,26,26,Template,15,23,,,Password
-48037,f927c47d,GitHub,8cda00f3,data/8cda00f3/test/f927c47d.yaml,9,9,Template,14,22,,,Password
-48041,2215cf5f,GitHub,8cda00f3,data/8cda00f3/test/2215cf5f.yaml,7,7,Template,14,22,,,Password
-48182,87f21611,GitHub,8cda00f3,data/8cda00f3/test/87f21611.ts,7,7,Template,13,21,,,Password
+47939,0e2a72e1,GitHub,8cda00f3,data/8cda00f3/other/0e2a72e1,8,8,X,20,28,,,Password
+47962,2215cf5f,GitHub,8cda00f3,data/8cda00f3/test/2215cf5f.yaml,12,12,X,25,44,,,Password
+47986,1cb14005,GitHub,8cda00f3,data/8cda00f3/other/1cb14005.md,33,33,X,113,118,,,URL Credentials
+47987,1cb14005,GitHub,8cda00f3,data/8cda00f3/other/1cb14005.md,43,43,X,110,115,,,URL Credentials
+47988,1cb14005,GitHub,8cda00f3,data/8cda00f3/other/1cb14005.md,26,26,X,89,94,,,URL Credentials
+47989,1cb14005,GitHub,8cda00f3,data/8cda00f3/other/1cb14005.md,38,38,X,30,35,,,URL Credentials
+48030,fd22ae53,GitHub,8cda00f3,data/8cda00f3/test/fd22ae53.ts,26,26,X,15,23,,,Password
+48037,f927c47d,GitHub,8cda00f3,data/8cda00f3/test/f927c47d.yaml,9,9,X,14,22,,,Password
+48041,2215cf5f,GitHub,8cda00f3,data/8cda00f3/test/2215cf5f.yaml,7,7,X,14,22,,,Password
+48182,87f21611,GitHub,8cda00f3,data/8cda00f3/test/87f21611.ts,7,7,X,13,21,,,Password
 48270,6e890684,GitHub,8cda00f3,data/8cda00f3/test/6e890684.yaml,26,26,T,22,62,,,Key
-48271,6e890684,GitHub,8cda00f3,data/8cda00f3/test/6e890684.yaml,12,12,Template,15,23,,,Password
-48339,06572a96,GitHub,8cda00f3,data/8cda00f3/other/06572a96.md,1789,1789,Template,54,62,,,URL Credentials
-49189,218dc847,GitHub,8cda00f3,data/8cda00f3/other/218dc847.md,25,25,Template,19,24,,,URL Credentials
-50380,b535b1c7,GitHub,8cda00f3,data/8cda00f3/other/b535b1c7.md,301,301,Template,43,48,,,URL Credentials
-50381,b535b1c7,GitHub,8cda00f3,data/8cda00f3/other/b535b1c7.md,381,381,Template,43,48,,,URL Credentials
+48271,6e890684,GitHub,8cda00f3,data/8cda00f3/test/6e890684.yaml,12,12,X,15,23,,,Password
+48339,06572a96,GitHub,8cda00f3,data/8cda00f3/other/06572a96.md,1789,1789,X,54,62,,,URL Credentials
+49189,218dc847,GitHub,8cda00f3,data/8cda00f3/other/218dc847.md,25,25,X,19,24,,,URL Credentials
+50380,b535b1c7,GitHub,8cda00f3,data/8cda00f3/other/b535b1c7.md,301,301,X,43,48,,,URL Credentials
+50381,b535b1c7,GitHub,8cda00f3,data/8cda00f3/other/b535b1c7.md,381,381,X,43,48,,,URL Credentials
 52938,f41b6cf3,GitHub,8cda00f3,data/8cda00f3/test/f41b6cf3.go,447,447,F,,,,,Key
 52939,f41b6cf3,GitHub,8cda00f3,data/8cda00f3/test/f41b6cf3.go,577,577,F,,,,,Key
 52940,f41b6cf3,GitHub,8cda00f3,data/8cda00f3/test/f41b6cf3.go,454,454,F,,,,,Key
@@ -638,42 +638,42 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 77118,387aa4d0,GitHub,8cda00f3,data/8cda00f3/src/387aa4d0.c,99729,99729,F,,,,,Token
 78186,e8e52d91,GitHub,8cda00f3,data/8cda00f3/src/e8e52d91.html,108,108,F,-1,-1,,,Other
 78187,e8e52d91,GitHub,8cda00f3,data/8cda00f3/src/e8e52d91.html,124,124,F,-1,-1,,,Other
-82164,3586e439,GitHub,8cda00f3,data/8cda00f3/src/3586e439.ini,268,268,Template,17,28,,,Secret
-82165,3586e439,GitHub,8cda00f3,data/8cda00f3/src/3586e439.ini,281,281,Template,17,28,,,Secret
+82164,3586e439,GitHub,8cda00f3,data/8cda00f3/src/3586e439.ini,268,268,X,17,28,,,Secret
+82165,3586e439,GitHub,8cda00f3,data/8cda00f3/src/3586e439.ini,281,281,X,17,28,,,Secret
 82166,cbba0351,GitHub,8cda00f3,data/8cda00f3/src/cbba0351.yaml,63,63,F,4,12,,,Password
-82167,3f8a56cf,GitHub,8cda00f3,data/8cda00f3/src/3f8a56cf.ini,289,289,Template,16,27,,,Secret
-82168,3f8a56cf,GitHub,8cda00f3,data/8cda00f3/src/3f8a56cf.ini,297,297,Template,16,27,,,Secret
-82169,3f8a56cf,GitHub,8cda00f3,data/8cda00f3/src/3f8a56cf.ini,307,307,Template,16,27,,,Secret
+82167,3f8a56cf,GitHub,8cda00f3,data/8cda00f3/src/3f8a56cf.ini,289,289,X,16,27,,,Secret
+82168,3f8a56cf,GitHub,8cda00f3,data/8cda00f3/src/3f8a56cf.ini,297,297,X,16,27,,,Secret
+82169,3f8a56cf,GitHub,8cda00f3,data/8cda00f3/src/3f8a56cf.ini,307,307,X,16,27,,,Secret
 82170,0a7921b3,GitHub,8cda00f3,data/8cda00f3/test/0a7921b3.go,152,152,F,16,19,,,Password
 82171,7b896da1,GitHub,8cda00f3,data/8cda00f3/test/7b896da1.go,108,108,F,17,20,,,Password
-82172,ff6d88ed,GitHub,8cda00f3,data/8cda00f3/test/ff6d88ed.yaml,10,10,Template,22,31,,,Password
-82173,079a56a8,GitHub,8cda00f3,data/8cda00f3/test/079a56a8.go,87,87,Template,23,31,,,Key:Secret
-82174,079a56a8,GitHub,8cda00f3,data/8cda00f3/test/079a56a8.go,121,121,Template,23,31,,,Key:Secret
-82175,87f21611,GitHub,8cda00f3,data/8cda00f3/test/87f21611.ts,14,14,Template,13,21,,,Password
-82176,87f21611,GitHub,8cda00f3,data/8cda00f3/test/87f21611.ts,21,21,Template,13,21,,,Password
-82177,c831f07a,GitHub,8cda00f3,data/8cda00f3/test/c831f07a.go,140,140,Template,24,32,,,Key:Secret
-82178,c831f07a,GitHub,8cda00f3,data/8cda00f3/test/c831f07a.go,240,240,Template,15,23,,,Password
-107312,94fb53ec,GitHub,8cda00f3,data/8cda00f3/other/94fb53ec.md,364,364,Template,16,45,,,Secret
-107313,94fb53ec,GitHub,8cda00f3,data/8cda00f3/other/94fb53ec.md,393,393,Template,16,45,,,Secret
-107314,94fb53ec,GitHub,8cda00f3,data/8cda00f3/other/94fb53ec.md,413,413,Template,16,45,,,Secret
-107315,94fb53ec,GitHub,8cda00f3,data/8cda00f3/other/94fb53ec.md,481,481,Template,16,38,,,Secret
+82172,ff6d88ed,GitHub,8cda00f3,data/8cda00f3/test/ff6d88ed.yaml,10,10,X,22,31,,,Password
+82173,079a56a8,GitHub,8cda00f3,data/8cda00f3/test/079a56a8.go,87,87,X,23,31,,,Key:Secret
+82174,079a56a8,GitHub,8cda00f3,data/8cda00f3/test/079a56a8.go,121,121,X,23,31,,,Key:Secret
+82175,87f21611,GitHub,8cda00f3,data/8cda00f3/test/87f21611.ts,14,14,X,13,21,,,Password
+82176,87f21611,GitHub,8cda00f3,data/8cda00f3/test/87f21611.ts,21,21,X,13,21,,,Password
+82177,c831f07a,GitHub,8cda00f3,data/8cda00f3/test/c831f07a.go,140,140,X,24,32,,,Key:Secret
+82178,c831f07a,GitHub,8cda00f3,data/8cda00f3/test/c831f07a.go,240,240,X,15,23,,,Password
+107312,94fb53ec,GitHub,8cda00f3,data/8cda00f3/other/94fb53ec.md,364,364,X,16,45,,,Secret
+107313,94fb53ec,GitHub,8cda00f3,data/8cda00f3/other/94fb53ec.md,393,393,X,16,45,,,Secret
+107314,94fb53ec,GitHub,8cda00f3,data/8cda00f3/other/94fb53ec.md,413,413,X,16,45,,,Secret
+107315,94fb53ec,GitHub,8cda00f3,data/8cda00f3/other/94fb53ec.md,481,481,X,16,38,,,Secret
 107316,040bcd48,GitHub,8cda00f3,data/8cda00f3/other/040bcd48.md,138,138,F,-1,-1,,,Other
 107317,59a4899a,GitHub,8cda00f3,data/8cda00f3/other/59a4899a.md,173,173,F,,,,,Password
 107318,df343c91,GitHub,8cda00f3,data/8cda00f3/src/df343c91.go,149,149,F,,,,,Secret
 107319,43921aee,GitHub,8cda00f3,data/8cda00f3/src/43921aee.go,153,153,F,-1,-1,,,Other
-107320,a929b366,GitHub,8cda00f3,data/8cda00f3/test/a929b366.go,13,13,Template,31,37,,,Key
+107320,a929b366,GitHub,8cda00f3,data/8cda00f3/test/a929b366.go,13,13,X,31,37,,,Key
 107321,06572a96,GitHub,8cda00f3,data/8cda00f3/other/06572a96.md,1233,1233,F,-1,-1,,,Other
 107322,06572a96,GitHub,8cda00f3,data/8cda00f3/other/06572a96.md,1239,1239,F,-1,-1,,,Other
 107323,06572a96,GitHub,8cda00f3,data/8cda00f3/other/06572a96.md,1260,1260,F,,,,,Auth
 107324,06572a96,GitHub,8cda00f3,data/8cda00f3/other/06572a96.md,1261,1261,F,,,,,Auth
 107325,06572a96,GitHub,8cda00f3,data/8cda00f3/other/06572a96.md,1298,1298,F,,,,,Auth
 107326,06572a96,GitHub,8cda00f3,data/8cda00f3/other/06572a96.md,1359,1359,F,-1,-1,,,Other
-107332,94fb53ec,GitHub,8cda00f3,data/8cda00f3/other/94fb53ec.md,453,453,Template,16,29,,,Secret
-107333,94fb53ec,GitHub,8cda00f3,data/8cda00f3/other/94fb53ec.md,691,691,Template,63,71,,,Password
-107334,78a8a197,GitHub,8cda00f3,data/8cda00f3/src/78a8a197.yml,26,26,Template,26,34,,,Password
-107335,3f8a56cf,GitHub,8cda00f3,data/8cda00f3/src/3f8a56cf.ini,117,117,Template,16,24,,,Password
-107336,3586e439,GitHub,8cda00f3,data/8cda00f3/src/3586e439.ini,111,111,Template,59,67,,,Password
-107337,393c3f70,GitHub,8cda00f3,data/8cda00f3/src/393c3f70.go,11,11,Template,130,139,,,Password
+107332,94fb53ec,GitHub,8cda00f3,data/8cda00f3/other/94fb53ec.md,453,453,X,16,29,,,Secret
+107333,94fb53ec,GitHub,8cda00f3,data/8cda00f3/other/94fb53ec.md,691,691,X,63,71,,,Password
+107334,78a8a197,GitHub,8cda00f3,data/8cda00f3/src/78a8a197.yml,26,26,X,26,34,,,Password
+107335,3f8a56cf,GitHub,8cda00f3,data/8cda00f3/src/3f8a56cf.ini,117,117,X,16,24,,,Password
+107336,3586e439,GitHub,8cda00f3,data/8cda00f3/src/3586e439.ini,111,111,X,59,67,,,Password
+107337,393c3f70,GitHub,8cda00f3,data/8cda00f3/src/393c3f70.go,11,11,X,130,139,,,Password
 107338,b96e218b,GitHub,8cda00f3,data/8cda00f3/src/b96e218b.ts,56,56,F,,,,,Password
 107339,b96e218b,GitHub,8cda00f3,data/8cda00f3/src/b96e218b.ts,59,59,F,,,,,Password
 107340,80efdb62,GitHub,8cda00f3,data/8cda00f3/src/80efdb62.go,79,79,F,,,,,Auth
@@ -709,8 +709,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 107371,387aa4d0,GitHub,8cda00f3,data/8cda00f3/src/387aa4d0.c,164809,164809,F,-1,-1,,,Other
 107372,387aa4d0,GitHub,8cda00f3,data/8cda00f3/src/387aa4d0.c,177612,177612,F,,,,,Password
 107373,387aa4d0,GitHub,8cda00f3,data/8cda00f3/src/387aa4d0.c,186865,186865,F,-1,-1,,,Other
-107374,63c26c9a,GitHub,8cda00f3,data/8cda00f3/src/63c26c9a.py,33,33,Template,19,44,,,Password
-107377,b0e56910,GitHub,8cda00f3,data/8cda00f3/src/b0e56910.py,108,108,Template,19,44,,,Password
+107374,63c26c9a,GitHub,8cda00f3,data/8cda00f3/src/63c26c9a.py,33,33,X,19,44,,,Password
+107377,b0e56910,GitHub,8cda00f3,data/8cda00f3/src/b0e56910.py,108,108,X,19,44,,,Password
 107378,24e05f8d,GitHub,8cda00f3,data/8cda00f3/test/24e05f8d.go,95,95,F,,,,,Bitbucket Client ID:Bitbucket Client Secret:Key
 107379,24e05f8d,GitHub,8cda00f3,data/8cda00f3/test/24e05f8d.go,132,132,F,,,,,Bitbucket Client ID:Bitbucket Client Secret:Key
 107380,ea34b7c2,GitHub,8cda00f3,data/8cda00f3/test/ea34b7c2.go,90,90,F,-1,-1,,,Key
@@ -773,7 +773,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 131112,c73e2d11,GitHub,8cda00f3,data/8cda00f3/other/c73e2d11.md,242,242,F,,,,,Password
 131113,387aa4d0,GitHub,8cda00f3,data/8cda00f3/src/387aa4d0.c,139451,139451,F,,,,,Password
 131114,387aa4d0,GitHub,8cda00f3,data/8cda00f3/src/387aa4d0.c,139408,139408,F,,,,,Password
-131115,3569d385,GitHub,8cda00f3,data/8cda00f3/src/3569d385.scss,194,194,Template,0,0,,,Password
+131115,3569d385,GitHub,8cda00f3,data/8cda00f3/src/3569d385.scss,194,194,X,0,0,,,Password
 131861,218dc847,GitHub,8cda00f3,data/8cda00f3/other/218dc847.md,100,100,T,22,72,,,Auth:Bearer Authorization
 131862,218dc847,GitHub,8cda00f3,data/8cda00f3/other/218dc847.md,132,132,T,22,72,,,Auth:Bearer Authorization
 131863,218dc847,GitHub,8cda00f3,data/8cda00f3/other/218dc847.md,42,42,T,22,72,,,Auth:Bearer Authorization

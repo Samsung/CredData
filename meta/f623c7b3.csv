@@ -40,16 +40,16 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 17503,c67251c6,GitHub,f623c7b3,data/f623c7b3/src/c67251c6.py,471,471,F,-1,-1,,,Key
 27021,97b9e4ea,GitHub,f623c7b3,data/f623c7b3/src/97b9e4ea.html,10,10,F,,,,,Password
 27978,179cb0ff,GitHub,f623c7b3,data/f623c7b3/test/179cb0ff.py,263,263,T,65,76,,,Auth:Password
-28972,21453a69,GitHub,f623c7b3,data/f623c7b3/src/21453a69.rst,162,162,Template,26,71,,,Secret
-29452,be8ed8e5,GitHub,f623c7b3,data/f623c7b3/src/be8ed8e5.py,13,13,Template,34,42,,,Password
-29460,be8ed8e5,GitHub,f623c7b3,data/f623c7b3/src/be8ed8e5.py,12,12,Template,31,39,,,Key
-29499,179cb0ff,GitHub,f623c7b3,data/f623c7b3/test/179cb0ff.py,282,282,Template,69,73,,,Password:Auth
+28972,21453a69,GitHub,f623c7b3,data/f623c7b3/src/21453a69.rst,162,162,X,26,71,,,Secret
+29452,be8ed8e5,GitHub,f623c7b3,data/f623c7b3/src/be8ed8e5.py,13,13,X,34,42,,,Password
+29460,be8ed8e5,GitHub,f623c7b3,data/f623c7b3/src/be8ed8e5.py,12,12,X,31,39,,,Key
+29499,179cb0ff,GitHub,f623c7b3,data/f623c7b3/test/179cb0ff.py,282,282,X,69,73,,,Password:Auth
 29625,952b0439,GitHub,f623c7b3,data/f623c7b3/test/952b0439.py,96,96,T,53,58,,,Password
 30478,952b0439,GitHub,f623c7b3,data/f623c7b3/test/952b0439.py,127,127,T,27,32,,,Auth:Password
-30602,609dc4ae,GitHub,f623c7b3,data/f623c7b3/src/609dc4ae.rst,41,41,Template,22,67,,,Secret
-30686,730d0dba,GitHub,f623c7b3,data/f623c7b3/src/730d0dba.py,76,76,Template,27,72,,,Secret
-31040,952b0439,GitHub,f623c7b3,data/f623c7b3/test/952b0439.py,92,92,Template,80,83,,,Password
-31527,eeb6b41f,GitHub,f623c7b3,data/f623c7b3/test/eeb6b41f.py,718,718,Template,21,42,,,Secret
+30602,609dc4ae,GitHub,f623c7b3,data/f623c7b3/src/609dc4ae.rst,41,41,X,22,67,,,Secret
+30686,730d0dba,GitHub,f623c7b3,data/f623c7b3/src/730d0dba.py,76,76,X,27,72,,,Secret
+31040,952b0439,GitHub,f623c7b3,data/f623c7b3/test/952b0439.py,92,92,X,80,83,,,Password
+31527,eeb6b41f,GitHub,f623c7b3,data/f623c7b3/test/eeb6b41f.py,718,718,X,21,42,,,Secret
 32628,a226935f,GitHub,f623c7b3,data/f623c7b3/other/a226935f,29,29,T,35,39,,,SQL Password
 32631,179cb0ff,GitHub,f623c7b3,data/f623c7b3/test/179cb0ff.py,273,273,T,31,42,,,Auth:Password
 33970,2c4cca40,GitHub,f623c7b3,data/f623c7b3/src/2c4cca40.yml,5,5,T,23,27,,,Password
@@ -71,9 +71,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 75752,609dc4ae,GitHub,f623c7b3,data/f623c7b3/src/609dc4ae.rst,194,194,F,,,,,Auth
 75753,5cff293b,GitHub,f623c7b3,data/f623c7b3/src/5cff293b.py,696,696,F,,,,,Auth
 76040,be8ed8e5,GitHub,f623c7b3,data/f623c7b3/src/be8ed8e5.py,76,76,F,,,,,Auth
-80814,609dc4ae,GitHub,f623c7b3,data/f623c7b3/src/609dc4ae.rst,131,131,Template,22,67,,,Secret
-80815,609dc4ae,GitHub,f623c7b3,data/f623c7b3/src/609dc4ae.rst,152,152,Template,26,71,,,Secret
-80816,609dc4ae,GitHub,f623c7b3,data/f623c7b3/src/609dc4ae.rst,235,235,Template,26,71,,,Secret
+80814,609dc4ae,GitHub,f623c7b3,data/f623c7b3/src/609dc4ae.rst,131,131,X,22,67,,,Secret
+80815,609dc4ae,GitHub,f623c7b3,data/f623c7b3/src/609dc4ae.rst,152,152,X,26,71,,,Secret
+80816,609dc4ae,GitHub,f623c7b3,data/f623c7b3/src/609dc4ae.rst,235,235,X,26,71,,,Secret
 80819,952b0439,GitHub,f623c7b3,data/f623c7b3/test/952b0439.py,110,110,F,79,82,,,Password
 100403,be8ed8e5,GitHub,f623c7b3,data/f623c7b3/src/be8ed8e5.py,31,31,F,-1,-1,,,Other
 100404,be8ed8e5,GitHub,f623c7b3,data/f623c7b3/src/be8ed8e5.py,42,42,F,-1,-1,,,Other
@@ -101,14 +101,14 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 100428,003d9681,GitHub,f623c7b3,data/f623c7b3/src/003d9681.py,1315,1315,F,,,,,Auth
 100429,003d9681,GitHub,f623c7b3,data/f623c7b3/src/003d9681.py,1325,1325,F,,,,,Auth
 100430,eeb6b41f,GitHub,f623c7b3,data/f623c7b3/test/eeb6b41f.py,166,166,F,,,,,Auth
-100431,eeb6b41f,GitHub,f623c7b3,data/f623c7b3/test/eeb6b41f.py,788,788,Template,53,57,,,Password
-100432,eeb6b41f,GitHub,f623c7b3,data/f623c7b3/test/eeb6b41f.py,2595,2595,Template,37,41,,,Password
-100433,eeb6b41f,GitHub,f623c7b3,data/f623c7b3/test/eeb6b41f.py,2598,2598,Template,37,41,,,Password
-100434,eeb6b41f,GitHub,f623c7b3,data/f623c7b3/test/eeb6b41f.py,2602,2602,Template,37,41,,,Password
-100435,eeb6b41f,GitHub,f623c7b3,data/f623c7b3/test/eeb6b41f.py,2606,2606,Template,37,41,,,Password
-100436,eeb6b41f,GitHub,f623c7b3,data/f623c7b3/test/eeb6b41f.py,2612,2612,Template,37,41,,,Password
-100437,eeb6b41f,GitHub,f623c7b3,data/f623c7b3/test/eeb6b41f.py,2615,2615,Template,37,41,,,Password
-100438,eeb6b41f,GitHub,f623c7b3,data/f623c7b3/test/eeb6b41f.py,2619,2619,Template,37,41,,,Password
+100431,eeb6b41f,GitHub,f623c7b3,data/f623c7b3/test/eeb6b41f.py,788,788,X,53,57,,,Password
+100432,eeb6b41f,GitHub,f623c7b3,data/f623c7b3/test/eeb6b41f.py,2595,2595,X,37,41,,,Password
+100433,eeb6b41f,GitHub,f623c7b3,data/f623c7b3/test/eeb6b41f.py,2598,2598,X,37,41,,,Password
+100434,eeb6b41f,GitHub,f623c7b3,data/f623c7b3/test/eeb6b41f.py,2602,2602,X,37,41,,,Password
+100435,eeb6b41f,GitHub,f623c7b3,data/f623c7b3/test/eeb6b41f.py,2606,2606,X,37,41,,,Password
+100436,eeb6b41f,GitHub,f623c7b3,data/f623c7b3/test/eeb6b41f.py,2612,2612,X,37,41,,,Password
+100437,eeb6b41f,GitHub,f623c7b3,data/f623c7b3/test/eeb6b41f.py,2615,2615,X,37,41,,,Password
+100438,eeb6b41f,GitHub,f623c7b3,data/f623c7b3/test/eeb6b41f.py,2619,2619,X,37,41,,,Password
 100439,eeb6b41f,GitHub,f623c7b3,data/f623c7b3/test/eeb6b41f.py,2632,2632,F,-1,-1,,,Key
 100440,eeb6b41f,GitHub,f623c7b3,data/f623c7b3/test/eeb6b41f.py,2634,2634,F,-1,-1,,,Key
 100441,eeb6b41f,GitHub,f623c7b3,data/f623c7b3/test/eeb6b41f.py,2636,2636,F,-1,-1,,,Key
@@ -137,7 +137,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 1494754,435497e9,GitHub,f623c7b3,data/f623c7b3/test/435497e9.py,490,490,T,35,52,,,Auth:Token
 1494755,435497e9,GitHub,f623c7b3,data/f623c7b3/test/435497e9.py,498,498,T,53,70,,,Auth:Token
 1494756,435497e9,GitHub,f623c7b3,data/f623c7b3/test/435497e9.py,508,508,F,33,37,,,Secret
-
 1525366,179cb0ff,GitHub,f623c7b3,data/f623c7b3/test/179cb0ff.py,265,265,T,20,48,,,Basic Authorization
 1525367,179cb0ff,GitHub,f623c7b3,data/f623c7b3/test/179cb0ff.py,276,276,T,20,48,,,Basic Authorization
 1525368,179cb0ff,GitHub,f623c7b3,data/f623c7b3/test/179cb0ff.py,283,283,T,20,36,,,Basic Authorization

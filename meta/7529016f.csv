@@ -10,9 +10,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 25064,71ca9e54,GitHub,7529016f,data/7529016f/test/71ca9e54.go,12,12,F,-1,-1,,,Key
 25073,1e1be099,GitHub,7529016f,data/7529016f/src/1e1be099.yml,2,2,F,,,,,Token
 25443,db164cdb,GitHub,7529016f,data/7529016f/src/db164cdb.toml,154,154,F,-1,-1,,,Other
-27371,b3356305,GitHub,7529016f,data/7529016f/other/b3356305.md,165,165,Template,24,36,,,Password
-27383,b3356305,GitHub,7529016f,data/7529016f/other/b3356305.md,178,178,Template,18,30,,,Password
-28111,db164cdb,GitHub,7529016f,data/7529016f/src/db164cdb.toml,57,57,Template,29,44,,,Key:Secret
+27371,b3356305,GitHub,7529016f,data/7529016f/other/b3356305.md,165,165,X,24,36,,,Password
+27383,b3356305,GitHub,7529016f,data/7529016f/other/b3356305.md,178,178,X,18,30,,,Password
+28111,db164cdb,GitHub,7529016f,data/7529016f/src/db164cdb.toml,57,57,X,29,44,,,Key:Secret
 32694,e45e45ba,GitHub,7529016f,data/7529016f/src/e45e45ba.yml,15,15,T,19,29,,,Password
 33769,373f5578,GitHub,7529016f,data/7529016f/test/373f5578.go,21,21,T,14,29,,,Password
 34503,368abef3,GitHub,7529016f,data/7529016f/test/368abef3.yml,9,9,T,12,22,,,Password
@@ -20,10 +20,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 41529,e45e45ba,GitHub,7529016f,data/7529016f/src/e45e45ba.yml,29,29,T,25,35,,,Password
 56952,db164cdb,GitHub,7529016f,data/7529016f/src/db164cdb.toml,78,78,F,,,,,Secret
 61552,71ca9e54,GitHub,7529016f,data/7529016f/test/71ca9e54.go,295,295,F,,,,,Key
-64040,b3356305,GitHub,7529016f,data/7529016f/other/b3356305.md,136,136,Template,29,44,,,Key:Secret
-64041,b3356305,GitHub,7529016f,data/7529016f/other/b3356305.md,153,153,Template,29,44,,,Key:Secret
-83217,db164cdb,GitHub,7529016f,data/7529016f/src/db164cdb.toml,69,69,Template,24,36,,,Password
-83218,db164cdb,GitHub,7529016f,data/7529016f/src/db164cdb.toml,82,82,Template,18,30,,,Password
+64040,b3356305,GitHub,7529016f,data/7529016f/other/b3356305.md,136,136,X,29,44,,,Key:Secret
+64041,b3356305,GitHub,7529016f,data/7529016f/other/b3356305.md,153,153,X,29,44,,,Key:Secret
+83217,db164cdb,GitHub,7529016f,data/7529016f/src/db164cdb.toml,69,69,X,24,36,,,Password
+83218,db164cdb,GitHub,7529016f,data/7529016f/src/db164cdb.toml,82,82,X,18,30,,,Password
 113799,3295df72,GitHub,7529016f,data/7529016f/src/3295df72.sum,660,660,F,,,,,Auth
 113800,3295df72,GitHub,7529016f,data/7529016f/src/3295df72.sum,661,661,F,,,,,Auth
 113801,3295df72,GitHub,7529016f,data/7529016f/src/3295df72.sum,662,662,F,,,,,Auth

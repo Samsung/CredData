@@ -546,7 +546,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 22860,ae1aaf49,GitHub,81cd05d0,data/81cd05d0/src/ae1aaf49.json,4,4,F,,,,,API
 26423,b8de3c87,GitHub,81cd05d0,data/81cd05d0/src/b8de3c87.java,25,25,F,-1,-1,,,Other
 26427,b8de3c87,GitHub,81cd05d0,data/81cd05d0/src/b8de3c87.java,24,24,F,-1,-1,,,Other
-27461,2502bd2d,GitHub,81cd05d0,data/81cd05d0/src/2502bd2d.json,50229,50229,Template,36,46,,,Auth:Token
+27461,2502bd2d,GitHub,81cd05d0,data/81cd05d0/src/2502bd2d.json,50229,50229,X,36,46,,,Auth:Token
 27570,3f8a6f71,GitHub,81cd05d0,data/81cd05d0/src/3f8a6f71.json,13697,13697,T,24,45,,AWS Client ID,AWS Client ID
 27571,3f8a6f71,GitHub,81cd05d0,data/81cd05d0/src/3f8a6f71.json,13749,13749,T,24,45,,AWS Client ID,AWS Client ID
 27901,6f8a2a14,GitHub,81cd05d0,data/81cd05d0/src/6f8a2a14.json,13351,13351,T,33,74,,,Key:Secret
@@ -557,9 +557,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 29649,bf6d4af2,GitHub,81cd05d0,data/81cd05d0/src/bf6d4af2.json,120940,120940,F,27,32,,,Token
 29665,334b19eb,GitHub,81cd05d0,data/81cd05d0/src/334b19eb.json,32667,32667,T,30,51,,,Password
 29666,cb502bda,GitHub,81cd05d0,data/81cd05d0/src/cb502bda.json,82910,82910,T,27,63,,,Token:UUID
-29667,02fd2d8d,GitHub,81cd05d0,data/81cd05d0/src/02fd2d8d.json,915872,915872,Template,31,60,,JSON Web Token,Token
-29807,bf6d4af2,GitHub,81cd05d0,data/81cd05d0/src/bf6d4af2.json,121139,121139,Template,44,56,,,Password
-30063,bf6d4af2,GitHub,81cd05d0,data/81cd05d0/src/bf6d4af2.json,121137,121137,Template,47,59,,,Password
+29667,02fd2d8d,GitHub,81cd05d0,data/81cd05d0/src/02fd2d8d.json,915872,915872,X,31,60,,JSON Web Token,Token
+29807,bf6d4af2,GitHub,81cd05d0,data/81cd05d0/src/bf6d4af2.json,121139,121139,X,44,56,,,Password
+30063,bf6d4af2,GitHub,81cd05d0,data/81cd05d0/src/bf6d4af2.json,121137,121137,X,47,59,,,Password
 32888,58013633,GitHub,81cd05d0,data/81cd05d0/test/58013633.java,122,122,T,37,92,,,Token
 33032,5291df26,GitHub,81cd05d0,data/81cd05d0/test/5291df26.java,27,27,T,35,71,,,Token:UUID
 34983,0c04f109,GitHub,81cd05d0,data/81cd05d0/src/0c04f109.json,66833,66833,T,34,70,,,Token:UUID
@@ -658,7 +658,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 42052,1078705f,GitHub,81cd05d0,data/81cd05d0/src/1078705f.java,108,108,T,25,45,,AWS Client ID,AWS Client ID:Gitlab Feed Token
 42053,1078705f,GitHub,81cd05d0,data/81cd05d0/src/1078705f.java,121,121,T,25,45,,AWS Client ID,AWS Client ID:Gitlab Feed Token
 42096,631b3f02,GitHub,81cd05d0,data/81cd05d0/src/631b3f02.json,325,325,F,,,,,API
-42143,f2094588,GitHub,81cd05d0,data/81cd05d0/src/f2094588.json,5533,5533,Template,25,35,,,Token
+42143,f2094588,GitHub,81cd05d0,data/81cd05d0/src/f2094588.json,5533,5533,X,25,35,,,Token
 42183,6f8a2a14,GitHub,81cd05d0,data/81cd05d0/src/6f8a2a14.json,13413,13413,T,29,49,,AWS Client ID,AWS Client ID:Gitlab Feed Token:Key
 42184,6f8a2a14,GitHub,81cd05d0,data/81cd05d0/src/6f8a2a14.json,13508,13508,T,29,49,,AWS Client ID,AWS Client ID:Gitlab Feed Token:Key
 42185,6f8a2a14,GitHub,81cd05d0,data/81cd05d0/src/6f8a2a14.json,13535,13535,T,29,49,,AWS Client ID,AWS Client ID:Gitlab Feed Token:Key
@@ -690,8 +690,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 42407,3f8a6f71,GitHub,81cd05d0,data/81cd05d0/src/3f8a6f71.json,13788,13788,T,24,45,,AWS Client ID,AWS Client ID
 42408,3f8a6f71,GitHub,81cd05d0,data/81cd05d0/src/3f8a6f71.json,13794,13794,T,24,45,,AWS Client ID,AWS Client ID
 42409,3f8a6f71,GitHub,81cd05d0,data/81cd05d0/src/3f8a6f71.json,13896,13896,T,24,45,,AWS Client ID,AWS Client ID
-42427,bf6d4af2,GitHub,81cd05d0,data/81cd05d0/src/bf6d4af2.json,121702,121702,Template,45,57,,,Password
-42428,bf6d4af2,GitHub,81cd05d0,data/81cd05d0/src/bf6d4af2.json,121704,121704,Template,42,54,,,Password
+42427,bf6d4af2,GitHub,81cd05d0,data/81cd05d0/src/bf6d4af2.json,121702,121702,X,45,57,,,Password
+42428,bf6d4af2,GitHub,81cd05d0,data/81cd05d0/src/bf6d4af2.json,121704,121704,X,42,54,,,Password
 42553,bc39da73,GitHub,81cd05d0,data/81cd05d0/src/bc39da73.json,164438,164438,T,24,44,,AWS Client ID,AWS Client ID:Gitlab Feed Token
 42870,c21f9f59,GitHub,81cd05d0,data/81cd05d0/src/c21f9f59.json,4,4,F,,,,,API
 43100,02fd2d8d,GitHub,81cd05d0,data/81cd05d0/src/02fd2d8d.json,916987,916987,F,31,60,,JSON Web Token,Token
@@ -4038,8 +4038,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 106320,631b3f02,GitHub,81cd05d0,data/81cd05d0/src/631b3f02.json,283538,283538,F,-1,-1,,,Other
 106321,631b3f02,GitHub,81cd05d0,data/81cd05d0/src/631b3f02.json,283572,283572,F,-1,-1,,,Other
 106322,631b3f02,GitHub,81cd05d0,data/81cd05d0/src/631b3f02.json,283587,283587,F,-1,-1,,,Other
-106323,631b3f02,GitHub,81cd05d0,data/81cd05d0/src/631b3f02.json,305129,305129,Template,34,44,,,Password
-106324,631b3f02,GitHub,81cd05d0,data/81cd05d0/src/631b3f02.json,305183,305183,Template,34,44,,,Password
+106323,631b3f02,GitHub,81cd05d0,data/81cd05d0/src/631b3f02.json,305129,305129,X,34,44,,,Password
+106324,631b3f02,GitHub,81cd05d0,data/81cd05d0/src/631b3f02.json,305183,305183,X,34,44,,,Password
 106325,3fc8d978,GitHub,81cd05d0,data/81cd05d0/src/3fc8d978.json,1151,1151,F,-1,-1,,,Other
 106326,3fc8d978,GitHub,81cd05d0,data/81cd05d0/src/3fc8d978.json,5131,5131,F,-1,-1,,,Other
 106328,3fc8d978,GitHub,81cd05d0,data/81cd05d0/src/3fc8d978.json,20057,20057,F,-1,-1,,,Other

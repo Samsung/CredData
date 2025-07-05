@@ -53,9 +53,9 @@ class MetaRow:
                 raise RuntimeError(f"ERROR: Each rule must be once in Category {row}")
             if "Other" in rule_set:
                 raise RuntimeError(f"ERROR: 'Other' Category must be single rule in markup {row}")
-        allowed_GroundTruth = ['T', 'F', "Template"]
-        if self.GroundTruth not in allowed_GroundTruth:
-            raise RuntimeError(f"ERROR: GroundTruth must be in {allowed_GroundTruth} {row}")
+        allowed_labels = ['T', 'F', 'X']
+        if self.GroundTruth not in allowed_labels:
+            raise RuntimeError(f"ERROR: GroundTruth must be in {allowed_labels} {row}")
         if 0 > self.LineStart or 0 > self.LineEnd:
             raise RuntimeError(f"ERROR: LineStart and LineEnd must be positive {row}")
         elif self.LineStart > self.LineEnd:
