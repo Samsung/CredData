@@ -4,10 +4,10 @@
    * [Introduction](#introduction)
    * [How To Use](#how-to-use)
    * [Data Overview](#data-overview)
-	  * [Data statistics](#data-statistics)
+     * [Data statistics](#data-statistics)
    * [Data](#data)
-	  * [Selecting Target Repositories](#selecting-target-repositories)
-	  * [Ground Rules for Labeling Suspected Credential Information](#ground-rules-for-labeling-suspected-credential-information)
+     * [Selecting Target Repositories](#selecting-target-repositories)
+     * [Ground Rules for Labeling Suspected Credential Information](#ground-rules-for-labeling-suspected-credential-information)
    * [Metadata](#metadata)
    * [Obfuscation](#obfuscation)
    * [License](#license)
@@ -202,7 +202,7 @@ If the suspicious lines are included in the dataset as it is, the credential val
 To avoid such cases we proceeded:
 1. Credential values obfuscation in files.
 2. Directory & file name and directory hierarchy obfuscation.
-	
+
 ### Credential values obfuscation in files
 To prevent leakage of the actual credential value in the file, we can mask the line that is supposed to be credential or change it to a random string.
 However, this masking and changing to a random string can make the side effects to the detection performance of several tools.
@@ -210,7 +210,7 @@ We have applied other methods to substitute the actual credential values within 
 - Replacing the real value to a example value for a case where a fixed pattern is clear (ex. AWS Access Key)
 - Replacing the entire file with credential information to a example file. (ex. X.509 Key)
 - Random key generation using regex pattern from the character set of real string and length.
-		
+
 ### Directory & file name and directory hierarchy obfuscation
 Even if the line suspected of having a credential in the file is obfuscated, you can easily check the original credential value and where it came from by the information of the repository (repo name, directory structure, file name).
 To prevent this from happening, we obfuscated the directory structure and file names.
