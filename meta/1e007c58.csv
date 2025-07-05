@@ -30,8 +30,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 24779,21dc9dca,GitHub,1e007c58,data/1e007c58/src/21dc9dca.go,23,23,F,,,,,Secret
 28784,7fd7d2c8,GitHub,1e007c58,data/1e007c58/test/7fd7d2c8.go,26,26,T,18,50,,,API:Key
 1028784,7fd7d2c8,GitHub,1e007c58,data/1e007c58/test/7fd7d2c8.go,26,26,T,93,125,,,Secret:Key
-30609,26058707,GitHub,1e007c58,data/1e007c58/test/26058707.go,12,12,Template,18,31,,,API:Key
-30616,26058707,GitHub,1e007c58,data/1e007c58/test/26058707.go,13,13,Template,18,31,,,API:Key:Secret
+30609,26058707,GitHub,1e007c58,data/1e007c58/test/26058707.go,12,12,X,18,31,,,API:Key
+30616,26058707,GitHub,1e007c58,data/1e007c58/test/26058707.go,13,13,X,18,31,,,API:Key:Secret
 41526,d8d87df6,GitHub,1e007c58,data/1e007c58/src/d8d87df6.go,508,508,F,,,,,API
 41527,c79b11f4,GitHub,1e007c58,data/1e007c58/src/c79b11f4.go,213,213,F,,,,,API
 41528,4c2fad54,GitHub,1e007c58,data/1e007c58/src/4c2fad54.go,34,34,F,,,,,Secret
@@ -79,9 +79,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 82617,4c2fad54,GitHub,1e007c58,data/1e007c58/src/4c2fad54.go,41,41,F,17,37,,,API
 82618,4c2fad54,GitHub,1e007c58,data/1e007c58/src/4c2fad54.go,297,297,F,36,50,,,API
 82619,4c2fad54,GitHub,1e007c58,data/1e007c58/src/4c2fad54.go,368,368,F,36,50,,,API
-82621,26058707,GitHub,1e007c58,data/1e007c58/test/26058707.go,21,21,Template,18,31,,,Key:Secret
+82621,26058707,GitHub,1e007c58,data/1e007c58/test/26058707.go,21,21,X,18,31,,,Key:Secret
 101439,353aa75d,GitHub,1e007c58,data/1e007c58/src/353aa75d.go,39,39,F,,,,,Secret
-101440,2c9566ed,GitHub,1e007c58,data/1e007c58/src/2c9566ed.go,23,23,Template,25,45,,,Gitlab Feed Token:Password
+101440,2c9566ed,GitHub,1e007c58,data/1e007c58/src/2c9566ed.go,23,23,X,25,45,,,Gitlab Feed Token:Password
 110648,c79b11f4,GitHub,1e007c58,data/1e007c58/src/c79b11f4.go,195,195,F,,,,,API
 110649,c79b11f4,GitHub,1e007c58,data/1e007c58/src/c79b11f4.go,199,199,F,,,,,API
 110650,c79b11f4,GitHub,1e007c58,data/1e007c58/src/c79b11f4.go,203,203,F,,,,,API

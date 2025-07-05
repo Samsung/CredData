@@ -235,7 +235,7 @@ if __name__ == "__main__":
     _args = parser.parse_args()
 
     _data_filter = {"Other": False}
-    if not _args.T and not _args.F and not _args.t and not _args.X:
+    if not _args.T and not _args.F and not _args.X:
         _data_filter["T"] = True
         _data_filter["F"] = True
         _data_filter["X"] = True

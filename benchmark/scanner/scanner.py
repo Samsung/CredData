@@ -31,7 +31,7 @@ class Scanner(ABC):
         self.result_dict: dict = {}
         self.total_true_cnt = 0
         self.total_false_cnt = 0
-        self.rules_markup_counters: Dict[str, Tuple[int, int, int]] = {}  # category: true_cnt, false_cnt, template_cnt
+        self.rules_markup_counters: Dict[str, Tuple[int, int]] = {}  # category: true_cnt, false_cnt
         self.meta_next_id = 0  # used in suggestion
         self.file_types: Dict[str, FileTypeStat] = {}
         self.total_data_valid_lines = 0
@@ -73,10 +73,10 @@ class Scanner(ABC):
             # get file extension like in CredSweeper
             _, file_type = os.path.splitext(meta_row.FilePath)
             file_type_lower = file_type.lower()
-            type_stat = self.file_types.get(file_type_lower, FileTypeStat(0, 0, 0, 0, 0))
+            type_stat = self.file_types.get(file_type_lower, FileTypeStat(0, 0, 0, 0))
             rules = meta_row.Category.split(':')
             for rule in rules:
-                true_cnt, false_cnt, template_cnt = self.rules_markup_counters.get(rule, (0, 0, 0))
+                true_cnt, false_cnt = self.rules_markup_counters.get(rule, (0, 0))
                 if 'T' == meta_row.GroundTruth:
                     true_cnt += 1
                     self.total_true_cnt += 1
@@ -86,7 +86,7 @@ class Scanner(ABC):
                     self.total_false_cnt += 1
                     false_cnt += 1
                     type_stat.false_markup += 1
-                self.rules_markup_counters[rule] = (true_cnt, false_cnt, template_cnt)
+                self.rules_markup_counters[rule] = (true_cnt, false_cnt)
             self.file_types[file_type_lower] = type_stat
             if self.meta_next_id <= meta_row.Id:
                 self.meta_next_id = meta_row.Id + 1
@@ -98,7 +98,7 @@ class Scanner(ABC):
             for file in files:
                 file_name, file_ext = os.path.splitext(str(file))
                 file_ext_lower = file_ext.lower()
-                file_type_stat = self.file_types.get(file_ext_lower, FileTypeStat(0, 0, 0, 0, 0))
+                file_type_stat = self.file_types.get(file_ext_lower, FileTypeStat(0, 0, 0, 0))
                 file_type_stat.files_number += 1
                 self.file_types[file_ext_lower] = file_type_stat
                 with open(os.path.join(root, file), "rb") as f:
@@ -368,7 +368,7 @@ class Scanner(ABC):
             f", true_cnt : {self.true_cnt}, false_cnt : {self.false_cnt}"
         )
 
-        header = ["Rules", "Positives", "Negatives", "Templates", "Reported",
+        header = ["Rules", "Positives", "Negatives", "Reported",
                   "TP", "FP", "TN", "FN", "FPR", "FNR", "ACC", "PRC", "RCL", "F1"]
         rows: List[List[Any]] = []
 
@@ -390,12 +390,11 @@ class Scanner(ABC):
             total_true_cnt, total_false_cnt = self._get_total_true_false_count(rule)
             result = Result(true_cnt, false_cnt, total_true_cnt, total_false_cnt)
             if rule not in self.rules_markup_counters:
-                self.rules_markup_counters[rule] = (0, 0, 0)
+                self.rules_markup_counters[rule] = (0, 0)
             rows.append([
                 rule,
                 self.rules_markup_counters[rule][0],
                 self.rules_markup_counters[rule][1],
-                self.rules_markup_counters[rule][2],
                 self.reported.get(rule),
                 result.true_positive,
                 result.false_positive,
@@ -421,7 +420,6 @@ class Scanner(ABC):
             "",
             self.total_true_cnt,
             self.total_false_cnt,
-            self.total_template_cnt,
             reported_sum,
             total_result.true_positive,
             total_result.false_positive,
