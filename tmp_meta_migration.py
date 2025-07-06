@@ -8,10 +8,9 @@ import pathlib
 from pathlib import Path
 from typing import Union, Generator
 
-from download_data import TMP_DIR, get_file_scope, get_words_in_path
+from download_data import TMP_DIR, get_file_scope
 from meta_row import MetaRow
 
-words_remain=set(x.replace('/','') for x in get_words_in_path())
 
 def _meta_from_file(meta_path: Path) -> Generator[dict, None, None]:
     if ".csv" != meta_path.suffix:
@@ -80,9 +79,6 @@ def migrate_repo(repo_id, new_repo_id):
         short_path = repo_files[(meta_row.RepoName,meta_row.FileID)].lower()
         file_path_name, file_extension = os.path.splitext(short_path)
         file_scope = get_file_scope(file_path_name)
-        for i in file_scope.split('/'):
-            if i and i in words_remain:
-                words_remain.remove(i)
         file_extension = file_extension.lower()
         meta_row.FilePath=f"data/{new_repo_id}{file_scope}{meta_row.FileID}{file_extension}"
         # workaround to keep empty cells instead '-1'
@@ -109,7 +105,6 @@ def main():
         new_repo_id = f"{binascii.crc32(repo_id_bytes):08x}"
         migrate_repo(repo_id, new_repo_id)
 
-    print(words_remain)
 
 if __name__ == """__main__""":
     main()
