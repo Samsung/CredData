@@ -24,11 +24,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 27535,f493cf70,GitHub,e0b41e26,data/e0b41e26/test/f493cf70.js,261,261,F,31,63,,,Token
 27538,f493cf70,GitHub,e0b41e26,data/e0b41e26/test/f493cf70.js,278,278,F,31,51,,,Token
 27539,a4b52bd0,GitHub,e0b41e26,data/e0b41e26/test/a4b52bd0.js,261,261,F,32,52,,,Token
-28123,5a44a9f9,GitHub,e0b41e26,data/e0b41e26/test/5a44a9f9.js,508,508,Template,76,90,,,API:Key
-29931,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,444,444,Template,19,22,,,Password
-29954,65f266eb,GitHub,e0b41e26,data/e0b41e26/test/65f266eb.js,17,17,Template,26,35,,,Key:Secret
-31047,3cb5b5a8,GitHub,e0b41e26,data/e0b41e26/src/3cb5b5a8.js,114,114,Template,42,46,,,Key
-31055,c386ab3a,GitHub,e0b41e26,data/e0b41e26/test/c386ab3a.js,174,174,Template,50,54,,,Password
+28123,5a44a9f9,GitHub,e0b41e26,data/e0b41e26/test/5a44a9f9.js,508,508,X,76,90,,,API:Key
+29931,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,444,444,X,19,22,,,Password
+29954,65f266eb,GitHub,e0b41e26,data/e0b41e26/test/65f266eb.js,17,17,X,26,35,,,Key:Secret
+31047,3cb5b5a8,GitHub,e0b41e26,data/e0b41e26/src/3cb5b5a8.js,114,114,X,42,46,,,Key
+31055,c386ab3a,GitHub,e0b41e26,data/e0b41e26/test/c386ab3a.js,174,174,X,50,54,,,Password
 32569,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,332,332,T,10,-1,Private,,PEM Private Key:Key
 32587,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,513,513,T,20,40,,AWS Client ID,AWS Client ID:Gitlab Feed Token:Key
 32588,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,495,495,T,22,42,,AWS Client ID,AWS Client ID:Gitlab Feed Token:Key
@@ -45,7 +45,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 34587,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,436,436,T,19,35,,,Password
 35229,9ce19240,GitHub,e0b41e26,data/e0b41e26/src/9ce19240.yaml,82,82,T,21,61,,,Secret:Key
 35231,1efcc29b,GitHub,e0b41e26,data/e0b41e26/src/1efcc29b.js,496,496,T,26,66,,,Secret:Key
-35232,508b8489,GitHub,e0b41e26,data/e0b41e26/test/508b8489.js,1319,1319,Template,34,38,,,Key:Secret
+35232,508b8489,GitHub,e0b41e26,data/e0b41e26/test/508b8489.js,1319,1319,X,34,38,,,Key:Secret
 35766,27f723c6,GitHub,e0b41e26,data/e0b41e26/src/27f723c6.js,20,20,T,64,94,,,Auth:Token
 35863,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,142,142,T,28,58,,,Token
 35865,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,127,127,T,23,43,,,API:Gitlab Feed Token:Key
@@ -81,11 +81,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 42221,2539a395,GitHub,e0b41e26,data/e0b41e26/src/2539a395.yaml,22,22,T,14,29,,,Dropbox App secret:Password
 42222,2539a395,GitHub,e0b41e26,data/e0b41e26/src/2539a395.yaml,31,31,T,14,29,,,Dropbox App secret:Password
 42223,2539a395,GitHub,e0b41e26,data/e0b41e26/src/2539a395.yaml,49,49,T,14,29,,,Dropbox App secret:Password
-42454,bd3fe8db,GitHub,e0b41e26,data/e0b41e26/src/bd3fe8db.js,134,134,Template,26,33,,,Credential
-42455,bd3fe8db,GitHub,e0b41e26,data/e0b41e26/src/bd3fe8db.js,178,178,Template,26,33,,,Credential
-42456,bd3fe8db,GitHub,e0b41e26,data/e0b41e26/src/bd3fe8db.js,191,191,Template,26,33,,,Credential
-42457,bd3fe8db,GitHub,e0b41e26,data/e0b41e26/src/bd3fe8db.js,228,228,Template,34,41,,,Credential
-42458,bd3fe8db,GitHub,e0b41e26,data/e0b41e26/src/bd3fe8db.js,245,245,Template,26,33,,,Credential
+42454,bd3fe8db,GitHub,e0b41e26,data/e0b41e26/src/bd3fe8db.js,134,134,X,26,33,,,Credential
+42455,bd3fe8db,GitHub,e0b41e26,data/e0b41e26/src/bd3fe8db.js,178,178,X,26,33,,,Credential
+42456,bd3fe8db,GitHub,e0b41e26,data/e0b41e26/src/bd3fe8db.js,191,191,X,26,33,,,Credential
+42457,bd3fe8db,GitHub,e0b41e26,data/e0b41e26/src/bd3fe8db.js,228,228,X,34,41,,,Credential
+42458,bd3fe8db,GitHub,e0b41e26,data/e0b41e26/src/bd3fe8db.js,245,245,X,26,33,,,Credential
 46443,a4b52bd0,GitHub,e0b41e26,data/e0b41e26/test/a4b52bd0.js,279,279,F,,,,,Token
 47949,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,273,273,T,18,38,,AWS Client ID,AWS Client ID:Gitlab Feed Token:Key
 47950,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,282,282,T,18,38,,AWS Client ID,AWS Client ID:Gitlab Feed Token:Key
@@ -130,5 +130,5 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 138123,2a34abd7,GitHub,e0b41e26,data/e0b41e26/test/2a34abd7.ndjson,2,2,F,103,135,,,Token
 138124,2a34abd7,GitHub,e0b41e26,data/e0b41e26/test/2a34abd7.ndjson,4,4,F,102,122,,,Token
 138125,2a34abd7,GitHub,e0b41e26,data/e0b41e26/test/2a34abd7.ndjson,6,6,F,104,142,,,Token
-1013650,508b8489,GitHub,e0b41e26,data/e0b41e26/test/508b8489.js,189,189,Template,34,48,,,Token
+1013650,508b8489,GitHub,e0b41e26,data/e0b41e26/test/508b8489.js,189,189,X,34,48,,,Token
 1480573,c72880b5,GitHub,e0b41e26,data/e0b41e26/test/c72880b5.js,332,332,T,43,,,,BASE64 Private Key

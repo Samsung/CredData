@@ -4,10 +4,10 @@
    * [Introduction](#introduction)
    * [How To Use](#how-to-use)
    * [Data Overview](#data-overview)
-	  * [Data statistics](#data-statistics)
+     * [Data statistics](#data-statistics)
    * [Data](#data)
-	  * [Selecting Target Repositories](#selecting-target-repositories)
-	  * [Ground Rules for Labeling Suspected Credential Information](#ground-rules-for-labeling-suspected-credential-information)
+     * [Selecting Target Repositories](#selecting-target-repositories)
+     * [Ground Rules for Labeling Suspected Credential Information](#ground-rules-for-labeling-suspected-credential-information)
    * [Metadata](#metadata)
    * [Obfuscation](#obfuscation)
    * [License](#license)
@@ -89,11 +89,11 @@ please, find wide info in https://raw.githubusercontent.com/Samsung/CredSweeper/
 
 ## Data
 ### Selecting Target Repositories
-In order to collect various cases in which credentials exist, we selected publicly accessible repositories on Github through the following process:
-1. We wanted to collect credentials from repositories for various languages, frameworks, and topics, so we primarily collected 181 topics on Github.
+In order to collect various cases in which credentials exist, we selected publicly accessible repositories on GitHub through the following process:
+1. We wanted to collect credentials from repositories for various languages, frameworks, and topics, so we primarily collected 181 topics on GitHub.
 
    In this process, to select widely known repositories for each topic, we limited repositories with more than a certain number of stars. 19,486 repositories were selected in this process.
-2. We filtered repositories which have the license that can not be used for dataset according to the license information provided by Github. 
+2. We filtered repositories which have the license that can not be used for dataset according to the license information provided by GitHub. 
    
    In some cases, the provided license was inaccurate. So we conducted with manual review.
 3. Filtering was carried out by checking whether strings related to the most common credentials such as 'password' and 'secret' among the result repositories are included and how many are included. After that, we executed several [open source credential scanning tools.](#used-tools-for-benchmarking)
@@ -106,10 +106,10 @@ It is difficult to know whether a line included in the source code is a real cre
 However, based on human cognitive abilities, we can expect the possibility that the detected result contains actual credential information.
 We classify the detection results to the three credential type.
 
-- True : It looks like a real credential value.
-- False : It looks like a false positive case, not the actual credential value.
-- Template : It seems that it is not an actual credential, but it is a placeholder. It might be helpful in cases such as ML.
-		
+- **T** (True) : It looks like a real credential value.
+- **F** (False) : It looks like a false positive case, not the actual hardcoded credential value.
+- **X** (Unknown/Other) : It seems that it is not a real credential but a test value, an example, or it is a placeholder.
+
 In order to compose an accurate Ground Truth set, we proceed data review based on the following 'Ground Rules':
 1. All credentials in test (example) directories should be labeled as True.
 2. Credentials with obvious placeholders (`password = <YOUR_PASSWORD>;`) should be labeled as False.
@@ -117,10 +117,10 @@ In order to compose an accurate Ground Truth set, we proceed data review based o
 4. Base64 and other encoded data: the decision must be after research. Use True if original data contain are credentials. 
 5. Package and resource version hash is not a credential, so common hash string (`integrity sha512-W7s+uC5bikET2twEFg==`) is False.
 6. Be careful about filetype when checking variable assignment:
-   
    In .yaml file row (`password=my_password`) can be a credential 
    but in .js or .py it cannot. This languages require quotations (' or ") for string declaration (`password="my_password"`).
 7. Check if the file you are labeling is not a localization file. For example `config/locales/pt-BR.yml` is not a credentials, just a translation. So those should be labeled as False.
+8. Any possible markers like "example.com" mean the credential is False for ML rules. And may be True for not-ML rules.
 
 > We could see that many credentials exist in directories/files that have the same test purpose as test/tests.
 > In the case of these values, people often judge that they contain a real credential, but we do not know whether this value is an actual usable credential or a value used only for testing purposes.
@@ -140,9 +140,9 @@ Metadata includes Ground Truth values and additional information for credential 
 | FilePath           | String    | File path where credential information was included                                                                                                      |
 | LineStart          | Integer   | Line start in file from 1, like in most editors. In common cases it equals LineEnd.                                                                      |
 | LineEnd            | Integer   | End line of credential MUST be great or equal like LineStart. Sort line_data_list with line_num for this.                                                |
-| GroundTruth        | String    | Ground Truth of this credential. True (T) / False (F) or Template                                                                                        |
+| GroundTruth        | String    | Ground Truth of this credential. True (T) / False (F,X)                                                                                                  |
 | ValueStart         | Integer   | Index of value on the line like in CredSweeper report. This is start position on LineStart. Empty or -1 means the markup for whole line (for False only) |
-| ValueEnd           | Integer   | Index of character right after value ends in the line. This is end position on LineEnd. May be -1 or empty.                               |
+| ValueEnd           | Integer   | Index of character right after value ends in the line. This is end position on LineEnd. May be -1 or empty.                                              |
 | CryptographyKey    | String    | Type of a key: Private or Public                                                                                                                         |
 | PredefinedPattern  | String    | Credential with defined regex patterns (AWS token with `AKIA...` pattern)                                                                                |
 | Category           | String    | Labeled data according CredSweeper rules. see [Category](#category).                                                                                     |
@@ -202,7 +202,7 @@ If the suspicious lines are included in the dataset as it is, the credential val
 To avoid such cases we proceeded:
 1. Credential values obfuscation in files.
 2. Directory & file name and directory hierarchy obfuscation.
-	
+
 ### Credential values obfuscation in files
 To prevent leakage of the actual credential value in the file, we can mask the line that is supposed to be credential or change it to a random string.
 However, this masking and changing to a random string can make the side effects to the detection performance of several tools.
@@ -210,7 +210,7 @@ We have applied other methods to substitute the actual credential values within 
 - Replacing the real value to a example value for a case where a fixed pattern is clear (ex. AWS Access Key)
 - Replacing the entire file with credential information to a example file. (ex. X.509 Key)
 - Random key generation using regex pattern from the character set of real string and length.
-		
+
 ### Directory & file name and directory hierarchy obfuscation
 Even if the line suspected of having a credential in the file is obfuscated, you can easily check the original credential value and where it came from by the information of the repository (repo name, directory structure, file name).
 To prevent this from happening, we obfuscated the directory structure and file names.
