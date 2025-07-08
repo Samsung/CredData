@@ -1,6 +1,6 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd,CryptographyKey,PredefinedPattern,Category
 3757,eb6371ea,GitHub,e3377359,data/e3377359/src/eb6371ea.php,122,124,F,,,,,PEM Private Key
-3761,4da67d3d,GitHub,e3377359,data/e3377359/src/4da67d3d.php,156,156,F,-1,-1,,,Key
+3761,4da67d3d,GitHub,e3377359,data/e3377359/src/4da67d3d.php,156,156,F,,,,,Key
 7796,9a66af99,GitHub,e3377359,data/e3377359/src/9a66af99.php,327,327,F,,,,,Auth:Token
 15297,34a6ce8d,GitHub,e3377359,data/e3377359/src/34a6ce8d.php,29,29,F,,,,,Password
 15298,22ce21ca,GitHub,e3377359,data/e3377359/src/22ce21ca.php,186,186,F,,,,,Password
@@ -22,9 +22,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 27640,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,25,25,T,249,265,,,Nonce
 27907,1fd373f0,GitHub,e3377359,data/e3377359/src/1fd373f0.php,90,90,F,,,,,Password
 30032,1d62f0d2,GitHub,e3377359,data/e3377359/test/1d62f0d2.php,23,23,F,32,248,,,Key
-30034,1d62f0d2,GitHub,e3377359,data/e3377359/test/1d62f0d2.php,28,28,T,32,-1,,,Key:BASE64 Private Key
-30836,6e017f34,GitHub,e3377359,data/e3377359/src/6e017f34.php,115,115,F,-1,-1,,,Key:BASE64 Private Key
-30844,6e017f34,GitHub,e3377359,data/e3377359/src/6e017f34.php,112,112,T,38,-1,,,Key:BASE64 Private Key
+30034,1d62f0d2,GitHub,e3377359,data/e3377359/test/1d62f0d2.php,28,28,T,32,,,,Key:BASE64 Private Key
+30836,6e017f34,GitHub,e3377359,data/e3377359/src/6e017f34.php,115,115,F,,,,,Key:BASE64 Private Key
+30844,6e017f34,GitHub,e3377359,data/e3377359/src/6e017f34.php,112,112,T,38,,,,Key:BASE64 Private Key
 32416,23c59fad,GitHub,e3377359,data/e3377359/src/23c59fad.php,28,28,T,20,52,,,Secret
 34311,1d62f0d2,GitHub,e3377359,data/e3377359/test/1d62f0d2.php,22,22,F,32,248,,,Key
 35264,9aeb1c4f,GitHub,e3377359,data/e3377359/test/9aeb1c4f.php,33,47,T,,,Private,,PEM Private Key
@@ -37,10 +37,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 43133,eb6371ea,GitHub,e3377359,data/e3377359/src/eb6371ea.php,158,160,F,,,,,PEM Private Key
 43159,eb6371ea,GitHub,e3377359,data/e3377359/src/eb6371ea.php,788,790,F,,,,,PEM Private Key
 55665,1fd373f0,GitHub,e3377359,data/e3377359/src/1fd373f0.php,407,407,F,,,,,API
-55689,d05b5601,GitHub,e3377359,data/e3377359/src/d05b5601.php,307,307,F,-1,-1,,,Key
-55690,d05b5601,GitHub,e3377359,data/e3377359/src/d05b5601.php,241,241,F,-1,-1,,,Key
-55725,582e4a2b,GitHub,e3377359,data/e3377359/src/582e4a2b.php,159,159,F,-1,-1,,,Key
-55823,4da67d3d,GitHub,e3377359,data/e3377359/src/4da67d3d.php,145,145,F,-1,-1,,,Key
+55689,d05b5601,GitHub,e3377359,data/e3377359/src/d05b5601.php,307,307,F,,,,,Key
+55690,d05b5601,GitHub,e3377359,data/e3377359/src/d05b5601.php,241,241,F,,,,,Key
+55725,582e4a2b,GitHub,e3377359,data/e3377359/src/582e4a2b.php,159,159,F,,,,,Key
+55823,4da67d3d,GitHub,e3377359,data/e3377359/src/4da67d3d.php,145,145,F,,,,,Key
 55837,9a66af99,GitHub,e3377359,data/e3377359/src/9a66af99.php,342,342,F,,,,,Token
 55848,1fd373f0,GitHub,e3377359,data/e3377359/src/1fd373f0.php,671,671,F,,,,,Token
 55849,9a66af99,GitHub,e3377359,data/e3377359/src/9a66af99.php,206,206,F,,,,,Token
@@ -55,13 +55,13 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 82694,6e017f34,GitHub,e3377359,data/e3377359/src/6e017f34.php,75,75,F,32,34,,,Other
 83198,34a6ce8d,GitHub,e3377359,data/e3377359/src/34a6ce8d.php,33,33,F,,,,,Password
 100791,9a66af99,GitHub,e3377359,data/e3377359/src/9a66af99.php,114,114,F,,,,,Secret
-100792,9bb2e93a,GitHub,e3377359,data/e3377359/src/9bb2e93a.php,42,42,F,-1,-1,,,Key
-100793,9bb2e93a,GitHub,e3377359,data/e3377359/src/9bb2e93a.php,140,140,F,-1,-1,,,Other
-100794,1fd373f0,GitHub,e3377359,data/e3377359/src/1fd373f0.php,726,726,F,-1,-1,,,Other
+100792,9bb2e93a,GitHub,e3377359,data/e3377359/src/9bb2e93a.php,42,42,F,,,,,Key
+100793,9bb2e93a,GitHub,e3377359,data/e3377359/src/9bb2e93a.php,140,140,F,,,,,Other
+100794,1fd373f0,GitHub,e3377359,data/e3377359/src/1fd373f0.php,726,726,F,,,,,Other
 110382,9a66af99,GitHub,e3377359,data/e3377359/src/9a66af99.php,444,444,F,,,,,Token
-110383,9a66af99,GitHub,e3377359,data/e3377359/src/9a66af99.php,436,436,F,-1,-1,,,Key
-110384,582e4a2b,GitHub,e3377359,data/e3377359/src/582e4a2b.php,199,199,F,-1,-1,,,Key
-110385,bc555d60,GitHub,e3377359,data/e3377359/src/bc555d60.php,17,17,F,-1,-1,,,Key
+110383,9a66af99,GitHub,e3377359,data/e3377359/src/9a66af99.php,436,436,F,,,,,Key
+110384,582e4a2b,GitHub,e3377359,data/e3377359/src/582e4a2b.php,199,199,F,,,,,Key
+110385,bc555d60,GitHub,e3377359,data/e3377359/src/bc555d60.php,17,17,F,,,,,Key
 110386,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,2,2,T,253,285,,,Nonce
 110387,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,3,3,T,249,265,,,Nonce
 110388,934f079f,GitHub,e3377359,data/e3377359/test/934f079f.log,4,4,T,253,285,,,Nonce
@@ -108,9 +108,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 133002,047b4d21,GitHub,e3377359,data/e3377359/src/047b4d21.php,154,154,F,,,,,Password
 133003,34a6ce8d,GitHub,e3377359,data/e3377359/src/34a6ce8d.php,64,64,F,,,,,Password
 133004,65e00ff4,GitHub,e3377359,data/e3377359/src/65e00ff4.php,103,103,F,,,,,Password
-134703,4da67d3d,GitHub,e3377359,data/e3377359/src/4da67d3d.php,144,144,F,-1,-1,,,Key
-134704,eb6371ea,GitHub,e3377359,data/e3377359/src/eb6371ea.php,148,148,F,-1,-1,,,Key
-134807,87fccb9b,GitHub,e3377359,data/e3377359/src/87fccb9b.php,356,356,T,183,-1,,,BASE64 Private Key
+134703,4da67d3d,GitHub,e3377359,data/e3377359/src/4da67d3d.php,144,144,F,,,,,Key
+134704,eb6371ea,GitHub,e3377359,data/e3377359/src/eb6371ea.php,148,148,F,,,,,Key
+134807,87fccb9b,GitHub,e3377359,data/e3377359/src/87fccb9b.php,356,356,T,183,,,,BASE64 Private Key
 137369,bc555d60,GitHub,e3377359,data/e3377359/src/bc555d60.php,52,52,F,496,520,,,Atlassian Old PAT token
 138198,bc555d60,GitHub,e3377359,data/e3377359/src/bc555d60.php,52,52,T,540,555,,,Key
 1479647,87fccb9b,GitHub,e3377359,data/e3377359/src/87fccb9b.php,357,357,T,78,96,,,Tencent WeChat API App ID

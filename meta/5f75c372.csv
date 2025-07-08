@@ -1,11 +1,11 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd,CryptographyKey,PredefinedPattern,Category
 1903,2c65b57f,GitHub,5f75c372,data/5f75c372/test/2c65b57f.tf,22,22,F,,,,,Key
-2182,3295df72,GitHub,5f75c372,data/5f75c372/src/3295df72.sum,427,427,F,-1,-1,,,Other
-3513,3295df72,GitHub,5f75c372,data/5f75c372/src/3295df72.sum,136,136,F,-1,-1,,,Other
-3540,3295df72,GitHub,5f75c372,data/5f75c372/src/3295df72.sum,137,137,F,-1,-1,,,Other
-5794,41dd8e74,GitHub,5f75c372,data/5f75c372/test/41dd8e74.go,28,28,F,-1,-1,,,Other
+2182,3295df72,GitHub,5f75c372,data/5f75c372/src/3295df72.sum,427,427,F,,,,,Other
+3513,3295df72,GitHub,5f75c372,data/5f75c372/src/3295df72.sum,136,136,F,,,,,Other
+3540,3295df72,GitHub,5f75c372,data/5f75c372/src/3295df72.sum,137,137,F,,,,,Other
+5794,41dd8e74,GitHub,5f75c372,data/5f75c372/test/41dd8e74.go,28,28,F,,,,,Other
 5903,cf795bb2,GitHub,5f75c372,data/5f75c372/test/cf795bb2.yml,2,2,F,,,,,API
-6525,6becc8ce,GitHub,5f75c372,data/5f75c372/test/6becc8ce.md,55,55,F,-1,-1,,,Key:Gitlab Feed Token
+6525,6becc8ce,GitHub,5f75c372,data/5f75c372/test/6becc8ce.md,55,55,F,,,,,Key:Gitlab Feed Token
 6863,a60634a0,GitHub,5f75c372,data/5f75c372/src/a60634a0.js,3,3,F,,,,,Token
 7062,3bde6377,GitHub,5f75c372,data/5f75c372/test/3bde6377.tf,123,123,F,,,,,Password
 7063,9befb857,GitHub,5f75c372,data/5f75c372/test/9befb857.tf,135,135,F,,,,,Password
@@ -14,27 +14,27 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 8875,07f8effc,GitHub,5f75c372,data/5f75c372/test/07f8effc.go,17,17,X,17,42,,,Secret
 8906,6ee4e039,GitHub,5f75c372,data/5f75c372/test/6ee4e039.tf,76,76,F,,,,,Password
 9101,0d1b2abd,GitHub,5f75c372,data/5f75c372/test/0d1b2abd.go,18,18,F,,,,,Secret
-12413,878d3a8a,GitHub,5f75c372,data/5f75c372/test/878d3a8a.tf,47,47,F,-1,-1,,,Key
-12458,6c43e2c9,GitHub,5f75c372,data/5f75c372/src/6c43e2c9.go,136,136,F,-1,-1,,,Key
+12413,878d3a8a,GitHub,5f75c372,data/5f75c372/test/878d3a8a.tf,47,47,F,,,,,Key
+12458,6c43e2c9,GitHub,5f75c372,data/5f75c372/src/6c43e2c9.go,136,136,F,,,,,Key
 12685,78a8a197,GitHub,5f75c372,data/5f75c372/src/78a8a197.yml,89,89,F,,,,,Key
 13146,9ace91f5,GitHub,5f75c372,data/5f75c372/src/9ace91f5.go,128,128,F,,,,,Auth
-13149,2c65b57f,GitHub,5f75c372,data/5f75c372/test/2c65b57f.tf,23,23,F,-1,-1,,,Key
-13621,a801b635,GitHub,5f75c372,data/5f75c372/src/a801b635.go,71,71,F,-1,-1,,,Key:Gitlab Feed Token
-13622,b9ee5a22,GitHub,5f75c372,data/5f75c372/src/b9ee5a22.go,214,214,F,-1,-1,,,Key:Gitlab Feed Token
-13623,a801b635,GitHub,5f75c372,data/5f75c372/src/a801b635.go,106,106,F,-1,-1,,,Key:Gitlab Feed Token
-13624,a801b635,GitHub,5f75c372,data/5f75c372/src/a801b635.go,67,67,F,-1,-1,,,Key:Gitlab Feed Token
-13937,588f045d,GitHub,5f75c372,data/5f75c372/src/588f045d.go,56,56,F,-1,-1,,,Key
-14034,a801b635,GitHub,5f75c372,data/5f75c372/src/a801b635.go,40,40,F,-1,-1,,,Key:Gitlab Feed Token
+13149,2c65b57f,GitHub,5f75c372,data/5f75c372/test/2c65b57f.tf,23,23,F,,,,,Key
+13621,a801b635,GitHub,5f75c372,data/5f75c372/src/a801b635.go,71,71,F,,,,,Key:Gitlab Feed Token
+13622,b9ee5a22,GitHub,5f75c372,data/5f75c372/src/b9ee5a22.go,214,214,F,,,,,Key:Gitlab Feed Token
+13623,a801b635,GitHub,5f75c372,data/5f75c372/src/a801b635.go,106,106,F,,,,,Key:Gitlab Feed Token
+13624,a801b635,GitHub,5f75c372,data/5f75c372/src/a801b635.go,67,67,F,,,,,Key:Gitlab Feed Token
+13937,588f045d,GitHub,5f75c372,data/5f75c372/src/588f045d.go,56,56,F,,,,,Key
+14034,a801b635,GitHub,5f75c372,data/5f75c372/src/a801b635.go,40,40,F,,,,,Key:Gitlab Feed Token
 14498,8e8e7fbc,GitHub,5f75c372,data/5f75c372/test/8e8e7fbc.tf,111,111,F,,,,,Password
-17004,e8fe8eaf,GitHub,5f75c372,data/5f75c372/src/e8fe8eaf.go,60,60,F,-1,-1,,,Key
+17004,e8fe8eaf,GitHub,5f75c372,data/5f75c372/src/e8fe8eaf.go,60,60,F,,,,,Key
 17109,505d5299,GitHub,5f75c372,data/5f75c372/src/505d5299.go,589,589,F,,,,,Token
-17195,f4c0c8ff,GitHub,5f75c372,data/5f75c372/src/f4c0c8ff.go,16,16,F,-1,-1,,,Key
+17195,f4c0c8ff,GitHub,5f75c372,data/5f75c372/src/f4c0c8ff.go,16,16,F,,,,,Key
 18479,f0e5ac91,GitHub,5f75c372,data/5f75c372/test/f0e5ac91.log,67,67,F,,,,,Password
-20288,ab0cecbf,GitHub,5f75c372,data/5f75c372/test/ab0cecbf.go,37,37,F,-1,-1,,,Key
-23223,58bdb77b,GitHub,5f75c372,data/5f75c372/src/58bdb77b.go,38,38,F,-1,-1,,,Other
+20288,ab0cecbf,GitHub,5f75c372,data/5f75c372/test/ab0cecbf.go,37,37,F,,,,,Key
+23223,58bdb77b,GitHub,5f75c372,data/5f75c372/src/58bdb77b.go,38,38,F,,,,,Other
 23731,b803fcb7,GitHub,5f75c372,data/5f75c372/src/b803fcb7.yml,89,89,F,,,,,Password
-24988,505d5299,GitHub,5f75c372,data/5f75c372/src/505d5299.go,271,271,F,-1,-1,,,Key
-25075,cc399de9,GitHub,5f75c372,data/5f75c372/test/cc399de9.go,162,162,F,-1,-1,,,Key
+24988,505d5299,GitHub,5f75c372,data/5f75c372/src/505d5299.go,271,271,F,,,,,Key
+25075,cc399de9,GitHub,5f75c372,data/5f75c372/test/cc399de9.go,162,162,F,,,,,Key
 26097,057bf3e3,GitHub,5f75c372,data/5f75c372/src/057bf3e3.go,127,127,F,,,,,Secret
 34216,8def9ba9,GitHub,5f75c372,data/5f75c372/test/8def9ba9.go,80,80,F,25,34,,,Password
 36060,04a02b14,GitHub,5f75c372,data/5f75c372/test/04a02b14.tf,147,147,T,16,24,,,Password
@@ -91,15 +91,15 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 56849,f0e5ac91,GitHub,5f75c372,data/5f75c372/test/f0e5ac91.log,153,153,F,,,,,Password
 56850,f0e5ac91,GitHub,5f75c372,data/5f75c372/test/f0e5ac91.log,154,154,F,,,,,Password
 56851,f0e5ac91,GitHub,5f75c372,data/5f75c372/test/f0e5ac91.log,52,52,F,,,,,Password
-57162,e8fe8eaf,GitHub,5f75c372,data/5f75c372/src/e8fe8eaf.go,69,69,F,-1,-1,,,Key
+57162,e8fe8eaf,GitHub,5f75c372,data/5f75c372/src/e8fe8eaf.go,69,69,F,,,,,Key
 57971,b803fcb7,GitHub,5f75c372,data/5f75c372/src/b803fcb7.yml,110,110,F,,,,,Password
-75131,a801b635,GitHub,5f75c372,data/5f75c372/src/a801b635.go,102,102,F,-1,-1,,,Key:Gitlab Feed Token
+75131,a801b635,GitHub,5f75c372,data/5f75c372/src/a801b635.go,102,102,F,,,,,Key:Gitlab Feed Token
 102633,b803fcb7,GitHub,5f75c372,data/5f75c372/src/b803fcb7.yml,95,95,F,,,,,Secret
 102634,b803fcb7,GitHub,5f75c372,data/5f75c372/src/b803fcb7.yml,116,116,F,,,,,Secret
 102635,b803fcb7,GitHub,5f75c372,data/5f75c372/src/b803fcb7.yml,128,128,F,,,,,Secret
 102636,6d2dd2e5,GitHub,5f75c372,data/5f75c372/test/6d2dd2e5.tf,59,59,F,,,,,Secret
-102637,04a02b14,GitHub,5f75c372,data/5f75c372/test/04a02b14.tf,45,45,F,-1,-1,,,Other
-102638,04a02b14,GitHub,5f75c372,data/5f75c372/test/04a02b14.tf,49,49,F,-1,-1,,,Other
+102637,04a02b14,GitHub,5f75c372,data/5f75c372/test/04a02b14.tf,45,45,F,,,,,Other
+102638,04a02b14,GitHub,5f75c372,data/5f75c372/test/04a02b14.tf,49,49,F,,,,,Other
 113760,3295df72,GitHub,5f75c372,data/5f75c372/src/3295df72.sum,39,39,F,,,,,Auth
 113761,3295df72,GitHub,5f75c372,data/5f75c372/src/3295df72.sum,511,511,F,,,,,Auth
 113762,3295df72,GitHub,5f75c372,data/5f75c372/src/3295df72.sum,512,512,F,,,,,Auth
@@ -107,8 +107,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 113764,3295df72,GitHub,5f75c372,data/5f75c372/src/3295df72.sum,514,514,F,,,,,Auth
 113765,3295df72,GitHub,5f75c372,data/5f75c372/src/3295df72.sum,515,515,F,,,,,Auth
 113766,3295df72,GitHub,5f75c372,data/5f75c372/src/3295df72.sum,516,516,F,,,,,Auth
-113767,04a02b14,GitHub,5f75c372,data/5f75c372/test/04a02b14.tf,124,124,F,-1,-1,,,Key
-113768,04a02b14,GitHub,5f75c372,data/5f75c372/test/04a02b14.tf,157,157,F,-1,-1,,,Key
+113767,04a02b14,GitHub,5f75c372,data/5f75c372/test/04a02b14.tf,124,124,F,,,,,Key
+113768,04a02b14,GitHub,5f75c372,data/5f75c372/test/04a02b14.tf,157,157,F,,,,,Key
 130984,8def9ba9,GitHub,5f75c372,data/5f75c372/test/8def9ba9.go,95,95,F,,,,,Password
 130985,8def9ba9,GitHub,5f75c372,data/5f75c372/test/8def9ba9.go,67,67,F,,,,,Password
 130986,b9e72547,GitHub,5f75c372,data/5f75c372/test/b9e72547.tf,39,39,F,,,,,Password
