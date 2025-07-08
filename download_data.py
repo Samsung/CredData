@@ -124,12 +124,12 @@ def move_files(snapshot_data, dataset_dir):
             with open(meta_file_path, "w") as f:
                 f.write("Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd"
                         ",CryptographyKey,PredefinedPattern,Category\n")
-            raise RuntimeError( f"New meta file {meta_file_path}! Restart again for new repo.")
+            raise RuntimeError(f"New meta file {meta_file_path}! Restart again for new repo.")
 
         logger.info(f"Processing: {i + 1}/{len(snapshot_data)} {repo_id} : {repo_url}")
 
         # Select file names from meta that we will use in dataset file_id : file_path
-        interesting_files:Dict[str,str] = {}
+        interesting_files: Dict[str, str] = {}
         meta_rows = read_meta(meta_file_path)
         for row in meta_rows:
             key = row.FileID
@@ -186,7 +186,7 @@ def move_files(snapshot_data, dataset_dir):
             code_file_location = f'{code_file_basedir}{file_id}{file_extension}'
 
             for row in meta_rows:
-                if row.FileID == file_id and row.FilePath==code_file_location:
+                if row.FileID == file_id and row.FilePath == code_file_location:
                     logger.debug(row)
                     break
             else:
