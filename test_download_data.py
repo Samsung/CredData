@@ -11,7 +11,7 @@ class DownloadTest(unittest.TestCase):
                          get_file_scope("/usr/local/lib/python"))
         self.assertEqual("/conf/",
                          get_file_scope("config/config.yml"))
-        self.assertEqual("/spec/",
+        self.assertEqual("/spec/modul/",
                          get_file_scope("pet/modules/stdlib/spec/functions/t.rb"))
         self.assertEqual("/test/src/conf/resource/docker/",
                          get_file_scope("src/test/resources/dockerConfig/myDockerCfg"))
