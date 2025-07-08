@@ -41,7 +41,6 @@ def get_file_scope(path_without_extension: str):
             if not result.endswith('/'):
                 result += '/'
     if '/' == result:
-        logger.warning(path_without_extension)
         result = "/_/"
     return result
 
@@ -153,13 +152,17 @@ def move_files(snapshot_data, dataset_dir):
         for full_path in all_repo_files:
             short_path = os.path.relpath(full_path, f"{TMP_DIR}/{repo_id}/").replace('\\', '/')
             file_id = hashlib.sha256(short_path.encode()).hexdigest()[:8]
+            if "/.git/" in short_path or short_path.endswith(".xml"):
+                # skip the path because changeable .git system files, .xml different value position and line
+                if file_id in interesting_files.keys():
+                    logger.warning(f"SKIP: {full_path}")
+                continue
             file_path_name, file_extension = os.path.splitext(short_path)
             # use lowercase of extension to match ml_config data
             file_extension = file_extension.lower()
             new_file_scope = get_file_scope(file_path_name)
             # copy all files if empty meta file except .git/* and .xml files
-            if file_id in interesting_files.keys() \
-                    or not meta_rows and "/.git/" not in full_path and not full_path.endswith(".xml"):
+            if file_id in interesting_files.keys() or not meta_rows:
                 files_found[full_path] = (file_id, new_file_scope, file_extension)
                 logger.debug(f"COPY {full_path} -> {new_repo_id}{new_file_scope}{file_id}")
             else:
