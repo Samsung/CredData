@@ -1,9 +1,10 @@
 import csv
+import dataclasses
 import os
 from pathlib import Path
 from typing import Union, List, Generator
 
-
+@dataclasses.dataclass
 class MetaRow:
     """Class represented meta markup row structure"""
 
