@@ -1,28 +1,28 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd,CryptographyKey,PredefinedPattern,Category
-1000,30889f66,GitHub,2c47a91c,data/2c47a91c/src/30889f66.toml,1,1,F,,,,,Password:URL Credentials
-1790,8a4fd915,GitHub,2c47a91c,data/2c47a91c/src/8a4fd915.vue,60,60,F,,,,,Credential
-2719,b3ef96e9,GitHub,2c47a91c,data/2c47a91c/src/b3ef96e9.js,86,86,F,,,,,Secret
-4353,5b5614c4,GitHub,2c47a91c,data/2c47a91c/other/5b5614c4.md,148,148,F,,,,,Password
-9034,0f2a9acd,GitHub,2c47a91c,data/2c47a91c/src/0f2a9acd.js,19,19,F,,,,,Key
-9063,0f2a9acd,GitHub,2c47a91c,data/2c47a91c/src/0f2a9acd.js,20,20,X,19,30,,,Password
-12723,b8a7c402,GitHub,2c47a91c,data/2c47a91c/other/b8a7c402.md,36,36,F,,,,,Key
-13761,642bb635,GitHub,2c47a91c,data/2c47a91c/src/642bb635.js,8,8,F,,,,,Key
-13810,98c2f295,GitHub,2c47a91c,data/2c47a91c/src/98c2f295.js,59,59,F,,,,,Key
-18458,b8a7c402,GitHub,2c47a91c,data/2c47a91c/other/b8a7c402.md,139,139,F,34,39,,,Password
-27437,194590ed,GitHub,2c47a91c,data/2c47a91c/test/194590ed.json,70,70,T,19,28,,,Password
-28169,fc5f13dd,GitHub,2c47a91c,data/2c47a91c/src/fc5f13dd.js,218,218,T,15,24,,,Password
-29476,fc5f13dd,GitHub,2c47a91c,data/2c47a91c/src/fc5f13dd.js,193,193,X,10,33,,,Token
-29949,b8a7c402,GitHub,2c47a91c,data/2c47a91c/other/b8a7c402.md,37,37,X,15,30,,,Secret
-32412,fc5f13dd,GitHub,2c47a91c,data/2c47a91c/src/fc5f13dd.js,313,313,T,37,41,,,Password:URL Credentials
-32414,e7c9e707,GitHub,2c47a91c,data/2c47a91c/src/e7c9e707.js,60,60,T,37,41,,,Password:URL Credentials
-32722,b8a7c402,GitHub,2c47a91c,data/2c47a91c/other/b8a7c402.md,180,180,T,15,42,,,API:Key
-34993,194590ed,GitHub,2c47a91c,data/2c47a91c/test/194590ed.json,112,112,X,43,47,,,Password:URL Credentials
-35765,fc5f13dd,GitHub,2c47a91c,data/2c47a91c/src/fc5f13dd.js,174,174,X,17,21,,,Password:URL Credentials
-41717,f4cd0e61,GitHub,2c47a91c,data/2c47a91c/src/f4cd0e61.js,6,6,F,,,,,API
-113724,5b5614c4,GitHub,2c47a91c,data/2c47a91c/other/5b5614c4.md,124,124,F,,,,,Key
-130961,4bb69574,GitHub,2c47a91c,data/2c47a91c/src/4bb69574.js,34,34,F,,,,,Password
-130962,b8a7c402,GitHub,2c47a91c,data/2c47a91c/other/b8a7c402.md,132,132,F,,,,,Password
-130964,fc5f13dd,GitHub,2c47a91c,data/2c47a91c/src/fc5f13dd.js,205,205,F,,,,,Key
-130965,4bb69574,GitHub,2c47a91c,data/2c47a91c/src/4bb69574.js,22,22,F,,,,,Password
-130966,fc5f13dd,GitHub,2c47a91c,data/2c47a91c/src/fc5f13dd.js,135,135,F,,,,,Password
-130969,fc5f13dd,GitHub,2c47a91c,data/2c47a91c/src/fc5f13dd.js,207,207,F,,,,,Secret
+1000,30889f66,GitHub,2c47a91c,data/2c47a91c/conf/30889f66.toml,1,1,F,,,,,Password:URL Credentials
+1790,8a4fd915,GitHub,2c47a91c,data/2c47a91c/src/conf/api/build/8a4fd915.vue,60,60,F,,,,,Credential
+2719,b3ef96e9,GitHub,2c47a91c,data/2c47a91c/_/b3ef96e9.js,86,86,F,,,,,Secret
+4353,5b5614c4,GitHub,2c47a91c,data/2c47a91c/conf/docs/server/5b5614c4.md,148,148,F,,,,,Password
+9034,0f2a9acd,GitHub,2c47a91c,data/2c47a91c/_/0f2a9acd.js,19,19,F,,,,,Key
+9063,0f2a9acd,GitHub,2c47a91c,data/2c47a91c/_/0f2a9acd.js,20,20,X,19,30,,,Password
+12723,b8a7c402,GitHub,2c47a91c,data/2c47a91c/docs/b8a7c402.md,36,36,F,,,,,Key
+13761,642bb635,GitHub,2c47a91c,data/2c47a91c/src/modul/642bb635.js,8,8,F,,,,,Key
+13810,98c2f295,GitHub,2c47a91c,data/2c47a91c/util/98c2f295.js,59,59,F,,,,,Key
+18458,b8a7c402,GitHub,2c47a91c,data/2c47a91c/docs/b8a7c402.md,139,139,F,34,39,,,Password
+27437,194590ed,GitHub,2c47a91c,data/2c47a91c/test/conf/194590ed.json,70,70,T,19,28,,,Password
+28169,fc5f13dd,GitHub,2c47a91c,data/2c47a91c/sample/conf/fc5f13dd.js,218,218,T,15,24,,,Password
+29476,fc5f13dd,GitHub,2c47a91c,data/2c47a91c/sample/conf/fc5f13dd.js,193,193,X,10,33,,,Token
+29949,b8a7c402,GitHub,2c47a91c,data/2c47a91c/docs/b8a7c402.md,37,37,X,15,30,,,Secret
+32412,fc5f13dd,GitHub,2c47a91c,data/2c47a91c/sample/conf/fc5f13dd.js,313,313,T,37,41,,,Password:URL Credentials
+32414,e7c9e707,GitHub,2c47a91c,data/2c47a91c/conf/e7c9e707.js,60,60,T,37,41,,,Password:URL Credentials
+32722,b8a7c402,GitHub,2c47a91c,data/2c47a91c/docs/b8a7c402.md,180,180,T,15,42,,,API:Key
+34993,194590ed,GitHub,2c47a91c,data/2c47a91c/test/conf/194590ed.json,112,112,X,43,47,,,Password:URL Credentials
+35765,fc5f13dd,GitHub,2c47a91c,data/2c47a91c/sample/conf/fc5f13dd.js,174,174,X,17,21,,,Password:URL Credentials
+41717,f4cd0e61,GitHub,2c47a91c,data/2c47a91c/_/f4cd0e61.js,6,6,F,,,,,API
+113724,5b5614c4,GitHub,2c47a91c,data/2c47a91c/conf/docs/server/5b5614c4.md,124,124,F,,,,,Key
+130961,4bb69574,GitHub,2c47a91c,data/2c47a91c/_/4bb69574.js,34,34,F,,,,,Password
+130962,b8a7c402,GitHub,2c47a91c,data/2c47a91c/docs/b8a7c402.md,132,132,F,,,,,Password
+130964,fc5f13dd,GitHub,2c47a91c,data/2c47a91c/sample/conf/fc5f13dd.js,205,205,F,,,,,Key
+130965,4bb69574,GitHub,2c47a91c,data/2c47a91c/_/4bb69574.js,22,22,F,,,,,Password
+130966,fc5f13dd,GitHub,2c47a91c,data/2c47a91c/sample/conf/fc5f13dd.js,135,135,F,,,,,Password
+130969,fc5f13dd,GitHub,2c47a91c,data/2c47a91c/sample/conf/fc5f13dd.js,207,207,F,,,,,Secret
