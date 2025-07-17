@@ -1,5 +1,5 @@
-META MD5 8654fa487de09496e9f0e62bec4adb47
-DATA MD5 2ee55512f01b65054252d5dd8f509a4f
+META MD5 0df5aaaaeee040b550e54ec2af8e22fb
+DATA MD5 ca0cb97b261aa12072233ecec6f05ac0
 DATA: 16720464 interested lines. MARKUP: 61377 items
 FileType           FileNumber    ValidLines    Positives    Negatives
 ---------------  ------------  ------------  -----------  -----------
@@ -77,7 +77,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .haml                       9           191                        17
 .hbs                        2            54                         3
 .hs                        14          4140           30           65
-.html                      76         31895          115          132
+.html                      76         31895          114          133
 .idl                        3          1625           37            5
 .iml                        6           699                        30
 .in                         7          2242           10           50
@@ -118,7 +118,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .markdown                  38          5862           69            4
 .markerb                    3            12                         3
 .marko                      1            21                         2
-.md                       781        185010         1045         2887
+.md                       781        185010         1044         2888
 .mdx                        3           549                         7
 .mjml                       1            18                         1
 .mjs                       22          4424          101          369
@@ -232,7 +232,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .yml                      555         54516         1870         1223
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  11517      16720464        16222        50313
+TOTAL:                  11517      16720464        16220        50315
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -283,8 +283,8 @@ Secret                                 1501         2378                 0     0
 Slack Token                               4            1                 0     0      1      4  0.000000  1.000000  0.200000         0.000000
 Stripe Credentials                        2            0                 0     0      0      2            1.000000  0.000000         0.000000
 Tencent WeChat API App ID                47            0                 0     0      0     47            1.000000  0.000000         0.000000
-Token                                   952         4638                 0     0   4638    952  0.000000  1.000000  0.829696         0.000000
+Token                                   950         4640                 0     0   4640    950  0.000000  1.000000  0.830054         0.000000
 Twilio Credentials                       30           39                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         237          361                 0     0    361    237  0.000000  1.000000  0.603679         0.000000
 UUID                                   1866          265                 0     0    265   1866  0.000000  1.000000  0.124355         0.000000
-                                      16222        50313           0     0     0  50313  16222  0.000000  1.000000  0.756188         0.000000
+                                      16220        50315           0     0     0  50315  16220  0.000000  1.000000  0.756219         0.000000

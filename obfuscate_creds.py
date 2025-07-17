@@ -144,10 +144,11 @@ def get_obfuscated_value(value, meta_row: MetaRow):
             obfuscated_value = obfuscate_jwt(value)
     elif value.startswith("hooks.slack.com/services/"):
         obfuscated_value = "hooks.slack.com/services/" + generate_value(value[25:])
-    elif value.startswith("wx") and 18 == len(value) \
-            or (any(value.startswith(x) for x in ["AC", "AD", "AL", "CA", "CF", "CL", "CN", "CR", "FW", "IP", "KS",
-                                                  "MM", "NO", "PK", "PN", "QU", "RE", "SA", "SC", "SD", "SH", "SK",
-                                                  "SM", "SU", "TR", "UT", "XE", "XR"]) and 34 == len(value)) \
+    elif 18 == len(value) and value.startswith("wx") \
+            or 34 == len(value) and any(value.startswith(x) for x in
+                                        ["AC", "AD", "AL", "CA", "CF", "CL", "CN", "CR", "FW", "IP",
+                                         "KS", "MM", "NO", "PK", "PN", "QU", "RE", "SC", "SD", "SK",
+                                         "SM", "TR", "UT", "XE", "XR"]) \
             or value.startswith('S') and NKEY_SEED_PATTERN.match(value):
         obfuscated_value = value[:2] + generate_value(value[2:])
     elif value.startswith("00D") and (12 <= len(value) <= 18 or '!' in value):
