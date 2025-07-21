@@ -1,9 +1,12 @@
 import csv
+import dataclasses
 import os
 from pathlib import Path
 from typing import Union, List, Generator
 
 
+# dataclass is required for csv writer
+@dataclasses.dataclass
 class MetaRow:
     """Class represented meta markup row structure"""
 

@@ -1,4 +1,5 @@
 import binascii
+import functools
 import hashlib
 import json
 import logging
@@ -9,7 +10,7 @@ import subprocess
 import sys
 from argparse import Namespace, ArgumentParser
 from multiprocessing import Pool
-from typing import Tuple, Any
+from typing import Tuple, Any, Dict
 
 from meta_row import read_meta
 from obfuscate_creds import obfuscate_creds
@@ -21,18 +22,28 @@ logger = logging.getLogger(__file__)
 
 TMP_DIR = "tmp"
 
-def get_file_type(file_path: str, file_extension: str):
-    file_path = file_path.lower()
 
-    example_indicators = ["test", "examp"]
-    other_indicators = ["doc/", "documen", ".md", "readme"]
+@functools.cache
+def get_words_in_path():
+    # json format is used to prevent strings concatenation in python without comma in multiline
+    with open("word_in_path.json") as f:
+        # the file should be the same list in CredSweeper ml_config
+        result = json.load(f)
+    return result
 
-    if any(ind in file_path for ind in example_indicators):
-        return "test"
-    if any(ind in file_path for ind in other_indicators) or file_extension == "":
-        return "other"
 
-    return "src"
+def get_file_scope(path_without_extension: str):
+    result = '/'
+    local_file_path_lower = f"./{path_without_extension.lower()}"
+    for word in get_words_in_path():
+        if word in local_file_path_lower:
+            result += word[1:] if word.startswith('/') else word
+            if not result.endswith('/'):
+                result += '/'
+    if '/' == result:
+        # underscore is new "other"
+        result = "/_/"
+    return result
 
 
 def collect_licenses(repo_id):
@@ -114,12 +125,12 @@ def move_files(snapshot_data, dataset_dir):
             with open(meta_file_path, "w") as f:
                 f.write("Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd"
                         ",CryptographyKey,PredefinedPattern,Category\n")
-            raise RuntimeError( f"New meta file {meta_file_path}! Restart again for new repo.")
+            raise RuntimeError(f"New meta file {meta_file_path}! Restart again for new repo.")
 
         logger.info(f"Processing: {i + 1}/{len(snapshot_data)} {repo_id} : {repo_url}")
 
-        # Select file names from meta that we will use in dataset
-        interesting_files = dict()
+        # Select file names from meta that we will use in dataset file_id : file_path
+        interesting_files: Dict[str, str] = {}
         meta_rows = read_meta(meta_file_path)
         for row in meta_rows:
             key = row.FileID
@@ -133,28 +144,33 @@ def move_files(snapshot_data, dataset_dir):
 
         # Select all files in the repo
         # pathlib.Path.glob used instead of glob.glob, as glob.glob could not search for a hidden files
-        repo_files = pathlib.Path(f"{TMP_DIR}/{repo_id}").glob("**/*")
-        repo_files = [str(p) for p in repo_files if p.is_file() and not p.is_symlink()]
-        files_found = set()
-        ids_found = set()
+        all_repo_items = pathlib.Path(f"{TMP_DIR}/{repo_id}").glob("**/*")
+        all_repo_files = [str(p) for p in all_repo_items if p.is_file() and not p.is_symlink()]
+        # full_path : file_id, file_scope, file_extension
+        files_found: Dict[str, Tuple[str, str, str]] = {}
 
         # For each file find its mapping to the metadata or skip
-        for full_path in repo_files:
+        for full_path in all_repo_files:
             short_path = os.path.relpath(full_path, f"{TMP_DIR}/{repo_id}/").replace('\\', '/')
             file_id = hashlib.sha256(short_path.encode()).hexdigest()[:8]
-            _, file_extension = os.path.splitext(full_path)
-            file_type = get_file_type(short_path, file_extension)
+            if "/.git/" in short_path or short_path.endswith(".xml"):
+                # skip the path because changeable .git system files, .xml different value position and line
+                if file_id in interesting_files.keys():
+                    logger.warning(f"SKIP: {full_path}")
+                continue
+            file_path_name, file_extension = os.path.splitext(short_path)
+            # use lowercase of extension to match ml_config data
+            file_extension = file_extension.lower()
+            new_file_scope = get_file_scope(file_path_name)
             # copy all files if empty meta file except .git/* and .xml files
-            if file_id in interesting_files.keys() \
-                    or not meta_rows and "/.git/" not in full_path and not full_path.endswith(".xml"):
-                files_found.add(full_path)
-                ids_found.add(file_id)
-                logger.debug(f"COPY {full_path} ; {short_path} -> {file_id} : {new_repo_id} : {file_type}")
+            if file_id in interesting_files.keys() or not meta_rows:
+                files_found[full_path] = (file_id, new_file_scope, file_extension)
+                logger.debug(f"COPY {full_path} -> {new_repo_id}{new_file_scope}{file_id}")
             else:
-                logger.debug(f"SKIP {full_path} ; {short_path} -> {file_id} : {new_repo_id} : {file_type}")
-
+                logger.debug(f"SKIP {full_path} ; {new_repo_id}{new_file_scope}{file_id}")
         # Check if there are files that present in meta but we could not find, or we somehow found files not from meta
-        if meta_rows and 0 != len(ids_found.symmetric_difference(set(interesting_files.keys()))):
+        if meta_rows and \
+                0 != len(set(x[0] for x in files_found.values()).symmetric_difference(set(interesting_files.keys()))):
             logger.error(f"Couldn't find all files mentioned in metadata for {new_repo_id} repo. "
                          f"Removing {meta_file_path}, so missing files would not count in the dataset statistics. "
                          f"You can use git to restore {meta_file_path} file back")
@@ -164,18 +180,14 @@ def move_files(snapshot_data, dataset_dir):
             continue
 
         # Copy files to new dataset location
-        for j, full_path in enumerate(sorted(list(files_found))):
-            short_path = os.path.relpath(full_path, f"{TMP_DIR}/{repo_id}/").replace('\\', '/')
-            _, file_extension = os.path.splitext(full_path)
-            file_type = get_file_type(short_path, file_extension)
-            file_id = hashlib.sha256(short_path.encode()).hexdigest()[:8]
+        for full_path, (file_id, file_scope, file_extension) in files_found.items():
             logger.debug(f"{full_path} -> {file_id}")
 
-            code_file_basedir = f'{dataset_dir}/{new_repo_id}/{file_type}'
-            code_file_location = f'{code_file_basedir}/{file_id}{file_extension}'
+            code_file_basedir = f'{dataset_dir}/{new_repo_id}{file_scope}'
+            code_file_location = f'{code_file_basedir}{file_id}{file_extension}'
 
             for row in meta_rows:
-                if row.FilePath == code_file_location:
+                if row.FileID == file_id and row.FilePath == code_file_location:
                     logger.debug(row)
                     break
             else:
