@@ -15,6 +15,7 @@
    * [Benchmark](#benchmark)
      * [Main Requirements](#main-requirements)
      * [Installation](#installation)
+     * [How to extend the dataset](#how-to-extend-the-dataset)
      * [How to run](#how-to-run)
      * [Benchmark Result](#benchmark-result)
      * [Used Tools for Benchmarking](#used-tools-for-benchmarking)
@@ -264,6 +265,19 @@ $ virtualenv venv
 $ source venv/bin/activate
 $ pip install -qr requirements.txt
 ```
+
+### How to extend the dataset
+
+1. Find an interesting repo and commit
+2. add to snapshot.json the data:
+    ``` json
+    "{commit_hash}{any_padding_hex_symbols_to_64}": "https://github.com/org/repo",
+    ```
+3. run download_data.py twice (first - a meta file will be created, second - all files from the commit will be downloaded)
+4. run CredSweeper for the downloaded data to obtain a report (preferred with ``--ml_threshold 0`` argument)
+5. run benchmark for the report with ``--fix`` option - all found values will be inserted into meta
+6. review, correct markup if necessary, produce empty benchmark report for CI, commit the changes
+
 
 ### How to run
 ``` bash
