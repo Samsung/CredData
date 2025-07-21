@@ -296,10 +296,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 1340878,fcbbe89d,GitHub,db218f09,data/db218f09/test/fcbbe89d.py,1624,1624,T,15,51,,,UUID
 1494684,454fa962,GitHub,db218f09,data/db218f09/docs/454fa962.rst,115,115,T,14,24,,,API
 1494685,6980a264,GitHub,db218f09,data/db218f09/docs/6980a264.cast,346,346,T,37,47,,,API
-1494686,74592cdf,GitHub,db218f09,data/db218f09/docs/74592cdf.rst,159,159,T,16,25,,,Key
+1494686,74592cdf,GitHub,db218f09,data/db218f09/docs/74592cdf.rst,159,159,F,16,25,,,Key
 1494687,c481a265,GitHub,db218f09,data/db218f09/docs/c481a265.cast,350,350,T,37,47,,,API
-1494688,d52efe17,GitHub,db218f09,data/db218f09/sample/docs/d52efe17.rst,266,266,T,20,36,,,API
-1494689,d52efe17,GitHub,db218f09,data/db218f09/sample/docs/d52efe17.rst,330,330,T,20,36,,,API
+1494688,d52efe17,GitHub,db218f09,data/db218f09/sample/docs/d52efe17.rst,266,266,F,20,36,,,API
+1494689,d52efe17,GitHub,db218f09,data/db218f09/sample/docs/d52efe17.rst,330,330,F,20,36,,,API
 1494690,d52efe17,GitHub,db218f09,data/db218f09/sample/docs/d52efe17.rst,480,480,T,23,33,,,API
 1495020,6980a264,GitHub,db218f09,data/db218f09/docs/6980a264.cast,172,172,T,878,914,,,UUID
 1495021,6980a264,GitHub,db218f09,data/db218f09/docs/6980a264.cast,328,328,T,878,914,,,UUID
@@ -310,5 +310,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 1495026,d52efe17,GitHub,db218f09,data/db218f09/sample/docs/d52efe17.rst,267,267,T,22,58,,,UUID
 1495027,d52efe17,GitHub,db218f09,data/db218f09/sample/docs/d52efe17.rst,296,296,T,22,58,,,UUID
 1495028,d52efe17,GitHub,db218f09,data/db218f09/sample/docs/d52efe17.rst,331,331,T,22,58,,,UUID
-1509878,d52efe17,GitHub,db218f09,data/db218f09/sample/docs/d52efe17.rst,185,185,T,20,36,,,API
+1509878,d52efe17,GitHub,db218f09,data/db218f09/sample/docs/d52efe17.rst,185,185,F,20,36,,,API
 1525320,7b3ed02b,GitHub,db218f09,data/db218f09/_/7b3ed02b.rst,252,252,T,23,33,,,API
+11503162,c481a265,GitHub,db218f09,data/db218f09/docs/c481a265.cast,172,172,F,564,595,,,Password
+11503164,d52efe17,GitHub,db218f09,data/db218f09/sample/docs/d52efe17.rst,234,234,F,20,36,,,API
+11503165,d52efe17,GitHub,db218f09,data/db218f09/sample/docs/d52efe17.rst,295,295,F,20,36,,,API
