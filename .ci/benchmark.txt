@@ -1,6 +1,6 @@
-META MD5 2d245e910d6d5848ab7ece9dc10b5cb1
-DATA MD5 71754429c710723c4ed12b5fde4a82e4
-DATA: 16720463 interested lines. MARKUP: 61436 items
+META MD5 6adfc68bd8f6102262b1498d3f5c3f8b
+DATA MD5 29d49215bd4c799b0627693d40536a4e
+DATA: 16720463 interested lines. MARKUP: 61437 items
 FileType           FileNumber    ValidLines    Positives    Negatives
 ---------------  ------------  ------------  -----------  -----------
                           677         69567          134          488
@@ -90,7 +90,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .jenkinsfile                1            58            2            6
 .jinja2                     1            64                         2
 .js                       655        531277          582         2702
-.json                     885      13114471         1323        10117
+.json                     885      13114471         1321        10119
 .jsp                       13          3202            1           37
 .jsx                        7           857                        19
 .jwt                        1             1            2
@@ -166,7 +166,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .pyx                        2          1094                        23
 .r                          4            62            5            2
 .rake                       2            51                         2
-.rb                       852        130684          422         2967
+.rb                       852        130684          420         2970
 .re                         1            31                         1
 .red                        1           159                         1
 .release                    1            13                         4
@@ -232,7 +232,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .yml                      555         54516         1870         1227
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  11516      16720463        16243        50347
+TOTAL:                  11516      16720463        16239        50352
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -270,7 +270,7 @@ JSON Web Token                          168           61                 0     0
 JWK                                      55            0                 0     0      0     55            1.000000  0.000000         0.000000
 Jira / Confluence PAT token               0            4                 0     0      4      0  0.000000            1.000000
 Jira 2FA                                 36            2                 0     0      2     36  0.000000  1.000000  0.052632         0.000000
-Key                                    4215        16300                 0     0  16300   4215  0.000000  1.000000  0.794541         0.000000
+Key                                    4211        16305                 0     0  16305   4211  0.000000  1.000000  0.794746         0.000000
 NKEY Seed                                58            0                 0     0      0     58            1.000000  0.000000         0.000000
 Nonce                                   117           49                 0     0     49    117  0.000000  1.000000  0.295181         0.000000
 Other                                     9         7444                 0     0   7444      9  0.000000  1.000000  0.998792         0.000000
@@ -287,4 +287,4 @@ Token                                   950         4639                 0     0
 Twilio Credentials                       30           39                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         237          362                 0     0    362    237  0.000000  1.000000  0.604341         0.000000
 UUID                                   1866          265                 0     0    265   1866  0.000000  1.000000  0.124355         0.000000
-                                      16243        50347           0     0     0  50347  16243  0.000000  1.000000  0.756074         0.000000
+                                      16239        50352           0     0     0  50352  16239  0.000000  1.000000  0.756138         0.000000
