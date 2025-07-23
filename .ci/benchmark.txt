@@ -1,5 +1,5 @@
-META MD5 6adfc68bd8f6102262b1498d3f5c3f8b
-DATA MD5 d62a1da83e641c9c43b79223d71253cf
+META MD5 ee37eb72e935123ff5f6053434e4b9cf
+DATA MD5 d021a9ea31d031e654dbb9a042bc0fa3
 DATA: 16720463 interested lines. MARKUP: 61437 items
 FileType           FileNumber    ValidLines    Positives    Negatives
 ---------------  ------------  ------------  -----------  -----------
@@ -37,7 +37,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .creds                      1            10            2            1
 .crlf                       1            27            1
 .crt                        2          4979                       126
-.cs                       268         82752          278          959
+.cs                       268         82752          255          981
 .cshtml                     5           180                        12
 .csp                        3           379                         9
 .csproj                     1            14                         1
@@ -118,7 +118,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .markdown                  38          5862           69            4
 .markerb                    3            12                         3
 .marko                      1            21                         2
-.md                       781        185010         1044         2888
+.md                       781        185010         1043         2888
 .mdx                        3           549                         7
 .mjml                       1            18                         1
 .mjs                       22          4424          101          369
@@ -159,7 +159,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .pug                        2           193                         2
 .purs                       1            69                         4
 .pxd                        1           150            2            4
-.py                       901        294351          746         3929
+.py                       901        294351          745         3930
 .pyi                        4          1361                         9
 .pyp                        1           167                         1
 .python                     1           213
@@ -232,7 +232,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .yml                      555         54516         1870         1227
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  11516      16720463        16239        50352
+TOTAL:                  11516      16720463        16214        50375
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -275,7 +275,7 @@ NKEY Seed                                58            0                 0     0
 Nonce                                   117           49                 0     0     49    117  0.000000  1.000000  0.295181         0.000000
 Other                                     9         7444                 0     0   7444      9  0.000000  1.000000  0.998792         0.000000
 PEM Private Key                        1142           76                 0     0     76   1142  0.000000  1.000000  0.062397         0.000000
-Password                               2506         9975                 0     0   9975   2506  0.000000  1.000000  0.799215         0.000000
+Password                               2497         9982                 0     0   9982   2497  0.000000  1.000000  0.799904         0.000000
 SQL Password                             44           14                 0     0     14     44  0.000000  1.000000  0.241379         0.000000
 Salesforce Credentials                    6            0                 0     0      0      6            1.000000  0.000000         0.000000
 Salt                                     85           75                 0     0     75     85  0.000000  1.000000  0.468750         0.000000
@@ -285,6 +285,6 @@ Stripe Credentials                        2            0                 0     0
 Tencent WeChat API App ID                47            0                 0     0      0     47            1.000000  0.000000         0.000000
 Token                                   950         4639                 0     0   4639    950  0.000000  1.000000  0.830023         0.000000
 Twilio Credentials                       30           39                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
-URL Credentials                         237          362                 0     0    362    237  0.000000  1.000000  0.604341         0.000000
+URL Credentials                         221          378                 0     0    378    221  0.000000  1.000000  0.631052         0.000000
 UUID                                   1866          265                 0     0    265   1866  0.000000  1.000000  0.124355         0.000000
-                                      16239        50352           0     0     0  50352  16239  0.000000  1.000000  0.756138         0.000000
+                                      16214        50375           0     0     0  50375  16214  0.000000  1.000000  0.756506         0.000000
