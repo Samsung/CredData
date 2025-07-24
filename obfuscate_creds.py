@@ -20,7 +20,7 @@ DIGITS = string.digits.encode("ascii")
 DIGITS4RAND = DIGITS[1:]
 
 NKEY_SEED_PATTERN = re.compile(r"S[ACNOPUX][A-Z2-7]{40,200}")
-GOOGLEAPI_PATTERN = re.compile(r"1//?[0-9A-Za-z_-]{20,400}")
+GOOGLEAPI_PATTERN = re.compile(r"1//0[0-9A-Za-z_-]{80,400}")
 
 def obfuscate_jwt(value: str) -> str:
     len_value = len(value)
@@ -112,6 +112,7 @@ def get_obfuscated_value(value, meta_row: MetaRow):
         obfuscated_value = obfuscate_basic_auth(value)
     elif any(value.startswith(x) for x in ["AKIA", "ABIA", "ACCA", "AGPA", "AIDA", "AIPA", "AKIA", "ANPA",
                                            "ANVA", "AROA", "APKA", "ASCA", "ASIA", "AIza"]) \
+            or value.startswith('1//0') and GOOGLEAPI_PATTERN.match(value) \
             or value.startswith("xox") and 15 <= len(value) and value[3] in "aboprst" and '-' == value[4]:
         obfuscated_value = value[:4] + generate_value(value[4:])
     elif any(value.startswith(x) for x in ["ya29.", "pass:", "salt:", "akab-"]):
@@ -150,7 +151,6 @@ def get_obfuscated_value(value, meta_row: MetaRow):
                                         ["AC", "AD", "AL", "CA", "CF", "CL", "CN", "CR", "FW", "IP",
                                          "KS", "MM", "NO", "PK", "PN", "QU", "RE", "SC", "SD", "SK",
                                          "SM", "TR", "UT", "XE", "XR"]) \
-            or value.startswith('1/') and GOOGLEAPI_PATTERN.match(value) \
             or value.startswith('S') and NKEY_SEED_PATTERN.match(value):
         obfuscated_value = value[:2] + generate_value(value[2:])
     elif value.startswith("00D") and (12 <= len(value) <= 18 or '!' in value):
