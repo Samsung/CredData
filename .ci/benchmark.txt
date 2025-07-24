@@ -1,5 +1,5 @@
-META MD5 ee37eb72e935123ff5f6053434e4b9cf
-DATA MD5 d021a9ea31d031e654dbb9a042bc0fa3
+META MD5 f38d747939f12e12633d48b91d5b2d2b
+DATA MD5 a743cb3cdd7067e56ce0c78d5e291323
 DATA: 16720463 interested lines. MARKUP: 61437 items
 FileType           FileNumber    ValidLines    Positives    Negatives
 ---------------  ------------  ------------  -----------  -----------
@@ -212,7 +212,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .tfvars                     1            31                         5
 .tl                         2          2161                       162
 .tmpl                       5           336                        12
-.token                      1             1            3
+.token                      1             1            4
 .toml                      86          2471           65          251
 .tpl                        1            43                         1
 .travis                     1            34            2            4
@@ -232,7 +232,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .yml                      555         54516         1870         1227
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  11516      16720463        16214        50375
+TOTAL:                  11516      16720463        16215        50375
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -265,6 +265,7 @@ Gitlab Incoming Email Token              37           12                 0     0
 Google API Key                           12            0                 0     0      0     12            1.000000  0.000000         0.000000
 Google Multi                             10            2                 0     0      2     10  0.000000  1.000000  0.166667         0.000000
 Google OAuth Access Token                 3            0                 0     0      0      3            1.000000  0.000000         0.000000
+Google OAuth Refresh Token                1            0                 0     0      0      1            1.000000  0.000000         0.000000
 Grafana Provisioned API Key              22            1                 0     0      1     22  0.000000  1.000000  0.043478         0.000000
 JSON Web Token                          168           61                 0     0     61    168  0.000000  1.000000  0.266376         0.000000
 JWK                                      55            0                 0     0      0     55            1.000000  0.000000         0.000000
@@ -287,4 +288,4 @@ Token                                   950         4639                 0     0
 Twilio Credentials                       30           39                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         221          378                 0     0    378    221  0.000000  1.000000  0.631052         0.000000
 UUID                                   1866          265                 0     0    265   1866  0.000000  1.000000  0.124355         0.000000
-                                      16214        50375           0     0     0  50375  16214  0.000000  1.000000  0.756506         0.000000
+                                      16215        50375           0     0     0  50375  16215  0.000000  1.000000  0.756495         0.000000
