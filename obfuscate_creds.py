@@ -22,6 +22,9 @@ DIGITS4RAND = DIGITS[1:]
 NKEY_SEED_PATTERN = re.compile(r"S[ACNOPUX][A-Z2-7]{40,200}")
 GOOGLEAPI_PATTERN = re.compile(r"1//0[0-9A-Za-z_-]{80,400}")
 
+OCT_PATTERN = re.compile(r"(\s*0[01234567]{0,3}(\s*,|\s*\Z))+$")
+DEC_PATTERN = re.compile(r"(\s*(2([0-4][0-9]|5[0-5])|1[0-9][0-9]|[0-9][0-9]|[0-9])(\s*,|\s*\Z))+$")
+
 def obfuscate_jwt(value: str) -> str:
     len_value = len(value)
     pad_num = 0x3 & len(value)
@@ -214,13 +217,16 @@ def generate_value(value):
 def gen_random_value(value):
     obfuscated_value = ""
 
-    digits_set = string.digits
+    oct_set = list("01234567")
+    dec_set = list(string.digits)
     upper_set = string.ascii_uppercase
     lower_set = string.ascii_lowercase
     hex_upper_lower_set = set(string.digits + string.ascii_uppercase[:6] + string.ascii_lowercase[:6])
     hex_char_in_values_set = hex_upper_lower_set | set(" xULul,mrst\t-{}[]()/*")
     hex_upper_lower_x_set = hex_upper_lower_set | set('x')
 
+    byte_oct = bool(OCT_PATTERN.match(value))
+    byte_dec = bool(DEC_PATTERN.match(value)) and not byte_oct
     byte_hex = "0x" in value and "," in value
     base_32 = True
     hex_upper = True
@@ -246,7 +252,7 @@ def gen_random_value(value):
     if hex_lower:
         lower_set = lower_set[:6]
     elif base_32 and not hex_upper:
-        digits_set = digits_set[2:8]
+        dec_set = dec_set[2:8]
     elif hex_upper:
         upper_set = upper_set[:6]
 
@@ -254,6 +260,10 @@ def gen_random_value(value):
     backslash_case = False
     hex_data = 0
     for n, v in enumerate(value):
+        _v = obfuscated_value[n - 1] if 1 <= n else None
+        __v = obfuscated_value[n - 2] if 2 <= n else None
+        v_ = value[n + 1] if (n + 1) < len(value) else None
+        v__ = value[n + 2] if (n + 2) < len(value) else None
         if '%' == v:
             web_escape_case = 2
             backslash_case = False
@@ -278,13 +288,48 @@ def gen_random_value(value):
             obfuscated_value += v
             backslash_case = False
             continue
-        if byte_hex and (v in "xLUlu" or '0' == v and (0 == n or value[n - 1] not in hex_upper_lower_x_set)):
+        if byte_oct and '0' == v and _v not in oct_set:
+            # keep byte oct definition prefix '000'. e.g. 066 -> 077, 077 -> 033
+            obfuscated_value += v
+            continue
+        if byte_hex and (v in "xLUlu" or '0' == v and _v not in hex_upper_lower_x_set):
             # keep byte hex definition prefix '000' or '0x'. e.g. 0x00 -> 0x42, 007 -> 033
             obfuscated_value += v
             continue
 
-        if v in string.digits:
-            obfuscated_value += random.choice(digits_set)
+        if byte_oct and v in oct_set:
+            obfuscated_value += random.choice(oct_set)
+        elif byte_dec and v in dec_set:
+            if __v in dec_set and _v in dec_set:
+                # 255
+                #   ^
+                if '2' == __v and '5' == _v:
+                    obfuscated_value += random.choice("012345")
+                else:
+                    obfuscated_value += random.choice(dec_set)
+            elif __v not in dec_set and _v in dec_set and v_ in dec_set:
+                # 255
+                #  ^
+                if '2' == _v:
+                    obfuscated_value += random.choice("012345")
+                else:
+                    obfuscated_value += random.choice(dec_set)
+            elif __v not in dec_set and _v in dec_set and v_ not in dec_set:
+                # 99
+                #  ^
+                obfuscated_value += random.choice(dec_set)
+            elif _v not in dec_set:
+                # 9,127,
+                #   ^
+                if v_ in dec_set and v__ in dec_set:
+                    obfuscated_value += random.choice("12")
+                else:
+                    obfuscated_value += random.choice(dec_set)
+            else:
+                # ??
+                raise ValueError(value)
+        elif v in string.digits:
+            obfuscated_value += random.choice(dec_set)
         elif v in string.ascii_lowercase[:6] and (0 < hex_data or byte_hex):
             obfuscated_value += random.choice(lower_set[:6])
         elif v in string.ascii_lowercase:
