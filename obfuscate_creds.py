@@ -323,8 +323,12 @@ def gen_random_value(value):
                 #   ^
                 if v_ in dec_set and v__ in dec_set:
                     obfuscated_value += random.choice("12")
-                else:
+                elif v_ not in dec_set:
+                    # single digit may be 0
                     obfuscated_value += random.choice(dec_set)
+                else:
+                    # first digit should be not 0
+                    obfuscated_value += random.choice("123456789")
             else:
                 # ??
                 raise ValueError(value)
