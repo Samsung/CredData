@@ -85,3 +85,19 @@ class ObfuscatorTest(unittest.TestCase):
             random.seed(seed)
             actual = gen_random_value(value)
             self.assertEqual(expected, actual, (seed, value, expected, actual))
+
+    def test_dec(self):
+        original_data = random.randbytes(1000)
+        dec_string = ''
+        for i in original_data:
+            if dec_string:
+                dec_string += ' ' * random.randint(0, 4)
+                dec_string += ','
+            dec_string += ' ' * random.randint(0, 4)
+            dec_string += str(i)
+        print(dec_string)
+        obfuscated_string = gen_random_value(dec_string)
+        for i in obfuscated_string.split(','):
+            d = int(i.strip())
+            self.assertLessEqual(0, d)
+            self.assertGreaterEqual(255, d)
