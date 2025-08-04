@@ -347,7 +347,7 @@ class Scanner(ABC):
                 if self.fix:
                     subprocess.check_call(
                         ["sed", "-i",
-                         f"s/{row.Id},\\(.*\\)/{row.Id},\\1:{rule}/",
+                         f"s|{row.Id},\\(.*\\)|{row.Id},\\1:{rule}|",
                          f"{self.cred_data_dir}/meta/{row.RepoName}.csv"])
                     self.meta[MetaKey(data_path, line_start, line_end)].append(lost_meta)
                     lost_meta = None

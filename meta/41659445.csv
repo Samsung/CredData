@@ -58,11 +58,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 26664,d4a2a492,GitHub,41659445,data/41659445/src/d4a2a492.ts,39,39,F,,,,,Secret
 26665,d4a2a492,GitHub,41659445,data/41659445/src/d4a2a492.ts,29,29,F,,,,,Secret
 27411,eb85e4f0,GitHub,41659445,data/41659445/test/src/util/eb85e4f0.ts,8,8,X,13,23,,,Secret
-28187,91fd135b,GitHub,41659445,data/41659445/src/util/91fd135b.ts,169,169,T,65,81,,,Jira 2FA:Secret
+28187,91fd135b,GitHub,41659445,data/41659445/src/util/91fd135b.ts,169,169,T,65,81,,,OTP / 2FA Secret:Secret
 31476,5398b006,GitHub,41659445,data/41659445/test/src/5398b006.js,131,131,F,,,,,Token:Secret
 32427,b2f74201,GitHub,41659445,data/41659445/test/src/b2f74201.ts,16,16,T,16,32,,,Password:Secret
 32428,c7cb0c45,GitHub,41659445,data/41659445/test/c7cb0c45.js,8,8,T,20,59,,,Secret
-32441,c7cb0c45,GitHub,41659445,data/41659445/test/c7cb0c45.js,18,18,T,20,36,,,Jira 2FA:Secret
+32441,c7cb0c45,GitHub,41659445,data/41659445/test/c7cb0c45.js,18,18,T,20,36,,,OTP / 2FA Secret:Secret
 32442,b3356305,GitHub,41659445,data/41659445/_/b3356305.md,94,94,T,16,48,,,Secret
 33951,b3356305,GitHub,41659445,data/41659445/_/b3356305.md,447,447,T,21,53,,,Secret
 34868,bf2cd4b4,GitHub,41659445,data/41659445/test/sample/bf2cd4b4.ts,8,8,F,12,18,,,Token
@@ -95,34 +95,34 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 34937,bf2cd4b4,GitHub,41659445,data/41659445/test/sample/bf2cd4b4.ts,20,20,F,12,18,,,Token
 34938,faf09b36,GitHub,41659445,data/41659445/test/faf09b36.ts,120,120,F,12,20,,,Token
 34942,faf09b36,GitHub,41659445,data/41659445/test/faf09b36.ts,132,132,F,12,20,,,Token
-35218,5398b006,GitHub,41659445,data/41659445/test/src/5398b006.js,201,201,T,15,47,,,Secret
+35218,5398b006,GitHub,41659445,data/41659445/test/src/5398b006.js,201,201,T,15,47,,,Secret:OTP / 2FA Secret
 35220,bf2cd4b4,GitHub,41659445,data/41659445/test/sample/bf2cd4b4.ts,27,27,T,13,29,,,Secret
 35221,bf2cd4b4,GitHub,41659445,data/41659445/test/sample/bf2cd4b4.ts,9,9,T,13,29,,,Password:Secret
-35233,5398b006,GitHub,41659445,data/41659445/test/src/5398b006.js,210,210,T,15,47,,,Secret
+35233,5398b006,GitHub,41659445,data/41659445/test/src/5398b006.js,210,210,T,15,47,,,Secret:OTP / 2FA Secret
 35249,bf2cd4b4,GitHub,41659445,data/41659445/test/sample/bf2cd4b4.ts,33,33,T,13,29,,,Secret
 35250,bf2cd4b4,GitHub,41659445,data/41659445/test/sample/bf2cd4b4.ts,21,21,T,13,29,,,Secret
-35252,074dc7a7,GitHub,41659445,data/41659445/test/sample/074dc7a7.ts,44,44,T,11,43,,,Secret
+35252,074dc7a7,GitHub,41659445,data/41659445/test/sample/074dc7a7.ts,44,44,T,11,43,,,Secret:OTP / 2FA Secret
 35334,074dc7a7,GitHub,41659445,data/41659445/test/sample/074dc7a7.ts,19,19,F,15,21,,,Token
 35335,074dc7a7,GitHub,41659445,data/41659445/test/sample/074dc7a7.ts,9,9,F,15,21,,,Token
 35336,074dc7a7,GitHub,41659445,data/41659445/test/sample/074dc7a7.ts,14,14,F,15,21,,,Token
 35337,074dc7a7,GitHub,41659445,data/41659445/test/sample/074dc7a7.ts,39,39,F,15,21,,,Token
 35338,074dc7a7,GitHub,41659445,data/41659445/test/sample/074dc7a7.ts,34,34,F,15,21,,,Token
-35339,074dc7a7,GitHub,41659445,data/41659445/test/sample/074dc7a7.ts,23,23,T,16,48,,,Secret
-35340,074dc7a7,GitHub,41659445,data/41659445/test/sample/074dc7a7.ts,33,33,T,16,48,,,Secret
+35339,074dc7a7,GitHub,41659445,data/41659445/test/sample/074dc7a7.ts,23,23,T,16,48,,,Secret:OTP / 2FA Secret
+35340,074dc7a7,GitHub,41659445,data/41659445/test/sample/074dc7a7.ts,33,33,T,16,48,,,Secret:OTP / 2FA Secret
 35341,074dc7a7,GitHub,41659445,data/41659445/test/sample/074dc7a7.ts,8,8,T,16,48,,,Secret
 35342,074dc7a7,GitHub,41659445,data/41659445/test/sample/074dc7a7.ts,13,13,T,16,48,,,Secret
-35343,074dc7a7,GitHub,41659445,data/41659445/test/sample/074dc7a7.ts,28,28,T,16,48,,,Secret
-35344,074dc7a7,GitHub,41659445,data/41659445/test/sample/074dc7a7.ts,18,18,T,16,48,,,Secret
-35345,074dc7a7,GitHub,41659445,data/41659445/test/sample/074dc7a7.ts,38,38,T,16,48,,,Secret
+35343,074dc7a7,GitHub,41659445,data/41659445/test/sample/074dc7a7.ts,28,28,T,16,48,,,Secret:OTP / 2FA Secret
+35344,074dc7a7,GitHub,41659445,data/41659445/test/sample/074dc7a7.ts,18,18,T,16,48,,,Secret:OTP / 2FA Secret
+35345,074dc7a7,GitHub,41659445,data/41659445/test/sample/074dc7a7.ts,38,38,T,16,48,,,Secret:OTP / 2FA Secret
 35349,074dc7a7,GitHub,41659445,data/41659445/test/sample/074dc7a7.ts,24,24,F,15,21,,,Token
 35350,074dc7a7,GitHub,41659445,data/41659445/test/sample/074dc7a7.ts,29,29,F,15,21,,,Token
-37409,5398b006,GitHub,41659445,data/41659445/test/src/5398b006.js,205,205,T,15,47,,,Secret
+37409,5398b006,GitHub,41659445,data/41659445/test/src/5398b006.js,205,205,T,15,47,,,Secret:OTP / 2FA Secret
 37410,bf2cd4b4,GitHub,41659445,data/41659445/test/sample/bf2cd4b4.ts,15,15,T,13,29,,,Password:Secret
 37420,074dc7a7,GitHub,41659445,data/41659445/test/sample/074dc7a7.ts,68,68,X,12,18,,,Token
 37421,074dc7a7,GitHub,41659445,data/41659445/test/sample/074dc7a7.ts,82,82,X,12,18,,,Token
-37422,074dc7a7,GitHub,41659445,data/41659445/test/sample/074dc7a7.ts,67,67,T,13,45,,,Secret
+37422,074dc7a7,GitHub,41659445,data/41659445/test/sample/074dc7a7.ts,67,67,T,13,45,,,Secret:OTP / 2FA Secret
 37423,074dc7a7,GitHub,41659445,data/41659445/test/sample/074dc7a7.ts,73,73,T,13,45,,,Secret
-37424,074dc7a7,GitHub,41659445,data/41659445/test/sample/074dc7a7.ts,80,80,T,13,45,,,Secret
+37424,074dc7a7,GitHub,41659445,data/41659445/test/sample/074dc7a7.ts,80,80,T,13,45,,,Secret:OTP / 2FA Secret
 47806,eb85e4f0,GitHub,41659445,data/41659445/test/src/util/eb85e4f0.ts,119,119,X,15,25,,,Secret
 47991,074dc7a7,GitHub,41659445,data/41659445/test/sample/074dc7a7.ts,78,78,F,,,,,Other
 47992,074dc7a7,GitHub,41659445,data/41659445/test/sample/074dc7a7.ts,64,64,F,,,,,Other

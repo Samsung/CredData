@@ -449,7 +449,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 34348,836751a1,GitHub,8ba59c91,data/8ba59c91/_/836751a1.yml,63,63,T,13,37,,,Password
 34456,836751a1,GitHub,8ba59c91,data/8ba59c91/_/836751a1.yml,115,115,T,13,43,,,Password
 34477,836751a1,GitHub,8ba59c91,data/8ba59c91/_/836751a1.yml,140,140,T,13,43,,,Password
-34920,836751a1,GitHub,8ba59c91,data/8ba59c91/_/836751a1.yml,150,150,T,14,46,,,Secret
+34920,836751a1,GitHub,8ba59c91,data/8ba59c91/_/836751a1.yml,150,150,T,14,46,,,Secret:OTP / 2FA Secret
 35799,953c13b1,GitHub,8ba59c91,data/8ba59c91/src/app/953c13b1.ts,85,85,T,87,107,,,Password
 135337,953c13b1,GitHub,8ba59c91,data/8ba59c91/src/app/953c13b1.ts,85,85,T,127,147,,,Password
 35814,953c13b1,GitHub,8ba59c91,data/8ba59c91/src/app/953c13b1.ts,92,92,T,88,108,,,Password
@@ -1020,7 +1020,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 1494483,0f193646,GitHub,8ba59c91,data/8ba59c91/test/api/0f193646.ts,18,18,T,17,25,,,Password
 1494484,22d7aaab,GitHub,8ba59c91,data/8ba59c91/test/api/22d7aaab.ts,19,19,T,17,25,,,Password
 1494485,30f056ed,GitHub,8ba59c91,data/8ba59c91/test/30f056ed.ts,33,33,T,98,122,,,Password
-1494486,3a5f9da2,GitHub,8ba59c91,data/8ba59c91/test/3a5f9da2.ts,122,122,T,55,87,,,Token
+1494486,3a5f9da2,GitHub,8ba59c91,data/8ba59c91/test/3a5f9da2.ts,122,122,T,55,87,,,Token:OTP / 2FA Secret
 1494487,4c53d4eb,GitHub,8ba59c91,data/8ba59c91/test/server/4c53d4eb.ts,257,257,T,50,185,,,Auth:Bearer Authorization
 1494488,4c53d4eb,GitHub,8ba59c91,data/8ba59c91/test/server/4c53d4eb.ts,269,269,T,50,170,,,Auth:Bearer Authorization
 1494489,4c53d4eb,GitHub,8ba59c91,data/8ba59c91/test/server/4c53d4eb.ts,291,291,T,52,211,,,Auth:JSON Web Token:Bearer Authorization
@@ -1038,7 +1038,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 1494501,b53ce2b7,GitHub,8ba59c91,data/8ba59c91/test/api/b53ce2b7.ts,193,193,T,19,27,,,Password
 1494502,b53ce2b7,GitHub,8ba59c91,data/8ba59c91/test/api/b53ce2b7.ts,280,280,T,19,27,,,Password
 1494503,b53ce2b7,GitHub,8ba59c91,data/8ba59c91/test/api/b53ce2b7.ts,330,330,T,19,27,,,Password
-1494504,b7322662,GitHub,8ba59c91,data/8ba59c91/test/b7322662.ts,34,34,T,19,51,,,Secret
+1494504,b7322662,GitHub,8ba59c91,data/8ba59c91/test/b7322662.ts,34,34,T,19,51,,,Secret:OTP / 2FA Secret
 1494505,b7456c69,GitHub,8ba59c91,data/8ba59c91/test/api/b7456c69.ts,25,25,T,19,27,,,Password
 1494506,b7456c69,GitHub,8ba59c91,data/8ba59c91/test/api/b7456c69.ts,62,62,T,19,27,,,Password
 1494507,b7456c69,GitHub,8ba59c91,data/8ba59c91/test/api/b7456c69.ts,88,88,T,19,27,,,Password
@@ -1067,15 +1067,15 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 1494530,f204a657,GitHub,8ba59c91,data/8ba59c91/test/api/f204a657.ts,94,94,T,19,27,,,Password
 1494531,f204a657,GitHub,8ba59c91,data/8ba59c91/test/api/f204a657.ts,119,119,T,19,27,,,Password
 1494532,f2bc43c7,GitHub,8ba59c91,data/8ba59c91/test/api/f2bc43c7.ts,20,20,T,17,25,,,Password
-1494533,f428bce4,GitHub,8ba59c91,data/8ba59c91/test/api/f428bce4.ts,100,100,T,53,85,,,Token
-1494534,f428bce4,GitHub,8ba59c91,data/8ba59c91/test/api/f428bce4.ts,145,145,T,53,85,,,Token
-1494535,f428bce4,GitHub,8ba59c91,data/8ba59c91/test/api/f428bce4.ts,163,163,T,19,51,,,Secret
+1494533,f428bce4,GitHub,8ba59c91,data/8ba59c91/test/api/f428bce4.ts,100,100,T,53,85,,,Token:OTP / 2FA Secret
+1494534,f428bce4,GitHub,8ba59c91,data/8ba59c91/test/api/f428bce4.ts,145,145,T,53,85,,,Token:OTP / 2FA Secret
+1494535,f428bce4,GitHub,8ba59c91,data/8ba59c91/test/api/f428bce4.ts,163,163,T,19,51,,,Secret:OTP / 2FA Secret
 1494536,f428bce4,GitHub,8ba59c91,data/8ba59c91/test/api/f428bce4.ts,187,187,T,17,47,,,Password
 1494537,f428bce4,GitHub,8ba59c91,data/8ba59c91/test/api/f428bce4.ts,223,223,T,20,40,,,Secret
 1494538,f428bce4,GitHub,8ba59c91,data/8ba59c91/test/api/f428bce4.ts,267,267,T,20,40,,,Secret
 1494539,f428bce4,GitHub,8ba59c91,data/8ba59c91/test/api/f428bce4.ts,295,295,T,20,40,,,Secret
 1494540,f428bce4,GitHub,8ba59c91,data/8ba59c91/test/api/f428bce4.ts,323,323,T,20,40,,,Secret
-1494541,f428bce4,GitHub,8ba59c91,data/8ba59c91/test/api/f428bce4.ts,350,350,T,24,56,,,Secret
+1494541,f428bce4,GitHub,8ba59c91,data/8ba59c91/test/api/f428bce4.ts,350,350,T,24,56,,,Secret:OTP / 2FA Secret
 1494542,f428bce4,GitHub,8ba59c91,data/8ba59c91/test/api/f428bce4.ts,378,378,T,24,44,,,Secret
 1494543,f428bce4,GitHub,8ba59c91,data/8ba59c91/test/api/f428bce4.ts,412,412,T,24,44,,,Secret
 1494892,c475a8a8,GitHub,8ba59c91,data/8ba59c91/test/server/c475a8a8.ts,31,31,T,60,423,,,JSON Web Token
