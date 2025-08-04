@@ -1,5 +1,5 @@
-META MD5 2566e733a4aeee3528190cd5b5149e54
-DATA MD5 44864327e83cc9129c55cceb50566392
+META MD5 4b2bb7c290c4db1637f23e8852476589
+DATA MD5 48c031052cd50f92ae0e2ee87b96406c
 DATA: 16720463 interested lines. MARKUP: 61439 items
 FileType           FileNumber    ValidLines    Positives    Negatives
 ---------------  ------------  ------------  -----------  -----------
@@ -166,7 +166,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .pyx                        2          1094                        23
 .r                          4            62            5            2
 .rake                       2            51                         2
-.rb                       852        130684          423         2970
+.rb                       852        130684          424         2969
 .re                         1            31                         1
 .red                        1           159                         1
 .release                    1            13                         4
@@ -232,7 +232,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .yml                      555         54516         1871         1227
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  11516      16720463        16226        50387
+TOTAL:                  11516      16720463        16227        50386
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -273,7 +273,7 @@ Jira / Confluence PAT token               0            4                 0     0
 Key                                    4210        16306                 0     0  16306   4210  0.000000  1.000000  0.794794         0.000000
 NKEY Seed                                58            0                 0     0      0     58            1.000000  0.000000         0.000000
 Nonce                                   117           49                 0     0     49    117  0.000000  1.000000  0.295181         0.000000
-OTP / 2FA Secret                         57            4                 0     0      4     57  0.000000  1.000000  0.065574         0.000000
+OTP / 2FA Secret                         58            3                 0     0      3     58  0.000000  1.000000  0.049180         0.000000
 Other                                     9         7442                 0     0   7442      9  0.000000  1.000000  0.998792         0.000000
 PEM Private Key                        1142           76                 0     0     76   1142  0.000000  1.000000  0.062397         0.000000
 Password                               2497         9982                 0     0   9982   2497  0.000000  1.000000  0.799904         0.000000
@@ -288,4 +288,4 @@ Token                                   949         4640                 0     0
 Twilio Credentials                       30           39                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         220          379                 0     0    379    220  0.000000  1.000000  0.632721         0.000000
 UUID                                   1866          265                 0     0    265   1866  0.000000  1.000000  0.124355         0.000000
-                                      16226        50387           0     0     0  50387  16226  0.000000  1.000000  0.756414         0.000000
+                                      16227        50386           0     0     0  50386  16227  0.000000  1.000000  0.756399         0.000000
