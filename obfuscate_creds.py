@@ -27,9 +27,20 @@ DEC_PATTERN = re.compile(r"(\s*(2([0-4][0-9]|5[0-5])|1[0-9][0-9]|[0-9][0-9]|[0-9
 
 def obfuscate_jwt(value: str) -> str:
     len_value = len(value)
-    pad_num = 0x3 & len(value)
-    if pad_num:
-        value += '=' * (4 - pad_num)
+    if value.endswith("%3D%3D%3D"):
+        padding_web_escape = 3
+        value = value[:-9] + "==="
+    elif value.endswith("%3D%3D"):
+        padding_web_escape = 2
+        value = value[:-6] + "=="
+    elif value.endswith("%3D"):
+        padding_web_escape = 1
+        value = value[:-3]
+    else:
+        padding_web_escape = 0
+        pad_num = 0x3 & len(value)
+        if pad_num:
+            value += '=' * (4 - pad_num)
     if '-' in value or '_' in value:
         decoded = base64.b64decode(value, altchars=b"-_", validate=True)
     else:
@@ -81,6 +92,8 @@ def obfuscate_jwt(value: str) -> str:
         n += 1
 
     encoded = base64.b64encode(new_json, altchars=b"-_").decode("ascii")
+    if padding_web_escape:
+        encoded = encoded[:-padding_web_escape] + '%3D' * padding_web_escape
     while len(encoded) > len_value:
         assert '=' == encoded[-1], encoded
         encoded = encoded[:-1]
@@ -118,7 +131,7 @@ def get_obfuscated_value(value, meta_row: MetaRow):
             or value.startswith('1//0') and GOOGLEAPI_PATTERN.match(value) \
             or value.startswith("xox") and 15 <= len(value) and value[3] in "aboprst" and '-' == value[4]:
         obfuscated_value = value[:4] + generate_value(value[4:])
-    elif any(value.startswith(x) for x in ["ya29.", "pass:", "salt:", "akab-"]):
+    elif any(value.startswith(x) for x in ["ya29.", "pass:", "salt:", "akab-", "PMAK-", "PMAT-"]):
         obfuscated_value = value[:5] + generate_value(value[5:])
     elif any(value.startswith(x) for x in ["whsec_", "Basic ", "OAuth "]):
         obfuscated_value = value[:6] + generate_value(value[6:])
@@ -238,7 +251,7 @@ def gen_random_value(value):
             byte_hex = False
         if base_32 and v not in "ABCDEFGHIJKLMNOPQRSTUVWXYZ234567":
             base_32 = False
-        if '-' == v and len(value) in (18, 36) and n in (8, 13, 18, 23):
+        if '-' == v and len(value) in (18, 36, 59) and n in (8, 13, 18, 23, 24):
             # UUID separator or something like this
             continue
         if ':' == v and 2 == n % 3:
