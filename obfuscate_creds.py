@@ -129,9 +129,9 @@ def get_obfuscated_value(value, meta_row: MetaRow):
     elif any(value.startswith(x) for x in ["AKIA", "ABIA", "ACCA", "AGPA", "AIDA", "AIPA", "AKIA", "ANPA",
                                            "ANVA", "AROA", "APKA", "ASCA", "ASIA", "AIza"]) \
             or value.startswith('1//0') and GOOGLEAPI_PATTERN.match(value) \
-            or value.startswith("xox") and 15 <= len(value) and value[3] in "aboprst" and '-' == value[4]:
+            or value.startswith("xox") and 15 <= len(value) and value[3] in "abeoprst" and '-' == value[4]:
         obfuscated_value = value[:4] + generate_value(value[4:])
-    elif any(value.startswith(x) for x in ["ya29.", "pass:", "salt:", "akab-", "PMAK-", "PMAT-"]):
+    elif any(value.startswith(x) for x in ["ya29.", "pass:", "salt:", "akab-", "PMAK-", "PMAT-", "xapp-"]):
         obfuscated_value = value[:5] + generate_value(value[5:])
     elif any(value.startswith(x) for x in ["whsec_", "Basic ", "OAuth "]):
         obfuscated_value = value[:6] + generate_value(value[6:])
@@ -364,9 +364,8 @@ def gen_random_value(value):
     return obfuscated_value
 
 
-def replace_rows(data: List[MetaRow]):
+def replace_rows(data: List[MetaRow], lines: List[str]):
     # Change data in already copied files
-    logger.info("Single line obfuscation")
     for row in data:
         # PEM keys and other multiple-line credentials is processed in other function
         if "" != row.CryptographyKey or row.LineEnd != row.LineStart:
@@ -383,16 +382,6 @@ def replace_rows(data: List[MetaRow]):
             # skip obfuscation for the categories which are multi pattern
             continue
 
-        file_location = row.FilePath
-
-        try:
-            with open(file_location, "rb") as f:
-                lines = f.read().decode().replace("\r\n", '\n').replace('\r', '\n').split('\n')
-        except Exception as exc:
-            logger.error(row)
-            logger.critical(exc)
-            return
-
         old_line = lines[row.LineStart - 1]
         value = old_line[row.ValueStart:row.ValueEnd]
         # credsweeper does not scan lines over 8000 symbols, so 1<<13 is enough
@@ -401,9 +390,6 @@ def replace_rows(data: List[MetaRow]):
         new_line = old_line[:row.ValueStart] + obfuscated_value + old_line[row.ValueEnd:]
 
         lines[row.LineStart - 1] = new_line
-
-        with open(file_location, "w", encoding="utf8") as f:
-            f.write('\n'.join(lines))
 
 
 def split_in_bounds(i: int, lines_len: int, old_line: str):
@@ -513,7 +499,7 @@ def create_new_multiline(lines: List[str], starting_position: int):
     return new_lines
 
 
-def process_pem_key(row: MetaRow):
+def process_pem_key(row: MetaRow, lines:List[str]):
     # Change data in already copied files (only keys)
     try:
         # Skip credentials that are not PEM or multiline
@@ -524,10 +510,6 @@ def process_pem_key(row: MetaRow):
             # skip double obfuscation for the categories
             return
 
-        with open(row.FilePath, "r", encoding="utf8") as f:
-            text = f.read()
-        lines = text.split("\n")
-
         random.seed(row.LineStart ^ int(row.FileID, 16))
 
         if '' != row.CryptographyKey:
@@ -537,28 +519,40 @@ def process_pem_key(row: MetaRow):
 
         lines[row.LineStart - 1:row.LineEnd] = new_lines
 
-        with open(row.FilePath, "w", encoding="utf8") as f:
-            f.write('\n'.join(lines))
-
     except Exception as exc:
-        raise RuntimeError(f"FAILURE: {row}")
+        logger.error(f"FAILURE: {row}")
+        logger.critical(exc)
+        raise
 
-
-def process_pem_keys(data: List[MetaRow]):
-    logger.info("Private key obfuscation")
+def process_pem_keys(data: List[MetaRow], lines:List[str]):
     for row in data:
         if 'T' == row.GroundTruth and "Private Key" == row.Category:
-            process_pem_key(row)
+            process_pem_key(row, lines)
 
 
 def obfuscate_creds(meta_dir: str, dataset_dir: str):
-    all_credentials = []
+    dataset_files = {}
     for meta_row in read_meta(meta_dir):
         meta_row.FilePath = meta_row.FilePath.replace("data", dataset_dir, 1)
-        all_credentials.append(meta_row)
-    all_credentials.sort(key=lambda x: (x.FilePath, x.LineStart, x.LineEnd, x.ValueStart, x.ValueEnd))
-    replace_rows(all_credentials)
-    process_pem_keys(all_credentials)
+        if meta_row.FilePath in dataset_files:
+            dataset_files[meta_row.FilePath].append(meta_row)
+        else:
+            dataset_files[meta_row.FilePath] = [meta_row]
+    logger.info(f"Obfuscate {len(dataset_files)} files")
+    for dataset_file, meta_rows in dataset_files.items():
+        try:
+            with open(dataset_file, "rb") as f:
+                lines = f.read().decode().replace("\r\n", '\n').replace('\r', '\n').split('\n')
+        except Exception as exc:
+            logger.error(dataset_file)
+            logger.critical(exc)
+            raise
+        meta_rows.sort(key=lambda x: (x.LineStart, x.LineEnd, x.ValueStart, x.ValueEnd))
+        replace_rows(meta_rows, lines)
+        process_pem_keys(meta_rows, lines)
+
+        with open(dataset_file, "w", encoding="utf8") as f:
+            f.write('\n'.join(lines))
 
 
 def main(args: Namespace):
