@@ -1,7 +1,8 @@
+import binascii
 import random
 import unittest
 
-from obfuscate_creds import gen_random_value
+from obfuscate_creds import gen_random_value, obfuscate_jwt
 
 
 class ObfuscatorTest(unittest.TestCase):
@@ -101,3 +102,16 @@ class ObfuscatorTest(unittest.TestCase):
             d = int(i.strip())
             self.assertLessEqual(0, d)
             self.assertGreaterEqual(255, d)
+
+    def test_obfuscate_jwt(self):
+        value = "eyJhbGciOjEwfQ%3D%3D"
+        obfuscated = obfuscate_jwt(value)
+        self.assertNotEquals(value, obfuscated)
+        self.assertEquals(len(value), len(obfuscated))
+        value = "eyJhbGciOiI+LHgifQ=="
+        obfuscated = obfuscate_jwt(value)
+        self.assertNotEquals(value, obfuscated)
+        self.assertEquals(len(value), len(obfuscated))
+        with self.assertRaises(binascii.Error):
+            # '+' is web escaped to %2B - cannot be obfuscated with the same value length
+            obfuscate_jwt("eyJhbGciOiI%2BLHgifQ%3D%3D")
