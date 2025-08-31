@@ -129,6 +129,7 @@ def get_obfuscated_value(value, meta_row: MetaRow):
     elif any(value.startswith(x) for x in ["AKIA", "ABIA", "ACCA", "AGPA", "AIDA", "AIPA", "AKIA", "ANPA",
                                            "ANVA", "AROA", "APKA", "ASCA", "ASIA", "AIza"]) \
             or value.startswith('1//0') and GOOGLEAPI_PATTERN.match(value) \
+            or value.startswith('key-') and 36 == len(value) \
             or value.startswith("xox") and 15 <= len(value) and value[3] in "abeoprst" and '-' == value[4]:
         obfuscated_value = value[:4] + generate_value(value[4:])
     elif any(value.startswith(x) for x in ["ya29.", "pass:", "salt:", "akab-", "PMAK-", "PMAT-", "xapp-"]):
@@ -251,7 +252,7 @@ def gen_random_value(value):
             byte_hex = False
         if base_32 and v not in "ABCDEFGHIJKLMNOPQRSTUVWXYZ234567":
             base_32 = False
-        if '-' == v and len(value) in (18, 36, 59) and n in (8, 13, 18, 23, 24):
+        if '-' == v and len(value) in (18, 36, 50, 59) and n in (8, 13, 18, 23, 24, 32, 40):
             # UUID separator or something like this
             continue
         if ':' == v and 2 == n % 3:
