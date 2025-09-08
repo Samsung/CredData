@@ -2,7 +2,7 @@
 set -e
 set -x
 
-.venv/bin/python review_data.py meta data --check
+.venv/bin/python review_data.py --check
 
 .venv/bin/python3 download_data.py --clean_data --skip_download
 

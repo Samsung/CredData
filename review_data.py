@@ -92,7 +92,7 @@ def read_data(path, line_start, line_end, value_start, value_end, ground_truth, 
                + Style.RESET_ALL \
                + fore_style \
                + data_line[value_end + multiline_end_offset:]
-    elif 0 <= value_start and 0 > value_end:
+    elif value_start >= 0 > value_end:
         line = data_line[:value_start] \
                + Style.BRIGHT \
                + data_line[value_start:]
@@ -128,7 +128,7 @@ def main(meta_dir: str,
     duplicates = 0
     if not os.path.exists(meta_dir):
         raise FileExistsError(f"{meta_dir} directory does not exist.")
-    if not os.path.exists(data_dir):
+    if not os.path.exists(data_dir) and not check_only:
         raise FileExistsError(f"{data_dir} directory does not exist.")
     creds = []
     if load_json:
