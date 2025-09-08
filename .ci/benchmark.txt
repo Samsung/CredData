@@ -1,6 +1,6 @@
-META MD5 520443313fe76d17aa08c68f30286ab2
+META MD5 0a3e5ce601d934750bb6feeb5bbcfc00
 DATA MD5 7d6bebb8b5b78dc43898fbbddffad419
-DATA: 17257724 interested lines. MARKUP: 62329 items
+DATA: 17257596 interested lines. MARKUP: 62279 items
 FileType           FileNumber    ValidLines    Positives    Negatives
 ---------------  ------------  ------------  -----------  -----------
                           687        567498          138          487
@@ -79,7 +79,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .hbs                        2            54                         3
 .hpp                        1           237                         2
 .hs                        14          4140           30           65
-.html                     129         34316          218          146
+.html                     127         34238          192          146
 .idl                        3          1625           37            5
 .iml                        6           699                        30
 .in                         7          2242           10           50
@@ -221,7 +221,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .ts                       609        109982          240         1970
 .tsx                       54          7914            1          120
 .ttar                       1           452                         1
-.txt                      326         89456         5287         4385
+.txt                      324         89406         5261         4385
 .utf8                       1            77                         1
 .vsixmanifest               1            36                         1
 .vsmdi                      1             6            2
@@ -234,7 +234,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .yml                      564         57042         1928         1223
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  11670      17257724        17197        50403
+TOTAL:                  11666      17257596        17145        50403
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -270,7 +270,7 @@ Google OAuth Access Token                 3            0                 0     0
 Google OAuth Refresh Token                1            2                 0     0      2      1  0.000000  1.000000  0.666667         0.000000
 Grafana Provisioned API Key              22            1                 0     0      1     22  0.000000  1.000000  0.043478         0.000000
 JSON Web Token                          170           61                 0     0     61    170  0.000000  1.000000  0.264069         0.000000
-JWK                                     131            0                 0     0      0    131            1.000000  0.000000         0.000000
+JWK                                      79            0                 0     0      0     79            1.000000  0.000000         0.000000
 Jira / Confluence PAT token               0            4                 0     0      4      0  0.000000            1.000000
 Key                                    4275        16310                 0     0  16310   4275  0.000000  1.000000  0.792325         0.000000
 MailGun API Key                           8            0                 0     0      0      8            1.000000  0.000000         0.000000
@@ -292,4 +292,4 @@ Token                                   995         4644                 0     0
 Twilio Credentials                       30           39                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         225          382                 0     0    382    225  0.000000  1.000000  0.629325         0.000000
 UUID                                   2390          265                 0     0    265   2390  0.000000  1.000000  0.099812         0.000000
-                                      17197        50403           0     0     0  50403  17197  0.000000  1.000000  0.745607         0.000000
+                                      17145        50403           0     0     0  50403  17145  0.000000  1.000000  0.746180         0.000000
