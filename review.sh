@@ -2,7 +2,7 @@
 set -e
 set -x
 
-THISDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" > /dev/null 2>&1 && pwd )"
+.venv/bin/python review_data.py --check
 
 .venv/bin/python3 download_data.py --clean_data --skip_download
 
