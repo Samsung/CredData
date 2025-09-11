@@ -1,5 +1,5 @@
-META MD5 0a3e5ce601d934750bb6feeb5bbcfc00
-DATA MD5 7d6bebb8b5b78dc43898fbbddffad419
+META MD5 53a15e5e705dc48eb215b893deff4970
+DATA MD5 97b263b46e24b54f39f0d460fa7e087a
 DATA: 17257596 interested lines. MARKUP: 62279 items
 FileType           FileNumber    ValidLines    Positives    Negatives
 ---------------  ------------  ------------  -----------  -----------
@@ -120,7 +120,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .markdown                  38          5862           69            4
 .markerb                    3            12                         3
 .marko                      1            21                         2
-.md                       789        185743         1065         2890
+.md                       789        185743         1063         2891
 .mdx                        3           549                         7
 .mjml                       1            18                         1
 .mjs                       22          4424          101          369
@@ -234,7 +234,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .yml                      564         57042         1928         1223
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  11666      17257596        17145        50403
+TOTAL:                  11666      17257596        17143        50404
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -261,7 +261,6 @@ Docker Swarm Token                        2            0                 0     0
 Dropbox App secret                       73          144                 0     0    144     73  0.000000  1.000000  0.663594         0.000000
 Facebook Access Token                     0            1                 0     0      1      0  0.000000            1.000000
 Firebase Domain                          38            1                 0     0      1     38  0.000000  1.000000  0.025641         0.000000
-Github Old Token                          1            0                 0     0      0      1            1.000000  0.000000         0.000000
 Gitlab Feed Token                       204          843                 0     0    843    204  0.000000  1.000000  0.805158         0.000000
 Gitlab Incoming Email Token              38           12                 0     0     12     38  0.000000  1.000000  0.240000         0.000000
 Google API Key                           13            0                 0     0      0     13            1.000000  0.000000         0.000000
@@ -288,8 +287,8 @@ Secret                                 1515         2377                 0     0
 Slack Token                              15            1                 0     0      1     15  0.000000  1.000000  0.062500         0.000000
 Stripe Credentials                        2            0                 0     0      0      2            1.000000  0.000000         0.000000
 Tencent WeChat API App ID                47            0                 0     0      0     47            1.000000  0.000000         0.000000
-Token                                   995         4644                 0     0   4644    995  0.000000  1.000000  0.823550         0.000000
+Token                                   994         4645                 0     0   4645    994  0.000000  1.000000  0.823728         0.000000
 Twilio Credentials                       30           39                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         225          382                 0     0    382    225  0.000000  1.000000  0.629325         0.000000
 UUID                                   2390          265                 0     0    265   2390  0.000000  1.000000  0.099812         0.000000
-                                      17145        50403           0     0     0  50403  17145  0.000000  1.000000  0.746180         0.000000
+                                      17143        50404           0     0     0  50404  17143  0.000000  1.000000  0.746206         0.000000
