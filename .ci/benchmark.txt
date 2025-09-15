@@ -1,6 +1,6 @@
-META MD5 53a15e5e705dc48eb215b893deff4970
-DATA MD5 97b263b46e24b54f39f0d460fa7e087a
-DATA: 17257596 interested lines. MARKUP: 62279 items
+META MD5 d6d80cbad918f0efe59bf103aff97b07
+DATA MD5 1b5f87456ab65abfdec3199deec17ebd
+DATA: 17257596 interested lines. MARKUP: 62288 items
 FileType           FileNumber    ValidLines    Positives    Negatives
 ---------------  ------------  ------------  -----------  -----------
                           687        567498          138          487
@@ -9,7 +9,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .admx                       1            26                         1
 .adoc                       1           158           18            6
 .api                        2           118                         4
-.asciidoc                 102         15403           81          353
+.asciidoc                 102         15403           82          355
 .axaml                      5           286                         5
 .backup                     1            62            2            1
 .bash                       2          2158                         3
@@ -66,7 +66,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .gd                         1            37                         1
 .gml                        3          3075                        16
 .gni                        3          5017                        19
-.go                      1280        718792         1511         4862
+.go                      1280        718792         1512         4862
 .golden                     5          1168            1           42
 .gradle                    50          4295            8          189
 .graphql                    8           454            2           13
@@ -120,7 +120,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .markdown                  38          5862           69            4
 .markerb                    3            12                         3
 .marko                      1            21                         2
-.md                       789        185743         1063         2891
+.md                       789        185743         1068         2891
 .mdx                        3           549                         7
 .mjml                       1            18                         1
 .mjs                       22          4424          101          369
@@ -234,7 +234,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .yml                      564         57042         1928         1223
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  11666      17257596        17143        50404
+TOTAL:                  11666      17257596        17150        50406
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -256,6 +256,7 @@ CMD ConvertTo-SecureString               13            4                 0     0
 CMD Password                             33          137                 0     0    137     33  0.000000  1.000000  0.805882         0.000000
 CMD Secret                                1           17                 0     0     17      1  0.000000  1.000000  0.944444         0.000000
 CMD Token                                 6            2                 0     0      2      6  0.000000  1.000000  0.250000         0.000000
+CURL User Password                        7            2                 0     0      2      7  0.000000  1.000000  0.222222         0.000000
 Credential                               98          499                 0     0    499     98  0.000000  1.000000  0.835846         0.000000
 Docker Swarm Token                        2            0                 0     0      0      2            1.000000  0.000000         0.000000
 Dropbox App secret                       73          144                 0     0    144     73  0.000000  1.000000  0.663594         0.000000
@@ -291,4 +292,4 @@ Token                                   994         4645                 0     0
 Twilio Credentials                       30           39                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         225          382                 0     0    382    225  0.000000  1.000000  0.629325         0.000000
 UUID                                   2390          265                 0     0    265   2390  0.000000  1.000000  0.099812         0.000000
-                                      17143        50404           0     0     0  50404  17143  0.000000  1.000000  0.746206         0.000000
+                                      17150        50406           0     0     0  50406  17150  0.000000  1.000000  0.746137         0.000000

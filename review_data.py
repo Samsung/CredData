@@ -173,7 +173,8 @@ def main(meta_dir: str,
                 if any(x in categories for x in ["Secret", "CMD ConvertTo-SecureString"]):
                     # Secrets are like passwords
                     min_length = 5
-                if any(x in categories for x in ["Password", "URL Credentials", "CMD Password", "SQL Password"]):
+                if any(x in categories for x in ["Password", "URL Credentials", "CMD Password", "SQL Password",
+                                                 "CURL User Password"]):
                     # lost password may be simple but sensitive
                     min_length = 4
                 if min_length > row.ValueEnd - row.ValueStart:
