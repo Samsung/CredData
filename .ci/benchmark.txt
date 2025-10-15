@@ -1,6 +1,6 @@
-META MD5 4e7accfc8f28fc87cef63430119436cd
-DATA MD5 82014e0b2b3e2a738b117e89600306ef
-DATA: 17278858 interested lines. MARKUP: 62634 items
+META MD5 80f2d5c9a9d4ba0f68ac67e97705f15a
+DATA MD5 794107ef80b9be25d0f3d1078cd570aa
+DATA: 17278858 interested lines. MARKUP: 62639 items
 FileType           FileNumber    ValidLines    Positives    Negatives
 ---------------  ------------  ------------  -----------  -----------
                           689        567668          138          487
@@ -120,7 +120,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .markdown                  38          5862           69            4
 .markerb                    3            12                         3
 .marko                      1            21                         2
-.md                       789        185743         1068         2891
+.md                       789        185743         1068         2892
 .mdx                        3           549                         7
 .mjml                       1            18                         1
 .mjs                       22          4424          101          369
@@ -143,7 +143,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .patch                      4        109405            4           27
 .pbxproj                    1           941                         1
 .pem                       65          1467           64            3
-.php                      401         82359          168         1475
+.php                      401         82359          166         1480
 .pl                        16         14727            7           33
 .pm                        10          5224            1           17
 .po                         3          2994                        15
@@ -161,7 +161,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .pug                        2           193                         2
 .purs                       1            69                         4
 .pxd                        1           150            2            4
-.py                       904        297181          749         3934
+.py                       904        297181          750         3934
 .pyi                        4          1361                         9
 .pyp                        1           167                         1
 .python                     1           213
@@ -234,7 +234,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .yml                      564         57042         1928         1223
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  11701      17278858        17455        50598
+TOTAL:                  11701      17278858        17454        50604
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -244,7 +244,7 @@ AWS Multi                                82           10                 0     0
 AWS S3 Bucket                            67           23                 0     0     23     67  0.000000  1.000000  0.255556         0.000000
 Akamai Credentials                        6            2                 0     0      2      6  0.000000  1.000000  0.250000         0.000000
 Atlassian Old PAT token                   9            8                 0     0      8      9  0.000000  1.000000  0.470588         0.000000
-Auth                                   1170         2893                 0     0   2893   1170  0.000000  1.000000  0.712035         0.000000
+Auth                                   1170         2895                 0     0   2895   1170  0.000000  1.000000  0.712177         0.000000
 Azure Access Token                       24            0                 0     0      0     24            1.000000  0.000000         0.000000
 BASE64 Private Key                       22            4                 0     0      4     22  0.000000  1.000000  0.153846         0.000000
 BASE64 encoded PEM Private Key           12            0                 0     0      0     12            1.000000  0.000000         0.000000
@@ -279,7 +279,7 @@ Nonce                                   130           55                 0     0
 OTP / 2FA Secret                         58            3                 0     0      3     58  0.000000  1.000000  0.049180         0.000000
 Other                                     9         7442                 0     0   7442      9  0.000000  1.000000  0.998792         0.000000
 PEM Private Key                        1150           76                 0     0     76   1150  0.000000  1.000000  0.061990         0.000000
-Password                               2518         9983                 0     0   9983   2518  0.000000  1.000000  0.798576         0.000000
+Password                               2519         9985                 0     0   9985   2519  0.000000  1.000000  0.798544         0.000000
 Postman Credentials                       2            0                 0     0      0      2            1.000000  0.000000         0.000000
 SQL Password                             44           14                 0     0     14     44  0.000000  1.000000  0.241379         0.000000
 Salesforce Credentials                    6            0                 0     0      0      6            1.000000  0.000000         0.000000
@@ -288,8 +288,8 @@ Secret                                 1528         2378                 0     0
 Slack Token                              15            1                 0     0      1     15  0.000000  1.000000  0.062500         0.000000
 Stripe Credentials                        2            0                 0     0      0      2            1.000000  0.000000         0.000000
 Tencent WeChat API App ID                47            0                 0     0      0     47            1.000000  0.000000         0.000000
-Token                                  1140         4670                 0     0   4670   1140  0.000000  1.000000  0.803787         0.000000
+Token                                  1138         4672                 0     0   4672   1138  0.000000  1.000000  0.804131         0.000000
 Twilio Credentials                       30           39                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         225          382                 0     0    382    225  0.000000  1.000000  0.629325         0.000000
 UUID                                   2508          280                 0     0    280   2508  0.000000  1.000000  0.100430         0.000000
-                                      17455        50598           0     0     0  50598  17455  0.000000  1.000000  0.743509         0.000000
+                                      17454        50604           0     0     0  50604  17454  0.000000  1.000000  0.743542         0.000000

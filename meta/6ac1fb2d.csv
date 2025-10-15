@@ -206,10 +206,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 11518181,63240134,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/security/63240134.json,1765,1765,T,24,84,,,Token
 11518182,63240134,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/security/63240134.json,1778,1778,T,24,84,,,Token
 11518205,099e89c5,GitHub,6ac1fb2d,data/6ac1fb2d/test/099e89c5.php,259,259,T,55,294,,,Token
-11518226,275769ee,GitHub,6ac1fb2d,data/6ac1fb2d/test/275769ee.php,18,18,T,32,47,,,Token
+11518226,275769ee,GitHub,6ac1fb2d,data/6ac1fb2d/test/275769ee.php,18,18,F,32,47,,,Token
 11518227,275769ee,GitHub,6ac1fb2d,data/6ac1fb2d/test/275769ee.php,24,24,T,32,80,,,Token
 11518228,275769ee,GitHub,6ac1fb2d,data/6ac1fb2d/test/275769ee.php,25,25,T,69,117,,,Auth:Bearer Authorization
-11518229,275769ee,GitHub,6ac1fb2d,data/6ac1fb2d/test/275769ee.php,30,30,T,32,47,,,Token
+11518229,275769ee,GitHub,6ac1fb2d,data/6ac1fb2d/test/275769ee.php,30,30,F,32,47,,,Token
 11518316,ef382249,GitHub,6ac1fb2d,data/6ac1fb2d/test/ef382249.php,137,137,T,43,55,,,Secret
 11518317,ef382249,GitHub,6ac1fb2d,data/6ac1fb2d/test/ef382249.php,385,385,T,43,55,,,Secret
 11518602,2284eb1e,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/2284eb1e.json,16,16,T,85,121,,,UUID
@@ -242,4 +242,5 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 11519090,e8312de5,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/e8312de5.json,708,708,T,28,64,,,UUID
 11519091,e8312de5,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/e8312de5.json,725,725,T,28,64,,,UUID
 11519092,e8312de5,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/e8312de5.json,742,742,T,28,64,,,UUID
-
+11519096,275769ee,GitHub,6ac1fb2d,data/6ac1fb2d/test/275769ee.php,19,19,F,69,84,,,Auth
+11519097,275769ee,GitHub,6ac1fb2d,data/6ac1fb2d/test/275769ee.php,31,31,F,69,84,,,Auth
