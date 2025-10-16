@@ -1,6 +1,6 @@
-META MD5 80f2d5c9a9d4ba0f68ac67e97705f15a
+META MD5 4748a13f1384c940864f197839f50811
 DATA MD5 794107ef80b9be25d0f3d1078cd570aa
-DATA: 17278858 interested lines. MARKUP: 62639 items
+DATA: 17278858 interested lines. MARKUP: 62641 items
 FileType           FileNumber    ValidLines    Positives    Negatives
 ---------------  ------------  ------------  -----------  -----------
                           689        567668          138          487
@@ -120,7 +120,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .markdown                  38          5862           69            4
 .markerb                    3            12                         3
 .marko                      1            21                         2
-.md                       789        185743         1068         2892
+.md                       789        185743         1068         2893
 .mdx                        3           549                         7
 .mjml                       1            18                         1
 .mjs                       22          4424          101          369
@@ -168,7 +168,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .pyx                        2          1094                        23
 .r                          4            62            5            2
 .rake                       2            51                         2
-.rb                       852        130684          426         2967
+.rb                       852        130684          426         2968
 .re                         1            31                         1
 .red                        1           159                         1
 .release                    1            13                         4
@@ -234,7 +234,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .yml                      564         57042         1928         1223
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  11701      17278858        17454        50604
+TOTAL:                  11701      17278858        17454        50606
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -244,7 +244,7 @@ AWS Multi                                82           10                 0     0
 AWS S3 Bucket                            67           23                 0     0     23     67  0.000000  1.000000  0.255556         0.000000
 Akamai Credentials                        6            2                 0     0      2      6  0.000000  1.000000  0.250000         0.000000
 Atlassian Old PAT token                   9            8                 0     0      8      9  0.000000  1.000000  0.470588         0.000000
-Auth                                   1170         2895                 0     0   2895   1170  0.000000  1.000000  0.712177         0.000000
+Auth                                   1170         2896                 0     0   2896   1170  0.000000  1.000000  0.712248         0.000000
 Azure Access Token                       24            0                 0     0      0     24            1.000000  0.000000         0.000000
 BASE64 Private Key                       22            4                 0     0      4     22  0.000000  1.000000  0.153846         0.000000
 BASE64 encoded PEM Private Key           12            0                 0     0      0     12            1.000000  0.000000         0.000000
@@ -288,8 +288,8 @@ Secret                                 1528         2378                 0     0
 Slack Token                              15            1                 0     0      1     15  0.000000  1.000000  0.062500         0.000000
 Stripe Credentials                        2            0                 0     0      0      2            1.000000  0.000000         0.000000
 Tencent WeChat API App ID                47            0                 0     0      0     47            1.000000  0.000000         0.000000
-Token                                  1138         4672                 0     0   4672   1138  0.000000  1.000000  0.804131         0.000000
+Token                                  1138         4673                 0     0   4673   1138  0.000000  1.000000  0.804165         0.000000
 Twilio Credentials                       30           39                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         225          382                 0     0    382    225  0.000000  1.000000  0.629325         0.000000
 UUID                                   2508          280                 0     0    280   2508  0.000000  1.000000  0.100430         0.000000
-                                      17454        50604           0     0     0  50604  17454  0.000000  1.000000  0.743542         0.000000
+                                      17454        50606           0     0     0  50606  17454  0.000000  1.000000  0.743550         0.000000
