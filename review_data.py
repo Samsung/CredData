@@ -24,6 +24,7 @@ from meta_row import read_meta, MetaRow
 EXIT_SUCCESS = 0
 EXIT_FAILURE = 1
 
+HUNK_SIZE = 80
 
 @cache
 def read_cache(path) -> list[str]:
@@ -31,7 +32,14 @@ def read_cache(path) -> list[str]:
         return f.read().replace("\r\n", '\n').replace('\r', '\n').split('\n')
 
 
-def read_data(path, line_start, line_end, value_start, value_end, ground_truth, creds: List[MetaCred]):
+def read_data(path: str,
+              line_start: int,
+              line_end: int,
+              value_start: int,
+              value_end: int,
+              ground_truth: str,
+              creds: List[MetaCred],
+              short_line: bool):
     lines = read_cache(path)
     if line_start == line_end:
         data_line = lines[line_start - 1]
@@ -85,17 +93,21 @@ def read_data(path, line_start, line_end, value_start, value_end, ground_truth, 
         line_found_in_cred = True
         correct_value_position = True
 
-    if 0 <= value_start and 0 <= value_end:
-        line = data_line[:value_start] \
+    text_start = value_start - HUNK_SIZE if short_line and 0 < value_start - HUNK_SIZE else 0
+    text_end = value_end + multiline_end_offset + HUNK_SIZE \
+        if short_line and len(data_line) > value_end + multiline_end_offset + HUNK_SIZE \
+        else len(data_line)
+    if 0 <= value_start <= value_end:
+        line = data_line[text_start:value_start] \
                + Back.LIGHTYELLOW_EX \
                + data_line[value_start:value_end + multiline_end_offset] \
                + Style.RESET_ALL \
                + fore_style \
-               + data_line[value_end + multiline_end_offset:]
-    elif value_start >= 0 > value_end:
-        line = data_line[:value_start] \
+               + data_line[value_end + multiline_end_offset:text_end]
+    elif value_end < 0 <= value_start:
+        line = data_line[text_start:value_start] \
                + Style.BRIGHT \
-               + data_line[value_start:]
+               + data_line[value_start:text_end]
     else:
         line = data_line
     print(f"{line_start}:{Style.RESET_ALL}{fore_style}{line}{Style.RESET_ALL}", flush=True)
@@ -107,7 +119,7 @@ def read_data(path, line_start, line_end, value_start, value_end, ground_truth, 
         test_line = data_line.lower()
         if not any(
                 x in test_line for x in
-                ["api", "pass", "secret", "pw", "key", "credential", "token", "auth", "nonce", "salt", "cert"]
+                ["api", "pass", "secret", "pw", "key", "credential", "token", "auth", "nonce", "salt"]
         ):
             repo_id = path.split('/')[1]
             subprocess.check_call(
@@ -120,10 +132,12 @@ def read_data(path, line_start, line_end, value_start, value_end, ground_truth, 
 
 def main(meta_dir: str,
          data_dir: str,
+         short_line: bool,
          check_only: bool,
          data_filter: dict,
+         category: Optional[str] = None,
          load_json: Optional[str] = None,
-         category: Optional[str] = None) -> int:
+         ) -> int:
     errors = 0
     duplicates = 0
     if not os.path.exists(meta_dir):
@@ -156,7 +170,9 @@ def main(meta_dir: str,
                           row.ValueStart,
                           row.ValueEnd,
                           row.GroundTruth,
-                          creds)
+                          creds,
+                          short_line,
+                          )
             except Exception as exc:
                 print(f"Failure {row}", exc, flush=True)
                 errors += 1
@@ -227,6 +243,7 @@ if __name__ == "__main__":
 
     parser.add_argument("meta_dir", help="Markup location", nargs='?', default="meta")
     parser.add_argument("data_dir", help="Dataset location", nargs='?', default="data")
+    parser.add_argument("--short_line", help="Reduce huge line in review", action='store_true')
     parser.add_argument("--check_only", help="Check meta markup only", action='store_true')
     parser.add_argument("-T", help="Show TRUE markup", action="store_true")
     parser.add_argument("-F", help="Show FALSE markup", action="store_true")
@@ -244,7 +261,14 @@ if __name__ == "__main__":
         _data_filter["T"] = _args.T
         _data_filter["F"] = _args.F
         _data_filter["X"] = _args.X
-    exit_code = main(_args.meta_dir, _args.data_dir, bool(_args.check_only), _data_filter, _args.load, _args.category)
+    exit_code = main(meta_dir=_args.meta_dir,
+                     data_dir=_args.data_dir,
+                     short_line=bool(_args.short_line),
+                     check_only=bool(_args.check_only),
+                     data_filter=_data_filter,
+                     category=_args.category,
+                     load_json=_args.load,
+                     )
     sys.exit(exit_code)
 
 # review generation command
