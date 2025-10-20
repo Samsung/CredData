@@ -1,6 +1,6 @@
-META MD5 424a26908dba552b577f22918ba19448
-DATA MD5 e7baa227a98f5fdefabbcb86d5ba4079
-DATA: 17230760 interested lines. MARKUP: 62328 items
+META MD5 c7902b7e94ed36807aa76f49bc5c5b41
+DATA MD5 8eb069c8e5d44914fd6dccbcbd6428cc
+DATA: 17230760 interested lines. MARKUP: 62332 items
 FileType           FileNumber    ValidLines    Positives    Negatives
 ---------------  ------------  ------------  -----------  -----------
                           689        567668          138          487
@@ -213,7 +213,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .toml                      86          2471           65          251
 .tpl                        1            43                         1
 .travis                     1            34            2            4
-.ts                       609        109982          258         1970
+.ts                       609        109982          262         1970
 .tsx                       54          7914            1          120
 .ttar                       1           452                         1
 .txt                      324         89406         5261         4385
@@ -229,7 +229,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .yml                      564         57042         1934         1217
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  11640      17230760        17507        50243
+TOTAL:                  11640      17230760        17511        50243
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -274,7 +274,7 @@ Nonce                                   130           55                 0     0
 OTP / 2FA Secret                         58            3                 0     0      3     58  0.000000  1.000000  0.049180         0.000000
 Other                                     9         7321                 0     0   7321      9  0.000000  1.000000  0.998772         0.000000
 PEM Private Key                        1150           76                 0     0     76   1150  0.000000  1.000000  0.061990         0.000000
-Password                               2571         9932                 0     0   9932   2571  0.000000  1.000000  0.794369         0.000000
+Password                               2575         9932                 0     0   9932   2575  0.000000  1.000000  0.794115         0.000000
 Postman Credentials                       2            0                 0     0      0      2            1.000000  0.000000         0.000000
 SQL Password                             44           14                 0     0     14     44  0.000000  1.000000  0.241379         0.000000
 Salesforce Credentials                    6            0                 0     0      0      6            1.000000  0.000000         0.000000
@@ -287,4 +287,4 @@ Token                                  1138         4668                 0     0
 Twilio Credentials                       30           39                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         225          382                 0     0    382    225  0.000000  1.000000  0.629325         0.000000
 UUID                                   2508          280                 0     0    280   2508  0.000000  1.000000  0.100430         0.000000
-                                      17507        50243           0     0     0  50243  17507  0.000000  1.000000  0.741594         0.000000
+                                      17511        50243           0     0     0  50243  17511  0.000000  1.000000  0.741550         0.000000
