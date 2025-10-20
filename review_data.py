@@ -107,7 +107,7 @@ def read_data(path: str,
     elif value_end < 0 <= value_start:
         line = data_line[text_start:value_start] \
                + Style.BRIGHT \
-               + data_line[value_start:text_end]
+               + data_line[value_start:]
     else:
         line = data_line
     print(f"{line_start}:{Style.RESET_ALL}{fore_style}{line}{Style.RESET_ALL}", flush=True)
