@@ -1,11 +1,8 @@
-import re
 from pathlib import Path
 
 
 class MetaCred:
     """Class to read CredSweeper report item and fit value position"""
-
-    valid_path_regex = re.compile(r"data/[0-9a-f]{8}/(src|test|other)/[0-9a-f]{8}(\.[\w-]+)?")
 
     def __init__(self, cs_cred: dict):
         self.rule = cs_cred["rule"]
@@ -19,7 +16,6 @@ class MetaCred:
                 break
         # path for benchmark must start from "data/"
         assert self.path.startswith('data/'), cs_cred
-        self.valid_path = bool(self.valid_path_regex.match(self.path))  # to skip license files
 
         self.line_start = line_data_list[0]["line_num"]
         self.line_end = line_data_list[-1]["line_num"]

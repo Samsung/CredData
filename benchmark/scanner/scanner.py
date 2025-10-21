@@ -4,10 +4,12 @@ import hashlib
 import os
 import subprocess
 from abc import ABC, abstractmethod
+from functools import cache
 from pathlib import Path
 from typing import Tuple, Dict, List, Any
 
 import tabulate
+from colorama import Fore, Style
 
 from benchmark.common import GitService, LineStatus, Result, ScannerType
 from benchmark.scanner.file_type_stat import FileTypeStat
@@ -242,6 +244,34 @@ class Scanner(ABC):
         file_id = file_name.split('.')[0]
         return data_path, repo_name, file_name, file_id
 
+    @staticmethod
+    @cache
+    def read_cache(file_path: str) -> list[str]:
+        with contextlib.suppress(Exception):
+            with open(file_path, "r", encoding="utf8") as f:
+                return f.read().replace("\r\n", '\n').replace('\r', '\n').split('\n')
+        return []
+
+    @staticmethod
+    def get_colored_line(file_path: str, line_start: int, line_end: int, value_start: int, value_end: int) -> str:
+        """get line with color highlighted value for quick review"""
+        if lines := Scanner.read_cache(file_path):
+            if line_start == line_end <= len(lines) and 0 <= value_start < value_end:
+                # normal single line value
+                _line = lines[line_start - 1]
+                colored_line = (_line[:value_start] + Fore.LIGHTYELLOW_EX +
+                                _line[value_start:value_end] + Style.RESET_ALL + _line[value_end:])
+            elif line_start < line_end <= len(lines):
+                # multiline
+                colored_line = '\n'.join(lines[line_start - 1:line_end])
+            else:
+                # wrong line numeration (.xml e.g.)
+                colored_line = ''
+        else:
+            # no file
+            colored_line = f"Cannot read '{Fore.LIGHTMAGENTA_EX}{file_path}{Style.RESET_ALL}' file"
+        return colored_line
+
     def check_line_from_meta(self,
                              file_path: str,
                              line_start: int,
@@ -275,7 +305,8 @@ class Scanner(ABC):
 
         if not (rows := self.meta.get(MetaKey(data_path, line_start, line_end))):
             self.lost_cnt += 1
-            print(f"NOT FOUND WITH KEY: {approximate}", flush=True)
+            print(f"NOT FOUND WITH KEY: {approximate}"
+                  f"\n{Scanner.get_colored_line(file_path, line_start, line_end, value_start, value_end)}", flush=True)
             if self.fix:
                 with open(f"{self.cred_data_dir}/meta/{repo_name}.csv", "a") as f:
                     f.write(f"{str(approximate)}\n")
@@ -354,7 +385,8 @@ class Scanner(ABC):
 
         # meta has no markup for given credential
         self.lost_cnt += 1
-        print(f"{suggestion} {approximate}", flush=True)
+        print(f"{suggestion} {approximate}"
+              f"\n{Scanner.get_colored_line(file_path, line_start, line_end, value_start, value_end)}", flush=True)
         self.meta_next_id += 1
         if lost_meta and self.fix:
             with open(f"{self.cred_data_dir}/meta/{repo_name}.csv", "a") as f:

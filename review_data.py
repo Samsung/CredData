@@ -181,7 +181,7 @@ def main(meta_dir: str,
                     print(f"Too short {min_length} > {row.ValueEnd - row.ValueStart} value for TRUE markup!\n{row}",
                           flush=True)
                     errors += 1
-            elif 0 < row.ValueEnd and "Password" in row.Category and 31 < row.ValueEnd - row.ValueStart:
+            if 0 < row.ValueEnd and "Password" in row.Category and 64 < row.ValueEnd - row.ValueStart:
                 print(f"Too long for Password TRUE markup!\n{row}", flush=True)
                 errors += 1
 
