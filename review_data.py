@@ -7,13 +7,13 @@ GREEN - true
 MAGENTA - templates
 When value start-end defined - the text is marked
 """
-
+import functools
 import json
 import os
+import pathlib
 import subprocess
 import sys
 from argparse import ArgumentParser
-from functools import cache
 from typing import List, Optional, Tuple, Dict
 
 from colorama import Fore, Back, Style
@@ -25,7 +25,15 @@ EXIT_SUCCESS = 0
 EXIT_FAILURE = 1
 
 
-@cache
+@functools.cache
+def get_excluding_extensions() -> set[str]:
+    # copy of CredSweeper/secret/config.json
+    with open("config.json") as f:
+        result = json.load(f)
+    return set(result["exclude"]["containers"] + result["exclude"]["documents"] + result["exclude"]["extension"])
+
+
+@functools.cache
 def read_cache(path) -> list[str]:
     with open(path, "r", encoding="utf8") as f:
         return f.read().replace("\r\n", '\n').replace('\r', '\n').split('\n')
@@ -115,15 +123,15 @@ def read_data(path, line_start, line_end, value_start, value_end, ground_truth, 
                  f"/.*{path.split('/')[-1]},{line_start},{line_end},.*/d",
                  f"meta/{repo_id}.csv"])
 
-    print("\n\n")
+    print("\n\n", flush=True)
 
 
-def main(meta_dir: str,
-         data_dir: str,
-         check_only: bool,
-         data_filter: dict,
-         load_json: Optional[str] = None,
-         category: Optional[str] = None) -> int:
+def review(meta_dir: str,
+           data_dir: str,
+           check_only: bool,
+           data_filter: dict,
+           load_json: Optional[str] = None,
+           category: Optional[str] = None) -> int:
     errors = 0
     duplicates = 0
     if not os.path.exists(meta_dir):
@@ -145,6 +153,11 @@ def main(meta_dir: str,
             continue
         if category and category not in row.Category.split(':'):
             continue
+
+        if pathlib.Path(row.FilePath).suffix in get_excluding_extensions():
+            # the file extension will be excluded during default scan
+            print(f"File {row.FilePath} is excluded by default config with extension filter!", flush=True)
+            errors += 1
 
         displayed_rows += 1
         if not check_only:
@@ -221,7 +234,7 @@ def main(meta_dir: str,
     return result
 
 
-if __name__ == "__main__":
+def main(argv) -> int:
     parser = ArgumentParser(prog="python review_data.py",
                             description="Console script for review markup with colorization")
 
@@ -233,7 +246,7 @@ if __name__ == "__main__":
     parser.add_argument("-X", help="Show X markup", action="store_true")
     parser.add_argument("--load", help="Load json report from CredSweeper", nargs='?')
     parser.add_argument("--category", help="Filter only with the category", nargs='?')
-    _args = parser.parse_args()
+    _args = parser.parse_args(argv[1:])
 
     _data_filter = {"Other": False}
     if not _args.T and not _args.F and not _args.X:
@@ -244,8 +257,11 @@ if __name__ == "__main__":
         _data_filter["T"] = _args.T
         _data_filter["F"] = _args.F
         _data_filter["X"] = _args.X
-    exit_code = main(_args.meta_dir, _args.data_dir, bool(_args.check_only), _data_filter, _args.load, _args.category)
-    sys.exit(exit_code)
+    return review(_args.meta_dir, _args.data_dir, bool(_args.check_only), _data_filter, _args.load, _args.category)
+
+
+if __name__ == """__main__""":
+    sys.exit(main(sys.argv))
 
 # review generation command
 # .venv/bin/python review_data.py meta data >review.$(now).$(git rev-parse HEAD).txt
