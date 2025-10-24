@@ -1,6 +1,6 @@
-META MD5 c7902b7e94ed36807aa76f49bc5c5b41
-DATA MD5 8eb069c8e5d44914fd6dccbcbd6428cc
-DATA: 17230760 interested lines. MARKUP: 62332 items
+META MD5 95346ca85ce4d3fcefd03fe87803bff8
+DATA MD5 c58c9fab721263eac09dbe0929c62cdd
+DATA: 17230760 interested lines. MARKUP: 62334 items
 FileType           FileNumber    ValidLines    Positives    Negatives
 ---------------  ------------  ------------  -----------  -----------
                           689        567668          138          487
@@ -64,7 +64,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .gd                         1            37                         1
 .gml                        3          3075                        16
 .gni                        3          5017                        19
-.go                      1280        718792         1514         4861
+.go                      1280        718792         1514         4862
 .golden                     5          1168            1           42
 .gradle                    50          4295            8          189
 .graphql                    8           454            2           13
@@ -159,7 +159,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .pug                        2           193                         2
 .purs                       1            69                         4
 .pxd                        1           150            2            4
-.py                       904        297181          750         3934
+.py                       904        297181          750         3935
 .pyi                        4          1361                         9
 .pyp                        1           167                         1
 .python                     1           213
@@ -226,10 +226,10 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .xib                       11           503                       164
 .xsl                        1           311                         1
 .yaml                     168         24422          195          379
-.yml                      564         57042         1934         1217
+.yml                      564         57042         1933         1218
 .zsh                        6           872                        12
 .zsh-theme                  1            97                         1
-TOTAL:                  11640      17230760        17511        50243
+TOTAL:                  11640      17230760        17510        50246
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -274,7 +274,7 @@ Nonce                                   130           55                 0     0
 OTP / 2FA Secret                         58            3                 0     0      3     58  0.000000  1.000000  0.049180         0.000000
 Other                                     9         7321                 0     0   7321      9  0.000000  1.000000  0.998772         0.000000
 PEM Private Key                        1150           76                 0     0     76   1150  0.000000  1.000000  0.061990         0.000000
-Password                               2575         9932                 0     0   9932   2575  0.000000  1.000000  0.794115         0.000000
+Password                               2574         9935                 0     0   9935   2574  0.000000  1.000000  0.794228         0.000000
 Postman Credentials                       2            0                 0     0      0      2            1.000000  0.000000         0.000000
 SQL Password                             44           14                 0     0     14     44  0.000000  1.000000  0.241379         0.000000
 Salesforce Credentials                    6            0                 0     0      0      6            1.000000  0.000000         0.000000
@@ -287,4 +287,4 @@ Token                                  1138         4668                 0     0
 Twilio Credentials                       30           39                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         225          382                 0     0    382    225  0.000000  1.000000  0.629325         0.000000
 UUID                                   2508          280                 0     0    280   2508  0.000000  1.000000  0.100430         0.000000
-                                      17511        50243           0     0     0  50243  17511  0.000000  1.000000  0.741550         0.000000
+                                      17510        50246           0     0     0  50246  17510  0.000000  1.000000  0.741573         0.000000
