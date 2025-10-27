@@ -106,12 +106,12 @@ class ObfuscatorTest(unittest.TestCase):
     def test_obfuscate_jwt(self):
         value = "eyJhbGciOjEwfQ%3D%3D"
         obfuscated = obfuscate_jwt(value)
-        self.assertNotEquals(value, obfuscated)
-        self.assertEquals(len(value), len(obfuscated))
+        self.assertNotEqual(value, obfuscated)
+        self.assertEqual(len(value), len(obfuscated))
         value = "eyJhbGciOiI+LHgifQ=="
         obfuscated = obfuscate_jwt(value)
-        self.assertNotEquals(value, obfuscated)
-        self.assertEquals(len(value), len(obfuscated))
+        self.assertNotEqual(value, obfuscated)
+        self.assertEqual(len(value), len(obfuscated))
         with self.assertRaises(binascii.Error):
             # '+' is web escaped to %2B - cannot be obfuscated with the same value length
             obfuscate_jwt("eyJhbGciOiI%2BLHgifQ%3D%3D")
