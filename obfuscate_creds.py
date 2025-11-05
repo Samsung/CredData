@@ -217,7 +217,7 @@ def check_asc_or_desc(line_data_value: str) -> bool:
 
 def generate_value(value):
     """Wrapper to skip obfuscation with false positive or negatives"""
-    pattern_keyword = re.compile(r"(api|pass|pw[d\b])", flags=re.IGNORECASE)
+    pattern_keyword = re.compile(r"(api|key|pass|pw[d\b])", flags=re.IGNORECASE)
     pattern_similar = re.compile(r"(\w)\1{3,}")
     new_value = None
     while new_value is None \
