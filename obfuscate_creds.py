@@ -385,8 +385,8 @@ def replace_rows(data: List[MetaRow], lines: List[str]):
 
         old_line = lines[row.LineStart - 1]
         value = old_line[row.ValueStart:row.ValueEnd]
-        # credsweeper does not scan lines over 8000 symbols, so 1<<13 is enough
-        random.seed((row.LineStart << 13 + row.ValueStart) ^ int(row.FileID, 16))
+        # CredSweeper may scan huge lines since v1.6
+        random.seed((row.ValueStart | (row.LineStart << 16)) ^ int(row.FileID, 16))
         obfuscated_value = get_obfuscated_value(value, row)
         new_line = old_line[:row.ValueStart] + obfuscated_value + old_line[row.ValueEnd:]
 
