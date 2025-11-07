@@ -18,7 +18,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 16842,84760b8a,GitHub,fdbe07ac,data/fdbe07ac/test/vendor/84760b8a.go,52,52,F,,,,,Password
 16843,2b6903fb,GitHub,fdbe07ac,data/fdbe07ac/test/vendor/2b6903fb.go,52,52,F,,,,,Password
 22531,2b6903fb,GitHub,fdbe07ac,data/fdbe07ac/test/vendor/2b6903fb.go,45,45,F,7,15,,,Password
-22557,2b6903fb,GitHub,fdbe07ac,data/fdbe07ac/test/vendor/2b6903fb.go,42,42,T,7,15,,,Other
+22557,2b6903fb,GitHub,fdbe07ac,data/fdbe07ac/test/vendor/2b6903fb.go,42,42,X,7,15,,,Other
 22558,84760b8a,GitHub,fdbe07ac,data/fdbe07ac/test/vendor/84760b8a.go,45,45,F,,,,,Password
 23046,5919a012,GitHub,fdbe07ac,data/fdbe07ac/vendor/5919a012.go,73,73,F,,,,,Password
 24791,932a4f07,GitHub,fdbe07ac,data/fdbe07ac/vendor/932a4f07.go,702,702,F,,,,,Password
@@ -76,7 +76,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 42651,4f1e3039,GitHub,fdbe07ac,data/fdbe07ac/docker/vendor/4f1e3039.yaml,77,77,X,35,41,,,Password
 46224,35658be4,GitHub,fdbe07ac,data/fdbe07ac/test/vendor/35658be4.go,67,67,X,14,78,,,Other
 46225,35658be4,GitHub,fdbe07ac,data/fdbe07ac/test/vendor/35658be4.go,68,68,X,15,79,,,Other
-46228,84760b8a,GitHub,fdbe07ac,data/fdbe07ac/test/vendor/84760b8a.go,42,42,T,7,15,,,Other
+46228,84760b8a,GitHub,fdbe07ac,data/fdbe07ac/test/vendor/84760b8a.go,42,42,X,7,15,,,Other
 46233,2b6903fb,GitHub,fdbe07ac,data/fdbe07ac/test/vendor/2b6903fb.go,37,37,X,32,40,,,Password
 46234,84760b8a,GitHub,fdbe07ac,data/fdbe07ac/test/vendor/84760b8a.go,37,37,X,32,40,,,Password
 46235,2b6903fb,GitHub,fdbe07ac,data/fdbe07ac/test/vendor/2b6903fb.go,40,40,X,32,40,,,Password
@@ -121,7 +121,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 58127,932a4f07,GitHub,fdbe07ac,data/fdbe07ac/vendor/932a4f07.go,72,72,F,,,,,Key
 58128,f15d80cd,GitHub,fdbe07ac,data/fdbe07ac/vendor/f15d80cd.go,38,38,F,,,,,Key
 58129,932a4f07,GitHub,fdbe07ac,data/fdbe07ac/vendor/932a4f07.go,823,823,F,,,,,Password
-58130,f15d80cd,GitHub,fdbe07ac,data/fdbe07ac/vendor/f15d80cd.go,112,112,F,,,,,Other
 58131,932a4f07,GitHub,fdbe07ac,data/fdbe07ac/vendor/932a4f07.go,744,744,F,,,,,Key
 58132,932a4f07,GitHub,fdbe07ac,data/fdbe07ac/vendor/932a4f07.go,177,177,F,,,,,Key
 58133,f15d80cd,GitHub,fdbe07ac,data/fdbe07ac/vendor/f15d80cd.go,102,102,F,,,,,Key
@@ -145,8 +144,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 82117,a9feb117,GitHub,fdbe07ac,data/fdbe07ac/vendor/a9feb117.go,202,202,F,42,47,,,Password
 82118,a9feb117,GitHub,fdbe07ac,data/fdbe07ac/vendor/a9feb117.go,208,208,F,39,43,,,Password
 82119,a9feb117,GitHub,fdbe07ac,data/fdbe07ac/vendor/a9feb117.go,211,211,F,39,43,,,Password
-82120,a3fda3f7,GitHub,fdbe07ac,data/fdbe07ac/server/vendor/a3fda3f7.go,205,205,F,45,,,,Other
-82121,a3fda3f7,GitHub,fdbe07ac,data/fdbe07ac/server/vendor/a3fda3f7.go,260,260,F,45,,,,Other
 82123,35658be4,GitHub,fdbe07ac,data/fdbe07ac/test/vendor/35658be4.go,392,392,F,34,38,,,Password
 82124,35658be4,GitHub,fdbe07ac,data/fdbe07ac/test/vendor/35658be4.go,923,923,F,34,38,,,Password
 82125,35658be4,GitHub,fdbe07ac,data/fdbe07ac/test/vendor/35658be4.go,950,950,F,34,38,,,Password
@@ -167,8 +164,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 82140,2b6903fb,GitHub,fdbe07ac,data/fdbe07ac/test/vendor/2b6903fb.go,61,61,F,158,189,,,Password
 82141,2b6903fb,GitHub,fdbe07ac,data/fdbe07ac/test/vendor/2b6903fb.go,70,70,F,,,,,Password
 82142,2b6903fb,GitHub,fdbe07ac,data/fdbe07ac/test/vendor/2b6903fb.go,73,73,F,,,,,Password
-84004,84760b8a,GitHub,fdbe07ac,data/fdbe07ac/test/vendor/84760b8a.go,48,48,T,7,17,,,Other
-84005,2b6903fb,GitHub,fdbe07ac,data/fdbe07ac/test/vendor/2b6903fb.go,48,48,T,7,17,,,Other
+84004,84760b8a,GitHub,fdbe07ac,data/fdbe07ac/test/vendor/84760b8a.go,48,48,X,7,17,,,Other
+84005,2b6903fb,GitHub,fdbe07ac,data/fdbe07ac/test/vendor/2b6903fb.go,48,48,X,7,17,,,Other
 100529,0b251a68,GitHub,fdbe07ac,data/fdbe07ac/vendor/0b251a68.md,407,407,F,,,,,Password
 100530,5919a012,GitHub,fdbe07ac,data/fdbe07ac/vendor/5919a012.go,171,171,F,,,,,Password
 100531,5919a012,GitHub,fdbe07ac,data/fdbe07ac/vendor/5919a012.go,295,295,F,,,,,Password
@@ -183,10 +180,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 100541,285a035f,GitHub,fdbe07ac,data/fdbe07ac/test/vendor/285a035f.go,102,102,T,18,35,,,Key
 100542,2ebef03a,GitHub,fdbe07ac,data/fdbe07ac/test/2ebef03a.go,46,46,F,,,,,Password
 100543,2ebef03a,GitHub,fdbe07ac,data/fdbe07ac/test/2ebef03a.go,62,62,F,,,,,Password
-100546,35658be4,GitHub,fdbe07ac,data/fdbe07ac/test/vendor/35658be4.go,51,51,T,3,24,,,Other
+100546,35658be4,GitHub,fdbe07ac,data/fdbe07ac/test/vendor/35658be4.go,51,51,X,3,24,,,Other
 100547,d8a593d1,GitHub,fdbe07ac,data/fdbe07ac/test/vendor/d8a593d1.go,1975,1975,F,,,,,Password
 110132,f15d80cd,GitHub,fdbe07ac,data/fdbe07ac/vendor/f15d80cd.go,132,132,F,,,,,Auth
-110133,f15d80cd,GitHub,fdbe07ac,data/fdbe07ac/vendor/f15d80cd.go,31,31,F,,,,,Other
 110134,f15d80cd,GitHub,fdbe07ac,data/fdbe07ac/vendor/f15d80cd.go,39,39,F,,,,,Key
 110135,f15d80cd,GitHub,fdbe07ac,data/fdbe07ac/vendor/f15d80cd.go,40,40,F,,,,,Key
 110136,f15d80cd,GitHub,fdbe07ac,data/fdbe07ac/vendor/f15d80cd.go,42,42,F,,,,,Key
