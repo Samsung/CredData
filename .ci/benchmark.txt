@@ -1,6 +1,6 @@
-META MD5 b8204316b25d71ebc6cc261309e40e7e
+META MD5 664b2773427d36322af6206f2de9ff4d
 DATA MD5 a014216ecbb81fc78013ef9dccca5b4d
-DATA: 17065440 interested lines. MARKUP: 54440 items
+DATA: 17065440 interested lines. MARKUP: 54444 items
 FileType           FileNumber    ValidLines    Positives    Negatives
 ---------------  ------------  ------------  -----------  -----------
                           684        567150          137          445
@@ -84,7 +84,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .ipynb                      1           134                         2
 .j                          1           241            4
 .j2                        32          6043            8          174
-.java                     650        141112          478         1279
+.java                     650        141112          478         1282
 .jenkinsfile                1            58            2            6
 .jinja2                     1            64                         2
 .js                       640        530803          844         2547
@@ -139,7 +139,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .patch                      3        109384            4           22
 .pbxproj                    1           941                         1
 .pem                       65          1467           64            3
-.php                      394         81495          171         1221
+.php                      394         81495          171         1223
 .pl                        16         14727            7           32
 .pm                        10          5224            1           16
 .po                         3          2994                        11
@@ -157,7 +157,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .pug                        2           193                         2
 .purs                       1            69                         4
 .pxd                        1           150            2            4
-.py                       875        292004          737         3439
+.py                       875        292004          737         3440
 .pyi                        4          1361                         9
 .pyp                        1           167                         1
 .python                     1           213
@@ -225,7 +225,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .yml                      560         56585         1907         1134
 .zsh                        6           872                        11
 .zsh-theme                  1            97                         1
-TOTAL:                  11354      17065440        17179        41889
+TOTAL:                  11354      17065440        17179        41895
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -263,7 +263,7 @@ MailGun API Key                           8            0                 0     0
 NKEY Seed                                60            0                 0     0      0     60            1.000000  0.000000         0.000000
 Nonce                                   130           55                 0     0     55    130  0.000000  1.000000  0.297297         0.000000
 OTP / 2FA Secret                         64            3                 0     0      3     64  0.000000  1.000000  0.044776         0.000000
-Other                                     0           13                 0     0     13      0  0.000000            1.000000
+Other                                     0           19                 0     0     19      0  0.000000            1.000000
 PEM Private Key                        1150           76                 0     0     76   1150  0.000000  1.000000  0.061990         0.000000
 Password                               2577         9932                 0     0   9932   2577  0.000000  1.000000  0.793988         0.000000
 Postman Credentials                       2            0                 0     0      0      2            1.000000  0.000000         0.000000
@@ -278,4 +278,4 @@ Token                                  1137         4670                 0     0
 Twilio Credentials                       30           39                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         225          382                 0     0    382    225  0.000000  1.000000  0.629325         0.000000
 UUID                                   2508          280                 0     0    280   2508  0.000000  1.000000  0.100430         0.000000
-                                      17179        41889           0     0     0  41889  17179  0.000000  1.000000  0.709166         0.000000
+                                      17179        41895           0     0     0  41895  17179  0.000000  1.000000  0.709195         0.000000
