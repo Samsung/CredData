@@ -24,8 +24,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 1495193,182d7cd5,GitHub,fc8343f4,data/fc8343f4/vendor/182d7cd5.go,760,760,T,15,51,,,UUID
 1495194,182d7cd5,GitHub,fc8343f4,data/fc8343f4/vendor/182d7cd5.go,983,983,T,15,51,,,UUID
 1495195,182d7cd5,GitHub,fc8343f4,data/fc8343f4/vendor/182d7cd5.go,1569,1569,T,15,51,,,UUID
-1495199,2c6e2847,GitHub,fc8343f4,data/fc8343f4/vendor/2c6e2847.go,1072,1072,T,19,37,,,Bitbucket Client ID
-1495200,2c6e2847,GitHub,fc8343f4,data/fc8343f4/vendor/2c6e2847.go,1076,1076,T,19,37,,,Bitbucket Client ID
 1495201,36e47938,GitHub,fc8343f4,data/fc8343f4/api/kube/app/fuzz/36e47938.go,42,42,T,75,91,,,Secret
 1495202,3a831bdb,GitHub,fc8343f4,data/fc8343f4/vendor/3a831bdb.go,602,602,T,15,51,,,UUID
 1495203,3a831bdb,GitHub,fc8343f4,data/fc8343f4/vendor/3a831bdb.go,823,823,T,15,51,,,UUID
@@ -68,7 +66,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 1495306,7c2283bb,GitHub,fc8343f4,data/fc8343f4/src/pkg/api/server/7c2283bb.yaml,18,18,T,9,45,,,UUID
 1495307,8127cd74,GitHub,fc8343f4,data/fc8343f4/vendor/8127cd74.go,250,250,T,15,51,,,UUID
 1495308,8127cd74,GitHub,fc8343f4,data/fc8343f4/vendor/8127cd74.go,412,412,T,15,51,,,UUID
-1495310,8705fea4,GitHub,fc8343f4,data/fc8343f4/sys/vendor/8705fea4.go,2777,2777,T,1,19,,,Bitbucket Client ID
 1495330,89dc8839,GitHub,fc8343f4,data/fc8343f4/resource/vendor/89dc8839.go,334,334,T,50,86,,,UUID
 1495331,89dc8839,GitHub,fc8343f4,data/fc8343f4/resource/vendor/89dc8839.go,367,367,T,45,81,,,UUID
 1495332,89dc8839,GitHub,fc8343f4,data/fc8343f4/resource/vendor/89dc8839.go,490,490,T,25,61,,,UUID
@@ -238,7 +235,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 1496011,2c4fb397,GitHub,fc8343f4,data/fc8343f4/test/util/conf/kube/app/2c4fb397.go,478,478,T,11,34,,,Token
 1496012,2c4fb397,GitHub,fc8343f4,data/fc8343f4/test/util/conf/kube/app/2c4fb397.go,534,534,T,11,34,,,Token
 1496013,2ce6ac54,GitHub,fc8343f4,data/fc8343f4/test/src/resource/pkg/kube/2ce6ac54.response,16,16,T,16,52,,,UUID
-1496014,2cfee435,GitHub,fc8343f4,data/fc8343f4/test/2cfee435.go,1257,1257,T,5,23,,,Bitbucket Client ID
 1496015,2cfee435,GitHub,fc8343f4,data/fc8343f4/test/2cfee435.go,1376,1376,T,31,67,,,UUID
 1496016,2cfee435,GitHub,fc8343f4,data/fc8343f4/test/2cfee435.go,1463,1463,T,25,61,,,UUID
 1496017,2cfee435,GitHub,fc8343f4,data/fc8343f4/test/2cfee435.go,1485,1485,T,25,61,,,UUID
@@ -453,8 +449,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 1496228,7ee023b4,GitHub,fc8343f4,data/fc8343f4/test/pkg/api/7ee023b4.go,4488,4488,T,20,56,,,UUID
 1496229,7ee023b4,GitHub,fc8343f4,data/fc8343f4/test/pkg/api/7ee023b4.go,4523,4523,T,20,56,,,UUID
 1496230,7ee023b4,GitHub,fc8343f4,data/fc8343f4/test/pkg/api/7ee023b4.go,4600,4600,T,17,53,,,UUID
-1496231,7ee023b4,GitHub,fc8343f4,data/fc8343f4/test/pkg/api/7ee023b4.go,21171,21171,T,76,108,,,Auth:Bitbucket Client ID:Bitbucket Client Secret
-1496232,7ee023b4,GitHub,fc8343f4,data/fc8343f4/test/pkg/api/7ee023b4.go,21180,21180,T,89,121,,,Auth:Bitbucket Client ID:Bitbucket Client Secret
+1496231,7ee023b4,GitHub,fc8343f4,data/fc8343f4/test/pkg/api/7ee023b4.go,21171,21171,T,76,108,,,Auth
+1496232,7ee023b4,GitHub,fc8343f4,data/fc8343f4/test/pkg/api/7ee023b4.go,21180,21180,T,89,121,,,Auth
 1496233,7f1d165f,GitHub,fc8343f4,data/fc8343f4/test/util/kube/app/7f1d165f.key,1,27,T,0,29,,,PEM Private Key
 1496234,7f688f67,GitHub,fc8343f4,data/fc8343f4/test/src/pkg/kube/7f688f67.response,6,6,T,385,421,,,UUID
 1496235,7f688f67,GitHub,fc8343f4,data/fc8343f4/test/src/pkg/kube/7f688f67.response,11,11,T,10,46,,,UUID
@@ -827,3 +823,5 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 1096355,a9119ede,GitHub,fc8343f4,data/fc8343f4/test/src/conf/rest/client/a9119ede.go,655,655,T,1139,1233,,,Key
 11503163,cc8ec946,GitHub,fc8343f4,data/fc8343f4/vendor/cc8ec946.go,8647,8647,F,22,30,,,URL Credentials
 11524146,5eb7ac2c,GitHub,fc8343f4,data/fc8343f4/test/src/conf/pkg/kube/5eb7ac2c.go,77,77,F,,,,,Password
+11524154,348a3e28,GitHub,fc8343f4,data/fc8343f4/test/src/pkg/api/server/348a3e28.go,496,496,F,11,26,,,Token
+11524155,e77bcab2,GitHub,fc8343f4,data/fc8343f4/test/src/pkg/api/server/e77bcab2.go,493,493,F,11,26,,,Token
