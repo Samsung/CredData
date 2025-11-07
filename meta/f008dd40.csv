@@ -152,7 +152,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 35302,ab0f5e29,GitHub,f008dd40,data/f008dd40/internal/ab0f5e29.pem,1,27,T,,,Private,,PEM Private Key
 35320,11286903,GitHub,f008dd40,data/f008dd40/internal/conf/11286903.yml,60,86,T,,,Private,,PEM Private Key
 35481,9823c427,GitHub,f008dd40,data/f008dd40/internal/example/docker/9823c427.yml,7,7,T,28,40,,,Password
-35487,11286903,GitHub,f008dd40,data/f008dd40/internal/conf/11286903.yml,58,58,T,17,49,,,Secret:Bitbucket Client ID:Bitbucket Client Secret
+35487,11286903,GitHub,f008dd40,data/f008dd40/internal/conf/11286903.yml,58,58,T,17,49,,,Secret:Bitbucket Client Secret
 35492,d0b71133,GitHub,f008dd40,data/f008dd40/internal/d0b71133.pem,1,28,T,,,Private,,PEM Private Key
 35823,0bbc7302,GitHub,f008dd40,data/f008dd40/api/0bbc7302.yml,708,708,T,125,177,,,Secret
 36074,9e2351f6,GitHub,f008dd40,data/f008dd40/conf/template/9e2351f6.yml,396,396,T,14,22,,,Password
@@ -358,16 +358,16 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 102036,a40d8da9,GitHub,f008dd40,data/f008dd40/test/internal/a40d8da9.go,171,171,F,,,,,Password
 102037,a40d8da9,GitHub,f008dd40,data/f008dd40/test/internal/a40d8da9.go,177,177,F,,,,,Password
 102038,a40d8da9,GitHub,f008dd40,data/f008dd40/test/internal/a40d8da9.go,222,222,F,,,,,Password
-102039,a40d8da9,GitHub,f008dd40,data/f008dd40/test/internal/a40d8da9.go,231,231,F,,,,,Password:Bitbucket Client ID:Bitbucket Client Secret
+102039,a40d8da9,GitHub,f008dd40,data/f008dd40/test/internal/a40d8da9.go,231,231,F,,,,,Password:Bitbucket Client Secret
 102040,a40d8da9,GitHub,f008dd40,data/f008dd40/test/internal/a40d8da9.go,237,237,F,,,,,Password
-102041,a40d8da9,GitHub,f008dd40,data/f008dd40/test/internal/a40d8da9.go,243,243,F,,,,,Password:Bitbucket Client ID:Bitbucket Client Secret
+102041,a40d8da9,GitHub,f008dd40,data/f008dd40/test/internal/a40d8da9.go,243,243,F,,,,,Password:Bitbucket Client Secret
 102042,a40d8da9,GitHub,f008dd40,data/f008dd40/test/internal/a40d8da9.go,250,250,F,,,,,Password
-102043,a40d8da9,GitHub,f008dd40,data/f008dd40/test/internal/a40d8da9.go,257,257,F,,,,,Password:Bitbucket Client ID:Bitbucket Client Secret
+102043,a40d8da9,GitHub,f008dd40,data/f008dd40/test/internal/a40d8da9.go,257,257,F,,,,,Password:Bitbucket Client Secret
 102044,a40d8da9,GitHub,f008dd40,data/f008dd40/test/internal/a40d8da9.go,265,265,F,,,,,Password
 102045,a40d8da9,GitHub,f008dd40,data/f008dd40/test/internal/a40d8da9.go,272,272,F,,,,,Password
 102046,a40d8da9,GitHub,f008dd40,data/f008dd40/test/internal/a40d8da9.go,279,279,F,,,,,Password
 102047,a40d8da9,GitHub,f008dd40,data/f008dd40/test/internal/a40d8da9.go,286,286,F,,,,,Password
-102048,a40d8da9,GitHub,f008dd40,data/f008dd40/test/internal/a40d8da9.go,293,293,F,,,,,Password:Bitbucket Client ID:Bitbucket Client Secret
+102048,a40d8da9,GitHub,f008dd40,data/f008dd40/test/internal/a40d8da9.go,293,293,F,,,,,Password:Bitbucket Client Secret
 102049,d0138749,GitHub,f008dd40,data/f008dd40/test/internal/d0138749.go,482,482,F,,,,,Password
 113111,0bbc7302,GitHub,f008dd40,data/f008dd40/api/0bbc7302.yml,175,175,F,,,,,Auth
 113120,c1d1b2dd,GitHub,f008dd40,data/f008dd40/internal/example/kube/c1d1b2dd.yml,21,21,F,,,,,Auth
@@ -396,24 +396,23 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 134728,c592e77b,GitHub,f008dd40,data/f008dd40/test/internal/c592e77b.go,226,226,F,,,,,Key
 1036094,86db8848,GitHub,f008dd40,data/f008dd40/internal/template/86db8848.yml,12,12,T,130,138,,,Password
 1480574,813dc2b8,GitHub,f008dd40,data/f008dd40/test/internal/813dc2b8.go,11,11,T,64,,,,BASE64 Private Key
-1480634,1ea6d35f,GitHub,f008dd40,data/f008dd40/internal/1ea6d35f.yml,12,12,F,49,81,,,Bitbucket Client ID:Bitbucket Client Secret
-1480635,1ea6d35f,GitHub,f008dd40,data/f008dd40/internal/1ea6d35f.yml,20,20,F,49,81,,,Bitbucket Client ID:Bitbucket Client Secret
-1480636,1ea6d35f,GitHub,f008dd40,data/f008dd40/internal/1ea6d35f.yml,26,26,F,49,81,,,Bitbucket Client ID:Bitbucket Client Secret
-1480637,1ea6d35f,GitHub,f008dd40,data/f008dd40/internal/1ea6d35f.yml,33,33,F,49,81,,,Bitbucket Client ID:Bitbucket Client Secret
-1480638,a40d8da9,GitHub,f008dd40,data/f008dd40/test/internal/a40d8da9.go,24,24,F,64,96,,,Bitbucket Client ID:Bitbucket Client Secret
-1480639,a40d8da9,GitHub,f008dd40,data/f008dd40/test/internal/a40d8da9.go,245,245,F,115,147,,,Bitbucket Client ID:Bitbucket Client Secret
-1480640,c592e77b,GitHub,f008dd40,data/f008dd40/test/internal/c592e77b.go,216,216,F,162,194,,,Bitbucket Client ID:Bitbucket Client Secret
-1480641,c592e77b,GitHub,f008dd40,data/f008dd40/test/internal/c592e77b.go,290,290,F,56,88,,,Bitbucket Client ID:Bitbucket Client Secret
-1480642,c592e77b,GitHub,f008dd40,data/f008dd40/test/internal/c592e77b.go,296,296,F,56,88,,,Bitbucket Client ID:Bitbucket Client Secret
-1480643,c592e77b,GitHub,f008dd40,data/f008dd40/test/internal/c592e77b.go,303,303,F,56,88,,,Bitbucket Client ID:Bitbucket Client Secret
-1480644,c592e77b,GitHub,f008dd40,data/f008dd40/test/internal/c592e77b.go,327,327,F,56,88,,,Bitbucket Client ID:Bitbucket Client Secret
-1480645,c592e77b,GitHub,f008dd40,data/f008dd40/test/internal/c592e77b.go,338,338,F,49,81,,,Bitbucket Client ID:Bitbucket Client Secret
-1480646,c592e77b,GitHub,f008dd40,data/f008dd40/test/internal/c592e77b.go,345,345,F,49,81,,,Bitbucket Client ID:Bitbucket Client Secret
-1480647,c592e77b,GitHub,f008dd40,data/f008dd40/test/internal/c592e77b.go,353,353,F,47,79,,,Bitbucket Client ID:Bitbucket Client Secret
-1480648,c592e77b,GitHub,f008dd40,data/f008dd40/test/internal/c592e77b.go,360,360,F,49,81,,,Bitbucket Client ID:Bitbucket Client Secret
-1480649,c592e77b,GitHub,f008dd40,data/f008dd40/test/internal/c592e77b.go,393,393,F,65,83,,,Bitbucket Client ID
-1480808,a40d8da9,GitHub,f008dd40,data/f008dd40/test/internal/a40d8da9.go,264,264,F,,,,,Bitbucket Client ID:Bitbucket Client Secret
-1494730,2fda35a0,GitHub,f008dd40,data/f008dd40/internal/conf/2fda35a0.yml,60,60,T,17,49,,,Secret:Bitbucket Client ID:Bitbucket Client Secret
+1480634,1ea6d35f,GitHub,f008dd40,data/f008dd40/internal/1ea6d35f.yml,12,12,F,49,81,,,Bitbucket Client Secret
+1480635,1ea6d35f,GitHub,f008dd40,data/f008dd40/internal/1ea6d35f.yml,20,20,F,49,81,,,Bitbucket Client Secret
+1480636,1ea6d35f,GitHub,f008dd40,data/f008dd40/internal/1ea6d35f.yml,26,26,F,49,81,,,Bitbucket Client Secret
+1480637,1ea6d35f,GitHub,f008dd40,data/f008dd40/internal/1ea6d35f.yml,33,33,F,49,81,,,Bitbucket Client Secret
+1480638,a40d8da9,GitHub,f008dd40,data/f008dd40/test/internal/a40d8da9.go,24,24,F,64,96,,,Bitbucket Client Secret
+1480639,a40d8da9,GitHub,f008dd40,data/f008dd40/test/internal/a40d8da9.go,245,245,F,115,147,,,Bitbucket Client Secret
+1480640,c592e77b,GitHub,f008dd40,data/f008dd40/test/internal/c592e77b.go,216,216,F,162,194,,,Bitbucket Client Secret
+1480641,c592e77b,GitHub,f008dd40,data/f008dd40/test/internal/c592e77b.go,290,290,F,56,88,,,Bitbucket Client Secret
+1480642,c592e77b,GitHub,f008dd40,data/f008dd40/test/internal/c592e77b.go,296,296,F,56,88,,,Bitbucket Client Secret
+1480643,c592e77b,GitHub,f008dd40,data/f008dd40/test/internal/c592e77b.go,303,303,F,56,88,,,Bitbucket Client Secret
+1480644,c592e77b,GitHub,f008dd40,data/f008dd40/test/internal/c592e77b.go,327,327,F,56,88,,,Bitbucket Client Secret
+1480645,c592e77b,GitHub,f008dd40,data/f008dd40/test/internal/c592e77b.go,338,338,F,49,81,,,Bitbucket Client Secret
+1480646,c592e77b,GitHub,f008dd40,data/f008dd40/test/internal/c592e77b.go,345,345,F,49,81,,,Bitbucket Client Secret
+1480647,c592e77b,GitHub,f008dd40,data/f008dd40/test/internal/c592e77b.go,353,353,F,47,79,,,Bitbucket Client Secret
+1480648,c592e77b,GitHub,f008dd40,data/f008dd40/test/internal/c592e77b.go,360,360,F,49,81,,,Bitbucket Client Secret
+1480808,a40d8da9,GitHub,f008dd40,data/f008dd40/test/internal/a40d8da9.go,264,264,F,,,,,Bitbucket Client Secret
+1494730,2fda35a0,GitHub,f008dd40,data/f008dd40/internal/conf/2fda35a0.yml,60,60,T,17,49,,,Secret:Bitbucket Client Secret
 1494731,62c093af,GitHub,f008dd40,data/f008dd40/internal/example/62c093af.ldif,5,5,F,19,27,,,Password
 1495034,2fda35a0,GitHub,f008dd40,data/f008dd40/internal/conf/2fda35a0.yml,62,88,T,6,35,,,PEM Private Key
 1525350,dffd4837,GitHub,f008dd40,data/f008dd40/internal/dffd4837.go,35,35,T,10,38,,,Basic Authorization
