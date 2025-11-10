@@ -2,7 +2,7 @@ import binascii
 import random
 import unittest
 
-from obfuscate_creds import gen_random_value, obfuscate_jwt
+from obfuscate_creds import gen_random_value, obfuscate_jwt, obfuscate_glsa
 
 
 class ObfuscatorTest(unittest.TestCase):
@@ -115,3 +115,13 @@ class ObfuscatorTest(unittest.TestCase):
         with self.assertRaises(binascii.Error):
             # '+' is web escaped to %2B - cannot be obfuscated with the same value length
             obfuscate_jwt("eyJhbGciOiI%2BLHgifQ%3D%3D")
+
+    def test_obfuscate_glsa(self):
+        random.seed(20251110)
+        # the value from CredSweeper samples
+        value = "glsa_ThisI5NtTheTok3nYou8reLo0k1ngF0r_0a2a3df7"
+        obfuscated = obfuscate_glsa(value)
+        self.assertNotEqual(value, obfuscated)
+        self.assertEqual(len(value), len(obfuscated))
+        # tested value
+        self.assertEqual("glsa_DaldL9OnCudSrj7jWui7wxVj9b4ltV2p_c97ad013", obfuscated)
