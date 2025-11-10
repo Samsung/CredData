@@ -1,9 +1,9 @@
-META MD5 ba483ee94ad256c154ff9a0c68a3c0ef
-DATA MD5 58da64b6a21981b28ca0937d95b5153a
-DATA: 17125639 interested lines. MARKUP: 54448 items
+META MD5 a6adbaf1a16750999b49a5e64855fef8
+DATA MD5 a11f2bbd204ecb6b56d7c0bbe6457486
+DATA: 17079919 interested lines. MARKUP: 54468 items
 FileType           FileNumber    ValidLines    Positives    Negatives
 ---------------  ------------  ------------  -----------  -----------
-                          689        567400          137          445
+                          684        567150          137          445
 .04                         2           149            4
 .1                          2           641            2            8
 .admx                       1            26                         1
@@ -62,7 +62,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .gd                         1            37                         1
 .gml                        3          3075                        16
 .gni                        3          5017                        17
-.go                      1350        736900         1479         4537
+.go                      1242        706630         1479         4537
 .golden                     5          1168            1           42
 .gradle                    50          4295            8          139
 .graphql                    8           454            2           13
@@ -88,7 +88,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .jenkinsfile                1            58            2            6
 .jinja2                     1            64                         2
 .js                       640        530803          844         2547
-.json                     885      13142924         1872         5837
+.json                     885      13142924         1879         5837
 .jsp                       13          3202            1           37
 .jsx                        7           857                        15
 .jwt                        1             1            2
@@ -116,18 +116,17 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .markdown                  38          5862           69            5
 .markerb                    3            12                         3
 .marko                      1            21                         2
-.md                       868        195786         1043         2250
+.md                       768        181113         1043         2250
 .mdx                        3           549                         7
 .mjml                       1            18                         1
 .mjs                       19          4119           88           89
 .mk                         1          5878                        13
 .ml                         1          1856                        16
 .mlir                       2          1596                        19
-.mod                        3            99                         4
+.mod                        2            96                         4
 .moo                        1          1404                        26
 .mqh                        1          1023                         1
 .msg                        1         26644            1
-.mustache                   1           408
 .mysql                      1            36                         2
 .ndjson                     2          5006           79          221
 .nix                        1           114                         4
@@ -186,7 +185,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .sbt                        3           570                         7
 .scala                     52          5600           38           95
 .secrets                    1            11                         1
-.sh                       145         23187           69          460
+.sh                       143         23115           69          460
 .slim                       1           153                         3
 .smali                      1           775                        12
 .snap                       3          1708            9            9
@@ -197,7 +196,6 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .strings                   20          1240                       137
 .stub                       3            84                         6
 .sublime-keymap             1             3                         1
-.sum                        1            11
 .swift                      1           112                         2
 .t                         10          1946           20           56
 .td                         2         14002                         6
@@ -223,11 +221,11 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .xcscheme                   1           109                         1
 .xib                       11           503                       164
 .xsl                        1           311                         1
-.yaml                     169         31946          191          364
-.yml                      563         56618         1907         1134
+.yaml                     169         31946          205          364
+.yml                      560         56585         1907         1134
 .zsh                        6           872                        11
 .zsh-theme                  1            97                         1
-TOTAL:                  11577      17125639        17162        41915
+TOTAL:                  11356      17079919        17183        41915
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -256,11 +254,12 @@ Google API Key                           13            0                 0     0
 Google Multi                             10            2                 0     0      2     10  0.000000  1.000000  0.166667         0.000000
 Google OAuth Access Token                 3            0                 0     0      0      3            1.000000  0.000000         0.000000
 Google OAuth Refresh Token                1            2                 0     0      2      1  0.000000  1.000000  0.666667         0.000000
-Grafana Provisioned API Key               5           16                 0     0     16      5  0.000000  1.000000  0.761905         0.000000
+Grafana Provisioned API Key               7           16                 0     0     16      7  0.000000  1.000000  0.695652         0.000000
+Grafana Service Account Token             3            0                 0     0      0      3            1.000000  0.000000         0.000000
 JSON Web Token                          174           61                 0     0     61    174  0.000000  1.000000  0.259574         0.000000
 JWK                                      80            0                 0     0      0     80            1.000000  0.000000         0.000000
 Jira / Confluence PAT token               0            4                 0     0      4      0  0.000000            1.000000
-Key                                    4284        16397                 0     0  16397   4284  0.000000  1.000000  0.792853         0.000000
+Key                                    4285        16397                 0     0  16397   4285  0.000000  1.000000  0.792815         0.000000
 MailGun API Key                           8            0                 0     0      0      8            1.000000  0.000000         0.000000
 NKEY Seed                                60            0                 0     0      0     60            1.000000  0.000000         0.000000
 Nonce                                   130           55                 0     0     55    130  0.000000  1.000000  0.297297         0.000000
@@ -279,5 +278,5 @@ Tencent WeChat API App ID                47            0                 0     0
 Token                                  1137         4672                 0     0   4672   1137  0.000000  1.000000  0.804269         0.000000
 Twilio Credentials                       30           39                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         225          382                 0     0    382    225  0.000000  1.000000  0.629325         0.000000
-UUID                                   2508          280                 0     0    280   2508  0.000000  1.000000  0.100430         0.000000
-                                      17162        41915           0     0     0  41915  17162  0.000000  1.000000  0.709498         0.000000
+UUID                                   2523          280                 0     0    280   2523  0.000000  1.000000  0.099893         0.000000
+                                      17183        41915           0     0     0  41915  17183  0.000000  1.000000  0.709246         0.000000

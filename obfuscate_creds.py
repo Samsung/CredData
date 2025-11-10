@@ -1,4 +1,5 @@
 import base64
+import binascii
 import logging
 import random
 import re
@@ -120,6 +121,15 @@ def obfuscate_basic_auth(value):
     return encoded
 
 
+def obfuscate_glsa(value):
+    obfuscated_value = value[:5] + generate_value(value[5:37])
+    obfuscated_bytes = obfuscated_value.encode("ascii")
+    checksum = binascii.crc32(obfuscated_bytes)
+    checksum_bytes = checksum.to_bytes(length=4, byteorder='little', signed=False)
+    obfuscated_value += '_' + binascii.hexlify(checksum_bytes).decode("ascii")
+    return obfuscated_value
+
+
 def get_obfuscated_value(value, meta_row: MetaRow):
     if "Info" == meta_row.PredefinedPattern:
         # not a credential - does not require obfuscation
@@ -134,6 +144,8 @@ def get_obfuscated_value(value, meta_row: MetaRow):
         obfuscated_value = value[:4] + generate_value(value[4:])
     elif any(value.startswith(x) for x in ["ya29.", "pass:", "salt:", "akab-", "PMAK-", "PMAT-", "xapp-"]):
         obfuscated_value = value[:5] + generate_value(value[5:])
+    elif value.startswith("glsa_") and 46 == len(value):
+        obfuscated_value = obfuscate_glsa(value)
     elif any(value.startswith(x) for x in ["whsec_", "Basic ", "OAuth "]):
         obfuscated_value = value[:6] + generate_value(value[6:])
     elif any(value.startswith(x) for x in ["hexkey:", "base64:", "phpass:", "Bearer ", "Apikey "]):
