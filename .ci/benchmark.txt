@@ -1,6 +1,6 @@
-META MD5 8d6b51c51d9de83160abe54deed20eb2
+META MD5 ba483ee94ad256c154ff9a0c68a3c0ef
 DATA MD5 f86cbdc6f24754f9575318b512ad39ac
-DATA: 17065440 interested lines. MARKUP: 54431 items
+DATA: 17065440 interested lines. MARKUP: 54448 items
 FileType           FileNumber    ValidLines    Positives    Negatives
 ---------------  ------------  ------------  -----------  -----------
                           684        567150          137          445
@@ -62,7 +62,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .gd                         1            37                         1
 .gml                        3          3075                        16
 .gni                        3          5017                        17
-.go                      1242        706630         1479         4536
+.go                      1242        706630         1479         4537
 .golden                     5          1168            1           42
 .gradle                    50          4295            8          139
 .graphql                    8           454            2           13
@@ -119,7 +119,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .md                       768        181113         1043         2250
 .mdx                        3           549                         7
 .mjml                       1            18                         1
-.mjs                       19          4119           88           75
+.mjs                       19          4119           88           89
 .mk                         1          5878                        13
 .ml                         1          1856                        16
 .mlir                       2          1596                        19
@@ -203,7 +203,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .test                       2            24           22            5
 .testsettings               1            21            1           10
 .tf                        27          1644           14           29
-.tfstate                    6           431           47            9
+.tfstate                    6           431           47           11
 .tfvars                     1            31                         5
 .tl                         2          2161                       133
 .tmpl                       5           336                        12
@@ -225,7 +225,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .yml                      560         56585         1907         1134
 .zsh                        6           872                        11
 .zsh-theme                  1            97                         1
-TOTAL:                  11354      17065440        17162        41898
+TOTAL:                  11354      17065440        17162        41915
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -254,7 +254,7 @@ Google API Key                           13            0                 0     0
 Google Multi                             10            2                 0     0      2     10  0.000000  1.000000  0.166667         0.000000
 Google OAuth Access Token                 3            0                 0     0      0      3            1.000000  0.000000         0.000000
 Google OAuth Refresh Token                1            2                 0     0      2      1  0.000000  1.000000  0.666667         0.000000
-Grafana Provisioned API Key               5            0                 0     0      0      5            1.000000  0.000000         0.000000
+Grafana Provisioned API Key               5           16                 0     0     16      5  0.000000  1.000000  0.761905         0.000000
 JSON Web Token                          174           61                 0     0     61    174  0.000000  1.000000  0.259574         0.000000
 JWK                                      80            0                 0     0      0     80            1.000000  0.000000         0.000000
 Jira / Confluence PAT token               0            4                 0     0      4      0  0.000000            1.000000
@@ -263,7 +263,7 @@ MailGun API Key                           8            0                 0     0
 NKEY Seed                                60            0                 0     0      0     60            1.000000  0.000000         0.000000
 Nonce                                   130           55                 0     0     55    130  0.000000  1.000000  0.297297         0.000000
 OTP / 2FA Secret                         64            3                 0     0      3     64  0.000000  1.000000  0.044776         0.000000
-Other                                     0           19                 0     0     19      0  0.000000            1.000000
+Other                                     0           20                 0     0     20      0  0.000000            1.000000
 PEM Private Key                        1150           76                 0     0     76   1150  0.000000  1.000000  0.061990         0.000000
 Password                               2577         9933                 0     0   9933   2577  0.000000  1.000000  0.794005         0.000000
 Postman Credentials                       2            0                 0     0      0      2            1.000000  0.000000         0.000000
@@ -278,4 +278,4 @@ Token                                  1137         4672                 0     0
 Twilio Credentials                       30           39                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         225          382                 0     0    382    225  0.000000  1.000000  0.629325         0.000000
 UUID                                   2508          280                 0     0    280   2508  0.000000  1.000000  0.100430         0.000000
-                                      17162        41898           0     0     0  41898  17162  0.000000  1.000000  0.709414         0.000000
+                                      17162        41915           0     0     0  41915  17162  0.000000  1.000000  0.709498         0.000000
