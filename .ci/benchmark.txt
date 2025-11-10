@@ -1,6 +1,6 @@
-META MD5 ca8c07a8238bb930db6b89fd32ab5f24
-DATA MD5 a11f2bbd204ecb6b56d7c0bbe6457486
-DATA: 17079919 interested lines. MARKUP: 54468 items
+META MD5 5eec0b4acb3687f8a1a0ad781e4439be
+DATA MD5 3670a9c9162c980a6bd247264e2c9aee
+DATA: 17079919 interested lines. MARKUP: 54380 items
 FileType           FileNumber    ValidLines    Positives    Negatives
 ---------------  ------------  ------------  -----------  -----------
                           684        567150          137          445
@@ -88,7 +88,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .jenkinsfile                1            58            2            6
 .jinja2                     1            64                         2
 .js                       640        530803          844         2547
-.json                     885      13142924         1879         5838
+.json                     885      13142924         1879         5662
 .jsp                       13          3202            1           37
 .jsx                        7           857                        15
 .jwt                        1             1            2
@@ -225,7 +225,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .yml                      560         56585         1907         1134
 .zsh                        6           872                        11
 .zsh-theme                  1            97                         1
-TOTAL:                  11356      17079919        17183        41917
+TOTAL:                  11356      17079919        17183        41741
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -260,7 +260,7 @@ Grafana Service Account Token             3            0                 0     0
 JSON Web Token                          174           61                 0     0     61    174  0.000000  1.000000  0.259574         0.000000
 JWK                                      80            0                 0     0      0     80            1.000000  0.000000         0.000000
 Jira / Confluence PAT token               0            4                 0     0      4      0  0.000000            1.000000
-Key                                    4285        16397                 0     0  16397   4285  0.000000  1.000000  0.792815         0.000000
+Key                                    4285        16309                 0     0  16309   4285  0.000000  1.000000  0.791930         0.000000
 MailGun API Key                           8            0                 0     0      0      8            1.000000  0.000000         0.000000
 NKEY Seed                                60            0                 0     0      0     60            1.000000  0.000000         0.000000
 Nonce                                   130           55                 0     0     55    130  0.000000  1.000000  0.297297         0.000000
@@ -279,5 +279,5 @@ Tencent WeChat API App ID                47            0                 0     0
 Token                                  1137         4672                 0     0   4672   1137  0.000000  1.000000  0.804269         0.000000
 Twilio Credentials                       30           39                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         225          382                 0     0    382    225  0.000000  1.000000  0.629325         0.000000
-UUID                                   2523          280                 0     0    280   2523  0.000000  1.000000  0.099893         0.000000
-                                      17183        41917           0     0     0  41917  17183  0.000000  1.000000  0.709255         0.000000
+UUID                                   2523          192                 0     0    192   2523  0.000000  1.000000  0.070718         0.000000
+                                      17183        41741           0     0     0  41741  17183  0.000000  1.000000  0.708387         0.000000

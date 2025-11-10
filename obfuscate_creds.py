@@ -264,9 +264,24 @@ def gen_random_value(value):
             byte_hex = False
         if base_32 and v not in "ABCDEFGHIJKLMNOPQRSTUVWXYZ234567":
             base_32 = False
-        if '-' == v and len(value) in (18, 36, 50, 59) and n in (8, 13, 18, 23, 24, 32, 40):
-            # UUID separator or something like this
-            continue
+        if '-' == v:
+            match len(value):
+                case 18:
+                    if n in (8, 13):
+                        # a token
+                        continue
+                case 36:
+                    if n in (8, 13, 18, 23):
+                        # UUID
+                        continue
+                case 50:
+                    if n in (32, 41):
+                        # mailgun api key
+                        continue
+                case 59:
+                    if 24 == n:
+                        # postman key
+                        continue
         if ':' == v and 2 == n % 3:
             # wifi key like 7f:44:52:fe: ...
             continue
