@@ -1,7 +1,6 @@
-WARNING: skip /home/babenek/q/DataCred/main/meta/387016a6.csv.bak file
-META MD5 f7634bcb49a81807a124d187a4a4cc33
-DATA MD5 d5f8bb36db955efd85fe95c022883d70
-DATA: 16994352 interested lines. MARKUP: 54233 items
+META MD5 bd0f3c154d4cf94fd68ff0af45af167d
+DATA MD5 cf0c5b9333193ab716188621c0ff498f
+DATA: 16995334 interested lines. MARKUP: 54239 items
 FileType           FileNumber    ValidLines    Positives    Negatives
 ---------------  ------------  ------------  -----------  -----------
                           684        567150          137          445
@@ -82,7 +81,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .in                         7          2242           10           48
 .inc                        2            56            1            2
 .ini                       12          1461           25           29
-.ipynb                      5          4231            7            6
+.ipynb                      6          4804            7           13
 .j                          1           241            4
 .j2                        32          6043            8          174
 .java                     650        141112          478         1282
@@ -158,7 +157,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .pug                        2           193                         2
 .purs                       1            69                         4
 .pxd                        1           150            2            4
-.py                       875        292004          737         3440
+.py                       876        292413          737         3447
 .pyi                        4          1361                         9
 .pyp                        1           167                         1
 .python                     1           213
@@ -226,11 +225,11 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .yml                      560         56585         1907         1134
 .zsh                        6           872                        11
 .zsh-theme                  1            97                         1
-TOTAL:                  11359      16994352        17192        41417
+TOTAL:                  11361      16995334        17192        41431
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
-API                                     243         3371                 0     0   3371    243  0.000000  1.000000  0.932761         0.000000
+API                                     243         3377                 0     0   3377    243  0.000000  1.000000  0.932873         0.000000
 AWS Client ID                           205           19                 0     0     19    205  0.000000  1.000000  0.084821         0.000000
 AWS Multi                                82           11                 0     0     11     82  0.000000  1.000000  0.118280         0.000000
 AWS S3 Bucket                            67           23                 0     0     23     67  0.000000  1.000000  0.255556         0.000000
@@ -262,7 +261,7 @@ Grafana Service Account Token             3            0                 0     0
 JSON Web Token                          174           61                 0     0     61    174  0.000000  1.000000  0.259574         0.000000
 JWK                                      80            0                 0     0      0     80            1.000000  0.000000         0.000000
 Jira / Confluence PAT token               0            4                 0     0      4      0  0.000000            1.000000
-Key                                    4286        16139                 0     0  16139   4286  0.000000  1.000000  0.790159         0.000000
+Key                                    4286        16145                 0     0  16145   4286  0.000000  1.000000  0.790221         0.000000
 MailGun API Key                           8            0                 0     0      0      8            1.000000  0.000000         0.000000
 NKEY Seed                                60            0                 0     0      0     60            1.000000  0.000000         0.000000
 Nonce                                   130           55                 0     0     55    130  0.000000  1.000000  0.297297         0.000000
@@ -270,6 +269,7 @@ OTP / 2FA Secret                         64            3                 0     0
 Other                                     0           21                 0     0     21      0  0.000000            1.000000
 PEM Private Key                        1150           76                 0     0     76   1150  0.000000  1.000000  0.061990         0.000000
 Password                               2578         9940                 0     0   9940   2578  0.000000  1.000000  0.794057         0.000000
+Perplexity API Key                        0            2                 0     0      2      0  0.000000            1.000000
 Postman Credentials                       2            0                 0     0      0      2            1.000000  0.000000         0.000000
 SQL Password                             44           14                 0     0     14     44  0.000000  1.000000  0.241379         0.000000
 Salesforce Credentials                    6            0                 0     0      0      6            1.000000  0.000000         0.000000
@@ -282,4 +282,4 @@ Token                                  1138         4677                 0     0
 Twilio Credentials                       30           39                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         225          385                 0     0    385    225  0.000000  1.000000  0.631148         0.000000
 UUID                                   2527           16                 0     0     16   2527  0.000000  1.000000  0.006292         0.000000
-                                      17192        41417           0     0     0  41417  17192  0.000000  1.000000  0.706666         0.000000
+                                      17192        41431           0     0     0  41431  17192  0.000000  1.000000  0.706736         0.000000
