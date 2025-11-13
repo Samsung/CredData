@@ -287,6 +287,9 @@ def gen_random_value(value):
         if ':' == v and 2 == n % 3:
             # wifi key like 7f:44:52:fe: ...
             continue
+        if v in string.whitespace:
+            # some logged values d49fda76 a5349d03 97be261...
+            continue
         if hex_upper and v not in "0123456789ABCDEF":
             hex_upper = False
         if hex_lower and v not in "0123456789abcdef":
