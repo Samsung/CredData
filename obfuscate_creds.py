@@ -142,7 +142,7 @@ def get_obfuscated_value(value, meta_row: MetaRow):
             or value.startswith('key-') and 36 == len(value) \
             or value.startswith("xox") and 15 <= len(value) and value[3] in "abeoprst" and '-' == value[4]:
         obfuscated_value = value[:4] + generate_value(value[4:])
-    elif any(value.startswith(x) for x in ["ya29.", "pass:", "salt:", "akab-", "PMAK-", "PMAT-", "xapp-"]):
+    elif any(value.startswith(x) for x in ["ya29.", "pass:", "salt:", "akab-", "PMAK-", "PMAT-", "xapp-", "pplx-"]):
         obfuscated_value = value[:5] + generate_value(value[5:])
     elif value.startswith("glsa_") and 46 == len(value):
         obfuscated_value = obfuscate_glsa(value)
@@ -157,6 +157,8 @@ def get_obfuscated_value(value, meta_row: MetaRow):
         obfuscated_value = value[:9] + generate_value(value[9:])
     elif any(value.startswith(x) for x in ["hexsecret:"]):
         obfuscated_value = value[:10] + generate_value(value[10:])
+    elif any(value.startswith(x) for x in ["sk-ant-api03-"]):
+        obfuscated_value = value[:13] + generate_value(value[13:])
     elif any(value.startswith(x) for x in ["ED25519-1-Raw:ED25519:"]):
         obfuscated_value = value[:22] + generate_value(value[22:])
     elif value.startswith("eyJ"):
@@ -284,6 +286,9 @@ def gen_random_value(value):
                         continue
         if ':' == v and 2 == n % 3:
             # wifi key like 7f:44:52:fe: ...
+            continue
+        if v in string.whitespace:
+            # some logged values d49fda76 a5349d03 97be261...
             continue
         if hex_upper and v not in "0123456789ABCDEF":
             hex_upper = False

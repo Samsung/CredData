@@ -27,8 +27,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 30884,30516eac,GitHub,c41bb134,data/c41bb134/test/30516eac.hs,348,348,T,30,37,,,Password
 30886,21b750a7,GitHub,c41bb134,data/c41bb134/test/21b750a7.hs,72,72,X,38,42,,,Password
 31136,21b750a7,GitHub,c41bb134,data/c41bb134/test/21b750a7.hs,139,139,X,67,79,,,Secret
-31160,68cbce99,GitHub,c41bb134,data/c41bb134/test/spec/68cbce99.hs,147,147,F,15,,,,Secret
-31161,68cbce99,GitHub,c41bb134,data/c41bb134/test/spec/68cbce99.hs,155,155,F,15,,,,Secret
+31160,68cbce99,GitHub,c41bb134,data/c41bb134/test/spec/68cbce99.hs,147,147,F,,,,,Secret:Key
+31161,68cbce99,GitHub,c41bb134,data/c41bb134/test/spec/68cbce99.hs,155,155,F,,,,,Secret:Key
 31533,bb7e3057,GitHub,c41bb134,data/c41bb134/src/bb7e3057.hs,200,200,F,23,57,,,Secret
 32277,e9d57348,GitHub,c41bb134,data/c41bb134/test/fixture/e9d57348.sql,13,13,T,64,96,,,Auth:Secret
 32278,e9d57348,GitHub,c41bb134,data/c41bb134/test/fixture/e9d57348.sql,25,25,T,84,124,,,Secret

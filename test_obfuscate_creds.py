@@ -10,6 +10,16 @@ class ObfuscatorTest(unittest.TestCase):
     def test_gen_random_value(self):
         for seed, value, expected in [
             (
+                    654_987,
+                    "b1:c2:c4:d9:9a:8e:78:98:aa:a8:b9:8b:bc:d9:8e:ef",
+                    "b3:f9:b1:f1:6c:0f:99:62:ba:e5:b4:7b:ab:f9:7a:ed",
+            ),
+            (
+                    1978_6574,
+                    "b1c2c4d9 9a8e7898 aaa8b98b bcd98eef",
+                    "b9a7a6f9 2a6d2015 bad9c44b edf78eed",
+            ),
+            (
                     # Postman cred PMAK-
                     59,
                     "0123456789abcdef01234567-0123456789abcdef0123456789abcdef00",
