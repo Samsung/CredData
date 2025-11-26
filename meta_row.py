@@ -47,7 +47,7 @@ class MetaRow:
                 else:
                     raise RuntimeError(f"ERROR: Unsupported {typ}")
                 self.__setattr__(key, val)
-        if not self.Category:
+        if not hasattr(self, "Category") or not self.Category:
             raise RuntimeError(f"ERROR: Category must be set {row}")
         if ':' in self.Category:
             rules = self.Category.split(':')
