@@ -10,7 +10,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 5007,23a1b153,GitHub,ec138349,data/ec138349/test/src/code/23a1b153.java,163,163,F,,,,,Key
 5013,63b35f5c,GitHub,ec138349,data/ec138349/src/security/63b35f5c.java,98,98,F,,,,,Key
 5641,0d2a539c,GitHub,ec138349,data/ec138349/test/src/code/0d2a539c.java,34,34,F,,,,,Key
-5753,2d2abc99,GitHub,ec138349,data/ec138349/test/src/security/client/2d2abc99.java,356,356,F,,,,,Auth
+5753,2d2abc99,GitHub,ec138349,data/ec138349/test/src/security/client/2d2abc99.java,356,356,F,,,,,Auth:Nonce
 6172,f372273f,GitHub,ec138349,data/ec138349/src/security/f372273f.java,259,259,F,,,,,Key
 6173,4bd8786f,GitHub,ec138349,data/ec138349/src/code/security/4bd8786f.java,68,68,F,,,,,Key
 6174,f372273f,GitHub,ec138349,data/ec138349/src/security/f372273f.java,446,446,F,,,,,Key
@@ -64,7 +64,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 29816,2d2ec00a,GitHub,ec138349,data/ec138349/test/src/security/2d2ec00a.java,45,45,X,54,72,,,Secret
 30036,9b2822cf,GitHub,ec138349,data/ec138349/src/security/9b2822cf.java,38,38,X,38,50,,,Token
 30493,69d2ad5d,GitHub,ec138349,data/ec138349/test/src/security/69d2ad5d.java,71,71,F,76,83,,,Auth:Token
-30502,2d2abc99,GitHub,ec138349,data/ec138349/test/src/security/client/2d2abc99.java,345,345,F,,,,,Auth
+30502,2d2abc99,GitHub,ec138349,data/ec138349/test/src/security/client/2d2abc99.java,345,345,F,,,,,Auth:Nonce
 30505,2f9b15a9,GitHub,ec138349,data/ec138349/test/src/security/template/client/2f9b15a9.java,139,139,F,77,82,,,Token
 30506,2f9b15a9,GitHub,ec138349,data/ec138349/test/src/security/template/client/2f9b15a9.java,127,127,F,63,72,,,Token
 30507,2f9b15a9,GitHub,ec138349,data/ec138349/test/src/security/template/client/2f9b15a9.java,149,149,F,63,71,,,Token
@@ -144,7 +144,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 134717,5205c0d4,GitHub,ec138349,data/ec138349/src/sample/5205c0d4.jsp,40,40,F,,,,,Auth
 134718,63427d3c,GitHub,ec138349,data/ec138349/src/sample/63427d3c.jsp,5,5,F,,,,,Auth
 134719,63427d3c,GitHub,ec138349,data/ec138349/src/sample/63427d3c.jsp,31,31,F,,,,,Auth
-134720,2d2abc99,GitHub,ec138349,data/ec138349/test/src/security/client/2d2abc99.java,307,307,F,,,,,Auth
+134720,2d2abc99,GitHub,ec138349,data/ec138349/test/src/security/client/2d2abc99.java,307,307,F,,,,,Auth:Nonce
 1338411,74dff624,GitHub,ec138349,data/ec138349/test/src/security/74dff624.java,229,229,T,13,231,,,JSON Web Token
 1338412,74dff624,GitHub,ec138349,data/ec138349/test/src/security/74dff624.java,250,250,T,24,242,,,JSON Web Token
 1338528,18b43943,GitHub,ec138349,data/ec138349/test/src/security/18b43943.java,41,41,F,6,101,,,JSON Web Token
@@ -175,3 +175,15 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 1510090,2d2abc99,GitHub,ec138349,data/ec138349/test/src/security/client/2d2abc99.java,452,452,T,94,110,,,Auth:Key
 1510110,2d2abc99,GitHub,ec138349,data/ec138349/test/src/security/client/2d2abc99.java,452,452,T,127,143,,,Auth:Nonce
 1510120,2d2abc99,GitHub,ec138349,data/ec138349/test/src/security/client/2d2abc99.java,452,452,T,228,244,,,Auth:Token
+11531516,4bd8786f,GitHub,ec138349,data/ec138349/src/code/security/4bd8786f.java,44,44,F,42,52,,,Auth
+11531517,8ca6f43a,GitHub,ec138349,data/ec138349/src/example/sample/conf/security/8ca6f43a.java,194,194,F,41,66,,,Auth
+11531518,4a66199e,GitHub,ec138349,data/ec138349/test/src/code/security/4a66199e.java,56,56,F,225,235,,,Auth
+11531519,4a66199e,GitHub,ec138349,data/ec138349/test/src/code/security/4a66199e.java,95,95,F,41,50,,,Auth
+11531520,6d224b39,GitHub,ec138349,data/ec138349/test/src/resource/6d224b39.java,277,277,F,27,52,,,Auth
+11531521,9d2c2358,GitHub,ec138349,data/ec138349/test/src/sample/security/resource/9d2c2358.java,259,259,F,27,52,,,Auth
+11531522,1c39b347,GitHub,ec138349,data/ec138349/test/src/security/1c39b347.java,101,101,F,201,211,,,Auth
+11531523,5cba2249,GitHub,ec138349,data/ec138349/test/src/security/5cba2249.java,94,94,F,53,61,,,Key
+11531524,5cba2249,GitHub,ec138349,data/ec138349/test/src/security/5cba2249.java,100,100,F,69,77,,,Key
+11531525,2d2abc99,GitHub,ec138349,data/ec138349/test/src/security/client/2d2abc99.java,452,452,F,201,211,,,Auth
+11531526,2f9b15a9,GitHub,ec138349,data/ec138349/test/src/security/template/client/2f9b15a9.java,76,76,F,22,26,,,Token
+11531527,2f9b15a9,GitHub,ec138349,data/ec138349/test/src/security/template/client/2f9b15a9.java,86,86,F,22,26,,,Token

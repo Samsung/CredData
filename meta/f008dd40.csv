@@ -45,7 +45,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 11201,c1278aed,GitHub,f008dd40,data/f008dd40/internal/conf/c1278aed.go,47,47,F,,,,,Password
 11854,0bbc7302,GitHub,f008dd40,data/f008dd40/api/0bbc7302.yml,2,2,F,,,,,API
 11923,c0e7e3b6,GitHub,f008dd40,data/f008dd40/internal/example/kube/c0e7e3b6.rules,6,6,F,,,,,Password
-11924,c0e7e3b6,GitHub,f008dd40,data/f008dd40/internal/example/kube/c0e7e3b6.rules,7,7,F,,,,,Password
+11924,c0e7e3b6,GitHub,f008dd40,data/f008dd40/internal/example/kube/c0e7e3b6.rules,7,7,F,,,,,Password:Salt
 11974,b7caaa3d,GitHub,f008dd40,data/f008dd40/test/internal/b7caaa3d.go,55,55,F,,,,,Secret
 12300,c8cd7002,GitHub,f008dd40,data/f008dd40/build/c8cd7002.sh,50,50,F,,,,,Key
 12320,08b99f12,GitHub,f008dd40,data/f008dd40/build/08b99f12.sh,28,28,F,,,,,Key
@@ -413,3 +413,27 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 1525361,93671346,GitHub,f008dd40,data/f008dd40/test/internal/93671346.go,432,432,T,59,79,,,Basic Authorization
 1525362,93671346,GitHub,f008dd40,data/f008dd40/test/internal/93671346.go,449,449,T,59,79,,,Basic Authorization
 1525363,93671346,GitHub,f008dd40,data/f008dd40/test/internal/93671346.go,470,470,T,59,79,,,Basic Authorization
+11531542,179696aa,GitHub,f008dd40,data/f008dd40/internal/179696aa.go,62,62,F,31,35,,,Auth
+11531543,1abcfe50,GitHub,f008dd40,data/f008dd40/internal/1abcfe50.go,16,16,F,37,56,,,Auth
+11531544,2fda35a0,GitHub,f008dd40,data/f008dd40/internal/conf/2fda35a0.yml,91,91,F,16,22,,,Secret
+11531545,2fda35a0,GitHub,f008dd40,data/f008dd40/internal/conf/2fda35a0.yml,98,98,F,16,22,,,Secret
+11531546,57c75806,GitHub,f008dd40,data/f008dd40/internal/conf/57c75806.go,4,4,F,37,104,,,Key
+11531547,57c75806,GitHub,f008dd40,data/f008dd40/internal/conf/57c75806.go,20,20,F,42,77,,,Key
+11531548,57c75806,GitHub,f008dd40,data/f008dd40/internal/conf/57c75806.go,217,217,F,53,96,,,Auth
+11531549,57c75806,GitHub,f008dd40,data/f008dd40/internal/conf/57c75806.go,218,218,F,53,100,,,Auth
+11531550,57c75806,GitHub,f008dd40,data/f008dd40/internal/conf/57c75806.go,225,225,F,42,58,,,Key
+11531551,57c75806,GitHub,f008dd40,data/f008dd40/internal/conf/57c75806.go,229,229,F,61,76,,,Password
+11531552,57c75806,GitHub,f008dd40,data/f008dd40/internal/conf/57c75806.go,230,230,F,61,76,,,Password
+11531553,57c75806,GitHub,f008dd40,data/f008dd40/internal/conf/57c75806.go,231,231,F,61,76,,,Password
+11531554,57c75806,GitHub,f008dd40,data/f008dd40/internal/conf/57c75806.go,232,232,F,61,76,,,Password
+11531555,57c75806,GitHub,f008dd40,data/f008dd40/internal/conf/57c75806.go,233,233,F,61,76,,,Password
+11531556,57c75806,GitHub,f008dd40,data/f008dd40/internal/conf/57c75806.go,234,234,F,61,76,,,Password
+11531557,57c75806,GitHub,f008dd40,data/f008dd40/internal/conf/57c75806.go,235,235,F,61,76,,,Auth:Password
+11531558,57c75806,GitHub,f008dd40,data/f008dd40/internal/conf/57c75806.go,236,236,F,61,76,,,Auth:Password
+11531559,57c75806,GitHub,f008dd40,data/f008dd40/internal/conf/57c75806.go,237,237,F,61,76,,,Auth:Key:Password
+11531560,57c75806,GitHub,f008dd40,data/f008dd40/internal/conf/57c75806.go,238,238,F,61,76,,,Salt:Auth:Password
+11531561,57c75806,GitHub,f008dd40,data/f008dd40/internal/conf/57c75806.go,239,239,F,61,76,,,Auth:Password
+11531562,57c75806,GitHub,f008dd40,data/f008dd40/internal/conf/57c75806.go,240,240,F,61,76,,,Auth:Password
+11531563,9cfd1914,GitHub,f008dd40,data/f008dd40/internal/conf/9cfd1914.go,114,114,F,18,46,,,Password
+11531564,4e64d3e5,GitHub,f008dd40,data/f008dd40/src/4e64d3e5.tsx,124,124,F,53,67,,,Password
+11531565,006b950d,GitHub,f008dd40,data/f008dd40/test/internal/conf/006b950d.go,489,489,F,135,143,,,Key

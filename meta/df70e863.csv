@@ -19,7 +19,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 10980,43bcabac,GitHub,df70e863,data/df70e863/test/pkg/43bcabac.go,243,243,F,,,,,Token
 11082,1a7980f0,GitHub,df70e863,data/df70e863/test/pkg/1a7980f0.go,161,161,F,,,,,Token
 11911,384d8831,GitHub,df70e863,data/df70e863/test/pkg/384d8831.go,135,135,F,,,,,Auth
-11912,b8661fe1,GitHub,df70e863,data/df70e863/test/internal/conf/b8661fe1.go,38,38,F,,,,,Auth
+11912,b8661fe1,GitHub,df70e863,data/df70e863/test/internal/conf/b8661fe1.go,38,38,F,,,,,Auth:Token
 11913,7e2d9479,GitHub,df70e863,data/df70e863/test/internal/conf/7e2d9479.go,130,130,F,,,,,Auth
 15999,046d4579,GitHub,df70e863,data/df70e863/script/046d4579.ps1,10,10,F,,,,,Password
 18973,1a7980f0,GitHub,df70e863,data/df70e863/test/pkg/1a7980f0.go,34,34,F,,,,,Auth
@@ -138,7 +138,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 74615,b8661fe1,GitHub,df70e863,data/df70e863/test/internal/conf/b8661fe1.go,111,111,X,18,24,,,Auth:Token
 74616,384d8831,GitHub,df70e863,data/df70e863/test/pkg/384d8831.go,154,154,F,,,,,Auth
 74617,384d8831,GitHub,df70e863,data/df70e863/test/pkg/384d8831.go,176,176,F,,,,,Auth
-74618,b8661fe1,GitHub,df70e863,data/df70e863/test/internal/conf/b8661fe1.go,78,78,F,,,,,Auth
+74618,b8661fe1,GitHub,df70e863,data/df70e863/test/internal/conf/b8661fe1.go,78,78,F,,,,,Auth:Token
 74619,b8661fe1,GitHub,df70e863,data/df70e863/test/internal/conf/b8661fe1.go,21,21,F,,,,,Auth
 74620,b8661fe1,GitHub,df70e863,data/df70e863/test/internal/conf/b8661fe1.go,41,41,F,,,,,Auth
 74621,b8661fe1,GitHub,df70e863,data/df70e863/test/internal/conf/b8661fe1.go,57,57,F,,,,,Auth
@@ -167,3 +167,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 82437,b94c5b92,GitHub,df70e863,data/df70e863/test/secret/pkg/b94c5b92.go,138,138,F,15,26,,,Secret
 113777,327e11c1,GitHub,df70e863,data/df70e863/internal/327e11c1.go,20,20,F,,,,,Auth
 134701,75891a4e,GitHub,df70e863,data/df70e863/test/pkg/75891a4e.go,190,190,F,,,,,Token
+11530838,5c45b095,GitHub,df70e863,data/df70e863/pkg/5c45b095.go,104,104,F,49,53,,,Token
+11530839,585bbae9,GitHub,df70e863,data/df70e863/pkg/api/585bbae9.go,117,117,F,39,66,,,API
+11530840,175a2507,GitHub,df70e863,data/df70e863/secret/pkg/175a2507.go,84,84,F,18,23,,,Key
+11530841,175a2507,GitHub,df70e863,data/df70e863/secret/pkg/175a2507.go,96,96,F,18,23,,,Key
+11530842,175a2507,GitHub,df70e863,data/df70e863/secret/pkg/175a2507.go,105,105,F,18,23,,,Key
+11530843,43bcabac,GitHub,df70e863,data/df70e863/test/pkg/43bcabac.go,221,221,F,48,54,,,Auth:Token
+11530844,6f518aac,GitHub,df70e863,data/df70e863/test/pkg/6f518aac.go,348,348,F,90,96,,,Secret
+11530845,6f518aac,GitHub,df70e863,data/df70e863/test/pkg/6f518aac.go,349,349,F,56,62,,,Secret

@@ -71,7 +71,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 36865,1914ca3b,GitHub,680ef0c1,data/680ef0c1/test/1914ca3b.go,721,721,X,12,21,,,Token
 37254,1914ca3b,GitHub,680ef0c1,data/680ef0c1/test/1914ca3b.go,173,173,X,62,78,,,Token
 37255,1914ca3b,GitHub,680ef0c1,data/680ef0c1/test/1914ca3b.go,183,183,X,63,79,,,Token
-46034,4bb821df,GitHub,680ef0c1,data/680ef0c1/test/conf/4bb821df.go,145,145,F,,,,,API
+46034,4bb821df,GitHub,680ef0c1,data/680ef0c1/test/conf/4bb821df.go,145,145,F,,,,,API:Auth
 46064,4bb821df,GitHub,680ef0c1,data/680ef0c1/test/conf/4bb821df.go,220,220,F,,,,,API
 46065,4bb821df,GitHub,680ef0c1,data/680ef0c1/test/conf/4bb821df.go,153,153,F,,,,,API
 46066,4bb821df,GitHub,680ef0c1,data/680ef0c1/test/conf/4bb821df.go,193,193,F,,,,,API
@@ -134,3 +134,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 133404,879d7ff8,GitHub,680ef0c1,data/680ef0c1/_/879d7ff8.go,1013,1013,F,,,,,Auth
 133405,879d7ff8,GitHub,680ef0c1,data/680ef0c1/_/879d7ff8.go,1014,1014,F,,,,,Auth
 133406,1914ca3b,GitHub,680ef0c1,data/680ef0c1/test/1914ca3b.go,711,711,F,,,,,Token:Auth
+11527812,879d7ff8,GitHub,680ef0c1,data/680ef0c1/_/879d7ff8.go,1275,1275,F,48,60,,,Auth
+11527813,3be19a92,GitHub,680ef0c1,data/680ef0c1/example/client/3be19a92.go,41,41,F,37,52,,,Key
+11527814,1914ca3b,GitHub,680ef0c1,data/680ef0c1/test/1914ca3b.go,345,345,F,82,105,,,Auth
+11527815,1914ca3b,GitHub,680ef0c1,data/680ef0c1/test/1914ca3b.go,647,647,F,38,50,,,API:Key
+11527816,1914ca3b,GitHub,680ef0c1,data/680ef0c1/test/1914ca3b.go,716,716,F,40,57,,,Auth
+11527817,7d9c444d,GitHub,680ef0c1,data/680ef0c1/test/7d9c444d.go,95,95,F,26,48,,,Key
+11527818,7d9c444d,GitHub,680ef0c1,data/680ef0c1/test/7d9c444d.go,98,98,F,18,34,,,Key
+11527819,4bb821df,GitHub,680ef0c1,data/680ef0c1/test/conf/4bb821df.go,159,159,F,38,54,,,API:Auth

@@ -214,9 +214,36 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 130381,dae658b6,GitHub,55031e17,data/55031e17/tool/client/dae658b6.py,347,347,F,,,,,Password
 130382,4702a6b2,GitHub,55031e17,data/55031e17/rest/client/4702a6b2.py,72,72,F,,,,,Password
 133365,6cb899b4,GitHub,55031e17,data/55031e17/client/6cb899b4.py,178,178,F,,,,,Key
-137941,aa2879ba,GitHub,55031e17,data/55031e17/test/conf/server/aa2879ba.py,98,98,X,70,79,,,Other
+137941,aa2879ba,GitHub,55031e17,data/55031e17/test/conf/server/aa2879ba.py,98,98,X,70,79,,Other,Password
 1119364,cb11ba4c,GitHub,55031e17,data/55031e17/test/tool/client/cb11ba4c.py,107,107,T,47,68,,,URL Credentials
 1137942,b4e617dc,GitHub,55031e17,data/55031e17/test/tool/util/b4e617dc.py,473,473,T,56,72,,,Auth:Basic Authorization
 1480744,50fdd145,GitHub,55031e17,data/55031e17/test/model/50fdd145.py,57,57,X,25,30,,,Password
 1494216,6d7bccc3,GitHub,55031e17,data/55031e17/test/conf/server/6d7bccc3.py,19,19,T,12,21,,,Secret
 1494217,6d7bccc3,GitHub,55031e17,data/55031e17/test/conf/server/6d7bccc3.py,29,29,T,15,39,,,Secret
+11527455,cf0eacdf,GitHub,55031e17,data/55031e17/conf/init/server/cf0eacdf.py,41,41,F,57,80,,,Auth
+11527456,10e3a7ea,GitHub,55031e17,data/55031e17/model/10e3a7ea.py,115,115,F,23,30,,,Token
+11527457,10e3a7ea,GitHub,55031e17,data/55031e17/model/10e3a7ea.py,125,125,F,27,34,,,Token
+11527458,eb89ad0f,GitHub,55031e17,data/55031e17/model/eb89ad0f.py,66,66,F,25,38,,,Password
+11527459,4702a6b2,GitHub,55031e17,data/55031e17/rest/client/4702a6b2.py,8,8,F,61,71,,,API
+11527460,35a3d095,GitHub,55031e17,data/55031e17/server/35a3d095.py,30,30,F,62,67,,,Secret:Token
+11527461,48baa271,GitHub,55031e17,data/55031e17/test/48baa271.py,147,147,F,44,48,,,Token
+11527462,48baa271,GitHub,55031e17,data/55031e17/test/48baa271.py,148,148,F,47,51,,,Password
+11527463,96f7df82,GitHub,55031e17,data/55031e17/test/96f7df82.py,30,30,F,32,46,,,Key
+11527464,96f7df82,GitHub,55031e17,data/55031e17/test/96f7df82.py,65,65,F,32,46,,,Key
+11527465,c54dd5aa,GitHub,55031e17,data/55031e17/test/c54dd5aa.py,239,239,F,30,42,,,API
+11527466,c54dd5aa,GitHub,55031e17,data/55031e17/test/c54dd5aa.py,254,254,F,30,42,,,API
+11527467,c54dd5aa,GitHub,55031e17,data/55031e17/test/c54dd5aa.py,269,269,F,30,42,,,API
+11527468,c54dd5aa,GitHub,55031e17,data/55031e17/test/c54dd5aa.py,284,284,F,30,42,,,API
+11527469,6d7bccc3,GitHub,55031e17,data/55031e17/test/conf/server/6d7bccc3.py,26,26,F,19,23,,,Auth
+11527470,6d7bccc3,GitHub,55031e17,data/55031e17/test/conf/server/6d7bccc3.py,28,28,F,24,28,,,Auth
+11527471,8afec6c9,GitHub,55031e17,data/55031e17/test/server/8afec6c9.py,38,38,F,39,45,,,Token
+11527472,cb11ba4c,GitHub,55031e17,data/55031e17/test/tool/client/cb11ba4c.py,271,271,F,46,64,,,Password
+11527473,cb11ba4c,GitHub,55031e17,data/55031e17/test/tool/client/cb11ba4c.py,272,272,F,75,93,,,Password
+11527474,5af72409,GitHub,55031e17,data/55031e17/test/util/5af72409.py,108,108,F,25,40,,,Key
+11527475,dd93d0a1,GitHub,55031e17,data/55031e17/test/util/local/dd93d0a1.py,20,20,F,55,61,,,Token
+11527476,dd93d0a1,GitHub,55031e17,data/55031e17/test/util/local/dd93d0a1.py,26,26,F,55,61,,,Token
+11527477,dd93d0a1,GitHub,55031e17,data/55031e17/test/util/local/dd93d0a1.py,39,39,F,55,61,,,Token
+11527478,dd93d0a1,GitHub,55031e17,data/55031e17/test/util/local/dd93d0a1.py,51,51,F,55,61,,,Token
+11527479,dd93d0a1,GitHub,55031e17,data/55031e17/test/util/local/dd93d0a1.py,65,65,F,55,61,,,Token
+11527480,dd93d0a1,GitHub,55031e17,data/55031e17/test/util/local/dd93d0a1.py,73,73,F,56,62,,,Token
+11527481,18f41449,GitHub,55031e17,data/55031e17/tool/client/18f41449.py,354,354,F,19,60,,,Key
