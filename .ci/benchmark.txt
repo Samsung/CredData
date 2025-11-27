@@ -1,4 +1,4 @@
-META MD5 68132228749de5074b0cac7fd5fe28eb
+META MD5 ba0f3a4b5468a5e93cbc9d252358ac0c
 DATA MD5 7736b990c61c8dfad6ef7a6f372df160
 DATA: 16995334 interested lines. MARKUP: 62002 items
 FileType           FileNumber    ValidLines    Positives    Negatives
@@ -164,7 +164,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .pyx                        2          1094                        24
 .r                          4            62            5            2
 .rake                       2            51                         4
-.rb                       834        127133          412         3038
+.rb                       834        127133          410         3038
 .re                         1            31                         1
 .red                        1           159                         1
 .release                    1            13                         4
@@ -225,7 +225,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .yml                      560         56585         1907         1376
 .zsh                        6           872                        11
 .zsh-theme                  1            97                         1
-TOTAL:                  11361      16995334        17200        49828
+TOTAL:                  11361      16995334        17198        49828
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -261,7 +261,7 @@ Grafana Service Account Token             3            0                 0     0
 JSON Web Token                          174           61                 0     0     61    174  0.000000  1.000000  0.259574         0.000000
 JWK                                      80            0                 0     0      0     80            1.000000  0.000000         0.000000
 Jira / Confluence PAT token               0            4                 0     0      4      0  0.000000            1.000000
-Key                                    4289        20727                 0     0  20727   4289  0.000000  1.000000  0.828550         0.000000
+Key                                    4288        20727                 0     0  20727   4288  0.000000  1.000000  0.828583         0.000000
 MailGun API Key                           8            0                 0     0      0      8            1.000000  0.000000         0.000000
 NKEY Seed                                60            0                 0     0      0     60            1.000000  0.000000         0.000000
 Nonce                                   130          107                 0     0    107    130  0.000000  1.000000  0.451477         0.000000
@@ -274,7 +274,7 @@ Postman Credentials                       2            0                 0     0
 SQL Password                             44           14                 0     0     14     44  0.000000  1.000000  0.241379         0.000000
 Salesforce Credentials                    6            0                 0     0      0      6            1.000000  0.000000         0.000000
 Salt                                     90          129                 0     0    129     90  0.000000  1.000000  0.589041         0.000000
-Secret                                 1528         2474                 0     0   2474   1528  0.000000  1.000000  0.618191         0.000000
+Secret                                 1527         2474                 0     0   2474   1527  0.000000  1.000000  0.618345         0.000000
 Slack Token                              15            1                 0     0      1     15  0.000000  1.000000  0.062500         0.000000
 Stripe Credentials                        2            0                 0     0      0      2            1.000000  0.000000         0.000000
 Tencent WeChat API App ID                47            0                 0     0      0     47            1.000000  0.000000         0.000000
@@ -282,4 +282,4 @@ Token                                  1138         5265                 0     0
 Twilio Credentials                       30           39                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         225          401                 0     0    401    225  0.000000  1.000000  0.640575         0.000000
 UUID                                   2527           16                 0     0     16   2527  0.000000  1.000000  0.006292         0.000000
-                                      17200        49828           0     0     0  49828  17200  0.000000  1.000000  0.743391         0.000000
+                                      17198        49828           0     0     0  49828  17198  0.000000  1.000000  0.743413         0.000000
