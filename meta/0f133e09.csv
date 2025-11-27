@@ -836,7 +836,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 11495142,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,281,281,F,25,51,,,Basic Authorization
 11495143,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,292,292,F,25,51,,,Basic Authorization
 11495144,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,303,303,F,25,51,,,Basic Authorization
-11495145,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,307,307,F,,,,,Basic Authorization
+11495145,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,307,307,F,,,,,Basic Authorization:API:Auth:Token
 11495161,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,314,314,F,25,51,,,Basic Authorization
 11495162,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,325,325,F,25,51,,,Basic Authorization
 11495163,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,336,336,F,25,51,,,Basic Authorization
@@ -1006,3 +1006,36 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 11495343,fed51bf1,GitHub,0f133e09,data/0f133e09/test/secret/fed51bf1.txt,17,17,F,25,51,,,Basic Authorization
 11524578,fed51bf1,GitHub,0f133e09,data/0f133e09/test/secret/fed51bf1.txt,10,10,F,67,85,,,Key
 11524579,fed51bf1,GitHub,0f133e09,data/0f133e09/test/secret/fed51bf1.txt,18,18,F,115,133,,,Key
+11524705,03c77d4f,GitHub,0f133e09,data/0f133e09/_/03c77d4f.py,319,319,F,50,55,,,Auth
+11524706,565d4103,GitHub,0f133e09,data/0f133e09/_/565d4103.pyi,56,56,F,26,35,,,Password
+11524707,cd558fc3,GitHub,0f133e09,data/0f133e09/_/cd558fc3.py,840,840,F,42,61,,,Auth
+11524708,cd558fc3,GitHub,0f133e09,data/0f133e09/_/cd558fc3.py,874,874,F,38,57,,,Auth
+11524709,fd19dc90,GitHub,0f133e09,data/0f133e09/public/fd19dc90.py,41,41,F,53,58,,,Key
+11524710,2a5752fb,GitHub,0f133e09,data/0f133e09/test/2a5752fb.txt,21,21,F,8513,8517,,,Key
+11524711,3036e7bd,GitHub,0f133e09,data/0f133e09/test/3036e7bd.txt,31,31,F,336,345,,,Key
+11524712,3f1b2dc0,GitHub,0f133e09,data/0f133e09/test/3f1b2dc0.txt,9,9,F,550,559,,,Key
+11524713,451118b9,GitHub,0f133e09,data/0f133e09/test/451118b9.txt,20,20,F,393,402,,,Key
+11524714,7400d4c5,GitHub,0f133e09,data/0f133e09/test/7400d4c5.txt,10,10,F,413,793,,,Key
+11524715,7400d4c5,GitHub,0f133e09,data/0f133e09/test/7400d4c5.txt,10,10,F,817,1197,,,Key
+11524716,7400d4c5,GitHub,0f133e09,data/0f133e09/test/7400d4c5.txt,10,10,F,1221,1601,,,Key
+11524717,77000b93,GitHub,0f133e09,data/0f133e09/test/77000b93.txt,98,98,F,3379,3383,,,Key
+11524718,96e405e3,GitHub,0f133e09,data/0f133e09/test/96e405e3.txt,10,10,F,11100,11108,,,Salt
+11524719,a14e4d10,GitHub,0f133e09,data/0f133e09/test/a14e4d10.txt,10,10,F,14809,14817,,,Key
+11524720,acbd3693,GitHub,0f133e09,data/0f133e09/test/acbd3693.txt,20,20,F,335,344,,,Key
+11524721,acbd3693,GitHub,0f133e09,data/0f133e09/test/acbd3693.txt,31,31,F,375,384,,,Key
+11524722,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,273,273,F,399,408,,,Key
+11524723,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,329,329,F,114947,115000,,,API
+11524724,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,329,329,F,117300,117329,,,Auth
+11524725,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,329,329,F,137879,137908,,,Auth
+11524726,bb7be143,GitHub,0f133e09,data/0f133e09/test/bb7be143.txt,329,329,F,144893,144922,,,Auth
+11524727,cf71695e,GitHub,0f133e09,data/0f133e09/test/cf71695e.txt,20,20,F,591,600,,,Key
+11524728,d4a67d01,GitHub,0f133e09,data/0f133e09/test/d4a67d01.txt,10,10,F,1530,1910,,,Key
+11524729,e10f1e23,GitHub,0f133e09,data/0f133e09/test/e10f1e23.txt,98,98,F,8466,8474,,,Key
+11524730,e10f1e23,GitHub,0f133e09,data/0f133e09/test/e10f1e23.txt,98,98,F,14828,14836,,,Key
+11524731,e4c9ef89,GitHub,0f133e09,data/0f133e09/test/e4c9ef89.txt,10,10,F,12231,12239,,,Key
+11524732,ea6dfafd,GitHub,0f133e09,data/0f133e09/test/ea6dfafd.txt,54,54,F,9344,9348,,,API
+11524733,eca6d1b1,GitHub,0f133e09,data/0f133e09/test/eca6d1b1.txt,10,10,F,11100,11108,,,Salt
+11524734,9d2d157d,GitHub,0f133e09,data/0f133e09/test/public/9d2d157d.py,42,42,F,31,49,,,Key
+11524735,9d2d157d,GitHub,0f133e09,data/0f133e09/test/public/9d2d157d.py,53,53,F,30,48,,,Key
+11524736,a34fd3f0,GitHub,0f133e09,data/0f133e09/test/public/a34fd3f0.txt,32,32,F,67,85,,,Key
+11524737,b8b105af,GitHub,0f133e09,data/0f133e09/test/public/b8b105af.txt,32,32,F,66,84,,,Key

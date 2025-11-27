@@ -27,7 +27,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 23075,63529958,GitHub,1e007c58,data/1e007c58/_/63529958.go,14,14,F,,,,,API
 23725,556918e1,GitHub,1e007c58,data/1e007c58/_/556918e1.go,23,23,F,,,,,API
 23885,2c9566ed,GitHub,1e007c58,data/1e007c58/_/2c9566ed.go,20,20,F,,,,,Key
-24779,21dc9dca,GitHub,1e007c58,data/1e007c58/api/21dc9dca.go,23,23,F,,,,,Secret
+24779,21dc9dca,GitHub,1e007c58,data/1e007c58/api/21dc9dca.go,23,23,F,,,,,Secret:Key
 28784,7fd7d2c8,GitHub,1e007c58,data/1e007c58/test/7fd7d2c8.go,26,26,T,18,50,,,API:Key
 1028784,7fd7d2c8,GitHub,1e007c58,data/1e007c58/test/7fd7d2c8.go,26,26,T,93,125,,,Secret:Key
 30609,26058707,GitHub,1e007c58,data/1e007c58/test/26058707.go,12,12,X,18,31,,,API:Key
@@ -87,3 +87,15 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 110650,c79b11f4,GitHub,1e007c58,data/1e007c58/api/build/c79b11f4.go,203,203,F,,,,,API
 110651,c79b11f4,GitHub,1e007c58,data/1e007c58/api/build/c79b11f4.go,222,222,F,,,,,API
 11516153,556918e1,GitHub,1e007c58,data/1e007c58/_/556918e1.go,137,137,T,49,81,,,CURL User Password
+11524816,53b37171,GitHub,1e007c58,data/1e007c58/_/53b37171.go,63,63,F,24,62,,,API
+11524817,53b37171,GitHub,1e007c58,data/1e007c58/_/53b37171.go,102,102,F,24,60,,,API
+11524818,53b37171,GitHub,1e007c58,data/1e007c58/_/53b37171.go,319,319,F,33,37,,,Nonce
+11524819,63529958,GitHub,1e007c58,data/1e007c58/_/63529958.go,28,28,F,17,37,,,Password
+11524820,a5e679b7,GitHub,1e007c58,data/1e007c58/_/a5e679b7.go,22,22,F,17,34,,,API
+11524821,a5e679b7,GitHub,1e007c58,data/1e007c58/_/a5e679b7.go,25,25,F,30,40,,,API
+11524822,21dc9dca,GitHub,1e007c58,data/1e007c58/api/21dc9dca.go,21,21,F,51,62,,,API
+11524823,21dc9dca,GitHub,1e007c58,data/1e007c58/api/21dc9dca.go,24,24,F,51,62,,,API:Key
+11524824,c79b11f4,GitHub,1e007c58,data/1e007c58/api/build/c79b11f4.go,214,214,F,18,39,,,Password
+11524825,c79b11f4,GitHub,1e007c58,data/1e007c58/api/build/c79b11f4.go,275,275,F,18,52,,,Password
+11524826,c79b11f4,GitHub,1e007c58,data/1e007c58/api/build/c79b11f4.go,295,295,F,18,50,,,Password
+11524827,c79b11f4,GitHub,1e007c58,data/1e007c58/api/build/c79b11f4.go,363,363,F,18,39,,,Password

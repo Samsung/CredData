@@ -31,8 +31,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 11727,53b68185,GitHub,a0cd6261,data/a0cd6261/secure/python/53b68185.md,25,25,F,,,,,Token
 11942,e955e6ae,GitHub,a0cd6261,data/a0cd6261/resource/e955e6ae.md,517,517,F,,,,,Key
 11991,c7caa3f3,GitHub,a0cd6261,data/a0cd6261/resource/c7caa3f3.md,81,81,F,,,,,Token
-12020,3b98604a,GitHub,a0cd6261,data/a0cd6261/resource/3b98604a.md,556,556,F,,,,,Auth
-12021,3b98604a,GitHub,a0cd6261,data/a0cd6261/resource/3b98604a.md,557,557,F,,,,,Auth
+12020,3b98604a,GitHub,a0cd6261,data/a0cd6261/resource/3b98604a.md,556,556,F,,,,,Auth:Password
+12021,3b98604a,GitHub,a0cd6261,data/a0cd6261/resource/3b98604a.md,557,557,F,,,,,Auth:Password
 13129,dbef751c,GitHub,a0cd6261,data/a0cd6261/_/dbef751c.md,159,159,F,,,,,Password
 13301,77e52909,GitHub,a0cd6261,data/a0cd6261/resource/77e52909.md,81,81,F,,,,,Password
 14138,d4acce9c,GitHub,a0cd6261,data/a0cd6261/_/d4acce9c.md,32,32,F,10,,,,Password
@@ -78,7 +78,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 29160,919b979a,GitHub,a0cd6261,data/a0cd6261/resource/919b979a.md,80,80,X,10,15,,,Password
 29165,3b98604a,GitHub,a0cd6261,data/a0cd6261/resource/3b98604a.md,1719,1719,T,41,49,,,CMD ConvertTo-SecureString
 29166,3b98604a,GitHub,a0cd6261,data/a0cd6261/resource/3b98604a.md,1769,1769,T,39,51,,,CMD ConvertTo-SecureString
-29215,e955e6ae,GitHub,a0cd6261,data/a0cd6261/resource/e955e6ae.md,921,921,F,,,,,CMD ConvertTo-SecureString
+29215,e955e6ae,GitHub,a0cd6261,data/a0cd6261/resource/e955e6ae.md,921,921,F,,,,,CMD ConvertTo-SecureString:Password
 29258,b3e1b56b,GitHub,a0cd6261,data/a0cd6261/_/b3e1b56b.md,237,237,T,43,57,,,Password
 29351,b0464027,GitHub,a0cd6261,data/a0cd6261/server/b0464027.md,666,666,T,67,94,,Google OAuth Access Token,Google OAuth Access Token:Token
 29684,a2d793d9,GitHub,a0cd6261,data/a0cd6261/resource/a2d793d9.md,215,215,X,48,52,,,Auth
@@ -139,7 +139,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 107498,b0464027,GitHub,a0cd6261,data/a0cd6261/server/b0464027.md,593,593,F,,,,,Token
 107504,6e382287,GitHub,a0cd6261,data/a0cd6261/_/6e382287.rb,77,77,F,,,,,Secret
 107505,6e382287,GitHub,a0cd6261,data/a0cd6261/_/6e382287.rb,99,99,F,,,,,Secret
-107506,6e382287,GitHub,a0cd6261,data/a0cd6261/_/6e382287.rb,100,100,F,,,,,Secret
+107506,6e382287,GitHub,a0cd6261,data/a0cd6261/_/6e382287.rb,100,100,F,,,,,Secret:Key
 107507,6e382287,GitHub,a0cd6261,data/a0cd6261/_/6e382287.rb,101,101,F,,,,,Secret
 107509,a2d793d9,GitHub,a0cd6261,data/a0cd6261/resource/a2d793d9.md,299,299,F,,,,,Password:Auth
 107510,7f6a3252,GitHub,a0cd6261,data/a0cd6261/resource/7f6a3252.md,83,83,F,,,,,Password
@@ -268,3 +268,16 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 11516158,35f06517,GitHub,a0cd6261,data/a0cd6261/test/resource/docker/35f06517.md,109,109,T,25,30,,,CURL User Password
 11516159,35f06517,GitHub,a0cd6261,data/a0cd6261/test/resource/docker/35f06517.md,110,110,T,25,30,,,CURL User Password
 11516160,35f06517,GitHub,a0cd6261,data/a0cd6261/test/resource/docker/35f06517.md,112,112,T,25,30,,,CURL User Password
+11529600,837f5751,GitHub,a0cd6261,data/a0cd6261/_/837f5751.md,385,385,F,36,58,,,Password
+11529601,e8c1707a,GitHub,a0cd6261,data/a0cd6261/_/e8c1707a.md,39,39,F,46,62,,,Password
+11529602,3b98604a,GitHub,a0cd6261,data/a0cd6261/resource/3b98604a.md,1021,1021,F,77,90,,,Password
+11529603,3b98604a,GitHub,a0cd6261,data/a0cd6261/resource/3b98604a.md,1221,1221,F,95,115,,,Auth
+11529604,3b98604a,GitHub,a0cd6261,data/a0cd6261/resource/3b98604a.md,1686,1686,F,11,33,,,Password
+11529605,3b98604a,GitHub,a0cd6261,data/a0cd6261/resource/3b98604a.md,1688,1688,F,15,37,,,Password
+11529606,3b98604a,GitHub,a0cd6261,data/a0cd6261/resource/3b98604a.md,1689,1689,F,38,50,,,Password
+11529607,3b98604a,GitHub,a0cd6261,data/a0cd6261/resource/3b98604a.md,1770,1770,F,34,44,,,Password
+11529608,919b979a,GitHub,a0cd6261,data/a0cd6261/resource/919b979a.md,185,185,F,12,34,,,Password
+11529609,919b979a,GitHub,a0cd6261,data/a0cd6261/resource/919b979a.md,283,283,F,87,111,,,Password
+11529610,c7caa3f3,GitHub,a0cd6261,data/a0cd6261/resource/c7caa3f3.md,248,248,F,286,301,,,Credential
+11529611,e955e6ae,GitHub,a0cd6261,data/a0cd6261/resource/e955e6ae.md,308,308,F,56,60,,,Key
+11529612,29bb2e65,GitHub,a0cd6261,data/a0cd6261/test/resource/29bb2e65.md,380,380,F,27,83,,,Password

@@ -359,7 +359,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 50250,c0735e6c,GitHub,f710ac3c,data/f710ac3c/test/c0735e6c.py,1089,1089,F,43,59,,,Password
 50275,cdecae61,GitHub,f710ac3c,data/f710ac3c/test/cdecae61.txt,34,34,X,14,22,,,URL Credentials
 50276,cdecae61,GitHub,f710ac3c,data/f710ac3c/test/cdecae61.txt,35,35,X,14,22,,,URL Credentials
-50277,cdecae61,GitHub,f710ac3c,data/f710ac3c/test/cdecae61.txt,37,37,X,14,22,,,URL Credentials
+50277,cdecae61,GitHub,f710ac3c,data/f710ac3c/test/cdecae61.txt,37,37,F,,,,,URL Credentials:Password
 50278,cdecae61,GitHub,f710ac3c,data/f710ac3c/test/cdecae61.txt,41,41,F,,,,,Password:URL Credentials
 50279,cdecae61,GitHub,f710ac3c,data/f710ac3c/test/cdecae61.txt,40,40,X,242,250,,,URL Credentials
 50293,c0735e6c,GitHub,f710ac3c,data/f710ac3c/test/c0735e6c.py,2563,2563,X,46,69,,,Password
@@ -495,7 +495,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 75238,b6ab4be7,GitHub,f710ac3c,data/f710ac3c/test/b6ab4be7.py,368,368,F,,,,,Password
 75240,b6ab4be7,GitHub,f710ac3c,data/f710ac3c/test/b6ab4be7.py,735,735,X,53,57,,,Password
 75261,c49bf3c0,GitHub,f710ac3c,data/f710ac3c/template/c49bf3c0.py,644,644,F,,,,,Token
-75305,30897b8f,GitHub,f710ac3c,data/f710ac3c/_/30897b8f.py,242,242,F,,,,,SQL Password
+75305,30897b8f,GitHub,f710ac3c,data/f710ac3c/_/30897b8f.py,242,242,F,,,,,SQL Password:Password
 75310,30897b8f,GitHub,f710ac3c,data/f710ac3c/_/30897b8f.py,26,26,F,,,,,Password
 75458,9f2206b4,GitHub,f710ac3c,data/f710ac3c/docs/9f2206b4.py,296,296,F,,,,,Token
 75465,c0735e6c,GitHub,f710ac3c,data/f710ac3c/test/c0735e6c.py,2787,2787,F,,,,,Token
@@ -719,3 +719,86 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 1494759,9def8a2e,GitHub,f710ac3c,data/f710ac3c/test/9def8a2e.py,98,98,T,23,55,,,Key
 1494760,c14ba26e,GitHub,f710ac3c,data/f710ac3c/test/c14ba26e.py,65,65,T,72,78,,,Password
 11495529,30897b8f,GitHub,f710ac3c,data/f710ac3c/_/30897b8f.py,243,243,F,,,,,Password
+11531650,008fad28,GitHub,f710ac3c,data/f710ac3c/_/008fad28.py,168,168,F,60,85,,,Password
+11531651,30897b8f,GitHub,f710ac3c,data/f710ac3c/_/30897b8f.py,173,173,F,83,97,,,Password
+11531652,83585252,GitHub,f710ac3c,data/f710ac3c/_/83585252.py,97,97,F,21,25,,,Password
+11531653,83585252,GitHub,f710ac3c,data/f710ac3c/_/83585252.py,107,107,F,30,42,,,Password
+11531654,83585252,GitHub,f710ac3c,data/f710ac3c/_/83585252.py,127,127,F,20,85,,,Salt:Key
+11531655,d5edaf4c,GitHub,f710ac3c,data/f710ac3c/_/d5edaf4c.py,123,123,F,42,51,,,Password
+11531656,d5edaf4c,GitHub,f710ac3c,data/f710ac3c/_/d5edaf4c.py,132,132,F,45,54,,,Password
+11531657,b37e7741,GitHub,f710ac3c,data/f710ac3c/docs/b37e7741.txt,1119,1119,F,49,58,,,Password
+11531658,c49bf3c0,GitHub,f710ac3c,data/f710ac3c/template/c49bf3c0.py,654,654,F,50,54,,,Token
+11531659,142d4e03,GitHub,f710ac3c,data/f710ac3c/test/142d4e03.py,283,283,F,45,99,,,Auth
+11531660,142d4e03,GitHub,f710ac3c,data/f710ac3c/test/142d4e03.py,314,314,F,49,90,,,Auth
+11531661,142d4e03,GitHub,f710ac3c,data/f710ac3c/test/142d4e03.py,361,361,F,49,103,,,Auth
+11531662,142d4e03,GitHub,f710ac3c,data/f710ac3c/test/142d4e03.py,529,529,F,31,35,,,Password
+11531663,142d4e03,GitHub,f710ac3c,data/f710ac3c/test/142d4e03.py,543,543,F,31,35,,,Password
+11531664,142d4e03,GitHub,f710ac3c,data/f710ac3c/test/142d4e03.py,562,562,F,31,35,,,Password
+11531665,142d4e03,GitHub,f710ac3c,data/f710ac3c/test/142d4e03.py,577,577,F,31,35,,,Password
+11531666,142d4e03,GitHub,f710ac3c,data/f710ac3c/test/142d4e03.py,593,593,F,31,38,,,Password
+11531667,142d4e03,GitHub,f710ac3c,data/f710ac3c/test/142d4e03.py,600,600,F,31,38,,,Password
+11531668,142d4e03,GitHub,f710ac3c,data/f710ac3c/test/142d4e03.py,658,658,F,27,44,,,Password
+11531669,142d4e03,GitHub,f710ac3c,data/f710ac3c/test/142d4e03.py,661,661,F,30,36,,,Password
+11531670,142d4e03,GitHub,f710ac3c,data/f710ac3c/test/142d4e03.py,662,662,F,30,36,,,Password
+11531671,142d4e03,GitHub,f710ac3c,data/f710ac3c/test/142d4e03.py,1008,1008,F,42,90,,,Password
+11531672,142d4e03,GitHub,f710ac3c,data/f710ac3c/test/142d4e03.py,1061,1061,F,26,32,,,Password
+11531673,142d4e03,GitHub,f710ac3c,data/f710ac3c/test/142d4e03.py,1062,1062,F,26,32,,,Password
+11531674,142d4e03,GitHub,f710ac3c,data/f710ac3c/test/142d4e03.py,1077,1077,F,31,46,,,Password
+11531675,16f1d758,GitHub,f710ac3c,data/f710ac3c/test/16f1d758.py,624,624,F,24,46,,,Password
+11531676,16f1d758,GitHub,f710ac3c,data/f710ac3c/test/16f1d758.py,657,657,F,24,46,,,Password
+11531677,16f1d758,GitHub,f710ac3c,data/f710ac3c/test/16f1d758.py,693,693,F,24,46,,,Password
+11531678,16f1d758,GitHub,f710ac3c,data/f710ac3c/test/16f1d758.py,827,827,F,34,50,,,Password
+11531679,16f1d758,GitHub,f710ac3c,data/f710ac3c/test/16f1d758.py,867,867,F,24,40,,,Password
+11531680,16f1d758,GitHub,f710ac3c,data/f710ac3c/test/16f1d758.py,899,899,F,24,57,,,Password
+11531681,16f1d758,GitHub,f710ac3c,data/f710ac3c/test/16f1d758.py,933,933,F,24,50,,,Password
+11531682,255cd676,GitHub,f710ac3c,data/f710ac3c/test/255cd676.py,431,431,F,36,55,,,Auth
+11531683,255cd676,GitHub,f710ac3c,data/f710ac3c/test/255cd676.py,707,707,F,27,33,,,Password
+11531684,255cd676,GitHub,f710ac3c,data/f710ac3c/test/255cd676.py,1167,1167,F,24,37,,,Password
+11531685,255cd676,GitHub,f710ac3c,data/f710ac3c/test/255cd676.py,1199,1199,F,64,84,,,Auth
+11531686,255cd676,GitHub,f710ac3c,data/f710ac3c/test/255cd676.py,1208,1208,F,64,84,,,Auth
+11531687,255cd676,GitHub,f710ac3c,data/f710ac3c/test/255cd676.py,1293,1293,F,21,40,,,Auth
+11531688,4a4b6066,GitHub,f710ac3c,data/f710ac3c/test/4a4b6066.py,84,84,F,42,88,,,Password
+11531689,4a4b6066,GitHub,f710ac3c,data/f710ac3c/test/4a4b6066.py,105,105,F,42,87,,,Password
+11531690,4a4b6066,GitHub,f710ac3c,data/f710ac3c/test/4a4b6066.py,126,126,F,42,95,,,Password
+11531691,4a4b6066,GitHub,f710ac3c,data/f710ac3c/test/4a4b6066.py,145,145,F,42,96,,,Password
+11531692,4a4b6066,GitHub,f710ac3c,data/f710ac3c/test/4a4b6066.py,164,164,F,42,89,,,Password
+11531693,4a4b6066,GitHub,f710ac3c,data/f710ac3c/test/4a4b6066.py,204,204,F,42,90,,,Password
+11531694,4a4b6066,GitHub,f710ac3c,data/f710ac3c/test/4a4b6066.py,220,220,F,42,90,,,Password
+11531695,4a4b6066,GitHub,f710ac3c,data/f710ac3c/test/4a4b6066.py,253,253,F,42,90,,,Password
+11531696,57d9651a,GitHub,f710ac3c,data/f710ac3c/test/57d9651a.py,1459,1459,F,32,67,,,Password
+11531697,57d9651a,GitHub,f710ac3c,data/f710ac3c/test/57d9651a.py,1481,1481,F,28,63,,,Password
+11531698,6f695de1,GitHub,f710ac3c,data/f710ac3c/test/6f695de1.py,1935,1935,F,43,50,,,Auth
+11531699,6f695de1,GitHub,f710ac3c,data/f710ac3c/test/6f695de1.py,1947,1947,F,43,50,,,Auth
+11531700,6f695de1,GitHub,f710ac3c,data/f710ac3c/test/6f695de1.py,1960,1960,F,43,50,,,Auth
+11531701,6f695de1,GitHub,f710ac3c,data/f710ac3c/test/6f695de1.py,1985,1985,F,43,50,,,Auth
+11531702,6f695de1,GitHub,f710ac3c,data/f710ac3c/test/6f695de1.py,1998,1998,F,43,50,,,Auth
+11531703,6f695de1,GitHub,f710ac3c,data/f710ac3c/test/6f695de1.py,2011,2011,F,43,50,,,Auth
+11531704,6f695de1,GitHub,f710ac3c,data/f710ac3c/test/6f695de1.py,2023,2023,F,43,50,,,Auth
+11531705,6f695de1,GitHub,f710ac3c,data/f710ac3c/test/6f695de1.py,2036,2036,F,43,50,,,Auth
+11531706,6f695de1,GitHub,f710ac3c,data/f710ac3c/test/6f695de1.py,2049,2049,F,43,50,,,Auth
+11531707,6f695de1,GitHub,f710ac3c,data/f710ac3c/test/6f695de1.py,2061,2061,F,43,50,,,Auth
+11531708,6f695de1,GitHub,f710ac3c,data/f710ac3c/test/6f695de1.py,2074,2074,F,43,50,,,Auth
+11531709,8d982008,GitHub,f710ac3c,data/f710ac3c/test/8d982008.py,381,381,F,49,89,,,Auth
+11531710,a75415d7,GitHub,f710ac3c,data/f710ac3c/test/a75415d7.py,25,25,F,24,30,,,Password
+11531711,b6ab4be7,GitHub,f710ac3c,data/f710ac3c/test/b6ab4be7.py,36,36,F,45,88,,,Auth
+11531712,b6ab4be7,GitHub,f710ac3c,data/f710ac3c/test/b6ab4be7.py,78,78,F,38,44,,,Auth
+11531713,b6ab4be7,GitHub,f710ac3c,data/f710ac3c/test/b6ab4be7.py,218,218,F,42,97,,,Password
+11531714,b6ab4be7,GitHub,f710ac3c,data/f710ac3c/test/b6ab4be7.py,234,234,F,42,97,,,Password
+11531715,b6ab4be7,GitHub,f710ac3c,data/f710ac3c/test/b6ab4be7.py,318,318,F,36,68,,,Auth
+11531716,b6ab4be7,GitHub,f710ac3c,data/f710ac3c/test/b6ab4be7.py,360,360,F,36,55,,,Auth
+11531717,b6ab4be7,GitHub,f710ac3c,data/f710ac3c/test/b6ab4be7.py,561,561,F,47,54,,,Auth
+11531718,b6ab4be7,GitHub,f710ac3c,data/f710ac3c/test/b6ab4be7.py,568,568,F,47,53,,,Auth
+11531719,b6ab4be7,GitHub,f710ac3c,data/f710ac3c/test/b6ab4be7.py,572,572,F,47,54,,,Auth
+11531720,b6ab4be7,GitHub,f710ac3c,data/f710ac3c/test/b6ab4be7.py,581,581,F,47,53,,,Auth
+11531721,b6ab4be7,GitHub,f710ac3c,data/f710ac3c/test/b6ab4be7.py,826,826,F,45,99,,,Auth
+11531722,c0735e6c,GitHub,f710ac3c,data/f710ac3c/test/c0735e6c.py,1044,1044,F,77,86,,,Password
+11531723,c0735e6c,GitHub,f710ac3c,data/f710ac3c/test/c0735e6c.py,1083,1083,F,77,86,,,Password
+11531724,c0735e6c,GitHub,f710ac3c,data/f710ac3c/test/c0735e6c.py,1091,1091,F,44,60,,,Password
+11531725,c0735e6c,GitHub,f710ac3c,data/f710ac3c/test/c0735e6c.py,1223,1223,F,77,86,,,Password
+11531726,c0735e6c,GitHub,f710ac3c,data/f710ac3c/test/c0735e6c.py,1641,1641,F,63,84,,,Password
+11531727,c0735e6c,GitHub,f710ac3c,data/f710ac3c/test/c0735e6c.py,2532,2532,F,77,86,,,Password
+11531728,c0735e6c,GitHub,f710ac3c,data/f710ac3c/test/c0735e6c.py,2590,2590,F,77,86,,,Password
+11531730,d2a5b605,GitHub,f710ac3c,data/f710ac3c/test/d2a5b605.py,2590,2590,F,24,48,,,Password
+11531731,d2a5b605,GitHub,f710ac3c,data/f710ac3c/test/d2a5b605.py,4286,4286,F,50,61,,,Key
+11531732,d2a5b605,GitHub,f710ac3c,data/f710ac3c/test/d2a5b605.py,4300,4300,F,50,61,,,Key
+11531733,eb20de75,GitHub,f710ac3c,data/f710ac3c/test/eb20de75.py,1419,1419,F,59,70,,,Password
