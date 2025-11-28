@@ -1,4 +1,4 @@
-META MD5 dddac147e4f3d7a04620fdaed7e182e3
+META MD5 a24ec7ec95ae18189139047f973fd168
 DATA MD5 7736b990c61c8dfad6ef7a6f372df160
 DATA: 16995334 interested lines. MARKUP: 62025 items
 FileType           FileNumber    ValidLines    Positives    Negatives
@@ -87,7 +87,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .java                     650        141112          478         1453
 .jenkinsfile                1            58            2            6
 .jinja2                     1            64                         2
-.js                       640        530803          848         3119
+.js                       640        530803          853         3119
 .json                     884      13053260         1879         6759
 .jsp                       13          3202            1           47
 .jsx                        7           857                        15
@@ -225,7 +225,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .yml                      560         56585         1907         1376
 .zsh                        6           872                        11
 .zsh-theme                  1            97                         1
-TOTAL:                  11361      16995334        17202        49864
+TOTAL:                  11361      16995334        17207        49864
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -235,12 +235,12 @@ AWS Multi                                82           11                 0     0
 AWS S3 Bucket                            67           23                 0     0     23     67  0.000000  1.000000  0.255556         0.000000
 Akamai Credentials                        6            2                 0     0      2      6  0.000000  1.000000  0.250000         0.000000
 Anthropic API Key                         1            0                 0     0      0      1            1.000000  0.000000         0.000000
-Auth                                   1171         3603                 0     0   3603   1171  0.000000  1.000000  0.754713         0.000000
+Auth                                   1172         3603                 0     0   3603   1172  0.000000  1.000000  0.754555         0.000000
 Azure Access Token                       24            0                 0     0      0     24            1.000000  0.000000         0.000000
 BASE64 Private Key                       22            4                 0     0      4     22  0.000000  1.000000  0.153846         0.000000
 BASE64 encoded PEM Private Key           12            0                 0     0      0     12            1.000000  0.000000         0.000000
 Basic Authorization                     688          554                 0     0    554    688  0.000000  1.000000  0.446055         0.000000
-Bearer Authorization                    178            0                 0     0      0    178            1.000000  0.000000         0.000000
+Bearer Authorization                    182            0                 0     0      0    182            1.000000  0.000000         0.000000
 CMD ConvertTo-SecureString               13            4                 0     0      4     13  0.000000  1.000000  0.235294         0.000000
 CMD Password                             33          137                 0     0    137     33  0.000000  1.000000  0.805882         0.000000
 CMD Secret                                1           17                 0     0     17      1  0.000000  1.000000  0.944444         0.000000
@@ -283,4 +283,4 @@ Token                                  1138         5266                 0     0
 Twilio Credentials                       30           39                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         225          401                 0     0    401    225  0.000000  1.000000  0.640575         0.000000
 UUID                                   2527           16                 0     0     16   2527  0.000000  1.000000  0.006292         0.000000
-                                      17202        49864           0     0     0  49864  17202  0.000000  1.000000  0.743506         0.000000
+                                      17207        49864           0     0     0  49864  17207  0.000000  1.000000  0.743451         0.000000
