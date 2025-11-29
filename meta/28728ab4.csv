@@ -172,7 +172,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 29379,25792cd4,GitHub,28728ab4,data/28728ab4/_/25792cd4.toml,11,11,X,26,33,,,Key:Secret
 29389,e8b70be6,GitHub,28728ab4,data/28728ab4/test/internal/client/e8b70be6.go,12,12,X,25,29,,,Password
 29422,e0aa4943,GitHub,28728ab4,data/28728ab4/test/internal/client/e0aa4943.go,20,20,X,15,21,,,Token
-29424,db68b905,GitHub,28728ab4,data/28728ab4/test/db68b905.go,71,71,F,11,47,,,Token
+29424,db68b905,GitHub,28728ab4,data/28728ab4/test/db68b905.go,71,71,F,11,47,,,Token:UUID
 29425,358884bc,GitHub,28728ab4,data/28728ab4/test/358884bc.go,64,64,X,11,18,,,Token
 29427,8405d2ff,GitHub,28728ab4,data/28728ab4/test/8405d2ff.go,74,74,X,11,16,,,Token
 29596,243d5175,GitHub,28728ab4,data/28728ab4/test/243d5175.go,58,58,X,27,30,,,API:Key
@@ -352,7 +352,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 31349,721c1ad2,GitHub,28728ab4,data/28728ab4/test/721c1ad2.go,42,42,X,18,21,,,Password
 31350,87277328,GitHub,28728ab4,data/28728ab4/test/87277328.go,31,31,X,18,24,,,Password
 31351,c6e301fe,GitHub,28728ab4,data/28728ab4/test/c6e301fe.go,49,49,T,22,66,,,Secret
-31352,db68b905,GitHub,28728ab4,data/28728ab4/test/db68b905.go,27,27,T,19,55,,,API:Token:UUID
+31352,db68b905,GitHub,28728ab4,data/28728ab4/test/db68b905.go,27,27,F,19,55,,DIGITS_ONLY,API:Token:UUID
 31356,6d1b5038,GitHub,28728ab4,data/28728ab4/_/6d1b5038.toml,9,9,T,21,40,,,API:Password
 31397,2e605e8d,GitHub,28728ab4,data/28728ab4/_/2e605e8d.toml,13,13,X,27,40,,,Password
 31409,d3e2cec1,GitHub,28728ab4,data/28728ab4/_/d3e2cec1.toml,51,51,X,28,80,,,Secret
@@ -863,3 +863,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 11524963,56575ef0,GitHub,28728ab4,data/28728ab4/test/internal/client/56575ef0.go,584,584,F,17,41,,,Auth
 11524964,56575ef0,GitHub,28728ab4,data/28728ab4/test/internal/client/56575ef0.go,591,591,F,17,41,,,Auth
 11524965,8487ba44,GitHub,28728ab4,data/28728ab4/test/internal/client/8487ba44.go,284,284,F,26,34,,,Auth
+11533099,ed4a8451,GitHub,28728ab4,data/28728ab4/fixture/record/ed4a8451.json,8,8,F,11,47,,,UUID
+11533100,ed4a8451,GitHub,28728ab4,data/28728ab4/fixture/record/ed4a8451.json,19,19,F,15,51,,,UUID
+11533101,ed4a8451,GitHub,28728ab4,data/28728ab4/fixture/record/ed4a8451.json,23,23,F,13,49,,,UUID
+11533102,ed4a8451,GitHub,28728ab4,data/28728ab4/fixture/record/ed4a8451.json,29,29,F,21,57,,,UUID
+11533103,ed4a8451,GitHub,28728ab4,data/28728ab4/fixture/record/ed4a8451.json,32,32,F,11,47,,,UUID
