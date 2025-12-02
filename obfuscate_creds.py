@@ -601,7 +601,7 @@ def main(argv) -> int:
     parser.add_argument("--data_dir", dest="data_dir", default="data", help="Dataset location after download")
     parser.add_argument("--jobs", dest="jobs", help="Jobs for multiprocessing")
     parser.add_argument("--noise", help="Seed perturbation", type=int, default=0)
-    arguments = parser.parse_args()
+    arguments = parser.parse_args(argv[1:])
     return obfuscate(arguments)
 
 
