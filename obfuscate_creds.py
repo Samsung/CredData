@@ -397,7 +397,7 @@ def gen_random_value(value):
     return obfuscated_value
 
 
-def replace_rows(data: List[MetaRow], lines: List[str]):
+def replace_rows(data: List[MetaRow], lines: List[str], noise: int):
     # Change data in already copied files
     for row in data:
         # PEM keys and other multiple-line credentials is processed in other function
@@ -418,7 +418,7 @@ def replace_rows(data: List[MetaRow], lines: List[str]):
         old_line = lines[row.LineStart - 1]
         value = old_line[row.ValueStart:row.ValueEnd]
         # CredSweeper may scan huge lines since v1.6
-        random.seed((row.ValueStart | (row.LineStart << 16)) ^ int(row.FileID, 16))
+        random.seed((row.ValueStart | (row.LineStart << 16)) ^ int(row.FileID, 16) ^ noise)
         obfuscated_value = get_obfuscated_value(value, row)
         new_line = old_line[:row.ValueStart] + obfuscated_value + old_line[row.ValueEnd:]
 
@@ -532,7 +532,7 @@ def create_new_multiline(lines: List[str], starting_position: int):
     return new_lines
 
 
-def process_pem_key(row: MetaRow, lines:List[str]):
+def process_pem_key(row: MetaRow, lines: List[str], noise: int):
     # Change data in already copied files (only keys)
     try:
         # Skip credentials that are not PEM or multiline
@@ -543,7 +543,7 @@ def process_pem_key(row: MetaRow, lines:List[str]):
             # skip double obfuscation for the categories
             return
 
-        random.seed(row.LineStart ^ int(row.FileID, 16))
+        random.seed(row.LineStart ^ int(row.FileID, 16) ^ noise)
 
         if '' != row.CryptographyKey:
             new_lines = create_new_key(lines[row.LineStart - 1:row.LineEnd])
@@ -557,13 +557,14 @@ def process_pem_key(row: MetaRow, lines:List[str]):
         logger.critical(exc)
         raise
 
-def process_pem_keys(data: List[MetaRow], lines:List[str]):
+
+def process_pem_keys(data: List[MetaRow], lines: List[str], noise: int):
     for row in data:
         if 'T' == row.GroundTruth and "Private Key" == row.Category:
-            process_pem_key(row, lines)
+            process_pem_key(row, lines, noise)
 
 
-def obfuscate_creds(meta_dir: str, dataset_dir: str):
+def obfuscate_creds(meta_dir: str, dataset_dir: str, noise: int = 0):
     dataset_files = {}
     for meta_row in read_meta(meta_dir):
         meta_row.FilePath = meta_row.FilePath.replace("data", dataset_dir, 1)
@@ -581,25 +582,28 @@ def obfuscate_creds(meta_dir: str, dataset_dir: str):
             logger.critical(exc)
             raise
         meta_rows.sort(key=lambda x: (x.LineStart, x.LineEnd, x.ValueStart, x.ValueEnd))
-        replace_rows(meta_rows, lines)
-        process_pem_keys(meta_rows, lines)
+        replace_rows(meta_rows, lines, noise)
+        process_pem_keys(meta_rows, lines, noise)
 
         with open(dataset_file, "w", encoding="utf8") as f:
             f.write('\n'.join(lines))
 
 
-def main(args: Namespace):
-    obfuscate_creds(args.meta_dir, args.data_dir)
+def obfuscate(arguments: Namespace) -> int:
+    obfuscate_creds(arguments.meta_dir, arguments.data_dir, arguments.noise)
     logger.info(f"Obfuscation was done")
     return 0
 
 
-if __name__ == "__main__":
+def main(argv) -> int:
     parser = ArgumentParser(prog="python obfuscate_creds.py")
-
     parser.add_argument("--meta_dir", dest="meta_dir", default="meta", help="Dataset markup")
     parser.add_argument("--data_dir", dest="data_dir", default="data", help="Dataset location after download")
     parser.add_argument("--jobs", dest="jobs", help="Jobs for multiprocessing")
-    _args = parser.parse_args()
+    parser.add_argument("--noise", help="Seed perturbation", type=int, default=0)
+    arguments = parser.parse_args()
+    return obfuscate(arguments)
 
-    sys.exit(main(_args))
+
+if __name__ == """__main__""":
+    sys.exit(main(sys.argv))
