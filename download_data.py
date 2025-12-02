@@ -239,12 +239,12 @@ def check_snapshot_meta(snapshot: dict) -> int:
     return result
 
 
-def main(args: Namespace):
-    if os.path.exists(args.data_dir):
-        if not args.clean_data:
-            raise FileExistsError(f"{args.data_dir} directory already exists. "
+def process(arguments: Namespace) -> int:
+    if os.path.exists(arguments.data_dir):
+        if not arguments.clean_data:
+            raise FileExistsError(f"{arguments.data_dir} directory already exists. "
                                   f"Please remove it or select other directory.")
-        shutil.rmtree(args.data_dir)
+        shutil.rmtree(arguments.data_dir)
 
     with open("snapshot.json", encoding="utf_8") as f:
         snapshot = json.load(f)
@@ -253,8 +253,8 @@ def main(args: Namespace):
         logger.critical(f"Check logs, fix and restart if necessary: {new_meta_count}")
         return 1
 
-    jobs = 1 if not args.jobs else max(1, int(args.jobs))
-    if not args.skip_download:
+    jobs = 1 if not arguments.jobs else max(1, int(arguments.jobs))
+    if not arguments.skip_download:
         logger.info("Start download")
         os.makedirs(TMP_DIR, exist_ok=True)
         download(snapshot, jobs)
@@ -262,22 +262,25 @@ def main(args: Namespace):
     else:
         logger.info("Download skipped. Now processing the files...")
 
-    removed_meta = move_files(snapshot, args.data_dir)
+    removed_meta = move_files(snapshot, arguments.data_dir)
     # check whether there were issues with downloading
     assert 0 == len(removed_meta), removed_meta
     logger.info("Finalizing dataset. Please wait a moment...")
-    obfuscate_creds("meta", args.data_dir)
-    logger.info(f"Done! All files saved to {args.data_dir}")
+    obfuscate_creds("meta", arguments.data_dir, arguments.noise)
+    logger.info(f"Done! All files saved to {arguments.data_dir}")
     return 0
 
 
-if __name__ == "__main__":
+def main(argv) -> int:
     parser = ArgumentParser(prog="python download_data.py")
-
     parser.add_argument("--data_dir", dest="data_dir", default="data", help="Dataset location after download")
     parser.add_argument("--jobs", dest="jobs", help="Jobs for multiprocessing")
     parser.add_argument("--skip_download", help="Skip download", action="store_const", const=True)
     parser.add_argument("--clean_data", help="Recreate data dir", action="store_const", const=True)
-    _args = parser.parse_args()
+    parser.add_argument("--noise", help="Seed perturbation", type=int, default=0)
+    arguments = parser.parse_args(argv[1:])
+    return process(arguments)
 
-    sys.exit(main(_args))
+
+if __name__ == """__main__""":
+    sys.exit(main(sys.argv))
