@@ -1,7 +1,7 @@
 Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd,CryptographyKey,PredefinedPattern,Category
 1226,7d2d6b5a,GitHub,55031e17,data/55031e17/build/7d2d6b5a.py,339,339,F,,,,,Key
 1388,fa8587f2,GitHub,55031e17,data/55031e17/rest/model/fa8587f2.py,6,6,F,,,,,Credential
-1609,4ec00bca,GitHub,55031e17,data/55031e17/local/client/4ec00bca.py,52,52,F,,,,,Key
+1609,4ec00bca,GitHub,55031e17,data/55031e17/client/4ec00bca.py,52,52,F,,,,,Key
 1867,a2dcc45b,GitHub,55031e17,data/55031e17/rest/client/a2dcc45b.py,80,80,F,,,,,Key
 2089,f038ff7b,GitHub,55031e17,data/55031e17/test/conf/f038ff7b.py,59,59,T,19,23,,,URL Credentials
 2863,f038ff7b,GitHub,55031e17,data/55031e17/test/conf/f038ff7b.py,473,473,F,,,,,URL Credentials
@@ -29,7 +29,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 8437,0acbba4b,GitHub,55031e17,data/55031e17/test/mock/util/0acbba4b.py,188,188,F,,,,,Key
 8449,fadacae4,GitHub,55031e17,data/55031e17/test/fadacae4.py,244,244,F,,,,,Key
 8450,fadacae4,GitHub,55031e17,data/55031e17/test/fadacae4.py,247,247,F,,,,,Key
-8476,4ec00bca,GitHub,55031e17,data/55031e17/local/client/4ec00bca.py,16,16,F,,,,,Key
+8476,4ec00bca,GitHub,55031e17,data/55031e17/client/4ec00bca.py,16,16,F,,,,,Key
 8486,e730089a,GitHub,55031e17,data/55031e17/test/tool/e730089a.py,173,173,F,,,,,URL Credentials
 8487,5bf90f43,GitHub,55031e17,data/55031e17/test/tool/5bf90f43.py,173,173,F,,,,,URL Credentials
 8506,0acbba4b,GitHub,55031e17,data/55031e17/test/mock/util/0acbba4b.py,22,22,F,,,,,Token
@@ -63,7 +63,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 11065,03925a34,GitHub,55031e17,data/55031e17/server/03925a34.py,84,84,F,,,,,Password
 11245,7d2d6b5a,GitHub,55031e17,data/55031e17/build/7d2d6b5a.py,340,340,F,,,,,Key
 11246,7d2d6b5a,GitHub,55031e17,data/55031e17/build/7d2d6b5a.py,338,338,F,,,,,Key
-11424,dd93d0a1,GitHub,55031e17,data/55031e17/test/util/local/dd93d0a1.py,36,36,F,,,,,Key
+11424,dd93d0a1,GitHub,55031e17,data/55031e17/test/util/dd93d0a1.py,36,36,F,,,,,Key
 11570,56565499,GitHub,55031e17,data/55031e17/conf/model/56565499.py,138,138,F,,,,,Key
 11589,3884a377,GitHub,55031e17,data/55031e17/test/build/3884a377.py,87,87,F,,,,,Key
 11773,38202780,GitHub,55031e17,data/55031e17/server/38202780.py,219,219,F,,,,,Key
@@ -173,8 +173,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 64082,de15a3db,GitHub,55031e17,data/55031e17/client/de15a3db.py,79,79,F,,,,,Key
 64083,de15a3db,GitHub,55031e17,data/55031e17/client/de15a3db.py,99,99,F,,,,,Key
 64494,0f9b956e,GitHub,55031e17,data/55031e17/util/0f9b956e.py,31,31,F,,,,,Key
-74465,dd93d0a1,GitHub,55031e17,data/55031e17/test/util/local/dd93d0a1.py,48,48,F,,,,,Key
-74466,dd93d0a1,GitHub,55031e17,data/55031e17/test/util/local/dd93d0a1.py,61,61,F,,,,,Key
+74465,dd93d0a1,GitHub,55031e17,data/55031e17/test/util/dd93d0a1.py,48,48,F,,,,,Key
+74466,dd93d0a1,GitHub,55031e17,data/55031e17/test/util/dd93d0a1.py,61,61,F,,,,,Key
 74982,33f1f2f9,GitHub,55031e17,data/55031e17/client/33f1f2f9.py,1709,1709,F,,,,,Key
 75133,eb89ad0f,GitHub,55031e17,data/55031e17/model/eb89ad0f.py,170,170,F,,,,,Credential
 75162,61dab7f6,GitHub,55031e17,data/55031e17/test/61dab7f6.py,101,101,F,,,,,Key
@@ -196,7 +196,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 100955,aa2879ba,GitHub,55031e17,data/55031e17/test/conf/server/aa2879ba.py,111,111,F,,,,,Password
 100956,b8fa2fad,GitHub,55031e17,data/55031e17/test/tool/util/b8fa2fad.py,258,258,F,,,,,Password
 110494,18f41449,GitHub,55031e17,data/55031e17/tool/client/18f41449.py,86,86,F,,,,,Key
-110495,dd93d0a1,GitHub,55031e17,data/55031e17/test/util/local/dd93d0a1.py,63,63,T,24,50,,,Token
+110495,dd93d0a1,GitHub,55031e17,data/55031e17/test/util/dd93d0a1.py,63,63,T,24,50,,,Token
 110496,b4e617dc,GitHub,55031e17,data/55031e17/test/tool/util/b4e617dc.py,468,468,F,,,,,Auth
 110497,96f7df82,GitHub,55031e17,data/55031e17/test/96f7df82.py,29,29,F,,,,,Key
 110498,96f7df82,GitHub,55031e17,data/55031e17/test/96f7df82.py,31,31,F,,,,,Key
@@ -240,10 +240,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 11527472,cb11ba4c,GitHub,55031e17,data/55031e17/test/tool/client/cb11ba4c.py,271,271,F,46,64,,,Password
 11527473,cb11ba4c,GitHub,55031e17,data/55031e17/test/tool/client/cb11ba4c.py,272,272,F,75,93,,,Password
 11527474,5af72409,GitHub,55031e17,data/55031e17/test/util/5af72409.py,108,108,F,25,40,,,Key
-11527475,dd93d0a1,GitHub,55031e17,data/55031e17/test/util/local/dd93d0a1.py,20,20,F,55,61,,,Token
-11527476,dd93d0a1,GitHub,55031e17,data/55031e17/test/util/local/dd93d0a1.py,26,26,F,55,61,,,Token
-11527477,dd93d0a1,GitHub,55031e17,data/55031e17/test/util/local/dd93d0a1.py,39,39,F,55,61,,,Token
-11527478,dd93d0a1,GitHub,55031e17,data/55031e17/test/util/local/dd93d0a1.py,51,51,F,55,61,,,Token
-11527479,dd93d0a1,GitHub,55031e17,data/55031e17/test/util/local/dd93d0a1.py,65,65,F,55,61,,,Token
-11527480,dd93d0a1,GitHub,55031e17,data/55031e17/test/util/local/dd93d0a1.py,73,73,F,56,62,,,Token
+11527475,dd93d0a1,GitHub,55031e17,data/55031e17/test/util/dd93d0a1.py,20,20,F,55,61,,,Token
+11527476,dd93d0a1,GitHub,55031e17,data/55031e17/test/util/dd93d0a1.py,26,26,F,55,61,,,Token
+11527477,dd93d0a1,GitHub,55031e17,data/55031e17/test/util/dd93d0a1.py,39,39,F,55,61,,,Token
+11527478,dd93d0a1,GitHub,55031e17,data/55031e17/test/util/dd93d0a1.py,51,51,F,55,61,,,Token
+11527479,dd93d0a1,GitHub,55031e17,data/55031e17/test/util/dd93d0a1.py,65,65,F,55,61,,,Token
+11527480,dd93d0a1,GitHub,55031e17,data/55031e17/test/util/dd93d0a1.py,73,73,F,56,62,,,Token
 11527481,18f41449,GitHub,55031e17,data/55031e17/tool/client/18f41449.py,354,354,F,19,60,,,Key
