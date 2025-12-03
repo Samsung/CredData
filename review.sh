@@ -1,6 +1,6 @@
 #!/bin/bash
-set -e
-set -x
+
+set -ex
 
 .venv/bin/python review_data.py --check
 
