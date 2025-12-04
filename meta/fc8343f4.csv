@@ -28,7 +28,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 1495202,3a831bdb,GitHub,fc8343f4,data/fc8343f4/vendor/3a831bdb.go,602,602,T,15,51,,,UUID
 1495203,3a831bdb,GitHub,fc8343f4,data/fc8343f4/vendor/3a831bdb.go,823,823,T,15,51,,,UUID
 1495217,4a8949ee,GitHub,fc8343f4,data/fc8343f4/util/api/kube/client/app/4a8949ee.go,604,604,T,32,,,,Auth
-1495218,4cf2897e,GitHub,fc8343f4,data/fc8343f4/util/vendor/4cf2897e.go,17,17,T,22,58,,,UUID:Key
+1495218,4cf2897e,GitHub,fc8343f4,data/fc8343f4/util/vendor/4cf2897e.go,17,17,F,22,58,,guid,UUID:Key
 1495224,50bae975,GitHub,fc8343f4,data/fc8343f4/src/pkg/api/server/50bae975.go,54,54,T,17,41,,,Secret
 1495225,50bae975,GitHub,fc8343f4,data/fc8343f4/src/pkg/api/server/50bae975.go,61,61,T,17,57,,,Secret
 1495226,50bae975,GitHub,fc8343f4,data/fc8343f4/src/pkg/api/server/50bae975.go,68,68,T,17,53,,,Secret
@@ -601,13 +601,13 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 1496384,b629d1a5,GitHub,fc8343f4,data/fc8343f4/test/util/pkg/b629d1a5.go,241,241,T,26,62,,,UUID
 1496385,b6306acd,GitHub,fc8343f4,data/fc8343f4/test/src/pkg/kube/b6306acd.original,16,16,T,7,43,,,UUID
 1496386,b72d8e8e,GitHub,fc8343f4,data/fc8343f4/test/src/pkg/kube/b72d8e8e.response,8,8,T,16,52,,,UUID
-1496387,b7933f0e,GitHub,fc8343f4,data/fc8343f4/test/pkg/b7933f0e.go,69,69,T,18,61,,,Key
+1496387,b7933f0e,GitHub,fc8343f4,data/fc8343f4/test/pkg/b7933f0e.go,69,69,F,18,61,,id,Key
 1496388,b7933f0e,GitHub,fc8343f4,data/fc8343f4/test/pkg/b7933f0e.go,72,98,T,23,29,,,PEM Private Key
 1496389,b7933f0e,GitHub,fc8343f4,data/fc8343f4/test/pkg/b7933f0e.go,103,107,T,25,28,,,PEM Private Key
-1496390,b7933f0e,GitHub,fc8343f4,data/fc8343f4/test/pkg/b7933f0e.go,120,120,T,20,63,,,Key
-1496391,b7933f0e,GitHub,fc8343f4,data/fc8343f4/test/pkg/b7933f0e.go,567,567,T,13,56,,,Key
-1496392,b7933f0e,GitHub,fc8343f4,data/fc8343f4/test/pkg/b7933f0e.go,568,568,T,13,56,,,Key
-1496393,b7933f0e,GitHub,fc8343f4,data/fc8343f4/test/pkg/b7933f0e.go,575,575,T,13,56,,,Key
+1496390,b7933f0e,GitHub,fc8343f4,data/fc8343f4/test/pkg/b7933f0e.go,120,120,F,20,63,,id,Key
+1496391,b7933f0e,GitHub,fc8343f4,data/fc8343f4/test/pkg/b7933f0e.go,567,567,F,13,56,,id,Key
+1496392,b7933f0e,GitHub,fc8343f4,data/fc8343f4/test/pkg/b7933f0e.go,568,568,F,13,56,,id,Key
+1496393,b7933f0e,GitHub,fc8343f4,data/fc8343f4/test/pkg/b7933f0e.go,575,575,F,13,56,,id,Key
 1496394,b7fa2155,GitHub,fc8343f4,data/fc8343f4/test/src/conf/pkg/api/opt/server/b7fa2155.yaml,12,12,T,22,46,,,Secret
 1496395,b7fa2155,GitHub,fc8343f4,data/fc8343f4/test/src/conf/pkg/api/opt/server/b7fa2155.yaml,14,14,T,22,46,,,Secret
 1496396,b7fa2155,GitHub,fc8343f4,data/fc8343f4/test/src/conf/pkg/api/opt/server/b7fa2155.yaml,22,22,T,22,46,,,Secret
