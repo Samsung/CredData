@@ -384,7 +384,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 31383,d59ac85f,GitHub,387016a6,data/387016a6/test/src/d59ac85f.java,58,58,X,41,50,,,Key:Password
 31384,169b2067,GitHub,387016a6,data/387016a6/test/src/internal/security/cluster/169b2067.java,104,104,T,36,52,,,Password
 31535,7f086ade,GitHub,387016a6,data/387016a6/rest/client/build/7f086ade.gradle,116,116,X,42,56,,,Password
-33028,fe72bf0a,GitHub,387016a6,data/387016a6/test/src/document/rest/client/fe72bf0a.java,485,485,T,31,51,,,API:Key
+33028,fe72bf0a,GitHub,387016a6,data/387016a6/test/src/document/rest/client/fe72bf0a.java,485,485,T,31,51,,api&key?,API:Key
 33029,fe72bf0a,GitHub,387016a6,data/387016a6/test/src/document/rest/client/fe72bf0a.java,486,486,T,35,56,,,API:Key:Secret
 33033,3e3ad95b,GitHub,387016a6,data/387016a6/test/src/security/rest/client/3e3ad95b.java,28,28,T,24,48,,,Token
 33044,3e3ad95b,GitHub,387016a6,data/387016a6/test/src/security/rest/client/3e3ad95b.java,20,20,T,24,68,,,Token
@@ -423,7 +423,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 35848,d33ea6b4,GitHub,387016a6,data/387016a6/test/src/security/d33ea6b4.java,58,58,T,39,50,,,Token
 35850,2617a7bc,GitHub,387016a6,data/387016a6/test/src/internal/cluster/2617a7bc.java,174,174,T,40,51,,,Password
 35851,2617a7bc,GitHub,387016a6,data/387016a6/test/src/internal/cluster/2617a7bc.java,175,175,T,40,55,,,Dropbox App secret:Password
-36115,fba19b85,GitHub,387016a6,data/387016a6/test/fixture/fba19b85.properties,3,3,T,28,92,,,API:Token
+36115,fba19b85,GitHub,387016a6,data/387016a6/test/fixture/fba19b85.properties,3,3,F,28,92,,hash,API:Token
 37184,4b6228ca,GitHub,387016a6,data/387016a6/security/docs/rest/4b6228ca.asciidoc,141,141,T,20,124,,,Token
 37328,020efc06,GitHub,387016a6,data/387016a6/security/docs/rest/020efc06.asciidoc,218,218,T,20,40,,,Token
 37329,020efc06,GitHub,387016a6,data/387016a6/security/docs/rest/020efc06.asciidoc,233,233,T,20,40,,,Token

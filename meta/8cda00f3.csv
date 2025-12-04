@@ -627,7 +627,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 82169,3f8a56cf,GitHub,8cda00f3,data/8cda00f3/conf/3f8a56cf.ini,307,307,X,16,27,,,Secret
 82170,0a7921b3,GitHub,8cda00f3,data/8cda00f3/test/pkg/0a7921b3.go,152,152,F,16,19,,,Password
 82171,7b896da1,GitHub,8cda00f3,data/8cda00f3/test/pkg/7b896da1.go,108,108,F,17,20,,,Password
-82172,ff6d88ed,GitHub,8cda00f3,data/8cda00f3/test/docker/ff6d88ed.yaml,10,10,X,22,31,,,Password
+82172,ff6d88ed,GitHub,8cda00f3,data/8cda00f3/test/docker/ff6d88ed.yaml,10,10,T,22,31,,,Password
 82173,079a56a8,GitHub,8cda00f3,data/8cda00f3/test/pkg/model/079a56a8.go,87,87,X,23,31,,,Key:Secret
 82174,079a56a8,GitHub,8cda00f3,data/8cda00f3/test/pkg/model/079a56a8.go,121,121,X,23,31,,,Key:Secret
 82175,87f21611,GitHub,8cda00f3,data/8cda00f3/test/api/87f21611.ts,14,14,X,13,21,,,Password
@@ -696,7 +696,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 113981,24e05f8d,GitHub,8cda00f3,data/8cda00f3/test/pkg/24e05f8d.go,294,294,F,,,,,Auth
 113982,24e05f8d,GitHub,8cda00f3,data/8cda00f3/test/pkg/24e05f8d.go,320,320,F,,,,,Auth
 113983,24e05f8d,GitHub,8cda00f3,data/8cda00f3/test/pkg/24e05f8d.go,353,353,F,,,,,Auth
-113984,e71ac2c5,GitHub,8cda00f3,data/8cda00f3/docs/e71ac2c5.md,89,89,T,20,35,,,Dropbox App secret:Key
+113984,e71ac2c5,GitHub,8cda00f3,data/8cda00f3/docs/e71ac2c5.md,89,89,F,20,35,,id,Dropbox App secret:Key
 120001,387aa4d0,GitHub,8cda00f3,data/8cda00f3/vendor/387aa4d0.c,108516,108516,F,,,,,Auth
 131076,387aa4d0,GitHub,8cda00f3,data/8cda00f3/vendor/387aa4d0.c,128568,128568,F,,,,,Password
 131077,387aa4d0,GitHub,8cda00f3,data/8cda00f3/vendor/387aa4d0.c,128401,128401,F,,,,,Password
@@ -718,7 +718,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 131094,9b59053d,GitHub,8cda00f3,data/8cda00f3/conf/vendor/9b59053d.go,106,106,F,,,,,Secret
 131095,387aa4d0,GitHub,8cda00f3,data/8cda00f3/vendor/387aa4d0.c,128196,128196,F,,,,,Password
 131097,eff41f80,GitHub,8cda00f3,data/8cda00f3/public/app/eff41f80.html,33,33,F,,,,,Password
-131098,78a8a197,GitHub,8cda00f3,data/8cda00f3/conf/78a8a197.yml,52,52,F,,,,,Password
+131098,78a8a197,GitHub,8cda00f3,data/8cda00f3/conf/78a8a197.yml,52,52,T,27,38,,,Password
 131100,387aa4d0,GitHub,8cda00f3,data/8cda00f3/vendor/387aa4d0.c,139453,139453,F,,,,,Password
 131101,74d90f48,GitHub,8cda00f3,data/8cda00f3/public/app/74d90f48.ts,32,32,F,,,,,Password
 131103,387aa4d0,GitHub,8cda00f3,data/8cda00f3/vendor/387aa4d0.c,134684,134684,F,,,,,Password
@@ -858,7 +858,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 135312,eaf18c55,GitHub,8cda00f3,data/8cda00f3/docs/eaf18c55.md,178,178,T,21,37,,,Auth:Basic Authorization
 135313,eaf18c55,GitHub,8cda00f3,data/8cda00f3/docs/eaf18c55.md,209,209,T,21,37,,,Auth:Basic Authorization
 135314,eaf18c55,GitHub,8cda00f3,data/8cda00f3/docs/eaf18c55.md,300,300,T,21,37,,,Auth:Basic Authorization
-1340770,4cf2897e,GitHub,8cda00f3,data/8cda00f3/util/vendor/4cf2897e.go,16,16,T,22,58,,,UUID:Key
+1340770,4cf2897e,GitHub,8cda00f3,data/8cda00f3/util/vendor/4cf2897e.go,16,16,F,22,58,,guid,UUID:Key
 1479363,0a7921b3,GitHub,8cda00f3,data/8cda00f3/test/pkg/0a7921b3.go,155,155,F,,,,,Auth
 1479364,8bb83972,GitHub,8cda00f3,data/8cda00f3/pkg/8bb83972.go,146,146,F,,,,,Auth
 1480661,07026345,GitHub,8cda00f3,data/8cda00f3/docs/07026345.md,45,45,T,42,50,,,SQL Password
