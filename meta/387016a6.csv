@@ -1462,12 +1462,12 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 1493914,b1532f81,GitHub,387016a6,data/387016a6/test/src/resource/rest/b1532f81.yml,44,44,T,30,82,,,Auth:Basic Authorization
 1493915,b1532f81,GitHub,387016a6,data/387016a6/test/src/resource/rest/b1532f81.yml,472,472,T,30,82,,,Auth:Basic Authorization
 1493916,b1532f81,GitHub,387016a6,data/387016a6/test/src/resource/rest/b1532f81.yml,492,492,T,30,82,,,Auth:Basic Authorization
-1493917,b2db3b50,GitHub,387016a6,data/387016a6/test/src/resource/rest/b2db3b50.yml,111,111,T,60,81,,,Key
-1493918,b2db3b50,GitHub,387016a6,data/387016a6/test/src/resource/rest/b2db3b50.yml,113,113,T,60,81,,,Key
-1493919,b2db3b50,GitHub,387016a6,data/387016a6/test/src/resource/rest/b2db3b50.yml,115,115,T,60,81,,,Key
-1493920,b2db3b50,GitHub,387016a6,data/387016a6/test/src/resource/rest/b2db3b50.yml,180,180,T,60,94,,,Key
-1493921,b2db3b50,GitHub,387016a6,data/387016a6/test/src/resource/rest/b2db3b50.yml,182,182,T,60,95,,,Key
-1493922,b2db3b50,GitHub,387016a6,data/387016a6/test/src/resource/rest/b2db3b50.yml,184,184,T,60,94,,,Key
+1493917,b2db3b50,GitHub,387016a6,data/387016a6/test/src/resource/rest/b2db3b50.yml,111,111,F,60,81,,elastic,Key
+1493918,b2db3b50,GitHub,387016a6,data/387016a6/test/src/resource/rest/b2db3b50.yml,113,113,F,60,81,,elastic,Key
+1493919,b2db3b50,GitHub,387016a6,data/387016a6/test/src/resource/rest/b2db3b50.yml,115,115,F,60,81,,elastic,Key
+1493920,b2db3b50,GitHub,387016a6,data/387016a6/test/src/resource/rest/b2db3b50.yml,180,180,F,60,94,,elastic,Key
+1493921,b2db3b50,GitHub,387016a6,data/387016a6/test/src/resource/rest/b2db3b50.yml,182,182,F,60,95,,elastic,Key
+1493922,b2db3b50,GitHub,387016a6,data/387016a6/test/src/resource/rest/b2db3b50.yml,184,184,F,60,94,,elastic,Key
 1493923,b3dad140,GitHub,387016a6,data/387016a6/test/src/resource/rest/b3dad140.yml,41,41,T,30,58,,,Auth:Basic Authorization
 1493924,b3dad140,GitHub,387016a6,data/387016a6/test/src/resource/rest/b3dad140.yml,76,76,T,30,58,,,Auth:Basic Authorization
 1493925,b3dad140,GitHub,387016a6,data/387016a6/test/src/resource/rest/b3dad140.yml,146,146,T,30,74,,,Auth:Basic Authorization
@@ -1615,10 +1615,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 1494793,3edd20d7,GitHub,387016a6,data/387016a6/test/src/security/rest/client/3edd20d7.java,35,35,T,55,91,,,UUID
 1509788,b475c48b,GitHub,387016a6,data/387016a6/test/src/security/b475c48b.java,109,110,T,24,133,,,JWK
 11494701,fe72bf0a,GitHub,387016a6,data/387016a6/test/src/document/rest/client/fe72bf0a.java,479,479,T,28,64,,,Bearer Authorization
-11503155,b2db3b50,GitHub,387016a6,data/387016a6/test/src/resource/rest/b2db3b50.yml,155,155,F,60,91,,,Key
-11503156,b2db3b50,GitHub,387016a6,data/387016a6/test/src/resource/rest/b2db3b50.yml,157,157,F,60,91,,,Key
-11503157,b2db3b50,GitHub,387016a6,data/387016a6/test/src/resource/rest/b2db3b50.yml,159,159,F,60,91,,,Key
-11503158,b2db3b50,GitHub,387016a6,data/387016a6/test/src/resource/rest/b2db3b50.yml,161,161,F,60,92,,,Key
+11503155,b2db3b50,GitHub,387016a6,data/387016a6/test/src/resource/rest/b2db3b50.yml,155,155,F,60,91,,elastic,Key
+11503156,b2db3b50,GitHub,387016a6,data/387016a6/test/src/resource/rest/b2db3b50.yml,157,157,F,60,91,,elastic,Key
+11503157,b2db3b50,GitHub,387016a6,data/387016a6/test/src/resource/rest/b2db3b50.yml,159,159,F,60,91,,elastic,Key
+11503158,b2db3b50,GitHub,387016a6,data/387016a6/test/src/resource/rest/b2db3b50.yml,161,161,F,60,92,,elastic,Key
 11516154,f9e5cd3c,GitHub,387016a6,data/387016a6/docs/rest/init/f9e5cd3c.asciidoc,55,55,F,18,31,,,CURL User Password
 11516155,f9e5cd3c,GitHub,387016a6,data/387016a6/docs/rest/init/f9e5cd3c.asciidoc,72,72,F,18,31,,,CURL User Password
 11516156,0b540210,GitHub,387016a6,data/387016a6/security/docs/rest/0b540210.asciidoc,141,141,T,17,37,,,CURL User Password
@@ -1756,9 +1756,9 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 11526883,7566c4bf,GitHub,387016a6,data/387016a6/test/src/resource/rest/7566c4bf.yml,57,57,F,29,45,,,Password
 11526884,aa31c733,GitHub,387016a6,data/387016a6/test/src/resource/rest/aa31c733.yml,29,29,F,25,40,,,Password
 11526885,aa31c733,GitHub,387016a6,data/387016a6/test/src/resource/rest/aa31c733.yml,53,53,F,25,40,,,Password
-11526886,b2db3b50,GitHub,387016a6,data/387016a6/test/src/resource/rest/b2db3b50.yml,133,133,F,60,73,,,Key
-11526887,b2db3b50,GitHub,387016a6,data/387016a6/test/src/resource/rest/b2db3b50.yml,135,135,F,60,73,,,Key
-11526888,b2db3b50,GitHub,387016a6,data/387016a6/test/src/resource/rest/b2db3b50.yml,137,137,F,60,74,,,Key
+11526886,b2db3b50,GitHub,387016a6,data/387016a6/test/src/resource/rest/b2db3b50.yml,133,133,F,60,73,,elastic,Key
+11526887,b2db3b50,GitHub,387016a6,data/387016a6/test/src/resource/rest/b2db3b50.yml,135,135,F,60,73,,elastic,Key
+11526888,b2db3b50,GitHub,387016a6,data/387016a6/test/src/resource/rest/b2db3b50.yml,137,137,F,60,74,,elastic,Key
 11526889,b3dad140,GitHub,387016a6,data/387016a6/test/src/resource/rest/b3dad140.yml,28,28,F,28,43,,,Password
 11526890,b3dad140,GitHub,387016a6,data/387016a6/test/src/resource/rest/b3dad140.yml,33,33,F,26,30,,,Key
 11526891,b3dad140,GitHub,387016a6,data/387016a6/test/src/resource/rest/b3dad140.yml,34,34,F,26,30,,,Key
