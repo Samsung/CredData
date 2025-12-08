@@ -59,7 +59,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 1509592,38be0f74,GitHub,8f4427e8,data/8f4427e8/test/internal/38be0f74.go,3806,3806,T,32,54,,,Secret
 1509593,38be0f74,GitHub,8f4427e8,data/8f4427e8/test/internal/38be0f74.go,3940,3940,T,32,54,,,Secret
 1509594,39d9fbf7,GitHub,8f4427e8,data/8f4427e8/test/internal/39d9fbf7.go,1427,1427,T,21,39,,,Password
-1509595,3ae6d05e,GitHub,8f4427e8,data/8f4427e8/test/internal/3ae6d05e.go,17,17,T,28,39,,,Key
+1509595,3ae6d05e,GitHub,8f4427e8,data/8f4427e8/test/internal/3ae6d05e.go,17,17,F,28,39,,,Key
 1509596,409ef336,GitHub,8f4427e8,data/8f4427e8/test/internal/409ef336.tf,16,16,T,25,69,,,Key
 1509597,409ef336,GitHub,8f4427e8,data/8f4427e8/test/internal/409ef336.tf,31,31,T,25,69,,,Key
 1509598,427ab3e2,GitHub,8f4427e8,data/8f4427e8/test/internal/cluster/427ab3e2.go,1099,1099,T,41,58,,,Password
@@ -293,10 +293,10 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 11529129,38be0f74,GitHub,8f4427e8,data/8f4427e8/test/internal/38be0f74.go,3764,3764,F,22,27,,,Key
 11529130,38be0f74,GitHub,8f4427e8,data/8f4427e8/test/internal/38be0f74.go,3832,3832,F,22,27,,,Key
 11529131,38be0f74,GitHub,8f4427e8,data/8f4427e8/test/internal/38be0f74.go,3967,3967,F,22,27,,,Key
-11529132,39d9fbf7,GitHub,8f4427e8,data/8f4427e8/test/internal/39d9fbf7.go,1436,1436,F,14,33,,,Password
-11529133,39d9fbf7,GitHub,8f4427e8,data/8f4427e8/test/internal/39d9fbf7.go,1461,1461,F,25,44,,,Password
-11529134,4b0b38cd,GitHub,8f4427e8,data/8f4427e8/test/internal/4b0b38cd.go,60,60,F,10,16,,,Password
-11529135,4b0b38cd,GitHub,8f4427e8,data/8f4427e8/test/internal/4b0b38cd.go,62,62,F,10,16,,,Password
+11529132,39d9fbf7,GitHub,8f4427e8,data/8f4427e8/test/internal/39d9fbf7.go,1436,1436,T,14,33,,,Password
+11529133,39d9fbf7,GitHub,8f4427e8,data/8f4427e8/test/internal/39d9fbf7.go,1461,1461,T,25,44,,,Password
+11529134,4b0b38cd,GitHub,8f4427e8,data/8f4427e8/test/internal/4b0b38cd.go,60,60,T,10,16,,,Password
+11529135,4b0b38cd,GitHub,8f4427e8,data/8f4427e8/test/internal/4b0b38cd.go,62,62,T,10,16,,,Password
 11529136,4b0b38cd,GitHub,8f4427e8,data/8f4427e8/test/internal/4b0b38cd.go,134,134,F,66,82,,,Key
 11529137,4b0b38cd,GitHub,8f4427e8,data/8f4427e8/test/internal/4b0b38cd.go,140,140,F,70,86,,,Key
 11529138,4b0b38cd,GitHub,8f4427e8,data/8f4427e8/test/internal/4b0b38cd.go,171,171,F,71,85,,,Key
@@ -311,7 +311,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 11529147,99cfe84d,GitHub,8f4427e8,data/8f4427e8/test/internal/99cfe84d.go,351,351,F,23,47,,,Key
 11529148,99cfe84d,GitHub,8f4427e8,data/8f4427e8/test/internal/99cfe84d.go,367,367,F,23,35,,,Key
 11529149,a13e9342,GitHub,8f4427e8,data/8f4427e8/test/internal/a13e9342.go,2357,2357,F,19,25,,,Password
-11529150,a13e9342,GitHub,8f4427e8,data/8f4427e8/test/internal/a13e9342.go,2381,2381,F,33,45,,,Password
+11529150,a13e9342,GitHub,8f4427e8,data/8f4427e8/test/internal/a13e9342.go,2381,2381,T,33,45,,,Password
 11529151,a13e9342,GitHub,8f4427e8,data/8f4427e8/test/internal/a13e9342.go,2406,2406,F,33,39,,,Password
 11529152,a13e9342,GitHub,8f4427e8,data/8f4427e8/test/internal/a13e9342.go,2447,2447,F,33,52,,,Password
 11529153,a13e9342,GitHub,8f4427e8,data/8f4427e8/test/internal/a13e9342.go,2470,2470,F,33,39,,,Password

@@ -6,6 +6,7 @@ import re
 import string
 import sys
 from argparse import Namespace, ArgumentParser
+from multiprocessing.managers import Value
 from typing import List
 
 from meta_row import read_meta, MetaRow
@@ -19,6 +20,8 @@ CHARS4RAND = (string.ascii_lowercase + string.ascii_uppercase).encode("ascii")
 DIGITS = string.digits.encode("ascii")
 # 0 on first position may break json e.g. "id":123, -> "qa":038, which is incorrect json
 DIGITS4RAND = DIGITS[1:]
+
+VALUE_SUBSTRINGS = [":ED25519:", ":X25519:", ":ED448:", ":X448:"]
 
 NKEY_SEED_PATTERN = re.compile(r"S[ACNOPUX][A-Z2-7]{40,200}")
 GOOGLEAPI_PATTERN = re.compile(r"1//0[0-9A-Za-z_-]{80,400}")
@@ -159,8 +162,6 @@ def get_obfuscated_value(value, meta_row: MetaRow):
         obfuscated_value = value[:10] + generate_value(value[10:])
     elif any(value.startswith(x) for x in ["sk-ant-api03-"]):
         obfuscated_value = value[:13] + generate_value(value[13:])
-    elif any(value.startswith(x) for x in ["ED25519-1-Raw:ED25519:"]):
-        obfuscated_value = value[:22] + generate_value(value[22:])
     elif value.startswith("eyJ"):
         # Check if it's a proper "JSON Web Token" with header and payload
         if "." in value:
@@ -199,8 +200,19 @@ def get_obfuscated_value(value, meta_row: MetaRow):
     elif ".firebaseapp.com" in value:
         pos = value.index(".firebaseapp.com")
         obfuscated_value = generate_value(value[:pos]) + ".firebaseapp.com" + generate_value(value[pos + 16:])
+    elif any(x in value for x in VALUE_SUBSTRINGS):
+        for x in VALUE_SUBSTRINGS:
+            pos = value.find(x)
+            if 0 <= pos:
+                obfuscated_value = generate_value(value[:pos]) + x + generate_value(value[pos + len(x):])
+                break
+        else:
+            # impossible, but linter fix
+            obfuscated_value = generate_value(value)
     else:
+        # the whole value is obfuscated
         obfuscated_value = generate_value(value)
+    # just warning if valu was not obfuscated (symbols, escaping, etc.)
     if value == obfuscated_value:
         logger.warning(f"The same value: {value}, {str(meta_row)}")
     return obfuscated_value
