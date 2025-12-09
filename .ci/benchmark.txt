@@ -1,6 +1,6 @@
-META MD5 a6ddff2301af0f7a13dfdb9b54255e7b
-DATA MD5 70a63d074adba23b932805e68645238f
-DATA: 16995334 interested lines. MARKUP: 63711 items
+META MD5 d2b74f6960bf747857a4d3715677a7c9
+DATA MD5 aa32ba6c7d10843c7b5546f6dfa66f45
+DATA: 16995334 interested lines. MARKUP: 63704 items
 FileType           FileNumber    ValidLines    Positives    Negatives
 ---------------  ------------  ------------  -----------  -----------
                           684        567150          137          694
@@ -75,7 +75,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .hbs                        1            51                         1
 .hpp                        1           237                         3
 .hs                        14          4140           30           58
-.html                     121         33979          188          146
+.html                     121         33979          189          145
 .idl                        3          1625           37            7
 .iml                        6           699                        30
 .in                         7          2242           10           54
@@ -88,7 +88,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .jenkinsfile                1            58            2            6
 .jinja2                     1            64                         2
 .js                       640        530803          859         3134
-.json                     884      13053260         1835        10344
+.json                     884      13053260         1835        10338
 .jsp                       13          3202            1           47
 .jsx                        7           857                        15
 .jwt                        1             1            2
@@ -116,7 +116,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .markdown                  38          5862           69           41
 .markerb                    3            12                         3
 .marko                      1            21                         2
-.md                       768        181113         1041         2459
+.md                       768        181113         1043         2457
 .mdx                        3           549                         8
 .mjml                       1            18                         1
 .mjs                       19          4119           91          113
@@ -128,7 +128,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .mqh                        1          1023                         1
 .msg                        1         26644            1
 .mysql                      1            36                         2
-.ndjson                     2          5006           80          338
+.ndjson                     2          5006           80          337
 .nix                        1           114                         4
 .nolint                     1             2                         1
 .odd                        1          1281                        44
@@ -157,7 +157,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .pug                        2           193                         2
 .purs                       1            69                         4
 .pxd                        1           150            2            4
-.py                       876        292413          740         3891
+.py                       876        292413          749         3882
 .pyi                        4          1361                        10
 .pyp                        1           167                         1
 .python                     1           213
@@ -179,13 +179,13 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .rsa                        3             3                         3
 .rsc                        1           691                         1
 .rsp                       18          7739           24           37
-.rst                       91         34736           83          350
+.rst                       91         34736           87          346
 .rules                      1             6                         3
 .sample                     2            25            3            8
 .sbt                        3           570                         7
 .scala                     52          5600           38           95
 .secrets                    1            11                         1
-.sh                       143         23115           73          480
+.sh                       143         23115           74          479
 .slim                       1           153                         3
 .smali                      1           775                        12
 .snap                       3          1708            7           11
@@ -225,14 +225,14 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .yml                      560         56585         1896         1387
 .zsh                        6           872                        11
 .zsh-theme                  1            97                         1
-TOTAL:                  11361      16995334        17155        53613
+TOTAL:                  11361      16995334        17172        53589
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
 API                                     243         4001                 0     0   4001    243  0.000000  1.000000  0.942743         0.000000
 AWS Client ID                           205           19                 0     0     19    205  0.000000  1.000000  0.084821         0.000000
 AWS Multi                                82           11                 0     0     11     82  0.000000  1.000000  0.118280         0.000000
-AWS S3 Bucket                            67           23                 0     0     23     67  0.000000  1.000000  0.255556         0.000000
+AWS S3 Bucket                            84            0                 0     0      0     84            1.000000  0.000000         0.000000
 Akamai Credentials                        6            2                 0     0      2      6  0.000000  1.000000  0.250000         0.000000
 Anthropic API Key                         1            0                 0     0      0      1            1.000000  0.000000         0.000000
 Auth                                   1171         3604                 0     0   3604   1171  0.000000  1.000000  0.754764         0.000000
@@ -250,7 +250,7 @@ Credential                               96          597                 0     0
 Docker Swarm Token                        2            0                 0     0      0      2            1.000000  0.000000         0.000000
 Dropbox App secret                       74          145                 0     0    145     74  0.000000  1.000000  0.662100         0.000000
 Facebook Access Token                     0            1                 0     0      1      0  0.000000            1.000000
-Firebase Domain                          38            1                 0     0      1     38  0.000000  1.000000  0.025641         0.000000
+Firebase Domain                          38            0                 0     0      0     38            1.000000  0.000000         0.000000
 Google API Key                           13            0                 0     0      0     13            1.000000  0.000000         0.000000
 Google Multi                             10            2                 0     0      2     10  0.000000  1.000000  0.166667         0.000000
 Google OAuth Access Token                 3            0                 0     0      0      3            1.000000  0.000000         0.000000
@@ -283,4 +283,4 @@ Token                                  1140         5268                 0     0
 Twilio Credentials                       30           39                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         225          401                 0     0    401    225  0.000000  1.000000  0.640575         0.000000
 UUID                                   2518         3715                 0     0   3715   2518  0.000000  1.000000  0.596021         0.000000
-                                      17155        53613           0     0     0  53613  17155  0.000000  1.000000  0.757588         0.000000
+                                      17172        53589           0     0     0  53589  17172  0.000000  1.000000  0.757324         0.000000
