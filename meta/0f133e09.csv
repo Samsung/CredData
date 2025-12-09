@@ -20,7 +20,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 5364,3f1b2dc0,GitHub,0f133e09,data/0f133e09/test/3f1b2dc0.txt,10,10,F,,,,,Key
 5527,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,9,9,T,394,414,,AWS Client ID,AWS Client ID
 105527,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,9,9,T,394,457,,AWS Client ID,Credential
-136762,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,9,9,T,292,321,,,AWS S3 Bucket
+136762,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,9,9,T,292,321,,info,AWS S3 Bucket
 6626,7814ce17,GitHub,0f133e09,data/0f133e09/test/7814ce17.txt,21,21,F,,,,,Auth
 6635,e925013a,GitHub,0f133e09,data/0f133e09/test/e925013a.txt,10,10,F,,,,,Key
 6636,51a7405e,GitHub,0f133e09,data/0f133e09/test/51a7405e.txt,10,10,F,,,,,Key
@@ -192,7 +192,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 20172,03cdc0c5,GitHub,0f133e09,data/0f133e09/test/03cdc0c5.py,95,95,T,123,143,,AWS Client ID,AWS Client ID
 1020172,03cdc0c5,GitHub,0f133e09,data/0f133e09/test/03cdc0c5.py,95,95,T,123,186,,AWS Client ID,Credential
 136761,03cdc0c5,GitHub,0f133e09,data/0f133e09/test/03cdc0c5.py,95,95,T,123,313,,,AWS Multi
-136760,03cdc0c5,GitHub,0f133e09,data/0f133e09/test/03cdc0c5.py,95,95,T,21,50,,,AWS S3 Bucket
+136760,03cdc0c5,GitHub,0f133e09,data/0f133e09/test/03cdc0c5.py,95,95,T,21,50,,info,AWS S3 Bucket
 20680,0ccc1045,GitHub,0f133e09,data/0f133e09/_/0ccc1045.py,1236,1236,F,,,,,Key
 23378,03c77d4f,GitHub,0f133e09,data/0f133e09/_/03c77d4f.py,241,241,F,,,,,Key
 29321,eca12c0a,GitHub,0f133e09,data/0f133e09/_/eca12c0a.md,89,89,X,12,23,,,Password
@@ -210,7 +210,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 30883,7400d4c5,GitHub,0f133e09,data/0f133e09/test/7400d4c5.txt,10,10,F,9,389,,,Key
 30951,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,10,10,T,110,130,,AWS Client ID,AWS Client ID
 1030951,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,10,10,T,110,173,,AWS Client ID,Credential
-136763,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,10,10,T,8,37,,,AWS S3 Bucket
+136763,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,10,10,T,8,37,,info,AWS S3 Bucket
 31365,b3356305,GitHub,0f133e09,data/0f133e09/_/b3356305.md,35,35,X,65,77,,,Token
 34714,cd589265,GitHub,0f133e09,data/0f133e09/test/cd589265.py,281,281,X,29,37,,,Password
 34731,cd589265,GitHub,0f133e09,data/0f133e09/test/cd589265.py,282,282,X,32,43,,,Auth:Token
@@ -448,11 +448,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 1351449,c7b13616,GitHub,0f133e09,data/0f133e09/test/app/c7b13616.txt,9,9,T,482,518,,,UUID
 1351450,dfd7c065,GitHub,0f133e09,data/0f133e09/test/dfd7c065.txt,10,10,T,975,1011,,,UUID
 1351451,f3c45c7c,GitHub,0f133e09,data/0f133e09/test/f3c45c7c.txt,21,21,T,1186,1222,,,UUID
-1351518,c7b13616,GitHub,0f133e09,data/0f133e09/test/app/c7b13616.txt,9,9,T,1099,1128,,,AWS S3 Bucket
-1351519,c7b13616,GitHub,0f133e09,data/0f133e09/test/app/c7b13616.txt,9,9,T,1129,1186,,,AWS S3 Bucket
-1351520,c7b13616,GitHub,0f133e09,data/0f133e09/test/app/c7b13616.txt,9,9,T,1187,1249,,,AWS S3 Bucket
-1351521,c7b13616,GitHub,0f133e09,data/0f133e09/test/app/c7b13616.txt,9,9,T,1250,1302,,,AWS S3 Bucket
-1351522,c7b13616,GitHub,0f133e09,data/0f133e09/test/app/c7b13616.txt,9,9,T,1584,1613,,,AWS S3 Bucket
+1351518,c7b13616,GitHub,0f133e09,data/0f133e09/test/app/c7b13616.txt,9,9,T,1099,1128,,info,AWS S3 Bucket
+1351519,c7b13616,GitHub,0f133e09,data/0f133e09/test/app/c7b13616.txt,9,9,T,1129,1186,,info,AWS S3 Bucket
+1351520,c7b13616,GitHub,0f133e09,data/0f133e09/test/app/c7b13616.txt,9,9,T,1187,1249,,info,AWS S3 Bucket
+1351521,c7b13616,GitHub,0f133e09,data/0f133e09/test/app/c7b13616.txt,9,9,T,1250,1302,,info,AWS S3 Bucket
+1351522,c7b13616,GitHub,0f133e09,data/0f133e09/test/app/c7b13616.txt,9,9,T,1584,1613,,info,AWS S3 Bucket
 1479613,03c77d4f,GitHub,0f133e09,data/0f133e09/_/03c77d4f.py,314,314,F,49,54,,,Auth
 1480549,03cdc0c5,GitHub,0f133e09,data/0f133e09/test/03cdc0c5.py,95,95,T,397,433,,,UUID
 1480550,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,9,9,T,668,704,,,UUID
