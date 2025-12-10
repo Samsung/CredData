@@ -180,6 +180,8 @@ def review(meta_dir: str,
             if 0 < row.ValueEnd:
                 categories = row.Category.split(':')
                 min_length = 6
+                if any(x in categories for x in ["Key"]) and 1 == len(categories):
+                    min_length = 8
                 if any(x in categories for x in ["Auth", "Token", "Salt", "Nonce"]):
                     # Secrets are like passwords
                     min_length = 8
