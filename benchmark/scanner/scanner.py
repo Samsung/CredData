@@ -14,6 +14,7 @@ from colorama import Fore, Style
 from benchmark.common import GitService, LineStatus, Result, ScannerType
 from benchmark.scanner.file_type_stat import FileTypeStat
 from benchmark.scanner.true_false_counter import TrueFalseCounter
+from constants import LABEL_FALSE, LABEL_TRUE
 from meta_key import MetaKey
 from meta_row import _get_source_gen, MetaRow
 
@@ -79,7 +80,7 @@ class Scanner(ABC):
             rules = meta_row.Category.split(':')
             for rule in rules:
                 true_cnt, false_cnt = self.rules_markup_counters.get(rule, (0, 0))
-                if 'T' == meta_row.GroundTruth:
+                if LABEL_TRUE == meta_row.GroundTruth:
                     true_cnt += 1
                     self.total_true_cnt += 1
                     type_stat.true_markup += 1
@@ -285,7 +286,7 @@ class Scanner(ABC):
         approximate = f"{self.meta_next_id},{file_id}" \
                       f",GitHub,{repo_name},{data_path}" \
                       f",{line_start},{line_end}" \
-                      f",F,{value_start},{value_end}" \
+                      f",{LABEL_FALSE},{value_start},{value_end}" \
                       f",,,{rule}"
         lost_meta = MetaRow({
             "Id": self.meta_next_id,
@@ -319,7 +320,7 @@ class Scanner(ABC):
             # it means, all markups are the same file with line start-end
             if 0 > row.ValueStart and 0 > row.ValueEnd:
                 # the markup is for whole line - any value_start, value_end match
-                if 'T' == row.GroundTruth and row.LineStart == row.LineEnd:
+                if LABEL_TRUE == row.GroundTruth and row.LineStart == row.LineEnd:
                     # True markup has to be marked at least start value in single line
                     print(f"WARNING True markup for whole line: {row}", flush=True)
                 pass
@@ -355,7 +356,7 @@ class Scanner(ABC):
             code = (data_path, row.LineStart, row.LineEnd, row.ValueStart, row.ValueEnd, rule)
             if code in self.line_checker:
                 self.result_cnt -= 1
-                if 'T' == row.GroundTruth:
+                if LABEL_TRUE == row.GroundTruth:
                     print(f"WARNING: Already checked True! Duplicate? {code}", flush=True)
                 return LineStatus.CHECKED, repo_name, file_name
             else:
@@ -364,12 +365,12 @@ class Scanner(ABC):
             for meta_rule in row.Category.split(':'):
                 # increase the counter only for corresponded rule mentioned in markup
                 if meta_rule == rule:
-                    if 'T' == row.GroundTruth:
+                    if LABEL_TRUE == row.GroundTruth:
                         self._increase_result_dict_cnt(meta_rule, True)
                         self.true_cnt += 1
                         return LineStatus.FALSE, repo_name, file_id
                     else:
-                        # MetaRow class checks the correctness of row.GroundTruth = ['T', 'F']
+                        # MetaRow class checks the correctness of row.GroundTruth
                         self._increase_result_dict_cnt(meta_rule, False)
                         self.false_cnt += 1
                         return LineStatus.TRUE, repo_name, file_id
@@ -484,7 +485,7 @@ class Scanner(ABC):
         total_true_cnt = 0
         for rows in self.meta.values():
             for row in rows:
-                if row and 'T' == row.GroundTruth and rule in row.Category.split(':'):
+                if row and LABEL_TRUE == row.GroundTruth and rule in row.Category.split(':'):
                     total_true_cnt += 1
         return total_true_cnt
 
