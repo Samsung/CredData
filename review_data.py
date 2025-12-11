@@ -18,6 +18,7 @@ from typing import List, Optional, Tuple, Dict
 
 from colorama import Fore, Back, Style
 
+from constants import LABEL_OTHER, LABEL_FALSE, LABEL_TRUE
 from meta_cred import MetaCred
 from meta_row import read_meta, MetaRow
 
@@ -50,11 +51,11 @@ def read_data(path, line_start, line_end, value_start, value_end, ground_truth, 
     else:
         raise RuntimeError(f"Line start must be less than end. {path},{line_start},{line_end}")
 
-    if 'T' == ground_truth:
+    if LABEL_TRUE == ground_truth:
         fore_style = Fore.GREEN
-    elif 'F' == ground_truth:
+    elif LABEL_FALSE == ground_truth:
         fore_style = Fore.RED
-    elif 'X' == ground_truth:
+    elif LABEL_OTHER == ground_truth:
         fore_style = Fore.MAGENTA
     else:
         raise RuntimeError(f"Unknown type {ground_truth}")
@@ -173,7 +174,7 @@ def review(meta_dir: str,
             except Exception as exc:
                 print(f"Failure {row}", exc, flush=True)
                 errors += 1
-        if 'T' == row.GroundTruth and row.LineStart == row.LineEnd:
+        if LABEL_TRUE == row.GroundTruth and row.LineStart == row.LineEnd:
             if 0 > row.ValueStart:
                 print(f"Missed ValueStart for TRUE markup!\n{row}", flush=True)
                 errors += 1

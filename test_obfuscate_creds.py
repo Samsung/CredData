@@ -2,7 +2,9 @@ import binascii
 import random
 import unittest
 
-from obfuscate_creds import gen_random_value, obfuscate_jwt, obfuscate_glsa
+from constants import PRIVATE_KEY_CATEGORY, LABEL_TRUE
+from meta_row import MetaRow
+from obfuscate_creds import gen_random_value, obfuscate_jwt, obfuscate_glsa, process_pem_key
 
 
 class ObfuscatorTest(unittest.TestCase):
@@ -159,3 +161,40 @@ class ObfuscatorTest(unittest.TestCase):
         self.assertEqual(len(value), len(obfuscated))
         # tested value
         self.assertEqual("glsa_DaldL9OnCudSrj7jWui7wxVj9b4ltV2p_c97ad013", obfuscated)
+
+    def test_obfuscate_pem(self):
+        random.seed(20251211)
+        original_lines = [
+            "BOM",
+            "/* some comment */ -----BEGIN RSA PRIVATE KEY----- any dummy info",
+            "MIIEpQIBAAKCAQEA5mPfjyiQnuiLJPn63vr4sznghBRxzX/FirstLineFixed+J4",
+            "MIIEpQIBAAKCAQEA5mPfjyiQnuiLJPn63vr4sznghBRxzX/SeconLineUpdat+J4",
+            "MIIEpQIBAAKCAQEA5mPfjyiQnuiLJPn63vr4sznghBRxzX/ThirdLineUpdat+J4",
+            "unhanged====",
+            "-----END RSA PRIVATE KEY-----",
+            "EOF",
+        ]
+        obfuscated_lines = [
+            "BOM",
+            "/* some comment */ -----BEGIN RSA PRIVATE KEY----- any dummy info",
+            "MIIEpQIBAAKCAQEA5mPfjyiQnuiLJPn63vr4sznghBRxzX/FirstLineFixed+J4",
+            'hVBzwYLllXwvsCqC1vIWiVSUrVpchQV32XB7LPfyjpSLlG/SRIMrpCDoiMWFl+A5',
+            'ktePWZqcrQEoRLDs1dSJXpLKJSQmroj63oC4xTJPSITaEd/IoPwOBdRoaTEtW+x3',
+            "unhanged====",
+            "-----END RSA PRIVATE KEY-----",
+            "EOF"]
+        row = MetaRow({"Id": 1,
+                       "FileID": "01234567",
+                       "Domain": "str",
+                       "RepoName": "98765432",
+                       "FilePath": "str",
+                       "LineStart": 2,
+                       "LineEnd": len(original_lines) + 1,
+                       "GroundTruth": LABEL_TRUE,
+                       "ValueStart": 19,
+                       "ValueEnd": 29,
+                       "CryptographyKey": "",
+                       "PredefinedPattern": "",
+                       "Category": PRIVATE_KEY_CATEGORY})
+        process_pem_key(row, original_lines, 0)
+        self.assertListEqual(obfuscated_lines, original_lines)

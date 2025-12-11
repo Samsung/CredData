@@ -4,6 +4,8 @@ import os
 from pathlib import Path
 from typing import Union, List, Generator
 
+from constants import ALLOWED_LABELS, LABEL_TRUE, PRIVATE_KEY_CATEGORY
+
 
 # dataclass is required for csv writer
 @dataclasses.dataclass
@@ -26,7 +28,7 @@ class MetaRow:
 
     def __init__(self, row: dict):
         if not isinstance(row, dict) or self.__annotations__.keys() != row.keys():
-            raise RuntimeError(f"ERROR: wrong row {row}")
+            raise ValueError(f"ERROR: wrong row {row}")
         for key, typ in self.__annotations__.items():
             if key.startswith("__"):
                 continue
@@ -45,27 +47,26 @@ class MetaRow:
                 elif typ is str and isinstance(row_val, str):
                     val = row_val
                 else:
-                    raise RuntimeError(f"ERROR: Unsupported {typ}")
+                    raise ValueError(f"ERROR: Unsupported {typ}")
                 self.__setattr__(key, val)
         if not hasattr(self, "Category") or not self.Category:
-            raise RuntimeError(f"ERROR: Category must be set {row}")
+            raise ValueError(f"ERROR: Category must be set {row}")
         if ':' in self.Category:
             rules = self.Category.split(':')
             rule_set=set(rules)
             if len(rules) != len(rule_set):
-                raise RuntimeError(f"ERROR: Each rule must be once in Category {row}")
+                raise ValueError(f"ERROR: Each rule must be once in Category {row}")
             if "Other" in rule_set:
-                raise RuntimeError(f"ERROR: 'Other' Category must be single rule in markup {row}")
-        allowed_labels = ['T', 'F', 'X']
-        if self.GroundTruth not in allowed_labels:
-            raise RuntimeError(f"ERROR: GroundTruth must be in {allowed_labels} {row}")
+                raise ValueError(f"ERROR: 'Other' Category must be single rule in markup {row}")
+        if self.GroundTruth not in ALLOWED_LABELS:
+            raise ValueError(f"ERROR: GroundTruth must be in {ALLOWED_LABELS} {row}")
         if 0 > self.LineStart or 0 > self.LineEnd:
-            raise RuntimeError(f"ERROR: LineStart and LineEnd must be positive {row}")
+            raise ValueError(f"ERROR: LineStart and LineEnd must be positive {row}")
         elif self.LineStart > self.LineEnd:
-            raise RuntimeError(f"ERROR: LineStart must be lower than LineEnd {row}")
+            raise ValueError(f"ERROR: LineStart must be lower than LineEnd {row}")
         elif self.LineStart == self.LineEnd and 0 <= self.ValueStart and 0 <= self.ValueEnd < self.ValueStart:
             # multiline value positions are independent
-            raise RuntimeError(f"ERROR: ValueStart must be lower than ValueEnd for single line {row}")
+            raise ValueError(f"ERROR: ValueStart must be lower than ValueEnd for single line {row}")
 
     def __str__(self) -> str:
         dict_values = self.__dict__.values()
@@ -85,7 +86,7 @@ def _meta_from_file(meta_path: Path) -> Generator[dict, None, None]:
         reader = csv.DictReader(f)
         for row in reader:
             if not isinstance(row, dict):
-                raise RuntimeError(f"ERROR: wrong row '{row}' in {meta_path}")
+                raise ValueError(f"ERROR: wrong row '{row}' in {meta_path}")
             yield row
 
 
@@ -100,17 +101,17 @@ def _meta_from_dir(meta_path: Path) -> Generator[dict, None, None]:
 
 def _get_source_gen(meta_path: Union[Path]) -> Generator[dict, None, None]:
     if not isinstance(meta_path, Path):
-        raise RuntimeError(f"ERROR: unsupported source {meta_path} type {type(meta_path)}")
+        raise ValueError(f"ERROR: unsupported source {meta_path} type {type(meta_path)}")
 
     if not meta_path.exists():
-        raise RuntimeError(f"ERROR: {meta_path} does not exist")
+        raise ValueError(f"ERROR: {meta_path} does not exist")
 
     if meta_path.is_dir():
         source_gen = _meta_from_dir
     elif meta_path.is_file():
         source_gen = _meta_from_file
     else:
-        raise RuntimeError(f"ERROR: unsupported {meta_path} file type")
+        raise ValueError(f"ERROR: unsupported {meta_path} file type")
     yield from source_gen(meta_path)
 
 
@@ -122,7 +123,7 @@ def read_meta(meta_dir: Union[str, Path]) -> List[MetaRow]:
     for row in _get_source_gen(Path(meta_dir)):
         meta_row = MetaRow(row)
         if meta_row.Id in meta_ids:
-            raise RuntimeError(f"ERROR: duplicate Id row {row}")
+            raise ValueError(f"ERROR: duplicate Id row {row}")
         meta_ids.add(meta_row.Id)
 
         meta.append(meta_row)

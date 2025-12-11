@@ -6,9 +6,9 @@ import re
 import string
 import sys
 from argparse import Namespace, ArgumentParser
-from multiprocessing.managers import Value
 from typing import List
 
+from constants import PRIVATE_KEY_CATEGORY, LABEL_TRUE
 from meta_row import read_meta, MetaRow
 
 logging.basicConfig(
@@ -409,32 +409,6 @@ def gen_random_value(value):
     return obfuscated_value
 
 
-def replace_rows(data: List[MetaRow], lines: List[str], noise: int):
-    # Change data in already copied files
-    for row in data:
-        # PEM keys and other multiple-line credentials is processed in other function
-        if "" != row.CryptographyKey or row.LineEnd != row.LineStart:
-            continue
-
-        if 'T' != row.GroundTruth:
-            # false cases do not require an obfuscation
-            continue
-
-        if not (0 <= row.ValueStart and 0 <= row.ValueEnd):
-            continue
-
-        if row.Category in ["AWS Multi", "Google Multi"]:
-            # skip obfuscation for the categories which are multi pattern
-            continue
-
-        old_line = lines[row.LineStart - 1]
-        value = old_line[row.ValueStart:row.ValueEnd]
-        # CredSweeper may scan huge lines since v1.6
-        random.seed((row.ValueStart | (row.LineStart << 16)) ^ int(row.FileID, 16) ^ noise)
-        obfuscated_value = get_obfuscated_value(value, row)
-        new_line = old_line[:row.ValueStart] + obfuscated_value + old_line[row.ValueEnd:]
-
-        lines[row.LineStart - 1] = new_line
 
 
 def split_in_bounds(i: int, lines_len: int, old_line: str):
@@ -524,56 +498,21 @@ def create_new_key(lines: List[str]):
     return new_lines
 
 
-def create_new_multiline(lines: List[str], starting_position: int):
-    # Create new lines with similar formatting as old one
-    new_lines = []
-
-    first_line = lines[0]
-
-    new_lines.append(first_line[:starting_position] + obfuscate_segment(first_line[starting_position:]))
-
-    # Do not replace ssh-rsa substring if present
-    if "ssh-rsa" in first_line:
-        s = first_line.find("ssh-rsa")
-        new_lines[0] = new_lines[0][:s] + "ssh-rsa" + new_lines[0][s + 7:]
-
-    for i, old_l in enumerate(lines[1:]):
-        new_line = obfuscate_segment(old_l)
-        new_lines.append(new_line)
-
-    return new_lines
-
-
 def process_pem_key(row: MetaRow, lines: List[str], noise: int):
     # Change data in already copied files (only keys)
-    try:
-        # Skip credentials that are not PEM or multiline
-        if row.CryptographyKey == "" and row.LineStart == row.LineEnd:
-            return
-
-        if row.Category in ["AWS Multi", "Google Multi"]:
-            # skip double obfuscation for the categories
-            return
-
-        random.seed(row.LineStart ^ int(row.FileID, 16) ^ noise)
-
-        if '' != row.CryptographyKey:
-            new_lines = create_new_key(lines[row.LineStart - 1:row.LineEnd])
-        else:
-            new_lines = create_new_multiline(lines[row.LineStart - 1:row.LineEnd], row.ValueStart)
-
-        lines[row.LineStart - 1:row.LineEnd] = new_lines
-
-    except Exception as exc:
-        logger.error(f"FAILURE: {row}")
-        logger.critical(exc)
-        raise
+    random.seed(row.LineStart ^ int(row.FileID, 16) ^ noise)
+    new_lines = create_new_key(lines[row.LineStart - 1:row.LineEnd])
+    lines[row.LineStart - 1:row.LineEnd] = new_lines
 
 
-def process_pem_keys(data: List[MetaRow], lines: List[str], noise: int):
-    for row in data:
-        if 'T' == row.GroundTruth and "Private Key" == row.Category:
-            process_pem_key(row, lines, noise)
+def process_single_value(row: MetaRow, lines: List[str], noise: int):
+    random.seed((row.ValueStart | (row.LineStart << 16)) ^ int(row.FileID, 16) ^ noise)
+    old_line = lines[row.LineStart - 1]
+    value = old_line[row.ValueStart:row.ValueEnd]
+    # CredSweeper may scan huge lines since v1.6
+    obfuscated_value = get_obfuscated_value(value, row)
+    new_line = old_line[:row.ValueStart] + obfuscated_value + old_line[row.ValueEnd:]
+    lines[row.LineStart - 1] = new_line
 
 
 def obfuscate_creds(meta_dir: str, dataset_dir: str, noise: int = 0):
@@ -594,9 +533,19 @@ def obfuscate_creds(meta_dir: str, dataset_dir: str, noise: int = 0):
             logger.critical(exc)
             raise
         meta_rows.sort(key=lambda x: (x.LineStart, x.LineEnd, x.ValueStart, x.ValueEnd))
-        replace_rows(meta_rows, lines, noise)
-        process_pem_keys(meta_rows, lines, noise)
-
+        for row in meta_rows:
+            if LABEL_TRUE != row.GroundTruth:
+                # obfuscation is only for True cases
+                continue
+            elif row.Category in ["AWS Multi", "Google Multi"]:
+                # skip obfuscation for the categories which are multi pattern
+                continue
+            elif PRIVATE_KEY_CATEGORY == row.Category and row.LineStart < row.LineEnd:
+                # multiline PEM keys obfuscation
+                process_pem_key(row, lines, noise)
+            elif row.LineStart == row.LineEnd and 0 <= row.ValueStart < row.ValueEnd:
+                # single value obfuscation
+                process_single_value(row, lines, noise)
         with open(dataset_file, "w", encoding="utf8") as f:
             f.write('\n'.join(lines))
 
