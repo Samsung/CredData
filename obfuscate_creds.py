@@ -8,7 +8,7 @@ import sys
 from argparse import Namespace, ArgumentParser
 from typing import List
 
-from constants import PRIVATE_KEY_CATEGORY, LABEL_TRUE
+from constants import PRIVATE_KEY_CATEGORY, LABEL_TRUE, MULTI_PATTERN_RULES
 from meta_row import read_meta, MetaRow
 
 logging.basicConfig(
@@ -537,7 +537,7 @@ def obfuscate_creds(meta_dir: str, dataset_dir: str, noise: int = 0):
             if LABEL_TRUE != row.GroundTruth:
                 # obfuscation is only for True cases
                 continue
-            elif row.Category in ["AWS Multi", "Google Multi"]:
+            elif row.Category in MULTI_PATTERN_RULES:
                 # skip obfuscation for the categories which are multi pattern
                 continue
             elif PRIVATE_KEY_CATEGORY == row.Category and row.LineStart < row.LineEnd:
