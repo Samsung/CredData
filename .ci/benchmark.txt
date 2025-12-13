@@ -1,6 +1,6 @@
-META MD5 f109024fe081775340b7129cfe237ba4
+META MD5 20d826f9da1a7abab26e6cb605d24200
 DATA MD5 608e4361530d18b37b38832a965f3626
-DATA: 16995334 interested lines. MARKUP: 63711 items
+DATA: 16995334 interested lines. MARKUP: 63708 items
 FileType           FileNumber    ValidLines    Positives    Negatives
 ---------------  ------------  ------------  -----------  -----------
                           684        567150          136          695
@@ -84,11 +84,11 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .ipynb                      6          4804           10           10
 .j                          1           241            4
 .j2                        32          6043            7          209
-.java                     650        141112          478         1457
+.java                     650        141112          478         1454
 .jenkinsfile                1            58            2            6
 .jinja2                     1            64                         2
 .js                       640        530803          859         3134
-.json                     884      13053260         1843        10338
+.json                     884      13053260         1784        10345
 .jsp                       13          3202            1           47
 .jsx                        7           857                        15
 .jwt                        1             1            2
@@ -116,7 +116,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .markdown                  38          5862           69           41
 .markerb                    3            12                         3
 .marko                      1            21                         2
-.md                       768        181113         1041         2459
+.md                       768        181113         1041         2457
 .mdx                        3           549                         8
 .mjml                       1            18                         1
 .mjs                       19          4119           91          113
@@ -157,14 +157,14 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .pug                        2           193                         2
 .purs                       1            69                         4
 .pxd                        1           150            2            4
-.py                       876        292413          748         3879
+.py                       876        292413          747         3879
 .pyi                        4          1361                        10
 .pyp                        1           167                         1
 .python                     1           213
 .pyx                        2          1094                        24
 .r                          4            62            5            2
 .rake                       2            51                         4
-.rb                       834        127133          383         3069
+.rb                       834        127133          380         3068
 .re                         1            31                         1
 .red                        1           159                         1
 .release                    1            13                         4
@@ -179,7 +179,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .rsa                        3             3                         3
 .rsc                        1           691                         1
 .rsp                       18          7739           24           37
-.rst                       91         34736           87          346
+.rst                       91         34736           87          345
 .rules                      1             6                         3
 .sample                     2            25            3            8
 .sbt                        3           570                         7
@@ -225,13 +225,13 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .yml                      560         56585         1897         1386
 .zsh                        6           872                        11
 .zsh-theme                  1            97                         1
-TOTAL:                  11361      16995334        17153        53612
+TOTAL:                  11361      16995334        17090        53612
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
 API                                     242         4002                 0     0   4002    242  0.000000  1.000000  0.942978         0.000000
 AWS Client ID                           205           19                 0     0     19    205  0.000000  1.000000  0.084821         0.000000
-AWS Multi                                82           11                 0     0     11     82  0.000000  1.000000  0.118280         0.000000
+AWS Multi                                19           11                 0     0     11     19  0.000000  1.000000  0.366667         0.000000
 AWS S3 Bucket                            92            0                 0     0      0     92            1.000000  0.000000         0.000000
 Akamai Credentials                        6            2                 0     0      2      6  0.000000  1.000000  0.250000         0.000000
 Anthropic API Key                         1            0                 0     0      0      1            1.000000  0.000000         0.000000
@@ -283,4 +283,4 @@ Token                                  1140         5268                 0     0
 Twilio Credentials                       30           39                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         225          401                 0     0    401    225  0.000000  1.000000  0.640575         0.000000
 UUID                                   2517         3716                 0     0   3716   2517  0.000000  1.000000  0.596182         0.000000
-                                      17153        53612           0     0     0  53612  17153  0.000000  1.000000  0.757606         0.000000
+                                      17090        53612           0     0     0  53612  17090  0.000000  1.000000  0.758281         0.000000
