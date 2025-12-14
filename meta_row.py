@@ -4,7 +4,7 @@ import os
 from pathlib import Path
 from typing import Union, List, Generator
 
-from constants import ALLOWED_LABELS, LABEL_TRUE, PRIVATE_KEY_CATEGORY
+from constants import ALLOWED_LABELS, LABEL_TRUE, PRIVATE_KEY_CATEGORY, OTHER_CATEGORY
 
 
 # dataclass is required for csv writer
@@ -56,7 +56,7 @@ class MetaRow:
             rule_set=set(rules)
             if len(rules) != len(rule_set):
                 raise ValueError(f"ERROR: Each rule must be once in Category {row}")
-            if "Other" in rule_set:
+            if OTHER_CATEGORY in rule_set:
                 raise ValueError(f"ERROR: 'Other' Category must be single rule in markup {row}")
         if self.GroundTruth not in ALLOWED_LABELS:
             raise ValueError(f"ERROR: GroundTruth must be in {ALLOWED_LABELS} {row}")
