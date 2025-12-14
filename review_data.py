@@ -18,7 +18,7 @@ from typing import List, Optional, Tuple, Dict
 
 from colorama import Fore, Back, Style
 
-from constants import LABEL_OTHER, LABEL_FALSE, LABEL_TRUE, MULTI_PATTERN_RULES, OTHER_CATEGORY
+from constants import LABEL_OTHER, LABEL_FALSE, LABEL_TRUE, OTHER_CATEGORY, MULTI_LINE_RULES
 from meta_cred import MetaCred
 from meta_row import read_meta, MetaRow
 
@@ -201,7 +201,7 @@ def review(meta_dir: str,
                 print(f"Too long for Password TRUE markup!\n{row}", flush=True)
                 errors += 1
 
-        if row.LineStart != row.LineEnd and not any(x in row.Category.split(':') for x in MULTI_PATTERN_RULES):
+        if row.LineStart != row.LineEnd and not any(x in row.Category.split(':') for x in MULTI_LINE_RULES):
             print(f"Check multiline markup - may be not suitable for the category!\n{row}", flush=True)
             errors += 1
 
