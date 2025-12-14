@@ -18,8 +18,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 5357,08232d99,GitHub,0f133e09,data/0f133e09/test/08232d99.txt,10,10,F,,,,,Auth
 5363,6ca54b76,GitHub,0f133e09,data/0f133e09/test/6ca54b76.txt,10,10,F,,,,,Auth
 5364,3f1b2dc0,GitHub,0f133e09,data/0f133e09/test/3f1b2dc0.txt,10,10,F,,,,,Key
-5527,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,9,9,T,394,414,,AWS Client ID,AWS Client ID
-105527,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,9,9,T,394,457,,AWS Client ID,Credential
+5527,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,9,9,T,394,414,,aws-id,AWS Client ID
+105527,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,9,9,T,394,457,,aws-id,Credential
 136762,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,9,9,T,292,321,,info,AWS S3 Bucket
 6626,7814ce17,GitHub,0f133e09,data/0f133e09/test/7814ce17.txt,21,21,F,,,,,Auth
 6635,e925013a,GitHub,0f133e09,data/0f133e09/test/e925013a.txt,10,10,F,,,,,Key
@@ -189,8 +189,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 17680,0ccc1045,GitHub,0f133e09,data/0f133e09/_/0ccc1045.py,1464,1464,F,,,,,Password
 20168,d27bec8f,GitHub,0f133e09,data/0f133e09/test/d27bec8f.py,64,64,F,,,,,Auth
 20171,d27bec8f,GitHub,0f133e09,data/0f133e09/test/d27bec8f.py,54,54,F,,,,,Auth
-20172,03cdc0c5,GitHub,0f133e09,data/0f133e09/test/03cdc0c5.py,95,95,T,123,143,,AWS Client ID,AWS Client ID
-1020172,03cdc0c5,GitHub,0f133e09,data/0f133e09/test/03cdc0c5.py,95,95,T,123,186,,AWS Client ID,Credential
+20172,03cdc0c5,GitHub,0f133e09,data/0f133e09/test/03cdc0c5.py,95,95,T,123,143,,aws-id,AWS Client ID
+1020172,03cdc0c5,GitHub,0f133e09,data/0f133e09/test/03cdc0c5.py,95,95,T,123,186,,aws-id,Credential
 136761,03cdc0c5,GitHub,0f133e09,data/0f133e09/test/03cdc0c5.py,95,95,T,123,313,,,AWS Multi
 136760,03cdc0c5,GitHub,0f133e09,data/0f133e09/test/03cdc0c5.py,95,95,T,21,50,,info,AWS S3 Bucket
 20680,0ccc1045,GitHub,0f133e09,data/0f133e09/_/0ccc1045.py,1236,1236,F,,,,,Key
@@ -208,8 +208,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 30876,d4a67d01,GitHub,0f133e09,data/0f133e09/test/d4a67d01.txt,10,10,F,57,437,,,Key
 30877,d6019b5f,GitHub,0f133e09,data/0f133e09/test/d6019b5f.txt,10,10,F,74,454,,,Key
 30883,7400d4c5,GitHub,0f133e09,data/0f133e09/test/7400d4c5.txt,10,10,F,9,389,,,Key
-30951,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,10,10,T,110,130,,AWS Client ID,AWS Client ID
-1030951,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,10,10,T,110,173,,AWS Client ID,Credential
+30951,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,10,10,T,110,130,,aws-id,AWS Client ID
+1030951,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,10,10,T,110,173,,aws-id,Credential
 136763,c65fed08,GitHub,0f133e09,data/0f133e09/test/c65fed08.txt,10,10,T,8,37,,info,AWS S3 Bucket
 31365,b3356305,GitHub,0f133e09,data/0f133e09/_/b3356305.md,35,35,X,65,77,,,Token
 34714,cd589265,GitHub,0f133e09,data/0f133e09/test/cd589265.py,281,281,X,29,37,,,Password
