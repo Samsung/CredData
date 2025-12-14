@@ -242,7 +242,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 11519092,e8312de5,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/e8312de5.json,742,742,T,28,64,,,UUID
 11519096,275769ee,GitHub,6ac1fb2d,data/6ac1fb2d/test/275769ee.php,19,19,F,69,84,,,Auth
 11519097,275769ee,GitHub,6ac1fb2d,data/6ac1fb2d/test/275769ee.php,31,31,F,69,84,,,Auth
-11524186,d2557e09,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/d2557e09.json,69,69,F,32,73,,,Secret:Key
+11524186,d2557e09,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/d2557e09.json,69,69,T,32,73,,,Secret:Key
 11527940,261cfdda,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/261cfdda.json,884,884,F,32,76,,,Token
 11527941,41a32939,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/41a32939.json,54,54,F,22,41,,,Key
 11527942,41a32939,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/41a32939.json,931,931,F,22,41,,,Key
@@ -411,11 +411,11 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 11528105,bd83fc77,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/bd83fc77.json,1624,1624,F,33,92,,,Key
 11528106,bd83fc77,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/bd83fc77.json,2058,2058,F,32,61,,,Token
 11528107,bd83fc77,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/bd83fc77.json,3234,3234,F,32,61,,,Token
-11528108,d2557e09,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/d2557e09.json,38,38,F,32,73,,,Secret:Key
-11528109,d2557e09,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/d2557e09.json,106,106,F,32,73,,,Secret:Key
-11528110,d2557e09,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/d2557e09.json,155,155,F,406,417,,,Key
-11528111,d2557e09,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/d2557e09.json,234,234,F,32,73,,,Secret:Key
-11528112,d2557e09,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/d2557e09.json,263,263,F,32,73,,,Secret:Key
+11528108,d2557e09,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/d2557e09.json,38,38,T,32,73,,,Secret:Key
+11528109,d2557e09,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/d2557e09.json,106,106,T,32,73,,,Secret:Key
+11528110,d2557e09,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/d2557e09.json,155,155,T,406,417,,,Key
+11528111,d2557e09,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/d2557e09.json,234,234,T,32,73,,,Secret:Key
+11528112,d2557e09,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/d2557e09.json,263,263,T,32,73,,,Secret:Key
 11528113,e8312de5,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/e8312de5.json,11,11,F,32,51,,,Password
 11528114,e8312de5,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/e8312de5.json,153,153,F,39,72,,,Auth
 11528115,e8312de5,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/e8312de5.json,236,236,F,27,102,,,Key
@@ -580,3 +580,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 11533263,953191ef,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/953191ef.json,301,301,F,91,127,,,UUID
 11533264,953191ef,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/953191ef.json,309,309,F,74,110,,,UUID
 11533265,953191ef,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/953191ef.json,324,324,F,93,129,,,UUID
+11536639,d2557e09,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/d2557e09.json,36,38,T,28,73,,,AWS Multi
+11536640,d2557e09,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/d2557e09.json,100,106,T,30,73,,,AWS Multi
+11536641,d2557e09,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/d2557e09.json,104,106,T,28,73,,,AWS Multi
+11536642,d2557e09,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/d2557e09.json,232,234,T,28,73,,,AWS Multi
+11536643,d2557e09,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/d2557e09.json,261,263,T,28,73,,,AWS Multi
