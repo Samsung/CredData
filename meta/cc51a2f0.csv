@@ -40,7 +40,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 29303,3288b20b,GitHub,cc51a2f0,data/cc51a2f0/docs/3288b20b.md,86,86,X,20,32,,,Password
 30056,3ac92298,GitHub,cc51a2f0,data/cc51a2f0/example/docs/server/3ac92298.md,45,45,X,24,32,,,Auth:Password
 30195,3ac92298,GitHub,cc51a2f0,data/cc51a2f0/example/docs/server/3ac92298.md,38,38,X,13,21,,,Password
-31155,23a4ef27,GitHub,cc51a2f0,data/cc51a2f0/conf/docs/23a4ef27.md,15,15,T,21,41,,,AWS Client ID
+31155,23a4ef27,GitHub,cc51a2f0,data/cc51a2f0/conf/docs/23a4ef27.md,15,15,F,21,,,dummy,Password:AWS Client ID:AWS Multi
 31706,29a4c140,GitHub,cc51a2f0,data/cc51a2f0/test/29a4c140.bats,31,31,T,18,23,,,Password
 32260,ebf8806d,GitHub,cc51a2f0,data/cc51a2f0/_/ebf8806d.cf,3,3,T,27,32,,,Password
 32261,e6419eaf,GitHub,cc51a2f0,data/cc51a2f0/test/conf/e6419eaf.cf,4,4,T,19,24,,,Password
@@ -125,7 +125,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 1238228,05663f5e,GitHub,cc51a2f0,data/cc51a2f0/script/05663f5e.sh,161,161,F,,,,,Password
 1238229,141cf316,GitHub,cc51a2f0,data/cc51a2f0/script/141cf316.sh,378,378,F,,,,,Password
 1013310,92d2047e,GitHub,cc51a2f0,data/cc51a2f0/_/92d2047e,40,40,F,,,,,Password
-1479646,23a4ef27,GitHub,cc51a2f0,data/cc51a2f0/conf/docs/23a4ef27.md,8,15,F,283,41,,,AWS Multi
 11530644,b3356305,GitHub,cc51a2f0,data/cc51a2f0/_/b3356305.md,267,267,F,31,39,,,Auth
 11530645,1b2b030f,GitHub,cc51a2f0,data/cc51a2f0/conf/docs/1b2b030f.md,75,75,F,25,46,,,Password
 11530646,4fc68afe,GitHub,cc51a2f0,data/cc51a2f0/conf/security/docs/4fc68afe.md,486,486,F,19,23,,,Password

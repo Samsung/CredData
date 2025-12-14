@@ -1,6 +1,8 @@
-META MD5 79f7c389d3a6a9e6563bf51e2947114b
-DATA MD5 608e4361530d18b37b38832a965f3626
-DATA: 16995334 interested lines. MARKUP: 63711 items
+WARNING: skip /home/babenek/q/DataCred/main/meta/cc51a2f0.csv.orig file
+WARNING: skip /home/babenek/q/DataCred/main/meta/a0cd6261.csv.orig file
+META MD5 ac7a0871f0a51fb4ba8887aa6b3a0ac2
+DATA MD5 4dce532fb81338a99c2021beab4d681a
+DATA: 16995334 interested lines. MARKUP: 63710 items
 FileType           FileNumber    ValidLines    Positives    Negatives
 ---------------  ------------  ------------  -----------  -----------
                           684        567150          136          695
@@ -116,7 +118,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .markdown                  38          5862           69           41
 .markerb                    3            12                         3
 .marko                      1            21                         2
-.md                       768        181113         1041         2459
+.md                       768        181113         1040         2462
 .mdx                        3           549                         8
 .mjml                       1            18                         1
 .mjs                       19          4119           91          113
@@ -225,12 +227,12 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .yml                      560         56585         1897         1386
 .zsh                        6           872                        11
 .zsh-theme                  1            97                         1
-TOTAL:                  11361      16995334        17154        53613
+TOTAL:                  11361      16995334        17153        53616
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
 API                                     242         4002                 0     0   4002    242  0.000000  1.000000  0.942978         0.000000
-AWS Client ID                           205           19                 0     0     19    205  0.000000  1.000000  0.084821         0.000000
+AWS Client ID                           204           20                 0     0     20    204  0.000000  1.000000  0.089286         0.000000
 AWS Multi                                83           12                 0     0     12     83  0.000000  1.000000  0.126316         0.000000
 AWS S3 Bucket                            92            0                 0     0      0     92            1.000000  0.000000         0.000000
 Akamai Credentials                        6            2                 0     0      2      6  0.000000  1.000000  0.250000         0.000000
@@ -243,7 +245,7 @@ Basic Authorization                     688          555                 0     0
 Bearer Authorization                    182            0                 0     0      0    182            1.000000  0.000000         0.000000
 CMD ConvertTo-SecureString               13            4                 0     0      4     13  0.000000  1.000000  0.235294         0.000000
 CMD Password                             33          137                 0     0    137     33  0.000000  1.000000  0.805882         0.000000
-CMD Secret                                1           17                 0     0     17      1  0.000000  1.000000  0.944444         0.000000
+CMD Secret                                1           18                 0     0     18      1  0.000000  1.000000  0.947368         0.000000
 CMD Token                                 6            2                 0     0      2      6  0.000000  1.000000  0.250000         0.000000
 CURL User Password                        7            2                 0     0      2      7  0.000000  1.000000  0.222222         0.000000
 Credential                               96          597                 0     0    597     96  0.000000  1.000000  0.861472         0.000000
@@ -269,7 +271,7 @@ Nonce                                   131          109                 0     0
 OTP / 2FA Secret                         64            3                 0     0      3     64  0.000000  1.000000  0.044776         0.000000
 Other                                     0           20                 0     0     20      0  0.000000            1.000000
 PEM Private Key                        1154           72                 0     0     72   1154  0.000000  1.000000  0.058728         0.000000
-Password                               2595        11363                 0     0  11363   2595  0.000000  1.000000  0.814085         0.000000
+Password                               2595        11364                 0     0  11364   2595  0.000000  1.000000  0.814098         0.000000
 Perplexity API Key                        2            0                 0     0      0      2            1.000000  0.000000         0.000000
 Postman Credentials                       2            0                 0     0      0      2            1.000000  0.000000         0.000000
 SQL Password                             44           14                 0     0     14     44  0.000000  1.000000  0.241379         0.000000
@@ -283,4 +285,4 @@ Token                                  1140         5268                 0     0
 Twilio Credentials                       30           39                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         225          401                 0     0    401    225  0.000000  1.000000  0.640575         0.000000
 UUID                                   2517         3716                 0     0   3716   2517  0.000000  1.000000  0.596182         0.000000
-                                      17154        53613           0     0     0  53613  17154  0.000000  1.000000  0.757599         0.000000
+                                      17153        53616           0     0     0  53616  17153  0.000000  1.000000  0.757620         0.000000
