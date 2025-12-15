@@ -1,6 +1,6 @@
-META MD5 451606de98ea853a529123bfdf9f635f
-DATA MD5 2dbb92156bbd098f36c5463ef8706833
-DATA: 16995334 interested lines. MARKUP: 63723 items
+META MD5 da5a10bae7e696a1c03dc36884e703c6
+DATA MD5 caae534fa44b3edb2874dbe0c6288a3e
+DATA: 16995334 interested lines. MARKUP: 63736 items
 FileType           FileNumber    ValidLines    Positives    Negatives
 ---------------  ------------  ------------  -----------  -----------
                           684        567150          136          695
@@ -14,7 +14,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .backup                     1            62            2
 .bash                       2          2158                         5
 .bat                        5           248            2           16
-.bats                      15          2804           14           63
+.bats                      15          2804           14           64
 .bazel                      3           424                        14
 .build                      2            40            1            2
 .bundle                     4          1512                       471
@@ -88,7 +88,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .jenkinsfile                1            58            2            6
 .jinja2                     1            64                         2
 .js                       640        530803          859         3134
-.json                     884      13053260         1805        10381
+.json                     884      13053260         1806        10395
 .jsp                       13          3202            1           47
 .jsx                        7           857                        15
 .jwt                        1             1            2
@@ -113,7 +113,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .lua                       10          1924            3           39
 .m                         16         13358           22          195
 .manifest                   3           102            9            6
-.markdown                  38          5862           69           41
+.markdown                  38          5862           69           42
 .markerb                    3            12                         3
 .marko                      1            21                         2
 .md                       768        181113         1040         2462
@@ -139,7 +139,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .patch                      3        109384            4           25
 .pbxproj                    1           941                         1
 .pem                       65          1467           64            3
-.php                      394         81495          167         1484
+.php                      394         81495          167         1486
 .pl                        16         14727            7           37
 .pm                        10          5224            1           30
 .po                         3          2994                        11
@@ -225,13 +225,13 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .yml                      560         56585         1897         1386
 .zsh                        6           872                        11
 .zsh-theme                  1            97                         1
-TOTAL:                  11361      16995334        17123        53661
+TOTAL:                  11361      16995334        17124        53679
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
 API                                     242         4002                 0     0   4002    242  0.000000  1.000000  0.942978         0.000000
-AWS Client ID                           208           20                 0     0     20    208  0.000000  1.000000  0.087719         0.000000
-AWS Multi                                35           65                 0     0     65     35  0.000000  1.000000  0.650000         0.000000
+AWS Client ID                           211           35                 0     0     35    211  0.000000  1.000000  0.142276         0.000000
+AWS Multi                                34           66                 0     0     66     34  0.000000  1.000000  0.660000         0.000000
 AWS S3 Bucket                            92            0                 0     0      0     92            1.000000  0.000000         0.000000
 Akamai Credentials                        6            2                 0     0      2      6  0.000000  1.000000  0.250000         0.000000
 Anthropic API Key                         1            0                 0     0      0      1            1.000000  0.000000         0.000000
@@ -261,7 +261,7 @@ Grafana Service Account Token             3            0                 0     0
 JSON Web Token                          174           61                 0     0     61    174  0.000000  1.000000  0.259574         0.000000
 JWK                                      80            3                 0     0      3     80  0.000000  1.000000  0.036145         0.000000
 Jira / Confluence PAT token               0            4                 0     0      4      0  0.000000            1.000000
-Key                                    4222        20796                 0     0  20796   4222  0.000000  1.000000  0.831242         0.000000
+Key                                    4221        20798                 0     0  20798   4221  0.000000  1.000000  0.831288         0.000000
 MailGun API Key                           8            0                 0     0      0      8            1.000000  0.000000         0.000000
 NKEY Seed                                60            0                 0     0      0     60            1.000000  0.000000         0.000000
 NTLM Token                                4            0                 0     0      0      4            1.000000  0.000000         0.000000
@@ -283,4 +283,4 @@ Token                                  1140         5268                 0     0
 Twilio Credentials                       30           39                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         225          401                 0     0    401    225  0.000000  1.000000  0.640575         0.000000
 UUID                                   2517         3716                 0     0   3716   2517  0.000000  1.000000  0.596182         0.000000
-                                      17123        53661           0     0     0  53661  17123  0.000000  1.000000  0.758095         0.000000
+                                      17124        53679           0     0     0  53679  17124  0.000000  1.000000  0.758146         0.000000

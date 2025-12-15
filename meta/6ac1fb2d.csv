@@ -413,7 +413,7 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 11528107,bd83fc77,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/bd83fc77.json,3234,3234,F,32,61,,,Token
 11528108,d2557e09,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/d2557e09.json,38,38,T,32,73,,,Secret:Key
 11528109,d2557e09,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/d2557e09.json,106,106,T,32,73,,,Secret:Key
-11528110,d2557e09,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/d2557e09.json,155,155,T,406,417,,,Key
+11528110,d2557e09,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/d2557e09.json,155,155,F,406,417,,,Key
 11528111,d2557e09,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/d2557e09.json,234,234,T,32,73,,,Secret:Key
 11528112,d2557e09,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/d2557e09.json,263,263,T,32,73,,,Secret:Key
 11528113,e8312de5,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/e8312de5.json,11,11,F,32,51,,,Password
@@ -581,7 +581,18 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 11533264,953191ef,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/953191ef.json,309,309,F,74,110,,,UUID
 11533265,953191ef,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/953191ef.json,324,324,F,93,129,,,UUID
 11536639,d2557e09,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/d2557e09.json,36,38,T,28,73,,,AWS Multi
-11536640,d2557e09,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/d2557e09.json,100,106,T,30,73,,,AWS Multi
+11536640,d2557e09,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/d2557e09.json,100,106,F,30,73,,role-id,AWS Multi
 11536641,d2557e09,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/d2557e09.json,104,106,T,28,73,,,AWS Multi
 11536642,d2557e09,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/d2557e09.json,232,234,T,28,73,,,AWS Multi
 11536643,d2557e09,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/d2557e09.json,261,263,T,28,73,,,AWS Multi
+11536644,d2557e09,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/d2557e09.json,104,104,T,28,48,,let-it-be-true,AWS Client ID
+11536645,d2557e09,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/d2557e09.json,261,261,T,28,48,,let-it-be-true,AWS Client ID
+11536671,d2557e09,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/d2557e09.json,36,36,T,28,48,,let-it-be-true,AWS Client ID
+11536672,d2557e09,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/d2557e09.json,100,100,F,30,51,,example,AWS Client ID
+11536673,d2557e09,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/d2557e09.json,133,133,F,28,49,,let-it-be-true,AWS Client ID:Key
+11536674,d2557e09,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/d2557e09.json,155,155,F,168,189,,example,AWS Client ID
+11536675,d2557e09,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/d2557e09.json,172,172,F,21,41,,example,AWS Client ID
+11536676,d2557e09,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/d2557e09.json,187,187,F,21,41,,example,AWS Client ID
+11536677,d2557e09,GitHub,6ac1fb2d,data/6ac1fb2d/src/example/d2557e09.json,232,232,F,28,48,,example,AWS Client ID
+11536678,099e89c5,GitHub,6ac1fb2d,data/6ac1fb2d/test/099e89c5.php,247,247,F,17,37,,example,AWS Client ID
+11536679,099e89c5,GitHub,6ac1fb2d,data/6ac1fb2d/test/099e89c5.php,251,251,F,62,82,,example,AWS Client ID
