@@ -1,4 +1,4 @@
-META MD5 da5a10bae7e696a1c03dc36884e703c6
+META MD5 29bae0181e7a05a5723b9d509cc28a8b
 DATA MD5 caae534fa44b3edb2874dbe0c6288a3e
 DATA: 16995334 interested lines. MARKUP: 63736 items
 FileType           FileNumber    ValidLines    Positives    Negatives
@@ -88,7 +88,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .jenkinsfile                1            58            2            6
 .jinja2                     1            64                         2
 .js                       640        530803          859         3134
-.json                     884      13053260         1806        10395
+.json                     884      13053260         1809        10395
 .jsp                       13          3202            1           47
 .jsx                        7           857                        15
 .jwt                        1             1            2
@@ -225,7 +225,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .yml                      560         56585         1897         1386
 .zsh                        6           872                        11
 .zsh-theme                  1            97                         1
-TOTAL:                  11361      16995334        17124        53679
+TOTAL:                  11361      16995334        17127        53679
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -261,7 +261,7 @@ Grafana Service Account Token             3            0                 0     0
 JSON Web Token                          174           61                 0     0     61    174  0.000000  1.000000  0.259574         0.000000
 JWK                                      80            3                 0     0      3     80  0.000000  1.000000  0.036145         0.000000
 Jira / Confluence PAT token               0            4                 0     0      4      0  0.000000            1.000000
-Key                                    4221        20798                 0     0  20798   4221  0.000000  1.000000  0.831288         0.000000
+Key                                    4224        20798                 0     0  20798   4224  0.000000  1.000000  0.831189         0.000000
 MailGun API Key                           8            0                 0     0      0      8            1.000000  0.000000         0.000000
 NKEY Seed                                60            0                 0     0      0     60            1.000000  0.000000         0.000000
 NTLM Token                                4            0                 0     0      0      4            1.000000  0.000000         0.000000
@@ -283,4 +283,4 @@ Token                                  1140         5268                 0     0
 Twilio Credentials                       30           39                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         225          401                 0     0    401    225  0.000000  1.000000  0.640575         0.000000
 UUID                                   2517         3716                 0     0   3716   2517  0.000000  1.000000  0.596182         0.000000
-                                      17124        53679           0     0     0  53679  17124  0.000000  1.000000  0.758146         0.000000
+                                      17127        53679           0     0     0  53679  17127  0.000000  1.000000  0.758114         0.000000
