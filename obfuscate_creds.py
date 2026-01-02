@@ -8,6 +8,8 @@ import sys
 from argparse import Namespace, ArgumentParser
 from typing import List
 
+import base62
+
 from constants import PRIVATE_KEY_CATEGORY, LABEL_TRUE, MULTI_PATTERN_RULES
 from meta_row import read_meta, MetaRow
 
@@ -133,6 +135,16 @@ def obfuscate_glsa(value):
     return obfuscated_value
 
 
+def obfuscate_crc32_base62(value):
+    token = generate_value(value[4:-6])
+    data = token.encode('ascii', errors="strict")
+    crc32sum = binascii.crc32(data)
+    crc32data = crc32sum.to_bytes(length=4, byteorder="big")
+    crc32sign = base62.encodebytes(crc32data)
+    obfuscated_value = value[:4] + token + crc32sign
+    return obfuscated_value
+
+
 def get_obfuscated_value(value, meta_row: MetaRow):
     if "Info" == meta_row.PredefinedPattern:
         # not a credential - does not require obfuscation
@@ -209,6 +221,8 @@ def get_obfuscated_value(value, meta_row: MetaRow):
         else:
             # impossible, but linter fix
             obfuscated_value = generate_value(value)
+    elif any(value.startswith(x) for x in ["npm_", "ghp_", "gho_", "ghu_", "ghs_", "ghr_"]):
+        obfuscated_value = obfuscate_crc32_base62(value)
     else:
         # the whole value is obfuscated
         obfuscated_value = generate_value(value)
