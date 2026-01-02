@@ -4,7 +4,7 @@ import unittest
 
 from constants import PRIVATE_KEY_CATEGORY, LABEL_TRUE
 from meta_row import MetaRow
-from obfuscate_creds import gen_random_value, obfuscate_jwt, obfuscate_glsa, process_pem_key
+from obfuscate_creds import gen_random_value, obfuscate_jwt, obfuscate_glsa, process_pem_key, obfuscate_crc32_base62
 
 
 class ObfuscatorTest(unittest.TestCase):
@@ -161,6 +161,16 @@ class ObfuscatorTest(unittest.TestCase):
         self.assertEqual(len(value), len(obfuscated))
         # tested value
         self.assertEqual("glsa_DaldL9OnCudSrj7jWui7wxVj9b4ltV2p_c97ad013", obfuscated)
+
+    def test_obfuscate_crc32_base62(self):
+        random.seed(20260102)
+        # the value from CredSweeper samples
+        value = "ghp_00000000000000000000000000000004WZ4EQ "
+        obfuscated = obfuscate_crc32_base62(value)
+        self.assertNotEqual(value, obfuscated)
+        self.assertEqual(len(value), len(obfuscated))
+        # tested value
+        self.assertEqual("ghp_119583239986614208174882783824961NqIlW", obfuscated)
 
     def test_obfuscate_pem(self):
         random.seed(20251211)
