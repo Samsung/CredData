@@ -155,6 +155,7 @@ def get_obfuscated_value(value, meta_row: MetaRow):
                                            "ANVA", "AROA", "APKA", "ASCA", "ASIA", "AIza", "AKGP"]) \
             or value.startswith('1//0') and GOOGLEAPI_PATTERN.match(value) \
             or value.startswith('key-') and 36 == len(value) \
+            or value.startswith('squ_') and 44 == len(value) \
             or value.startswith("xox") and 15 <= len(value) and value[3] in "abeoprst" and '-' == value[4]:
         obfuscated_value = value[:4] + generate_value(value[4:])
     elif any(value.startswith(x) for x in ["ya29.", "pass:", "salt:", "akab-", "PMAK-", "PMAT-", "xapp-", "pplx-"]):
