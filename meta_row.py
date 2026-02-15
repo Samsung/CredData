@@ -1,10 +1,19 @@
 import csv
 import dataclasses
 import os
+import sys
 from pathlib import Path
-from typing import Union, List, Generator
+from typing import Union, List, Generator, Any
 
-from constants import ALLOWED_LABELS, LABEL_TRUE, PRIVATE_KEY_CATEGORY, OTHER_CATEGORY
+from constants import ALLOWED_LABELS, OTHER_CATEGORY
+
+
+def _get_annotations(cls) -> dict[str, Any]:
+    # may be removed when 3.13 support ends
+    if (3, 13) < sys.version_info:
+        import annotationlib
+        return annotationlib.get_annotations(cls.__class__)
+    return cls.__annotations__
 
 
 # dataclass is required for csv writer
@@ -27,9 +36,10 @@ class MetaRow:
     Category: str
 
     def __init__(self, row: dict):
-        if not isinstance(row, dict) or self.__annotations__.keys() != row.keys():
+        annotations = _get_annotations(self)
+        if not isinstance(row, dict) or annotations.keys() != row.keys():
             raise ValueError(f"ERROR: wrong row {row}")
-        for key, typ in self.__annotations__.items():
+        for key, typ in annotations.items():
             if key.startswith("__"):
                 continue
             row_val = row.get(key)
@@ -53,7 +63,7 @@ class MetaRow:
             raise ValueError(f"ERROR: Category must be set {row}")
         if ':' in self.Category:
             rules = self.Category.split(':')
-            rule_set=set(rules)
+            rule_set = set(rules)
             if len(rules) != len(rule_set):
                 raise ValueError(f"ERROR: Each rule must be once in Category {row}")
             if OTHER_CATEGORY in rule_set:
