@@ -25,6 +25,8 @@ from meta_row import read_meta, MetaRow
 EXIT_SUCCESS = 0
 EXIT_FAILURE = 1
 
+HUNK_SIZE = 120
+
 
 @functools.cache
 def get_excluding_extensions() -> set[str]:
@@ -40,7 +42,14 @@ def read_cache(path) -> list[str]:
         return f.read().replace("\r\n", '\n').replace('\r', '\n').split('\n')
 
 
-def read_data(path, line_start, line_end, value_start, value_end, ground_truth, creds: List[MetaCred]):
+def read_data(path: str,
+              line_start: int,
+              line_end: int,
+              value_start: int,
+              value_end: int,
+              ground_truth: str,
+              short_line: bool,
+              creds: List[MetaCred]):
     lines = read_cache(path)
     if line_start == line_end:
         data_line = lines[line_start - 1]
@@ -63,6 +72,7 @@ def read_data(path, line_start, line_end, value_start, value_end, ground_truth, 
     line_found_in_cred = False
     correct_value_position = False
     if creds:
+        # only if review with credsweeper report
         for cred in creds:
             if cred.path == path:
                 if line_start == cred.line_start and line_end == cred.line_start:
@@ -94,20 +104,48 @@ def read_data(path, line_start, line_end, value_start, value_end, ground_truth, 
         line_found_in_cred = True
         correct_value_position = True
 
-    if 0 <= value_start and 0 <= value_end:
-        line = data_line[:value_start] \
+    if short_line:
+        text_start = value_start - HUNK_SIZE if 0 < value_start - HUNK_SIZE else 0
+        if 0 <= value_end and value_start <= multiline_end_offset + value_end:
+            text_end = multiline_end_offset + value_end + HUNK_SIZE \
+                if len(data_line) > multiline_end_offset + value_end + HUNK_SIZE \
+                else len(data_line)
+        elif value_end < 0 <= value_start:
+            text_end = multiline_end_offset + value_start + HUNK_SIZE \
+                if len(data_line) > multiline_end_offset + value_start + HUNK_SIZE \
+                else len(data_line)
+        elif 0 > value_start >= value_end:
+            text_start = 0
+            text_end = HUNK_SIZE if len(data_line) > HUNK_SIZE else len(data_line)
+        else:
+            raise ValueError(f"Cannot show {value_start} {value_end}")
+    else:
+        text_start = 0
+        text_end = len(data_line)
+
+    if line_start == line_end and 0 <= value_start <= value_end \
+            or line_start < line_end and 0 <= value_start and 0 <= value_end:
+        line = data_line[text_start:value_start] \
                + Back.LIGHTYELLOW_EX \
                + data_line[value_start:value_end + multiline_end_offset] \
                + Style.RESET_ALL \
                + fore_style \
-               + data_line[value_end + multiline_end_offset:]
-    elif value_start >= 0 > value_end:
-        line = data_line[:value_start] \
+               + data_line[value_end + multiline_end_offset:text_end]
+    elif value_end < 0 <= value_start:
+        line = data_line[text_start:value_start] \
                + Style.BRIGHT \
-               + data_line[value_start:]
+               + data_line[value_start:text_end]
     else:
-        line = data_line
-    print(f"{line_start}:{Style.RESET_ALL}{fore_style}{line}{Style.RESET_ALL}", flush=True)
+        line = data_line[text_start:text_end]
+    back_start_style = Back.LIGHTYELLOW_EX if Back.LIGHTYELLOW_EX in line else Style.RESET_ALL
+    if line_start < line_end:
+        line.replace('\n', Style.RESET_ALL + '\n' + fore_style + back_start_style)
+    if '\n' in line:
+        for n, i in enumerate(line.split('\n')):
+            start_style = Style.RESET_ALL if 0 == n else back_start_style
+            print(f"{n + line_start}:{start_style}{fore_style}{i}{Style.RESET_ALL}", flush=True)
+    else:
+        print(f"{line_start}:{Style.RESET_ALL}{fore_style}{line}{Style.RESET_ALL}", flush=True)
     if not correct_value_position:
         print("Possible wrong value markup", flush=True)
     if not line_found_in_cred:
@@ -116,7 +154,7 @@ def read_data(path, line_start, line_end, value_start, value_end, ground_truth, 
         test_line = data_line.lower()
         if not any(
                 x in test_line for x in
-                ["api", "pass", "secret", "pw", "key", "credential", "token", "auth", "nonce", "salt", "cert"]
+                ["api", "pass", "secret", "pw", "key", "credential", "token", "auth", "nonce", "salt"]
         ):
             repo_id = path.split('/')[1]
             subprocess.check_call(
@@ -129,10 +167,12 @@ def read_data(path, line_start, line_end, value_start, value_end, ground_truth, 
 
 def review(meta_dir: str,
            data_dir: str,
+           short_line: bool,
            check_only: bool,
            data_filter: dict,
+           category: Optional[str] = None,
            load_json: Optional[str] = None,
-           category: Optional[str] = None) -> int:
+           ) -> int:
     errors = 0
     duplicates = 0
     if not os.path.exists(meta_dir):
@@ -164,13 +204,15 @@ def review(meta_dir: str,
         if not check_only:
             print(str(row), flush=True)
             try:
-                read_data(row.FilePath,
-                          row.LineStart,
-                          row.LineEnd,
-                          row.ValueStart,
-                          row.ValueEnd,
-                          row.GroundTruth,
-                          creds)
+                read_data(path=row.FilePath,
+                          line_start=row.LineStart,
+                          line_end=row.LineEnd,
+                          value_start=row.ValueStart,
+                          value_end=row.ValueEnd,
+                          ground_truth=row.GroundTruth,
+                          short_line=short_line,
+                          creds=creds,
+                          )
             except Exception as exc:
                 print(f"Failure {row}", exc, flush=True)
                 errors += 1
@@ -243,6 +285,7 @@ def main(argv) -> int:
 
     parser.add_argument("meta_dir", help="Markup location", nargs='?', default="meta")
     parser.add_argument("data_dir", help="Dataset location", nargs='?', default="data")
+    parser.add_argument("--short_line", help="Reduce huge line in review", action='store_true')
     parser.add_argument("--check_only", help="Check meta markup only", action='store_true')
     parser.add_argument("-T", help="Show TRUE markup", action="store_true")
     parser.add_argument("-F", help="Show FALSE markup", action="store_true")
@@ -260,7 +303,13 @@ def main(argv) -> int:
         _data_filter["T"] = _args.T
         _data_filter["F"] = _args.F
         _data_filter["X"] = _args.X
-    return review(_args.meta_dir, _args.data_dir, bool(_args.check_only), _data_filter, _args.load, _args.category)
+    return review(meta_dir=_args.meta_dir,
+                  data_dir=_args.data_dir,
+                  short_line=bool(_args.short_line),
+                  check_only=bool(_args.check_only),
+                  data_filter=_data_filter,
+                  load_json=_args.load,
+                  category=_args.category)
 
 
 if __name__ == """__main__""":
