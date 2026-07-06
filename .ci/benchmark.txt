@@ -1,6 +1,6 @@
-META MD5 a488ffa456e6c81b638c51b1bb460395
+META MD5 55c4e40ade69d0e07ffc957a2cab4586
 DATA MD5 9f6dbea4df88606735a0d0771337b50a
-DATA: 17003755 interested lines. MARKUP: 63911 items
+DATA: 17003755 interested lines. MARKUP: 63910 items
 FileType           FileNumber    ValidLines    Positives    Negatives
 ---------------  ------------  ------------  -----------  -----------
                           688        567505          137          695
@@ -164,7 +164,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .pyx                        2          1094                        24
 .r                          4            62            5            2
 .rake                       2            51                         4
-.rb                       838        127320          413         3068
+.rb                       838        127320          411         3069
 .re                         1            31                         1
 .red                        1           159                         1
 .release                    1            13                         4
@@ -225,7 +225,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .yml                      560         56585         1897         1386
 .zsh                        6           872                        11
 .zsh-theme                  1            97                         1
-TOTAL:                  11428      17003755        17258        53739
+TOTAL:                  11428      17003755        17256        53740
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -270,7 +270,7 @@ Nonce                                   131          109                 0     0
 OTP / 2FA Secret                         64            3                 0     0      3     64  0.000000  1.000000  0.044776         0.000000
 Other                                     0           20                 0     0     20      0  0.000000            1.000000
 PEM Private Key                        1159           72                 0     0     72   1159  0.000000  1.000000  0.058489         0.000000
-Password                               2689        11367                 0     0  11367   2689  0.000000  1.000000  0.808694         0.000000
+Password                               2688        11368                 0     0  11368   2688  0.000000  1.000000  0.808765         0.000000
 Perplexity API Key                        2            0                 0     0      0      2            1.000000  0.000000         0.000000
 Postman Credentials                       2            0                 0     0      0      2            1.000000  0.000000         0.000000
 SQL Password                             44           14                 0     0     14     44  0.000000  1.000000  0.241379         0.000000
@@ -280,8 +280,8 @@ Secret                                 1531         2492                 0     0
 Slack Token                              15            1                 0     0      1     15  0.000000  1.000000  0.062500         0.000000
 Stripe Credentials                        2            0                 0     0      0      2            1.000000  0.000000         0.000000
 Tencent WeChat API App ID                47            0                 0     0      0     47            1.000000  0.000000         0.000000
-Token                                  1145         5287                 0     0   5287   1145  0.000000  1.000000  0.821984         0.000000
+Token                                  1144         5287                 0     0   5287   1144  0.000000  1.000000  0.822112         0.000000
 Twilio Credentials                       30           39                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
 URL Credentials                         225          401                 0     0    401    225  0.000000  1.000000  0.640575         0.000000
 UUID                                   2517         3716                 0     0   3716   2517  0.000000  1.000000  0.596182         0.000000
-                                      17258        53739           0     0     0  53739  17258  0.000000  1.000000  0.756919         0.000000
+                                      17256        53740           0     0     0  53740  17256  0.000000  1.000000  0.756944         0.000000
