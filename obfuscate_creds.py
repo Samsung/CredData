@@ -31,6 +31,7 @@ GOOGLEAPI_PATTERN = re.compile(r"1//0[0-9A-Za-z_-]{80,400}")
 OCT_PATTERN = re.compile(r"(\s*0[01234567]{0,3}(\s*,|\s*\Z))+$")
 DEC_PATTERN = re.compile(r"(\s*(2([0-4][0-9]|5[0-5])|1[0-9][0-9]|[0-9][0-9]|[0-9])(\s*,|\s*\Z))+$")
 
+
 def obfuscate_jwt(value: str) -> str:
     len_value = len(value)
     if value.endswith("%3D%3D%3D"):
@@ -114,7 +115,7 @@ def obfuscate_basic_auth(value):
     pad_num = 0x3 & len(value)
     if pad_num:
         value += '=' * (4 - pad_num)
-    decoded = base64.b64decode(value,validate=True)
+    decoded = base64.b64decode(value, validate=True)
     basic = decoded.decode("utf_8")
     new_basic = generate_value(basic)
     encoded = base64.b64encode(new_basic.encode("utf_8")).decode("ascii")
@@ -154,6 +155,7 @@ def get_obfuscated_value(value, meta_row: MetaRow):
     elif any(value.startswith(x) for x in ["AKIA", "ABIA", "ACCA", "AGPA", "AIDA", "AIPA", "AKIA", "ANPA",
                                            "ANVA", "AROA", "APKA", "ASCA", "ASIA", "AIza", "AKGP"]) \
             or value.startswith('1//0') and GOOGLEAPI_PATTERN.match(value) \
+            or value.startswith('phc_') and 40 <= len(value) <= 60 \
             or value.startswith('key-') and 36 == len(value) \
             or value.startswith('squ_') and 44 == len(value) \
             or value.startswith("xox") and 15 <= len(value) and value[3] in "abeoprst" and '-' == value[4]:
@@ -162,7 +164,7 @@ def get_obfuscated_value(value, meta_row: MetaRow):
         obfuscated_value = value[:5] + generate_value(value[5:])
     elif value.startswith("glsa_") and 46 == len(value):
         obfuscated_value = obfuscate_glsa(value)
-    elif any(value.startswith(x) for x in ["whsec_", "Basic ", "OAuth "]):
+    elif any(value.startswith(x) for x in ["whsec_", "cosmo_", "OAuth "]):
         obfuscated_value = value[:6] + generate_value(value[6:])
     elif any(value.startswith(x) for x in ["hexkey:", "base64:", "phpass:", "Bearer ", "Apikey "]):
         obfuscated_value = value[:7] + generate_value(value[7:])
@@ -422,8 +424,6 @@ def gen_random_value(value):
             hex_data -= 1
 
     return obfuscated_value
-
-
 
 
 def split_in_bounds(i: int, lines_len: int, old_line: str):
