@@ -153,7 +153,7 @@ def get_obfuscated_value(value, meta_row: MetaRow):
     elif "Basic Authorization" in meta_row.Category:
         obfuscated_value = obfuscate_basic_auth(value)
     elif any(value.startswith(x) for x in ["AKIA", "ABIA", "ACCA", "AGPA", "AIDA", "AIPA", "AKIA", "ANPA",
-                                           "ANVA", "AROA", "APKA", "ASCA", "ASIA", "AIza", "AKGP"]) \
+                                           "ANVA", "AROA", "APKA", "ASCA", "ASIA", "AIza", "AKGP", "LTAI"]) \
             or value.startswith('1//0') and GOOGLEAPI_PATTERN.match(value) \
             or value.startswith('phc_') and 40 <= len(value) <= 60 \
             or value.startswith('key-') and 36 == len(value) \
