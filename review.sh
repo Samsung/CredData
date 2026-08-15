@@ -4,7 +4,7 @@ set -ex
 
 .venv/bin/python3 review_data.py --check
 
-.venv/bin/python3 download_data.py --clean_data --skip_download
+.venv/bin/python3 download_data.py --clean_data --jobs $(nproc) --skip_download
 
 find data -type f -exec chmod -x {} +
 

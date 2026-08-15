@@ -1,9 +1,9 @@
-META MD5 f3cdc0e40601fa2c05ac43689dcc1927
-DATA MD5 60f322821031089a91aa3e5af6b64488
-DATA: 17010985 interested lines. MARKUP: 64017 items
+META MD5 f57caad601e96d17436ca630c08431f9
+DATA MD5 4fb91352f3795eb700ddfa4921339c85
+DATA: 17018753 interested lines. MARKUP: 64180 items
 FileType           FileNumber    ValidLines    Positives    Negatives
 ---------------  ------------  ------------  -----------  -----------
-                          689        567674          137          695
+                          737        571973          484          696
 .04                         2           149            4
 .1                          2           641            2           10
 .admx                       1            26                         1
@@ -19,7 +19,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .build                      2            40            1            2
 .bundle                     4          1512                       471
 .bzl                        3          2503                        12
-.c                        183        285200           20          748
+.c                        197        288042           29          755
 .cast                       2           704            6            1
 .cc                        28         29149                       615
 .cf                         2            19            2
@@ -116,7 +116,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .markdown                  38          5862           69           42
 .markerb                    3            12                         3
 .marko                      1            21                         2
-.md                       775        181875         1058         2476
+.md                       786        182448         1068         2477
 .mdx                        5           636            5            8
 .mjml                       1            18                         1
 .mjs                       19          4119           91          116
@@ -213,7 +213,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .travis                     1            34            2            4
 .ts                       610        108082          272         1991
 .tsx                       54          7914            1          125
-.txt                      322         89402         5258         5784
+.txt                      325         89456         5258         5784
 .utf8                       1            77                         1
 .vsmdi                      1             6            2            2
 .vue                       50          8736            1          165
@@ -225,7 +225,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .yml                      560         56585         1897         1386
 .zsh                        6           872                        11
 .zsh-theme                  1            97                         1
-TOTAL:                  11457      17010985        17372        53774
+TOTAL:                  11533      17018753        17738        53783
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -237,16 +237,17 @@ Akamai Credentials                        6            2                 0     0
 Alibaba Access Key ID                     1            0                 0     0      0      1            1.000000  0.000000         0.000000
 Alibaba Multi                             1            0                 0     0      0      1            1.000000  0.000000         0.000000
 Anthropic API Key                         1            0                 0     0      0      1            1.000000  0.000000         0.000000
-Auth                                   1170         3616                 0     0   3616   1170  0.000000  1.000000  0.755537         0.000000
+Auth                                   1278         3616                 0     0   3616   1278  0.000000  1.000000  0.738864         0.000000
 Azure Access Token                       24            0                 0     0      0     24            1.000000  0.000000         0.000000
 BASE64 Private Key                       22            4                 0     0      4     22  0.000000  1.000000  0.153846         0.000000
 BASE64 encoded PEM Private Key           12            0                 0     0      0     12            1.000000  0.000000         0.000000
 Basic Authorization                     692          555                 0     0    555    692  0.000000  1.000000  0.445068         0.000000
-Bearer Authorization                    183            0                 0     0      0    183            1.000000  0.000000         0.000000
+Bearer Authorization                    289            0                 0     0      0    289            1.000000  0.000000         0.000000
 CMD ConvertTo-SecureString               13            4                 0     0      4     13  0.000000  1.000000  0.235294         0.000000
 CMD Password                             33          137                 0     0    137     33  0.000000  1.000000  0.805882         0.000000
 CMD Secret                                1           18                 0     0     18      1  0.000000  1.000000  0.947368         0.000000
 CMD Token                                 6            2                 0     0      2      6  0.000000  1.000000  0.250000         0.000000
+CURL Options                             17            8                 0     0      8     17  0.000000  1.000000  0.320000         0.000000
 CURL User Password                        7            2                 0     0      2      7  0.000000  1.000000  0.222222         0.000000
 Credential                               96          602                 0     0    602     96  0.000000  1.000000  0.862464         0.000000
 Docker Swarm Token                        2            0                 0     0      0      2            1.000000  0.000000         0.000000
@@ -267,12 +268,12 @@ Jira / Confluence PAT token               0            4                 0     0
 Key                                    4265        20813                 0     0  20813   4265  0.000000  1.000000  0.829931         0.000000
 MailGun API Key                           8            0                 0     0      0      8            1.000000  0.000000         0.000000
 NKEY Seed                                60            0                 0     0      0     60            1.000000  0.000000         0.000000
-NTLM Token                                4            0                 0     0      0      4            1.000000  0.000000         0.000000
-Nonce                                   131          109                 0     0    109    131  0.000000  1.000000  0.454167         0.000000
+NTLM Token                              126            0                 0     0      0    126            1.000000  0.000000         0.000000
+Nonce                                   140          110                 0     0    110    140  0.000000  1.000000  0.440000         0.000000
 OTP / 2FA Secret                         64            3                 0     0      3     64  0.000000  1.000000  0.044776         0.000000
 Other                                     0           20                 0     0     20      0  0.000000            1.000000
 PEM Private Key                        1161           72                 0     0     72   1161  0.000000  1.000000  0.058394         0.000000
-Password                               2701        11376                 0     0  11376   2701  0.000000  1.000000  0.808127         0.000000
+Password                               2703        11376                 0     0  11376   2703  0.000000  1.000000  0.808012         0.000000
 Perplexity API Key                        2            0                 0     0      0      2            1.000000  0.000000         0.000000
 PostHog Credentials                       3            0                 0     0      0      3            1.000000  0.000000         0.000000
 Postman Credentials                       2            0                 0     0      0      2            1.000000  0.000000         0.000000
@@ -285,7 +286,7 @@ Stripe Credentials                        2            0                 0     0
 Tencent WeChat API App ID                47            0                 0     0      0     47            1.000000  0.000000         0.000000
 Token                                  1145         5287                 0     0   5287   1145  0.000000  1.000000  0.821984         0.000000
 Twilio Credentials                       30           39                 0     0     39     30  0.000000  1.000000  0.565217         0.000000
-URL Credentials                         226          417                 0     0    417    226  0.000000  1.000000  0.648523         0.000000
-UUID                                   2538         3716                 0     0   3716   2538  0.000000  1.000000  0.594180         0.000000
+URL Credentials                         227          417                 0     0    417    227  0.000000  1.000000  0.647516         0.000000
+UUID                                   2539         3716                 0     0   3716   2539  0.000000  1.000000  0.594085         0.000000
 WunderGraph API Key                      11            0                 0     0      0     11            1.000000  0.000000         0.000000
-                                      17372        53774           0     0     0  53774  17372  0.000000  1.000000  0.755826         0.000000
+                                      17738        53783           0     0     0  53783  17738  0.000000  1.000000  0.751989         0.000000

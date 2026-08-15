@@ -177,6 +177,8 @@ def get_obfuscated_value(value, meta_row: MetaRow):
         obfuscated_value = value[:10] + generate_value(value[10:])
     elif any(value.startswith(x) for x in ["sk-ant-api03-"]):
         obfuscated_value = value[:13] + generate_value(value[13:])
+    elif any(value.startswith(x) for x in ["TlRMTVNTUAABAAAA", "TlRMTVNTUAACAAAA", "TlRMTVNTUAADAAAA"]):
+        obfuscated_value = value[:16] + generate_value(value[16:])
     elif value.startswith("eyJ"):
         # Check if it's a proper "JSON Web Token" with header and payload
         if "." in value:
