@@ -190,7 +190,7 @@ def review(meta_dir: str,
                     # Secrets are like passwords
                     min_length = 5
                 if any(x in categories for x in ["Password", "URL Credentials", "CMD Password", "SQL Password",
-                                                 "CURL User Password"]):
+                                                 "CURL User Password", "CURL Options"]):
                     # lost password may be simple but sensitive
                     min_length = 4
                 if min_length > row.ValueEnd - row.ValueStart:
