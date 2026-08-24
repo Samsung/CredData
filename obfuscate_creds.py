@@ -146,6 +146,21 @@ def obfuscate_crc32_base62(value):
     return obfuscated_value
 
 
+def get_prefix(value: str) -> Optional[str]:
+    for prefix in [
+        "k1.secret.", "k2.secret.", "k3.secret.", "k4.secret.",
+        "k1.secret-pw.", "k2.secret-pw.", "k3.secret-pw.", "k4.secret-pw.",
+        "k1.local.", "k2.local.", "k3.local.", "k4.local.",
+        "k1.local-pw.", "k2.local-pw.", "k3.local-pw.", "k4.local-pw.",
+        "v1.local.", "v2.local.", "v3.local.", "v4.local.",
+        "v1.public.", "v2.public.", "v3.public.", "v4.public.",
+        "TlRMTVNTUAABAAAA", "TlRMTVNTUAACAAAA", "TlRMTVNTUAADAAAA",
+    ]:
+        if value.startswith(prefix):
+            return prefix
+    return None
+
+
 def get_obfuscated_value(value, meta_row: MetaRow):
     if "Info" == meta_row.PredefinedPattern:
         # not a credential - does not require obfuscation
@@ -177,8 +192,8 @@ def get_obfuscated_value(value, meta_row: MetaRow):
         obfuscated_value = value[:10] + generate_value(value[10:])
     elif any(value.startswith(x) for x in ["sk-ant-api03-"]):
         obfuscated_value = value[:13] + generate_value(value[13:])
-    elif any(value.startswith(x) for x in ["TlRMTVNTUAABAAAA", "TlRMTVNTUAACAAAA", "TlRMTVNTUAADAAAA"]):
-        obfuscated_value = value[:16] + generate_value(value[16:])
+    elif prefix := get_prefix(value):
+        obfuscated_value = prefix + generate_value(value[len(prefix):])
     elif value.startswith("eyJ"):
         # Check if it's a proper "JSON Web Token" with header and payload
         if "." in value:
