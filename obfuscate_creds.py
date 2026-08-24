@@ -146,7 +146,7 @@ def obfuscate_crc32_base62(value):
     return obfuscated_value
 
 
-def get_prefix(value: str) -> Optional[str]:
+def get_prefix(value: str) -> str | None:
     for prefix in [
         "k1.secret.", "k2.secret.", "k3.secret.", "k4.secret.",
         "k1.secret-pw.", "k2.secret-pw.", "k3.secret-pw.", "k4.secret-pw.",
@@ -155,6 +155,13 @@ def get_prefix(value: str) -> Optional[str]:
         "v1.local.", "v2.local.", "v3.local.", "v4.local.",
         "v1.public.", "v2.public.", "v3.public.", "v4.public.",
         "TlRMTVNTUAABAAAA", "TlRMTVNTUAACAAAA", "TlRMTVNTUAADAAAA",
+        "whsec_", "cosmo_", "OAuth ", "hexkey:", "base64:", "phpass:", "Bearer ", "Apikey ",
+        "hexpass:", "hexsalt:", "pk_live_", "rk_live_", "sk_live_", "pk_test_", "rk_test_", "sk_test_",
+        "SWMTKN-1-", "dckr_pat_", "dckr_oat_", "hexsecret:", "sk-ant-api03-",
+        "AKIA", "ABIA", "ACCA", "AGPA", "AIDA", "AIPA", "AKIA", "ANPA",
+        "ANVA", "AROA", "APKA", "ASCA", "ASIA", "AIza", "AKGP", "LTAI",
+        "ya29.", "pass:", "salt:", "akab-", "PMAK-", "PMAT-", "xapp-", "pplx-",
+        "hooks.slack.com/services/",
     ]:
         if value.startswith(prefix):
             return prefix
@@ -167,31 +174,15 @@ def get_obfuscated_value(value, meta_row: MetaRow):
         obfuscated_value = value
     elif "Basic Authorization" in meta_row.Category:
         obfuscated_value = obfuscate_basic_auth(value)
-    elif any(value.startswith(x) for x in ["AKIA", "ABIA", "ACCA", "AGPA", "AIDA", "AIPA", "AKIA", "ANPA",
-                                           "ANVA", "AROA", "APKA", "ASCA", "ASIA", "AIza", "AKGP", "LTAI"]) \
-            or value.startswith('1//0') and GOOGLEAPI_PATTERN.match(value) \
-            or value.startswith('phc_') and 40 <= len(value) <= 60 \
-            or value.startswith('key-') and 36 == len(value) \
-            or value.startswith('squ_') and 44 == len(value) \
-            or value.startswith("xox") and 15 <= len(value) and value[3] in "abeoprst" and '-' == value[4]:
+    elif (value.startswith('1//0') and GOOGLEAPI_PATTERN.match(value) \
+          or value.startswith('phc_') and 40 <= len(value) <= 60 \
+          or value.startswith('key-') and 36 == len(value) \
+          or value.startswith('squ_') and 44 == len(value) \
+          or value.startswith("xox") and 15 <= len(value) and value[3] in "abeoprst" and '-' == value[4]
+    ):
         obfuscated_value = value[:4] + generate_value(value[4:])
-    elif any(value.startswith(x) for x in ["ya29.", "pass:", "salt:", "akab-", "PMAK-", "PMAT-", "xapp-", "pplx-"]):
-        obfuscated_value = value[:5] + generate_value(value[5:])
     elif value.startswith("glsa_") and 46 == len(value):
         obfuscated_value = obfuscate_glsa(value)
-    elif any(value.startswith(x) for x in ["whsec_", "cosmo_", "OAuth "]):
-        obfuscated_value = value[:6] + generate_value(value[6:])
-    elif any(value.startswith(x) for x in ["hexkey:", "base64:", "phpass:", "Bearer ", "Apikey "]):
-        obfuscated_value = value[:7] + generate_value(value[7:])
-    elif any(value.startswith(x) for x in
-             ["hexpass:", "hexsalt:", "pk_live_", "rk_live_", "sk_live_", "pk_test_", "rk_test_", "sk_test_"]):
-        obfuscated_value = value[:8] + generate_value(value[8:])
-    elif any(value.startswith(x) for x in ["SWMTKN-1-", "dckr_pat_", "dckr_oat_"]):
-        obfuscated_value = value[:9] + generate_value(value[9:])
-    elif any(value.startswith(x) for x in ["hexsecret:"]):
-        obfuscated_value = value[:10] + generate_value(value[10:])
-    elif any(value.startswith(x) for x in ["sk-ant-api03-"]):
-        obfuscated_value = value[:13] + generate_value(value[13:])
     elif prefix := get_prefix(value):
         obfuscated_value = prefix + generate_value(value[len(prefix):])
     elif value.startswith("eyJ"):
@@ -208,8 +199,6 @@ def get_obfuscated_value(value, meta_row: MetaRow):
             obfuscated_value = '.'.join(obf_jwt)
         else:
             obfuscated_value = obfuscate_jwt(value)
-    elif value.startswith("hooks.slack.com/services/"):
-        obfuscated_value = "hooks.slack.com/services/" + generate_value(value[25:])
     elif 18 == len(value) and value.startswith("wx") \
             or 34 == len(value) and any(value.startswith(x) for x in
                                         ["AC", "AD", "AL", "CA", "CF", "CL", "CN", "CR", "FW", "IP",
