@@ -12,6 +12,12 @@ class ObfuscatorTest(unittest.TestCase):
     def test_gen_random_value(self):
         for seed, value, expected in [
             (
+                    # base32 activation key
+                    29,
+                    "A2345-67654-32345-67654-3234Z",
+                    "R2466-42645-52225-73425-4665X",
+            ),
+            (
                     654_987,
                     "b1:c2:c4:d9:9a:8e:78:98:aa:a8:b9:8b:bc:d9:8e:ef",
                     "b3:f9:b1:f1:6c:0f:99:62:ba:e5:b4:7b:ab:f9:7a:ed",
