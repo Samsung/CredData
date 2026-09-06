@@ -299,13 +299,15 @@ def gen_random_value(value):
             # 0x12, /* master */ 0xfe - the case
             # there may be an array in string e.g. CEKPET="[0xCA, 0xFE, ...]" - quoted value
             byte_hex = False
-        if base_32 and v not in "ABCDEFGHIJKLMNOPQRSTUVWXYZ234567":
-            base_32 = False
         if '-' == v:
             match len(value):
                 case 18:
                     if n in (8, 13):
                         # a token
+                        continue
+                case 29:
+                    if n in (5, 11, 17, 23):
+                        # activation product key
                         continue
                 case 36:
                     if n in (8, 13, 18, 23):
@@ -319,6 +321,8 @@ def gen_random_value(value):
                     if 24 == n:
                         # postman key
                         continue
+        if base_32 and v not in "ABCDEFGHIJKLMNOPQRSTUVWXYZ234567":
+            base_32 = False
         if ':' == v and 2 == n % 3:
             # wifi key like 7f:44:52:fe: ...
             continue
