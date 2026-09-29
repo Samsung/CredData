@@ -1,4 +1,4 @@
-META MD5 b7d16d4d5622c13960451785e1eeddba
+META MD5 a481fb44d8be7a8e262f0db553c4631f
 DATA MD5 0c75633251db1b29d82b0635b78c8eb9
 DATA: 17020109 interested lines. MARKUP: 64797 items
 FileType           FileNumber    ValidLines    Positives    Negatives
@@ -19,7 +19,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .build                      2            40            1            2
 .bundle                     4          1512                       471
 .bzl                        3          2503                        12
-.c                        197        288042           30          791
+.c                        197        288042           30          800
 .cast                       2           704            6            1
 .cc                        28         29149                       615
 .cf                         2            19            2
@@ -225,7 +225,7 @@ FileType           FileNumber    ValidLines    Positives    Negatives
 .yml                      560         56585         1897         1386
 .zsh                        6           872                        11
 .zsh-theme                  1            97                         1
-TOTAL:                  11565      17020109        18222        54107
+TOTAL:                  11565      17020109        18222        54116
 credsweeper result_cnt : 0, lost_cnt : 0, true_cnt : 0, false_cnt : 0
 Rules                             Positives    Negatives    Reported    TP    FP     TN     FN       FPR       FNR       ACC  PRC         RCL  F1
 ------------------------------  -----------  -----------  ----------  ----  ----  -----  -----  --------  --------  --------  -----  --------  ----
@@ -275,7 +275,7 @@ Other                                     0           20                 0     0
 PASERK Keys                              72            8                 0     0      8     72  0.000000  1.000000  0.100000         0.000000
 PASETO Token                             63            0                 0     0      0     63            1.000000  0.000000         0.000000
 PEM Private Key                        1193           72                 0     0     72   1193  0.000000  1.000000  0.056917         0.000000
-Password                               2778        11403                 0     0  11403   2778  0.000000  1.000000  0.804104         0.000000
+Password                               2778        11412                 0     0  11412   2778  0.000000  1.000000  0.804228         0.000000
 Perplexity API Key                        2            0                 0     0      0      2            1.000000  0.000000         0.000000
 PostHog Credentials                       3            0                 0     0      0      3            1.000000  0.000000         0.000000
 Postman Credentials                       2            0                 0     0      0      2            1.000000  0.000000         0.000000
@@ -293,4 +293,4 @@ Twilio Multi                              1            0                 0     0
 URL Credentials                         228          445                 0     0    445    228  0.000000  1.000000  0.661218         0.000000
 UUID                                   2539         3716                 0     0   3716   2539  0.000000  1.000000  0.594085         0.000000
 WunderGraph API Key                      11            0                 0     0      0     11            1.000000  0.000000         0.000000
-                                      18222        54107           0     0     0  54107  18222  0.000000  1.000000  0.748068         0.000000
+                                      18222        54116           0     0     0  54116  18222  0.000000  1.000000  0.748099         0.000000
