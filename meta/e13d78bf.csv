@@ -164,7 +164,6 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 11537220,6c421e82,GitHub,e13d78bf,data/e13d78bf/test/6c421e82,47,47,T,22,76,,,Bearer Authorization:Auth
 11537221,74107ad8,GitHub,e13d78bf,data/e13d78bf/example/docs/74107ad8.c,56,56,T,16,52,,,UUID
 11537222,1567dfa2,GitHub,e13d78bf,data/e13d78bf/test/1567dfa2,60,60,F,91,123,,,Nonce
-
 11537559,83ef9380,GitHub,e13d78bf,data/e13d78bf/test/83ef9380,17,17,F,20,24,,,Auth
 11537560,83ef9380,GitHub,e13d78bf,data/e13d78bf/test/83ef9380,30,30,F,22,26,,,Auth
 11537561,1536d0d4,GitHub,e13d78bf,data/e13d78bf/test/1536d0d4,17,17,F,18,32,,,Auth
@@ -231,29 +230,25 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 11537691,34d86ede,GitHub,e13d78bf,data/e13d78bf/test/34d86ede,44,44,F,22,26,,,Auth
 11537692,34d86ede,GitHub,e13d78bf,data/e13d78bf/test/34d86ede,91,91,F,164,169,,,Password
 11537693,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,355,355,F,13,21,,,URL Credentials
-11537694,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,377,377,F,17,25,,,URL Credentials
-11537695,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,379,379,F,17,25,,,URL Credentials
-11537696,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,381,381,F,17,25,,,URL Credentials
-11537697,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,390,390,F,18,26,,,URL Credentials
-11537698,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,392,392,F,17,25,,,URL Credentials
-11537699,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,396,396,F,17,25,,,URL Credentials
-11537700,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,408,408,F,17,25,,,URL Credentials
+11537694,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,377,377,F,,,,,URL Credentials:Password
+11537695,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,379,379,F,,,,,URL Credentials:Password
+11537696,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,381,381,F,,,,,URL Credentials:Password
+11537697,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,390,390,F,,,,,URL Credentials:Password
+11537698,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,392,392,F,,,,,URL Credentials:Password
+11537699,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,396,396,F,,,,,URL Credentials:Password
+11537700,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,408,408,F,,,,,URL Credentials:Password
 11537701,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,596,596,F,,,,,URL Credentials:Password
 11537702,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,600,600,F,,,,,URL Credentials:Password
 11537704,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,604,604,F,,,,,URL Credentials:Password
-11537706,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,608,608,F,36,68,,,Password
-11537707,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,612,612,F,39,64,,,Password
+11537706,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,608,608,F,,,,,URL Credentials:Password
+11537707,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,612,612,F,,,,,URL Credentials:Password
 11537708,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,619,619,F,18,26,,,URL Credentials
-11537709,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,660,660,F,17,24,,,URL Credentials
-11537710,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,660,660,F,54,61,,,URL Credentials
-11537711,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,678,678,F,12,20,,,URL Credentials
-11537712,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,678,678,F,45,53,,,URL Credentials
+11537709,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,660,660,F,,,,,URL Credentials
+11537711,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,678,678,F,,,,,URL Credentials
 11537713,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,961,961,F,17,21,,,URL Credentials
 11537714,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,968,968,F,12,20,,,URL Credentials
-11537715,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,985,985,F,16,24,,,URL Credentials
-11537716,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,985,985,F,37,62,,,Password
-11537717,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,986,986,F,16,24,,,URL Credentials
-11537718,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,986,986,F,37,62,,,Password
+11537715,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,985,985,F,,,,,URL Credentials:Password
+11537717,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,986,986,F,,,,,URL Credentials:Password
 11537719,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,1234,1234,F,17,23,,,URL Credentials
 11537720,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,1255,1255,F,16,26,,,URL Credentials
 11537721,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,1257,1257,T,17,33,,,URL Credentials
@@ -261,8 +256,8 @@ Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,Valu
 11537723,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,1261,1261,F,17,23,,,URL Credentials
 11537724,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,1429,1429,F,16,20,,,URL Credentials
 11537725,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,1430,1430,F,20,24,,,URL Credentials
-11537726,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,1435,1435,F,17,21,,,URL Credentials
-11537727,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,1436,1436,F,21,25,,,URL Credentials
+11537726,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,1435,1435,F,,,,,URL Credentials:Password
+11537727,67301bd1,GitHub,e13d78bf,data/e13d78bf/test/lib/67301bd1.c,1436,1436,F,,,,,URL Credentials:Password
 11537743,3fe76704,GitHub,e13d78bf,data/e13d78bf/test/3fe76704,27,27,F,22,26,,,Auth
 11537744,f0232b8d,GitHub,e13d78bf,data/e13d78bf/test/f0232b8d,22,22,F,20,24,,,Auth
 11537745,f0232b8d,GitHub,e13d78bf,data/e13d78bf/test/f0232b8d,39,39,F,22,26,,,Auth
