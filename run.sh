@@ -1,6 +1,6 @@
 #!/bin/bash
-set -e
-set -x
+
+set -ex
 
 THISDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" > /dev/null 2>&1 && pwd )"
 
