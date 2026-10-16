@@ -257,7 +257,7 @@ It may be difficult to check the license of an existing project due to obfuscati
 
 ## Benchmark
 ### Main Requirements
-- Python 3.10 or higher (required because the implementation uses Python's `match`/`case` syntax, introduced in Python 3.10).
+- Python 3.11 or higher (required by the current supported CredSweeper dependency).
 
 ### Installation
 ``` bash
