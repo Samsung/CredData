@@ -10,7 +10,7 @@ if [ -z "${VIRTUAL_ENV}" ]; then
     echo "Virtual environment has been not activated"
     if ! [ -d "${THISDIR}/${VENVDIR}" ]; then
         echo "Create new virtual environment"
-        python3.10 -m virtualenv -v --copies "${THISDIR}/${VENVDIR}"
+        python3.11 -m virtualenv -v --copies "${THISDIR}/${VENVDIR}"
     fi
 fi
 
