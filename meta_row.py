@@ -9,8 +9,9 @@ from constants import ALLOWED_LABELS, OTHER_CATEGORY
 
 
 def _get_annotations(cls) -> dict[str, Any]:
-    # annotationlib is available in Python 3.14 and newer
+    # may be removed when 3.13 support ends
     if sys.version_info >= (3, 14):
+        # annotationlib is available in Python 3.14 and newer
         import annotationlib
         return annotationlib.get_annotations(cls.__class__)
     return cls.__annotations__
