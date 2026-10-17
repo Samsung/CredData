@@ -257,7 +257,7 @@ It may be difficult to check the license of an existing project due to obfuscati
 
 ## Benchmark
 ### Main Requirements
-- Python3.9 or higher
+- Python 3.11 or higher (required by the current supported CredSweeper dependency).
 
 ### Installation
 ``` bash
