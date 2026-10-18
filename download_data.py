@@ -12,7 +12,6 @@ import sys
 from argparse import ArgumentParser, Namespace
 from multiprocessing import Pool
 from typing import Any, Dict, Tuple
-from urllib.parse import urlsplit
 
 from meta_row import read_meta
 from obfuscate_creds import obfuscate_creds
@@ -48,35 +47,6 @@ def get_file_scope(path_without_extension: str):
     return result
 
 
-def validate_github_repo_url(repo_url: str) -> None:
-    """Accept only standard HTTPS GitHub repository URLs."""
-    if not isinstance(repo_url, str):
-        raise ValueError("Repository URL must be a string")
-
-    parsed = urlsplit(repo_url)
-    parts = parsed.path.strip("/").split("/")
-
-    if (
-        parsed.scheme != "https"
-        or parsed.netloc != "github.com"
-        or parsed.query
-        or parsed.fragment
-        or len(parts) != 2
-    ):
-        raise ValueError(f"Invalid GitHub repository URL: {repo_url!r}")
-
-    owner, repo = parts
-    if repo.endswith(".git"):
-        repo = repo[:-4]
-
-    if (
-        not re.fullmatch(r"[A-Za-z0-9-]+", owner)
-        or not re.fullmatch(r"[A-Za-z0-9_.-]+", repo)
-        or repo in {".", ".."}
-    ):
-        raise ValueError(f"Invalid GitHub repository URL: {repo_url!r}")
-
-
 def collect_licenses(repo_id):
     license_files = list(pathlib.Path(f"{TMP_DIR}/{repo_id}").glob("*LICEN*"))
     license_files += list(pathlib.Path(f"{TMP_DIR}/{repo_id}").glob("*Licen*"))
@@ -106,7 +76,8 @@ def download_and_check(repo_data: Tuple[Any, Any]):
     commit_sha = repo_id[:40]
     if not re.fullmatch(r"[0-9a-f]{40}", commit_sha):
         raise ValueError(f"Invalid commit SHA: {commit_sha!r}")
-    validate_github_repo_url(repo_url)
+    if not isinstance(repo_url, str):
+        raise ValueError("Repository URL must be a string")
 
     repo_dir = os.path.realpath(f"{TMP_DIR}/{repo_id}")
 
