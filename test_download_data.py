@@ -5,11 +5,7 @@ from pathlib import Path
 
 from unittest.mock import patch
 
-from download_data import (
-    download_and_check,
-    get_file_scope,
-    validate_github_repo_url,
-)
+from download_data import download_and_check, get_file_scope
 
 
 class DownloadTest(unittest.TestCase):
@@ -39,46 +35,11 @@ class DownloadTest(unittest.TestCase):
         # /_/ should not present in a path with a known word
         self.assertNotIn('/_/', get_file_scope(f"/X3/{random.choice(words)}"))
 
-    def test_validate_github_repo_url(self):
-        valid_urls = [
-            "https://github.com/Samsung/CredData",
-            "https://github.com/Samsung/CredData.git",
-        ]
-        invalid_urls = [
-            "http://github.com/owner/repo",
-            "https://evil.example/owner/repo",
-            "https://github.com/owner/repo/extra",
-            "https://github.com/owner/repo;touch",
-            "https://github.com/owner/repo?next=evil",
-        ]
-
-        for url in valid_urls:
-            with self.subTest(url=url):
-                validate_github_repo_url(url)
-
-        for url in invalid_urls:
-            with self.subTest(url=url):
-                with self.assertRaises(ValueError):
-                    validate_github_repo_url(url)
-
-    @patch("download_data.subprocess.run")
-    def test_malicious_url_is_rejected_before_git(self, mock_run):
-        malicious_url = (
-            "https://github.com/owner/repo;"
-            " touch /tmp/creddata-pwned"
-        )
-        repo_id = "a" * 40 + "0" * 24
-
-        with self.assertRaises(ValueError):
-            download_and_check((repo_id, malicious_url))
-
-        mock_run.assert_not_called()
-
     @patch("download_data.os.path.exists", return_value=False)
     @patch("download_data.shutil.rmtree")
     @patch("download_data.os.mkdir")
     @patch("download_data.subprocess.run")
-    def test_git_commands_use_argument_lists(
+    def test_git_urls_are_passed_as_arguments(
         self,
         mock_run,
         mock_mkdir,
@@ -86,13 +47,28 @@ class DownloadTest(unittest.TestCase):
         mock_exists,
     ):
         repo_id = "a" * 40 + "0" * 24
+        repo_urls = [
+            "https://github.com/owner/repo",
+            "https://github.com/owner/repo.git",
+            "ssh://git@github.com/owner/repo.git",
+            "git@github.com:owner/repo.git",
+            "git://github.com/owner/repo.git",
+            "https://github.com/owner/repo; touch /tmp/creddata-pwned",
+        ]
 
-        download_and_check(
-            (repo_id, "https://github.com/owner/repo")
-        )
+        for repo_url in repo_urls:
+            with self.subTest(repo_url=repo_url):
+                mock_run.reset_mock()
+                download_and_check((repo_id, repo_url))
 
-        self.assertTrue(mock_run.call_args_list)
-        for call in mock_run.call_args_list:
-            self.assertIsInstance(call.args[0], list)
-            self.assertNotIn("shell", call.kwargs)
+                remote_add_commands = [
+                    call.args[0]
+                    for call in mock_run.call_args_list
+                    if call.args[0][:3] == ["git", "remote", "add"]
+                ]
+                self.assertEqual(len(remote_add_commands), 1)
+                self.assertEqual(remote_add_commands[0][4], repo_url)
 
+                for call in mock_run.call_args_list:
+                    self.assertIsInstance(call.args[0], list)
+                    self.assertNotIn("shell", call.kwargs)
