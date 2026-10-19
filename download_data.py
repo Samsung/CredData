@@ -11,7 +11,7 @@ import subprocess
 import sys
 from argparse import ArgumentParser, Namespace
 from multiprocessing import Pool
-from typing import Any, Dict, Tuple
+from typing import Dict, Tuple
 
 from meta_row import read_meta
 from obfuscate_creds import obfuscate_creds
@@ -59,7 +59,7 @@ def collect_licenses(repo_id):
     return license_files
 
 
-def download_and_check(repo_data: Tuple[Any, Any]):
+def download_and_check(repo_data: Tuple[str, str]):
     """Download one Git repository or reuse an existing checkout."""
     logger.info(f"Check {repo_data}")
 
@@ -68,7 +68,7 @@ def download_and_check(repo_data: Tuple[Any, Any]):
 
     # Snapshot data is external input. Validate it before invoking Git or
     # using the identifier to construct a filesystem path.
-    if not isinstance(repo_id, str) or not re.fullmatch(r"[0-9a-f]+", repo_id):
+    if not isinstance(repo_id, str) or not re.fullmatch(r"[0-9a-f]{64}", repo_id):
         raise ValueError(f"Invalid repository ID: {repo_id!r}")
     if len(repo_id) % 2 != 0:
         raise ValueError(f"Invalid repository ID: {repo_id!r}")
@@ -76,8 +76,6 @@ def download_and_check(repo_data: Tuple[Any, Any]):
     commit_sha = repo_id[:40]
     if not re.fullmatch(r"[0-9a-f]{40}", commit_sha):
         raise ValueError(f"Invalid commit SHA: {commit_sha!r}")
-    if not isinstance(repo_url, str):
-        raise ValueError("Repository URL must be a string")
 
     repo_dir = os.path.realpath(f"{TMP_DIR}/{repo_id}")
 
@@ -103,9 +101,7 @@ def download_and_check(repo_data: Tuple[Any, Any]):
                 )
                 return
 
-            logger.info(
-                f"Existing checkout has local changes; recreating {repo_dir}"
-            )
+            logger.info(f"Existing checkout has local changes; recreating {repo_dir}")
     except subprocess.CalledProcessError:
         logger.info(f"Downloading {repo_url} to {repo_dir}")
 
