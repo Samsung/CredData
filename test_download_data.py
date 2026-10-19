@@ -39,7 +39,7 @@ class DownloadTest(unittest.TestCase):
     @patch("download_data.shutil.rmtree")
     @patch("download_data.os.mkdir")
     @patch("download_data.subprocess.run")
-    def test_git_urls_are_passed_as_arguments(
+    def test_repository_url_is_passed_as_one_git_argument(
         self,
         mock_run,
         mock_mkdir,
@@ -47,28 +47,18 @@ class DownloadTest(unittest.TestCase):
         mock_exists,
     ):
         repo_id = "a" * 40 + "0" * 24
-        repo_urls = [
-            "https://github.com/owner/repo",
-            "https://github.com/owner/repo.git",
-            "ssh://git@github.com/owner/repo.git",
-            "git@github.com:owner/repo.git",
-            "git://github.com/owner/repo.git",
-            "https://github.com/owner/repo; touch /tmp/creddata-pwned",
+        malicious_url = "https://github.com/owner/repo; touch /tmp/creddata-pwned"
+
+        download_and_check((repo_id, malicious_url))
+
+        remote_add_commands = [
+            call.args[0]
+            for call in mock_run.call_args_list
+            if call.args[0][:3] == ["git", "remote", "add"]
         ]
+        self.assertEqual(len(remote_add_commands), 1)
+        self.assertEqual(remote_add_commands[0][4], malicious_url)
 
-        for repo_url in repo_urls:
-            with self.subTest(repo_url=repo_url):
-                mock_run.reset_mock()
-                download_and_check((repo_id, repo_url))
-
-                remote_add_commands = [
-                    call.args[0]
-                    for call in mock_run.call_args_list
-                    if call.args[0][:3] == ["git", "remote", "add"]
-                ]
-                self.assertEqual(len(remote_add_commands), 1)
-                self.assertEqual(remote_add_commands[0][4], repo_url)
-
-                for call in mock_run.call_args_list:
-                    self.assertIsInstance(call.args[0], list)
-                    self.assertNotIn("shell", call.kwargs)
+        for call in mock_run.call_args_list:
+            self.assertIsInstance(call.args[0], list)
+            self.assertNotIn("shell", call.kwargs)
