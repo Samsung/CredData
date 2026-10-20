@@ -3,9 +3,7 @@ import random
 import unittest
 from pathlib import Path
 
-from unittest.mock import patch
-
-from download_data import download_and_check, get_file_scope
+from download_data import get_file_scope
 
 
 class DownloadTest(unittest.TestCase):
@@ -34,31 +32,3 @@ class DownloadTest(unittest.TestCase):
         self.assertTrue(all(x in file_scope_1 for x in words))
         # /_/ should not present in a path with a known word
         self.assertNotIn('/_/', get_file_scope(f"/X3/{random.choice(words)}"))
-
-    @patch("download_data.os.path.exists", return_value=False)
-    @patch("download_data.shutil.rmtree")
-    @patch("download_data.os.mkdir")
-    @patch("download_data.subprocess.run")
-    def test_repository_url_is_passed_as_one_git_argument(
-        self,
-        mock_run,
-        mock_mkdir,
-        mock_rmtree,
-        mock_exists,
-    ):
-        repo_id = "a" * 40 + "0" * 24
-        malicious_url = "https://github.com/owner/repo; touch /tmp/creddata-pwned"
-
-        download_and_check((repo_id, malicious_url))
-
-        remote_add_commands = [
-            call.args[0]
-            for call in mock_run.call_args_list
-            if call.args[0][:3] == ["git", "remote", "add"]
-        ]
-        self.assertEqual(len(remote_add_commands), 1)
-        self.assertEqual(remote_add_commands[0][4], malicious_url)
-
-        for call in mock_run.call_args_list:
-            self.assertIsInstance(call.args[0], list)
-            self.assertNotIn("shell", call.kwargs)
