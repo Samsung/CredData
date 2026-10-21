@@ -5,12 +5,13 @@ import json
 import logging
 import os
 import pathlib
+import re
 import shutil
 import subprocess
 import sys
-from argparse import Namespace, ArgumentParser
+from argparse import ArgumentParser, Namespace
 from multiprocessing import Pool
-from typing import Tuple, Any, Dict
+from typing import Dict, Tuple
 
 from meta_row import read_meta
 from obfuscate_creds import obfuscate_creds
@@ -58,35 +59,60 @@ def collect_licenses(repo_id):
     return license_files
 
 
-def download_and_check(repo_data: Tuple[Any, Any]):
-    """download one git repo or fetch from remote if exists"""
+def download_and_check(repo_data: Tuple[str, str]):
+    """Download one Git repository or reuse an existing checkout."""
     logger.info(f"Check {repo_data}")
+
     repo_id = repo_data[0]
-    commit_sha = repo_id[:40]
     repo_url = repo_data[1]
+
+    # Validate the repository ID before using it to construct a filesystem path.
+    if not isinstance(repo_id, str) or not re.fullmatch(r"[0-9a-f]{64}", repo_id):
+        raise ValueError(f"Invalid repository ID: {repo_id!r}")
+
+    commit_sha = repo_id[:40]
+
     repo_dir = os.path.realpath(f"{TMP_DIR}/{repo_id}")
 
     try:
         if os.path.exists(repo_dir):
-            for test_step in [f"git checkout {commit_sha}", 'if [ -n "$(git status --porcelain)" ]; then exit 1; fi']:
-                subprocess.check_call(test_step, cwd=repo_dir, shell=True)
-            logger.info(f"Downloaded and checkout already {repo_url} {commit_sha}")
-            return
+            subprocess.run(
+                ["git", "checkout", commit_sha],
+                cwd=repo_dir,
+                check=True,
+            )
+
+            status_result = subprocess.run(
+                ["git", "status", "--porcelain"],
+                cwd=repo_dir,
+                check=True,
+                capture_output=True,
+                text=True,
+            )
+
+            if not status_result.stdout.strip():
+                logger.info(f"Downloaded and checkout already {repo_url} {commit_sha}")
+                return
+
+            logger.info(f"Existing checkout has local changes; recreating {repo_dir}")
     except subprocess.CalledProcessError:
         logger.info(f"Downloading {repo_url} to {repo_dir}")
 
     try:
         shutil.rmtree(repo_dir, ignore_errors=True)
         os.mkdir(repo_dir)
-        for checkout_step in [
-            "git init",
-            "git config advice.detachedHead false",
-            f"git remote add origin {repo_url}",
-            f"git fetch --depth 1 origin {commit_sha}",
-            f"git checkout {commit_sha}",
-            "git --no-pager log -1",
-        ]:
-            subprocess.check_call(checkout_step, cwd=repo_dir, shell=True)
+
+        checkout_steps = [
+            ["git", "init"],
+            ["git", "config", "advice.detachedHead", "false"],
+            ["git", "remote", "add", "origin", repo_url],
+            ["git", "fetch", "--depth", "1", "origin", commit_sha],
+            ["git", "checkout", commit_sha],
+            ["git", "--no-pager", "log", "-1"],
+        ]
+        for command in checkout_steps:
+            subprocess.run(command, cwd=repo_dir, check=True)
+
         logger.info(f"Downloaded {repo_url} {commit_sha}")
     except subprocess.CalledProcessError:
         logger.exception(f"Couldn't checkout repo {repo_data}", stack_info=True)
