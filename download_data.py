@@ -1,8 +1,8 @@
 import binascii
-import functools
 import hashlib
 import json
 import logging
+import mimetypes
 import os
 import pathlib
 import re
@@ -23,20 +23,17 @@ logger = logging.getLogger(__file__)
 
 TMP_DIR = "tmp"
 
+ALLOWED_EXTENSIONS_CONFIG_PATH = pathlib.Path(__file__).parent / "allowed_extensions.json"
+ALLOWED_EXTENSIONS = json.loads(ALLOWED_EXTENSIONS_CONFIG_PATH.read_text())
 
-@functools.cache
-def get_words_in_path():
-    # json format is used to prevent strings concatenation in python without comma in multiline
-    with open("word_in_path.json") as f:
-        # the file should be the same list in CredSweeper ml_config
-        result = json.load(f)
-    return result
+WORD_IN_PATH_CONFIG_PATH = pathlib.Path(__file__).parent / "word_in_path.json"
+WORD_IN_PATH = json.loads(WORD_IN_PATH_CONFIG_PATH.read_text())
 
 
 def get_file_scope(path_without_extension: str):
     result = '/'
     local_file_path_lower = f"./{path_without_extension.lower()}"
-    for word in get_words_in_path():
+    for word in WORD_IN_PATH:
         if word in local_file_path_lower:
             result += word[1:] if word.startswith('/') else word
             if not result.endswith('/'):
@@ -142,6 +139,7 @@ def get_new_repo_id(repo_id: str) -> str:
 def move_files(snapshot_data: dict, dataset_dir: str):
     """Select files with credential candidates. Files without candidates is omitted"""
     os.makedirs(dataset_dir, exist_ok=True)
+    unknown_suffixes = set()
     missing_repos = []
     for i, (repo_id, repo_url) in enumerate(snapshot_data.items()):
         new_repo_id = get_new_repo_id(repo_id)
@@ -156,6 +154,8 @@ def move_files(snapshot_data: dict, dataset_dir: str):
             key = row.FileID
             file_path = row.FilePath
             assert not file_path.endswith(".xml"), f"xml parsing breaks raw text numeration {file_path}"
+            if pathlib.Path(file_path).suffix not in ALLOWED_EXTENSIONS and not mimetypes.guess_type(file_path)[0]:
+                unknown_suffixes.add(pathlib.Path(file_path).suffix)
             if key in interesting_files:
                 # check correctness
                 assert interesting_files[key] == file_path, f"Wrong markup: {row}"
@@ -236,6 +236,10 @@ def move_files(snapshot_data: dict, dataset_dir: str):
             else:
                 shutil.copy(license_location, f"{dataset_dir}/{new_repo_id}/{name}")
                 logger.debug("COPIED FILE: %s -> %s", license_location, f"{dataset_dir}/{new_repo_id}/{name}")
+
+    # not an error, just info for ML training
+    if unknown_suffixes:
+        logger.info("Suffixes not in allowed extensions: %s ", [','.join(f'"{x}"' for x in unknown_suffixes)])
 
     return missing_repos
 
