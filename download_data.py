@@ -1,16 +1,17 @@
 import binascii
-import functools
 import hashlib
 import json
 import logging
+import mimetypes
 import os
 import pathlib
+import re
 import shutil
 import subprocess
 import sys
-from argparse import Namespace, ArgumentParser
+from argparse import ArgumentParser, Namespace
 from multiprocessing import Pool
-from typing import Tuple, Any, Dict
+from typing import Dict, Tuple
 
 from meta_row import read_meta
 from obfuscate_creds import obfuscate_creds
@@ -22,20 +23,17 @@ logger = logging.getLogger(__file__)
 
 TMP_DIR = "tmp"
 
+ALLOWED_EXTENSIONS_CONFIG_PATH = pathlib.Path(__file__).parent / "allowed_extensions.json"
+ALLOWED_EXTENSIONS = json.loads(ALLOWED_EXTENSIONS_CONFIG_PATH.read_text())
 
-@functools.cache
-def get_words_in_path():
-    # json format is used to prevent strings concatenation in python without comma in multiline
-    with open("word_in_path.json") as f:
-        # the file should be the same list in CredSweeper ml_config
-        result = json.load(f)
-    return result
+WORD_IN_PATH_CONFIG_PATH = pathlib.Path(__file__).parent / "word_in_path.json"
+WORD_IN_PATH = json.loads(WORD_IN_PATH_CONFIG_PATH.read_text())
 
 
 def get_file_scope(path_without_extension: str):
     result = '/'
     local_file_path_lower = f"./{path_without_extension.lower()}"
-    for word in get_words_in_path():
+    for word in WORD_IN_PATH:
         if word in local_file_path_lower:
             result += word[1:] if word.startswith('/') else word
             if not result.endswith('/'):
@@ -58,35 +56,60 @@ def collect_licenses(repo_id):
     return license_files
 
 
-def download_and_check(repo_data: Tuple[Any, Any]):
-    """download one git repo or fetch from remote if exists"""
+def download_and_check(repo_data: Tuple[str, str]):
+    """Download one Git repository or reuse an existing checkout."""
     logger.info(f"Check {repo_data}")
+
     repo_id = repo_data[0]
-    commit_sha = repo_id[:40]
     repo_url = repo_data[1]
+
+    # Validate the repository ID before using it to construct a filesystem path.
+    if not isinstance(repo_id, str) or not re.fullmatch(r"[0-9a-f]{64}", repo_id):
+        raise ValueError(f"Invalid repository ID: {repo_id!r}")
+
+    commit_sha = repo_id[:40]
+
     repo_dir = os.path.realpath(f"{TMP_DIR}/{repo_id}")
 
     try:
         if os.path.exists(repo_dir):
-            for test_step in [f"git checkout {commit_sha}", 'if [ -n "$(git status --porcelain)" ]; then exit 1; fi']:
-                subprocess.check_call(test_step, cwd=repo_dir, shell=True)
-            logger.info(f"Downloaded and checkout already {repo_url} {commit_sha}")
-            return
+            subprocess.run(
+                ["git", "checkout", commit_sha],
+                cwd=repo_dir,
+                check=True,
+            )
+
+            status_result = subprocess.run(
+                ["git", "status", "--porcelain"],
+                cwd=repo_dir,
+                check=True,
+                capture_output=True,
+                text=True,
+            )
+
+            if not status_result.stdout.strip():
+                logger.info(f"Downloaded and checkout already {repo_url} {commit_sha}")
+                return
+
+            logger.info(f"Existing checkout has local changes; recreating {repo_dir}")
     except subprocess.CalledProcessError:
         logger.info(f"Downloading {repo_url} to {repo_dir}")
 
     try:
         shutil.rmtree(repo_dir, ignore_errors=True)
         os.mkdir(repo_dir)
-        for checkout_step in [
-            "git init",
-            "git config advice.detachedHead false",
-            f"git remote add origin {repo_url}",
-            f"git fetch --depth 1 origin {commit_sha}",
-            f"git checkout {commit_sha}",
-            "git --no-pager log -1",
-        ]:
-            subprocess.check_call(checkout_step, cwd=repo_dir, shell=True)
+
+        checkout_steps = [
+            ["git", "init"],
+            ["git", "config", "advice.detachedHead", "false"],
+            ["git", "remote", "add", "origin", repo_url],
+            ["git", "fetch", "--depth", "1", "origin", commit_sha],
+            ["git", "checkout", commit_sha],
+            ["git", "--no-pager", "log", "-1"],
+        ]
+        for command in checkout_steps:
+            subprocess.run(command, cwd=repo_dir, check=True)
+
         logger.info(f"Downloaded {repo_url} {commit_sha}")
     except subprocess.CalledProcessError:
         logger.exception(f"Couldn't checkout repo {repo_data}", stack_info=True)
@@ -116,6 +139,7 @@ def get_new_repo_id(repo_id: str) -> str:
 def move_files(snapshot_data: dict, dataset_dir: str):
     """Select files with credential candidates. Files without candidates is omitted"""
     os.makedirs(dataset_dir, exist_ok=True)
+    unknown_suffixes = set()
     missing_repos = []
     for i, (repo_id, repo_url) in enumerate(snapshot_data.items()):
         new_repo_id = get_new_repo_id(repo_id)
@@ -130,6 +154,8 @@ def move_files(snapshot_data: dict, dataset_dir: str):
             key = row.FileID
             file_path = row.FilePath
             assert not file_path.endswith(".xml"), f"xml parsing breaks raw text numeration {file_path}"
+            if pathlib.Path(file_path).suffix not in ALLOWED_EXTENSIONS and not mimetypes.guess_type(file_path)[0]:
+                unknown_suffixes.add(pathlib.Path(file_path).suffix)
             if key in interesting_files:
                 # check correctness
                 assert interesting_files[key] == file_path, f"Wrong markup: {row}"
@@ -210,6 +236,10 @@ def move_files(snapshot_data: dict, dataset_dir: str):
             else:
                 shutil.copy(license_location, f"{dataset_dir}/{new_repo_id}/{name}")
                 logger.debug("COPIED FILE: %s -> %s", license_location, f"{dataset_dir}/{new_repo_id}/{name}")
+
+    # not an error, just info for ML training
+    if unknown_suffixes:
+        logger.info("Suffixes not in allowed extensions: %s ", [','.join(f'"{x}"' for x in unknown_suffixes)])
 
     return missing_repos
 
