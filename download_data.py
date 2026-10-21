@@ -69,12 +69,8 @@ def download_and_check(repo_data: Tuple[str, str]):
     # Validate the repository ID before using it to construct a filesystem path.
     if not isinstance(repo_id, str) or not re.fullmatch(r"[0-9a-f]{64}", repo_id):
         raise ValueError(f"Invalid repository ID: {repo_id!r}")
-    if len(repo_id) % 2 != 0:
-        raise ValueError(f"Invalid repository ID: {repo_id!r}")
 
     commit_sha = repo_id[:40]
-    if not re.fullmatch(r"[0-9a-f]{40}", commit_sha):
-        raise ValueError(f"Invalid commit SHA: {commit_sha!r}")
 
     repo_dir = os.path.realpath(f"{TMP_DIR}/{repo_id}")
 
