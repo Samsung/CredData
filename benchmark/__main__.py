@@ -10,7 +10,7 @@ SCANNER_LIST = [
 def get_arguments() -> Namespace:
     parser = ArgumentParser(prog="python -m benchmark")
     parser.add_argument("--scanner",
-                        nargs="?",
+                        choices=SCANNER_LIST,
                         help=f"scanner name to benchmark (support: {SCANNER_LIST})",
                         dest="scanner",
                         metavar="SCANNER",
@@ -27,10 +27,7 @@ def get_arguments() -> Namespace:
 def main() -> None:
     args = get_arguments()
     benchmark = Benchmark()
-    if args.scanner in SCANNER_LIST:
-        benchmark.run(args.scanner, args.load, args.fix)
-    else:
-        print(f"Please check scanner name (support: {SCANNER_LIST})")
+    benchmark.run(args.scanner, args.load, args.fix)
 
 
 if __name__ == "__main__":
