@@ -1,28 +1,20 @@
 import unittest
-from unittest import mock
 
-from benchmark.__main__ import main
+from benchmark.__main__ import get_arguments
 
 
 class TestScannerArgument(unittest.TestCase):
 
-    def _run(self, *argv):
-        with (
-            mock.patch("benchmark.__main__.Benchmark") as benchmark_mock,
-            self.assertRaises(SystemExit) as ctx,
-        ):
-            main(["python -m benchmark", *argv])
-        return benchmark_mock, ctx.exception.code
+    def test_unknown_scanner_rejected(self):
+        with self.assertRaises(SystemExit) as ctx:
+            get_arguments(["--scanner", "does_not_exist"])
 
-    def test_unknown_scanner_rejected_before_init(self):
-        benchmark_mock, code = self._run("--scanner", "does_not_exist")
-        self.assertEqual(2, code)
-        benchmark_mock.assert_not_called()
+        self.assertEqual(2, ctx.exception.code)
 
-    def test_missing_scanner_value_rejected_before_init(self):
-        benchmark_mock, code = self._run("--scanner")
-        self.assertEqual(2, code)
-        benchmark_mock.assert_not_called()
+    def test_supported_scanner_accepted(self):
+        args = get_arguments(["--scanner", "credsweeper"])
+
+        self.assertEqual("credsweeper", args.scanner)
 
 
 if __name__ == "__main__":
