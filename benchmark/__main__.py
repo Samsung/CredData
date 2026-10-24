@@ -1,3 +1,4 @@
+import sys
 from argparse import ArgumentParser, Namespace
 
 from benchmark.app import Benchmark
@@ -7,10 +8,10 @@ SCANNER_LIST = [
 ]
 
 
-def get_arguments() -> Namespace:
+def get_arguments(argv: list[str]) -> Namespace:
     parser = ArgumentParser(prog="python -m benchmark")
     parser.add_argument("--scanner",
-                        nargs="?",
+                        choices=SCANNER_LIST,
                         help=f"scanner name to benchmark (support: {SCANNER_LIST})",
                         dest="scanner",
                         metavar="SCANNER",
@@ -21,17 +22,14 @@ def get_arguments() -> Namespace:
     parser.add_argument("--fix",
                         help=f"add/update markup for unknown credetials",
                         action="store_true")
-    return parser.parse_args()
+    return parser.parse_args(argv)
 
 
-def main() -> None:
-    args = get_arguments()
+def main(argv: list[str]) -> None:
+    args = get_arguments(argv[1:])
     benchmark = Benchmark()
-    if args.scanner in SCANNER_LIST:
-        benchmark.run(args.scanner, args.load, args.fix)
-    else:
-        print(f"Please check scanner name (support: {SCANNER_LIST})")
+    benchmark.run(args.scanner, args.load, args.fix)
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main(sys.argv))
