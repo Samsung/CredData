@@ -14,7 +14,7 @@ from colorama import Fore, Style
 from benchmark.common import GitService, LineStatus, Result, ScannerType
 from benchmark.scanner.file_type_stat import FileTypeStat
 from benchmark.scanner.true_false_counter import TrueFalseCounter
-from constants import LABEL_FALSE, LABEL_TRUE
+from constants import LABEL_FALSE, LABEL_TRUE, OTHER_CATEGORY
 from meta_key import MetaKey
 from meta_row import _get_source_gen, MetaRow
 
@@ -282,73 +282,78 @@ class Scanner(ABC):
                              rule: str = "") -> Tuple[LineStatus, str, str]:
         self.result_cnt += 1
         data_path, repo_name, file_name, file_id = self.get_items_from_path(file_path)
-        # by default the cred is false positive
+
+        # A scanner without rule names cannot be assigned an empty metadata category.
+        # Use the project's explicit fallback category only when creating new metadata.
+        category = rule or OTHER_CATEGORY
         approximate = f"{self.meta_next_id},{file_id}" \
                       f",GitHub,{repo_name},{data_path}" \
                       f",{line_start},{line_end}" \
                       f",{LABEL_FALSE},{value_start},{value_end}" \
-                      f",,,{rule}"
-        lost_meta = MetaRow({
-            "Id": self.meta_next_id,
-            "FileID": file_id,
-            "Domain": "GitHub",
-            "RepoName": repo_name,
-            "FilePath": data_path,
-            "LineStart": line_start,
-            "LineEnd": line_end,
-            "GroundTruth": 'X',
-            "ValueStart": value_start,
-            "ValueEnd": value_end,
-            "CryptographyKey": '',
-            "PredefinedPattern": '',
-            "Category": rule
-        })
+                      f",,,{category}"
+        meta_key = MetaKey(data_path, line_start, line_end)
+        lost_meta = None
+        meta_handled = False
 
-        if not (rows := self.meta.get(MetaKey(data_path, line_start, line_end))):
+        def create_lost_meta() -> MetaRow:
+            # Construct lazily: MetaRow correctly rejects an empty Category.
+            return MetaRow({
+                "Id": self.meta_next_id,
+                "FileID": file_id,
+                "Domain": "GitHub",
+                "RepoName": repo_name,
+                "FilePath": data_path,
+                "LineStart": line_start,
+                "LineEnd": line_end,
+                "GroundTruth": 'X',
+                "ValueStart": value_start,
+                "ValueEnd": value_end,
+                "CryptographyKey": '',
+                "PredefinedPattern": '',
+                "Category": category,
+            })
+
+        if not (rows := self.meta.get(meta_key)):
             self.lost_cnt += 1
             print(f"NOT FOUND WITH KEY: {approximate}"
                   f"\n{Scanner.get_colored_line(file_path, line_start, line_end, value_start, value_end)}", flush=True)
             if self.fix:
-                with open(f"{self.cred_data_dir}/meta/{repo_name}.csv", "a") as f:
-                    f.write(f"{str(approximate)}\n")
-                self.meta[MetaKey(data_path, line_start, line_end)] = [lost_meta]
+                lost_meta = create_lost_meta()
+                with open(f"{self.cred_data_dir}/meta/{repo_name}.csv", "a", encoding="utf-8") as f:
+                    f.write(f"{approximate}\n")
+                self.meta[meta_key] = [lost_meta]
+                meta_handled = True
             self.meta_next_id += 1
             return LineStatus.NOT_IN_DB, repo_name, file_id
 
         suggestion = "LOST:"
         for row in rows:
-            # it means, all markups are the same file with line start-end
+            # It means all markups are in the same file and line range.
             if 0 > row.ValueStart and 0 > row.ValueEnd:
-                # the markup is for whole line - any value_start, value_end match
+                # The markup is for the whole line - any value_start/value_end match.
                 if LABEL_TRUE == row.GroundTruth and row.LineStart == row.LineEnd:
-                    # True markup has to be marked at least start value in single line
+                    # A true markup for a whole single line is unusual but valid.
                     print(f"WARNING True markup for whole line: {row}", flush=True)
-                pass
             elif row.ValueEnd < 0 <= row.ValueStart:
-                # the markup points only start value position
+                # The markup points only to a start position.
                 if 0 <= value_start and row.ValueStart != value_start:
-                    # start position must be matched if was given from a scanner (value_start=-1 means it is not)
                     continue
             elif row.LineStart == row.LineEnd and 0 <= row.ValueStart < row.ValueEnd \
                     or row.LineStart < row.LineEnd and 0 <= row.ValueStart and 0 <= row.ValueEnd:
                 # ! meta value_end may be less than start in multiline markup
                 suggestion = f"UNMATCH {row.ValueStart, row.ValueEnd}:"
-                # both markers are available
                 if 0 <= value_start and row.ValueStart != value_start:
-                    # given value_start does not match
                     continue
                 else:
                     suggestion = f"ALMOST {row.ValueStart, row.ValueEnd} {row.Category}:"
-                # or ...
                 if 0 <= value_end and row.ValueEnd != value_end:
-                    # for suggestion, padding for base64 encoded items
+                    # Allow a small difference for base64 encoded values when suggesting a match.
                     delta = 3
                     if row.ValueEnd - delta <= value_end <= row.ValueEnd + delta \
                             or value_end - delta <= row.ValueEnd <= value_end + delta:
                         suggestion = f"NEARBY {row.ValueStart, row.ValueEnd}"
-                    # given value_end does not match
                     continue
-                # all checks have passed - there is precisely matching value markup
+                # All checks passed: the value positions match.
             else:
                 print(f"WARNING: check meta value start-end {row}", flush=True)
                 continue
@@ -359,40 +364,57 @@ class Scanner(ABC):
                 if LABEL_TRUE == row.GroundTruth:
                     print(f"WARNING: Already checked True! Duplicate? {code}", flush=True)
                 return LineStatus.CHECKED, repo_name, file_name
-            else:
-                self.line_checker.add(code)
+            self.line_checker.add(code)
+
+            if not rule:
+                # Rule-less scanners report only a line (and sometimes value positions).
+                # Score the first position-compatible metadata row in metadata order. If
+                # that row has multiple categories, credit each category once; repeated
+                # identical findings are suppressed by line_checker above.
+                is_true = LABEL_TRUE == row.GroundTruth
+                for meta_rule in dict.fromkeys(row.Category.split(':')):
+                    self._increase_result_dict_cnt(meta_rule, is_true)
+                if is_true:
+                    self.true_cnt += 1
+                    return LineStatus.FALSE, repo_name, file_id
+                self.false_cnt += 1
+                return LineStatus.TRUE, repo_name, file_id
 
             for meta_rule in row.Category.split(':'):
-                # increase the counter only for corresponded rule mentioned in markup
+                # Preserve rule-based matching for scanners that provide a rule name.
                 if meta_rule == rule:
                     if LABEL_TRUE == row.GroundTruth:
                         self._increase_result_dict_cnt(meta_rule, True)
                         self.true_cnt += 1
                         return LineStatus.FALSE, repo_name, file_id
-                    else:
-                        # MetaRow class checks the correctness of row.GroundTruth
-                        self._increase_result_dict_cnt(meta_rule, False)
-                        self.false_cnt += 1
-                        return LineStatus.TRUE, repo_name, file_id
+                    # MetaRow validates GroundTruth; every non-TRUE label is FALSE.
+                    self._increase_result_dict_cnt(meta_rule, False)
+                    self.false_cnt += 1
+                    return LineStatus.TRUE, repo_name, file_id
             else:
                 print(f"WARNING: '{rule}' is not mentioned in {row}")
-                if self.fix:
+                if self.fix and not meta_handled:
+                    lost_meta = create_lost_meta()
                     subprocess.check_call(
                         ["sed", "-i",
-                         f"s|{row.Id},\\(.*\\)|{row.Id},\\1:{rule}|",
+                         rf"s|{row.Id},\(.*\)|{row.Id},\1:{rule}|",
                          f"{self.cred_data_dir}/meta/{row.RepoName}.csv"])
-                    self.meta[MetaKey(data_path, line_start, line_end)].append(lost_meta)
+                    self.meta[meta_key].append(lost_meta)
                     lost_meta = None
+                    meta_handled = True
 
-        # meta has no markup for given credential
+        # Metadata exists for this line, but none of its entries matched the positions/rule.
         self.lost_cnt += 1
         print(f"{suggestion} {approximate}"
               f"\n{Scanner.get_colored_line(file_path, line_start, line_end, value_start, value_end)}", flush=True)
+        # In fix mode, record unmatched detections. A rule-less result uses OTHER_CATEGORY,
+        # never an empty Category. A row already handled above is not written twice.
+        if self.fix and not meta_handled:
+            lost_meta = create_lost_meta()
+            with open(f"{self.cred_data_dir}/meta/{repo_name}.csv", "a", encoding="utf-8") as f:
+                f.write(f"{approximate}\n")
+            self.meta[meta_key].append(lost_meta)
         self.meta_next_id += 1
-        if lost_meta and self.fix:
-            with open(f"{self.cred_data_dir}/meta/{repo_name}.csv", "a") as f:
-                f.write(f"{str(approximate)}\n")
-            self.meta[MetaKey(data_path, line_start, line_end)].append(lost_meta)
         return LineStatus.NOT_IN_DB, repo_name, file_id
 
     def analyze_result(self) -> None:
