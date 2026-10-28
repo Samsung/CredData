@@ -282,9 +282,7 @@ class Scanner(ABC):
                              rule: str = "") -> Tuple[LineStatus, str, str]:
         self.result_cnt += 1
         data_path, repo_name, file_name, file_id = self.get_items_from_path(file_path)
-
-        # Keep metadata valid when the scanner has no rule name. "Other" is only
-        # a review category here; it must not be used to infer a benchmark match.
+        # by default the cred is false positive
         category = rule or OTHER_CATEGORY
         approximate = f"{self.meta_next_id},{file_id}" \
                       f",GitHub,{repo_name},{data_path}" \
@@ -305,22 +303,20 @@ class Scanner(ABC):
             "ValueEnd": value_end,
             "CryptographyKey": '',
             "PredefinedPattern": '',
-            "Category": category,
+            "Category": category
         })
         rows = self.meta.get(meta_key)
 
         if not rule:
             # Without a mapped rule, a finding cannot be attributed to a CredData
-            # category reliably. Record it as unscored instead of guessing from a
-            # line-level metadata match. In --fix mode, only unseen lines are added
-            # to the manual-review queue as "Other".
+            # category reliably. Keep it unscored for explicit scanner-specific mapping.
             code = (data_path, line_start, line_end, value_start, value_end, rule)
             if code in self.line_checker:
                 self.result_cnt -= 1
                 return LineStatus.CHECKED, repo_name, file_name
             self.line_checker.add(code)
             self.lost_cnt += 1
-            print(f"UNMAPPED RULE (not scored): {lost_meta}"
+            print(f"UNMAPPED RULE (not scored): {approximate}"
                   f"\n{Scanner.get_colored_line(file_path, line_start, line_end, value_start, value_end)}",
                   flush=True)
             if self.fix and not rows:
@@ -333,42 +329,48 @@ class Scanner(ABC):
         if not rows:
             self.lost_cnt += 1
             print(f"NOT FOUND WITH KEY: {approximate}"
-                  f"\n{Scanner.get_colored_line(file_path, line_start, line_end, value_start, value_end)}",
-                  flush=True)
+                  f"\n{Scanner.get_colored_line(file_path, line_start, line_end, value_start, value_end)}", flush=True)
             if self.fix:
-                with open(f"{self.cred_data_dir}/meta/{repo_name}.csv", "a", encoding="utf-8") as f:
-                    f.write(f"{approximate}\n")
+                with open(f"{self.cred_data_dir}/meta/{repo_name}.csv", "a") as f:
+                    f.write(f"{str(approximate)}\n")
                 self.meta[meta_key] = [lost_meta]
             self.meta_next_id += 1
             return LineStatus.NOT_IN_DB, repo_name, file_id
 
         suggestion = "LOST:"
         for row in rows:
-            # All markups in this group refer to the same file and line range.
+            # it means, all markups are the same file with line start-end
             if 0 > row.ValueStart and 0 > row.ValueEnd:
-                # The markup is for the whole line - any value_start/value_end match.
+                # the markup is for whole line - any value_start, value_end match
                 if LABEL_TRUE == row.GroundTruth and row.LineStart == row.LineEnd:
+                    # True markup has to be marked at least start value in single line
                     print(f"WARNING True markup for whole line: {row}", flush=True)
+                pass
             elif row.ValueEnd < 0 <= row.ValueStart:
-                # The markup points only to a start position.
+                # the markup points only start value position
                 if 0 <= value_start and row.ValueStart != value_start:
+                    # start position must be matched if was given from a scanner (value_start=-1 means it is not)
                     continue
             elif row.LineStart == row.LineEnd and 0 <= row.ValueStart < row.ValueEnd \
                     or row.LineStart < row.LineEnd and 0 <= row.ValueStart and 0 <= row.ValueEnd:
-                # A multiline value may have an end position before its start position.
+                # ! meta value_end may be less than start in multiline markup
                 suggestion = f"UNMATCH {row.ValueStart, row.ValueEnd}:"
+                # both markers are available
                 if 0 <= value_start and row.ValueStart != value_start:
+                    # given value_start does not match
                     continue
                 else:
                     suggestion = f"ALMOST {row.ValueStart, row.ValueEnd} {row.Category}:"
+                # or ...
                 if 0 <= value_end and row.ValueEnd != value_end:
-                    # Allow a small difference for base64 encoded values when suggesting a match.
+                    # for suggestion, padding for base64 encoded items
                     delta = 3
                     if row.ValueEnd - delta <= value_end <= row.ValueEnd + delta \
                             or value_end - delta <= row.ValueEnd <= value_end + delta:
                         suggestion = f"NEARBY {row.ValueStart, row.ValueEnd}"
+                    # given value_end does not match
                     continue
-                # All checks passed: the value positions match.
+                # all checks have passed - there is precisely matching value markup
             else:
                 print(f"WARNING: check meta value start-end {row}", flush=True)
                 continue
@@ -379,18 +381,21 @@ class Scanner(ABC):
                 if LABEL_TRUE == row.GroundTruth:
                     print(f"WARNING: Already checked True! Duplicate? {code}", flush=True)
                 return LineStatus.CHECKED, repo_name, file_name
-            self.line_checker.add(code)
+            else:
+                self.line_checker.add(code)
 
             for meta_rule in row.Category.split(':'):
+                # increase the counter only for corresponded rule mentioned in markup
                 if meta_rule == rule:
                     if LABEL_TRUE == row.GroundTruth:
                         self._increase_result_dict_cnt(meta_rule, True)
                         self.true_cnt += 1
                         return LineStatus.FALSE, repo_name, file_id
-                    # MetaRow validates GroundTruth; every non-TRUE label is FALSE.
-                    self._increase_result_dict_cnt(meta_rule, False)
-                    self.false_cnt += 1
-                    return LineStatus.TRUE, repo_name, file_id
+                    else:
+                        # MetaRow class checks the correctness of row.GroundTruth
+                        self._increase_result_dict_cnt(meta_rule, False)
+                        self.false_cnt += 1
+                        return LineStatus.TRUE, repo_name, file_id
             else:
                 print(f"WARNING: '{rule}' is not mentioned in {row}")
                 if self.fix and lost_meta is not None:
@@ -401,16 +406,15 @@ class Scanner(ABC):
                     self.meta[meta_key].append(lost_meta)
                     lost_meta = None
 
-        # Metadata exists for this line, but no entry matched the value positions/rule.
+        # meta has no markup for given credential
         self.lost_cnt += 1
         print(f"{suggestion} {approximate}"
-              f"\n{Scanner.get_colored_line(file_path, line_start, line_end, value_start, value_end)}",
-              flush=True)
-        if self.fix and lost_meta is not None:
-            with open(f"{self.cred_data_dir}/meta/{repo_name}.csv", "a", encoding="utf-8") as f:
-                f.write(f"{approximate}\n")
-            self.meta[meta_key].append(lost_meta)
+              f"\n{Scanner.get_colored_line(file_path, line_start, line_end, value_start, value_end)}", flush=True)
         self.meta_next_id += 1
+        if lost_meta is not None and self.fix:
+            with open(f"{self.cred_data_dir}/meta/{repo_name}.csv", "a") as f:
+                f.write(f"{str(approximate)}\n")
+            self.meta[meta_key].append(lost_meta)
         return LineStatus.NOT_IN_DB, repo_name, file_id
 
     def analyze_result(self) -> None:

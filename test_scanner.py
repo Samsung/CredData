@@ -10,7 +10,7 @@ from types import SimpleNamespace
 
 from benchmark.common import LineStatus
 from benchmark.scanner.scanner import Scanner
-from constants import LABEL_FALSE, LABEL_TRUE, OTHER_CATEGORY
+from constants import LABEL_TRUE, OTHER_CATEGORY
 from meta_key import MetaKey
 
 
