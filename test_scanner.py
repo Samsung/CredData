@@ -7,10 +7,8 @@ import tempfile
 import unittest
 from pathlib import Path
 from types import SimpleNamespace
-from unittest.mock import patch
 
 from benchmark.common import LineStatus
-from benchmark.scanner import scanner as scanner_module
 from benchmark.scanner.scanner import Scanner
 from constants import LABEL_FALSE, LABEL_TRUE, OTHER_CATEGORY
 from meta_key import MetaKey
@@ -96,42 +94,45 @@ class RulelessScannerTests(unittest.TestCase):
         self.addCleanup(self.temp_dir.cleanup)
         self.scanner = _make_scanner(self.temp_dir.name, [_make_row()])
 
-    def test_ruleless_detection_matches_existing_metadata(self):
-        self.scanner.meta[MetaKey(DATA_PATH, 10, 10)] = [
-            _make_row(category="Password:Token", ground_truth=LABEL_TRUE)
-        ]
+    def test_ruleless_detection_with_existing_metadata_is_not_scored(self):
+        row = _make_row(category="Password:Token", ground_truth=LABEL_TRUE)
+        self.scanner.meta[MetaKey(DATA_PATH, 10, 10)] = [row]
 
-        status, repo_name, file_id = self.scanner.check_line_from_meta(
-            FILE_PATH, 10, 10
-        )
+        status, repo_name, file_id = self.scanner.check_line_from_meta(FILE_PATH, 10, 10)
 
-        self.assertEqual(status, LineStatus.FALSE)
+        self.assertEqual(status, LineStatus.NOT_IN_DB)
         self.assertEqual((repo_name, file_id), ("repo", "file"))
-        self.assertEqual(self.scanner.true_cnt, 1)
+        self.assertEqual(self.scanner.true_cnt, 0)
         self.assertEqual(self.scanner.false_cnt, 0)
-        # One rule-less finding is attributed to each category on its matched row.
-        self.assertEqual(self.scanner._test_counted, [("Password", True), ("Token", True)])
+        self.assertEqual(self.scanner._test_counted, [])
+        self.assertEqual(self.scanner.lost_cnt, 1)
+        self.assertEqual(self.scanner.result_cnt, 1)
+        # A line-level finding must not be attributed to every category on the row.
+        self.assertEqual(self.scanner.meta[MetaKey(DATA_PATH, 10, 10)], [row])
 
     def test_ruleless_detection_without_metadata_returns_not_in_db(self):
         self.scanner.meta = {}
-        with patch.object(scanner_module, "MetaRow", side_effect=AssertionError(
-                "MetaRow should not be constructed unless fix mode needs to write a row")):
-            status, _, _ = self.scanner.check_line_from_meta(FILE_PATH, 10, 10)
+
+        status, _, _ = self.scanner.check_line_from_meta(FILE_PATH, 10, 10)
 
         self.assertEqual(status, LineStatus.NOT_IN_DB)
         self.assertEqual(self.scanner.lost_cnt, 1)
         self.assertEqual(self.scanner.result_cnt, 1)
+        self.assertEqual(self.scanner.true_cnt, 0)
+        self.assertEqual(self.scanner.false_cnt, 0)
         self.assertEqual(self.scanner.meta, {})
 
     def test_duplicate_ruleless_findings_do_not_inflate_counts(self):
         first_status, _, _ = self.scanner.check_line_from_meta(FILE_PATH, 10, 10)
         second_status, _, _ = self.scanner.check_line_from_meta(FILE_PATH, 10, 10)
 
-        self.assertEqual(first_status, LineStatus.FALSE)
+        self.assertEqual(first_status, LineStatus.NOT_IN_DB)
         self.assertEqual(second_status, LineStatus.CHECKED)
         self.assertEqual(self.scanner.result_cnt, 1)
-        self.assertEqual(self.scanner.true_cnt, 1)
-        self.assertEqual(self.scanner._test_counted, [("Password", True)])
+        self.assertEqual(self.scanner.lost_cnt, 1)
+        self.assertEqual(self.scanner.true_cnt, 0)
+        self.assertEqual(self.scanner.false_cnt, 0)
+        self.assertEqual(self.scanner._test_counted, [])
 
     def test_existing_rule_based_matching_is_unchanged(self):
         status, repo_name, file_id = self.scanner.check_line_from_meta(
@@ -143,27 +144,41 @@ class RulelessScannerTests(unittest.TestCase):
         self.assertEqual(self.scanner.true_cnt, 1)
         self.assertEqual(self.scanner._test_counted, [("Password", True)])
 
-    def test_ruleless_fix_mode_uses_nonempty_fallback_category(self):
+    def test_ruleless_fix_mode_queues_unseen_line_as_other(self):
         root = Path(self.temp_dir.name)
         meta_dir = root / "meta"
         meta_dir.mkdir(parents=True, exist_ok=True)
-        (meta_dir / "repo.csv").write_text("", encoding="utf-8")
+        meta_file = meta_dir / "repo.csv"
+        meta_file.write_text("", encoding="utf-8")
         scanner = _make_scanner(root, rows=None, fix=True)
 
-        class _FakeMetaRow:
-            def __init__(self, values):
-                if not values.get("Category"):
-                    raise ValueError("Category must not be empty")
-                self.__dict__.update(values)
-
-        with patch.object(scanner_module, "MetaRow", _FakeMetaRow):
-            status, _, _ = scanner.check_line_from_meta(FILE_PATH, 10, 10)
+        status, _, _ = scanner.check_line_from_meta(FILE_PATH, 10, 10)
 
         self.assertEqual(status, LineStatus.NOT_IN_DB)
-        self.assertEqual(scanner.meta[MetaKey(DATA_PATH, 10, 10)][0].Category, OTHER_CATEGORY)
-        saved_metadata = (meta_dir / "repo.csv").read_text(encoding="utf-8")
-        self.assertIn(f",,,{OTHER_CATEGORY}", saved_metadata)
-        self.assertNotIn(",,,\n", saved_metadata)
+        row = scanner.meta[MetaKey(DATA_PATH, 10, 10)][0]
+        self.assertEqual(row.Category, OTHER_CATEGORY)
+        self.assertEqual(row.GroundTruth, "X")
+        saved_metadata = meta_file.read_text(encoding="utf-8").strip()
+        self.assertTrue(saved_metadata)
+        self.assertEqual(saved_metadata.split(",")[7], "X")
+        self.assertEqual(saved_metadata.split(",")[12], OTHER_CATEGORY)
+
+    def test_ruleless_fix_mode_does_not_modify_existing_metadata(self):
+        root = Path(self.temp_dir.name)
+        meta_dir = root / "meta"
+        meta_dir.mkdir(parents=True, exist_ok=True)
+        meta_file = meta_dir / "repo.csv"
+        original = "existing metadata\n"
+        meta_file.write_text(original, encoding="utf-8")
+        row = _make_row(category="Password:Token", ground_truth=LABEL_TRUE)
+        scanner = _make_scanner(root, rows=[row], fix=True)
+
+        status, _, _ = scanner.check_line_from_meta(FILE_PATH, 10, 10)
+
+        self.assertEqual(status, LineStatus.NOT_IN_DB)
+        self.assertEqual(meta_file.read_text(encoding="utf-8"), original)
+        self.assertEqual(scanner.meta[MetaKey(DATA_PATH, 10, 10)], [row])
+        self.assertEqual(scanner._test_counted, [])
 
 
 if __name__ == "__main__":
