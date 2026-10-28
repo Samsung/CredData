@@ -396,7 +396,7 @@ class Scanner(ABC):
                 if self.fix and lost_meta is not None:
                     subprocess.check_call(
                         ["sed", "-i",
-                         rf"s|{row.Id},\\(.*\\)|{row.Id},\\1:{rule}|",
+                         rf"s|{row.Id},\(.*\)|{row.Id},\1:{rule}|",
                          f"{self.cred_data_dir}/meta/{row.RepoName}.csv"])
                     self.meta[meta_key].append(lost_meta)
                     lost_meta = None
