@@ -309,8 +309,19 @@ class Scanner(ABC):
             print(f"NOT FOUND WITH KEY: {approximate}"
                   f"\n{Scanner.get_colored_line(file_path, line_start, line_end, value_start, value_end)}", flush=True)
             if self.fix:
-                with open(f"{self.cred_data_dir}/meta/{repo_name}.csv", "a") as f:
-                    f.write(f"{str(approximate)}\n")
+                csv_file = f"{self.cred_data_dir}/meta/{repo_name}.csv"
+                try:
+                    with open(csv_file, "r+") as f:
+                        if not '\n' == f.read()[-1]:
+                            # no new line at file end fix
+                            f.write('\n')
+                        f.write(f"{str(approximate)}\n")
+                except FileNotFoundError:
+                    # absent markup file - write the header first
+                    with open(csv_file, "w") as f:
+                        f.write("Id,FileID,Domain,RepoName,FilePath,LineStart,LineEnd,GroundTruth,ValueStart,ValueEnd"
+                                ",CryptographyKey,PredefinedPattern,Category\n")
+                        f.write(f"{str(approximate)}\n")
                 self.meta[MetaKey(data_path, line_start, line_end)] = [lost_meta]
             self.meta_next_id += 1
             return LineStatus.NOT_IN_DB, repo_name, file_id
